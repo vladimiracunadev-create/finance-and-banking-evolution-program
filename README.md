@@ -1,53 +1,197 @@
+<div align="center">
+
 # Finance & Banking Evolution Program
 
-Programa abierto de formación en finanzas y banca que recorre, clase a clase, el camino desde el
-manejo de un porcentaje hasta la dirección de un banco.
+**De no saber calcular un porcentaje a dirigir un banco.**
+Programa abierto de 240 clases con bibliografía oficial verificable en cada una.
 
 [![Validate program](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/validate.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/validate.yml)
-[![Licencia](https://img.shields.io/badge/licencia-MIT-black)](LICENSE)
-[![Estado](https://img.shields.io/badge/avance-ver%20STATUS.md-blue)](STATUS.md)
+[![Clases](https://img.shields.io/badge/clases-240%20%2F%20240-2ea44f)](STATUS.md)
+[![Partes](https://img.shields.io/badge/partes-16-1f6feb)](SYLLABUS.md)
+[![Horas](https://img.shields.io/badge/horas-360-8957e5)](SYLLABUS.md)
+[![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
+[![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](#)
 
-> Cada clase incluye desarrollo conceptual, un ejemplo numérico resuelto paso a paso, el puente entre
-> la decisión personal y la práctica bancaria, errores frecuentes, preguntas de comprobación y
-> **bibliografía oficial verificable**.
+[**Empezar**](#-empezar-en-5-minutos) ·
+[**Programa**](SYLLABUS.md) ·
+[**Estado**](STATUS.md) ·
+[**Ruta**](docs/ruta-aprendizaje.md) ·
+[**Glosario**](docs/glosario.md) ·
+[**Fuentes**](docs/fuentes.md)
+
+</div>
 
 ---
 
 ## Qué es esto
 
-Un currículo completo de 16 partes y 240 clases de 90 minutos, diseñado para que una misma persona
-avance sin saltos desde no saber calcular un interés hasta poder sentarse en un comité de crédito.
+Un currículo completo de finanzas y banca —**16 partes, 240 clases de 90 minutos,
+360 horas**— diseñado para que una misma persona avance sin saltos desde no saber
+calcular un interés hasta poder sentarse en un comité de riesgos.
 
-No es una colección de apuntes. Cada clase sigue una estructura fija verificada por integración
-continua, y cada afirmación técnica está respaldada por fuentes consultables: manuales universitarios
-de referencia, normas contables NIIF, documentos del Comité de Basilea, y marcos de la OCDE, el FMI,
-el Banco Mundial, el GAFI y los organismos de estándares del sector.
+No es una colección de apuntes. Cada clase sigue una **estructura fija verificada por
+integración continua**, resuelve un caso numérico paso a paso y cierra con
+bibliografía consultable: manuales universitarios de referencia, normas NIIF,
+documentos del Comité de Basilea y marcos de OCDE, FMI, Banco Mundial, GAFI, FSB,
+IOSCO, CPMI y NIST.
 
-**Estado actual del contenido: [STATUS.md](STATUS.md)**, generado automáticamente desde los archivos
-del repositorio. Nunca declara más de lo que existe.
+> **Estado del contenido:** [STATUS.md](STATUS.md) se genera automáticamente desde los
+> archivos del repositorio. La documentación nunca declara más de lo que existe.
 
-## Para quién
+<table>
+<tr>
+<td width="25%" align="center"><b>240</b><br>clases completas</td>
+<td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
+<td width="25%" align="center"><b>96</b><br>laboratorios</td>
+<td width="25%" align="center"><b>16</b><br>proyectos integradores</td>
+</tr>
+</table>
 
-| Perfil | Punto de entrada | Qué obtiene |
+---
+
+## 🚀 Empezar en 5 minutos
+
+```bash
+git clone https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program.git
+```
+
+```bash
+cd finance-and-banking-evolution-program && pip install -r requirements.txt
+```
+
+```bash
+python tools/validate_program.py
+```
+
+Abre la **[Parte 1, clase 1](modules/00-matematica-financiera-basica/classes/01-diagnostico-y-operaciones-esenciales.md)**
+y empieza. No necesitas nada más.
+
+<details>
+<summary><b>Herramientas incluidas</b> — calculadoras, scoring y banco simulado</summary>
+
+<br>
+
+```bash
+python apps/financial_calculators/cli.py compound --principal 100000 --rate 0.08 --years 5
+```
+
+```bash
+python apps/openbank_simulator/cli.py demo
+```
+
+```bash
+python apps/credit_scoring/demo.py
+```
+
+| Aplicación | Qué hace | Se usa en |
 |---|---|---|
-| Sin conocimientos previos | Parte 1, clase 1 | Base matemática y control de sus finanzas |
-| Persona que quiere ordenar su dinero | Partes 1 a 4 | Presupuesto, deuda, seguridad y derechos |
-| Estudiante de finanzas o contabilidad | Partes 5 a 8 | Contabilidad, economía, valoración e inversión |
-| Analista financiero | Partes 7 a 9 y 13 | Modelamiento, crédito y finanzas corporativas |
-| Profesional bancario | Partes 9 a 12 | Crédito, operaciones, riesgos y cumplimiento |
-| Dirección y gestión | Partes 14 a 16 | Fintech, estrategia y el banco virtual completo |
+| `financial_calculators` | Interés compuesto, anualidades, amortización, VPN, TIR | Partes 1, 7 y 13 |
+| `credit_scoring` | Modelo de scoring con métricas de discriminación | Partes 9 y 14 |
+| `openbank_simulator` | Banco con cuentas y movimientos sobre SQLite | Partes 10 y 16 |
 
-## Cómo está construida cada clase
+</details>
+
+---
+
+## 👤 Para quién
+
+<table>
+<thead>
+<tr><th>Perfil</th><th>Entra por</th><th>Qué obtiene</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Sin conocimientos previos</b></td><td>Parte 1, clase 1</td><td>Base matemática y control de sus finanzas</td></tr>
+<tr><td><b>Quiere ordenar su dinero</b></td><td>Partes 1 – 4</td><td>Presupuesto, deuda, seguridad y derechos</td></tr>
+<tr><td><b>Estudiante de finanzas</b></td><td>Partes 5 – 8</td><td>Contabilidad, economía, valoración e inversión</td></tr>
+<tr><td><b>Analista financiero</b></td><td>Partes 7 – 9 y 13</td><td>Modelamiento, crédito y finanzas corporativas</td></tr>
+<tr><td><b>Profesional bancario</b></td><td>Partes 9 – 12</td><td>Crédito, operaciones, riesgos y cumplimiento</td></tr>
+<tr><td><b>Dirección y gestión</b></td><td>Partes 13 – 16</td><td>Empresa, fintech, estrategia y banco virtual</td></tr>
+<tr><td><b>Docente</b></td><td><a href="docs/guia-docente.md">Guía docente</a></td><td>Agenda de 90 min y rúbricas por clase</td></tr>
+</tbody>
+</table>
+
+---
+
+## 🗺️ Cómo progresa el programa
+
+```mermaid
+flowchart LR
+  subgraph F["Fundamentos · Partes 1-4"]
+    A["Matemática<br/>financiera"] --> B["Finanzas<br/>personales"]
+    B --> C["Productos<br/>y servicios"]
+    C --> D["Seguridad<br/>y consumo"]
+  end
+  subgraph AN["Analista · Partes 5-8"]
+    E["Contabilidad"] --> G["Economía y<br/>sistema financiero"]
+    G --> H["Matemática<br/>avanzada"]
+    H --> I["Inversiones<br/>y mercados"]
+  end
+  subgraph BA["Bancario · Partes 9-12"]
+    J["Crédito"] --> K["Operaciones"]
+    K --> L["Riesgos"]
+    L --> M["Regulación y<br/>cumplimiento"]
+  end
+  subgraph DI["Dirección · Partes 13-16"]
+    N["Finanzas<br/>corporativas"] --> O["Fintech,<br/>datos e IA"]
+    O --> P["Estrategia<br/>y dirección"]
+    P --> Q["Proyecto<br/>Banco Virtual"]
+  end
+  D --> E
+  I --> J
+  M --> N
+```
+
+<div align="center">
+
+| Etapa | Partes | Clases | Nivel de salida |
+|---|:---:|:---:|---|
+| 🟢 **Fundamentos** | 1 – 4 | 56 | Controla su dinero y entiende los productos |
+| 🔵 **Analista** | 5 – 8 | 60 | Lee estados financieros y valora activos |
+| 🟣 **Bancario** | 9 – 12 | 64 | Evalúa crédito, mide riesgo y aplica la norma |
+| 🟠 **Dirección** | 13 – 16 | 60 | Dirige un banco completo y lo defiende |
+
+</div>
+
+---
+
+## 📚 Las 16 partes
+
+| # | Parte | Clases | Contenido central |
+|---:|---|---:|---|
+| 1 | [Matemática financiera básica](modules/00-matematica-financiera-basica/README.md) | 14 | Porcentajes, interés simple y compuesto, anualidades, amortización |
+| 2 | [Finanzas personales](modules/01-finanzas-personales/README.md) | 14 | Presupuesto, ahorro, deuda, fondo de emergencia, previsión |
+| 3 | [Productos y servicios financieros](modules/02-productos-y-servicios-financieros/README.md) | 14 | Cuentas, tarjetas, créditos, hipotecario, seguros |
+| 4 | [Seguridad y consumo financiero](modules/03-seguridad-y-consumo-financiero/README.md) | 14 | Fraude, autenticación, derechos, reclamos, sobreendeudamiento |
+| 5 | [Contabilidad financiera](modules/04-contabilidad-financiera/README.md) | 15 | Partida doble, estados financieros, NIIF, análisis |
+| 6 | [Economía y sistema financiero](modules/05-economia-y-sistema-financiero/README.md) | 15 | Inflación, política monetaria, banca central, ciclos, crisis |
+| 7 | [Matemática financiera avanzada](modules/06-matematica-financiera-avanzada/README.md) | 15 | Duración, convexidad, curvas, Monte Carlo, opciones |
+| 8 | [Inversiones y mercados](modules/07-inversiones-y-mercados/README.md) | 15 | Renta fija y variable, carteras, fondos, derivados |
+| 9 | [Análisis y gestión de crédito](modules/08-analisis-y-gestion-de-credito/README.md) | 16 | PD, LGD, EAD, scoring, IFRS 9, garantías, recuperación |
+| 10 | [Operaciones bancarias](modules/09-operaciones-bancarias/README.md) | 16 | Captación, pagos, compensación, tesorería, comercio exterior |
+| 11 | [Gestión integral de riesgos](modules/10-gestion-integral-de-riesgos/README.md) | 16 | Crédito, liquidez, mercado, operacional, modelo, estrés, capital |
+| 12 | [Regulación, cumplimiento y auditoría](modules/11-regulacion-cumplimiento-y-auditoria/README.md) | 16 | Basilea, lavado, sanciones, conducta, resolución, auditoría |
+| 13 | [Finanzas corporativas y banca empresarial](modules/12-finanzas-corporativas-y-banca-empresarial/README.md) | 14 | Capital de trabajo, WACC, proyectos, valoración, M&A |
+| 14 | [Fintech, datos e IA](modules/13-fintech-datos-e-inteligencia-artificial/README.md) | 14 | Pagos, banca abierta, datos, IA, criptoactivos, sesgo |
+| 15 | [Estrategia y dirección bancaria](modules/14-estrategia-y-direccion-bancaria/README.md) | 14 | Modelo de negocio, precios, gobierno, cultura, crisis |
+| 16 | [Proyecto: Banco Virtual](modules/15-proyecto-banco-virtual/README.md) | 18 | Construir, operar, estresar y defender un banco completo |
+
+📖 **[Índice completo de las 240 clases →](SYLLABUS.md)**
+
+---
+
+## 🧩 Anatomía de una clase
+
+Todas las clases comparten la misma estructura. La validación de CI la exige.
 
 ```text
 🎯 Propósito              por qué existe la clase y qué problema resuelve
 📚 Objetivos              cinco resultados verificables
    Agenda de 90 minutos   guía docente, generada automáticamente
-🧩 Conceptos centrales    tabla de término y comprensión verificable
+🧩 Conceptos centrales    término y comprensión verificable
 🧠 Modelo mental          la idea que ordena todo lo demás
-📖 Desarrollo             el contenido, con fórmulas, tablas y casos
-🧮 Ejemplo guiado         un caso numérico resuelto paso a paso, con su interpretación
-🏦 Del cliente al banco   el mismo concepto visto desde ambos lados del mostrador
+📖 Desarrollo             fórmulas, tablas, casos y advertencias
+🧮 Ejemplo guiado         caso numérico resuelto paso a paso, con su interpretación
+🏦 Del cliente al banco   el mismo concepto desde ambos lados del mostrador
 🧪 Práctica               qué hacer en el laboratorio de la parte
 ⚠️ Errores frecuentes     síntoma, causa probable y corrección
 ❓ Preguntas              cinco preguntas de comprobación
@@ -56,123 +200,137 @@ del repositorio. Nunca declara más de lo que existe.
 📗 Fuentes                bibliografía oficial, mínimo cuatro por clase
 ```
 
-El **puente «del cliente al banco»** es lo que hace que el programa sirva a los dos extremos del
-recorrido: la misma clase que enseña a una persona a leer su estado de cuenta explica al futuro
-bancario cómo se decide ese cobro y qué norma lo regula.
+> ### 🏦 El puente «del cliente al banco»
+>
+> Es lo que permite que el programa sirva a los dos extremos del recorrido: **la misma
+> clase que enseña a una persona a leer su estado de cuenta explica al futuro bancario
+> cómo se decide ese cobro y qué norma lo regula.**
 
-## Estructura del programa
+<details>
+<summary><b>Ver una clase de ejemplo</b></summary>
 
-| # | Parte | Clases | Etapa |
-|---:|---|---:|---|
-| 1 | [Matemática financiera básica](modules/00-matematica-financiera-basica/README.md) | 14 | Fundamentos |
-| 2 | [Finanzas personales](modules/01-finanzas-personales/README.md) | 14 | Fundamentos |
-| 3 | [Productos y servicios financieros](modules/02-productos-y-servicios-financieros/README.md) | 14 | Fundamentos |
-| 4 | [Seguridad y consumo financiero](modules/03-seguridad-y-consumo-financiero/README.md) | 14 | Fundamentos |
-| 5 | [Contabilidad financiera](modules/04-contabilidad-financiera/README.md) | 15 | Analista |
-| 6 | [Economía y sistema financiero](modules/05-economia-y-sistema-financiero/README.md) | 15 | Analista |
-| 7 | [Matemática financiera avanzada](modules/06-matematica-financiera-avanzada/README.md) | 15 | Analista |
-| 8 | [Inversiones y mercados](modules/07-inversiones-y-mercados/README.md) | 15 | Analista |
-| 9 | [Análisis y gestión de crédito](modules/08-analisis-y-gestion-de-credito/README.md) | 16 | Bancario |
-| 10 | [Operaciones bancarias](modules/09-operaciones-bancarias/README.md) | 16 | Bancario |
-| 11 | [Gestión integral de riesgos](modules/10-gestion-integral-de-riesgos/README.md) | 16 | Bancario |
-| 12 | [Regulación, cumplimiento y auditoría](modules/11-regulacion-cumplimiento-y-auditoria/README.md) | 16 | Bancario |
-| 13 | [Finanzas corporativas y banca empresarial](modules/12-finanzas-corporativas-y-banca-empresarial/README.md) | 14 | Dirección |
-| 14 | [Fintech, datos e inteligencia artificial](modules/13-fintech-datos-e-inteligencia-artificial/README.md) | 14 | Dirección |
-| 15 | [Estrategia y dirección bancaria](modules/14-estrategia-y-direccion-bancaria/README.md) | 14 | Dirección |
-| 16 | [Proyecto: Banco Virtual](modules/15-proyecto-banco-virtual/README.md) | 18 | Integración |
+<br>
 
-Detalle completo en [SYLLABUS.md](SYLLABUS.md).
+| Nivel | Clase de muestra |
+|---|---|
+| 🟢 Fundamento | [Diagnóstico y operaciones esenciales](modules/00-matematica-financiera-basica/classes/01-diagnostico-y-operaciones-esenciales.md) |
+| 🔵 Intermedio | [Estado de situación financiera](modules/04-contabilidad-financiera/classes/10-estado-de-situacion-financiera.md) |
+| 🟣 Avanzado | [Riesgo de liquidez](modules/10-gestion-integral-de-riesgos/classes/04-riesgo-de-liquidez.md) |
+| 🟠 Profesional | [Prueba de estrés del banco](modules/15-proyecto-banco-virtual/classes/15-prueba-de-estres-del-banco.md) |
 
-## Inicio rápido
+</details>
 
-```bash
-git clone https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program.git
-```
+---
 
-```bash
-cd finance-and-banking-evolution-program && python -m venv .venv && pip install -r requirements.txt
-```
+## 🎓 Cómo estudiarlo
 
-```bash
-python tools/validate_program.py
-```
-
-Calculadoras financieras:
-
-```bash
-python apps/financial_calculators/cli.py compound --principal 100000 --rate 0.08 --years 5
-```
-
-Simulador de banco:
-
-```bash
-python apps/openbank_simulator/cli.py demo
-```
-
-## Cómo estudiarlo
+<table>
+<tr>
+<td width="60%">
 
 1. Lee el `README.md` de la parte para ubicarte.
-2. Recorre las clases en orden: cada una supone la anterior.
+2. Recorre las clases **en orden**: cada una supone la anterior.
 3. Resuelve el **ejemplo guiado** antes de leer su interpretación.
-4. Haz el laboratorio de la parte y guarda la evidencia en `portfolio/`.
-5. Responde las preguntas de comprobación sin volver al texto.
-6. Entrega el proyecto integrador de la parte.
+4. Haz el **laboratorio** de la parte y guarda la evidencia en `portfolio/`.
+5. Responde las **preguntas de comprobación** sin volver al texto.
+6. Entrega el **proyecto integrador** de la parte.
 
-Ritmos sugeridos: 6 h/semana durante 60 semanas · 8 h/semana durante 45 · 12 h/semana durante 30.
+</td>
+<td width="40%">
 
-## Verificación
+**Ritmos sugeridos**
 
-Todo el repositorio se valida en cada cambio:
+| Dedicación | Duración |
+|---|---|
+| 6 h/semana | 60 semanas |
+| 8 h/semana | 45 semanas |
+| 12 h/semana | 30 semanas |
+
+</td>
+</tr>
+</table>
+
+📄 Más detalle en **[docs/ruta-aprendizaje.md](docs/ruta-aprendizaje.md)** y
+**[docs/mapa-competencias.md](docs/mapa-competencias.md)**.
+
+---
+
+## 📗 Fuentes
+
+El contenido se apoya en bibliografía verificable. Entre las obras y marcos citados de
+forma recurrente:
+
+| Ámbito | Referencias principales |
+|---|---|
+| **Finanzas corporativas** | Brealey · Myers · Allen · Ross · Westerfield · Jaffe · Damodaran · Koller |
+| **Matemática financiera** | Kellison · Broverman · Blank & Tarquin |
+| **Contabilidad** | Marco Conceptual y normas NIIF/NIC · Kieso · Penman · Palepu |
+| **Economía y banca central** | Mankiw · Blanchard · Mishkin · Krugman & Obstfeld |
+| **Inversiones** | Bodie · Kane · Marcus · Fabozzi · Markowitz · Sharpe · Malkiel · Bogle |
+| **Banca y riesgo** | Saunders & Cornett · Rose & Hudgins · Caouette & Altman · Anderson · Siddiqi · Hull |
+| **Marcos institucionales** | BCBS (BIS) · FSB · IOSCO · CPMI · GAFI · OCDE · FMI · Banco Mundial · NIST · COSO · IFRS |
+
+Cada clase cierra con sus propias referencias y con una línea de **verificación local**:
+los datos normativos, tasas y límites cambian por país y por fecha, y el programa indica
+siempre qué debe comprobarse en la fuente oficial vigente.
+
+📄 Bibliografía consolidada en **[docs/fuentes.md](docs/fuentes.md)**.
+
+---
+
+## ✅ Verificación
+
+Todo el repositorio se valida en cada cambio. La insignia de arriba refleja el resultado.
+
+| Comprobación | Qué garantiza |
+|---|---|
+| `tools/validate_program.py` | Estructura, 11 secciones obligatorias y ≥ 4 fuentes por clase |
+| `tools/render_program.py --check` | Navegación, agenda y bloques generados al día |
+| `tools/build_syllabus.py --check` | El índice de 240 clases coincide con los archivos |
+| `tools/progress.py --check` | `STATUS.md` refleja el estado real |
+| `tools/check_links.py` | Los ~2 000 enlaces relativos resuelven |
+| `pytest -q` | Calculadoras, scoring y banco virtual |
 
 ```bash
-python tools/validate_program.py
+python tools/validate_program.py && python tools/check_links.py && pytest -q
 ```
 
-```bash
-python tools/render_program.py --check
-```
+---
 
-```bash
-python tools/progress.py --check
-```
+## ⚖️ Alcance y límites
 
-```bash
-python tools/check_links.py
-```
+> Este material es **formativo**. No constituye asesoría financiera, tributaria ni legal;
+> no reemplaza títulos, certificaciones ni autorizaciones regulatorias; y todos los
+> nombres, cifras y casos son educativos salvo indicación expresa. Los contenidos
+> normativos se presentan de forma general: **cada país y cada fecha exigen su propia
+> verificación.**
 
-```bash
-pytest -q
-```
+📄 Detalle en **[docs/etica-y-limitaciones.md](docs/etica-y-limitaciones.md)**.
 
-## Fuentes
+---
 
-El contenido se apoya en bibliografía verificable. Entre las obras y marcos citados de forma
-recurrente:
+## 🤝 Contribuir
 
-- **Finanzas corporativas y valoración:** Brealey, Myers & Allen; Ross, Westerfield & Jaffe; Damodaran; Koller, Goedhart & Wessels
-- **Matemática financiera:** Kellison; Broverman; Blank & Tarquin
-- **Contabilidad:** Marco Conceptual y normas NIIF/NIC; Kieso, Weygandt & Warfield; Penman; Palepu, Healy & Peek
-- **Economía y banca central:** Mankiw; Blanchard; Mishkin; Krugman, Obstfeld & Melitz
-- **Inversiones:** Bodie, Kane & Marcus; Fabozzi; Markowitz; Sharpe; Malkiel; Bogle
-- **Banca y riesgo:** Saunders & Cornett; Rose & Hudgins; Caouette & Altman; Anderson; Siddiqi; Hull
-- **Marcos institucionales:** Comité de Basilea (BIS), FSB, IOSCO, CPMI, GAFI/FATF, OCDE, FMI, Banco Mundial, NIST, COSO, IFRS Foundation
+Las contribuciones son bienvenidas: correcciones, fuentes adicionales, adaptaciones por
+país y traducciones. Revisa **[CONTRIBUTING.md](CONTRIBUTING.md)** y verifica que la
+validación pase antes de abrir una propuesta.
 
-Cada clase cierra con sus propias referencias y con una línea de **verificación local**: los datos
-normativos, tasas y límites cambian por país y por fecha, y el programa indica siempre qué debe
-comprobarse en la fuente oficial vigente.
+- 🐛 **Errores de contenido** — abre un *issue* citando la clase y la fuente correcta.
+- 📚 **Fuentes** — se aceptan solo referencias consultables y verificables.
+- 🌎 **Adaptación local** — ver la sección de ediciones en [ROADMAP.md](ROADMAP.md).
+- 🔐 **Seguridad** — ver [SECURITY.md](SECURITY.md).
 
-## Alcance y límites
+Este proyecto se rige por su **[Código de Conducta](CODE_OF_CONDUCT.md)**.
 
-Este material es **formativo**. No constituye asesoría financiera, tributaria ni legal, no reemplaza
-títulos, certificaciones ni autorizaciones regulatorias, y todos los nombres, cifras y casos son
-educativos salvo indicación expresa. Los contenidos normativos se presentan de forma general: **cada
-país y cada fecha exigen su propia verificación**.
+---
 
-## Contribuir
+## 📄 Licencia
 
-Las contribuciones son bienvenidas. Revisa [CONTRIBUTING.md](CONTRIBUTING.md) y verifica que
-`tools/validate_program.py` y `pytest -q` pasen antes de abrir una propuesta.
+**[MIT](LICENSE)** · El código y los materiales originales son de uso libre citando la
+fuente. Las obras y normas citadas pertenecen a sus autores y organismos emisores.
 
-## Licencia
+<div align="center">
 
-[MIT](LICENSE). El código y los materiales originales son de uso libre citando la fuente.
+**[⬆ Volver arriba](#finance--banking-evolution-program)**
+
+</div>
