@@ -1,0 +1,98 @@
+name: Publicacion
+
+# Al etiquetar una version (vX.Y.Z) publica el programa como un paquete
+# descargable: el material completo, su indice, sus sumas de verificacion y
+# el inventario de dependencias (SBOM).
+#
+# El objetivo es que alguien pueda estudiar el programa sin conexion y pueda
+# comprobar que lo que descargo es lo que se publico.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  empaquetar:
+    name: Empaquetar y publicar
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt cyclonedx-bom
+
+      - name: Verificar el programa antes de publicar
+        run: |
+          python tools/validate_program.py
+          python tools/render_program.py --check
+          python tools/build_syllabus.py --check
+          python tools/progress.py --check
+          python tools/check_links.py
+          pytest -q
+
+      - name: Construir el paquete del programa
+        run: |
+          mkdir -p dist
+          zip -q -r "dist/programa-completo.zip" \
+            modules docs apps datasets tools tests \
+            README.md SYLLABUS.md STATUS.md MANIFEST.md CHANGELOG.md \
+            ROADMAP.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md \
+            LICENSE VERSION requirements.txt \
+            -x "*/__pycache__/*" "*.pyc"
+          zip -q -r "dist/solo-clases.zip" modules SYLLABUS.md \
+            -x "*/__pycache__/*" "*.pyc"
+
+      - name: Generar inventario de dependencias
+        run: cyclonedx-py environment -o dist/sbom.json
+
+      - name: Calcular sumas de verificacion
+        run: |
+          cd dist
+          sha256sum ./*.zip ./sbom.json > SHA256SUMS.txt
+          cat SHA256SUMS.txt
+
+      - name: Preparar notas de la publicacion
+        run: |
+          {
+            echo "## Programa completo"
+            echo ""
+            python tools/validate_program.py
+            echo ""
+            echo "### Contenido de la descarga"
+            echo ""
+            echo "| Archivo | Contenido |"
+            echo "|---|---|"
+            echo "| \`programa-completo.zip\` | Clases, documentacion, herramientas, aplicaciones y datos |"
+            echo "| \`solo-clases.zip\` | Solo las 240 clases y su indice |"
+            echo "| \`sbom.json\` | Inventario de dependencias en formato CycloneDX |"
+            echo "| \`SHA256SUMS.txt\` | Sumas de verificacion |"
+            echo ""
+            echo "Verifica la descarga con \`sha256sum -c SHA256SUMS.txt\`."
+            echo ""
+            echo "Ver [CHANGELOG.md](CHANGELOG.md) para el detalle de los cambios."
+          } > notas.md
+
+      - name: Publicar
+        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
+        with:
+          body_path: notas.md
+          files: |
+            dist/programa-completo.zip
+            dist/solo-clases.zip
+            dist/sbom.json
+            dist/SHA256SUMS.txt

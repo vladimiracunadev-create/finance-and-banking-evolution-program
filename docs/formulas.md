@@ -3,7 +3,7 @@
 Las fórmulas que el programa usa, con su significado y su trampa habitual. Cada una
 indica la parte donde se desarrolla.
 
-> ### ⚠️ La regla que evita la mitad de los errores
+> **⚠️ La regla que evita la mitad de los errores**
 >
 > **Convierte siempre la tasa a la misma periodicidad de los flujos**, y **verifica la
 > escala antes de sumar o multiplicar**. Las clases del programa incluyen esa
@@ -118,7 +118,7 @@ indica la parte donde se desarrolla.
 |---|---|
 | Valor en riesgo (paramétrico) | `VaR = z × σ × √h × V` |
 | Escalamiento temporal | `VaR_h = VaR_1 × √h` |
-| Déficit esperado | `ES = E[pérdida | pérdida > VaR]` |
+| Déficit esperado | `ES = E[pérdida \| pérdida > VaR]` |
 | Volatilidad de cartera | `σp = √(Σ Σ σᵢ σⱼ ρᵢⱼ)` |
 | Sensibilidad del margen | `Δmargen ≈ Σ brecha_t × Δi × (días/365)` |
 | Sensibilidad del valor económico | `ΔVEP ≈ −brecha de duración × Δi × activos` |

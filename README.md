@@ -5,13 +5,19 @@
 **De no saber calcular un porcentaje a dirigir un banco.**
 Programa abierto de 240 clases con bibliografía oficial verificable en cada una.
 
-[![Validate program](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/validate.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/validate.yml)
+[![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
+[![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
+[![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
+[![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
+
 [![Clases](https://img.shields.io/badge/clases-240%20%2F%20240-2ea44f)](STATUS.md)
 [![Partes](https://img.shields.io/badge/partes-16-1f6feb)](SYLLABUS.md)
 [![Horas](https://img.shields.io/badge/horas-360-8957e5)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-1.0.0-0969da)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
-[![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](#)
+[![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](SYLLABUS.md)
 
+[**📖 Portal de estudio**](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) ·
 [**Empezar**](#-empezar-en-5-minutos) ·
 [**Programa**](SYLLABUS.md) ·
 [**Estado**](STATUS.md) ·
@@ -50,6 +56,12 @@ IOSCO, CPMI y NIST.
 ---
 
 ## 🚀 Empezar en 5 minutos
+
+**¿Solo quieres leerlo?**
+Abre el **[portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)**:
+las 240 clases navegables, con diagramas renderizados y sin instalar nada.
+
+**¿Quieres los ejercicios y las herramientas?**
 
 ```bash
 git clone https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program.git
@@ -280,7 +292,9 @@ siempre qué debe comprobarse en la fuente oficial vigente.
 
 ## ✅ Verificación
 
-Todo el repositorio se valida en cada cambio. La insignia de arriba refleja el resultado.
+Todo el repositorio se valida en cada cambio. Las insignias de arriba reflejan el resultado.
+
+### Herramientas
 
 | Comprobación | Qué garantiza |
 |---|---|
@@ -288,12 +302,31 @@ Todo el repositorio se valida en cada cambio. La insignia de arriba refleja el r
 | `tools/render_program.py --check` | Navegación, agenda y bloques generados al día |
 | `tools/build_syllabus.py --check` | El índice de 240 clases coincide con los archivos |
 | `tools/progress.py --check` | `STATUS.md` refleja el estado real |
-| `tools/check_links.py` | Los ~2 000 enlaces relativos resuelven |
+| `tools/check_links.py` | Los ~2 350 enlaces relativos resuelven |
+| `tools/build_site.py --check` | El portal se genera y sus enlaces resuelven |
 | `pytest -q` | Calculadoras, scoring y banco virtual |
 
 ```bash
 python tools/validate_program.py && python tools/check_links.py && pytest -q
 ```
+
+### Flujos de integración continua
+
+| Flujo | Qué hace | Cuándo |
+|---|---|---|
+| **CI** | Estructura, documentos generados, enlaces internos, estilo de Markdown, pruebas en 3 sistemas × 3 versiones de Python y auditoría de los propios workflows | Cada cambio |
+| **Seguridad** | `pip-audit`, `bandit` y escaneo de secretos sobre el historial | Cada cambio y cada lunes |
+| **CodeQL** | Análisis semántico del código Python | Cada cambio y cada jueves |
+| **Portal de estudio** | Genera y publica el sitio, y verifica que responda | Al cambiar el contenido |
+| **Enlaces externos** | Revisa los enlaces a fuentes oficiales y abre un issue si alguno cae | Cada lunes |
+| **Publicación** | Empaqueta el programa con SBOM y sumas de verificación | Al etiquetar una versión |
+
+Los definen los archivos de
+[`.github/workflows/`](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/tree/main/.github/workflows).
+
+Las acciones de terceros están **fijadas por SHA de commit**, los permisos son los
+mínimos necesarios, ningún checkout persiste credenciales y `actionlint` + `zizmor`
+auditan los propios flujos.
 
 ---
 

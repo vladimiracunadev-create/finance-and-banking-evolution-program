@@ -1,0 +1,19 @@
+# Enlaces que la revision automatica no debe marcar como rotos.
+#
+# Cada entrada tiene su razon: si no la tiene, no debe estar aqui.
+
+# Ancla de navegacion del README, no es un destino externo.
+^#
+
+# Insignias dinamicas: responden 302 o 404 segun el estado del flujo,
+# y su destino real es el propio repositorio.
+^https://img\.shields\.io/
+
+# Sitios que bloquean sistematicamente a los agentes automaticos, aun
+# respondiendo con normalidad en un navegador.
+^https://www\.oecd\.org/
+^https://www\.imf\.org/
+^https://www\.worldbank\.org/
+^https://www\.federalreserve\.gov/
+^https://www\.consumerfinance\.gov/
+^https://www\.fca\.org\.uk/

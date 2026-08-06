@@ -1,0 +1,51 @@
+// Estilo de Markdown del repositorio.
+//
+// El criterio es que la regla detecte errores REALES de un material educativo
+// y no imponga un estilo que el contenido no necesita. Las reglas desactivadas
+// lo estan por una razon concreta, escrita al lado.
+{
+  "config": {
+    "default": true,
+
+    // El contenido usa lineas de hasta ~100 caracteres por legibilidad del diff,
+    // y las tablas y bloques de codigo las superan por necesidad.
+    "MD013": false,
+
+    // README y docs usan tablas y bloques HTML para la presentacion visual.
+    "MD033": false,
+
+    // Las clases repiten titulos de seccion entre partes distintas; dentro de
+    // una misma clase no puede haber dos secciones hermanas con el mismo titulo.
+    "MD024": { "siblings_only": true },
+
+    // Las clases empiezan con encabezado YAML y un bloque generado antes del
+    // titulo, por diseno del renderizador.
+    "MD041": false,
+
+    // Los bloques de las clases usan negrita como enfasis del paso, no como
+    // encabezado; convertirlos en encabezados romperia el indice de la clase.
+    "MD036": false,
+
+    // Los diagramas y tablas de texto usan sangria dentro de bloques cercados.
+    "MD046": { "style": "fenced" },
+
+    // Listas anidadas con sangria de 2 espacios.
+    "MD007": { "indent": 2 },
+
+    // El encabezado YAML de cada clase incluye "title:"; sin este ajuste la
+    // regla lo cuenta como H1 y marca el titulo real como un segundo H1.
+    "MD025": { "front_matter_title": "" },
+
+    // El repositorio usa filas delimitadoras compactas (|---:|---|) para que
+    // las tablas de 240 clases quepan en 100 columnas. Es coherente en todo
+    // el material; la regla exigiria repaginar cada tabla sin ganancia real.
+    "MD060": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": [
+    "node_modules/**",
+    ".venv/**",
+    "site/**",
+    ".pytest_cache/**"
+  ]
+}

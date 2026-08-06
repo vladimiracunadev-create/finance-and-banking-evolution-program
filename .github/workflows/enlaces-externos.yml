@@ -1,0 +1,83 @@
+name: Enlaces externos
+
+# Un programa de estudio se degrada por enlaces rotos: las fuentes oficiales
+# cambian de URL y el material queda citando el vacio sin que nadie lo note.
+# Este workflow revisa los mas de 200 enlaces externos del repositorio, casi
+# todos a documentos del BIS, el FSB, el GAFI, la IFRS Foundation y organismos
+# equivalentes.
+#
+# Es INFORMATIVO a proposito: que un servidor externo este caido un lunes no
+# puede romper la CI de un cambio de contenido. Cuando encuentra enlaces rotos
+# abre (o actualiza) un issue con la lista.
+#
+# Los enlaces INTERNOS se verifican en ci.yml y si son bloqueantes.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/fuentes.md"
+      - ".github/workflows/enlaces-externos.yml"
+      - ".lycheeignore"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  externos:
+    name: Revisar enlaces externos
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Revisar enlaces
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 8
+            --timeout 30
+            --max-retries 2
+            --accept 200,206,403,429
+            --exclude-path node_modules
+            --exclude-path site
+            --exclude-mail
+            "**/*.md"
+          output: informe-enlaces.md
+          fail: false
+
+      - name: Abrir issue si hay enlaces rotos
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
+        with:
+          title: "Enlaces externos rotos en el material"
+          content-filepath: informe-enlaces.md
+          labels: mantenimiento, documentacion
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### Enlaces externos"
+            echo ""
+            if [ "${{ steps.lychee.outputs.exit_code }}" = "0" ]; then
+              echo "Todos los enlaces externos responden."
+            else
+              echo "Se detectaron enlaces rotos. Ver el issue abierto."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

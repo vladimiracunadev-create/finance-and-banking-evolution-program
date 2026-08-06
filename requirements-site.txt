@@ -1,0 +1,5 @@
+# Dependencias del portal de estudio (tools/build_site.py).
+# Se instalan solo en el flujo de GitHub Pages; el programa se puede
+# recorrer entero sin ellas, leyendo el Markdown del repositorio.
+markdown>=3.6,<4.0
+pygments>=2.17,<3.0

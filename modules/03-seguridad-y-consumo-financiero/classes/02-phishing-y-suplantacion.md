@@ -194,7 +194,7 @@ Ninguna entidad legítima cobra por adelantado para devolverte tu dinero.
 ## 🧮 Ejemplo guiado
 
 **Situación.** Marta compra en una tienda en línea. Dos horas después recibe un mensaje: *"Su pedido
-#48812 no pudo despacharse por un problema de dirección. Actualice sus datos: t.co/xY7kL"*.
+n.º 48812 no pudo despacharse por un problema de dirección. Actualice sus datos: t.co/xY7kL"*.
 
 **Paso 1 — evalúa la coincidencia temporal.** El mensaje llega justo después de una compra real y cita
 un número de pedido. Esto **no** prueba legitimidad: indica que los datos del comercio fueron

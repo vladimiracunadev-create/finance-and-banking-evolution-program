@@ -32,9 +32,16 @@ python tools/build_syllabus.py --check
 python tools/progress.py --check
 python tools/check_links.py
 pytest -q
+npx markdownlint-cli2
 ```
 
-Los seis deben pasar. Es lo mismo que verifica la integración continua.
+Los siete deben pasar. Es lo mismo que verifica la integración continua.
+
+Si tocas el portal de estudio, verifica además que se genere:
+
+```bash
+pip install -r requirements-site.txt && python tools/build_site.py --check
+```
 
 Si tu cambio afecta a una clase, ejecuta el renderizador antes de confirmar:
 

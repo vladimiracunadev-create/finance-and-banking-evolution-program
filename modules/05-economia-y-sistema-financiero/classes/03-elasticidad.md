@@ -49,8 +49,8 @@ Al finalizar podrás:
 | Concepto | Comprensión verificable |
 |---|---|
 | `elasticidad precio` | `%Δ cantidad / %Δ precio`. Habitualmente negativa; se cita en valor absoluto. |
-| `demanda elástica` | `|E| > 1`. La cantidad responde más que proporcionalmente. |
-| `demanda inelástica` | `|E| < 1`. La cantidad responde menos que proporcionalmente. |
+| `demanda elástica` | `\|E\| > 1`. La cantidad responde más que proporcionalmente. |
+| `demanda inelástica` | `\|E\| < 1`. La cantidad responde menos que proporcionalmente. |
 | `método del punto medio` | Usa el promedio como base, para que la elasticidad sea igual en ambos sentidos. |
 | `elasticidad ingreso` | `%Δ cantidad / %Δ ingreso`. Positiva en bienes normales, negativa en inferiores. |
 | `elasticidad cruzada` | `%Δ cantidad de A / %Δ precio de B`. Positiva entre sustitutos, negativa entre complementarios. |

@@ -1,0 +1,220 @@
+name: CI
+
+# Verifica en cada cambio que el programa sigue integro:
+#   - las 240 clases mantienen su estructura, sus secciones y sus fuentes;
+#   - los documentos generados (SYLLABUS, STATUS, bloques de clase) estan al dia;
+#   - los ~2 350 enlaces internos resuelven;
+#   - el estilo de Markdown es consistente;
+#   - las aplicaciones funcionan en tres sistemas y tres versiones de Python;
+#   - los propios workflows pasan una auditoria de seguridad.
+#
+# Endurecimiento aplicado:
+#   - acciones de terceros pineadas por SHA de commit, con la version en comentario;
+#   - permissions: contents: read a nivel de workflow (minimo necesario);
+#   - persist-credentials: false en cada checkout (no deja el token en .git);
+#   - timeout-minutes por job, para cortar ejecuciones colgadas;
+#   - actionlint y zizmor auditan los workflows.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  programa:
+    name: Estructura, fuentes y documentos generados
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+
+      - name: Validar estructura, secciones y fuentes
+        run: python tools/validate_program.py
+
+      - name: Verificar que todas las clases esten renderizadas
+        run: python tools/render_program.py --check
+
+      - name: Verificar que SYLLABUS.md refleje el indice real
+        run: python tools/build_syllabus.py --check
+
+      - name: Verificar que STATUS.md refleje el estado real
+        run: python tools/progress.py --check
+
+      - name: Compilar las herramientas y aplicaciones
+        run: python -m compileall -q tools apps tests
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### Programa"
+            echo ""
+            echo '```'
+            python tools/validate_program.py
+            echo '```'
+            echo ""
+            echo "- Documentos Markdown: **$(find . -name '*.md' -not -path './.git/*' | wc -l)**"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  enlaces:
+    name: Enlaces internos
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Verificar enlaces relativos de todo el repositorio
+        run: python tools/check_links.py
+
+  markdown:
+    name: Estilo de Markdown
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # Accion oficial del mantenedor de markdownlint; lee la configuracion
+      # .markdownlint-cli2.jsonc del repositorio de forma automatica.
+      - name: Lint de Markdown
+        uses: DavidAnson/markdownlint-cli2-action@8de2aa07cae85fd17c0b35642db70cf5495f1d25 # v24.0.0
+        with:
+          globs: "**/*.md"
+
+      - name: Verificar que no queden marcadores de conflicto
+        run: |
+          if grep -rn --include="*.md" -E "^(<<<<<<<|>>>>>>>|=======)$" . ; then
+            echo "Se encontraron marcadores de conflicto de fusion"
+            exit 1
+          fi
+          echo "Sin marcadores de conflicto"
+
+      - name: Verificar codificacion y finales de linea
+        run: |
+          fallos=0
+          while IFS= read -r archivo; do
+            if grep -qU $'\r' "$archivo"; then
+              echo "CRLF en $archivo"
+              fallos=1
+            fi
+            if head -c 3 "$archivo" | grep -q $'\xef\xbb\xbf'; then
+              echo "BOM en $archivo"
+              fallos=1
+            fi
+          done < <(find . -name "*.md" -not -path "./.git/*")
+          if [ "$fallos" -eq 1 ]; then exit 1; fi
+          echo "Codificacion UTF-8 sin BOM y finales de linea LF"
+
+  compatibilidad:
+    name: Python ${{ matrix.python }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+
+      - name: Ejecutar pruebas
+        run: pytest -q
+
+      - name: Verificar las herramientas de validacion
+        run: |
+          python tools/validate_program.py
+          python tools/check_links.py
+
+      - name: Verificar las calculadoras
+        run: python apps/financial_calculators/cli.py compound --principal 100000 --rate 0.08 --years 5
+
+  workflows:
+    name: Auditoria de workflows
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Instalar actionlint (script pineado por SHA, no main)
+        run: |
+          bash <(curl -sSf https://raw.githubusercontent.com/rhysd/actionlint/914e7df21a07ef503a81201c76d2b11c789d3fca/scripts/download-actionlint.bash)
+          echo "$PWD" >> "$GITHUB_PATH"
+
+      - name: Ejecutar actionlint
+        run: ./actionlint -color
+
+      # advanced-security: false + annotations: true evita subir SARIF, que
+      # requeriria security-events: write en este workflow.
+      - name: Auditar workflows con zizmor
+        uses: zizmorcore/zizmor-action@192e21d79ab29983730a13d1382995c2307fbcaa # v0.5.7
+        with:
+          inputs: .github/workflows/
+          online-audits: false
+          persona: regular
+          advanced-security: false
+          annotations: true
+
+  resultado:
+    name: Puerta de calidad
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: always()
+    needs: [programa, enlaces, markdown, compatibilidad, workflows]
+    steps:
+      - name: Exigir que todos los jobs pasen
+        run: |
+          test "${{ needs.programa.result }}" = "success"
+          test "${{ needs.enlaces.result }}" = "success"
+          test "${{ needs.markdown.result }}" = "success"
+          test "${{ needs.compatibilidad.result }}" = "success"
+          test "${{ needs.workflows.result }}" = "success"
+          echo "Todas las verificaciones pasaron"

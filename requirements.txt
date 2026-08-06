@@ -1,1 +1,6 @@
-pytest>=8.0,<9.0
+# Dependencias para ejecutar las pruebas de las aplicaciones didacticas.
+# Las herramientas de validacion (tools/) usan solo la biblioteca estandar.
+#
+# El limite inferior es 9.0.3 porque las versiones anteriores tienen la
+# vulnerabilidad PYSEC-2026-1845, que el flujo de seguridad detecta.
+pytest>=9.0.3,<10.0

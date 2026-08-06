@@ -56,12 +56,27 @@ deben editarse a mano:
 | `SYLLABUS.md` | `tools/build_syllabus.py` | `--check` |
 | `STATUS.md` | `tools/progress.py` | `--check` |
 | Bloques generados de cada clase | `tools/render_program.py` | `--check` |
+| Portal de estudio (`site/`) | `tools/build_site.py` | `--check` |
 
 El resto se edita a mano y se valida con `tools/check_links.py`, que comprueba que los
-~2 000 enlaces relativos del repositorio resuelvan.
+~2 350 enlaces relativos del repositorio resuelvan, y con `markdownlint`, configurado en
+`.markdownlint-cli2.jsonc`.
 
 ```bash
 python tools/build_syllabus.py && python tools/progress.py && python tools/check_links.py
+```
+
+## El portal de estudio
+
+El mismo material se publica como sitio navegable en
+**[GitHub Pages](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)**.
+
+El sitio **espeja la estructura del repositorio**: cada `X.md` produce un `X.html` en la
+misma ruta relativa, de modo que cualquier enlace del material sigue funcionando dentro
+del portal. Para generarlo en local:
+
+```bash
+pip install -r requirements-site.txt && python tools/build_site.py
 ```
 
 ---
