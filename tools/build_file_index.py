@@ -34,14 +34,19 @@ EXTENSIONES_BINARIAS = {".png", ".jpg", ".jpeg", ".gif", ".pdf", ".zip", ".ico"}
 
 
 def rastreados() -> list[Path] | None:
-    """Archivos que git conoce.
+    """Archivos que formaran parte del repositorio.
 
-    Se prefiere `git ls-files` porque respeta `.gitignore` sin reimplementarlo.
+    Se prefiere git porque respeta `.gitignore` sin reimplementarlo, pero con
+    `--others --exclude-standard`: sin esa parte, un archivo nuevo todavia sin
+    `git add` quedaria fuera del indice y el resultado dependeria del orden en
+    que se ejecutaran el generador y el `add`. Un generador cuyo resultado
+    depende del orden no sirve como puerta de `--check`.
+
     Si git no esta disponible, se recorre el arbol y se filtra a mano.
     """
     try:
         salida = subprocess.run(
-            ["git", "ls-files"],
+            ["git", "ls-files", "--cached", "--others", "--exclude-standard"],
             cwd=ROOT,
             capture_output=True,
             text=True,

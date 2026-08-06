@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**530 archivos de texto versionados.**
+**531 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -15,6 +15,7 @@ repositorio. No se edita a mano.
 - `.github/workflows/release.yml`
 - `.github/workflows/security.yml`
 - `.gitignore`
+- `.gitleaksignore`
 - `.lycheeignore`
 - `.markdownlint-cli2.jsonc`
 - `CHANGELOG.md`
