@@ -69,13 +69,18 @@ jobs:
           content-filepath: informe-enlaces.md
           labels: mantenimiento, documentacion
 
+      # El codigo de salida llega por entorno, no interpolado en el script:
+      # una expresion ${{ }} dentro de un `run` se expande como texto y abre
+      # una via de inyeccion.
       - name: Resumen
         if: always()
+        env:
+          CODIGO: ${{ steps.lychee.outputs.exit_code }}
         run: |
           {
             echo "### Enlaces externos"
             echo ""
-            if [ "${{ steps.lychee.outputs.exit_code }}" = "0" ]; then
+            if [ "${CODIGO}" = "0" ]; then
               echo "Todos los enlaces externos responden."
             else
               echo "Se detectaron enlaces rotos. Ver el issue abierto."

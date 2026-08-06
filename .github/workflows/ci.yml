@@ -210,11 +210,31 @@ jobs:
     if: always()
     needs: [programa, enlaces, markdown, compatibilidad, workflows]
     steps:
+      # Los resultados llegan por entorno y no interpolados en el script. La
+      # regla es la misma en todos los workflows: nada de ${{ }} dentro de un
+      # `run`, porque se expande como texto antes de que exista el shell.
       - name: Exigir que todos los jobs pasen
+        env:
+          PROGRAMA: ${{ needs.programa.result }}
+          ENLACES: ${{ needs.enlaces.result }}
+          MARKDOWN: ${{ needs.markdown.result }}
+          COMPATIBILIDAD: ${{ needs.compatibilidad.result }}
+          WORKFLOWS: ${{ needs.workflows.result }}
         run: |
-          test "${{ needs.programa.result }}" = "success"
-          test "${{ needs.enlaces.result }}" = "success"
-          test "${{ needs.markdown.result }}" = "success"
-          test "${{ needs.compatibilidad.result }}" = "success"
-          test "${{ needs.workflows.result }}" = "success"
-          echo "Todas las verificaciones pasaron"
+          estado=0
+          for verificacion in \
+            "Programa:${PROGRAMA}" \
+            "Enlaces internos:${ENLACES}" \
+            "Estilo de Markdown:${MARKDOWN}" \
+            "Compatibilidad:${COMPATIBILIDAD}" \
+            "Auditoria de workflows:${WORKFLOWS}"; do
+            nombre="${verificacion%:*}"
+            resultado="${verificacion##*:}"
+            if [ "${resultado}" = "success" ]; then
+              echo "OK    ${nombre}"
+            else
+              echo "FALLO ${nombre} (${resultado})"
+              estado=1
+            fi
+          done
+          exit "${estado}"

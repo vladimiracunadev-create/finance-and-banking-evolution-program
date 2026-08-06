@@ -47,6 +47,11 @@ convenciones del resto de los programas del autor.
 - Acciones de terceros **fijadas por SHA de commit**, con su versiÃ³n en comentario.
 - `persist-credentials: false` en todos los checkout, para no dejar el token en `.git`.
 - `timeout-minutes` en todos los jobs.
+- Ninguna expresión `${{ }}` se interpola dentro de un `run`: los valores entran por
+  `env` y el script los lee como variables de shell. Es la vía de inyección que señala
+  `zizmor`, y el repositorio cierra su auditoría **sin un solo hallazgo**.
+- La publicación usa `gh release`, ya incluido en el runner, en lugar de una acción de
+  terceros: una dependencia externa menos que fijar, auditar y renovar.
 - `pytest` sube a `>=9.0.3` para resolver la vulnerabilidad PYSEC-2026-1845.
 - README con las insignias de los cuatro flujos y el enlace al portal.
 

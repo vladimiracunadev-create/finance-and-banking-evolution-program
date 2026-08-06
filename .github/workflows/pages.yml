@@ -35,6 +35,12 @@ jobs:
     name: Generar el portal
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # `pages: write` lo necesita configure-pages para activar Pages en un
+    # repositorio (o en un fork) donde todavia no lo esta. Sin el permiso la
+    # accion falla con "Resource not accessible by integration".
+    permissions:
+      contents: read
+      pages: write
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -90,9 +96,14 @@ jobs:
         id: despliegue
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
 
+      # La URL llega por variable de entorno y no interpolada dentro del script:
+      # cualquier expresion ${{ }} escrita directamente en un `run` se expande
+      # como texto antes de que el shell exista, y eso es una via de inyeccion.
       - name: Verificar que el portal responde
+        env:
+          URL_PORTAL: ${{ steps.despliegue.outputs.page_url }}
         run: |
-          url="${{ steps.despliegue.outputs.page_url }}"
+          url="${URL_PORTAL}"
           echo "Comprobando $url"
           for intento in $(seq 1 12); do
             codigo=$(curl -s -o /dev/null -w "%{http_code}" -L "$url" || echo "000")

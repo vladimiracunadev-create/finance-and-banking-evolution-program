@@ -87,12 +87,34 @@ jobs:
             echo "Ver [CHANGELOG.md](CHANGELOG.md) para el detalle de los cambios."
           } > notas.md
 
+      # Se publica con `gh release`, que ya viene instalado en el runner, en vez
+      # de con una accion de terceros: una dependencia externa menos que fijar,
+      # auditar y renovar para hacer exactamente lo mismo.
+      #
+      # GITHUB_REF_NAME lo define el propio runner y en un push de etiqueta
+      # contiene la etiqueta; por eso no hace falta interpolar nada.
       - name: Publicar
-        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3.0.2
-        with:
-          body_path: notas.md
-          files: |
-            dist/programa-completo.zip
-            dist/solo-clases.zip
-            dist/sbom.json
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            --title "${GITHUB_REF_NAME}" \
+            --notes-file notas.md \
+            dist/programa-completo.zip \
+            dist/solo-clases.zip \
+            dist/sbom.json \
             dist/SHA256SUMS.txt
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### Paquete de publicacion"
+            echo ""
+            echo "| Archivo | Tamano |"
+            echo "|---|---|"
+            for archivo in dist/*; do
+              echo "| \`$(basename "${archivo}")\` | $(du -h "${archivo}" | cut -f1) |"
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
