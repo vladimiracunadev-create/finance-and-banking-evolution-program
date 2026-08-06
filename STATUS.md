@@ -3,9 +3,9 @@
 Este archivo lo genera `tools/progress.py` a partir de los archivos reales
 del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 
-## Avance global: 222 de 240 clases (92.5 %)
+## Avance global: 240 de 240 clases (100.0 %)
 
-`█████████████████████████████████████░░░`
+`████████████████████████████████████████`
 
 | Parte | Tema | Clases | Plan | Avance | Tamaño medio |
 |---:|---|---:|---:|---|---:|
@@ -24,8 +24,8 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 17.4 KB |
 | 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 17.8 KB |
 | 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 17.8 KB |
-| 16 | Parte 16: Proyecto Banco Virtual | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
-| | **Total** | **222** | **240** | `██████████████████░░` | **15.5 KB** |
+| 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 17.5 KB |
+| | **Total** | **240** | **240** | `████████████████████` | **15.7 KB** |
 
 ## Qué significa que una clase esté completa
 
