@@ -1,21 +1,55 @@
 name: Validate program
+
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
   pull_request:
-    paths:
-      - "modules/**"
-      - "apps/**"
-      - "tests/**"
-      - "tools/**"
-      - ".github/workflows/validate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  test:
+  validate:
+    name: Estructura, render y pruebas
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: python tools/validate_program.py
-      - run: pytest -q
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Validar estructura, secciones y fuentes
+        run: python tools/validate_program.py
+
+      - name: Verificar que todo este renderizado
+        run: python tools/render_program.py --check
+
+      - name: Verificar que STATUS.md refleje la realidad
+        run: python tools/progress.py --check
+
+      - name: Ejecutar pruebas
+        run: pytest -q
+
+  links:
+    name: Enlaces internos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar enlaces relativos de todo el repositorio
+        run: python tools/check_links.py

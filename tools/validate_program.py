@@ -6,7 +6,7 @@ Comprueba que el repositorio sea internamente coherente:
 2. cada clase está renderizada (navegación, agenda y pie generados);
 3. cada clase declara al menos cuatro fuentes verificables;
 4. los enlaces relativos de los README de parte apuntan a archivos existentes;
-5. los conteos declarados en `SYLLABUS.md` coinciden con los archivos reales;
+5. el avance declarado en `STATUS.md` coincide con los archivos reales;
 6. cada parte tiene laboratorios, evaluaciones y proyecto.
 
 Uso:
@@ -104,7 +104,14 @@ def check_links(errors: list[str]) -> None:
                 errors.append(f"{readme.relative_to(ROOT)}: enlace roto -> {target}")
 
 
-def check_structure(errors: list[str]) -> dict[str, int]:
+def check_structure(errors: list[str], pending: list[str]) -> dict[str, int]:
+    """Verifica la estructura de cada parte.
+
+    Una parte sin clases redactadas todavia no es un error: es contenido
+    pendiente, y `STATUS.md` lo declara de forma explicita. Lo que si es un
+    error es una parte sin laboratorios, sin evaluaciones o sin proyecto,
+    porque esa estructura debe existir desde el diseno del programa.
+    """
     counts = {"modules": 0, "classes": 0, "labs": 0, "assessments": 0, "projects": 0}
     for module in sorted(p for p in MODULES.iterdir() if p.is_dir()):
         counts["modules"] += 1
@@ -120,7 +127,7 @@ def check_structure(errors: list[str]) -> dict[str, int]:
         counts["projects"] += int(project.exists())
 
         if not classes:
-            errors.append(f"{rel}: sin clases")
+            pending.append(str(rel))
         if not labs:
             errors.append(f"{rel}: sin laboratorios")
         if len(assessments) < 2:
@@ -137,35 +144,47 @@ def check_structure(errors: list[str]) -> dict[str, int]:
     return counts
 
 
-def check_syllabus(errors: list[str], counts: dict[str, int]) -> None:
-    syllabus = ROOT / "SYLLABUS.md"
-    if not syllabus.exists():
-        errors.append("falta SYLLABUS.md")
+def check_status(errors: list[str], counts: dict[str, int]) -> None:
+    """STATUS.md debe declarar exactamente las clases que existen.
+
+    SYLLABUS.md describe el programa completo planificado; STATUS.md declara el
+    avance real. La coherencia que se exige aqui es contra STATUS.md, para que la
+    documentacion nunca afirme mas contenido del que el repositorio contiene.
+    """
+    status = ROOT / "STATUS.md"
+    if not status.exists():
+        errors.append("falta STATUS.md; ejecuta: python tools/progress.py")
         return
-    text = syllabus.read_text(encoding="utf-8")
-    match = re.search(r"\|\s*\*\*Total\*\*\s*\|\s*\*\*(\d+)\*\*", text)
+    text = status.read_text(encoding="utf-8")
+    match = re.search(r"Avance global:\s*(\d+)\s+de\s+(\d+)\s+clases", text)
     if not match:
-        errors.append("SYLLABUS.md: no se encontró la fila de total de clases")
+        errors.append("STATUS.md: no se encontro la linea de avance global")
         return
     declared = int(match.group(1))
     if declared != counts["classes"]:
         errors.append(
-            f"SYLLABUS.md declara {declared} clases y existen {counts['classes']}"
+            f"STATUS.md declara {declared} clases redactadas y existen "
+            f"{counts['classes']}. Ejecuta: python tools/progress.py"
         )
 
 
 def main() -> int:
     errors: list[str] = []
-    counts = check_structure(errors)
+    pending: list[str] = []
+    counts = check_structure(errors, pending)
     check_classes(errors)
     check_links(errors)
-    check_syllabus(errors, counts)
+    check_status(errors, counts)
 
     print(f"partes:        {counts['modules']}")
     print(f"clases:        {counts['classes']}")
     print(f"laboratorios:  {counts['labs']}")
     print(f"evaluaciones:  {counts['assessments']}")
     print(f"proyectos:     {counts['projects']}")
+    if pending:
+        print(f"\npartes con contenido pendiente: {len(pending)}")
+        for item in pending:
+            print(f"  - {item}")
 
     if errors:
         print(f"\n{len(errors)} problema(s) encontrados:")
