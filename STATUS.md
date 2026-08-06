@@ -3,9 +3,9 @@
 Este archivo lo genera `tools/progress.py` a partir de los archivos reales
 del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 
-## Avance global: 148 de 240 clases (61.7 %)
+## Avance global: 164 de 240 clases (68.3 %)
 
-`█████████████████████████░░░░░░░░░░░░░░░`
+`███████████████████████████░░░░░░░░░░░░░`
 
 | Parte | Tema | Clases | Plan | Avance | Tamaño medio |
 |---:|---|---:|---:|---|---:|
@@ -19,13 +19,13 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 8 | Parte 8: Inversiones y mercados | 15 | 15 | `████████████████████` | 15.6 KB |
 | 9 | Parte 9: Análisis y gestión de crédito | 16 | 16 | `████████████████████` | 16.9 KB |
 | 10 | Parte 10: Operaciones bancarias | 16 | 16 | `████████████████████` | 16.3 KB |
-| 11 | Parte 11: Gestión integral de riesgos | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 11 | Parte 11: Gestión integral de riesgos | 16 | 16 | `████████████████████` | 16.6 KB |
 | 12 | Parte 12: Regulación, cumplimiento y auditoría | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
 | 13 | Parte 13: Finanzas corporativas y banca empresarial | 0 | 14 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
 | 14 | Parte 14: Fintech, datos e inteligencia artificial | 0 | 14 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
 | 15 | Parte 15: Estrategia y dirección bancaria | 0 | 14 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
-| | **Total** | **148** | **240** | `████████████░░░░░░░░` | **14.6 KB** |
+| | **Total** | **164** | **240** | `██████████████░░░░░░` | **14.8 KB** |
 
 ## Qué significa que una clase esté completa
 
