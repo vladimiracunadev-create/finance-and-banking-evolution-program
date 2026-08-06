@@ -238,7 +238,7 @@ HALLAZGO 3
 
 HALLAZGO 4
   el registro de aplicación contiene la línea:
-  "token emitido: eyJhbGciOiJSUzI1NiIs..."
+  "token emitido: eyJ<...847 caracteres redactados en este material...>"
 
 HALLAZGO 5
   el token de identidad se decodifica sin verificar firma

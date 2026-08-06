@@ -1,0 +1,16 @@
+# Hallazgos de gitleaks que NO son secretos.
+#
+# Cada linea es una huella (commit:archivo:regla:linea) y va acompanada de su
+# razon. Si una entrada no tiene razon, no debe estar aqui: una lista de
+# supresiones sin justificar convierte al escaner en un adorno.
+#
+# gitleaks recorre el HISTORIAL completo, de modo que corregir el texto en un
+# commit posterior no elimina el hallazgo del commit donde entro. Por eso una
+# entrada puede seguir siendo necesaria aunque el archivo actual ya este limpio.
+
+# Parte 17, clase 6. El ejemplo guiado muestra el hallazgo de una auditoria:
+# «el registro de aplicacion contiene la linea: token emitido: eyJ...». La
+# cadena era un prefijo de cabecera JWT ilustrativo, no un token. Se sustituyo
+# por una forma redactada en el commit siguiente; esta entrada cubre el commit
+# donde entro.
+32967c0bcc84a086473dc6a83ef3e3a974ea74c9:modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/06-oauth-openid-connect-y-autorizacion.md:generic-api-key:241
