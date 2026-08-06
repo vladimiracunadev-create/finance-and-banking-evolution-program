@@ -52,7 +52,7 @@ nacional sin sustituir el contenido base.
 2. Cita la norma con su identificador y su **fecha de vigencia**.
 3. Registra la **fecha de revisión** de la adaptación.
 4. Mantiene la línea de verificación local: las normas cambian.
-5. Pasa las seis verificaciones del repositorio.
+5. Pasa las siete verificaciones del repositorio.
 
 ---
 

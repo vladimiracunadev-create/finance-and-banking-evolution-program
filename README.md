@@ -325,8 +325,9 @@ Los definen los archivos de
 [`.github/workflows/`](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/tree/main/.github/workflows).
 
 Las acciones de terceros están **fijadas por SHA de commit**, los permisos son los
-mínimos necesarios, ningún checkout persiste credenciales y `actionlint` + `zizmor`
-auditan los propios flujos.
+mínimos necesarios, ningún checkout persiste credenciales y ninguna expresión `${{ }}`
+se interpola dentro de un `run`: los valores entran por `env`. `actionlint` y `zizmor`
+auditan los propios flujos y los cierran **sin un solo hallazgo**.
 
 ---
 

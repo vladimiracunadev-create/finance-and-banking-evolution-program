@@ -152,7 +152,7 @@ Las ediciones locales son bienvenidas y **no sustituyen** el contenido internaci
 1. **Abre un issue** describiendo el cambio, salvo que sea trivial.
 2. **Crea una rama** por cambio: `fix/parte-11-clase-04-fuente`, `docs/glosario`.
 3. **Haz el cambio** siguiendo las convenciones de arriba.
-4. **Ejecuta las seis verificaciones.**
+4. **Ejecuta las siete verificaciones.**
 5. **Abre la propuesta** describiendo qué cambia, por qué y qué fuente lo respalda.
 
 ### Mensajes de confirmación
