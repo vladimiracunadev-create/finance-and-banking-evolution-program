@@ -34,11 +34,25 @@ SALIDA = ROOT / "site"
 EXCLUIDOS = {".git", ".github", "node_modules", ".venv", "site", ".pytest_cache", "__pycache__"}
 
 TITULO = "Finance & Banking Evolution Program"
-DESCRIPCION = (
-    "Programa abierto de 240 clases que recorre finanzas y banca desde cero "
-    "hasta nivel profesional, con bibliografia oficial verificable."
-)
 REPO = "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program"
+
+
+def inventario() -> tuple[int, int]:
+    """Partes y clases reales. Ninguna cifra del portal se escribe a mano."""
+    modules = ROOT / "modules"
+    if not modules.exists():
+        return 0, 0
+    partes = [p for p in modules.iterdir() if p.is_dir()]
+    clases = sum(len(list((p / "classes").glob("*.md"))) for p in partes)
+    return len(partes), clases
+
+
+PARTES, CLASES = inventario()
+DESCRIPCION = (
+    f"Programa abierto de {CLASES} clases que recorre finanzas, banca e "
+    "infraestructura financiera digital desde cero hasta nivel profesional, "
+    "con bibliografia oficial verificable."
+)
 
 # Enlaces relativos a un archivo .md, con ancla opcional.
 ENLACE_MD = re.compile(r'(href=")(?!https?://|mailto:|#)([^"]+?)\.md((?:#[^"]*)?)(")')
@@ -54,6 +68,36 @@ def archivos_markdown() -> list[Path]:
         if any(parte in EXCLUIDOS for parte in ruta.relative_to(ROOT).parts):
             continue
         encontrados.append(ruta)
+    return sorted(encontrados)
+
+
+ENLACE_RELATIVO = re.compile(r"\[[^\]]*\]\((?!https?://|mailto:|#)([^)]+)\)")
+
+
+def adjuntos_enlazados() -> list[Path]:
+    """Archivos que NO son Markdown y que algun documento enlaza.
+
+    El portal convierte cada `.md` en `.html`, pero un enlace a un contrato
+    OpenAPI, a una ficha normativa o a un modulo de Python apunta a un archivo
+    que hay que copiar tal cual. Descubrirlos leyendo los enlaces evita
+    mantener una lista a mano que se desactualiza en el primer enlace nuevo.
+    """
+    encontrados: set[Path] = set()
+    for ruta in archivos_markdown():
+        for destino in ENLACE_RELATIVO.findall(ruta.read_text(encoding="utf-8")):
+            destino = destino.strip().split("#", 1)[0]
+            if not destino or destino.endswith(".md"):
+                continue
+            resuelto = (ruta.parent / destino).resolve()
+            if not resuelto.is_file():
+                continue
+            try:
+                relativa = resuelto.relative_to(ROOT)
+            except ValueError:
+                continue
+            if any(parte in EXCLUIDOS for parte in relativa.parts):
+                continue
+            encontrados.add(relativa)
     return sorted(encontrados)
 
 
@@ -168,7 +212,7 @@ PLANTILLA = """<!doctype html>
 {cuerpo}
 </main>
 <footer class="pie">
-  <p><strong>{sitio}</strong> · 240 clases · 16 partes · Licencia MIT</p>
+  <p><strong>{sitio}</strong> · {clases} clases · {partes} partes · Licencia MIT</p>
   <p>Material formativo. No constituye asesoría financiera, tributaria ni legal.
      Verifica siempre la norma vigente en tu país.</p>
   <p><a href="{repo}" rel="noopener">Ver en GitHub</a></p>
@@ -312,11 +356,14 @@ def generar() -> int:
     (SALIDA / ".nojekyll").write_text("", encoding="utf-8")
 
     # Archivos sin extension .md que la documentacion enlaza y deben viajar
-    # con el sitio para que esos enlaces resuelvan.
-    for nombre in ("LICENSE", "VERSION"):
-        origen_extra = ROOT / nombre
-        if origen_extra.exists():
-            shutil.copy2(origen_extra, SALIDA / nombre)
+    # con el sitio para que esos enlaces resuelvan. Se descubren leyendo los
+    # enlaces reales en vez de mantener una lista a mano, que es lo que hacia
+    # que un enlace nuevo a un contrato o a una ficha rompiera el portal.
+    for relativa in adjuntos_enlazados():
+        origen_extra = ROOT / relativa
+        destino_extra = SALIDA / relativa
+        destino_extra.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(origen_extra, destino_extra)
 
     indices = directorios_con_indice()
     paginas = 0
@@ -342,6 +389,8 @@ def generar() -> int:
             repo=REPO,
             migas=migas(relativa, indices),
             cuerpo=convertir(cuerpo),
+            partes=PARTES,
+            clases=CLASES,
         )
         destino.write_text(pagina, encoding="utf-8", newline="\n")
         paginas += 1

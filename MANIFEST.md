@@ -5,26 +5,34 @@
 | Campo | Valor |
 |---|---|
 | **Nombre** | `finance-and-banking-evolution-program` |
-| **Versión** | `1.0.0` |
+| **Versión** | `1.2.0` |
 | **Fecha** | 2026-08-06 |
-| **Estado** | Contenido completo y verificado |
+| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (1 de 7 partes publicada) |
 | **Licencia** | MIT |
 | **Idioma** | Español |
 | **Repositorio** | <https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program> |
+
+> Las cantidades de esta ficha describen la **entrega actual**. El avance vivo lo
+> calcula [`STATUS.md`](STATUS.md) contando los archivos: si esta ficha y aquel
+> documento discrepan, el correcto es aquel.
 
 ## Contenido
 
 | Componente | Cantidad |
 |---|---:|
-| Partes | 16 |
-| Clases | 240 |
-| Horas de sesión | 360 |
+| Partes publicadas | 17 |
+| Partes planificadas | 23 |
+| Clases publicadas | 254 |
+| Clases planificadas | 352 |
+| Horas de sesión publicadas | 381 |
 | Duración por clase | 90 min |
-| Laboratorios | 96 |
-| Evaluaciones | 32 |
-| Proyectos integradores | 16 |
-| Aplicaciones funcionales | 3 |
-| Conjuntos de datos sintéticos | 3 |
+| Laboratorios | 102 |
+| Soluciones de referencia | 6 |
+| Evaluaciones | 34 |
+| Proyectos integradores | 17 |
+| Aplicaciones funcionales | 4 |
+| Conjuntos de datos sintéticos | 4 |
+| Fichas normativas estructuradas | 1 |
 
 ## Estructura de una clase
 
@@ -37,16 +45,27 @@
 | Mínimo 4 fuentes verificables | ✅ | `validate_program.py` |
 | Bloques generados al día | ✅ | `render_program.py --check` |
 | Enlaces relativos que resuelvan | ✅ | `check_links.py` |
+| Línea de verificación si cita una norma | ✅ | `validate_metadata.py` |
+
+### Adicional en la Etapa 5 (parte ≥ 17)
+
+| Elemento | Obligatorio | Verificado por |
+|---|:---:|---|
+| Encabezado regulatorio de 6 claves | ✅ | `validate_metadata.py` |
+| Secciones *Modelo mental*, *Perspectivas*, *Riesgos y controles*, *Práctica*, *Referencias cruzadas* | ✅ | `validate_metadata.py` |
+| `regulation_last_verified` válida y no futura | ✅ | `validate_metadata.py` |
+| Aviso legal explícito si `requires_legal_review` | ✅ | `validate_metadata.py` |
 
 ## Cobertura por etapa
 
-| Etapa | Partes | Clases | Horas |
+| Etapa | Partes | Clases publicadas | Horas |
 |---|:---:|---:|---:|
 | Fundamentos | 1 – 4 | 56 | 84 |
 | Analista | 5 – 8 | 60 | 90 |
 | Bancario | 9 – 12 | 64 | 96 |
 | Dirección | 13 – 16 | 60 | 90 |
-| **Total** | **16** | **240** | **360** |
+| Finanzas digitales | 17 – 23 | 14 de 112 | 21 |
+| **Total** | **23** | **254 de 352** | **381** |
 
 ## Aplicaciones incluidas
 
@@ -55,6 +74,7 @@
 | `financial_calculators` | Interés compuesto, anualidades, amortización, VPN, TIR | ✅ |
 | `credit_scoring` | Modelo de scoring con métricas de discriminación | ✅ |
 | `openbank_simulator` | Banco con cuentas y movimientos sobre SQLite | ✅ |
+| `open_finance_sandbox` | Consentimiento, autorización con PKCE, API de cuentas, iniciación de pagos y batería de conformidad | ✅ |
 
 ## Documentos generados automáticamente
 
@@ -64,15 +84,18 @@ Estos archivos se producen desde el contenido y **no se editan a mano**:
 |---|---|
 | `SYLLABUS.md` | `tools/build_syllabus.py` |
 | `STATUS.md` | `tools/progress.py` |
+| `FILE_INDEX.md` | `tools/build_file_index.py` |
 | Bloques `gen:*` de cada clase | `tools/render_program.py` |
+| Portal de estudio (`site/`) | `tools/build_site.py` |
 
 ## Requisitos técnicos
 
 | Requisito | Versión |
 |---|---|
-| Python | 3.12 |
-| Dependencias | `requirements.txt` |
-| Pruebas | `pytest` |
+| Python | 3.11, 3.12 o 3.13 |
+| Dependencias de pruebas | `requirements.txt` (`pytest`) |
+| Dependencias del portal | `requirements-site.txt` (`markdown`) |
+| Dependencias de las herramientas | Ninguna: biblioteca estándar |
 | Codificación | UTF-8 sin BOM |
 | Finales de línea | LF |
 
@@ -80,16 +103,36 @@ Estos archivos se producen desde el contenido y **no se editan a mano**:
 
 ```bash
 python tools/validate_program.py
-python tools/render_program.py --check
-python tools/build_syllabus.py --check
-python tools/progress.py --check
-python tools/check_links.py
+```
+
+```bash
+python tools/render_program.py --check && python tools/build_syllabus.py --check
+```
+
+```bash
+python tools/progress.py --check && python tools/build_file_index.py --check
+```
+
+```bash
+python tools/check_links.py && python tools/build_site.py --check
+```
+
+```bash
+python tools/validate_metadata.py && python tools/validate_openapi.py && python tools/validate_datasets.py
+```
+
+```bash
+python tools/detect_secrets.py && python tools/detect_pii.py
+```
+
+```bash
 pytest -q
 ```
 
-Las seis comprobaciones se ejecutan en cada cambio mediante integración continua.
+Todas se ejecutan en cada cambio mediante integración continua.
 
 ---
 
 **Ver también:** [Estado del contenido](STATUS.md) · [Historial](CHANGELOG.md) ·
-[Qué sigue](ROADMAP.md) · [Índice del programa](SYLLABUS.md)
+[Qué sigue](ROADMAP.md) · [Índice del programa](SYLLABUS.md) ·
+[Etapa 5](docs/etapa-5-finanzas-digitales.md)

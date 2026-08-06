@@ -1,4 +1,4 @@
-"""Genera SYLLABUS.md con el índice completo de las 240 clases.
+"""Genera SYLLABUS.md con el índice completo de las clases del programa.
 
 El programa cambia clase a clase, y un índice escrito a mano se desactualiza
 en la primera edición. Este script lo construye desde el encabezado YAML de
@@ -26,6 +26,7 @@ ETAPAS = {
     range(5, 9): "Analista — lenguaje técnico y modelado",
     range(9, 13): "Bancario — crédito, operaciones, riesgo y cumplimiento",
     range(13, 17): "Dirección — empresa, tecnología, estrategia y proyecto",
+    range(17, 24): "Finanzas digitales — infraestructura y mercados tokenizados",
 }
 
 
@@ -138,22 +139,27 @@ def render() -> str:
             lines.append(f"| {numero:02d} | [{titulo_clase}]({enlace}) | {nivel} |")
         lines.append("")
 
+    ultima_parte, ultimo_titulo, _, ultimas_clases = partes[-1]
     lines += [
         "## Criterio de aprobación sugerido",
         "",
         "- Recorrer las clases en orden: cada una supone la anterior.",
         "- 70 % de logro en las evaluaciones diagnóstica y final de cada parte.",
-        "- Entrega de los 16 proyectos integradores.",
+        f"- Entrega de los {len(partes)} proyectos integradores.",
         "- Portafolio con el entregable de cada clase.",
-        "- Defensa del proyecto final «Banco Virtual» (Parte 16, clase 18).",
+        f"- Defensa del proyecto final «{ultimo_titulo}» "
+        f"(Parte {ultima_parte}, clase {len(ultimas_clases)}).",
         "",
         "## Resultados finales",
         "",
         "Al completar el programa, quien lo recorra podrá interpretar productos",
         "financieros, modelar decisiones, analizar estados financieros, evaluar",
         "créditos, comprender operaciones bancarias, medir riesgos, diseñar",
-        "controles, aplicar el marco regulatorio y dirigir un banco simulado,",
-        "sosteniendo cada decisión con su fundamento, sus supuestos y sus límites.",
+        "controles, aplicar el marco regulatorio y dirigir un banco simulado;",
+        "y en la Etapa 5, diseñar y defender infraestructura de finanzas abiertas,",
+        "pagos transfronterizos, activos digitales, tokenización y liquidación",
+        "programable, sosteniendo cada decisión con su fundamento, sus supuestos",
+        "y sus límites.",
         "",
         "## Verificación",
         "",

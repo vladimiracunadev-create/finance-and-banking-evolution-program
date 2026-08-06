@@ -2,18 +2,18 @@
 
 # Finance & Banking Evolution Program
 
-**De no saber calcular un porcentaje a dirigir un banco.**
-Programa abierto de 240 clases con bibliografía oficial verificable en cada una.
+**De no saber calcular un porcentaje a dirigir un banco digital.**
+Programa abierto de 254 clases con bibliografía oficial verificable en cada una.
 
 [![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Clases](https://img.shields.io/badge/clases-240%20%2F%20240-2ea44f)](STATUS.md)
-[![Partes](https://img.shields.io/badge/partes-16-1f6feb)](SYLLABUS.md)
-[![Horas](https://img.shields.io/badge/horas-360-8957e5)](SYLLABUS.md)
-[![Versión](https://img.shields.io/badge/versión-1.0.0-0969da)](CHANGELOG.md)
+[![Clases](https://img.shields.io/badge/clases-254%20%2F%20352-2ea44f)](STATUS.md)
+[![Partes](https://img.shields.io/badge/partes-17-1f6feb)](SYLLABUS.md)
+[![Horas](https://img.shields.io/badge/horas-381-8957e5)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-1.2.0-0969da)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
 [![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](SYLLABUS.md)
 
@@ -31,9 +31,15 @@ Programa abierto de 240 clases con bibliografía oficial verificable en cada una
 
 ## Qué es esto
 
-Un currículo completo de finanzas y banca —**16 partes, 240 clases de 90 minutos,
-360 horas**— diseñado para que una misma persona avance sin saltos desde no saber
-calcular un interés hasta poder sentarse en un comité de riesgos.
+Un currículo completo de finanzas, banca e infraestructura financiera digital,
+diseñado para que una misma persona avance sin saltos desde no saber calcular un
+interés hasta poder sentarse en un comité de riesgos y defender la arquitectura de
+un banco digital ante un supervisor.
+
+El programa está en **ampliación activa**: las 16 partes originales están
+completas y la **Etapa 5 — Finanzas digitales** añade siete partes más, de las
+que hoy está publicada la primera. Las cifras exactas de avance están en
+[STATUS.md](STATUS.md), que se genera contando los archivos.
 
 No es una colección de apuntes. Cada clase sigue una **estructura fija verificada por
 integración continua**, resuelve un caso numérico paso a paso y cierra con
@@ -46,10 +52,10 @@ IOSCO, CPMI y NIST.
 
 <table>
 <tr>
-<td width="25%" align="center"><b>240</b><br>clases completas</td>
+<td width="25%" align="center"><b>254</b><br>clases completas</td>
 <td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
-<td width="25%" align="center"><b>96</b><br>laboratorios</td>
-<td width="25%" align="center"><b>16</b><br>proyectos integradores</td>
+<td width="25%" align="center"><b>102</b><br>laboratorios</td>
+<td width="25%" align="center"><b>17</b><br>proyectos integradores</td>
 </tr>
 </table>
 
@@ -59,7 +65,7 @@ IOSCO, CPMI y NIST.
 
 **¿Solo quieres leerlo?**
 Abre el **[portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)**:
-las 240 clases navegables, con diagramas renderizados y sin instalar nada.
+todas las clases navegables, con diagramas renderizados y sin instalar nada.
 
 **¿Quieres los ejercicios y las herramientas?**
 
@@ -166,7 +172,7 @@ flowchart LR
 
 ---
 
-## 📚 Las 16 partes
+## 📚 Las partes
 
 | # | Parte | Clases | Contenido central |
 |---:|---|---:|---|
@@ -187,7 +193,23 @@ flowchart LR
 | 15 | [Estrategia y dirección bancaria](modules/14-estrategia-y-direccion-bancaria/README.md) | 14 | Modelo de negocio, precios, gobierno, cultura, crisis |
 | 16 | [Proyecto: Banco Virtual](modules/15-proyecto-banco-virtual/README.md) | 18 | Construir, operar, estresar y defender un banco completo |
 
-📖 **[Índice completo de las 240 clases →](SYLLABUS.md)**
+### Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados
+
+Continúa el programa desde la introducción fintech de la Parte 14 hacia la
+infraestructura financiera. Siete partes, de las que hoy está publicada la
+primera. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
+
+| # | Parte | Clases | Contenido central |
+|---:|---|---:|---|
+| 17 | [Finanzas abiertas, APIs y economía de datos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | Consentimiento, OAuth y FAPI, contratos de API, iniciación de pagos, responsabilidad |
+| 18 | Pagos transfronterizos, remesas y liquidación | — | Corresponsalía, ISO 20022, PvP, interconexión de pagos inmediatos |
+| 19 | Blockchain y DLT para instituciones financieras | — | Consenso, finalidad, redes autorizadas, contratos, comparación con base centralizada |
+| 20 | Activos digitales, stablecoins y dinero programable | — | Taxonomía, reservas, redención, depeg, CBDC, custodia |
+| 21 | Tokenización, FX on-chain y mercados programables | — | Derecho económico, emisión, mercado secundario, DvP y PvP |
+| 22 | Regulación de mercados financieros digitales | — | Ley Fintec, MiCA, DORA, regulación comparada |
+| 23 | Proyecto: banco digital y mercado tokenizado | — | Construir, operar y defender la infraestructura completa |
+
+📖 **[Índice completo de las clases →](SYLLABUS.md)** · 📊 **[Avance real →](STATUS.md)**
 
 ---
 
@@ -300,11 +322,15 @@ Todo el repositorio se valida en cada cambio. Las insignias de arriba reflejan e
 |---|---|
 | `tools/validate_program.py` | Estructura, 11 secciones obligatorias y ≥ 4 fuentes por clase |
 | `tools/render_program.py --check` | Navegación, agenda y bloques generados al día |
-| `tools/build_syllabus.py --check` | El índice de 240 clases coincide con los archivos |
+| `tools/build_syllabus.py --check` | El índice de clases coincide con los archivos |
 | `tools/progress.py --check` | `STATUS.md` refleja el estado real |
-| `tools/check_links.py` | Los ~2 350 enlaces relativos resuelven |
+| `tools/check_links.py` | Todos los enlaces relativos del repositorio resuelven |
 | `tools/build_site.py --check` | El portal se genera y sus enlaces resuelven |
-| `pytest -q` | Calculadoras, scoring y banco virtual |
+| `tools/validate_metadata.py` | Ninguna norma citada sin fecha de verificación |
+| `tools/validate_openapi.py` | Contratos de API: alcances, errores e importes |
+| `tools/validate_datasets.py` | Todo conjunto de datos con ficha y diccionario |
+| `tools/detect_secrets.py` · `tools/detect_pii.py` | Sin credenciales ni datos personales |
+| `pytest -q` | Calculadoras, scoring, banco virtual y entorno de finanzas abiertas |
 
 ```bash
 python tools/validate_program.py && python tools/check_links.py && pytest -q

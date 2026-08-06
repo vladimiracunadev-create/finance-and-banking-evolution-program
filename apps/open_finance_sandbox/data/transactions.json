@@ -1,0 +1,1730 @@
+[
+  {
+    "transaction_id": "txn_000001",
+    "account_id": "acc_0100",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-106828.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000002",
+    "account_id": "acc_0100",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-71040.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000003",
+    "account_id": "acc_0100",
+    "booking_date": "2026-01-18T03:14:00Z",
+    "amount": "-87015.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000004",
+    "account_id": "acc_0100",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-173432.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000005",
+    "account_id": "acc_0100",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-22267.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000006",
+    "account_id": "acc_0100",
+    "booking_date": "2026-02-18T03:14:00Z",
+    "amount": "7013.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000007",
+    "account_id": "acc_0100",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-12950.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000008",
+    "account_id": "acc_0100",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "57897.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000009",
+    "account_id": "acc_0100",
+    "booking_date": "2026-03-18T03:14:00Z",
+    "amount": "55352.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000010",
+    "account_id": "acc_0100",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "22621.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000011",
+    "account_id": "acc_0100",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "24137.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000012",
+    "account_id": "acc_0100",
+    "booking_date": "2026-04-18T03:14:00Z",
+    "amount": "-26455.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000013",
+    "account_id": "acc_0100",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "56810.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000014",
+    "account_id": "acc_0100",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "57050.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000015",
+    "account_id": "acc_0100",
+    "booking_date": "2026-05-18T03:14:00Z",
+    "amount": "-170385.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000016",
+    "account_id": "acc_0100",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-3551.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000017",
+    "account_id": "acc_0100",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-58663.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000018",
+    "account_id": "acc_0100",
+    "booking_date": "2026-06-18T03:14:00Z",
+    "amount": "45381.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000019",
+    "account_id": "acc_0100",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "32974.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000020",
+    "account_id": "acc_0100",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "57135.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000021",
+    "account_id": "acc_0100",
+    "booking_date": "2026-07-18T03:14:00Z",
+    "amount": "-108450.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000022",
+    "account_id": "acc_0100",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-69127.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000023",
+    "account_id": "acc_0100",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-60301.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000024",
+    "account_id": "acc_0100",
+    "booking_date": "2026-08-18T03:14:00Z",
+    "amount": "-41403.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000025",
+    "account_id": "acc_0100",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "7722.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000026",
+    "account_id": "acc_0100",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-110194.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000027",
+    "account_id": "acc_0100",
+    "booking_date": "2026-09-18T03:14:00Z",
+    "amount": "42857.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000028",
+    "account_id": "acc_0100",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-168606.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000029",
+    "account_id": "acc_0100",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-136025.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000030",
+    "account_id": "acc_0100",
+    "booking_date": "2026-10-18T03:14:00Z",
+    "amount": "-93378.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000031",
+    "account_id": "acc_0100",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "6490.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000032",
+    "account_id": "acc_0100",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "28565.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000033",
+    "account_id": "acc_0100",
+    "booking_date": "2026-11-18T03:14:00Z",
+    "amount": "-136167.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000034",
+    "account_id": "acc_0100",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-81553.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000035",
+    "account_id": "acc_0100",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-122616.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000036",
+    "account_id": "acc_0100",
+    "booking_date": "2026-12-18T03:14:00Z",
+    "amount": "-39368.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000037",
+    "account_id": "acc_0101",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-149493.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000038",
+    "account_id": "acc_0101",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-149534.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000039",
+    "account_id": "acc_0101",
+    "booking_date": "2026-01-18T03:14:00Z",
+    "amount": "19374.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000040",
+    "account_id": "acc_0101",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-105729.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000041",
+    "account_id": "acc_0101",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-167697.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000042",
+    "account_id": "acc_0101",
+    "booking_date": "2026-02-18T03:14:00Z",
+    "amount": "29571.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000043",
+    "account_id": "acc_0101",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-97319.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000044",
+    "account_id": "acc_0101",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "32597.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000045",
+    "account_id": "acc_0101",
+    "booking_date": "2026-03-18T03:14:00Z",
+    "amount": "-177347.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000046",
+    "account_id": "acc_0101",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "48598.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000047",
+    "account_id": "acc_0101",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-108267.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000048",
+    "account_id": "acc_0101",
+    "booking_date": "2026-04-18T03:14:00Z",
+    "amount": "-70791.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000049",
+    "account_id": "acc_0101",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "9285.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000050",
+    "account_id": "acc_0101",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "-119495.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000051",
+    "account_id": "acc_0101",
+    "booking_date": "2026-05-18T03:14:00Z",
+    "amount": "57236.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000052",
+    "account_id": "acc_0101",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-124406.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000053",
+    "account_id": "acc_0101",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-169150.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000054",
+    "account_id": "acc_0101",
+    "booking_date": "2026-06-18T03:14:00Z",
+    "amount": "-135192.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000055",
+    "account_id": "acc_0101",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-36396.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000056",
+    "account_id": "acc_0101",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-79214.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000057",
+    "account_id": "acc_0101",
+    "booking_date": "2026-07-18T03:14:00Z",
+    "amount": "-119529.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000058",
+    "account_id": "acc_0101",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-44031.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000059",
+    "account_id": "acc_0101",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-121206.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000060",
+    "account_id": "acc_0101",
+    "booking_date": "2026-08-18T03:14:00Z",
+    "amount": "3418.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000061",
+    "account_id": "acc_0101",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-131183.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000062",
+    "account_id": "acc_0101",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-125851.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000063",
+    "account_id": "acc_0101",
+    "booking_date": "2026-09-18T03:14:00Z",
+    "amount": "-52077.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000064",
+    "account_id": "acc_0101",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "31228.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000065",
+    "account_id": "acc_0101",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-141258.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000066",
+    "account_id": "acc_0101",
+    "booking_date": "2026-10-18T03:14:00Z",
+    "amount": "-63329.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000067",
+    "account_id": "acc_0101",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-146065.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000068",
+    "account_id": "acc_0101",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-108022.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000069",
+    "account_id": "acc_0101",
+    "booking_date": "2026-11-18T03:14:00Z",
+    "amount": "41919.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000070",
+    "account_id": "acc_0101",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "34920.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000071",
+    "account_id": "acc_0101",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-145925.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000072",
+    "account_id": "acc_0101",
+    "booking_date": "2026-12-18T03:14:00Z",
+    "amount": "-134338.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000073",
+    "account_id": "acc_0200",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-111386.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000074",
+    "account_id": "acc_0200",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "59687.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000075",
+    "account_id": "acc_0200",
+    "booking_date": "2026-01-18T03:14:00Z",
+    "amount": "36975.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000076",
+    "account_id": "acc_0200",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-7341.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000077",
+    "account_id": "acc_0200",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "41227.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000078",
+    "account_id": "acc_0200",
+    "booking_date": "2026-02-18T03:14:00Z",
+    "amount": "10726.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000079",
+    "account_id": "acc_0200",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "42902.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000080",
+    "account_id": "acc_0200",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-50684.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000081",
+    "account_id": "acc_0200",
+    "booking_date": "2026-03-18T03:14:00Z",
+    "amount": "-165957.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000082",
+    "account_id": "acc_0200",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-161982.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000083",
+    "account_id": "acc_0200",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-83564.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000084",
+    "account_id": "acc_0200",
+    "booking_date": "2026-04-18T03:14:00Z",
+    "amount": "-81767.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000085",
+    "account_id": "acc_0200",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "18950.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000086",
+    "account_id": "acc_0200",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "-10902.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000087",
+    "account_id": "acc_0200",
+    "booking_date": "2026-05-18T03:14:00Z",
+    "amount": "-61823.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000088",
+    "account_id": "acc_0200",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-58261.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000089",
+    "account_id": "acc_0200",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "37260.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000090",
+    "account_id": "acc_0200",
+    "booking_date": "2026-06-18T03:14:00Z",
+    "amount": "-48256.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000091",
+    "account_id": "acc_0200",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-11911.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000092",
+    "account_id": "acc_0200",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-41885.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000093",
+    "account_id": "acc_0200",
+    "booking_date": "2026-07-18T03:14:00Z",
+    "amount": "-130959.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000094",
+    "account_id": "acc_0200",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-137013.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000095",
+    "account_id": "acc_0200",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-158317.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000096",
+    "account_id": "acc_0200",
+    "booking_date": "2026-08-18T03:14:00Z",
+    "amount": "-124701.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000097",
+    "account_id": "acc_0200",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "29951.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000098",
+    "account_id": "acc_0200",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-103885.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000099",
+    "account_id": "acc_0200",
+    "booking_date": "2026-09-18T03:14:00Z",
+    "amount": "-125207.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000100",
+    "account_id": "acc_0200",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-159692.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000101",
+    "account_id": "acc_0200",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-99271.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000102",
+    "account_id": "acc_0200",
+    "booking_date": "2026-10-18T03:14:00Z",
+    "amount": "1396.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000103",
+    "account_id": "acc_0200",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "46255.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000104",
+    "account_id": "acc_0200",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-116661.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000105",
+    "account_id": "acc_0200",
+    "booking_date": "2026-11-18T03:14:00Z",
+    "amount": "-124460.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000106",
+    "account_id": "acc_0200",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-48328.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000107",
+    "account_id": "acc_0200",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-51866.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000108",
+    "account_id": "acc_0200",
+    "booking_date": "2026-12-18T03:14:00Z",
+    "amount": "56875.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000109",
+    "account_id": "acc_0201",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-81400.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000110",
+    "account_id": "acc_0201",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-56221.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000111",
+    "account_id": "acc_0201",
+    "booking_date": "2026-01-18T03:14:00Z",
+    "amount": "-38569.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000112",
+    "account_id": "acc_0201",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-101220.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000113",
+    "account_id": "acc_0201",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "4342.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000114",
+    "account_id": "acc_0201",
+    "booking_date": "2026-02-18T03:14:00Z",
+    "amount": "-142847.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000115",
+    "account_id": "acc_0201",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-49583.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000116",
+    "account_id": "acc_0201",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "38755.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000117",
+    "account_id": "acc_0201",
+    "booking_date": "2026-03-18T03:14:00Z",
+    "amount": "-120923.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000118",
+    "account_id": "acc_0201",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-2355.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000119",
+    "account_id": "acc_0201",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "32133.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000120",
+    "account_id": "acc_0201",
+    "booking_date": "2026-04-18T03:14:00Z",
+    "amount": "-43061.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000121",
+    "account_id": "acc_0201",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "17264.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000122",
+    "account_id": "acc_0201",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "-83139.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000123",
+    "account_id": "acc_0201",
+    "booking_date": "2026-05-18T03:14:00Z",
+    "amount": "55066.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000124",
+    "account_id": "acc_0201",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "10090.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000125",
+    "account_id": "acc_0201",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-131940.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000126",
+    "account_id": "acc_0201",
+    "booking_date": "2026-06-18T03:14:00Z",
+    "amount": "-106710.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000127",
+    "account_id": "acc_0201",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "10420.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000128",
+    "account_id": "acc_0201",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-173984.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000129",
+    "account_id": "acc_0201",
+    "booking_date": "2026-07-18T03:14:00Z",
+    "amount": "3188.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000130",
+    "account_id": "acc_0201",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-3441.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000131",
+    "account_id": "acc_0201",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-111928.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000132",
+    "account_id": "acc_0201",
+    "booking_date": "2026-08-18T03:14:00Z",
+    "amount": "-95105.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000133",
+    "account_id": "acc_0201",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-130057.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000134",
+    "account_id": "acc_0201",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "29680.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000135",
+    "account_id": "acc_0201",
+    "booking_date": "2026-09-18T03:14:00Z",
+    "amount": "-42935.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000136",
+    "account_id": "acc_0201",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-123931.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000137",
+    "account_id": "acc_0201",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-7008.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000138",
+    "account_id": "acc_0201",
+    "booking_date": "2026-10-18T03:14:00Z",
+    "amount": "-10345.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000139",
+    "account_id": "acc_0201",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "10415.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000140",
+    "account_id": "acc_0201",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "27557.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000141",
+    "account_id": "acc_0201",
+    "booking_date": "2026-11-18T03:14:00Z",
+    "amount": "-124526.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000142",
+    "account_id": "acc_0201",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-84579.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000143",
+    "account_id": "acc_0201",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "48323.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000144",
+    "account_id": "acc_0201",
+    "booking_date": "2026-12-18T03:14:00Z",
+    "amount": "-96261.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000145",
+    "account_id": "acc_0300",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-101668.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000146",
+    "account_id": "acc_0300",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-93516.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000147",
+    "account_id": "acc_0300",
+    "booking_date": "2026-01-18T03:14:00Z",
+    "amount": "34498.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000148",
+    "account_id": "acc_0300",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-18028.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000149",
+    "account_id": "acc_0300",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-2667.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000150",
+    "account_id": "acc_0300",
+    "booking_date": "2026-02-18T03:14:00Z",
+    "amount": "-148979.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000151",
+    "account_id": "acc_0300",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-103361.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000152",
+    "account_id": "acc_0300",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-9172.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000153",
+    "account_id": "acc_0300",
+    "booking_date": "2026-03-18T03:14:00Z",
+    "amount": "35039.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000154",
+    "account_id": "acc_0300",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-2975.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000155",
+    "account_id": "acc_0300",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-65084.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000156",
+    "account_id": "acc_0300",
+    "booking_date": "2026-04-18T03:14:00Z",
+    "amount": "-150495.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000157",
+    "account_id": "acc_0300",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "22871.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000158",
+    "account_id": "acc_0300",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "49660.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000159",
+    "account_id": "acc_0300",
+    "booking_date": "2026-05-18T03:14:00Z",
+    "amount": "-27776.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000160",
+    "account_id": "acc_0300",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "56124.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000161",
+    "account_id": "acc_0300",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-100805.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000162",
+    "account_id": "acc_0300",
+    "booking_date": "2026-06-18T03:14:00Z",
+    "amount": "54064.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000163",
+    "account_id": "acc_0300",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-83279.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000164",
+    "account_id": "acc_0300",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-89157.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000165",
+    "account_id": "acc_0300",
+    "booking_date": "2026-07-18T03:14:00Z",
+    "amount": "-13863.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000166",
+    "account_id": "acc_0300",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "56761.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000167",
+    "account_id": "acc_0300",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-72622.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000168",
+    "account_id": "acc_0300",
+    "booking_date": "2026-08-18T03:14:00Z",
+    "amount": "-167656.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000169",
+    "account_id": "acc_0300",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "14529.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000170",
+    "account_id": "acc_0300",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-34524.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000171",
+    "account_id": "acc_0300",
+    "booking_date": "2026-09-18T03:14:00Z",
+    "amount": "49561.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000172",
+    "account_id": "acc_0300",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-72155.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000173",
+    "account_id": "acc_0300",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-43794.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000174",
+    "account_id": "acc_0300",
+    "booking_date": "2026-10-18T03:14:00Z",
+    "amount": "-122656.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000175",
+    "account_id": "acc_0300",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-132599.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000176",
+    "account_id": "acc_0300",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-97733.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000177",
+    "account_id": "acc_0300",
+    "booking_date": "2026-11-18T03:14:00Z",
+    "amount": "-59617.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000178",
+    "account_id": "acc_0300",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-4330.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000179",
+    "account_id": "acc_0300",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-124984.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000180",
+    "account_id": "acc_0300",
+    "booking_date": "2026-12-18T03:14:00Z",
+    "amount": "47293.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000181",
+    "account_id": "acc_0301",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-167139.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000182",
+    "account_id": "acc_0301",
+    "booking_date": "2026-01-05T03:14:00Z",
+    "amount": "-177469.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000183",
+    "account_id": "acc_0301",
+    "booking_date": "2026-01-18T03:14:00Z",
+    "amount": "-2291.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000184",
+    "account_id": "acc_0301",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "41998.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000185",
+    "account_id": "acc_0301",
+    "booking_date": "2026-02-05T03:14:00Z",
+    "amount": "-163625.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000186",
+    "account_id": "acc_0301",
+    "booking_date": "2026-02-18T03:14:00Z",
+    "amount": "16710.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000187",
+    "account_id": "acc_0301",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "-13900.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000188",
+    "account_id": "acc_0301",
+    "booking_date": "2026-03-05T03:14:00Z",
+    "amount": "24456.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000189",
+    "account_id": "acc_0301",
+    "booking_date": "2026-03-18T03:14:00Z",
+    "amount": "-91232.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000190",
+    "account_id": "acc_0301",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "-88600.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000191",
+    "account_id": "acc_0301",
+    "booking_date": "2026-04-05T03:14:00Z",
+    "amount": "5620.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000192",
+    "account_id": "acc_0301",
+    "booking_date": "2026-04-18T03:14:00Z",
+    "amount": "-114637.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000193",
+    "account_id": "acc_0301",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "-28286.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000194",
+    "account_id": "acc_0301",
+    "booking_date": "2026-05-05T03:14:00Z",
+    "amount": "-114568.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000195",
+    "account_id": "acc_0301",
+    "booking_date": "2026-05-18T03:14:00Z",
+    "amount": "18778.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000196",
+    "account_id": "acc_0301",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "46246.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000197",
+    "account_id": "acc_0301",
+    "booking_date": "2026-06-05T03:14:00Z",
+    "amount": "-41221.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000198",
+    "account_id": "acc_0301",
+    "booking_date": "2026-06-18T03:14:00Z",
+    "amount": "-158111.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000199",
+    "account_id": "acc_0301",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-82772.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000200",
+    "account_id": "acc_0301",
+    "booking_date": "2026-07-05T03:14:00Z",
+    "amount": "-13131.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000201",
+    "account_id": "acc_0301",
+    "booking_date": "2026-07-18T03:14:00Z",
+    "amount": "53506.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000202",
+    "account_id": "acc_0301",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-11209.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000203",
+    "account_id": "acc_0301",
+    "booking_date": "2026-08-05T03:14:00Z",
+    "amount": "-173953.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000204",
+    "account_id": "acc_0301",
+    "booking_date": "2026-08-18T03:14:00Z",
+    "amount": "-3621.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000205",
+    "account_id": "acc_0301",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "42784.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000206",
+    "account_id": "acc_0301",
+    "booking_date": "2026-09-05T03:14:00Z",
+    "amount": "-155134.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000207",
+    "account_id": "acc_0301",
+    "booking_date": "2026-09-18T03:14:00Z",
+    "amount": "-170980.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000208",
+    "account_id": "acc_0301",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-114526.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000209",
+    "account_id": "acc_0301",
+    "booking_date": "2026-10-05T03:14:00Z",
+    "amount": "-55835.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000210",
+    "account_id": "acc_0301",
+    "booking_date": "2026-10-18T03:14:00Z",
+    "amount": "37752.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  },
+  {
+    "transaction_id": "txn_000211",
+    "account_id": "acc_0301",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-170225.00",
+    "currency": "CLP",
+    "category": "transporte"
+  },
+  {
+    "transaction_id": "txn_000212",
+    "account_id": "acc_0301",
+    "booking_date": "2026-11-05T03:14:00Z",
+    "amount": "-134948.00",
+    "currency": "CLP",
+    "category": "servicios"
+  },
+  {
+    "transaction_id": "txn_000213",
+    "account_id": "acc_0301",
+    "booking_date": "2026-11-18T03:14:00Z",
+    "amount": "-37700.00",
+    "currency": "CLP",
+    "category": "remuneracion"
+  },
+  {
+    "transaction_id": "txn_000214",
+    "account_id": "acc_0301",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "50942.00",
+    "currency": "CLP",
+    "category": "transferencia"
+  },
+  {
+    "transaction_id": "txn_000215",
+    "account_id": "acc_0301",
+    "booking_date": "2026-12-05T03:14:00Z",
+    "amount": "-79286.00",
+    "currency": "CLP",
+    "category": "restaurante"
+  },
+  {
+    "transaction_id": "txn_000216",
+    "account_id": "acc_0301",
+    "booking_date": "2026-12-18T03:14:00Z",
+    "amount": "31965.00",
+    "currency": "CLP",
+    "category": "supermercado"
+  }
+]

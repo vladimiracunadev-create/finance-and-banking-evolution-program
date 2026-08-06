@@ -1,0 +1,127 @@
+"""Genera FILE_INDEX.md desde los archivos reales del repositorio.
+
+El indice estaba escrito a mano y se desactualizo en el primer cambio de
+estructura: llegó a enlazar un workflow que ya no existía. Un indice que miente
+es peor que no tener indice, porque quien lo lee deja de comprobar.
+
+Uso:
+    python tools/build_file_index.py           # regenera FILE_INDEX.md
+    python tools/build_file_index.py --check   # falla si esta desactualizado
+"""
+
+from __future__ import annotations
+
+import argparse
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+INDEX = ROOT / "FILE_INDEX.md"
+
+# Directorios que nunca entran: generados, temporales o de terceros.
+EXCLUIDOS = {
+    ".git",
+    ".venv",
+    "node_modules",
+    "site",
+    "__pycache__",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".mypy_cache",
+}
+EXTENSIONES_BINARIAS = {".png", ".jpg", ".jpeg", ".gif", ".pdf", ".zip", ".ico"}
+
+
+def rastreados() -> list[Path] | None:
+    """Archivos que git conoce.
+
+    Se prefiere `git ls-files` porque respeta `.gitignore` sin reimplementarlo.
+    Si git no esta disponible, se recorre el arbol y se filtra a mano.
+    """
+    try:
+        salida = subprocess.run(
+            ["git", "ls-files"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return None
+    return [ROOT / linea for linea in salida.splitlines() if linea]
+
+
+def recorrido() -> list[Path]:
+    encontrados: list[Path] = []
+    for path in ROOT.rglob("*"):
+        if not path.is_file():
+            continue
+        partes = path.relative_to(ROOT).parts
+        if any(parte in EXCLUIDOS for parte in partes):
+            continue
+        encontrados.append(path)
+    return encontrados
+
+
+def archivos() -> list[str]:
+    candidatos = rastreados()
+    if candidatos is None:
+        candidatos = recorrido()
+    relativos = []
+    for path in candidatos:
+        rel = path.relative_to(ROOT).as_posix()
+        if any(parte in EXCLUIDOS for parte in Path(rel).parts):
+            continue
+        if Path(rel).suffix.lower() in EXTENSIONES_BINARIAS:
+            continue
+        relativos.append(rel)
+    return sorted(set(relativos))
+
+
+def render() -> str:
+    rutas = archivos()
+    lineas = [
+        "# Índice de archivos",
+        "",
+        "Generado por `tools/build_file_index.py` desde los archivos reales del",
+        "repositorio. No se edita a mano.",
+        "",
+        f"**{len(rutas)} archivos de texto versionados.**",
+        "",
+    ]
+    lineas += [f"- `{ruta}`" for ruta in rutas]
+    lineas += [
+        "",
+        "## Verificación",
+        "",
+        "```bash",
+        "python tools/build_file_index.py --check",
+        "```",
+        "",
+    ]
+    return "\n".join(lineas)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true")
+    args = parser.parse_args()
+
+    contenido = render()
+    actual = INDEX.read_text(encoding="utf-8") if INDEX.exists() else ""
+
+    if args.check:
+        if actual != contenido:
+            print("FILE_INDEX.md esta desactualizado. Ejecuta: python tools/build_file_index.py")
+            return 1
+        print("FILE_INDEX.md refleja los archivos reales")
+        return 0
+
+    INDEX.write_text(contenido, encoding="utf-8", newline="\n")
+    print(f"FILE_INDEX.md generado: {len(archivos())} archivos")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

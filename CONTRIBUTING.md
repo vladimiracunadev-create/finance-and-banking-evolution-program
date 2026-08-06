@@ -30,12 +30,18 @@ python tools/validate_program.py
 python tools/render_program.py --check
 python tools/build_syllabus.py --check
 python tools/progress.py --check
+python tools/build_file_index.py --check
+python tools/validate_metadata.py
+python tools/validate_openapi.py
+python tools/validate_datasets.py
+python tools/detect_secrets.py
+python tools/detect_pii.py
 python tools/check_links.py
 pytest -q
 npx markdownlint-cli2
 ```
 
-Los siete deben pasar. Es lo mismo que verifica la integración continua.
+Los trece deben pasar. Es lo mismo que verifica la integración continua.
 
 Si tocas el portal de estudio, verifica además que se genere:
 
@@ -84,11 +90,27 @@ Además:
 | Bloques generados presentes (`gen:header`, `gen:agenda`, `gen:etica`, `gen:footer`) | `validate_program.py` |
 | **Al menos cuatro fuentes** en `📗 Fuentes y verificación` | `validate_program.py` |
 | Enlaces relativos que resuelvan | `check_links.py` |
+| Línea de verificación si la clase cita un instrumento normativo | `validate_metadata.py` |
+
+### Adicional para la Etapa 5 (parte ≥ 17)
+
+Las clases de finanzas digitales llevan además un encabezado regulatorio y cinco
+secciones más. `validate_metadata.py` las exige:
+
+| Requisito | Detalle |
+|---|---|
+| Encabezado regulatorio | `jurisdictions`, `regulatory_topics`, `regulation_last_verified`, `regulatory_status`, `primary_authorities`, `requires_legal_review` |
+| Secciones adicionales | `🧠 Modelo mental`, `🧭 Perspectivas`, `⚖️ Riesgos y controles`, `🧪 Práctica`, `🔗 Referencias cruzadas` |
+| Fecha de verificación | ISO 8601 y **no futura** |
+| Aviso legal | Si `requires_legal_review: true`, la clase declara que no constituye asesoría legal |
+
+Usa listas en línea (`[global, chile]`) en el encabezado: el renderizador reconstruye
+el YAML clave a clave y una lista multilínea se perdería.
 
 ### Secciones recomendadas
 
-`🧠 Modelo mental` y `🧪 Práctica` no son obligatorias para la validación, y todas las
-clases del programa las incluyen porque sostienen su estructura pedagógica.
+`🧠 Modelo mental` y `🧪 Práctica` no son obligatorias en las Partes 1 a 16, y todas
+las clases del programa las incluyen porque sostienen su estructura pedagógica.
 
 ### Lo que no se edita a mano
 

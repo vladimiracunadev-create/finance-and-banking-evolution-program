@@ -99,5 +99,36 @@ git diff --staged
 
 ---
 
+## Datos, secretos y material de laboratorio
+
+El repositorio contiene **claves de juguete** en el entorno simulado de la
+Parte 17. Están versionadas a propósito: el material necesita mostrar la forma
+de un flujo de autorización completo. Fuera de un laboratorio, versionar eso
+sería un incidente.
+
+Dos comprobaciones automáticas mantienen la distinción:
+
+| Herramienta | Qué busca |
+|---|---|
+| `tools/detect_secrets.py` | Claves privadas, tokens de proveedor y cadenas de conexión con contraseña, ignorando los valores marcados como ejemplo |
+| `tools/detect_pii.py` | RUT con dígito verificador válido, tarjetas que pasan Luhn, IBAN y correos con dominio real, en `datasets/`, `portfolio/`, `projects/` y `apps/**/data/` |
+
+Ambas se ejecutan en cada cambio, junto con `gitleaks` sobre el historial
+completo.
+
+### Lo que este repositorio no acepta
+
+- Credenciales, semillas o tokens reales, ni siquiera revocados.
+- Datos personales de cualquier persona, aunque sean propios.
+- Herramientas para ocultar el origen de fondos, evadir controles de prevención
+  de lavado, romper la trazabilidad, manipular mercados o cometer fraude.
+- Conexiones a entidades reales, redes públicas o servicios de pago.
+
+Los ataques se describen para poder detectarlos y cortarlos, y se implementan
+únicamente como **pruebas que deben fallar**, nunca como utilidades
+reutilizables.
+
+---
+
 **Ver también:** [Ética y limitaciones](docs/etica-y-limitaciones.md) ·
 [Contribuir](CONTRIBUTING.md) · [Código de conducta](CODE_OF_CONDUCT.md)

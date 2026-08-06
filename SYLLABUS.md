@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**16 partes · 240 clases · 360 horas ·
+**17 partes · 254 clases · 381 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -26,7 +26,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 14 | [Fintech, datos e inteligencia artificial](modules/13-fintech-datos-e-inteligencia-artificial/README.md) | 14 | 21.0 | Dirección — empresa, tecnología, estrategia y proyecto |
 | 15 | [Estrategia y dirección bancaria](modules/14-estrategia-y-direccion-bancaria/README.md) | 14 | 21.0 | Dirección — empresa, tecnología, estrategia y proyecto |
 | 16 | [Proyecto Banco Virtual](modules/15-proyecto-banco-virtual/README.md) | 18 | 27.0 | Dirección — empresa, tecnología, estrategia y proyecto |
-| | **Total** | **240** | **360** | |
+| 17 | [Finanzas abiertas, APIs y economía de datos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **254** | **381** | |
 
 ## Índice de clases
 
@@ -386,21 +387,45 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 17 | [Simulación de una crisis](modules/15-proyecto-banco-virtual/classes/17-simulacion-de-una-crisis.md) | profesional |
 | 18 | [Defensa y cierre](modules/15-proyecto-banco-virtual/classes/18-defensa-y-cierre.md) | profesional |
 
+### Parte 17 — Finanzas abiertas, APIs y economía de datos
+
+[Índice de la parte](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) · [Laboratorios](modules/16-finanzas-abiertas-apis-y-economia-de-datos/labs) · [Evaluaciones](modules/16-finanzas-abiertas-apis-y-economia-de-datos/assessments) · [Proyecto](modules/16-finanzas-abiertas-apis-y-economia-de-datos/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [Banca abierta, finanzas abiertas y datos abiertos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/01-banca-abierta-finanzas-abiertas-y-datos-abiertos.md) | profesional |
+| 02 | [Ecosistema, participantes y modelos de implantación](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/02-ecosistema-participantes-y-modelos-de-implantacion.md) | profesional |
+| 03 | [El Sistema de Finanzas Abiertas de Chile](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/03-sistema-de-finanzas-abiertas-de-chile.md) | profesional |
+| 04 | [Clasificación, calidad y gobierno de datos financieros](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/04-clasificacion-calidad-y-gobierno-de-datos.md) | profesional |
+| 05 | [Consentimiento: creación, vigencia, renovación y revocación](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/05-consentimiento-ciclo-de-vida.md) | profesional |
+| 06 | [OAuth, OpenID Connect y autorización financiera](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/06-oauth-openid-connect-y-autorizacion.md) | profesional |
+| 07 | [Financial-grade APIs, certificados y firma de mensajes](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/07-financial-grade-apis-y-firma.md) | profesional |
+| 08 | [Diseño, versionado e idempotencia](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/08-diseno-versionado-e-idempotencia.md) | profesional |
+| 09 | [APIs de cuentas, productos, créditos, seguros e inversiones](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/09-apis-de-informacion-financiera.md) | profesional |
+| 10 | [Iniciación de pagos y confirmación de fondos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/10-iniciacion-de-pagos-y-confirmacion-de-fondos.md) | profesional |
+| 11 | [Autenticación reforzada, fraude y responsabilidad](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/11-autenticacion-reforzada-fraude-y-responsabilidad.md) | profesional |
+| 12 | [Privacidad, finalidad, minimización y portabilidad](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/12-privacidad-finalidad-y-portabilidad.md) | profesional |
+| 13 | [Disponibilidad, SLA, observabilidad e incidentes](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/13-disponibilidad-sla-y-observabilidad.md) | profesional |
+| 14 | [Proyecto: agregador financiero regulado](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/14-proyecto-agregador-financiero-regulado.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 16 proyectos integradores.
+- Entrega de los 17 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Banco Virtual» (Parte 16, clase 18).
+- Defensa del proyecto final «Finanzas abiertas, APIs y economía de datos» (Parte 17, clase 14).
 
 ## Resultados finales
 
 Al completar el programa, quien lo recorra podrá interpretar productos
 financieros, modelar decisiones, analizar estados financieros, evaluar
 créditos, comprender operaciones bancarias, medir riesgos, diseñar
-controles, aplicar el marco regulatorio y dirigir un banco simulado,
-sosteniendo cada decisión con su fundamento, sus supuestos y sus límites.
+controles, aplicar el marco regulatorio y dirigir un banco simulado;
+y en la Etapa 5, diseñar y defender infraestructura de finanzas abiertas,
+pagos transfronterizos, activos digitales, tokenización y liquidación
+programable, sosteniendo cada decisión con su fundamento, sus supuestos
+y sus límites.
 
 ## Verificación
 

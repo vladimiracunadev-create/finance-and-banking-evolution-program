@@ -5,46 +5,155 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
-## [1.1.0] â€” 2026-08-06
+## [1.2.0] — 2026-08-06
 
-Portal de estudio publicado y endurecimiento de la integraciÃ³n continua siguiendo las
+Comienza la **Etapa 5 — Finanzas digitales, infraestructura y mercados
+tokenizados**, que continúa el programa desde la introducción fintech de la
+Parte 14 hacia la infraestructura financiera. Esta versión publica la primera de
+sus siete partes.
+
+> **Sobre la numeración.** La ampliación completa de la Etapa 5 se publicará como
+> `2.0.0` cuando existan sus siete partes. Declarar `2.0.0` con una de siete
+> contradiría el principio que sostiene el repositorio: `STATUS.md` describe lo
+> que hay, no lo que se planea.
+
+### Añadido
+
+**Parte 17 — Finanzas abiertas, APIs y economía de datos**
+
+- 14 clases de 90 minutos, con el eje de que las finanzas abiertas no son una
+  API sino un régimen de consentimiento con soporte técnico.
+- 6 laboratorios reproducibles, cada uno con escenario, supuestos, criterios de
+  aceptación, amenazas, rúbrica y **solución de referencia comentada**.
+- Evaluación diagnóstica y evaluación final con rúbrica, escala y guía de
+  corrección con los cálculos resueltos.
+- Proyecto integrador «agregador financiero regulado», con expediente de doce
+  piezas y guion de defensa.
+
+**Aplicación `apps/open_finance_sandbox/`**
+
+- Entorno simulado completo: servidor de autorización con PKCE, API de cuentas,
+  panel de consentimientos, iniciación de pagos y proveedor tercero.
+- Contrato `openapi.json` validado en integración continua.
+- 28 pruebas, en su mayoría **negativas**, y batería de conformidad de 16 casos
+  en cuatro familias, con sus limitaciones declaradas.
+- Modelo de amenazas priorizado por impacto × probabilidad, con la prueba que
+  verifica cada control.
+
+**Herramientas de validación**
+
+- `tools/validate_metadata.py`: falla si una clase cita un instrumento normativo
+  sin declarar su fecha de verificación.
+- `tools/validate_openapi.py`: alcances declarados, respuestas de error,
+  referencias resueltas, importes que no son coma flotante y enumerados con
+  cláusula de compatibilidad.
+- `tools/validate_datasets.py`: todo conjunto de datos con ficha, toda columna
+  con diccionario.
+- `tools/detect_secrets.py` y `tools/detect_pii.py`: credenciales reales y datos
+  personales, distinguiendo el valor de ejemplo del secreto.
+
+**Metadatos regulatorios**
+
+- Directorio `regulatory/` con una ficha por instrumento: autoridad, número,
+  fechas, estado, alcance, fuente oficial y `last_verified`.
+- Encabezado YAML ampliado en las clases de la Etapa 5: `jurisdictions`,
+  `regulatory_topics`, `regulation_last_verified`, `regulatory_status`,
+  `primary_authorities` y `requires_legal_review`.
+
+**Datos**
+
+- `datasets/synthetic/open_finance_consents.csv`: 1 200 consentimientos con los
+  patrones que las clases analizan (revocación temprana, fatiga).
+- Separación `raw/`, `processed/`, `synthetic/`, `schemas/`.
+- Ficha con diccionario, supuestos, calidad y límites para **los cuatro**
+  conjuntos, incluidos los tres históricos que no la tenían.
+
+**Documentación**
+
+- `docs/etapa-5-finanzas-digitales.md`, `docs/mapa-finanzas-abiertas.md`,
+  `docs/metodologia-verificacion-regulatoria.md`,
+  `docs/guia-laboratorios-digitales.md` y
+  `docs/glosario-finanzas-digitales.md`, este último con el campo «qué NO
+  significa» en cada término.
+
+### Cambiado
+
+- `tools/progress.py` cuenta los componentes no curriculares sobre los archivos
+  reales en lugar de declararlos a mano.
+- `tools/build_syllabus.py` reconoce la Etapa 5 y calcula el número de proyectos
+  y la clase final desde el contenido.
+- `tools/build_site.py` deriva el número de partes y clases del repositorio: el
+  pie del portal ya no puede quedar desactualizado.
+- `datasets/README.md` documenta la organización y las cinco reglas de datos.
+
+### Corregido
+
+- `CHANGELOG.md` tenía 66 líneas con codificación corrompida (mojibake) en la
+  entrada 1.1.0. Reparadas a UTF-8 correcto.
+- Las cifras «240 clases» y «16 partes» escritas a mano en generadores y
+  documentación quedaban desactualizadas al crecer el programa; ahora se
+  calculan.
+
+### Seguridad
+
+- Las claves del entorno simulado son de juguete y están versionadas a
+  propósito; `tools/detect_secrets.py` distingue ese caso del secreto real.
+- Ningún dato personal, ningún fondo real, ninguna red externa y ninguna
+  herramienta reutilizable de ataque: los ataques existen solo como pruebas que
+  deben fallar.
+
+### Notas de migración
+
+- Las clases de las Partes 1 a 16 **no cambian**. El encabezado ampliado y las
+  secciones adicionales solo se exigen a partir de la parte 17.
+- La regla «toda cita de un instrumento lleva línea de verificación» sí se
+  aplica a todo el repositorio; las 15 clases anteriores que citan instrumentos
+  ya la cumplían.
+- Quien tuviera un guion propio contra `tools/progress.py` debe saber que
+  `PLANNED` incluye ahora las siete partes de la Etapa 5.
+
+---
+
+## [1.1.0] — 2026-08-06
+
+Portal de estudio publicado y endurecimiento de la integración continua siguiendo las
 convenciones del resto de los programas del autor.
 
-### AÃ±adido
+### Añadido
 
 **Portal de estudio**
 
-- `tools/build_site.py` genera un sitio navegable con las 467 pÃ¡ginas del material:
-  240 clases, documentaciÃ³n, laboratorios, evaluaciones y proyectos.
-- El sitio espeja la estructura del repositorio (`X.md` â†’ `X.html` en la misma ruta),
+- `tools/build_site.py` genera un sitio navegable con las 467 páginas del material:
+  240 clases, documentación, laboratorios, evaluaciones y proyectos.
+- El sitio espeja la estructura del repositorio (`X.md` → `X.html` en la misma ruta),
   de modo que cualquier enlace del material funciona dentro del portal.
-- Diagramas mermaid renderizados, tema claro y oscuro, navegaciÃ³n por migas y diseÃ±o
+- Diagramas mermaid renderizados, tema claro y oscuro, navegación por migas y diseño
   adaptable.
 - Publicado en GitHub Pages y verificado tras el despliegue.
 
-**Flujos de integraciÃ³n continua**
+**Flujos de integración continua**
 
-- `ci.yml` reemplaza a `validate.yml`: aÃ±ade estilo de Markdown, matriz de
-  compatibilidad (3 sistemas Ã— 3 versiones de Python), auditorÃ­a de los propios
+- `ci.yml` reemplaza a `validate.yml`: añade estilo de Markdown, matriz de
+  compatibilidad (3 sistemas × 3 versiones de Python), auditoría de los propios
   workflows con `actionlint` y `zizmor`, y puerta de calidad final.
-- `security.yml`: `pip-audit` sobre las dependencias, `bandit` sobre el cÃ³digo y
+- `security.yml`: `pip-audit` sobre las dependencias, `bandit` sobre el código y
   escaneo de secretos con `gitleaks` sobre el historial completo.
-- `codeql.yml`: anÃ¡lisis semÃ¡ntico del cÃ³digo Python.
+- `codeql.yml`: análisis semántico del código Python.
 - `pages.yml`: genera, publica y verifica el portal.
 - `enlaces-externos.yml`: revisa semanalmente los enlaces a fuentes oficiales y abre
   un issue si alguno cae. Informativo: no bloquea la CI.
-- `release.yml`: al etiquetar una versiÃ³n publica el programa completo, las clases por
-  separado, el SBOM en formato CycloneDX y las sumas de verificaciÃ³n.
+- `release.yml`: al etiquetar una versión publica el programa completo, las clases por
+  separado, el SBOM en formato CycloneDX y las sumas de verificación.
 
-**ConfiguraciÃ³n**
+**Configuración**
 
-- `.markdownlint-cli2.jsonc` con las reglas de estilo y la razÃ³n de cada excepciÃ³n.
-- `.lycheeignore` con los dominios que bloquean agentes automÃ¡ticos.
+- `.markdownlint-cli2.jsonc` con las reglas de estilo y la razón de cada excepción.
+- `.lycheeignore` con los dominios que bloquean agentes automáticos.
 - `requirements-site.txt` con las dependencias del portal.
 
 ### Cambiado
 
-- Acciones de terceros **fijadas por SHA de commit**, con su versiÃ³n en comentario.
+- Acciones de terceros **fijadas por SHA de commit**, con su versión en comentario.
 - `persist-credentials: false` en todos los checkout, para no dejar el token en `.git`.
 - `timeout-minutes` en todos los jobs.
 - Ninguna expresión `${{ }}` se interpola dentro de un `run`: los valores entran por
@@ -58,88 +167,88 @@ convenciones del resto de los programas del autor.
 ### Corregido
 
 - Seis errores de estilo de Markdown detectados por `markdownlint`: un nivel de
-  encabezado saltado, tres tablas con celdas de mÃ¡s por barras verticales sin escapar,
-  una almohadilla sin espacio interpretada como encabezado y un enlace vacÃ­o.
+  encabezado saltado, tres tablas con celdas de más por barras verticales sin escapar,
+  una almohadilla sin espacio interpretada como encabezado y un enlace vacío.
 
 ---
 
-## [1.0.0] â€” 2026-08-06
+## [1.0.0] — 2026-08-06
 
-Primera versiÃ³n completa del programa: **las 240 clases redactadas, verificadas y con
-bibliografÃ­a oficial**.
+Primera versión completa del programa: **las 240 clases redactadas, verificadas y con
+bibliografía oficial**.
 
-### AÃ±adido
+### Añadido
 
-**Contenido â€” 240 clases en 16 partes**
+**Contenido — 240 clases en 16 partes**
 
-- Partes 1â€“4 Â· *Fundamentos* (56 clases): matemÃ¡tica financiera, finanzas personales,
+- Partes 1–4 · *Fundamentos* (56 clases): matemática financiera, finanzas personales,
   productos y servicios, seguridad y consumo financiero.
-- Partes 5â€“8 Â· *Analista* (60 clases): contabilidad, economÃ­a y sistema financiero,
-  matemÃ¡tica financiera avanzada, inversiones y mercados.
-- Partes 9â€“12 Â· *Bancario* (64 clases): crÃ©dito, operaciones, gestiÃ³n integral de
-  riesgos, regulaciÃ³n y cumplimiento.
-- Partes 13â€“16 Â· *DirecciÃ³n* (60 clases): finanzas corporativas, fintech y datos,
-  estrategia y direcciÃ³n, y el proyecto integrador Â«Banco VirtualÂ».
+- Partes 5–8 · *Analista* (60 clases): contabilidad, economía y sistema financiero,
+  matemática financiera avanzada, inversiones y mercados.
+- Partes 9–12 · *Bancario* (64 clases): crédito, operaciones, gestión integral de
+  riesgos, regulación y cumplimiento.
+- Partes 13–16 · *Dirección* (60 clases): finanzas corporativas, fintech y datos,
+  estrategia y dirección, y el proyecto integrador «Banco Virtual».
 
-**Estructura pedagÃ³gica**
+**Estructura pedagógica**
 
-- Trece secciones por clase, incluidas ejemplo numÃ©rico guiado paso a paso, puente
-  Â«del cliente al bancoÂ», errores frecuentes con causa y correcciÃ³n, preguntas de
-  comprobaciÃ³n y entregable de portafolio.
-- MÃ­nimo de cuatro fuentes verificables por clase, con lÃ­nea de verificaciÃ³n local en
+- Trece secciones por clase, incluidas ejemplo numérico guiado paso a paso, puente
+  «del cliente al banco», errores frecuentes con causa y corrección, preguntas de
+  comprobación y entregable de portafolio.
+- Mínimo de cuatro fuentes verificables por clase, con línea de verificación local en
   todo contenido normativo.
 - 96 laboratorios, 32 evaluaciones y 16 proyectos integradores.
 
-**Herramientas de verificaciÃ³n**
+**Herramientas de verificación**
 
-- `tools/validate_program.py` â€” estructura, secciones obligatorias y fuentes.
-- `tools/render_program.py` â€” genera navegaciÃ³n, agenda docente y bloque de Ã©tica,
+- `tools/validate_program.py` — estructura, secciones obligatorias y fuentes.
+- `tools/render_program.py` — genera navegación, agenda docente y bloque de ética,
   con modo `--check` idempotente.
-- `tools/build_syllabus.py` â€” genera `SYLLABUS.md` con el Ã­ndice de las 240 clases.
-- `tools/progress.py` â€” genera `STATUS.md` desde los archivos reales.
-- `tools/check_links.py` â€” verifica los ~2 000 enlaces relativos del repositorio.
+- `tools/build_syllabus.py` — genera `SYLLABUS.md` con el índice de las 240 clases.
+- `tools/progress.py` — genera `STATUS.md` desde los archivos reales.
+- `tools/check_links.py` — verifica los ~2 000 enlaces relativos del repositorio.
 
-**DocumentaciÃ³n**
+**Documentación**
 
-- `README.md` reescrito con navegaciÃ³n, insignias, diagramas y anatomÃ­a de una clase.
-- `docs/fuentes.md` â€” bibliografÃ­a consolidada de manuales, marcos institucionales y
-  artÃ­culos fundacionales.
-- `docs/glosario.md` â€” definiciones operativas indexadas por parte.
-- `docs/formulas.md` â€” formulario por dominio, con la trampa habitual de cada fÃ³rmula.
-- `docs/guia-docente.md` â€” sesiÃ³n de 90 minutos, rÃºbricas y adaptaciÃ³n por contexto.
-- `docs/ruta-aprendizaje.md` â€” progresiÃ³n, puntos de entrada y cadenas de dependencia.
-- `docs/mapa-competencias.md` â€” competencias por nivel con listas de autoevaluaciÃ³n.
-- `docs/etica-y-limitaciones.md` â€” alcance, uso de datos, modelos y contenidos sensibles.
+- `README.md` reescrito con navegación, insignias, diagramas y anatomía de una clase.
+- `docs/fuentes.md` — bibliografía consolidada de manuales, marcos institucionales y
+  artículos fundacionales.
+- `docs/glosario.md` — definiciones operativas indexadas por parte.
+- `docs/formulas.md` — formulario por dominio, con la trampa habitual de cada fórmula.
+- `docs/guia-docente.md` — sesión de 90 minutos, rúbricas y adaptación por contexto.
+- `docs/ruta-aprendizaje.md` — progresión, puntos de entrada y cadenas de dependencia.
+- `docs/mapa-competencias.md` — competencias por nivel con listas de autoevaluación.
+- `docs/etica-y-limitaciones.md` — alcance, uso de datos, modelos y contenidos sensibles.
 - `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` y `SECURITY.md` ampliados.
 
-**IntegraciÃ³n continua**
+**Integración continua**
 
-- Flujo `Validate program` con trabajos de validaciÃ³n, enlaces y calidad de Markdown.
-- Permisos mÃ­nimos, control de concurrencia y cachÃ© de dependencias.
+- Flujo `Validate program` con trabajos de validación, enlaces y calidad de Markdown.
+- Permisos mínimos, control de concurrencia y caché de dependencias.
 
 ### Cambiado
 
-- `SYLLABUS.md` pasa de ser una tabla escrita a mano a un Ã­ndice generado desde los
+- `SYLLABUS.md` pasa de ser una tabla escrita a mano a un índice generado desde los
   archivos: incluye las 240 clases con su nivel y su enlace.
-- `STATUS.md` se genera desde los archivos y nunca declara mÃ¡s contenido del que existe.
+- `STATUS.md` se genera desde los archivos y nunca declara más contenido del que existe.
 - Nombres de archivo normalizados a ASCII para compatibilidad entre sistemas y URL.
-- Finales de lÃ­nea unificados a LF mediante `.gitattributes`.
+- Finales de línea unificados a LF mediante `.gitattributes`.
 
 ---
 
-## [0.1.0] â€” 2026-08-05
+## [0.1.0] — 2026-08-05
 
-VersiÃ³n inicial: estructura del programa y herramientas base.
+Versión inicial: estructura del programa y herramientas base.
 
-### AÃ±adido
+### Añadido
 
 - Arquitectura curricular de 16 partes y 240 clases.
 - 96 laboratorios y 32 evaluaciones estructurados.
-- Calculadoras financieras con interfaz de lÃ­nea de comandos.
-- Modelo de scoring crediticio con mÃ©tricas.
+- Calculadoras financieras con interfaz de línea de comandos.
+- Modelo de scoring crediticio con métricas.
 - Banco virtual sobre SQLite.
-- Conjuntos de datos sintÃ©ticos.
-- ValidaciÃ³n estructural inicial.
+- Conjuntos de datos sintéticos.
+- Validación estructural inicial.
 
 ---
 

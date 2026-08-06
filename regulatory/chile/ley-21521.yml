@@ -1,0 +1,39 @@
+# Ficha normativa. Subconjunto plano de YAML, por decision de diseno: el
+# repositorio se valida con la biblioteca estandar y no anade una dependencia
+# solo para leer doce campos. Ver tools/validate_metadata.py.
+#
+# ESTA FICHA NO ES ASESORIA LEGAL. Verifica siempre en la fuente oficial.
+country: Chile
+authority: CMF
+instrument_type: ley
+instrument_number: "21.521"
+title: >-
+  Ley que promueve la competencia e inclusion financiera a traves de la
+  innovacion y tecnologia en la prestacion de servicios financieros
+publication_date: "2023-01-04"
+effective_date: "2023-02-03"
+implementation_stage: despliegue por fases mediante normativa de la CMF
+status: vigente
+scope: >-
+  Crea el registro de prestadores de servicios financieros y el Sistema de
+  Finanzas Abiertas. No crea una licencia bancaria simplificada ni exime de
+  las obligaciones de prevencion de lavado de activos.
+activities_covered:
+  - plataformas de financiamiento colectivo
+  - sistemas alternativos de transaccion
+  - intermediacion de instrumentos financieros
+  - custodia de instrumentos financieros
+  - asesoria crediticia
+  - asesoria de inversion
+  - enrutamiento de ordenes
+  - sistema de finanzas abiertas
+official_source: https://www.bcn.cl/leychile
+last_verified: "2026-08-06"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  El calendario real de exigibilidad esta en las normas de caracter general de
+  la CMF y en sus disposiciones transitorias, no en el cuerpo de la ley.
+  Comprueba en el sitio de la CMF que normas estan vigentes para tu actividad,
+  en que fase esta el Sistema de Finanzas Abiertas y que version del anexo
+  tecnico rige. Ver Parte 17, clase 3 y Parte 22, clase 4.

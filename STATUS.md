@@ -3,9 +3,9 @@
 Este archivo lo genera `tools/progress.py` a partir de los archivos reales
 del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 
-## Avance global: 240 de 240 clases (100.0 %)
+## Avance global: 254 de 352 clases (72.2 %)
 
-`████████████████████████████████████████`
+`█████████████████████████████░░░░░░░░░░░`
 
 | Parte | Tema | Clases | Plan | Avance | Tamaño medio |
 |---:|---|---:|---:|---|---:|
@@ -25,7 +25,14 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 17.8 KB |
 | 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 17.8 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 17.5 KB |
-| | **Total** | **240** | **240** | `████████████████████` | **15.7 KB** |
+| 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 17.6 KB |
+| 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 19 | Parte 19: Blockchain y DLT para instituciones financieras | 0 | 14 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 22 | Parte 22: Regulación de mercados financieros digitales | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| | **Total** | **254** | **352** | `██████████████░░░░░░` | **15.8 KB** |
 
 ## Qué significa que una clase esté completa
 
@@ -40,16 +47,20 @@ Una clase solo se cuenta aquí si supera `tools/validate_program.py`, que exige:
 
 ## Otros componentes
 
-| Componente | Estado |
-|---|---|
-| Arquitectura curricular (16 partes) | Completa |
-| Laboratorios (96) | Estructurados |
-| Evaluaciones (32) | Diagnóstico y final por parte |
-| Proyectos integradores (16) | Especificados |
-| Calculadoras financieras | MVP funcional con pruebas |
-| Banco virtual (SQLite) | MVP funcional con pruebas |
-| Datasets sintéticos | Iniciales |
-| Adaptación normativa por país | Plantilla; cada clase indica qué verificar |
+Las cifras de esta tabla se cuentan sobre los archivos reales; no se
+escriben a mano.
+
+| Componente | Cantidad | Estado |
+|---|---:|---|
+| Arquitectura curricular (partes) | 17 | Completa |
+| Laboratorios | 102 | Estructurados |
+| Evaluaciones | 34 | Diagnóstico y final por parte |
+| Proyectos integradores | 17 | Especificados |
+| Aplicaciones didácticas | 4 | Ejecutables con pruebas |
+| Estudios de caso | 0 | Con hechos, fuentes y preguntas |
+| Fichas normativas estructuradas | 1 | Con fecha de verificación |
+| Datasets documentados | 4 | Sintéticos, con diccionario |
+| Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |
 
 ## Cómo verificarlo
 

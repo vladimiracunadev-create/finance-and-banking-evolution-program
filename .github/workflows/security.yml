@@ -81,6 +81,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      # Detectores propios del repositorio. gitleaks busca patrones genericos
+      # en el historial; estos dos conocen el material: distinguen la clave de
+      # juguete de un laboratorio de un secreto real, y comprueban el digito
+      # verificador de un RUT y de una tarjeta antes de dar la alarma.
+      - name: Buscar credenciales reales
+        run: python tools/detect_secrets.py
+
+      - name: Buscar datos personales en datos y portafolio
+        run: python tools/detect_pii.py
+
   resultado:
     name: Puerta de seguridad
     runs-on: ubuntu-latest

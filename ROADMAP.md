@@ -3,68 +3,114 @@
 Estado y prioridades del programa. Las contribuciones en cualquiera de estas líneas son
 bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
----
-
-## ✅ Completado — v1.0.0
-
-| Línea | Estado |
-|---|---|
-| 240 clases redactadas, verificadas y con fuentes | ✅ Completo |
-| Estructura de 13 secciones por clase | ✅ Completo |
-| Mínimo de 4 fuentes verificables por clase | ✅ Completo |
-| 96 laboratorios, 32 evaluaciones, 16 proyectos | ✅ Estructurados |
-| Calculadoras, scoring y banco virtual con pruebas | ✅ Funcionales |
-| Generación automática de índice y estado | ✅ Completo |
-| Verificación de enlaces y de estructura en CI | ✅ Completo |
-| Documentación de referencia | ✅ Completo |
+> El avance real, contado sobre los archivos, está en **[STATUS.md](STATUS.md)**.
+> Este documento describe el plan; aquel describe lo que existe.
 
 ---
 
-## 🔜 Próximo — v1.1
+## ✅ Completado
 
-Profundizar la práctica sin tocar la estructura del contenido.
-
-| Línea | Descripción | Prioridad |
-|---|---|:---:|
-| **Soluciones de laboratorios** | Respuestas comentadas de los 96 laboratorios | Alta |
-| **Rúbricas por proyecto** | Rúbrica detallada de cada uno de los 16 proyectos | Alta |
-| **Hojas de trabajo** | Plantillas descargables para los ejercicios más largos | Media |
-| **Cuadernos ejecutables** | Notebooks para valoración, carteras, scoring y estrés | Media |
-| **Datos sintéticos ampliados** | Series por cosecha para los ejercicios de las Partes 9, 11 y 16 | Media |
-| **Índice de conceptos** | Dónde se define y dónde se usa cada término | Baja |
+| Línea | Versión | Estado |
+|---|---|---|
+| 240 clases de las 16 partes originales, con fuentes | 1.0.0 | ✅ Completo |
+| 96 laboratorios, 32 evaluaciones, 16 proyectos | 1.0.0 | ✅ Estructurados |
+| Calculadoras, scoring y banco virtual con pruebas | 1.0.0 | ✅ Funcionales |
+| Portal de estudio en GitHub Pages | 1.1.0 | ✅ Publicado |
+| Integración continua endurecida y auditada | 1.1.0 | ✅ Completo |
+| **Parte 17 — Finanzas abiertas, APIs y economía de datos** | 1.2.0 | ✅ Publicada |
+| Entorno `open_finance_sandbox` con 28 pruebas | 1.2.0 | ✅ Funcional |
+| Validadores de metadatos, OpenAPI, datasets, secretos y PII | 1.2.0 | ✅ En CI |
+| Fichas normativas estructuradas | 1.2.0 | ✅ Iniciadas |
 
 ---
 
-## 🌎 Ediciones locales — v1.2
+## 🚧 En curso — Etapa 5, hacia la v2.0.0
+
+**Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados.**
+La ampliación se publicará como `2.0.0` cuando existan sus siete partes. Cada
+parte se entrega completa —clases, laboratorios con solución, evaluaciones,
+proyecto y aplicación— y en verde antes de empezar la siguiente.
+
+| Parte | Tema | Clases | Aplicación asociada | Estado |
+|---:|---|---:|---|---|
+| 17 | Finanzas abiertas, APIs y economía de datos | 14 | `open_finance_sandbox` | ✅ Publicada |
+| 18 | Pagos transfronterizos, remesas y liquidación | 16 | `cross_border_payments_lab` | 🔜 Siguiente |
+| 19 | Blockchain y DLT para instituciones financieras | 14 | `dlt_financial_lab` | Prevista |
+| 20 | Activos digitales, stablecoins y dinero programable | 16 | `digital_assets_risk_lab` | Prevista |
+| 21 | Tokenización, FX on-chain y mercados programables | 16 | `tokenization_platform`, `onchain_fx_lab` | Prevista |
+| 22 | Regulación de mercados financieros digitales | 18 | `regulatory_perimeter_engine` | Prevista |
+| 23 | Proyecto: banco digital y mercado tokenizado | 18 | Capstone integrado | Prevista |
+
+### Qué incluye cada parte antes de darse por publicada
+
+1. Todas sus clases, con encabezado regulatorio y las cinco secciones adicionales.
+2. Sus laboratorios, cada uno con **solución de referencia comentada**.
+3. Evaluación diagnóstica y final, con rúbrica y guía de corrección.
+4. Proyecto integrador con criterios de aceptación verificables.
+5. Aplicación ejecutable con pruebas, en su mayoría negativas.
+6. Modelo de amenazas priorizado, con una prueba por control.
+7. Documento de mapa en `docs/` y ampliación del glosario digital.
+8. Fichas normativas de los instrumentos que cita.
+9. Todo el repositorio en verde: nueve validadores y las pruebas.
+
+### Trabajo transversal pendiente de la etapa
+
+| Línea | Descripción | Cuándo |
+|---|---|---|
+| **Integración con partes antiguas** | Bloques «para profundizar» en las Partes 8, 10, 11, 12, 13, 14 y 16 | Con cada parte nueva |
+| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Con cada parte nueva |
+| **Mapas de documentación** | Uno por parte, como el de finanzas abiertas | Con cada parte |
+| **Glosario digital** | Se amplía con los términos de cada parte | Con cada parte |
+| **Fichas normativas** | Chile, Unión Europea e internacional comparada | Partes 22 y 23 |
+
+---
+
+## 🔧 Herramientas
+
+| Línea | Descripción | Estado |
+|---|---|---|
+| Validación de metadatos regulatorios | Ninguna norma sin fecha | ✅ 1.2.0 |
+| Validación de contratos OpenAPI | Alcances, errores, importes, enumerados | ✅ 1.2.0 |
+| Validación de datasets | Ficha y diccionario obligatorios | ✅ 1.2.0 |
+| Detección de secretos y de PII | Distingue el ejemplo del secreto | ✅ 1.2.0 |
+| Índice de archivos generado | `FILE_INDEX.md` deja de escribirse a mano | ✅ 1.2.0 |
+| Validación de mensajes ISO 20022 sintéticos | Estructura y campos obligatorios | Con la Parte 18 |
+| Matriz de competencias generada | Desde los encabezados de clase | Prevista |
+| Inventario de aplicaciones generado | Desde `apps/` | Prevista |
+| Generador de datos sintéticos configurable | Por segmento, cosecha y escenario | Prevista |
+
+---
+
+## 🌎 Ediciones locales
 
 El programa describe marcos internacionales. Las ediciones locales **añaden** la norma
 nacional sin sustituir el contenido base.
 
 | Edición | Alcance | Estado |
 |---|---|---|
-| **Chile** | CMF, Banco Central, ley de protección al consumidor financiero, UAF | Prevista |
-| **Latinoamérica comparada** | Cuadro comparativo de capital, liquidez, consumidor y prevención | Prevista |
-| **España / UE** | CRR/CRD, PSD2, MiFID II, RGPD, Reglamento de IA | Prevista |
+| **Chile** | CMF, Banco Central, UAF, Ley Fintec, Sistema de Finanzas Abiertas | En curso, dentro de la Etapa 5 |
+| **Unión Europea** | MiCA, DORA, DLT Pilot Regime, PSD2, RGPD | Con la Parte 22 |
+| **Latinoamérica comparada** | Brasil, México, Colombia | Con la Parte 22 |
 
 ### Requisitos de una edición local
 
 1. Se añade **al final** de la clase, en su propia sección; no modifica el contenido base.
 2. Cita la norma con su identificador y su **fecha de vigencia**.
-3. Registra la **fecha de revisión** de la adaptación.
+3. Registra la **fecha de verificación** de la adaptación.
 4. Mantiene la línea de verificación local: las normas cambian.
-5. Pasa las siete verificaciones del repositorio.
+5. Pasa todas las verificaciones del repositorio.
 
 ---
 
-## 🛠️ Herramientas — v1.3
+## 📚 Material complementario
 
-| Línea | Descripción |
-|---|---|
-| **API de las calculadoras** | Servicio con FastAPI para usarlas desde cualquier cliente |
-| **Interfaz web del banco virtual** | TypeScript gestionado con `pnpm` |
-| **Motor de decisión didáctico** | Reglas y modelo separados, como enseña la Parte 14 |
-| **Generador de datos sintéticos** | Configurable por segmento, cosecha y escenario |
-| **Simulador de ciclo** | Soporte ejecutable para la Parte 16, clase 16 |
+| Línea | Descripción | Prioridad |
+|---|---|:---:|
+| **Soluciones de laboratorios anteriores** | Respuestas comentadas de los 96 laboratorios de las Partes 1 a 16 | Alta |
+| **Rúbricas por proyecto** | Rúbrica detallada de cada proyecto integrador | Alta |
+| **Cuadernos ejecutables** | Notebooks para valoración, carteras, scoring y estrés | Media |
+| **Hojas de trabajo** | Plantillas descargables para los ejercicios largos | Media |
+| **Índice de conceptos** | Dónde se define y dónde se usa cada término | Baja |
 
 ---
 
@@ -85,9 +131,10 @@ nacional sin sustituir el contenido base.
 
 | Tarea | Frecuencia |
 |---|---|
-| Revisión de enlaces a fuentes oficiales | Trimestral |
+| Revisión de fichas normativas con más de 12 meses | Anual |
+| Revisión de jurisdicciones en despliegue por fases | Semestral |
+| Revisión de enlaces a fuentes oficiales | Trimestral, en CI |
 | Actualización de marcos normativos revisados | Al publicarse |
-| Revisión de referencias bibliográficas por nueva edición | Anual |
 | Verificación de dependencias | Continua, en CI |
 
 ---
@@ -104,4 +151,4 @@ describiendo:
 ---
 
 **Ver también:** [Historial](CHANGELOG.md) · [Ficha técnica](MANIFEST.md) ·
-[Contribuir](CONTRIBUTING.md)
+[Contribuir](CONTRIBUTING.md) · [Etapa 5](docs/etapa-5-finanzas-digitales.md)

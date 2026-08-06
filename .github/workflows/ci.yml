@@ -1,11 +1,14 @@
 name: CI
 
 # Verifica en cada cambio que el programa sigue integro:
-#   - las 240 clases mantienen su estructura, sus secciones y sus fuentes;
-#   - los documentos generados (SYLLABUS, STATUS, bloques de clase) estan al dia;
-#   - los ~2 350 enlaces internos resuelven;
+#   - todas las clases mantienen su estructura, sus secciones y sus fuentes;
+#   - ninguna clase cita una norma sin declarar su fecha de verificacion;
+#   - los documentos generados (SYLLABUS, STATUS, FILE_INDEX, bloques) estan al dia;
+#   - los contratos OpenAPI y los conjuntos de datos estan validados;
+#   - todos los enlaces internos resuelven;
 #   - el estilo de Markdown es consistente;
 #   - las aplicaciones funcionan en tres sistemas y tres versiones de Python;
+#   - no hay credenciales ni datos personales versionados;
 #   - los propios workflows pasan una auditoria de seguridad.
 #
 # Endurecimiento aplicado:
@@ -64,6 +67,20 @@ jobs:
 
       - name: Verificar que STATUS.md refleje el estado real
         run: python tools/progress.py --check
+
+      - name: Verificar que FILE_INDEX.md refleje los archivos reales
+        run: python tools/build_file_index.py --check
+
+      # Una norma citada sin fecha de verificacion es una afirmacion que no
+      # caduca. Este paso es el que impide que entre una.
+      - name: Validar metadatos regulatorios
+        run: python tools/validate_metadata.py
+
+      - name: Validar los contratos OpenAPI
+        run: python tools/validate_openapi.py
+
+      - name: Validar los conjuntos de datos y sus fichas
+        run: python tools/validate_datasets.py
 
       - name: Compilar las herramientas y aplicaciones
         run: python -m compileall -q tools apps tests

@@ -1,8 +1,9 @@
 """Genera STATUS.md a partir del estado real del repositorio.
 
-El programa está diseñado con 240 clases (ver SYLLABUS.md). Este script mide
-cuántas están efectivamente redactadas y produce un informe verificable, de modo
-que la documentación nunca afirme más de lo que el repositorio contiene.
+El programa declara en `PLANNED` cuántas clases tiene cada parte (ver SYLLABUS.md).
+Este script mide cuántas están efectivamente redactadas y produce un informe
+verificable, de modo que la documentación nunca afirme más de lo que el
+repositorio contiene.
 
 Uso:
     python tools/progress.py           # regenera STATUS.md
@@ -37,6 +38,39 @@ PLANNED = {
     "13-fintech-datos-e-inteligencia-artificial": 14,
     "14-estrategia-y-direccion-bancaria": 14,
     "15-proyecto-banco-virtual": 18,
+    # Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados.
+    "16-finanzas-abiertas-apis-y-economia-de-datos": 14,
+    "17-pagos-transfronterizos-remesas-y-liquidacion": 16,
+    "18-blockchain-y-dlt-para-instituciones-financieras": 14,
+    "19-activos-digitales-stablecoins-y-dinero-programable": 16,
+    "20-tokenizacion-fx-onchain-y-mercados-programables": 16,
+    "21-regulacion-de-mercados-financieros-digitales": 18,
+    "22-proyecto-banco-digital-y-mercado-tokenizado": 18,
+}
+
+
+# Titulo de las partes planificadas cuyo directorio todavia no existe. En cuanto
+# la parte se crea, su README.md pasa a ser la fuente del titulo y esta entrada
+# deja de usarse: no hay dos sitios donde mantener el mismo dato.
+PLANNED_TITLES = {
+    "17-pagos-transfronterizos-remesas-y-liquidacion": (
+        "Parte 18: Pagos transfronterizos, remesas y liquidación internacional"
+    ),
+    "18-blockchain-y-dlt-para-instituciones-financieras": (
+        "Parte 19: Blockchain y DLT para instituciones financieras"
+    ),
+    "19-activos-digitales-stablecoins-y-dinero-programable": (
+        "Parte 20: Activos digitales, stablecoins y dinero programable"
+    ),
+    "20-tokenizacion-fx-onchain-y-mercados-programables": (
+        "Parte 21: Tokenización, FX on-chain y mercados programables"
+    ),
+    "21-regulacion-de-mercados-financieros-digitales": (
+        "Parte 22: Regulación de mercados financieros digitales"
+    ),
+    "22-proyecto-banco-digital-y-mercado-tokenizado": (
+        "Parte 23: Proyecto — banco digital y mercado tokenizado"
+    ),
 }
 
 
@@ -45,7 +79,7 @@ def module_title(module: Path) -> str:
     if readme.exists():
         first = readme.read_text(encoding="utf-8").splitlines()[0]
         return re.sub(r"^#\s*", "", first).strip()
-    return module.name
+    return PLANNED_TITLES.get(module.name, module.name)
 
 
 def bar(done: int, total: int, width: int = 20) -> str:
@@ -68,10 +102,39 @@ def collect() -> tuple[list[tuple[str, str, int, int, int]], int, int, int]:
     return rows, total_done, total_planned, total_bytes
 
 
+def contar_componentes() -> dict[str, int]:
+    """Cuenta los componentes no curriculares sobre los archivos reales.
+
+    STATUS.md no debe afirmar «96 laboratorios» porque alguien lo escribio una
+    vez: debe contarlos. Cada clave se resuelve con el mismo criterio que usa
+    `tools/validate_program.py`, para que las dos herramientas nunca discrepen.
+    """
+    modules = [p for p in MODULES.iterdir() if p.is_dir()] if MODULES.exists() else []
+    apps = ROOT / "apps"
+    casos = ROOT / "case-studies"
+    normas = ROOT / "regulatory"
+    datos = ROOT / "datasets"
+    return {
+        "modules": len(modules),
+        "labs": sum(len(list((m / "labs").glob("*.md"))) for m in modules),
+        "assessments": sum(len(list((m / "assessments").glob("*.md"))) for m in modules),
+        "projects": sum(int((m / "project" / "README.md").exists()) for m in modules),
+        "apps": len([p for p in apps.iterdir() if (p / "README.md").exists()])
+        if apps.exists()
+        else 0,
+        "cases": len([p for p in casos.rglob("*.md") if p.name != "README.md"])
+        if casos.exists()
+        else 0,
+        "norms": len(list(normas.rglob("*.yml"))) if normas.exists() else 0,
+        "datasets": len(list(datos.rglob("*.csv"))) if datos.exists() else 0,
+    }
+
+
 def render() -> str:
     rows, done, planned, size = collect()
     pct = 100 * done / planned if planned else 0
     avg = size / done if done else 0
+    inventario = contar_componentes()
 
     lines = [
         "# Estado del contenido",
@@ -111,16 +174,20 @@ def render() -> str:
         "",
         "## Otros componentes",
         "",
-        "| Componente | Estado |",
-        "|---|---|",
-        "| Arquitectura curricular (16 partes) | Completa |",
-        "| Laboratorios (96) | Estructurados |",
-        "| Evaluaciones (32) | Diagnóstico y final por parte |",
-        "| Proyectos integradores (16) | Especificados |",
-        "| Calculadoras financieras | MVP funcional con pruebas |",
-        "| Banco virtual (SQLite) | MVP funcional con pruebas |",
-        "| Datasets sintéticos | Iniciales |",
-        "| Adaptación normativa por país | Plantilla; cada clase indica qué verificar |",
+        "Las cifras de esta tabla se cuentan sobre los archivos reales; no se",
+        "escriben a mano.",
+        "",
+        "| Componente | Cantidad | Estado |",
+        "|---|---:|---|",
+        f"| Arquitectura curricular (partes) | {inventario['modules']} | Completa |",
+        f"| Laboratorios | {inventario['labs']} | Estructurados |",
+        f"| Evaluaciones | {inventario['assessments']} | Diagnóstico y final por parte |",
+        f"| Proyectos integradores | {inventario['projects']} | Especificados |",
+        f"| Aplicaciones didácticas | {inventario['apps']} | Ejecutables con pruebas |",
+        f"| Estudios de caso | {inventario['cases']} | Con hechos, fuentes y preguntas |",
+        f"| Fichas normativas estructuradas | {inventario['norms']} | Con fecha de verificación |",
+        f"| Datasets documentados | {inventario['datasets']} | Sintéticos, con diccionario |",
+        "| Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |",
         "",
         "## Cómo verificarlo",
         "",

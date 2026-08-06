@@ -1,0 +1,683 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API de informacion de cuentas y iniciacion de pagos",
+    "version": "1.0.0",
+    "description": "Contrato del entorno simulado de la Parte 17. Se publica en JSON y no en YAML para que el validador del repositorio funcione solo con la biblioteca estandar, sin anadir dependencias.",
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://localhost/v1",
+      "description": "Entorno simulado"
+    }
+  ],
+  "security": [
+    {
+      "oauth2": []
+    }
+  ],
+  "paths": {
+    "/v1/accounts": {
+      "get": {
+        "operationId": "listAccounts",
+        "summary": "Cuentas alcanzadas por el consentimiento",
+        "security": [
+          {
+            "oauth2": [
+              "accounts:list"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de cuentas",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "data"
+                  ],
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Account"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Token ausente, expirado o invalido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Consentimiento revocado o fuera del alcance",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Limite de tasa alcanzado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/accounts/{accountId}/balances": {
+      "get": {
+        "operationId": "getBalances",
+        "summary": "Saldos contable y disponible",
+        "security": [
+          {
+            "oauth2": [
+              "accounts:balances"
+            ]
+          }
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/AccountId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Saldos de la cuenta",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "data"
+                  ],
+                  "properties": {
+                    "data": {
+                      "$ref": "#/components/schemas/Balances"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Token invalido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Cuenta ajena o inexistente: la respuesta es identica en los dos casos, a proposito, para impedir la enumeracion",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Limite de tasa alcanzado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/accounts/{accountId}/transactions": {
+      "get": {
+        "operationId": "listTransactions",
+        "summary": "Movimientos paginados por cursor",
+        "security": [
+          {
+            "oauth2": [
+              "accounts:transactions"
+            ]
+          }
+        ],
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/AccountId"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 50
+            }
+          },
+          {
+            "name": "cursor",
+            "in": "query",
+            "required": false,
+            "description": "Cursor opaco. El llamante no debe interpretarlo.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Pagina de movimientos",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransactionPage"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Cursor o parametro invalido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Token invalido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Fuera del alcance concedido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Limite de tasa alcanzado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payments": {
+      "post": {
+        "operationId": "createPayment",
+        "summary": "Inicia un pago; la operacion es idempotente",
+        "security": [
+          {
+            "oauth2": [
+              "payments:initiate"
+            ]
+          }
+        ],
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "description": "Obligatoria. Sin ella la peticion se rechaza con 400. La misma clave con cuerpo distinto devuelve 409.",
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 128
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Orden de pago creada",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Payment"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Falta Idempotency-Key o un campo obligatorio",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Token invalido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Misma clave de idempotencia con cuerpo distinto",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Limite de tasa alcanzado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/funds-confirmations": {
+      "post": {
+        "operationId": "confirmFunds",
+        "summary": "Confirmacion de fondos: booleano, sin retencion",
+        "security": [
+          {
+            "oauth2": [
+              "payments:initiate"
+            ]
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "account_id",
+                  "amount",
+                  "currency"
+                ],
+                "properties": {
+                  "account_id": {
+                    "type": "string"
+                  },
+                  "amount": {
+                    "type": "string",
+                    "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+                    "description": "Importe como cadena decimal. Nunca coma flotante."
+                  },
+                  "currency": {
+                    "$ref": "#/components/schemas/Currency"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Suficiencia de fondos en el instante de la consulta",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "funds_available"
+                  ],
+                  "properties": {
+                    "funds_available": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Token invalido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Limite propio del endpoint, o patron de sondeo por biseccion detectado",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "parameters": {
+      "AccountId": {
+        "name": "accountId",
+        "in": "path",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "oauth2",
+        "flows": {
+          "authorizationCode": {
+            "authorizationUrl": "https://localhost/authorize",
+            "tokenUrl": "https://localhost/token",
+            "scopes": {
+              "accounts:list": "Ver que cuentas tienes y de que tipo son",
+              "accounts:balances": "Ver cuanto dinero hay en cada cuenta",
+              "accounts:transactions": "Ver tus movimientos de los ultimos 12 meses",
+              "payments:initiate": "Ordenar pagos desde tu cuenta, uno por uno"
+            }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "Currency": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$"
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "invalid_request",
+              "invalid_token",
+              "consent_revoked",
+              "resource_forbidden",
+              "idempotency_conflict",
+              "rate_limited",
+              "provider_unavailable"
+            ],
+            "description": "Catalogo cerrado de errores. Trata cualquier valor desconocido como un error generico no reintentable: anadir un codigo nuevo no debe romper al integrador."
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "Account": {
+        "type": "object",
+        "required": [
+          "account_id",
+          "kind",
+          "currency",
+          "opened_at"
+        ],
+        "properties": {
+          "account_id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "currency": {
+            "$ref": "#/components/schemas/Currency"
+          },
+          "opened_at": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "Balances": {
+        "type": "object",
+        "required": [
+          "account_id",
+          "currency",
+          "opening_balance",
+          "booked_balance",
+          "available_balance",
+          "window_months"
+        ],
+        "properties": {
+          "account_id": {
+            "type": "string"
+          },
+          "currency": {
+            "$ref": "#/components/schemas/Currency"
+          },
+          "opening_balance": {
+            "type": "string",
+            "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+            "description": "Saldo al inicio de la ventana consultada. Sin este campo el llamante no puede reconstruir el saldo desde los movimientos y concluye que el proveedor es incoherente."
+          },
+          "booked_balance": {
+            "type": "string",
+            "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+            "description": "Importe como cadena decimal. Nunca coma flotante."
+          },
+          "available_balance": {
+            "type": "string",
+            "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+            "description": "Importe como cadena decimal. Nunca coma flotante."
+          },
+          "window_months": {
+            "type": "integer"
+          }
+        }
+      },
+      "Transaction": {
+        "type": "object",
+        "required": [
+          "transaction_id",
+          "booking_date",
+          "amount",
+          "currency",
+          "category"
+        ],
+        "properties": {
+          "transaction_id": {
+            "type": "string"
+          },
+          "booking_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Fecha de CONTABILIZACION. NO significa la fecha en que el cliente hizo la operacion."
+          },
+          "amount": {
+            "type": "string",
+            "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+            "description": "Importe como cadena decimal. Nunca coma flotante."
+          },
+          "currency": {
+            "$ref": "#/components/schemas/Currency"
+          },
+          "category": {
+            "type": "string"
+          }
+        }
+      },
+      "TransactionPage": {
+        "type": "object",
+        "required": [
+          "data",
+          "meta",
+          "links"
+        ],
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Transaction"
+            }
+          },
+          "meta": {
+            "type": "object",
+            "required": [
+              "count"
+            ],
+            "properties": {
+              "count": {
+                "type": "integer"
+              }
+            }
+          },
+          "links": {
+            "type": "object",
+            "properties": {
+              "next": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "PaymentRequest": {
+        "type": "object",
+        "required": [
+          "amount",
+          "currency",
+          "creditor",
+          "debtor_account"
+        ],
+        "properties": {
+          "amount": {
+            "type": "string",
+            "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+            "description": "Importe como cadena decimal. Nunca coma flotante."
+          },
+          "currency": {
+            "$ref": "#/components/schemas/Currency"
+          },
+          "creditor": {
+            "type": "string"
+          },
+          "debtor_account": {
+            "type": "string"
+          },
+          "end_to_end_id": {
+            "type": "string"
+          }
+        }
+      },
+      "Payment": {
+        "type": "object",
+        "required": [
+          "payment_id",
+          "status",
+          "amount",
+          "currency",
+          "creditor",
+          "is_final",
+          "is_firm"
+        ],
+        "properties": {
+          "payment_id": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "recibido",
+              "autorizado",
+              "aceptado",
+              "en_ejecucion",
+              "liquidado",
+              "rechazado",
+              "devuelto"
+            ],
+            "description": "Trata cualquier valor desconocido como OTHER: la regla existe desde la v1 para que anadir un estado no rompa a los integradores."
+          },
+          "amount": {
+            "type": "string",
+            "pattern": "^-?[0-9]+\\.[0-9]{2}$",
+            "description": "Importe como cadena decimal. Nunca coma flotante."
+          },
+          "currency": {
+            "$ref": "#/components/schemas/Currency"
+          },
+          "creditor": {
+            "type": "string"
+          },
+          "is_final": {
+            "type": "boolean"
+          },
+          "is_firm": {
+            "type": "boolean",
+            "description": "El comercio entrega con firmeza, no con aceptacion."
+          }
+        }
+      }
+    }
+  }
+}

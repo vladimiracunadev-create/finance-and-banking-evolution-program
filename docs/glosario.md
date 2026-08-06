@@ -5,6 +5,11 @@ importa: **si dos áreas entienden lo mismo de forma distinta, sus cifras no son
 comparables** (Parte 14, clase 4).
 
 > Cada entrada indica la parte donde el término se desarrolla.
+>
+> Los términos de la **Etapa 5** —finanzas abiertas, pagos transfronterizos,
+> activos digitales, tokenización y FX on-chain— están en el
+> **[glosario de finanzas digitales](glosario-finanzas-digitales.md)**, con el
+> campo «qué NO significa» que esa etapa necesita.
 
 **Ir a:** [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) ·
 [I](#i) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) ·
@@ -191,5 +196,6 @@ comparables** (Parte 14, clase 4).
 
 ---
 
-**Ver también:** [Fórmulas](formulas.md) · [Fuentes](fuentes.md) ·
+**Ver también:** [Glosario de finanzas digitales](glosario-finanzas-digitales.md) ·
+[Fórmulas](formulas.md) · [Fuentes](fuentes.md) ·
 [Mapa de competencias](mapa-competencias.md) · [Índice del programa](../SYLLABUS.md)

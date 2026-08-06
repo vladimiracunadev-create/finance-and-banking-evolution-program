@@ -1,0 +1,44 @@
+[
+  {
+    "account_id": "acc_0100",
+    "customer_ref": "cus_synthetic_0001",
+    "kind": "cuenta_vista",
+    "currency": "CLP",
+    "opened_at": "2018-02-15"
+  },
+  {
+    "account_id": "acc_0101",
+    "customer_ref": "cus_synthetic_0001",
+    "kind": "cuenta_ahorro",
+    "currency": "CLP",
+    "opened_at": "2019-02-15"
+  },
+  {
+    "account_id": "acc_0200",
+    "customer_ref": "cus_synthetic_0002",
+    "kind": "cuenta_ahorro",
+    "currency": "CLP",
+    "opened_at": "2018-03-15"
+  },
+  {
+    "account_id": "acc_0201",
+    "customer_ref": "cus_synthetic_0002",
+    "kind": "cuenta_corriente",
+    "currency": "CLP",
+    "opened_at": "2019-03-15"
+  },
+  {
+    "account_id": "acc_0300",
+    "customer_ref": "cus_synthetic_0003",
+    "kind": "cuenta_corriente",
+    "currency": "CLP",
+    "opened_at": "2018-04-15"
+  },
+  {
+    "account_id": "acc_0301",
+    "customer_ref": "cus_synthetic_0003",
+    "kind": "cuenta_vista",
+    "currency": "CLP",
+    "opened_at": "2019-04-15"
+  }
+]
