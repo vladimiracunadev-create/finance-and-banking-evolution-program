@@ -21,6 +21,8 @@ Diseñar y evaluar el sistema por el que un banco se dirige y se controla. La ca
 corporativo es el factor que más consistentemente distingue a los bancos que sobreviven a una crisis de
 los que no, y es también **el que menos se puede medir con indicadores y más con evidencia de conducta**.
 
+Las clases anteriores toman decisiones. Esta trata de quién las toma y con qué responsabilidad, y es la que explica por qué la regulación bancaria dedica tanto espacio a la composición de un directorio: casi todas las crisis bancarias tienen un fallo de gobierno en su origen.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los órganos y sus deberes; los cuatro siguientes, la composición y su evaluación. La **idoneidad** es un requisito exigible y verificable: los miembros de un directorio bancario deben acreditar conocimientos, experiencia y honorabilidad, y el supervisor lo comprueba.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `directorio` | Órgano que dirige y responde por la institución. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `autoevaluación del directorio` | Revisión periódica de su propio funcionamiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una separación de papeles: el directorio decide y supervisa, la administración ejecuta, y las funciones de control informan al directorio sin pasar por la administración. Cuando esa tercera línea se rompe, el directorio se entera de los problemas por la prensa.
 
 ```text
 UN GOBIERNO CORPORATIVO SE JUZGA POR TRES PREGUNTAS
@@ -89,6 +95,8 @@ Y LA QUE MÁS DISTINGUE
 ## 📖 Desarrollo
 
 ### 1. Estructura y responsabilidades
+
+Cada órgano tiene responsabilidades indelegables. La tabla las recoge.
 
 ```text
 JUNTA DE ACCIONISTAS
@@ -120,6 +128,8 @@ LA DISTINCIÓN QUE MÁS SE DIFUMINA
 
 ### 2. Composición del directorio
 
+La composición decide la calidad de la supervisión, y tiene requisitos. La tabla los recoge.
+
 | Elemento | Criterio | Señal de alerta |
 |---|---|---|
 | Independencia | Mayoría o proporción significativa | Independientes con vínculos comerciales |
@@ -139,6 +149,8 @@ LA COMPETENCIA QUE MÁS FALTA EN LOS DIRECTORIOS BANCARIOS
 ```
 
 ### 3. Comités
+
+Los comités especializados preparan las decisiones del directorio. La tabla los recoge con su mandato.
 
 | Comité | Materia | Composición típica |
 |---|---|---|
@@ -168,6 +180,8 @@ LO QUE UN COMITÉ NECESITA PARA FUNCIONAR
 ```
 
 ### 4. Conflictos de interés estructurales
+
+Hay conflictos que vienen de la estructura y no de las personas. La tabla los recoge.
 
 ```text
 LOS CONFLICTOS QUE EXISTEN POR DISEÑO
@@ -207,6 +221,8 @@ LA GESTIÓN DE UN CONFLICTO TIENE TRES NIVELES
 
 ### 5. Medición de la efectividad
 
+La efectividad de un directorio se evalúa con criterios concretos. La tabla los recoge.
+
 ```text
 LO QUE NO MIDE NADA
   · número de sesiones
@@ -230,6 +246,8 @@ directorio que recibe 400 páginas 24 horas antes de la sesión no puede desafia
 de su composición.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa la composición y el funcionamiento de un directorio. Conviene mirar la independencia efectiva y no la declarada.
 
 **Situación.** El supervisor evalúa el gobierno corporativo de un banco.
 
@@ -445,6 +463,8 @@ estructura produce, y lo que produce se lee en las actas.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve al directorio y el directorio responde por lo que el banco le hace al cliente. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco tomó decisiones que lo dañaron» | Directorio que no desafió | 15, clase 9 |
@@ -455,6 +475,8 @@ estructura produce, y lo que produce se lee en las actas.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar un gobierno corporativo y detectar conflictos estructurales. Uno de los conflictos no viene de ninguna persona sino de la estructura.
+
 En `labs/lab-05.md`:
 
 1. Evalúa la composición de un directorio por independencia, competencias y dedicación.
@@ -463,6 +485,8 @@ En `labs/lab-05.md`:
 4. Mide la efectividad con los ocho indicadores y construye el plan de corrección.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen fallos de gobierno. Las causas son independencia formal sin independencia real y comités sin mandato claro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

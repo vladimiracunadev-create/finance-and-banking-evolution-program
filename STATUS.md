@@ -23,7 +23,7 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 12 | Parte 12: Regulación, cumplimiento y auditoría | 16 | 16 | `████████████████████` | 20.0 KB |
 | 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 20.0 KB |
 | 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 20.4 KB |
-| 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 18.5 KB |
+| 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 20.4 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 18.1 KB |
 | 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 18.3 KB |
 | 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 18.4 KB |

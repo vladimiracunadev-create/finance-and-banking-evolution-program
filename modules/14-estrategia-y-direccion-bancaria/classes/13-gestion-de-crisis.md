@@ -21,6 +21,8 @@ Dirigir un banco cuando lo normal deja de funcionar. Una crisis bancaria comprim
 en tiempos normales tomarían meses, y **la calidad de esas decisiones depende casi enteramente de lo que
 se preparó antes**, porque durante la crisis no hay tiempo para preparar nada.
 
+Todas las clases anteriores suponen condiciones ordinarias. Esta trata las otras, y añade la característica que hace única a una crisis bancaria: es reflexiva. Lo que el banco hace y dice cambia la crisis misma, y por eso las decisiones no se pueden tomar como si el entorno fuera independiente de ellas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el plan y sus disparadores; los cuatro siguientes, la dinámica y el aprendizaje. La **reflexividad** es el concepto que distingue esta clase de cualquier plan de contingencia genérico.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `plan de recuperación` | Documento con las opciones para restaurar la viabilidad. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `preparación` | Todo lo que debe existir antes de la crisis. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es la reflexividad: en una crisis de liquidez, buscar liquidez señala que hace falta liquidez y acelera la salida de depósitos. Cada acción tiene un efecto directo y un efecto de señal, y a veces el segundo domina.
 
 ```text
 LA PROPIEDAD QUE DEFINE UNA CRISIS BANCARIA
@@ -95,6 +101,8 @@ las decisiones.
 
 ### 1. Tipos de crisis y su dinámica
 
+Las crisis bancarias tienen tipos con dinámicas y velocidades distintas. La tabla los recoge.
+
 | Tipo | Origen | Velocidad | Señal característica |
 |---|---|---|---|
 | Liquidez | Pérdida de financiamiento | Horas a días | Salida de depósitos, cierre de mercados |
@@ -115,6 +123,8 @@ SON CRISIS DE SOLVENCIA QUE SE ACELERARON
 ```
 
 ### 2. Plan de recuperación
+
+El plan de recuperación tiene indicadores, opciones y disparadores definidos de antemano. La tabla lo recoge.
 
 ```text
 COMPONENTES
@@ -159,6 +169,8 @@ LA COLUMNA DECISIVA ES LA ÚLTIMA
 
 ### 3. Estructura de decisión
 
+En una crisis la estructura ordinaria de decisión no sirve, y hay que tener otra preparada. La tabla la recoge.
+
 ```text
 COMITÉ DE CRISIS
   · composición fija, definida de antemano
@@ -186,6 +198,8 @@ LA ÚLTIMA FUNCIÓN ES LA MÁS OLVIDADA
 ```
 
 ### 4. Secuencia de los primeros días
+
+Los primeros días tienen una secuencia que conviene decidir en frío. La tabla la recoge.
 
 ```text
 PRIMERAS 4 HORAS
@@ -219,6 +233,8 @@ SEMANA 2 EN ADELANTE
 
 ### 5. Revisión posterior
 
+La revisión posterior es lo que convierte una crisis en aprendizaje. La tabla recoge su método.
+
 ```text
 PRINCIPIOS
   · el objetivo es aprender, no atribuir culpa
@@ -237,6 +253,8 @@ PREGUNTAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre las decisiones de los primeros días de una crisis de liquidez. Conviene evaluar cada decisión por su efecto directo y por su señal: en dos casos la señal domina.
 
 **Situación.** El banco enfrenta una salida acelerada de depósitos.
 
@@ -467,6 +485,8 @@ de 1 800 anuales, evaluada y no ejecutada catorce meses antes**.
 
 ## 🏦 Del cliente al banco
 
+El cliente retira su dinero y el banco gestiona una crisis que sus propias acciones pueden acelerar. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Leí que mi banco tiene problemas» | Reflexividad de la información | 15, clase 13 |
@@ -477,6 +497,8 @@ de 1 800 anuales, evaluada y no ejecutada catorce meses antes**.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar la secuencia de decisiones de una crisis. Dos de las medidas obvias empeoran la situación por su efecto de señal.
+
 En `labs/lab-06.md`, sección de crisis:
 
 1. Construye un plan de recuperación con ocho opciones y su viabilidad en estrés.
@@ -485,6 +507,8 @@ En `labs/lab-06.md`, sección de crisis:
 4. Conduce una revisión posterior con las cinco preguntas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen crisis agravadas por su gestión. La causa es no haber considerado el efecto de señal de cada decisión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Decidir a quién sirve un banco y con qué. Es la decisión estratégica que pre
 que más se evita: **atender a todos con todo es la ausencia de una estrategia**, y produce una estructura
 de costos que ningún segmento justifica por sí solo.
 
+Las dos clases anteriores sitúan al banco. Esta decide a quién sirve y con qué promesa, y su exigencia es la que más cuesta cumplir en una entidad grande: una propuesta de valor exige renunciar a segmentos, y las renuncias son la parte de la estrategia que nadie quiere firmar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la segmentación y su promesa; los cuatro siguientes, su coherencia y su medición. La **renuncia estratégica** es la pieza que distingue una estrategia de una lista de intenciones: si no hay nada a lo que se renuncia, no hay estrategia.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `segmento` | Grupo de clientes con necesidades y comportamiento similares. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `promesa incumplida` | Distancia entre lo prometido y lo entregado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es la coherencia: la propuesta de valor, los segmentos elegidos y el modelo operativo tienen que apuntar en la misma dirección. Un banco que promete cercanía y cierra sucursales no tiene un problema de ejecución, tiene una incoherencia estratégica.
 
 ```text
 UNA ESTRATEGIA SE DEFINE TANTO POR LO QUE HACE
@@ -88,6 +94,8 @@ CUMPLIR UNA PROMESA
 ## 📖 Desarrollo
 
 ### 1. Segmentación accionable
+
+Una segmentación sirve si permite tratar distinto a los segmentos. La tabla recoge los criterios.
 
 ```text
 UNA SEGMENTACIÓN ES ACCIONABLE SI
@@ -119,6 +127,8 @@ LA SEGMENTACIÓN MÁS ÚTIL COMBINA DOS EJES
 
 ### 2. Propuesta de valor
 
+Una propuesta de valor concreta dice qué se ofrece, a quién y a cambio de qué. La tabla recoge su estructura.
+
 ```text
 UNA PROPUESTA DE VALOR COMPLETA RESPONDE CINCO PREGUNTAS
 
@@ -143,6 +153,8 @@ LA PRUEBA DE UNA PROPUESTA DE VALOR
 ```
 
 ### 3. Coherencia
+
+La coherencia entre promesa y operación se comprueba, y su ausencia es visible. El procedimiento siguiente la evalúa.
 
 ```text
 TRES ELEMENTOS QUE DEBEN SOSTENERSE ENTRE SÍ
@@ -170,6 +182,8 @@ LA INCOHERENCIA MÁS CARA
 ```
 
 ### 4. Renuncias
+
+Toda estrategia implica renuncias explícitas. La tabla recoge las habituales con su consecuencia.
 
 ```text
 TIPOS DE RENUNCIA ESTRATÉGICA
@@ -199,6 +213,8 @@ UNA RENUNCIA ES REAL SI TIENE COSTO
 
 ### 5. Medición del cumplimiento
 
+La promesa se mide con indicadores concretos y no con encuestas. La tabla los recoge.
+
 ```text
 TODA PROPUESTA DE VALOR DEBE TENER
 UN INDICADOR QUE MIDA SU CUMPLIMIENTO
@@ -224,6 +240,8 @@ LA PROMESA INCUMPLIDA ES PEOR QUE LA AUSENCIA DE PROMESA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa la coherencia entre la propuesta de valor de un banco y su modelo operativo. Conviene buscar la contradicción: casi siempre hay una y casi siempre está en costos.
 
 **Situación.** Un banco revisa su estrategia de segmentos tras un análisis de rentabilidad.
 
@@ -410,6 +428,8 @@ segmento**, con las renuncias declaradas y sus excepciones pagadas explícitamen
 
 ## 🏦 Del cliente al banco
 
+El cliente escucha una promesa y el banco tiene un modelo operativo que la sostiene o no. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco no me atiende en sucursal» | Renuncia declarada del segmento | 15, clase 3 |
@@ -420,6 +440,8 @@ segmento**, con las renuncias declaradas y sus excepciones pagadas explícitamen
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la coherencia de una estrategia y proponer las renuncias que faltan. Proponer renuncias concretas es la parte difícil.
+
 En `labs/lab-02.md`:
 
 1. Segmenta una base con los ejes de necesidad y valor.
@@ -428,6 +450,8 @@ En `labs/lab-02.md`:
 4. Define tres renuncias con su costo y sus excepciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen estrategias que no se cumplen. Las causas son ausencia de renuncias e incoherencia entre promesa y operación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

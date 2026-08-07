@@ -21,6 +21,8 @@ Construir el plan que une estrategia, presupuesto, capital y riesgo en un solo c
 la mayoría de los bancos estos cuatro documentos existen y **dicen cosas distintas**, y esa incoherencia
 es el hallazgo supervisor más frecuente y el origen de decisiones que se contradicen entre sí.
 
+Las clases anteriores deciden qué hacer. Esta comprueba si el banco tiene capital para hacerlo, y con una restricción que casi ningún plan comercial incorpora: crecer consume capital, y un banco solo puede crecer al ritmo que su generación de resultados le permite, salvo que amplíe.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los planes y su objetivo; los cuatro siguientes, la contingencia y su coherencia. La **distancia al requerimiento** es la métrica de dirección: cuántos puntos de capital separan al banco de su mínimo, y cuánto crecimiento cabe en esa distancia.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `plan de negocio` | Proyección de actividad, resultado y balance a 3 años. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `distancia al requerimiento` | Holgura entre el capital actual y el exigido. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una tasa de crecimiento sostenible: el capital crece con las utilidades retenidas, y los activos ponderados crecen con el negocio. Si el segundo crece más rápido que el primero, el ratio baja, y hay un punto en que la norma lo impide.
 
 ```text
 LOS CUATRO DOCUMENTOS Y SU RELACIÓN
@@ -89,6 +95,8 @@ CADA UNO DEBE SER CONSECUENCIA DEL ANTERIOR
 ## 📖 Desarrollo
 
 ### 1. Crecimiento sostenible
+
+El crecimiento sostenible se calcula desde la generación de capital. El procedimiento siguiente lo obtiene.
 
 ```text
 CUÁNTO PUEDE CRECER UN BANCO SIN CAPITAL EXTERNO
@@ -118,6 +126,8 @@ cuando el plan no se hace bien
 
 ### 2. Estructura del plan de negocio
 
+El plan de negocio tiene una estructura con supuestos declarados. La tabla la recoge.
+
 ```text
 COMPONENTES OBLIGATORIOS
   1. supuestos macroeconómicos, con su fuente
@@ -145,6 +155,8 @@ no un número aislado
 ```
 
 ### 3. Plan de capital
+
+El plan de capital proyecta el ratio bajo el plan de negocio y bajo estrés. El procedimiento lo construye.
 
 ```text
 PROYECCIÓN DE NECESIDADES
@@ -177,6 +189,8 @@ LA REGLA QUE SE DEDUCE DE LA ÚLTIMA COLUMNA
 ```
 
 ### 4. Plan de contingencia de capital
+
+Si el capital cae, hay medidas preparadas con su plazo y su efecto. La tabla las recoge.
 
 ```text
 NIVELES Y ACCIONES
@@ -212,6 +226,8 @@ CADA ACCIÓN DEBE TENER
 
 ### 5. Coherencia
 
+Los supuestos del plan tienen que ser coherentes entre sí y con el entorno. La tabla recoge las comprobaciones.
+
 ```text
 LA PRUEBA DE COHERENCIA
   toma cinco cifras y verifica que sean IDÉNTICAS
@@ -235,6 +251,8 @@ LA PRUEBA DE COHERENCIA
 | Los incentivos premian volumen y el plan pide margen | La organización hace lo que se le paga |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo proyecta el capital de un banco bajo su plan de crecimiento. Conviene comparar el crecimiento planificado con el sostenible: la diferencia es lo que hay que financiar o recortar.
 
 **Situación.** El directorio revisa el plan a tres años antes de aprobarlo.
 
@@ -465,6 +483,8 @@ se juzga en el escenario adverso, no en el base**, porque el base es donde nunca
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y el banco decide cuánto puede crecer según su capital. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco dejó de dar créditos de consumo» | Plan corregido por costo de riesgo | 15, clase 5 |
@@ -475,6 +495,8 @@ se juzga en el escenario adverso, no en el base**, porque el base es donde nunca
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el crecimiento sostenible y evaluar un plan. El plan propuesto excede el crecimiento sostenible, y resolver esa brecha es el ejercicio.
+
 En `labs/lab-03.md`:
 
 1. Calcula el crecimiento sostenible y compáralo con el plan de activos ponderados.
@@ -483,6 +505,8 @@ En `labs/lab-03.md`:
 4. Diseña el plan de contingencia con niveles, acciones y disparadores.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen planes que chocaron con el capital. Las causas son crecimiento sin consumo de capital proyectado y contingencias no preparadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

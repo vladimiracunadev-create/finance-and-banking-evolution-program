@@ -21,6 +21,8 @@ Entender contra quién compite un banco y por qué. La competencia bancaria ya n
 de bancos: incluye actores que compiten por una función sin querer ser bancos, y **el análisis
 tradicional del sector deja fuera precisamente a los competidores más peligrosos**.
 
+La clase anterior evalúa el modelo por dentro. Esta lo evalúa contra quienes compiten por lo mismo, y con una precisión que la Parte 14 hizo necesaria: hoy la competencia no es entre bancos sino por función, y el competidor en pagos no es el mismo que en crédito.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura competitiva; los cuatro siguientes, su medición y su delimitación. El **mercado relevante** es la decisión previa que condiciona todo el análisis: definirlo demasiado ancho hace parecer que hay competencia donde no la hay.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `competencia por función` | Actores que atacan una función bancaria sin ser bancos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mercado relevante` | Ámbito de producto y geografía donde se compite realmente. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un mapa por función y no por institución: el banco no compite con otros bancos en bloque, compite en cada función con actores distintos. Analizarlo por institución hace invisible al competidor que se está llevando la función más rentable.
 
 ```text
 LA PREGUNTA MAL PLANTEADA
@@ -90,6 +96,8 @@ LA PREGUNTA BIEN PLANTEADA
 
 ### 1. Análisis estructural aplicado a la banca
 
+El análisis estructural clásico se aplica a la banca con matices propios. La tabla lo recoge.
+
 | Fuerza | En banca | Intensidad típica |
 |---|---|---|
 | Rivalidad entre competidores | Productos poco diferenciados, competencia en precio | Alta |
@@ -109,6 +117,8 @@ LO QUE EL ANÁLISIS TRADICIONAL SUBESTIMA EN BANCA
 ```
 
 ### 2. Competencia por función
+
+Cada función bancaria tiene sus propios competidores. La tabla los mapea.
 
 ```text
 POR CADA FUNCIÓN, ¿QUIÉN MÁS LA RESUELVE?
@@ -144,6 +154,8 @@ POR CADA FUNCIÓN, ¿QUIÉN MÁS LA RESUELVE?
 
 ### 3. Concentración e intensidad
 
+La concentración se mide con los índices de la Parte 6 y no siempre predice la intensidad competitiva. La tabla lo recoge.
+
 ```text
 MEDIDAS DE CONCENTRACIÓN
   cuota de los 3 mayores (CR3) y de los 5 mayores (CR5)
@@ -171,6 +183,8 @@ LA CONCENTRACIÓN NO DETERMINA LA INTENSIDAD COMPETITIVA
 
 ### 4. Barreras de entrada
 
+Las barreras de la banca son en parte regulatorias y en parte de escala. La tabla las recoge.
+
 | Barrera | Nivel tradicional | Evolución |
 |---|---|---|
 | Licencia y capital regulatorio | Muy alta | Alta, con licencias escalonadas |
@@ -193,6 +207,8 @@ LA BARRERA QUE MÁS HA CAÍDO ES EL COSTO DE CAMBIO
 
 ### 5. Mapa competitivo
 
+El mapa competitivo reúne todo y se actualiza periódicamente. La tabla recoge su estructura.
+
 ```text
 DIMENSIONES ÚTILES PARA MAPEAR
   · alcance de producto (especializado ↔ universal)
@@ -208,6 +224,8 @@ EL MAPA SIRVE PARA DOS COSAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el mapa competitivo por función de un banco. Conviene fijarse en la función más rentable: casi siempre es la que más competidores nuevos tiene.
 
 **Situación.** Un banco analiza su posición competitiva en crédito de consumo.
 
@@ -383,6 +401,8 @@ mayor que la del competidor.
 
 ## 🏦 Del cliente al banco
 
+El cliente elige entre opciones y el banco compite con actores distintos en cada función. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Compré en cuotas sin interés en la tienda» | Competidor por función | 15, clase 2 |
@@ -393,6 +413,8 @@ mayor que la del competidor.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el mapa competitivo por función y determinar el mercado relevante. La definición del mercado relevante cambia la conclusión.
+
 En `labs/lab-01.md`, sección competitiva:
 
 1. Identifica, para cinco productos, todos los competidores por función.
@@ -401,6 +423,8 @@ En `labs/lab-01.md`, sección competitiva:
 4. Determina dónde está la ventaja estructural del banco y en qué tramo compite.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis competitivos que no vieron venir al competidor. Las causas son analizar por institución y definir mal el mercado relevante.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

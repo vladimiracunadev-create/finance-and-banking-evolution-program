@@ -22,6 +22,8 @@ habituales: tratarla como un asunto de comunicación, o tratarla como una restri
 **Un banco decide qué se financia en una economía**, y esa decisión tiene consecuencias que ahora se
 miden y se exigen.
 
+Esta clase trata un ámbito donde el riesgo de afirmar de más es tan grande como el de no hacer nada. Y lo plantea con la misma exigencia que el resto del programa: una afirmación de sostenibilidad sin evidencia y sin metodología declarada es una afirmación comercial sin respaldo, con las consecuencias de la Parte 12.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el marco de análisis y su métrica; los cuatro siguientes, los productos y su riesgo de conducta. Las **emisiones financiadas** son la métrica central y la más difícil de calcular: las emisiones de los clientes atribuidas al banco en proporción a su financiamiento.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `doble materialidad` | Efecto del entorno sobre el banco y del banco sobre el entorno. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `declaración engañosa` | Afirmar credenciales ambientales que no se sostienen. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es la doble materialidad: importa cómo el clima afecta al banco y cómo el banco afecta al clima, y son dos análisis distintos con datos distintos. Confundirlos produce informes que no responden a ninguna de las dos preguntas.
 
 ```text
 TRES ÁMBITOS DISTINTOS QUE SE CONFUNDEN
@@ -95,6 +101,8 @@ CONFUNDIRLOS PRODUCE LOS DOS ERRORES TÍPICOS
 
 ### 1. Doble materialidad
 
+Las dos direcciones del análisis exigen datos distintos. La tabla las separa.
+
 ```text
 MATERIALIDAD FINANCIERA
   ¿cómo los factores de sostenibilidad
@@ -113,6 +121,8 @@ AMBAS SE REPORTAN
 ```
 
 ### 2. Integración en las decisiones
+
+La sostenibilidad se integra en decisiones concretas o no se integra. La tabla recoge dónde.
 
 | Punto de decisión | Qué se integra | Cómo |
 |---|---|---|
@@ -148,6 +158,8 @@ esos clientes se financian con quien no les exige nada.
 
 ### 3. Emisiones financiadas
 
+Las emisiones financiadas se calculan con una metodología y muchos supuestos. El procedimiento las obtiene.
+
 ```text
 CÓMO SE MIDEN
   emisiones atribuidas = emisiones del deudor
@@ -177,6 +189,8 @@ CIENTOS DE VECES LAS PROPIAS
 
 ### 4. Productos de finanzas sostenibles
 
+Los productos sostenibles tienen requisitos concretos para poder llamarse así. La tabla los recoge.
+
 | Producto | Cómo funciona | Riesgo específico |
 |---|---|---|
 | Bono verde | Fondos destinados a proyectos elegibles | Que el uso no se verifique |
@@ -200,6 +214,8 @@ LA PRUEBA DE UN INDICADOR LIGADO A SOSTENIBILIDAD
 ```
 
 ### 5. Declaración engañosa
+
+Afirmar más de lo que se puede sostener tiene consecuencias regulatorias. La tabla recoge los criterios.
 
 ```text
 LAS CINCO FORMAS MÁS FRECUENTES
@@ -230,6 +246,8 @@ LA REGLA OPERATIVA, YA ENUNCIADA EN LA PARTE 11
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula las emisiones financiadas de una cartera. Conviene declarar los supuestos: la cifra depende de ellos más que de los datos.
 
 **Situación.** El directorio define la estrategia de sostenibilidad del banco.
 
@@ -426,6 +444,8 @@ resolver con criterio y declarar con precisión.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve compromisos y el banco tiene que poder sostenerlos con metodología. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco dejó de financiar mi sector» | Exclusión frente a acompañamiento | 15, clase 11 |
@@ -436,6 +456,8 @@ resolver con criterio y declarar con precisión.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular emisiones financiadas y evaluar tres afirmaciones comerciales. Dos de ellas no se sostienen con la evidencia disponible.
+
 En `labs/lab-06.md`:
 
 1. Calcula las emisiones financiadas de una cartera con sus factores de atribución.
@@ -444,6 +466,8 @@ En `labs/lab-06.md`:
 4. Redacta lo que se declara y lo que no, con la metodología y sus límites.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas con afirmaciones de sostenibilidad. Las causas son metodologías no declaradas y compromisos sin plan.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

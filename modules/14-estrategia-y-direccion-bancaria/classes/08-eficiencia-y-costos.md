@@ -21,6 +21,8 @@ Gestionar la estructura de costos de un banco sin destruir su capacidad de gener
 control interno. Es la palanca que más se usa cuando el resultado presiona y la que **más daño produce
 cuando se usa sin diagnóstico**: recortar el costo equivocado cuesta más que el costo que se elimina.
 
+El precio de la clase anterior tiene un piso que depende de los costos. Esta clase los ataca, y distingue lo que la mayoría de los programas de eficiencia confunde: hay costos que sobran y costos que sostienen ingresos, y recortar los segundos empeora el índice que se quería mejorar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la descomposición de los costos; los cuatro siguientes, los costos ocultos y las palancas. El **costo de la complejidad** es el que menos se mide y más pesa: cada producto, canal y excepción añade un costo que no aparece en ninguna partida.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `índice de eficiencia` | Gastos operativos sobre ingresos operativos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `apalancamiento operativo` | Cuánto crece el resultado por cada punto de ingreso. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un índice con dos partes: eficiencia es costos sobre ingresos, y se puede mejorar bajando el numerador o subiendo el denominador. Los programas que solo miran el numerador suelen bajar también el denominador y terminan donde empezaron.
 
 ```text
 EL ÍNDICE DE EFICIENCIA TIENE DOS PALANCAS
@@ -93,6 +99,8 @@ operar, y eliminarlos no degrada nada.
 ## 📖 Desarrollo
 
 ### 1. Descomposición de la base de costos
+
+La base de costos se descompone por naturaleza y por causa. La tabla lo recoge.
 
 ```text
 ESTRUCTURA TÍPICA DE UN BANCO MINORISTA
@@ -124,6 +132,8 @@ LA PREGUNTA POR CADA COSTO
 
 ### 2. Costo de la mala calidad
 
+Rehacer, corregir y atender reclamos tiene un costo que se puede calcular. El procedimiento lo hace.
+
 ```text
 QUÉ INCLUYE
   · reprocesos: operaciones que se rehacen
@@ -149,6 +159,8 @@ CÓMO SE MIDE
 ```
 
 ### 3. Costo de la complejidad
+
+La complejidad tiene un costo medible que crece más que linealmente. El procedimiento lo estima.
 
 ```text
 FUENTES
@@ -180,6 +192,8 @@ LA REGLA DEL 80/20 DE PRODUCTOS
 
 ### 4. Programa de eficiencia
 
+Un programa de eficiencia tiene componentes y un orden. La tabla lo recoge.
+
 ```text
 SECUENCIA CORRECTA
   1. eliminar el costo que no debería existir
@@ -205,6 +219,8 @@ LA SECUENCIA IMPORTA
 | Reducción de estructura | 5–15 % | Pérdida de capacidad y de control |
 
 ### 5. Recortes que destruyen valor
+
+Ciertos recortes empeoran el resultado a plazo. La tabla los recoge con su efecto.
 
 ```text
 LOS SEIS RECORTES MÁS COSTOSOS
@@ -242,6 +258,8 @@ LA PRUEBA ANTES DE CADA RECORTE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el costo de la complejidad de un catálogo de productos. Conviene comparar con el ingreso que aportan los productos marginales: muchos no lo cubren.
 
 **Situación.** El directorio exige mejorar el índice de eficiencia de 56 % a 50 % en dos años.
 
@@ -441,6 +459,8 @@ banco en mejores condiciones que antes**.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere más opciones y el banco paga el costo de cada una. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me piden los mismos datos otra vez» | Costo de la mala calidad | 14, clase 4 |
@@ -451,6 +471,8 @@ banco en mejores condiciones que antes**.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar un programa de eficiencia y evaluar sus riesgos. Dos de las medidas propuestas destruyen ingresos.
+
 En `labs/lab-04.md`, sección de eficiencia:
 
 1. Descompón la base de costos por tipo y por plazo de modificación.
@@ -459,6 +481,8 @@ En `labs/lab-04.md`, sección de eficiencia:
 4. Construye un programa de eficiencia en la secuencia correcta, con su efecto en el denominador.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen programas de eficiencia que no mejoraron el índice. La causa es haber recortado costos que sostenían ingresos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

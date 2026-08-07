@@ -21,6 +21,8 @@ Optimizar la composición del balance de un banco sujeta a todas sus restriccion
 liquidez, apalancamiento, financiamiento estable, rentabilidad y apetito de riesgo. Es un problema de
 optimización con restricciones múltiples, y **la restricción que domina cambia con el entorno**.
 
+El plan de la clase anterior está limitado por varias restricciones a la vez: capital, liquidez y apalancamiento. Esta clase identifica cuál de ellas manda de verdad, porque optimizar contra la restricción equivocada consume esfuerzo sin liberar nada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las restricciones y su medida; los cuatro siguientes, los instrumentos para gestionarlas. El **retorno por unidad de restricción** es la medida que ordena las decisiones: cuánto se gana por cada unidad del recurso que escasea.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `restricción activa` | La que limita efectivamente la decisión. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `balance estructural` | Composición de largo plazo del activo y del pasivo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una restricción activa: de todas las que limitan al banco, solo una está apretando en cada momento. Todo el rendimiento marginal está en esa, y cuando se libera, otra pasa a ser la activa.
 
 ```text
 UN BANCO OPTIMIZA SUJETO A CINCO RESTRICCIONES
@@ -94,6 +100,8 @@ crecer no aumenta en absoluto.
 
 ### 1. Consumo unitario por restricción
 
+Cada operación consume distintas cantidades de cada restricción. La tabla las recoge.
+
 | Activo | Ponderación de riesgo | Apalancamiento | Cobertura de liquidez | Financiamiento estable requerido |
 |---|---:|---:|---|---:|
 | Efectivo y reservas | 0 % | 100 % | Aporta | 0 % |
@@ -116,6 +124,8 @@ LEE LA TABLA POR COLUMNAS Y APARECE EL DILEMA
 ```
 
 ### 2. Identificar la restricción activa
+
+La restricción activa se identifica comparando holguras. El procedimiento siguiente lo hace.
 
 ```text
 PROCEDIMIENTO
@@ -144,6 +154,8 @@ EJEMPLO
 ```
 
 ### 3. Retorno por unidad de restricción
+
+El retorno se calcula sobre la restricción activa y no sobre el capital por defecto. El procedimiento lo obtiene.
 
 ```text
 CON LA RESTRICCIÓN IDENTIFICADA, SE ORDENAN
@@ -179,6 +191,8 @@ LA COLUMNA FINAL ORDENA LAS DECISIONES
 
 ### 4. Instrumentos de gestión
 
+Hay instrumentos para liberar cada restricción, con sus costos. La tabla los recoge.
+
 | Instrumento | Qué libera | Costo | Consideraciones |
 |---|---|---|---|
 | Venta de cartera | Capital, apalancamiento, financiamiento | Descuento sobre valor libro | Pérdida de la relación |
@@ -202,6 +216,8 @@ SI HAY TRANSFERENCIA SIGNIFICATIVA DE RIESGO
 
 ### 5. Cambio de restricción activa
 
+Liberar una restricción hace que otra pase a ser la activa, y conviene saber cuál. El esquema lo muestra.
+
 ```text
 LA RESTRICCIÓN ACTIVA CAMBIA CON EL ENTORNO
 
@@ -223,6 +239,8 @@ ANTICIPARLO PERMITE ACTUAR ANTES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo identifica la restricción activa de un banco y ordena sus operaciones por retorno sobre ella. El orden cambia respecto del que da la rentabilidad sobre capital.
 
 **Situación.** Un banco debe liberar capital para financiar el plan de la clase anterior.
 
@@ -419,6 +437,8 @@ la clase: **optimizar contra la restricción activa, y reconocer cuándo una acc
 
 ## 🏦 Del cliente al banco
 
+El cliente pide una operación y el banco evalúa qué restricción consume. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco vendió mi crédito a otro» | Venta de cartera para liberar capital | 15, clase 6 |
@@ -429,6 +449,8 @@ la clase: **optimizar contra la restricción activa, y reconocer cuándo una acc
 
 ## 🧪 Práctica
 
+El laboratorio pide identificar la restricción activa y reordenar una cartera de operaciones. La restricción activa no es el capital, que es lo que la intuición supondría.
+
 En `labs/lab-03.md`, sección de balance:
 
 1. Calcula la holgura de las cinco restricciones e identifica la activa.
@@ -437,6 +459,8 @@ En `labs/lab-03.md`, sección de balance:
 4. Determina qué cambio de entorno haría activa otra restricción.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen esfuerzos de optimización que no liberaron nada. La causa es haber optimizado contra una restricción que no estaba activa.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

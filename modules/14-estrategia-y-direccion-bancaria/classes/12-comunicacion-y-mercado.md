@@ -21,6 +21,8 @@ Comunicar con precisión a inversionistas, supervisores, clientes y personal. En
 es una función de apoyo: **la confianza es el insumo del negocio**, y una comunicación imprecisa puede
 producir el resultado que describe, en cualquiera de las dos direcciones.
 
+Las clases anteriores producen resultados. Esta los comunica, y su restricción principal no es de estilo sino jurídica: un banco cotizado tiene obligaciones de simetría informativa, y presentar bien los resultados tiene un límite exacto en el momento en que la presentación induce a error.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las obligaciones de información; los cuatro siguientes, las medidas y los momentos. La **medida alternativa** es donde vive el riesgo: las cifras ajustadas son útiles y tienen que conciliarse con las contables, y cambiar el ajuste entre trimestres es una señal de alerta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `información privilegiada` | La no pública que influiría en el precio si se conociera. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `comunicación de crisis` | La que se produce en situación de tensión. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una línea que separa presentar de inducir: destacar lo bueno es legítimo, y omitir lo malo o cambiar la métrica cuando deja de favorecer no lo es. La prueba es si un inversionista razonable llegaría a una conclusión distinta con la información completa.
 
 ```text
 CUATRO AUDIENCIAS, CUATRO CONTRATOS DISTINTOS
@@ -88,6 +94,8 @@ DECIR COSAS DISTINTAS A CADA UNA
 ## 📖 Desarrollo
 
 ### 1. Información al mercado
+
+Las obligaciones de información tienen momentos y contenidos definidos. La tabla los recoge.
 
 ```text
 PRINCIPIOS
@@ -121,6 +129,8 @@ LO QUE DEBE COMUNICARSE COMO HECHO RELEVANTE EN UN BANCO
 
 ### 2. Medidas alternativas y guías
 
+Las medidas ajustadas exigen conciliación y consistencia. La tabla recoge los requisitos.
+
 ```text
 UNA MEDIDA ALTERNATIVA ES LEGÍTIMA SI
   · se define con precisión
@@ -152,6 +162,8 @@ REGLA PRUDENTE
 ```
 
 ### 3. El mensaje de resultados
+
+Un mensaje de resultados tiene una estructura y un orden. La tabla los recoge.
 
 ```text
 ESTRUCTURA DE UNA PRESENTACIÓN HONESTA
@@ -188,6 +200,8 @@ EL CASO DE LA PARTE 15, CLASE 1
 
 ### 4. Comunicación en tensión
 
+En una situación de tensión, la comunicación es parte de la gestión del riesgo. La tabla recoge los criterios.
+
 ```text
 PRINCIPIOS EN SITUACIÓN DE TENSIÓN
   1. VELOCIDAD    el vacío se llena con rumor
@@ -218,6 +232,8 @@ de la salida de depósitos.
 
 ### 5. Prácticas que inducen a error
 
+Hay prácticas de presentación que cruzan la línea. La tabla las recoge.
+
 ```text
 · comparar con un período base favorable elegido a propósito
 · cambiar el perímetro de consolidación sin recalcular la serie
@@ -230,6 +246,8 @@ de la salida de depósitos.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo revisa una presentación de resultados y detecta una práctica que induce a error. Conviene comparar las métricas del trimestre con las del anterior: el cambio de métrica es la señal.
 
 **Situación.** El banco prepara la presentación de resultados anuales.
 
@@ -442,6 +460,8 @@ horizonte, igual que las demás decisiones de esta parte.
 
 ## 🏦 Del cliente al banco
 
+El inversionista lee una presentación y el banco tiene obligaciones de simetría informativa. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco anunció récord y luego cayó» | Crecimiento no descompuesto | 15, clase 1 |
@@ -452,6 +472,8 @@ horizonte, igual que las demás decisiones de esta parte.
 
 ## 🧪 Práctica
 
+El laboratorio pide revisar una presentación y detectar prácticas problemáticas. Una de ellas es legítima y parece problemática.
+
 En `labs/lab-06.md`, sección de comunicación:
 
 1. Descompón la variación del resultado y construye el resultado recurrente.
@@ -460,6 +482,8 @@ En `labs/lab-06.md`, sección de comunicación:
 4. Prepara el mensaje de una comunicación en tensión con sus principios.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de comunicación al mercado. Las causas son medidas alternativas sin conciliar y cambios de métrica no explicados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

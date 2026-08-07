@@ -21,6 +21,8 @@ Alinear lo que un banco dice querer con lo que efectivamente premia. La cultura 
 es lo que declara: **es lo que ocurre cuando nadie está mirando**, y lo que ocurre está determinado en
 gran medida por cómo se mide, se paga y se promueve a las personas.
 
+El gobierno de la clase anterior escribe políticas. Esta trata de lo que la gente hace de verdad, que depende mucho más de los incentivos que de las políticas. Es la clase que explica la mayoría de los escándalos de conducta de la Parte 12: nadie decidió vender mal, se diseñó un incentivo que lo premiaba.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la remuneración y sus ajustes; los cuatro siguientes, su alcance y sus fallos. La **recuperación** es el mecanismo con más efecto disuasorio y menos uso: poder recuperar un bono ya pagado cuando el resultado que lo justificó resulta no ser real.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cultura` | Conjunto de supuestos compartidos que guían el comportamiento. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `incentivo perverso` | El que produce el comportamiento opuesto al deseado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la cultura es lo que ocurre cuando nadie mira, y lo que ocurre cuando nadie mira lo determina el sistema de remuneración. Un código de conducta y un bono por volumen que se contradicen se resuelven siempre a favor del bono.
 
 ```text
 LA CULTURA SE LEE EN TRES LUGARES,
@@ -92,6 +98,8 @@ EL DOCUMENTO ES IRRELEVANTE
 
 ### 1. Diagnóstico de cultura
 
+La cultura se puede diagnosticar con indicadores observables. La tabla los recoge.
+
 | Dimensión | Pregunta | Evidencia observable |
 |---|---|---|
 | Tono desde arriba | ¿La dirección actúa como declara? | Decisiones donde eligió el costo correcto |
@@ -112,6 +120,8 @@ LA PRUEBA MÁS DURA DE UNA CULTURA
 ```
 
 ### 2. Remuneración variable
+
+La remuneración variable tiene componentes regulados en banca. La tabla los recoge.
 
 ```text
 PRINCIPIOS DE UNA REMUNERACIÓN COHERENTE CON EL RIESGO
@@ -153,6 +163,8 @@ PRINCIPIOS DE UNA REMUNERACIÓN COHERENTE CON EL RIESGO
 
 ### 3. Incentivos perversos
 
+Ciertos diseños de incentivo producen conductas conocidas. La tabla los recoge con su efecto.
+
 ```text
 CATÁLOGO DE LOS MÁS FRECUENTES EN BANCA
 
@@ -190,6 +202,8 @@ LA PRUEBA DE UN INDICADOR DE DESEMPEÑO
 
 ### 4. Gestión del desempeño
 
+El desempeño se evalúa por resultados y por cómo se obtuvieron. La tabla recoge el criterio.
+
 ```text
 UN SISTEMA DE DESEMPEÑO COMPLETO MIDE TRES COSAS
 
@@ -211,6 +225,8 @@ UN SISTEMA DE DESEMPEÑO COMPLETO MIDE TRES COSAS
 
 ### 5. Sucesión y capacidades
 
+La planificación de la sucesión es un requisito supervisor y una necesidad práctica. La tabla la recoge.
+
 ```text
 PLAN DE SUCESIÓN
   · para cada posición crítica, sucesores identificados
@@ -229,6 +245,8 @@ CAPACIDADES CRÍTICAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo analiza un sistema de incentivos y predice la conducta que produce. Conviene comparar con el código de conducta: cuando se contradicen, gana el incentivo.
 
 **Situación.** El comité de remuneraciones revisa el sistema tras un año con hallazgos de conducta.
 
@@ -436,6 +454,8 @@ perjudicando al cliente. La cultura de una organización está en su nómina.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una oferta y el ejecutivo tiene un incentivo que puede no coincidir con el interés del cliente. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El ejecutivo insistía en venderme» | 92 % de la variable por volumen | 12, clase 8 |
@@ -446,6 +466,8 @@ perjudicando al cliente. La cultura de una organización está en su nómina.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar un sistema de incentivos y detectar los perversos. Dos de los incentivos propuestos producen conductas que el banco sanciona por otro lado.
+
 En `labs/lab-05.md`, sección de personas:
 
 1. Diagnostica la cultura de una organización con las seis dimensiones y su evidencia.
@@ -454,6 +476,8 @@ En `labs/lab-05.md`, sección de personas:
 4. Simula el efecto del rediseño sobre la distribución de la variable.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de conducta generalizados. La causa es casi siempre el sistema de incentivos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Cerrar la formación integrando quince partes en el instrumento con que se dirig
 de mando que permita ver, en una sola vista, si la institución está creando valor de forma sostenible y
 dentro de su apetito de riesgo**. Esta clase es la síntesis del programa completo.
 
+Esta clase cierra la parte y la Etapa 4 reuniendo las trece anteriores en el instrumento que un director usa de verdad. Y termina con una advertencia que atraviesa todo el programa: un cuadro de mando no decide, informa. El criterio profesional es lo que ningún indicador sustituye.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura del cuadro; los cuatro siguientes, su uso y su límite. El **criterio profesional** es lo que cierra el programa: las trescientas cincuenta y dos clases dan herramientas, y la decisión sigue siendo de quien la firma.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cuadro de mando` | Conjunto reducido de indicadores que informan la dirección. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `criterio profesional` | Capacidad de juzgar con la información disponible. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena causal: los indicadores principales anticipan y los de resultado confirman, y entre unos y otros hay una hipótesis sobre cómo funciona el negocio. Un cuadro de mando sin esa hipótesis es una lista de números.
 
 ```text
 UN CUADRO DE MANDO NO ES UN INFORME: ES UN INSTRUMENTO
@@ -88,6 +94,8 @@ REGLA DE DISEÑO
 ## 📖 Desarrollo
 
 ### 1. Las cuatro perspectivas
+
+El cuadro cubre cuatro perspectivas que se relacionan entre sí. La tabla las recoge.
 
 ```text
 RESULTADO       ¿estamos creando valor?
@@ -119,6 +127,8 @@ LA RELACIÓN CAUSAL ENTRE ELLAS
 
 ### 2. Indicadores principales y de resultado
 
+Los indicadores que anticipan y los que confirman cumplen funciones distintas. La tabla los separa.
+
 | Perspectiva | Indicador principal (anticipa) | Indicador de resultado (confirma) |
 |---|---|---|
 | Resultado | Margen de las nuevas operaciones | Margen financiero del período |
@@ -140,6 +150,8 @@ LOS INDICADORES PRINCIPALES SON LOS QUE PERMITEN CORREGIR
 ```
 
 ### 3. Construcción del cuadro
+
+El cuadro se construye desde la estrategia y no desde los datos disponibles. El procedimiento lo estructura.
 
 ```text
 CRITERIOS DE SELECCIÓN DE CADA INDICADOR
@@ -165,6 +177,8 @@ el criterio 5 y el 6 son los que más se omiten
 | Contrapeso | Indicador que evita su manipulación |
 
 ### 4. El ciclo de dirección
+
+El cuadro se usa en un ciclo con frecuencias y decisiones definidas. La tabla lo recoge.
 
 ```text
 PLANIFICAR   estrategia → apetito → plan → presupuesto
@@ -193,6 +207,8 @@ LO QUE HACE QUE MEDIR PRODUZCA CORRECCIÓN
 
 ### 5. Criterio profesional
 
+Hay decisiones que ningún indicador resuelve. La tabla recoge cuáles y por qué.
+
 ```text
 LO QUE NINGÚN CUADRO DE MANDO SUSTITUYE
 
@@ -211,6 +227,8 @@ ESO ES LO QUE ESTE PROGRAMA HA INTENTADO CONSTRUIR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el cuadro de mando de un banco desde su estrategia. Conviene explicitar la relación causal entre indicadores: es lo que hace que el cuadro sirva para dirigir y no solo para informar.
 
 **Situación.** El comité de dirección construye el cuadro de mando del banco.
 
@@ -405,6 +423,8 @@ CIERRE DEL PROGRAMA
 
 ## 🏦 Del cliente al banco
 
+El cliente vive el resultado de estas decisiones y el directorio las toma con un cuadro de mando. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco reacciona rápido a los problemas» | Indicadores principales, no de resultado | 15, clase 14 |
@@ -415,6 +435,8 @@ CIERRE DEL PROGRAMA
 
 ## 🧪 Práctica
 
+El laboratorio pide construir un cuadro de mando desde una estrategia y declarar sus relaciones causales. Las relaciones causales son lo que se evalúa.
+
 En `labs/lab-06.md`, sección de dirección:
 
 1. Evalúa un reporte de gestión con los seis criterios de selección.
@@ -423,6 +445,8 @@ En `labs/lab-06.md`, sección de dirección:
 4. Verifica las cadenas causales entre capacidades, cliente y resultado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen cuadros de mando que no se usan. Las causas son saturación de indicadores y ausencia de relaciones causales declaradas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

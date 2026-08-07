@@ -21,6 +21,8 @@ Abrir la última parte formativa con la pregunta que la dirección de un banco d
 precisión: **¿de dónde viene realmente nuestro resultado y es sostenible?** Casi todos los bancos en
 dificultad tenían un modelo de negocio que dejó de funcionar antes de que sus indicadores lo mostraran.
 
+Las catorce partes anteriores explican cómo funciona un banco por dentro. Esta pregunta si ese banco tiene sentido como negocio, que es una pregunta distinta y la que hace un directorio. Un banco puede ejecutar impecablemente un modelo que ya no rinde, y eso no se ve en ningún indicador operativo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los componentes del resultado; los cuatro siguientes, los criterios de evaluación. La distinción entre **viabilidad y sostenibilidad** es la que ordena la clase: un modelo puede dar dinero hoy y no darlo en tres años, y esas son dos preguntas separadas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `modelo de negocio` | Cómo un banco genera valor de forma sostenible. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `rentabilidad sobre patrimonio` | Resultado neto sobre patrimonio medio. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una descomposición: la rentabilidad de un banco sale de multiplicar margen por volumen, restar costos y ajustar por riesgo y por capital. Cada modelo de negocio pone el peso en una de esas palancas, y su viabilidad depende de que esa palanca siga funcionando.
 
 ```text
 UN BANCO TIENE TRES FUENTES DE RESULTADO
@@ -91,6 +97,8 @@ VIENE DE LA CUARTA NO ESTÁ CRECIENDO
 ## 📖 Desarrollo
 
 ### 1. Descomposición del resultado
+
+El resultado de un banco se descompone en componentes que se gestionan por separado. El procedimiento siguiente los separa.
 
 ```text
 ESTRUCTURA DE RESULTADOS DE UN BANCO
@@ -123,6 +131,8 @@ LA LÍNEA MÁS INFORMATIVA ES EL RESULTADO ANTES DE PROVISIONES
 
 ### 2. Modelos y sus perfiles
 
+Los modelos de negocio bancarios tienen perfiles de riesgo y de rentabilidad distintos. La tabla los compara.
+
 | Modelo | Fuente dominante | Riesgo dominante | Sensibilidad |
 |---|---|---|---|
 | Minorista diversificado | Margen y comisiones | Crédito | Ciclo económico |
@@ -147,6 +157,8 @@ NINGÚN MODELO ES SUPERIOR EN ABSTRACTO
 
 ### 3. Viabilidad y sostenibilidad
 
+Las dos preguntas se responden con datos distintos y horizontes distintos. La tabla las separa.
+
 ```text
 VIABILIDAD (12 meses)
   ¿el resultado del año cubre el costo del capital?
@@ -169,6 +181,8 @@ SOSTENIBILIDAD (3 años)
 
 ### 4. Señales de agotamiento
 
+Un modelo agotado da señales antes de dejar de rendir. La tabla las recoge.
+
 ```text
 LAS CINCO SEÑALES, EN ORDEN DE ANTICIPACIÓN
 
@@ -189,6 +203,8 @@ crecimiento de resultado con un margen bruto plano, y ese crecimiento se agota e
 provisiones dejan de poder bajar.
 
 ### 5. Comparación con pares
+
+El grupo de pares se elige con criterio y sin él la comparación no informa. La tabla recoge los criterios.
 
 ```text
 UN GRUPO DE PARES ÚTIL COMPARTE
@@ -215,6 +231,8 @@ COMPARAR CON UN BANCO DE OTRO MODELO
 | Resultado antes de provisiones sobre activos | Capacidad de absorción |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo descompone el resultado de un banco y evalúa la sostenibilidad de su modelo. Conviene mirar la tendencia de cada componente por separado: el agregado puede ser estable con componentes que se compensan.
 
 **Situación.** El directorio evalúa la sostenibilidad del modelo de negocio.
 
@@ -388,6 +406,8 @@ muestra una mejora real y modesta, y es el que la dirección debe usar para juzg
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un banco y el directorio ve un modelo de negocio que puede estar agotándose. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco gana mucho dinero» | Parte del resultado no viene del negocio | 15, clase 1 |
@@ -398,6 +418,8 @@ muestra una mejora real y modesta, y es el que la dirección debe usar para juzg
 
 ## 🧪 Práctica
 
+El laboratorio pide descomponer el resultado de tres bancos y evaluar sus modelos. Uno de ellos es rentable hoy y no sostenible.
+
 En `labs/lab-01.md`:
 
 1. Descompón el crecimiento del resultado de un banco en sus tres fuentes.
@@ -406,6 +428,8 @@ En `labs/lab-01.md`:
 4. Construye un grupo de pares y compara ocho indicadores.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber evaluado el resultado agregado sin descomponerlo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

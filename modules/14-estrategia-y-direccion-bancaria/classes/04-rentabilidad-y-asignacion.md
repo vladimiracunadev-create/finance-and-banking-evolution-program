@@ -21,6 +21,8 @@ Medir dónde gana y dónde pierde dinero un banco, con el nivel de detalle que p
 sistema de información sobre el que descansan las decisiones de precio, de segmento y de inversión, y
 sus errores de método producen decisiones equivocadas con apariencia de rigor.
 
+La estrategia de la clase anterior necesita saber qué gana con cada cosa. Esta clase construye ese cálculo, y su dificultad no es aritmética: repartir costos indirectos y fijar precios internos son decisiones que cambian qué producto parece rentable, y por eso se discuten tanto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el mecanismo de precios internos; los cinco siguientes, la asignación de costos y su lectura. El **costo evitable** es el concepto que decide en cualquier decisión de cierre: lo que importa no es cuánto costo tiene asignado un producto sino cuánto costo desaparecería si se cerrara.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `precio de transferencia interno` | Tasa a la que la tesorería compra y vende fondos internamente. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `contribución` | Ingreso menos costos evitables. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son capas de rentabilidad: margen directo, después de costos directos, después de indirectos y después de capital. Cada capa responde a una decisión distinta, y usar la capa equivocada lleva a cerrar productos que aportan.
 
 ```text
 UN SISTEMA DE RENTABILIDAD TIENE DOS USOS
@@ -90,6 +96,8 @@ positivamente. La cifra no estaba mal calculada; estaba mal usada.
 ## 📖 Desarrollo
 
 ### 1. Precio de transferencia interno
+
+El precio de transferencia reparte el margen entre quien capta y quien coloca. El procedimiento siguiente lo aplica.
 
 ```text
 SIN PRECIO DE TRANSFERENCIA, LA RENTABILIDAD NO SE PUEDE MEDIR
@@ -125,6 +133,8 @@ LA REGLA DE CONSTRUCCIÓN
 | Sin precio para las líneas no usadas | El compromiso parece gratuito |
 
 ### 2. Asignación de costos
+
+Los costos indirectos se asignan con métodos que dan resultados distintos. La tabla los compara.
 
 ```text
 TRES MÉTODOS, DE PEOR A MEJOR PARA DECIDIR
@@ -167,6 +177,8 @@ COSTEO POR ACTIVIDAD — CÓMO SE CONSTRUYE
 
 ### 3. Niveles de rentabilidad
 
+Cada nivel de rentabilidad sirve para una decisión distinta. La tabla los recoge.
+
 ```text
 POR UNIDAD DE NEGOCIO
   para gestión de recursos y evaluación de la dirección
@@ -196,6 +208,8 @@ Y LA MÁS DIFÍCIL
 
 ### 4. Costo evitable
 
+El costo evitable es el único relevante para decidir cerrar algo. El procedimiento lo calcula.
+
 ```text
 LA PREGUNTA QUE DEFINE UN COSTO EVITABLE
   si dejamos de hacer esto, ¿este costo desaparece?
@@ -216,6 +230,8 @@ LA PREGUNTA QUE DEFINE UN COSTO EVITABLE
 | Fijar la tasa mínima de un crédito | Directos + capital + riesgo |
 
 ### 5. Trampas de interpretación
+
+Las cifras de rentabilidad por producto se pueden leer mal de formas conocidas. La tabla las recoge.
 
 ```text
 · UN PRODUCTO CON RENTABILIDAD NEGATIVA
@@ -240,6 +256,8 @@ LA PREGUNTA QUE DEFINE UN COSTO EVITABLE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la rentabilidad de un producto en las cuatro capas. Conviene comparar la decisión que sugiere cada capa: en dos de ellas el producto se cierra y en las otras dos no.
 
 **Situación.** El comité evalúa el catálogo de productos de personas.
 
@@ -428,6 +446,8 @@ y sus errores de método no se corrigen con juicio comercial.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un producto y el banco calcula cuánto le aporta después de todo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi cuenta corriente no me da interés» | Su valor está en el saldo estable | 15, clase 4 |
@@ -438,6 +458,8 @@ y sus errores de método no se corrigen con juicio comercial.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la rentabilidad por capas y decidir sobre un producto. El producto es no rentable con costos asignados y aporta con costos evitables.
+
 En `labs/lab-02.md`, sección de rentabilidad:
 
 1. Construye el precio de transferencia por plazo para cinco productos.
@@ -446,6 +468,8 @@ En `labs/lab-02.md`, sección de rentabilidad:
 4. Separa costo evitable de asignado y evalúa una decisión de discontinuar.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones de cierre que empeoraron el resultado. La causa es haber usado costos asignados en vez de evitables.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

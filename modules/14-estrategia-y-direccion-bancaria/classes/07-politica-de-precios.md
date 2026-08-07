@@ -21,6 +21,8 @@ Fijar los precios de un banco con método. El precio es la variable que más rá
 la que más rápido lo destruye: **una decisión de precio tomada por comparación con la competencia
 transfiere valor sin decidirlo**, y una tomada solo por costo pierde el negocio.
 
+Las clases anteriores calculan costos y restricciones. Esta fija precios, y reúne dos cosas que suelen decidirse por separado: el piso, que sale del costo y del riesgo, y el techo, que sale de la elasticidad de la Parte 6. Entre los dos hay un rango, y ahí es donde se decide.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el piso y la referencia; los cuatro siguientes, la estructura y sus riesgos. La **transparencia de precio** es la restricción de conducta que la Parte 12 impone: la diferenciación de precios es legítima y tiene límites, y la opacidad no es uno de los mecanismos admisibles.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tasa mínima` | Precio bajo el cual la operación destruye valor. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `transparencia de precio` | Que el cliente pueda comparar y entender lo que paga. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un rango entre dos límites: por debajo de la tasa mínima la operación destruye valor, y por encima de cierto punto el cliente se va. La política de precios consiste en saber dónde están los dos límites y elegir un punto con criterio.
 
 ```text
 TRES ENFOQUES, Y NINGUNO BASTA SOLO
@@ -97,6 +103,8 @@ EL MÉTODO CORRECTO USA LOS TRES
 
 ### 1. El piso: tasa mínima
 
+La tasa mínima suma costo de fondos, pérdida esperada, costos operativos y costo de capital. El procedimiento siguiente la calcula.
+
 ```text
 TASA MÍNIMA DE UN CRÉDITO (Parte 11, clase 14)
   costo de fondos del plazo
@@ -125,6 +133,8 @@ decisión válida si se toma sabiendo cuánto valor se transfiere y por qué —
 un cliente, entrar en un segmento— y con aprobación explícita.
 
 ### 2. Elasticidad
+
+La elasticidad determina cuánto margen hay por encima del piso. El procedimiento la estima.
 
 ```text
 ELASTICIDAD = variación % de la demanda / variación % del precio
@@ -155,6 +165,8 @@ LA ELASTICIDAD SE ESTIMA, NO SE SUPONE
 ```
 
 ### 3. Estructura de precios
+
+El precio de un producto se compone de varios elementos que se pueden mover por separado. La tabla los recoge.
 
 ```text
 COMPONENTES POSIBLES
@@ -191,6 +203,8 @@ DOS PRINCIPIOS DE DISEÑO
 
 ### 4. Diferenciación de precios
 
+Cobrar distinto a clientes distintos es legítimo bajo condiciones concretas. La tabla las recoge.
+
 ```text
 DIFERENCIAR PRECIOS ES LEGÍTIMO SI SE BASA EN
   · costo de servir distinto
@@ -220,6 +234,8 @@ de servir, y varias jurisdicciones la han restringido explícitamente.
 
 ### 5. Guerras de precios
 
+Una guerra de precios tiene una dinámica previsible y un final conocido. La tabla lo recoge.
+
 ```text
 UNA GUERRA DE PRECIOS DESTRUYE VALOR PARA TODOS
 Y CASI SIEMPRE EMPIEZA POR UN MALENTENDIDO
@@ -248,6 +264,8 @@ CUÁNDO SÍ HAY QUE RESPONDER CON PRECIO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la tasa mínima de un producto y determina el rango de precio. Conviene comprobar que el precio actual está dentro del rango: a veces no lo está.
 
 **Situación.** Un competidor baja su tasa de crédito hipotecario y el banco debe responder.
 
@@ -462,6 +480,8 @@ sostiene**.
 
 ## 🏦 Del cliente al banco
 
+El cliente compara tasas y el banco fija un precio entre su piso y la elasticidad de su segmento. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Otro banco me ofrece menos tasa» | Alcance real de la oferta | 15, clase 7 |
@@ -472,6 +492,8 @@ sostiene**.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la tasa mínima y recomendar un precio. El precio recomendado tiene que ir con su justificación de elasticidad.
+
 En `labs/lab-04.md`:
 
 1. Construye la tasa mínima de cuatro productos con costo de fondos por vida efectiva.
@@ -480,6 +502,8 @@ En `labs/lab-04.md`:
 4. Diseña la respuesta a un movimiento competitivo con su alcance.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen políticas de precios que destruyen valor. Las causas son tasas mínimas mal calculadas y guerras de precios entradas sin cálculo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
