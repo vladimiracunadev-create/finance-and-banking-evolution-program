@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-849-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-869-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -22,6 +22,7 @@
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
 - `.github/pull_request_template.md`
+- `.github/workflows/apps.yml`
 - `.github/workflows/ci.yml`
 - `.github/workflows/codeql.yml`
 - `.github/workflows/enlaces-externos.yml`
@@ -155,6 +156,10 @@
 - `datasets/synthetic/remittance_corridors.csv`
 - `datasets/synthetic/sanctions_screening_alerts.csv`
 - `datasets/transactions_synthetic.csv`
+- `desktop/.gitignore`
+- `desktop/README.md`
+- `desktop/programa.py`
+- `desktop/requirements.txt`
 - `docs/README.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
@@ -178,6 +183,21 @@
 - `docs/ruta-aprendizaje.md`
 - `localizations/TEMPLATE.md`
 - `localizations/chile/README.md`
+- `mobile/.gitignore`
+- `mobile/README.md`
+- `mobile/app/build.gradle.kts`
+- `mobile/app/proguard-rules.pro`
+- `mobile/app/src/main/AndroidManifest.xml`
+- `mobile/app/src/main/java/cl/finanzasbanca/programa/MainActivity.kt`
+- `mobile/app/src/main/res/drawable/ic_launcher_foreground.xml`
+- `mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml`
+- `mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml`
+- `mobile/app/src/main/res/values/colors.xml`
+- `mobile/app/src/main/res/values/strings.xml`
+- `mobile/app/src/main/res/values/themes.xml`
+- `mobile/build.gradle.kts`
+- `mobile/gradle.properties`
+- `mobile/settings.gradle.kts`
 - `modules/00-matematica-financiera-basica/README.md`
 - `modules/00-matematica-financiera-basica/assessments/diagnostic.md`
 - `modules/00-matematica-financiera-basica/assessments/final.md`

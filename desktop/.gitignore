@@ -1,0 +1,5 @@
+# El sitio lo copia el flujo desde site/ antes de empaquetar.
+site/
+build/
+dist/
+*.spec

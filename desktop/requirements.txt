@@ -1,0 +1,4 @@
+# Lector de escritorio. QtWebEngine muestra el mismo HTML que el portal, de
+# modo que la aplicacion no mantiene su propio renderizador de contenido.
+PySide6-Essentials>=6.8,<7.0
+PySide6-Addons>=6.8,<7.0

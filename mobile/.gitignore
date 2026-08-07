@@ -1,0 +1,7 @@
+# El contenido lo copia el flujo desde site/ antes de compilar: no se versiona
+# dos veces el mismo material.
+app/src/main/assets/
+build/
+app/build/
+.gradle/
+local.properties
