@@ -22,11 +22,13 @@ bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 | **Parte 19 — Blockchain y DLT para instituciones financieras** | 1.4.0 | ✅ Publicada |
 | **Parte 20 — Activos digitales, stablecoins y dinero programable** | 1.5.0 | ✅ Publicada |
 | **Parte 21 — Tokenización, FX on-chain y mercados programables** | 1.6.0 | ✅ Publicada |
+| **Parte 22 — Regulación de mercados financieros digitales** | 1.7.0 | ✅ Publicada |
 | Entorno `open_finance_sandbox` con 28 pruebas | 1.2.0 | ✅ Funcional |
 | Entorno `cross_border_payments_lab` con 56 pruebas | 1.3.0 | ✅ Funcional |
 | Entorno `dlt_financial_lab` con 38 pruebas | 1.4.0 | ✅ Funcional |
 | Entorno `digital_assets_risk_lab` con 49 pruebas | 1.5.0 | ✅ Funcional |
 | Entornos `tokenization_platform` y `onchain_fx_lab` con 62 pruebas | 1.6.0 | ✅ Funcionales |
+| Entorno `regulatory_perimeter_engine` con 29 pruebas | 1.7.0 | ✅ Funcional |
 | Validadores de metadatos, OpenAPI, datasets, secretos y PII | 1.2.0 | ✅ En CI |
 | Fichas normativas estructuradas | 1.2.0 | ✅ Iniciadas |
 
@@ -46,8 +48,8 @@ proyecto y aplicación— y en verde antes de empezar la siguiente.
 | 19 | Blockchain y DLT para instituciones financieras | 14 | `dlt_financial_lab` | ✅ Publicada |
 | 20 | Activos digitales, stablecoins y dinero programable | 16 | `digital_assets_risk_lab` | ✅ Publicada |
 | 21 | Tokenización, FX on-chain y mercados programables | 16 | `tokenization_platform`, `onchain_fx_lab` | ✅ Publicada |
-| 22 | Regulación de mercados financieros digitales | 18 | `regulatory_perimeter_engine` | 🔜 Siguiente |
-| 23 | Proyecto: banco digital y mercado tokenizado | 18 | Capstone integrado | Prevista |
+| 22 | Regulación de mercados financieros digitales | 18 | `regulatory_perimeter_engine` | ✅ Publicada |
+| 23 | Proyecto: banco digital y mercado tokenizado | 18 | Capstone integrado | 🔜 Siguiente |
 
 ### Qué incluye cada parte antes de darse por publicada
 

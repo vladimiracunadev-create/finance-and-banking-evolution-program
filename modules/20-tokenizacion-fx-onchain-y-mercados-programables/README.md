@@ -7,12 +7,16 @@
 - **Evaluaciones:** 2
 - **Proyecto:** 1
 
-## Descripción
+## De qué trata esta parte
 
-La Parte 19 estudió el registro y la Parte 20, lo que circula sobre él. Esta parte
-estudia **el instrumento financiero** anotado en ese registro: un bono, una
-acción, una participación, una divisa. Y su pregunta central es jurídica antes
-que técnica:
+La Parte 19 estudió el registro y la Parte 20, el dinero que circula sobre él.
+Esta parte estudia **el instrumento financiero**: un bono, una acción, una
+participación, una divisa. Y su pregunta central es jurídica antes que técnica.
+
+Conviene enunciarla al entrar, porque decide todo lo demás: si el registro
+oficial sigue mandando, el token es un espejo y la liquidación atómica —el único
+beneficio exclusivo de la tokenización— es imposible por construcción. No
+responder esa pregunta es lo que hunde la mitad de los proyectos.
 
 ```text
 TOKENIZAR NO CREA UN DERECHO.
@@ -75,6 +79,30 @@ la mitad de los proyectos de tokenización.
 | Análisis de liquidez secundaria | Mide en vez de suponer |
 | FX y riesgo de liquidación | Calcula exposición y ventana |
 | Evaluación de infraestructura | Compara con la alternativa, con números |
+
+## Cómo se encadenan las 16 clases
+
+La secuencia sigue la vida del instrumento, y cada bloque cierra una decisión de
+arquitectura.
+
+**Clases 1 a 3 — qué se representa y quién manda.** Qué es y qué no es
+tokenizar, la decisión del registro de referencia y los derechos del tenedor. La
+clase 3 muestra que cuatro de seis derechos se pierden por diseño y no por norma,
+y que el redondeo del voto —un detalle de implementación— transfiere control.
+
+**Clases 4 a 7 — emisión, vida y mercado.** La colocación con su libro de
+órdenes, el ciclo de vida donde se rompen los proyectos, la liquidez prometida
+frente a la medida y el fraccionamiento, que democratiza la exposición si nadie
+calcula el importe de equilibrio.
+
+**Clases 8 a 10 — la liquidación.** La entrega contra pago atómica, la custodia
+de valores y el tramo de dinero. Es el núcleo técnico de la parte y donde se
+demuestra que la atomicidad elimina exactamente un riesgo de cinco.
+
+**Clases 11 a 16 — divisas, mecanismos y expediente.** FX sobre registros, pago
+contra pago, creación de mercado automatizada, colateral e interoperabilidad. La
+parte cierra con las doce decisiones del expediente, cada una con su alternativa
+medida.
 
 ## Secuencia
 

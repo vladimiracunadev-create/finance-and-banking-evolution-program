@@ -7,12 +7,16 @@
 - **Evaluaciones:** 2
 - **Proyecto:** 1
 
-## Descripción
+## De qué trata esta parte
 
-La Parte 19 estudió el registro. Esta parte estudia **lo que circula sobre él** y,
-sobre todo, **qué promesa lleva dentro**. La tecnología del registro no dice nada
-sobre eso: dos instrumentos idénticos técnicamente pueden ser un depósito
+La Parte 19 estudió el registro. Esta parte estudia **lo que circula sobre él**
+y, sobre todo, **qué promesa lleva dentro**. La tecnología del registro no dice
+nada sobre eso: dos instrumentos idénticos técnicamente pueden ser un depósito
 bancario y una participación en un fondo sin derecho de redención.
+
+De ahí que la parte empiece por una ficha de cinco preguntas en la que ninguna es
+técnica. La red, el estándar y la billetera no aparecen, y esa ausencia es el
+contenido de la primera clase.
 
 El eje es una pregunta que la palabra «token» oculta:
 
@@ -78,6 +82,31 @@ a quién reclama el cliente**. Ningún componente técnico la cambia.
 | Riesgo de liquidez y contagio | Modela una corrida y su propagación |
 | Custodia y segregación | Diseña y audita |
 | Diseño de condiciones programables | Distingue lo automatizable de lo que no debe serlo |
+
+## Cómo se encadenan las 16 clases
+
+La secuencia va de identificar la promesa a medir su fragilidad, y de ahí a las
+alternativas y al balance.
+
+**Clases 1 y 2 — quién promete y quién no.** La taxonomía por la promesa y el
+instrumento donde no hay obligado. La segunda clase produce la cifra que decide
+en un banco: cuánto crédito desplaza una exposición, que no es la volatilidad
+sino el capital consumido.
+
+**Clases 3 a 7 — la paridad y cómo se rompe.** Qué sostiene realmente el precio
+—el arbitraje, no las reservas—, cómo se analiza una cartera de respaldo, por qué
+la cola de redención crea la corrida y cómo se calcula un punto de no retorno. La
+clase 7 cierra el bloque con la espiral algorítmica, cuyo modo de fallo es
+matemático y se puede calcular por adelantado.
+
+**Clases 8 a 12 — las alternativas y la custodia.** Depósito tokenizado, dinero
+electrónico, CBDC y dinero programable, más la custodia por clave. Aquí se
+descubre que el régimen que resolvió hace décadas casi todos estos problemas ya
+existía.
+
+**Clases 13 a 16 — el mercado, el contagio y la decisión.** Liquidez medida en
+vez de supuesta, exposición indirecta, tratamiento contable y prudencial, y el
+expediente de doce piezas que un comité puede aprobar o rechazar.
 
 ## Secuencia
 
