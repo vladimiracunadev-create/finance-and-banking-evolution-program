@@ -85,6 +85,13 @@ jobs:
       - name: Validar los conjuntos de datos y sus fichas
         run: python tools/validate_datasets.py
 
+      # El programa completo tiene que poder leerse como un solo documento: es
+      # la unica forma de comprobar que el hilo pedagogico se sostiene entero.
+      - name: Verificar que el programa completo sea generable en un documento
+        run: |
+          python -m pip install -r requirements-site.txt
+          python tools/build_book.py --check
+
       - name: Compilar las herramientas y aplicaciones
         run: python -m compileall -q tools apps tests
 

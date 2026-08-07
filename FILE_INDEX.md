@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**842 archivos de texto versionados.**
+**844 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -122,6 +122,7 @@ repositorio. No se edita a mano.
 - `apps/tokenization_platform/lifecycle.py`
 - `apps/tokenization_platform/registry.py`
 - `apps/tokenization_platform/settlement.py`
+- `audit.json`
 - `datasets/README.md`
 - `datasets/loan_applications_synthetic.csv`
 - `datasets/personal_budget_synthetic.csv`
@@ -833,6 +834,7 @@ repositorio. No se edita a mano.
 - `tests/test_regulatory_perimeter_engine.py`
 - `tests/test_scoring.py`
 - `tests/test_tokenization_platform.py`
+- `tools/build_book.py`
 - `tools/build_file_index.py`
 - `tools/build_site.py`
 - `tools/build_syllabus.py`

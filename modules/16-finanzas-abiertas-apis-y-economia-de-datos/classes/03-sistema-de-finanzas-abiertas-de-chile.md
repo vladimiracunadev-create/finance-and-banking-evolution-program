@@ -50,13 +50,23 @@ Al finalizar podrás:
 <!-- gen:agenda:start -->
 ## Agenda de 90 minutos
 
-| Minutos | Bloque | Qué ocurre |
-|---:|---|---|
-| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
-| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
-| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
-| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
-| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+La clase dura noventa minutos y se recorre en cinco tramos. No es un horario
+rígido: es el orden en que los bloques de esta página se sostienen unos a otros, y
+por eso conviene respetarlo aunque cambien los tiempos.
+
+Los **diez primeros minutos** se dedican a recuperar la clase anterior, porque casi
+todo lo que aquí se explica supone algo que ya se vio. Los **veinticinco
+siguientes** desarrollan los conceptos con la fuente oficial a la vista: las
+referencias del final de la página no son un adorno bibliográfico, se consultan
+mientras se estudia. Del **minuto 35 al 55** se resuelve el ejemplo guiado paso a
+paso, sin saltarse ninguno, porque el error típico vive precisamente en el paso que
+parece obvio. Los **veinticinco minutos siguientes** son de práctica con datos
+propios o sintéticos —nunca reales de terceros—, que es cuando se comprueba si se
+entendió. Los **diez últimos** cierran con las preguntas de comprobación y el
+registro del entregable.
+
+Si el tiempo aprieta, lo que se recorta es la práctica y se traslada al
+laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales

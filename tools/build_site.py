@@ -31,7 +31,7 @@ except ImportError:  # pragma: no cover - solo ocurre sin requirements-site
 ROOT = Path(__file__).resolve().parents[1]
 SALIDA = ROOT / "site"
 
-EXCLUIDOS = {".git", ".github", "node_modules", ".venv", "site", ".pytest_cache", "__pycache__"}
+EXCLUIDOS = {".git", ".github", "node_modules", ".venv", "site", "book", ".pytest_cache", "__pycache__"}
 
 TITULO = "Finance & Banking Evolution Program"
 REPO = "https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program"

@@ -67,6 +67,20 @@ IOSCO, CPMI y NIST.
 Abre el **[portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)**:
 todas las clases navegables, con diagramas renderizados y sin instalar nada.
 
+**¿Quieres el programa entero en un PDF?**
+Genera el documento completo —las 23 partes y las 352 clases seguidas— y guárdalo
+desde el navegador con Ctrl+P → «Guardar como PDF»:
+
+```bash
+python tools/build_book.py
+```
+
+Produce `book/programa-completo.html` para imprimir y `book/programa-completo.md`
+para revisar o convertir con cualquier herramienta. Leer el programa de corrido es
+además la forma de comprobar que el hilo pedagógico se sostiene entero: si una
+clase supone algo que todavía no se ha visto, se nota leyendo seguido y no se nota
+leyendo archivo a archivo.
+
 **¿Quieres los ejercicios y las herramientas?**
 
 ```bash
@@ -365,6 +379,7 @@ Todo el repositorio se valida en cada cambio. Las insignias de arriba reflejan e
 | `tools/progress.py --check` | `STATUS.md` refleja el estado real |
 | `tools/check_links.py` | Todos los enlaces relativos del repositorio resuelven |
 | `tools/build_site.py --check` | El portal se genera y sus enlaces resuelven |
+| `tools/build_book.py --check` | El programa completo se genera como un solo documento |
 | `tools/validate_metadata.py` | Ninguna norma citada sin fecha de verificación |
 | `tools/validate_openapi.py` | Contratos de API: alcances, errores e importes |
 | `tools/validate_iso20022.py` | Mensajes de pago: campos, formatos y referencia estable |
