@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las formas de pago según la confianza entre las partes; los cuatro siguientes, los instrumentos documentales y su automatización. La **cuenta abierta** es la que más volumen mueve y menos protección da, y por eso convive con la financiación de la cadena de suministro.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cuenta abierta` | El exportador envía y cobra después, sin garantía |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `conciliación automática` | Casar cobro y factura sin intervención manual |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una escala de confianza: cuanto menos se conocen las partes, más caro y más documental es el instrumento. Elegirlo es una decisión de riesgo y no de trámite.
 
 ```text
 LOS INSTRUMENTOS SE ORDENAN EN UN SOLO EJE:
@@ -225,6 +229,8 @@ LA SOLUCIÓN ESTÁ EN LA CLASE 6
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el coste y la protección de tres instrumentos sobre la misma operación. La protección se paga, y cuantificarla es lo que permite decidir.
 
 **Situación.** Una empresa exportadora de 8 millones de dólares anuales evalúa
 cambiar de carta de crédito a cuenta abierta con su principal cliente.
@@ -403,6 +409,8 @@ el plazo, no al cambiar el instrumento.
 
 ## 🧭 Perspectivas
 
+El instrumento afecta a cada parte de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Exportador | Cobra a 45 días sin garantía | Qué instrumento acepta |
@@ -415,6 +423,8 @@ el plazo, no al cambiar el instrumento.
 
 ## 🏦 Del cliente al banco
 
+El exportador quiere cobrar seguro y el banco asume una obligación documental. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me rechazaron los documentos» | Discrepancia documental | 18, clase 11 |
@@ -423,6 +433,8 @@ el plazo, no al cambiar el instrumento.
 | «El banco pagó y la mercancía era mala» | El banco examina documentos | 18, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son documentales y de contraparte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -443,6 +455,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md) y el [proyecto](../project/README.md):
 4. Diseña la referencia estructurada que permitiría conciliar sin intervención.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones de comercio exterior que fallaron. La causa suele ser el instrumento elegido por costumbre.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

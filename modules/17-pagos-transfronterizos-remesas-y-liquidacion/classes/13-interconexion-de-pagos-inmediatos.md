@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los modelos de conexión; los cuatro siguientes, lo que hace falta para que funcionen. La **armonización** es el requisito más difícil: conectar dos sistemas exige que coincidan en formatos, horarios, identificadores y reglas de finalidad, y eso es más trabajo que la conexión técnica.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sistema de pagos inmediatos` | Sistema nacional que liquida en segundos, 24/7 |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `gobernanza del enlace` | Quién decide las reglas comunes y resuelve disputas |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una alternativa a la corresponsalía: en vez de encadenar bancos, se conectan los sistemas nacionales entre sí. El pago deja de recorrer intermediarios y el problema pasa a ser la gobernanza del enlace.
 
 ```text
 LA IDEA ES SENCILLA Y LO DIFÍCIL ES TODO LO DEMÁS
@@ -222,6 +226,8 @@ NO RESUELVE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara un pago por corresponsalía y otro por enlace directo. La diferencia en coste y en plazo es de orden de magnitud.
 
 **Situación.** Dos bancos centrales evalúan enlazar sus sistemas de pagos
 inmediatos. Hay que decidir el diseño y estimar el efecto.
@@ -392,6 +398,8 @@ completa, y la mitigación tenía que entrar en la fase 1.
 
 ## 🧭 Perspectivas
 
+La interconexión afecta a cada participante de forma distinta, y a algunos les quita negocio. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Remitente | Coste del 1,1 % y llegada en segundos | Si usa el canal |
@@ -405,6 +413,8 @@ completa, y la mitigación tenía que entrar en la fase 1.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe el dinero en segundos y el sistema resolvió liquidez y divisa por detrás. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Llegó en segundos» | Dos pagos domésticos y un cambio | 18, clase 13 |
@@ -413,6 +423,8 @@ completa, y la mitigación tenía que entrar en la fase 1.
 | «¿Y si me equivoco de número?» | Confirmación de nombre antes de pagar | 18, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de gobernanza y de liquidez del enlace. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -425,6 +437,8 @@ completa, y la mitigación tenía que entrar en la fase 1.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar los dos modelos sobre el mismo corredor. La armonización necesaria es lo que hay que enumerar.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Diseña un enlace bilateral con sus seis problemas resueltos.
@@ -433,6 +447,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Escribe las cinco reglas mínimas del acuerdo antes de operar.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen enlaces que no funcionan. Las causas son armonización incompleta y gobernanza sin acordar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el coste de tener fondos donde hacen falta; los cuatro siguientes, los mecanismos que lo reducen. La **liquidez atrapada** es el coste principal del modelo de corresponsalía: dinero inmovilizado en varias monedas que no rinde y que financia la operación.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `prefinanciación` | Fondos colocados por adelantado para poder pagar |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `ventana operativa` | Horario en que un sistema acepta y liquida operaciones |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un coste de oportunidad repartido por el mundo: cada corredor exige saldo previo en la moneda de destino, y ese saldo multiplicado por los corredores es el capital que el modelo consume.
 
 ```text
 LA LIQUIDEZ DE UN NOSTRO ES UN SEGURO
@@ -208,6 +212,8 @@ CONCENTRACIÓN POR DIVISA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el coste de la liquidez atrapada de una red y el ahorro del netting. Conviene comparar el ratio de netting con el coste: el ahorro depende del volumen bidireccional.
 
 **Situación.** Un banco revisa la liquidez de su nostro en dólares. Tiene datos
 de 250 días hábiles.
@@ -376,6 +382,8 @@ de fallo es desconocido por construcción.
 
 ## 🧭 Perspectivas
 
+La liquidez afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Tesorería | 2,4 millones parados | Cuánto reduce |
@@ -388,6 +396,8 @@ de fallo es desconocido por construcción.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo ve y su comisión incluye este coste. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi pago no salió hoy» | Falta de saldo en el nostro | 18, clase 8 |
@@ -396,6 +406,8 @@ de fallo es desconocido por construcción.
 | «Me cobran comisión de urgencia» | Uso de descubierto intradía | 18, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de liquidez y de ventana operativa. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -416,6 +428,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md) y [`labs/lab-06.md`](../labs/lab-06.md)
 4. Diseña un plan de reducción por etapas con su regla de parada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen costes de liquidez excesivos. Las causas son saldos objetivo mal dimensionados y netting no aplicado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el estándar y su perfil; los cinco siguientes, los mensajes concretos y su trazabilidad. La **referencia extremo a extremo** es lo que hace posible seguir un pago por toda la cadena: sin ella, cada tramo tiene su propia referencia y nadie puede reconstruir el trayecto.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ISO 20022` | Norma internacional de mensajería financiera con diccionario común |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `referencia extremo a extremo` | Identificador único que acompaña al pago en toda la cadena |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un vocabulario común: el estándar no mueve dinero, define cómo se dice lo que hay que hacer. Su valor está en que todos los participantes entiendan lo mismo por cada campo, y su coste está en la migración.
 
 ```text
 ISO 20022 NO ES UN FORMATO: ES UN DICCIONARIO
@@ -233,6 +237,8 @@ DIRECCIÓN ESTRUCTURADA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye un mensaje de pago con sus campos obligatorios. Conviene comprobar la referencia extremo a extremo: es el campo que hace posible el seguimiento.
 
 **Situación.** Un banco migró a ISO 20022 hace seis meses y su tasa de
 procesamiento directo **empeoró**, de 88 % a 81 %. Hay que averiguar por qué.
@@ -399,6 +405,8 @@ la caída de la tasa como una regresión en vez de como un diagnóstico.
 
 ## 🧭 Perspectivas
 
+El estándar afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un pago devuelto con un código | Si vuelve a intentarlo |
@@ -411,6 +419,8 @@ la caída de la tasa como una regresión en vez de como un diagnóstico.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere saber dónde está su pago y el banco puede decírselo solo si la referencia se conservó. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me devolvieron el pago con un código raro» | Motivo estructurado del rechazo | 18, clase 6 |
@@ -419,6 +429,8 @@ la caída de la tasa como una regresión en vez de como un diagnóstico.
 | «Pagué dos veces» | Referencia regenerada en el reintento | 18, clases 4 y 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de datos incompletos y de migración. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -431,6 +443,8 @@ la caída de la tasa como una regresión en vez de como un diagnóstico.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir y validar mensajes con sus campos obligatorios. Los mensajes con datos truncados son los que producen las devoluciones.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Construye un `pacs.008` completo y valídalo con `tools/validate_iso20022.py`.
@@ -439,6 +453,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Detecta en un lote los mensajes con referencia inestable.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pagos devueltos o no rastreables. Las causas son campos incompletos y referencias no conservadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

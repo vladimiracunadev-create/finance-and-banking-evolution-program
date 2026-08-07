@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el precio de la divisa y su medida; los cuatro siguientes, el riesgo y su cobertura. El **diferencial** es donde está el ingreso invisible: el margen sobre el tipo de referencia no aparece como comisión y suele superarla con holgura.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tipo de referencia` | Tipo medio de mercado en un instante, sin margen |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mercado cambiario formal` | Conjunto de entidades autorizadas a operar cambios en una jurisdicción |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un precio con dos componentes: el tipo de referencia, que es público, y el diferencial, que no lo es. Comparar proveedores por comisión sin mirar el diferencial es comparar la parte pequeña.
 
 ```text
 TODO PAGO CON CAMBIO TIENE TRES PRECIOS
@@ -225,6 +229,8 @@ CONSECUENCIA PARA UN PRODUCTO DE PAGOS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo descompone el precio de un cambio en referencia y diferencial. Conviene expresar el diferencial en puntos básicos: comparado así, la diferencia entre proveedores es evidente.
 
 **Situación.** Una empresa de pagos revisa su política de precios de cambio. Le
 acusan de opacidad y quiere responder con datos.
@@ -438,6 +444,8 @@ obligaba a arreglar la estructura, no solo a publicarla.
 
 ## 🧭 Perspectivas
 
+El cambio de divisa afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Sin comisiones» | Si compara o confía |
@@ -450,6 +458,8 @@ obligaba a arreglar la estructura, no solo a publicarla.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un tipo y el banco cobra un diferencial sobre la referencia. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Dice sin comisiones» | Todo el precio está en el diferencial | 18, clase 9 |
@@ -458,6 +468,8 @@ obligaba a arreglar la estructura, no solo a publicarla.
 | «No sé cuánto llega» | Sin tipo de referencia no hay comparación | 18, clases 1 y 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de precio y de exposición cambiaria. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -470,6 +482,8 @@ obligaba a arreglar la estructura, no solo a publicarla.
 
 ## 🧪 Práctica
 
+El laboratorio pide descomponer el precio de varios proveedores en referencia y diferencial. El orden por comisión y el orden por coste total no coinciden.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Descompón cinco tipos aplicados en referencia y diferencial, en pb.
@@ -478,6 +492,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Propón una estructura de precio coherente con el coste y evalúa su efecto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen cambios más caros de lo esperado. La causa es el diferencial no cotizado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

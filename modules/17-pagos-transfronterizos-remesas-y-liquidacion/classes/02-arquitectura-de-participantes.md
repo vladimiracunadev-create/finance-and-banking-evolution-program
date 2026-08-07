@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las partes del pago; los cuatro siguientes, los intermediarios y las dos formas de encadenarlos. La distinción entre **pago en serie y con cobertura** decide dónde puede detenerse un pago y quién puede informar de su estado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ordenante` | Quien instruye el pago |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `pago con cobertura` | Instrucción directa al beneficiario y fondos por otra vía |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena donde cada eslabón solo conoce a sus vecinos. El banco ordenante no sabe qué hará el tercer intermediario, y por eso no puede garantizar ni el plazo ni el importe que llegará.
 
 ```text
 UN PAGO TRANSFRONTERIZO TIENE CUATRO FLUJOS
@@ -199,6 +203,8 @@ EL CLIENTE PERCIBE LOS DOS DÍAS.
 | Proveedor de tipo de cambio | Es un dato, no un actor | Se aplica un tipo obsoleto |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre un pago en serie y otro con cobertura sobre la misma operación. Conviene comparar en qué punto cada uno puede informar del estado.
 
 **Situación.** Un banco investiga por qué su corredor Chile → Vietnam tiene una
 tasa de procesamiento directo del 71 % cuando su objetivo es 95 %. Analiza
@@ -348,6 +354,8 @@ salir del banco ordenante.
 
 ## 🧭 Perspectivas
 
+Cada participante ve su tramo y decide sobre él. La tabla los enfrenta.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un pago detenido sin explicación | Si reclama o cambia de banco |
@@ -361,6 +369,8 @@ salir del banco ordenante.
 
 ## 🏦 Del cliente al banco
 
+El cliente pregunta dónde está su dinero y el banco solo conoce su propio tramo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi pago está detenido» | Screening con 80 % de falsos positivos | 18, clases 2 y 12 |
@@ -369,6 +379,8 @@ salir del banco ordenante.
 | «Me lo devolvieron sin motivo» | Rechazo del banco beneficiario | 18, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos vienen de la cadena y de la información parcial. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -389,6 +401,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-04.md`](../labs/lab-04.md)
 4. Prioriza tres correcciones con su retorno, incluido el efecto sobre el cliente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pagos perdidos o retrasados. La causa es casi siempre un intermediario que nadie eligió.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

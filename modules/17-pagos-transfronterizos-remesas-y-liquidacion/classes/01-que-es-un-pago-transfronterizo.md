@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los tipos de operación que se confunden entre sí; los cuatro siguientes, su segmentación y su medida. El **coste total** es el concepto que ordena la parte entera: lo que paga el ordenante no es la comisión sino la suma de comisiones, márgenes cambiarios y deducciones de intermediarios, y casi nunca se cotiza junto.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `pago transfronterizo` | Pago en que ordenante y beneficiario están en jurisdicciones distintas |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `coste total` | Comisión explícita más comisiones de intermediarios más diferencial de cambio |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que no existe una infraestructura global de pagos. Un pago transfronterizo se resuelve encadenando sistemas nacionales mediante cuentas entre bancos, y de esa arquitectura improvisada salen su coste, su lentitud y su opacidad.
 
 ```text
 LA PROPIEDAD QUE DEFINE UN PAGO TRANSFRONTERIZO
@@ -213,6 +217,8 @@ DÓNDE APARECE LA OPACIDAD
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo descompone el coste total de un pago concreto. Conviene sumar las tres fuentes por separado: la comisión declarada suele ser la menor de las tres.
+
 **Situación.** Una persona en Chile envía dinero a un familiar en Filipinas y
 compara dos rutas. Hay que calcular el coste real de cada una.
 
@@ -348,6 +354,8 @@ por la que el problema de la transparencia aparece antes que el del precio.
 
 ## 🧭 Perspectivas
 
+Un mismo pago se ve distinto desde cada participante de la cadena, y ninguno ve el trayecto completo. La tabla los enfrenta, y esa visión parcial es el origen de la opacidad.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Envié 500 000 y llegaron 25 890» | Si vuelve a usar esa ruta |
@@ -362,6 +370,8 @@ por la que el problema de la transparencia aparece antes que el del precio.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un envío y el banco ve una cadena de corresponsales con sus propias comisiones. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Llegó menos de lo que envié» | Comisiones deducidas en tránsito | 18, clase 1 |
@@ -370,6 +380,8 @@ por la que el problema de la transparencia aparece antes que el del precio.
 | «Nadie sabe dónde está mi dinero» | Falta de trazabilidad extremo a extremo | 18, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos aquí son de coste opaco y de plazo incierto antes que de crédito. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -391,6 +403,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-05.md`](../labs/lab-05.md)
 4. Identifica qué componente no aparece en el comprobante del cliente.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber comparado por comisión en vez de por coste total.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

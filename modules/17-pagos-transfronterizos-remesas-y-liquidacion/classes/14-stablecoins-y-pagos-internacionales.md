@@ -67,6 +67,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el instrumento y sus puntos de conversión; los cuatro siguientes, sus riesgos propios y su régimen. La **entrada y la salida** son donde vive el coste real: mover valor entre carteras es barato y convertirlo a moneda local en el destino no lo es.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `stablecoin` | Criptoactivo que busca mantener un valor de referencia |
@@ -79,6 +81,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `regla del viaje en activos virtuales` | Obligación de que los datos acompañen la transferencia |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que el tramo intermedio no es el problema. Un pago con stablecoin sustituye la corresponsalía por una red pública, y el coste se traslada a la conversión en los dos extremos y al riesgo del emisor.
 
 ```text
 UNA RUTA CON STABLECOIN TIENE CINCO TRAMOS,
@@ -217,6 +221,8 @@ REPRESENTADO EN UN REGISTRO PROGRAMABLE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el coste total de un corredor con y sin stablecoin. Conviene incluir entrada, salida y riesgo de emisor: el ahorro se reduce mucho.
 
 **Situación.** Un operador compara dos rutas para un corredor sin enlace de pagos
 inmediatos y con solo un corresponsal disponible.
@@ -397,6 +403,8 @@ la fuente real del ahorro antes de atribuirlo a la tecnología.
 
 ## 🧭 Perspectivas
 
+El uso de stablecoins afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Remitente | Llega en 38 minutos | Si acepta el canal |
@@ -410,6 +418,8 @@ la fuente real del ahorro antes de atribuirlo a la tecnología.
 
 ## 🏦 Del cliente al banco
 
+El remitente ve una transferencia barata y el sistema tiene un emisor con riesgo de crédito propio. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Llegó en minutos» | Se evitó la cadena de corresponsales | 18, clase 14 |
@@ -418,6 +428,8 @@ la fuente real del ahorro antes de atribuirlo a la tecnología.
 | «Mandé a la dirección equivocada» | Irreversible: no hay reclamación | 19, clase 3 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de emisor, de paridad y de cumplimiento. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -430,6 +442,8 @@ la fuente real del ahorro antes de atribuirlo a la tecnología.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar el coste total de un corredor por ambas vías. El coste de entrada y salida es lo que decide.
+
 En [`labs/lab-08.md`](../labs/lab-08.md):
 
 1. Traza los cinco tramos de una ruta con stablecoin y asigna coste a cada uno.
@@ -438,6 +452,8 @@ En [`labs/lab-08.md`](../labs/lab-08.md):
 4. Escribe la regla de enrutamiento con sus controles y su condición de revisión.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen expectativas incumplidas con stablecoins. La causa es haber comparado solo el tramo intermedio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

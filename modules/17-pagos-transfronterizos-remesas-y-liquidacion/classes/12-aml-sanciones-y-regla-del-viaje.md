@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las obligaciones; los cinco siguientes, el cribado y sus medidas de calidad. La **regla del viaje** es la que obliga a que la información del ordenante y del beneficiario acompañe al pago en toda la cadena, y su incumplimiento es la causa más frecuente de devoluciones.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `prevención de lavado` | Régimen basado en riesgo, con conocimiento del cliente y reporte |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `congelamiento` | Inmovilización de fondos exigida por una designación |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un filtro con dos errores posibles: bloquear pagos legítimos y dejar pasar los que no lo son. Subir el umbral reduce uno y aumenta el otro, y el punto se elige con criterio y no por defecto.
 
 ```text
 TRES OBLIGACIONES QUE NO SE PARECEN
@@ -227,6 +231,8 @@ LA RESPUESTA NO ES RELAJAR SANCIONES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calibra un sistema de cribado midiendo precisión y exhaustividad. Conviene mirar las dos juntas: mejorar una empeora la otra.
 
 **Situación.** Un banco revisa su sistema de screening. La cola manual crece y el
 área de negocio pide subir el umbral.
@@ -405,6 +411,8 @@ En sanciones, el ruido no se resuelve relajando el criterio.
 
 ## 🧭 Perspectivas
 
+El cumplimiento afecta a cada participante con obligaciones propias. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Su pago detenido 3,2 horas | Si reclama o cambia |
@@ -417,6 +425,8 @@ En sanciones, el ruido no se resuelve relajando el criterio.
 
 ## 🏦 Del cliente al banco
 
+El cliente sufre una demora y el banco cumple una obligación con sanción asociada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi pago lleva horas detenido» | Alerta en cola de revisión | 18, clase 12 |
@@ -425,6 +435,8 @@ En sanciones, el ruido no se resuelve relajando el criterio.
 | «Mi ONG no consigue banco» | Efecto del cumplimiento sin proporcionalidad | 18, clases 3 y 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de cumplimiento y de exclusión. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -437,6 +449,8 @@ En sanciones, el ruido no se resuelve relajando el criterio.
 
 ## 🧪 Práctica
 
+El laboratorio pide calibrar un cribado y medir sus dos errores. El punto elegido con su justificación es lo que se evalúa.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Clasifica quince casos en las tres obligaciones.
@@ -445,6 +459,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Diseña el procedimiento ante una coincidencia, paso a paso.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pagos bloqueados o devueltos. Las causas son datos incompletos y cribado sin calibrar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

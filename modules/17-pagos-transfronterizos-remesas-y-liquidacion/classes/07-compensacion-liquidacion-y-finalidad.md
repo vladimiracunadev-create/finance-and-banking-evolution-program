@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el proceso y su punto de no retorno; los cinco siguientes, los modelos de liquidación y su riesgo. El **riesgo Herstatt** es el que da nombre a la clase por una razón histórica: cuando dos tramos de una operación en divisas se liquidan en husos distintos, una parte puede entregar y no recibir.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `compensación` | Cálculo de las posiciones netas entre participantes |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `revocación` | Anulación de una instrucción antes de la finalidad |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una línea temporal con un punto marcado: antes de la finalidad el pago se puede revertir y después no. Todo el diseño de los sistemas de pago gira alrededor de acercar ese punto al momento de la instrucción.
 
 ```text
 TRES MOMENTOS, TRES PREGUNTAS DISTINTAS
@@ -216,6 +220,8 @@ QUÉ DEBE DECIRSE AL CLIENTE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sitúa la finalidad en dos sistemas distintos sobre la misma operación. La ventana de exposición cambia de horas a segundos según el modelo.
 
 **Situación.** Un banco beneficiario define su política de acreditación para
 pagos internacionales. Hay que decidir cuándo abona al cliente.
@@ -369,6 +375,8 @@ aprobada, y la pérdida superaba el ingreso del servicio.
 
 ## 🧭 Perspectivas
 
+La finalidad significa cosas distintas para cada participante. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Beneficiario | Saldo en su cuenta | Si dispone |
@@ -381,6 +389,8 @@ aprobada, y la pérdida superaba el ingreso del servicio.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que el pago está hecho y el banco sabe si hay finalidad. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Ya lo tengo en mi cuenta» | Abono sin cobertura: es un adelanto | 18, clase 7 |
@@ -389,6 +399,8 @@ aprobada, y la pérdida superaba el ingreso del servicio.
 | «Entregué contra el comprobante» | Comprobante ≠ finalidad | 17, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de liquidación y de husos horarios. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -409,6 +421,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-07.md`](../labs/lab-07.md)
 4. Diseña el límite por banco ordenante y justifica su cálculo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas de liquidación. La causa es la exposición entre la entrega y la recepción.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

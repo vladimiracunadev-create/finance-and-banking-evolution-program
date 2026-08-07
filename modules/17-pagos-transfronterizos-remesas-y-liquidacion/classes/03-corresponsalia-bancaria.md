@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la relación y sus partes; los cuatro siguientes, sus riesgos y su crisis. La **retirada de relaciones** es el fenómeno que está reduciendo la red mundial: los corresponsales cierran cuentas cuando el coste de cumplimiento supera al ingreso, y corredores enteros se quedan sin vía formal.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `corresponsalía` | Relación por la que un banco presta servicios a otro en su plaza |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `banco de último recurso` | Único corresponsal que queda en un corredor |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una relación de confianza con obligaciones asimétricas: el corresponsal responde ante su supervisor por lo que haga el respondedor, y por eso exige una diligencia que puede ser más cara que el negocio.
 
 ```text
 UNA CORRESPONSALÍA NO ES UNA CONEXIÓN TÉCNICA:
@@ -211,6 +215,8 @@ LA PARADOJA QUE HAY QUE PODER EXPLICAR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa una relación de corresponsalía con su diligencia reforzada. Conviene comparar el coste del cumplimiento con el ingreso: es la cuenta que produce las retiradas.
 
 **Situación.** Un banco evalúa si mantiene su corresponsalía con un banco
 respondedor de un país pequeño. La relación lleva 9 años.
@@ -385,6 +391,8 @@ ingreso, mantenido el riesgo en el sistema y cerrado un corredor.
 
 ## 🧭 Perspectivas
 
+La corresponsalía afecta a cada actor con incentivos distintos. La tabla los recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente del corredor | Su banco ya no envía a ese país | Usa un canal informal |
@@ -397,6 +405,8 @@ ingreso, mantenido el riesgo en el sistema y cerrado un corredor.
 
 ## 🏦 Del cliente al banco
 
+El cliente no sabe que existe y su pago depende de que esa relación siga viva. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco ya no envía ahí» | Corredor cerrado por riesgo | 18, clase 3 |
@@ -405,6 +415,8 @@ ingreso, mantenido el riesgo en el sistema y cerrado un corredor.
 | «Antes tardaba menos» | Menos rutas, más eslabones | 18, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de cumplimiento y de continuidad del corredor. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -425,6 +437,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md) y [`labs/lab-04.md`](../labs/lab-04.md)
 4. Escribe los umbrales que harían cambiar la decisión.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen corredores que se cierran. Las causas son diligencia insuficiente y banca anidada no declarada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos separan la instrucción del dinero; los cuatro siguientes, los plazos que produce esa separación. El **desfase mensaje-fondos** es el concepto central: el mensaje llega en segundos y los fondos pueden tardar días, y confundir uno con otro es el error más frecuente de esta parte.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `red de mensajería` | Infraestructura que transporta instrucciones entre bancos |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `fecha valor` | Día en que el importe produce efectos económicos |
 
 ## 🧠 Modelo mental
+
+El modelo mental son dos vías paralelas que no se mueven al mismo ritmo: la mensajería lleva la instrucción y la liquidación mueve el dinero. Un mensaje entregado no significa un pago hecho.
 
 ```text
 TRES CAPAS QUE SE CONFUNDEN CONSTANTEMENTE
@@ -222,6 +226,8 @@ Y SOLO TOCA LA CAPA 1, NO VA A ENTREGARLA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue el mensaje y los fondos de la misma operación por separado. La diferencia de tiempo entre ambos es lo que explica los reclamos.
 
 **Situación.** Un banco promete a un cliente corporativo «pagos internacionales
 en menos de 4 horas» y quiere saber si puede cumplirlo. Analiza 500 pagos del
@@ -373,6 +379,8 @@ alcanzable estaba en un dato mal validado en origen.
 
 ## 🧭 Perspectivas
 
+El desfase entre el mensaje y los fondos afecta a cada actor de forma distinta, y varios de ellos solo ven una de las dos vías. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente corporativo | «No sé cuándo llega» | Cómo programa su tesorería |
@@ -385,6 +393,8 @@ alcanzable estaba en un dato mal validado en origen.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una confirmación y el banco sabe que los fondos todavía no se movieron. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco dice que ya salió» | El mensaje salió, no el dinero | 18, clase 5 |
@@ -393,6 +403,8 @@ alcanzable estaba en un dato mal validado en origen.
 | «Otro banco lo hace en minutos» | Enlace directo o prefinanciación | 18, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos vienen de tratar el mensaje como si fuera el pago. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -413,6 +425,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-02.md`](../labs/lab-02.md)
 4. Compara el coste de prefinanciar con el ingreso que aportaría.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen abonos indebidos y reclamos. La causa es haber contabilizado contra el mensaje.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

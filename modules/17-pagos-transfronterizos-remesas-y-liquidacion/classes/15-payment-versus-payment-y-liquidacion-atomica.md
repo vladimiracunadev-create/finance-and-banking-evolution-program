@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los mecanismos de condicionalidad; los cinco siguientes, sus requisitos y su efecto. La **atomicidad** es la propiedad que elimina el riesgo de principal: o se ejecutan los dos tramos o no se ejecuta ninguno, y no existe estado intermedio.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `pago contra pago` | Mecanismo por el que una pata solo se liquida si la otra también |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `liquidación neta con garantía` | Neteo con fondo que cubre el fallo de un participante |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una condición mutua: cada tramo solo se ejecuta si el otro también lo hace. Lograrlo exige que ambos tramos estén bajo el control del mismo mecanismo, y eso no siempre es posible entre jurisdicciones.
 
 ```text
 EL RIESGO QUE SE ELIMINA ES MUY CONCRETO
@@ -223,6 +227,8 @@ DIFICULTAD
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la exposición de liquidación con y sin pago contra pago. La reducción es completa en el riesgo de principal y no en el de reposición.
 
 **Situación.** Un banco mide su exposición de liquidación en operaciones de
 cambio y evalúa si vale la pena entrar en un mecanismo de pago contra pago.
@@ -403,6 +409,8 @@ argumento por uno medible fue más útil que refinar la estimación.
 
 ## 🧭 Perspectivas
 
+El mecanismo afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Tesorería | 85 M inmovilizados | Cómo los financia |
@@ -415,6 +423,8 @@ argumento por uno medible fue más útil que refinar la estimación.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo ve y su banco elimina o no un riesgo que puede costarle el importe entero. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi operación se liquidó sin incidencias» | Atomicidad: o las dos patas o ninguna | 18, clase 15 |
@@ -422,6 +432,8 @@ argumento por uno medible fue más útil que refinar la estimación.
 | «El banco no opera con esa contraparte» | Límite por exposición de reposición | 18, clase 15 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos residuales son de sincronización y de reposición. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -434,6 +446,8 @@ argumento por uno medible fue más útil que refinar la estimación.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la exposición de liquidación con y sin el mecanismo. La diferencia es el riesgo de principal, y verlo en cifras justifica el coste.
+
 En [`labs/lab-07.md`](../labs/lab-07.md):
 
 1. Calcula la exposición máxima simultánea de una cartera de operaciones.
@@ -442,6 +456,8 @@ En [`labs/lab-07.md`](../labs/lab-07.md):
 4. Compara el coste de entrar en un mecanismo con el capital que libera.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen exposiciones de liquidación no gestionadas. La causa es suponer simultaneidad donde no la hay.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

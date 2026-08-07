@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el motor y sus métricas; los cuatro siguientes, el criterio de decisión y su registro. La **tasa de procesamiento directo** es la métrica que resume la calidad de una red: qué proporción de pagos llega sin intervención manual.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `motor de rutas` | Componente que elige la ruta de cada pago con criterios explícitos |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `registro de decisiones` | Cada elección con su alternativa y su motivo |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una red de corredores con costes y plazos distintos, y un motor que elige ruta. Lo que se optimiza no es una operación sino el conjunto, y por eso el criterio de enrutamiento tiene que estar escrito.
 
 ```text
 UNA RED DE PAGOS SE DEFIENDE CON TRES RESPUESTAS
@@ -210,6 +214,8 @@ LÍMITES LEGÍTIMOS DE ESTE PROYECTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo enruta pagos por criterios distintos y compara el resultado agregado. El criterio de coste y el de plazo producen redes distintas.
 
 **Situación.** Revisas el proyecto de otra persona. Extractos relevantes.
 
@@ -388,6 +394,8 @@ resultados.
 
 ## 🧭 Perspectivas
 
+La red afecta a todos los participantes de las quince clases anteriores. La tabla los reúne.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un pago que llega o no llega | Si vuelve |
@@ -400,6 +408,8 @@ resultados.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere que su pago llegue barato y rápido y la red optimiza el conjunto. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Siempre me mandan por el mismo sitio» | Criterio sin condiciones | 18, clase 16 |
@@ -408,6 +418,8 @@ resultados.
 | «Dijeron que era más barato» | Ahorro mal atribuido | 18, clases 14 y 16 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del proyecto reúnen los de toda la parte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -420,6 +432,8 @@ resultados.
 
 ## 🧪 Práctica
 
+El laboratorio es el proyecto completo. El registro de decisiones de enrutamiento es lo que se evalúa.
+
 En el [proyecto de la parte](../project/README.md):
 
 1. Construye el motor de rutas con sus seis criterios y su motivo.
@@ -428,6 +442,8 @@ En el [proyecto de la parte](../project/README.md):
 4. Ensaya la contingencia de un corredor y documenta el resultado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen al operar la red. Casi todos se evitan escribiendo el criterio de enrutamiento antes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

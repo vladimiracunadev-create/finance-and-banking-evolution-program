@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la operación y su medida; los cuatro siguientes, la entrega y sus alternativas. La **última milla** es donde se decide el coste real: llegar al país es barato y llegar a la persona no siempre lo es.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `remesa` | Transferencia de persona a persona, típicamente de migrante a su hogar |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `objetivo internacional` | Meta acordada de coste y velocidad para el segmento |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un corredor concreto y no un mercado global: el coste de enviar dinero depende del par de países, del canal y del importe, y las medias mundiales no describen ningún corredor real.
 
 ```text
 UN CORREDOR SE EXPLICA CON CINCO VARIABLES
@@ -213,6 +217,8 @@ EL CÍRCULO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el coste total de una remesa por tres canales. Conviene incluir el diferencial cambiario: cambia el orden de los canales.
 
 **Situación.** Un operador evalúa entrar en un corredor. Tiene datos de mercado y
 debe decidir si el precio que puede ofrecer es sostenible.
@@ -392,6 +398,8 @@ como supuesto y se convirtió en la primera medición del plan.
 
 ## 🧭 Perspectivas
 
+La remesa afecta a cada actor de forma distinta, incluido el receptor. La tabla los recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Remitente | 8,4 % de coste sobre su envío | Si usa un canal informal |
@@ -405,6 +413,8 @@ como supuesto y se convirtió en la primera medición del plan.
 
 ## 🏦 Del cliente al banco
 
+El remitente ve una comisión y el sistema cobra además un diferencial y una última milla. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me cobran el 8 % por enviar» | Corredor concentrado y última milla cara | 18, clase 10 |
@@ -413,6 +423,8 @@ como supuesto y se convirtió en la primera medición del plan.
 | «Llega en minutos por billetera» | El canal cambia el coste y la velocidad | 18, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de coste, de acceso y de canal informal. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -425,6 +437,8 @@ como supuesto y se convirtió en la primera medición del plan.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el coste total de un corredor por varios canales. La comparación con el objetivo internacional es lo que da contexto al resultado.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Caracteriza tres corredores con las cinco variables.
@@ -433,6 +447,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Identifica qué dato falta en tu análisis y cómo lo medirías.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen remesas caras o que no llegan. Las causas son la última milla y el canal informal.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

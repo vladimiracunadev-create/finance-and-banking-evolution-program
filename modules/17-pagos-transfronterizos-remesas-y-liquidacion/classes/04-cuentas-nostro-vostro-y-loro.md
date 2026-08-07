@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la misma cuenta vista desde tres posiciones; los cinco siguientes, su operación y su coste. El **saldo ocioso** es el coste que nadie factura y todos pagan: el dinero inmovilizado en cuentas de corresponsalía no rinde y financia la operación de otro.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `nostro` | «Nuestra cuenta en vuestro banco», en moneda extranjera |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `saldo ocioso` | Fondos en cuenta que no rinden y no se necesitan |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un espejo: la misma cuenta es nostro para uno y vostro para el otro, y los dos registros tienen que coincidir siempre. Cuando no coinciden, la diferencia es una partida pendiente que hay que explicar.
 
 ```text
 UNA SOLA CUENTA, DOS NOMBRES
@@ -209,6 +213,8 @@ QUÉ RIESGO CREA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo concilia una cuenta nostro con su espejo. Conviene clasificar cada diferencia: unas son desfases y otras son errores.
 
 **Situación.** Un banco concilia su nostro en dólares al cierre de mes. El espejo
 y el extracto no coinciden.
@@ -360,6 +366,8 @@ oportunidad estructurada de detectarlos.
 
 ## 🧭 Perspectivas
 
+Las cuentas de corresponsalía significan cosas distintas para cada parte. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Pagué y llegó otra cifra» | Si reclama |
@@ -372,6 +380,8 @@ oportunidad estructurada de detectarlos.
 
 ## 🏦 Del cliente al banco
 
+El cliente no las ve y su pago se ejecuta moviendo saldos en ellas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me cargaron dos veces» | Apunte duplicado por falta de idempotencia | 18, clase 4 |
@@ -380,6 +390,8 @@ oportunidad estructurada de detectarlos.
 | «Tardó en verse» | Diferencia temporal entre libros | 18, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de conciliación y de coste de liquidez. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -392,6 +404,8 @@ oportunidad estructurada de detectarlos.
 
 ## 🧪 Práctica
 
+El laboratorio pide conciliar una cuenta nostro y calcular el coste del saldo ocioso. Las dos cifras juntas son el argumento para renegociar el saldo objetivo.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Registra los asientos de tres pagos en los dos libros.
@@ -400,6 +414,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Identifica qué partida es un incidente y no una diferencia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen descuadres en corresponsalía. Las causas son partidas pendientes antiguas y espejos que no se contrastan.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

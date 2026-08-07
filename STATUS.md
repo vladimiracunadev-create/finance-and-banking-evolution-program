@@ -26,7 +26,7 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 20.4 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 20.0 KB |
 | 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 19.6 KB |
-| 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 18.4 KB |
+| 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 19.5 KB |
 | 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 17.4 KB |
 | 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 16.4 KB |
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 16.6 KB |
