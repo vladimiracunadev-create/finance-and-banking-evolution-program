@@ -21,6 +21,8 @@ Diseñar los productos del Banco Austral: los mínimos necesarios para servir a 
 estructura que hace posibles los compromisos de margen y de comisiones. Cada producto añadido tiene un
 costo fijo permanente, y **el catálogo es donde se decide la complejidad futura del banco**.
 
+Con la entidad y los sistemas definidos, esta clase decide qué se vende. Y aplica el costo de la complejidad de la Parte 15: cada producto añade un costo fijo que no depende del volumen, y por eso un catálogo pequeño y bien elegido rinde más que uno amplio.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura del catálogo; los cuatro siguientes, su economía y su gobierno. El **costo fijo por producto** es la cifra que decide: si un producto no genera ingreso suficiente para cubrirlo, no entra por mucho que el segmento lo pida.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `catálogo mínimo viable` | El conjunto más pequeño que sirve a los segmentos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `gobierno de productos` | Proceso de diseño, aprobación y revisión. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un catálogo mínimo viable: los productos justos para que el segmento elegido tenga una relación completa con el banco, y ni uno más. Cada producto adicional tiene que justificar su costo fijo con ingreso propio.
 
 ```text
 CADA PRODUCTO TIENE DOS COSTOS
@@ -87,6 +93,8 @@ REGLA DE DISEÑO DEL CATÁLOGO
 ## 📖 Desarrollo
 
 ### 1. Catálogo mínimo del Banco Austral
+
+El catálogo se define con los productos justos para el segmento. La tabla los recoge.
 
 ```text
 SEGMENTO PERSONAS SIN HISTORIAL
@@ -127,6 +135,8 @@ LO QUE NO ESTÁ, Y POR QUÉ
 ```
 
 ### 2. Especificación de un producto
+
+Cada producto se especifica con una ficha completa antes de lanzarse. La tabla recoge su estructura.
 
 ```text
 P2 — CRÉDITO ESCALONADO
@@ -173,6 +183,8 @@ P2 — CRÉDITO ESCALONADO
 
 ### 3. Gobierno de productos
 
+El gobierno de productos define mercado objetivo y revisión periódica, como exige la Parte 12. La tabla lo recoge.
+
 ```text
 CADA PRODUCTO PASA POR EL COMITÉ, CON:
   1. mercado objetivo positivo y negativo
@@ -208,6 +220,8 @@ ESCENARIO ADVERSO DE P2 — "¿QUÉ PASA SI AL CLIENTE LE VA MAL?"
 ```
 
 ### 4. Proyección de comisiones
+
+Los ingresos por comisiones se proyectan por producto y por uso. El procedimiento lo hace.
 
 ```text
 COMPROMISO: comisiones = 27 % del margen bruto
@@ -275,6 +289,8 @@ VERIFICACIÓN DE ESCALA
 
 ### 5. Cierre de la brecha
 
+Si el catálogo no genera el ingreso necesario, hay que cerrar la brecha con decisiones explícitas. La tabla las recoge.
+
 ```text
 OPCIONES
   a) añadir un producto (costo fijo 1,81, ingreso incierto)
@@ -301,6 +317,8 @@ OPCIONES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa si un producto cubre su costo fijo. Conviene incluir el costo de la complejidad además del directo: la conclusión cambia.
 
 **Situación.** Someter el producto P4 (seguro de desgravamen) al gobierno de productos.
 
@@ -484,6 +502,8 @@ la diferencia con fuentes legítimas en lugar de revertir la decisión.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere más opciones y el banco paga un costo fijo por cada una. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El seguro me cuesta muy poco» | Prima técnica, no de mercado | 12, clase 8 |
@@ -494,6 +514,8 @@ la diferencia con fuentes legítimas en lugar de revertir la decisión.
 
 ## 🧪 Práctica
 
+El laboratorio pide definir el catálogo mínimo y justificar cada producto. Justificar una exclusión es tan importante como justificar una inclusión.
+
 En `labs/lab-03.md`:
 
 1. Diseña el catálogo mínimo viable para tus segmentos, con su costo fijo.
@@ -502,6 +524,8 @@ En `labs/lab-03.md`:
 4. Proyecta las comisiones y verifica el compromiso, revisándolo si procede.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen catálogos que no rinden. La causa es el costo fijo por producto no considerado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

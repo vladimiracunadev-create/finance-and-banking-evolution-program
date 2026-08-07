@@ -21,6 +21,8 @@ Definir a quién sirve el Banco Austral, con qué propuesta y a qué renuncia. E
 cuatro compromisos numéricos de la clase anterior en decisiones de negocio concretas, y establece las
 restricciones que todo el proyecto deberá respetar.
 
+El alcance de la clase anterior fija las reglas. Esta toma la primera decisión de contenido, que condiciona las dieciséis siguientes: a quién sirve este banco. Y exige lo que la Parte 15 estableció, que es declarar a quién no sirve, porque un banco que dice servir a todos no tiene modelo de negocio.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la elección de segmento y su promesa; los cuatro siguientes, la coherencia y sus límites. La **capacidad de servir** es el filtro que más recorta: hay segmentos rentables que un banco nuevo no puede atender con la estructura que tiene.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `segmento objetivo` | Aquel al que el banco decide servir deliberadamente. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `ventaja competitiva` | Razón por la que un cliente elige a este banco. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un embudo con dos filtros: del mercado total se pasa al direccionable por criterios objetivos, y de ahí al objetivo por capacidad de servir. Cada filtro elimina segmentos, y esas eliminaciones son las renuncias que la estrategia exige.
 
 ```text
 LA SECUENCIA DE DECISIÓN, EN ESTE ORDEN
@@ -86,6 +92,8 @@ INVERTIR LA SECUENCIA PRODUCE EL ERROR HABITUAL
 ## 📖 Desarrollo
 
 ### 1. Mercado direccionable
+
+El mercado direccionable se calcula desde el total con filtros declarados. El procedimiento siguiente lo obtiene.
 
 ```text
 MERCADO TOTAL DEL PAÍS (datos del proyecto)
@@ -114,6 +122,8 @@ UNA CUOTA DEL 1,26 % NO PERMITE COMPETIR EN TODO
 
 ### 2. Selección de segmentos
 
+Los segmentos se eligen por rentabilidad esperada y por capacidad de servir. La tabla recoge el criterio.
+
 | Segmento | Tamaño | Competencia | Capacidad requerida | Decisión |
 |---|---|---|---|---|
 | Personas alto patrimonio | Pequeño, rentable | Alta, bancos establecidos | Asesoría, productos complejos | No |
@@ -140,6 +150,8 @@ SEGMENTOS OBJETIVO DEL BANCO AUSTRAL
 ```
 
 ### 3. Propuesta de valor
+
+La propuesta se escribe con la estructura de la Parte 15 y se contrasta con la competencia. La tabla la recoge.
 
 ```text
 SEGMENTO 1 — PERSONAS SIN HISTORIAL
@@ -197,6 +209,8 @@ SEGMENTO 2 — PEQUEÑA EMPRESA FORMAL
 
 ### 4. Renuncias y su costo
 
+Cada renuncia tiene un costo en ingreso que hay que declarar. El procedimiento lo cuantifica.
+
 | Renuncia | Costo | Justificación |
 |---|---|---|
 | Alto patrimonio | Ingreso estimado 2 400 anuales | Requiere capacidades que no tenemos |
@@ -218,6 +232,8 @@ Y LO QUE COMPRAN
 ```
 
 ### 5. Apetito de riesgo preliminar
+
+El apetito preliminar se fija aquí y se revisa en la clase 12. La tabla lo recoge.
 
 ```text
 DERIVADO DE LOS COMPROMISOS DE LA CLASE 1
@@ -247,6 +263,8 @@ QUE EL MÍNIMO NORMATIVO, Y CON RAZÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el mercado direccionable del Banco Austral y elige sus segmentos. Conviene cuantificar el ingreso al que se renuncia: es lo que hace real la renuncia.
 
 **Situación.** Verificar que los segmentos elegidos producen los compromisos de la clase 1.
 
@@ -448,6 +466,8 @@ resolver con decisiones, no con supuestos.
 
 ## 🏦 Del cliente al banco
 
+El cliente busca un banco que le sirva y el banco elige a quién puede servir con rentabilidad. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Este banco me dio mi primer crédito» | Segmento objetivo elegido | 14, clase 7 |
@@ -458,6 +478,8 @@ resolver con decisiones, no con supuestos.
 
 ## 🧪 Práctica
 
+El laboratorio pide definir el modelo de negocio con sus renuncias cuantificadas. La cuantificación es lo que se evalúa.
+
 En `labs/lab-01.md`, sección de modelo de negocio:
 
 1. Selecciona los segmentos objetivo con criterio de escala mínima y capacidad.
@@ -466,6 +488,8 @@ En `labs/lab-01.md`, sección de modelo de negocio:
 4. Verifica que los segmentos elegidos produzcan los compromisos, y corrígelos si no.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen modelos de negocio sin foco. Las causas son ausencia de renuncias y capacidad de servir no evaluada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

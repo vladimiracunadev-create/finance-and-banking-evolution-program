@@ -21,6 +21,8 @@ Integrar todos los riesgos del Banco Austral en un marco único, con su apetito,
 gobierno. Once clases han identificado riesgos por separado; esta clase los reúne, revisa el apetito
 preliminar de la clase 2 con lo que ahora se sabe, y construye el tablero que dirigirá el banco.
 
+Las clases anteriores construyeron el banco. Esta define cuánto riesgo puede asumir, reuniendo la Parte 11 entera. Y revisa el apetito preliminar de la clase 2 con lo que ahora se sabe, que es bastante más y suele obligar a bajarlo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el marco y sus niveles; los cuatro siguientes, su ejecución y su medición. La **acción comprometida** es lo que hace operativo el apetito: qué se hace exactamente cuando una alerta se activa, decidido antes de que se active.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `taxonomía de riesgos` | Clasificación de todos los riesgos de la institución. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `tablero de riesgos` | Panel de métricas con límites y tendencia. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cascada que baja: el apetito del directorio se traduce en límites por riesgo, esos límites en alertas y esas alertas en acciones comprometidas de antemano. Sin el último escalón, el marco es una declaración.
 
 ```text
 EL APETITO DE LA CLASE 2 SE FIJÓ CON UNA ESTIMACIÓN
@@ -89,6 +95,8 @@ EL DE ESTA CLASE SE FIJA CON EL DISEÑO COMPLETO
 ## 📖 Desarrollo
 
 ### 1. Taxonomía y materialidad
+
+Los riesgos del banco se clasifican y se evalúa cuáles son materiales. La tabla los recoge.
 
 | Riesgo | Materialidad | Fuente principal | Clase |
 |---|---|---|---|
@@ -117,6 +125,8 @@ LOS TRES RIESGOS DE MATERIALIDAD MUY ALTA
 
 ### 2. Apetito revisado
 
+El apetito preliminar se revisa con la información de las diez clases anteriores. La tabla recoge el resultado.
+
 | Métrica | Clase 2 | Revisado | Alerta | Fundamento del cambio |
 |---|---:|---:|---:|---|
 | Capital nivel 1 ordinario | ≥ 13,0 % | ≥ 14,0 % | 15,0 % | Modelos sin validar |
@@ -141,6 +151,8 @@ CUATRO MÉTRICAS NUEVAS
 ```
 
 ### 3. Límites operativos
+
+El apetito se traduce en límites concretos por riesgo. La tabla los recoge.
 
 ```text
 LÍMITES DERIVADOS DEL APETITO
@@ -176,6 +188,8 @@ LÍMITES DERIVADOS DEL APETITO
 
 ### 4. Acciones comprometidas
 
+Cada alerta tiene su acción decidida de antemano. La tabla las recoge.
+
 | Métrica en alerta | Acción comprometida | Plazo |
 |---|---|---|
 | Capital < 15,0 % | Revisión del plan de crecimiento; sin dividendos | Inmediato |
@@ -196,6 +210,8 @@ LA ÚLTIMA ACCIÓN ES LA MÁS DURA Y LA MÁS NECESARIA
 ```
 
 ### 5. Capital económico
+
+El capital económico se calcula con los métodos de la Parte 11. El procedimiento lo obtiene.
 
 ```text
 CAPITAL ECONÓMICO POR RIESGO (nivel de confianza 99,8 %)
@@ -230,6 +246,8 @@ CAPITAL REGULATORIO REQUERIDO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo traduce el apetito de riesgo en límites y en acciones. Conviene comprobar que cada límite tiene una acción asociada: los que no la tienen no sirven.
 
 **Situación.** Resolver el déficit de capital económico.
 
@@ -442,6 +460,8 @@ el regulatorio basta.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve el marco de riesgos y el marco decide qué puede ofrecerle el banco. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco endureció sus criterios» | Alerta de costo de riesgo activada | 16, clase 12 |
@@ -452,6 +472,8 @@ el regulatorio basta.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el marco completo hasta las acciones comprometidas. Los límites sin acción son lo que se busca.
+
 En `labs/lab-06.md`, sección de riesgos:
 
 1. Construye la taxonomía con su materialidad y su fuente.
@@ -460,6 +482,8 @@ En `labs/lab-06.md`, sección de riesgos:
 4. Construye el tablero con límites, alertas y acciones comprometidas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen marcos de riesgo que no funcionan. Las causas son límites sin acción y apetito no revisado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

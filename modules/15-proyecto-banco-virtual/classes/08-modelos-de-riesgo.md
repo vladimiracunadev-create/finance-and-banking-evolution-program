@@ -21,6 +21,8 @@ Construir los modelos que sostienen las decisiones del Banco Austral: probabilid
 pérdida dado el incumplimiento y exposición. Son la capacidad diferenciadora del banco y el insumo de
 su precio, su provisión y su capital, y por eso **su gobierno importa tanto como su estadística**.
 
+El motor de la clase anterior necesita estimaciones de riesgo, y un banco nuevo no tiene historia con la que construirlas. Esta clase resuelve ese problema real: qué se usa en la fase uno, cómo se sustituye en la dos y qué validación se exige en cada etapa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los parámetros de la pérdida esperada; los cinco siguientes, la construcción y validación del modelo. El **dominio de aplicación** es la declaración que evita el mayor riesgo: un modelo construido con una población no vale para otra, y usarlo igualmente es el error más frecuente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `probabilidad de incumplimiento` | Probabilidad de que el deudor incumpla en 12 meses. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `dominio de aplicación` | Población y condiciones donde el modelo es válido. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una escalera de sustitución: se empieza con parámetros de la industria, se pasa a modelos propios cuando hay datos y se recalibra continuamente. Declarar en qué escalón se está es parte de la honestidad del proyecto.
 
 ```text
 EL PROBLEMA DEL BANCO NUEVO
@@ -92,6 +98,8 @@ TRES CAMINOS, EN ORDEN DE PREFERENCIA
 
 ### 1. Estrategia de modelos por fase
 
+La estrategia cambia según la madurez del banco. La tabla la recoge.
+
 | Fase | Meses | Enfoque | Vigilancia |
 |---|---|---|---|
 | Inicial | 0–12 | Modelo experto con reglas de política | Máxima; revisión mensual |
@@ -108,6 +116,8 @@ EN LA FASE INICIAL
 ```
 
 ### 2. Modelo de PD para P2
+
+El modelo de probabilidad de incumplimiento se construye con datos propios cuando los hay. El procedimiento lo recorre.
 
 ```text
 VARIABLES CANDIDATAS (datos alternativos, Parte 14, clase 7)
@@ -147,6 +157,8 @@ LA VARIABLE MÁS PREDICTIVA DEL SEGMENTO
 
 ### 3. Estimación de LGD
 
+La severidad se estima desde recuperaciones observadas o desde valores de referencia. El procedimiento lo hace.
+
 ```text
 LGD = 1 − tasa de recuperación
 
@@ -184,6 +196,8 @@ E2 — CAPITAL DE TRABAJO
 
 ### 4. Exposición al incumplimiento
 
+La exposición depende del producto y de los cupos disponibles. El procedimiento la estima.
+
 ```text
 P2 — PRODUCTO A CUOTAS
   EAD = saldo en el momento del incumplimiento
@@ -213,6 +227,8 @@ EL FACTOR DE CONVERSIÓN EN EL INCUMPLIMIENTO
 
 ### 5. Validación y gobierno
 
+Todo modelo se valida de forma independiente y se gobierna, como exige la Parte 11. La tabla lo recoge.
+
 ```text
 LOS SEIS COMPONENTES (Parte 11, clase 12)
   conceptual · datos · resultados · implantación · uso · gobierno
@@ -241,6 +257,8 @@ DOMINIO DE APLICACIÓN DEL MODELO DE P2
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye un modelo de probabilidad de incumplimiento y lo valida fuera de tiempo. La caída de desempeño fuera de tiempo es lo que hay que medir antes de usarlo.
 
 **Situación.** Recalcular el efecto de las LGD y EAD corregidas sobre todo el modelo del banco.
 
@@ -476,6 +494,8 @@ asumido en una clase temprana se propaga hasta que alguien lo calcula, y entonce
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una decisión y el banco la basa en un modelo con su dominio declarado. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me redujeron la línea sin usarla» | Límite dinámico por deterioro | 16, clase 8 |
@@ -486,6 +506,8 @@ asumido en una clase temprana se propaga hasta que alguien lo calcula, y entonce
 
 ## 🧪 Práctica
 
+El laboratorio pide construir y validar un modelo. Declarar su dominio de aplicación es parte del entregable.
+
 En `labs/lab-04.md`, sección de modelos:
 
 1. Selecciona variables candidatas y descarta las que sean sustitutas prohibidas.
@@ -494,6 +516,8 @@ En `labs/lab-04.md`, sección de modelos:
 4. Diseña el gobierno de modelos con dominio, monitoreo y revalidación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen modelos que fallaron en producción. Las causas son validación insuficiente y uso fuera del dominio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

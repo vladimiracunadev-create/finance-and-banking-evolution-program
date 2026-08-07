@@ -21,6 +21,8 @@ Construir los estados financieros del Banco Austral y el sistema contable que lo
 donde todas las decisiones anteriores se traducen a cifras auditables, y donde **cualquier incoherencia
 del proyecto se hace visible**, porque un balance que no cuadra no admite interpretación.
 
+Todo lo anterior produce hechos económicos que hay que registrar. Esta clase construye la contabilidad del banco aplicando la Parte 5 y el modelo de tres etapas de la Parte 9, y produce el primer juego de estados financieros proyectados del proyecto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son la provisión y su modelo de etapas; los tres siguientes, la conciliación y la información periódica. El **aumento significativo del riesgo** es el criterio que decide el salto de etapa uno a dos, y con él un salto de provisión que no requiere ningún impago.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `plan de cuentas` | Estructura de cuentas contables del banco. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `información financiera intermedia` | Estados de períodos menores al año. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una doble contabilidad que tiene que conciliar: la de gestión, que se usa para decidir, y la contable, que se publica. Cuando difieren, la diferencia tiene que poder explicarse partida a partida, y esa conciliación es el control que detecta errores en ambas.
 
 ```text
 LA CONTABILIDAD ES DONDE EL PROYECTO
@@ -85,6 +91,8 @@ SE VERIFICA A SÍ MISMO
 ## 📖 Desarrollo
 
 ### 1. Plan de cuentas
+
+El plan de cuentas del banco se estructura por naturaleza y por producto. La tabla lo recoge.
 
 ```text
 ESTRUCTURA
@@ -130,6 +138,8 @@ LA CUENTA 139 ES LA MÁS IMPORTANTE DEL BANCO
 
 ### 2. Pérdidas crediticias esperadas
 
+La provisión se calcula por etapas con horizontes distintos. La tabla lo recoge.
+
 ```text
 TRES ETAPAS DE NIIF 9
 
@@ -173,6 +183,8 @@ anticipación sobre el atraso.
 
 ### 3. Cálculo de la provisión
 
+El cálculo aplica los tres parámetros de la clase 8. El procedimiento lo recorre.
+
 ```text
 PROVISIÓN = EAD × PD (del horizonte) × LGD × factor de descuento
 
@@ -202,6 +214,8 @@ sobre cartera bruta de 335 971: 6,24 %
 ```
 
 ### 4. Estados financieros proyectados
+
+Los estados se proyectan desde el plan de negocio. El procedimiento los construye.
 
 ```text
 BALANCE AL AÑO 3 (miles)
@@ -250,6 +264,8 @@ ESTADO DE RESULTADOS DEL AÑO 3
 
 ### 5. Conciliación contable-gestión
 
+Las dos visiones difieren y la diferencia se explica. La tabla recoge las partidas.
+
 ```text
 POR QUÉ DIFIEREN
   · la gestión usa pérdida ESPERADA;
@@ -267,6 +283,8 @@ LA CONCILIACIÓN ES OBLIGATORIA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la provisión de una cartera por etapas. Conviene mirar el efecto del salto de etapa: multiplica la provisión sin que haya habido impago.
 
 **Situación.** Verificar la coherencia contable de todo el proyecto.
 
@@ -438,6 +456,8 @@ verificador de todo el proyecto.
 
 ## 🏦 Del cliente al banco
 
+El cliente se atrasa y el banco reconoce una pérdida esperada en su resultado. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco publica sus estados» | Información al mercado | 15, clase 12 |
@@ -448,6 +468,8 @@ verificador de todo el proyecto.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la provisión y proyectar los estados. La conciliación entre gestión y contabilidad es parte del entregable.
+
 En `labs/lab-05.md`, sección contable:
 
 1. Construye el plan de cuentas y los criterios de traspaso entre etapas.
@@ -456,6 +478,8 @@ En `labs/lab-05.md`, sección contable:
 4. Concilia el patrimonio con el resultado acumulado y resuelve las diferencias.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen provisiones mal calculadas. Las causas son etapas mal asignadas y parámetros no actualizados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Constituir el Banco Austral: obtener la licencia, definir su estructura de gobie
 marco normativo interno. Un banco no empieza a operar cuando abre: **empieza cuando el supervisor
 verifica que sus accionistas, su administración y sus controles son idóneos**.
 
+El modelo de negocio de la clase anterior necesita una entidad que lo ejecute. Esta la constituye, y aplica la Parte 12: un banco no se crea, se autoriza, y el expediente de licenciamiento exige demostrar cosas concretas antes de operar con dinero de nadie.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el licenciamiento y sus requisitos; los cuatro siguientes, la estructura interna. La **atribución** es la pieza operativa: quién puede aprobar qué y hasta qué importe, escrito y con su vía de excepción.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `licencia bancaria` | Autorización para captar del público e intermediar. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `estructura organizativa` | Diseño de áreas, dependencias y separaciones. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una estructura de atribuciones: cada decisión tiene un nivel que la puede tomar, y ese nivel está escrito antes de que la decisión haga falta. Un banco donde las atribuciones se deciden caso a caso no pasa una revisión supervisora.
 
 ```text
 EL SUPERVISOR NO AUTORIZA UN BANCO PORQUE TENGA CAPITAL
@@ -93,6 +99,8 @@ EL ERROR DEL BANCO NUEVO
 
 ### 1. Requisitos de licenciamiento
 
+El licenciamiento exige acreditar capital, idoneidad y plan de negocio. La tabla recoge los requisitos y su forma de acreditación.
+
 | Requisito | Contenido |
 |---|---|
 | Capital mínimo | El que exige la norma, íntegramente pagado |
@@ -118,6 +126,8 @@ EL COMPROMISO DE APOYO DEL ACCIONISTA
 ```
 
 ### 2. Estructura de gobierno del Banco Austral
+
+La estructura se define con órganos, composiciones y frecuencias. La tabla la recoge.
 
 ```text
 JUNTA DE ACCIONISTAS
@@ -157,6 +167,8 @@ COMPETENCIAS EXIGIDAS EN EL DIRECTORIO
 
 ### 3. Atribuciones
 
+Las atribuciones se definen por tipo de decisión y por importe. La tabla las recoge.
+
 ```text
 MATRIZ DE ATRIBUCIONES DE CRÉDITO
 
@@ -184,6 +196,8 @@ MATRIZ DE ATRIBUCIONES DE CRÉDITO
 | Gasto sobre un umbral | Gerente general; sobre otro, directorio |
 
 ### 4. Políticas obligatorias
+
+Hay políticas que un banco debe tener aprobadas antes de operar. La tabla las recoge.
 
 ```text
 POLÍTICAS QUE DEBEN EXISTIR ANTES DE OPERAR
@@ -228,6 +242,8 @@ UNA POLÍTICA SIN PROCEDIMIENTO ES UNA DECLARACIÓN
 
 ### 5. Separación de funciones
 
+La separación de funciones se diseña desde el organigrama y no se parchea después. La tabla la recoge.
+
 ```text
 SEPARACIONES OBLIGATORIAS
 
@@ -248,6 +264,8 @@ EN UN BANCO PEQUEÑO ESTO ES DIFÍCIL
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye la matriz de atribuciones del Banco Austral. Conviene comprobar que ninguna decisión queda sin nivel asignado: los huecos son los que producen excepciones informales.
 
 **Situación.** Preparar la solicitud de licencia del Banco Austral.
 
@@ -454,6 +472,8 @@ diferencia entre una licencia que se otorga con condiciones y una que se otorga 
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en una entidad autorizada y el banco acredita ante el supervisor que merece esa autorización. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «¿Este banco es seguro?» | Licencia, capital y controles verificados | 12, clase 1 |
@@ -464,6 +484,8 @@ diferencia entre una licencia que se otorga con condiciones y una que se otorga 
 
 ## 🧪 Práctica
 
+El laboratorio pide construir la estructura de gobierno con sus atribuciones. Las decisiones sin nivel asignado son lo que se busca.
+
 En `labs/lab-02.md`:
 
 1. Verifica el capital mínimo y la holgura en el escenario del año 1.
@@ -472,6 +494,8 @@ En `labs/lab-02.md`:
 4. Arma el expediente de licenciamiento con lo que se declara explícitamente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de gobierno en la fase de licenciamiento. Las causas son atribuciones incompletas y separación de funciones no diseñada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

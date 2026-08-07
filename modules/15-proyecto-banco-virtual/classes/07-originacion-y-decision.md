@@ -21,6 +21,8 @@ Construir el proceso por el que el Banco Austral capta, evalúa y aprueba a sus 
 que determina la calidad de toda la cartera futura, y su diseño debe conciliar tres exigencias que
 tiran en direcciones distintas: **velocidad, calidad de riesgo y protección del cliente**.
 
+Con productos y precios definidos, esta clase construye el proceso que los coloca. Aplica la Parte 9 entera y añade lo que un proyecto obliga a decidir: dónde está exactamente la frontera entre aprobar, rechazar y derivar a análisis manual.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el proceso y su política; los cuatro siguientes, las zonas y su medición. La **excepción** es lo que hay que gobernar desde el principio: un proceso sin vía formal de excepción produce excepciones informales que nadie registra.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `flujo de originación` | Secuencia desde la solicitud hasta el desembolso. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `tasa de conversión` | Solicitudes que llegan a desembolso. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres zonas de decisión: una donde se aprueba automáticamente, otra donde se rechaza y una intermedia donde decide una persona. El tamaño de la zona intermedia determina el costo del proceso y la calidad de la cartera, y es una decisión de negocio.
 
 ```text
 TRES EXIGENCIAS QUE TIRAN EN DIRECCIONES DISTINTAS
@@ -89,6 +95,8 @@ TRES EXIGENCIAS QUE TIRAN EN DIRECCIONES DISTINTAS
 ## 📖 Desarrollo
 
 ### 1. Flujo de originación
+
+El flujo tiene etapas con puntos de decisión y de abandono. El esquema lo recorre.
 
 ```text
 1. CAPTACIÓN         canal digital, corresponsal o referido
@@ -114,6 +122,8 @@ LOS PASOS 9 Y 12 SON LOS QUE MÁS SE OMITEN
 ```
 
 ### 2. Política de crédito
+
+La política de crédito se escribe como reglas con su origen. La tabla las recoge.
 
 ```text
 P2 — CRÉDITO ESCALONADO A PERSONAS
@@ -162,6 +172,8 @@ EL CRITERIO DE VARIABILIDAD DE VENTAS
 
 ### 3. Motor de decisión
 
+El motor aplica la política y devuelve una decisión con su motivo. El esquema lo describe.
+
 ```text
 TRES ZONAS (Parte 14, clase 6)
 
@@ -201,6 +213,8 @@ POR QUÉ E2 TIENE MENOS AUTOMATIZACIÓN
 
 ### 4. Excepciones
 
+Las excepciones tienen vía, nivel y registro. La tabla los recoge.
+
 ```text
 RÉGIMEN DE EXCEPCIONES
 
@@ -234,6 +248,8 @@ RÉGIMEN DE EXCEPCIONES
 
 ### 5. Indicadores del proceso
 
+El proceso se mide con indicadores de conversión y de calidad. La tabla los recoge.
+
 | Indicador | Objetivo | Qué anticipa |
 |---|---:|---|
 | Tiempo de decisión (P2) | < 5 minutos | Propuesta de valor |
@@ -255,6 +271,8 @@ LOS DOS INDICADORES DECISIVOS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo define las tres zonas de decisión y calcula su efecto sobre conversión y pérdida. Mover la frontera mejora una y empeora la otra.
 
 **Situación.** Calibrar la política de crédito de P2 para alcanzar el costo de riesgo comprometido.
 
@@ -442,6 +460,8 @@ prudencia.
 
 ## 🏦 Del cliente al banco
 
+El solicitante quiere una respuesta rápida y el banco equilibra automatización con calidad. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me aprobaron en dos minutos» | Zona de aprobación automática | 14, clase 6 |
@@ -452,6 +472,8 @@ prudencia.
 
 ## 🧪 Práctica
 
+El laboratorio pide definir las zonas de decisión y justificar sus umbrales. El efecto sobre conversión y pérdida es lo que sostiene la justificación.
+
 En `labs/lab-04.md`:
 
 1. Diseña el flujo de originación con sus doce pasos y sus controles.
@@ -460,6 +482,8 @@ En `labs/lab-04.md`:
 4. Diseña el escalonamiento y evalúa su efecto sobre inclusión y riesgo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen procesos de originación con problemas. Las causas son zonas mal calibradas y excepciones sin registro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

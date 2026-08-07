@@ -22,6 +22,8 @@ difíciles. La defensa no es una formalidad: **es la competencia que las 240 cla
 sostener las decisiones propias con evidencia es lo que distingue a un profesional de alguien que
 aprendió el contenido.
 
+Esta clase cierra el proyecto, la parte y las cuatro primeras etapas del programa. No añade contenido: exige poder sostener todo lo anterior ante alguien que pregunta. Y su criterio principal no es la brillantez de las respuestas sino la honestidad de los límites que se declaran.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura de la defensa; los cuatro siguientes, lo que la sostiene y lo que la cierra. La **honestidad intelectual** es el criterio que más pesa: reconocer lo que no se sabe da más credibilidad que responder a todo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `defensa` | Presentación y sustentación del proyecto ante un panel. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `plan de desarrollo` | Lo que sigue después del programa. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una defensa que se apoya en la trazabilidad: cada afirmación remite a un cálculo, cada cálculo a un supuesto y cada supuesto a su justificación. Una respuesta sin ese respaldo es una opinión, por muy bien construida que esté.
 
 ```text
 LA DEFENSA SE JUZGA POR TRES COSAS
@@ -88,6 +94,8 @@ LA DEFENSA SE JUZGA POR TRES COSAS
 ## 📖 Desarrollo
 
 ### 1. Estructura de la presentación
+
+La presentación tiene una estructura y un tiempo. La tabla los recoge.
 
 ```text
 PRESENTACIÓN EJECUTIVA — 20 MINUTOS
@@ -126,6 +134,8 @@ LA SECCIÓN 6 ES LA QUE MÁS APORTA
 ```
 
 ### 2. Sustentar una decisión
+
+Cada decisión se sustenta con su cálculo, su supuesto y su alternativa descartada. La tabla recoge la estructura.
 
 ```text
 ESTRUCTURA DE UN ARGUMENTO COMPLETO
@@ -176,6 +186,8 @@ EJEMPLO — LA PRIMA DEL SEGURO (clase 5)
 
 ### 3. Preguntas difíciles
 
+Las preguntas difíciles son previsibles porque salen del propio proyecto. La tabla las recoge.
+
 ```text
 LAS QUE UN PANEL COMPETENTE HARÁ
 
@@ -212,6 +224,8 @@ CÓMO SE RESPONDE UNA PREGUNTA DIFÍCIL
 ```
 
 ### 4. Ejemplo de respuesta
+
+Una respuesta bien construida tiene una forma concreta. El esquema la muestra.
 
 ```text
 PREGUNTA
@@ -254,6 +268,8 @@ RESPUESTA
 
 ### 5. Evaluación del recorrido
 
+El recorrido completo se evalúa con criterios que van más allá del proyecto. La tabla los recoge.
+
 ```text
 EL PORTAFOLIO COMPLETO DEL PROGRAMA
 
@@ -291,6 +307,8 @@ AUTOEVALUACIÓN FINAL — CINCO PREGUNTAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo responde a una pregunta difícil con la estructura completa. Conviene fijarse en la parte donde se reconoce un límite: es la que da credibilidad al resto.
 
 **Situación.** Preparar la defensa del Banco Austral.
 
@@ -539,6 +557,8 @@ CIERRE DEL PROGRAMA
 
 ## 🏦 Del cliente al banco
 
+El estudiante defiende su proyecto y un directorio real hace exactamente las mismas preguntas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Confío en este banco» | Decisiones coherentes y sostenidas | 16, clase 18 |
@@ -549,6 +569,8 @@ CIERRE DEL PROGRAMA
 
 ## 🧪 Práctica
 
+El laboratorio pide preparar la defensa completa con las preguntas difíciles anticipadas. Las respuestas con su trazabilidad son lo que se evalúa.
+
 En `labs/lab-06.md`, sección de defensa:
 
 1. Construye la presentación de 20 minutos con sus siete secciones.
@@ -557,6 +579,8 @@ En `labs/lab-06.md`, sección de defensa:
 4. Declara los cinco límites de tu proyecto y lo que harías distinto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa. Casi todos se evitan declarando los límites antes de que los pregunten.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

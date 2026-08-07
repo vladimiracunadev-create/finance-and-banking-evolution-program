@@ -21,6 +21,8 @@ Construir la operación diaria del Banco Austral: pagos, conciliación, cobranza
 gana o se pierde el compromiso de eficiencia del 48 %, y donde el diseño de los procesos determina si el
 banco puede crecer sin que su costo crezca en la misma proporción.
 
+El banco de las clases anteriores ya coloca crédito. Esta construye la operación diaria que lo sostiene, aplicando la Parte 10. Y añade la dimensión que un proyecto obliga a dimensionar: cuántas personas y cuánta capacidad hacen falta para el volumen proyectado.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los procesos y su control; los cuatro siguientes, su economía y su escalabilidad. La **tasa de automatización** es la variable que decide el costo por operación y la que más se puede mover con diseño.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `proceso crítico` | Aquel cuya interrupción impide operar. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `escalabilidad` | Que el costo crezca menos que el volumen. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una capacidad que se dimensiona por el pico y no por la media: los procesos operativos se saturan en los días de mayor volumen, y dimensionar por el promedio produce colas exactamente cuando más importa.
 
 ```text
 EL COMPROMISO DE EFICIENCIA DEL 48 % EXIGE
@@ -92,6 +98,8 @@ QUE EL COSTO CREZCA MENOS QUE EL NEGOCIO
 
 ### 1. Procesos críticos
 
+Los procesos críticos se identifican por su efecto sobre el cliente. La tabla los recoge.
+
 | Proceso | Volumen anual proyectado | Automatización objetivo |
 |---|---:|---:|
 | Apertura de cuenta | 42 000 | 96 % |
@@ -115,6 +123,8 @@ NO ES UN OBJETIVO AMBICIOSO: ES EL MÍNIMO
 ```
 
 ### 2. Dimensionamiento
+
+La capacidad se dimensiona por volumen pico y por tiempo de proceso. El procedimiento lo hace.
 
 ```text
 MÉTODO
@@ -148,6 +158,8 @@ EL PROCESO MÁS COSTOSO ES EL MENOS EVIDENTE
 ```
 
 ### 3. Conciliación
+
+La conciliación diaria es el control que detecta lo que los demás dejaron pasar. La tabla recoge su diseño.
 
 ```text
 QUÉ SE CONCILIA CADA DÍA
@@ -185,6 +197,8 @@ MÁS TEMPRANO DE UN PROBLEMA OPERATIVO
 ```
 
 ### 4. Cobranza por etapas
+
+La cobranza se organiza por etapas con estrategias distintas. La tabla las recoge.
 
 ```text
 ETAPAS Y SU ECONOMÍA
@@ -234,6 +248,8 @@ LA ECONOMÍA DE LA COBRANZA TEMPRANA
 
 ### 5. Escalabilidad
 
+El modelo operativo tiene que escalar con el negocio sin escalar el costo en la misma proporción. La tabla recoge los criterios.
+
 ```text
 LA PRUEBA DE ESCALABILIDAD
   si el volumen se duplica, ¿cuánto crece el costo?
@@ -249,6 +265,8 @@ LA PRUEBA DE ESCALABILIDAD
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo dimensiona la capacidad operativa del Banco Austral. Conviene dimensionar por pico: la diferencia con la media es grande.
 
 **Situación.** Verificar que la operación diseñada produce el índice de eficiencia del 48 %.
 
@@ -468,6 +486,8 @@ explícita, que es la forma honesta de reconocer que un diseño en papel siempre
 
 ## 🏦 Del cliente al banco
 
+El cliente espera que su operación se ejecute y el banco dimensiona capacidad para el peor día. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me avisaron el mismo día del atraso» | Cobranza temprana automatizada | 16, clase 9 |
@@ -478,6 +498,8 @@ explícita, que es la forma honesta de reconocer que un diseño en papel siempre
 
 ## 🧪 Práctica
 
+El laboratorio pide dimensionar la operación y diseñar la conciliación. El dimensionamiento por pico es lo que se evalúa.
+
 En `labs/lab-05.md`:
 
 1. Dimensiona la plantilla por proceso con volumen, porcentaje manual y tiempo.
@@ -486,6 +508,8 @@ En `labs/lab-05.md`:
 4. Verifica el índice de eficiencia y busca sistemáticamente los costos omitidos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones saturadas. La causa es dimensionar por volumen medio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

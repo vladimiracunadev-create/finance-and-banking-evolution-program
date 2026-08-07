@@ -21,6 +21,8 @@ Someter el Banco Austral a un escenario adverso y determinar si sobrevive. Cator
 construyeron en condiciones normales; esta clase responde la única pregunta que importa sobre un banco:
 **¿qué le pasa cuando el entorno se deteriora?**
 
+El banco construido hasta aquí funciona en condiciones normales. Esta clase lo somete a las que no lo son, aplicando la Parte 11. Y con la misma exigencia: el escenario tiene que ser lo bastante severo como para romper alguna métrica, porque un escenario que el banco aguanta con holgura no informa de nada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el escenario y su traducción; los cuatro siguientes, el resultado y su respuesta. La **vulnerabilidad específica** es lo que distingue una prueba útil de un ejercicio: el escenario ataca donde este banco es débil, no donde lo sería cualquiera.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `escenario adverso` | Deterioro severo pero plausible del entorno. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `prueba inversa` | Se parte del resultado y se busca qué lo produce. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una vulnerabilidad específica: el escenario no se elige de un catálogo genérico sino que se diseña contra las debilidades concretas de este banco, que son su dependencia mayorista y la concentración de su segmento.
 
 ```text
 UN BANCO NUEVO TIENE DOS VULNERABILIDADES
@@ -89,6 +95,8 @@ QUE UN BANCO ESTABLECIDO NO TIENE
 ## 📖 Desarrollo
 
 ### 1. Diseño del escenario
+
+El escenario se diseña desde las vulnerabilidades específicas del banco. El procedimiento lo estructura.
 
 ```text
 ESCENARIO ADVERSO A 3 AÑOS
@@ -126,6 +134,8 @@ VERIFICACIÓN DE COHERENCIA
 
 ### 2. Traducción a parámetros
 
+El escenario macroeconómico se traduce a parámetros de riesgo. El procedimiento lo hace.
+
 ```text
 P2 — PERSONAS SIN HISTORIAL
   el segmento depende del EMPLEO y del INGRESO REAL
@@ -158,6 +168,8 @@ LGD EN ESTRÉS
 
 ### 3. Efecto sobre el negocio
 
+El escenario afecta a volumen, margen y pérdida a la vez. El procedimiento lo proyecta.
+
 ```text
 VOLUMEN
   la demanda de crédito cae y el banco endurece
@@ -178,6 +190,8 @@ GASTOS
 ```
 
 ### 4. Efecto sobre la liquidez
+
+El efecto sobre la liquidez suele ser el que rompe primero en un banco nuevo. El procedimiento lo calcula.
 
 ```text
 EL ESCENARIO CIERRA EL MERCADO MAYORISTA
@@ -200,6 +214,8 @@ EL ESCENARIO CIERRA EL MERCADO MAYORISTA
 
 ### 5. Acciones de gestión
 
+Las acciones supuestas tienen que ser creíbles y ejecutables en el escenario. La tabla recoge los criterios.
+
 | Acción | Efecto | Viabilidad en estrés |
 |---|---|---|
 | Suspensión de dividendos | Ya suspendidos | — |
@@ -221,6 +237,8 @@ ES LA ACCIÓN DECISIVA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo somete al Banco Austral a un escenario diseñado contra su vulnerabilidad. Conviene identificar qué métrica rompe primero: es la que hay que reforzar.
 
 **Situación.** Ejecutar la prueba de estrés completa del Banco Austral.
 
@@ -441,6 +459,8 @@ más lo necesita. Ese hallazgo vale más que la cifra del ratio.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y el banco comprueba si sobreviviría a una recesión. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco dejó de dar créditos» | Freno a la originación en estrés | 16, clase 15 |
@@ -451,6 +471,8 @@ más lo necesita. Ese hallazgo vale más que la cifra del ratio.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar el escenario y proyectar el efecto. El escenario tiene que romper algo: si no, hay que endurecerlo.
+
 En `labs/lab-06.md`, sección de estrés:
 
 1. Diseña el escenario adverso y verifica su coherencia interna.
@@ -459,6 +481,8 @@ En `labs/lab-06.md`, sección de estrés:
 4. Ejecuta la prueba inversa y deriva las decisiones que exige.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pruebas de estrés que no informan. Las causas son escenarios genéricos y acciones de gestión no creíbles.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

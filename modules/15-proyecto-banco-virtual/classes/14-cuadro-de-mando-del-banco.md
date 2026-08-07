@@ -21,6 +21,8 @@ Construir el instrumento con que se dirigirá el Banco Austral: un cuadro de man
 perspectivas y que **produzca decisiones**. Trece clases han generado indicadores dispersos; esta clase
 selecciona los que informan decisiones y descarta los demás.
 
+Las trece clases anteriores producen decenas de indicadores. Esta elige los que un directorio mira de verdad, aplicando la Parte 15. Y añade una exigencia propia del proyecto: cada indicador tiene que tener su contrapeso, porque cualquier indicador aislado se puede mejorar empeorando otra cosa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura del cuadro; los cuatro siguientes, su documentación y su uso. El **contrapeso** es la exigencia propia de este proyecto: ningún indicador entra solo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `indicador principal` | El que anticipa el resultado. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `decisión registrada` | Acuerdo con responsable, plazo y verificación. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son parejas de indicadores que se vigilan mutuamente: crecimiento con calidad de cartera, conversión con pérdida, eficiencia con satisfacción. Un cuadro sin contrapesos premia comportamientos que destruyen valor.
 
 ```text
 LOS INDICADORES QUE LAS TRECE CLASES GENERARON
@@ -91,6 +97,8 @@ LOS INDICADORES QUE LAS TRECE CLASES GENERARON
 
 ### 1. Criterios de selección
 
+Los indicadores se seleccionan con criterios explícitos y en número limitado. La tabla los recoge.
+
 ```text
 LOS SEIS CRITERIOS
   1. ¿informa una decisión concreta?
@@ -110,6 +118,8 @@ APLICADOS A LOS 87
 
 ### 2. Perspectiva de resultado
 
+La perspectiva de resultado recoge los indicadores financieros con sus contrapesos. La tabla los recoge.
+
 | Indicador | Objetivo | Alerta | Contrapeso | Frecuencia |
 |---|---:|---:|---|---|
 | Resultado antes de provisiones / activos | 7,4 % | 6,4 % | Costo de riesgo | Mensual |
@@ -128,6 +138,8 @@ EL PRIMER INDICADOR ES EL PRINCIPAL DEL BANCO
 
 ### 3. Perspectiva de riesgo
 
+La perspectiva de riesgo recoge los límites del marco de la clase 12. La tabla los recoge.
+
 | Indicador | Objetivo | Alerta | Contrapeso | Frecuencia |
 |---|---:|---:|---|---|
 | Capital nivel 1 ordinario | ≥ 17,0 % | 15,0 % | Crecimiento de cartera | Mensual |
@@ -141,6 +153,8 @@ EL PRIMER INDICADOR ES EL PRINCIPAL DEL BANCO
 | Caída del valor económico | ≤ 7,8 % | 10,0 % | Margen de intermediación | Trimestral |
 
 ### 4. Perspectivas de cliente y capacidades
+
+Las dos perspectivas restantes anticipan lo que las otras dos confirman. La tabla las recoge.
 
 | Indicador | Objetivo | Alerta | Contrapeso | Frecuencia |
 |---|---:|---:|---|---|
@@ -166,6 +180,8 @@ TOTAL: 6 + 9 + 6 + 6 = 27 indicadores
 ```
 
 ### 5. Ficha de indicador
+
+Cada indicador tiene una ficha con su definición, su fuente y su umbral. La tabla recoge su estructura.
 
 ```text
 EJEMPLO — MORA DE LA COSECHA A 6 MESES
@@ -202,6 +218,8 @@ EJEMPLO — MORA DE LA COSECHA A 6 MESES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el cuadro del Banco Austral con sus contrapesos. Conviene comprobar cada pareja: un indicador sin contrapeso se puede mejorar de formas indeseables.
 
 **Situación.** Verificar las cadenas causales del cuadro de mando.
 
@@ -394,6 +412,8 @@ juzga por lo que mide, sino por cuánto antes permite actuar.
 
 ## 🏦 Del cliente al banco
 
+El cliente vive el resultado y el directorio lo mira a través de doce indicadores. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco corrigió rápido un problema» | Indicador principal con acción | 15, clase 14 |
@@ -404,6 +424,8 @@ juzga por lo que mide, sino por cuánto antes permite actuar.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el cuadro con fichas y contrapesos. Los indicadores sin contrapeso son lo que se busca.
+
 En `labs/lab-06.md`, sección de dirección:
 
 1. Aplica los seis criterios a los indicadores de tu proyecto y selecciona 24.
@@ -412,6 +434,8 @@ En `labs/lab-06.md`, sección de dirección:
 4. Traza las cadenas causales y mide su anticipación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen cuadros que producen comportamientos indeseados. La causa es la ausencia de contrapesos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

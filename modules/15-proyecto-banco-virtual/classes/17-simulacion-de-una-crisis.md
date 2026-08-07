@@ -21,6 +21,8 @@ Dirigir el Banco Austral durante una crisis, hora a hora y día a día. La clase
 resiste un escenario adverso; esta clase mide **si su dirección sabe qué hacer cuando ocurre**, que es
 una capacidad distinta y no se deduce de la primera.
 
+El ciclo de la clase anterior transcurre en meses. Esta transcurre en días, y aplica la reflexividad de la Parte 15: en una crisis, lo que el banco hace cambia la crisis. Es la clase donde la diferencia entre una decisión correcta y una comunicada correctamente deja de existir.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura de crisis; los cuatro siguientes, su dinámica y su cierre. La **función de mantener** es la que se olvida: durante una crisis el banco tiene que seguir operando para los clientes que no están retirando, y esa función necesita a alguien asignado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `comité de crisis` | Estructura de decisión con atribuciones ampliadas. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `capacidad de respuesta` | Lo que existe antes, no lo que se improvisa. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un tablero que se mueve mientras se decide: cada acción tiene un efecto directo y una señal, y en una crisis de confianza la señal puede dominar. Buscar liquidez señala que hace falta liquidez.
 
 ```text
 LA CRISIS DEL BANCO AUSTRAL SERÁ DE LIQUIDEZ
@@ -85,6 +91,8 @@ LA CRISIS DEL BANCO AUSTRAL SERÁ DE LIQUIDEZ
 ## 📖 Desarrollo
 
 ### 1. Activación
+
+La crisis se activa con criterios definidos y una estructura preparada. La tabla los recoge.
 
 ```text
 DISPARADORES DE ACTIVACIÓN DEL COMITÉ DE CRISIS
@@ -116,6 +124,8 @@ ATRIBUCIONES AMPLIADAS, APROBADAS DE ANTEMANO
 
 ### 2. Funciones simultáneas
 
+En una crisis hay varias funciones que operan a la vez con responsables distintos. La tabla las recoge.
+
 ```text
 DECIDIR      el comité
 EJECUTAR     equipos operativos con instrucciones claras
@@ -130,6 +140,8 @@ LA ÚLTIMA ES LA QUE MÁS SE OLVIDA
 ```
 
 ### 3. Tablero de crisis
+
+El tablero de crisis es distinto del ordinario: menos indicadores y mayor frecuencia. La tabla lo recoge.
 
 | Métrica | Frecuencia | Fuente |
 |---|---|---|
@@ -153,6 +165,8 @@ LA MÉTRICA MÁS PREDICTIVA EN UNA CORRIDA DIGITAL
 
 ### 4. Efecto de señal
 
+Cada acción tiene un efecto de señal que puede dominar al directo. La tabla lo recoge con ejemplos.
+
 ```text
 CADA ACCIÓN TIENE DOS EFECTOS
 
@@ -174,6 +188,8 @@ CADA ACCIÓN TIENE DOS EFECTOS
 
 ### 5. Comunicación
 
+La comunicación en crisis tiene reglas propias y un portavoz único. La tabla las recoge.
+
 ```text
 PRINCIPIOS (Parte 15, clases 12 y 13)
   · velocidad: el vacío se llena con rumor
@@ -191,6 +207,8 @@ Y UN PRINCIPIO ESPECÍFICO DE UN BANCO NUEVO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre los primeros días de una crisis de liquidez en el Banco Austral. Conviene evaluar cada decisión por su señal: dos de ellas empeoran la situación pese a ser correctas en lo directo.
 
 **Situación.** Crisis de liquidez del Banco Austral en el mes 26.
 
@@ -450,6 +468,8 @@ costaban nada corregir: un mensaje, una alerta y un protocolo de contacto.
 
 ## 🏦 Del cliente al banco
 
+El cliente retira y el banco gestiona una crisis que sus propias acciones pueden acelerar. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Leí algo sobre mi banco» | Reflexividad de la información | 15, clase 13 |
@@ -460,6 +480,8 @@ costaban nada corregir: un mensaje, una alerta y un protocolo de contacto.
 
 ## 🧪 Práctica
 
+El laboratorio pide gestionar la crisis día a día con la información disponible. El registro de decisiones con su razón es lo que se evalúa.
+
 En `labs/lab-06.md`, sección de crisis:
 
 1. Define los disparadores, la composición y las atribuciones del comité.
@@ -468,6 +490,8 @@ En `labs/lab-06.md`, sección de crisis:
 4. Redacta el mensaje público y conduce la revisión posterior.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen crisis agravadas por su gestión. Las causas son el efecto de señal ignorado y la ausencia de portavoz único.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

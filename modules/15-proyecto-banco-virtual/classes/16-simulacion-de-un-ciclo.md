@@ -21,6 +21,8 @@ Operar el Banco Austral durante tres años simulados, tomando las decisiones mes
 que efectivamente estaría disponible. Es la clase donde el proyecto deja de ser un diseño y **se
 convierte en una secuencia de decisiones bajo incertidumbre**.
 
+Esta clase hace operar el banco durante un ciclo completo, y con eso introduce algo que ninguna clase anterior tenía: el tiempo. Las decisiones se toman con información incompleta y con rezago, sus efectos aparecen después, y algunas no se pueden deshacer.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la simulación y sus condiciones; los cuatro siguientes, los sesgos de decisión y su evaluación. La distinción entre **sesgo de acción y de inacción** es la que la simulación enseña: los dos existen y en un ciclo real el primero suele costar más.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `simulación` | Ejercicio de decisión secuencial con consecuencias. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `evaluación del desempeño` | Juicio sobre la calidad de las decisiones, no del resultado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una decisión con rezago: lo que se observa hoy ocurrió hace meses, y lo que se decide hoy tendrá efecto dentro de otros tantos. Entre la señal y el efecto hay un intervalo en el que es fácil confundir ruido con tendencia y actuar de más.
 
 ```text
 LA DIFERENCIA ENTRE DISEÑAR Y DIRIGIR
@@ -91,6 +97,8 @@ LA DIFERENCIA ENTRE DISEÑAR Y DIRIGIR
 ## 📖 Desarrollo
 
 ### 1. Estructura de la simulación
+
+La simulación tiene periodos, información y decisiones definidas. La tabla la recoge.
 
 ```text
 HORIZONTE: 36 meses
@@ -124,6 +132,8 @@ DECISIONES DISPONIBLES CADA MES
 
 ### 2. Información disponible
 
+En cada periodo se dispone de información parcial y con rezago. La tabla la recoge.
+
 | Información | Rezago | Fiabilidad |
 |---|---|---|
 | Volumen originado | 0 días | Alta |
@@ -149,6 +159,8 @@ SE TOMA CON LA INFORMACIÓN MÁS REZAGADA
 ```
 
 ### 3. Distinguir señal de ruido
+
+Separar una desviación material de una fluctuación exige un criterio previo. El procedimiento lo fija.
 
 ```text
 CRITERIOS PARA DECIDIR SI UNA DESVIACIÓN EXIGE ACCIÓN
@@ -180,6 +192,8 @@ CRITERIOS PARA DECIDIR SI UNA DESVIACIÓN EXIGE ACCIÓN
 
 ### 4. Efectos acumulativos
 
+Las decisiones se acumulan y algunas no se pueden deshacer. La tabla recoge cuáles.
+
 ```text
 DECISIONES CUYO EFECTO SE ACUMULA
 
@@ -202,6 +216,8 @@ DECISIONES CUYO EFECTO SE ACUMULA
 
 ### 5. Evaluación del desempeño
 
+El desempeño se evalúa por el proceso de decisión y no solo por el resultado. La tabla recoge los criterios.
+
 ```text
 SE EVALÚA LA CALIDAD DE LAS DECISIONES,
 NO EL RESULTADO
@@ -219,6 +235,8 @@ NO EL RESULTADO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre las decisiones de un ciclo completo. Conviene evaluar cada una con la información que había en ese momento, no con la que se tiene después.
 
 **Situación.** Los primeros doce meses de operación del Banco Austral.
 
@@ -449,6 +467,8 @@ información de hace seis meses, y la única defensa es mirar los indicadores qu
 
 ## 🏦 Del cliente al banco
 
+El cliente vive el ciclo y el banco decide con información rezagada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco endureció los criterios» | Corrección con seis meses de rezago | 16, clase 16 |
@@ -459,6 +479,8 @@ información de hace seis meses, y la única defensa es mirar los indicadores qu
 
 ## 🧪 Práctica
 
+El laboratorio pide operar el banco durante un ciclo y registrar las decisiones. La bitácora es lo que permite evaluar el proceso.
+
 En `labs/lab-06.md`, sección de simulación:
 
 1. Opera el banco 12 meses tomando decisiones mensuales registradas.
@@ -467,6 +489,8 @@ En `labs/lab-06.md`, sección de simulación:
 4. Deriva las reglas de decisión para el año siguiente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones mal tomadas durante un ciclo. Las causas son confundir ruido con señal y actuar por presión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

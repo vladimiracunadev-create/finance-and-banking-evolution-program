@@ -21,6 +21,8 @@ Diseñar la arquitectura sobre la que operará el Banco Austral y el modelo de d
 sus decisiones. Es la clase que determina si el banco podrá **medir lo que necesita medir**, y su
 resultado condiciona las trece clases siguientes.
 
+El banco de la clase anterior necesita sistemas. Esta los diseña aplicando la Parte 14, y con una decisión que condiciona los quince años siguientes: qué se construye y qué se compra. Un banco nuevo tiene la ventaja de no arrastrar deuda técnica y la desventaja de tener que decidirlo todo a la vez.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la arquitectura y su dato maestro; los cuatro siguientes, la capa semántica y su gobierno. El **identificador único** es la decisión más barata de tomar al principio y la más cara de corregir después.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `arquitectura por capas` | Separación entre registro, negocio, canales y análisis. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `diccionario de datos` | Definición documentada de cada campo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un dato que nace una vez y se usa muchas: si cada sistema define al cliente a su manera, ninguna cifra agregada del banco cuadrará nunca. El modelo de datos maestro es lo que evita ese problema, y se decide al principio o no se decide.
 
 ```text
 UN BANCO NUEVO TIENE UNA VENTAJA IRREPETIBLE
@@ -88,6 +94,8 @@ LA DECISIÓN MÁS IRREVERSIBLE DEL PROYECTO
 ## 📖 Desarrollo
 
 ### 1. Arquitectura por capas
+
+La arquitectura se organiza en capas con responsabilidades separadas. La tabla las recoge.
 
 ```text
 CANALES
@@ -120,6 +128,8 @@ EL PRINCIPIO DE DISEÑO
 
 ### 2. Construir o comprar
 
+Cada componente se decide con el marco de la Parte 14, clase 14. La tabla recoge las decisiones del Banco Austral.
+
 | Capacidad | Decisión | Fundamento |
 |---|---|---|
 | Núcleo de registro | Comprar | Infraestructura; hay soluciones maduras |
@@ -149,6 +159,8 @@ LA CONSECUENCIA PARA EL PRESUPUESTO
 ```
 
 ### 3. Modelo de datos maestro
+
+El modelo maestro define las entidades del banco y sus identificadores. La tabla lo recoge.
 
 ```text
 ENTIDADES MAESTRAS Y SU IDENTIFICADOR
@@ -186,6 +198,8 @@ POR QUÉ EL DOCUMENTO DE IDENTIDAD NO PUEDE SER LA CLAVE
 | Separación identidad/transacción | Protección de datos por diseño |
 
 ### 4. Capa semántica
+
+La capa semántica define cada métrica una sola vez para todo el banco. La tabla la recoge.
 
 ```text
 DEFINICIONES ÚNICAS Y CERTIFICADAS
@@ -226,6 +240,8 @@ FUERA DE LA CAPA SEMÁNTICA
 
 ### 5. Gobierno desde el inicio
 
+El gobierno de datos se establece antes de que haya datos, que es cuando cuesta poco. La tabla lo recoge.
+
 ```text
 LO QUE DEBE EXISTIR ANTES DE LA PRIMERA OPERACIÓN
 
@@ -242,6 +258,8 @@ COSTO DE HACERLO EN EL AÑO 5: el del caso de la Parte 14, clase 4
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo define el modelo de datos maestro del Banco Austral. Conviene fijarse en los identificadores: son la decisión que hace posible cualquier agregación posterior.
 
 **Situación.** Verificar que la arquitectura soporta todo lo que el banco necesitará medir.
 
@@ -446,6 +464,8 @@ y uno que pasará cinco años reconstruyendo su información.
 
 ## 🏦 Del cliente al banco
 
+El cliente es una persona y el banco tiene que representarlo de forma única en todos sus sistemas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco me conoce en todos los canales» | Identificador único desde el diseño | 14, clase 4 |
@@ -456,6 +476,8 @@ y uno que pasará cinco años reconstruyendo su información.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar la arquitectura y decidir construir o comprar cada componente. Las decisiones con su justificación son lo que se evalúa.
+
 En `labs/lab-02.md`, sección de arquitectura:
 
 1. Diseña la arquitectura por capas con sus responsabilidades.
@@ -464,6 +486,8 @@ En `labs/lab-02.md`, sección de arquitectura:
 4. Define la capa semántica con cinco definiciones certificadas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de datos que aparecen al agregar. Las causas son identificadores no únicos y métricas definidas más de una vez.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ alternativos, canal digital, corresponsales— concentra **exactamente los facto
 riesgo de integridad**, y su sistema debe ser proporcionalmente más exigente sin excluir al segmento que
 el banco existe para atender.
 
+Esta clase construye el programa de cumplimiento del banco aplicando la Parte 12. Y plantea la tensión que un banco dirigido a segmentos desatendidos tiene que resolver de forma explícita: un programa demasiado estricto excluye precisamente a los clientes que el modelo de negocio quería servir.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la evaluación y la diligencia; los cuatro siguientes, los corresponsales y la tensión con la inclusión. El **riesgo del agente** es el que un modelo con corresponsales no bancarios tiene que gestionar y que muchos proyectos olvidan.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `evaluación de riesgo institucional` | Diagnóstico del riesgo de integridad del banco. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `de-risking` | Exclusión por costo de cumplimiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un enfoque basado en riesgo aplicado de verdad: no se trata de aplicar el máximo control a todos sino de concentrar el esfuerzo donde el riesgo está. Un banco que aplica diligencia reforzada a todo su segmento no está cumpliendo mejor, está renunciando a su modelo de negocio.
 
 ```text
 LA TENSIÓN CENTRAL DEL BANCO AUSTRAL
@@ -95,6 +101,8 @@ LA TENSIÓN CENTRAL DEL BANCO AUSTRAL
 
 ### 1. Evaluación de riesgo institucional
 
+La evaluación institucional identifica los riesgos propios del modelo de negocio. La tabla los recoge.
+
 | Factor | Nivel | Fundamento |
 |---|---|---|
 | Clientes | Alto | Sin historial, difíciles de verificar por vías tradicionales |
@@ -116,6 +124,8 @@ RIESGO INSTITUCIONAL: ALTO
 ```
 
 ### 2. Conocimiento del cliente
+
+La diligencia se diseña proporcional al riesgo del segmento. La tabla la recoge.
 
 ```text
 IDENTIFICACIÓN Y VERIFICACIÓN — SEGMENTO PERSONAS
@@ -161,6 +171,8 @@ CONOCIMIENTO — LA PARTE MÁS DIFÍCIL DEL SEGMENTO
 
 ### 3. Corresponsales
 
+Los corresponsales no bancarios amplían el alcance y añaden riesgo propio. La tabla lo recoge.
+
 ```text
 12 000 CORRESPONSALES SON 12 000 PUNTOS
 DONDE EL BANCO NO CONTROLA DIRECTAMENTE
@@ -196,6 +208,8 @@ introduce riesgo en miles de operaciones y su detección temprana depende de mir
 agregado, no las operaciones individuales.
 
 ### 4. Monitoreo transaccional
+
+El monitoreo se calibra con el perfil transaccional del segmento. La tabla recoge los criterios.
 
 ```text
 CALIBRACIÓN PARA UN BANCO NUEVO
@@ -236,6 +250,8 @@ CALIBRACIÓN PARA UN BANCO NUEVO
 
 ### 5. Programa de cumplimiento
 
+El programa reúne todo con sus responsables y sus pruebas. La tabla lo recoge.
+
 ```text
 RECURSOS
   oficial de cumplimiento                      1
@@ -269,6 +285,8 @@ INVENTARIO DE OBLIGACIONES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diseña la diligencia proporcional para el segmento del Banco Austral. Conviene medir la tasa de conversión resultante: un diseño que excluye al segmento objetivo no sirve.
 
 **Situación.** Resolver la tensión entre integridad e inclusión en un caso concreto.
 
@@ -482,6 +500,8 @@ creación de una puerta trasera.
 
 ## 🏦 Del cliente al banco
 
+El cliente sin documentación completa no accede y el banco cumple una obligación que puede excluirlo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi documento es viejo y no lo leen» | Vía de verificación alternativa | 16, clase 13 |
@@ -492,6 +512,8 @@ creación de una puerta trasera.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar el programa y medir su efecto sobre la conversión del segmento. El equilibrio con su justificación es lo que se evalúa.
+
 En `labs/lab-06.md`, sección de cumplimiento:
 
 1. Realiza la evaluación de riesgo institucional con sus siete factores.
@@ -500,6 +522,8 @@ En `labs/lab-06.md`, sección de cumplimiento:
 4. Construye las métricas conjuntas de integridad e inclusión.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen programas que excluyen o que no protegen. La causa es no haber aplicado el enfoque basado en riesgo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

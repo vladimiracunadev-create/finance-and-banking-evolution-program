@@ -21,6 +21,8 @@ Gestionar la liquidez y el balance estructural del Banco Austral. El estado de f
 anterior mostró un banco que **genera resultado y consume caja**, financiado en un 78 % con recursos
 mayoristas: esta clase determina si esa estructura es sostenible y qué hay que cambiar.
 
+Los estados de la clase anterior muestran un balance. Esta lo gestiona, aplicando las Partes 10 y 11: cómo se financia el banco, cuánta liquidez mantiene y qué riesgo de tasa asume. Y añade la pregunta que la Parte 15 introdujo: cuál de las restricciones es la que de verdad limita.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura de financiamiento y sus métricas; los cuatro siguientes, el riesgo de tasa y la contingencia. La **dependencia mayorista** es la vulnerabilidad característica de un banco nuevo: sin base de depósitos minoristas, el fondeo es más caro y mucho menos estable.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `estructura de financiamiento` | Composición de las fuentes de fondos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `restricción activa` | La que limita efectivamente el crecimiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un balance con varias restricciones simultáneas y una sola apretando. Un banco nuevo suele estar limitado por liquidez y no por capital, que es lo contrario de lo que la intuición sugiere.
 
 ```text
 LA VULNERABILIDAD ESTRUCTURAL DEL BANCO AUSTRAL
@@ -90,6 +96,8 @@ ESTA ES LA MAYOR DEBILIDAD DEL PROYECTO
 
 ### 1. Estructura de financiamiento
 
+La estructura de financiamiento del Banco Austral se define con fuentes y proporciones. La tabla la recoge.
+
 | Fuente | Monto | Estabilidad | Costo |
 |---|---:|---|---:|
 | Cuenta de pagos (P1) | 28 560 | Alta, con seguro | 0,00 % |
@@ -108,6 +116,8 @@ EL PROBLEMA ESTÁ EN LOS 111 136 INTERBANCARIOS
 ```
 
 ### 2. Cobertura de liquidez
+
+La cobertura se calcula con los supuestos de la Parte 11. El procedimiento la obtiene.
 
 ```text
 ACTIVOS LÍQUIDOS DE ALTA CALIDAD
@@ -154,6 +164,8 @@ Y REVELA OTRO PROBLEMA
 
 ### 3. Financiamiento estable neto
 
+La segunda métrica mira el horizonte anual. El procedimiento la calcula.
+
 ```text
 FINANCIAMIENTO ESTABLE DISPONIBLE
   capital                          60 615 × 100 % =  60 615
@@ -192,6 +204,8 @@ EL NSFR ES HOLGADO PORQUE EL BANCO EMITIÓ A PLAZO
 
 ### 4. Riesgo de tasa
 
+La brecha de repreciación mide el efecto de un cambio de tasas sobre el margen. El procedimiento la calcula.
+
 ```text
 BRECHA DE REPRECIACIÓN
 
@@ -229,6 +243,8 @@ SENSIBILIDAD DEL VALOR ECONÓMICO
 
 ### 5. Restricción activa
 
+La restricción activa se identifica comparando holguras. El procedimiento lo hace.
+
 ```text
 CAPACIDAD DE CRECIMIENTO POR RESTRICCIÓN
 
@@ -262,6 +278,8 @@ CAPACIDAD DE CRECIMIENTO POR RESTRICCIÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula las métricas de liquidez del Banco Austral e identifica su restricción activa. La restricción no es el capital, que es lo que el proyecto suponía.
 
 **Situación.** Resolver la dependencia de financiamiento mayorista.
 
@@ -461,6 +479,8 @@ importe.
 
 ## 🏦 Del cliente al banco
 
+El cliente deposita y el banco gestiona un balance con varias restricciones simultáneas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco me ofrece depósito a plazo» | Reducción de dependencia mayorista | 16, clase 11 |
@@ -471,6 +491,8 @@ importe.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular las métricas y determinar la restricción activa. La consecuencia sobre el plan de crecimiento es parte del entregable.
+
 En `labs/lab-06.md`:
 
 1. Construye la estructura de financiamiento y evalúa su vulnerabilidad.
@@ -479,6 +501,8 @@ En `labs/lab-06.md`:
 4. Diseña el plan de reducción de la dependencia con su costo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de balance en bancos nuevos. Las causas son dependencia mayorista y restricción activa mal identificada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

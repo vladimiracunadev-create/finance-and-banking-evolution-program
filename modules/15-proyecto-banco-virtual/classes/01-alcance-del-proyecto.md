@@ -22,6 +22,8 @@ cómo se organizará el trabajo de las diecisiete clases siguientes. **El proyec
 escala reducida**, y su valor está en que cada decisión se tome con el criterio que las quince partes
 anteriores construyeron.
 
+Esta parte cierra las cuatro primeras etapas construyendo un banco completo. No introduce temas nuevos: obliga a que los quince anteriores encajen entre sí, y ahí es donde aparecen las contradicciones que ninguna parte por separado podía mostrar. Empieza acotando el alcance, porque un proyecto de este tamaño sin límites declarados no se termina.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el objeto y sus reglas de datos; los cuatro siguientes, lo que se exige del entregable. La **reproducibilidad** es el criterio que gobierna todo: cualquier cifra del proyecto tiene que poder recalcularse desde sus supuestos, y si no se puede, no entra.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `banco virtual` | Institución simulada con balance, productos, clientes y controles. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `defensa` | Presentación y sustentación del proyecto completo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un banco que no existe y del que hay que poder responder cualquier pregunta. Todo lo que se afirme sobre él tiene que salir de un cálculo reproducible con datos sintéticos declarados, y esa exigencia es lo que convierte el ejercicio en formación profesional.
 
 ```text
 EL PROYECTO NO ES UN EJERCICIO DE PROGRAMACIÓN
@@ -89,6 +95,8 @@ NI UN TRABAJO ESCRITO
 ## 📖 Desarrollo
 
 ### 1. El banco virtual
+
+El Banco Austral es una entidad ficticia con parámetros definidos que se mantienen constantes durante las dieciocho clases. La tabla los recoge.
 
 ```text
 "BANCO AUSTRAL" — INSTITUCIÓN A CONSTRUIR
@@ -125,6 +133,8 @@ LAS UNIDADES DEL PROYECTO
 
 ### 2. Estructura del trabajo
 
+El proyecto se organiza en fases con entregables encadenados. La tabla los recoge.
+
 | Bloque | Clases | Entregable |
 |---|---|---|
 | Diseño | 2–5 | Modelo de negocio, gobierno, arquitectura, catálogo |
@@ -145,6 +155,8 @@ Y CADA ENTREGABLE ALIMENTA AL SIGUIENTE
 
 ### 3. Criterios de evaluación
 
+El proyecto se evalúa con criterios explícitos y en proporciones conocidas. La tabla los recoge.
+
 | Criterio | Peso | Qué se evalúa |
 |---|---:|---|
 | Coherencia | 25 % | Que las decisiones se sostengan entre sí |
@@ -164,6 +176,8 @@ EL CRITERIO DE MAYOR PESO ES LA COHERENCIA
 ```
 
 ### 4. Convenciones obligatorias
+
+Hay convenciones que se aplican a todos los entregables sin excepción. La tabla las recoge.
 
 ```text
 DATOS
@@ -199,6 +213,8 @@ LA REGLA MÁS IMPORTANTE DE TODAS
 
 ### 5. Recorridos por perfil
 
+El proyecto admite recorridos distintos según el perfil de quien lo hace. La tabla los recoge.
+
 | Perfil | Énfasis | Profundidad sugerida |
 |---|---|---|
 | Sin experiencia previa | Comprender el encadenamiento | Ejecutar todo con los datos provistos |
@@ -216,6 +232,8 @@ TODOS LOS PERFILES HACEN EL MISMO PROYECTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo declara los supuestos de un cálculo y demuestra su reproducibilidad. Conviene fijarse en la hoja de supuestos: es el documento que hace defendible todo lo demás.
 
 **Situación.** Primera decisión del proyecto: verificar que el capital inicial permite el banco que se
 quiere construir.
@@ -384,6 +402,8 @@ justificar por qué se apartan.
 
 ## 🏦 Del cliente al banco
 
+El estudiante construye un banco de papel y un banco real hace exactamente lo mismo antes de pedir su licencia. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Un banco nuevo en el mercado» | Capital que limita el tamaño | 12, clase 6 |
@@ -394,6 +414,8 @@ justificar por qué se apartan.
 
 ## 🧪 Práctica
 
+El laboratorio pide fijar el alcance del propio proyecto con sus renuncias declaradas. Las renuncias son la parte que se evalúa.
+
 En `labs/lab-01.md`:
 
 1. Calcula la capacidad de activos ponderados y de cartera de tu banco.
@@ -402,6 +424,8 @@ En `labs/lab-01.md`:
 4. Establece los cuatro compromisos de diseño de tu proyecto.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de un alcance sin límites o de supuestos no declarados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

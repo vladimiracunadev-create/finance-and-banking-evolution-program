@@ -21,6 +21,8 @@ Construir el sistema de precios del Banco Austral: la tasa mínima de cada produ
 transferencia interno y la estructura de comisiones. Es la clase donde los compromisos de margen se
 convierten en cifras concretas que el banco cobrará a personas reales.
 
+El catálogo de la clase anterior necesita precios. Esta los construye desde abajo, con la curva de precios de transferencia de la Parte 10 y la tasa mínima de la Parte 15. El resultado es un precio que se puede defender componente a componente, en vez de uno tomado de la competencia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la construcción del precio; los cuatro siguientes, sus componentes y su límite. La **transparencia** es la restricción de conducta: el precio puede diferenciarse y tiene que poder explicarse al cliente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `curva de precios de transferencia` | Tasa interna por plazo. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `transparencia` | Que el cliente pueda comparar y entender. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un precio construido por capas: costo de fondos, pérdida esperada, costos operativos, costo de capital y margen. Un precio que no se puede descomponer así no se puede defender ni ajustar cuando algo cambia.
 
 ```text
 EL SISTEMA DE PRECIOS TIENE TRES CAPAS
@@ -89,6 +95,8 @@ SIN LA PRIMERA, LAS OTRAS DOS SON ARBITRARIAS
 ## 📖 Desarrollo
 
 ### 1. Curva de precios de transferencia
+
+La curva asigna un costo de fondos a cada plazo. El procedimiento la construye.
 
 ```text
 CONSTRUCCIÓN
@@ -118,6 +126,8 @@ EL DIFERENCIAL DE FINANCIAMIENTO DE UN BANCO NUEVO
 ```
 
 ### 2. Tasa mínima por producto
+
+La tasa mínima suma todos los componentes de costo. El procedimiento la calcula por producto.
 
 ```text
 P2 — CRÉDITO ESCALONADO (plazo medio 14 meses)
@@ -150,6 +160,8 @@ E3 — ANTICIPO DE LIQUIDACIONES (plazo 2 días)
 ```
 
 ### 3. Precio final
+
+El precio final se sitúa entre la tasa mínima y el techo que impone la elasticidad. El procedimiento lo fija.
 
 ```text
 P2 — CRÉDITO ESCALONADO
@@ -201,6 +213,8 @@ E3 — ANTICIPO
 
 ### 4. Precio de captación
 
+El precio de captación se fija con la curva y con el valor del fondo para el banco. El procedimiento lo obtiene.
+
 ```text
 TASA MÁXIMA A PAGAR POR UN DEPÓSITO
 
@@ -235,6 +249,8 @@ AHORRO PROGRAMADO (P3)
 
 ### 5. Estructura de comisiones
 
+Las comisiones se estructuran con criterio de costo y de conducta. La tabla las recoge.
+
 | Comisión | Cubre | Nivel |
 |---|---|---|
 | Recaudación (E1) | Procesamiento y disponibilidad | 0,22 % del monto |
@@ -260,6 +276,8 @@ LA COMISIÓN DE MORA MERECE ATENCIÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el precio de un producto desde su tasa mínima. Conviene comprobar que cada componente está justificado: es lo que se pregunta en la defensa.
 
 **Situación.** Verificar que los precios producen el margen financiero comprometido.
 
@@ -466,6 +484,8 @@ cuestionar toda holgura favorable es lo que lo hizo aparecer.
 
 ## 🏦 Del cliente al banco
 
+El cliente compara tasas y el banco construye la suya componente a componente. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Su tasa es mucho menor que la financiera» | Precio sobre el piso, bajo el contexto | 15, clase 7 |
@@ -476,6 +496,8 @@ cuestionar toda holgura favorable es lo que lo hizo aparecer.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el precio de tres productos desde la curva. La defensa de cada componente es lo que se evalúa.
+
 En `labs/lab-03.md`, sección de precios:
 
 1. Construye la curva de precios de transferencia con sus tres componentes.
@@ -484,6 +506,8 @@ En `labs/lab-03.md`, sección de precios:
 4. Verifica que producen el margen comprometido y cuestiona toda holgura.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen precios que no cubren costos. Las causas son componentes omitidos y precios tomados de la competencia.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
