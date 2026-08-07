@@ -31,6 +31,9 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
+import time
+from datetime import date
 from pathlib import Path
 
 try:
@@ -161,11 +164,15 @@ def documento() -> tuple[str, list[tuple[int, str, str]]]:
 
             for clase in sorted((mod / "classes").glob("*.md")):
                 meta, cuerpo = frontmatter(clase.read_text(encoding="utf-8"))
-                cuerpo = limpiar(cuerpo)
-                lineas = cuerpo.splitlines()
-                titulo_clase = lineas[0].lstrip("# ").strip() if lineas else clase.stem
-                cuerpo = "\n".join(lineas[1:]).strip()
-                ancla_c = f"clase-{n}-{meta.get('class', '0')}"
+                # El titulo se toma de los metadatos y no de la primera linea del
+                # cuerpo: el H1 de la clase vive dentro del bloque generado que
+                # `limpiar()` retira, asi que ahi la primera linea es ya la
+                # primera seccion. Leerla como titulo dejaba las 352 clases
+                # llamadas «Proposito» y ademas se comia esa seccion.
+                cuerpo = limpiar(cuerpo).strip()
+                numero = meta.get("class", "0")
+                titulo_clase = f"Clase {int(numero):02d} · {meta.get('title', clase.stem)}"
+                ancla_c = f"clase-{n}-{numero}"
                 indice.append((3, ancla_c, titulo_clase))
                 piezas.append(
                     f'\n<h3 id="{ancla_c}" class="clase">{html.escape(titulo_clase)}</h3>\n\n'
@@ -215,8 +222,10 @@ nav.indice ol { list-style:none; padding-left:0; }
 nav.indice .n2 { padding-left:1.2rem; } nav.indice .n3 { padding-left:2.6rem; font-size:.9rem; }
 nav.indice a { text-decoration:none; color:var(--tinta); }
 nav.indice .n1 a { font-weight:700; }
+.solo-html { margin-top:1.5rem; font-size:.9rem; color:var(--suave); }
 @media print {
   .hoja { max-width:none; padding:0; }
+  .solo-html { display:none; }
   a { color:var(--tinta); text-decoration:none; }
   pre { font-size:7.5pt; }
   body { font-size:10.5pt; }
@@ -241,6 +250,8 @@ def a_html(md_texto: str, indice: list[tuple[int, str, str]]) -> str:
 
     version = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
     total = sum(len(list((p / "classes").glob("*.md"))) for p in partes())
+    horas = f"{total * 1.5:.0f}"
+    fecha = date.today().isoformat()
     filas = "\n".join(
         f'<li class="n{n}"><a href="#{a}">{html.escape(t)}</a></li>' for n, a, t in indice
     )
@@ -257,10 +268,12 @@ def a_html(md_texto: str, indice: list[tuple[int, str, str]]) -> str:
 <header class="portada">
   <h1>{html.escape(TITULO)}</h1>
   <p class="sub">{html.escape(SUBTITULO)}</p>
-  <p class="datos">{len(partes())} partes · {total} clases · version {version}<br>
-  Para guardarlo como PDF: Ctrl+P y «Guardar como PDF».</p>
+  <p class="datos">{len(partes())} partes · {total} clases · {horas} horas<br>
+  Versión {version} · Licencia MIT · {fecha}<br>
+  <a href="https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program">github.com/vladimiracunadev-create/finance-and-banking-evolution-program</a></p>
+  <p class="solo-html">Para guardarlo como PDF: Ctrl+P y «Guardar como PDF».</p>
 </header>
-<nav class="indice"><h1>Indice</h1><ol>{filas}</ol></nav>
+<nav class="indice"><h1>Índice</h1><ol>{filas}</ol></nav>
 {render}
 </div>
 </body>
@@ -297,19 +310,111 @@ def a_pdf(html: Path, pdf: Path) -> bool:
         print("No se encontro un navegador basado en Chromium para generar el PDF.")
         print("El HTML esta listo: abrelo y usa Ctrl+P -> Guardar como PDF.")
         return False
-    orden = [
-        exe, "--headless=new", "--disable-gpu", "--no-sandbox",
-        "--no-pdf-header-footer",
-        f"--print-to-pdf={pdf}",
-        html.resolve().as_uri(),
-    ]
-    # El documento supera el millon de palabras: la impresion tarda minutos.
-    resultado = subprocess.run(orden, capture_output=True, text=True, timeout=1800)
-    if not pdf.exists():
-        print("El navegador no produjo el PDF:")
-        print((resultado.stderr or "").strip()[-400:])
-        return False
+    # Perfil propio y desechable. Sin el, si el usuario ya tiene el navegador
+    # abierto, la invocacion headless delega en esa instancia y termina con
+    # codigo 0 sin escribir el PDF: falla en silencio, que es la peor forma de
+    # fallar. Con un perfil aparte el proceso es siempre independiente.
+    with tempfile.TemporaryDirectory(prefix="book-perfil-") as perfil:
+        orden = [
+            exe, "--headless=new", "--disable-gpu", "--no-sandbox",
+            f"--user-data-dir={perfil}",
+            "--no-pdf-header-footer",
+            f"--print-to-pdf={pdf}",
+            html.resolve().as_uri(),
+        ]
+        # El documento supera el millon de palabras: la impresion tarda minutos.
+        resultado = subprocess.run(orden, capture_output=True, text=True, timeout=1800)
+
+        # No se puede dar por terminada la impresion cuando el proceso vuelve.
+        # Las versiones recientes de Chrome y Edge lanzan el trabajo en segundo
+        # plano y salen en decimas de segundo con codigo 0: mirar `pdf.exists()`
+        # justo despues declara fallida una impresion que esta en curso. Se
+        # espera a que el archivo aparezca y a que deje de crecer.
+        if not esperar_pdf(pdf):
+            print("El navegador no produjo el PDF.")
+            salida = ((resultado.stderr or "") + (resultado.stdout or "")).strip()
+            print(salida[-400:] if salida else f"(sin mensaje; codigo {resultado.returncode})")
+            return False
     return True
+
+
+def esperar_pdf(pdf: Path, limite: int = 900, quieto: int = 6) -> bool:
+    """Espera a que el PDF exista y deje de crecer. Devuelve si se completo."""
+    fin = time.monotonic() + limite
+    anterior = -1
+    estable = 0
+    while time.monotonic() < fin:
+        time.sleep(2)
+        if not pdf.exists():
+            continue
+        actual = pdf.stat().st_size
+        estable = estable + 1 if actual == anterior and actual > 0 else 0
+        anterior = actual
+        if estable >= quieto:
+            return True
+    return False
+
+
+def rematar_pdf(pdf: Path, indice: list[tuple[int, str, str]]) -> None:
+    """Anade al PDF impreso lo que el navegador no sabe poner.
+
+    Chrome imprime bien la pagina pero no produce ni marcadores ni folio: un
+    manual de miles de paginas sin panel de navegacion y sin numero de pagina
+    es incomodo de usar y imposible de citar. Aqui se resuelven los dos.
+
+    La pagina de cada entrada del indice no se calcula: se lee del propio PDF.
+    Chrome registra el `id` de cada encabezado como destino con nombre, asi que
+    resolver el ancla da la pagina exacta sin depender de como se ordenen los
+    enlaces.
+
+    Si PyMuPDF no esta instalado, el PDF queda como lo dejo el navegador y se
+    avisa: es un extra, no un requisito.
+    """
+    try:
+        import pymupdf
+    except ImportError:
+        print("  (sin PyMuPDF: el PDF va sin marcadores ni numeracion)")
+        print("   instala con: pip install -r requirements-site.txt")
+        return
+
+    doc = pymupdf.open(pdf)
+    destinos = doc.resolve_names()
+    marcadores = [
+        [nivel, titulo, destinos[ancla]["page"] + 1]
+        for nivel, ancla, titulo in indice
+        if ancla in destinos
+    ]
+
+    if len(marcadores) == len(indice):
+        doc.set_toc(marcadores)
+        print(f"  marcadores: {len(marcadores)}")
+    else:
+        print(f"  (marcadores incompletos: {len(marcadores)} de {len(indice)} anclas "
+              "resueltas; el PDF se guarda igual)")
+        if marcadores:
+            doc.set_toc(marcadores)
+
+    # Folio centrado al pie, desde la primera pagina de contenido. La portada y
+    # el indice no se numeran: no se citan.
+    primera = (marcadores[0][2] - 1) if marcadores else 1
+    for numero in range(primera, doc.page_count):
+        pagina = doc[numero]
+        caja = pymupdf.Rect(0, pagina.rect.height - 34, pagina.rect.width,
+                            pagina.rect.height - 16)
+        pagina.insert_textbox(caja, str(numero + 1), fontname="helv", fontsize=8.5,
+                              color=(0.42, 0.45, 0.49), align=pymupdf.TEXT_ALIGN_CENTER)
+
+    doc.set_metadata({
+        "title": f"{TITULO} — programa completo",
+        "author": "Vladimir Acuna",
+        "subject": SUBTITULO,
+        "keywords": ("finanzas, banca, NIIF, Basilea III, credito, riesgos, "
+                     "finanzas abiertas, pagos transfronterizos, DLT, "
+                     "stablecoins, tokenizacion"),
+    })
+    doc.saveIncr()
+    doc.close()
+    print(f"  numeracion desde la pagina {primera + 1}")
 
 
 def generar(con_pdf: bool = True) -> int:
@@ -326,8 +431,10 @@ def generar(con_pdf: bool = True) -> int:
         if pdf.exists():
             pdf.unlink()
         print("Imprimiendo el PDF... (tarda unos minutos)")
-        if a_pdf(html, pdf):
-            print(f"book/programa-completo.pdf  {pdf.stat().st_size / 1_048_576:>9,.1f} MB")
+        if not a_pdf(html, pdf):
+            return 1
+        rematar_pdf(pdf, indice)
+        print(f"book/programa-completo.pdf  {pdf.stat().st_size / 1_048_576:>9,.1f} MB")
     return 0
 
 

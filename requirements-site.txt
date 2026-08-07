@@ -3,3 +3,4 @@
 # recorrer entero sin ellas, leyendo el Markdown del repositorio.
 markdown>=3.6,<4.0
 pygments>=2.17,<3.0
+pymupdf>=1.24,<2.0
