@@ -2,33 +2,66 @@
 
 ## Propósito
 
-Aplicar proyecto: cartera simulada en un caso controlado y documentar cada supuesto.
+Construir la cartera y **llevar bitácora de cada decisión con la información que había en ese momento**.
+
+Es el último laboratorio de la parte y la antesala del proyecto. Sin bitácora, al final no se puede distinguir el criterio de la suerte, y eso es lo único que se evalúa.
 
 ## Escenario
 
-Una persona, empresa o unidad bancaria debe tomar una decisión con información incompleta. Usa datos ficticios del repositorio o crea un conjunto pequeño claramente identificado como sintético.
+Una cartera para el perfil elegido en el laboratorio 1, seguida durante ocho periodos con información que llega con rezago.
+
+## Datos
+
+El perfil, el universo de instrumentos y las series de los ocho periodos.
+
+## Supuestos del ejercicio
+
+- Cada decisión se registra con la información disponible en ese momento.
+- Los costos de transacción y las comisiones se aplican en cada operación.
+- El rebalanceo sigue la política escrita, no la intuición del periodo.
 
 ## Pasos
 
-1. Define el problema y la decisión.
-2. Identifica variables, unidades y periodicidad.
-3. Realiza los cálculos o el análisis.
-4. Ejecuta una prueba de sensibilidad.
-5. Explica riesgos y limitaciones.
-6. Entrega una conclusión de máximo 200 palabras.
+1. Define la asignación estratégica desde el perfil del laboratorio 1.
+2. Selecciona instrumentos y calcula el costo total de propiedad de la cartera.
+3. Registra cada decisión con su fecha, su razón y la información disponible.
+4. Aplica la política de rebalanceo cuando corresponda y anota el costo.
+5. Al final, calcula el resultado y sepáralo entre asignación, selección y sincronización.
+6. Evalúa cada decisión por su proceso y no por su resultado.
+7. Identifica una decisión que salió bien y fue un error de proceso.
+
+## Criterios de aceptación
+
+| # | Criterio | Cómo se comprueba |
+|---:|---|---|
+| 1 | La asignación deriva del perfil | No al revés |
+| 2 | El costo total de propiedad está calculado | Con todos sus componentes |
+| 3 | Cada decisión está en la bitácora | Con la información del momento |
+| 4 | El resultado está atribuido | Asignación, selección y sincronización |
+| 5 | La decisión correcta por suerte está identificada | Con su explicación |
+
+## Errores que se penalizan
+
+| Error | Por qué |
+|---|---|
+| Elegir instrumentos antes que la asignación | El orden decide el resultado |
+| Registrar la razón después | Es una justificación, no una bitácora |
+| Evaluar solo por rentabilidad | Una decisión mala puede salir bien |
+| Rebalancear por intuición | Eso es cambiar de opinión, no rebalancear |
 
 ## Entregables
 
-- `solution.md` con razonamiento y resultado.
-- Archivo de cálculo o script reproducible.
-- Tabla de supuestos.
-- Reflexión ética y de seguridad.
+- `solution.md` con la asignación y su derivación del perfil.
+- El costo total de propiedad de la cartera.
+- La bitácora completa de los ocho periodos.
+- La atribución del resultado y la decisión correcta por suerte.
 
-## Criterios
+## Rúbrica
 
 | Criterio | Puntos |
 |---|---:|
-| Cálculo o análisis | 35 |
-| Trazabilidad | 25 |
-| Interpretación | 25 |
-| Riesgos y ética | 15 |
+| Asignación derivada del perfil | 20 |
+| Costo total | 15 |
+| Bitácora completa | 30 |
+| Atribución del resultado | 20 |
+| Evaluación de proceso | 15 |
