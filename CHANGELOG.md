@@ -5,6 +5,64 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [1.4.0] — 2026-08-06
+
+Tercera parte de la **Etapa 5**: el registro distribuido. Se estudia como una
+opción de arquitectura, no como una conclusión, y la parte enseña sobre todo a
+decidir cuándo **no** hace falta.
+
+### Añadido
+
+**Parte 19 — Blockchain y DLT para instituciones financieras**
+
+- 14 clases de 90 minutos, con el eje de que un registro distribuido resuelve un
+  problema —que partes que no confían entre sí ni en un tercero común mantengan
+  un registro que ninguna controla— y lo resuelve caro: redundancia total,
+  lentitud e irreversibilidad.
+- Seis preguntas de criterio, de las que **solo la de confianza** justifica por
+  sí sola la arquitectura; las otras cinco se resuelven mejor de otra forma.
+- 6 laboratorios con solución de referencia comentada.
+- Evaluación diagnóstica y final con guía de corrección.
+- Proyecto integrador «expediente de decisión», que **puede concluir que no hace
+  falta un registro distribuido y obtener la máxima calificación**.
+
+**Aplicación `apps/dlt_financial_lab/`**
+
+- Cadena con estado, instantáneas, número de orden por cuenta y reescritura
+  completa: `recalcular_desde` devuelve la cadena a un estado válido, que es
+  justo lo que el laboratorio quiere demostrar.
+- Árbol de Merkle con prefijos distintos para hoja y nodo, sumas por nodo,
+  prueba de inclusión y prueba de exclusión sobre un orden total. El nodo suelto
+  de un nivel impar se **promueve** en vez de duplicarse: duplicarlo sumaría su
+  valor dos veces y la raíz dejaría de declarar la suma real.
+- Consenso con nodos honestos, silenciosos, mentirosos y **con defecto común**,
+  más `independencia_efectiva` para medir cuántos comparten implementación.
+- Contrato de depósito en garantía con y sin reentrada, e interruptor que solo
+  detiene: no altera saldos ni transfiere.
+- Oráculo con mediana, banda de descarte y mínimo de fuentes vivas.
+- Firma múltiple con análisis de correlación entre guardianes.
+- 38 pruebas, tres de las cuales **documentan defectos y deben pasar**:
+  `test_recalcular_toda_la_cadena_NO_se_detecta`,
+  `test_un_fallo_comun_produce_acuerdo_erroneo` y
+  `test_el_ataque_de_reentrada_vacia_el_contrato_defectuoso`.
+
+**Documentación**
+
+- `docs/mapa-blockchain-dlt.md` con el recorrido de la parte, la tabla de dónde
+  está cada concepto y las cinco afirmaciones que desmonta.
+- Ampliación del glosario digital con los 12 términos de la parte, cada uno con
+  su «qué NO significa».
+
+### Cambiado
+
+- La cifra publicada pasa a **284 clases en 19 partes** (426 horas).
+- `README.md`, `MANIFEST.md` y `ROADMAP.md` reflejan tres de las siete partes de
+  la Etapa 5 publicadas. La versión `2.0.0` sigue reservada para cuando existan
+  las siete: declararla antes contradiría el principio del repositorio de que la
+  documentación nunca declara más de lo que existe.
+
+---
+
 ## [1.3.0] — 2026-08-06
 
 Segunda parte de la **Etapa 5**: la infraestructura por la que un pago cruza una

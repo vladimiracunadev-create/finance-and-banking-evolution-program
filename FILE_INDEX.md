@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**595 archivos de texto versionados.**
+**637 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -52,6 +52,16 @@ repositorio. No se edita a mano.
 - `apps/cross_border_payments_lab/screening/__init__.py`
 - `apps/cross_border_payments_lab/settlement/__init__.py`
 - `apps/cross_border_payments_lab/stablecoin_route/__init__.py`
+- `apps/dlt_financial_lab/README.md`
+- `apps/dlt_financial_lab/__init__.py`
+- `apps/dlt_financial_lab/chain.py`
+- `apps/dlt_financial_lab/cli.py`
+- `apps/dlt_financial_lab/consensus.py`
+- `apps/dlt_financial_lab/contracts.py`
+- `apps/dlt_financial_lab/crypto.py`
+- `apps/dlt_financial_lab/merkle.py`
+- `apps/dlt_financial_lab/oracle.py`
+- `apps/dlt_financial_lab/signatures.py`
 - `apps/financial_calculators/README.md`
 - `apps/financial_calculators/calculators.py`
 - `apps/financial_calculators/cli.py`
@@ -99,6 +109,7 @@ repositorio. No se edita a mano.
 - `docs/glosario.md`
 - `docs/guia-docente.md`
 - `docs/guia-laboratorios-digitales.md`
+- `docs/mapa-blockchain-dlt.md`
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
 - `docs/mapa-pagos-transfronterizos.md`
@@ -572,6 +583,36 @@ repositorio. No se edita a mano.
 - `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-06.md`
 - `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-07.md`
 - `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-08.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/assessments/diagnostic.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/assessments/final.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/01-sistemas-distribuidos-aplicados-a-finanzas.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/02-resumenes-firmas-y-arboles-de-merkle.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/03-claves-direcciones-y-gestion-criptografica.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/04-transacciones-bloques-nodos-y-estado.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/05-mecanismos-de-consenso.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/06-finalidad-reorganizaciones-y-tolerancia-a-fallos.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/07-redes-publicas-privadas-y-autorizadas.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/08-contratos-inteligentes.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/09-oraculos.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/10-privacidad-y-pruebas-criptograficas.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/11-interoperabilidad-y-puentes.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/12-escalabilidad-capas-y-disponibilidad.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/14-proyecto-red-financiera-autorizada.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/labs/lab-01.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/labs/lab-02.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/labs/lab-03.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/labs/lab-04.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/labs/lab-05.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/labs/lab-06.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/project/README.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-01.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-02.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-03.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-04.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-05.md`
+- `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-06.md`
 - `portfolio/README.md`
 - `projects/README.md`
 - `pyproject.toml`
@@ -583,6 +624,7 @@ repositorio. No se edita a mano.
 - `requirements.txt`
 - `tests/test_calculators.py`
 - `tests/test_cross_border_payments_lab.py`
+- `tests/test_dlt_financial_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`
 - `tests/test_scoring.py`

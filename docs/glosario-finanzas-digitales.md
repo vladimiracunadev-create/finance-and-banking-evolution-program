@@ -4,7 +4,7 @@ Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
 etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro.
 
-> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 y 18.
+> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17, 18 y 19.
 
 ## Finanzas abiertas
 
@@ -386,6 +386,130 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
   pagos.
 - **Riesgo.** Mejora al 71 % y puede **empeorar** al 29 % que queda fuera.
 - **Primera clase.** 18.13 · **Otras.** 18.10, 18.14.
+
+## Registro distribuido
+
+### Registro distribuido
+
+- **Definición.** Registro replicado y sincronizado que permite a partes que no
+  confían entre sí ni en un tercero común mantener un estado que **ninguna
+  controla**.
+- **Qué NO significa.** No significa «base de datos moderna». Su única propiedad
+  distintiva se paga con redundancia total, lentitud e irreversibilidad.
+- **Ejemplo.** Un consorcio sin tercero neutral aceptable por todos.
+- **Riesgo.** Pagar el precio sin obtener el beneficio, que es lo que ocurre
+  cuando sí existe un tercero de confianza disponible.
+- **Primera clase.** 19.1 · **Otras.** 19.7, 19.14.
+
+### Fallo bizantino
+
+- **Definición.** Nodo que **responde**, y responde mal: puede mentir,
+  contradecirse o decir cosas distintas a distintos interlocutores.
+- **Qué NO significa.** No es un nodo caído. Con caídas el silencio es
+  información; con bizantinos ninguna respuesta individual lo es.
+- **Ejemplo.** Tolerar `f` bizantinos exige `3f + 1` nodos, no `2f + 1`.
+- **Riesgo.** Diseñar para caídas y encontrarse un fallo bizantino.
+- **Primera clase.** 19.1 · **Otras.** 19.5.
+
+### Independencia efectiva
+
+- **Definición.** Número de nodos que **no fallan a la vez**, frente al número de
+  nodos que hay.
+- **Qué NO significa.** No es el recuento. Siete nodos con el mismo software, el
+  mismo proveedor o la misma jurisdicción son, para el fallo que importa, uno.
+- **Ejemplo.** Un esquema 4-de-7 con siete módulos del mismo proveedor tolera
+  cero fallos de ese proveedor.
+- **Riesgo.** Un umbral que protege sobre el papel y no en la práctica.
+- **Primera clase.** 19.5 · **Otras.** 19.3, 19.11.
+
+### Finalidad determinística
+
+- **Definición.** Garantía del protocolo de que, cerrada la ronda, la operación
+  no revierte.
+- **Qué NO significa.** No es finalidad jurídica. Y vale **cero** si el supuesto
+  de seguridad —menos de un tercio defectuoso— no se sostiene.
+- **Ejemplo.** Una red no designada con finalidad perfecta y sin protección
+  frente a un concurso.
+- **Riesgo.** Contabilizar como firme lo que no lo es.
+- **Primera clase.** 19.6 · **Otras.** 18.7, 22.7.
+
+### Reorganización
+
+- **Definición.** Sustitución de bloques ya difundidos por una cadena
+  alternativa.
+- **Qué NO significa.** No es necesariamente un ataque: la mayoría son el
+  funcionamiento normal de un sistema distribuido.
+- **Ejemplo.** Dos nodos proponen casi a la vez.
+- **Riesgo.** Tratarla como incidente de seguridad y parar el servicio cada vez.
+- **Primera clase.** 19.6.
+
+### Contrato inteligente
+
+- **Definición.** Código que se ejecuta sobre el registro y controla activos.
+- **Qué NO significa.** **No es un contrato** —no expresa consentimiento ni
+  tiene remedios— y **no es inteligente**: ejecuta lo escrito, incluido el error.
+- **Ejemplo.** Un depósito en garantía con máquina de estados e invariantes.
+- **Riesgo.** Reentrada, control de acceso ausente, clave de actualización única.
+- **Primera clase.** 19.8 · **Otras.** 19.13, 21.3.
+
+### Reentrada
+
+- **Definición.** Una llamada externa vuelve al contrato antes de que este haya
+  actualizado su estado.
+- **Qué NO significa.** No es un fallo del registro: es un fallo del programa
+  que corre sobre él.
+- **Ejemplo.** Transferir antes de poner el saldo a cero.
+- **Riesgo.** El contrato se vacía.
+- **Primera clase.** 19.8.
+
+### Oráculo
+
+- **Definición.** Mecanismo que introduce en el registro un dato del exterior.
+- **Qué NO significa.** No elimina la confianza: **es un tercero de confianza**,
+  y su presencia reabre la pregunta de si hacía falta el registro.
+- **Ejemplo.** Mediana de cinco fuentes con banda de descarte y mínimo de
+  fuentes vivas.
+- **Riesgo.** Con media en vez de mediana, una sola fuente mueve el resultado.
+- **Primera clase.** 19.9 · **Otras.** 19.11, 21.12.
+
+### Puente
+
+- **Definición.** Mecanismo que representa en un registro un activo de otro.
+- **Qué NO significa.** El activo **no se mueve**: se inmoviliza en origen y se
+  emite una representación en destino. El envuelto no es el original: es un
+  derecho frente al custodio.
+- **Ejemplo.** Un conjunto de validadores que firma que el bloqueo ocurrió.
+- **Riesgo.** Umbral efectivo menor que el nominal; sin derecho de canje.
+- **Primera clase.** 19.11 · **Otras.** 20.5.
+
+### Disponibilidad de datos
+
+- **Definición.** Garantía de que existen los datos necesarios para verificar el
+  estado y para poder salir.
+- **Qué NO significa.** No es «el servicio está arriba». Es la diferencia real
+  entre una segunda capa que hereda la seguridad de la base y una que no.
+- **Ejemplo.** Si el operador no publica los datos, el usuario no puede
+  construir la prueba para retirar sus fondos.
+- **Riesgo.** Una segunda capa sin salida es un custodio con otro nombre.
+- **Primera clase.** 19.12.
+
+### Valor extraíble del orden
+
+- **Definición.** Beneficio que obtiene quien decide el orden de las operaciones.
+- **Qué NO significa.** No aparece como comisión: aparece como un peor precio.
+- **Ejemplo.** Adelantarse a una operación visible en la mempool.
+- **Riesgo.** Distorsiona la formación de precios sin que nadie lo vea.
+- **Primera clase.** 19.12 · **Otras.** 21.14.
+
+### Compensación (frente a reversión)
+
+- **Definición.** Corregir el efecto de un error **añadiendo** una operación, en
+  vez de reescribir la historia.
+- **Qué NO significa.** No es deshacer. La historia conserva el error y su
+  corrección, que es lo que permite auditarla.
+- **Ejemplo.** Es la respuesta contable y, por la misma razón, la correcta aquí.
+- **Riesgo.** Revertir una vez destruye la propiedad que justificaba el sistema.
+- **Primera clase.** 19.13.
 
 ## Datos y privacidad
 

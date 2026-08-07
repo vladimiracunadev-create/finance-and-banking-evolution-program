@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**18 partes · 270 clases · 405 horas ·
+**19 partes · 284 clases · 426 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -28,7 +28,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 16 | [Proyecto Banco Virtual](modules/15-proyecto-banco-virtual/README.md) | 18 | 27.0 | Dirección — empresa, tecnología, estrategia y proyecto |
 | 17 | [Finanzas abiertas, APIs y economía de datos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 18 | [Pagos transfronterizos, remesas y liquidación internacional](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **270** | **405** | |
+| 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **284** | **426** | |
 
 ## Índice de clases
 
@@ -432,13 +433,34 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 15 | [Payment versus Payment y liquidación atómica](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/15-payment-versus-payment-y-liquidacion-atomica.md) | profesional |
 | 16 | [Proyecto: red de pagos transfronterizos](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/16-proyecto-red-de-pagos-transfronterizos.md) | profesional |
 
+### Parte 19 — Blockchain y DLT para instituciones financieras
+
+[Índice de la parte](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) · [Laboratorios](modules/18-blockchain-y-dlt-para-instituciones-financieras/labs) · [Evaluaciones](modules/18-blockchain-y-dlt-para-instituciones-financieras/assessments) · [Proyecto](modules/18-blockchain-y-dlt-para-instituciones-financieras/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [Sistemas distribuidos aplicados a finanzas](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/01-sistemas-distribuidos-aplicados-a-finanzas.md) | profesional |
+| 02 | [Resúmenes, firmas y árboles de Merkle](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/02-resumenes-firmas-y-arboles-de-merkle.md) | profesional |
+| 03 | [Claves, direcciones y gestión criptográfica](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/03-claves-direcciones-y-gestion-criptografica.md) | profesional |
+| 04 | [Transacciones, bloques, nodos y estado](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/04-transacciones-bloques-nodos-y-estado.md) | profesional |
+| 05 | [Mecanismos de consenso](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/05-mecanismos-de-consenso.md) | profesional |
+| 06 | [Finalidad, reorganizaciones y tolerancia a fallos](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/06-finalidad-reorganizaciones-y-tolerancia-a-fallos.md) | profesional |
+| 07 | [Redes públicas, privadas y autorizadas](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/07-redes-publicas-privadas-y-autorizadas.md) | profesional |
+| 08 | [Contratos inteligentes](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/08-contratos-inteligentes.md) | profesional |
+| 09 | [Oráculos](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/09-oraculos.md) | profesional |
+| 10 | [Privacidad y pruebas criptográficas](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/10-privacidad-y-pruebas-criptograficas.md) | profesional |
+| 11 | [Interoperabilidad y puentes](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/11-interoperabilidad-y-puentes.md) | profesional |
+| 12 | [Escalabilidad, capas y disponibilidad](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/12-escalabilidad-capas-y-disponibilidad.md) | profesional |
+| 13 | [Gobernanza, bifurcaciones y recuperación](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md) | profesional |
+| 14 | [Proyecto: red financiera autorizada](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/14-proyecto-red-financiera-autorizada.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 18 proyectos integradores.
+- Entrega de los 19 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Pagos transfronterizos, remesas y liquidación internacional» (Parte 18, clase 16).
+- Defensa del proyecto final «Blockchain y DLT para instituciones financieras» (Parte 19, clase 14).
 
 ## Resultados finales
 

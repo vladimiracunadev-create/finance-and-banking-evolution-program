@@ -17,6 +17,7 @@ sustituye. El número exacto de partes y clases está en
 | 🌐 **[Etapa 5 — finanzas digitales](etapa-5-finanzas-digitales.md)** | Qué es y qué no es la etapa de infraestructura financiera digital, con sus seis criterios |
 | 🔓 **[Mapa de finanzas abiertas](mapa-finanzas-abiertas.md)** | Dónde está cada concepto de la Parte 17 y qué se puede ejecutar |
 | 🌍 **[Mapa de pagos transfronterizos](mapa-pagos-transfronterizos.md)** | Dónde está cada concepto de la Parte 18 y los siete errores que persigue |
+| ⛓️ **[Mapa de blockchain y DLT](mapa-blockchain-dlt.md)** | Dónde está cada concepto de la Parte 19 y las cinco afirmaciones que desmonta |
 | 📘 **[Glosario de finanzas digitales](glosario-finanzas-digitales.md)** | Términos de la Etapa 5, cada uno con su «qué NO significa» |
 
 ## Para quien enseña
