@@ -19,7 +19,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "docs/fuentes.md"
+      - "README.md"
+      - "docs/**.md"
       - ".github/workflows/enlaces-externos.yml"
       - ".lycheeignore"
 

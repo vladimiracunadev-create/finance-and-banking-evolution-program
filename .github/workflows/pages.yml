@@ -134,3 +134,24 @@ jobs:
           done
           echo "El portal no respondio 200 tras 12 intentos"
           exit 1
+
+      # El README enlaza estas tres descargas desde su insignia y su barra de
+      # navegacion. Si el despliegue las deja fuera, el enlace da 404 y nadie
+      # se entera hasta que alguien lo pulsa: por eso se comprueban aqui.
+      - name: Verificar que el manual se puede descargar
+        env:
+          URL_PORTAL: ${{ steps.despliegue.outputs.page_url }}
+        run: |
+          fallos=0
+          for archivo in programa-completo.pdf programa-completo.html programa-completo.md; do
+            url="${URL_PORTAL}descargas/${archivo}"
+            codigo=$(curl -s -o /dev/null -w "%{http_code}" -L "$url" || echo "000")
+            peso=$(curl -s -o /dev/null -w "%{size_download}" -L "$url" || echo "0")
+            if [ "$codigo" = "200" ] && [ "$peso" -gt 100000 ]; then
+              echo "OK    $archivo  ($peso bytes)"
+            else
+              echo "FALLA $archivo  (HTTP $codigo, $peso bytes)"
+              fallos=$((fallos + 1))
+            fi
+          done
+          [ "$fallos" -eq 0 ] || exit 1

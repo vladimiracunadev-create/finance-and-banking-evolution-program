@@ -458,7 +458,7 @@ Este proyecto se rige por su **[Código de Conducta](CODE_OF_CONDUCT.md)**.
 
 **¿Te resulta útil? ⭐ Dale una estrella al repo.**
 
-[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/finance-and-banking-evolution-program?style=social)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/finance-and-banking-evolution-program?style=social)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program)
 [![GitHub forks](https://img.shields.io/github/forks/vladimiracunadev-create/finance-and-banking-evolution-program?style=social)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/network/members)
 [![Follow](https://img.shields.io/github/followers/vladimiracunadev-create?style=social&label=Follow)](https://github.com/vladimiracunadev-create)
 
