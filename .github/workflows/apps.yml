@@ -244,7 +244,7 @@ jobs:
           # artefacto que no toca y es mejor detenerse.
           test -z "$(find . -mindepth 1 -maxdepth 1 -type d)" || {
             echo "Hay directorios en la entrega:"; find . -mindepth 1 -maxdepth 1 -type d; exit 1; }
-          sha256sum * > SHA256SUMS.txt
+          sha256sum -- * > SHA256SUMS.txt
           cat SHA256SUMS.txt
 
       # Se publica con `gh release`, que ya viene en el runner, en vez de con

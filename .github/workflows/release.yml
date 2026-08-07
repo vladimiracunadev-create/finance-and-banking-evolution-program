@@ -98,13 +98,24 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "${GITHUB_REF_NAME}" \
-            --title "${GITHUB_REF_NAME}" \
-            --notes-file notas.md \
-            dist/programa-completo.zip \
-            dist/solo-clases.zip \
-            dist/sbom.json \
-            dist/SHA256SUMS.txt
+          # `apps.yml` publica el APK y la aplicacion de Windows para la misma
+          # etiqueta, asi que los dos flujos pueden llegar aqui en cualquier
+          # orden. El primero crea el release y el segundo le anade lo suyo:
+          # con `gh release create` a secas, el segundo fallaba con «a release
+          # with the same tag name already exists».
+          archivos="dist/programa-completo.zip dist/solo-clases.zip \
+                    dist/sbom.json dist/SHA256SUMS.txt"
+          if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
+            echo "El release ya existe: se anaden los artefactos"
+            # shellcheck disable=SC2086  # la lista de archivos se separa a proposito
+            gh release upload "${GITHUB_REF_NAME}" ${archivos} --clobber
+          else
+            # shellcheck disable=SC2086
+            gh release create "${GITHUB_REF_NAME}" \
+              --title "${GITHUB_REF_NAME}" \
+              --notes-file notas.md \
+              ${archivos}
+          fi
 
       - name: Resumen
         if: always()
