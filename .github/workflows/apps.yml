@@ -37,12 +37,13 @@ jobs:
         with:
           persist-credentials: false
 
+      # Sin cache de pip: este flujo produce los binarios que se publican, y
+      # una cache envenenada acabaria dentro del artefacto. Es el hallazgo
+      # `cache-poisoning` de zizmor, y aqui aplica de verdad.
       - name: Configurar Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: requirements-site.txt
 
       - name: Instalar dependencias
         run: python -m pip install -r requirements-site.txt
@@ -102,8 +103,11 @@ jobs:
           distribution: temurin
           java-version: "17"
 
+      # Igual que con pip: sin cache de Gradle, por la misma razon.
       - name: Configurar Gradle
         uses: gradle/actions/setup-gradle@94baf225fe0a508e581a564467443d0e2379123b # v4.3.0
+        with:
+          cache-disabled: true
 
       # Se compila la variante de depuracion, no la de publicacion, porque
       # `assembleRelease` produce un APK SIN FIRMAR y Android se niega a
