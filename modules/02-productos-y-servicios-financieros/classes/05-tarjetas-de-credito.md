@@ -22,6 +22,8 @@ minorista, y también uno de los más útiles cuando se usa correctamente. Toda 
 una sola decisión repetida cada mes: pagar el total o pagar el mínimo. Esta clase demuestra
 numéricamente qué ocurre en cada caso.
 
+La tarjeta de débito de la clase anterior mueve dinero propio. Esta mueve dinero prestado, y con las condiciones más caras del mercado minorista. La clase no la desaconseja: explica su mecánica con precisión, porque usada de una manera concreta no cuesta nada y usada de cualquier otra es el crédito más caro al que accede una persona.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la mecánica del producto y los cuatro últimos, sus formas de uso con su costo. El **periodo de gracia** es la clave de toda la clase: es lo que hace que la misma tarjeta sea gratuita o carísima, y depende únicamente de si se paga el total o no.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cupo` | Límite máximo de crédito disponible. No es dinero propio ni fondo de emergencia. |
@@ -81,6 +85,8 @@ orden del 40 % anual. Ninguna otra decisión financiera cotidiana tiene esa magn
 ## 📖 Desarrollo
 
 ### 1. Anatomía de un estado de cuenta
+
+El estado de cuenta contiene la información necesaria para decidir, repartida entre varias secciones y con dos cifras que se parecen y significan cosas opuestas. El recorrido siguiente indica qué mirar y en qué orden.
 
 ```text
 Periodo facturado           01-07 al 31-07
@@ -132,6 +138,8 @@ diferencia            1 512 368 pesos y 5 años
 
 ### 3. Avance en efectivo: el peor uso
 
+El avance en efectivo combina las tres peores condiciones del producto a la vez, y conviene conocerlas antes de usarlo una sola vez.
+
 ```text
 avance de 300 000
   comisión de avance (3 %)              9 000
@@ -146,6 +154,8 @@ formal. Su uso legítimo es una emergencia genuina donde no existe alternativa, 
 compararlo con un crédito de consumo, cuyo costo suele ser la mitad.
 
 ### 4. Compras en cuotas: con y sin interés
+
+Las cuotas sin interés y las cuotas con interés se presentan de forma parecida y son productos distintos. El contraste siguiente los separa.
 
 ```text
 "12 cuotas sin interés" de 60 000 = 720 000
@@ -163,6 +173,8 @@ gratuito, y usarla es correcto siempre que la cuota quepa en el flujo.
 
 ### 5. El uso correcto
 
+Hay una forma de usar la tarjeta que no cuesta nada y aprovecha sus ventajas. Es una sola regla y admite pocas excepciones.
+
 ```text
 regla 1  paga SIEMPRE el total antes del vencimiento
 regla 2  el cupo NO es tu fondo de emergencia
@@ -177,6 +189,8 @@ gratuito**, mejor posición ante fraudes que el débito (clase 4), y construcci�
 crediticio, que la Parte 9, clase 7, muestra como variable relevante en la evaluación.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue el saldo de una tarjeta durante varios meses pagando solo el mínimo. Conviene mirar la columna del capital: es la que casi no baja, y es la que explica por qué esta deuda dura años.
 
 **Situación.** Nicolás tiene un saldo rotativo de 2 200 000 al 3,4 % mensual y paga el mínimo (5 %).
 Su excedente mensual es 180 000. Evalúa tres alternativas.
@@ -239,6 +253,8 @@ inversión al alcance de Nicolás con ese impacto.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un cupo disponible y el banco ve su colocación más rentable. La tabla enfrenta las dos lecturas, y explica por qué el pago mínimo aparece destacado en el estado de cuenta.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Cupo disponible | Compromiso crediticio con consumo de capital regulatorio | 11, clase 2 |
@@ -249,6 +265,8 @@ inversión al alcance de Nicolás con ese impacto.
 
 ## 🧪 Práctica
 
+El laboratorio pide simular el mismo consumo pagando el total y pagando el mínimo. La brecha entre las dos trayectorias, medida en pesos y en meses, es el resultado que hace innecesaria cualquier recomendación.
+
 En `labs/lab-03.md`:
 
 1. Descompón tu último estado de cuenta identificando cada concepto y el costo total del mes.
@@ -257,6 +275,8 @@ En `labs/lab-03.md`:
 4. Compara tres estrategias de salida de un saldo rotativo con tus propios números.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen deudas de tarjeta que no bajan aunque se pague todos los meses. La causa es casi siempre el pago mínimo, que está calculado para cubrir el interés y muy poco capital.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ que está disponible sin volver a pedirlo. Su virtud —la inmediatez— es tamb
 elimina la fricción que hace pensar antes de endeudarse. Esta clase enseña a calcular su costo real y
 a definir reglas de uso antes de tenerla contratada.
 
+Las dos clases anteriores cubrieron los dos medios de pago. Esta cubre el crédito que está disponible sin solicitarlo cada vez, y su interés está en la comparación: la línea es más cara que un crédito de consumo y más barata que un sobregiro, y hay usos concretos en los que es la herramienta correcta.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la mecánica del producto y los tres últimos, las condiciones que deciden su costo real. El **cupo comprometido** es el que menos se conoce: una línea disponible y no usada tiene efectos sobre la capacidad de endeudamiento aunque no se haya girado un peso.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `línea de crédito` | Cupo aprobado que puedes usar total o parcialmente, pagar y volver a usar. Es rotativa. |
@@ -82,6 +86,8 @@ Quien contrata una línea debe reponer esa fricción con una **regla escrita**, 
 ## 📖 Desarrollo
 
 ### 1. Comparación estructural
+
+La línea se entiende mejor comparada con los productos vecinos, porque su lugar está exactamente entre dos que ya se conocen. La tabla la sitúa.
 
 | Criterio | Línea de crédito | Sobregiro pactado | Crédito de consumo |
 |---|---|---|---|
@@ -121,6 +127,8 @@ crédito de consumo en plazos de meses.
 
 ### 3. Cuándo una línea es la herramienta correcta
 
+Hay tres situaciones en las que la línea es la mejor opción disponible y muchas en las que no. La tabla separa unas de otras con su criterio.
+
 | Situación | ¿Línea? | Alternativa mejor |
 |---|---|---|
 | Desfase de 5 días entre cobro y pago | Sí, si el monto es relevante | Colchón operativo (Parte 2, clase 5) |
@@ -131,6 +139,8 @@ crédito de consumo en plazos de meses.
 | Capital de trabajo estacional de un negocio | Sí, es su uso natural | Línea comercial específica |
 
 ### 4. Reglas de uso escritas
+
+Un producto disponible en todo momento necesita reglas decididas de antemano, porque en el momento de usarlo siempre parece justificado. Las reglas siguientes son el mínimo.
 
 ```text
 R1  la línea se usa solo para desfases de flujo menores a 45 días
@@ -163,6 +173,8 @@ Antes de una solicitud importante, cerrar o reducir cupos no utilizados mejora l
 gestión de dos días con impacto directo en el monto aprobado.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el costo de resolver la misma necesidad con línea, con tarjeta y con crédito de consumo. Conviene seguir la columna del costo total: el orden cambia según el plazo, y esa es la conclusión de la clase.
 
 **Situación.** Una consultora unipersonal cobra a 60 días y paga a sus colaboradores a 30. Necesita
 cubrir 2 400 000 durante 30 días cada mes. Opciones:
@@ -226,6 +238,8 @@ Parte 13, clase 2.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve disponibilidad y el banco ve un compromiso de capital que consume capacidad. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Cupo disponible | Compromiso irrevocable que consume capital | 11, clase 2 |
@@ -235,6 +249,8 @@ Parte 13, clase 2.
 
 ## 🧪 Práctica
 
+El laboratorio pide resolver la misma necesidad con los tres productos y comparar el costo total. El resultado depende del plazo, y descubrir dónde está el punto de cruce es el objetivo del ejercicio.
+
 En `labs/lab-03.md`, sección de líneas:
 
 1. Calcula el costo efectivo anualizado de tres usos distintos de una línea real.
@@ -243,6 +259,8 @@ En `labs/lab-03.md`, sección de líneas:
 4. Inventaría tus cupos disponibles y estima su efecto sobre una solicitud futura.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a líneas que se convierten en deuda permanente. La causa está en la ausencia de reglas de uso y de un plazo de devolución decidido antes de girar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

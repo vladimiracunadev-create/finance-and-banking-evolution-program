@@ -22,6 +22,8 @@ suele ser menor de lo que aparenta. Un depósito a plazo cambia liquidez por tas
 evaluar si ese intercambio conviene, a construir escaleras de vencimientos y a comparar depósitos
 nominales con reajustables.
 
+Las cinco clases anteriores cubrieron el lado del crédito. Esta pasa al del ahorro y aplica lo aprendido en la Parte 1 sobre inflación: un depósito que paga por debajo del alza de precios pierde dinero aunque el saldo suba, y esa comprobación es la que ordena toda la clase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son variantes del mismo producto y la diferencia entre ellas es exactamente la protección frente a la inflación. Los cuatro últimos son las condiciones que deciden el rendimiento real. El **rendimiento después de impuestos** es la única cifra comparable, y casi nunca es la que se publica.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -151,6 +155,8 @@ construcción. Es la misma técnica de calce de plazos que usa la tesorería ban
 
 ### 4. Rescate anticipado
 
+Un depósito a plazo rescatado antes de tiempo no devuelve lo mismo, y las condiciones varían mucho entre entidades. La tabla las compara.
+
 ```text
 depósito 5 000 000 a 360 días al 6,2 %
 rescate al día 200:
@@ -165,6 +171,8 @@ plazo en su balance. La consecuencia práctica: **nunca deposites a plazo dinero
 necesitar**, y si hay duda, divide el monto para rescatar solo una parte.
 
 ### 5. Elegir instrumento por propósito
+
+El instrumento se elige por el propósito del dinero y por su horizonte, y no por la tasa ofrecida. La tabla los relaciona.
 
 | Propósito | Instrumento | Razón |
 |---|---|---|
@@ -240,6 +248,8 @@ de una inversión.
 
 ## 🏦 Del cliente al banco
 
+El cliente busca rendimiento y el banco busca captación estable a plazo conocido. La tabla enfrenta las dos lecturas, y explica por qué un depósito a mayor plazo paga más: vale más para la entidad.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Depósito a plazo | Fondeo estable con vencimiento conocido | 10, clase 2 |
@@ -250,6 +260,8 @@ de una inversión.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el rendimiento real después de impuestos de varios depósitos con distinta inflación supuesta. El caso en que el rendimiento real resulta negativo es el que hay que saber reconocer.
+
 En `labs/lab-05.md`, sección de depósitos:
 
 1. Calcula los tres rendimientos (nominal, neto de impuestos, real) de tres ofertas reales.
@@ -258,6 +270,8 @@ En `labs/lab-05.md`, sección de depósitos:
 4. Cuantifica el costo de un rescate anticipado según el contrato vigente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen depósitos que rindieron menos de lo esperado. Las causas son la inflación no descontada, los impuestos no considerados o una renovación automática a una tasa peor.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

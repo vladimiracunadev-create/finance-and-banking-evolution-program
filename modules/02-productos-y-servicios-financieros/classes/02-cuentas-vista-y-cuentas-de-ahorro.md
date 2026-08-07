@@ -22,6 +22,8 @@ qué su costo real casi nunca está en la tasa sino en las comisiones y en la in
 enseña a leer una cartola, a calcular el costo anual efectivo de mantener una cuenta y a decidir qué
 saldo debe vivir en cada una.
 
+La clase anterior situó las entidades y sus productos. Esta entra en el primero que casi todo el mundo tiene, y que casi nadie compara: la cuenta donde llega el sueldo. La comparación es posible y es aritmética, y su resultado suele ser que el producto más conocido no es el más barato para el uso que se le da.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son productos que se confunden entre sí y los cuatro últimos, lo que decide cuál conviene. El **costo anual total** es el concepto operativo: una cuenta sin comisión de mantención puede salir más cara que una con comisión, y solo se ve sumando todos los cargos de un año.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cuenta vista` | Depósito a la vista sin línea de crédito asociada. Disponibilidad inmediata, remuneración nula o mínima. |
@@ -83,6 +87,8 @@ esta clase calcula.
 
 ### 1. Comparación de los tres productos
 
+Los tres productos se parecen en el uso y difieren en las condiciones que importan. La tabla los enfrenta en las dimensiones que deciden.
+
 | Característica | Cuenta vista | Cuenta de ahorro | Cuenta corriente |
 |---|---|---|---|
 | Disponibilidad | Inmediata | Inmediata, con límite de giros | Inmediata |
@@ -97,6 +103,8 @@ La fila del sobregiro es la que convierte a la cuenta corriente en el producto q
 un sobregiro es crédito, habitualmente el más caro del catálogo.
 
 ### 2. El costo anual total
+
+El costo de una cuenta no es su comisión de mantención: es la suma de todo lo que se paga en un año por usarla como se usa de verdad. El cálculo siguiente lo construye.
 
 ```text
 costo anual = comisiones anuales + saldo promedio × (inflación − tasa del producto)
@@ -116,6 +124,8 @@ esa cifra no aparece en ninguna cartola: la comisión sí, la pérdida real no.
 
 ### 3. Leer una cartola
 
+La cartola contiene toda la información necesaria para calcular ese costo, repartida de forma poco cómoda. El recorrido siguiente indica dónde mirar.
+
 ```text
 FECHA       DESCRIPCIÓN                        CARGO      ABONO     SALDO
 02-08   Abono remuneración                              1 420 000  1 428 400
@@ -133,6 +143,8 @@ línea del interés de sobregiro indica además que la cuenta estuvo en negativo
 flujo de caja (Parte 2, clase 5).
 
 ### 4. Saldo óptimo por cuenta
+
+Mantener saldo en una cuenta que no remunera tiene un costo de oportunidad que se puede calcular. La tabla indica cuánto conviene dejar en cada tipo de cuenta.
 
 ```text
 cuenta operativa  = gasto mensual + colchón operativo (Parte 2, clase 5)
@@ -219,6 +231,8 @@ Ese tipo de cálculo —de dos minutos— es el que separa una decisión financi
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una cuenta y el banco ve captación de bajo costo. La tabla enfrenta las dos lecturas, y explica por qué la remuneración de un saldo a la vista es siempre baja: es el pasivo más barato de una entidad.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Tengo saldo en la cuenta" | Depósito a la vista: fondeo de bajo costo y alta volatilidad | 10, clase 2 |
@@ -228,6 +242,8 @@ Ese tipo de cálculo —de dos minutos— es el que separa una decisión financi
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el costo anual total de tres cuentas con el patrón de uso propio. La comparación cambia con el uso —quien gira efectivo a menudo y quien no comparan cosas distintas—, y ese es justamente el punto del ejercicio.
+
 En `labs/lab-01.md`, sección de cuentas:
 
 1. Descarga tres meses de cartola y clasifica cada cargo del producto.
@@ -236,6 +252,8 @@ En `labs/lab-01.md`, sección de cuentas:
 4. Verifica el límite vigente de la garantía de depósitos y tu exposición por institución.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se descubren al revisar una cartola con atención. Las causas están casi siempre en cargos que no son la comisión de mantención y que nadie sumó.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

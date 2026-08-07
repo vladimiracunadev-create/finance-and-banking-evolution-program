@@ -22,6 +22,8 @@ expresado como tasa anual equivalente. Esta clase es la síntesis técnica de la
 calcular la carga anual equivalente desde cero, a entender qué incluye y qué no, y a detectar cuándo
 un producto barato en apariencia resulta el más caro.
 
+Las seis clases anteriores mostraron productos cuyo costo real no es su tasa. Esta cierra esa idea con la herramienta que los hace comparables a todos. La carga anual equivalente no es una fórmula nueva: es la tasa interna de retorno de la Parte 1 aplicada al flujo real del crédito, con el dinero que de verdad se recibe.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos construyen el flujo sobre el que se calcula y los tres últimos son sus límites. Los **costos excluidos** son la parte que hay que conocer: la CAE es la mejor herramienta de comparación disponible y no incluye todo, y creer que sí lleva a comparar mal otra vez.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `carga anual equivalente (CAE)` | Tasa anual que iguala el valor presente de todos los pagos con el monto recibido. Es el indicador comparable por excelencia. |
@@ -80,6 +84,8 @@ Por eso permite comparar un crédito de 36 cuotas con uno de 24 y comisión dist
 ## 📖 Desarrollo
 
 ### 1. El cálculo, paso a paso
+
+El cálculo tiene tres pasos y ninguno es difícil; lo que cuesta es armar bien el flujo. El procedimiento siguiente lo recorre entero.
 
 ```text
 se busca la tasa i tal que:
@@ -113,6 +119,8 @@ brecha                                 4,39 puntos porcentuales
 
 ### 2. Qué incluye y qué no
 
+La CAE incluye unas partidas y excluye otras, y saberlo evita el error de darla por completa. La tabla lo separa.
+
 | Concepto | ¿Entra en la CAE? |
 |---|---|
 | Interés | Sí |
@@ -130,6 +138,8 @@ real** en operaciones con gastos operacionales altos, como el hipotecario. Por e
 completa suma la CAE **más** los gastos excluidos expresados como monto.
 
 ### 3. Catálogo de comisiones y su margen de negociación
+
+Las comisiones tienen márgenes de negociación muy distintos entre sí. La tabla las recoge con lo que suele conseguirse en cada una.
 
 | Comisión | Frecuencia | ¿Negociable? | Comentario |
 |---|---|---|---|
@@ -162,6 +172,8 @@ por costo; el flujo decide la viabilidad.** Ambas dimensiones son necesarias.
 
 ### 5. Auditar una oferta
 
+Auditar una oferta es comprobar que la CAE declarada coincide con la que sale del flujo. Los pasos siguientes son esa comprobación, y detectan tanto errores como omisiones.
+
 ```text
 1. pide el monto que se depositará en tu cuenta (no el capital firmado)
 2. pide la tabla de desarrollo completa con cuota desglosada
@@ -175,6 +187,8 @@ Si la CAE que calculas difiere en más de 0,3 puntos de la informada, hay un con
 flujo: pregunta cuál antes de firmar.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la CAE de una oferta concreta y la compara con la declarada. Conviene seguir la construcción del flujo: casi toda la diferencia entre la tasa publicada y la CAE aparece en el primer flujo, que es el monto realmente recibido.
 
 **Situación.** Un cliente compara dos hipotecarios por 2 400 UF a 20 años.
 
@@ -232,6 +246,8 @@ de tasa vale, en este caso, casi cuarenta veces más que pedir rebaja de comisi�
 
 ## 🏦 Del cliente al banco
 
+El cliente compara CAE y el banco compone su ingreso entre interés y comisiones. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | CAE informada | Obligación normativa de divulgación | 12, clase 4 |
@@ -241,6 +257,8 @@ de tasa vale, en este caso, casi cuarenta veces más que pedir rebaja de comisi�
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la CAE de tres ofertas y auditar una que viene con un error deliberado. Encontrar el error sin rehacer todo el cálculo es la habilidad que se persigue.
+
 En `labs/lab-06.md`, sección de costo total:
 
 1. Calcula la CAE de un crédito real desde su flujo, sin usar la informada.
@@ -249,6 +267,8 @@ En `labs/lab-06.md`, sección de costo total:
 4. Lista los gastos excluidos de tu operación y súmalos al desembolso total.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen al comparar ofertas o al revisar una declarada. Las causas son casi siempre un flujo mal armado: capital en vez de monto recibido, o una comisión olvidada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

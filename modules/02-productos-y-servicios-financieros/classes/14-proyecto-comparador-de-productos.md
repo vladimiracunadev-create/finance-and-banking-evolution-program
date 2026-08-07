@@ -21,6 +21,8 @@ Construir una herramienta que compare ofertas reales de crédito, depósito y cu
 homogénea, y que documente sus supuestos y límites. Es el primer producto del programa destinado a ser
 usado por otra persona, lo que agrega una exigencia nueva: **que no induzca a error**.
 
+Esta clase cierra la parte construyendo la herramienta que las trece anteriores hacían falta. No introduce productos nuevos: introduce la exigencia de comparar sin inducir a error, que es más difícil que calcular bien y es lo que separa un comparador útil de uno que vende.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco términos son de diseño de la herramienta. **No inducir a error** es el que gobierna a los demás: un comparador puede tener todos los cálculos correctos y aun así llevar a una decisión equivocada por cómo presenta el resultado, y evitarlo es una decisión de diseño, no de cálculo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `base homogénea` | Todas las ofertas se reducen a las mismas métricas: CAE, costo total, cuota y desembolso inicial. |
@@ -80,6 +84,8 @@ no dice "no incluyo notaría ni tasación" está afirmando implícitamente que s
 
 ### 1. Requisitos funcionales
 
+Los requisitos se escriben antes de programar y se convierten en casos de prueba. La lista siguiente es el mínimo que el comparador debe resolver.
+
 | # | Requisito | Entrada | Salida |
 |---:|---|---|---|
 | 1 | Comparar créditos de cuota fija | Monto, plazo, tasa, comisiones, seguros | CAE, cuota, costo total |
@@ -96,6 +102,8 @@ en la práctica, porque los supuestos tienen más incertidumbre que esa diferenc
 
 ### 2. Arquitectura
 
+La separación entre cálculo y presentación es la que permite probar el primero sin ejecutar la segunda. El esquema siguiente la recoge.
+
 ```text
 apps/product_comparator/
   comparator.py     lógica de cálculo (funciones puras)
@@ -110,6 +118,8 @@ portfolio/parte-03/clase-14/
 ```
 
 ### 3. Implementación de referencia
+
+Las funciones necesarias existen parcialmente en el repositorio y hay que ampliarlas. La lista indica cuáles y con qué comportamiento.
 
 ```python
 from dataclasses import dataclass, field
@@ -164,6 +174,8 @@ class OfertaCredito:
 
 ### 4. La salida honesta
 
+La misma comparación se puede presentar de forma que ayude a decidir o de forma que empuje hacia un producto. El contraste siguiente muestra las dos.
+
 ```text
 COMPARACIÓN DE 3 OFERTAS DE CRÉDITO — monto recibido 4 000 000
 
@@ -194,6 +206,8 @@ aviso es el que evita la conclusión equivocada más común de cualquier compara
 
 ### 5. Validación
 
+La validación compara la salida del comparador con casos resueltos a mano en las clases anteriores. Es el control que impide que un error se propague sin que nadie lo note.
+
 ```text
 Caso 1 — CAE verificada a mano (clase 13)
   entrada   recibido 3 000 000 · 24 cuotas de 152 400
@@ -217,6 +231,8 @@ Caso 4 — diferencia no significativa
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre la construcción completa, de los requisitos a la validación. Conviene respetar ese orden: escribir los casos de prueba antes que el código es lo que evita probar el código contra sí mismo.
 
 **Situación de defensa.** Presentas el comparador y el revisor pregunta: *"Tu herramienta ordena por
 CAE. ¿Por qué no por costo total, que es lo que la persona efectivamente paga?"*
@@ -243,6 +259,8 @@ herramienta, y por eso debe ser visible.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere elegir bien y el banco quiere que se elija su producto. La tabla enfrenta las dos lecturas de la misma comparación, y explica por qué el diseño de la salida es una decisión ética además de técnica.
+
 | Tu comparador | Equivalente en la industria |
 |---|---|
 | Cálculo de CAE | Motor de cumplimiento normativo del área legal |
@@ -261,6 +279,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Prepara una defensa de tres minutos con dos decisiones de diseño justificadas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando otra persona usa el comparador. Casi todos se evitan declarando los supuestos y los límites en la propia salida, y no en una nota aparte.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

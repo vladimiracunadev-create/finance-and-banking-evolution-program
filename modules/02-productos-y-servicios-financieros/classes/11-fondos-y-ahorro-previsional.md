@@ -22,6 +22,8 @@ previsional— sin confundirlos con depósitos. Estos productos no garantizan ca
 que rara vez se comparan, y ofrecen a cambio diversificación y gestión profesional. Esta clase enseña
 a leer una ficha de fondo y a calcular el efecto real de las comisiones.
 
+El depósito de la clase anterior tiene rendimiento conocido y plazo fijo. Esta clase pasa a los vehículos donde ninguna de las dos cosas se conoce de antemano, y donde el costo se cobra sobre el saldo. Ese detalle —que la comisión se cobra siempre, haya ganancia o pérdida— es el que ordena toda la clase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos describen el vehículo y su unidad de medida; los tres últimos son las variables que deciden el resultado. La **remuneración** es la que más importa a largo plazo y la que menos se compara: es un porcentaje anual sobre el saldo, y a veinte años su efecto acumulado es mayor que casi cualquier diferencia de rentabilidad.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `fondo mutuo` | Patrimonio colectivo de rescate diario. El valor de la cuota cambia todos los días; puede bajar. |
@@ -83,6 +87,8 @@ financiero, y también el más predecible: la rentabilidad futura es incierta, l
 
 ### 1. Tipos de vehículo
 
+Los vehículos de inversión colectiva se parecen entre sí y difieren en liquidez, régimen y costo. La tabla los separa.
+
 | Criterio | Fondo mutuo | Fondo de inversión | Ahorro previsional voluntario |
 |---|---|---|---|
 | Rescate | Diario (1–3 días) | Restringido o en bolsa | Sujeto a condiciones legales |
@@ -93,6 +99,8 @@ financiero, y también el más predecible: la rentabilidad futura es incierta, l
 | Supervisión | Supervisor de valores | Supervisor de valores | Supervisor de pensiones |
 
 ### 2. Las ocho variables de una ficha de fondo
+
+La ficha de un fondo contiene ocho datos que deciden si conviene, repartidos entre varias páginas y con distinta prominencia. La lista siguiente es la que hay que extraer siempre.
 
 ```text
 1. objetivo y política de inversión   ¿en qué invierte realmente?
@@ -125,6 +133,8 @@ letra chica: es, en horizontes largos, la variable individual más determinante 
 encima de la habilidad del gestor.
 
 ### 4. Elegir tipo de fondo por horizonte
+
+El tipo de fondo se elige por el horizonte del dinero, y no por la rentabilidad del último año. La tabla los relaciona.
 
 | Horizonte | Tipo apropiado | Caída típica en un mal año | Justificación |
 |---|---|---:|---|
@@ -161,6 +171,8 @@ anticipado. Cuando la tasa marginal es baja (por ejemplo, exenta), el beneficio 
 desaparece y el régimen A suele ser superior.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara dos fondos con la misma rentabilidad bruta y distinta comisión, a lo largo de veinte años. Conviene mirar la diferencia final: es la cifra que justifica leer la ficha antes de contratar.
 
 **Situación.** Tomás, 38 años, tasa marginal 23 %, quiere destinar 150 000 mensuales a largo plazo
 (27 años). Compara tres alternativas.
@@ -217,6 +229,8 @@ no por rentabilidad. Ninguna elección de "qué acciones comprar" tendría ese i
 
 ## 🏦 Del cliente al banco
 
+El cliente busca rentabilidad y la administradora cobra sobre el saldo. La tabla enfrenta las dos lecturas, y explica por qué el incentivo comercial se orienta a captar saldo y no a maximizar el resultado del partícipe.
+
 | Vista del cliente | Vista de la industria | Parte |
 |---|---|---|
 | "Contraté un fondo en el banco" | El banco es distribuidor; la administradora gestiona | 8, clase 5 |
@@ -227,6 +241,8 @@ no por rentabilidad. Ninguna elección de "qué acciones comprar" tendría ese i
 
 ## 🧪 Práctica
 
+El laboratorio pide extraer las ocho variables de tres fichas y compararlas. La rentabilidad histórica, que es lo primero que se mira, resulta ser la variable menos informativa de las ocho, y comprobarlo es el objetivo.
+
 En `labs/lab-06.md`:
 
 1. Descarga la ficha de dos fondos reales y completa las ocho variables.
@@ -235,6 +251,8 @@ En `labs/lab-06.md`:
 4. Evalúa el beneficio tributario del ahorro previsional voluntario con tu tasa marginal.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen inversiones que rindieron menos de lo esperado sin que el mercado hubiera caído. La causa suele ser la comisión o un tipo de fondo que no correspondía al horizonte.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

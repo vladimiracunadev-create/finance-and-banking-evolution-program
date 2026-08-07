@@ -22,6 +22,8 @@ aprobación, y por qué esa cadena de actores determina tus derechos ante un fra
 débito es el medio de pago más usado y el peor comprendido: mueve tu propio dinero, lo que la hace
 más barata y, ante un fraude, potencialmente más peligrosa que una de crédito.
 
+Esta clase abre el medio de pago más usado y explica lo que ocurre en los segundos que van del acercamiento de la tarjeta al descuento del saldo. Entenderlo importa por una razón práctica: casi todas las dudas sobre cargos duplicados, retenciones y devoluciones se resuelven sabiendo en qué etapa de esa cadena está la operación.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son los actores y las etapas de la cadena de pago; los tres últimos son los mecanismos de protección y de seguridad. El **saldo retenido** explica la mayoría de las llamadas al servicio al cliente: el dinero está comprometido y todavía no cobrado, y eso no es un error.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `emisor` | Banco que emite tu tarjeta y mantiene tu cuenta. Es tu contraparte contractual. |
@@ -86,6 +90,8 @@ determina a quién reclamar: **tu contraparte es siempre el emisor**, no el come
 
 ### 1. Autorización, captura y liquidación
 
+Un pago con tarjeta no es un movimiento sino tres, separados en el tiempo y con efectos distintos sobre el saldo. El esquema siguiente los separa.
+
 ```text
 día 0, 14:32  autorización      se retienen 45 000 de tu disponible
 día 0–2       captura           el comercio confirma la venta
@@ -106,6 +112,8 @@ sola en 3 a 7 días.
 
 ### 2. Débito frente a crédito
 
+Las dos tarjetas se usan igual y protegen distinto. La tabla enfrenta las dimensiones donde la diferencia importa, sobre todo ante un cargo no reconocido.
+
 | Criterio | Débito | Crédito |
 |---|---|---|
 | Origen de los fondos | Tu cuenta, ahora | Línea del emisor, después |
@@ -120,6 +128,8 @@ tarjeta de crédito ofrece mejor posición porque el dinero aún no ha salido de
 gasto cotidiano controlado, el débito evita el riesgo de endeudamiento.
 
 ### 3. Protocolo ante un cargo no reconocido
+
+Ante un cargo que no se reconoce hay un orden de actuación que conserva los plazos y las pruebas. Los pasos siguientes son ese orden.
 
 ```text
 hora 0–2
@@ -144,6 +154,8 @@ lo desarrolla en detalle.
 
 ### 4. Controles que reducen la exposición
 
+La mayor parte de la exposición se reduce con configuraciones que ya existen en la aplicación de la entidad y que casi nadie activa. La tabla las recoge.
+
 | Control | Efecto | Costo |
 |---|---|---|
 | Límites diarios por canal (compra, giro, internet) | Acota la pérdida máxima | Ninguno |
@@ -158,6 +170,8 @@ cualquier otra medida, y ninguna de las dos cuesta dinero.
 
 ### 5. Quién paga qué en la cadena
 
+Cada actor de la cadena cobra una parte de la comisión del comercio, y saber ese reparto explica por qué algunos comercios recargan por pagar con tarjeta.
+
 ```text
 comercio paga  →  comisión de adquirencia (merchant discount)
                      ↓ se reparte entre
@@ -171,6 +185,8 @@ qué algunos comercios ofrecen descuento por pago en efectivo, y por qué el emi
 dinero aunque no te cobre nada. La Parte 10, clase 10, desarrolla el negocio de adquirencia completo.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue una operación completa desde la autorización hasta la liquidación, con las fechas de cada etapa. Conviene mirar el saldo disponible en cada paso: es donde se ve por qué el dinero desaparece antes de que el comercio cobre.
 
 **Situación.** Sofía revisa su cartola y encuentra tres situaciones el mismo día.
 
@@ -227,6 +243,8 @@ paso 5, que reducen la pérdida máxima futura de "todo el saldo" a "150 000".
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un pago y el banco ve una comisión de intercambio repartida entre cuatro actores. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Pasé la tarjeta" | Mensaje de autorización evaluado por reglas de riesgo en milisegundos | 14, clase 11 |
@@ -237,6 +255,8 @@ paso 5, que reducen la pérdida máxima futura de "todo el saldo" a "150 000".
 
 ## 🧪 Práctica
 
+El laboratorio pide reconstruir la cronología de una operación con retención y devolución. El ejercicio resuelve de una vez la confusión más frecuente con este producto, que es por qué una devolución tarda más que el cargo.
+
 En `labs/lab-02.md`, sección de medios de pago:
 
 1. Dibuja la cadena de una transacción identificando a los cinco actores con nombres reales.
@@ -245,6 +265,8 @@ En `labs/lab-02.md`, sección de medios de pago:
 4. Configura y documenta los controles disponibles en tu emisor.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen situaciones que parecen errores del banco y casi nunca lo son. La causa suele ser la etapa de la cadena en que está la operación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

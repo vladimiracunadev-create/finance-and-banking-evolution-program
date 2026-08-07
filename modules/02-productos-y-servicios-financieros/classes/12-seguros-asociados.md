@@ -22,6 +22,8 @@ los haya buscado. Algunos son obligatorios y razonables; otros son opcionales pr
 obligatorios; y varios duplican coberturas ya contratadas. Esta clase enseña a distinguirlos, a
 calcular cuánto pesan en el costo total y a ejercer el derecho a elegir aseguradora.
 
+Los créditos de las clases 7 a 9 incluían seguros en su costo. Esta clase los abre: cuáles son exigibles y cuáles no, cuáles se pueden contratar en otra parte y cuánto se ahorra haciéndolo. Es una de las clases con mayor efecto económico directo por el poco esfuerzo que exige.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los seguros que aparecen asociados a créditos; los tres últimos son las prácticas comerciales que los rodean. La distinción entre **venta atada y venta conjunta** es la que decide el derecho del cliente: una es exigible y la otra no, y suelen presentarse igual.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `seguro de desgravamen` | Cubre el saldo insoluto si fallece el deudor. Protege al acreedor y a la familia del deudor. |
@@ -83,6 +87,8 @@ condiciones de decidir si vale su precio.
 ## 📖 Desarrollo
 
 ### 1. Clasificación por exigibilidad
+
+No todos los seguros asociados a un crédito son obligatorios, y los que lo son casi nunca obligan a contratarlos con la entidad que presta. La tabla los separa.
 
 | Seguro | Naturaleza | Comentario |
 |---|---|---|
@@ -147,6 +153,8 @@ Sobre un hipotecario a 20 años, eso puede superar los 3 000 000.
 
 ### 5. ¿Vale la pena un seguro de cesantía?
 
+El seguro de cesantía asociado a créditos es el que más discusión genera, y admite un análisis numérico en vez de una opinión. El cálculo siguiente lo hace.
+
 ```text
 prima anual                       94 800
 cobertura: 6 cuotas de 158 000 = 948 000
@@ -162,6 +170,8 @@ emergencia** ya cubre esas seis cuotas. Con fondo suficiente, el seguro de cesan
 prescindible; sin fondo, puede ser razonable mientras se construye.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el ahorro de contratar los seguros exigibles fuera de la entidad que otorga el crédito. Conviene seguir el cálculo hasta el costo total: la diferencia se acumula durante todo el plazo del crédito.
 
 **Situación.** Andrea tiene un hipotecario nuevo y le presentan la carpeta de seguros.
 
@@ -224,6 +234,8 @@ nadie usa porque la carpeta se presenta como un bloque indivisible.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un requisito y el banco ve una comisión de intermediación. La tabla enfrenta las dos lecturas, y explica por qué el seguro se ofrece incorporado y no separado.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Seguro en la cuota | Mitigante de riesgo **y** comisión de intermediación | 15, clase 3 |
@@ -233,6 +245,8 @@ nadie usa porque la carpeta se presenta como un bloque indivisible.
 
 ## 🧪 Práctica
 
+El laboratorio pide separar los seguros de una oferta de crédito entre exigibles y no exigibles, y cotizar los exigibles fuera. El ahorro obtenido suele ser mayor que cualquier rebaja de tasa que se pueda negociar.
+
 En `labs/lab-06.md`, sección de seguros asociados:
 
 1. Inventaría todos los seguros asociados a tus productos, con prima y cobertura.
@@ -241,6 +255,8 @@ En `labs/lab-06.md`, sección de seguros asociados:
 4. Detecta duplicidades y calcula el efecto sobre tu cobertura total de vida.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a coberturas que se pagan y no sirven, o que se pagan dos veces. Las causas están en la contratación conjunta sin revisar qué se estaba incluyendo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

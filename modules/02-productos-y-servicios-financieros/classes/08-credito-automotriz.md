@@ -22,6 +22,8 @@ Analizar la compra financiada de un vehículo considerando lo que casi nunca se 
 patrimonial mes a mes, a comparar comprar contra arrendar, y a decidir con el costo total de propiedad
 en la mano.
 
+El crédito de la clase anterior financia consumo que no deja nada. Este financia un bien que sí queda, y que además pierde valor más rápido de lo que se amortiza la deuda. De ese desajuste sale el concepto central de la clase, que es la posibilidad de deber más de lo que vale lo que se compró.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos explican por qué este crédito es particular; los cuatro últimos son sus estructuras y su costo real. El **patrimonio negativo** es el concepto que hay que entender: ocurre cuando el saldo de la deuda supera al valor del vehículo, y es la situación normal durante los primeros años si el pie fue bajo.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -137,6 +141,8 @@ compromiso en más de dos veces.
 
 ### 3. Comparación de estructuras
 
+Las tres formas de financiar un vehículo producen cuotas parecidas y consecuencias distintas al final. La tabla las enfrenta.
+
 | Criterio | Crédito automotriz | Leasing | Crédito de consumo |
 |---|---|---|---|
 | Garantía | Prenda sobre el vehículo | Propiedad del arrendador | Sin garantía |
@@ -166,6 +172,8 @@ del banco, y elimina el periodo de patrimonio negativo. Subir de 0 % a 20 % de p
 costo financiero sobre un aporte adicional de 2 800 000: un retorno del 65 % en cuatro años.
 
 ### 5. Cuota balón
+
+La cuota balón reduce la cuota mensual a cambio de un pago grande al final, y su costo depende por completo de qué se haga con ese pago. El esquema siguiente lo explica.
 
 ```text
 cuota normal 48 meses           316 800
@@ -238,6 +246,8 @@ los seis meses.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un auto y el banco constituye una garantía sobre un bien que se deprecia. La tabla enfrenta las dos lecturas, y explica por qué la entidad exige un pie mínimo.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Me piden pie" | El pie reduce la severidad de la pérdida (LGD) | 11, clase 2 |
@@ -248,6 +258,8 @@ los seis meses.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar la evolución del saldo de la deuda con la del valor del vehículo. El cruce de las dos curvas —el momento en que deja de haber patrimonio negativo— es el resultado que el ejercicio busca.
+
 En `labs/lab-04.md`, sección de automotriz:
 
 1. Proyecta valor y saldo mes a mes e identifica el periodo de patrimonio negativo.
@@ -256,6 +268,8 @@ En `labs/lab-04.md`, sección de automotriz:
 4. Evalúa cuatro niveles de pie y su efecto en costo y en riesgo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen al intentar vender el vehículo antes de terminar de pagarlo. La causa es siempre la misma: la deuda se amortiza más despacio de lo que el bien se deprecia.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

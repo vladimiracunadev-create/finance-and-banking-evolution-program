@@ -22,6 +22,8 @@ se tome sin saber con quién se está tratando. La mayoría de las malas experie
 —desde una comisión inesperada hasta un fraude piramidal— empiezan por no distinguir a un banco de
 una entidad no supervisada, ni a un depósito de una inversión.
 
+Las dos partes anteriores trabajaron con dinero propio: calcularlo y ordenarlo. Esta entra en las instituciones que lo custodian, lo prestan y lo invierten. Y empieza por el mapa porque casi todos los errores caros de consumo financiero no son de cálculo: son de haber entregado dinero a una entidad equivocada, o de haber comprado un producto que no era el que se creía.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los siete términos siguientes explican de qué vive una entidad financiera. El que hay que retener antes que ninguno es la **transformación de plazos**: los bancos captan a corto y prestan a largo, y de esa diferencia salen tanto su utilidad como su vulnerabilidad. La misma idea reaparece en la Parte 11 con el nombre de riesgo de liquidez.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `intermediación financiera` | Captar de quienes tienen excedente y colocar en quienes tienen déficit, asumiendo el riesgo en el medio. Es el negocio bancario en una frase. |
@@ -84,6 +88,8 @@ o no lo has entendido, o no es un producto financiero legítimo. Ambas exigen de
 
 ### 1. El circuito básico
 
+El sistema financiero se entiende siguiendo el recorrido del dinero desde quien lo tiene hasta quien lo necesita. El esquema siguiente es ese recorrido reducido a lo esencial, y sirve de referencia para ubicar cualquier producto de esta parte.
+
 ```text
 depositantes  →  [ BANCO ]  →  deudores
    pagan 3 %                    pagan 12 %
@@ -99,6 +105,8 @@ línea. Entender desde ahora que el banco asume el riesgo de que el deudor no pa
 evalúa crédito, exige garantías y constituye provisiones.
 
 ### 2. Tipos de institución
+
+No todas las entidades hacen lo mismo ni están sujetas a las mismas obligaciones, y la diferencia importa antes de entregar dinero. La tabla las separa por lo que pueden hacer y por quién las supervisa.
 
 | Tipo | Qué hace | Supervisión típica | Garantía de depósitos |
 |---|---|---|---|
@@ -117,6 +125,8 @@ mínimo exigido, no reporta, y ante un problema no hay supervisor a quien reclam
 
 ### 3. Productos por función
 
+Un producto financiero se clasifica por la función que cumple y no por su nombre comercial, que cambia entre entidades y entre países. La tabla los agrupa por función.
+
 | Función | Producto | El cliente es | Riesgo principal |
 |---|---|---|---|
 | Guardar | Cuenta vista, cuenta de ahorro | Acreedor del banco | Inflación (tasa real negativa) |
@@ -131,6 +141,8 @@ depósito tiene tasa contractual y garantía hasta un límite; el fondo tiene re
 puede cerrar el año en negativo. Que se vendan en la misma sucursal no los hace equivalentes.
 
 ### 4. Quién supervisa qué
+
+La supervisión está repartida entre varios organismos, y saber cuál corresponde a cada entidad es lo que permite verificar y, llegado el caso, reclamar. La tabla recoge ese reparto.
 
 ```text
 banco central          política monetaria, sistema de pagos, estabilidad financiera
@@ -147,6 +159,8 @@ no es la estructura sino saber **a quién se reclama qué**: un cobro indebido y
 inversión no van al mismo lugar.
 
 ### 5. Verificar antes de entregar dinero
+
+Antes de entregar dinero a cualquier entidad hay una comprobación de dos minutos que evita la mayoría de los fraudes de este tipo. Los pasos siguientes son esa comprobación.
 
 ```text
 1. ¿está la entidad en el registro público del supervisor? (verificar en el sitio oficial)
@@ -219,6 +233,8 @@ esta parte del programa instala y el que la Parte 8 formaliza con el perfilamien
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una oficina y el banco ve un balance. La tabla enfrenta las dos lecturas del mismo negocio, y explica de dónde sale realmente el margen de una entidad.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Tengo un depósito" | Pasivo, fuente de fondeo con costo | 10, clase 2 |
@@ -228,6 +244,8 @@ esta parte del programa instala y el que la Parte 8 formaliza con el perfilamien
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar entidades y productos reales por función y por supervisor. El ejercicio parece administrativo y no lo es: identificar correctamente qué es una entidad y quién la supervisa es la verificación que separa un depósito garantizado de una inversión sin respaldo.
+
 En `labs/lab-01.md`:
 
 1. Mapea las instituciones con las que tienes relación e identifica su supervisor y su garantía.
@@ -236,6 +254,8 @@ En `labs/lab-01.md`:
 4. Aplica el control de razonabilidad a una oferta de rentabilidad que hayas recibido.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se recorre de izquierda a derecha para entenderla y de derecha a izquierda para usarla. Los síntomas de esta clase se refieren casi siempre a productos que resultaron no ser lo que parecían.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

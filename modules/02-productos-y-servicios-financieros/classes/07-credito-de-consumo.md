@@ -22,6 +22,8 @@ publicidad. El crédito de consumo es el producto más solicitado de la banca mi
 diferencias de costo esconde entre ofertas que parecen equivalentes. Esta clase entrega el método de
 comparación y el criterio de decisión.
 
+Esta clase entra en el crédito que más se compara y peor se compara. La razón es que las ofertas se presentan por su tasa y se diferencian por todo lo demás: comisiones, seguros y el monto que efectivamente se recibe. Comparar bien es un cálculo, y esta clase lo hace completo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos separan lo que se pide de lo que se recibe, que casi nunca coinciden. Los cuatro últimos son los componentes que explican esa diferencia. La **carga anual equivalente** es la única cifra que permite comparar dos ofertas, y por eso su cálculo ocupa una clase entera más adelante.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capital solicitado` | Lo que pides. Distinto de lo que recibes si hay cargos financiados. |
@@ -84,6 +88,8 @@ tasa publicada.
 ## 📖 Desarrollo
 
 ### 1. Del capital solicitado al costo total
+
+Entre lo que se solicita y lo que se termina pagando hay una cadena de descuentos y recargos que conviene recorrer entera una vez. El esquema siguiente la recoge.
 
 ```text
 capital solicitado         5 000 000
@@ -122,6 +128,8 @@ plazo más corto cuya cuota quepa con holgura en tu flujo, no el que haga la cuo
 
 ### 3. Comparar ofertas correctamente
 
+Dos ofertas solo se comparan si se llevan a la misma base, y esa base no es la tasa. El procedimiento siguiente es el que las hace comparables.
+
 | | Banco A | Banco B | Banco C |
 |---|---:|---:|---:|
 | Tasa publicada | 1,25 % | 1,45 % | 1,60 % |
@@ -139,6 +147,8 @@ visible y habría sido correcta por casualidad, no por método.
 
 ### 4. Qué negociar y con qué argumento
 
+Hay partidas negociables y partidas que no lo son, y confundirlas hace perder la negociación. La tabla las separa con el argumento que funciona en cada caso.
+
 | Variable | Margen típico | Argumento |
 |---|---|---|
 | Tasa | Alto si tienes buen historial | Cotización competidora por escrito |
@@ -151,6 +161,8 @@ Llevar dos cotizaciones escritas de otras instituciones cambia la conversación 
 único "descuento" que se obtiene sin pedir un favor.
 
 ### 5. Prepago
+
+El prepago tiene reglas propias que conviene conocer antes de firmar, porque su costo y su efecto dependen de cómo se impute.
 
 ```text
 beneficio del prepago = intereses futuros evitados − comisión de prepago
@@ -170,6 +182,8 @@ verificaciones antes de prepagar: que el pago se impute **a capital** y no a cuo
 comisión aplicada no supere el máximo legal.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre una oferta real desde el capital solicitado hasta el costo total, sin saltarse ningún componente. Conviene fijarse en el monto líquido: la diferencia con el capital solicitado es la que hace subir el costo efectivo por encima de la tasa publicada.
 
 **Situación.** Ana necesita 4 000 000 para una reparación. Tiene tres alternativas y un excedente
 mensual de 320 000.
@@ -238,6 +252,8 @@ mayor que la diferencia entre las tres ofertas.
 
 ## 🏦 Del cliente al banco
 
+El cliente compara cuotas y el banco compara márgenes por producto. La tabla enfrenta las dos lecturas, y muestra dónde está el ingreso de la entidad además del interés.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Me aprobaron el crédito" | Colocación con pérdida esperada y provisión asociada | 9, clase 14 |
@@ -247,6 +263,8 @@ mayor que la diferencia entre las tres ofertas.
 
 ## 🧪 Práctica
 
+El laboratorio pide llevar tres ofertas a una base común y ordenarlas. El orden por tasa y el orden por costo total casi nunca coinciden, y comprobarlo es lo que instala el hábito de pedir la CAE.
+
 En `labs/lab-04.md`:
 
 1. Solicita o simula tres cotizaciones reales para un mismo monto y plazo.
@@ -255,6 +273,8 @@ En `labs/lab-04.md`:
 4. Simula un prepago en el mes 12 y calcula el beneficio neto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen al recibir el dinero o al terminar de pagar. Las causas están en el momento de contratar: seguros incorporados, comisiones no sumadas o comparación por tasa.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

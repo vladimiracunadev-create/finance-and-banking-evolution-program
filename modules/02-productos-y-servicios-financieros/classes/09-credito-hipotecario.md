@@ -22,6 +22,8 @@ Analizar la operación financiera más grande y más larga de una vida. Un hipot
 indexada que hace que la cuota en pesos **suba con la inflación**. Esta clase enseña a evaluarlo
 completo: costo, riesgo y alternativa de arrendar.
 
+Esta clase entra en la mayor operación financiera de la vida de casi cualquier persona. Reúne todo lo de la Parte 1 —cuota, amortización, unidades indexadas y tasa real— sobre un plazo tan largo que las diferencias pequeñas se vuelven grandes: medio punto de tasa a veinte años es una cifra que sorprende cuando se calcula.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son la estructura de la operación y los cuatro últimos, los elementos que deciden su costo total. La **relación préstamo/valor** es la variable que más condiciones mueve: de ella dependen la tasa, los seguros exigidos y la posibilidad misma de la operación.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -180,6 +184,8 @@ conviene cuando el horizonte de permanencia supera ese umbral.
 
 ### 4. Riesgos del deudor hipotecario
 
+Un crédito a veinte años atraviesa varios escenarios y conviene conocer los que pueden torcerlo antes de firmar. La tabla los recoge con lo que cada uno exige.
+
 | Riesgo | Descripción | Mitigación |
 |---|---|---|
 | Ingreso | Pérdida de empleo con 20 años de deuda | Fondo de emergencia mayor (6–9 meses), seguro de cesantía |
@@ -190,6 +196,8 @@ conviene cuando el horizonte de permanencia supera ese umbral.
 | Gastos ocultos | Contribuciones, gastos comunes, mantención | Presupuestarlos desde el inicio |
 
 ### 5. Prepago y reprogramación
+
+Prepagar y reprogramar parecen alternativas equivalentes y no lo son: una reduce el costo total y la otra reduce la cuota. La tabla las separa.
 
 ```text
 prepago parcial de 100 UF en el año 5 (crédito de 2 400 UF, 20 años, 4,3 %)
@@ -266,6 +274,8 @@ para el pie, los gastos operacionales y el fondo de emergencia que un compromiso
 
 ## 🏦 Del cliente al banco
 
+El cliente compra una vivienda y el banco origina un activo de largo plazo que puede vender o titularizar. La tabla enfrenta las dos lecturas, y esa segunda columna es la que reaparece en la Parte 10.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Pie del 20 % | LTV del 80 %: menor severidad de pérdida | 9, clase 8 |
@@ -276,6 +286,8 @@ para el pie, los gastos operacionales y el fondo de emergencia que un compromiso
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el efecto de medio punto de tasa sobre el costo total a veinte años, y el de un prepago temprano. Las dos cifras son mucho mayores de lo que la intuición sugiere, y esa es la razón del ejercicio.
+
 En `labs/lab-05.md`:
 
 1. Calcula el dividendo y el costo total de un crédito en unidad indexada.
@@ -284,6 +296,8 @@ En `labs/lab-05.md`:
 4. Realiza dos pruebas de estrés y determina el fondo de emergencia necesario.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a créditos hipotecarios cuya cuota cambia o cuyo saldo no baja como se esperaba. Las causas están casi siempre en la unidad de cuenta y en los gastos operacionales no sumados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

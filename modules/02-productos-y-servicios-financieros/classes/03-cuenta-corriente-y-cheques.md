@@ -22,6 +22,8 @@ combina un depósito con una línea de crédito y un instrumento de pago —el c
 consecuencias legales que ningún otro producto financiero tiene. Esta clase enseña a operarla sin
 caer en el sobregiro y a entender qué ocurre exactamente cuando un cheque se protesta.
 
+La clase anterior comparó cuentas por su costo. Esta entra en la que añade dos elementos que las demás no tienen y que son fuente de problemas: una línea de crédito asociada que se usa sin darse cuenta, y un instrumento de pago con consecuencias legales propias.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el producto y su crédito asociado; los cuatro últimos son el régimen del cheque, que es jurídico antes que financiero. El **protesto** es el que hay que entender bien: sus efectos duran años y alcanzan al acceso a productos que nada tienen que ver con la cuenta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cuenta corriente` | Contrato que combina depósito a la vista, mandato de pago y —habitualmente— apertura de crédito. |
@@ -84,6 +88,8 @@ ven el primer cargo de intereses.
 
 ### 1. El costo de la línea de sobregiro
 
+La línea de sobregiro es el crédito más caro que ofrece una entidad y el que se usa con menos conciencia, porque no se solicita: se activa sola. El cálculo siguiente muestra su costo efectivo.
+
 ```text
 interés diario = saldo negativo × tasa mensual / 30
 ```
@@ -109,6 +115,8 @@ nunca como financiamiento.
 
 ### 2. Menciones obligatorias de un cheque
 
+Un cheque al que le falta una mención obligatoria puede no valer como cheque, y quien lo recibe lo descubre tarde. La lista siguiente es la que hay que comprobar antes de aceptarlo.
+
 ```text
 1. la palabra "cheque" en el texto del documento
 2. el lugar y la fecha de emisión
@@ -128,6 +136,8 @@ Reglas prácticas que evitan problemas:
 | Cruzarlo siempre que sea posible | Obliga a depositarlo en una cuenta identificable |
 
 ### 3. Tipos de cheque
+
+Las variantes del cheque no son formalidades: cada una cambia quién puede cobrarlo y con qué garantía. La tabla las separa.
 
 | Tipo | Cómo se hace | Efecto |
 |---|---|---|
@@ -184,6 +194,8 @@ Parte 10, clase 8.
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo recorre el costo real de un uso corriente de la línea de sobregiro, paso a paso. Conviene fijarse en el paso donde el cargo fijo por giro se anualiza: ahí es donde el producto deja de parecer barato.
+
 **Situación.** Un pequeño taller emite cheques a proveedores y trabaja con cuenta corriente. Saldo
 según cartola al día 5: 2 100 000. Cheques emitidos y no cobrados: 640 000, 380 000 y 210 000. El día
 6 debe pagar remuneraciones por 1 350 000.
@@ -230,6 +242,8 @@ que aquí un descuadre produce un **protesto**, con consecuencias que exceden lo
 
 ## 🏦 Del cliente al banco
 
+El cliente ve comodidad y el banco ve un crédito de altísimo margen. La tabla enfrenta las dos lecturas, y explica por qué el sobregiro se ofrece sin pedirlo.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Cuenta corriente | Producto con evaluación crediticia previa por la línea asociada | 9, clase 1 |
@@ -240,6 +254,8 @@ que aquí un descuadre produce un **protesto**, con consecuencias que exceden lo
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el costo efectivo anual de varios usos de la línea de sobregiro. El resultado es sistemáticamente mayor que el de cualquier otro crédito disponible, y verlo en cifras es lo que cambia el hábito.
+
 En `labs/lab-02.md`:
 
 1. Construye el saldo real disponible de una cuenta corriente con cheques pendientes.
@@ -248,6 +264,8 @@ En `labs/lab-02.md`:
 4. Investiga y documenta el procedimiento de regularización de un protesto en tu país.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a costos que aparecen sin haberse solicitado nada y a cheques que no se pudieron cobrar. Las causas están en la línea asociada y en las menciones del documento.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
