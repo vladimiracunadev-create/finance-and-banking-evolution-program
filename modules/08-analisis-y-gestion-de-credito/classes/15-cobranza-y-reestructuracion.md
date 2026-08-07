@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 15
 title: "Cobranza y reestructuración"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Cobranza y reestructuración

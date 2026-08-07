@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 3
 title: "Cuenta corriente y cheques"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Cuenta corriente y cheques

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 12
 title: "Creación de dinero"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Creación de dinero

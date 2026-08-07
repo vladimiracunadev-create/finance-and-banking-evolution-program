@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 9
 title: "Política fiscal"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Política fiscal

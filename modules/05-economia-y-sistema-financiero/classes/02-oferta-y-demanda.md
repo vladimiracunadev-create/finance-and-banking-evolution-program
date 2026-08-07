@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 2
 title: "Oferta y demanda"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Oferta y demanda

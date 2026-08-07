@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 5
 title: "Planificación estratégica y de capital"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Planificación estratégica y de capital

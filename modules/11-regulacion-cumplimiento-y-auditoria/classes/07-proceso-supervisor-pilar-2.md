@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 7
 title: "Proceso supervisor: Pilar 2"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Proceso supervisor: Pilar 2

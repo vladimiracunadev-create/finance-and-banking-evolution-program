@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 11
 title: "Tesorería y balance"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Tesorería y balance

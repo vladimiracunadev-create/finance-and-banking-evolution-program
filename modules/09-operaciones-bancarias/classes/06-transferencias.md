@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 6
 title: "Transferencias"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Transferencias

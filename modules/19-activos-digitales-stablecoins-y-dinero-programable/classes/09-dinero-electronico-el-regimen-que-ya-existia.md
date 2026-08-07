@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 9
 title: "Dinero electrónico: el régimen que ya existía"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF, BCCh, EBA]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Dinero electrónico: el régimen que ya existía

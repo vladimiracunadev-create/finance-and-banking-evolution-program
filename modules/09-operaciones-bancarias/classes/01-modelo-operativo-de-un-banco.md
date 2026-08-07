@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 1
 title: "Modelo operativo de un banco"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Modelo operativo de un banco

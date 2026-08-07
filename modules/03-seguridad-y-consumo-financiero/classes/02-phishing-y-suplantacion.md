@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 2
 title: "Phishing y suplantación"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Phishing y suplantación

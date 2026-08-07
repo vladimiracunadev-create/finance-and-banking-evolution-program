@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 11
 title: "Fusiones y adquisiciones"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Fusiones y adquisiciones

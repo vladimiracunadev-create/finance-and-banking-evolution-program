@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 13
 title: "Operaciones internacionales"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Operaciones internacionales

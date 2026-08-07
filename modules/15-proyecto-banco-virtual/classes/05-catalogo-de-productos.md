@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 5
 title: "Catálogo de productos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Catálogo de productos

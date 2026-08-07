@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 4
 title: "Tarjetas de débito"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Tarjetas de débito

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 10
 title: "Depósitos a plazo"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Depósitos a plazo

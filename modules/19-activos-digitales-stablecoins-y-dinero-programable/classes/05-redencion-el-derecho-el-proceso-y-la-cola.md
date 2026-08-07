@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 5
 title: "Redención: el derecho, el proceso y la cola"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Redención: el derecho, el proceso y la cola

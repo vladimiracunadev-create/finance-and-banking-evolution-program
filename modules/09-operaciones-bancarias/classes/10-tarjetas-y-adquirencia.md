@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 10
 title: "Tarjetas y adquirencia"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Tarjetas y adquirencia

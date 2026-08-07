@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 13
 title: "Plan ante una crisis financiera"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Plan ante una crisis financiera

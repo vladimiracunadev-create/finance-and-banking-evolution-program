@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 4
 title: "Emisión: mercado primario tokenizado"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Emisión: mercado primario tokenizado

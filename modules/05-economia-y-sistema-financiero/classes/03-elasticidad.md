@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 3
 title: "Elasticidad"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Elasticidad

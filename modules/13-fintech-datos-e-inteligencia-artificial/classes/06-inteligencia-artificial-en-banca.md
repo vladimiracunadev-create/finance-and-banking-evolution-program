@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 6
 title: "Inteligencia artificial en banca"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Inteligencia artificial en banca

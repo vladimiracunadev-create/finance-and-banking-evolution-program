@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 13
 title: "Creación de mercado automatizada"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, BIS, FSB]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Creación de mercado automatizada

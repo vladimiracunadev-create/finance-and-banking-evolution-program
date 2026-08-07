@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 12
 title: "Resolución bancaria y seguro de depósitos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Resolución bancaria y seguro de depósitos

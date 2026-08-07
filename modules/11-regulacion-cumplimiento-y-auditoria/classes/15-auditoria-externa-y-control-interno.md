@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 15
 title: "Auditoría externa y control interno"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Auditoría externa y control interno

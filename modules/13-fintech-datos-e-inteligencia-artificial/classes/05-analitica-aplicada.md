@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 5
 title: "Analítica aplicada"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Analítica aplicada

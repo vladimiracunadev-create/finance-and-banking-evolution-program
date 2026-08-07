@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 2
 title: "Tasas equivalentes"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Tasas equivalentes

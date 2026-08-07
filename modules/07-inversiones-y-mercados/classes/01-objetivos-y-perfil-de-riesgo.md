@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 1
 title: "Objetivos y perfil de riesgo"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Objetivos y perfil de riesgo

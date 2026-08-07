@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 14
 title: "Modelo de amenazas priorizado"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [NIST, BCBS, FSB]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Modelo de amenazas priorizado

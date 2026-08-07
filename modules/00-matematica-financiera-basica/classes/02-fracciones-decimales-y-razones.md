@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 2
 title: "Fracciones, decimales y razones"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Fracciones, decimales y razones

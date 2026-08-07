@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 5
 title: "Fondos mutuos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Fondos mutuos

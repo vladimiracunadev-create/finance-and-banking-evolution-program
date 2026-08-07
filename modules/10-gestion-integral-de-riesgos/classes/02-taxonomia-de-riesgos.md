@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 2
 title: "Taxonomía de riesgos bancarios"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Taxonomía de riesgos bancarios

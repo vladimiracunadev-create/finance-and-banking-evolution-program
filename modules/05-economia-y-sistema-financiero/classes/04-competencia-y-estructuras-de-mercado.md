@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 4
 title: "Competencia y estructuras de mercado"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Competencia y estructuras de mercado

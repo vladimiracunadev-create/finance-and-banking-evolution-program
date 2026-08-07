@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 4
 title: "Rentabilidad y asignación"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Rentabilidad y asignación

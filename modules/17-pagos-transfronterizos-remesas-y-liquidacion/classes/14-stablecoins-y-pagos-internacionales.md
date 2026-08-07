@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 14
 title: "Stablecoins y pagos internacionales"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-desarrollo
 primary_authorities: [FSB, CPMI, GAFI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Stablecoins y pagos internacionales

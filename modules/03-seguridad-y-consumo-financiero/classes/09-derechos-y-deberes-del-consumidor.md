@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 9
 title: "Derechos y deberes del consumidor financiero"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Derechos y deberes del consumidor financiero

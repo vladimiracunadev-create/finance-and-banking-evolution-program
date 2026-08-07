@@ -1,12 +1,5 @@
 # Parte 19: Blockchain y DLT para instituciones financieras
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 14
-- **Horas:** 21
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 Conviene decir desde el principio qué tipo de parte es esta. No enseña a

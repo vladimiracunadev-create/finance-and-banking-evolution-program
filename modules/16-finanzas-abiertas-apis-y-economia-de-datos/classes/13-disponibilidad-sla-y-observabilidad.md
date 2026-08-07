@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 13
 title: "Disponibilidad, SLA, observabilidad e incidentes"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Disponibilidad, SLA, observabilidad e incidentes

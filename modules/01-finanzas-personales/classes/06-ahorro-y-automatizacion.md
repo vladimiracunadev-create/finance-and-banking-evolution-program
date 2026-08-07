@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 6
 title: "Ahorro y automatización"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Ahorro y automatización

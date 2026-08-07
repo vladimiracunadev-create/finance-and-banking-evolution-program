@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 5
 title: "Consentimiento: creación, vigencia, renovación y revocación"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Consentimiento: creación, vigencia, renovación y revocación

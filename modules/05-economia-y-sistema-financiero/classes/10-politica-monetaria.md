@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 10
 title: "Política monetaria"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Política monetaria

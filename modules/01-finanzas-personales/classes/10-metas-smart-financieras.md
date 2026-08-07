@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 10
 title: "Metas SMART financieras"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Metas SMART financieras

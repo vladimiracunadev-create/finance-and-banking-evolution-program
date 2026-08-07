@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 10
 title: "Remesas y corredores internacionales"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [Banco Mundial, FSB, CPMI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Remesas y corredores internacionales

@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 5
 title: "Decisión de arquitectura: el dinero"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, BIS, BCCh]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Decisión de arquitectura: el dinero

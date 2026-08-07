@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 10
 title: "Estado de situación financiera"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Estado de situación financiera

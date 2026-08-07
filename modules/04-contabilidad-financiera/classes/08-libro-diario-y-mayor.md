@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 8
 title: "Libro diario y mayor"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Libro diario y mayor

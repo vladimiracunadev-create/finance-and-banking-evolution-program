@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 15
 title: "Proyecto: informe macrofinanciero"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Proyecto: informe macrofinanciero

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 7
 title: "Inflación y poder adquisitivo"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Inflación y poder adquisitivo

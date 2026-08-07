@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 4
 title: "Presupuesto base cero"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Presupuesto base cero

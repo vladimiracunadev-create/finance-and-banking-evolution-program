@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 9
 title: "Financiamiento de proyectos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Financiamiento de proyectos

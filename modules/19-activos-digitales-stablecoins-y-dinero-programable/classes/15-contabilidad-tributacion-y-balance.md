@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 15
 title: "Contabilidad, tributación y balance"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IASB, SII, BCBS]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Contabilidad, tributación y balance

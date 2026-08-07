@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 12
 title: "Custodia de activos digitales"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, NIST, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Custodia de activos digitales

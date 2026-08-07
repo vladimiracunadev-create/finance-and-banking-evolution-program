@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 7
 title: "Originación y decisión"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Originación y decisión

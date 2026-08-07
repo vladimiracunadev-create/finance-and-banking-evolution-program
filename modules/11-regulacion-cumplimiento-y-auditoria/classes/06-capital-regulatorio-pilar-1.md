@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 6
 title: "Capital regulatorio: Pilar 1"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Capital regulatorio: Pilar 1

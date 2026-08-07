@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 6
 title: "OAuth, OpenID Connect y autorización financiera"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: estandar-vigente
 primary_authorities: [IETF, OpenID Foundation]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · OAuth, OpenID Connect y autorización financiera

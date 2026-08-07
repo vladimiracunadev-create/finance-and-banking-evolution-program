@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 13
 title: "Pruebas de estrés"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Pruebas de estrés

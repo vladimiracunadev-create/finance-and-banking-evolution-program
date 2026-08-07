@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 15
 title: "Canales y experiencia del cliente"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Canales y experiencia del cliente

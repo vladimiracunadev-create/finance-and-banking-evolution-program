@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 8
 title: "Liquidez, prefinanciación, netting y horarios"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, Comité de Basilea]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Liquidez, prefinanciación, netting y horarios

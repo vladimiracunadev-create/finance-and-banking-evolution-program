@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 10
 title: "Iniciación de pagos y confirmación de fondos"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-despliegue-por-fases
 primary_authorities: [CMF, Banco Central de Chile]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Iniciación de pagos y confirmación de fondos

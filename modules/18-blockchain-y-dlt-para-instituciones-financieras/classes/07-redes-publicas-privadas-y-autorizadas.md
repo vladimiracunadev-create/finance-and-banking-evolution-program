@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 19
 class: 7
 title: "Redes públicas, privadas y autorizadas"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Redes públicas, privadas y autorizadas

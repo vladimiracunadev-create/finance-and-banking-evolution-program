@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 10
 title: "Monedas digitales de banco central"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Monedas digitales de banco central

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 2
 title: "Análisis de estados financieros de empresas"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Análisis de estados financieros de empresas

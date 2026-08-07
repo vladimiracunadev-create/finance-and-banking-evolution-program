@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 19
 class: 3
 title: "Claves, direcciones y gestión criptográfica"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [NIST, Comité de Basilea]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Claves, direcciones y gestión criptográfica

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 1
 title: "Mapa financiero personal"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Mapa financiero personal

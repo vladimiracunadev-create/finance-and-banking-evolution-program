@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 5
 title: "Anualidades anticipadas"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Anualidades anticipadas

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 10
 title: "Protección de datos y secreto bancario"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Protección de datos y secreto bancario

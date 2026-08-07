@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 11
 title: "FX: del mercado mayorista al registro"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BIS, CPMI, FSB]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · FX: del mercado mayorista al registro

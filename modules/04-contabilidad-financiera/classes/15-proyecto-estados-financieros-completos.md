@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 15
 title: "Proyecto: estados financieros completos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Proyecto: estados financieros completos

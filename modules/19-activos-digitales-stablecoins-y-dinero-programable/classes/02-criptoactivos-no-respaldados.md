@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 2
 title: "Criptoactivos no respaldados"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BCBS, IOSCO, FSB]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Criptoactivos no respaldados

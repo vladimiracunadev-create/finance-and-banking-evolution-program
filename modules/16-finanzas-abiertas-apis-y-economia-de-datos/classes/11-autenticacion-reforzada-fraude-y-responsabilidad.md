@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 11
 title: "Autenticación reforzada, fraude y responsabilidad"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF, SERNAC]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Autenticación reforzada, fraude y responsabilidad

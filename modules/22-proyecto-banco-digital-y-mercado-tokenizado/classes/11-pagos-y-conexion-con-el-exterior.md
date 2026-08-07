@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 11
 title: "Pagos y conexión con el exterior"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, GAFI, FSB]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Pagos y conexión con el exterior

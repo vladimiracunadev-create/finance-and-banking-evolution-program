@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 9
 title: "APIs de cuentas, productos, créditos, seguros e inversiones"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-despliegue-por-fases
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · APIs de cuentas, productos, créditos, seguros e inversiones

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 14
 title: "Proyecto: comparador de productos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Proyecto: comparador de productos

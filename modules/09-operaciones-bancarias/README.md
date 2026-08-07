@@ -1,18 +1,59 @@
 # Parte 10: Operaciones bancarias
 
-- **Etapa:** 3
-- **Clases:** 16
-- **Horas:** 24
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
+La Parte 9 evaluó el crédito. Esta sale del crédito y recorre todo lo demás que
+hace un banco todos los días: captar, pagar, compensar, conciliar, cambiar
+divisas y cuadrar la caja. Es la parte más operativa del programa y la que
+explica de dónde sale realmente el margen de una entidad.
 
-## Resultados de aprendizaje
+Casi todos sus controles se deducen de una sola idea, que la clase 1 instala:
+quien origina una operación no la aprueba, y quien la aprueba no la registra. Las
+quince clases siguientes son esa idea aplicada a procesos concretos.
 
-- Explicar los conceptos esenciales de operaciones bancarias.
-- Resolver problemas y documentar supuestos.
-- Aplicar criterios éticos, de seguridad y trazabilidad.
-- Construir una evidencia práctica para el portafolio.
+El eje es que **el negocio bancario vive de una transformación de plazos**: se
+capta a corto y se coloca a largo. De ahí salen su utilidad, su riesgo de liquidez
+y buena parte de la regulación que la Parte 12 desarrolla.
+
+## Con qué hay que llegar
+
+| Parte | Qué aporta |
+|---|---|
+| 3 | Los productos vistos desde el cliente |
+| 5 | Contabilidad, asientos y conciliación |
+| 9 | Colocación de crédito y su ciclo |
+
+## Qué se aprende
+
+1. **Recorrer** una operación por las tres áreas del banco y ubicar sus controles.
+2. **Calcular** el costo de fondos y estimar el saldo núcleo que permite prestar a largo plazo.
+3. **Situar** el momento de firmeza de un pago y decidir qué se puede hacer antes y después.
+4. **Conciliar** una cuenta clasificando cada partida y detectando patrones de fraude.
+5. **Dimensionar** la capacidad operativa por volumen pico y no por la media.
+
+## Cómo se encadenan las 16 clases
+
+Las dieciséis clases van del marco al proceso y del proceso a su continuidad.
+
+La **clase 1** describe el modelo operativo y el principio de segregación que
+justifica casi todos los controles que vienen después.
+
+Las **clases 2 y 3** son las dos caras del balance: de dónde sale el dinero y dónde
+se pone, con las medidas que deciden si crecer conviene.
+
+Las **clases 4 a 8** recorren los procesos del día a día en el orden en que ocurren:
+abrir una cuenta, depositar, transferir, compensar entre bancos y conciliar. La 8
+es el control que detecta lo que los siete anteriores dejaron pasar.
+
+Las **clases 9 y 10** miran los pagos como un mercado, con su economía y sus dos
+negocios opuestos dentro de las tarjetas.
+
+Las **clases 11 y 12** son los dos extremos del modelo: el canal más caro y la
+función que gestiona todo el balance.
+
+Las **clases 13 y 14** cruzan la frontera, donde no existe infraestructura común y
+los instrumentos documentales sustituyen a la confianza.
+
+Las **clases 15 y 16** cierran con el canal por el que llega cada operación y con
+lo que ocurre cuando el proceso no funciona.
 
 ## Secuencia
 
@@ -33,10 +74,16 @@
 15. [Canales y experiencia del cliente](classes/15-canales-y-experiencia-del-cliente.md)
 16. [Continuidad y eficiencia operativa](classes/16-continuidad-y-eficiencia-operativa.md)
 
-## Evidencias
+## Cómo se trabaja
 
-- Bitácora de decisiones.
-- Archivos de cálculo o código.
-- Respuestas a casos.
-- Proyecto integrador.
-- Autoevaluación final.
+Son **16 clases de 90 minutos** —24 horas de sesión— con **6 laboratorios**, **2 evaluaciones** y un proyecto integrador. Cada clase supone la anterior, así que el orden importa: saltarse una deja sin base a las que vienen después.
+
+Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos reales de terceros. Las evaluaciones son dos: una diagnóstica al empezar, que no se califica para aprobar sino para saber qué reforzar, y una final. El proyecto es el entregable que demuestra que la parte se entendió.
+
+## Qué queda como evidencia
+
+- El recorrido de una operación con sus controles y su punto de segregación.
+- El costo de fondos y el saldo núcleo de un banco sintético.
+- Una conciliación con sus partidas clasificadas y su hallazgo.
+- El mapa de criticidad de los procesos con la prueba de continuidad de uno.
+- La autoevaluación final con lo que quedó flojo.

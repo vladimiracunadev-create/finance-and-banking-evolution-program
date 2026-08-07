@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 12
 title: "Marco de riesgos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Marco de riesgos

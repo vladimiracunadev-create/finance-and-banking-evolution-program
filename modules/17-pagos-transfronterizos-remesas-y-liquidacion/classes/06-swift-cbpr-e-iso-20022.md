@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 6
 title: "SWIFT, CBPR+ e ISO 20022"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: estandar-vigente
 primary_authorities: [ISO, CPMI]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · SWIFT, CBPR+ e ISO 20022

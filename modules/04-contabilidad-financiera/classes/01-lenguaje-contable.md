@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 1
 title: "Lenguaje contable"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Lenguaje contable

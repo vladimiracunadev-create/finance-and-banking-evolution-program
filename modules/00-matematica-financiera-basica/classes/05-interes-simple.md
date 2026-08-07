@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 5
 title: "Interés simple"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Interés simple

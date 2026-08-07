@@ -1,18 +1,48 @@
 # Parte 1: Matemática financiera básica
 
-- **Etapa:** 1
-- **Clases:** 14
-- **Horas:** 21
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
+Esta es la primera parte del programa y no supone nada anterior. Su objetivo no
+es enseñar matemáticas sino instalar las cinco o seis operaciones con las que se
+toma cualquier decisión de dinero, y hacerlo con la disciplina que exige un
+número que otra persona va a usar: unidad declarada, supuestos escritos y
+verificación por un segundo camino.
 
-## Resultados de aprendizaje
+Casi todo lo que hay aquí parece elemental. Lo es en la aritmética y no en la
+ejecución: el error más caro del programa completo —mezclar una tasa anual con
+un plazo en meses— aparece en la clase 5 y reaparece en la Parte 7 con
+consecuencias de miles de millones. Por eso la parte insiste tanto en las
+unidades.
 
-- Explicar los conceptos esenciales de matemática financiera básica.
-- Resolver problemas y documentar supuestos.
-- Aplicar criterios éticos, de seguridad y trazabilidad.
-- Construir una evidencia práctica para el portafolio.
+El eje es que **el dinero tiene precio y ese precio depende del tiempo**. Todo lo
+demás —interés, valor presente, cuotas, amortización— son formas de aplicar esa
+frase.
+
+## Qué se aprende
+
+1. **Calcular** interés simple y compuesto despejando cualquiera de sus variables, con las unidades alineadas.
+2. **Distinguir** una variación de un nivel, un punto porcentual de un porcentaje y una tasa nominal de una efectiva.
+3. **Mover** un flujo en el tiempo en las dos direcciones y comparar alternativas sobre una fecha común.
+4. **Construir** una tabla de amortización que cierre en cero y auditar una ajena en cinco controles.
+5. **Documentar** un cálculo con sus supuestos, de modo que otra persona pueda reproducirlo.
+
+## Cómo se encadenan las 14 clases
+
+Las clases van de lo que se cuenta a lo que se decide, en cuatro bloques.
+
+Las **clases 1 a 4** instalan el lenguaje: qué hace que un número financiero
+signifique algo, cómo se expresa una cantidad y cómo se mide un cambio. No hay
+finanzas todavía; hay precisión, que es lo que hace posible el resto.
+
+Las **clases 5 a 7** ponen precio al tiempo. El interés simple es la línea recta
+contra la que se mide la curva del compuesto, y la inflación de la clase 7
+introduce la pregunta que ordena la etapa entera: si un saldo que crece está
+ganando o perdiendo.
+
+Las **clases 8 a 10** convierten eso en herramienta. El eje de tiempo y el valor
+presente se usan en todas las partes siguientes del programa, hasta la última.
+
+Las **clases 11 a 14** aplican todo a la operación que más gente firma en su vida:
+un crédito con cuotas. La 13 decide con qué herramienta se calcula cuando el
+cálculo se repite, y la 14 lo reúne en algo que funciona y se puede defender.
 
 ## Secuencia
 
@@ -31,10 +61,16 @@
 13. [Herramientas: calculadora, Excel y Python](classes/13-herramientas-calculadora-excel-y-python.md)
 14. [Proyecto: calculadora financiera personal](classes/14-proyecto-calculadora-financiera-personal.md)
 
-## Evidencias
+## Cómo se trabaja
 
-- Bitácora de decisiones.
-- Archivos de cálculo o código.
-- Respuestas a casos.
-- Proyecto integrador.
-- Autoevaluación final.
+Son **14 clases de 90 minutos** —21 horas de sesión— con **6 laboratorios**, **2 evaluaciones** y un proyecto integrador. Cada clase supone la anterior, así que el orden importa: saltarse una deja sin base a las que vienen después.
+
+Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos reales de terceros. Las evaluaciones son dos: una diagnóstica al empezar, que no se califica para aprobar sino para saber qué reforzar, y una final. El proyecto es el entregable que demuestra que la parte se entendió.
+
+## Qué queda como evidencia
+
+- La hoja de supuestos de cada cálculo, con su unidad y su fecha.
+- Las tablas de amortización construidas y la auditoría de una ajena.
+- La comparación de bases de días con la brecha en pesos y en porcentaje.
+- La calculadora del proyecto, con sus casos de prueba en verde.
+- La autoevaluación final con lo que quedó flojo.

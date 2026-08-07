@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 14
 title: "Resiliencia operativa y terceros críticos"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BCBS, CPMI, ESAs]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Resiliencia operativa y terceros críticos

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 14
 title: "Relación integral con la empresa"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Relación integral con la empresa

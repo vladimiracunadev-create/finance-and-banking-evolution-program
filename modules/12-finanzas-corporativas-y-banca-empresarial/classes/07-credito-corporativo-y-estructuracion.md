@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 7
 title: "Crédito corporativo y estructuración"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Crédito corporativo y estructuración

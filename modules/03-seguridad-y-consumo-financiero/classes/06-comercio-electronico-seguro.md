@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 6
 title: "Comercio electrónico seguro"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Comercio electrónico seguro

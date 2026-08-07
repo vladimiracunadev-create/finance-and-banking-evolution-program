@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 1
 title: "Qué es un pago transfronterizo"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [Banco Central de Chile, CPMI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Qué es un pago transfronterizo

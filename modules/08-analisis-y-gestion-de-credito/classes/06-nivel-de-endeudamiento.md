@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 6
 title: "Nivel de endeudamiento"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Nivel de endeudamiento

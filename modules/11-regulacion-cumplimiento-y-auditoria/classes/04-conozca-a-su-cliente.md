@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 4
 title: "Conozca a su cliente y debida diligencia"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Conozca a su cliente y debida diligencia

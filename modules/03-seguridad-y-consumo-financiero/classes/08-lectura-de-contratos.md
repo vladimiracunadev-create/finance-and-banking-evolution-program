@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 8
 title: "Lectura de contratos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Lectura de contratos

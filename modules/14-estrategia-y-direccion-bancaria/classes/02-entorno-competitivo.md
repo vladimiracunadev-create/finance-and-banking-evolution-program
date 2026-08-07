@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 2
 title: "Entorno competitivo"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Entorno competitivo

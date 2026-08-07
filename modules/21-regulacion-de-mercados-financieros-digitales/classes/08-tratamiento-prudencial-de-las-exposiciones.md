@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 8
 title: "Tratamiento prudencial de las exposiciones"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BCBS, BIS, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Tratamiento prudencial de las exposiciones

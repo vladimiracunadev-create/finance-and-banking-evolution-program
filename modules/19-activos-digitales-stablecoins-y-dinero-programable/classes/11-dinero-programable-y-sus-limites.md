@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 11
 title: "Dinero programable y sus límites"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BIS, CPMI, OCDE]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Dinero programable y sus límites

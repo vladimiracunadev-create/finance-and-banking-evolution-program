@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 13
 title: "Herramientas: calculadora, Excel y Python"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Herramientas: calculadora, Excel y Python

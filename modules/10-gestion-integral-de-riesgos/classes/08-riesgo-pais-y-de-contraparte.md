@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 8
 title: "Riesgo país y de contraparte"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Riesgo país y de contraparte

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 14
 title: "Estrategia tecnológica"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Estrategia tecnológica

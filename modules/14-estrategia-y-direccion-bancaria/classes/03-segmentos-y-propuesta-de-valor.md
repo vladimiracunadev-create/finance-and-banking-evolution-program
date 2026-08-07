@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 3
 title: "Segmentos y propuesta de valor"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Segmentos y propuesta de valor

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 14
 title: "Cuadro de mando del banco"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Cuadro de mando del banco

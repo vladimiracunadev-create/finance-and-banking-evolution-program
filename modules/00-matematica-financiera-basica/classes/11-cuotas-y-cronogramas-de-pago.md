@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 11
 title: "Cuotas y cronogramas de pago"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Cuotas y cronogramas de pago

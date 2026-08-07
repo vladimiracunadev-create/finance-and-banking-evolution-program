@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 8
 title: "Conducta de mercado y protección al consumidor"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Conducta de mercado y protección al consumidor

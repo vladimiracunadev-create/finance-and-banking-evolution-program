@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 18
 title: "Defensa ante el comité"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BCBS, CMF, IOSCO]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 18 · Defensa ante el comité

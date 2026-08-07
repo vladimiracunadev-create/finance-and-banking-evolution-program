@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 6
 title: "Inflación"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Inflación

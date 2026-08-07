@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 4
 title: "Autorización, registro y supervisión"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF, IOSCO, BCBS]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Autorización, registro y supervisión

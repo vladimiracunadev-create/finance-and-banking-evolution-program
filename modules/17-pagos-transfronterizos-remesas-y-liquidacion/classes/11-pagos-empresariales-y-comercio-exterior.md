@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 11
 title: "Pagos empresariales y comercio exterior"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [Banco Central de Chile, CCI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Pagos empresariales y comercio exterior

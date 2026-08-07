@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 1
 title: "Taxonomía de los activos digitales"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, BCBS, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Taxonomía de los activos digitales

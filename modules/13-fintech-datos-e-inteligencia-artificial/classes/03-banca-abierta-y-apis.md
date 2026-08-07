@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 3
 title: "Banca abierta y APIs"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Banca abierta y APIs

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 3
 title: "Flujo de caja y necesidades de fondos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Flujo de caja y necesidades de fondos

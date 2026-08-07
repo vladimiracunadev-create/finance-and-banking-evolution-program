@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 4
 title: "Arquitectura de datos y sistemas"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Arquitectura de datos y sistemas

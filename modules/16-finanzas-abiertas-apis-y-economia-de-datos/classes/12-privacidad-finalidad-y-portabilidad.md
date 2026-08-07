@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 12
 title: "Privacidad, finalidad, minimización y portabilidad"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-implantacion
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Privacidad, finalidad, minimización y portabilidad

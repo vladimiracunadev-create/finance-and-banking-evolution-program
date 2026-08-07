@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 7
 title: "Sistemas de amortización"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Sistemas de amortización

@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 10
 title: "El tramo de dinero"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, BIS, IOSCO]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · El tramo de dinero

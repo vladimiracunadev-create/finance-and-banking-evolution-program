@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 15
 title: "Proyecto: cartera simulada"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Proyecto: cartera simulada

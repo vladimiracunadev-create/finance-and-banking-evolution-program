@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 4
 title: "Cuentas nostro, vostro y loro"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Cuentas nostro, vostro y loro

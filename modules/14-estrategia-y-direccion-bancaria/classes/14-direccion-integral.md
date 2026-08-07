@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 14
 title: "Dirección integral"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Dirección integral

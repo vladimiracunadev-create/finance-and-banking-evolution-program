@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 12
 title: "Regulación de la tecnología financiera"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Regulación de la tecnología financiera

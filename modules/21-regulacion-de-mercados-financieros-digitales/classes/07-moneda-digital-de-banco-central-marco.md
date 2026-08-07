@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 7
 title: "Moneda digital de banco central: marco jurídico"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-desarrollo
 primary_authorities: [BIS, BCCh, CPMI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Moneda digital de banco central: marco jurídico

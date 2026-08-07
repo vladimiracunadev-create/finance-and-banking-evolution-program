@@ -1,18 +1,56 @@
 # Parte 13: Finanzas corporativas y banca empresarial
 
-- **Etapa:** 4
-- **Clases:** 14
-- **Horas:** 21
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
+Aquí empieza la Etapa 4 y con ella la vista del comité. Esta parte trata del
+cliente que más margen aporta y más difícil es de servir, y lo hace desde los dos
+lados a la vez: qué decide una empresa sobre su dinero y qué evalúa un banco
+cuando se lo presta.
 
-## Resultados de aprendizaje
+Una empresa no pide crédito porque sí: lo pide porque su ciclo de conversión de
+efectivo tiene un hueco. Medir ese hueco, saber si es estructural o estacional y
+ofrecer el producto que le corresponde es la diferencia entre una operación que
+funciona y una que incumple con la empresa sana.
 
-- Explicar los conceptos esenciales de finanzas corporativas y banca empresarial.
-- Resolver problemas y documentar supuestos.
-- Aplicar criterios éticos, de seguridad y trazabilidad.
-- Construir una evidencia práctica para el portafolio.
+El eje es que **una relación empresarial se evalúa por el conjunto y no por el
+crédito**. El crédito suele ser el producto que menos aporta y más riesgo consume,
+y decidir solo con él destruye valor.
+
+## Con qué hay que llegar
+
+| Parte | Qué aporta |
+|---|---|
+| 5 | Estados financieros y calidad del resultado |
+| 7 | Valor actual neto, tasa interna y sensibilidad |
+| 9 | Evaluación de crédito y flujo del deudor |
+
+## Qué se aprende
+
+1. **Calcular** el ciclo de conversión de efectivo y deducir qué producto corresponde a cada necesidad.
+2. **Detectar** reconocimiento agresivo y calidad de resultado deteriorada antes de que aparezca en la mora.
+3. **Dimensionar** un crédito desde la necesidad operativa de fondos y no desde el importe solicitado.
+4. **Calibrar** covenants con una holgura medida, para que avisen a tiempo sin sonar todo el rato.
+5. **Valorar** una empresa por tres enfoques y presentar el resultado como rango con su sensibilidad.
+
+## Cómo se encadenan las 14 clases
+
+Las catorce clases van del cliente a la relación completa.
+
+Las **clases 1 a 3** entienden a la empresa: su ciclo, sus estados leídos con
+desconfianza y la necesidad de fondos que produce su forma de operar.
+
+Las **clases 4 a 6** cubren las decisiones de la empresa: cómo financia su corto
+plazo, cómo se estructura su capital y cómo decide en qué invertir.
+
+Las **clases 7 y 8** construyen la operación de crédito y el mecanismo que permite
+reaccionar durante los años que dura. Un covenant no existe para castigar sino
+para abrir una conversación antes de que sea tarde.
+
+Las **clases 9 a 12** son las operaciones especializadas: proyectos sin recurso,
+valoración, adquisiciones y mercado de capitales. La 12 plantea la posición
+incómoda del banco, que asesora una emisión que sustituye a su propio crédito.
+
+La **clase 13** trata lo que ocurre cuando la empresa no puede pagar, con un
+diagnóstico que decide todo. La **clase 14** reúne las trece en la gestión de una
+relación y resuelve con procedimiento la tensión entre crecer y contener.
 
 ## Secuencia
 
@@ -31,10 +69,16 @@
 13. [Reestructuración e insolvencia](classes/13-reestructuracion-e-insolvencia.md)
 14. [Relación integral con la empresa](classes/14-relacion-integral-con-la-empresa.md)
 
-## Evidencias
+## Cómo se trabaja
 
-- Bitácora de decisiones.
-- Archivos de cálculo o código.
-- Respuestas a casos.
-- Proyecto integrador.
-- Autoevaluación final.
+Son **14 clases de 90 minutos** —21 horas de sesión— con **6 laboratorios**, **2 evaluaciones** y un proyecto integrador. Cada clase supone la anterior, así que el orden importa: saltarse una deja sin base a las que vienen después.
+
+Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos reales de terceros. Las evaluaciones son dos: una diagnóstica al empezar, que no se califica para aprobar sino para saber qué reforzar, y una final. El proyecto es el entregable que demuestra que la parte se entendió.
+
+## Qué queda como evidencia
+
+- El ciclo de conversión de efectivo de tres empresas con el producto que corresponde.
+- El análisis de calidad de resultado con sus señales contrastadas.
+- Una operación estructurada con su calendario ajustado al flujo y sus covenants calibrados.
+- La valoración de una empresa por tres enfoques, con la dispersión explicada.
+- La autoevaluación final con lo que quedó flojo.

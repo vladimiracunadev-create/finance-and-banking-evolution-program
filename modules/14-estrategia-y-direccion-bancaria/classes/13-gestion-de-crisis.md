@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 13
 title: "Gestión de crisis"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Gestión de crisis

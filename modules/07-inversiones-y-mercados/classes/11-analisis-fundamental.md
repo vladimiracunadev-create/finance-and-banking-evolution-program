@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 11
 title: "Análisis fundamental"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Análisis fundamental

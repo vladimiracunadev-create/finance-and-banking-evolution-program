@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 10
 title: "Monedas digitales de banco central"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-desarrollo
 primary_authorities: [BIS, BCCh, CPMI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Monedas digitales de banco central

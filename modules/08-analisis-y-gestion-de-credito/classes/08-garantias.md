@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 8
 title: "Garantías"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Garantías

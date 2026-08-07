@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 3
 title: "Corresponsalía bancaria"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, FSB, GAFI]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Corresponsalía bancaria

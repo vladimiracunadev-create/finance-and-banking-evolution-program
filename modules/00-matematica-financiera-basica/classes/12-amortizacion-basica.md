@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 12
 title: "Amortización básica"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Amortización básica

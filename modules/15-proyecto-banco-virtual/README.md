@@ -1,18 +1,56 @@
 # Parte 16: Proyecto Banco Virtual
 
-- **Etapa:** 5
-- **Clases:** 18
-- **Horas:** 27
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
+Esta parte cierra la Etapa 4 y las 240 clases originales del programa
+construyendo un banco completo. No introduce temas nuevos: obliga a que los
+quince anteriores encajen entre sí, y ahí es donde aparecen las contradicciones
+que ninguna parte por separado podía mostrar.
 
-## Resultados de aprendizaje
+El Banco Austral es una entidad ficticia con parámetros fijos. Todo lo que se
+afirme sobre él tiene que salir de un cálculo reproducible con datos sintéticos
+declarados, y esa exigencia —más que el contenido— es lo que convierte el
+ejercicio en formación profesional.
 
-- Explicar los conceptos esenciales de proyecto banco virtual.
-- Resolver problemas y documentar supuestos.
-- Aplicar criterios éticos, de seguridad y trazabilidad.
-- Construir una evidencia práctica para el portafolio.
+El eje es que **una decisión correcta por separado puede ser incorrecta en el
+conjunto**. Las clases 16 y 17 lo demuestran haciendo operar el banco durante un
+ciclo y durante una crisis, que es cuando las decisiones se estorban.
+
+## Con qué hay que llegar
+
+| Parte | Qué aporta |
+|---|---|
+| 9 – 12 | Crédito, operaciones, riesgos y regulación |
+| 13 – 15 | Empresa, tecnología y dirección |
+
+## Qué se aprende
+
+1. **Acotar** el alcance de un banco con renuncias cuantificadas y un apetito de riesgo declarado.
+2. **Diseñar** gobierno, atribuciones y arquitectura de datos antes de que existan las operaciones.
+3. **Construir** precios desde la curva de transferencia y provisiones por el modelo de tres etapas.
+4. **Someter** el banco a un escenario adverso diseñado contra sus vulnerabilidades específicas.
+5. **Defender** cada decisión con su cálculo, su supuesto y la alternativa que se descartó.
+
+## Cómo se encadenan las 18 clases
+
+Las dieciocho clases construyen, operan y defienden.
+
+Las **clases 1 a 4** fijan las reglas del proyecto y las decisiones fundacionales:
+alcance, gobierno y arquitectura de datos. La 4 se toma antes de que existan los
+datos, que es cuando cuesta poco y decide mucho.
+
+Las **clases 5 a 8** definen qué se ofrece, a qué precio, cómo se decide y con qué
+modelos, en un banco nuevo que no tiene historia con la que estimarlos.
+
+Las **clases 9 a 11** montan la operación diaria, la contabilidad y la tesorería, y
+la 11 encuentra que la restricción activa de un banco nuevo no es el capital.
+
+Las **clases 12 a 14** ponen los límites: marco de riesgos con acciones
+comprometidas, programa de cumplimiento proporcional al segmento y cuadro de
+mando con contrapesos.
+
+Las **clases 15 a 17** rompen el banco a propósito: prueba de estrés, un ciclo
+completo con decisiones rezagadas y una crisis donde el efecto de señal domina.
+La **clase 18** lo defiende ante un comité, y lo que más pesa no son las respuestas
+sino los límites que se reconocen.
 
 ## Secuencia
 
@@ -35,10 +73,21 @@
 17. [Simulación de una crisis](classes/17-simulacion-de-una-crisis.md)
 18. [Defensa y cierre](classes/18-defensa-y-cierre.md)
 
-## Evidencias
+## Cómo se trabaja
 
-- Bitácora de decisiones.
-- Archivos de cálculo o código.
-- Respuestas a casos.
-- Proyecto integrador.
-- Autoevaluación final.
+Son **18 clases de 90 minutos** —27 horas de sesión— con **6 laboratorios**, **2 evaluaciones** y un proyecto integrador. Cada clase supone la anterior, así que el orden importa: saltarse una deja sin base a las que vienen después.
+
+Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos reales de terceros. Las evaluaciones son dos: una diagnóstica al empezar, que no se califica para aprobar sino para saber qué reforzar, y una final. El proyecto es el entregable que demuestra que la parte se entendió.
+
+## Qué queda como evidencia
+
+- El banco documentado en sus dieciocho entregables, con supuestos declarados.
+- Los estados financieros proyectados y las provisiones por etapas.
+- La prueba de estrés con la métrica que rompe primero.
+- La bitácora del ciclo y de la crisis, con cada decisión y su razón.
+- La defensa ante el comité con las preguntas difíciles anticipadas.
+
+> **Sobre el Banco Austral.** Es una entidad ficticia y todos sus datos son
+> sintéticos. El proyecto no se conecta con ninguna infraestructura real, no usa
+> credenciales ni fondos, y ninguna de sus salidas constituye asesoría financiera,
+> legal ni de inversión.

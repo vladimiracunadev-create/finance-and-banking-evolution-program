@@ -1,12 +1,5 @@
 # Parte 20: Activos digitales, stablecoins y dinero programable
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 16
-- **Horas:** 24
-- **Laboratorios:** 8
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 La Parte 19 estudió el registro. Esta parte estudia **lo que circula sobre él**

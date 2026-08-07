@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 4
 title: "Variaciones porcentuales e índices"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Variaciones porcentuales e índices

@@ -1,12 +1,5 @@
 # Parte 18: Pagos transfronterizos, remesas y liquidación internacional
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 16
-- **Horas:** 24
-- **Laboratorios:** 8
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 La Parte 10 explicó cómo se mueve el dinero dentro de un país. Esta parte cruza

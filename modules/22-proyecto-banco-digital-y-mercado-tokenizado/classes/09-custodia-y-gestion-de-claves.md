@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 9
 title: "Custodia y gestión de claves"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, NIST, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Custodia y gestión de claves

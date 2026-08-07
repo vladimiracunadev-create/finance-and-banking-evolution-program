@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 13
 title: "Supervisión bancaria"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Supervisión bancaria

@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 19
 class: 2
 title: "Resúmenes, firmas y árboles de Merkle"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: estandar-vigente
 primary_authorities: [NIST]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Resúmenes, firmas y árboles de Merkle

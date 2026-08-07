@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 13
 title: "Reestructuración e insolvencia"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Reestructuración e insolvencia

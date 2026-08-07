@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 16
 title: "Resolución ordenada y salida"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 16 · Resolución ordenada y salida

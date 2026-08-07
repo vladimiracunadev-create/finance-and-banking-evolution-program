@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 7
 title: "Empleo y desempleo"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Empleo y desempleo

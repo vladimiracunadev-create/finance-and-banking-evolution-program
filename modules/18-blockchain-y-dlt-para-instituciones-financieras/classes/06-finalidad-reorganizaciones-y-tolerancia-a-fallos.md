@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 19
 class: 6
 title: "Finalidad, reorganizaciones y tolerancia a fallos"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Finalidad, reorganizaciones y tolerancia a fallos

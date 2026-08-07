@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 3
 title: "Prevención de lavado de activos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Prevención de lavado de activos

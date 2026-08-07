@@ -1,12 +1,5 @@
 # Parte 23: Proyecto — banco digital y mercado tokenizado
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 18
-- **Horas:** 27
-- **Laboratorios:** 9
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 Esta parte no enseña nada nuevo. Construye.

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 7
 title: "Fondo de emergencia"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Fondo de emergencia

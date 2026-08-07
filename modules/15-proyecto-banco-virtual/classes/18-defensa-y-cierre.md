@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 18
 title: "Defensa y cierre"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 18 · Defensa y cierre

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 9
 title: "Patrimonio y balance personal"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Patrimonio y balance personal

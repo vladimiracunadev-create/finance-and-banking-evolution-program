@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 13
 title: "Depreciaciones y provisiones"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Depreciaciones y provisiones

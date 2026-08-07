@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 7
 title: "Historial crediticio"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Historial crediticio

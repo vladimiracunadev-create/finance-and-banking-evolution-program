@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 12
 title: "Pago contra pago y riesgo de liquidación"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, BIS, FSB]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Pago contra pago y riesgo de liquidación

@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 6
 title: "Mercado secundario y liquidez prometida"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Mercado secundario y liquidez prometida

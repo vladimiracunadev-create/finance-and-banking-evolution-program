@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 5
 title: "Tarjetas de crédito"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Tarjetas de crédito

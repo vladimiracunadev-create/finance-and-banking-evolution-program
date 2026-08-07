@@ -44,7 +44,10 @@ SUBTITULO = "De no saber calcular un porcentaje a dirigir un banco digital"
 # Bloques generados que no aportan nada leyendo de corrido: el pie de cada
 # clase repite la misma navegacion 352 veces.
 GENERADO = re.compile(r"<!-- gen:(footer|header):start -->.*?<!-- gen:\1:end -->", re.S)
-FRONTMATTER = re.compile(r"^---\n(.*?)\n---\n", re.S)
+# Los metadatos de una clase viven en un comentario HTML para que GitHub no
+# los renderice como una tabla delante del titulo. Aqui se leen y se
+# descartan: en el libro no aportan nada al lector.
+FRONTMATTER = re.compile(r"^<!--\s*meta\n(.*?)\n-->\n", re.S)
 MERMAID = re.compile(r"```mermaid\n(.*?)```", re.S)
 
 

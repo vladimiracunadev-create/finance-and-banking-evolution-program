@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 11
 title: "Seguros y protección patrimonial"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Seguros y protección patrimonial

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 9
 title: "Gobierno corporativo"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Gobierno corporativo

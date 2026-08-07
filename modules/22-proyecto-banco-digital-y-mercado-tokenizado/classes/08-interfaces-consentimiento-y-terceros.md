@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 8
 title: "Interfaces, consentimiento y terceros"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF, OCDE]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Interfaces, consentimiento y terceros

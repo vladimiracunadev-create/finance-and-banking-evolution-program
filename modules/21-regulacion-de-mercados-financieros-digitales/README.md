@@ -1,12 +1,5 @@
 # Parte 22: Regulación de mercados financieros digitales
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 18
-- **Horas:** 27
-- **Laboratorios:** 9
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 Las cinco partes anteriores de la etapa construyeron infraestructura: interfaces

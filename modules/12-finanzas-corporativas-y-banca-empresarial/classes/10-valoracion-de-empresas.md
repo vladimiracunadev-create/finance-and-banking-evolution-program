@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 10
 title: "Valoración de empresas"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Valoración de empresas

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 1
 title: "Escasez y decisiones"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Escasez y decisiones

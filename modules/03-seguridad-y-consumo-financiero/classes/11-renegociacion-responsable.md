@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 11
 title: "Renegociación responsable"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Renegociación responsable

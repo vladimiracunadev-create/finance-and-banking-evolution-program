@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 10
 title: "Liquidación y sus modos de fallo"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, BIS]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Liquidación y sus modos de fallo

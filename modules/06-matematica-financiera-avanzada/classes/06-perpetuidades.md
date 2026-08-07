@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 6
 title: "Perpetuidades"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Perpetuidades

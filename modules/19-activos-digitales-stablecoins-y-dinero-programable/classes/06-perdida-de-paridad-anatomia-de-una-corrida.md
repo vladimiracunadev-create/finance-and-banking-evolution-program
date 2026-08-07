@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 6
 title: "Pérdida de paridad: anatomía de una corrida"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, IOSCO]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Pérdida de paridad: anatomía de una corrida

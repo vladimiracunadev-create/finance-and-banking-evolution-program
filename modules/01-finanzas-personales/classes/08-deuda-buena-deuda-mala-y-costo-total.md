@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 8
 title: "Deuda buena, deuda mala y costo total"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Deuda buena, deuda mala y costo total

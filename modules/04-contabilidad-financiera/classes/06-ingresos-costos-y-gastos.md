@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 6
 title: "Ingresos, costos y gastos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Ingresos, costos y gastos

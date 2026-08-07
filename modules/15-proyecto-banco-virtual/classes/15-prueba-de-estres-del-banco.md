@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 15
 title: "Prueba de estrés del banco"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Prueba de estrés del banco

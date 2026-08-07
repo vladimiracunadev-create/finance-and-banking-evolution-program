@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 14
 title: "Capital económico y asignación"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Capital económico y asignación

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 2
 title: "Ecuación contable"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Ecuación contable

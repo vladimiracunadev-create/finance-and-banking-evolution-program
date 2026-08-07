@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 13
 title: "Interconexión de sistemas de pagos inmediatos"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-desarrollo
 primary_authorities: [CPMI, BIS Innovation Hub]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Interconexión de sistemas de pagos inmediatos

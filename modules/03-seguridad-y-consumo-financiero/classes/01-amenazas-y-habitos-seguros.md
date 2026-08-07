@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 1
 title: "Amenazas y hábitos seguros"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Amenazas y hábitos seguros

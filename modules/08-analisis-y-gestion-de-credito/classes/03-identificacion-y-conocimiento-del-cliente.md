@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 3
 title: "Identificación y conocimiento del cliente"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Identificación y conocimiento del cliente

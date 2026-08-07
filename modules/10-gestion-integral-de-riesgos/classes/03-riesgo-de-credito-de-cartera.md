@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 3
 title: "Riesgo de crédito de cartera y concentración"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Riesgo de crédito de cartera y concentración

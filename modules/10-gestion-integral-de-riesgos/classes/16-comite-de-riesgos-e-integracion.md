@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 16
 title: "Comité de riesgos e integración"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 16 · Comité de riesgos e integración

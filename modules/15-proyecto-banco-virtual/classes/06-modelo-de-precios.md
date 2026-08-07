@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 6
 title: "Modelo de precios"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Modelo de precios

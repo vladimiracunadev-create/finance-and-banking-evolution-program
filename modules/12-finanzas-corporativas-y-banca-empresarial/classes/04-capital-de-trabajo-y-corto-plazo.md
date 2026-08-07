@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 4
 title: "Capital de trabajo y financiamiento de corto plazo"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Capital de trabajo y financiamiento de corto plazo

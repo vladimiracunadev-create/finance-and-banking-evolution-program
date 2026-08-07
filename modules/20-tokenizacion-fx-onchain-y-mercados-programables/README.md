@@ -1,12 +1,5 @@
 # Parte 21: Tokenización, FX on-chain y mercados programables
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 16
-- **Horas:** 24
-- **Laboratorios:** 8
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 La Parte 19 estudió el registro y la Parte 20, el dinero que circula sobre él.

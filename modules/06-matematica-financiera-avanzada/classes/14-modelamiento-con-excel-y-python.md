@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 14
 title: "Modelamiento con Excel y Python"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Modelamiento con Excel y Python

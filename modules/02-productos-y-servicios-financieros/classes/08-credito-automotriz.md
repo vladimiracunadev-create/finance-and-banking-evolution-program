@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 8
 title: "Crédito automotriz"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Crédito automotriz

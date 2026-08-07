@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 10
 title: "Personas, cultura e incentivos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Personas, cultura e incentivos

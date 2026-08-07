@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 7
 title: "Compensación, liquidación y finalidad"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, Banco Central de Chile]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Compensación, liquidación y finalidad

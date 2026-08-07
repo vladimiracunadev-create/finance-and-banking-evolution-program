@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 1
 title: "Por qué se regula la banca"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Por qué se regula la banca

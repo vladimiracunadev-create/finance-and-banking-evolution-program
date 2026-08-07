@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 9
 title: "Flujo de caja del deudor empresarial"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Flujo de caja del deudor empresarial

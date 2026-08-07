@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 2
 title: "Misma actividad, mismo riesgo, misma regulación"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, IOSCO]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Misma actividad, mismo riesgo, misma regulación

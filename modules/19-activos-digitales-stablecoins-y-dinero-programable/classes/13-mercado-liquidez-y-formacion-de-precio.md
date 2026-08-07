@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 13
 title: "Mercado, liquidez y formación de precio"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, FSB, BIS]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Mercado, liquidez y formación de precio

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 4
 title: "Anualidades vencidas"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Anualidades vencidas

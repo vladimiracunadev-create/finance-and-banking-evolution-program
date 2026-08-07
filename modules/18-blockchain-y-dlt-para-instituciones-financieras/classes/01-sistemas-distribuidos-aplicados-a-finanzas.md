@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 19
 class: 1
 title: "Sistemas distribuidos aplicados a finanzas"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, NIST]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Sistemas distribuidos aplicados a finanzas

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 1
 title: "Tasas nominales y efectivas"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Tasas nominales y efectivas

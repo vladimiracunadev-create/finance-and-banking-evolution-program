@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 3
 title: "Conversión de periodicidades"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Conversión de periodicidades

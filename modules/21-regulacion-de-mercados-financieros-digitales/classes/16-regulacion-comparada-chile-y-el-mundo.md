@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 16
 title: "Regulación comparada: Chile y el mundo"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF, FSB, IOSCO]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 16 · Regulación comparada: Chile y el mundo

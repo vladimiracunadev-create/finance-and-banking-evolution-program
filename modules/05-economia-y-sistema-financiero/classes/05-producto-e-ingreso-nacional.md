@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 5
 title: "Producto e ingreso nacional"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Producto e ingreso nacional

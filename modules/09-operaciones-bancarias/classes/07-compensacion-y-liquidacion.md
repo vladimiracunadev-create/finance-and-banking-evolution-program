@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 7
 title: "Compensación y liquidación"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Compensación y liquidación

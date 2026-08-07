@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 6
 title: "Decisiones de inversión"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Decisiones de inversión

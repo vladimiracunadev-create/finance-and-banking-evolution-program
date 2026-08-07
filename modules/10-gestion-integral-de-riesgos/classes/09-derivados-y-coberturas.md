@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 9
 title: "Derivados y coberturas"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Derivados y coberturas

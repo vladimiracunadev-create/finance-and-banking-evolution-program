@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 12
 title: "Comunicación y mercado"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Comunicación y mercado

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 9
 title: "Valor presente"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Valor presente

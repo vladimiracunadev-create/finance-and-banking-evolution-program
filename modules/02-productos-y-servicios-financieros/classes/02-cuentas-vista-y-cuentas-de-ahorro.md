@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 2
 title: "Cuentas vista y cuentas de ahorro"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Cuentas vista y cuentas de ahorro

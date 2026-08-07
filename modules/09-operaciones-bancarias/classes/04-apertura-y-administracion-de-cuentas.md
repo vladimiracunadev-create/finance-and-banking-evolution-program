@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 4
 title: "Apertura y administración de cuentas"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Apertura y administración de cuentas

@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 4
 title: "Clasificación, calidad y gobierno de datos financieros"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Clasificación, calidad y gobierno de datos financieros

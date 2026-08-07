@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 8
 title: "Ciclos económicos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Ciclos económicos

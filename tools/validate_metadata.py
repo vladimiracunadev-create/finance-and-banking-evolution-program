@@ -79,15 +79,18 @@ CAMPOS_FICHA = (
 )
 
 
+# Los metadatos de una clase van dentro de un comentario HTML: un bloque
+# YAML delimitado por `---` lo renderiza GitHub como una tabla delante del
+# titulo del documento.
+META_CLASE = re.compile(r"^<!--\s*meta\n(.*?)\n-->\n", re.S)
+
+
 def frontmatter(text: str) -> dict[str, str]:
-    if not text.startswith("---"):
-        return {}
-    try:
-        _, front, _ = text.split("---", 2)
-    except ValueError:
+    encontrado = META_CLASE.match(text)
+    if not encontrado:
         return {}
     meta: dict[str, str] = {}
-    for linea in front.strip().splitlines():
+    for linea in encontrado.group(1).strip().splitlines():
         if ":" in linea:
             clave, valor = linea.split(":", 1)
             meta[clave.strip()] = valor.strip()

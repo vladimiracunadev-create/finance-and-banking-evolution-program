@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 5
 title: "Sanciones internacionales"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Sanciones internacionales

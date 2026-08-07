@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 11
 title: "Caja y sucursales"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Caja y sucursales

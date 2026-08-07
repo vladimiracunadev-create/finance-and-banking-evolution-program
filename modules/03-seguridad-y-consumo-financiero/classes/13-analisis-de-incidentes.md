@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 13
 title: "Análisis de incidentes"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Análisis de incidentes

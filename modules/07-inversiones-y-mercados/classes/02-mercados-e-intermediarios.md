@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 2
 title: "Mercados e intermediarios"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Mercados e intermediarios

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 8
 title: "Valor actual neto"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Valor actual neto

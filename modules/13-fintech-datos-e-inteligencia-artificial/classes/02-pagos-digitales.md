@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 2
 title: "Pagos digitales y dinero electrónico"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Pagos digitales y dinero electrónico

@@ -45,15 +45,20 @@ GENERATED_MARKERS = (
 MIN_SOURCES = 4
 
 
+# Los metadatos de una clase van dentro de un comentario HTML: un bloque
+# YAML delimitado por `---` lo renderiza GitHub como una tabla de seis o
+# doce filas delante del titulo, y esos datos son para las herramientas, no
+# para quien estudia. Dentro del comentario siguen siendo legibles por
+# maquina y dejan de ocupar la primera pantalla.
+META_CLASE = re.compile(r"^<!--\s*meta\n(.*?)\n-->\n", re.S)
+
+
 def frontmatter(text: str) -> dict[str, str]:
-    if not text.startswith("---"):
-        return {}
-    try:
-        _, front, _ = text.split("---", 2)
-    except ValueError:
+    encontrado = META_CLASE.match(text)
+    if not encontrado:
         return {}
     meta: dict[str, str] = {}
-    for line in front.strip().splitlines():
+    for line in encontrado.group(1).strip().splitlines():
         if ":" in line:
             key, value = line.split(":", 1)
             meta[key.strip()] = value.strip()

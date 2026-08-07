@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 12
 title: "Prevención de lavado y financiamiento del terrorismo"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [GAFI, UAF, FSB]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Prevención de lavado y financiamiento del terrorismo

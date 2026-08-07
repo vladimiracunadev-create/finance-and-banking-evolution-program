@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 5
 title: "Depósitos y giros"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Depósitos y giros

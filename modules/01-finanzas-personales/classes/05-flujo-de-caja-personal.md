@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 5
 title: "Flujo de caja personal"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Flujo de caja personal

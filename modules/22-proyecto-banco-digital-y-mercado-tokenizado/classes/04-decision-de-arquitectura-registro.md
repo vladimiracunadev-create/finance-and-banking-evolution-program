@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 4
 title: "Decisión de arquitectura: ¿hace falta un registro?"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BIS, CPMI, IOSCO]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Decisión de arquitectura: ¿hace falta un registro?

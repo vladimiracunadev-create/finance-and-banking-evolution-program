@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 5
 title: "Riesgo de tasa en el libro de banca"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Riesgo de tasa en el libro de banca

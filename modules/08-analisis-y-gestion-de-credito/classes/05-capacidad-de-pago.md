@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 5
 title: "Capacidad de pago"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Capacidad de pago

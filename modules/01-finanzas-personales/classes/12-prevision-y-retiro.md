@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 12
 title: "Previsión y retiro"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Previsión y retiro

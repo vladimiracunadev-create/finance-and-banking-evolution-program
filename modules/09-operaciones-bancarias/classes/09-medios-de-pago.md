@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 9
 title: "Medios de pago"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Medios de pago

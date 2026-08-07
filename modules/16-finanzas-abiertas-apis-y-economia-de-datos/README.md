@@ -1,12 +1,5 @@
 # Parte 17: Finanzas abiertas, APIs y economía de datos
 
-- **Etapa:** 5 — Finanzas digitales, infraestructura y mercados tokenizados
-- **Clases:** 14
-- **Horas:** 21
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
-
 ## De qué trata esta parte
 
 La Parte 14 introdujo la banca abierta como una tendencia. Esta parte la abre por

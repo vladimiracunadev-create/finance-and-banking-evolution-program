@@ -1,18 +1,57 @@
 # Parte 14: Fintech, datos e inteligencia artificial
 
-- **Etapa:** 4
-- **Clases:** 14
-- **Horas:** 21
-- **Laboratorios:** 6
-- **Evaluaciones:** 2
-- **Proyecto:** 1
+La Parte 13 trató el negocio bancario con empresas. Esta trata de quién se lo
+está quitando y cómo, y es la que introduce todo lo que la Etapa 5 desarrolla en
+profundidad.
 
-## Resultados de aprendizaje
+Su valor está en dar el marco antes que el detalle. La competencia fintech no
+ataca al banco entero: ataca los eslabones donde la ventaja del banco era solo la
+infraestructura. Cada clase siguiente trata una pieza que se desprendió del
+paquete bancario, y la última decide qué construye el banco y qué compra.
 
-- Explicar los conceptos esenciales de fintech, datos e inteligencia artificial.
-- Resolver problemas y documentar supuestos.
-- Aplicar criterios éticos, de seguridad y trazabilidad.
-- Construir una evidencia práctica para el portafolio.
+El eje es que **parte de la ventaja de un competidor viene de innovación y parte de
+estar menos regulado**, y que solo la primera dura. Separarlas es lo que permite
+predecir si una amenaza es real o transitoria.
+
+## Con qué hay que llegar
+
+| Parte | Qué aporta |
+|---|---|
+| 10 | Medios de pago y su economía |
+| 11 | Riesgo de modelo y riesgo tecnológico |
+| 12 | Perímetro regulatorio y conducta |
+
+## Qué se aprende
+
+1. **Separar** la ventaja competitiva real de un entrante de la que viene del arbitraje regulatorio.
+2. **Distinguir** los tres tipos de dinero que hay detrás de un pago y el riesgo que asume quien lo recibe.
+3. **Diseñar** un consentimiento con alcance por finalidad y una cadena de responsabilidad repartida.
+4. **Medir** el efecto de una acción con grupo de control, que es lo único que distingue causa de correlación.
+5. **Clasificar** un caso de uso de inteligencia artificial por su efecto sobre las personas y definir controles proporcionales.
+
+## Cómo se encadenan las 14 clases
+
+Las catorce clases van de la competencia a la respuesta.
+
+La **clase 1** da el marco de desagregación que ordena la parte entera.
+
+Las **clases 2 y 3** desarrollan los dos eslabones que ya se desprendieron: el
+pago, por infraestructura, y los datos, por norma.
+
+Las **clases 4 y 5** entran en el activo que sostiene todo lo demás. La 5 establece
+la distinción que más resultados analíticos invalida: predecir quién comprará no
+es lo mismo que saber a quién conviene ofrecerle algo.
+
+Las **clases 6 y 7** aplican los modelos a decisiones sobre personas, con la
+promesa y el riesgo que eso trae.
+
+Las **clases 8 a 10** cubren el fraude en canales digitales y las dos formas de
+dinero nuevo, con el análisis de diseño que decide su efecto.
+
+Las **clases 11 y 12** ponen los límites: equidad algorítmica —que es
+matemáticamente imposible de satisfacer en todas sus definiciones a la vez— y
+perímetro regulatorio. Las **clases 13 y 14** cierran con cómo adopta esto un banco
+que ya existe y qué construye frente a qué compra.
 
 ## Secuencia
 
@@ -31,10 +70,16 @@
 13. [Transformación digital](classes/13-transformacion-digital.md)
 14. [Estrategia tecnológica](classes/14-estrategia-tecnologica.md)
 
-## Evidencias
+## Cómo se trabaja
 
-- Bitácora de decisiones.
-- Archivos de cálculo o código.
-- Respuestas a casos.
-- Proyecto integrador.
-- Autoevaluación final.
+Son **14 clases de 90 minutos** —21 horas de sesión— con **6 laboratorios**, **2 evaluaciones** y un proyecto integrador. Cada clase supone la anterior, así que el orden importa: saltarse una deja sin base a las que vienen después.
+
+Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos reales de terceros. Las evaluaciones son dos: una diagnóstica al empezar, que no se califica para aprobar sino para saber qué reforzar, y una final. El proyecto es el entregable que demuestra que la parte se entendió.
+
+## Qué queda como evidencia
+
+- El análisis de tres competidores con su ventaja clasificada.
+- El diseño de un consentimiento con alcances y responsabilidades.
+- El experimento con grupo de control y su elevación medida.
+- La clasificación de casos de uso con sus controles proporcionales.
+- La autoevaluación final con lo que quedó flojo.

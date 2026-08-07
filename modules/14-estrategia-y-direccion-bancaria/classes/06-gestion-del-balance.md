@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 6
 title: "Gestión del balance"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Gestión del balance

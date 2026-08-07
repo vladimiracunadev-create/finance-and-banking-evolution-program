@@ -101,19 +101,23 @@ def adjuntos_enlazados() -> list[Path]:
     return sorted(encontrados)
 
 
+# Los metadatos de una clase van en un comentario HTML y no en un bloque
+# YAML: GitHub renderiza el bloque YAML como una tabla delante del titulo, y
+# esos datos son para las herramientas. Aqui se separan del cuerpo para usar
+# el titulo en la pagina sin volcar el resto en ella.
+META_CLASE = re.compile(r"^<!--\s*meta\n(.*?)\n-->\n", re.S)
+
+
 def separar_frontmatter(texto: str) -> tuple[dict[str, str], str]:
-    if not texto.startswith("---"):
-        return {}, texto
-    try:
-        _, front, cuerpo = texto.split("---", 2)
-    except ValueError:
+    encontrado = META_CLASE.match(texto)
+    if not encontrado:
         return {}, texto
     meta: dict[str, str] = {}
-    for linea in front.strip().splitlines():
+    for linea in encontrado.group(1).strip().splitlines():
         if ":" in linea:
             clave, valor = linea.split(":", 1)
             meta[clave.strip()] = valor.strip().strip('"')
-    return meta, cuerpo.lstrip("\n")
+    return meta, texto[encontrado.end():].lstrip("\n")
 
 
 def titulo_de(meta: dict[str, str], cuerpo: str, ruta: Path) -> str:

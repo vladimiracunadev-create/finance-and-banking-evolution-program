@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 1
 title: "Diagnóstico y operaciones esenciales"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Diagnóstico y operaciones esenciales

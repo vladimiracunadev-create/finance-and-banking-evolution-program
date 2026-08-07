@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 10
 title: "Sobreendeudamiento"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Sobreendeudamiento

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 13
 title: "Escenarios y simulación"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Escenarios y simulación

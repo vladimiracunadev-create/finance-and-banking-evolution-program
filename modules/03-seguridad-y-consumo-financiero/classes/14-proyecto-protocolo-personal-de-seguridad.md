@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 14
 title: "Proyecto: protocolo personal de seguridad"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Proyecto: protocolo personal de seguridad

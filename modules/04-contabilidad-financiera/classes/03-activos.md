@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 3
 title: "Activos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Activos

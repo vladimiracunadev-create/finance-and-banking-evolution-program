@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 11
 title: "Sostenibilidad y banca responsable"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Sostenibilidad y banca responsable

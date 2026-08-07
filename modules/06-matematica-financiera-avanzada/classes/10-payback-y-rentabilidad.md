@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 10
 title: "Payback y rentabilidad"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Payback y rentabilidad

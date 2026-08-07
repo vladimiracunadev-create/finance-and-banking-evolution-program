@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 9
 title: "Balance de comprobación"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Balance de comprobación

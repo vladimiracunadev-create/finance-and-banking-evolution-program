@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 12
 title: "Sensibilidad"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Sensibilidad

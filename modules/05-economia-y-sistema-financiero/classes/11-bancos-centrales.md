@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 11
 title: "Bancos centrales"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Bancos centrales

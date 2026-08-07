@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 10
 title: "Contabilidad y estados financieros"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Contabilidad y estados financieros

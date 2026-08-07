@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 10
 title: "Riesgo operacional"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Riesgo operacional

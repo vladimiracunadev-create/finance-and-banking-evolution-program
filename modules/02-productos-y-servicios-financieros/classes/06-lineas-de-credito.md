@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 6
 title: "Líneas de crédito"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Líneas de crédito

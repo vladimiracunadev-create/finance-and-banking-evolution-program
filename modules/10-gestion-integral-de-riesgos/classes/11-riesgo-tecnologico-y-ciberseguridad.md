@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 11
 title: "Riesgo tecnológico y ciberseguridad"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Riesgo tecnológico y ciberseguridad

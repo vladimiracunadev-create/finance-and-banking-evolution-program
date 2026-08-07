@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 2
 title: "Ingresos fijos, variables y extraordinarios"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Ingresos fijos, variables y extraordinarios

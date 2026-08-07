@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 15
 title: "Interoperabilidad entre infraestructuras"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, ISO]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Interoperabilidad entre infraestructuras

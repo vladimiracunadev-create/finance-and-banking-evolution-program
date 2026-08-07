@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 3
 title: "Porcentajes en decisiones financieras"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Porcentajes en decisiones financieras

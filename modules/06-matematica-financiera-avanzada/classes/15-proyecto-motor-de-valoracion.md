@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 7
 class: 15
 title: "Proyecto: motor de valoración"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Proyecto: motor de valoración

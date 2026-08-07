@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 12
 title: "Análisis técnico: introducción crítica"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Análisis técnico: introducción crítica

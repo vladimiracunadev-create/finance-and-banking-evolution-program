@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 16
 title: "Proyecto: motor de evaluación crediticia"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 16 · Proyecto: motor de evaluación crediticia

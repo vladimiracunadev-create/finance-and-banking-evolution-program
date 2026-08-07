@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 8
 title: "Conciliación bancaria"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Conciliación bancaria

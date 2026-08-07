@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 6
 class: 13
 title: "Tipo de cambio"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Tipo de cambio

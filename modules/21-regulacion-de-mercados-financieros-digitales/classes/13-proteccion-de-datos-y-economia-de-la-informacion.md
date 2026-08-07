@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 13
 title: "Protección de datos y economía de la información"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [OCDE, CMF, EDPB]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Protección de datos y economía de la información

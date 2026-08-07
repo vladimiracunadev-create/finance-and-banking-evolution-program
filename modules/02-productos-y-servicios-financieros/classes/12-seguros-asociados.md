@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 12
 title: "Seguros asociados a productos financieros"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Seguros asociados a productos financieros

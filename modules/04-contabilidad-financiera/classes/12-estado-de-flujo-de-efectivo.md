@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 12
 title: "Estado de flujo de efectivo"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Estado de flujo de efectivo

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 2
 class: 3
 title: "Clasificación y control de gastos"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Clasificación y control de gastos

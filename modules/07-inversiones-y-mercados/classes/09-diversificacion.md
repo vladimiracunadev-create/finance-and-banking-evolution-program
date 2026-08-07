@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 9
 title: "Diversificación"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Diversificación

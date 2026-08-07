@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 1
 title: "Banca abierta, finanzas abiertas y datos abiertos"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-despliegue
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Banca abierta, finanzas abiertas y datos abiertos

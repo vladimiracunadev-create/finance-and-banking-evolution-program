@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 10
 title: "Infraestructuras de mercado y su régimen"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 10 · Infraestructuras de mercado y su régimen

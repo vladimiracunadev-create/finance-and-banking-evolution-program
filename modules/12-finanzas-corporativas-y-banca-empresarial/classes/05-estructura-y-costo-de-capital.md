@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 5
 title: "Estructura y costo de capital"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Estructura y costo de capital

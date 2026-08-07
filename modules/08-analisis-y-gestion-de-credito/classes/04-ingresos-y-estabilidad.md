@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 4
 title: "Ingresos y estabilidad"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Ingresos y estabilidad

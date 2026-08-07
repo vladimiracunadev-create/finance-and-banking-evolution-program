@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 17
 title: "Simulación de una crisis"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 17 · Simulación de una crisis

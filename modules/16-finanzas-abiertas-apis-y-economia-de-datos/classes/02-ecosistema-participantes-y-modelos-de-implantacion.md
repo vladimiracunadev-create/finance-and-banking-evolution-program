@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 2
 title: "Ecosistema, participantes y modelos de implantación"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-despliegue
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Ecosistema, participantes y modelos de implantación

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 6
 title: "Interés compuesto"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Interés compuesto

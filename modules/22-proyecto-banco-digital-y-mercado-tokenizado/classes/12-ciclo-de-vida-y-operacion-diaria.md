@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 12
 title: "Ciclo de vida y operación diaria"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, BCBS, CMF]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Ciclo de vida y operación diaria

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 4
 title: "Datos en un banco"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Datos en un banco

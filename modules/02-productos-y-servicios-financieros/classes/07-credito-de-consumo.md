@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 7
 title: "Crédito de consumo"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Crédito de consumo

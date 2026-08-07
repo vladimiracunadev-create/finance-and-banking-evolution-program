@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 6
 title: "Riesgo de mercado y valor en riesgo"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 06 · Riesgo de mercado y valor en riesgo

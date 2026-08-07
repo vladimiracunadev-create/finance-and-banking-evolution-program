@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 14
 title: "Contagio y riesgo sistémico"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, CMF]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Contagio y riesgo sistémico

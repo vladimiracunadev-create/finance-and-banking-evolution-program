@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 13
 title: "Comisiones, CAE y costo total"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Comisiones, CAE y costo total

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 15
 class: 7
 title: "Política de precios"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Política de precios

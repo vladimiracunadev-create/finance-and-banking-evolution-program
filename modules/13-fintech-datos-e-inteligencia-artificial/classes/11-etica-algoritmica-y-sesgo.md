@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 11
 title: "Ética algorítmica y sesgo"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Ética algorítmica y sesgo

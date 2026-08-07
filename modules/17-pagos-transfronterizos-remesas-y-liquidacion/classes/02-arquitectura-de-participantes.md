@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 18
 class: 2
 title: "Arquitectura de participantes y responsabilidades"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, FSB]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Arquitectura de participantes y responsabilidades

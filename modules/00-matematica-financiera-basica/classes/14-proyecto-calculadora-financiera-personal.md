@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 14
 title: "Proyecto: calculadora financiera personal"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Proyecto: calculadora financiera personal

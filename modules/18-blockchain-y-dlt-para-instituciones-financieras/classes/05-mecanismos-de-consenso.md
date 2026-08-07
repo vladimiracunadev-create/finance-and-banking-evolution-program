@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 19
 class: 5
 title: "Mecanismos de consenso"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, NIST]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Mecanismos de consenso

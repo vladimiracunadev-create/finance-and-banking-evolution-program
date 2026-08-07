@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 14
 title: "Proyecto: agregador financiero regulado"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: en-despliegue-por-fases
 primary_authorities: [CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Proyecto: agregador financiero regulado

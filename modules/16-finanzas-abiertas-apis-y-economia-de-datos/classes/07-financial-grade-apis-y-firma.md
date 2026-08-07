@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 7
 title: "Financial-grade APIs, certificados y firma de mensajes"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: estandar-vigente
 primary_authorities: [OpenID Foundation, IETF]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Financial-grade APIs, certificados y firma de mensajes

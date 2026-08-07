@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 7
 title: "Crédito digital y datos alternativos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Crédito digital y datos alternativos

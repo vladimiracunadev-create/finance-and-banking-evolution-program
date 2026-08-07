@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 12
 title: "Mercado de capitales para empresas"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Mercado de capitales para empresas

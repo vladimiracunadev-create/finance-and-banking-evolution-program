@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 17
 title: "Espacios de prueba y regulación experimental"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CMF, IOSCO, BIS]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 17 · Espacios de prueba y regulación experimental

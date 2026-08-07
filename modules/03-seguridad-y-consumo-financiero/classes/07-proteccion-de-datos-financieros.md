@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 7
 title: "Protección de datos financieros"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Protección de datos financieros

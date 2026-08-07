@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 7
 title: "Registro de transacciones"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Registro de transacciones

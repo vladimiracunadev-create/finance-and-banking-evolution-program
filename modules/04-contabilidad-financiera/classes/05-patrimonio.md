@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 5
 title: "Patrimonio"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Patrimonio

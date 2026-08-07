@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 11
 title: "Conducta de mercado e integridad"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, FSB, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Conducta de mercado e integridad

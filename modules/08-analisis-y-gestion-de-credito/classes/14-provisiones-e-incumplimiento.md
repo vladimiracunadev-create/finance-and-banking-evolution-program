@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 14
 title: "Provisiones e incumplimiento"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Provisiones e incumplimiento

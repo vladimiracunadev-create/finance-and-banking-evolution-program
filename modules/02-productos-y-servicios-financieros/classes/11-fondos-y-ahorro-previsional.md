@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 11
 title: "Fondos y ahorro previsional"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Fondos y ahorro previsional

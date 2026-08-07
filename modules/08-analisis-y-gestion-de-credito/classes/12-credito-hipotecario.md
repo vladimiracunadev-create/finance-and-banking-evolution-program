@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 12
 title: "Crédito hipotecario"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Crédito hipotecario

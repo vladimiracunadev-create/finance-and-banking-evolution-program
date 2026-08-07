@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 16
 class: 9
 title: "Operaciones y pagos"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Operaciones y pagos

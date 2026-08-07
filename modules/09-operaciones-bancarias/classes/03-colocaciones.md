@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 3
 title: "Colocaciones"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Colocaciones

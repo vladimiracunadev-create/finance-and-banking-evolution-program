@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 23
 class: 1
 title: "Alcance y modelo de negocio"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [BCBS, CMF, FSB]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Alcance y modelo de negocio

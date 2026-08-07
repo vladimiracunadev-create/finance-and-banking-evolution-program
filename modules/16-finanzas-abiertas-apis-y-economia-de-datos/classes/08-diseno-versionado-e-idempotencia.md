@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 17
 class: 8
 title: "Diseño, versionado e idempotencia"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: estandar-vigente
 primary_authorities: [OpenID Foundation]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Diseño, versionado e idempotencia

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 7
 title: "Divisas y commodities"
 level: avanzado
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 07 · Divisas y commodities

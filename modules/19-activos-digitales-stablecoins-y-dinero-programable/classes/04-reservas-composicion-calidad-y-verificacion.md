@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 20
 class: 4
 title: "Reservas: composición, calidad y verificación"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, IOSCO]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Reservas: composición, calidad y verificación

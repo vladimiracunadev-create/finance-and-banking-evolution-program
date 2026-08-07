@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 11
 class: 1
 title: "Qué es el riesgo y cómo se gobierna"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Qué es el riesgo y cómo se gobierna

@@ -90,20 +90,33 @@ class ClassDoc:
         return self.meta.get("level", "fundamento")
 
 
+# El encabezado de metadatos va dentro de un comentario HTML y no en un bloque
+# YAML delimitado por `---`. La razon es de lectura: GitHub renderiza el bloque
+# YAML como una tabla al principio del documento, y el lector se encuentra con
+# seis o doce filas de metadatos —part, class, duration_minutes, jurisdictions—
+# antes del titulo de la clase. Eso es informacion para las herramientas, no
+# para quien estudia. Dentro de un comentario sigue siendo igual de legible por
+# maquina y deja de ocupar la primera pantalla.
+META = re.compile(r"^<!--\s*meta\n(.*?)\n-->\n", re.S)
+# Formato anterior, que se sigue aceptando al leer para que la conversion de las
+# clases la haga este mismo renderizador y no un paso manual.
+YAML_ANTIGUO = re.compile(r"^---\n(.*?)\n---\n", re.S)
+
+
 def parse(path: Path) -> ClassDoc:
     raw = path.read_text(encoding="utf-8")
-    if not raw.startswith("---"):
-        raise SystemExit(f"{path}: falta el encabezado YAML")
-    _, front, body = raw.split("---", 2)
+    encontrado = META.match(raw) or YAML_ANTIGUO.match(raw)
+    if not encontrado:
+        raise SystemExit(f"{path}: falta el encabezado de metadatos")
     meta: dict[str, str] = {}
-    for line in front.strip().splitlines():
+    for line in encontrado.group(1).strip().splitlines():
         if ":" in line:
             key, value = line.split(":", 1)
             meta[key.strip()] = value.strip()
     for required in ("part", "class", "title"):
         if required not in meta:
-            raise SystemExit(f"{path}: falta '{required}' en el encabezado YAML")
-    return ClassDoc(path=path, meta=meta, body=body)
+            raise SystemExit(f"{path}: falta '{required}' en el encabezado")
+    return ClassDoc(path=path, meta=meta, body=raw[encontrado.end():])
 
 
 def strip_generated(body: str) -> str:
@@ -191,7 +204,11 @@ def render_module(module: Path, part_index: int, write: bool) -> list[str]:
             block("etica", "## 🔐 Seguridad, ética y límites\n\n" + ETICA),
         )
 
-        front = "---\n" + "\n".join(f"{k}: {v}" for k, v in doc.meta.items()) + "\n---\n\n"
+        front = (
+            "<!-- meta\n"
+            + "\n".join(f"{k}: {v}" for k, v in doc.meta.items())
+            + "\n-->\n\n"
+        )
         rendered = front + header + "\n" + body + "\n" + footer
         rendered = re.sub(r"\n{3,}", "\n\n", rendered)
 

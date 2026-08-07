@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 3
 class: 1
 title: "Mapa del sistema financiero"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 01 · Mapa del sistema financiero

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 1
 class: 8
 title: "Valor del dinero en el tiempo"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Valor del dinero en el tiempo

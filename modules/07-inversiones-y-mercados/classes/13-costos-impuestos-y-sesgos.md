@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 8
 class: 13
 title: "Costos, impuestos y sesgos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Costos, impuestos y sesgos

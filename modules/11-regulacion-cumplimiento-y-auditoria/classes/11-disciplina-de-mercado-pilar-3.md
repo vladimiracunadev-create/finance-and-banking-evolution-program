@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 12
 class: 11
 title: "Disciplina de mercado: Pilar 3"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 11 · Disciplina de mercado: Pilar 3

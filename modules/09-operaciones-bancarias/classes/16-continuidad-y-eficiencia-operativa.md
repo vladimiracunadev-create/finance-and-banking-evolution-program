@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 16
 title: "Continuidad y eficiencia operativa"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 16 · Continuidad y eficiencia operativa

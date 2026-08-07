@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 9
 class: 13
 title: "Crédito comercial y pyme"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 13 · Crédito comercial y pyme

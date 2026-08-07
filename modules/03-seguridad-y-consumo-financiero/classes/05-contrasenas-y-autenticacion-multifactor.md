@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 4
 class: 5
 title: "Contraseñas y autenticación multifactor"
 level: fundamento
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Contraseñas y autenticación multifactor

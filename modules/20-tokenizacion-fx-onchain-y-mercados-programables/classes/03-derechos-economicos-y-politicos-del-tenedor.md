@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 3
 title: "Derechos económicos y políticos del tenedor"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF, OCDE]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 03 · Derechos económicos y políticos del tenedor

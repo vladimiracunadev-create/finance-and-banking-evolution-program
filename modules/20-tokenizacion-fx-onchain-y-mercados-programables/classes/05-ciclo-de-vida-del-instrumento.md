@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 5
 title: "Ciclo de vida del instrumento"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, ISO]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 05 · Ciclo de vida del instrumento

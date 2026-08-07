@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 14
 title: "Análisis vertical y horizontal"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 14 · Análisis vertical y horizontal

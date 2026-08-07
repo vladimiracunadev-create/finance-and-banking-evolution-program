@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 22
 class: 15
 title: "Estabilidad financiera y vigilancia macroprudencial"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, BCCh]
 requires_legal_review: false
----
+-->
 
 <!-- gen:header:start -->
 # Clase 15 · Estabilidad financiera y vigilancia macroprudencial

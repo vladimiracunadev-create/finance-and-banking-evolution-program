@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 2
 title: "Captaciones"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 02 · Captaciones

@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 14
 class: 9
 title: "Criptoactivos y registro distribuido"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Criptoactivos y registro distribuido

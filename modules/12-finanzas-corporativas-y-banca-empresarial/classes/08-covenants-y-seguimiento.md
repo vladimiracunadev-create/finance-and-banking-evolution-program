@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 13
 class: 8
 title: "Covenants y seguimiento"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 08 · Covenants y seguimiento

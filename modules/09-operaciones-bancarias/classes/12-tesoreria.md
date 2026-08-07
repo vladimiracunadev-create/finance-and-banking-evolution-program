@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 10
 class: 12
 title: "Tesorería"
 level: profesional
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 12 · Tesorería

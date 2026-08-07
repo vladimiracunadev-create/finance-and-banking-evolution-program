@@ -1,11 +1,11 @@
----
+<!-- meta
 part: 5
 class: 4
 title: "Pasivos"
 level: intermedio
 duration_minutes: 90
 status: complete
----
+-->
 
 <!-- gen:header:start -->
 # Clase 04 · Pasivos

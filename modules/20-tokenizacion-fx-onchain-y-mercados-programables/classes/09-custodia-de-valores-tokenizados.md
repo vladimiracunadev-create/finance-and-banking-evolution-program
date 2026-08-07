@@ -1,4 +1,4 @@
----
+<!-- meta
 part: 21
 class: 9
 title: "Custodia de valores tokenizados"
@@ -11,7 +11,7 @@ regulation_last_verified: 2026-08-06
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI, CMF]
 requires_legal_review: true
----
+-->
 
 <!-- gen:header:start -->
 # Clase 09 · Custodia de valores tokenizados
