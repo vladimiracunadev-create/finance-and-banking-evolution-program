@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el principio y su matiz; los seis siguientes, sus límites y sus fallos. El **riesgo nuevo** es el primero de los tres límites: hay riesgos que no existían y para los que no hay régimen equivalente al que remitirse.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `neutralidad tecnológica` | La norma no favorece ni exige un soporte concreto |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `sobrerregulación` | Exigencia desproporcionada al riesgo real |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un principio sólido con tres grietas: el riesgo puede cambiar aunque la actividad sea la misma, puede no haber un sujeto al que aplicar la norma, y puede haber riesgos sin precedente. Conocer las tres es lo que permite usar el principio sin forzarlo.
 
 ```text
 EL PRINCIPIO
@@ -230,6 +234,8 @@ LA PRUEBA QUE LAS DISTINGUE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica el principio a tres casos y encuentra sus límites. En dos de ellos el principio resuelve y en el tercero no hay equivalente.
 
 **Situación.** Una autoridad estudia si la norma de custodia de valores basta
 para la custodia de activos digitales, o si hace falta una nueva.
@@ -393,6 +399,8 @@ que se puede actualizar sin reformar la ley**.
 
 ## 🧭 Perspectivas
 
+El principio afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Protección igual o distinta | Si confía |
@@ -408,6 +416,8 @@ que se puede actualizar sin reformar la ley**.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe el mismo servicio y su protección puede no ser la misma. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Está regulado igual» | La misma norma con riesgo distinto | 22, clase 2 |
@@ -415,6 +425,8 @@ que se puede actualizar sin reformar la ley**.
 | «Ya hay leyes» | Tres riesgos no tienen norma previa | 22, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de laguna y de duplicidad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -427,6 +439,8 @@ que se puede actualizar sin reformar la ley**.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar el principio a varios casos y clasificar sus fallos. Los tres límites son lo que hay que identificar.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Compara una actividad tradicional con su equivalente digital.
@@ -435,6 +449,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Compara las tres opciones con su coste y su plazo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen aplicaciones forzadas del principio. La causa es haber ignorado sus tres límites.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

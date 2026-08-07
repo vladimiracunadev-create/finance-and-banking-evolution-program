@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son los criterios de calificación; los tres siguientes, su método y su cambio. La **sustancia sobre forma** es el criterio que decide: un token que se promociona con expectativas de revalorización es un valor aunque su documentación diga otra cosa.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor` | Instrumento negociable que incorpora un derecho patrimonial |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `recalificación` | Cambio de calificación por cambio de circunstancias |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la calificación no la elige el emisor: se deduce de las características del instrumento y de cómo se promociona. El material comercial es prueba, y contradice a la documentación jurídica con más frecuencia de la que parece.
 
 ```text
 CUATRO PREGUNTAS QUE CALIFICAN
@@ -208,6 +212,8 @@ frecuentemente inclina la calificación.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo califica un token de utilidad aparente con los cuatro criterios. El material de promoción es lo que decide el caso.
 
 **Situación.** Un proyecto emite un token para una plataforma de logística. Hay
 que calificarlo.
@@ -366,6 +372,8 @@ calificación correcta costaba 340 000 y la incorrecta ponía en riesgo
 
 ## 🧭 Perspectivas
 
+La calificación afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un token que puede subir | Si compra |
@@ -381,6 +389,8 @@ calificación correcta costaba 340 000 y la incorrecta ponía en riesgo
 
 ## 🏦 Del cliente al banco
 
+El cliente compra lo que cree un producto de acceso y puede ser un valor. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es un token de utilidad» | Cuatro criterios de valor cumplidos | 22, clase 3 |
@@ -388,6 +398,8 @@ calificación correcta costaba 340 000 y la incorrecta ponía en riesgo
 | «Es una preventa» | Con mercado secundario desde el día 1 | 22, clase 3 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de calificación errónea y de recalificación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -400,6 +412,8 @@ calificación correcta costaba 340 000 y la incorrecta ponía en riesgo
 
 ## 🧪 Práctica
 
+El laboratorio pide calificar instrumentos con los cuatro criterios. El material de promoción es la evidencia que decide.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Aplica los cuatro criterios a tres instrumentos.
@@ -408,6 +422,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Redacta el documento de calificación con sus siete elementos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen calificaciones que no resisten una revisión. La causa es haber calificado por la documentación y no por la promoción.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

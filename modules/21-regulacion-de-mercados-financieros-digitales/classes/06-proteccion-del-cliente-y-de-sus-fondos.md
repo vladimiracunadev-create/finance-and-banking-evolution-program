@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos separan la protección de conducta de la patrimonial; los cuatro siguientes, la información y el reclamo. La **renuncia a compensar** es la cláusula que decide si la segregación sirve: sin ella, el banco donde están los fondos puede compensarlos contra deudas de la entidad.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `protección de conducta` | Cómo se trata al cliente en la relación ordinaria |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `resolución alternativa` | Vía distinta del tribunal para resolver |
 
 ## 🧠 Modelo mental
+
+El modelo mental son dos protecciones independientes: una vela por que al cliente no le vendan lo que no le corresponde y otra por que su dinero siga siendo suyo si la entidad quiebra. Cumplir una no implica cumplir la otra.
 
 ```text
 DOS CAPAS, Y SOLO SE AUDITA LA PRIMERA
@@ -195,6 +199,8 @@ EL ÚLTIMO ES EL QUE MEJORA EL SERVICIO
 | Pérdida de claves | De nadie | Nunca | Nada |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo verifica la salvaguarda de una entidad con las cuatro preguntas. La renuncia a compensar es la que suele faltar.
 
 **Situación.** Una entidad con 42 000 clientes y 68 000 000 de saldos. Hay que
 determinar qué recupera el cliente si quiebra.
@@ -359,6 +365,8 @@ conducta los habría echado en falta.
 
 ## 🧭 Perspectivas
 
+La protección del cliente afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Cuenta segregada» | Si confía sus fondos |
@@ -373,6 +381,8 @@ conducta los habría echado en falta.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que sus fondos están seguros y eso depende de cuatro condiciones. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Está en cuenta segregada» | Sin renuncia a compensar | 22, clase 6 |
@@ -380,6 +390,8 @@ conducta los habría echado en falta.
 | «Concilian todo» | Semanalmente, y eso deja seis días | 22, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de salvaguarda incompleta y de información deficiente. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -392,6 +404,8 @@ conducta los habría echado en falta.
 
 ## 🧪 Práctica
 
+El laboratorio pide verificar la salvaguarda con las cuatro preguntas y cuantificar la exposición. La cuantificación es lo que convierte el hallazgo en decisión.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Aplica las cuatro preguntas a una salvaguarda documentada.
@@ -400,6 +414,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Reescribe la información precontractual para que diga algo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen protecciones que fallan en el concurso. La causa es la renuncia a compensar no pactada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

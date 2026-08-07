@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el perímetro y los hechos que lo activan; los cuatro siguientes, la distancia entre lo declarado y lo efectivo. La **actividad efectiva** es lo que decide: la regulación no aplica por lo que una entidad dice que hace sino por lo que sus propios documentos describen.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `perímetro` | Conjunto de actividades sujetas a un régimen |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `sustancia sobre forma` | La calificación sigue al contenido |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una determinación por hechos y no por declaración. Ante cualquier entidad, la pregunta no es qué régimen cree tener sino qué está haciendo, y esa respuesta sale de sus términos y condiciones, no de su nota de prensa.
 
 ```text
 LAS SEIS PREGUNTAS DEL PERÍMETRO
@@ -223,6 +227,8 @@ y quien lo dice omite las seis anteriores.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica las seis preguntas a una plataforma que se declara tecnológica. Conviene anotar la fuente de cada hecho: sin fuente no es un hecho, es una impresión.
 
 **Situación.** Una plataforma se presenta como «tecnología, no finanzas». Hay que
 determinar su perímetro con hechos observables.
@@ -395,6 +401,8 @@ jurisdicciones regulan.
 
 ## 🧭 Perspectivas
 
+El perímetro afecta a cada participante de forma distinta y algunos no saben que están dentro. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una aplicación cómoda | Si confía sus fondos |
@@ -410,6 +418,8 @@ jurisdicciones regulan.
 
 ## 🏦 Del cliente al banco
 
+El cliente usa un servicio y la entidad puede estar ejerciendo actividades reservadas sin declararlas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es una app de tecnología» | Capta, custodia, casa órdenes y presta | 22, clase 1 |
@@ -417,6 +427,8 @@ jurisdicciones regulan.
 | «Ellos dicen que no custodian» | Tienen las claves | 22, clase 1 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de perímetro no determinado y de arbitraje. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -429,6 +441,8 @@ jurisdicciones regulan.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar las seis preguntas a una entidad y determinar qué regímenes activa. Cada hecho con su fuente es lo que se evalúa.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Recoge hechos observables de un modelo de negocio.
@@ -437,6 +451,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Separa hecho, supuesto e interpretación en tu conclusión.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber aceptado la declaración de la entidad en vez de mirar sus hechos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

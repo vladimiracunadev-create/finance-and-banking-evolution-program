@@ -66,6 +66,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los dos enfoques de supervisión y su criterio; los cinco siguientes, las dimensiones de la relevancia sistémica y sus herramientas. La **sustituibilidad** es la dimensión que más pesa y menos se mide: cuánto costaría reemplazar a un participante si desapareciera.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `microprudencial` | Vigilancia de la solidez de cada entidad |
@@ -78,6 +80,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `herramienta macroprudencial` | Medida que actúa sobre el conjunto |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la suma de entidades sanas puede ser un sistema frágil. La supervisión individual no ve las dependencias comunes, y por eso hace falta una mirada distinta que las busque explícitamente.
 
 La diferencia entre las dos vigilancias no es de intensidad sino de objeto, y
 confundirlas lleva a conclusiones tranquilizadoras y falsas.
@@ -230,6 +234,8 @@ LA REGLA QUE AYUDA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa la relevancia sistémica de un participante en las cuatro dimensiones. La sustituibilidad es la que lo convierte en relevante.
 
 **Situación.** Un banco central evalúa si la actividad de activos digitales ha
 alcanzado relevancia sistémica en su jurisdicción.
@@ -395,6 +401,8 @@ ninguna medida de tamaño.
 
 ## 🧭 Perspectivas
 
+La estabilidad financiera afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un sector pequeño | — |
@@ -409,6 +417,8 @@ ninguna medida de tamaño.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo percibe y su entidad puede depender de un nodo sin sustituto. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es un sector pequeño» | La exposición económica es nueve veces mayor | 22, clase 15 |
@@ -416,6 +426,8 @@ ninguna medida de tamaño.
 | «Hay tres custodios» | Uno tiene el 71 % | 22, clase 15 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de interconexión y de prociclicidad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -428,6 +440,8 @@ ninguna medida de tamaño.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la relevancia sistémica de varios participantes. La sustituibilidad es la dimensión que decide.
+
 En [`labs/lab-08.md`](../labs/lab-08.md):
 
 1. Construye el tablero con sus cuatro bloques de indicadores.
@@ -436,6 +450,8 @@ En [`labs/lab-08.md`](../labs/lab-08.md):
 4. Propón medidas y justifica también las que descartas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen riesgos sistémicos no detectados. La causa es la supervisión solo individual.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos separan lo que obliga de lo que orienta; los cinco siguientes, el alcance territorial y sus consecuencias. La **comercialización activa** es el criterio que decide la extraterritorialidad: dirigirse a clientes de una jurisdicción activa su norma aunque la entidad no esté allí.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `requisito normativo` | Obligación con rango de norma |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `arbitraje regulatorio` | Elegir jurisdicción por su régimen |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un mapa con tres niveles por jurisdicción: qué obliga, qué orienta y qué se hace en la práctica. Comparar solo el primero da una imagen incompleta, porque la práctica de mercado condiciona lo que es viable.
 
 El error que arruina la mayoría de las comparaciones es de nivel: se pone en la
 misma tabla una obligación legal, una circular interpretativa y una costumbre del
@@ -220,6 +224,8 @@ Y EL MÁS CARO.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el tratamiento de una misma actividad en tres jurisdicciones. Cada tabla lleva su referencia y su fecha, porque estas normas cambian.
 
 **Situación.** Una entidad chilena quiere ofrecer custodia y cambio a clientes de
 tres jurisdicciones. Hay que construir la comparación y decidir.
@@ -375,6 +381,8 @@ de dónde esté la entidad.
 
 ## 🧭 Perspectivas
 
+La regulación comparada afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un servicio en su idioma | Si contrata |
@@ -389,6 +397,8 @@ de dónde esté la entidad.
 
 ## 🏦 Del cliente al banco
 
+El cliente opera con una entidad extranjera y su protección depende de qué norma alcanza. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Están regulados en B» | Y comercializan en A y C sin autorización | 22, clase 16 |
@@ -396,6 +406,8 @@ de dónde esté la entidad.
 | «La ley dice lo mismo» | Requisito, guía y práctica no son lo mismo | 22, clase 16 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de extraterritorialidad y de arbitraje. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -408,6 +420,8 @@ de dónde esté la entidad.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar el tratamiento de una actividad en tres jurisdicciones. Cada afirmación con su referencia y su fecha es lo que se evalúa.
+
 En [`labs/lab-08.md`](../labs/lab-08.md):
 
 1. Construye la tabla comparada con nivel, referencia y fecha por celda.
@@ -416,6 +430,8 @@ En [`labs/lab-08.md`](../labs/lab-08.md):
 4. Evalúa una estructura de arbitraje y explica por qué no funciona.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones transfronterizas con problemas. La causa es la comercialización activa no considerada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

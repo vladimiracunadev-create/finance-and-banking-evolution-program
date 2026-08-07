@@ -66,6 +66,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el instrumento y su diseño; los cuatro siguientes, sus salvaguardas y su cierre. El **criterio de salida** es lo que distingue un espacio de prueba de una exención indefinida: qué hecho concreto termina el ensayo y qué pasa entonces con los clientes.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `espacio de prueba` | Entorno con requisitos adaptados y vigilancia reforzada |
@@ -78,6 +80,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `informe de resultados` | Publicación de lo aprendido |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un experimento con hipótesis: un espacio de prueba sirve si se define de antemano qué se quiere aprender y qué resultado lo confirmaría. Sin hipótesis, es una autorización temporal sin aprendizaje.
 
 Un espacio de prueba se parece a cuatro cosas distintas y no es ninguna de ellas.
 Distinguirlas evita la confusión que hace fracasar la mayoría.
@@ -221,6 +225,8 @@ y es el que más ahorra al siguiente.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diseña un ensayo con su hipótesis y su criterio de salida. Las salvaguardas del cliente son lo que lo hace admisible.
 
 **Situación.** Un supervisor recibe cuatro solicitudes para su espacio de prueba
 y tiene capacidad para acompañar a dos. Hay que decidir cuáles.
@@ -382,6 +388,8 @@ tenía abierta.
 
 ## 🧭 Perspectivas
 
+El espacio de prueba afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un producto en pruebas | Si participa |
@@ -396,6 +404,8 @@ tenía abierta.
 
 ## 🏦 Del cliente al banco
 
+El cliente participa en un ensayo y sus protecciones pueden ser distintas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Está aprobado por el supervisor» | La admisión no aprueba el producto | 22, clase 17 |
@@ -403,6 +413,8 @@ tenía abierta.
 | «Es una prueba, no pasa nada» | Las salvaguardas no se relajan | 22, clase 17 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de salvaguardas insuficientes y de efecto de señal. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -416,6 +428,8 @@ tenía abierta.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar un ensayo completo con hipótesis y criterio de salida. Las salvaguardas del cliente son lo que se evalúa.
+
 En [`labs/lab-09.md`](../labs/lab-09.md):
 
 1. Evalúa cuatro solicitudes por su hipótesis.
@@ -424,6 +438,8 @@ En [`labs/lab-09.md`](../labs/lab-09.md):
 4. Redacta los criterios de salida y el compromiso de publicación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen ensayos que no aportan. La causa es la ausencia de hipótesis y de criterio de salida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

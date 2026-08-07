@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las obligaciones del emisor; los cuatro siguientes, sus límites y su supervisión reforzada. El **plan de rescate** es la obligación que más se omite y que decide qué pasa cuando el emisor falla: cómo se ordena la redención y quién la ejecuta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `emisor` | Quien se obliga frente al tenedor |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `comercialización activa` | Dirigirse a residentes de una jurisdicción |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un emisor con obligaciones proporcionales a su tamaño: por encima de ciertos umbrales, la norma añade exigencias porque el fallo deja de ser un problema de sus clientes y pasa a ser un problema del sistema.
 
 ```text
 SEIS OBLIGACIONES QUE SE REPITEN
@@ -214,6 +218,8 @@ de forma expresa.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo determina las obligaciones de un emisor según su volumen. El salto a emisor significativo cambia el régimen por completo.
 
 **Situación.** Un supervisor revisa a un emisor con 6 200 000 000 en circulación.
 Hay que verificar el cumplimiento y decidir qué requerir.
@@ -393,6 +399,8 @@ un informe que no verifica la titularidad.
 
 ## 🧭 Perspectivas
 
+El régimen de emisores afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Cobertura del 101,8 %» | Si confía |
@@ -408,6 +416,8 @@ un informe que no verifica la titularidad.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en una reserva y el emisor tiene obligaciones concretas sobre ella. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Puedo redimir a la par» | Solo desde 250 000 | 22, clase 5 |
@@ -415,6 +425,8 @@ un informe que no verifica la titularidad.
 | «Tienen plan de rescate» | Con el emisor como ejecutor | 22, clase 5 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de reserva y de redención. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -427,6 +439,8 @@ un informe que no verifica la titularidad.
 
 ## 🧪 Práctica
 
+El laboratorio pide determinar el régimen de un emisor y verificar su plan de rescate. La ausencia del plan es el hallazgo habitual.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Verifica una reserva con cobertura contable y líquida.
@@ -435,6 +449,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Diseña el reporte periódico con los indicadores que anticipan.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen emisores que incumplen. Las causas son reservas mal compuestas y planes de rescate inexistentes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

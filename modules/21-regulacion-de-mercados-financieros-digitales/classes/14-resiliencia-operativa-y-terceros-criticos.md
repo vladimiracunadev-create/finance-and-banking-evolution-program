@@ -67,6 +67,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la continuidad y sus funciones; los cuatro siguientes, los terceros y su vigilancia. La **tolerancia al impacto** es el concepto que la norma incorporó y que cambia el enfoque: no se trata de recuperar rápido sino de no superar el tiempo tras el cual el daño al cliente es irreversible.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `continuidad de negocio` | Capacidad de seguir prestando el servicio |
@@ -79,6 +81,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `vigilancia directa` | Supervisión del proveedor, no solo de la entidad |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un cambio de sujeto: la resiliencia deja de medirse por la disponibilidad del sistema y pasa a medirse por el efecto sobre el cliente. Un sistema caído dos horas puede ser aceptable o inadmisible según qué función soporte.
 
 Conviene separar tres cosas que en la práctica se mezclan y que exigen respuestas
 distintas.
@@ -232,6 +236,8 @@ LA SUBCONTRATACIÓN ES LO QUE SE OMITE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo fija tolerancias al impacto por función y las contrasta con la capacidad real. La brecha es lo que hay que corregir.
 
 **Situación.** Un supervisor mide la concentración de proveedores en su sector y
 decide si designa a alguno como crítico.
@@ -398,6 +404,8 @@ vez de pedir a veintidós entidades que resolvieran algo que no está en su mano
 
 ## 🧭 Perspectivas
 
+La resiliencia afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un servicio caído | Si se va |
@@ -412,6 +420,8 @@ vez de pedir a veintidós entidades que resolvieran algo que no está en su mano
 
 ## 🏦 Del cliente al banco
 
+El cliente no puede operar y la entidad mide si superó su tolerancia. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Se cayó todo a la vez» | Diecinueve entidades, un proveedor | 22, clase 14 |
@@ -419,6 +429,8 @@ vez de pedir a veintidós entidades que resolvieran algo que no está en su mano
 | «Trabajan con 41 proveedores» | Que usan tres infraestructuras | 22, clase 14 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de terceros críticos y de concentración. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -431,6 +443,8 @@ vez de pedir a veintidós entidades que resolvieran algo que no está en su mano
 
 ## 🧪 Práctica
 
+El laboratorio pide fijar tolerancias y mapear terceros críticos. La concentración por infraestructura, y no por proveedor, es lo que revela el ejercicio.
+
 En [`labs/lab-07.md`](../labs/lab-07.md):
 
 1. Construye el mapa de dependencias con subcontratación.
@@ -439,6 +453,8 @@ En [`labs/lab-07.md`](../labs/lab-07.md):
 4. Diseña la prueba sectorial y su nivel.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen interrupciones con daño irreversible. La causa es la tolerancia fijada con criterio técnico.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

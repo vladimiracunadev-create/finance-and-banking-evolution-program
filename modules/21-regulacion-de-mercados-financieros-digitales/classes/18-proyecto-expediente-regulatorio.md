@@ -68,6 +68,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el expediente y sus hallazgos; los cuatro siguientes, la remediación y su defensa. La **contradicción entre piezas** es lo que da valor al proyecto: los hallazgos no están dentro de ninguna pieza, están entre dos, y solo aparecen leyendo por parejas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `expediente regulatorio` | Conjunto ordenado que sostiene la posición de la entidad |
@@ -80,6 +82,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `defensa` | Capacidad de sostener el expediente ante preguntas |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una lectura cruzada: un supervisor no lee el expediente de principio a fin, lee la pieza de calificación junto a la de conducta y la de salvaguarda junto a la de prevención. Las contradicciones que aparecen ahí son las preguntas que hará.
 
 El expediente tiene doce piezas y cada una viene de una clase. Lo que lo hace
 útil no es tenerlas todas, sino que **no se contradigan entre sí**.
@@ -243,6 +247,8 @@ CUENTA COMO NO RESPONDIDA.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo cruza dos piezas y encuentra su contradicción. El hallazgo no es un error técnico: es una desconexión entre áreas.
 
 **Situación.** Se ensambla el expediente de una entidad de custodia y cambio con
 42 000 clientes, y aparecen las contradicciones.
@@ -425,6 +431,8 @@ lee un supervisor.
 
 ## 🧭 Perspectivas
 
+El expediente afecta a todos los participantes de las diecisiete clases anteriores. La tabla los reúne.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una entidad que dice estar en regla | Si confía |
@@ -439,6 +447,8 @@ lee un supervisor.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve el expediente y su protección depende de que las piezas no se contradigan. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Cumplen con todo» | Cada pieza sí; el conjunto no | 22, clase 18 |
@@ -446,6 +456,8 @@ lee un supervisor.
 | «Mis fondos están separados» | Las devoluciones salen de la operativa | 22, clase 18 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del proyecto reúnen los de toda la parte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -458,10 +470,14 @@ lee un supervisor.
 
 ## 🧪 Práctica
 
+El laboratorio es el proyecto completo. La lectura cruzada por parejas es lo que se evalúa.
+
 En [`project/README.md`](../project/README.md) se desarrolla el expediente
 completo. Aquí se cierra el ensamblaje y se ensaya la defensa.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la revisión supervisora. Casi todos se evitan cruzando las piezas antes de que lo haga el supervisor.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

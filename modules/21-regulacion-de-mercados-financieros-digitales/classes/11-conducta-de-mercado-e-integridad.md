@@ -67,6 +67,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las conductas prohibidas; los cuatro siguientes, los deberes y su vigilancia. La **operación circular** es la práctica más extendida en mercados digitales: operar consigo mismo para inflar el volumen, y su detección es técnicamente sencilla y rara vez se hace.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `información privilegiada` | No pública, precisa y que afectaría al precio |
@@ -79,6 +81,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `reporte de sospecha` | Comunicación obligatoria a la autoridad |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que las conductas prohibidas en mercados tradicionales lo son también aquí, y que la transparencia del registro hace su detección más fácil y no menos. Lo que falta suele ser el sistema de vigilancia, no la información.
 
 ```text
 TRES FAMILIAS
@@ -212,6 +216,8 @@ NO SIGNIFICA QUE MANIPULAR SEA LÍCITO.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo detecta operaciones circulares en un conjunto de transacciones. El patrón es reconocible y la información está disponible en el registro.
 
 **Situación.** Una plataforma con vigilancia básica quiere calibrar su detección.
 
@@ -348,6 +354,8 @@ visibles.
 
 ## 🧭 Perspectivas
 
+La conducta de mercado afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un precio que se mueve contra él | Si sigue operando |
@@ -362,6 +370,8 @@ visibles.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un mercado activo y una parte del volumen puede ser circular. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi orden movió el precio antes» | Anticipación de órdenes | 22, clase 11 |
@@ -369,6 +379,8 @@ visibles.
 | «Ejecutan en su plataforma» | Hay que demostrar la mejor ejecución | 22, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de manipulación y de conflicto de interés. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -381,6 +393,8 @@ visibles.
 
 ## 🧪 Práctica
 
+El laboratorio pide detectar conductas prohibidas en datos de mercado. La operación circular es la que se busca.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Calcula precisión, exhaustividad y coste de una vigilancia.
@@ -389,6 +403,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Decide con el coste marginal frente al valor del caso.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen mercados con integridad comprometida. La causa es la ausencia de vigilancia y no la falta de datos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

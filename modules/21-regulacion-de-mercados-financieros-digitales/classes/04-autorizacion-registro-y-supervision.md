@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son tres cosas distintas que se confunden; los cinco siguientes, los requisitos y su alcance territorial. La distinción entre **autorización, registro y supervisión** es la que ordena la clase: la primera habilita, el segundo publica y la tercera vigila, y tener uno no implica los otros.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `autorización` | Permiso previo sin el cual no se puede operar |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `pasaporte` | Reconocimiento de una autorización en otra jurisdicción |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una escalera con tres peldaños independientes. Una entidad puede estar registrada y no autorizada, o autorizada y apenas supervisada, y el cliente casi siempre supone que las tres cosas van juntas.
 
 ```text
 LAS TRES COSAS Y SU MOMENTO
@@ -212,6 +216,8 @@ CRITERIO HABITUAL
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo determina qué vía corresponde a una actividad y qué exige. Conviene separar los tres peldaños: la respuesta cambia según cuál se mire.
 
 **Situación.** Una entidad de servicios sobre activos digitales prepara su
 autorización. Hay que estimar plazo y coste, y decidir la secuencia.
@@ -381,6 +387,8 @@ negocio existe, y casi nunca está en el plan de negocio inicial.
 
 ## 🧭 Perspectivas
 
+Las tres figuras afectan a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una entidad autorizada | Si confía |
@@ -396,6 +404,8 @@ negocio existe, y casi nunca está en el plan de negocio inicial.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una entidad inscrita y eso puede no significar lo que cree. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Están en trámite» | Operar sin autorización es ilícito | 22, clase 4 |
@@ -403,6 +413,8 @@ negocio existe, y casi nunca está en el plan de negocio inicial.
 | «Están registrados» | Registro no es autorización | 22, clase 4 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de confusión entre figuras y de pasaporte mal entendido. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -415,6 +427,8 @@ negocio existe, y casi nunca está en el plan de negocio inicial.
 
 ## 🧪 Práctica
 
+El laboratorio pide determinar la vía de autorización de tres actividades. El calendario y el capital son parte del entregable.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Construye la lista de requisitos con lo que demuestra cada uno.
@@ -423,6 +437,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Somete un manual a la prueba del caso concreto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen entidades operando sin la habilitación correcta. La causa es haber confundido registro con autorización.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

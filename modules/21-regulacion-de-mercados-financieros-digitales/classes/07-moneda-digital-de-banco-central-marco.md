@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la base jurídica; los cuatro siguientes, el modelo de distribución y la privacidad. La **habilitación legal** es el requisito previo que muchos análisis pasan por alto: un banco central no puede emitir una moneda digital sin que su ley se lo permita expresamente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `curso legal` | Obligación de aceptar en pago de una deuda |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `inclusión obligatoria` | Deber de atender a quien no puede usar el canal |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que el problema no es técnico sino de mandato: el diseño se decide después de resolver si la ley habilita, quién es el titular del pasivo y qué privacidad se garantiza por norma y no por implementación.
 
 ```text
 CUATRO DECISIONES JURÍDICAS, ANTES
@@ -206,6 +210,8 @@ QUÉ MÁS EXIGE LA HABILITACIÓN
 | Corte prolongado de red | Nadie, si hay modo fuera de línea | Por eso es requisito |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo analiza los requisitos jurídicos de una emisión. La habilitación legal y la titularidad del pasivo son los dos que deciden.
 
 **Situación.** Un banco central prepara la propuesta normativa de su CBDC
 minorista. Hay que resolver las cuatro decisiones.
@@ -389,6 +395,8 @@ creada por la propia norma.
 
 ## 🧭 Perspectivas
 
+El marco jurídico afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un medio de pago del Estado | Si lo usa |
@@ -404,6 +412,8 @@ creada por la propia norma.
 
 ## 🏦 Del cliente al banco
 
+El ciudadano usaría dinero público y sus derechos dependen de la norma que lo habilite. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es dinero del Estado» | Y el saldo es pasivo del banco central | 22, clase 7 |
@@ -411,6 +421,8 @@ creada por la propia norma.
 | «Van a ver mis pagos» | Depende de la norma, no del diseño | 22, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de mandato y de privacidad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -423,6 +435,8 @@ creada por la propia norma.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar los requisitos jurídicos de una emisión concreta. La habilitación legal es el primero que hay que comprobar.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Resuelve las cuatro decisiones para un caso dado.
@@ -431,6 +445,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Estima la migración de depósitos y su efecto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos con problemas de mandato. La causa es haber diseñado antes de comprobar la habilitación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

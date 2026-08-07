@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la clasificación prudencial y su prueba; los cuatro siguientes, los límites y las exposiciones indirectas. La **prueba de estabilización** es la que decide el grupo: un instrumento que la supera consume mucho menos capital que uno que no, y la diferencia es de órdenes de magnitud.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `grupo 1` | Activos tokenizados y referenciados que superan la prueba |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `coeficiente de liquidez` | Cobertura de salidas en tensión |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una clasificación binaria con consecuencias extremas: el grupo 1 se trata como el activo subyacente y el grupo 2 se deduce del capital. No hay término medio, y por eso la clasificación es la decisión que más importa.
 
 ```text
 LA LÓGICA DEL MARCO
@@ -214,6 +218,8 @@ DE ALTA CALIDAD, por definición
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica exposiciones y calcula su consumo de capital. La diferencia entre grupos hace inviable mantener volumen en el segundo.
 
 **Situación.** Un banco calcula el efecto prudencial de tres exposiciones.
 
@@ -385,6 +391,8 @@ no exige porque supone una base de depósitos que no es esta.
 
 ## 🧭 Perspectivas
 
+El tratamiento prudencial afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un banco que no ofrece el servicio | Dónde va |
@@ -400,6 +408,8 @@ no exige porque supone una base de depósitos que no es esta.
 
 ## 🏦 Del cliente al banco
 
+El cliente pide exposición a un activo y el banco calcula qué capital consume. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco no quiere ofrecerlo» | Consume capital como pérdida | 22, clase 8 |
@@ -407,6 +417,8 @@ no exige porque supone una base de depósitos que no es esta.
 | «El balance dice otra cosa» | Son dos marcos con fines distintos | 22, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de clasificación y de exposición por servicios. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -419,6 +431,8 @@ no exige porque supone una base de depósitos que no es esta.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar exposiciones y calcular el capital. La exposición por servicios es la que suele olvidarse.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Clasifica tres exposiciones y calcula el capital de cada una.
@@ -427,6 +441,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Recalibra el factor de salida con concentración y correlación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen consumos de capital inesperados. La causa es la clasificación mal determinada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

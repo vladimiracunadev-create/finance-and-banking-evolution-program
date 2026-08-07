@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tres niveles de segregación, que no son intercambiables; los cinco siguientes, la reutilización y su control. La **segregación jurídica** es la única que sirve en un concurso: las otras dos son operativas y no cambian la prelación.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `segregación operativa` | Cuentas o direcciones separadas por cliente |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `prelación` | Orden de cobro en un concurso |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres niveles acumulativos que se confunden entre sí. Tener cuentas distintas es operativo, registrarlas por cliente es contable, y que la norma reconozca que el activo no es del custodio es jurídico. Solo el tercero protege.
 
 ```text
 TRES SEGREGACIONES Y SOLO UNA DECIDE
@@ -215,6 +219,8 @@ DIARIA Y CON PROHIBICIÓN DE REUTILIZAR.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa la segregación de un custodio en los tres niveles. Cumple los dos primeros y falla el tercero, que es el caso frecuente.
 
 **Situación.** Un supervisor revisa a un custodio con 1 840 clientes y
 280 000 000 custodiados.
@@ -390,6 +396,8 @@ está mencionada en el régimen aplicable.
 
 ## 🧭 Perspectivas
 
+La segregación afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Sus activos están segregados» | Si confía |
@@ -404,6 +412,8 @@ está mencionada en el régimen aplicable.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que su activo está separado y eso depende del nivel de segregación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Están segregados» | Operativamente, no jurídicamente | 22, clase 9 |
@@ -411,6 +421,8 @@ está mencionada en el régimen aplicable.
 | «Concilian todo» | Semanalmente y sin verificar | 22, clase 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de reutilización y de prelación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -423,6 +435,8 @@ está mencionada en el régimen aplicable.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la segregación en los tres niveles. El nivel jurídico es el que decide el resultado.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Determina si el régimen protector aplica al instrumento.
@@ -431,6 +445,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Prioriza las correcciones por su efecto y su coste.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen activos custodiados que no se recuperan. La causa es la segregación solo operativa.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

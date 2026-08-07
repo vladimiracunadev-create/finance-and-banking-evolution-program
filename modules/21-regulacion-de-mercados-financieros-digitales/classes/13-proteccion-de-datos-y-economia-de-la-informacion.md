@@ -67,6 +67,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el dato y sus grados de protección; los cuatro siguientes, los roles y los derechos. La distinción entre **seudonimización y anonimización** es la que decide el régimen: un dato seudonimizado sigue siendo personal y le aplica todo, y en un registro público la reidentificación suele ser posible.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dato personal` | El que identifica o hace identificable a una persona |
@@ -79,6 +81,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `derecho de supresión` | Facultad de pedir el borrado |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un choque entre dos exigencias: la norma de datos reconoce el derecho de supresión y un registro inmutable no puede borrar. Resolverlo exige no escribir datos personales en el registro, y eso es una decisión de arquitectura.
 
 Antes de entrar en la contradicción conviene fijar un punto que casi siempre se
 discute mal. Una dirección de un registro parece un dato anónimo: es una cadena
@@ -241,6 +245,8 @@ Y LA SEGUNDA ES LA QUE SE INCUMPLE
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo evalúa si un dato de un registro público es personal. La seudonimización no basta cuando el patrón de operaciones identifica.
+
 **Situación.** Una plataforma registra en el registro distribuido el concepto que
 el cliente escribe en cada operación. Un cliente ejerce su derecho de supresión.
 Hay que determinar qué se puede hacer y qué costó la decisión de diseño.
@@ -385,6 +391,8 @@ no tiene respuesta después de cuatro millones de operaciones.
 
 ## 🧭 Perspectivas
 
+La protección de datos afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Hemos borrado sus datos» | Si lo cree |
@@ -399,6 +407,8 @@ no tiene respuesta después de cuatro millones de operaciones.
 
 ## 🏦 Del cliente al banco
 
+El cliente pide que borren sus datos y el registro es inmutable. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Borren mis datos» | Se borra la vinculación, no el registro | 22, clase 13 |
@@ -406,6 +416,8 @@ no tiene respuesta después de cuatro millones de operaciones.
 | «Acepté los términos» | Un consentimiento forzado no es libre | 22, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de reidentificación y de derechos no ejercitables. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -418,6 +430,8 @@ no tiene respuesta después de cuatro millones de operaciones.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la reidentificación de datos seudonimizados. El resultado obliga a rediseñar qué se escribe en el registro.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Clasifica qué campos de un registro son datos personales.
@@ -426,6 +440,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Determina el rol de cada actor de la cadena.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen conflictos entre inmutabilidad y protección de datos. La causa es haber escrito datos personales en el registro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

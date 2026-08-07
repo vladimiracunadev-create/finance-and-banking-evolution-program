@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las obligaciones y sus figuras; los cuatro siguientes, la regla del viaje y sus medidas. La **contraparte** es el problema propio de este ámbito: cuando el destinatario es una dirección sin entidad detrás, la regla del viaje no tiene a quién transmitir la información.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sujeto obligado` | Quien debe aplicar el régimen |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `congelamiento` | Inmovilización por lista de sanciones |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una obligación diseñada para un mundo de intermediarios aplicada a uno donde puede no haberlos. La norma exige transmitir datos del ordenante y del beneficiario, y a veces el beneficiario es una cartera autocustodiada.
 
 ```text
 LA REGLA DEL VIAJE, TRASLADADA
@@ -213,6 +217,8 @@ LO SEPA
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo aplica la regla del viaje a tres casos, uno de ellos con cartera autocustodiada. El tercero es el que no tiene solución limpia.
+
 **Situación.** Un proveedor calibra su programa. Hay que dimensionar el resto no
 identificable y decidir su tratamiento.
 
@@ -327,6 +333,8 @@ proveedor sin controles.
 
 ## 🧭 Perspectivas
 
+La prevención afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Preguntas sobre su destino | Si las responde |
@@ -340,6 +348,8 @@ proveedor sin controles.
 
 ## 🏦 Del cliente al banco
 
+El cliente envía a una cartera propia y la entidad tiene una obligación que no puede cumplir del todo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me piden datos del destino» | La regla del viaje lo exige | 22, clase 12 |
@@ -347,6 +357,8 @@ proveedor sin controles.
 | «Me bloquearon sin avisar» | El congelamiento no admite preaviso | 22, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de incumplimiento y de exclusión. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -359,6 +371,8 @@ proveedor sin controles.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar la regla del viaje a varios casos. El caso de la cartera autocustodiada es el que decide el ejercicio.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Mide el resto no identificable y su importe.
@@ -367,6 +381,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Añade el análisis de procedencia y recalcula.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen incumplimientos de la regla del viaje. La causa es la contraparte sin entidad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

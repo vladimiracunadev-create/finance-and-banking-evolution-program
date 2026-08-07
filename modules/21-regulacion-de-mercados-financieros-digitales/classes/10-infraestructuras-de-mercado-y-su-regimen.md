@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la infraestructura y su firmeza; los cuatro siguientes, los regímenes transitorios y su vigilancia. La **estrategia de transición** es el requisito de los regímenes piloto que casi nadie prepara: qué pasa con los participantes cuando el ensayo termina.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `infraestructura de mercado` | Sistema que negocia, compensa, liquida o registra |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `vigilancia` | Supervisión específica de infraestructuras |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que una infraestructura de mercado tiene un régimen propio porque su fallo no afecta a sus clientes sino al mercado entero. Todo lo que la norma le exige de más se explica por esa externalidad.
 
 ```text
 LOS PRINCIPIOS DE 2012 SIGUEN APLICANDO
@@ -214,6 +218,8 @@ Y UN PUENTE ES UN ENLACE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo determina el régimen de una infraestructura tokenizada. La firmeza jurídica es el requisito que decide si puede operar.
 
 **Situación.** Una plataforma de negociación y liquidación tokenizada solicita
 autorización bajo un régimen piloto.
@@ -385,6 +391,8 @@ protege de eso.
 
 ## 🧭 Perspectivas
 
+El régimen de infraestructuras afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una plataforma autorizada | Si opera |
@@ -400,6 +408,8 @@ protege de eso.
 
 ## 🏦 Del cliente al banco
 
+El cliente opera en un mercado y su firmeza depende del régimen de la infraestructura. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es atómico, es definitivo» | Sin firmeza legal puede deshacerse | 22, clase 10 |
@@ -407,6 +417,8 @@ protege de eso.
 | «Cualquiera puede participar» | Con un nodo de 180 000 | 22, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de firmeza y de transición. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -419,6 +431,8 @@ protege de eso.
 
 ## 🧪 Práctica
 
+El laboratorio pide determinar el régimen de una infraestructura y su estrategia de transición. La transición es lo que suele faltar.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Comprueba los límites del régimen frente al crecimiento previsto.
@@ -427,6 +441,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Evalúa el criterio de acceso por su proporcionalidad al riesgo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen infraestructuras con problemas de firmeza. La causa es haber supuesto reconocimiento jurídico.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
