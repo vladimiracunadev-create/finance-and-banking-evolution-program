@@ -13,6 +13,14 @@ primary_authorities: [GAFI, UAF, FSB]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 12 · Prevención de lavado y financiamiento del terrorismo
+
+> [← 11 · Conducta de mercado e integridad](11-conducta-de-mercado-e-integridad.md) · [Índice de la parte](../README.md) · [13 · Protección de datos y economía de la información →](13-proteccion-de-datos-y-economia-de-la-informacion.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Aplicar el régimen de prevención a los proveedores de servicios sobre activos
@@ -28,6 +36,18 @@ Al finalizar podrás:
 3. **Diseñar** un enfoque basado en riesgo proporcionado y documentado.
 4. **Evaluar** el análisis de la contraparte antes de transferir.
 5. **Determinar** qué hacer cuando el destinatario no es un sujeto obligado.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -370,6 +390,17 @@ Guarda en `portfolio/parte-22/clase-12/`:
 - **Continúa en:** clases 13 y 16 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 13.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
@@ -377,3 +408,11 @@ Guarda en `portfolio/parte-22/clase-12/`:
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
 - Unidad de Análisis Financiero de Chile. *Normativa aplicable a los sujetos obligados*. UAF. <https://www.uaf.cl/>
 - Verificación local: comprueba quiénes son sujetos obligados en tu jurisdicción, qué umbrales aplica la regla del viaje y qué canal de intercambio de información se admite. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 11 · Conducta de mercado e integridad](11-conducta-de-mercado-e-integridad.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [13 · Protección de datos y economía de la información →](13-proteccion-de-datos-y-economia-de-la-informacion.md) |
+<!-- gen:footer:end -->

@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**21 partes · 316 clases · 474 horas ·
+**22 partes · 334 clases · 501 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -31,7 +31,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **316** | **474** | |
+| 22 | [Regulación de mercados financieros digitales](modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | 27.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **334** | **501** | |
 
 ## Índice de clases
 
@@ -502,13 +503,38 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 15 | [Interoperabilidad entre infraestructuras](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/15-interoperabilidad-entre-infraestructuras.md) | profesional |
 | 16 | [Proyecto: mercado primario y secundario](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/16-proyecto-mercado-primario-y-secundario.md) | profesional |
 
+### Parte 22 — Regulación de mercados financieros digitales
+
+[Índice de la parte](modules/21-regulacion-de-mercados-financieros-digitales/README.md) · [Laboratorios](modules/21-regulacion-de-mercados-financieros-digitales/labs) · [Evaluaciones](modules/21-regulacion-de-mercados-financieros-digitales/assessments) · [Proyecto](modules/21-regulacion-de-mercados-financieros-digitales/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [El perímetro regulatorio](modules/21-regulacion-de-mercados-financieros-digitales/classes/01-el-perimetro-regulatorio.md) | profesional |
+| 02 | [Misma actividad, mismo riesgo, misma regulación](modules/21-regulacion-de-mercados-financieros-digitales/classes/02-misma-actividad-mismo-riesgo.md) | profesional |
+| 03 | [Calificación de un instrumento digital](modules/21-regulacion-de-mercados-financieros-digitales/classes/03-calificacion-de-un-instrumento-digital.md) | profesional |
+| 04 | [Autorización, registro y supervisión](modules/21-regulacion-de-mercados-financieros-digitales/classes/04-autorizacion-registro-y-supervision.md) | profesional |
+| 05 | [Régimen de emisores](modules/21-regulacion-de-mercados-financieros-digitales/classes/05-regimen-de-emisores.md) | profesional |
+| 06 | [Protección del cliente y de sus fondos](modules/21-regulacion-de-mercados-financieros-digitales/classes/06-proteccion-del-cliente-y-de-sus-fondos.md) | profesional |
+| 07 | [Moneda digital de banco central: marco jurídico](modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md) | profesional |
+| 08 | [Tratamiento prudencial de las exposiciones](modules/21-regulacion-de-mercados-financieros-digitales/classes/08-tratamiento-prudencial-de-las-exposiciones.md) | profesional |
+| 09 | [Custodia y segregación en la norma](modules/21-regulacion-de-mercados-financieros-digitales/classes/09-custodia-y-segregacion-en-la-norma.md) | profesional |
+| 10 | [Infraestructuras de mercado y su régimen](modules/21-regulacion-de-mercados-financieros-digitales/classes/10-infraestructuras-de-mercado-y-su-regimen.md) | profesional |
+| 11 | [Conducta de mercado e integridad](modules/21-regulacion-de-mercados-financieros-digitales/classes/11-conducta-de-mercado-e-integridad.md) | profesional |
+| 12 | [Prevención de lavado y financiamiento del terrorismo](modules/21-regulacion-de-mercados-financieros-digitales/classes/12-prevencion-de-lavado-y-financiamiento.md) | profesional |
+| 13 | [Protección de datos y economía de la información](modules/21-regulacion-de-mercados-financieros-digitales/classes/13-proteccion-de-datos-y-economia-de-la-informacion.md) | profesional |
+| 14 | [Resiliencia operativa y terceros críticos](modules/21-regulacion-de-mercados-financieros-digitales/classes/14-resiliencia-operativa-y-terceros-criticos.md) | profesional |
+| 15 | [Estabilidad financiera y vigilancia macroprudencial](modules/21-regulacion-de-mercados-financieros-digitales/classes/15-estabilidad-financiera-y-vigilancia.md) | profesional |
+| 16 | [Regulación comparada: Chile y el mundo](modules/21-regulacion-de-mercados-financieros-digitales/classes/16-regulacion-comparada-chile-y-el-mundo.md) | profesional |
+| 17 | [Espacios de prueba y regulación experimental](modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md) | profesional |
+| 18 | [Proyecto: expediente regulatorio](modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 21 proyectos integradores.
+- Entrega de los 22 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Tokenización, FX on-chain y mercados programables» (Parte 21, clase 16).
+- Defensa del proyecto final «Regulación de mercados financieros digitales» (Parte 22, clase 18).
 
 ## Resultados finales
 

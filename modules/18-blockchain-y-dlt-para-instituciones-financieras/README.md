@@ -7,7 +7,11 @@
 - **Evaluaciones:** 2
 - **Proyecto:** 1
 
-## Descripción
+## De qué trata esta parte
+
+Conviene decir desde el principio qué tipo de parte es esta. No enseña a
+construir una red: enseña a **decidir si hace falta una**, y su proyecto puede
+concluir que no y obtener la máxima calificación.
 
 La Parte 14, clase 9 introdujo el registro distribuido y su criterio de
 evaluación. Esta parte lo abre: qué hay dentro, qué garantiza cada pieza, qué
@@ -61,6 +65,26 @@ QUE NINGUNA CONTROLA
 | Evaluación de casos de uso | Compara con la alternativa, con números |
 | Riesgo de infraestructura | Identifica y controla |
 | Gestión de claves | Diseña custodia y recuperación |
+
+## Cómo se encadenan las 14 clases
+
+La secuencia va de la pregunta de criterio a las piezas, y de las piezas a los
+límites.
+
+**Clases 1 a 4 — el criterio y las piezas.** La clase 1 plantea las seis
+preguntas que deciden si un caso justifica un registro distribuido, y adelanta la
+respuesta: solo la de confianza lo hace por sí sola. Las tres siguientes montan
+la maquinaria —resúmenes, firmas, árboles de Merkle, claves, transacciones y
+estado— y cada una separa lo que la pieza garantiza de lo que no.
+
+**Clases 5 a 9 — el acuerdo y la ejecución.** Consenso, finalidad y
+configuración de la red; después los contratos inteligentes y los oráculos.
+Aquí aparece la contradicción que la parte persigue: un caso de uso que depende
+de un oráculo ha reintroducido justo el tercero de confianza que decía eliminar.
+
+**Clases 10 a 14 — los límites y la decisión.** Privacidad, puentes,
+escalabilidad y gobernanza. La parte cierra con el expediente de decisión, que
+compara la red con la alternativa centralizada usando números y no adjetivos.
 
 ## Secuencia
 

@@ -13,6 +13,14 @@ primary_authorities: [IOSCO, OCDE, CMF]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 06 · Protección del cliente y de sus fondos
+
+> [← 05 · Régimen de emisores](05-regimen-de-emisores.md) · [Índice de la parte](../README.md) · [07 · Moneda digital de banco central: marco jurídico →](07-moneda-digital-de-banco-central-marco.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Estudiar qué protege al cliente cuando la entidad falla. **La protección tiene
@@ -28,6 +36,18 @@ Al finalizar podrás:
 3. **Evaluar** la información precontractual por lo que el cliente entiende.
 4. **Diseñar** un procedimiento de reclamos con sus plazos.
 5. **Determinar** qué recupera el cliente en cada escenario de fallo.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -403,6 +423,17 @@ Guarda en `portfolio/parte-22/clase-06/`:
 - **Continúa en:** clases 9 y 11 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 8.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
@@ -410,3 +441,11 @@ Guarda en `portfolio/parte-22/clase-06/`:
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Comisión para el Mercado Financiero. *Normativa de conducta de mercado e información al cliente*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba qué régimen de salvaguarda exige tu jurisdicción, si requiere renuncia expresa a compensar y qué prelación tienen los fondos de clientes en un concurso. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 05 · Régimen de emisores](05-regimen-de-emisores.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [07 · Moneda digital de banco central: marco jurídico →](07-moneda-digital-de-banco-central-marco.md) |
+<!-- gen:footer:end -->

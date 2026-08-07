@@ -5,9 +5,9 @@
 | Campo | Valor |
 |---|---|
 | **Nombre** | `finance-and-banking-evolution-program` |
-| **Versión** | `1.6.0` |
+| **Versión** | `1.7.0` |
 | **Fecha** | 2026-08-06 |
-| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (5 de 7 partes publicadas) |
+| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (6 de 7 partes publicadas) |
 | **Licencia** | MIT |
 | **Idioma** | Español |
 | **Repositorio** | <https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program> |
@@ -20,17 +20,17 @@
 
 | Componente | Cantidad |
 |---|---:|
-| Partes publicadas | 21 |
+| Partes publicadas | 22 |
 | Partes planificadas | 23 |
-| Clases publicadas | 316 |
+| Clases publicadas | 334 |
 | Clases planificadas | 352 |
-| Horas de sesión publicadas | 474 |
+| Horas de sesión publicadas | 501 |
 | Duración por clase | 90 min |
-| Laboratorios | 132 |
-| Soluciones de referencia | 36 |
-| Evaluaciones | 42 |
-| Proyectos integradores | 21 |
-| Aplicaciones funcionales | 9 |
+| Laboratorios | 141 |
+| Soluciones de referencia | 45 |
+| Evaluaciones | 44 |
+| Proyectos integradores | 22 |
+| Aplicaciones funcionales | 10 |
 | Conjuntos de datos sintéticos | 6 |
 | Fichas normativas estructuradas | 8 |
 
@@ -64,8 +64,8 @@
 | Analista | 5 – 8 | 60 | 90 |
 | Bancario | 9 – 12 | 64 | 96 |
 | Dirección | 13 – 16 | 60 | 90 |
-| Finanzas digitales | 17 – 23 | 76 de 112 | 114 |
-| **Total** | **23** | **316 de 352** | **474** |
+| Finanzas digitales | 17 – 23 | 94 de 112 | 141 |
+| **Total** | **23** | **334 de 352** | **501** |
 
 ## Aplicaciones incluidas
 
@@ -80,6 +80,7 @@
 | `digital_assets_risk_lab` | Clasificación por promesa, reservas, cola de redención, espiral algorítmica, custodia, profundidad y contagio | ✅ |
 | `tokenization_platform` | Registro de referencia, emisión, ciclo de vida, entrega contra pago atómica y cascada de colateral | ✅ |
 | `onchain_fx_lab` | Coste total por ruta, creador de mercado automatizado y riesgo de liquidación en divisas | ✅ |
+| `regulatory_perimeter_engine` | Perímetro por hechos, calificación por criterios, salvaguarda, vigilancia y expediente cruzado | ✅ |
 
 ## Documentos generados automáticamente
 

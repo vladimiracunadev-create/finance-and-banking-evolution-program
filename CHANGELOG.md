@@ -5,6 +5,65 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [1.7.0] — 2026-08-06
+
+Sexta parte de la **Etapa 5**: el régimen que alcanza a la infraestructura
+construida en las cinco anteriores. Cambia el registro del programa —las
+respuestas dejan de depender de cómo funciona algo y pasan a depender de qué está
+haciendo alguien— y por eso esta entrega incorpora además la corrección
+pedagógica que faltaba en toda la etapa.
+
+### Añadido
+
+**Parte 22 — Regulación de mercados financieros digitales**
+
+- 18 clases de 90 minutos, con el eje de que **la regulación sigue a la
+  actividad, no a la tecnología**, y con la clase 2 dedicada íntegramente a los
+  tres límites de ese principio: el riesgo cambia, el sujeto puede no existir y
+  hay riesgos sin precedente.
+- 9 laboratorios con solución de referencia comentada.
+- Evaluación diagnóstica y final, con un criterio transversal nuevo: una
+  afirmación regulatoria sin la norma citada y su fecha **no puntúa, aunque sea
+  correcta**.
+- Proyecto integrador «expediente regulatorio» de doce piezas, cuyo valor está en
+  la lectura cruzada por parejas: las contradicciones no están dentro de ninguna
+  pieza, están entre dos.
+
+**Aplicación `apps/regulatory_perimeter_engine/`**
+
+- `perimeter`: las seis preguntas aplicadas sobre hechos con fuente obligatoria;
+  un hecho sin fuente se rechaza, porque es una declaración disfrazada.
+- `qualification`: los cuatro criterios, con análisis del material de promoción
+  en vez de pregunta al emisor.
+- `compliance`: las cuatro preguntas de la salvaguarda con su cuantificación,
+  vigilancia con coste marginal frente a medio, y concentración medida por
+  proveedor y por infraestructura para poder contrastarlas.
+- `dossier`: las doce piezas, las cinco parejas críticas, la priorización por
+  efecto sobre el cliente y la remediación que exige medida provisional.
+- 29 pruebas, seis de las cuales **documentan defectos o errores de razonamiento
+  y deben pasar**.
+
+**Documentación y metadatos**
+
+- `docs/mapa-regulatorio.md` con las seis preguntas del perímetro, la tabla de
+  dónde está cada concepto y las seis afirmaciones que la parte desmonta.
+- 21 términos nuevos en el glosario digital, cada uno con su «qué NO significa».
+
+### Cambiado
+
+- **Prosa pedagógica en todo el material de la etapa.** El README de cada parte
+  abre con una explicación narrativa de qué trata y una sección que explica **por
+  qué cada clase lleva a la siguiente**; las clases incorporan párrafos que
+  presentan cada bloque y extraen su consecuencia, y los laboratorios abren con
+  el porqué del ejercicio. La estructura de secciones no cambia: la prosa se
+  añade.
+- **README raíz coherente.** Las cinco etapas se presentan con el mismo formato y
+  el mismo nivel de detalle, en vez de destacar la ampliación más reciente sobre
+  las demás.
+- La cifra publicada pasa a **334 clases en 22 partes** (501 horas).
+
+---
+
 ## [1.6.0] — 2026-08-06
 
 Quinta parte de la **Etapa 5**: el instrumento financiero anotado en el registro.

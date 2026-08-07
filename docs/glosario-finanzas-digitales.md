@@ -4,7 +4,7 @@ Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
 etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro.
 
-> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 21.
+> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 22.
 
 ## Finanzas abiertas
 
@@ -1004,6 +1004,252 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** El puente se convierte en un objetivo económico racional.
 - **Primera clase.** 21.15 · **Otras.** 19.11, 20.12.
 
+## Regulación y supervisión
+
+### Perímetro regulatorio
+
+- **Definición.** Conjunto de actividades sujetas a un régimen.
+- **Qué NO significa.** No es una lista de tecnologías ni de instrumentos: se
+  dibuja sobre **conductas**. Y no es lo mismo que la calificación —que es una
+  pregunta sobre cosas— ni que la autorización, que es sobre personas.
+- **Ejemplo.** Recibir fondos con obligación de devolverlos activa el régimen de
+  captación, con registro distribuido o sin él.
+- **Riesgo.** Empezar por «¿qué licencia pido?» antes de «¿qué estoy haciendo?».
+- **Primera clase.** 22.1 · **Otras.** 22.2, 22.16.
+
+### Hecho observable
+
+- **Definición.** Dato verificable que sostiene la determinación de una
+  actividad.
+- **Qué NO significa.** No es lo que la entidad declara. «No custodiamos» con las
+  claves en su poder es una declaración; tener las claves es el hecho.
+- **Ejemplo.** Condiciones de servicio, flujos de fondos, quién puede mover el
+  activo, qué se muestra en pantalla.
+- **Riesgo.** Un hecho sin fuente es una declaración disfrazada.
+- **Primera clase.** 22.1 · **Otras.** 22.3, 22.18.
+
+### Misma actividad, mismo riesgo, misma regulación
+
+- **Definición.** Principio que aplica la norma existente a una actividad
+  conocida sobre una infraestructura nueva.
+- **Qué NO significa.** No significa que la exigencia sea idéntica: el riesgo
+  puede ser mayor en grado o distinto en naturaleza, y entonces hay que
+  recalibrar el parámetro, no solo el ámbito.
+- **Ejemplo.** La norma de custodia alcanza a quien custodia con clave, y «medidas
+  adecuadas» significa allí cosas que no significaba para valores anotados.
+- **Riesgo.** Aplicarlo y detenerse: tiene tres límites.
+- **Primera clase.** 22.2 · **Otras.** 22.9, 22.14.
+
+### Proporcionalidad
+
+- **Definición.** Ajuste de la exigencia al riesgo y al tamaño de la entidad.
+- **Qué NO significa.** **No es exención.** La prueba que las distingue: ¿el
+  cliente de la entidad pequeña tiene menos protección, o la misma protección con
+  menos carga administrativa?
+- **Ejemplo.** Menos frecuencia de reporte, no menos segregación de fondos.
+- **Riesgo.** «Somos pequeños, no nos aplica» presentado como proporcionalidad.
+- **Primera clase.** 22.2.
+
+### Calificación
+
+- **Definición.** Determinación de qué es jurídicamente un instrumento.
+- **Qué NO significa.** No la elige quien emite. Se deduce de las
+  características y **del material de promoción**, que forma parte de ella: la
+  misma unidad puede ser utilidad o valor según cómo se venda.
+- **Ejemplo.** «El precio subirá cuando crezca la red» crea expectativa de
+  beneficio derivada del esfuerzo del promotor.
+- **Riesgo.** El ahorro de calificar mal suele ser el 1 % de lo que se arriesga.
+- **Primera clase.** 22.3 · **Otras.** 22.5, 22.9.
+
+### Utilidad aparente
+
+- **Definición.** Instrumento presentado como acceso a un servicio que todavía no
+  existe.
+- **Qué NO significa.** No es una utilidad genuina: esa exige que el servicio
+  **funcione hoy**, que el token se consuma al usarlo y que el precio no sea el
+  argumento de venta.
+- **Ejemplo.** El 92 % de los compradores no usa el servicio que dice comprar.
+- **Riesgo.** Es un valor, y emitirlo sin autorización pone en riesgo la
+  colocación entera.
+- **Primera clase.** 22.3.
+
+### Autorización
+
+- **Definición.** Permiso previo sin el cual no se puede ejercer una actividad.
+- **Qué NO significa.** No es un registro declarativo ni el final de un proyecto:
+  el día siguiente empieza la supervisión, y esa no termina. El coste anual de
+  mantenerla suele ser del orden del de obtenerla.
+- **Ejemplo.** Un plazo legal de 6 meses con tres requerimientos son 9 meses
+  reales, más la preparación.
+- **Riesgo.** No presupuestar la carga recurrente y agotar el capital al año
+  siguiente.
+- **Primera clase.** 22.4 · **Otras.** 22.10, 22.17.
+
+### Salvaguarda de fondos
+
+- **Definición.** Protección patrimonial de los fondos del cliente frente a la
+  quiebra de la entidad.
+- **Qué NO significa.** No basta con una cuenta segregada. Sin **renuncia expresa
+  del banco depositario a compensar** con deudas de la entidad, el banco puede
+  compensar y la protección se evapora.
+- **Ejemplo.** 4,2 millones de deuda compensados contra 68 millones de saldos de
+  clientes.
+- **Riesgo.** Es la pregunta que falla casi siempre, y no se detecta en una
+  inspección de conducta.
+- **Primera clase.** 22.6 · **Otras.** 22.9.
+
+### Protección patrimonial
+
+- **Definición.** Qué recupera el cliente cuando la entidad falla.
+- **Qué NO significa.** No es la protección de conducta —información, idoneidad,
+  reclamos—, que es la que se audita en cada inspección. La patrimonial solo se
+  comprueba cuando ya es tarde.
+- **Ejemplo.** «Si esta entidad quiebra mañana, ¿qué recupera el cliente, cuándo
+  y de quién?»
+- **Riesgo.** Auditar solo la primera capa y dar la segunda por supuesta.
+- **Primera clase.** 22.6 · **Otras.** 22.9, 22.18.
+
+### Firmeza
+
+- **Definición.** Protección jurídica de las órdenes de un sistema frente al
+  concurso de un participante.
+- **Qué NO significa.** No es lo mismo que la finalidad técnica. Una liquidación
+  atómica en un sistema **no designado** puede impugnarse en un concurso, y la
+  atomicidad no protege de eso.
+- **Ejemplo.** Un registro que considera la operación cerrada sin que el
+  ordenamiento la considere irrevocable.
+- **Riesgo.** Prometer definitividad sin haber solicitado la designación.
+- **Primera clase.** 22.10 · **Otras.** 21.8.
+
+### Estrategia de transición
+
+- **Definición.** Plan de cese ordenado de una infraestructura, con traspaso de
+  posiciones.
+- **Qué NO significa.** No es una cláusula de terminación. Exige entidad
+  receptora identificada, copia diaria del registro en un tercero, plazo máximo y
+  una prueba ejecutada.
+- **Ejemplo.** Es el equivalente regulatorio del plan de sustitución del
+  custodio.
+- **Riesgo.** Sin ella, el cese lo improvisa quien está en dificultades.
+- **Primera clase.** 22.10 · **Otras.** 21.9.
+
+### Coste marginal por caso
+
+- **Definición.** Lo que cuesta detectar un caso adicional al añadir un indicador
+  de vigilancia.
+- **Qué NO significa.** No es el coste medio del sistema actual. Compararlos
+  invierte la conclusión: el marginal puede superar al medio y aun así
+  justificarse frente al valor del caso.
+- **Ejemplo.** 1 880 por caso frente a un medio de 1 489 y un valor de 45 000.
+- **Riesgo.** Optimizar la precisión reduce el trabajo y empeora la protección.
+- **Primera clase.** 22.11.
+
+### Resto no identificable
+
+- **Definición.** Transferencias cuyo destino no se puede vincular a un sujeto
+  obligado.
+- **Qué NO significa.** No es un fallo del programa: es estructural, porque el
+  registro no transporta la identidad. Lo que define la calidad del programa es
+  cómo lo gestiona, no llevarlo a cero.
+- **Ejemplo.** El 32 % de las transferencias salientes de un proveedor.
+- **Riesgo.** Prohibirlas parece más barato y desplaza la actividad a un
+  proveedor sin controles.
+- **Primera clase.** 22.12.
+
+### Dato personal seudónimo
+
+- **Definición.** Dato que no lleva nombre y que alguien puede vincular a una
+  persona.
+- **Qué NO significa.** **No es anónimo**, y le aplica todo el régimen de
+  protección de datos. Una dirección de un registro lo es en cuanto el proveedor
+  que la abrió sabe quién está detrás.
+- **Ejemplo.** El análisis de «direcciones vinculadas al mismo cliente» prueba
+  que la vinculación existe.
+- **Riesgo.** Escribir dato personal en un registro inmutable hace imposible el
+  derecho de supresión.
+- **Primera clase.** 22.13.
+
+### Tolerancia al impacto
+
+- **Definición.** Interrupción máxima admisible de una función antes de causar
+  daño grave.
+- **Qué NO significa.** No es la disponibilidad de un sistema. Se fija **por
+  función de negocio**, desde la perspectiva del cliente y del mercado, y es una
+  decisión del consejo, no del área técnica.
+- **Ejemplo.** Liquidación 2 horas, redenciones 4 horas, reporte 24 horas.
+- **Riesgo.** Tener todos los sistemas en alta disponibilidad y no ser resiliente.
+- **Primera clase.** 22.14.
+
+### Tercero crítico
+
+- **Definición.** Proveedor cuyo fallo afecta simultáneamente a muchas entidades.
+- **Qué NO significa.** No es un proveedor grande. Se identifica contando
+  **infraestructuras**, no proveedores: cuarenta y uno pueden apoyarse en tres.
+- **Ejemplo.** El 86,4 % de un sector dependiendo de una sola infraestructura.
+- **Riesgo.** Los contratos bilaterales están bien y no escalan al riesgo
+  colectivo: diecinueve auditorías simultáneas no son ejercitables.
+- **Primera clase.** 22.14 · **Otras.** 20.14, 17.2.
+
+### Relevancia sistémica
+
+- **Definición.** Capacidad de causar daño al sistema al fallar.
+- **Qué NO significa.** **No es tamaño.** La sustituibilidad discrimina más: un
+  participante pequeño al que nadie puede reemplazar en menos de diez días es
+  sistémico y no lo dice ninguna medida de cuota.
+- **Ejemplo.** Un custodio con el 71 % del saldo y diez días de migración.
+- **Riesgo.** Publicar el 0,05 % de exposición directa es cierto y oculta lo
+  único que importa.
+- **Primera clase.** 22.15 · **Otras.** 22.14.
+
+### Comercialización activa
+
+- **Definición.** Dirigir la actividad a residentes de una jurisdicción.
+- **Qué NO significa.** No depende de dónde esté la entidad ni el servidor. Seis
+  indicios —idioma, moneda, publicidad, horario, medios de pago y dominio— la
+  determinan, y varios juntos activan el régimen del cliente.
+- **Ejemplo.** Un sitio en tres idiomas que acepta tres monedas activa tres
+  regímenes.
+- **Riesgo.** El arbitraje regulatorio ahorra en la autorización inicial y no en
+  el coste permanente de acceso a servicios.
+- **Primera clase.** 22.16.
+
+### Espacio de prueba
+
+- **Definición.** Entorno con requisitos adaptados, perímetro acotado y
+  obligación de publicar lo aprendido.
+- **Qué NO significa.** **No es una exención.** Su producto es conocimiento, y sin
+  una hipótesis falsable no es un experimento: es una exención con otro nombre.
+- **Ejemplo.** «Comprobar si X reduce el plazo de cobro en más de 10 días sin
+  aumentar la morosidad», no «probar X».
+- **Riesgo.** El efecto de señal: el cliente interpreta la admisión como un aval.
+- **Primera clase.** 22.17.
+
+### Medida provisional
+
+- **Definición.** Lo que protege al cliente entre que se detecta un hallazgo y se
+  corrige.
+- **Qué NO significa.** No es parte del plan de corrección: es lo que ocurre
+  **mientras** se corrige. Es el elemento que falta en casi todos los planes de
+  remediación.
+- **Ejemplo.** No admitir clientes nuevos para un servicio hasta que la
+  autorización esté resuelta.
+- **Riesgo.** Sin ella, el intervalo de remediación deja al cliente expuesto sin
+  que nadie lo haya decidido.
+- **Primera clase.** 22.18.
+
+### Lectura cruzada
+
+- **Definición.** Revisión de un expediente por parejas de piezas en vez de en
+  secuencia.
+- **Qué NO significa.** No es una revisión de calidad. Las contradicciones no
+  están dentro de una pieza —cada una suele ser internamente coherente— sino
+  entre dos, y así es como lee un supervisor.
+- **Ejemplo.** «No custodiamos» en la pieza de perímetro frente a un esquema
+  3-de-5 en la de resiliencia.
+- **Riesgo.** Si todos los hallazgos son ordinarios, la revisión no miró donde
+  debía.
+- **Primera clase.** 22.18.
+
 ## Datos y privacidad
 
 ### Base de licitud
@@ -1080,4 +1326,5 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [Mapa de finanzas abiertas](mapa-finanzas-abiertas.md) ·
 [Mapa de activos digitales](mapa-activos-digitales.md) ·
-[Mapa de tokenización](mapa-tokenizacion.md)
+[Mapa de tokenización](mapa-tokenizacion.md) ·
+[Mapa regulatorio](mapa-regulatorio.md)

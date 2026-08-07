@@ -13,6 +13,14 @@ primary_authorities: [IOSCO, CMF, FSB]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 03 · Calificación de un instrumento digital
+
+> [← 02 · Misma actividad, mismo riesgo, misma regulación](02-misma-actividad-mismo-riesgo.md) · [Índice de la parte](../README.md) · [04 · Autorización, registro y supervisión →](04-autorizacion-registro-y-supervision.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Determinar **qué es jurídicamente** un instrumento digital. La calificación no la
@@ -29,6 +37,18 @@ Al finalizar podrás:
 3. **Reconocer** un token de utilidad aparente que es un valor.
 4. **Determinar** qué cambia la calificación en la práctica.
 5. **Documentar** una calificación que resista una revisión supervisora.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -411,6 +431,17 @@ Guarda en `portfolio/parte-22/clase-03/`:
 - **Continúa en:** clases 5 y 11 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 4.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
@@ -419,3 +450,11 @@ Guarda en `portfolio/parte-22/clase-03/`:
 - Comisión para el Mercado Financiero. *Normativa sobre oferta pública de valores y Registro de Valores*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521*. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Verificación local: comprueba qué criterios de calificación aplica tu jurisdicción, si ha emitido pronunciamientos sobre instrumentos digitales y qué exenciones de oferta pública existen. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 02 · Misma actividad, mismo riesgo, misma regulación](02-misma-actividad-mismo-riesgo.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [04 · Autorización, registro y supervisión →](04-autorizacion-registro-y-supervision.md) |
+<!-- gen:footer:end -->

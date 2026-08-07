@@ -7,12 +7,16 @@
 - **Evaluaciones:** 2
 - **Proyecto:** 1
 
-## Descripción
+## De qué trata esta parte
 
-La Parte 10 enseñó cómo un banco mueve dinero dentro de un país. Esta parte
-enseña qué ocurre cuando cruza una frontera: por qué tarda días, por qué cuesta
-lo que cuesta, dónde se pierde la transparencia y qué se ha intentado para
-arreglarlo.
+La Parte 10 explicó cómo se mueve el dinero dentro de un país. Esta parte cruza
+la frontera, y allí aparece la distinción que ordena todo el material: **un
+mensaje no es un movimiento de fondos**. La red transporta instrucciones, el
+dinero se mueve en cuentas, la liquidación ocurre en un sistema de pagos y la
+finalidad la da la norma.
+
+Confundir esas cuatro cosas es el origen de casi todos los errores de esta
+materia, y por eso la parte las modela por separado desde la primera clase.
 
 El eje es una distinción que casi todo el mundo pasa por alto:
 
@@ -60,6 +64,26 @@ UN MENSAJE NO ES UN MOVIMIENTO DE FONDOS
 | Gestión de liquidez multidivisa | Modela prefinanciación y netting |
 | Análisis de coste y transparencia | Descompone y audita |
 | Cumplimiento en pagos | Aplica screening, Travel Rule y reparaciones |
+
+## Cómo se encadenan las 16 clases
+
+La secuencia sigue el recorrido de un pago, y cada bloque añade una capa de
+realidad que la anterior había simplificado.
+
+**Clases 1 a 5 — la anatomía del pago.** Los cuatro flujos, la corresponsalía y
+las cuentas nostro y vostro, la mensajería ISO 20022 y las ventanas horarias.
+Al terminar este bloque se puede reconstruir por dónde pasa un pago y qué ocurre
+en cada tramo.
+
+**Clases 6 a 10 — lo que puede salir mal.** Sanciones, prevención de lavado y la
+regla del viaje; después la liquidación, la finalidad y el riesgo que dio nombre
+al problema en 1974. Es el bloque donde el pago deja de ser un flujo y pasa a ser
+una exposición.
+
+**Clases 11 a 16 — el coste y las alternativas.** Liquidez, neteo, el diferencial
+de cambio y su trampa de base, las remesas, la interconexión de sistemas
+inmediatos y la ruta con stablecoin. La parte cierra demostrando que el ahorro de
+esa ruta no viene del registro: viene de eliminar tramos de corresponsalía.
 
 ## Secuencia
 

@@ -13,6 +13,14 @@ primary_authorities: [CPMI, IOSCO, CMF]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 10 · Infraestructuras de mercado y su régimen
+
+> [← 09 · Custodia y segregación en la norma](09-custodia-y-segregacion-en-la-norma.md) · [Índice de la parte](../README.md) · [11 · Conducta de mercado e integridad →](11-conducta-de-mercado-e-integridad.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Aplicar a una infraestructura tokenizada el régimen que se escribió para los
@@ -29,6 +37,18 @@ Al finalizar podrás:
 3. **Analizar** un régimen piloto por lo que exige y por lo que exime.
 4. **Diseñar** la estrategia de transición obligatoria.
 5. **Determinar** el régimen de un enlace entre infraestructuras.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -430,6 +450,17 @@ Guarda en `portfolio/parte-22/clase-10/`:
 - **Continúa en:** clases 14 y 15 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clases 7 y 16.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
@@ -437,3 +468,11 @@ Guarda en `portfolio/parte-22/clase-10/`:
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
 - Comisión para el Mercado Financiero. *Normativa sobre infraestructuras del mercado de valores*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba qué sistemas están designados a efectos de firmeza en tu jurisdicción, cómo se solicita la designación y si existe un régimen piloto aplicable. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 09 · Custodia y segregación en la norma](09-custodia-y-segregacion-en-la-norma.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [11 · Conducta de mercado e integridad →](11-conducta-de-mercado-e-integridad.md) |
+<!-- gen:footer:end -->

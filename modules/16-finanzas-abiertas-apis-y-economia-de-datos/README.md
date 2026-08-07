@@ -7,12 +7,17 @@
 - **Evaluaciones:** 2
 - **Proyecto:** 1
 
-## Descripción
+## De qué trata esta parte
 
-La Parte 14, clase 3 introdujo la banca abierta como concepto. Esta parte la
-convierte en ingeniería: qué se comparte, con qué consentimiento, sobre qué
-protocolo de autorización, con qué garantías criptográficas, con qué contrato de
-servicio y bajo qué responsabilidad cuando algo falla.
+La Parte 14 introdujo la banca abierta como una tendencia. Esta parte la abre por
+dentro: qué es exactamente un consentimiento, cómo se autoriza a un tercero sin
+entregarle una contraseña, qué contrato hay detrás de una interfaz y quién
+responde cuando un pago iniciado por otro sale mal.
+
+Es la primera parte de la Etapa 5 y fija el método que usarán las seis
+siguientes: cada afirmación del material se acompaña de un cálculo o de una
+prueba que se puede ejecutar, y las decisiones de diseño se comparan siempre con
+la alternativa que no usa la tecnología de la que se habla.
 
 El eje es que **las finanzas abiertas no son una API: son un régimen de
 consentimiento del cliente con soporte técnico**. Toda la parte se organiza en
@@ -50,6 +55,30 @@ torno a esa distinción.
 | Gobierno del consentimiento | Diseña el ciclo completo |
 | Análisis regulatorio | Ubica la actividad en el perímetro |
 | Modelado de amenazas | Construye y prioriza |
+
+## Cómo se encadenan las 14 clases
+
+La secuencia va del derecho a la operación, y cada bloque responde lo que el
+anterior deja abierto.
+
+**Clases 1 a 4 — el consentimiento y quién manda sobre el dato.** Se empieza por
+lo único que hace legítimo todo lo demás: el permiso del titular. La clase 1
+distingue banca abierta de finanzas abiertas y de datos abiertos; la 2 mapea a
+los actores y descubre al proveedor tecnológico crítico, que no tiene relación
+con el cliente y sostiene a cuarenta entidades; la 3 y la 4 construyen el ciclo
+de vida del consentimiento y su revocación, que es donde casi todos los diseños
+fallan.
+
+**Clases 5 a 9 — cómo se autoriza y cómo se llama.** Con el consentimiento
+resuelto, aparece la mecánica: OAuth y OpenID Connect, el perfil reforzado que
+exige el sector financiero, la firma de mensajes y el contrato de la interfaz.
+Aquí se aprende que una interfaz sin contrato versionado no es una integración:
+es una dependencia.
+
+**Clases 10 a 14 — el pago, la responsabilidad y la operación.** La iniciación de
+pagos añade la parte irreversible, y con ella la idempotencia y el reparto de
+responsabilidad cuando algo sale mal. La parte cierra con la operación real:
+disponibilidad, presupuesto de error y el proyecto que integra todo.
 
 ## Secuencia
 

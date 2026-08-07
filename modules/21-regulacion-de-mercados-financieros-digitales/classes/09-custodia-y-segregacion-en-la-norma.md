@@ -13,6 +13,14 @@ primary_authorities: [IOSCO, CPMI, CMF]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 09 · Custodia y segregación en la norma
+
+> [← 08 · Tratamiento prudencial de las exposiciones](08-tratamiento-prudencial-de-las-exposiciones.md) · [Índice de la parte](../README.md) · [10 · Infraestructuras de mercado y su régimen →](10-infraestructuras-de-mercado-y-su-regimen.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Comprobar qué exige la norma a quien custodia y **qué queda fuera**. La Parte 20
@@ -28,6 +36,18 @@ Al finalizar podrás:
 3. **Verificar** una custodia con las preguntas que un supervisor hará.
 4. **Evaluar** el efecto de la reutilización del activo del cliente.
 5. **Diseñar** el reporte de conciliación que la norma pedirá.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -434,6 +454,17 @@ Guarda en `portfolio/parte-22/clase-09/`:
 - **Continúa en:** clases 10 y 14 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 10.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
@@ -441,3 +472,11 @@ Guarda en `portfolio/parte-22/clase-09/`:
 - IOSCO (2004). *Recommendations for Securities Settlement Systems*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD176.pdf>
 - Comisión para el Mercado Financiero. *Normativa sobre custodia y depósito de valores*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba si el instrumento está calificado como valor en tu jurisdicción, qué régimen de custodia le aplica, si admite reutilización y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 08 · Tratamiento prudencial de las exposiciones](08-tratamiento-prudencial-de-las-exposiciones.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [10 · Infraestructuras de mercado y su régimen →](10-infraestructuras-de-mercado-y-su-regimen.md) |
+<!-- gen:footer:end -->

@@ -13,6 +13,14 @@ primary_authorities: [FSB, CPMI, IOSCO]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 05 · Régimen de emisores
+
+> [← 04 · Autorización, registro y supervisión](04-autorizacion-registro-y-supervision.md) · [Índice de la parte](../README.md) · [06 · Protección del cliente y de sus fondos →](06-proteccion-del-cliente-y-de-sus-fondos.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Estudiar qué se le exige a quien **emite** un instrumento digital que promete un
@@ -28,6 +36,18 @@ Al finalizar podrás:
 3. **Evaluar** una cláusula de redención frente a lo que la norma exige.
 4. **Identificar** qué obligaciones no alcanzan al emisor extranjero.
 5. **Diseñar** el reporte periódico que un supervisor pedirá.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -438,6 +458,17 @@ Guarda en `portfolio/parte-22/clase-05/`:
 - **Continúa en:** clases 6 y 15 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 6.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
@@ -445,3 +476,11 @@ Guarda en `portfolio/parte-22/clase-05/`:
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114*, títulos sobre emisores. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Verificación local: comprueba qué obligaciones impone tu jurisdicción a los emisores de instrumentos referenciados, si admite mínimos de reembolso y qué exige del plan de rescate. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 04 · Autorización, registro y supervisión](04-autorizacion-registro-y-supervision.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [06 · Protección del cliente y de sus fondos →](06-proteccion-del-cliente-y-de-sus-fondos.md) |
+<!-- gen:footer:end -->

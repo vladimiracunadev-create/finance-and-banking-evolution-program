@@ -3,9 +3,9 @@
 Este archivo lo genera `tools/progress.py` a partir de los archivos reales
 del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 
-## Avance global: 316 de 352 clases (89.8 %)
+## Avance global: 334 de 352 clases (94.9 %)
 
-`████████████████████████████████████░░░░`
+`██████████████████████████████████████░░`
 
 | Parte | Tema | Clases | Plan | Avance | Tamaño medio |
 |---:|---|---:|---:|---|---:|
@@ -30,9 +30,9 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 16.7 KB |
 | 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 15.7 KB |
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 15.9 KB |
-| 22 | Parte 22: Regulación de mercados financieros digitales | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 22 | Parte 22: Regulación de mercados financieros digitales | 18 | 18 | `████████████████████` | 15.8 KB |
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
-| | **Total** | **316** | **352** | `██████████████████░░` | **15.9 KB** |
+| | **Total** | **334** | **352** | `███████████████████░` | **15.9 KB** |
 
 ## Qué significa que una clase esté completa
 
@@ -52,11 +52,11 @@ escriben a mano.
 
 | Componente | Cantidad | Estado |
 |---|---:|---|
-| Arquitectura curricular (partes) | 21 | Completa |
-| Laboratorios | 132 | Estructurados |
-| Evaluaciones | 42 | Diagnóstico y final por parte |
-| Proyectos integradores | 21 | Especificados |
-| Aplicaciones didácticas | 9 | Ejecutables con pruebas |
+| Arquitectura curricular (partes) | 22 | Completa |
+| Laboratorios | 141 | Estructurados |
+| Evaluaciones | 44 | Diagnóstico y final por parte |
+| Proyectos integradores | 22 | Especificados |
+| Aplicaciones didácticas | 10 | Ejecutables con pruebas |
 | Estudios de caso | 0 | Con hechos, fuentes y preguntas |
 | Fichas normativas estructuradas | 8 | Con fecha de verificación |
 | Datasets documentados | 6 | Sintéticos, con diccionario |

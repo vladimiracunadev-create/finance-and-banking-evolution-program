@@ -13,6 +13,14 @@ primary_authorities: [CMF, IOSCO, BCBS]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 04 · Autorización, registro y supervisión
+
+> [← 03 · Calificación de un instrumento digital](03-calificacion-de-un-instrumento-digital.md) · [Índice de la parte](../README.md) · [05 · Régimen de emisores →](05-regimen-de-emisores.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Recorrer el camino desde que una entidad decide operar hasta que un supervisor la
@@ -30,6 +38,18 @@ Al finalizar podrás:
 3. **Estimar** el plazo y el coste de un proceso de autorización.
 4. **Preparar** la documentación que un supervisor pedirá.
 5. **Explicar** qué cambia el día después de obtener la autorización.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -427,6 +447,17 @@ Guarda en `portfolio/parte-22/clase-04/`:
 - **Continúa en:** clases 5, 6 y 14 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clases 3 y 16.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
@@ -435,3 +466,11 @@ Guarda en `portfolio/parte-22/clase-04/`:
 - Comisión para el Mercado Financiero. *Procedimientos de autorización e inscripción de entidades*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521*. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Verificación local: comprueba qué actividades exigen autorización previa y cuáles solo registro en tu jurisdicción, qué plazos legales aplican y si se suspenden con los requerimientos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 03 · Calificación de un instrumento digital](03-calificacion-de-un-instrumento-digital.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [05 · Régimen de emisores →](05-regimen-de-emisores.md) |
+<!-- gen:footer:end -->

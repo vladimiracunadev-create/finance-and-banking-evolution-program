@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**744 archivos de texto versionados.**
+**793 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -100,6 +100,13 @@ repositorio. No se edita a mano.
 - `apps/openbank_simulator/README.md`
 - `apps/openbank_simulator/bank.py`
 - `apps/openbank_simulator/cli.py`
+- `apps/regulatory_perimeter_engine/README.md`
+- `apps/regulatory_perimeter_engine/__init__.py`
+- `apps/regulatory_perimeter_engine/cli.py`
+- `apps/regulatory_perimeter_engine/compliance.py`
+- `apps/regulatory_perimeter_engine/dossier.py`
+- `apps/regulatory_perimeter_engine/perimeter.py`
+- `apps/regulatory_perimeter_engine/qualification.py`
 - `apps/tokenization_platform/README.md`
 - `apps/tokenization_platform/__init__.py`
 - `apps/tokenization_platform/cli.py`
@@ -139,6 +146,7 @@ repositorio. No se edita a mano.
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
 - `docs/mapa-pagos-transfronterizos.md`
+- `docs/mapa-regulatorio.md`
 - `docs/mapa-tokenizacion.md`
 - `docs/metodologia-verificacion-regulatoria.md`
 - `docs/ruta-aprendizaje.md`
@@ -712,6 +720,46 @@ repositorio. No se edita a mano.
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-06.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-07.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-08.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/README.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/assessments/diagnostic.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/assessments/final.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/01-el-perimetro-regulatorio.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/02-misma-actividad-mismo-riesgo.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/03-calificacion-de-un-instrumento-digital.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/04-autorizacion-registro-y-supervision.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/05-regimen-de-emisores.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/06-proteccion-del-cliente-y-de-sus-fondos.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/08-tratamiento-prudencial-de-las-exposiciones.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/09-custodia-y-segregacion-en-la-norma.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/10-infraestructuras-de-mercado-y-su-regimen.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/11-conducta-de-mercado-e-integridad.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/12-prevencion-de-lavado-y-financiamiento.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/13-proteccion-de-datos-y-economia-de-la-informacion.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/14-resiliencia-operativa-y-terceros-criticos.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/15-estabilidad-financiera-y-vigilancia.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/16-regulacion-comparada-chile-y-el-mundo.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-01.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-02.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-03.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-04.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-05.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-06.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-07.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-08.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-09.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/project/README.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-01.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-02.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-03.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-04.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-05.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-06.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-07.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-08.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-09.md`
 - `portfolio/README.md`
 - `projects/README.md`
 - `pyproject.toml`
@@ -733,6 +781,7 @@ repositorio. No se edita a mano.
 - `tests/test_onchain_fx_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`
+- `tests/test_regulatory_perimeter_engine.py`
 - `tests/test_scoring.py`
 - `tests/test_tokenization_platform.py`
 - `tools/build_file_index.py`

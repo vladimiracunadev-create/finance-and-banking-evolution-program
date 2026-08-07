@@ -7,13 +7,21 @@
 - **Evaluaciones:** 2
 - **Proyecto:** 1
 
-## Descripción
+## De qué trata esta parte
 
-Las Partes 17 a 21 construyeron infraestructura. Esta parte estudia **el
-perímetro**: qué actividad queda dentro de una norma, cuál queda fuera y por qué
-esa frontera se dibuja donde se dibuja.
+Las cinco partes anteriores de la etapa construyeron infraestructura: interfaces
+de datos, rieles de pago, registros distribuidos, activos que circulan sobre
+ellos y mercados donde se negocian. Esta parte hace la pregunta que faltaba: **de
+todo eso, ¿qué alcanza una norma, y por qué esa frontera se dibuja donde se
+dibuja?**
 
-El eje es un principio que ordena toda la parte:
+El cambio de registro es importante y conviene anticiparlo. Hasta aquí las
+respuestas dependían de cómo funciona algo —cuánta profundidad tiene un libro,
+qué tolera un consenso, qué cubre una reserva—. A partir de aquí dependen de qué
+está haciendo alguien, y eso se responde con hechos observables y con la norma
+citada, no con una descripción del producto.
+
+El eje es un principio que se enuncia en una línea y que ordena toda la parte:
 
 ```text
 LA REGULACIÓN SIGUE A LA ACTIVIDAD,
@@ -28,12 +36,18 @@ NO A LA TECNOLOGÍA
 
 LA PREGUNTA NO ES «¿ESTÁ REGULADO EL TOKEN?»
 ES «¿QUÉ ESTÁ HACIENDO ESTA ENTIDAD?»
-
-Y esa pregunta se responde con hechos observables,
-no con la calificación que el propio proyecto elija.
 ```
 
+El principio es correcto y no es suficiente, y la parte dedica su segunda clase a
+sus tres límites: hay actividades cuyo riesgo cambia al cambiar de
+infraestructura, hay servicios sin un sujeto al que exigir cumplimiento, y hay
+riesgos —la irreversibilidad, la composición automática, la dependencia de un
+proveedor común— que ninguna norma anterior contempló porque no existían.
+
 ## Separación terminológica
+
+Estas siete distinciones se usan con precisión en toda la parte. Confundirlas es
+el origen de la mayor parte de los errores de determinación.
 
 | Término | Qué es | Qué NO es |
 |---|---|---|
@@ -43,7 +57,44 @@ no con la calificación que el propio proyecto elija.
 | **Supervisión** | Vigilancia continua del cumplimiento | No es la autorización inicial |
 | **Sandbox** | Espacio de prueba con requisitos adaptados | No es una exención de la norma |
 | **Extraterritorialidad** | Aplicación a hechos fuera del territorio | No es cooperación entre autoridades |
-| **Cumplimiento** | Conjunto de controles de la entidad | No es el mismo que la conducta debida |
+| **Cumplimiento** | Conjunto de controles de la entidad | No es la conducta debida |
+
+## Cómo se encadenan las dieciocho clases
+
+La secuencia no es una lista de temas: cada bloque responde una pregunta que el
+anterior deja abierta, y saltarse uno deja el siguiente sin base.
+
+**Clases 1 a 4 — qué haces, con qué y con qué permiso.** La clase 1 enseña a
+determinar el perímetro con hechos observables, no con la descripción que da la
+entidad. La 2 examina el principio que ordena la materia y sus tres límites. La 3
+califica el instrumento, porque de eso dependen la información exigible y la
+protección del tenedor. La 4 recorre el camino de la autorización y produce la
+cifra que decide si el negocio existe: cuánto hay que facturar solo para sostener
+la carga regulatoria.
+
+**Clases 5 a 9 — qué protege al cliente.** Determinado el perímetro, la parte
+mira al otro lado del mostrador. La 5 estudia qué se exige a quien emite; la 6
+distingue la protección de conducta —que se audita en cada inspección— de la
+patrimonial, que solo se comprueba cuando ya es tarde. La 7 resuelve las cuatro
+decisiones jurídicas de una moneda digital de banco central; la 8 traduce la
+exposición en capital y liquidez; la 9 comprueba qué exige la norma al custodio y
+qué queda fuera.
+
+**Clases 10 a 14 — qué hay que controlar.** La 10 aplica a una infraestructura
+tokenizada el régimen escrito para los depositarios, y encuentra que la
+liquidación atómica puede no tener firmeza legal. La 11 y la 12 tratan integridad
+del mercado y prevención de lavado; la 13 resuelve la contradicción entre el
+derecho a borrar, la obligación de conservar y un registro que no permite ni una
+cosa ni la otra. La 14 cierra el bloque con el riesgo que no está en el perímetro
+de nadie: veintidós entidades que cumplen su norma y un proveedor común que
+concentra el 86 %.
+
+**Clases 15 a 18 — el conjunto y el expediente.** La 15 cambia de escala y mira
+al sistema. La 16 compara jurisdicciones y demuestra por qué el arbitraje
+regulatorio ahorra menos de lo que parece. La 17 estudia los espacios de prueba y
+por qué la mayoría no produce ni innovación ni conocimiento. Y la 18 ensambla las
+doce piezas del expediente, que es donde aparecen las contradicciones que ninguna
+pieza mostraba por separado.
 
 ## Prerrequisitos
 
@@ -59,7 +110,7 @@ no con la calificación que el propio proyecto elija.
 - Determinar el perímetro aplicable a una actividad a partir de **hechos
   observables**, no de la etiqueta que use el proyecto.
 - Comparar regímenes de distintas jurisdicciones sin confundir requisito con
-  práctica de mercado.
+  guía ni con práctica de mercado.
 - Diseñar un programa de cumplimiento proporcionado al riesgo y verificable.
 - Evaluar la resiliencia operativa y la dependencia de terceros críticos.
 - Construir un expediente regulatorio que resista una revisión supervisora.
@@ -97,17 +148,22 @@ no con la calificación que el propio proyecto elija.
 
 ## Laboratorios
 
+Los nueve laboratorios siguen la misma secuencia que las clases y se apoyan en
+`apps/regulatory_perimeter_engine/`. El primero fija el método —determinar la
+actividad por hechos— y el último reproduce lo que hace un supervisor: leer el
+expediente por parejas de piezas.
+
 | # | Laboratorio | Entregable principal |
 |---:|---|---|
 | 1 | [Determinación de perímetro](labs/lab-01.md) | Actividades detectadas por hechos observables |
 | 2 | [Calificación de instrumentos](labs/lab-02.md) | Matriz de calificación con su fundamento |
-| 3 | [Vía de autorización](labs/lab-03.md) | Requisitos, plazos y documentación |
+| 3 | [Vía de autorización](labs/lab-03.md) | Requisitos, plazos y facturación de equilibrio |
 | 4 | [Salvaguarda y segregación](labs/lab-04.md) | Verificación con las cuatro preguntas |
-| 5 | [Programa de cumplimiento](labs/lab-05.md) | Controles proporcionados con prueba |
-| 6 | [Detección de conducta anómala](labs/lab-06.md) | Precisión, exhaustividad y coste |
-| 7 | [Resiliencia y terceros críticos](labs/lab-07.md) | Mapa de dependencias y prueba de salida |
-| 8 | [Comparación de regímenes](labs/lab-08.md) | Tabla comparada con fuentes citadas |
-| 9 | [Expediente regulatorio](labs/lab-09.md) | Documento que resiste una revisión |
+| 5 | [Programa de cumplimiento](labs/lab-05.md) | Tratamiento del resto no identificable |
+| 6 | [Detección de conducta anómala](labs/lab-06.md) | Precisión, exhaustividad y coste marginal |
+| 7 | [Resiliencia y terceros críticos](labs/lab-07.md) | Concentración real frente a la aparente |
+| 8 | [Comparación de regímenes](labs/lab-08.md) | Tabla comparada con nivel, fuente y fecha |
+| 9 | [Expediente regulatorio](labs/lab-09.md) | Lectura cruzada de las cinco parejas |
 
 ## Evaluaciones
 
@@ -120,12 +176,13 @@ no con la calificación que el propio proyecto elija.
 
 ## Evidencias
 
-- Determinación de perímetro con los hechos que la sostienen.
+- Determinación de perímetro con los hechos y las fuentes que la sostienen.
 - Calificación de tres instrumentos con la norma citada y su fecha.
-- Vía de autorización con requisitos, plazos y responsables.
-- Programa de cumplimiento con una prueba por control.
-- Detección de conducta anómala con sus métricas y su coste.
-- Mapa de terceros críticos con la prueba de salida ejecutada.
+- Vía de autorización con plazo real, coste recurrente y facturación necesaria.
+- Verificación de salvaguarda con las cuatro preguntas y su cuantificación.
+- Vigilancia calibrada con coste marginal frente a valor del caso.
+- Mapa de terceros con subcontratación y concentración por infraestructura.
+- Expediente cruzado por parejas, con hallazgos priorizados y remediación.
 
 ## Mapa de dependencias
 

@@ -13,6 +13,14 @@ primary_authorities: [BIS, BCCh, CPMI]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 07 · Moneda digital de banco central: marco jurídico
+
+> [← 06 · Protección del cliente y de sus fondos](06-proteccion-del-cliente-y-de-sus-fondos.md) · [Índice de la parte](../README.md) · [08 · Tratamiento prudencial de las exposiciones →](08-tratamiento-prudencial-de-las-exposiciones.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Estudiar las decisiones **jurídicas** que una moneda digital de banco central
@@ -28,6 +36,18 @@ Al finalizar podrás:
 3. **Evaluar** un régimen de privacidad por lo que permite y lo que impide.
 4. **Analizar** el reparto de responsabilidad en el modelo de dos niveles.
 5. **Determinar** qué habilitación legal exige emitir.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -434,6 +454,17 @@ Guarda en `portfolio/parte-22/clase-07/`:
 - **Continúa en:** clases 13 y 15 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 5.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - Committee on Payments and Market Infrastructures (2020). *Central bank digital currencies: foundational principles and core features*. BIS. <https://www.bis.org/publ/othp33.htm>
@@ -441,3 +472,11 @@ Guarda en `portfolio/parte-22/clase-07/`:
 - Banco Central de Chile (2022). *Emisión de moneda digital de banco central en Chile*. BCCh. <https://www.bcentral.cl/documents/33528/3060272/Informe_CBDC.pdf>
 - Bank for International Settlements (2021). *Central bank digital currencies: financial stability implications*. BIS. <https://www.bis.org/publ/othp42_fin_stab.htm>
 - Verificación local: comprueba si la ley orgánica de tu banco central habilita a emitir dinero digital, qué medios tienen curso legal y qué régimen de datos aplicaría. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 06 · Protección del cliente y de sus fondos](06-proteccion-del-cliente-y-de-sus-fondos.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [08 · Tratamiento prudencial de las exposiciones →](08-tratamiento-prudencial-de-las-exposiciones.md) |
+<!-- gen:footer:end -->

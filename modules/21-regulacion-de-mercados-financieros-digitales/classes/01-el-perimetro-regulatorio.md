@@ -13,6 +13,14 @@ primary_authorities: [CMF, FSB, IOSCO]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 01 · El perímetro regulatorio
+
+> [← Índice de la parte](../README.md) · [Índice de la parte](../README.md) · [02 · Misma actividad, mismo riesgo, misma regulación →](02-misma-actividad-mismo-riesgo.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Aprender a determinar **qué norma alcanza a una actividad** a partir de hechos
@@ -29,6 +37,18 @@ Al finalizar podrás:
 4. **Detectar** las actividades que una entidad ejerce sin haberlas declarado.
 5. **Explicar** por qué el perímetro se dibuja sobre la actividad y no sobre la
    tecnología.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -442,6 +462,17 @@ Guarda en `portfolio/parte-22/clase-01/`:
 - **Continúa en:** clases 2, 3 y 4 de esta parte.
 - **Se aplica en:** clase 18 de esta parte; Parte 23, clase 3.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
@@ -450,3 +481,11 @@ Guarda en `portfolio/parte-22/clase-01/`:
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología*. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Comisión para el Mercado Financiero. *Normativa de servicios financieros e inscripción de entidades*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba en la fuente oficial vigente qué actividades son reservadas en tu jurisdicción y cuáles exigen autorización previa frente a simple registro. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← Índice de la parte](../README.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [02 · Misma actividad, mismo riesgo, misma regulación →](02-misma-actividad-mismo-riesgo.md) |
+<!-- gen:footer:end -->

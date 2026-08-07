@@ -13,6 +13,14 @@ primary_authorities: [FSB, BIS, IOSCO]
 requires_legal_review: true
 ---
 
+<!-- gen:header:start -->
+# Clase 02 · Misma actividad, mismo riesgo, misma regulación
+
+> [← 01 · El perímetro regulatorio](01-el-perimetro-regulatorio.md) · [Índice de la parte](../README.md) · [03 · Calificación de un instrumento digital →](03-calificacion-de-un-instrumento-digital.md)
+
+**Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
+<!-- gen:header:end -->
+
 ## 🎯 Propósito
 
 Examinar el principio que ordena la regulación de las finanzas digitales, y —lo
@@ -29,6 +37,18 @@ Al finalizar podrás:
 3. **Aplicar** el criterio de proporcionalidad sin convertirlo en exención.
 4. **Distinguir** neutralidad tecnológica de indiferencia tecnológica.
 5. **Argumentar** cuándo hace falta una norma nueva y cuándo no.
+
+<!-- gen:agenda:start -->
+## Agenda de 90 minutos
+
+| Minutos | Bloque | Qué ocurre |
+|---:|---|---|
+| 0–10 | Activación | Pregunta diagnóstica y recuperación de la clase anterior. |
+| 10–35 | Conceptos | Desarrollo guiado con la fuente oficial a la vista. |
+| 35–55 | Ejemplo guiado | El docente resuelve el caso numérico paso a paso. |
+| 55–80 | Práctica | El estudiante replica con datos propios o sintéticos. |
+| 80–90 | Cierre | Preguntas de comprobación y registro en el portafolio. |
+<!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
 
@@ -438,6 +458,17 @@ Guarda en `portfolio/parte-22/clase-02/`:
 - **Continúa en:** clases 3, 8 y 14 de esta parte.
 - **Se aplica en:** clases 16 y 18 de esta parte; Parte 23, clase 3.
 
+<!-- gen:etica:start -->
+## 🔐 Seguridad, ética y límites
+
+Trabaja siempre con datos sintéticos o propios: nunca uses datos reales de terceros,
+números de cuenta, documentos de identidad ni antecedentes crediticios ajenos. Este
+material es formativo y **no constituye asesoría financiera, tributaria ni legal**; las
+tasas, comisiones, límites y normas citados cambian y deben verificarse en la fuente
+oficial vigente del país donde se aplique. Cuando un cálculo alimente una decisión que
+afecte a otra persona, registra los supuestos y quién los aprobó.
+<!-- gen:etica:end -->
+
 ## 📗 Fuentes y verificación
 
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
@@ -445,3 +476,11 @@ Guarda en `portfolio/parte-22/clase-02/`:
 - IOSCO (2023). *Policy Recommendations for Decentralized Finance*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf>
 - Basel Committee on Banking Supervision (2018). *Sound Practices: implications of fintech developments for banks and bank supervisors*. BIS. <https://www.bis.org/bcbs/publ/d431.htm>
 - Verificación local: comprueba si tu autoridad ha emitido guías técnicas que desarrollen normas existentes para actividades digitales, y con qué rango. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+
+<!-- gen:footer:start -->
+---
+
+| Anterior | Índice | Siguiente |
+|---|---|---|
+| [← 01 · El perímetro regulatorio](01-el-perimetro-regulatorio.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [03 · Calificación de un instrumento digital →](03-calificacion-de-un-instrumento-digital.md) |
+<!-- gen:footer:end -->

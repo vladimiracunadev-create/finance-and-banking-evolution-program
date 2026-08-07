@@ -3,17 +3,17 @@
 # Finance & Banking Evolution Program
 
 **De no saber calcular un porcentaje a dirigir un banco digital.**
-Programa abierto de 316 clases con bibliografía oficial verificable en cada una.
+Programa abierto de 334 clases con bibliografía oficial verificable en cada una.
 
 [![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Clases](https://img.shields.io/badge/clases-316%20%2F%20352-2ea44f)](STATUS.md)
-[![Partes](https://img.shields.io/badge/partes-21-1f6feb)](SYLLABUS.md)
-[![Horas](https://img.shields.io/badge/horas-474-8957e5)](SYLLABUS.md)
-[![Versión](https://img.shields.io/badge/versión-1.6.0-0969da)](CHANGELOG.md)
+[![Clases](https://img.shields.io/badge/clases-334%20%2F%20352-2ea44f)](STATUS.md)
+[![Partes](https://img.shields.io/badge/partes-22-1f6feb)](SYLLABUS.md)
+[![Horas](https://img.shields.io/badge/horas-501-8957e5)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-1.7.0-0969da)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
 [![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](SYLLABUS.md)
 
@@ -38,7 +38,7 @@ un banco digital ante un supervisor.
 
 El programa está en **ampliación activa**: las 16 partes originales están
 completas y la **Etapa 5 — Finanzas digitales** añade siete partes más, de las
-que hoy están publicadas las cinco primeras. Las cifras exactas de avance están en
+que hoy están publicadas las seis primeras. Las cifras exactas de avance están en
 [STATUS.md](STATUS.md), que se genera contando los archivos.
 
 No es una colección de apuntes. Cada clase sigue una **estructura fija verificada por
@@ -52,10 +52,10 @@ IOSCO, CPMI y NIST.
 
 <table>
 <tr>
-<td width="25%" align="center"><b>316</b><br>clases completas</td>
+<td width="25%" align="center"><b>334</b><br>clases completas</td>
 <td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
-<td width="25%" align="center"><b>132</b><br>laboratorios</td>
-<td width="25%" align="center"><b>21</b><br>proyectos integradores</td>
+<td width="25%" align="center"><b>141</b><br>laboratorios</td>
+<td width="25%" align="center"><b>22</b><br>proyectos integradores</td>
 </tr>
 </table>
 
@@ -174,20 +174,58 @@ flowchart LR
 
 ## 📚 Las partes
 
+El programa se recorre en **cinco etapas**. Cada una supone la anterior y añade
+una capa: primero se aprende a calcular, después a analizar, después a operar un
+banco, después a dirigirlo y, por último, a construir la infraestructura sobre la
+que funcionan las finanzas digitales.
+
+Las cinco se presentan aquí con el mismo detalle. La columna «Clases» indica las
+publicadas; el avance real, contado sobre los archivos, está en
+**[STATUS.md](STATUS.md)**.
+
+### Etapa 1 — Fundamentos
+
+Para quien empieza sin base. Al terminarla se calcula un interés, se lee un
+estado de cuenta, se compara un crédito y se reconoce un fraude.
+
 | # | Parte | Clases | Contenido central |
 |---:|---|---:|---|
 | 1 | [Matemática financiera básica](modules/00-matematica-financiera-basica/README.md) | 14 | Porcentajes, interés simple y compuesto, anualidades, amortización |
 | 2 | [Finanzas personales](modules/01-finanzas-personales/README.md) | 14 | Presupuesto, ahorro, deuda, fondo de emergencia, previsión |
 | 3 | [Productos y servicios financieros](modules/02-productos-y-servicios-financieros/README.md) | 14 | Cuentas, tarjetas, créditos, hipotecario, seguros |
 | 4 | [Seguridad y consumo financiero](modules/03-seguridad-y-consumo-financiero/README.md) | 14 | Fraude, autenticación, derechos, reclamos, sobreendeudamiento |
+
+### Etapa 2 — Analista
+
+El salto del cliente al profesional. Al terminarla se interpretan estados
+financieros, se entiende de dónde viene una tasa y se valora un instrumento.
+
+| # | Parte | Clases | Contenido central |
+|---:|---|---:|---|
 | 5 | [Contabilidad financiera](modules/04-contabilidad-financiera/README.md) | 15 | Partida doble, estados financieros, NIIF, análisis |
 | 6 | [Economía y sistema financiero](modules/05-economia-y-sistema-financiero/README.md) | 15 | Inflación, política monetaria, banca central, ciclos, crisis |
 | 7 | [Matemática financiera avanzada](modules/06-matematica-financiera-avanzada/README.md) | 15 | Duración, convexidad, curvas, Monte Carlo, opciones |
 | 8 | [Inversiones y mercados](modules/07-inversiones-y-mercados/README.md) | 15 | Renta fija y variable, carteras, fondos, derivados |
+
+### Etapa 3 — Bancario
+
+El banco por dentro. Al terminarla se evalúa un crédito con criterio, se entiende
+cómo se mueve el dinero entre entidades y se sabe qué riesgo consume capital.
+
+| # | Parte | Clases | Contenido central |
+|---:|---|---:|---|
 | 9 | [Análisis y gestión de crédito](modules/08-analisis-y-gestion-de-credito/README.md) | 16 | PD, LGD, EAD, scoring, IFRS 9, garantías, recuperación |
 | 10 | [Operaciones bancarias](modules/09-operaciones-bancarias/README.md) | 16 | Captación, pagos, compensación, tesorería, comercio exterior |
 | 11 | [Gestión integral de riesgos](modules/10-gestion-integral-de-riesgos/README.md) | 16 | Crédito, liquidez, mercado, operacional, modelo, estrés, capital |
 | 12 | [Regulación, cumplimiento y auditoría](modules/11-regulacion-cumplimiento-y-auditoria/README.md) | 16 | Basilea, lavado, sanciones, conducta, resolución, auditoría |
+
+### Etapa 4 — Dirección
+
+La vista del comité. Al terminarla se defiende una estrategia con números y se
+construye un banco completo de principio a fin.
+
+| # | Parte | Clases | Contenido central |
+|---:|---|---:|---|
 | 13 | [Finanzas corporativas y banca empresarial](modules/12-finanzas-corporativas-y-banca-empresarial/README.md) | 14 | Capital de trabajo, WACC, proyectos, valoración, M&A |
 | 14 | [Fintech, datos e IA](modules/13-fintech-datos-e-inteligencia-artificial/README.md) | 14 | Pagos, banca abierta, datos, IA, criptoactivos, sesgo |
 | 15 | [Estrategia y dirección bancaria](modules/14-estrategia-y-direccion-bancaria/README.md) | 14 | Modelo de negocio, precios, gobierno, cultura, crisis |
@@ -195,9 +233,10 @@ flowchart LR
 
 ### Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados
 
-Continúa el programa desde la introducción fintech de la Parte 14 hacia la
-infraestructura financiera. Siete partes, de las que hoy están publicadas las
-cinco primeras. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
+La infraestructura por debajo. Continúa desde la introducción fintech de la
+Parte 14 y llega hasta construir y defender un mercado tokenizado completo. Es la
+etapa en **ampliación activa**: de sus siete partes hay seis publicadas. Ver
+**[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
 
 | # | Parte | Clases | Contenido central |
 |---:|---|---:|---|
@@ -206,7 +245,7 @@ cinco primeras. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)
 | 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | Consenso, finalidad, redes autorizadas, contratos, oráculos, comparación con base centralizada |
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | Taxonomía, reservas, redención, corrida, CBDC, custodia, contagio |
 | 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | Registro de referencia, emisión, mercado secundario, DvP, PvP y colateral |
-| 22 | Regulación de mercados financieros digitales | — | Ley Fintec, MiCA, DORA, regulación comparada |
+| 22 | [Regulación de mercados financieros digitales](modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | Perímetro, calificación, autorización, protección del cliente, resiliencia y regulación comparada |
 | 23 | Proyecto: banco digital y mercado tokenizado | — | Construir, operar y defender la infraestructura completa |
 
 📖 **[Índice completo de las clases →](SYLLABUS.md)** · 📊 **[Avance real →](STATUS.md)**
