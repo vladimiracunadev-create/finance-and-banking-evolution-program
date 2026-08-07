@@ -1,34 +1,67 @@
-# Laboratorio 4: Riesgo reputacional
+# Laboratorio 4: Riesgo reputacional y de conducta
 
 ## Propósito
 
-Aplicar riesgo reputacional en un caso controlado y documentar cada supuesto.
+Cuantificar un evento de conducta por sus dos vías y **comprobar que la reputacional supera a la sanción**.
+
+El laboratorio 3 midió pérdidas operativas directas. Este mide el riesgo que no aparece en ninguna base de eventos y que suele costar más: el que se materializa en clientes que se van.
 
 ## Escenario
 
-Una persona, empresa o unidad bancaria debe tomar una decisión con información incompleta. Usa datos ficticios del repositorio o crea un conjunto pequeño claramente identificado como sintético.
+Una entidad que vendió un producto fuera de su mercado objetivo a 4 200 clientes durante dieciocho meses.
+
+## Datos
+
+El detalle de la venta, la sanción estimada y las series de fuga de clientes tras episodios comparables.
+
+## Supuestos del ejercicio
+
+- El margen anual por cliente se entrega como dato.
+- La tasa de fuga observada en episodios comparables se entrega.
+- El costo de reparación por cliente afectado se estima.
 
 ## Pasos
 
-1. Define el problema y la decisión.
-2. Identifica variables, unidades y periodicidad.
-3. Realiza los cálculos o el análisis.
-4. Ejecuta una prueba de sensibilidad.
-5. Explica riesgos y limitaciones.
-6. Entrega una conclusión de máximo 200 palabras.
+1. Cuantifica la pérdida directa: reparación a clientes y sanción estimada.
+2. Estima la fuga de clientes con la tasa observada en episodios comparables.
+3. Cuantifica la pérdida reputacional como valor presente del margen perdido.
+4. Compara ambas vías y calcula la proporción.
+5. Identifica el incentivo comercial que produjo la venta indebida.
+6. Rediseña ese incentivo y estima el efecto sobre el volumen.
+7. Propón el control de gobierno de productos que lo habría evitado.
+
+## Criterios de aceptación
+
+| # | Criterio | Cómo se comprueba |
+|---:|---|---|
+| 1 | La pérdida directa está cuantificada | Reparación y sanción |
+| 2 | La fuga está estimada | Con la tasa comparable |
+| 3 | La pérdida reputacional está en valor presente | Del margen perdido |
+| 4 | Las dos vías se comparan | Con su proporción |
+| 5 | El incentivo está identificado y rediseñado | Con su efecto |
+
+## Errores que se penalizan
+
+| Error | Por qué |
+|---|---|
+| Cuantificar solo la sanción | Suele ser la menor de las dos vías |
+| Tratar la fuga como no medible | Hay tasas observadas en episodios comparables |
+| Culpar a la fuerza de venta | El incentivo produjo la conducta |
+| Proponer formación como control | No corrige un incentivo mal diseñado |
 
 ## Entregables
 
-- `solution.md` con razonamiento y resultado.
-- Archivo de cálculo o script reproducible.
-- Tabla de supuestos.
-- Reflexión ética y de seguridad.
+- `solution.md` con las dos vías cuantificadas.
+- La proporción entre reputacional y directa.
+- El incentivo identificado y su rediseño.
+- El control de gobierno de productos propuesto.
 
-## Criterios
+## Rúbrica
 
 | Criterio | Puntos |
 |---|---:|
-| Cálculo o análisis | 35 |
-| Trazabilidad | 25 |
-| Interpretación | 25 |
-| Riesgos y ética | 15 |
+| Pérdida directa | 20 |
+| Fuga estimada | 25 |
+| Reputacional en valor presente | 25 |
+| Incentivo rediseñado | 20 |
+| Control propuesto | 10 |
