@@ -21,6 +21,8 @@ Ubicar cada norma en su lugar. Un profesional bancario que no distingue entre un
 una directiva regional, una ley nacional y una circular del supervisor no puede evaluar qué es
 obligatorio, qué es interpretable y qué está por cambiar.
 
+La clase anterior explica por qué se regula. Esta explica quién lo hace, y con una distinción que cambia lo que obliga: los estándares internacionales no son norma, se transponen. Saber en qué punto de ese recorrido está una exigencia decide si hay que cumplirla hoy o prepararse para dentro de tres años.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los niveles del embudo; los cinco siguientes, sus variaciones y su verificación. La **discrecionalidad nacional** es la que explica por qué dos países que dicen aplicar el mismo estándar exigen cosas distintas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `estándar internacional` | Acuerdo entre supervisores. No es ley hasta que se transpone. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `vigilancia normativa` | Proceso de seguimiento de cambios y su efecto. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un embudo con tres niveles: un organismo internacional acuerda un estándar, una jurisdicción lo transpone a su norma y un supervisor lo interpreta en criterios concretos. En cada nivel el contenido cambia, y lo que obliga es siempre el último.
 
 ```text
 LA CADENA NORMATIVA
@@ -87,6 +93,8 @@ CADA ESLABÓN PUEDE SER MÁS EXIGENTE QUE EL ANTERIOR, NUNCA MENOS
 ## 📖 Desarrollo
 
 ### 1. Los organismos y su ámbito
+
+Cada organismo internacional cubre un ámbito y emite un tipo de documento distinto. La tabla los sitúa.
 
 | Organismo | Ámbito | Producto característico |
 |---|---|---|
@@ -112,6 +120,8 @@ su fuerza viene de:
 
 ### 2. Del estándar a la obligación
 
+Un estándar recorre un camino hasta convertirse en algo exigible. El esquema lo recorre con sus plazos habituales.
+
 ```text
 EJEMPLO: el requerimiento de cobertura de liquidez
 
@@ -134,6 +144,8 @@ la norma nacional y el criterio del supervisor, que pueden diferir en definicion
 de exigencia.
 
 ### 3. Discrecionalidades y diferencias
+
+Los estándares dejan opciones nacionales y las jurisdicciones las usan de forma distinta. La tabla recoge las más relevantes.
 
 ```text
 UN MISMO ESTÁNDAR PRODUCE NORMAS DISTINTAS PORQUE:
@@ -161,6 +173,8 @@ PARA UN GRUPO INTERNACIONAL, ESTO SIGNIFICA:
 
 ### 4. Evaluaciones y su valor
 
+Los organismos evalúan la consistencia de la transposición y publican resultados. La tabla recoge qué miden y qué no.
+
 ```text
 EVALUACIÓN DE CONSISTENCIA (BCBS)
   revisa si una jurisdicción implantó el marco
@@ -182,6 +196,8 @@ en una lista de seguimiento eleva de inmediato el costo de la debida diligencia 
 extranjeros aplican a sus contrapartes de ese país.
 
 ### 5. Vigilancia normativa
+
+Mantenerse al día exige un proceso y no una suscripción. La tabla lo recoge.
 
 ```text
 UNA VIGILANCIA ÚTIL NO ES UNA LISTA DE PUBLICACIONES
@@ -205,6 +221,8 @@ PROCESO
 | Solo se miran normas finales | No se participa en las consultas públicas |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue un estándar concreto desde su publicación hasta el criterio supervisor que lo aplica. Conviene ver cuánto cambia el contenido en el trayecto.
 
 **Situación.** Un grupo bancario con filiales en tres países evalúa el efecto de un cambio de estándar.
 
@@ -359,6 +377,8 @@ comercial. Leer un estándar sin recorrer esa cadena es leer la mitad de la hist
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una exigencia y el banco la rastrea hasta el estándar que la originó. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco extranjero pide más requisitos» | Evaluación de la jurisdicción | 12, clase 2 |
@@ -369,6 +389,8 @@ comercial. Leer un estándar sin recorrer esa cadena es leer la mitad de la hist
 
 ## 🧪 Práctica
 
+El laboratorio pide ubicar cinco exigencias en su nivel del embudo y determinar cuáles obligan hoy. Dos son estándares sin transponer, y confundirlas con norma vigente es el error.
+
 En `labs/lab-01.md`, sección normativa:
 
 1. Traza la cadena completa desde un estándar internacional hasta tu norma local.
@@ -377,6 +399,8 @@ En `labs/lab-01.md`, sección normativa:
 4. Diseña el proceso de vigilancia normativa con sus siete pasos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos de cumplimiento mal dimensionados. Las causas son estándares tratados como norma y discrecionalidades nacionales ignoradas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

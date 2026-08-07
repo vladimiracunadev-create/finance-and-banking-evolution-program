@@ -21,6 +21,8 @@ Entender el fundamento económico de la regulación bancaria antes de estudiar s
 fundamento, el cumplimiento se convierte en una lista de obligaciones sin sentido; con él, cada norma se
 vuelve legible como la respuesta a un problema concreto que alguien ya pagó caro.
 
+La Parte 11 midió los riesgos que un banco decide asumir. Esta trata de las reglas que le imponen otros, y empieza por la pregunta que hace inteligible todo lo demás: por qué se regula la banca y no otras industrias con la misma intensidad. La respuesta no es histórica sino económica, y de ella se deduce cada instrumento del resto de la parte.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las fallas de mercado que justifican la intervención; los cuatro siguientes, los tipos de regulación y sus límites. El **riesgo moral** es el que explica la mayor parte del aparato prudencial: si el Estado va a rescatar a un banco en problemas, el banco tiene incentivo a asumir más riesgo del que asumiría sin esa red.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `externalidad` | Costo que una decisión impone a terceros que no participaron en ella. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `proporcionalidad` | Exigencia ajustada al tamaño, complejidad y riesgo de la entidad. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de causa a instrumento: cada falla de mercado produce un problema concreto, y cada instrumento regulatorio existe para corregir uno de esos problemas. Cuando un requisito parece arbitrario, casi siempre es que no se ha identificado la falla que corrige.
 
 ```text
 LA BANCA SE REGULA PORQUE SU FRACASO NO SE PAGA SOLO
@@ -87,6 +93,8 @@ exigirlo?».
 ## 📖 Desarrollo
 
 ### 1. Las cuatro fallas
+
+Las cuatro fallas de mercado se pueden nombrar con precisión, y cada una produce un problema distinto. La tabla las recoge.
 
 ```text
 1. EXTERNALIDAD Y RIESGO SISTÉMICO
@@ -110,6 +118,8 @@ exigirlo?».
 
 ### 2. De la falla al instrumento
 
+Cada instrumento regulatorio corresponde a una falla concreta. La tabla los relaciona, y es la mejor forma de entender por qué existe cada requisito.
+
 | Falla | Instrumento | Ejemplo concreto |
 |---|---|---|
 | Externalidad | Requerimiento de capital | El accionista pierde antes que el depositante |
@@ -130,6 +140,8 @@ LA LÓGICA DEL CAPITAL, EN UNA LÍNEA
 
 ### 3. Tres dominios regulatorios
 
+La regulación bancaria se organiza en tres dominios con objetivos distintos que a veces se contradicen. La tabla los separa.
+
 | Dominio | Protege | Quién supervisa habitualmente | Ejemplo de norma |
 |---|---|---|---|
 | Prudencial | La solvencia y el sistema | Supervisor bancario o banco central | Capital, liquidez, límites |
@@ -142,6 +154,8 @@ inclusión asume más riesgo de integridad. La regulación no elimina el conflic
 de forma explícita y documentada.
 
 ### 4. Costo de la regulación
+
+La regulación tiene costos medibles y su proporcionalidad es una discusión legítima. La tabla los recoge.
 
 ```text
 COSTOS DIRECTOS
@@ -171,6 +185,8 @@ EL PROBLEMA DE MEDICIÓN
 
 ### 5. Arbitraje regulatorio
 
+Cuando la misma actividad se regula distinto según quién la haga, la actividad migra. La tabla recoge los casos, y esta idea es el eje de la Parte 22.
+
 ```text
 LA ACTIVIDAD SE MUEVE A DONDE LA REGLA ES MENOS EXIGENTE
 
@@ -195,6 +211,8 @@ concentración: solo los grandes pueden pagar el cumplimiento. Los marcos modern
 exigencias por tamaño, complejidad y perfil de riesgo, sin renunciar al principio.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre de una falla concreta al instrumento que la corrige y a su costo. Conviene hacer el recorrido completo: es lo que permite discutir un requisito sin caer en la queja.
 
 **Situación.** Un legislador propone eliminar un requerimiento de capital para «impulsar el crédito».
 
@@ -345,6 +363,8 @@ prudencial existe precisamente porque el sistema, dejado a su propio incentivo, 
 
 ## 🏦 Del cliente al banco
 
+El cliente ve requisitos que le complican la vida y el banco cumple obligaciones que existen para protegerlo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me piden demasiados documentos» | Obligación de identificación | 12, clase 4 |
@@ -355,6 +375,8 @@ prudencial existe precisamente porque el sistema, dejado a su propio incentivo, 
 
 ## 🧪 Práctica
 
+El laboratorio pide relacionar instrumentos regulatorios con las fallas que corrigen. Dos de los instrumentos propuestos no corrigen ninguna falla clara, y detectarlos es el objetivo.
+
 En `labs/lab-01.md`:
 
 1. Relaciona diez normas bancarias con la falla de mercado que corrigen.
@@ -363,6 +385,8 @@ En `labs/lab-01.md`:
 4. Identifica tres casos de arbitraje regulatorio y su consecuencia sistémica.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber tratado un requisito como un trámite en vez de rastrear qué corrige.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

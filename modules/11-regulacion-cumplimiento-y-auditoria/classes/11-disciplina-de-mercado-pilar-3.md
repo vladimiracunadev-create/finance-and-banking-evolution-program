@@ -21,6 +21,8 @@ Publicar información que permita a terceros evaluar el riesgo de un banco. El t
 una apuesta: que **inversionistas, contrapartes y depositantes informados disciplinen la conducta de los
 bancos** mejor de lo que puede hacerlo cualquier supervisor por sí solo.
 
+Los dos pilares anteriores actúan por la vía del supervisor. Este actúa por la del mercado: si un banco publica información comparable sobre sus riesgos, los inversionistas y los depositantes lo disciplinan. La idea es elegante y su eficacia depende por completo de que la información publicada sea legible.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el mecanismo y su formato; los cuatro siguientes, sus límites y sus vecinos. La **materialidad** es la puerta por la que se vacía la divulgación: lo que se considera no material no se publica, y ese criterio lo fija la propia entidad.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `disciplina de mercado` | Presión que ejercen terceros informados sobre la conducta del banco. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `conciliación` | Puente entre las cifras contables y las prudenciales. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una plantilla comparable: el valor de la divulgación no está en publicar mucho sino en publicar lo mismo que los demás y en el mismo formato, porque lo que disciplina es la comparación.
 
 ```text
 LA DISCIPLINA DE MERCADO FUNCIONA SI SE CUMPLEN TRES CONDICIONES
@@ -87,6 +93,8 @@ LA DISCIPLINA DE MERCADO FUNCIONA SI SE CUMPLEN TRES CONDICIONES
 ## 📖 Desarrollo
 
 ### 1. Contenido de las divulgaciones
+
+Las plantillas cubren áreas concretas con formatos fijos. La tabla las recoge.
 
 | Bloque | Qué contiene |
 |---|---|
@@ -113,6 +121,8 @@ el formato fijo es la innovación central del pilar
 
 ### 2. Cómo leer un informe
 
+Un informe de pilar 3 se lee en un orden concreto y buscando cosas concretas. El procedimiento siguiente lo recorre.
+
 ```text
 ORDEN DE LECTURA EFICIENTE
   1. métricas clave: ratios y su evolución
@@ -135,6 +145,8 @@ ORDEN DE LECTURA EFICIENTE
 
 ### 3. Prácticas que vacían la divulgación
 
+Hay formas legales de cumplir el requisito sin informar. La tabla las recoge.
+
 ```text
 · publicar lo exigido y nada más, cuando lo relevante está fuera
 · invocar "información propietaria" para omitir lo incómodo
@@ -152,6 +164,8 @@ publicación dañaría al banco, y exige declarar que se omitió y por qué. No 
 completo ni sustituir el dato por una descripción cualitativa vaga.
 
 ### 4. Relación con otros marcos
+
+El pilar 3 convive con la información financiera y con la de sostenibilidad, y las tres deben conciliar. La tabla las relaciona.
 
 | Marco | Qué informa | Destinatario |
 |---|---|---|
@@ -175,6 +189,8 @@ LA CONCILIACIÓN ES OBLIGATORIA Y REVELADORA
 
 ### 5. Frecuencia y oportunidad
 
+La utilidad de la información depende de cuándo se publica. La tabla recoge las frecuencias exigidas.
+
 ```text
 TRIMESTRAL   métricas clave, ratios
 SEMESTRAL    la mayor parte de las plantillas cuantitativas
@@ -189,6 +205,8 @@ PRINCIPIO DE OPORTUNIDAD
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo lee un informe de pilar 3 y extrae las conclusiones que permite. Conviene comparar con el de otra entidad: aislado dice mucho menos.
 
 **Situación.** Un analista compara los informes de Pilar 3 de dos bancos del mismo mercado.
 
@@ -356,6 +374,8 @@ estandarizado—, y esa es exactamente la función del Pilar 3.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lee estos informes y el mercado sí, y de ahí sale el costo de fondeo del banco. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «¿Cómo sé si mi banco es sólido?» | Informe de Pilar 3, público | 12, clase 11 |
@@ -366,6 +386,8 @@ estandarizado—, y esa es exactamente la función del Pilar 3.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar los informes de dos bancos y detectar prácticas que vacían la divulgación. Una de las entidades cumple formalmente y no informa.
+
 En `labs/lab-06.md`:
 
 1. Lee un informe de Pilar 3 real y extrae las diez métricas clave.
@@ -374,6 +396,8 @@ En `labs/lab-06.md`:
 4. Construye la conciliación entre el perímetro contable y el prudencial.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen divulgaciones que no permiten comparar. Las causas son materialidad aplicada con criterio propio y medidas alternativas sin conciliar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

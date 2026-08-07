@@ -22,6 +22,8 @@ interno sobre la información financiera que la hace posible. Un dictamen limpio
 banco esté bien: significa algo mucho más acotado, y confundir ambas cosas ha tenido consecuencias
 históricas.
 
+La auditoría interna de la clase anterior sirve a la administración. Esta sirve a terceros, y su producto es una opinión sobre los estados financieros. Su parte más incomprendida es su alcance: un dictamen limpio no dice que no haya fraude ni que el banco sea solvente, y confundirlo con eso es la brecha de expectativas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el producto y sus criterios; los cuatro siguientes, el control interno sobre la información financiera y sus deficiencias. La **brecha de expectativas** es lo que hay que entender: la diferencia entre lo que el público cree que hace un auditor y lo que efectivamente hace.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dictamen` | Opinión sobre si los estados financieros presentan razonablemente la situación. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `debilidad material` | Falla que hace probable un error material no detectado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una opinión razonable y no una certificación: el auditor obtiene evidencia suficiente para concluir que los estados no tienen errores materiales, y esa palabra —materiales— define todo el trabajo y todo lo que queda fuera.
 
 ```text
 LO QUE UN DICTAMEN LIMPIO SIGNIFICA
@@ -96,6 +102,8 @@ futura es otra pregunta.
 
 ### 1. Tipos de opinión
 
+Hay cuatro tipos de opinión con significados muy distintos. La tabla los recoge.
+
 | Opinión | Cuándo | Significado |
 |---|---|---|
 | Sin salvedades (limpia) | No hay errores materiales | Presentación razonable |
@@ -113,6 +121,8 @@ PÁRRAFOS ADICIONALES QUE NO MODIFICAN LA OPINIÓN
 ```
 
 ### 2. Materialidad
+
+La materialidad se calcula y determina qué se revisa y qué no. El procedimiento la obtiene.
 
 ```text
 LA AUDITORÍA NO BUSCA TODOS LOS ERRORES: BUSCA LOS MATERIALES
@@ -145,6 +155,8 @@ CONSECUENCIA QUE SORPRENDE
 
 ### 3. La brecha de expectativas
 
+Lo que el auditor hace y lo que se cree que hace difieren en puntos concretos. La tabla los recoge.
+
 ```text
 LO QUE EL PÚBLICO ESPERA        LO QUE LA AUDITORÍA HACE
 
@@ -168,6 +180,8 @@ la estimación de pérdidas crediticias esperadas, la valoración de instrumento
 reconocimiento de ingresos por comisiones.
 
 ### 4. Control interno sobre la información financiera
+
+El control interno sobre la información financiera se evalúa y sus fallos se gradúan. La tabla los recoge.
 
 ```text
 OBJETIVO
@@ -203,6 +217,8 @@ cada control se diseña contra una afirmación concreta
 
 ### 5. Los tres roles y su articulación
 
+Auditoría interna, externa y supervisión cubren cosas distintas y deben coordinarse. La tabla los articula.
+
 | | Auditoría interna | Auditoría externa | Comité de auditoría |
 |---|---|---|---|
 | Nombrado por | Comité de auditoría | Junta de accionistas | Directorio |
@@ -226,6 +242,8 @@ RAZÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la materialidad de una auditoría y determina su alcance. Conviene ver qué queda por debajo del umbral: es lo que el dictamen no cubre.
 
 **Situación.** El comité de auditoría revisa el proceso de cierre y el dictamen del ejercicio.
 
@@ -420,6 +438,8 @@ tanto como la del auditor.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un dictamen limpio y el banco sabe exactamente qué cubre y qué no. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Los auditores lo aprobaron» | El dictamen responde una pregunta acotada | 12, clase 15 |
@@ -430,6 +450,8 @@ tanto como la del auditor.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar deficiencias de control y determinar su efecto sobre la opinión. Una es significativa y otra es material, y la diferencia decide.
+
 En `labs/lab-06.md`, sección de auditoría externa:
 
 1. Calcula la materialidad con tres bases distintas y evalúa cuál corresponde.
@@ -438,6 +460,8 @@ En `labs/lab-06.md`, sección de auditoría externa:
 4. Clasifica cinco deficiencias de control por su nivel y destinatario.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen expectativas mal puestas en un dictamen. Las causas son la brecha de expectativas y la materialidad no entendida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

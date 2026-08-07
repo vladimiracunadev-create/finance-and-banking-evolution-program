@@ -21,6 +21,8 @@ Gestionar el riesgo de dañar al cliente. Es la categoría que concentra las may
 operacionales del sector bancario mundial, y la única cuyo origen no es un error ni un evento externo:
 es **el diseño de los propios incentivos**.
 
+Los dos pilares anteriores protegen la solvencia. Este protege al cliente, y su lógica es distinta: no mide capital sino comportamiento. Es también el ámbito donde las sanciones han crecido más en la última década, y donde el daño reputacional supera casi siempre a la multa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el riesgo y su control preventivo; los seis siguientes, las pruebas de adecuación y las prácticas prohibidas. La **vulnerabilidad** es el concepto más reciente y el que más cambia la práctica: ciertos clientes requieren protección adicional, y no identificarlos es en sí un incumplimiento.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo de conducta` | Daño al cliente o al mercado derivado de la actuación del banco. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `vulnerabilidad` | Condición que reduce la capacidad de decidir o de asumir un daño. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es el ciclo de vida de un producto: se diseña para un mercado objetivo, se vende a quien encaja en él y se revisa si sigue encajando. Casi todos los escándalos de conducta son productos vendidos fuera de su mercado objetivo.
 
 ```text
 EL RIESGO DE CONDUCTA NO ES UN ACCIDENTE: ES UN DISEÑO
@@ -89,6 +95,8 @@ Se logra cambiando las cuatro variables de la ecuación, y la más determinante 
 
 ### 1. Conducta y reputación
 
+El riesgo de conducta produce pérdidas por dos vías, y la reputacional suele ser la mayor. La tabla las recoge.
+
 | | Riesgo de conducta | Riesgo reputacional |
 |---|---|---|
 | Origen | Actuación del banco | Percepción sobre el banco |
@@ -104,6 +112,8 @@ LA RELACIÓN ENTRE AMBOS
 ```
 
 ### 2. Gobierno de productos
+
+El gobierno de productos define el mercado objetivo antes de vender y lo revisa después. La tabla lo recoge.
 
 ```text
 CICLO COMPLETO
@@ -131,6 +141,8 @@ PREGUNTAS DE LA ETAPA DE DISEÑO
 
 ### 3. Idoneidad y conveniencia
 
+Las dos pruebas se aplican en situaciones distintas y exigen cosas distintas. La tabla las separa.
+
 | | Conveniencia | Idoneidad |
 |---|---|---|
 | Pregunta | ¿Entiende el producto? | ¿Le sirve a sus objetivos y perfil? |
@@ -151,6 +163,8 @@ cualquier cliente puede serlo en algún momento
 ```
 
 ### 4. Prácticas indebidas
+
+Las prácticas indebidas están tipificadas y son reconocibles. La tabla las recoge.
 
 | Práctica | Descripción | Indicador temprano |
 |---|---|---|
@@ -174,6 +188,8 @@ INDICADOR MÁS POTENTE: LA TASA DE SINIESTRALIDAD DE UN SEGURO
 
 ### 5. Incentivos
 
+Los sistemas de incentivos comerciales explican la mayoría de los casos de venta indebida. La tabla recoge sus efectos.
+
 ```text
 DISEÑO DE INCENTIVOS QUE NO INDUCE DAÑO
   · métricas de calidad con peso real, no simbólico
@@ -196,6 +212,8 @@ PRUEBA DE UN SISTEMA DE INCENTIVOS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa la idoneidad de un producto para un cliente concreto. Conviene fijarse en la conclusión negativa: registrar por qué no se vendió es tan importante como registrar por qué sí.
 
 **Situación.** El comité de conducta analiza un seguro asociado a créditos de consumo.
 
@@ -374,6 +392,8 @@ decida**.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un producto y el banco tiene que acreditar que le correspondía. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me vendieron un seguro que no necesitaba» | Meta de penetración e incentivo | 12, clase 8 |
@@ -384,6 +404,8 @@ decida**.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la idoneidad de tres ventas. Una es claramente indebida, otra es correcta y la tercera depende de si se identificó una vulnerabilidad.
+
 En `labs/lab-04.md`, sección de conducta:
 
 1. Aplica el ciclo de gobierno de productos a un producto real o sintético.
@@ -392,6 +414,8 @@ En `labs/lab-04.md`, sección de conducta:
 4. Rediseña un esquema de incentivos aplicando la prueba de maximización.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen casos de venta indebida. Las causas son mercado objetivo no definido e incentivos mal diseñados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

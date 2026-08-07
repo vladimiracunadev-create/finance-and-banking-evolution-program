@@ -21,6 +21,8 @@ Operar el sistema por el que un cliente que fue perjudicado obtiene reparación.
 por cómo resuelve sus errores que por cómo evita cometerlos, y el sistema de reclamos es además la
 fuente de información más honesta que existe sobre sus procesos.
 
+La clase anterior previene el daño al cliente. Esta lo repara cuando ya ocurrió, y su valor va más allá del caso individual: los reclamos son la fuente de información más honesta que tiene un banco sobre sus propios defectos, y casi ninguna entidad la usa para eso.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el proceso y sus garantías; los cuatro siguientes, la prueba y la mejora. La **causa raíz** es lo que convierte un reclamo en información útil: sin ella, cada caso se resuelve y el defecto que lo produjo sigue generando casos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `reclamo` | Manifestación de disconformidad que exige respuesta formal. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `reapertura` | Reclamo que vuelve tras haberse cerrado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un embudo con fuga de información: miles de clientes tienen un problema, cientos reclaman, decenas escalan y unos pocos llegan a la autoridad. Lo que se ve al final es una fracción minúscula de lo que ocurre, y por eso el análisis de causa raíz vale más que el conteo.
 
 ```text
 UN RECLAMO TIENE DOS DESTINATARIOS
@@ -90,6 +96,8 @@ análisis agregado vale mucho más que la suma de sus resoluciones individuales.
 
 ### 1. El proceso y sus garantías
 
+El proceso de reclamos tiene garantías exigibles y plazos tasados. La tabla los recoge.
+
 ```text
 GARANTÍAS MÍNIMAS DE UN SISTEMA DE RECLAMOS
   · gratuito
@@ -111,6 +119,8 @@ GARANTÍAS MÍNIMAS DE UN SISTEMA DE RECLAMOS
 | Cierre y verificación | — | Reapertura |
 
 ### 2. Instancias
+
+Hay varias instancias con competencias y efectos distintos. La tabla las recoge.
 
 ```text
 1. INTERNA         el propio banco
@@ -135,6 +145,8 @@ vía gratuita no puede convertirse en una renuncia a la vía judicial.
 
 ### 3. Carga de la prueba
 
+Quién tiene que probar qué decide muchos reclamos, y no siempre recae en el cliente. La tabla lo recoge.
+
 | Tipo de reclamo | Quién prueba | Fundamento |
 |---|---|---|
 | Cargo no reconocido en tarjeta | El banco prueba la autorización | El cliente no puede probar un hecho negativo |
@@ -156,6 +168,8 @@ CONSECUENCIA OPERATIVA
 ```
 
 ### 4. Del reclamo al proceso
+
+El análisis de causa raíz convierte reclamos en correcciones de proceso. El procedimiento siguiente lo estructura.
 
 ```text
 CLASIFICACIÓN ÚTIL
@@ -184,6 +198,8 @@ alta significa que la instancia interna está resolviendo mal de forma sistemát
 
 ### 5. Costo total de un reclamo
 
+Un reclamo cuesta mucho más que su reparación, y verlo completo justifica prevenirlo. El procedimiento lo calcula.
+
 ```text
 COSTO DIRECTO
   tiempo de atención, investigación, respuesta
@@ -202,6 +218,8 @@ COSTO OCULTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo analiza un grupo de reclamos y encuentra su causa raíz común. Conviene fijarse en la corrección: afecta a un proceso y no a los casos.
 
 **Situación.** El comité analiza el sistema de reclamos y decide sobre una inversión.
 
@@ -369,6 +387,8 @@ es lo único que no estaba fallando.
 
 ## 🏦 Del cliente al banco
 
+El cliente reclama y el banco gestiona un caso con plazos y métricas regulatorias. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Respondieron sin resolver» | Carta estándar; tasa de reapertura | 12, clase 9 |
@@ -379,6 +399,8 @@ es lo único que no estaba fallando.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar un lote de reclamos y encontrar la causa raíz. Los reclamos parecen distintos y comparten origen.
+
 En `labs/lab-05.md`:
 
 1. Diseña el proceso de reclamos con plazos, garantías e instancias.
@@ -387,6 +409,8 @@ En `labs/lab-05.md`:
 4. Calcula el costo total de una causa raíz incluyendo el daño no reclamado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen reclamos que se repiten. La causa es haber resuelto casos sin corregir el proceso.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Operar la tercera línea de defensa. La auditoría interna no gestiona riesgos n
 **evalúa si el sistema que hace ambas cosas funciona**. Su valor depende enteramente de dos condiciones
 —independencia y competencia— y ambas son frágiles.
 
+La supervisión de la clase anterior viene de fuera. Esta es la tercera línea de defensa de la propia entidad, y su valor depende por completo de una condición: que pueda decir lo que ve. Una auditoría interna que reporta a quien audita no aporta aseguramiento, aporta tranquilidad falsa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el mandato y su planificación; los cuatro siguientes, la ejecución y su producto. El **seguimiento** es lo que separa una función útil de una decorativa: un hallazgo sin seguimiento hasta su cierre efectivo es un informe, no un control.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `aseguramiento` | Opinión independiente sobre la efectividad de procesos y controles. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `seguimiento` | Verificación de que la corrección se implantó y funciona. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un universo auditable que no cabe en el plan: hay muchas más cosas que auditar que capacidad para hacerlo, y por eso el plan se construye por riesgo. Lo que no entra en el plan es una decisión, y conviene que sea consciente.
 
 ```text
 LAS TRES LÍNEAS, EN UNA FRASE CADA UNA
@@ -89,6 +95,8 @@ reporta funcionalmente al comité de auditoría del directorio.
 ## 📖 Desarrollo
 
 ### 1. Independencia y competencia
+
+La independencia tiene requisitos organizativos concretos. La tabla los recoge.
 
 ```text
 INDEPENDENCIA — condiciones estructurales
@@ -116,6 +124,8 @@ SEÑALES DE INDEPENDENCIA EROSIONADA
 ```
 
 ### 2. Plan basado en riesgo
+
+El plan cubre el universo auditable según su riesgo y su cobertura previa. El procedimiento lo construye.
 
 ```text
 CONSTRUCCIÓN
@@ -152,6 +162,8 @@ RESERVA PARA NO PLANIFICADO
 
 ### 3. Ejecución
 
+Una auditoría tiene fases con productos y con derechos del auditado. La tabla las recoge.
+
 ```text
 FASES
   1. PLANIFICACIÓN DEL TRABAJO   objetivo, alcance, criterios, riesgos
@@ -176,6 +188,8 @@ DISEÑO vs. EFECTIVIDAD — la distinción que más se confunde
 
 ### 4. Muestreo
 
+El muestreo decide qué se puede concluir del trabajo, y su diseño es estadístico. La tabla recoge los métodos.
+
 | Método | Cuándo | Conclusión posible |
 |---|---|---|
 | Estadístico aleatorio | Población grande y homogénea | Extrapolable con nivel de confianza |
@@ -197,6 +211,8 @@ audita el 100 % y reserva el juicio para los casos
 ```
 
 ### 5. Hallazgos útiles
+
+Un hallazgo útil tiene una estructura concreta y una recomendación ejecutable. La tabla la recoge.
 
 ```text
 ESTRUCTURA DE UN HALLAZGO
@@ -225,6 +241,8 @@ un hallazgo sin causa produce una corrección que no previene
 | Baja | Oportunidad de mejora | 12 meses |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo formula un hallazgo completo con su condición, criterio, causa, efecto y recomendación. Conviene fijarse en la causa: sin ella la recomendación corrige el síntoma.
 
 **Situación.** Auditoría interna revisa el proceso de aprobación de excepciones de crédito.
 
@@ -400,6 +418,8 @@ se siguió, sino que el proceso produce el resultado que dice producir**.
 
 ## 🏦 Del cliente al banco
 
+El cliente no sabe que existe y la auditoría interna es la que detecta lo que los controles dejaron pasar. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me aprobaron un crédito que no puedo pagar» | Excepción no registrada | 12, clase 14 |
@@ -410,6 +430,8 @@ se siguió, sino que el proceso produce el resultado que dice producir**.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir un plan basado en riesgo y formular hallazgos. La justificación de lo que queda fuera del plan es parte del ejercicio.
+
 En `labs/lab-06.md`, sección de auditoría:
 
 1. Construye un plan de auditoría basado en riesgo sobre un universo auditable dado.
@@ -418,6 +440,8 @@ En `labs/lab-06.md`, sección de auditoría:
 4. Diseña una prueba que valide el resultado y no solo el proceso.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen auditorías que no cambian nada. Las causas son falta de independencia y hallazgos sin causa identificada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

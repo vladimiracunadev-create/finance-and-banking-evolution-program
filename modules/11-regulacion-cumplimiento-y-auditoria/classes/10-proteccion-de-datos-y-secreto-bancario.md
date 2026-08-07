@@ -21,6 +21,8 @@ Gestionar la información de los clientes cumpliendo obligaciones que a veces se
 bancario protege el dato, la prevención de lavado obliga a reportarlo, la protección de datos concede
 derechos al titular y la conservación normativa impide borrarlo. Esta clase ordena ese conjunto.
 
+Esta clase trata dos regímenes que se solapan y no coinciden: el secreto bancario, que es antiguo y protege la relación, y la protección de datos, que es reciente y protege a la persona. Cumplir uno no implica cumplir el otro, y sus excepciones son distintas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los regímenes y las categorías de dato; los cinco siguientes, las bases y los roles. La **base de licitud** es el concepto operativo: sin una base válida no se puede tratar un dato, y el consentimiento es solo una de varias y no siempre la mejor.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `secreto bancario` | Deber de reserva sobre las operaciones de los clientes. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `brecha de datos` | Incidente que compromete confidencialidad, integridad o disponibilidad. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres círculos que se cruzan: secreto bancario, protección de datos y obligaciones de reporte. Una misma información puede estar protegida por uno, no por otro y ser de entrega obligatoria por el tercero, y hay que saber cuál manda en cada caso.
 
 ```text
 CUATRO OBLIGACIONES SOBRE EL MISMO DATO
@@ -88,6 +94,8 @@ CUATRO OBLIGACIONES SOBRE EL MISMO DATO
 
 ### 1. Tres regímenes distintos
 
+Los tres regímenes protegen cosas distintas y sus excepciones no coinciden. La tabla los separa.
+
 | | Secreto bancario | Protección de datos | Reserva de información |
 |---|---|---|---|
 | Protege | Las operaciones del cliente | A la persona sobre su información | Información del banco o del supervisor |
@@ -103,6 +111,8 @@ UNA EMPRESA NO TIENE DATOS PERSONALES
 ```
 
 ### 2. Bases de licitud
+
+Cada base de licitud da al titular derechos distintos. La tabla las recoge.
 
 ```text
 UN TRATAMIENTO SIN BASE DE LICITUD ES ILÍCITO,
@@ -134,6 +144,8 @@ honrar sin incumplir el contrato: la base correcta era el contrato.
 
 ### 3. Derechos del titular y sus límites
 
+Los derechos existen y tienen límites, algunos por obligaciones del propio banco. La tabla los recoge.
+
 | Derecho | Qué permite | Límite en banca |
 |---|---|---|
 | Acceso | Saber qué datos se tratan | No alcanza a información de reportes de sospecha |
@@ -156,6 +168,8 @@ EL LÍMITE MÁS IMPORTANTE
 
 ### 4. Encargados y transferencias
 
+Compartir datos con proveedores y con otros países tiene requisitos propios. La tabla los recoge.
+
 ```text
 CUANDO UN TERCERO TRATA DATOS POR CUENTA DEL BANCO
   · debe existir un contrato que fije finalidad, alcance,
@@ -172,6 +186,8 @@ TRANSFERENCIA INTERNACIONAL
 ```
 
 ### 5. Brechas de datos
+
+Una brecha activa obligaciones de notificación con plazos muy cortos. Los pasos siguientes las recogen.
 
 ```text
 PROCESO
@@ -199,6 +215,8 @@ EL PLAZO CORRE DESDE EL CONOCIMIENTO, NO DESDE LA RESOLUCIÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo determina qué régimen aplica a una solicitud de información concreta. Conviene comprobar los tres: la respuesta cambia según cuál se invoque.
 
 **Situación.** El banco enfrenta tres solicitudes y un incidente en la misma semana.
 
@@ -385,6 +403,8 @@ datos se recogen y se ceden, no en cómo se protegen después.
 
 ## 🏦 Del cliente al banco
 
+El cliente ejerce un derecho y el banco comprueba qué régimen aplica y qué obligaciones propias lo limitan. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Quiero que borren mis datos» | Conservación obligatoria como límite | 12, clase 10 |
@@ -395,6 +415,8 @@ datos se recogen y se ceden, no en cómo se protegen después.
 
 ## 🧪 Práctica
 
+El laboratorio pide resolver cinco solicitudes de información con los tres regímenes. Dos de ellas se resuelven distinto según el régimen que aplique.
+
 En `labs/lab-05.md`, sección de datos:
 
 1. Asigna la base de licitud a diez tratamientos bancarios.
@@ -403,6 +425,8 @@ En `labs/lab-05.md`, sección de datos:
 4. Redacta la notificación de una brecha a la autoridad y a los titulares.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen entregas o negativas indebidas de información. La causa es haber aplicado el régimen equivocado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ inmediata, automática y sin gradación. A diferencia de la prevención de lavad
 régimen de sanciones exige **exactitud**: una operación con una parte sancionada es una infracción
 aunque el banco haya actuado de buena fe.
 
+Las dos clases anteriores tratan el riesgo de que el dinero tenga origen ilícito. Esta trata algo distinto: la prohibición de operar con determinadas personas, con independencia de que la operación sea lícita. Y tiene una particularidad que la hace crítica: su alcance puede ser extraterritorial y su incumplimiento no admite gradación.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el régimen y su aplicación operativa; los cuatro siguientes, sus reglas de alcance. La **regla del 50 %** es la que más se pasa por alto: una entidad no designada pero controlada por designados queda igualmente alcanzada.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sanción` | Restricción impuesta a personas, entidades, sectores o países. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `alcance extraterritorial` | Aplicación de un régimen fuera de la jurisdicción que lo emite. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un filtro binario: no hay operación pequeña ni cliente antiguo que justifique una excepción. Frente a una coincidencia confirmada, la operación se bloquea, y esa es la única respuesta admisible.
 
 ```text
 PREVENCIÓN DE LAVADO         RÉGIMEN DE SANCIONES
@@ -89,6 +95,8 @@ operación.
 ## 📖 Desarrollo
 
 ### 1. Tipos y emisores
+
+Las sanciones tienen emisores y alcances distintos, y una entidad puede estar sujeta a varios a la vez. La tabla los recoge.
 
 | Tipo | Alcance | Ejemplo de restricción |
 |---|---|---|
@@ -113,6 +121,8 @@ EMISORES
 
 ### 2. Alcance extraterritorial
 
+Algunos regímenes alcanzan a entidades fuera de su jurisdicción por el uso de su moneda o de su sistema. La tabla lo explica.
+
 ```text
 POR QUÉ AFECTA A UN BANCO QUE NO ESTÁ EN ESA JURISDICCIÓN
 
@@ -135,6 +145,8 @@ jurisdicción formal.** No es una obligación jurídica directa: es una condici�
 infraestructura financiera internacional.
 
 ### 3. Cribado
+
+El cribado compara clientes y operaciones contra las listas, y su calibración decide entre falsos positivos y omisiones. La tabla recoge los criterios.
 
 ```text
 QUÉ SE CRIBA
@@ -172,6 +184,8 @@ EL PROBLEMA DE LOS NOMBRES
 
 ### 4. Gestión de coincidencias
 
+Una coincidencia se resuelve con un procedimiento y plazos estrictos. Los pasos siguientes lo recogen.
+
 ```text
 1. COINCIDENCIA GENERADA     el sistema detiene la operación
 2. ANÁLISIS                  se contrastan identificadores adicionales:
@@ -198,6 +212,8 @@ LO QUE NUNCA DEBE HACERSE
 
 ### 5. Elusión
 
+Las técnicas de elusión son conocidas y su detección es parte de la obligación. La tabla las recoge con su señal.
+
 | Indicador de elusión | Qué sugiere |
 |---|---|
 | Cambio repentino de la ruta de pago | Evitar una jurisdicción |
@@ -220,6 +236,8 @@ LA REGLA DEL 50 %
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo resuelve una coincidencia con la regla del 50 %. Conviene seguir la estructura de propiedad: la entidad no está en la lista y queda alcanzada igualmente.
 
 **Situación.** Una operación de comercio exterior activa una coincidencia y el análisis se amplía.
 
@@ -368,6 +386,8 @@ diligencia ya recogió**.
 
 ## 🏦 Del cliente al banco
 
+El cliente no entiende el bloqueo y el banco cumple una prohibición sin margen. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi transferencia se detuvo y nadie me explica» | Coincidencia en análisis; no se revela | 12, clase 5 |
@@ -378,6 +398,8 @@ diligencia ya recogió**.
 
 ## 🧪 Práctica
 
+El laboratorio pide resolver coincidencias, incluida una que activa la regla del 50 %. La decisión y su fundamento son lo que se evalúa.
+
 En `labs/lab-03.md`:
 
 1. Resuelve cinco coincidencias de cribado con identificadores adicionales.
@@ -386,6 +408,8 @@ En `labs/lab-03.md`:
 4. Diseña el procedimiento de gestión de coincidencias con plazos y responsables.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen incumplimientos de sanciones. Las causas son cribado mal calibrado y la regla del 50 % no aplicada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ cumplimiento de lavado, otro de conducta, otro de datos y otro prudencial: tiene
 obligaciones sobre los mismos procesos**, y gestionarlas por separado duplica costo y deja huecos entre
 ellas.
 
+Esta clase cierra la parte reuniendo las quince anteriores en un solo programa. Y su exigencia central es la que distingue un programa real de uno de papel: la efectividad se mide con pruebas, no se declara. Un programa que nadie ha probado no se sabe si funciona.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la construcción del programa; los cuatro siguientes, sus mecanismos y su medición. El **tono desde arriba** es el factor que más explica la efectividad y el que menos se puede auditar: los incentivos y el ejemplo de la dirección pesan más que cualquier política escrita.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `programa de cumplimiento` | Conjunto estructurado de políticas, controles y verificaciones. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `tono desde arriba` | Comportamiento del directorio y la alta gerencia. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un inventario que se mapea: cada obligación se identifica, se asigna a un responsable, se traduce en un control y se prueba. Lo que no está en el inventario no tiene dueño, y lo que no se prueba no se sabe si funciona.
 
 ```text
 UN PROGRAMA DE CUMPLIMIENTO SE EVALÚA POR TRES PREGUNTAS
@@ -93,6 +99,8 @@ evidencia.
 ## 📖 Desarrollo
 
 ### 1. Inventario de obligaciones
+
+El inventario es la base y su construcción es laboriosa. El procedimiento siguiente lo estructura.
 
 ```text
 ESTRUCTURA DE CADA REGISTRO
@@ -125,6 +133,8 @@ EL BENEFICIO MENOS EVIDENTE: LA DESDUPLICACIÓN
 
 ### 2. La función de cumplimiento
 
+La función tiene un mandato, una posición y unos recursos que determinan su eficacia. La tabla los recoge.
+
 ```text
 UBICACIÓN: SEGUNDA LÍNEA
   define el marco, asesora, vigila y reporta
@@ -151,6 +161,8 @@ CONDICIONES DE EFECTIVIDAD
 | Evaluación de riesgo de cumplimiento | Anual |
 
 ### 3. Formación y canal de denuncia
+
+La formación y el canal son los dos mecanismos con mayor efecto por su costo. La tabla los recoge.
 
 ```text
 FORMACIÓN QUE FUNCIONA
@@ -183,6 +195,8 @@ INDICADOR DE SALUD
 
 ### 4. Medición de efectividad
 
+La efectividad se mide con indicadores y con pruebas, no con horas de formación. La tabla los recoge.
+
 | Indicador | Qué mide | Señal de alerta |
 |---|---|---|
 | Obligaciones con control mapeado | Cobertura del inventario | < 90 % |
@@ -203,6 +217,8 @@ EL INDICADOR DEFINITIVO
 ```
 
 ### 5. Integración de los tres ciclos
+
+Cumplimiento, auditoría interna y supervisión producen hallazgos que hay que gestionar en un único ciclo. El esquema lo integra.
 
 ```text
 TRES CICLOS QUE SUELEN CORRER SEPARADOS
@@ -225,6 +241,8 @@ BENEFICIO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el mapeo de una obligación hasta su prueba de cumplimiento. Conviene llegar hasta la prueba: es el paso que casi ningún programa completa.
 
 **Situación.** El directorio encarga una evaluación del programa de cumplimiento.
 
@@ -412,6 +430,8 @@ construye con estructura, y los recursos hacen posible lo que la estructura perm
 
 ## 🏦 Del cliente al banco
 
+El cliente ve requisitos y el banco sostiene un programa que los traduce en controles probados. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco cometió el mismo error otra vez» | Hallazgos reincidentes | 12, clase 16 |
@@ -422,6 +442,8 @@ construye con estructura, y los recursos hacen posible lo que la estructura perm
 
 ## 🧪 Práctica
 
+El laboratorio pide mapear cinco obligaciones hasta su prueba y medir la efectividad. Dos obligaciones no tienen control asignado, y detectarlo es el objetivo.
+
 En `labs/lab-06.md`, sección de programa integrado:
 
 1. Construye un inventario de 20 obligaciones mapeadas a procesos, controles y evidencia.
@@ -430,6 +452,8 @@ En `labs/lab-06.md`, sección de programa integrado:
 4. Diseña la integración de los ciclos de riesgo, cumplimiento y auditoría.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen programas que fallan pese a existir. Las causas son obligaciones sin dueño y controles sin prueba.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Diseñar el proceso por el que un banco sabe con quién trata. Todo el edificio 
 en este proceso: sin un conocimiento adecuado del cliente, el monitoreo no tiene contra qué comparar, la
 evaluación de riesgo no tiene insumos y el reporte no tiene fundamento.
 
+La clase anterior describe el programa. Esta desarrolla su pieza más laboriosa, que es conocer de verdad a quien opera. Y separa tres cosas que suelen tratarse como una: identificar es pedir un documento, verificar es contrastarlo con una fuente y conocer es entender qué hace esa persona con su dinero.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los niveles; los cinco siguientes, las figuras y los eventos que obligan a revisar. El **origen del patrimonio** es distinto del origen de los fondos y más difícil de acreditar: uno explica esta operación y el otro explica toda la riqueza.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `identificación` | Obtener los datos que identifican a la persona. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `actualización por evento` | Revisión disparada por un cambio, no por el calendario. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres niveles acumulativos: identificación, verificación y conocimiento. Los dos primeros se hacen una vez y el tercero es continuo, y casi todos los incumplimientos ocurren en el tercero.
 
 ```text
 TRES NIVELES QUE SE CONFUNDEN CONSTANTEMENTE
@@ -89,6 +95,8 @@ reducido a umbrales fijos.
 
 ### 1. Los tres niveles en la práctica
 
+Los tres niveles exigen acciones concretas y distintas. La tabla las recoge.
+
 | Nivel | Persona natural | Persona jurídica |
 |---|---|---|
 | Identificación | Nombre, documento, fecha de nacimiento, domicilio, nacionalidad | Razón social, registro, domicilio, objeto |
@@ -108,6 +116,8 @@ contra la que se juzgará todo lo que ocurra después
 ```
 
 ### 2. Beneficiario final
+
+Determinar el beneficiario final exige recorrer la cadena de propiedad hasta personas naturales. El procedimiento siguiente lo hace.
 
 ```text
 DEFINICIÓN OPERATIVA
@@ -146,6 +156,8 @@ problema de documentación: es la señal.
 
 ### 3. Intensidad de la diligencia
 
+La intensidad se ajusta al riesgo, y esa proporcionalidad es exigible en ambas direcciones. La tabla la recoge.
+
 | | Simplificada | Estándar | Reforzada |
 |---|---|---|---|
 | Cuándo | Riesgo bajo demostrado | Regla general | Riesgo alto |
@@ -174,6 +186,8 @@ sistemáticamente a estas personas es una práctica incorrecta y expresamente de
 
 ### 4. Actualización
 
+El conocimiento caduca y hay eventos que obligan a revisarlo antes de plazo. La tabla los recoge.
+
 ```text
 POR CALENDARIO         según el nivel de riesgo
 POR EVENTO             disparada por un cambio observado
@@ -201,6 +215,8 @@ INDICADOR DE SALUD DEL PROCESO
 
 ### 5. Identidad digital
 
+La identificación remota tiene requisitos propios y riesgos propios. La tabla los recoge.
+
 | Ventaja | Riesgo específico | Mitigación |
 |---|---|---|
 | Alcance e inclusión | Suplantación con documentos robados | Verificación biométrica con prueba de vida |
@@ -220,6 +236,8 @@ IDENTIDAD SINTÉTICA — el fraude más difícil de detectar
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica los tres niveles a un cliente de riesgo alto. Conviene fijarse en el tercero: es el que exige entender el negocio y el que casi nunca está documentado.
 
 **Situación.** Un banco recibe la solicitud de apertura de cuentas de una estructura societaria.
 
@@ -383,6 +401,8 @@ proporcionado de una exclusión automática.
 
 ## 🏦 Del cliente al banco
 
+El cliente entrega documentos y el banco construye un conocimiento que tiene que mantener actualizado. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me piden datos que ya di» | Actualización por evento o expediente vencido | 12, clase 4 |
@@ -393,6 +413,8 @@ proporcionado de una exclusión automática.
 
 ## 🧪 Práctica
 
+El laboratorio pide ejecutar la diligencia de tres clientes con riesgos distintos. La proporcionalidad es lo que se evalúa: aplicar diligencia reforzada a todos es tan incorrecto como no aplicarla a ninguno.
+
 En `labs/lab-02.md`, sección de diligencia:
 
 1. Determina el beneficiario final en tres estructuras societarias de complejidad creciente.
@@ -401,6 +423,8 @@ En `labs/lab-02.md`, sección de diligencia:
 4. Diseña la matriz de disparadores de actualización por evento.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en revisiones de cumplimiento. Las causas son conocimiento no actualizado y beneficiarios finales no determinados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

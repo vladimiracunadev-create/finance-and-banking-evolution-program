@@ -21,6 +21,8 @@ Calcular el capital que la norma exige. La Parte 11 estudió el capital que el r
 clase estudia el que el supervisor obliga a mantener, cómo se compone, cómo se calculan sus
 denominadores y qué ocurre cuando los colchones se consumen.
 
+La Parte 11 calculó el capital que un banco necesita según sus propios modelos. Esta calcula el que la norma le exige, que es otra cifra y con otra lógica. Las dos coexisten y la que obliga es la mayor, y entender por qué difieren es lo que permite gestionar ambas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la composición del numerador; los cuatro siguientes, el denominador y las exigencias adicionales. Los **colchones** son la parte con más consecuencias prácticas: incumplirlos no cierra el banco, pero restringe el reparto de dividendos y de bonos, que es una sanción muy eficaz.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capital nivel 1 ordinario` | Capital de máxima calidad: acciones y utilidades retenidas. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `ratio de apalancamiento` | Capital sobre exposición total, sin ponderar por riesgo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una fracción con dos partes que se pueden mover: arriba el capital que califica como tal según reglas estrictas, y abajo los activos ponderados por su riesgo. Mejorar el ratio se puede hacer subiendo el numerador o bajando el denominador, y la segunda vía es la que más gestión admite.
 
 ```text
 DOS RESTRICCIONES QUE OPERAN EN PARALELO
@@ -90,6 +96,8 @@ tamaño del balance con independencia de cuán poco riesgoso lo declaren los mod
 ## 📖 Desarrollo
 
 ### 1. Composición del capital
+
+El capital regulatorio tiene niveles con capacidad de absorción decreciente. La tabla los recoge con sus requisitos.
 
 ```text
 CAPITAL NIVEL 1 ORDINARIO (CET1) — el que absorbe primero
@@ -128,6 +136,8 @@ y activos por impuestos diferidos que no absorberían pérdidas en un escenario 
 
 ### 2. Activos ponderados: riesgo de crédito
 
+La ponderación de riesgo de crédito se calcula por método estándar o interno, con resultados muy distintos. La tabla los compara.
+
 ```text
 ENFOQUE ESTANDARIZADO — ponderaciones por tipo de exposición
   soberanos                según calificación o método propio
@@ -155,6 +165,8 @@ POR QUÉ EXISTE EL PISO
 
 ### 3. Mercado y operacional
 
+Los otros dos riesgos del pilar tienen sus propias metodologías. La tabla las recoge.
+
 | Riesgo | Enfoques | Base |
 |---|---|---|
 | Mercado | Estandarizado (sensibilidades) o modelos internos | Libro de negociación, déficit esperado |
@@ -170,6 +182,8 @@ CONVERSIÓN A ACTIVOS PONDERADOS
 ```
 
 ### 4. Colchones y sus consecuencias
+
+Los colchones se acumulan sobre el mínimo y su incumplimiento restringe distribuciones. La tabla recoge la gradación.
 
 ```text
 LOS COLCHONES NO SON MÍNIMOS: SON UMBRALES DE RESTRICCIÓN
@@ -194,6 +208,8 @@ variable y el dividendo antes que ninguna otra cosa, y por diseño. Alinea el in
 deciden con la conservación del capital.
 
 ### 5. Ratio de apalancamiento
+
+El ratio de apalancamiento no pondera por riesgo, y por eso actúa como red frente a los modelos internos. El procedimiento lo calcula.
 
 ```text
                        capital nivel 1
@@ -222,6 +238,8 @@ saber cuál restringe determina qué crecimiento es posible
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el capital regulatorio de un banco con todos sus colchones. Conviene comparar con el capital económico de la Parte 11: las dos cifras difieren y la mayor manda.
 
 **Situación.** Un banco calcula su estado de solvencia completo.
 
@@ -368,6 +386,8 @@ la solvencia regulatoria aunque aumente el patrimonio contable.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y el banco decide cuánto puede prestar según su capital. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco tiene mucho patrimonio» | Deducciones reducen el capital regulatorio | 12, clase 6 |
@@ -378,6 +398,8 @@ la solvencia regulatoria aunque aumente el patrimonio contable.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el ratio de un banco y determinar sus restricciones de distribución. El banco cumple el mínimo y no los colchones, que es el caso interesante.
+
 En `labs/lab-03.md`, sección de capital:
 
 1. Compón el capital regulatorio de un banco con todas sus deducciones.
@@ -386,6 +408,8 @@ En `labs/lab-03.md`, sección de capital:
 4. Determina cuál restricción es activa y cuánto crecimiento permite por segmento.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen bancos que descubren tarde una restricción de capital. Las causas son colchones no proyectados y deducciones no consideradas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

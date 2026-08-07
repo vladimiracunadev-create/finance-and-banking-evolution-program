@@ -21,6 +21,8 @@ Construir y operar el sistema que impide que el banco sea usado como infraestruc
 obligación de cumplimiento con mayor exposición sancionatoria del sector y, al mismo tiempo, la que
 produce más exclusión financiera cuando se aplica sin criterio.
 
+Esta clase trata la obligación cuyo incumplimiento produce las sanciones mayores y las consecuencias más difíciles de revertir. Y la plantea con su tensión propia: un programa demasiado laxo expone a la entidad, y uno demasiado estricto excluye del sistema financiero a poblaciones enteras sin reducir el delito.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las etapas del lavado; los cinco siguientes, el enfoque de la respuesta y sus figuras. El **soplo** es la prohibición que más sorprende: avisar al cliente de que se le ha reportado es delito en casi cualquier jurisdicción.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `colocación` | Introducción del dinero de origen ilícito en el sistema financiero. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `soplo` | Advertir al cliente que se le está investigando. Está prohibido. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres etapas con propósitos distintos: meter el dinero en el sistema, moverlo hasta que su origen se pierda y sacarlo con apariencia lícita. Cada etapa deja huellas distintas, y por eso el monitoreo busca cosas distintas en cada una.
 
 ```text
 EL BANCO NO INVESTIGA DELITOS. DETECTA INCOHERENCIAS.
@@ -87,6 +93,8 @@ obliga a otra exigente: conocer al cliente lo suficiente como para saber qué es
 ## 📖 Desarrollo
 
 ### 1. Las tres etapas y sus métodos
+
+Cada etapa usa métodos característicos y deja rastros distintos. La tabla los recoge.
 
 ```text
 COLOCACIÓN — la etapa más vulnerable para el delincuente
@@ -116,6 +124,8 @@ INTEGRACIÓN — la que da apariencia definitiva
 | Vinculación con jurisdicción de alto riesgo | Segmentación por riesgo |
 
 ### 2. Enfoque basado en riesgo
+
+El enfoque basado en riesgo concentra los recursos donde el riesgo está, y es lo que la norma exige. La tabla lo desarrolla.
 
 ```text
 EL PRINCIPIO
@@ -150,6 +160,8 @@ evaluación de riesgo documentada, no en la conveniencia comercial.
 
 ### 3. Monitoreo transaccional
 
+El monitoreo genera alertas con reglas y con modelos, y su calibración decide si sirve. La tabla recoge los criterios.
+
 ```text
 CÓMO FUNCIONA
   1. se construye el PERFIL esperado del cliente
@@ -182,6 +194,8 @@ EL PROBLEMA DE LOS FALSOS POSITIVOS
 
 ### 4. Del alerta al reporte
 
+Una alerta recorre un proceso con plazos hasta convertirse o no en reporte. El esquema lo recorre.
+
 ```text
 1. ALERTA          generada por regla o por reporte interno de personal
 2. ANÁLISIS        revisión del perfil, historial y documentación
@@ -209,6 +223,8 @@ independientes: una es una obligación legal de información, la otra es una dec
 
 ### 5. Integridad frente a inclusión
 
+Un programa demasiado estricto excluye sin reducir el delito. La tabla recoge esa tensión con evidencia.
+
 ```text
 EL CONFLICTO REAL
   aplicar controles con máxima severidad
@@ -230,6 +246,8 @@ EL CONFLICTO REAL
 | Tratar toda organización sin fines de lucro como alto riesgo | Segmentar por actividad real |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue una alerta desde su generación hasta la decisión de reportar. Conviene fijarse en el análisis: la mayoría de las alertas se cierran, y documentar por qué es tan importante como reportar.
 
 **Situación.** El oficial de cumplimiento revisa el desempeño del sistema de monitoreo.
 
@@ -376,6 +394,8 @@ vez se mira. Un sistema de prevención se juzga por **lo que detecta**, no por l
 
 ## 🏦 Del cliente al banco
 
+El cliente responde preguntas y el banco cumple una obligación con responsabilidad personal asociada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me piden explicar cada depósito» | Monitoreo transaccional mal calibrado | 12, clase 3 |
@@ -386,6 +406,8 @@ vez se mira. Un sistema de prevención se juzga por **lo que detecta**, no por l
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar alertas sintéticas y decidir cuáles se reportan. Dos son falsos positivos con explicación documentable y una no lo es.
+
 En `labs/lab-02.md`:
 
 1. Clasifica veinte señales de alerta por etapa del lavado.
@@ -394,6 +416,8 @@ En `labs/lab-02.md`:
 4. Documenta un caso completo desde la alerta hasta la decisión de reporte.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen programas que fallan por exceso o por defecto. Las causas son umbrales sin calibrar y enfoque de riesgo no aplicado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

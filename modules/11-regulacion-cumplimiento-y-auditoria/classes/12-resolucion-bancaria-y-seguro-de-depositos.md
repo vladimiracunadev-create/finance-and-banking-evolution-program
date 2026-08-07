@@ -21,6 +21,8 @@ Entender qué ocurre cuando un banco falla. La respuesta ha cambiado radicalment
 evitar toda quiebra, sino **permitir que un banco quiebre sin arrastrar al sistema ni al contribuyente**.
 Esta clase estudia los instrumentos que hacen eso posible y por qué siguen siendo difíciles de aplicar.
 
+Todas las clases anteriores previenen la quiebra de un banco. Esta trata de qué hacer cuando ocurre igualmente, y su premisa es la lección de 2008: un banco tiene que poder quebrar sin que quiebre el sistema y sin dinero público. Todo el aparato de esta clase existe para hacer posible esa frase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el momento y el mecanismo; los cuatro siguientes, los instrumentos y su garantía. El **principio de no perjuicio** es la restricción que ordena todo: ningún acreedor puede quedar peor en la resolución de lo que habría quedado en una liquidación ordinaria.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `resolución` | Reestructuración ordenada de un banco inviable, fuera del concurso ordinario. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `principio de no perjuicio` | Ningún acreedor puede quedar peor que en una liquidación ordinaria. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una escalera de absorción: las pérdidas las absorbe primero el accionista, después los tenedores de instrumentos diseñados para absorberlas, después los acreedores no garantizados y solo al final, si acaso, un fondo. El orden es previo y conocido, y esa previsibilidad es lo que evita el pánico.
 
 ```text
 EL PROBLEMA QUE HABÍA QUE RESOLVER
@@ -90,6 +96,8 @@ supervivencia de la entidad. El objetivo es preservar la primera y permitir que 
 ## 📖 Desarrollo
 
 ### 1. Condiciones para resolver
+
+Resolver un banco exige condiciones que se comprueban y se declaran. La tabla las recoge.
 
 ```text
 TRES CONDICIONES CONCURRENTES
@@ -115,6 +123,8 @@ PUNTO DE INVIABILIDAD
 
 ### 2. Instrumentos
 
+La autoridad dispone de varios instrumentos con efectos distintos. La tabla los recoge.
+
 | Instrumento | Qué hace | Cuándo se prefiere |
 |---|---|---|
 | Venta del negocio | Transfiere la entidad o parte a un comprador | Hay comprador y tiempo |
@@ -130,6 +140,8 @@ COMBINACIÓN HABITUAL
 ```
 
 ### 3. Jerarquía de absorción
+
+La jerarquía es previa y determina quién pierde primero. El esquema la recoge.
 
 ```text
 ORDEN DE ABSORCIÓN (de primero a último)
@@ -158,6 +170,8 @@ PRINCIPIO DE NO PERJUICIO
 
 ### 4. Capacidad de absorción
 
+El banco tiene que mantener una cantidad de pasivos capaces de absorber pérdidas. El procedimiento la calcula.
+
 ```text
 LA RESOLUCIÓN SOLO FUNCIONA SI HAY QUÉ ABSORBER
 
@@ -178,6 +192,8 @@ la respuesta normativa fue prohibir o restringir esa colocación: **la absorció
 creíble si quien las absorbe pudo evaluarlas**.
 
 ### 5. Seguro de depósitos
+
+El seguro protege a los depositantes pequeños y con eso evita que la corrida empiece. La tabla recoge su alcance y sus límites.
 
 ```text
 FUNCIÓN
@@ -212,6 +228,8 @@ es una fuente recurrente de daño al cliente
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica la jerarquía de absorción a un banco en resolución. Conviene comprobar el principio de no perjuicio al final: es lo que hace impugnable una resolución.
 
 **Situación.** La autoridad debe resolver un banco mediano.
 
@@ -389,6 +407,8 @@ principio.
 
 ## 🏦 Del cliente al banco
 
+El depositante confía en la garantía y el banco mantiene una capacidad de absorción que le cuesta dinero. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «¿Mi depósito está garantizado?» | Cobertura y su límite | 4, clase 11 |
@@ -399,6 +419,8 @@ principio.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar la jerarquía y comprobar el principio de no perjuicio. Un acreedor queda peor que en liquidación, y detectarlo es el objetivo.
+
 En `labs/lab-06.md`, sección de resolución:
 
 1. Aplica la jerarquía de absorción a un balance en punto de inviabilidad.
@@ -407,6 +429,8 @@ En `labs/lab-06.md`, sección de resolución:
 4. Identifica cinco impedimentos a la resolución y su preparación previa.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resoluciones impugnadas. Las causas son jerarquías mal aplicadas y capacidad de absorción insuficiente.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

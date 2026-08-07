@@ -21,6 +21,8 @@ Entender cómo trabaja el supervisor: qué mira, cómo decide dónde poner sus r
 instrumentos actúa y cómo se relaciona con el banco. Un profesional bancario que entiende la lógica
 supervisora anticipa los requerimientos en lugar de reaccionar a ellos.
 
+Las clases anteriores describen las reglas. Esta describe a quien comprueba que se cumplen, y su función real es menos la de sancionar que la de detectar a tiempo. Un supervisor que solo actúa cuando el problema es visible llega tarde por definición.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las modalidades y el criterio; los cinco siguientes, los productos de la supervisión y su límite institucional. La **intervención temprana** es la que da valor a todo el aparato: actuar cuando el problema es reversible en vez de cuando es visible.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `supervisión a distancia` | Análisis continuo con la información reportada. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `captura del regulador` | Que el supervisor adopte la perspectiva del supervisado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un ciclo continuo: el supervisor observa a distancia, decide dónde mirar de cerca, inspecciona, formula hallazgos, exige un plan y comprueba su ejecución. Lo que decide la intensidad no es el tamaño de la entidad sino su perfil de riesgo.
 
 ```text
 EL SUPERVISOR TIENE UN PROBLEMA DE RECURSOS
@@ -92,6 +98,8 @@ CONSECUENCIA PARA EL BANCO
 
 ### 1. El ciclo supervisor
 
+El ciclo tiene fases con productos concretos. La tabla las recoge.
+
 ```text
 1. PLANIFICACIÓN      programa anual por entidad, según riesgo e impacto
 2. SUPERVISIÓN A DISTANCIA
@@ -113,6 +121,8 @@ CONSECUENCIA PARA EL BANCO
 | Inspecciones | Verificación directa, la única no mediada |
 
 ### 2. Supervisión basada en riesgo
+
+Los recursos se concentran donde el riesgo está, con criterios explícitos. La tabla los recoge.
 
 ```text
 MATRIZ DE PRIORIZACIÓN
@@ -150,6 +160,8 @@ conviene entender.
 
 ### 3. Inspección in situ
 
+Una inspección tiene un procedimiento y unos derechos de la entidad. La tabla los recoge.
+
 ```text
 FASES
   1. NOTIFICACIÓN         alcance, período, equipo, calendario
@@ -185,6 +197,8 @@ EL PEOR HALLAZGO POSIBLE
 
 ### 4. Instrumentos y gradación
 
+El supervisor dispone de instrumentos graduados y su uso es progresivo. La tabla los recoge.
+
 ```text
 GRADACIÓN HABITUAL (de menor a mayor intensidad)
   1. recomendación
@@ -202,6 +216,8 @@ y tiene su propio procedimiento con garantías
 ```
 
 ### 5. Independencia y captura
+
+La independencia del supervisor tiene mecanismos y tiene amenazas. La tabla las recoge.
 
 ```text
 CONDICIONES DE UNA SUPERVISIÓN EFECTIVA
@@ -224,6 +240,8 @@ MITIGANTES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre una inspección desde su planificación hasta el plan de acción. Conviene fijarse en la formulación del hallazgo: de su precisión depende que el plan corrija algo.
 
 **Situación.** Un banco recibe una inspección sobre riesgo de crédito y gestiona sus hallazgos.
 
@@ -388,6 +406,8 @@ no es una táctica de relación, es hacer el análisis que corresponde**.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve al supervisor y el banco dedica equipos completos a atenderlo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco endureció los requisitos» | Límite de excepciones tras una inspección | 9, clase 6 |
@@ -398,6 +418,8 @@ no es una táctica de relación, es hacer el análisis que corresponde**.
 
 ## 🧪 Práctica
 
+El laboratorio pide priorizar entidades para inspección con criterios de riesgo y formular hallazgos. La priorización con su justificación es lo que se evalúa.
+
 En `labs/lab-06.md`, sección de supervisión:
 
 1. Construye la matriz de priorización supervisora de cinco bancos sintéticos.
@@ -406,6 +428,8 @@ En `labs/lab-06.md`, sección de supervisión:
 4. Clasifica diez situaciones por el instrumento supervisor que corresponde.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen supervisión que llega tarde. Las causas son priorización por tamaño y hallazgos formulados sin precisión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

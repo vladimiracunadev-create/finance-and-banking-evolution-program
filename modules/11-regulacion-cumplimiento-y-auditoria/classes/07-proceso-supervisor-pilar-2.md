@@ -21,6 +21,8 @@ Construir y defender la evaluación propia de capital. El Pilar 1 fija un mínim
 reconoce que ningún mínimo común captura el perfil de riesgo específico de un banco, y obliga a que el
 banco lo evalúe y el supervisor lo revise.
 
+El pilar anterior calcula el capital con fórmulas iguales para todos. Este añade el que corresponde a los riesgos que esas fórmulas no cubren, y lo hace por una vía distinta: el banco se autoevalúa, el supervisor lo revisa y de ese diálogo sale un requerimiento propio de cada entidad.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son las autoevaluaciones; los seis siguientes, la revisión y sus resultados. La distinción entre **riesgo no cubierto y mal cubierto** es la que organiza el ejercicio: unos no están en el pilar 1 y otros están pero con una fórmula que no refleja el perfil de la entidad.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `autoevaluación de capital` | Proceso interno que determina el capital adecuado al perfil propio. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `medida supervisora` | Acción del supervisor: exigencia, restricción o requerimiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un diálogo con evidencia: el banco declara qué riesgos tiene y cuánto capital cree que necesita, y el supervisor contrasta esa declaración con lo que observa. Lo que decide el resultado no es el número propuesto sino la calidad del proceso que lo produjo.
 
 ```text
 PILAR 1     mínimo común, comparable, imperfecto para cada banco
@@ -87,6 +93,8 @@ buena medida por la calidad del proceso interno que el banco pueda demostrar.
 ## 📖 Desarrollo
 
 ### 1. Riesgos no cubiertos y mal cubiertos
+
+El pilar 1 deja fuera riesgos y trata mal otros. La tabla los recoge.
 
 | Riesgo | Situación en Pilar 1 | Tratamiento en Pilar 2 |
 |---|---|---|
@@ -109,6 +117,8 @@ EL CASO MÁS FRECUENTE DE REQUERIMIENTO ADICIONAL
 ```
 
 ### 2. El proceso de autoevaluación
+
+La autoevaluación tiene una estructura y un calendario. La tabla los recoge.
 
 ```text
 COMPONENTES DE UNA AUTOEVALUACIÓN CREÍBLE
@@ -134,6 +144,8 @@ EL CRITERIO QUE MÁS PESA: EL USO
 ```
 
 ### 3. La revisión supervisora
+
+El supervisor revisa con criterios publicados y una escala de resultados. La tabla los recoge.
 
 ```text
 QUÉ EVALÚA EL SUPERVISOR
@@ -170,6 +182,8 @@ ORDEN DE CONSUMO DEL CAPITAL (jerarquía habitual)
 
 ### 4. Preparación y defensa
 
+La preparación del ejercicio determina buena parte del resultado. Los pasos siguientes la estructuran.
+
 ```text
 CÓMO SE PREPARA UNA REVISIÓN
   · trazabilidad: todo dato del informe debe poder reconstruirse
@@ -188,6 +202,8 @@ LA INCOHERENCIA ES EL HALLAZGO MÁS FRECUENTE
 
 ### 5. Diálogo y controversia
 
+Hay margen de discusión y hay formas de usarlo que funcionan y otras que no. La tabla las separa.
+
 ```text
 EL BANCO PUEDE DISCREPAR, Y DEBE HACERLO CON TÉCNICA
 
@@ -204,6 +220,8 @@ se incorpora al expediente y frecuentemente modifica el resultado
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye una autoevaluación de capital para un riesgo no cubierto. Conviene fijarse en la justificación del importe: es lo que el supervisor revisa, más que la cifra.
 
 **Situación.** Un banco prepara su autoevaluación y estima su requerimiento total.
 
@@ -374,6 +392,8 @@ liberados con tres acciones concretas cuestan mucho menos que emitir capital equ
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y el banco negocia su requerimiento de capital con el supervisor. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco cumple todos los ratios» | El Pilar 1 no captura su perfil real | 12, clase 7 |
@@ -384,6 +404,8 @@ liberados con tres acciones concretas cuestan mucho menos que emitir capital equ
 
 ## 🧪 Práctica
 
+El laboratorio pide identificar riesgos no cubiertos y cuantificar el capital adicional. La cuantificación con su método es lo que se evalúa.
+
 En `labs/lab-04.md`:
 
 1. Identifica los riesgos materiales de un banco sintético no cubiertos por el Pilar 1.
@@ -392,6 +414,8 @@ En `labs/lab-04.md`:
 4. Construye un plan de capital con acciones sobre las causas de los cargos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen requerimientos adicionales inesperados. Las causas son autoevaluaciones sin evidencia y riesgos propios no identificados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
