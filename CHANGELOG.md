@@ -22,6 +22,50 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [2.1.0] — 2026-08-07
+
+Portal de estudio propio, aplicaciones para teléfono y escritorio, y el primer
+release del repositorio.
+
+### ✨ Añadido
+
+- **Portal de estudio** con portada propia, temario de las 352 clases y buscador
+  que indexa títulos, niveles y los 2 629 conceptos centrales. Instalable en el
+  teléfono: manifiesto, iconos y trabajador de servicio para releer sin conexión
+  lo ya visitado.
+- **Aplicación de Android** (`mobile/`): WebView sobre el HTML del portal,
+  embebido en el APK. El manifiesto no declara `android.permission.INTERNET`,
+  de modo que la ausencia de telemetría se puede comprobar desde los ajustes.
+- **Aplicación de Windows** (`desktop/`): lector en PySide6 con QtWebEngine
+  sobre el mismo HTML, portable y sin instalador.
+- **Flujo `apps.yml`**: genera el sitio una vez y de ahí salen las tres piezas.
+  Antes de publicar abre cada artefacto y cuenta las clases que contiene.
+- Portada, insignias y navegación en los 29 documentos, también en los cuatro
+  que se generan.
+- El manual se publica como descarga del portal, en PDF, HTML y Markdown.
+
+### 🐛 Corregido
+
+- **El manual titulaba «🎯 Propósito» las 352 clases**: el generador leía el
+  título del cuerpo, pero el H1 vive dentro del bloque generado que se limpia.
+  Además se perdía esa sección en todas las clases.
+- **El PDF salía sin marcadores ni numeración**. Ahora lleva 380 marcadores en
+  tres niveles y folio al pie.
+- **La impresión del PDF fallaba en silencio**: el navegador imprime en segundo
+  plano y sale con código 0 en décimas de segundo.
+- **El portal servía el README sin convertir** desde su rediseño: faltaba
+  `md_in_html`, así que todo lo que va dentro de `<div>` salía como texto plano.
+- **El APK compilaba sin firmar**, y Android no instala un APK sin firma.
+- Cifras obsoletas en la documentación: «240 clases» y «360 horas».
+- «periodo de gracia» figuraba dos veces en el glosario, con y sin tilde.
+
+### 🔄 Cambiado
+
+- La entrada del portal es la portada, no el README volcado.
+- El despliegue verifica las tres descargas del manual por código y por peso.
+
+---
+
 ## [2.0.0] — 2026-08-07
 
 Séptima y última parte de la **Etapa 5**, y cierre del programa. Con ella existen

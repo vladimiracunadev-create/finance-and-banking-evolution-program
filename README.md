@@ -11,10 +11,12 @@
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg?branch=main)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Versión](https://img.shields.io/badge/versión-2.0.0-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/versión-2.1.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-352%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
 [![Nivel](https://img.shields.io/badge/nivel-cero%20→%20dirección%20bancaria-2e8b57?style=for-the-badge)](STATUS.md)
 [![Manual](https://img.shields.io/badge/manual%20PDF-descargar-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)
+[![Android](https://img.shields.io/badge/Android-APK%20sin%20conexión-3ddc84?style=for-the-badge)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-app%20portable-0078d4?style=for-the-badge)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
 [![Idioma](https://img.shields.io/badge/idioma-español-1f6feb?style=for-the-badge)](SYLLABUS.md)
 [![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
 
@@ -27,6 +29,8 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-portal%20vivo-222?style=flat-square&logo=githubpages&logoColor=white)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
 [🌐 **Portal de estudio**](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) ·
+[📱 App Android](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) ·
+[💻 App Windows](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) ·
 [📚 Índice de las 352 clases](SYLLABUS.md) ·
 [📕 Descargar el manual (PDF)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf) ·
 [📖 Glosario maestro](docs/glosario-maestro.md) ·
@@ -240,6 +244,18 @@ Leer el programa seguido no es solo comodidad — es la única forma de comproba
 | 🧮 **[Formulario](docs/formulas.md)** | Las fórmulas del programa, cada una con su trampa habitual |
 
 El glosario maestro **se genera** desde las tablas de conceptos de las clases, así que no puede desviarse de lo que el programa enseña. Y hace visible algo que archivo a archivo no se ve: los términos que se definen en varias partes, que a veces son el mismo concepto y a veces son homónimos.
+
+## 📱 En el teléfono y en el escritorio
+
+El portal se lee en cualquier navegador, pero para consultarlo **sin conexión** el programa se empaqueta. Las tres superficies salen del mismo HTML generado, así que no pueden divergir.
+
+| | Qué es | Descarga |
+|---|---|---|
+| 🌐 **Portal** | Las 352 clases navegables, con temario y buscador. Se **instala** desde el navegador del teléfono («Añadir a pantalla de inicio») y relee sin conexión lo ya visitado | [Abrir el portal](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) |
+| 📱 **Android** | APK con las 352 clases dentro. **No declara permiso de red**: la ausencia de telemetría se comprueba en los ajustes, no se promete | [Último release](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) |
+| 💻 **Windows** | Lector portable con ventana propia. Se descomprime y se ejecuta; para desinstalar, se borra la carpeta | [Último release](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) |
+
+Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/README.md) y [desktop/](desktop/README.md).
 
 ## 🧪 Laboratorios y aplicaciones ejecutables
 
