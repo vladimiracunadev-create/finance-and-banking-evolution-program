@@ -27,6 +27,8 @@ Construir la clasificación que ordena toda la parte. **Un activo digital no es
 una tecnología: es una promesa anotada en un registro**, y clasificarlo consiste
 en identificar quién hace esa promesa, qué promete y ante quién responde.
 
+La Parte 19 estudió la infraestructura. Esta parte estudia lo que circula por ella, y empieza por una clasificación que no es académica: de ella dependen el régimen aplicable, el tratamiento de capital y el tipo de riesgo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

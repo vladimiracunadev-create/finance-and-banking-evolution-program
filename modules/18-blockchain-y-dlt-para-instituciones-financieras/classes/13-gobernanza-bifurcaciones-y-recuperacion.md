@@ -27,6 +27,8 @@ Responder la pregunta que ninguna arquitectura resuelve: **¿quién decide cuand
 hay que cambiar algo, y qué se hace cuando ya ha ocurrido un desastre?** La
 irreversibilidad convierte la gobernanza en el control más importante de todos.
 
+Todo lo construido hasta aquí necesita poder cambiar. Esta clase trata de cómo, y plantea la pregunta que casi ninguna red tiene resuelta por escrito: quién decide, con qué mayoría y qué pasa con quien pierde.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

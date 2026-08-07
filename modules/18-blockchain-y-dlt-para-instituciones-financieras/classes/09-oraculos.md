@@ -27,6 +27,8 @@ Estudiar el punto por donde el mundo real entra en un registro que no puede
 mirarlo. **Un oráculo es un tercero de confianza**, y por eso todo caso de uso
 que dependa de uno ha reintroducido justo lo que el registro decía eliminar.
 
+Los contratos de la clase anterior solo conocen lo que hay dentro del registro. Esta clase trata el puente con el exterior, que es por donde se ataca casi siempre porque hereda las debilidades del mundo que no se puede verificar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

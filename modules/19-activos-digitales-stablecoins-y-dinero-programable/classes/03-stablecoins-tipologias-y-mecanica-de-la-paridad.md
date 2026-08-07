@@ -27,6 +27,8 @@ Entender **qué sostiene realmente una paridad**. La estabilidad de una stableco
 no la produce el nombre ni el respaldo declarado: la produce un mecanismo de
 arbitraje que solo funciona si alguien puede redimir de verdad.
 
+El activo de la clase anterior no tiene ancla. Esta trata los que sí la tienen, o dicen tenerla, y separa dos cosas que se confunden: el derecho a redimir a la par y el precio al que se negocia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

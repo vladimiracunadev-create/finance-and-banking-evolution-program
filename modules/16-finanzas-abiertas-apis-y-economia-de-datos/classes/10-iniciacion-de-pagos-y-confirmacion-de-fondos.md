@@ -27,6 +27,8 @@ Pasar de leer a mover dinero. La iniciación de pagos cambia la figura
 regulatoria, el régimen de responsabilidad y el diseño técnico: el error deja de
 mostrar un número equivocado y pasa a transferir fondos.
 
+Las clases anteriores comparten información. Esta mueve dinero, y con eso cambia todo: hay un momento a partir del cual la operación no se puede deshacer, y el iniciador controla mucho menos de lo que promete.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

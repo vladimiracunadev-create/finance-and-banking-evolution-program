@@ -27,6 +27,8 @@ Abrir la caja: qué es exactamente una transacción, cómo se agrupa en bloques,
 qué guarda cada tipo de nodo y qué significa «el estado». Sin esta anatomía, las
 clases de consenso y de finalidad son palabras.
 
+Con las primitivas y las claves resueltas, esta clase construye la mecánica del registro: cómo se anota una operación, quién la ordena y cuándo pasa a formar parte del estado.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

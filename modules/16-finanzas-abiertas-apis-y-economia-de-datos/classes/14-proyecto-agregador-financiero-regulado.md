@@ -27,6 +27,8 @@ Integrar las trece clases en una decisión defendible: el expediente completo de
 agregador financiero, desde el dato mínimo hasta la defensa ante un comité que
 pregunta lo que un comité pregunta.
 
+Esta clase cierra la parte construyendo un agregador completo. No introduce concepto nuevo: exige que las trece decisiones anteriores queden registradas con su razón y su evidencia, porque lo que se defiende ante un supervisor no es el sistema sino el expediente.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

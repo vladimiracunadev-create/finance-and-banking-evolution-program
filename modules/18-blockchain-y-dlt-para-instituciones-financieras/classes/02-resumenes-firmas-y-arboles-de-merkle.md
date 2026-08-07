@@ -27,6 +27,8 @@ Entender las tres piezas criptográficas sobre las que se apoya todo lo demás, 
 —sobre todo— **qué garantiza cada una y qué no**. La mayoría de los errores de
 diseño en esta materia vienen de atribuirle a una pieza una propiedad de otra.
 
+La clase anterior planteó el problema del acuerdo. Esta introduce las tres primitivas criptográficas sobre las que se construye la solución, y que aparecen en todas las clases siguientes.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

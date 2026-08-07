@@ -27,6 +27,8 @@ Recorrer una emisión completa, desde la decisión de emitir hasta la anotación
 el registro. **La norma de oferta pública aplica igual**, y lo que cambia es la
 mecánica de suscripción, adjudicación y liquidación.
 
+Con el registro y los derechos definidos, esta clase coloca el instrumento por primera vez. El proceso de colocación no cambia respecto del tradicional; lo que cambia es que su liquidación puede ser atómica.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

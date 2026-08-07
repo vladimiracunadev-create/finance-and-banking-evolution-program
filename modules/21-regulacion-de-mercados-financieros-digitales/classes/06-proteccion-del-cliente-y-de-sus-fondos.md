@@ -27,6 +27,8 @@ Estudiar qué protege al cliente cuando la entidad falla. **La protección tiene
 dos capas** —cómo se le trata mientras todo funciona y qué recupera cuando no— y
 la segunda es la que casi nunca se verifica.
 
+Las clases anteriores regulan a la entidad. Esta protege a quien confía en ella, y distingue dos protecciones independientes: que no le vendan lo que no le corresponde y que su dinero siga siendo suyo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

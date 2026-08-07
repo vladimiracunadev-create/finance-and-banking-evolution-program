@@ -27,6 +27,8 @@ Sustituir la clasificación de folleto —«pública, privada, híbrida»— por
 preguntas que de verdad la determinan: **quién puede leer** y **quién puede
 escribir**. Y ver qué obligación regulatoria se activa con cada respuesta.
 
+Las clases anteriores describen la mecánica. Esta decide quién participa, y descompone en tres permisos independientes lo que suele plantearse como una elección en bloque entre red pública y privada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

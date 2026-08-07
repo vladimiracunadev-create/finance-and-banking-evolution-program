@@ -27,6 +27,8 @@ Tratar la clave privada como lo que es en un registro distribuido: **el activo
 mismo**. Quien la tiene, dispone; quien la pierde, no recupera. No hay servicio
 de atención al cliente detrás.
 
+Las firmas de la clase anterior necesitan claves. Esta trata de cómo se custodian, y con una advertencia que ordena la clase entera: quien tiene la clave tiene el activo, y no hay recuperación posible.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

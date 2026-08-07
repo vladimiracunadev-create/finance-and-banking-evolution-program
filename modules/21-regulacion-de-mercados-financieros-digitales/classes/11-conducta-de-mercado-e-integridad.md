@@ -31,6 +31,8 @@ antes de que se ejecuten.
 Este curso enseña a **detectar y prevenir** el abuso de mercado. No proporciona
 técnicas para cometerlo.
 
+La infraestructura de la clase anterior necesita que lo que ocurre dentro sea limpio. Esta clase trata las conductas prohibidas, y muestra que la transparencia del registro facilita su detección y rara vez se aprovecha.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -28,6 +28,8 @@ red de mensajería. El dinero se mueve en cuentas y se liquida en sistemas de
 pago. De esa distinción dependen el diagnóstico de la lentitud y la elección de
 cualquier arquitectura alternativa.
 
+Las clases anteriores describen la infraestructura. Esta separa dos cosas que se confunden todo el tiempo y que viajan por vías distintas: la instrucción de pago y el dinero. Un mensaje entregado no es un pago hecho.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

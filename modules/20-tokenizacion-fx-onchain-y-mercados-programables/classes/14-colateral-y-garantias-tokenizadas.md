@@ -27,6 +27,8 @@ Usar un instrumento tokenizado como garantía. **La movilidad del colateral es u
 de las ventajas reales de la tokenización**, y también el camino más corto hacia
 una cascada de liquidaciones si el margen se programa mal.
 
+Las operaciones de las clases anteriores exigen garantías. Esta las tokeniza, y muestra que la velocidad que eso permite reduce el riesgo de contraparte y crea el de cascada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

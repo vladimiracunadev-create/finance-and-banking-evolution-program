@@ -27,6 +27,8 @@ Reconstruir una pérdida de paridad separando **detonante** de **mecanismo**. El
 detonante cambia en cada episodio y no se puede predecir; el mecanismo se repite
 y sí se puede medir por adelantado.
 
+Las tres clases anteriores describen los mecanismos en condiciones normales. Esta reconstruye qué pasa cuando fallan, fase a fase, e identifica el punto a partir del cual ninguna intervención sirve.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

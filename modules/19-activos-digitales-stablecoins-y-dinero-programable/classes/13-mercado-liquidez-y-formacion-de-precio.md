@@ -27,6 +27,8 @@ Medir la liquidez de un mercado de activos digitales con las herramientas de la
 Parte 8, sin importar los eslóganes. **El volumen no es liquidez**, y la
 diferencia se nota exactamente el día en que hay que vender.
 
+Los activos de las clases anteriores se compran y se venden en algún mercado. Esta clase mide la liquidez de ese mercado en sus cuatro dimensiones, y muestra que la única que se publica es la peor de las cuatro.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

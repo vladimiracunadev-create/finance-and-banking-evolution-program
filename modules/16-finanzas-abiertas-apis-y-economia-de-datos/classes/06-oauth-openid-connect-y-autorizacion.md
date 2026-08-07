@@ -27,6 +27,8 @@ Entender qué resuelve OAuth 2.x, qué **no** resuelve, dónde entra OpenID Conn
 y por qué el perfil por defecto de ambos es insuficiente para dinero. La clase
 separa autorización de autenticación, que es la confusión más cara del área.
 
+El consentimiento de la clase anterior necesita un mecanismo técnico que lo ejecute sin que el cliente entregue su clave a nadie. Esta clase es ese mecanismo, y su idea central es una delegación: el tercero recibe un permiso acotado y nunca la credencial.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

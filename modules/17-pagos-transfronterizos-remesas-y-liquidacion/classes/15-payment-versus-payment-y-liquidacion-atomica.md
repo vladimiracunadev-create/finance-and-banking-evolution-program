@@ -27,6 +27,8 @@ Estudiar el mecanismo que elimina el riesgo Herstatt: **ninguna pata se liquida
 si la otra no se liquida**. Y entender qué cuesta esa garantía, porque no es
 gratis.
 
+La clase 7 identificó el riesgo de liquidación y la 8 lo acotó con liquidez. Esta lo elimina, condicionando cada tramo al otro, y delimita con precisión qué riesgo desaparece y cuál queda.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

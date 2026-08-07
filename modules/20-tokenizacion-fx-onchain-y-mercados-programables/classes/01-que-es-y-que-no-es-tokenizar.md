@@ -27,6 +27,8 @@ Fijar la definición que ordena toda la parte. **Tokenizar no crea un derecho: l
 representa**, y esa distinción decide qué pasa cuando el token y el registro
 oficial dicen cosas distintas.
 
+La Parte 20 estudió los activos digitales nativos. Esta parte estudia los instrumentos financieros de siempre anotados de otra forma, y empieza distinguiendo la operación que aporta algo de la que solo añade una conciliación más.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

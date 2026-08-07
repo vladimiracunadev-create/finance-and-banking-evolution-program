@@ -28,6 +28,8 @@ registro compartido: **verificable por todos** y **confidencial para cada uno**
 parecen incompatibles, y la criptografía ofrece una salida parcial que hay que
 saber medir.
 
+Un registro compartido es incompatible con la confidencialidad que la banca necesita. Esta clase resuelve esa tensión con mecanismos que permiten demostrar sin revelar, y distingue tres propiedades que se confunden.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -32,6 +32,8 @@ retomando un hallazgo que ya apareció dos veces en el programa: el nodo crític
 de la Parte 20, clase 14, y el proveedor común de la Parte 17, clase 2. Aquí lo
 miramos desde la norma.
 
+Todo lo regulado hasta aquí tiene que seguir funcionando. Esta clase trata la continuidad desde la norma reciente, que cambió el criterio: ya no se mide la disponibilidad del sistema sino el daño al cliente.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

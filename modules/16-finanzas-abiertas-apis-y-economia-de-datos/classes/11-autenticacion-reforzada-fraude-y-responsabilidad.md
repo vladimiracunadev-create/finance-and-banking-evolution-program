@@ -27,6 +27,8 @@ Responder la pregunta que llega después de cada fraude: **¿quién paga?** Y
 mostrar que la respuesta no se decide en el momento del reclamo, sino en el
 diseño de la autenticación y de la evidencia meses antes.
 
+La iniciación de pagos de la clase anterior abre una vía nueva para el fraude. Esta la cierra con autenticación reforzada y, sobre todo, reparte la responsabilidad de antemano entre tres actores, porque discutirla caso a caso no funciona.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

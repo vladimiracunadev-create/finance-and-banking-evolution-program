@@ -27,6 +27,8 @@ Dominar el vocabulario contable que sostiene la corresponsalía. Nostro y vostro
 son **la misma cuenta vista desde los dos lados**, y confundirlos produce
 descuadres que tardan semanas en resolverse.
 
+La corresponsalía de la clase anterior se materializa en cuentas. Esta las abre, y con ellas el coste que sostiene todo el modelo: dinero inmovilizado en varias monedas que no rinde y que nadie factura como tal.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -27,6 +27,8 @@ Integrar las quince clases en una decisión de arquitectura defendible: qué rut
 usa cada corredor, por qué, con qué controles y con qué evidencia. El proyecto
 se evalúa por lo que puedes **medir**, no por lo que propones.
 
+Esta clase cierra la parte construyendo una red completa. No introduce mecanismo nuevo: obliga a elegir entre los quince anteriores con un criterio de enrutamiento escrito, y a medir el resultado agregado en vez de operación a operación.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

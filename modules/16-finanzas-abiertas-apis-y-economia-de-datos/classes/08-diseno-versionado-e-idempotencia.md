@@ -27,6 +27,8 @@ Diseñar una API que un tercero pueda programar sin preguntar y que puedas cambi
 sin romperlo. Las tres decisiones que lo determinan son el contrato, la política
 de versiones y la idempotencia.
 
+Las dos clases anteriores aseguran el canal. Esta se ocupa de que el contrato entre los dos sistemas siga funcionando cuando uno de ellos cambie, y de que un reintento por un error de red no produzca dos pagos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

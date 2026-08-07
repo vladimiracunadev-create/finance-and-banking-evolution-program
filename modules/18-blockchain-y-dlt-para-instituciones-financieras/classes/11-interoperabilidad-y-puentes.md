@@ -27,6 +27,8 @@ Entender por qué mover un activo entre dos registros es mucho más difícil de 
 que parece, y por qué los puentes concentran una parte desproporcionada de las
 pérdidas conocidas del sector.
 
+Las clases anteriores construyen una red. Esta la conecta con otras, y muestra que nada cruza de verdad: lo que hay es un bloqueo en un lado y una emisión en el otro, con un custodio en medio.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

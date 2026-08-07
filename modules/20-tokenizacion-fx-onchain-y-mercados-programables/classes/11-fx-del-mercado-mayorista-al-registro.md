@@ -28,6 +28,8 @@ una operación del mercado FX mayorista. Se parecen en el resultado y se
 diferencian en todo lo demás: quién provee el precio, qué profundidad hay y qué
 riesgo queda.
 
+El tramo de dinero de la clase anterior puede estar en otra moneda. Esta clase trata ese cambio, y muestra que el precio se puede importar del mercado mayorista y la profundidad no.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

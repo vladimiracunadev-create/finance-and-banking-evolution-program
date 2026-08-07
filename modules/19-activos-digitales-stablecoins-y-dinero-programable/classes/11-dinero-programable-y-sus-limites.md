@@ -28,6 +28,8 @@ Separar dos cosas que se confunden con consecuencias graves: **pago programable*
 adherida a la unidad monetaria—. La primera es útil; la segunda destruye la
 fungibilidad.
 
+Todas las formas de dinero de las clases anteriores permiten añadir condiciones. Esta clase separa dos cosas que se nombran igual y tienen consecuencias opuestas: programar un pago y programar la unidad monetaria.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

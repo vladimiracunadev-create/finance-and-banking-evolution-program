@@ -28,6 +28,8 @@ lo que hay al otro lado es dinero, y qué añade exactamente un perfil de grado
 financiero: identidad del canal, prueba de posesión, firma de mensajes y gestión
 de claves.
 
+El protocolo de la clase anterior es el estándar general de internet. Esta añade lo que un contexto financiero exige por encima, y cada exigencia cierra un ataque concreto que el perfil base deja abierto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

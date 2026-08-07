@@ -27,6 +27,8 @@ Diseñar la única ventaja que la tokenización aporta y no se puede conseguir d
 otra forma: **que la entrega del valor y el pago del dinero sean el mismo acto**.
 Y demostrar que lo es, incluidos sus modos de fallo.
 
+Las clases anteriores construyen el mercado. Esta resuelve su liquidación, y establece la prueba que decide si un mecanismo es atómico: que no exista ningún instante observable con un tramo hecho y el otro no.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

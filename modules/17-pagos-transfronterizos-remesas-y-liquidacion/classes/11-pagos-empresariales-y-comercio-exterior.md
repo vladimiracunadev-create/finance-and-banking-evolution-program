@@ -27,6 +27,8 @@ Pasar del pago de 300 dólares al pago de 300 000. Cambian el riesgo dominante,
 los instrumentos, la documentación y la pregunta central: ya no es «cuánto
 cuesta», sino **quién asume el riesgo de que la otra parte no cumpla**.
 
+Las remesas de la clase anterior suponen confianza entre quien envía y quien recibe. Esta trata el caso en que no la hay, que es el habitual en el comercio internacional, y los instrumentos que existen precisamente para sustituirla.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

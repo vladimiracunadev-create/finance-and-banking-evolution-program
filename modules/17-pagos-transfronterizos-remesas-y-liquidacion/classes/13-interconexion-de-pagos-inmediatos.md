@@ -27,6 +27,8 @@ Estudiar la arquitectura que más ha reducido el tiempo y el coste de un pago
 transfronterizo sin usar ninguna tecnología nueva: **conectar dos sistemas de
 pagos inmediatos que ya existen**.
 
+Las doce clases anteriores describen el modelo de corresponsalía y sus costes. Esta presenta la alternativa que varios países están construyendo: conectar los sistemas nacionales entre sí y eliminar la cadena de intermediarios.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

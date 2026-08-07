@@ -27,6 +27,8 @@ Analizar el diseño en el que **la garantía es el propio sistema**. No se estud
 para replicarlo: se estudia porque su modo de fallo es matemático, se puede
 calcular por adelantado y aparece disfrazado en otros productos.
 
+Las stablecoins de las clases anteriores tienen una reserva externa. Esta trata las que no la tienen y confían en un mecanismo propio, y explica por qué ese mecanismo deja de valer justo cuando se necesita.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

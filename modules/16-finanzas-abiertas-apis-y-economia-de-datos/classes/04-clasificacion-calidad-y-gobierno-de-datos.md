@@ -28,6 +28,8 @@ calidad con números. Una API de finanzas abiertas expone datos que otra empresa
 usará para decidir; si el dato es de mala calidad, el error se propaga con la
 firma de quien lo publicó.
 
+Con el régimen y las figuras ya situados, esta clase entra en lo que se comparte. Y establece la distinción que decide qué cubre un consentimiento: no es lo mismo un dato que el cliente entregó que uno que el sistema dedujo de él.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

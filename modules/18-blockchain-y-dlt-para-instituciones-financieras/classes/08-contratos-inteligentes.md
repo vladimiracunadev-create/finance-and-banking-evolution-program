@@ -27,6 +27,8 @@ Tratar un contrato inteligente por lo que es: **código irreversible con dinero
 dentro**. No es un contrato, no es inteligente, y el error que contenga se
 ejecutará exactamente como está escrito.
 
+Con la red ya diseñada, esta clase añade la capacidad de ejecutar lógica sobre ella. Y con ella un riesgo nuevo: un programa que gestiona dinero, no se puede parchear y se ejecuta exactamente como está escrito.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

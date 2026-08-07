@@ -27,6 +27,8 @@ Aplicar la lógica de la clase 8 al cambio de divisas: **que las dos patas se
 liquiden juntas o no se liquide ninguna**. Y medir la exposición que queda cuando
 no es así, que es el riesgo que dio nombre al problema en 1974.
 
+El cambio de divisa de la clase anterior tiene dos tramos que se liquidan por separado. Esta clase los condiciona uno al otro, y precisa qué riesgo elimina el mecanismo y cuál queda vivo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -32,6 +32,8 @@ cumplían su norma y el sector tenía un punto único de fallo del 86,4 %. Ese e
 exactamente el tipo de riesgo que la vigilancia macroprudencial existe para
 detectar.
 
+Las clases anteriores supervisan entidad por entidad. Esta mira el conjunto, y busca lo que la supervisión individual no ve: las dependencias comunes que hacen frágil un sistema de entidades sanas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

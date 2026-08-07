@@ -27,6 +27,8 @@ Resolver el problema que la tokenización crea al resolverlo todo dentro de un
 registro: **qué pasa cuando hay varios registros**. Y comprobar que el precio de
 la atomicidad interna es la fragmentación externa.
 
+Los mercados de las clases anteriores no viven aislados. Esta clase los conecta, y mide la seguridad real de esa conexión con el umbral efectivo y no con el declarado.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -31,6 +31,8 @@ cumplimiento. Sin entusiasmo y sin rechazo previo.
 > diseño, sus reservas, su redención y su regulación se estudian en la Parte 20,
 > que es donde corresponde. Aquí solo se pregunta: ¿mejora el pago?
 
+La clase anterior conecta infraestructuras públicas. Esta explora la vía privada, y su análisis exige mirar los tres tramos: el intermedio es barato y los dos extremos, que son las conversiones, no lo son.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

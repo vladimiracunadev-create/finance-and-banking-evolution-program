@@ -27,6 +27,8 @@ Aislar el componente de cambio de divisa dentro de un pago y aprender a medirlo.
 El diferencial es el coste que no aparece como comisión y, en la mayoría de los
 corredores minoristas, es el mayor de todos.
 
+Casi todo pago transfronterizo cambia de moneda en algún punto. Esta clase abre ese tramo, y encuentra el ingreso que no aparece como comisión y que suele superarla: el margen sobre el tipo de referencia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -27,6 +27,8 @@ Recuperar el régimen que resolvió hace décadas casi todos los problemas que l
 stablecoins vuelven a plantear: **redención a la par, salvaguarda de fondos y
 prohibición de remunerar**. Compararlos punto por punto ordena todo el debate.
 
+Las clases anteriores buscan el régimen de instrumentos nuevos. Esta muestra que para muchos de ellos el régimen ya existía desde hace décadas, y que la sustancia decide con independencia del nombre y de la tecnología.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -27,6 +27,8 @@ Analizar el segmento donde el coste de los pagos transfronterizos tiene la
 consecuencia social más directa. Una remesa no es un pago pequeño: es un ingreso
 familiar, y cada punto porcentual de coste sale del presupuesto de un hogar.
 
+Las clases anteriores describen el pago mayorista. Esta trata el minorista, donde el coste relativo es mucho mayor y donde el problema no es llegar al país sino llegar a la persona.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

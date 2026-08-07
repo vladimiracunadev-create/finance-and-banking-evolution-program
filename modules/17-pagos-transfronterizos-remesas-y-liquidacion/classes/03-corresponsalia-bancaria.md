@@ -27,6 +27,8 @@ Entender la corresponsalía como lo que es —**una relación de crédito y conf
 entre dos bancos, no un cable**— y analizar por qué la red mundial se ha
 contraído aunque el volumen de pagos haya crecido.
 
+La cadena de la clase anterior se sostiene sobre relaciones entre bancos. Esta explica esas relaciones, sus obligaciones asimétricas y por qué la red mundial se está reduciendo en vez de crecer.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

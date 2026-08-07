@@ -27,6 +27,8 @@ Aplicar a una infraestructura tokenizada el régimen que se escribió para los
 depositarios y los sistemas de liquidación. **Los principios son anteriores a la
 tokenización y siguen decidiendo el diseño.**
 
+Las clases anteriores regulan a los participantes. Esta regula el lugar donde operan, que tiene régimen propio porque su fallo no afecta a sus clientes sino al mercado entero.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

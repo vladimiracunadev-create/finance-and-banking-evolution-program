@@ -27,6 +27,8 @@ Integrar las quince clases en el **expediente de una infraestructura**: emitir u
 instrumento, liquidarlo de forma atómica, darle mercado secundario y demostrar
 que cada promesa del folleto se sostiene con un número.
 
+Esta clase cierra la parte construyendo un mercado completo. Y con una exigencia que ordena el entregable: cada beneficio prometido va con la medición que lo demuestra, o se retira.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

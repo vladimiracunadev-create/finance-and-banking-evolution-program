@@ -27,6 +27,8 @@ Determinar **qué es jurídicamente** un instrumento digital. La calificación n
 elige quien emite: se deduce de sus características, y de ella dependen la
 autorización, la información exigible y la protección del tenedor.
 
+Las dos clases anteriores determinan qué hace una entidad. Esta determina qué es lo que emite, que es una pregunta distinta con consecuencias propias sobre la autorización y sobre la información exigible.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

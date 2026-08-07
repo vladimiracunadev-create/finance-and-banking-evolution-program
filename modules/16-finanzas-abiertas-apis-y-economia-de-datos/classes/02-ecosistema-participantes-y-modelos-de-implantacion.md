@@ -27,6 +27,8 @@ Mapear el ecosistema completo —incluidas las figuras que no aparecen en ningú
 folleto— y comparar los modelos de implantación por sus **resultados
 observables**, no por su retórica.
 
+La clase anterior distinguió las tres capas y situó el consentimiento en el centro. Esta sale del régimen y entra en quién lo opera: un ecosistema con más participantes de los que el cliente ve, y con una capa de infraestructura que concentra el riesgo sin aparecer en ningún panel.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

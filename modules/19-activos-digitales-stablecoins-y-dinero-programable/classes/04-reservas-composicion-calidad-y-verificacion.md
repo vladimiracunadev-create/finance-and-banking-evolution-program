@@ -27,6 +27,8 @@ Analizar la cartera que respalda una stablecoin como lo que es: **una cartera de
 inversión con un pasivo exigible a la vista**. El problema no es cuánto vale la
 reserva, sino cuánto vale **el día en que todos redimen a la vez**.
 
+La paridad de la clase anterior se sostiene sobre una reserva. Esta la abre, y establece la distinción que produce las corridas: tener activos suficientes no es lo mismo que poder convertirlos a tiempo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

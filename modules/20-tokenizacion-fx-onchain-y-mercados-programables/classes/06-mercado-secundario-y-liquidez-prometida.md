@@ -27,6 +27,8 @@ Contrastar la liquidez que promete un folleto con la que existe. **La promesa
 más repetida de la tokenización es la liquidez de activos ilíquidos**, y es la
 que peor resiste una medición.
 
+El instrumento de las clases anteriores se puede transferir. Esta clase comprueba si además se puede vender, y separa tres cosas que se prometen juntas y no vienen juntas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

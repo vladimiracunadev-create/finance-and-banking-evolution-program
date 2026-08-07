@@ -28,6 +28,8 @@ regla del viaje— como lo que son: **obligaciones distintas, con lógicas disti
 y consecuencias distintas**. Confundirlas produce colas manuales y, a la vez,
 huecos reales.
 
+Todos los pagos de las clases anteriores atraviesan controles. Esta los desarrolla, y plantea su tensión propia: un filtro estricto bloquea pagos legítimos y uno laxo deja pasar los que no lo son, y no existe un punto sin error.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

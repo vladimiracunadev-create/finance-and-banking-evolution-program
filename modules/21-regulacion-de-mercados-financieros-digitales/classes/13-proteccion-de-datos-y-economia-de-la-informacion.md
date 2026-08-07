@@ -32,6 +32,8 @@ protege la integridad del mercado; en la 12, qué obliga a conocer al cliente.
 Ahora vemos el reverso de esa misma moneda: todo ese conocimiento son datos
 personales, y tenerlos también obliga.
 
+Los registros de las clases anteriores son compartidos e inmutables. Esta clase enfrenta esa característica con el derecho de supresión, y muestra que el conflicto se resuelve en la arquitectura y no en la política de privacidad.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

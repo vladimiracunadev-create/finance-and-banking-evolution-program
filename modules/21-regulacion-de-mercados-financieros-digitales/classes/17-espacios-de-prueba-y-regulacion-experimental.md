@@ -32,6 +32,8 @@ La clase 16 mostró que los regímenes divergen y convergen despacio. Esta expli
 qué hace una autoridad mientras tanto, cuando tiene delante una actividad que no
 encaja y no quiere ni prohibirla ni bendecirla.
 
+Las clases anteriores describen normas ya establecidas. Esta trata los instrumentos que los supervisores usan cuando la actividad es nueva y todavía no saben qué exigir.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

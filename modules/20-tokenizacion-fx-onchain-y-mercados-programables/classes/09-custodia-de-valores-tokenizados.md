@@ -27,6 +27,8 @@ Aplicar a los valores tokenizados la custodia de la Parte 20, clase 12, y añadi
 lo que un valor exige y un activo al portador no: **el ejercicio de derechos por
 cuenta del titular** y la relación con el depositario central.
 
+El instrumento liquidado en la clase anterior queda en algún sitio. Esta clase trata la cadena de custodia y la estructura de cuentas, que es lo que decide si el cliente recupera su valor en un concurso.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

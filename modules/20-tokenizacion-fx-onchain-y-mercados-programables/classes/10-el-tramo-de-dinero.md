@@ -27,6 +27,8 @@ Decidir **con qué dinero se liquida**. La clase 8 mostró que sin el dinero en 
 mismo registro no hay atomicidad; esta clase estudia las cuatro opciones
 disponibles y qué riesgo introduce cada una.
 
+La atomicidad de la clase 8 exige que los dos tramos estén bajo el mismo mecanismo. Esta clase trata el segundo tramo, que es el dinero, y muestra que su elección decide si la atomicidad es alcanzable.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

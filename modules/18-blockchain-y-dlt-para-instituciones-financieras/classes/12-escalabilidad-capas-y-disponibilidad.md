@@ -27,6 +27,8 @@ Entender por qué un registro distribuido es lento y qué se puede hacer al
 respecto **sin regalar la propiedad que lo justificaba**. Cada solución de escala
 cambia un supuesto de seguridad, y hay que saber cuál.
 
+Las redes de las clases anteriores tienen capacidad limitada por diseño. Esta clase trata las soluciones, y muestra que ninguna resuelve el compromiso de fondo: lo trasladan a otra capa con supuestos nuevos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

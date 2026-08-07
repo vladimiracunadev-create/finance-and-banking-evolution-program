@@ -27,6 +27,8 @@ Entender qué problema resuelve un mecanismo de consenso —**quién decide el
 orden**— y comparar las familias por lo que cuestan y por lo que garantizan, no
 por lo que prometen.
 
+La clase anterior deja abierta la pregunta de quién ordena las transacciones. Esta la responde, y compara las familias de mecanismos por lo único que las hace comparables: cuánto cuesta atacarlas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

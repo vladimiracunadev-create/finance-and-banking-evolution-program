@@ -27,6 +27,8 @@ Analizar el pasivo del banco central en formato digital: **qué problema resuelv
 que el efectivo o las reservas no resuelvan ya**, y qué efecto tiene sobre los
 depósitos bancarios, que son la fuente del crédito.
 
+Las clases anteriores tratan dinero privado. Esta trata el público en formato digital, y su análisis se concentra en los cuatro parámetros de diseño que deciden si la banca comercial pierde o no sus depósitos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

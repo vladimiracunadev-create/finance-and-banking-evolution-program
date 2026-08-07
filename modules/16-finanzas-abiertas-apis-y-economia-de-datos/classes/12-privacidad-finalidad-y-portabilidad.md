@@ -28,6 +28,8 @@ Separar dos regímenes que conviven sobre el mismo dato: el de finanzas abiertas
 tratar—. Cumplir uno no exime del otro, y la mayoría de los problemas nacen de
 haber leído solo uno.
 
+Las clases anteriores comparten datos con consentimiento. Esta añade la capa que existe con independencia de él: la norma de protección de datos, cuyas obligaciones no desaparecen porque el cliente haya autorizado.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

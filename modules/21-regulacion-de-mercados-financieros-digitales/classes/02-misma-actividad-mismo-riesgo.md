@@ -27,6 +27,8 @@ Examinar el principio que ordena la regulación de las finanzas digitales, y —
 que casi nunca se hace— **sus tres límites**. El principio es correcto y no es
 suficiente: hay riesgos nuevos que ninguna norma existente cubre.
 
+La clase anterior determinó el perímetro por hechos. Esta introduce el principio que decide qué norma aplica una vez dentro, y dedica la mayor parte de su espacio a sus tres límites, que es donde el principio deja de servir.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

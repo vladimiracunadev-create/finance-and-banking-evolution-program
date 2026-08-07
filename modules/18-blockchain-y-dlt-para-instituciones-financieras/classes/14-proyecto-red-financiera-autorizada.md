@@ -27,6 +27,8 @@ Integrar las trece clases en un expediente que un comité de riesgo pueda
 aprobar o rechazar con fundamento. El proyecto se evalúa por **la comparación con
 la alternativa que no usa registro distribuido**, no por lo que se construya.
 
+Esta clase cierra la parte diseñando una red completa. Y con una exigencia que atraviesa las trece anteriores: la comparación con la base de datos centralizada que resolvería lo mismo, medida y no supuesta.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

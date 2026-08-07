@@ -27,6 +27,8 @@ Traducir la exposición a activos digitales en **capital y liquidez**. El marco
 prudencial no informa: protege, y por eso sus cifras no coinciden con las
 contables ni tienen por qué hacerlo.
 
+Las clases anteriores regulan la actividad. Esta cuantifica lo que cuesta en capital tenerla en el balance de un banco, y muestra que la clasificación en uno u otro grupo cambia el resultado en órdenes de magnitud.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

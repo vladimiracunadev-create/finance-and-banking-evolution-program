@@ -33,6 +33,8 @@ cada bloque de obligaciones; la 15 y la 16, a situarse en el sistema y en el
 mundo. Ahora se ensamblan, y el ensamblaje revela las contradicciones que cada
 pieza por separado no muestra.
 
+Esta clase cierra la parte reuniendo las diecisiete anteriores en un expediente. Y su valor no está en las piezas sino en cruzarlas por parejas, que es como lo lee quien va a hacer las preguntas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -27,6 +27,8 @@ Examinar el argumento más simpático de la tokenización —**democratizar el a
 a activos antes reservados**— y separar en él lo que es real, lo que es
 irrelevante y lo que es un riesgo trasladado al que menos puede soportarlo.
 
+La liquidez de la clase anterior condiciona esta. El fraccionamiento baja la barrera de importe y no la de idoneidad, y sin liquidez produce tenedores pequeños que no encuentran a quién vender.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

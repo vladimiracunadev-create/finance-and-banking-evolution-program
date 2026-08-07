@@ -27,6 +27,8 @@ Integrar las quince clases anteriores en un **expediente de decisión** que un
 comité de riesgos pueda aprobar o rechazar. El entregable no es una opinión: es
 un documento con doce piezas, cada una calculada y con sus supuestos a la vista.
 
+Esta clase cierra la parte con el expediente que un comité de riesgos pide antes de aprobar cualquier exposición. Y admite explícitamente la conclusión negativa, que es un resultado tan válido como el contrario si está sostenido.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

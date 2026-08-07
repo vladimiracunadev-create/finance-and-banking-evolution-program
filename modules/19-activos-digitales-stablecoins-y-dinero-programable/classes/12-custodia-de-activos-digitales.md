@@ -28,6 +28,8 @@ clave tiene el activo**, y por eso la custodia digital mezcla dos disciplinas qu
 en el mundo tradicional estaban separadas: la seguridad de la información y la
 segregación patrimonial.
 
+Los instrumentos de las once clases anteriores hay que guardarlos en alguna parte. Esta clase trata de dónde, y muestra que la criptografía protege del robo y solo un contrato bien redactado protege de la quiebra del custodio.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

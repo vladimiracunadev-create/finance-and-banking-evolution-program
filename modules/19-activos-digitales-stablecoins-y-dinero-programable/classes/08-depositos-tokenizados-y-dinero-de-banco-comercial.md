@@ -27,6 +27,8 @@ Estudiar la opción que las instituciones prefieren y que menos titulares genera
 **tokenizar el depósito bancario**. No crea un instrumento nuevo, no cambia el
 régimen y conserva la singularidad del dinero.
 
+Las clases anteriores tratan instrumentos emitidos fuera del sistema bancario. Esta vuelve dentro: un depósito bancario anotado de otra forma, con el mismo obligado, la misma garantía y una capacidad nueva de liquidar atómicamente.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

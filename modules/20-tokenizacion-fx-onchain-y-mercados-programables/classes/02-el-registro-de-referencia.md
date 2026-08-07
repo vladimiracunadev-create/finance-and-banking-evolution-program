@@ -27,6 +27,8 @@ Responder por escrito la pregunta que decide si un proyecto de tokenización
 existe: **cuando el token y el registro oficial dicen cosas distintas, ¿cuál
 prevalece?** Y diseñar el procedimiento para cuando ocurra, porque ocurrirá.
 
+La clase anterior mostró que el beneficio depende de dónde viva el derecho. Esta desarrolla esa idea y la convierte en regla de diseño: en todo momento un derecho tiene un solo registro que manda.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

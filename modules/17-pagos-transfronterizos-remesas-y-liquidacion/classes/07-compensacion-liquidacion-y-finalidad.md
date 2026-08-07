@@ -27,6 +27,8 @@ Separar tres momentos que se confunden y que determinan quién soporta la pérdi
 si algo falla: **compensación**, **liquidación** y **finalidad**. El tercero no
 es un concepto técnico: es una consecuencia jurídica.
 
+El mensaje de la clase anterior instruye un movimiento. Esta explica cómo ese movimiento se ejecuta entre bancos y cuándo deja de poder revertirse, que es el momento que decide quién asume la pérdida si algo falla.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

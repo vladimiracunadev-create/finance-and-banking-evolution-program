@@ -27,6 +27,8 @@ Diseñar el ciclo de vida completo de un consentimiento y demostrar que funciona
 Esta es la clase central de la parte: **todo lo demás es la maquinaria que hace
 cumplir lo que el cliente autorizó**.
 
+La clase anterior clasificó los datos. Esta desarrolla el permiso que los libera, que es la pieza central de todo el régimen. Y lo trata como lo que es: un objeto con ciclo de vida, no una casilla que se marca una vez.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

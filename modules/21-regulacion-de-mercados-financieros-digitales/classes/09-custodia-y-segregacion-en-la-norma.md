@@ -27,6 +27,8 @@ Comprobar qué exige la norma a quien custodia y **qué queda fuera**. La Parte 
 diseñó la custodia técnica; esta clase estudia si el régimen la alcanza y qué
 pasa el día del concurso.
 
+La Parte 20 trató la custodia desde la técnica. Esta la trata desde la norma, y separa tres niveles de segregación que se confunden y de los cuales solo uno protege en un concurso.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

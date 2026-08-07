@@ -27,6 +27,8 @@ Leer y construir los mensajes de pago que el sistema financiero usa realmente.
 ISO 20022 no es «un formato nuevo»: es la diferencia entre un pago que se procesa
 solo y uno que acaba en una cola manual.
 
+La clase anterior separó la mensajería del movimiento de fondos. Esta desarrolla la primera: cómo se dice lo que hay que hacer, con qué campos y con qué referencia, porque de eso depende que un pago se pueda seguir por toda la cadena.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

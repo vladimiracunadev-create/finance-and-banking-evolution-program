@@ -27,6 +27,8 @@ Estudiar las decisiones **jurídicas** que una moneda digital de banco central
 exige antes que las técnicas: si tiene curso legal, quién puede tenerla, qué se
 registra de cada pago y con qué mandato se emite.
 
+Las clases anteriores tratan emisores privados. Esta trata al emisor público, y su análisis es jurídico antes que técnico: sin habilitación legal expresa no hay emisión posible.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

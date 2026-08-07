@@ -27,6 +27,8 @@ Especificar **qué puede exigir el tenedor y a quién**. Un token que no dice qu
 derechos otorga no es un instrumento financiero incompleto: es un instrumento
 distinto del que el inversionista cree tener.
 
+El registro de la clase anterior anota un derecho. Esta clase inventaria qué derechos son y comprueba cuáles sobreviven a la tokenización, porque los que no se trasladan explícitamente se pierden.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

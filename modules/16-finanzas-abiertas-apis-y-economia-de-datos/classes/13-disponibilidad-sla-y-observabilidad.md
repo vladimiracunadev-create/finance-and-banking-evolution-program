@@ -27,6 +27,8 @@ Convertir «el servicio funciona» en un compromiso medible, y preparar el día 
 que no funcione. En un ecosistema de finanzas abiertas, la caída de uno se
 convierte en el incidente de muchos.
 
+Todo lo construido en las doce clases anteriores tiene que estar disponible cuando alguien lo use. Esta clase mide esa disponibilidad con las métricas correctas y establece qué se compromete frente a terceros, que no es lo mismo que el objetivo interno.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

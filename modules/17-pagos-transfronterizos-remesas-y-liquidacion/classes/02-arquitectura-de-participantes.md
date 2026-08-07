@@ -27,6 +27,8 @@ Dibujar quién hace qué en un pago transfronterizo y, sobre todo, **quién resp
 cuando falla**. La cadena tiene más eslabones de los que el cliente ve, y la
 responsabilidad no siempre está donde está el fallo.
 
+La clase anterior situó el problema y su coste. Esta abre la cadena que lo produce, y muestra por qué nadie puede responder qué pasó con un pago: cada participante solo conoce a sus vecinos inmediatos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

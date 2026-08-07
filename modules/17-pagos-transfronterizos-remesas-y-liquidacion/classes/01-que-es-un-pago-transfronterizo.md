@@ -28,6 +28,8 @@ transfronterizo**, **remesa**, **transferencia internacional** y **operación de
 cambio**. La distinción no es académica: cada una tiene régimen, coste, riesgo y
 supervisor distintos.
 
+La Parte 17 abrió los datos de una entidad a terceros dentro de un país. Esta parte cruza la frontera, y ahí desaparece la infraestructura común: no existe un sistema de pagos global, y todo lo que sigue es la consecuencia de esa ausencia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

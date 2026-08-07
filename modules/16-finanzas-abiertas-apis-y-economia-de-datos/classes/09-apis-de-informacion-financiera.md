@@ -27,6 +27,8 @@ Modelar los datos de **todos** los productos financieros, no solo de la cuenta
 corriente. Cada familia de producto tiene una estructura, un ciclo y una
 sensibilidad distintas, y el modelo que sirve para una rompe en la siguiente.
 
+Con el canal y el contrato resueltos, esta clase entra en lo que se expone. Y encuentra los casos que rompen cualquier diseño limpio: cuentas con dos titulares y movimientos que revelan datos de terceros que nunca consintieron nada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

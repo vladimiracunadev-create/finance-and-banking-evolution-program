@@ -27,6 +27,8 @@ Responder la pregunta que un banco necesita responder antes de usar cualquier
 registro distribuido: **¿cuándo puedo tratar esto como definitivo?** Y demostrar
 que la respuesta técnica y la jurídica no son la misma.
 
+El consenso de la clase anterior produce acuerdo, y no siempre inmediato. Esta clase precisa cuándo una operación deja de poder revertirse, y distingue tres momentos que se confunden y no coinciden.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

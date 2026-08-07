@@ -27,6 +27,8 @@ Llevar el activo digital al balance. **Ninguna norma contable internacional cre�
 una categoría nueva para él**, y por eso su clasificación se resuelve con las
 normas existentes, con consecuencias muy distintas según cuál aplique.
 
+Todo lo anterior hay que registrarlo y declararlo. Esta clase resuelve cómo, y muestra que la clasificación contable no la elige la entidad: depende de qué es el activo y para qué se tiene.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

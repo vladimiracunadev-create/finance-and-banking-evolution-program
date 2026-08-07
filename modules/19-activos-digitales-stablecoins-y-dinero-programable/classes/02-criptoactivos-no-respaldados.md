@@ -27,6 +27,8 @@ Estudiar el instrumento donde **no hay obligado**: qué determina su oferta, de
 qué depende su precio y por qué el tratamiento prudencial más severo del sistema
 financiero se le aplica precisamente a él.
 
+La clase anterior clasificó por promesa y obligado. Esta desarrolla la categoría sin ninguna de las dos, que por eso no puede incumplir y tampoco puede prometer, y cuyo precio no tiene nada que lo ancle.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -27,6 +27,8 @@ Entender el mecanismo que sustituye al libro de órdenes cuando no hay
 contrapartes esperando: **una fórmula que fija el precio según los saldos de dos
 reservas**. Y calcular quién paga por que funcione.
 
+Las clases anteriores suponen que hay contrapartida. Esta trata el mecanismo que la garantiza siempre mediante una fórmula, y calcula su coste real para quien provee la liquidez.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

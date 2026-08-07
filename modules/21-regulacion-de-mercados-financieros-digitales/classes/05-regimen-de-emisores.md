@@ -27,6 +27,8 @@ Estudiar qué se le exige a quien **emite** un instrumento digital que promete u
 valor. Las Partes 20 y 21 midieron su fragilidad; esta clase estudia qué
 obligaciones intentan contenerla y cuáles quedan fuera.
 
+La clase anterior habilita a operar. Esta desarrolla las obligaciones concretas de quien emite un instrumento respaldado, incluida la que casi nadie prepara: qué pasa cuando el emisor falla.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

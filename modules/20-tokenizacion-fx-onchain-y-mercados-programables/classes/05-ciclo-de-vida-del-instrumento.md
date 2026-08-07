@@ -27,6 +27,8 @@ Recorrer la vida del instrumento después de la emisión: cupones, amortizacione
 canjes, embargos y vencimiento. **Es donde se rompen los proyectos**, porque la
 emisión se prueba y el ciclo de vida se improvisa.
 
+La emisión de la clase anterior es un día. Esta trata los años siguientes, que es donde fallan casi todos los diseños: cupones, opciones, embargos y amortizaciones que nadie modeló porque la emisión ya funcionaba.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

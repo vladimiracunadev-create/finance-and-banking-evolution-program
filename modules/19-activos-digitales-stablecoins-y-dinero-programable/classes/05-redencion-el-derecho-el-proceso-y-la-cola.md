@@ -27,6 +27,8 @@ Estudiar el mecanismo que convierte una promesa en dinero. **La redención no es
 un botón: es una cola**, y el orden de esa cola decide quién cobra íntegro y
 quién no cobra.
 
+La reserva de la clase anterior se convierte en dinero mediante la redención. Esta clase la desarrolla, y muestra que su diseño decide si un episodio de tensión se contiene o se convierte en corrida.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

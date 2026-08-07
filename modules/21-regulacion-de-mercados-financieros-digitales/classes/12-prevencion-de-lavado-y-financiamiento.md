@@ -27,6 +27,8 @@ Aplicar el régimen de prevención a los proveedores de servicios sobre activos
 virtuales. Esta clase enseña a **cumplir y a detectar**; no proporciona
 técnicas de evasión ni describe cómo eludir controles.
 
+Las clases anteriores regulan el mercado. Esta trata la obligación que lo atraviesa entero, y su dificultad propia: la regla del viaje supone un intermediario en el destino y a veces no lo hay.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

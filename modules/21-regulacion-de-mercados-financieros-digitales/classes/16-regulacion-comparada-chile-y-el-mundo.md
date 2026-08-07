@@ -31,6 +31,8 @@ Las quince clases anteriores construyeron el método de determinación. Esta lo
 aplica a varias jurisdicciones a la vez, que es lo que hace falta en cuanto una
 entidad tiene un cliente fuera de su país.
 
+Las quince clases anteriores describen principios. Esta los contrasta entre jurisdicciones, con sus referencias y sus fechas, porque lo que obliga siempre es la norma concreta de un país concreto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

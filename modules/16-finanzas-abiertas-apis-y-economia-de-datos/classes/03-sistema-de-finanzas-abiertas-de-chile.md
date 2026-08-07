@@ -33,6 +33,8 @@ para responder tres preguntas: qué actividad realizo, qué me exige y desde cu�
 > modificarse. Ningún dato de esta clase sustituye la consulta de la fuente
 > oficial vigente. Esta clase **no es asesoría legal**.
 
+Las dos clases anteriores describen el modelo en abstracto. Esta lo aterriza en una jurisdicción concreta, con su ley, su registro y su calendario de fases, porque lo que obliga nunca es el modelo sino la norma que lo transpone.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

@@ -27,6 +27,8 @@ Entender por qué un banco tiene dinero inmovilizado en veinte países y qué se
 puede hacer al respecto. La liquidez atrapada es el coste silencioso de la
 corresponsalía, y la mayor parte de las arquitecturas nuevas prometen atacarlo.
 
+La liquidación de la clase anterior exige tener fondos donde hacen falta y cuando hacen falta. Esta clase cuantifica ese requisito, que es el coste principal del modelo, y recorre los mecanismos que lo reducen.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

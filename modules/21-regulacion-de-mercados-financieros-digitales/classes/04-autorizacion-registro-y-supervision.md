@@ -27,6 +27,8 @@ Recorrer el camino desde que una entidad decide operar hasta que un supervisor l
 vigila. **Autorización, registro y supervisión son tres cosas distintas**, y
 confundirlas es el error que más tiempo y dinero cuesta a un proyecto.
 
+Con el perímetro y la calificación resueltos, esta clase trata la vía para operar legalmente. Y separa tres figuras que el mercado confunde y que dan garantías muy distintas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

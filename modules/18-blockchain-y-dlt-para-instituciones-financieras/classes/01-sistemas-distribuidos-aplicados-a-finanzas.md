@@ -27,6 +27,8 @@ Situar el registro distribuido donde le corresponde: **es un sistema
 distribuido con una propiedad concreta y un precio concreto**. Antes de estudiar
 sus piezas hay que saber qué problema resuelve y qué cuesta resolverlo así.
 
+La Parte 18 terminó con la liquidación atómica entre infraestructuras. Esta parte estudia la tecnología que la hace posible, y empieza por su fundamento: el problema de ponerse de acuerdo entre participantes que no se fían unos de otros.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:

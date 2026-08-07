@@ -27,6 +27,8 @@ Construir el mapa de exposición que una institución necesita cuando el riesgo 
 llega por su balance sino por el de otros. **La exposición directa es la que se
 mide; la indirecta es la que hace daño.**
 
+Las clases anteriores analizan instrumentos y mercados por separado. Esta los conecta, y encuentra lo que ningún balance muestra: la exposición indirecta de un banco que no tiene un solo activo digital.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
