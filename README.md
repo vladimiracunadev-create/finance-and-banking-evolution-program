@@ -14,7 +14,7 @@
 [![Versión](https://img.shields.io/badge/versión-2.0.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-352%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
 [![Nivel](https://img.shields.io/badge/nivel-cero%20→%20dirección%20bancaria-2e8b57?style=for-the-badge)](STATUS.md)
-[![Manual](https://img.shields.io/badge/manual%20PDF-3.672%20páginas-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)
+[![Manual](https://img.shields.io/badge/manual%20PDF-descargar-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)
 [![Idioma](https://img.shields.io/badge/idioma-español-1f6feb?style=for-the-badge)](SYLLABUS.md)
 [![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
 
@@ -209,7 +209,7 @@ La infraestructura por debajo. Continúa desde la introducción fintech de la Pa
 
 ¿Prefieres el curso entero en un solo sitio, para leer de corrido o estudiar sin conexión? El **manual** consolida las **352 clases** en orden, con portada, índice enlazado de 380 entradas y salto de página por parte y por clase.
 
-- 📥 **[Descargar el manual en PDF](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)** — 3 672 páginas, 1 033 449 palabras.
+- 📥 **[Descargar el manual en PDF](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)** — más de 3 500 páginas y 1 036 000 palabras, con **380 marcadores** en tres niveles (etapa → parte → clase) y numeración de página.
 - 🌐 **[Leerlo en el navegador (HTML)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.html)** — el mismo documento, con hoja de estilo de impresión.
 - 📝 **[Descargarlo en Markdown](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.md)** — para revisar, convertir o citar.
 
@@ -410,7 +410,7 @@ pytest -q && npx markdownlint-cli2 "**/*.md"
 - 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 150 laboratorios;
 - 📗 material con **bibliografía verificable**: 2 400+ fuentes citadas y cada norma con su fecha de verificación;
 - 🏦 un puente **cliente ↔ banco**: la misma clase sirve a quien lee su estado de cuenta y a quien decide ese cobro;
-- 🌐 material **abierto y offline-friendly** (manual PDF de 3 672 páginas + portal en Pages), en español.
+- 🌐 material **abierto y offline-friendly** (manual PDF de más de 3 500 páginas + portal en Pages), en español.
 
 </td>
 <td valign="top" width="50%">

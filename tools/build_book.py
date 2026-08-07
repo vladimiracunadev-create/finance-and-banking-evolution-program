@@ -355,7 +355,7 @@ def esperar_pdf(pdf: Path, limite: int = 900, quieto: int = 6) -> bool:
     return False
 
 
-def rematar_pdf(pdf: Path, indice: list[tuple[int, str, str]]) -> None:
+def rematar_pdf(pdf: Path, indice: list[tuple[int, str, str]]) -> bool:
     """Anade al PDF impreso lo que el navegador no sabe poner.
 
     Chrome imprime bien la pagina pero no produce ni marcadores ni folio: un
@@ -375,7 +375,7 @@ def rematar_pdf(pdf: Path, indice: list[tuple[int, str, str]]) -> None:
     except ImportError:
         print("  (sin PyMuPDF: el PDF va sin marcadores ni numeracion)")
         print("   instala con: pip install -r requirements-site.txt")
-        return
+        return True
 
     doc = pymupdf.open(pdf)
     destinos = doc.resolve_names()
@@ -385,14 +385,14 @@ def rematar_pdf(pdf: Path, indice: list[tuple[int, str, str]]) -> None:
         if ancla in destinos
     ]
 
-    if len(marcadores) == len(indice):
+    completo = len(marcadores) == len(indice)
+    if marcadores:
         doc.set_toc(marcadores)
+    if completo:
         print(f"  marcadores: {len(marcadores)}")
     else:
-        print(f"  (marcadores incompletos: {len(marcadores)} de {len(indice)} anclas "
-              "resueltas; el PDF se guarda igual)")
-        if marcadores:
-            doc.set_toc(marcadores)
+        print(f"  MARCADORES INCOMPLETOS: {len(marcadores)} de {len(indice)} anclas "
+              "resueltas. El indice del PDF no describe el documento.")
 
     # Folio centrado al pie, desde la primera pagina de contenido. La portada y
     # el indice no se numeran: no se citan.
@@ -415,6 +415,7 @@ def rematar_pdf(pdf: Path, indice: list[tuple[int, str, str]]) -> None:
     doc.saveIncr()
     doc.close()
     print(f"  numeracion desde la pagina {primera + 1}")
+    return completo
 
 
 def generar(con_pdf: bool = True) -> int:
@@ -433,7 +434,8 @@ def generar(con_pdf: bool = True) -> int:
         print("Imprimiendo el PDF... (tarda unos minutos)")
         if not a_pdf(html, pdf):
             return 1
-        rematar_pdf(pdf, indice)
+        if not rematar_pdf(pdf, indice):
+            return 1
         print(f"book/programa-completo.pdf  {pdf.stat().st_size / 1_048_576:>9,.1f} MB")
     return 0
 
