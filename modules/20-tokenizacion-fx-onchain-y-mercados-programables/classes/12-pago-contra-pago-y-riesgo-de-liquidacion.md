@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el riesgo y su mecanismo de eliminación; los cuatro siguientes, los mitigantes parciales y lo que queda. La **exposición residual** es lo que hay que declarar: el pago contra pago elimina el riesgo de principal y no el de reemplazo, y decir que elimina el riesgo de liquidación es inexacto.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo de liquidación` | Entregar una divisa y no recibir la otra |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `exposición residual` | La que no elimina ningún mecanismo |
 
 ## 🧠 Modelo mental
+
+El modelo mental son dos riesgos distintos bajo un mismo nombre: el de principal, que es perder el importe entero, y el de reemplazo, que es tener que rehacer la operación a otro precio. El mecanismo elimina el primero y deja el segundo.
 
 ```text
 POR QUÉ EXISTE EL RIESGO
@@ -224,6 +228,8 @@ EL PvP A UN REGISTRO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara cuatro mecanismos contra la misma exposición base. Conviene mirar la oponibilidad del neteo: sin ella, la reducción que muestra no existe en un concurso.
 
 **Situación.** Una tesorería opera 40 000 000 diarios en un par entre husos
 separados por 11 horas. Hay que medir la exposición y evaluar los mecanismos.
@@ -412,6 +418,8 @@ el error que invierte la conclusión.
 
 ## 🧭 Perspectivas
 
+El riesgo de liquidación afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Tesorería | Una ventana de 19 o 67 horas | Con quién opera y hasta cuánto |
@@ -427,6 +435,8 @@ el error que invierte la conclusión.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo percibe y su banco asume o no una exposición del importe completo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Se liquida el mismo día» | 19 horas de exposición al principal | 21, clase 12 |
@@ -434,6 +444,8 @@ el error que invierte la conclusión.
 | «Tenemos neteo» | Solo vale si es oponible en concurso | 21, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos residuales son de reemplazo y de neteo no oponible. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -446,6 +458,8 @@ el error que invierte la conclusión.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar los cuatro mecanismos sobre la misma base. La oponibilidad del neteo es lo que decide cuál sirve.
+
 En [`labs/lab-07.md`](../labs/lab-07.md):
 
 1. Calcula la ventana de exposición un día normal y un viernes.
@@ -455,6 +469,8 @@ En [`labs/lab-07.md`](../labs/lab-07.md):
    bilateral que deja la pérdida esperada dentro del apetito.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen exposiciones mal medidas. Las causas son neteo sin oponibilidad y riesgo de reemplazo ignorado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

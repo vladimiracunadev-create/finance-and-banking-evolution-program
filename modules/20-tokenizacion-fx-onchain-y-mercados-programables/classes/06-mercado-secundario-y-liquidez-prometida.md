@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos separan tres cosas que se prometen juntas; los cinco siguientes, los mecanismos de liquidez y su fragilidad. La distinción entre **transferibilidad, negociabilidad y liquidez** es la que ordena la clase: que un token se pueda transferir no significa que haya con quién negociarlo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `transferibilidad` | Que el instrumento pueda cambiar de titular |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mercado por subasta` | Cruce periódico en vez de continuo |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una escalera de tres peldaños que se presentan como uno. Tokenizar da el primero casi gratis, el segundo exige un mercado y el tercero exige que alguien se comprometa a cotizar, y ese compromiso tiene cláusulas de retirada.
 
 ```text
 TRES COSAS DISTINTAS QUE SE PRESENTAN
@@ -225,6 +229,8 @@ que cualquier cifra de volumen.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa un compromiso de cotización y sus cláusulas de retirada. Conviene leer las cláusulas: el compromiso desaparece justo cuando haría falta.
 
 **Situación.** Una plataforma promete «liquidez diaria» para participaciones
 inmobiliarias tokenizadas. Hay que comprobarlo con seis meses de datos.
@@ -385,6 +391,8 @@ obligación, y salir de 400 000 llevaba casi tres meses.
 
 ## 🧭 Perspectivas
 
+La liquidez prometida afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Liquidez diaria» | Si cuenta con poder salir |
@@ -400,6 +408,8 @@ obligación, y salir de 400 000 llevaba casi tres meses.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que puede vender cuando quiera y depende de un proveedor con cláusulas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Tiene liquidez diaria» | 59 % de los días sin ninguna operación | 21, clase 6 |
@@ -407,6 +417,8 @@ obligación, y salir de 400 000 llevaba casi tres meses.
 | «Salgo cuando quiera» | 400 000 tardan 2,8 meses | 21, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de liquidez prometida y no entregada. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -419,6 +431,8 @@ obligación, y salir de 400 000 llevaba casi tres meses.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar compromisos de cotización y sus cláusulas. La liquidez efectiva en tensión es lo que se mide.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Mide días con operación, contrapartes distintas y rotación genuina.
@@ -427,6 +441,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Compara mercado continuo y subasta con los mismos datos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen mercados secundarios sin contrapartida. La causa es haber confundido transferibilidad con liquidez.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

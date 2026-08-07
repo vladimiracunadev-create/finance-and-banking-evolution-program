@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos separan cosas que se confunden bajo la misma palabra; los cuatro siguientes, lo que decide si la operación aporta algo. La distinción entre **emisión nativa y envoltorio** es la que ordena la parte: en la primera el token es el instrumento y en la segunda es una representación de otro registro que sigue mandando.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tokenización` | Representación en un registro de un derecho preexistente |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `conciliación` | Proceso que mantiene alineados dos registros |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una pregunta sobre dónde vive el derecho. Si el derecho sigue anotado en otro sitio y el token es un espejo, la tokenización añade una conciliación en vez de quitarla, y el beneficio prometido no aparece.
 
 ```text
 LAS CUATRO PREGUNTAS DE VIABILIDAD
@@ -232,6 +236,8 @@ RESULTADO VÁLIDO DEL ANÁLISIS.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica varias operaciones entre emisión nativa y envoltorio. Conviene localizar el registro donde vive el derecho: es lo que decide la clasificación.
 
 **Situación.** Una empresa quiere emitir 40 000 000 en bonos a 3 años. Le
 proponen hacerlo tokenizado. Hay que comparar con la emisión tradicional.
@@ -409,6 +415,8 @@ propuesta**, y sin ella el único beneficio exclusivo es inalcanzable.
 
 ## 🧭 Perspectivas
 
+Tokenizar significa cosas distintas para cada participante del mercado. La tabla las recoge, y conviene volver a ella en la clase 16.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un bono accesible desde 1 000 | Si invierte |
@@ -424,6 +432,8 @@ propuesta**, y sin ella el único beneficio exclusivo es inalcanzable.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un token y el banco determina qué derecho tiene y contra quién. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es un bono digital» | Es un bono con una representación adicional | 21, clase 1 |
@@ -431,6 +441,8 @@ propuesta**, y sin ella el único beneficio exclusivo es inalcanzable.
 | «Es más barato» | 153 000 más caro con todos los costes | 21, clase 1 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos vienen de la divergencia entre registros y de promesas sin sustento. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -443,6 +455,8 @@ propuesta**, y sin ella el único beneficio exclusivo es inalcanzable.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar operaciones y localizar el registro de referencia de cada una. Los envoltorios son los que añaden conciliación.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Aplica las cuatro preguntas a tres proyectos de tokenización.
@@ -450,6 +464,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Cuenta los envoltorios de un caso y sus obligados.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber tokenizado sin mover el registro de referencia.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

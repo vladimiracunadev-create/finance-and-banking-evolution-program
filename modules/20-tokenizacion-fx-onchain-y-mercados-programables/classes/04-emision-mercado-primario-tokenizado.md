@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la colocación y su mecánica; los cuatro siguientes, sus plazos y sus resultados posibles. La **colocación desierta** es el escenario que casi ningún diseño contempla y que hay que resolver antes: qué pasa con las suscripciones si no se alcanza el mínimo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `oferta pública` | Ofrecimiento dirigido al público, sujeto a régimen |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `colocación desierta` | Demanda insuficiente para emitir |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que el mercado primario tokenizado no cambia el proceso de colocación: cambia su liquidación, que puede ser atómica. Todo lo demás —libro, adjudicación, prorrateo— sigue siendo lo mismo con otra anotación.
 
 ```text
 LAS NUEVE ETAPAS, Y QUÉ CAMBIA EN CADA UNA
@@ -220,6 +224,8 @@ DISEÑO CORRECTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo ejecuta una colocación con prorrateo y liquidación atómica. Conviene comprobar el caso de sobresuscripción: el prorrateo es donde aparecen los errores.
 
 **Situación.** Una emisión de 30 000 000 con importe mínimo de 18 000 000. Hay
 que resolver la adjudicación y medir el efecto de la sobredemanda artificial.
@@ -385,6 +391,8 @@ informe**, porque convierte exagerar en algo que cuesta dinero.
 
 ## 🧭 Perspectivas
 
+La emisión tokenizada afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una emisión accesible | Cuánto pide |
@@ -400,6 +408,8 @@ informe**, porque convierte exagerar en algo que cuesta dinero.
 
 ## 🏦 Del cliente al banco
 
+El inversionista suscribe y el emisor coloca con un proceso conocido y otra liquidación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Hubo 3,75 veces de demanda» | La mayor parte es artificial | 21, clase 4 |
@@ -407,6 +417,8 @@ informe**, porque convierte exagerar en algo que cuesta dinero.
 | «Es una emisión sin folleto» | La norma de oferta pública aplica igual | 21, clase 4 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de colocación y de liquidación de la emisión. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -419,6 +431,8 @@ informe**, porque convierte exagerar en algo que cuesta dinero.
 
 ## 🧪 Práctica
 
+El laboratorio pide ejecutar una colocación completa con prorrateo. El caso de colocación desierta es el que hay que resolver.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Resuelve una adjudicación con prorrateo simple y con tramo mínimo.
@@ -427,6 +441,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Ejecuta el escenario de emisión desierta con liberación automática.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen emisiones con problemas. Las causas son prorrateos mal calculados y escenarios de fracaso no previstos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

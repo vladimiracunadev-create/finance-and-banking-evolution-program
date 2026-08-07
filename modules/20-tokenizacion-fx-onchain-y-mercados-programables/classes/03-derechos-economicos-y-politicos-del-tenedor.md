@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las familias de derecho; los cinco siguientes, sus condiciones y su pérdida. El **derecho perdido por diseño** es el hallazgo incómodo de la clase: fraccionar un instrumento por debajo de ciertos umbrales elimina derechos políticos que el tenedor tenía, sin que nadie lo haya decidido.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `derecho económico` | Cobrar: cupón, dividendo, amortización, liquidación |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `derecho perdido por diseño` | La norma lo concede y la arquitectura lo impide |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que tokenizar no crea derechos ni los conserva automáticamente: los derechos vienen del instrumento subyacente y hay que trasladarlos uno a uno. Los que no se trasladan, se pierden.
 
 ```text
 TRES FAMILIAS Y UNA PREGUNTA POR CADA UNA
@@ -246,6 +250,8 @@ QUÉ EXIGIR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara los derechos del tenedor antes y después de tokenizar. Conviene revisar los políticos: son los que más se pierden por umbrales.
 
 **Situación.** Una emisión de participaciones tokenizadas de una sociedad
 inmobiliaria. Hay que especificar los derechos y comprobar cuáles sobreviven.
@@ -423,6 +429,8 @@ al promotor.**
 
 ## 🧭 Perspectivas
 
+Los derechos del tenedor afectan a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una participación desde 1 | Si invierte |
@@ -437,6 +445,8 @@ al promotor.**
 
 ## 🏦 Del cliente al banco
 
+El cliente cree tener los mismos derechos y algunos no se trasladaron. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Tengo derecho a voto» | Con redondeo, pierde el 20 % | 21, clase 3 |
@@ -444,6 +454,8 @@ al promotor.**
 | «Es mi participación» | Su derecho es contra el vehículo | 21, clase 3 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de derechos no trasladados y de titularidad indirecta. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -456,6 +468,8 @@ al promotor.**
 
 ## 🧪 Práctica
 
+El laboratorio pide inventariar los derechos antes y después de tokenizar. Los perdidos por diseño son lo que hay que declarar.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Traduce los umbrales estatutarios a unidades del token.
@@ -464,6 +478,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Escribe el procedimiento de rescate con su tercero designado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen tenedores sin los derechos que esperaban. La causa es el traslado incompleto.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

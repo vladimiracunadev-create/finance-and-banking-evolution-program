@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la mecánica de la reserva y sus dos precios; los cuatro siguientes, el coste para quien provee liquidez. La **pérdida por divergencia** es el concepto que hay que entender antes de proveer liquidez: cuando el precio se mueve, la reserva termina con más del activo que baja y menos del que sube.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `reserva` | Saldo de un activo que sostiene el mecanismo |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `deslizamiento` | Diferencia entre el precio esperado y el obtenido |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una fórmula que cotiza sin opinar: la reserva ofrece precio según una regla matemática, y por eso siempre hay contrapartida y siempre hay deslizamiento. Cuanto mayor la operación respecto de la reserva, peor el precio efectivo.
 
 ```text
 LA IDEA
@@ -216,6 +220,8 @@ CONSECUENCIA
 | Idóneo para | Pares sin creadores dispuestos | Mercados con participantes |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el precio marginal y el efectivo de una operación grande. La diferencia entre ambos es el deslizamiento, y crece con el tamaño relativo.
 
 **Situación.** Se evalúa aportar reservas a un mecanismo automatizado para un par
 de activos tokenizados. Hay que decidir si compensa.
@@ -372,6 +378,8 @@ retirarse ni ajustar— a que habrá mucho del primero y poco del segundo.
 
 ## 🧭 Perspectivas
 
+La creación de mercado automatizada afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un precio siempre disponible | Si opera |
@@ -387,6 +395,8 @@ retirarse ni ajustar— a que habrá mucho del primero y poco del segundo.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un precio y ejecuta a otro peor según su tamaño. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Rinde un 12,6 %» | Menos la pérdida por divergencia | 21, clase 13 |
@@ -394,6 +404,8 @@ retirarse ni ajustar— a que habrá mucho del primero y poco del segundo.
 | «No hay intermediarios» | Hay aportantes que pierden por divergencia | 21, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de deslizamiento y de pérdida por divergencia. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -406,6 +418,8 @@ retirarse ni ajustar— a que habrá mucho del primero y poco del segundo.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular precios efectivos y la pérdida por divergencia de un proveedor. La comparación con las comisiones cobradas decide si proveer liquidez rinde.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Implementa la fórmula de producto constante y verifica la regla práctica.
@@ -414,6 +428,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Compara con un libro de órdenes de la misma profundidad efectiva.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen ejecuciones y rendimientos peores de lo esperado. Las causas son el deslizamiento y la divergencia no calculados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

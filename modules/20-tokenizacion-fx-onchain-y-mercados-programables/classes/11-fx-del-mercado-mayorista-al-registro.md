@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el precio y su formación; los cuatro siguientes, la profundidad y la exposición. El **tramo oculto** es el coste que no aparece: importar un precio de referencia de un mercado profundo y aplicarlo a un registro poco profundo esconde el impacto real de la operación.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `mercado FX mayorista` | Red de creadores de mercado y plataformas |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `ventana de exposición` | Tiempo entre entregar y recibir |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que el precio se importa y la liquidez no. Un registro puede mostrar el precio del mercado mayorista y no tener detrás la profundidad que ese precio supone, y la diferencia aparece al ejecutar.
 
 ```text
 DE DÓNDE VIENE EL PRECIO
@@ -231,6 +235,8 @@ REGLA PRÁCTICA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el impacto real de una operación en un registro con profundidad limitada. La diferencia con el precio importado es el coste que nadie cotizó.
 
 **Situación.** Una tesorería tiene que cambiar 3 000 000 de la moneda A a la
 moneda B. Compara el mayorista con un cambio en registro.
@@ -402,6 +408,8 @@ básicos, y ese dato no estaba en ninguna comparación comercial.
 
 ## 🧭 Perspectivas
 
+El cambio de divisa en registro afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un precio de cambio | Si acepta |
@@ -417,6 +425,8 @@ básicos, y ese dato no estaba en ninguna comparación comercial.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un tipo de mercado y ejecuta contra una profundidad menor. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El precio es el mismo» | Más margen, diferencial, entrada y salida | 21, clase 11 |
@@ -424,6 +434,8 @@ básicos, y ese dato no estaba en ninguna comparación comercial.
 | «Es más moderno» | Compite en topología, no en precio | 21, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de profundidad y de ventana de exposición. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -436,6 +448,8 @@ básicos, y ese dato no estaba en ninguna comparación comercial.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir el impacto de operaciones de distinto tamaño sobre una profundidad dada. El tramo oculto es el resultado.
+
 En [`labs/lab-07.md`](../labs/lab-07.md):
 
 1. Calcula el coste total en ambos mundos, con los seis tramos.
@@ -444,6 +458,8 @@ En [`labs/lab-07.md`](../labs/lab-07.md):
 4. Identifica el mecanismo de formación de precio de un caso real.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen ejecuciones peores que el precio mostrado. La causa es la profundidad no medida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

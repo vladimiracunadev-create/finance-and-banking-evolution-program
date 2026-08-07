@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los eventos corporativos y su fecha; los cuatro siguientes, los casos difíciles y el final del instrumento. El **embargo** es el evento que ningún diseño automatiza bien: una orden judicial exige inmovilizar sin transferir, y eso no es un pago programado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `evento corporativo` | Hecho que altera el instrumento o sus derechos |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `destrucción` | Retirada definitiva del instrumento del registro |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la emisión se prueba y el ciclo de vida se improvisa. Un instrumento vive años y durante esos años hay pagos, opciones, embargos y amortizaciones, y casi todos los diseños se detienen en la emisión.
 
 ```text
 TRES FAMILIAS DE EVENTOS
@@ -235,6 +239,8 @@ ORDEN CORRECTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo procesa varios eventos corporativos sobre el mismo instrumento, incluido un embargo. Conviene fijarse en el evento con opción: exige recoger la decisión de cada tenedor en un plazo.
 
 **Situación.** Un bono tokenizado de 30 000 000 paga cupón semestral del 6,4 %
 anual. Hay que ejecutar el segundo cupón, con incidencias.
@@ -405,6 +411,8 @@ ciclo de vida se improvisa**, y es en el ciclo de vida donde vive el riesgo.
 
 ## 🧭 Perspectivas
 
+El ciclo de vida afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un cupón que llega o no | Si reclama |
@@ -420,6 +428,8 @@ ciclo de vida se improvisa**, y es en el ciclo de vida donde vive el riesgo.
 
 ## 🏦 Del cliente al banco
 
+El tenedor espera cobrar un cupón y el sistema tiene que ejecutar un evento con fecha de corte. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «No me llegó el cupón» | Cuenta bloqueada, con reintento programado | 21, clase 5 |
@@ -427,6 +437,8 @@ ciclo de vida se improvisa**, y es en el ciclo de vida donde vive el riesgo.
 | «Es automático, no falla» | Falla si el emisor no aprovisiona | 21, clase 5 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de eventos no previstos y de reintentos. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -439,6 +451,8 @@ ciclo de vida se improvisa**, y es en el ciclo de vida donde vive el riesgo.
 
 ## 🧪 Práctica
 
+El laboratorio pide procesar un año de eventos corporativos. El embargo y el evento con opción son los que deciden el ejercicio.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Implementa el pago de cupón con instantánea y verificación previa.
@@ -447,6 +461,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Ejecuta el vencimiento con destrucción solo de lo confirmado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen eventos mal procesados. La causa es haber diseñado solo la emisión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

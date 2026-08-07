@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las estructuras de custodia; los cuatro siguientes, la cadena y sus protecciones. La distinción entre **cuenta ómnibus y segregada** es la que decide en un concurso: en la primera los activos de los clientes están mezclados y probar cuál es de quién puede llevar años.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `custodia de valores` | Guarda y administración por cuenta del titular |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `no pignoración` | Compromiso de no usar el activo como garantía propia |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de custodia con eslabones que pueden quebrar. La tokenización no elimina la cadena: la reordena, y hay que saber en qué eslabón está el derecho del cliente en cada momento.
 
 ```text
 UNA CUSTODIA DE VALORES HACE DOS COSAS
@@ -228,6 +232,8 @@ LA COPIA DIARIA ES LA PIEZA CRÍTICA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara la posición del cliente en cuenta ómnibus y en segregada ante un concurso. La diferencia es entre recuperar el activo y ser acreedor ordinario.
 
 **Situación.** Un custodio institucional custodia bonos tokenizados por
 280 000 000 de 1 840 clientes. Hay que evaluar el modelo y su resiliencia.
@@ -415,6 +421,8 @@ de los problemas costaba 8 832 al año sobre 280 millones custodiados**.
 
 ## 🧭 Perspectivas
 
+La custodia de valores tokenizados afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un saldo en su aplicación | En quién confía |
@@ -430,6 +438,8 @@ de los problemas costaba 8 832 al año sobre 280 millones custodiados**.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que el valor es suyo y depende de la estructura de la cuenta. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El custodio tiene mis bonos» | Están en una posición global | 21, clase 9 |
@@ -437,6 +447,8 @@ de los problemas costaba 8 832 al año sobre 280 millones custodiados**.
 | «Si quiebra, me los devuelven» | Solo si está calificado como valor | 21, clase 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de segregación y de pignoración indebida. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -449,6 +461,8 @@ de los problemas costaba 8 832 al año sobre 280 millones custodiados**.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar una cadena de custodia y localizar dónde está el derecho del cliente. La cláusula de no pignoración es lo que hay que verificar.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Mide la independencia efectiva del esquema y redistribúyelo.
@@ -457,6 +471,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Escribe el plan de sustitución con sus seis elementos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen valores custodiados que no se recuperan. La causa es la cuenta ómnibus sin registro individualizado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

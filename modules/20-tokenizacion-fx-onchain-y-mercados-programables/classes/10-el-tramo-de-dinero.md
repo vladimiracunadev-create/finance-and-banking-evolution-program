@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las opciones de dinero y su riesgo; los cinco siguientes, su coste operativo. El **riesgo de emisor** es lo que separa las opciones: el dinero de banco central no tiene y el de banco comercial sí, y esa diferencia decide si la atomicidad elimina todo el riesgo o solo una parte.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dinero de banco central` | Pasivo del banco central, sin riesgo de crédito |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `saldo ocioso` | Fondos inmovilizados sin rendimiento |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la atomicidad solo alcanza a lo que está dentro del registro. Si el dinero está fuera, no hay atomicidad posible por mucho que el activo esté tokenizado, y esa restricción decide toda la arquitectura.
 
 ```text
 LAS CUATRO OPCIONES, DE MENOR A MAYOR RIESGO
@@ -241,6 +245,8 @@ COMERCIAL, que es lo que no se hace.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara las cuatro opciones de tramo de dinero por riesgo y por coste. La opción sin riesgo de emisor es la más cara en liquidez.
 
 **Situación.** Una plataforma decide con qué dinero liquidar. Hay que comparar
 las cuatro opciones con números.
@@ -412,6 +418,8 @@ costaba 801 864 al año y generaba 621 600.
 
 ## 🧭 Perspectivas
 
+El tramo de dinero afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Liquidación inmediata | — |
@@ -427,6 +435,8 @@ costaba 801 864 al año y generaba 621 600.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una liquidación y el banco eligió con qué dinero se liquida. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Liquida al instante» | Con 40 millones inmovilizados | 21, clase 10 |
@@ -434,6 +444,8 @@ costaba 801 864 al año y generaba 621 600.
 | «Funciona 24/7» | El dinero tiene horario | 21, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de emisor y de liquidez intradía. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -446,6 +458,8 @@ costaba 801 864 al año y generaba 621 600.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar las cuatro opciones y elegir con criterio. El coste de la prefinanciación es lo que decide.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Calcula el saldo prefinanciado con y sin neteo.
@@ -454,6 +468,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Dimensiona el saldo de reserva para operar fuera de horario.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen liquidaciones con riesgo no eliminado. La causa es el dinero fuera del registro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el registro y su patología; los cuatro siguientes, los mecanismos que la evitan. El **bloqueo de origen** es la solución estructural: mientras el activo está anotado en un registro, se inmoviliza en el otro, y así nunca hay dos versiones activas del mismo derecho.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `registro de referencia` | Aquel cuya versión prevalece en un conflicto |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `bloqueo de origen` | Inmovilizar en un registro lo emitido en el otro |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una regla simple: en todo momento un derecho tiene un solo registro que manda. Cuando dos registros pueden modificarse a la vez, la divergencia no es un fallo sino una certeza estadística.
 
 ```text
 TRES CONFIGURACIONES POSIBLES
@@ -241,6 +245,8 @@ COSTE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la ventana de divergencia de un sistema con dos registros. Conviene usar la distribución real de operaciones y no la media: quien opera mucho es quien produce la divergencia.
 
 **Situación.** Una plataforma tokeniza participaciones de un fondo. El registro
 oficial es el del administrador. Hay que dimensionar la conciliación y decidir la
@@ -416,6 +422,8 @@ resolución para los casos que vienen de fuera del sistema.
 
 ## 🧭 Perspectivas
 
+El registro de referencia afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un saldo en dos sitios | A cuál mira |
@@ -431,6 +439,8 @@ resolución para los casos que vienen de fuera del sistema.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un saldo y el banco sabe qué registro manda en él. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi saldo aparece en la aplicación» | Puede diferir del registro oficial | 21, clase 2 |
@@ -438,6 +448,8 @@ resolución para los casos que vienen de fuera del sistema.
 | «Es atómico» | Con un espejo, no puede serlo | 21, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de divergencia y de autoridad no definida. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -450,6 +462,8 @@ resolución para los casos que vienen de fuera del sistema.
 
 ## 🧪 Práctica
 
+El laboratorio pide decidir el registro de referencia de cada dato y calcular la ventana. El bloqueo de origen es la corrección que se evalúa.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Simula dos registros y provoca las seis causas de divergencia.
@@ -458,6 +472,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Mide el coste anual de la configuración espejo y del bloqueo de origen.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen divergencias entre registros. La causa es la ausencia de bloqueo de origen.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

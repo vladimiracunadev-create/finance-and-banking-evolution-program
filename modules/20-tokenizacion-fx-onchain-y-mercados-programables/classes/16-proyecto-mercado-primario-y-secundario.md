@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el expediente y sus exigencias; los cuatro siguientes, la prueba y el cierre. La **promesa verificable** es el criterio que ordena el proyecto: cada beneficio que el diseño promete tiene que ir con la medición que lo demuestra o retirarse.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `expediente de diseño` | Conjunto de decisiones con su justificación medida |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `condición de cierre` | Hecho que obliga a detener la operación |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un diseño que se compara con la alternativa que ya existe. La tokenización de un mercado se justifica si mejora algo medible frente a la infraestructura actual, y esa comparación es el entregable central.
 
 ```text
 LAS DOCE DECISIONES DEL EXPEDIENTE
@@ -232,6 +236,8 @@ HONESTA ES NO HACERLO.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el mercado diseñado con su alternativa no tokenizada en coste, plazo y riesgo. En algunas dimensiones gana la alternativa, y decirlo es parte del proyecto.
 
 **Situación.** Se diseña el mercado de un bono corporativo tokenizado de
 40 000 000 a 3 años. Recorremos el expediente hasta la recomendación.
@@ -412,6 +418,8 @@ que hubieran entrado con 1 000.
 
 ## 🧭 Perspectivas
 
+El proyecto afecta a todos los participantes de las quince clases anteriores. La tabla los reúne.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un folleto con cinco promesas | Si invierte |
@@ -427,6 +435,8 @@ que hubieran entrado con 1 000.
 
 ## 🏦 Del cliente al banco
 
+El inversionista opera en un mercado y el diseño decide sus derechos y su liquidez. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Puedo entrar con 1 000» | Con 1 000 rinde menos que sin riesgo | 21, clase 16 |
@@ -434,6 +444,8 @@ que hubieran entrado con 1 000.
 | «Sin intermediarios» | Ninguno era prescindible | 21, clase 16 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del proyecto reúnen los de toda la parte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -446,10 +458,14 @@ que hubieran entrado con 1 000.
 
 ## 🧪 Práctica
 
+El laboratorio es el proyecto completo. Las promesas retiradas por no poder medirse son lo que más credibilidad da.
+
 En [`project/README.md`](../project/README.md) se desarrolla el expediente
 completo. Aquí se cierra el ensamblaje y se ensaya la defensa.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa. Casi todos se evitan midiendo cada promesa antes de escribirla.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

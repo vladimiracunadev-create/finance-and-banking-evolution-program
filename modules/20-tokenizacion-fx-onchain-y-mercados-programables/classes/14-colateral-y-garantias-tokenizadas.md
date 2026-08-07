@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el colateral y sus márgenes; los cuatro siguientes, su ejecución y su movilidad. La **cascada** es el riesgo que la automatización amplifica: si las llamadas de margen se ejecutan automáticamente, una caída de precio produce ventas que producen más caída.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `colateral` | Activo entregado en garantía de una obligación |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `movilidad del colateral` | Capacidad de moverlo donde hace falta |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la velocidad no es gratis. Un colateral tokenizado se puede reclamar y ejecutar en minutos, y eso reduce el riesgo de contraparte y aumenta el riesgo de cascada. Las dos cosas ocurren a la vez.
 
 ```text
 QUÉ APORTA DE VERDAD LA TOKENIZACIÓN AQUÍ
@@ -231,6 +235,8 @@ infragarantizadas mientras dura.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo simula una cascada de llamadas de margen ante una caída de precio. Conviene comparar con un ciclo de margen diario: la automatización amplifica.
 
 **Situación.** Una plataforma acepta bonos tokenizados como colateral de
 préstamos. Hay que fijar el recorte y comprobar si el diseño de margen resiste.
@@ -433,6 +439,8 @@ eficaz —liquidar solo lo necesario— no toca ningún parámetro de riesgo.
 
 ## 🧭 Perspectivas
 
+El colateral tokenizado afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una llamada de margen | Si aporta o es liquidado |
@@ -448,6 +456,8 @@ eficaz —liquidar solo lo necesario— no toca ningún parámetro de riesgo.
 
 ## 🏦 Del cliente al banco
 
+El cliente entrega garantía y el sistema puede ejecutarla en minutos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me liquidaron entero» | Bastaba vender el 33 % | 21, clase 14 |
@@ -455,6 +465,8 @@ eficaz —liquidar solo lo necesario— no toca ningún parámetro de riesgo.
 | «Cayó un 12 % y perdí todo» | La cascada añadió otro 12 % | 21, clase 14 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de cascada y de recorte mal calibrado. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -467,6 +479,8 @@ eficaz —liquidar solo lo necesario— no toca ningún parámetro de riesgo.
 
 ## 🧪 Práctica
 
+El laboratorio pide simular una cascada y calibrar los mecanismos que la contienen. El recorte y el retardo son las dos palancas.
+
 En [`labs/lab-08.md`](../labs/lab-08.md):
 
 1. Calcula el recorte con volatilidad, impacto y coste de operación.
@@ -475,6 +489,8 @@ En [`labs/lab-08.md`](../labs/lab-08.md):
 4. Aplica las cuatro correcciones y vuelve a medirlo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen liquidaciones en cascada. La causa es la automatización sin mecanismos de contención.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las barreras que el fraccionamiento pretende bajar; los cinco siguientes, su economía y sus consecuencias. El **acceso sin salida** es el problema que crea: bajar el importe mínimo incorpora tenedores que después no encuentran a quién vender.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `fraccionamiento` | División del instrumento en unidades menores |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `divulgación adaptada` | Información comprensible para el destinatario |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que hay dos barreras y el fraccionamiento solo baja una. La de importe se resuelve dividiendo; la de idoneidad es regulatoria y no se resuelve así. Y bajar la primera sin resolver la liquidez produce tenedores atrapados.
 
 ```text
 TRES BARRERAS, Y EL FRACCIONAMIENTO
@@ -230,6 +234,8 @@ LO ACOMPAÑA, Y ES LO QUE LA MAYORÍA LEERÁ.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la rentabilidad neta de un tenedor pequeño tras el coste unitario de servicio. Por debajo de cierto importe, el instrumento no rinde nada para quien lo tiene.
 
 **Situación.** Una emisión de crédito privado tokenizado baja el mínimo de
 50 000 a 500. Hay que evaluar si el acceso es real.
@@ -411,6 +417,8 @@ importe de equilibrio era 2 250, y estaba a un cálculo de distancia.
 
 ## 🧭 Perspectivas
 
+El fraccionamiento afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Acceso desde 500 | Si invierte sus ahorros |
@@ -425,6 +433,8 @@ importe de equilibrio era 2 250, y estaba a un cálculo de distancia.
 
 ## 🏦 Del cliente al banco
 
+El cliente accede a un instrumento que antes no podía comprar y puede quedar atrapado en él. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Rinde un 9,2 %» | Neta para él, un 3,3 % | 21, clase 7 |
@@ -432,6 +442,8 @@ importe de equilibrio era 2 250, y estaba a un cálculo de distancia.
 | «Puedo salir cuando quiera» | En el 40,7 % de los días | 21, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de acceso sin salida y de rentabilidad neta negativa. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -444,6 +456,8 @@ importe de equilibrio era 2 250, y estaba a un cálculo de distancia.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el importe mínimo por debajo del cual el instrumento no rinde. Esa cifra es el mínimo defendible.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Calcula la rentabilidad neta por tamaño de inversión.
@@ -452,6 +466,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Redacta la página de divulgación adaptada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen inversores pequeños atrapados. La causa es haber bajado el importe sin resolver la salida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

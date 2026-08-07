@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los mecanismos de conexión; los cuatro siguientes, su seguridad y su alternativa. El **umbral efectivo** es la medida que decide la seguridad de un enlace: de nada sirve un esquema de muchos validadores si comparten operador o jurisdicción.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `interoperabilidad` | Capacidad de operar entre infraestructuras distintas |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `libro unificado` | Un solo registro con dinero y activos |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que conectar dos registros no los unifica: crea un tercer punto de fallo que hereda lo peor de los dos. Por eso la alternativa de un libro unificado siempre hay que ponerla sobre la mesa.
 
 ```text
 LA PARADOJA DE ESTA PARTE
@@ -225,6 +229,8 @@ VUELVE AQUÍ CON OTRA FORMA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide el umbral efectivo de un enlace y lo compara con su umbral declarado. La diferencia suele ser grande.
 
 **Situación.** Un mercado tiene tres infraestructuras tokenizadas. Hay que
 decidir cómo conectarlas.
@@ -407,6 +413,8 @@ todos.
 
 ## 🧭 Perspectivas
 
+La interoperabilidad afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Operaciones que cruzan sistemas | — |
@@ -422,6 +430,8 @@ todos.
 
 ## 🏦 Del cliente al banco
 
+El cliente mueve un activo entre infraestructuras y depende de un mecanismo con su propio riesgo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Está todo conectado» | Por un puente con umbral efectivo bajo | 21, clase 15 |
@@ -429,6 +439,8 @@ todos.
 | «Hay mucha liquidez» | Repartida entre tres infraestructuras | 21, clase 15 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son del mecanismo de enlace y de la fragmentación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -441,6 +453,8 @@ todos.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir el umbral efectivo de varios enlaces. Los factores compartidos entre validadores son lo que hay que contar.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Compara los cuatro modelos con el volumen por par.
@@ -449,6 +463,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Cuantifica el coste de la fragmentación sobre la profundidad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen fallos en enlaces. La causa es el umbral efectivo menor que el declarado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

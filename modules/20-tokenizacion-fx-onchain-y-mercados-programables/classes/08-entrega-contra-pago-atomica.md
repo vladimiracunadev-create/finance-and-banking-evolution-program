@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el mecanismo y su propiedad; los cuatro siguientes, sus modos de liquidación y sus fallos. El **estado intermedio** es lo que la atomicidad elimina: si en algún momento observable uno tiene el activo y el otro no tiene el dinero, no hay atomicidad por mucho que la operación termine bien.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `entrega contra pago` | Que la entrega ocurra si y solo si ocurre el pago |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `fallo parcial` | Un tramo se ejecuta y el otro no |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un todo o nada verificable: la prueba de que un mecanismo es atómico no es que funcione, es que no exista ningún instante en el que un tramo esté hecho y el otro no.
 
 ```text
 LOS TRES MODELOS DE ENTREGA CONTRA PAGO
@@ -239,6 +243,8 @@ QUÉ HAY QUE PROBAR
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo somete un liquidador a las pruebas de atomicidad, incluida la del registro detenido. Esa última es la que casi nadie escribe y la que más se activa.
+
 **Situación.** Una plataforma liquida 2 400 operaciones diarias de bonos
 tokenizados. Hay que calcular qué riesgo elimina la atomicidad y cuánto vale.
 
@@ -381,6 +387,8 @@ en riesgo de emisor.
 
 ## 🧭 Perspectivas
 
+La entrega contra pago afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Liquidación el mismo día | — |
@@ -396,6 +404,8 @@ en riesgo de emisor.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una operación y el banco elimina o no el riesgo de principal. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Liquida al instante» | Y exige mucho más saldo disponible | 21, clase 8 |
@@ -403,6 +413,8 @@ en riesgo de emisor.
 | «Es dinero, es igual» | Si no es de banco central, hay emisor | 21, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos residuales son de reemplazo y de fallo parcial. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -415,6 +427,8 @@ en riesgo de emisor.
 
 ## 🧪 Práctica
 
+El laboratorio pide probar la atomicidad de un liquidador con sus cinco modos de fallo. La prueba del registro detenido es la que decide.
+
 En [`labs/lab-03.md`](../labs/lab-03.md) y
 [`labs/lab-04.md`](../labs/lab-04.md):
 
@@ -424,6 +438,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md) y
 4. Calcula el ahorro neto con bruto y con neteo, y el coste del fallo del ciclo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones con estado intermedio. La causa es bloquear antes de verificar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
