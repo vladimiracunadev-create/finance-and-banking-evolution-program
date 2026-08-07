@@ -6,8 +6,8 @@
 **Las 352 clases en el teléfono, sin conexión y sin telemetría: el APK no declara permiso de red.**
 
 [![clases](https://img.shields.io/badge/clases-352%20embebidas-7c5cff?style=flat-square)](../SYLLABUS.md)
-[![permiso de red](https://img.shields.io/badge/INTERNET-no%20declarado-2e8b57?style=flat-square)](app/src/main/AndroidManifest.xml)
-[![mínimo](https://img.shields.io/badge/Android-7.0%20o%20superior-3ddc84?style=flat-square)](app/build.gradle.kts)
+[![permiso de red](https://img.shields.io/badge/INTERNET-no%20declarado-2e8b57?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/mobile/app/src/main/AndroidManifest.xml)
+[![mínimo](https://img.shields.io/badge/Android-7.0%20o%20superior-3ddc84?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/mobile/app/build.gradle.kts)
 
 [🏠 Inicio](../README.md) ·
 [💻 Aplicación de Windows](../desktop/README.md) ·
@@ -27,7 +27,7 @@ No es un navegador ni un cliente de nada. No descarga contenido, no pide cuenta 
 
 ## 🔐 Por qué no declara permiso de red
 
-El [manifiesto](app/src/main/AndroidManifest.xml) **no incluye `android.permission.INTERNET`**. Es una decisión, no un olvido: sin ese permiso el sistema operativo impide cualquier conexión, así que «esta aplicación no envía datos» deja de ser una promesa y pasa a ser algo que se puede comprobar desde los ajustes del teléfono.
+El [manifiesto](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/mobile/app/src/main/AndroidManifest.xml) **no incluye `android.permission.INTERNET`**. Es una decisión, no un olvido: sin ese permiso el sistema operativo impide cualquier conexión, así que «esta aplicación no envía datos» deja de ser una promesa y pasa a ser algo que se puede comprobar desde los ajustes del teléfono.
 
 La consecuencia es que un enlace externo —una fuente oficial, el repositorio— se abre en el navegador del sistema, que sí tiene red.
 
@@ -71,7 +71,7 @@ cd mobile && gradle assembleRelease
 
 El APK queda en `app/build/outputs/apk/release/`.
 
-> El flujo [`apps.yml`](../.github/workflows/apps.yml) hace exactamente esto y, antes de publicar, **abre el APK y cuenta las clases que hay dentro**: un artefacto que compila puede instalarse vacío si el contenido nunca llegó a empaquetarse.
+> El flujo [`apps.yml`](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/apps.yml) hace exactamente esto y, antes de publicar, **abre el APK y cuenta las clases que hay dentro**: un artefacto que compila puede instalarse vacío si el contenido nunca llegó a empaquetarse.
 
 <!-- pie:inicio -->
 ---

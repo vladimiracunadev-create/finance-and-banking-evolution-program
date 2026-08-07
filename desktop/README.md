@@ -7,7 +7,7 @@
 
 [![clases](https://img.shields.io/badge/clases-352%20embebidas-7c5cff?style=flat-square)](../SYLLABUS.md)
 [![formato](https://img.shields.io/badge/formato-portable%20(.zip)-1f6feb?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
-[![motor](https://img.shields.io/badge/PySide6-QtWebEngine-41cd52?style=flat-square)](requirements.txt)
+[![motor](https://img.shields.io/badge/PySide6-QtWebEngine-41cd52?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/desktop/requirements.txt)
 
 [🏠 Inicio](../README.md) ·
 [📱 Aplicación de Android](../mobile/README.md) ·
@@ -35,7 +35,7 @@ Verifica la descarga con el `SHA256SUMS.txt` del release:
 sha256sum -c SHA256SUMS.txt --ignore-missing
 ```
 
-> Windows SmartScreen avisará de un ejecutable sin firmar. El binario se compila en el flujo público [`apps.yml`](../.github/workflows/apps.yml) y su suma de verificación se publica con el release; la firma con certificado quedará para cuando haya uno.
+> Windows SmartScreen avisará de un ejecutable sin firmar. El binario se compila en el flujo público [`apps.yml`](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/apps.yml) y su suma de verificación se publica con el release; la firma con certificado quedará para cuando haya uno.
 
 ## ⌨️ Atajos
 
