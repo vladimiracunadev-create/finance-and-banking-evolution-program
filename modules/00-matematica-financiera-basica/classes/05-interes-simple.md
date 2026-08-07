@@ -23,6 +23,8 @@ operaciones de corto plazo, mora, papeles comerciales y descuento de documentos.
 importa menos por su uso directo que porque establece la base de comparación contra la cual el
 interés compuesto de la clase 6 se vuelve comprensible.
 
+Hasta aquí el programa ha trabajado con cantidades y con cambios entre periodos, pero sin poner precio al tiempo. Esta clase pone ese precio por primera vez, y con él aparece la idea que sostiene todo lo demás: el dinero cuesta, y cuesta en proporción al tiempo que se retiene. Conviene entrar sabiendo que el interés simple es la excepción y no la regla en el crédito; se estudia primero porque es la línea recta contra la cual se mide la curva.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -57,6 +59,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Las cinco primeras entradas son las variables de una sola fórmula y sus relaciones; las dos últimas son convenciones de contrato que no aparecen en ninguna fórmula y deciden cuánto se cobra de verdad. El **plazo** es donde ocurre el ochenta por ciento de los errores de esta clase, porque exige compartir unidad con la tasa y nadie lo comprueba.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capital (C)` | Monto sobre el que se calcula el interés. En interés simple **nunca cambia**: siempre es el capital inicial. |
@@ -85,6 +89,8 @@ invertir bien o mal cabe en esa frase.
 ## 📖 Desarrollo
 
 ### 1. La fórmula y sus cuatro despejes
+
+La fórmula del interés simple tiene cuatro variables, y en la práctica se conoce cualquier combinación de tres. Por eso no se aprende una fórmula sino cuatro despejes de la misma, que es lo que recoge el esquema siguiente.
 
 ```text
 I = C · i · n            interés
@@ -166,6 +172,8 @@ la Parte 15, clase 3, agrega para formar el margen financiero.
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo siguiente se resuelve paso a paso y sin saltarse ninguno, incluidos los que parecen obvios. El paso que parece obvio es precisamente donde vive el error caro de esta clase.
+
 **Situación.** Una pyme entrega a su banco una factura por 8 400 000 con vencimiento en 72 días. El
 banco la descuenta a una tasa de 14,4 % anual, base 360, y cobra además una comisión fija de 35 000.
 ¿Cuánto recibe la pyme y cuál es su costo real anualizado?
@@ -204,6 +212,8 @@ la razón de ser de la clase 13 de la Parte 3 y del concepto de carga anual equi
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un recargo o un adelanto; el banco ve una colocación con su base de días. La tabla enfrenta las dos lecturas de cuatro operaciones cotidianas, y la última fila es la que más dinero mueve y la única que el cliente no ve.
+
 | Operación | Vista del cliente | Vista del banco |
 |---|---|---|
 | Descuento de factura | "Me adelantan la plata" | Colocación de corto plazo con interés cobrado por anticipado |
@@ -213,6 +223,8 @@ la razón de ser de la clase 13 de la Parte 3 y del concepto de carga anual equi
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular lo mismo cambiando solo la base de días. Es un ejercicio deliberadamente aburrido y su objetivo es que la brecha deje de ser una abstracción: al tabularla en pesos sobre cinco operaciones, la cláusula de la base pasa a ser algo que se negocia y no un detalle técnico.
+
 En `labs/lab-03.md`:
 
 1. Calcula el interés de cinco operaciones cambiando solo la base (360 y 365) y tabula la brecha.
@@ -221,6 +233,8 @@ En `labs/lab-03.md`:
 4. Construye la tabla de devengo diario de una colocación durante un mes y verifica el total.
 
 ## ⚠️ Errores frecuentes
+
+Los seis síntomas de la tabla se reconocen sin recalcular. Los tres primeros vienen de unidades y bases; los tres últimos, de aplicar interés simple donde no corresponde o de capitalizar donde la norma lo prohíbe, que es un problema legal antes que aritmético.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

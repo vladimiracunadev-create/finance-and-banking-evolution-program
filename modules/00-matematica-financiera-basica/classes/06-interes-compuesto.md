@@ -22,6 +22,8 @@ intereses**. Esta clase es la bisagra del programa. Quien la domina puede leer u
 hipotecario, evaluar un fondo, entender por qué la inflación destruye ahorro y por qué una deuda de
 tarjeta se vuelve inmanejable. Quien no la domina hará todo lo demás de memoria.
 
+La clase anterior estableció que el interés simple crece en línea recta porque el interés cobrado nunca vuelve a la base. Esta cambia esa única regla —el interés se suma al capital— y con ese cambio mínimo aparece el mecanismo que explica el ahorro a largo plazo, el crédito de consumo y las deudas que no terminan. Toda la diferencia cabe en esa frase, y el resto de la clase la demuestra con números.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Las tres primeras entradas describen el mecanismo y las tres últimas sus consecuencias. La **frecuencia de capitalización** es la que se omite con más frecuencia en las cotizaciones y la que hace que dos tasas nominalmente iguales cobren distinto; la simetría del daño es la que explica por qué el mismo mecanismo que construye patrimonio destruye a quien debe.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capitalización` | Momento en que el interés se suma al capital y empieza a generar interés por sí mismo. Es un **evento con fecha**, no una abstracción. |
@@ -84,6 +88,8 @@ multiplicador, no la tasa.
 ## 📖 Desarrollo
 
 ### 1. La fórmula y sus despejes
+
+La fórmula del monto compuesto se despeja igual que la del simple, pero con logaritmos cuando lo que se busca es el plazo. Conviene tener los cuatro despejes juntos antes de usarlos.
 
 ```text
 M = C (1 + i)^n
@@ -137,6 +143,8 @@ Parte 7, clase 1. Nótese también que el efecto **converge**: entre diaria y co
 
 ### 4. La regla del 72 y el control mental
 
+Hay una aproximación que permite estimar de cabeza cuánto tarda un capital en duplicarse, y su utilidad no es ahorrar una calculadora: es detectar en el acto un resultado imposible. El esquema siguiente la recoge junto con su margen de error.
+
 ```text
 periodos para duplicar ≈ 72 / tasa en %
 ```
@@ -168,6 +176,8 @@ interés compuesto no es bueno ni malo: es un multiplicador que amplifica la pos
 estás. La Parte 4, clase 10, desarrolla este caso completo.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo se resuelve paso a paso. Conviene seguir la columna del saldo con atención, porque la diferencia con el interés simple no aparece en los primeros periodos y por eso se subestima siempre.
 
 **Situación.** Andrés tiene 3 500 000 y dos alternativas: un depósito a 24 meses al 7,2 % nominal
 anual con capitalización mensual, o un fondo que promete 8,0 % efectivo anual. Además quiere saber
@@ -219,6 +229,8 @@ Parte 8, clase 8, formaliza esa asimetría.
 
 ## 🏦 Del cliente al banco
 
+El cliente percibe un rendimiento o una cuota; el banco percibe una base que crece sola. La tabla enfrenta las dos lecturas, y la fila de la deuda revolvente es la que produce más daño real en finanzas de personas.
+
 | Concepto | En tu vida | En el banco |
 |---|---|---|
 | Capitalización mensual | "Los intereses se suman cada mes" | Devengo diario, capitalización en fecha de corte, asiento contable |
@@ -228,6 +240,8 @@ Parte 8, clase 8, formaliza esa asimetría.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir la misma serie con y sin capitalización y medir la brecha en el tiempo. El punto del ejercicio es visual antes que numérico: la brecha es despreciable durante los primeros periodos y por eso las decisiones que la producen se toman sin darle importancia.
+
 En `labs/lab-03.md`, sección de capitalización:
 
 1. Construye la tabla simple vs. compuesto para 1, 5, 10, 20 y 30 años con tres tasas distintas.
@@ -236,6 +250,8 @@ En `labs/lab-03.md`, sección de capitalización:
 4. Simula la deuda de tarjeta con pago mínimo durante 36 meses y grafica el saldo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de esta tabla suelen aparecer tarde, cuando el efecto ya es grande. Las causas, en cambio, están todas en el primer periodo: una frecuencia mal leída, una tasa nominal tratada como efectiva o un pago mínimo que no cubre el interés devengado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

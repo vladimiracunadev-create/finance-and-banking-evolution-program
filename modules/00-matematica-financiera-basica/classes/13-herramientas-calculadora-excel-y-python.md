@@ -22,6 +22,8 @@ obtenerse con los mismos datos no sirve para decidir ni para auditar. Esta clase
 herramientas del oficio, cuándo usar cada una, y —lo más importante— cómo dejar por escrito los
 supuestos para que otra persona llegue al mismo número.
 
+Las doce clases anteriores resolvieron a mano para entender el mecanismo. Esta decide con qué herramienta se resuelve cuando el cálculo se repite, cambian los datos o el resultado tiene que sostenerse ante otra persona. La elección no es de gusto: depende de cuántas veces se va a ejecutar y de quién tiene que poder verificarlo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son criterios de método y los tres últimos, prácticas concretas. La **separación entre supuesto y cálculo** es la que decide si un trabajo se puede auditar: una planilla en la que los números están escritos dentro de las fórmulas no es verificable por nadie, ni siquiera por quien la hizo tres meses después.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -157,6 +161,8 @@ python apps/financial_calculators/cli.py loan --principal 5000000 --annual-rate 
 
 ### 4. Pruebas: el control que la planilla no tiene
 
+Una planilla puede estar mal y parecer bien indefinidamente, porque nada comprueba sus resultados. Una prueba automática sí lo hace, y el ejemplo siguiente muestra la forma mínima que tiene: un caso resuelto a mano en una clase anterior, comparado con lo que devuelve la función.
+
 ```python
 def test_cuota_conocida():
     # Caso verificado a mano en la clase 11
@@ -195,6 +201,8 @@ Limitación:    no incluye seguros ni comisión de apertura
 Sin la línea "Limitación", el documento afirma más de lo que calculó.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo resuelve el mismo cálculo con las tres herramientas para que la comparación sea sobre resultados idénticos. Lo que cambia entre ellas no es el número: es cuánto cuesta repetirlo y cuánto cuesta que otra persona lo verifique.
 
 **Situación.** Debes entregar a un comité la comparación de tres ofertas de crédito por 4 500 000 a
 24 meses, y el comité pedirá reproducir tus números.
@@ -243,6 +251,8 @@ oportunidad del pie").
 
 ## 🏦 Del cliente al banco
 
+El cliente usa una calculadora y el banco necesita reproducibilidad. La tabla enfrenta las dos lecturas y muestra por qué una entidad no puede sostener decisiones sobre cálculos que solo existen en la planilla de una persona.
+
 | Nivel | Herramienta habitual | Exigencia de control |
 |---|---|---|
 | Persona | Calculadora o planilla simple | Guardar los supuestos |
@@ -252,6 +262,8 @@ oportunidad del pie").
 
 ## 🧪 Práctica
 
+El laboratorio pide resolver el mismo caso en las tres herramientas y comparar no los resultados sino el esfuerzo de reproducirlos. Es el ejercicio que justifica el trabajo aparentemente excesivo de escribir pruebas para un cálculo que ya salió bien.
+
 En `labs/lab-06.md`, sección de herramientas:
 
 1. Resuelve la misma cuota en las tres herramientas y verifica que coincidan al peso.
@@ -260,6 +272,8 @@ En `labs/lab-06.md`, sección de herramientas:
 4. Redacta la hoja de supuestos completa de uno de tus cálculos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de esta tabla aparecen semanas después de hacer el trabajo, cuando alguien pide reproducirlo. Las causas están todas en el momento de construirlo: supuestos incrustados, versiones sin control o resultados sin caso de prueba.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

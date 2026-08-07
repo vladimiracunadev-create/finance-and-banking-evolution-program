@@ -22,6 +22,8 @@ Separar dos preguntas que suelen mezclarse: *¿cuánto dinero tengo?* y *¿cuán
 quieto. Esta clase enseña a calcular en términos reales, a leer una tasa real negativa y a entender
 por qué existen las unidades indexadas como la UF, la UVR o la UDI.
 
+Las dos clases anteriores calcularon cuánto crece un capital. Esta pregunta si ese crecimiento significa algo. Un saldo que aumenta un cinco por ciento mientras los precios suben un siete es un saldo que perdió, y esa resta —que es la operación más simple del programa— es la que separa contar pesos de contar capacidad de compra.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Las cuatro primeras entradas separan lo que se cuenta en pesos de lo que se cuenta en canastas, y las tres últimas son las herramientas y los riesgos que aparecen cuando esa separación se ignora. La **tasa real** es el concepto que hay que interiorizar: es la única que responde a la pregunta de si se ganó o se perdió.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `inflación (π)` | Variación porcentual sostenida del nivel general de precios, medida por un índice de precios al consumidor. No es "que todo suba"; es el promedio ponderado de una canasta definida. |
@@ -82,6 +86,8 @@ serio declara si sus cifras son nominales o reales, y a qué fecha están expres
 
 ### 1. Pérdida de poder adquisitivo
 
+Antes de comparar tasas conviene ver el efecto sobre un monto quieto, que no rinde nada. Un capital guardado bajo el colchón no baja de valor nominal y sí baja de valor real, y la fórmula siguiente es la que cuantifica exactamente cuánto.
+
 ```text
 poder adquisitivo futuro = monto / (1 + π)^n
 ```
@@ -100,6 +106,8 @@ Nadie te quitó el dinero. Simplemente compra un cuarto de lo que compraba. Y co
 —no excepcional en América Latina— la pérdida a 10 años es del 61 %.
 
 ### 2. La ecuación de Fisher
+
+La relación entre tasa nominal, tasa real e inflación tiene una forma exacta y una aproximación que se usa a diario. Conviene conocer las dos y, sobre todo, saber cuándo la aproximación deja de servir, que es cuando la inflación es alta.
 
 ```text
 exacta         r = (1 + n)/(1 + π) − 1
@@ -218,6 +226,8 @@ gratis, y esa es la conversación honesta.
 
 ## 🏦 Del cliente al banco
 
+El cliente mira su saldo y el banco mira el margen real de la captación. La tabla enfrenta las dos lecturas y muestra por qué una tasa que parece generosa puede estar por debajo de la inflación sin que el titular se entere.
+
 | Situación | Lectura ingenua | Lectura profesional |
 |---|---|---|
 | "Mi depósito rindió 6 %" | Ganancia | Tasa real de 1,4 %; el resto compensó inflación |
@@ -227,6 +237,8 @@ gratis, y esa es la conversación honesta.
 
 ## 🧪 Práctica
 
+El laboratorio pide deflactar series y calcular tasas reales en escenarios donde la nominal es positiva y la real es negativa. Es el ejercicio que más cambia la intuición de quien empieza, porque produce el resultado incómodo de que un depósito que paga intereses puede estar perdiendo dinero.
+
 En `labs/lab-04.md`:
 
 1. Calcula la pérdida de poder adquisitivo de un monto a 5, 10, 20 y 30 años con tres escenarios de inflación.
@@ -235,6 +247,8 @@ En `labs/lab-04.md`:
 4. Proyecta dos metas personales a valor futuro y determina el aporte mensual necesario.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla comparten la misma raíz: se compararon pesos de momentos distintos como si fueran la misma unidad. La corrección casi siempre consiste en deflactar antes de comparar, no en rehacer el cálculo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

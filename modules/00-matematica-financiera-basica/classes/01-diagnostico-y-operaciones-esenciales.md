@@ -23,6 +23,8 @@ mayoría de los errores caros en finanzas no son errores de álgebra avanzada; s
 aplicado sobre la base equivocada, una tasa mensual sumada a una anual, o un signo perdido al pasar
 de "me deben" a "debo". Esta clase entrena la disciplina que evita esos tres.
 
+Esta es la primera clase del programa y no supone nada anterior. Empieza por el diagnóstico porque el resto de las trescientas cincuenta y una clases se apoyan en operaciones que casi todo el mundo cree dominar, y que casi nadie ejecuta con la disciplina que exige el dinero de otra persona. No es una clase de repaso: es la que instala el hábito de verificar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los seis términos que siguen no son definiciones de diccionario, son los que hacen que un número financiero signifique algo. Un número solo no dice nada: `1 250 000` puede ser un ingreso o un cargo, de hoy o de dentro de un año. El que concentra más errores en todo el programa es la **convención de signo**, porque se omite tan a menudo que se vuelve invisible.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -192,6 +196,8 @@ son las clases 5, 7 y 2 de la Parte 2.
 
 ## 🏦 Del cliente al banco
 
+La misma operación se ve de dos maneras según de qué lado del mostrador se esté, y las dos son correctas. Esta sección aparece en las trescientas cincuenta y dos clases del programa por una razón: el salto de cliente a profesional consiste, casi entero, en aprender a ver la segunda columna sin dejar de entender la primera.
+
 | En la vida personal | En una mesa de trabajo bancaria |
 |---|---|
 | "Me queda plata a fin de mes" | Excedente mensual documentado con respaldo de ingresos |
@@ -204,6 +210,8 @@ la matemática: está en que debe poder **demostrar** de dónde salió cada núm
 
 ## 🧪 Práctica
 
+La práctica no repite el ejemplo guiado con otros números. Comprueba otra cosa: que el hábito de verificar aguanta cuando nadie está mirando el resultado. Los ejercicios del laboratorio están diseñados para que un descuido de signo o de unidad produzca un número plausible, no uno absurdo, que es exactamente como se cuelan los errores caros.
+
 Trabaja el `labs/lab-01.md` con estos requisitos mínimos:
 
 1. Construye tu propia tabla de magnitudes con unidad, periodicidad y signo (mínimo 8 líneas).
@@ -212,6 +220,8 @@ Trabaja el `labs/lab-01.md` con estos requisitos mínimos:
 4. Repite el ejercicio truncando en lugar de redondear y cuantifica la diferencia a 12 meses.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se lee de izquierda a derecha, pero se usa al revés. Cuando un resultado no cuadra, se busca el **síntoma** en la primera columna y desde ahí se llega a la causa, en vez de revisar el cálculo entero desde el principio. Casi todos los errores de esta clase producen síntomas reconocibles, y reconocerlos ahorra más tiempo que recalcular.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

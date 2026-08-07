@@ -22,6 +22,8 @@ desarrollo**. Aquí se ve, línea por línea, cuánto de cada cuota paga interé
 deuda. Es también la clase donde se descubre por qué las primeras cuotas casi no bajan el saldo, y
 por qué prepagar temprano tiene un efecto desproporcionado.
 
+Con el valor presente y el valor futuro ya instalados, esta clase resuelve el problema que los junta y que aparece en casi todo crédito: repartir una deuda en pagos iguales. La cuota no es la deuda dividida por el número de periodos, y entender por qué no lo es explica de una vez la estructura de cualquier crédito hipotecario, de consumo o comercial.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos describen la anatomía de una cuota y los dos últimos, lo que ocurre cuando esa anatomía se altera. El **saldo insoluto** es el que hay que seguir con la vista: es sobre él, y no sobre el capital original, sobre el que se calcula el interés de cada periodo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cuota` | Pago periódico total. En el sistema francés es constante; su **composición** cambia cada periodo. |
@@ -82,6 +86,8 @@ verificar línea por línea.
 
 ### 1. La fórmula de la cuota (sistema francés)
 
+La fórmula de la cuota sale de igualar el valor presente de todos los pagos al capital prestado, que es exactamente lo que hizo la clase 9. No hay nada nuevo: hay un despeje.
+
 ```text
         i (1+i)^n              i
 A = P ------------- = P ----------------
@@ -103,6 +109,8 @@ A = 5 000 000 × 0,024298 / 0,675737 = 121 490 / 0,675737 = 179 787
 intereses (29,4 % del capital).
 
 ### 2. La tabla de desarrollo
+
+La tabla de desarrollo es donde el crédito deja de ser una fórmula y pasa a ser algo que se puede auditar. Conviene leerla columna a columna la primera vez, porque cada una responde a una pregunta distinta y su orden no es arbitrario.
 
 | Cuota | Saldo inicial | Cuota | Interés | Amortización | Saldo final |
 |---:|---:|---:|---:|---:|---:|
@@ -226,6 +234,8 @@ formaliza como carga anual equivalente.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una cuota y el banco ve un flujo descontado. La tabla enfrenta las dos lecturas, y la fila del prepago es la que más discusiones produce en la práctica.
+
 | Elemento | Cliente | Banco |
 |---|---|---|
 | Tabla de desarrollo | Papel que se archiva | Documento contractual, base contable y de auditoría |
@@ -235,6 +245,8 @@ formaliza como carga anual equivalente.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir la tabla completa y luego auditar una ajena que contiene un error. Detectar el error sin recalcularla entera es la habilidad que se persigue, y es la que sirve frente a un crédito real.
+
 En `labs/lab-06.md`:
 
 1. Construye la tabla de desarrollo completa de un crédito propio o sintético en planilla o Python.
@@ -243,6 +255,8 @@ En `labs/lab-06.md`:
 4. Compara las modalidades reducción de plazo y reducción de cuota sobre el mismo prepago.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se detectan casi todos con los cinco controles de la sección anterior. El más frecuente y el más caro es el que hace que el saldo no cierre en cero, porque suele indicar que el interés se calculó sobre una base equivocada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

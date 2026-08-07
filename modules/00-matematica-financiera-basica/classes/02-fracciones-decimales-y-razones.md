@@ -22,6 +22,8 @@ cada una engaña. Un banco no dice "la mitad": dice `0,5`, `50 %`, `1:1` o `50 p
 contexto, y cada forma tiene un lector distinto y un riesgo distinto de malinterpretación. Esta clase
 también instala la unidad que domina la banca profesional: el **punto base**.
 
+La clase anterior dejó instalado que un número financiero necesita magnitud, momento y signo para significar algo. Esta añade la cuarta pregunta, que es de qué es ese número: la misma cantidad expresada como fracción, decimal, porcentaje o razón dice cosas distintas, y confundirlas produce errores que no parecen errores porque el número resultante es perfectamente creíble.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -57,6 +59,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Las cuatro primeras entradas son formas de decir lo mismo, y por eso se confunden. Las dos últimas —el punto base y el ratio— existen precisamente para evitar esa confusión en contextos donde equivocarse cuesta dinero. El término que hay que tener claro antes de seguir es **razón**, porque es el único que compara dos partes entre sí en vez de comparar una parte con el todo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `fracción` | Parte sobre todo: `3/4`. Útil para razonar, incómoda para operar en cadena. |
@@ -82,6 +86,8 @@ en uno de 75 % en el mismo párrafo, y eso ocurre en informes reales.
 ## 📖 Desarrollo
 
 ### 1. Las cuatro formas y sus conversiones
+
+Las conversiones no se memorizan: se deducen de qué representa cada forma. El esquema siguiente recoge las cuatro direcciones que se usan a diario, y conviene leerlo entero antes de aplicarlo, porque el error habitual no está en la operación sino en no darse cuenta de que hacía falta convertir.
 
 ```text
 fracción → decimal      dividir:            3/8 = 0,375
@@ -127,6 +133,8 @@ crédito se construye sumando puntos base sobre una tasa base; sin esta unidad e
 imposible.
 
 ### 4. Decimales periódicos y precisión declarada
+
+Hay fracciones que no tienen representación decimal exacta, y el ordenador tampoco la tiene: la corta en algún punto sin avisar. Los dos ejemplos siguientes son los que más aparecen en cálculos financieros, y sirven para entender por qué la precisión se declara en vez de dejarse al azar de la herramienta.
 
 ```text
 1/3 = 0,333...   2/7 = 0,285714285714...
@@ -185,6 +193,8 @@ frase es inmune a la confusión; "la tasa subió 0,65 %" no lo es.
 
 ## 🏦 Del cliente al banco
 
+Un cliente piensa en porcentajes y una mesa de dinero piensa en puntos base. No es un capricho de jerga: son unidades distintas porque las decisiones que sostienen tienen escalas distintas. La tabla enfrenta las dos lecturas de las mismas magnitudes.
+
 | Expresión coloquial | Expresión profesional | Por qué importa |
 |---|---|---|
 | "Subió un poquito la tasa" | "+65 pb sobre la tasa base" | Permite fijar precio y comparar entre productos |
@@ -193,6 +203,8 @@ frase es inmune a la confusión; "la tasa subió 0,65 %" no lo es.
 | "Repartimos en tres cuotas iguales" | "Dos cuotas de 333 333,33 y cuota de ajuste de 333 333,34" | Evita descuadres de centavos en la contabilidad |
 
 ## 🧪 Práctica
+
+Los ejercicios del laboratorio obligan a convertir en las cuatro direcciones sobre datos que no avisan de en qué unidad vienen, que es como llegan en la vida real. Si una conversión sale mal, el resultado seguirá teniendo una pinta razonable: por eso cada ejercicio pide además la verificación por un segundo camino.
 
 En `labs/lab-01.md`, sección de proporciones:
 
@@ -203,6 +215,8 @@ En `labs/lab-01.md`, sección de proporciones:
 4. Reparte 1 000 000 en 7 partes iguales y aplica la cuota de ajuste.
 
 ## ⚠️ Errores frecuentes
+
+Cada fila enfrenta un síntoma con su causa. Conviene fijarse en que casi ninguno de estos errores produce un número imposible; producen números creíbles, que es lo que los hace peligrosos y lo que obliga a verificar aunque el resultado parezca correcto.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

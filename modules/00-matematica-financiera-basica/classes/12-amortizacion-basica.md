@@ -22,6 +22,8 @@ americano— y entender que **no hay uno mejor**: hay uno adecuado según el flu
 paga. Esta clase entrega el criterio para elegir y el vocabulario para discutirlo con un ejecutivo
 de banco sin quedar en desventaja.
 
+La clase anterior construyó la cuota del sistema francés y su tabla de desarrollo. Esta muestra que ese sistema es una elección entre varias, no la única forma de amortizar, y que la elección cambia cuánto se paga en total. Es la primera vez en el programa en que el mismo capital, la misma tasa y el mismo plazo producen costos distintos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son sistemas de amortización y los tres últimos son variantes que se les añaden. La **amortización negativa** es la que hay que saber reconocer antes que ninguna: es la única situación en la que se paga puntualmente y la deuda crece, y su detección es un control de consumo financiero, no un cálculo.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -116,6 +120,8 @@ A = 6 000 000 × 0,012 × (1,012)^12 / ((1,012)^12 − 1) = 540 234
 
 ### 2. Comparación
 
+Los tres sistemas se comparan mejor sobre el mismo crédito que en abstracto. La tabla siguiente enfrenta la primera cuota, la última y el interés total, que son las tres cifras que decide cada sistema.
+
 | Sistema | Primera cuota | Última cuota | Interés total | Sobrecosto vs. alemán |
 |---|---:|---:|---:|---:|
 | Alemán | 572 000 | 506 000 | 468 000 | — |
@@ -160,6 +166,8 @@ la Parte 4, clase 10, la usa como indicador de alerta temprana.
 
 ### 5. Cómo elegir
 
+La elección del sistema no depende de cuál cobra menos intereses, sino de qué perfil de pago soporta el deudor. La tabla relaciona las dos cosas.
+
 | Perfil del deudor | Sistema recomendable | Motivo |
 |---|---|---|
 | Ingreso estable, prioriza predecibilidad | Francés | Cuota constante, fácil de presupuestar |
@@ -168,6 +176,8 @@ la Parte 4, clase 10, la usa como indicador de alerta temprana.
 | Ingreso variable o estacional | Cuotas ajustadas al ciclo | Evita mora en meses bajos |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara los tres sistemas sobre el mismo crédito, paso a paso. Conviene resistir la tentación de saltar a la fila del total: la diferencia entre sistemas se explica en las primeras cuotas y solo se ve siguiéndolas.
 
 **Situación.** Una pyme agrícola necesita 20 000 000 para una plantación que empieza a generar
 ingresos al mes 10. El banco ofrece 1,1 % mensual a 24 meses en tres estructuras.
@@ -225,6 +235,8 @@ el error que la Parte 11, clase 4, enseña a no cometer.
 
 ## 🏦 Del cliente al banco
 
+El cliente compara cuotas y el banco compara duración e ingreso financiero. La tabla enfrenta las dos lecturas de la misma decisión de amortización.
+
 | Sistema | Dónde lo verás como cliente | Dónde lo verás como bancario |
 |---|---|---|
 | Francés | Consumo, automotriz, hipotecario | Producto estándar de la cartera minorista |
@@ -234,6 +246,8 @@ el error que la Parte 11, clase 4, enseña a no cometer.
 
 ## 🧪 Práctica
 
+El laboratorio pide amortizar el mismo capital por los tres sistemas y tabular el sobrecosto. El objetivo es llegar a la conclusión incómoda de que el sistema más barato en intereses no es el recomendable para todos los perfiles.
+
 En `labs/lab-06.md`, sección de sistemas:
 
 1. Construye las tres tablas para un mismo crédito y grafica las cuotas.
@@ -242,6 +256,8 @@ En `labs/lab-06.md`, sección de sistemas:
 4. Construye un caso de amortización negativa y determina en qué cuota el saldo empieza a crecer.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a créditos que se comportan de forma inesperada. En casi todos, la causa es un periodo de gracia mal entendido o una cuota que no alcanza a cubrir el interés devengado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

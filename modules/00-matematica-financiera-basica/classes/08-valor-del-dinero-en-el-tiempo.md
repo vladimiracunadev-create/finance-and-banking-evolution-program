@@ -22,6 +22,8 @@ y por lo tanto sumar cantidades ubicadas en momentos distintos es matemáticamen
 clase entrega la herramienta que hace comparables flujos de distintas fechas —el eje de tiempo y la
 tasa de descuento— y prepara las clases 9 y 10, que son su aplicación mecánica.
 
+Las clases 5 a 7 dieron las tres piezas —el precio del tiempo, la capitalización y la pérdida de poder adquisitivo—. Esta las junta en un solo principio y en una sola herramienta. El principio es que dos cantidades en momentos distintos no se pueden sumar; la herramienta es el eje de tiempo, que a partir de aquí se usa en todo el programa hasta la última clase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son de método y los cuatro últimos de operación. La **fecha focal** es la que más resistencia genera, porque parece un tecnicismo y es lo que hace comparable una decisión: mientras no se elige un momento al que traer todos los flujos, cualquier comparación entre alternativas es aritmética sin sentido.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor temporal del dinero` | Principio: el mismo monto tiene valores distintos según cuándo ocurra. Tres causas: costo de oportunidad, inflación y riesgo. |
@@ -82,6 +86,8 @@ con pesos sin convertir.
 
 ### 1. Las tres razones
 
+El dinero vale distinto en momentos distintos por tres razones independientes, y conviene separarlas porque cada una responde a un problema diferente. La tabla las enfrenta con lo que ocurriría si esa razón desapareciera, que es la forma más rápida de entender qué aporta cada una.
+
 | Razón | Qué dice | Qué pasa si desaparece |
 |---|---|---|
 | **Costo de oportunidad** | El peso de hoy puede invertirse y producir | Si no hubiera alternativas de inversión, la tasa sería 0 |
@@ -92,6 +98,8 @@ La tasa de descuento incorpora las tres. Cuando en la Parte 13, clase 6, calcule
 capital, estarás poniendo un número a cada una de estas tres líneas.
 
 ### 2. El eje de tiempo
+
+El eje de tiempo es la herramienta central de todo lo que queda de programa, y su valor está en obligar a declarar dos cosas que se suelen dar por supuestas: desde qué punto de vista se mira la operación y con qué tasa se mueve el dinero.
 
 ```text
 punto de vista: el inversionista · tasa 10 % anual
@@ -109,6 +117,8 @@ Reglas del eje que evitan la mayoría de los errores:
 4. Los periodos son de igual duración; si no lo son, se subdivide.
 
 ### 3. Mover flujos
+
+Solo hay dos movimientos posibles sobre el eje y son inversos entre sí. Todo el resto de las finanzas —valoración, crédito, proyectos, instrumentos— es alguna combinación de estos dos.
 
 ```text
 hacia el futuro (capitalizar)     F = P (1+i)^n
@@ -164,6 +174,8 @@ Regla práctica: **si no puedes nombrar la alternativa concreta que la tasa repr
 inventada**. Y una tasa inventada convierte cualquier evaluación en una opinión con decimales.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo se resuelve moviendo cada flujo por separado hasta la fecha focal. Conviene no adelantar la suma: sumar antes de traer todos los flujos al mismo momento es exactamente el error que la clase persigue.
 
 **Situación.** A Sofía le ofrecen vender su motocicleta con tres formas de pago. Su alternativa real
 es un depósito que rinde 0,55 % mensual (6,8 % efectivo anual).
@@ -223,6 +235,8 @@ opciones; el riesgo decide (Parte 11, clase 2).
 
 ## 🏦 Del cliente al banco
 
+El cliente compara cifras y el banco compara valores presentes. La tabla enfrenta las dos lecturas y muestra por qué una oferta que parece mejor en pesos totales puede ser peor una vez traída al mismo momento.
+
 | Decisión cotidiana | Mecanismo | Dónde se profundiza |
 |---|---|---|
 | ¿Contado o en cuotas sin interés? | Comparar valores actuales; "sin interés" rara vez lo es | Parte 3, clase 13 |
@@ -232,6 +246,8 @@ opciones; el riesgo decide (Parte 11, clase 2).
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar alternativas cuyos flujos totales son iguales y cuyos calendarios no lo son. La respuesta intuitiva —que valen lo mismo— es la equivocada, y comprobarlo con el eje de tiempo es lo que instala el principio de esta clase.
+
 En `labs/lab-04.md`, sección de equivalencia:
 
 1. Dibuja el eje de tiempo de tres alternativas de pago reales y resuélvelas en dos fechas focales.
@@ -240,6 +256,8 @@ En `labs/lab-04.md`, sección de equivalencia:
 4. Calcula la tasa de indiferencia entre dos opciones (aquella que las iguala).
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se reconocen porque producen comparaciones que no cuadran con la intuición financiera. La causa suele ser una sola: se sumaron cantidades de momentos distintos sin traerlas antes a una fecha común.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

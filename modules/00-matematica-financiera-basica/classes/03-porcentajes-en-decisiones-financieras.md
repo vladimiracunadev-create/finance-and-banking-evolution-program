@@ -23,6 +23,8 @@ como si se sumaran, y se confunde "descontar 20 %" con "recuperar 20 %". Esta cl
 reglas que impiden esos errores y muestra por qué un aumento del 10 % seguido de una caída del 10 %
 no devuelve al punto de partida.
 
+Con las cuatro formas de expresar una cantidad ya distinguidas, esta clase se concentra en la que más decisiones sostiene y peor se maneja. El porcentaje parece elemental y no lo es: depende de una base que casi nunca se declara, no se suma cuando se encadena y no es simétrico. Las tres cosas se usan a diario contra el cliente.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los seis términos giran alrededor de uno solo: la **base**. Sin base declarada, un porcentaje es una afirmación incompleta, y las cinco entradas restantes describen lo que ocurre cuando esa base cambia o se pierde de vista. La asimetría de la caída es la que produce más sorpresa, y se demuestra con dos multiplicaciones.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -193,6 +197,8 @@ Parte 3.
 
 ## 🏦 Del cliente al banco
 
+El cliente lee un porcentaje y el banco lee una base. La tabla enfrenta las dos lecturas de las mismas cifras, y en cada fila lo que cambia no es el número sino sobre qué se calcula.
+
 | Situación | Lectura del cliente | Lectura del banco |
 |---|---|---|
 | "30 % + 20 % adicional" | 50 % de rebaja | Factor 0,56 aplicado al precio de lista |
@@ -202,6 +208,8 @@ Parte 3.
 
 ## 🧪 Práctica
 
+El laboratorio pide encadenar descuentos, recuperar bases e identificar asimetrías sobre casos donde la respuesta intuitiva es la equivocada. No es un ejercicio de cálculo: los números son fáciles. Es un ejercicio de detectar cuál es la base antes de operar.
+
 En `labs/lab-02.md`:
 
 1. Construye una tabla de factores para diez operaciones porcentuales reales de tu vida.
@@ -210,6 +218,8 @@ En `labs/lab-02.md`:
 4. Resuelve tres casos de porcentaje inverso con verificación completa.
 
 ## ⚠️ Errores frecuentes
+
+Los cinco síntomas de la tabla comparten una misma raíz: se aplicó un porcentaje sobre una base distinta de la que correspondía. Reconocer el síntoma lleva directamente a la base equivocada, que es más rápido que revisar la aritmética.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ aparecen los tres instrumentos con los que se lee cualquier informe económico o
 **variación mes contra mes**, la **variación de doce meses** y el **número índice**. También se
 introduce la media geométrica, que es la única forma correcta de promediar crecimientos.
 
+La clase anterior dejó claro que un porcentaje sin base no significa nada. Esta lleva la misma idea a las series de tiempo, donde la base es un periodo y elegir cuál cambia por completo la historia que cuentan los mismos datos. Es el paso de calcular un porcentaje a interpretar una serie, que es lo que hace un analista.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Las tres primeras entradas son formas de medir el cambio y responden a preguntas distintas; elegir la equivocada no da un error de cálculo, da una conclusión equivocada. Las cuatro restantes son las herramientas que hacen comparables series que no lo son de entrada. La **media geométrica** es la que más se omite y la única correcta para promediar crecimientos.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -145,6 +149,8 @@ volátil rinde menos de lo que su promedio simple sugiere.
 
 ### 4. Nominal y real: deflactar
 
+Comparar cifras de años distintos sin corregir por inflación es comparar unidades diferentes con el mismo nombre. Deflactar es la operación que las vuelve comparables, y son dos fórmulas que conviene tener a mano porque se usan en todo el resto del programa.
+
 ```text
 valor real = valor nominal × (índice base / índice del periodo)
 crecimiento real ≈ (1 + nominal) / (1 + inflación) − 1
@@ -208,6 +214,8 @@ el capital de trabajo de la Parte 13, clase 2.
 
 ## 🏦 Del cliente al banco
 
+Un cliente mira cuánto subió su saldo y un banco mira contra qué base lo compara. La tabla enfrenta las dos lecturas, y en todas las filas la diferencia está en el periodo elegido como referencia.
+
 | Uso cotidiano | Uso bancario | Dónde aparece en el programa |
 |---|---|---|
 | "Los precios subieron" | Variación IPC 12 meses, dato oficial del instituto de estadística | Parte 6, clase 6 |
@@ -216,6 +224,8 @@ el capital de trabajo de la Parte 13, clase 2.
 | "Las colocaciones crecen" | Serie indexada base 100 con desestacionalización | Parte 15, clase 5 |
 
 ## 🧪 Práctica
+
+El laboratorio entrega series reales de estructura —no de datos reales de personas— y pide medir el mismo cambio de tres maneras. El objetivo no es practicar la resta: es comprobar que las tres respuestas son correctas y cuentan historias distintas, y decidir cuál corresponde a la pregunta que se hizo.
 
 En `labs/lab-02.md`, sección de series:
 
@@ -226,6 +236,8 @@ En `labs/lab-02.md`, sección de series:
 5. Deflacta la serie con una inflación supuesta de 4,0 % anual.
 
 ## ⚠️ Errores frecuentes
+
+Las filas siguientes describen conclusiones equivocadas obtenidas con aritmética correcta, que es la forma más difícil de detectar un error. El síntoma suele ser una cifra que no encaja con lo que se observa; la causa, casi siempre, es la base temporal.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

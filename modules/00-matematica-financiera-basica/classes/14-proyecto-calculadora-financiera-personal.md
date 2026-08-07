@@ -22,6 +22,8 @@ financiera personal que resuelva los cálculos que una persona necesita de verda
 razonamiento**, no solo el resultado. Este proyecto es el primer entregable serio del portafolio y el
 modelo de todos los proyectos posteriores.
 
+Esta clase cierra la parte y no introduce ningún tema nuevo. Reúne las trece anteriores en una herramienta que funciona, se prueba y se puede defender ante alguien que pregunte de dónde sale cada número. Es la primera vez en el programa en que el entregable no es un cálculo sino algo que otra persona podría usar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cinco términos son de proyecto, no de finanzas, y aparecen aquí porque a partir de esta clase todo entregable del programa los exige. El **alcance declarado** es el más importante y el que más se omite: una herramienta que no dice qué no hace se usará para lo que no debe.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -101,6 +105,8 @@ Requisitos transversales obligatorios:
 - Al menos una prueba por función.
 
 ### 2. Arquitectura sugerida
+
+La separación entre las funciones de cálculo y la interfaz no es una preferencia estética. Es lo que permite probar el cálculo sin ejecutar la interfaz, y es la razón por la que el esquema siguiente pone las dos cosas en archivos distintos.
 
 ```text
 apps/financial_calculators/
@@ -183,6 +189,8 @@ Ninguna calculadora de este nivel cubre lo siguiente, y omitirlo sería afirmar 
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo recorre la construcción completa de un caso, de los requisitos a la validación. Conviene seguirlo en ese orden aunque la tentación sea empezar por el código: los requisitos son los que deciden qué hay que probar.
+
 **Situación de defensa.** Presentas la calculadora y el revisor pregunta: *"¿Por qué tu tasa implícita
 usa bisección y no Newton-Raphson, que converge más rápido?"*
 
@@ -206,6 +214,8 @@ robustez, proporcionalidad al problema y auditabilidad.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere una respuesta y el banco necesita poder auditarla. La tabla enfrenta las dos lecturas de la misma herramienta.
+
 | Tu calculadora | Equivalente en producción |
 |---|---|
 | `fixed_payment()` | Motor de cotización del simulador del banco |
@@ -224,6 +234,8 @@ Este proyecto **es** la práctica. Trabaja en `project/README.md` de esta parte.
 4. Prepara una defensa de tres minutos con dos decisiones de diseño justificadas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa del proyecto, no durante su construcción. Casi todos se evitan declarando los límites antes de empezar, en vez de descubrirlos cuando alguien pregunta.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

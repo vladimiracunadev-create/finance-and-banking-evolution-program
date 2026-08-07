@@ -22,6 +22,8 @@ El valor futuro es la operación inversa de la clase 9 y la herramienta con la q
 objetivo de ahorro. Aquí también aparece el hallazgo que más cambia conductas: en un plan de ahorro
 largo, **el aporte importa menos que el momento en que empiezas**.
 
+La clase anterior trajo flujos al presente. Esta hace el movimiento inverso, y sirve para responder la pregunta con la que llega casi todo el mundo a las finanzas personales: cuánto tendré, y cuánto tengo que aportar para llegar a una meta. Es la misma mecánica de la clase 8 aplicada a series de aportes en vez de a flujos sueltos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Las tres primeras entradas son la mecánica y las tres últimas son lo que la mecánica revela. El **costo de postergar** es el concepto que da sentido a toda la clase: no es una advertencia moral sobre el ahorro, es una cifra que se calcula y que casi siempre sorprende por su tamaño.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor futuro (VF)` | `VF = P(1+i)^n`. Lo que un capital llega a valer si se deja capitalizar. |
@@ -83,6 +87,8 @@ por qué la previsión (Parte 2, clase 12) se decide a los 25 años y no a los 5
 
 ### 1. Capital único
 
+Se empieza por el caso más simple, un solo capital que se deja crecer. Es la misma fórmula del interés compuesto de la clase 6, leída ahora desde la pregunta de la meta.
+
 ```text
 VF = P (1 + i)^n
 ```
@@ -98,6 +104,8 @@ nada. Control con la regla del 72: `72/6,5 = 11,1 años` para duplicar; a 12 añ
 encima del doble. ✔
 
 ### 2. Serie de aportes iguales
+
+Cuando en vez de un capital hay un aporte que se repite, cada aporte capitaliza durante un plazo distinto. La fórmula siguiente resume esa suma, y conviene ver de dónde sale antes de usarla.
 
 ```text
 VF = A · [((1+i)^n − 1) / i]
@@ -121,6 +129,8 @@ Nota crítica: la fórmula asume aportes al **final** de cada periodo. Si se apo
 ```
 
 ### 3. Aporte necesario para una meta
+
+Despejando la misma expresión se obtiene la pregunta que de verdad interesa: cuánto hay que aportar cada periodo para llegar a una cifra concreta.
 
 ```text
 A = VF · i / ((1+i)^n − 1)
@@ -213,6 +223,8 @@ Parte 2, clase 14.
 
 ## 🏦 Del cliente al banco
 
+El cliente pregunta cuánto tendré y el banco calcula cuánto capta y a qué costo. La tabla enfrenta las dos lecturas de las mismas operaciones de ahorro.
+
 | Uso personal | Equivalente profesional | Dónde aparece |
 |---|---|---|
 | Cuánto tendré en mi cuenta de ahorro | Proyección de captaciones de un producto | Parte 10, clase 2 |
@@ -222,6 +234,8 @@ Parte 2, clase 14.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el aporte necesario para una misma meta empezando en momentos distintos. La brecha entre empezar hoy y empezar en cinco años es el resultado que hace innecesario cualquier discurso sobre la importancia de ahorrar temprano.
+
 En `labs/lab-05.md`, sección de acumulación:
 
 1. Proyecta un capital único a 5, 10, 20 y 30 años separando aporte y rendimiento.
@@ -230,6 +244,8 @@ En `labs/lab-05.md`, sección de acumulación:
 4. Ajusta una meta por inflación y cuantifica el error de no hacerlo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla vienen casi siempre de mezclar la periodicidad del aporte con la de la tasa, o de olvidar que la meta está expresada en pesos de hoy y se alcanzará en pesos de mañana.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

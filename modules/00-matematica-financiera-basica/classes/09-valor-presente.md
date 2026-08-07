@@ -23,6 +23,8 @@ proyecto y toda evaluación de crédito es, en el fondo, un valor presente. Esta
 calcularlo, a leer su sensibilidad a la tasa y a reconocer cuándo el resultado depende más del
 supuesto que del cálculo.
 
+La clase anterior estableció que los flujos se mueven en el eje del tiempo y que hay dos direcciones. Esta se concentra en una sola —traer al presente— porque es la que sostiene toda decisión de inversión, todo precio de un instrumento y todo análisis de proyecto del resto del programa. Descontar es la operación más usada de las finanzas profesionales.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -57,6 +59,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la mecánica y los tres últimos son advertencias. La **sensibilidad a la tasa** es la que más consecuencias tiene en la práctica: dos analistas con el mismo flujo y tasas que difieren en dos puntos obtienen valoraciones que difieren en decenas de por ciento, y por eso la tasa se justifica en vez de elegirse.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor presente (VP)` | `VP = F / (1+i)^n`. Lo que hay que tener hoy, a la tasa `i`, para llegar a `F` en `n` periodos. |
@@ -85,6 +89,8 @@ que discutir la tasa cambia todo el resultado. Saber dónde está la palanca es 
 ## 📖 Desarrollo
 
 ### 1. Flujo único
+
+Todo lo demás de esta clase es una repetición de la operación siguiente. Conviene entenderla completa antes de encadenarla, porque el error en una serie es casi siempre un error en un solo término, repetido.
 
 ```text
 VP = F / (1 + i)^n
@@ -120,6 +126,8 @@ Lectura obligada de esta tabla: al 20 %, un peso del año 30 vale **cuatro milé
 promesa a treinta años con tasa alta es, financieramente, casi nada.
 
 ### 3. Serie de flujos
+
+Cuando los flujos son varios, el valor presente es simplemente la suma de los valores presentes de cada uno. La notación asusta más que la operación.
 
 ```text
 VP = Σ Fₜ / (1+i)^t
@@ -157,6 +165,8 @@ Parte 13, clase 7, valores una empresa, la tabla de sensibilidad será la parte 
 primero.
 
 ### 5. Precisión honesta
+
+Un valor presente lleva dentro una tasa estimada y unos flujos proyectados, y ninguna de las dos cosas se conoce con exactitud. Presentar el resultado con céntimos comunica una certeza que el cálculo no tiene, y el contraste siguiente muestra la alternativa.
 
 ```text
 ✗ "El proyecto vale 2 417 039,87"
@@ -220,6 +230,8 @@ efectivo anual). Si la pyme consigue rendimiento superior a 0,79 % mensual, conv
 
 ## 🏦 Del cliente al banco
 
+El cliente pregunta cuánto vale y el banco pregunta a qué tasa. La tabla enfrenta las dos lecturas, y en todas las filas lo que decide el resultado no es el flujo sino el descuento aplicado.
+
 | Aplicación | Quién la usa | Parte del programa |
 |---|---|---|
 | Precio de un bono | Mesa de dinero | Parte 8, clase 4 |
@@ -230,6 +242,8 @@ efectivo anual). Si la pyme consigue rendimiento superior a 0,79 % mensual, conv
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar el mismo contrato a varias tasas y tabular la dispersión. El objetivo no es practicar potencias: es que la sensibilidad deje de ser un concepto y pase a ser un rango de cifras que obliga a justificar la tasa antes de defender el resultado.
+
 En `labs/lab-05.md`:
 
 1. Construye tu propia tabla de factores de descuento para cuatro tasas y seis plazos.
@@ -238,6 +252,8 @@ En `labs/lab-05.md`:
 4. Resuelve una decisión real contado vs. cuotas con dos tasas de descuento distintas y explica el cambio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen sobre todo al comparar valoraciones ajenas. Casi todos se resuelven pidiendo dos datos que rara vez se declaran: qué tasa se usó y por qué.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
