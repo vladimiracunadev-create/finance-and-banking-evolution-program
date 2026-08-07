@@ -21,6 +21,8 @@ Diseñar el sistema de alerta temprana de un crédito. Un covenant no existe par
 existe para que el banco se entere de un deterioro **mientras todavía hay opciones**. Un crédito sin
 covenants es un crédito cuyo primer aviso es el impago.
 
+La estructura de la clase anterior se firma una vez y el crédito dura años. Esta clase trata el mecanismo que permite reaccionar durante esos años: los covenants no existen para castigar sino para abrir una conversación antes de que sea tarde, y calibrarlos mal los inutiliza en cualquiera de las dos direcciones.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tipos de covenant; los cinco siguientes, su calibración y la gestión de su incumplimiento. La **holgura** es la variable de diseño: la distancia entre el valor proyectado y el umbral pactado, y de ella depende que la alarma sirva.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `covenant financiero` | Indicador que debe mantenerse dentro de un límite. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `alerta temprana` | Señal de deterioro anterior al incumplimiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un sistema de alarma con umbral: demasiado apretado suena todo el tiempo y se ignora, demasiado holgado suena cuando ya no hay nada que hacer. La calibración correcta se hace sobre el escenario base con un margen medido.
 
 ```text
 LA FUNCIÓN REAL DE UN COVENANT
@@ -89,6 +95,8 @@ incumple el mismo trimestre en que el deudor deja de pagar no sirvió de nada.
 ## 📖 Desarrollo
 
 ### 1. Tipos
+
+Los covenants se agrupan en tres tipos con funciones distintas. La tabla los recoge.
 
 ```text
 FINANCIEROS — indicadores medibles
@@ -133,6 +141,8 @@ EL COVENANT MÁS IMPORTANTE ES AFIRMATIVO
 
 ### 2. Calibración
 
+La calibración se hace sobre la proyección con una holgura declarada. El procedimiento siguiente la fija.
+
 ```text
 UN COVENANT MAL CALIBRADO ES PEOR QUE NO TENERLO
 
@@ -170,6 +180,8 @@ EJEMPLO
 
 ### 3. Seguimiento
 
+El seguimiento tiene una frecuencia y un procedimiento de certificación. La tabla los recoge.
+
 ```text
 EL SEGUIMIENTO NO ES ESPERAR EL CERTIFICADO TRIMESTRAL
 
@@ -202,6 +214,8 @@ LAS SEÑALES CONDUCTUALES ANTICIPAN MÁS QUE LAS FINANCIERAS
 
 ### 4. Gestión del incumplimiento
 
+Un incumplimiento abre opciones y tiene plazos. La tabla las recoge.
+
 ```text
 CUANDO UN COVENANT SE INCUMPLE, EL BANCO TIENE OPCIONES
   Y LA PEOR ES NO HACER NADA
@@ -230,6 +244,8 @@ LA DISPENSA REPETIDA ES EL ERROR MÁS COSTOSO
 
 ### 5. Alerta temprana de cartera
 
+Los covenants de toda la cartera, leídos juntos, son un sistema de alerta temprana. El procedimiento lo construye.
+
 ```text
 SISTEMA DE CLASIFICACIÓN POR SEÑALES
 
@@ -245,6 +261,8 @@ Y PLAZOS DEFINIDOS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calibra un covenant financiero sobre una proyección. Conviene calcular la holgura en los dos escenarios: en el adverso el covenant tiene que sonar antes de que el crédito esté en peligro.
 
 **Situación.** El banco revisa el seguimiento de un crédito de tres años atrás.
 
@@ -428,6 +446,8 @@ solo mira covenants trimestrales está mirando la fuente más lenta de todas.
 
 ## 🏦 Del cliente al banco
 
+La empresa ve una restricción y el banco ve un mecanismo de conversación anticipada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco me exige indicadores» | Alerta temprana, no castigo | 13, clase 8 |
@@ -438,6 +458,8 @@ solo mira covenants trimestrales está mirando la fuente más lenta de todas.
 
 ## 🧪 Práctica
 
+El laboratorio pide calibrar tres covenants y evaluar un incumplimiento técnico. La decisión sobre la dispensa con su fundamento es lo que se evalúa.
+
 En `labs/lab-04.md`, sección de covenants:
 
 1. Calibra tres covenants financieros a partir de proyecciones base y adversa.
@@ -446,6 +468,8 @@ En `labs/lab-04.md`, sección de covenants:
 4. Diseña el sistema de alerta con señales, clasificación y acciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen covenants que no sirvieron. Las causas son calibración sin holgura medida y dispensas concedidas sin contrapartida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

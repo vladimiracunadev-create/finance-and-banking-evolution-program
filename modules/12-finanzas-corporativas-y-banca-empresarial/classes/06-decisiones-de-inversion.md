@@ -21,6 +21,8 @@ Evaluar si un proyecto crea o destruye valor. Es la decisión que el banco finan
 debe saber juzgar: un crédito que financia un proyecto de valor presente negativo tiene una fuente de
 pago que se está deteriorando desde el día uno.
 
+El costo de capital de la clase anterior es el umbral. Esta decide qué proyectos lo superan, aplicando lo de la Parte 7 al contexto de una empresa real, donde aparecen dos complicaciones: la canibalización de productos propios y el valor de poder esperar antes de decidir.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos deciden qué flujos entran; los cuatro siguientes son los criterios y su extensión. La **opción real** es la que más valor añade y menos se calcula: poder posponer, ampliar o abandonar un proyecto tiene un valor que los criterios clásicos ignoran.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `flujo incremental` | Diferencia entre hacer y no hacer el proyecto. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `opción real` | Flexibilidad de expandir, postergar o abandonar. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es la pregunta incremental: qué cambia en la empresa por hacer el proyecto. Todo lo que ocurriría igualmente queda fuera, y todo lo que deja de ocurrir por hacerlo entra con signo negativo.
 
 ```text
 LA ÚNICA PREGUNTA DE UNA DECISIÓN DE INVERSIÓN
@@ -87,6 +93,8 @@ TODO LO QUE CAMBIA ES RELEVANTE
 ## 📖 Desarrollo
 
 ### 1. Flujo incremental
+
+El flujo incremental incluye y excluye partidas concretas, y la canibalización es la que más se olvida. La tabla lo recoge.
 
 ```text
 CONSTRUCCIÓN
@@ -122,6 +130,8 @@ POR QUÉ NO SE INCLUYEN LOS INTERESES
 
 ### 2. Los criterios
 
+Los criterios de decisión son los de la Parte 7 y se usan juntos. La tabla los recoge con su umbral.
+
 | Criterio | Regla | Ventaja | Limitación |
 |---|---|---|---|
 | Valor presente neto | Aceptar si > 0 | Mide creación de valor en unidades monetarias | Requiere estimar la tasa |
@@ -156,6 +166,8 @@ TIR MÚLTIPLE
 
 ### 3. Sensibilidad y escenarios
 
+La decisión se acompaña de su sensibilidad a las variables críticas. La tabla recoge cómo presentarla.
+
 ```text
 ANÁLISIS DE SENSIBILIDAD
   ¿cuánto cambia el VPN si una variable cambia un 10 %?
@@ -176,6 +188,8 @@ SIMULACIÓN
 ```
 
 ### 4. Opciones reales
+
+Las opciones de posponer, ampliar y abandonar tienen valor y se pueden estimar. La tabla las recoge.
 
 ```text
 UN PROYECTO NO ES UNA DECISIÓN IRREVERSIBLE TOMADA HOY
@@ -202,6 +216,8 @@ POR QUÉ IMPORTAN
 el proyecto falla, y ese valor es exactamente la LGD de su crédito.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa un proyecto con canibalización y con opción de posponer. Las dos correcciones van en direcciones opuestas, y su efecto neto decide.
 
 **Situación.** Una empresa evalúa una planta nueva y solicita financiamiento.
 
@@ -378,6 +394,8 @@ administrativa: **es la forma de crear valor donde el análisis rígido solo ve 
 
 ## 🏦 Del cliente al banco
 
+La empresa presenta un proyecto y el banco evalúa si el flujo alcanza para servir la deuda. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Ya gasté en el estudio, hay que hacerlo» | Costo hundido, irrelevante | 13, clase 6 |
@@ -388,6 +406,8 @@ administrativa: **es la forma de crear valor donde el análisis rígido solo ve 
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar un proyecto con canibalización y valorar su opción de espera. Ignorar la canibalización cambia el signo del resultado.
+
 En `labs/lab-03.md`, sección de inversión:
 
 1. Construye el flujo incremental de un proyecto identificando qué entra y qué no.
@@ -396,6 +416,8 @@ En `labs/lab-03.md`, sección de inversión:
 4. Valora la opción de abandono y su efecto sobre la LGD del banco.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos aprobados que no rindieron. Las causas son canibalización ignorada y flujos no incrementales.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

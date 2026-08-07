@@ -21,6 +21,8 @@ Abrir la parte entendiendo en qué se diferencia atender a una empresa de atende
 una cuestión de tamaño: son ciclos, información, decisores y riesgos distintos, y confundirlos produce
 créditos mal estructurados y relaciones que no rinden.
 
+Aquí empieza la Etapa 4 y con ella la vista del comité. La Etapa 3 miró al banco por dentro; esta lo mira desde la dirección, y empieza por el cliente que más margen aporta y más difícil es de servir. Una empresa no pide crédito porque sí: lo pide porque su ciclo de conversión de efectivo tiene un hueco, y entender ese ciclo es lo que permite ofrecer el producto correcto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el ciclo y sus dos tipos de necesidad; los cinco siguientes, los modelos de relación y su medición. La distinción entre **necesidad estructural y estacional** es la que decide el producto: una necesidad permanente financiada con una línea de corto plazo es un problema que se descubre en la primera renovación.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ciclo de conversión de efectivo` | Días entre pagar a proveedores y cobrar a clientes. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `venta cruzada` | Colocación de productos adicionales al mismo cliente. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un ciclo con un hueco: la empresa paga a sus proveedores antes de cobrar a sus clientes, y ese desfase hay que financiarlo. El tamaño del hueco y su duración determinan qué producto corresponde, y por eso todo empieza midiendo el ciclo.
 
 ```text
 UNA PERSONA PIDE UN CRÉDITO PARA CONSUMIR
@@ -87,6 +93,8 @@ CONSECUENCIA
 ## 📖 Desarrollo
 
 ### 1. Ciclo de conversión de efectivo
+
+El ciclo se calcula con tres plazos y da el número de días que la empresa tiene que financiar. El procedimiento siguiente lo obtiene.
 
 ```text
 CICLO = días de inventario + días de cobro − días de pago
@@ -123,6 +131,8 @@ necesita financiamiento antes de ver un peso del aumento.
 
 ### 2. Necesidades por etapa
 
+Cada etapa del ciclo de vida de una empresa produce necesidades distintas. La tabla las relaciona con el producto que corresponde.
+
 | Etapa | Necesidad dominante | Productos |
 |---|---|---|
 | Inicio | Capital inicial, aval | Garantías estatales, capital semilla |
@@ -134,6 +144,8 @@ necesita financiamiento antes de ver un peso del aumento.
 | Dificultad | Liquidez y plazo | Reestructuración, refinanciamiento |
 
 ### 3. Segmentación
+
+Las empresas se segmentan por tamaño y por complejidad, y el modelo de atención cambia con el segmento. La tabla lo recoge.
 
 ```text
 CRITERIOS ÚTILES (más allá de las ventas anuales)
@@ -168,6 +180,8 @@ LA PARADOJA DEL SEGMENTO GRANDE
 
 ### 4. Decisores y relación
 
+En una empresa hay varios decisores con intereses distintos, y saber quién decide qué cambia la conversación. La tabla los recoge.
+
 ```text
 EN UNA PERSONA hay un decisor
 EN UNA EMPRESA hay varios, con intereses distintos
@@ -183,6 +197,8 @@ y quién decide qué
 ```
 
 ### 5. Rentabilidad integral
+
+Una relación empresarial se evalúa por el conjunto de productos y no por el crédito. El procedimiento siguiente la calcula.
 
 ```text
 RENTABILIDAD DE UNA RELACIÓN =
@@ -201,6 +217,8 @@ MEDIRLA POR PRODUCTO LLEVA A DECISIONES ERRÓNEAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el ciclo de conversión de efectivo de una empresa y determina su necesidad de financiamiento. Conviene separar la parte estructural de la estacional: son dos productos distintos.
 
 **Situación.** El banco evalúa la rentabilidad de dos clientes empresa aparentemente similares.
 
@@ -362,6 +380,8 @@ cliente valioso.
 
 ## 🏦 Del cliente al banco
 
+El empresario pide un crédito y el banco identifica qué hueco del ciclo lo produce. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Otro banco me ofrece mejor tasa» | Rentabilidad integral define la respuesta | 13, clase 1 |
@@ -372,6 +392,8 @@ cliente valioso.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el ciclo de tres empresas y determinar qué producto corresponde. Una de ellas pide corto plazo para una necesidad estructural.
+
 En `labs/lab-01.md`:
 
 1. Calcula el ciclo de conversión de efectivo de cinco empresas de sectores distintos.
@@ -380,6 +402,8 @@ En `labs/lab-01.md`:
 4. Calcula la rentabilidad integral de tres relaciones y compárala con el margen de crédito.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber financiado una necesidad estructural con un producto de corto plazo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

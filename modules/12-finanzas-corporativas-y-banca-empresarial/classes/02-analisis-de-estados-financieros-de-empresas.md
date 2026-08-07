@@ -21,6 +21,8 @@ Leer los estados financieros de una empresa como lo hace un analista de crédito
 de generar caja, la calidad de los activos y las señales de deterioro que los indicadores agregados
 esconden. La Parte 5 enseñó a construir los estados; esta clase enseña a interrogarlos.
 
+La Parte 5 enseñó a leer estados financieros. Esta los analiza con la desconfianza que exige el crédito: no se trata de entender qué dicen sino de detectar dónde podrían no estar diciendo la verdad. Y añade la comparación sectorial, que es lo único que convierte un ratio en información.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las técnicas; los cinco siguientes, las señales de manipulación y su contraste. Los **devengos discrecionales** son la medida operativa: la parte del resultado que no viene de la caja y que la administración puede ajustar con criterios.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `análisis vertical` | Cada partida como porcentaje de un total de referencia. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `comparación sectorial` | Contraste con empresas del mismo sector y tamaño. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un contraste permanente entre lo devengado y lo cobrado. Cuando el resultado crece más rápido que el flujo operativo de forma sostenida, algo en el reconocimiento está adelantando ingresos o retrasando gastos, y eso se puede medir.
 
 ```text
 TRES PREGUNTAS, EN ESTE ORDEN
@@ -86,6 +92,8 @@ está en un estado que muchos analistas revisan al final o no revisan.
 ## 📖 Desarrollo
 
 ### 1. Descomposición de la rentabilidad
+
+La rentabilidad se descompone en factores que se gestionan por separado. El procedimiento siguiente los separa.
 
 ```text
 RENTABILIDAD SOBRE PATRIMONIO (ROE)
@@ -113,6 +121,8 @@ LO QUE LA DESCOMPOSICIÓN REVELA
 
 ### 2. Calidad del resultado
 
+La calidad del resultado se mide comparándolo con el flujo operativo. El procedimiento la calcula.
+
 ```text
 INDICADOR CENTRAL
   flujo operativo / resultado neto
@@ -132,6 +142,8 @@ INDICADOR CENTRAL
 | Provisiones que se reducen | Liberación para sostener el resultado |
 
 ### 3. Señales de manipulación
+
+Ciertos patrones apuntan a reconocimiento agresivo o a gestión del resultado. La tabla los recoge con su comprobación.
 
 ```text
 LAS MÁS FRECUENTES Y CÓMO SE DETECTAN
@@ -167,6 +179,8 @@ una coincidencia.
 
 ### 4. Análisis vertical, horizontal y de tendencia
 
+Las tres lecturas responden a preguntas distintas sobre los mismos estados. La tabla las separa.
+
 ```text
 VERTICAL      cada partida sobre ventas (resultados)
               cada partida sobre activo total (balance)
@@ -193,6 +207,8 @@ LA REGLA DE COHERENCIA DEL CRECIMIENTO
 
 ### 5. Comparación sectorial
 
+Un ratio aislado no significa nada; comparado con el sector, sí. La tabla recoge cómo construir la comparación.
+
 | Indicador | Por qué comparar con el sector |
 |---|---|
 | Margen bruto | Depende del modelo de negocio del sector |
@@ -211,6 +227,8 @@ CUIDADO CON LOS PROMEDIOS SECTORIALES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo analiza los estados de una empresa y detecta un problema de calidad del resultado. Conviene seguir la brecha entre utilidad y flujo operativo a lo largo de tres años.
 
 **Situación.** Un analista evalúa a una empresa que solicita ampliar su línea de crédito.
 
@@ -421,6 +439,8 @@ explican todo lo demás**.
 
 ## 🏦 Del cliente al banco
 
+La empresa presenta buenos resultados y el banco comprueba si se convierten en caja. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi empresa nunca ganó tanto» | Resultado no recurrente y no convertido en caja | 13, clase 2 |
@@ -431,6 +451,8 @@ explican todo lo demás**.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar tres años de estados y detectar señales. Una de las señales es legítima y tiene explicación, y distinguirla es lo que se evalúa.
+
 En `labs/lab-01.md`, sección de análisis:
 
 1. Descompón el ROE de tres empresas y explica el origen de sus diferencias.
@@ -439,6 +461,8 @@ En `labs/lab-01.md`, sección de análisis:
 4. Ajusta el resultado por partidas no recurrentes y capitalizaciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis que no detectaron un deterioro. Las causas son ratios sin comparación sectorial y calidad del resultado no medida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Diseñar la operación de crédito completa: monto, plazo, moneda, calendario, g
 condiciones. Estructurar bien es lo que convierte una decisión de riesgo en un contrato que sobrevive a
 los escenarios que nadie previó.
 
+Las clases anteriores analizan a la empresa y a su proyecto. Esta construye la operación, que es donde el análisis se convierte en un contrato. Estructurar bien es lo que hace que un crédito a una empresa con riesgo sea aceptable, y hacerlo mal convierte una buena empresa en una mala operación.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las piezas de la estructura; los cuatro siguientes, la prelación y la sindicación. La **subordinación** es la herramienta que más flexibilidad da: permite acomodar acreedores con apetitos distintos sobre el mismo deudor.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `estructura` | Conjunto de condiciones que definen la operación. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `agente` | Banco que administra el crédito sindicado por cuenta de todos. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un conjunto de piezas que se ajustan entre sí: monto, plazo, calendario, garantías, prelación y precio. Aflojar una obliga a apretar otra, y una estructura donde todo es cómodo para el deudor es una estructura sin protección.
 
 ```text
 LOS ELEMENTOS DE UNA ESTRUCTURA NO SON INDEPENDIENTES
@@ -89,6 +95,8 @@ garantía, mantiene la ecuación de riesgo.
 
 ### 1. Los elementos
 
+Una estructura se compone de elementos que se deciden juntos. La tabla los recoge.
+
 | Elemento | Qué define | Determinado por |
 |---|---|---|
 | Monto | Exposición máxima | Necesidad real (clase 3) |
@@ -109,6 +117,8 @@ LA REGLA DE LA MONEDA
 ```
 
 ### 2. Garantías
+
+Las garantías corporativas tienen formas y eficacias distintas. La tabla las compara.
 
 ```text
 LAS GARANTÍAS NO REDUCEN LA PROBABILIDAD DE INCUMPLIMIENTO
@@ -145,6 +155,8 @@ justo cuando su dueño incumple
 
 ### 3. Calendario de amortización
 
+El calendario se ajusta al flujo del deudor, y de eso trató la Parte 7, clase 7. La tabla recoge las estructuras habituales.
+
 ```text
 PERFILES
 
@@ -173,6 +185,8 @@ EL PAGO ÚNICO AL FINAL ES EL PERFIL MÁS PELIGROSO
 ```
 
 ### 4. Precio
+
+El precio suma costo de fondos, pérdida esperada, costo de capital y margen. El procedimiento lo calcula.
 
 ```text
 TASA MÍNIMA (Parte 11, clase 14)
@@ -203,6 +217,8 @@ COMISIONES Y SU FUNCIÓN
 
 ### 5. Crédito sindicado
 
+Cuando el importe excede el apetito de un banco, varios comparten la operación con reglas propias. La tabla las recoge.
+
 ```text
 CUÁNDO SE SINDICA
   · el monto supera el límite de exposición individual del banco
@@ -228,6 +244,8 @@ DECISIONES QUE EL CONTRATO DEBE DEFINIR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo estructura una operación completa desde el análisis hasta el precio. Conviene comprobar la coherencia entre calendario y flujo proyectado: es donde fallan la mayoría de las estructuras.
 
 **Situación.** Una empresa solicita financiamiento para adquirir maquinaria e instalaciones.
 
@@ -435,6 +453,8 @@ lo paga**.
 
 ## 🏦 Del cliente al banco
 
+La empresa quiere condiciones cómodas y el banco necesita protecciones. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Pedí un crédito y me dieron tres» | Cada componente con su plazo y garantía | 13, clase 7 |
@@ -445,6 +465,8 @@ lo paga**.
 
 ## 🧪 Práctica
 
+El laboratorio pide estructurar una operación para una empresa con flujo estacional. El calendario tiene que seguir al flujo, y proponerlo es el ejercicio.
+
 En `labs/lab-04.md`:
 
 1. Estructura un crédito con sus ocho elementos y justifica cada uno.
@@ -453,6 +475,8 @@ En `labs/lab-04.md`:
 4. Fija el precio con el modelo de tasa mínima y sus comisiones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones que incumplen pese a un buen análisis. Las causas son calendarios que no siguen al flujo y prelaciones mal definidas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

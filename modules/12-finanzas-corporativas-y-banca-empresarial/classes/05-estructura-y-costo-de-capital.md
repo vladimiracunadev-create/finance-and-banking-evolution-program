@@ -21,6 +21,8 @@ Determinar cuánta deuda debe tener una empresa y qué le cuesta financiarse. Es
 afecta al valor de una empresa después de sus decisiones operativas, y la que el banco necesita
 entender para saber si su crédito está sosteniendo un negocio o inflando un riesgo.
 
+Las clases anteriores tratan necesidades concretas. Esta trata la decisión de fondo: cuánta deuda y cuánto patrimonio debe tener una empresa. Y aporta la cifra que atraviesa toda la Etapa 4, que es el costo promedio ponderado del capital: la tasa mínima que cualquier proyecto tiene que superar para crear valor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los componentes del costo; los cinco siguientes, las teorías que explican la estructura. El **efecto señal** es el que suele decidir en la práctica: emitir acciones se interpreta como que la administración cree que están caras, y por eso el precio cae al anunciarlo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `costo de la deuda` | Tasa que la empresa paga, después de impuestos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `efecto señal` | Información que el mercado infiere de la decisión de financiamiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un equilibrio entre dos fuerzas: la deuda es más barata porque los intereses reducen impuestos, y más deuda aumenta la probabilidad de dificultades financieras. La estructura óptima está donde el beneficio marginal del escudo fiscal iguala al costo marginal de esas dificultades.
 
 ```text
 LA DEUDA TIENE DOS EFECTOS OPUESTOS SOBRE EL VALOR
@@ -92,6 +98,8 @@ plazos. Esos costos son reales y ocurren con la empresa todavía solvente.
 
 ### 1. Costo de la deuda
 
+El costo de la deuda es observable y hay que ajustarlo por el escudo fiscal. El procedimiento siguiente lo calcula.
+
 ```text
 COSTO DE LA DEUDA DESPUÉS DE IMPUESTOS
   kd × (1 − t)
@@ -116,6 +124,8 @@ el costo relevante es el MARGINAL, el de la próxima unidad de deuda
 ```
 
 ### 2. Costo del patrimonio
+
+El costo del patrimonio no es observable y se estima, con varios métodos y bastante dispersión. La tabla los recoge.
 
 ```text
 MODELO DE VALORACIÓN DE ACTIVOS DE CAPITAL
@@ -148,6 +158,8 @@ para una empresa sin acciones cotizadas:
 
 ### 3. Costo promedio ponderado
 
+El costo promedio pondera ambos por su peso a valor de mercado, no contable. El procedimiento lo calcula.
+
 ```text
 WACC = ke × E/(D+E) + kd × (1−t) × D/(D+E)
 
@@ -170,6 +182,8 @@ EJEMPLO
 ```
 
 ### 4. Estructura óptima
+
+La estructura óptima existe en teoría y se aproxima en la práctica con criterios sectoriales. La tabla los recoge.
 
 ```text
 EL WACC EN FUNCIÓN DEL ENDEUDAMIENTO
@@ -198,6 +212,8 @@ EL WACC EN FUNCIÓN DEL ENDEUDAMIENTO
 
 ### 5. Jerarquía de preferencias y señales
 
+Las empresas siguen un orden de preferencia al financiarse que la teoría del equilibrio no explica. La tabla lo recoge con su razón.
+
 ```text
 ORDEN OBSERVADO EN LAS EMPRESAS
   1. caja generada internamente
@@ -223,6 +239,8 @@ está diciendo algo. Puede ser que sus accionistas quieran reducir riesgo, o que
 flujo futuro que aún no está en los estados.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el costo promedio ponderado de una empresa. Conviene usar valores de mercado y no contables: la diferencia cambia el resultado de forma apreciable.
 
 **Situación.** Una empresa evalúa aumentar su endeudamiento y el banco analiza si acompañarla.
 
@@ -386,6 +404,8 @@ resistencia**.
 
 ## 🏦 Del cliente al banco
 
+La empresa decide cómo financiarse y el banco evalúa qué estructura soporta. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Endeudarme baja mi costo de capital» | Cierto y marginal cerca del óptimo | 13, clase 5 |
@@ -396,6 +416,8 @@ resistencia**.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el costo promedio ponderado y evaluar la estructura frente al sector. La recomendación con su justificación es lo que se evalúa.
+
 En `labs/lab-03.md`:
 
 1. Calcula el WACC de una empresa con sus componentes y valores de mercado.
@@ -404,6 +426,8 @@ En `labs/lab-03.md`:
 4. Evalúa una operación de recapitalización desde la perspectiva del banco.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen costos de capital mal calculados. Las causas son pesos contables y costo del patrimonio estimado sin criterio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

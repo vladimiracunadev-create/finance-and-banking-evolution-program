@@ -21,6 +21,8 @@ Acompañar a una empresa que decide financiarse en el mercado en lugar de con cr
 decisión que cambia su estructura, sus obligaciones y su relación con el banco: **el banco deja de ser
 prestamista y pasa a ser colocador, asesor y contraparte**.
 
+Todas las clases anteriores financian a la empresa con crédito bancario. Esta abre la alternativa, que para empresas de cierto tamaño suele ser más barata. Y plantea la posición incómoda del banco: asesora una emisión que sustituye a su propio crédito, y cobra por hacerlo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la operación y sus modalidades; los cuatro siguientes, la calificación, el precio y el mercado. La **calificación crediticia** es la variable que más mueve el precio de una emisión, y obtenerla es un proceso con su propio calendario.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `emisión` | Colocación de valores en el mercado para obtener financiamiento. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mercado primario y secundario` | Emisión inicial y negociación posterior. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una comparación entre dos formas de tomar dinero: el crédito bancario es rápido, flexible y caro; la emisión es lenta, rígida y barata. El punto de cruce depende del tamaño, de la calificación y de la frecuencia con la que se va a necesitar.
 
 ```text
 CRÉDITO BANCARIO                 EMISIÓN EN EL MERCADO
@@ -88,6 +94,8 @@ del crédito bancario aunque cueste más.
 ## 📖 Desarrollo
 
 ### 1. Cuándo emitir
+
+Emitir conviene bajo condiciones concretas de tamaño y de frecuencia. La tabla las recoge.
 
 ```text
 CONDICIONES PARA QUE UNA EMISIÓN TENGA SENTIDO
@@ -125,6 +133,8 @@ PUNTO DE INDIFERENCIA
 
 ### 2. Proceso de una emisión de deuda
 
+Una emisión tiene etapas con plazos y actores definidos. La tabla las recorre.
+
 ```text
 1. PREPARACIÓN        estados auditados, gobierno, plan de uso de fondos
 2. MANDATO            selección del colocador y estructura preliminar
@@ -139,6 +149,8 @@ PUNTO DE INDIFERENCIA
 ```
 
 ### 3. Calificación crediticia
+
+La calificación se obtiene en un proceso y determina el diferencial. La tabla recoge la relación.
 
 ```text
 QUÉ MIRA UNA AGENCIA
@@ -168,6 +180,8 @@ EL SALTO ENTRE BBB− Y BB+ ES DESPROPORCIONADO
 
 ### 4. Emisión de acciones
 
+Emitir acciones tiene requisitos y consecuencias distintas de emitir deuda. La tabla las recoge.
+
 ```text
 DIFERENCIAS CON LA DEUDA
   · diluye la propiedad y el control
@@ -189,6 +203,8 @@ EL DESCUENTO DE COLOCACIÓN
 ```
 
 ### 5. Conflictos de interés del banco
+
+El banco que asesora una emisión tiene intereses que pueden no coincidir con los del emisor. La tabla los recoge con su mitigación.
 
 ```text
 EL BANCO PUEDE ESTAR, A LA VEZ:
@@ -219,6 +235,8 @@ ocultarlo no lo es: el inversionista tiene derecho a saber que el banco que le r
 el beneficiario de sus fondos.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el costo total de un crédito y de una emisión para la misma necesidad. Conviene sumar todos los costos de la emisión: el punto de cruce se mueve bastante.
 
 **Situación.** Una empresa evalúa emitir bonos para sustituir su deuda bancaria.
 
@@ -413,6 +431,8 @@ refinanciamiento**.
 
 ## 🏦 Del cliente al banco
 
+La empresa busca el financiamiento más barato y el banco puede perder el crédito y ganar la comisión. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Emitir es más barato que el crédito» | Solo con escala y buena calificación | 13, clase 12 |
@@ -423,6 +443,8 @@ refinanciamiento**.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar crédito y emisión para una empresa concreta y recomendar. El resultado depende del tamaño y de la frecuencia de la necesidad.
+
 En `labs/lab-06.md`, sección de mercado de capitales:
 
 1. Calcula el punto de indiferencia entre crédito bancario y emisión.
@@ -431,6 +453,8 @@ En `labs/lab-06.md`, sección de mercado de capitales:
 4. Identifica los conflictos de interés de un mandato y sus mitigantes.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen emisiones mal aconsejadas. Las causas son costos de emisión subestimados y conflictos de interés no declarados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Actuar cuando una empresa deudora deja de poder pagar. Es el momento donde el ba
 destruye, y la diferencia depende casi enteramente de dos cosas: **cuándo se detecta y qué se hace en
 los primeros noventa días**.
 
+Esta clase trata el caso en que la empresa no puede pagar, y empieza por el diagnóstico que decide todo lo demás: si el problema es de liquidez, la reestructuración funciona; si es de viabilidad, solo pospone. Confundir uno con otro es el error que convierte una pérdida acotada en una total.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el diagnóstico; los seis siguientes, las alternativas y el reparto. La **prelación** es la que decide el resultado de cualquier negociación: cada acreedor negocia desde el lugar que ocuparía en una liquidación, y conocerlo es la primera tarea.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `problema de liquidez` | Negocio viable sin caja para cumplir a tiempo. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `procedimiento concursal` | Marco judicial de reorganización o liquidación. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una pregunta binaria: ¿esta empresa gana dinero con su operación? Si lo gana y no puede pagar, es un problema de calendario y se resuelve reestructurando. Si no lo gana, ninguna reestructuración lo arregla y lo que corresponde es decidir cómo se reparte lo que queda.
 
 ```text
 LA PRIMERA PREGUNTA, Y TODO DEPENDE DE ELLA
@@ -90,6 +96,8 @@ y terminan recuperando menos.
 ## 📖 Desarrollo
 
 ### 1. Diagnóstico
+
+El diagnóstico separa liquidez de viabilidad con criterios objetivos. El procedimiento siguiente lo hace.
 
 ```text
 INDICADORES DE VIABILIDAD OPERATIVA
@@ -119,6 +127,8 @@ PRUEBA CUANTITATIVA
 
 ### 2. Alternativas
 
+Las alternativas de reestructuración tienen efectos distintos sobre el acreedor. La tabla las recoge.
+
 | Alternativa | Qué hace | Cuándo |
 |---|---|---|
 | Reprogramación | Alarga plazos, reduce cuotas | Problema temporal de liquidez |
@@ -144,6 +154,8 @@ EL DINERO NUEVO ES EL PROBLEMA CENTRAL
 ```
 
 ### 3. Negociación entre acreedores
+
+Los acreedores tienen intereses distintos según su prelación y su garantía. La tabla los recoge.
 
 ```text
 LOS ACREEDORES NO TIENEN LOS MISMOS INTERESES
@@ -177,6 +189,8 @@ EL PROBLEMA DEL POLIZÓN
 
 ### 4. Prelación
 
+La prelación determina quién cobra primero y de ella sale el poder de negociación. El esquema la recoge.
+
 ```text
 ORDEN TÍPICO DE COBRO EN UNA LIQUIDACIÓN
   (varía por jurisdicción; verifica la tuya)
@@ -205,6 +219,8 @@ determina la estrategia en la reestructuración
 
 ### 5. Recuperación esperada
 
+La recuperación esperada se calcula por escenario y es lo que hay que comparar con cualquier propuesta. El procedimiento la obtiene.
+
 ```text
 CÁLCULO POR ALTERNATIVA
   para cada escenario:
@@ -222,6 +238,8 @@ EL COSTO DEL TIEMPO SE SUBESTIMA SIEMPRE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diagnostica una empresa en dificultades y valora las alternativas por su recuperación esperada. Conviene comparar cada propuesta con el escenario de liquidación: es el suelo de la negociación.
 
 **Situación.** Una empresa deudora incumple y el banco debe decidir su estrategia.
 
@@ -447,6 +465,8 @@ clara. En una reestructuración, el trabajo del acreedor no es elegir entre alte
 
 ## 🏦 Del cliente al banco
 
+La empresa pide tiempo y el banco compara la recuperación de cada alternativa. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco me condonó parte de la deuda» | Quita para hacer la deuda pagable | 13, clase 13 |
@@ -457,6 +477,8 @@ clara. En una reestructuración, el trabajo del acreedor no es elegir entre alte
 
 ## 🧪 Práctica
 
+El laboratorio pide diagnosticar y valorar tres alternativas de reestructuración. La empresa del caso tiene un problema de viabilidad disfrazado de liquidez.
+
 En `labs/lab-06.md`, sección de reestructuración:
 
 1. Diagnostica viabilidad calculando la deuda soportable con y sin plan operativo.
@@ -465,6 +487,8 @@ En `labs/lab-06.md`, sección de reestructuración:
 4. Compara las alternativas en valor presente e identifica qué cambiaría el resultado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen reestructuraciones que solo pospusieron la pérdida. La causa es el diagnóstico equivocado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

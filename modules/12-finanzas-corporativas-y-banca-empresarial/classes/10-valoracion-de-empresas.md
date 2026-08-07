@@ -21,6 +21,8 @@ Estimar cuánto vale una empresa y entender por qué dos valoraciones competente
 resultados distintos. Un banco necesita valorar para financiar adquisiciones, evaluar garantías
 accionarias, asesorar en ventas y estimar la recuperación en una reestructuración.
 
+Las clases anteriores prestan a empresas. Esta las valora, que es la base de las dos siguientes. Y su enseñanza principal no es el método sino la honestidad del resultado: una valoración es un rango que depende de supuestos declarados, y presentarla como una cifra exacta es la forma más común de perder credibilidad.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las medidas de valor; los cuatro siguientes, los ajustes que las separan. La distinción entre **valor de empresa y valor del patrimonio** es la que más errores produce: uno incluye la deuda y el otro no, y compararlos entre sí no tiene sentido.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor de empresa` | Valor de la operación, independiente de cómo se financia. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `sinergia` | Valor adicional que solo existe con la combinación. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres enfoques que deberían converger y no lo hacen: flujos, múltiplos y valor de los activos dan cifras distintas sobre la misma empresa. La convergencia no es el objetivo; entender por qué difieren sí lo es.
 
 ```text
 UNA VALORACIÓN NO ES UN NÚMERO: ES UN RANGO
@@ -87,6 +93,8 @@ EL VALOR TAMBIÉN DEPENDE DE QUIÉN VALORA
 
 ### 1. Los tres enfoques
 
+Los tres enfoques miran la misma empresa desde ángulos distintos. La tabla los compara con sus supuestos.
+
 | Enfoque | Pregunta | Cuándo se usa |
 |---|---|---|
 | Ingresos (flujos descontados) | ¿Cuánto generará? | Empresa en marcha con flujo proyectable |
@@ -101,6 +109,8 @@ NO SON ALTERNATIVOS: SON TRIANGULACIÓN
 ```
 
 ### 2. Flujos descontados
+
+El método de flujos exige proyección, tasa y valor terminal, y este último suele ser la mayor parte del resultado. El procedimiento siguiente lo construye.
 
 ```text
 FLUJO DE CAJA LIBRE DE LA EMPRESA
@@ -136,6 +146,8 @@ EL VALOR TERMINAL SUELE SER EL 60-80 % DEL VALOR TOTAL
 
 ### 3. Múltiplos
 
+Los múltiplos valoran por comparación y su dificultad está en elegir los comparables. La tabla recoge los criterios.
+
 | Múltiplo | Numerador | Denominador | Cuándo usarlo |
 |---|---|---|---|
 | VE / resultado operativo antes de depreciación | Valor de empresa | Magnitud operativa | El más usado; comparable entre estructuras |
@@ -164,6 +176,8 @@ AJUSTES OBLIGATORIOS AL USAR COMPARABLES
 
 ### 4. De valor de empresa a valor del patrimonio
 
+El paso de uno a otro exige ajustes concretos. El procedimiento los recoge.
+
 ```text
 VALOR DE EMPRESA
   − deuda financiera
@@ -185,6 +199,8 @@ LOS AJUSTES SON DONDE SE PIERDEN LAS NEGOCIACIONES
 
 ### 5. Rango y sensibilidad
 
+El resultado se presenta como rango con su sensibilidad declarada. La tabla recoge el formato.
+
 ```text
 CONSTRUYE SIEMPRE UNA MATRIZ DE SENSIBILIDAD
 
@@ -199,6 +215,8 @@ y presenta el RANGO, no el punto
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo valora una empresa por los tres enfoques y explica la dispersión. Conviene mirar el peso del valor terminal: suele superar la mitad del total.
 
 **Situación.** Un banco asesora la venta de una empresa mediana y debe estimar su valor.
 
@@ -377,6 +395,8 @@ en saber **qué tres cosas mover para cambiarlo**.
 
 ## 🏦 Del cliente al banco
 
+El dueño tiene una cifra en la cabeza y el banco valora con sus propios supuestos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi empresa vale X» | Depende de quién compre y con qué supuestos | 13, clase 10 |
@@ -387,6 +407,8 @@ en saber **qué tres cosas mover para cambiarlo**.
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar una empresa por los tres enfoques y explicar las diferencias. La explicación es lo que se evalúa, no la cifra.
+
 En `labs/lab-05.md`, sección de valoración:
 
 1. Construye una valoración por flujos descontados con su valor terminal.
@@ -395,6 +417,8 @@ En `labs/lab-05.md`, sección de valoración:
 4. Convierte valor de empresa en valor del patrimonio con todos sus ajustes.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen valoraciones que no se sostuvieron. Las causas son valor terminal desproporcionado y comparables mal elegidos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Dominar los instrumentos que financian el ciclo operativo: líneas revolventes, 
 de pagos, descuento de documentos y financiamiento de inventario. Cada uno tiene una lógica de riesgo
 distinta, y elegir el correcto cambia el costo y la exposición para ambas partes.
 
+La clase anterior dimensiona la necesidad. Esta recorre los productos que la cubren, y su interés está en las diferencias jurídicas que parecen técnicas y deciden quién asume la pérdida: un factoraje con recurso y uno sin recurso se parecen en todo salvo en lo que importa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los productos principales; los cinco siguientes, sus variantes y sus protecciones. La distinción entre **con recurso y sin recurso** es la que decide: en el primero la empresa responde si el deudor no paga, en el segundo no, y el precio refleja esa diferencia.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `línea revolvente` | Cupo que se usa, se paga y se vuelve a usar. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `dilución` | Reducción del cobro por devoluciones, descuentos o disputas. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cesión de derechos: en estos productos el banco no presta contra el balance de la empresa sino contra un cobro concreto que espera recibir. Lo que hay que evaluar, entonces, es la calidad de ese cobro y no solo la de la empresa.
 
 ```text
 CADA INSTRUMENTO CAMBIA QUIÉN ES EL DEUDOR DEL RIESGO
@@ -88,6 +94,8 @@ instrumento correcto abre una operación que ningún otro permitiría.
 
 ### 1. Los instrumentos
 
+Los instrumentos de corto plazo cubren necesidades distintas y tienen costos muy distintos. La tabla los compara.
+
 | Instrumento | Qué financia | Garantía | Deudor del riesgo |
 |---|---|---|---|
 | Línea revolvente | Ciclo completo | Genérica o real | La empresa |
@@ -100,6 +108,8 @@ instrumento correcto abre una operación que ningún otro permitiría.
 | Crédito de comercio exterior | Importación o exportación | Documentos y mercancía | Según estructura |
 
 ### 2. Factoraje
+
+El factoraje adelanta cobros y su precio depende de quién asume el impago. El procedimiento siguiente lo calcula.
 
 ```text
 MECÁNICA
@@ -142,6 +152,8 @@ LA DILUCIÓN: EL RIESGO QUE MÁS SE SUBESTIMA
 
 ### 3. Confirmación de pagos
 
+La confirmación de pagos financia al proveedor con el riesgo del comprador, y esa inversión de riesgo es su razón de ser. El esquema lo muestra.
+
 ```text
 MECÁNICA (financiamiento inverso de la cadena)
   1. la empresa (compradora, grande) confirma al banco
@@ -172,6 +184,8 @@ EL PUNTO CONTABLE DELICADO
 
 ### 4. Financiamiento de inventario
 
+El inventario como garantía tiene problemas propios de control y de valoración. La tabla los recoge.
+
 | Modalidad | Cómo funciona | Riesgo |
 |---|---|---|
 | Prenda sin desplazamiento | La mercancía queda con la empresa | Difícil de controlar |
@@ -192,6 +206,8 @@ para un solo cliente: valor de realización cercano a cero
 
 ### 5. Usos indebidos
 
+Estos productos se usan a veces para ocultar deuda o para maquillar ratios. La tabla recoge los patrones.
+
 ```text
 SEÑALES DE QUE ESTOS INSTRUMENTOS ESTÁN OCULTANDO DEUDA
 
@@ -211,6 +227,8 @@ SEÑALES DE QUE ESTOS INSTRUMENTOS ESTÁN OCULTANDO DEUDA
 del año. Una diferencia grande indica gestión de cierre, no mejora operativa.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el costo de un factoraje con y sin recurso. La diferencia de precio es exactamente el valor del riesgo transferido.
 
 **Situación.** Una empresa necesita 1 800 de caja. El banco evalúa tres alternativas.
 
@@ -385,6 +403,8 @@ protege contra eso, solo el control documental lo hace.
 
 ## 🏦 Del cliente al banco
 
+La empresa adelanta cobros y el banco asume un riesgo que depende del tipo de producto. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Con factoraje mejoro mis indicadores» | Puede ser gestión de cierre | 13, clase 4 |
@@ -395,6 +415,8 @@ protege contra eso, solo el control documental lo hace.
 
 ## 🧪 Práctica
 
+El laboratorio pide estructurar el financiamiento de corto plazo de una empresa y detectar un uso indebido. El uso indebido está diseñado para mejorar un ratio.
+
 En `labs/lab-02.md`, sección de corto plazo:
 
 1. Calcula el costo efectivo anual de cuatro instrumentos y compáralos.
@@ -403,6 +425,8 @@ En `labs/lab-02.md`, sección de corto plazo:
 4. Identifica señales de uso indebido en un juego de estados financieros.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen productos de corto plazo que se convirtieron en pérdidas. Las causas son la modalidad de recurso mal entendida y aforos insuficientes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

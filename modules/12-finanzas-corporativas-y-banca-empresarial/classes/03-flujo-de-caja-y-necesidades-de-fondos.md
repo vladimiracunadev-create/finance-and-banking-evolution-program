@@ -21,6 +21,8 @@ Proyectar la caja de una empresa y determinar cuánto financiamiento necesita, d
 Es la habilidad central de la banca empresarial: **prestar el monto correcto, al plazo correcto, para la
 necesidad correcta**. Los tres errores posibles producen daños distintos y todos evitables.
 
+El análisis de la clase anterior mira hacia atrás. Esta mira hacia adelante y responde la pregunta que decide la operación: cuánto dinero necesita la empresa, para qué y por cuánto tiempo. Un crédito mal dimensionado falla aunque la empresa esté sana.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la necesidad y su cobertura; los cinco siguientes, el flujo y sus coberturas. La **necesidad operativa de fondos** es el concepto que hay que calcular antes de hablar de importes: es la cifra que dice cuánto necesita la empresa por su forma de operar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `necesidad operativa de fondos` | Inversión neta en el ciclo: existencias + cobros − proveedores. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `necesidad estacional` | Temporal; se financia con líneas revolventes. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una resta: lo que la operación necesita inmovilizado menos lo que los proveedores financian gratis. El resultado es la necesidad operativa de fondos, y si el fondo de maniobra no la cubre, la diferencia es exactamente lo que hay que prestar.
 
 ```text
 LA REGLA DE ORO DEL FINANCIAMIENTO
@@ -87,6 +93,8 @@ EL ERROR GRAVE ES EL PRIMERO
 ## 📖 Desarrollo
 
 ### 1. Necesidad operativa de fondos
+
+La necesidad operativa se calcula sobre las partidas del ciclo y no sobre el balance completo. El procedimiento siguiente lo hace.
 
 ```text
 NOF = existencias + cuentas por cobrar + caja mínima
@@ -113,6 +121,8 @@ NECESIDAD DE FINANCIAMIENTO DE CORTO PLAZO = NOF − fondo de maniobra
 
 ### 2. Estructural o estacional
 
+La misma necesidad puede ser permanente o temporal, y el producto cambia. El procedimiento las separa.
+
 ```text
 CÓMO DISTINGUIRLAS: MIRA LA SERIE MENSUAL
 
@@ -135,6 +145,8 @@ hasta que un año no se renueva. Y no se renueva precisamente cuando el negocio 
 la empresa menos puede pagarlo.
 
 ### 3. Flujo de caja proyectado
+
+La proyección se construye desde los supuestos operativos y no desde el crecimiento histórico. El procedimiento la estructura.
 
 ```text
 CONSTRUCCIÓN DESDE EL RESULTADO
@@ -163,6 +175,8 @@ los cuatro primeros determinan la caja más que cualquier otro
 
 ### 4. Dimensionamiento del crédito
 
+Del flujo proyectado salen el monto, el plazo y el calendario que la empresa puede soportar. El procedimiento los despeja.
+
 ```text
 TRES PREGUNTAS QUE DETERMINAN LA ESTRUCTURA
 
@@ -185,6 +199,8 @@ al flujo que lo paga, no al calendario del banco
 
 ### 5. Cobertura y escenarios
 
+La cobertura se comprueba en el escenario base y en el adverso. La tabla recoge los umbrales.
+
 ```text
 COBERTURA DEL SERVICIO DE LA DEUDA
   = flujo disponible / servicio de la deuda
@@ -206,6 +222,8 @@ y se pregunta: ¿en cuál de estos la cobertura baja de 1,0?
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la necesidad operativa de fondos de una empresa y dimensiona el crédito. Conviene comparar el importe solicitado con el calculado: casi nunca coinciden.
 
 **Situación.** Una empresa solicita financiamiento. El analista debe dimensionar la operación.
 
@@ -409,6 +427,8 @@ proteger al cliente y al banco a la vez.**
 
 ## 🏦 Del cliente al banco
 
+La empresa pide un importe y el banco calcula cuál necesita. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Pedí 3 000 y me dieron 2 400» | Dimensionamiento por necesidad real | 13, clase 3 |
@@ -419,6 +439,8 @@ proteger al cliente y al banco a la vez.**
 
 ## 🧪 Práctica
 
+El laboratorio pide dimensionar un crédito desde la necesidad operativa. El importe solicitado es mayor que el necesario, y justificar la diferencia es el ejercicio.
+
 En `labs/lab-02.md`:
 
 1. Calcula la NOF y el fondo de maniobra de tres empresas.
@@ -427,6 +449,8 @@ En `labs/lab-02.md`:
 4. Estructura una operación con monto, plazo, amortización y covenants.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen créditos mal dimensionados. Las causas son importes tomados de la solicitud y necesidades estructurales tratadas como estacionales.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

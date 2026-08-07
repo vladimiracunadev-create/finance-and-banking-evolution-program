@@ -21,6 +21,8 @@ Entender y financiar la compra de empresas. Es la operación donde más valor se
 donde el banco participa en tres roles distintos —asesor, prestamista e inversionista— con conflictos
 que deben gestionarse explícitamente.
 
+La valoración de la clase anterior dice cuánto vale una empresa. Esta trata de comprarla, y su dato más importante viene de la evidencia: la mayoría de las adquisiciones destruyen valor para el comprador. La razón casi siempre es la misma, que es haber pagado por adelantado sinergias que no se materializaron.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son las formas jurídicas de la operación; los seis siguientes, la sinergia, la prima y las protecciones del precio. La **retención de precio** es el mecanismo que protege al comprador de lo que la revisión previa no encontró.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `adquisición de acciones` | Se compra la sociedad con todo su pasado. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `adquisición apalancada` | Compra financiada mayoritariamente con deuda del objetivo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una resta que casi nunca se hace: el valor creado es el de las sinergias reales menos la prima pagada menos los costos de integración. Si la prima se fija con las sinergias que el vendedor promete, la resta da negativa antes de empezar.
 
 ```text
 LA ECUACIÓN DE VALOR DE UNA ADQUISICIÓN
@@ -89,6 +95,8 @@ materializan y subestimar el costo de la integración**.
 
 ### 1. Tipos y lógicas
 
+Comprar acciones y comprar activos tienen consecuencias muy distintas en pasivos y en impuestos. La tabla las separa.
+
 | Tipo | Lógica | Fuente de valor |
 |---|---|---|
 | Horizontal | Competidor del mismo sector | Escala, poder de mercado, costos |
@@ -107,6 +115,8 @@ LA DIVERSIFICACIÓN COMO LÓGICA ES DÉBIL
 ```
 
 ### 2. Sinergias
+
+Las sinergias se clasifican por su probabilidad de materializarse, y no todas valen lo mismo. La tabla las recoge.
 
 ```text
 TIPOS Y SU FIABILIDAD
@@ -140,6 +150,8 @@ la evidencia lo respalda de forma consistente
 
 ### 3. Revisión previa
 
+La revisión previa cubre áreas concretas y su alcance decide qué riesgos quedan ocultos. La tabla las recoge.
+
 | Ámbito | Qué busca | Efecto típico |
 |---|---|---|
 | Financiero | Calidad del resultado, deuda oculta, capital de trabajo normalizado | Ajuste de precio |
@@ -162,6 +174,8 @@ CLÁUSULAS DE CAMBIO DE CONTROL
 ```
 
 ### 4. Estructura del precio
+
+El precio se puede estructurar para repartir el riesgo de lo desconocido. La tabla recoge los mecanismos.
 
 ```text
 PRECIO DE EMPRESA (acordado)
@@ -186,6 +200,8 @@ MECANISMOS DE PROTECCIÓN DEL COMPRADOR
 lugar de discutir si las ventas crecerán, se acuerda que parte del precio se pague si crecen.
 
 ### 5. Financiamiento de la adquisición
+
+Financiar una compra con deuda tiene un límite que impone el flujo de la empresa adquirida. El procedimiento lo calcula.
 
 ```text
 FUENTES
@@ -216,6 +232,8 @@ ADQUISICIÓN APALANCADA — la estructura extrema
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo valora las sinergias de una adquisición y las compara con la prima. Conviene descontar las sinergias por su probabilidad: la resta cambia de signo.
 
 **Situación.** Un comprador estratégico quiere adquirir la empresa valorada en la clase anterior y
 solicita financiamiento.
@@ -429,6 +447,8 @@ tenga suficiente capital propio en riesgo**.
 
 ## 🏦 Del cliente al banco
 
+El comprador ve una oportunidad y el banco financia y evalúa la capacidad de la empresa combinada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Compré la empresa y no dio lo esperado» | Sinergias de ingresos no materializadas | 13, clase 11 |
@@ -439,6 +459,8 @@ tenga suficiente capital propio en riesgo**.
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar sinergias y determinar la prima máxima. La prima ofrecida en el caso supera la máxima justificable.
+
 En `labs/lab-06.md`:
 
 1. Valora cuatro sinergias por separado con probabilidad, plazo y costo.
@@ -447,6 +469,8 @@ En `labs/lab-06.md`:
 4. Diseña las protecciones de estructura: retención, pago contingente y covenants.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen adquisiciones que destruyeron valor. La causa es la prima fijada con sinergias no descontadas por su probabilidad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

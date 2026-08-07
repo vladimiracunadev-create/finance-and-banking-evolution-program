@@ -21,6 +21,8 @@ Financiar un activo por sí mismo, sin recurso o con recurso limitado a sus patr
 estructura más exigente de la banca empresarial: **el crédito se paga únicamente con el flujo que el
 proyecto genere**, y por eso todo el análisis se concentra en asegurar que ese flujo exista.
 
+Los créditos anteriores se apoyan en el balance de una empresa. Este se apoya solo en el proyecto, sin recurso a los patrocinadores, y eso cambia todo el análisis: no hay historia que analizar, no hay otros ingresos que respalden y el reparto contractual de riesgos sustituye a la garantía.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura y el grado de recurso; los cuatro siguientes, los ratios propios y la cascada. La **cascada de pagos** es lo que hace posible prestar sin recurso: define el orden en que se aplica cada peso que el proyecto genera, y el servicio de la deuda va antes que cualquier distribución.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sociedad vehículo` | Entidad creada solo para el proyecto, con activos y deuda propios. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `cascada de pagos` | Orden en que se aplican los ingresos del proyecto. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una matriz de riesgos asignados: cada riesgo del proyecto se identifica y se asigna por contrato a quien mejor puede gestionarlo. Un riesgo sin asignar se queda con el prestamista, y por eso la matriz es el documento central de la operación.
 
 ```text
 CRÉDITO CORPORATIVO
@@ -89,6 +95,8 @@ EL PRINCIPIO ORGANIZADOR
 
 ### 1. Cuándo se usa
 
+El financiamiento de proyectos conviene bajo condiciones concretas y no siempre. La tabla las recoge.
+
 | Característica del proyecto | Por qué favorece esta estructura |
 |---|---|
 | Inversión grande respecto del patrocinador | Aislar el riesgo del balance del patrocinador |
@@ -107,6 +115,8 @@ SECTORES TÍPICOS
 ```
 
 ### 2. Matriz de riesgos
+
+Cada riesgo se asigna a quien mejor lo gestiona, por contrato. La tabla recoge los riesgos típicos con su asignación habitual.
 
 ```text
 PRINCIPIO: cada riesgo va a quien mejor lo controla
@@ -134,6 +144,8 @@ LA PREGUNTA CLAVE PARA CADA RIESGO
 ```
 
 ### 3. Modelo financiero y ratios
+
+El modelo financiero es el corazón de la operación y sus ratios son propios. La tabla los recoge.
 
 ```text
 COBERTURA DEL SERVICIO DE LA DEUDA (por período)
@@ -168,6 +180,8 @@ COBERTURA DE VIDA DEL PROYECTO
 
 ### 4. Cascada de pagos
 
+La cascada ordena el uso de los ingresos del proyecto y protege a los prestamistas. El esquema la recorre.
+
 ```text
 ORDEN DE APLICACIÓN DE LOS INGRESOS DEL PROYECTO
 
@@ -198,6 +212,8 @@ de ejecutar garantías.
 
 ### 5. Estructura contractual
 
+La operación se sostiene en un conjunto de contratos que tienen que encajar entre sí. La tabla los recoge.
+
 ```text
 CONTRATOS QUE SOSTIENEN LA ESTRUCTURA
   · contrato de construcción llave en mano
@@ -223,6 +239,8 @@ ACUERDO DIRECTO — el instrumento menos conocido y más útil
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye la matriz de riesgos y la cascada de un proyecto. Conviene buscar los riesgos sin asignar: son los que se quedan con el banco.
 
 **Situación.** Un banco evalúa participar en el financiamiento de una planta de generación.
 
@@ -430,6 +448,8 @@ contrato que genera el flujo**.
 
 ## 🏦 Del cliente al banco
 
+El patrocinador quiere no responder con su balance y el banco necesita que los riesgos estén asignados. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Pedí 70 % de deuda y me ofrecen 59 %» | La cobertura define el apalancamiento | 13, clase 9 |
@@ -440,6 +460,8 @@ contrato que genera el flujo**.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir la matriz de riesgos de un proyecto y detectar los no asignados. Dos riesgos quedan sin dueño en la estructura propuesta.
+
 En `labs/lab-05.md`:
 
 1. Construye la matriz de riesgos de un proyecto e identifica los no asignados.
@@ -448,6 +470,8 @@ En `labs/lab-05.md`:
 4. Somete la estructura a cinco escenarios y evalúa qué la rompe.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos que fallaron pese a buenos ratios. La causa es un riesgo sin asignar que se materializó.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

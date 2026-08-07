@@ -21,6 +21,8 @@ Cerrar la parte integrando trece clases en una sola disciplina: **gestionar una 
 lo largo de su ciclo completo**, desde la primera operación hasta la sucesión, la venta o la
 reestructuración, con la rentabilidad y el riesgo medidos en conjunto.
 
+Esta clase cierra la parte reuniendo las trece anteriores en la gestión de una relación completa. Y añade la tensión que atraviesa cualquier banca empresarial: el área comercial quiere crecer y el área de riesgo quiere contener, y las dos tienen razón. Resolver esa tensión con un procedimiento en vez de con jerarquía es lo que la clase enseña.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la gestión de la relación y su medida; los cuatro siguientes, la rotación y el gobierno. El **cliente ancla** es la figura que hay que identificar: la empresa cuya salida arrastraría a otras de la cartera, y que por eso vale más de lo que sus cifras muestran.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `plan de relación` | Documento que define objetivos, acciones y riesgos por cliente. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `revisión de cartera` | Análisis periódico del conjunto, no de casos. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cartera de relaciones y no de créditos: una empresa aporta margen por varios productos, y el crédito suele ser el que menos aporta y más riesgo consume. Evaluar solo el crédito lleva a decisiones que destruyen valor.
 
 ```text
 UN CLIENTE EMPRESA NO ES UNA SUCESIÓN DE OPERACIONES
@@ -89,6 +95,8 @@ el error de gestión es tratar todas las etapas igual
 
 ### 1. Plan de relación
 
+Un plan de relación tiene objetivos, productos y responsables, con horizonte anual. La tabla recoge su estructura.
+
 ```text
 CONTENIDO DE UN PLAN ÚTIL
   1. entendimiento del negocio: sector, ciclo, posición, riesgos
@@ -109,6 +117,8 @@ EL PUNTO 9 ES EL QUE FALTA EN CASI TODOS LOS PLANES
 ```
 
 ### 2. Rentabilidad ajustada por riesgo de la relación
+
+La rentabilidad se calcula sobre la relación completa y no sobre el crédito. El procedimiento la obtiene.
 
 ```text
 RESULTADO AJUSTADO DE LA RELACIÓN
@@ -133,6 +143,8 @@ RAROC DE LA RELACIÓN = resultado ajustado / capital económico asignado
 
 ### 3. Anticipación
 
+Anticipar las necesidades de la empresa es lo que sostiene una relación de largo plazo. La tabla recoge las señales.
+
 ```text
 EVENTOS PREVISIBLES QUE GENERAN NECESIDADES
 
@@ -154,6 +166,8 @@ ANTICIPAR ES LA ÚNICA VENTAJA COMPETITIVA SOSTENIBLE
 ```
 
 ### 4. Conflicto comercial-riesgo
+
+El conflicto entre crecimiento y contención se resuelve con procedimiento y no con jerarquía. La tabla lo recoge.
 
 ```text
 LA TENSIÓN ES ESTRUCTURAL Y NO DEBE ELIMINARSE
@@ -183,6 +197,8 @@ seguimiento a 24 meses, corrige ese incentivo sin necesidad de más controles.
 
 ### 5. Revisión de cartera
 
+La cartera se revisa periódicamente con criterios explícitos de permanencia y de salida. La tabla los recoge.
+
 ```text
 PREGUNTAS DE UNA REVISIÓN DE CARTERA
   · ¿cómo se distribuye la exposición por sector, tamaño y calificación?
@@ -195,6 +211,8 @@ PREGUNTAS DE UNA REVISIÓN DE CARTERA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la rentabilidad ajustada de una relación completa. Conviene comparar con la del crédito aislado: el orden de las relaciones cambia.
 
 **Situación.** Un banco revisa su cartera de banca empresarial y decide su estrategia.
 
@@ -408,6 +426,8 @@ rentabilidad y de riesgo son la misma decisión**.
 
 ## 🏦 Del cliente al banco
 
+La empresa quiere un socio financiero y el banco gestiona una relación con su rentabilidad y su riesgo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco me subió la tasa sin razón» | Relación que no rinde su capital | 13, clase 14 |
@@ -418,6 +438,8 @@ rentabilidad y de riesgo son la misma decisión**.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar tres relaciones completas y decidir dónde crecer. La relación más rentable en crédito no es la más rentable en conjunto.
+
 En `labs/lab-06.md`, sección de relación:
 
 1. Construye un plan de relación completo, con su escenario de salida.
@@ -426,6 +448,8 @@ En `labs/lab-06.md`, sección de relación:
 4. Construye un plan de cartera que mejore el RAROC sin aumentar exposición.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen relaciones mal gestionadas. Las causas son evaluar solo el crédito y resolver el conflicto comercial-riesgo por jerarquía.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
