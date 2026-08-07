@@ -29,7 +29,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from apps.cross_border_payments_lab.iso20022 import validar  # noqa: E402
+from apps.cross_border_payments_lab.iso20022 import (  # noqa: E402
+    XmlNoSeguro,
+    parsear_seguro,
+    validar,
+)
 
 MENSAJES = ROOT / "apps" / "cross_border_payments_lab" / "data" / "messages"
 
@@ -37,9 +41,11 @@ MENSAJES = ROOT / "apps" / "cross_border_payments_lab" / "data" / "messages"
 def _campo(xml: str, etiqueta: str) -> str:
     import xml.etree.ElementTree as ET
 
+    # Se reutiliza el parser del modulo: comprueba tamano y rechaza DOCTYPE
+    # antes de entregar el texto al analizador.
     try:
-        raiz = ET.fromstring(xml)
-    except ET.ParseError:
+        raiz = parsear_seguro(xml)
+    except (ET.ParseError, XmlNoSeguro):
         return ""
     nodo = next(
         (

@@ -126,6 +126,43 @@ def construir_pacs008(orden: Orden, mensaje_id: str, creado: str) -> str:
     return ET.tostring(raiz, encoding="unicode")
 
 
+# Limite de tamano de un mensaje del laboratorio. Un mensaje real de pagos no
+# se acerca a esta cifra; un intento de agotar memoria, si.
+TAMANO_MAXIMO_BYTES = 512 * 1024
+
+
+class XmlNoSeguro(Exception):
+    """El documento contiene una construccion que no se acepta parsear."""
+
+
+def parsear_seguro(xml: str) -> ET.Element:
+    """Parsea un mensaje comprobando ANTES lo que el parser no comprueba.
+
+    `xml.etree.ElementTree` no expande entidades externas, pero SI expande las
+    internas: un documento con una declaracion de entidades anidadas agota la
+    memoria del proceso. La defensa no es una biblioteca distinta, es rechazar
+    la construccion que lo permite antes de entregar el texto al parser:
+
+    1. limite de tamano, para que el propio texto no sea el ataque;
+    2. rechazo de cualquier declaracion DOCTYPE o ENTITY.
+
+    Un mensaje de pago legitimo no necesita ninguna de las dos.
+    """
+    if len(xml.encode("utf-8")) > TAMANO_MAXIMO_BYTES:
+        raise XmlNoSeguro(
+            f"mensaje de mas de {TAMANO_MAXIMO_BYTES} bytes: no se parsea"
+        )
+    cabecera = xml[:4096].upper()
+    if "<!DOCTYPE" in cabecera or "<!ENTITY" in cabecera:
+        raise XmlNoSeguro(
+            "el mensaje declara DOCTYPE o ENTITY; un pago no las necesita "
+            "y son el vector de la expansion de entidades"
+        )
+    # La supresion va acompanada de las dos comprobaciones anteriores, que son
+    # las que cierran el vector real de esta biblioteca. Sin ellas, no se pone.
+    return ET.fromstring(xml)  # nosec B314
+
+
 def _sin_espacio_de_nombres(raiz: ET.Element) -> ET.Element:
     """Quita el espacio de nombres de cada etiqueta.
 
@@ -148,7 +185,9 @@ def validar(xml: str) -> list[str]:
     """
     errores: list[str] = []
     try:
-        raiz = _sin_espacio_de_nombres(ET.fromstring(xml))
+        raiz = _sin_espacio_de_nombres(parsear_seguro(xml))
+    except XmlNoSeguro as exc:
+        return [f"mensaje rechazado: {exc}"]
     except ET.ParseError as exc:
         return [f"XML no valido: {exc}"]
 

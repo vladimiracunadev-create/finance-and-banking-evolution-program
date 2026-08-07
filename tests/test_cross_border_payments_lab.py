@@ -25,11 +25,14 @@ from apps.cross_border_payments_lab.fast_payment_link import (  # noqa: E402
 )
 from apps.cross_border_payments_lab.flows import cuadra  # noqa: E402
 from apps.cross_border_payments_lab.iso20022 import (  # noqa: E402
+    TAMANO_MAXIMO_BYTES,
     Orden,
     Parte,
     TransicionIlegal,
+    XmlNoSeguro,
     construir_pacs008,
     pacs002,
+    parsear_seguro,
     transitar,
     validar,
 )
@@ -541,3 +544,35 @@ def test_la_regla_de_enrutamiento_cubre_las_seis_condiciones(argumentos, esperad
     ruta, motivo = enrutar(*argumentos)
     assert ruta == esperada
     assert motivo
+
+
+# ------------------------------------------------------------ parseo seguro
+
+
+def test_se_rechaza_un_mensaje_con_declaracion_de_entidades():
+    """El vector real de ElementTree es la expansion de entidades internas."""
+    ataque = (
+        '<?xml version="1.0"?>'
+        '<!DOCTYPE lolz [<!ENTITY lol "lol">'
+        '<!ENTITY lol2 "&lol;&lol;&lol;&lol;">]>'
+        "<Document>&lol2;</Document>"
+    )
+    with pytest.raises(XmlNoSeguro):
+        parsear_seguro(ataque)
+
+
+def test_se_rechaza_un_mensaje_desmesurado():
+    enorme = "<Document>" + "x" * (TAMANO_MAXIMO_BYTES + 1) + "</Document>"
+    with pytest.raises(XmlNoSeguro):
+        parsear_seguro(enorme)
+
+
+def test_validar_devuelve_el_rechazo_en_vez_de_reventar():
+    ataque = '<!DOCTYPE lolz [<!ENTITY lol "lol">]><Document/>'
+    errores = validar(ataque)
+    assert errores and "rechazado" in errores[0]
+
+
+def test_un_mensaje_legitimo_pasa_el_parseo_seguro():
+    xml = construir_pacs008(_orden(), "MSG-1", "2026-06-16T16:40:00Z")
+    assert parsear_seguro(xml) is not None
