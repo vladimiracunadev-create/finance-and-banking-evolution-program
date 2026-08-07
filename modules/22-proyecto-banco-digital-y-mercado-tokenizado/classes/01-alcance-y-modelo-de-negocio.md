@@ -66,6 +66,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el alcance y lo que lo justifica; los cuatro siguientes, su coste y su umbral. El **punto de sostenibilidad** es la cifra que decide si el proyecto existe: la facturación por debajo de la cual el sistema no cubre su carga regulatoria, calculada antes de construir nada.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `alcance` | Lo que el sistema hace y, sobre todo, lo que no |
@@ -224,6 +226,8 @@ LA ÚLTIMA ES LA MÁS IMPORTANTE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica las cuatro preguntas a once funciones y comprueba que excluir siete no baja el ingreso. Conviene mirar la carga regulatoria antes y después: es donde está el ahorro real.
 
 **Situación.** Un equipo define el alcance de su capstone. La propuesta inicial
 incluye once funciones. Hay que reducirla y justificar cada exclusión.
@@ -412,6 +416,8 @@ necesitara en el segmento elegido.
 
 ## 🧭 Perspectivas
 
+El alcance elegido afecta a cada actor de forma distinta, y algunos aparecen solo por una función que podría excluirse. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un servicio que resuelve su problema | Si contrata |
@@ -426,6 +432,8 @@ necesitara en el segmento elegido.
 
 ## 🏦 Del cliente al banco
 
+El cliente pide funciones y el sistema paga una carga regulatoria por cada una. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Que haga de todo» | Cinco funciones sin quien las necesite | 23, clase 1 |
@@ -433,6 +441,8 @@ necesitara en el segmento elegido.
 | «Lo pondremos después» | Las decisiones previas no admiten después | 23, clase 1 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos de esta clase son de alcance excesivo y de carga no calculada. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -445,6 +455,8 @@ necesitara en el segmento elegido.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar las cuatro preguntas y calcular el punto de sostenibilidad. Las exclusiones con su razón escrita son lo que se evalúa.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Aplica las cuatro preguntas a una lista de funciones.
@@ -453,6 +465,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Anota las cuatro decisiones previas con su nota de dependencia.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de un alcance decidido por entusiasmo y no por las cuatro preguntas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

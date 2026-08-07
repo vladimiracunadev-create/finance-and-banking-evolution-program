@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las preguntas que justifican un registro compartido; los cuatro siguientes, su coste y su resultado posible. La **conclusión negativa** es un resultado válido y frecuente: si ninguna de las seis preguntas se responde afirmativamente, la base centralizada es la respuesta correcta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `problema de confianza` | Partes que no confían entre sí ni en un tercero |
@@ -174,6 +176,8 @@ LA ÚLTIMA IMPORTA
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo aplica las seis preguntas al sistema y deja la conclusión pendiente de la clase 5. Conviene no cerrarla aquí: depende de dónde esté el dinero.
+
 **Situación.** El equipo aplica el criterio a su sistema de cuatro funciones y
 compara las dos arquitecturas con coste a cinco años.
 
@@ -276,6 +280,8 @@ adelantado para que el resultado saliera como se quería.
 
 ## 🧭 Perspectivas
 
+La decisión de arquitectura afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un crédito con garantía | — |
@@ -289,6 +295,8 @@ adelantado para que el resultado saliera como se quería.
 
 ## 🏦 Del cliente al banco
 
+El cliente no distingue la tecnología y sus garantías dependen de esta decisión. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Usan blockchain» | No hacía falta y ahorra 710 000 | 23, clase 4 |
@@ -296,6 +304,8 @@ adelantado para que el resultado saliera como se quería.
 | «Sin intermediarios» | El custodio sigue estando | 23, clase 4 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de arquitectura injustificada y de coste de gobierno. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -308,6 +318,8 @@ adelantado para que el resultado saliera como se quería.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar las seis preguntas y medir la alternativa centralizada. Dejar la conclusión pendiente de la clase siguiente es parte del ejercicio.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Aplica las seis preguntas a tu sistema y documenta cada respuesta.
@@ -316,6 +328,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Escribe la conclusión con su condición de revisión.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen arquitecturas elegidas antes de justificarse. La causa es haber decidido la tecnología y buscado después el argumento.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el consentimiento y su alcance; los cuatro siguientes, el contrato de interfaz y su responsabilidad. La **idempotencia** es el requisito que evita el problema más caro de esta capa: un reintento no puede producir un segundo movimiento.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `consentimiento` | Permiso del titular, con alcance y plazo |
@@ -158,6 +160,8 @@ resuelve después
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo diseña un consentimiento con alcance por finalidad y prueba el orden de la revocación. Conviene medir la ventana entre invalidar y responder: tiene que ser cero.
+
 **Situación.** El equipo diseña la interfaz para dos terceros que quieren agregar
 datos y uno que quiere iniciar pagos.
 
@@ -240,6 +244,8 @@ un tercero leyera datos que ya no debía ver.
 
 ## 🧭 Perspectivas
 
+Las interfaces afectan a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Tres permisos separados | Cuáles revoca |
@@ -253,6 +259,8 @@ un tercero leyera datos que ya no debía ver.
 
 ## 🏦 Del cliente al banco
 
+El cliente autoriza un acceso y el sistema tiene que poder demostrar exactamente qué autorizó. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Di mi consentimiento» | A tres finalidades separadas | 23, clase 8 |
@@ -260,6 +268,8 @@ un tercero leyera datos que ya no debía ver.
 | «Fue el otro» | Al cliente se le devuelve primero | 23, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de consentimiento amplio y de reintento no idempotente. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -272,6 +282,8 @@ un tercero leyera datos que ya no debía ver.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar el consentimiento y probar la revocación. El orden de las operaciones en la revocación es lo que se evalúa.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Define el alcance por finalidad de cada consentimiento.
@@ -280,6 +292,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Calcula el presupuesto de error y su regla de gasto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas en la capa de interfaces. Las causas son alcances en bloque y operaciones no idempotentes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

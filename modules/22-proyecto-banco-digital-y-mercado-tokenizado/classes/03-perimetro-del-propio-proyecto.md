@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el perímetro efectivo y sus accesorios; los cuatro siguientes, la carga y su corrección. El **hecho de diseño** es el concepto propio de esta clase: una línea de arquitectura activa un régimen, y por eso el perímetro se determina antes de escribirla y no después.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `perímetro efectivo` | El que activan los hechos del diseño |
@@ -172,6 +174,8 @@ Y LA REGLA
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo determina el perímetro del sistema y encuentra dos regímenes no previstos. Conviene identificar qué decisión de diseño activó cada uno: es lo que permite ajustar.
+
 **Situación.** El equipo comprueba el perímetro del alcance reducido de la clase 1
 —cuentas y pagos, transfronterizos, cambio y crédito con colateral— y descubre
 dos regímenes que no había previsto.
@@ -278,6 +282,8 @@ todavía no existía.
 
 ## 🧭 Perspectivas
 
+El perímetro del sistema afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un producto que compara divisas | Si confía en el orden |
@@ -291,6 +297,8 @@ todavía no existía.
 
 ## 🏦 Del cliente al banco
 
+El cliente usa un servicio y el sistema puede estar ejerciendo actividades que no declaró. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es solo una comparación» | Ordenar puede activar la asesoría | 23, clase 3 |
@@ -298,6 +306,8 @@ todavía no existía.
 | «Solo hacen pagos» | Captan, cambian y prestan | 23, clase 3 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de régimen descubierto tarde y de ajuste que perjudica al cliente. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -310,6 +320,8 @@ todavía no existía.
 
 ## 🧪 Práctica
 
+El laboratorio pide determinar el perímetro con sus hechos de diseño y proponer ajustes. El criterio de que el cliente no pierda es lo que valida el ajuste.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Recoge los hechos de diseño del sistema con su fuente.
@@ -318,6 +330,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Propón ajustes de diseño y comprueba que el cliente no pierde.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos que rediseñan tarde. La causa es haber determinado el perímetro después de construir.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

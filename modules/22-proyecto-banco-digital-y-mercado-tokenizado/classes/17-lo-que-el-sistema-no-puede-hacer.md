@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los tipos de límite; los cuatro siguientes, su traducción y su efecto. La **promesa sin evidencia** es lo que hay que retirar: cualquier afirmación del material comercial que no se pueda sostener con una medición se elimina, y enumerar las retiradas da más credibilidad que cualquier fortaleza.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `límite de alcance` | Lo que el sistema no hace |
@@ -168,6 +170,8 @@ Y POR ESO
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo contrasta las promesas del material comercial con la evidencia disponible. Cuatro no se sostienen y se retiran, y esa lista es lo que más peso tiene en la defensa.
+
 **Situación.** El equipo contrasta el material comercial con la evidencia y retira
 lo que no puede sostener.
 
@@ -269,6 +273,8 @@ que habrían generado.
 
 ## 🧭 Perspectivas
 
+Los límites del sistema afectan a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un material más sobrio | Si confía más |
@@ -282,6 +288,8 @@ que habrían generado.
 
 ## 🏦 Del cliente al banco
 
+El cliente lee una promesa y el sistema tiene que poder sostenerla con evidencia. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es totalmente seguro» | Hay un riesgo residual declarado | 23, clase 17 |
@@ -289,6 +297,8 @@ que habrían generado.
 | «Sin intermediarios» | Custodio, banco emisor y corresponsal | 23, clase 17 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de promesas no sostenibles y de límites no declarados. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -301,6 +311,8 @@ que habrían generado.
 
 ## 🧪 Práctica
 
+El laboratorio pide contrastar cada promesa con su evidencia y escribir la sección de límites. Las promesas retiradas son lo que se evalúa.
+
 En [`labs/lab-09.md`](../labs/lab-09.md):
 
 1. Contrasta cada promesa del material con su evidencia.
@@ -309,6 +321,8 @@ En [`labs/lab-09.md`](../labs/lab-09.md):
 4. Escribe los límites de conocimiento y qué implican.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando alguien contrasta el material comercial. Casi todos se evitan retirando lo que no se puede sostener.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

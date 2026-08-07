@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las opciones de tramo de dinero; los cuatro siguientes, su coste de liquidez. El **saldo prefinanciado** es el coste que decide entre las opciones: la que elimina el riesgo de emisor exige inmovilizar dinero, y esa inmovilización se paga todos los días.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tramo de dinero` | El activo con el que se liquida la pata de efectivo |
@@ -166,6 +168,8 @@ NO HAY UNA TERCERA RAMA.
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo compara las cuatro opciones y cierra la cadena de decisiones que la clase 4 dejó abierta. Conviene ver que la conclusión sobre el registro depende por completo de esta elección.
+
 **Situación.** El equipo decide el tramo de dinero para el crédito con colateral y
 comprueba qué pasa con la decisión de la clase 4.
 
@@ -261,6 +265,8 @@ el sistema, sino un registro programable para un componente concreto.
 
 ## 🧭 Perspectivas
 
+El tramo de dinero afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Liquidación el mismo día | — |
@@ -274,6 +280,8 @@ el sistema, sino un registro programable para un componente concreto.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una liquidación y el sistema eligió con qué dinero se liquida y qué riesgo asume. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Liquida al instante» | Con 144 000 inmovilizados | 23, clase 5 |
@@ -281,6 +289,8 @@ el sistema, sino un registro programable para un componente concreto.
 | «Da igual con qué dinero» | Decide si la atomicidad existe | 23, clase 5 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de emisor y de liquidez intradía. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -293,6 +303,8 @@ el sistema, sino un registro programable para un componente concreto.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar las cuatro opciones y cerrar la cadena de decisiones. La cadena cerrada con su fundamento es lo que se evalúa.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Compara las cuatro opciones por riesgo de emisor y coste.
@@ -301,6 +313,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Cierra la decisión de la clase 4 con la cadena completa.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen arquitecturas con atomicidad prometida y no alcanzable. La causa es el dinero fuera del registro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el expediente y su lectura; los cuatro siguientes, la remediación y su vigencia. La **medida provisional** es lo que exige toda remediación: qué se hace mientras dura la corrección, porque el intervalo es donde el cliente está expuesto.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `expediente` | Conjunto ordenado que sostiene la posición |
@@ -158,6 +160,8 @@ problema y no protege de él.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo cruza las cinco parejas críticas del expediente. Los hallazgos no están dentro de ninguna pieza: aparecen al leer dos juntas.
 
 **Situación.** El equipo ensambla las doce piezas del sistema construido y las
 cruza.
@@ -253,6 +257,8 @@ exactamente lo que el cruce existe para detectar.
 
 ## 🧭 Perspectivas
 
+El expediente afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un material que anuncia un producto | Si lo contrata |
@@ -266,6 +272,8 @@ exactamente lo que el cruce existe para detectar.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo ve y su protección depende de que las piezas no se contradigan. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Ofrecen un depósito» | Se excluyó del catálogo | 23, clase 13 |
@@ -273,6 +281,8 @@ exactamente lo que el cruce existe para detectar.
 | «Cada área hizo lo suyo» | Y nadie cruzó las piezas | 23, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de contradicción entre piezas y de afirmaciones sin evidencia. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -285,6 +295,8 @@ exactamente lo que el cruce existe para detectar.
 
 ## 🧪 Práctica
 
+El laboratorio pide cruzar las cinco parejas y priorizar los hallazgos. La medida provisional de cada remediación es parte del entregable.
+
 En [`labs/lab-09.md`](../labs/lab-09.md):
 
 1. Ensambla las doce piezas con su evidencia.
@@ -293,6 +305,8 @@ En [`labs/lab-09.md`](../labs/lab-09.md):
 4. Construye la remediación con su medida provisional.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en una revisión supervisora. Casi todos se evitan cruzando las piezas antes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

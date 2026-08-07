@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el catálogo y su calificación; los cuatro siguientes, la información al cliente y sus límites. El **importe de equilibrio** es la cifra que decide el mínimo: por debajo de él el producto no rinde para el cliente, y ofrecerlo igualmente es una decisión comercial que hay que justificar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `catálogo` | Conjunto de instrumentos ofrecidos |
@@ -162,6 +164,8 @@ demuestra que la información informó
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo califica el catálogo y calcula los importes de equilibrio. Conviene comparar con el mínimo comercial propuesto: casi nunca coinciden.
 
 **Situación.** El equipo define el catálogo para las pymes exportadoras y
 descubre que dos productos no superan el filtro.
@@ -261,6 +265,8 @@ inducido a error a un cliente que no tiene por qué conocer la diferencia.
 
 ## 🧭 Perspectivas
 
+El catálogo afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Seis productos en el catálogo | Cuál contrata |
@@ -274,6 +280,8 @@ inducido a error a un cliente que no tiene por qué conocer la diferencia.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve productos y el sistema asume un régimen por cada uno. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es un depósito» | Sin garantía de depósitos detrás | 23, clase 6 |
@@ -281,6 +289,8 @@ inducido a error a un cliente que no tiene por qué conocer la diferencia.
 | «Desde cualquier importe» | Por debajo de 16 000 no cubre su coste | 23, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de calificación y de comprensión efectiva. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -293,6 +303,8 @@ inducido a error a un cliente que no tiene por qué conocer la diferencia.
 
 ## 🧪 Práctica
 
+El laboratorio pide calificar el catálogo y calcular los importes de equilibrio. El producto excluido con su razón es parte del entregable.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Califica cada producto del catálogo con los cuatro criterios.
@@ -301,6 +313,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Redacta la información precontractual con las cuatro preguntas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen catálogos con problemas. Las causas son calificaciones por nombre e importes mínimos fijados por marketing.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

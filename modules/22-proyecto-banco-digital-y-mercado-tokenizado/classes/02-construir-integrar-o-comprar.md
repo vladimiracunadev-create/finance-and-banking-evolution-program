@@ -66,6 +66,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la clasificación del componente; los cuatro siguientes, el coste total y la dependencia. La **estrategia de salida** es lo que decide el análisis: sin salida real, integrar deja de ser una decisión de coste y pasa a ser una dependencia estructural.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `componente crítico` | Aquel cuyo fallo detiene el servicio |
@@ -195,6 +197,8 @@ opción más segura
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo decide sobre cuatro componentes con el coste total y la salida. En dos de ellos la salida cambia la decisión que sugería el coste.
 
 **Situación.** El equipo decide para las cuatro funciones del alcance. Hay que
 comparar construir e integrar con coste total, incluida la salida.
@@ -337,6 +341,8 @@ eso lo convierte en una dependencia estructural si se integra.
 
 ## 🧭 Perspectivas
 
+La decisión de construir o integrar afecta a cada actor de forma distinta, incluido el sector. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un servicio que funciona | — |
@@ -350,6 +356,8 @@ eso lo convierte en una dependencia estructural si se integra.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un servicio y el sistema depende de proveedores que también sirven a sus competidores. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Lo hacen ellos mismos» | Cinco de siete están integrados | 23, clase 2 |
@@ -357,6 +365,8 @@ eso lo convierte en una dependencia estructural si se integra.
 | «Es responsabilidad del proveedor» | La responsabilidad no se delega | 23, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de bloqueo de proveedor y de concentración del sector. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -369,6 +379,8 @@ eso lo convierte en una dependencia estructural si se integra.
 
 ## 🧪 Práctica
 
+El laboratorio pide decidir sobre cuatro componentes con el marco completo. El componente sin salida es el que decide el ejercicio.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Clasifica cada componente por diferenciación y madurez del proveedor.
@@ -377,6 +389,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Aplica las cuatro preguntas de salida a cada integración.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones que salieron caras. La causa es el coste de salida no calculado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

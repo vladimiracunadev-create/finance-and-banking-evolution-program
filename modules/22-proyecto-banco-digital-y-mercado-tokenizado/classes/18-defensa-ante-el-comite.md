@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la defensa y su preparación; los cuatro siguientes, la objeción y el cierre. El **reconocimiento** es lo que sostiene toda la defensa: decir con precisión qué no se sabe y qué no se ha probado da más credibilidad que responder a todo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `defensa` | Capacidad de sostener el expediente ante preguntas |
@@ -161,6 +163,8 @@ de la alternativa que se descartó
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo responde a las siete preguntas previsibles del comité. Conviene fijarse en la respuesta sobre los límites: es la que decide la sesión.
 
 **Situación.** El equipo defiende el sistema ante un comité con un supervisor
 invitado. Se recogen las respuestas a las siete preguntas.
@@ -269,6 +273,8 @@ su propio material antes de que se lo pidieran.
 
 ## 🧭 Perspectivas
 
+La defensa reúne a todos los actores de las diecisiete clases anteriores. La tabla los recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un material más sobrio y cierto | Si contrata |
@@ -282,6 +288,8 @@ su propio material antes de que se lo pidieran.
 
 ## 🏦 Del cliente al banco
 
+El cliente vive el resultado de estas decisiones y el comité las aprueba o no. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Está todo aprobado» | Con condiciones y revisión a 6 meses | 23, clase 18 |
@@ -289,6 +297,8 @@ su propio material antes de que se lo pidieran.
 | «No tienen problemas» | Un hallazgo con medida provisional | 23, clase 18 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de respuestas sin dato y de objeciones no anticipadas. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -301,6 +311,8 @@ su propio material antes de que se lo pidieran.
 
 ## 🧪 Práctica
 
+El laboratorio pide preparar las siete respuestas con su evidencia. La condición de revisión que se acepte es parte del entregable.
+
 En [`labs/lab-09.md`](../labs/lab-09.md):
 
 1. Prepara la respuesta a las siete preguntas con su evidencia.
@@ -309,6 +321,8 @@ En [`labs/lab-09.md`](../labs/lab-09.md):
 4. Redacta la propuesta con sus condiciones de revisión.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa. Casi todos se evitan anticipando las preguntas, que salen del propio expediente.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

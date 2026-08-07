@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el plan y sus piezas; los cuatro siguientes, sus plazos y su prueba. La **prueba de traspaso** es lo que separa un plan real de un documento: traspasar un subconjunto de clientes y medir el plazo que de verdad tarda.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `resolución ordenada` | Cese sin daño desproporcionado al cliente |
@@ -154,6 +156,8 @@ y por los mismos canales por los que opera
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diseña el plan de resolución y lo prueba con cuarenta clientes. El plazo medido y el declarado difieren, y las incidencias de formato son las que habrían costado semanas.
 
 **Situación.** El equipo diseña el plan de resolución y lo prueba con un
 subconjunto de clientes.
@@ -247,6 +251,8 @@ estuviera bien redactado.
 
 ## 🧭 Perspectivas
 
+La resolución afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Su dinero en un cese | Si confía en el plazo |
@@ -260,6 +266,8 @@ estuviera bien redactado.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere recuperar lo suyo y el sistema tiene un plan con plazos y prelación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «¿Y si cierran?» | 30 días y el 100 %, acreditado | 23, clase 16 |
@@ -267,6 +275,8 @@ estuviera bien redactado.
 | «Me avisarán» | En 24 horas, con texto ya escrito | 23, clase 16 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de plan no probado y de prelación no definida. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -279,6 +289,8 @@ estuviera bien redactado.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar el plan y ejecutar la prueba de traspaso. El plazo medido es lo que se evalúa, no el declarado.
+
 En [`labs/lab-09.md`](../labs/lab-09.md):
 
 1. Determina qué recupera cada tipo de posición y en qué plazo.
@@ -287,6 +299,8 @@ En [`labs/lab-09.md`](../labs/lab-09.md):
 4. Redacta la comunicación y apruébala antes de necesitarla.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resoluciones que no funcionan. La causa es el plan no probado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

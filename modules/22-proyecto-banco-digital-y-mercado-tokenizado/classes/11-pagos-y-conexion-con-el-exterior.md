@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los cuatro flujos de un pago, que se mueven a ritmos distintos; los cuatro siguientes, sus tramos y sus controles. El **resto no identificable** es el problema operativo que ningún diseño elimina: siempre hay pagos que llegan sin referencia y hay que decidir qué se hace con ellos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `flujo de mensaje` | La instrucción que viaja |
@@ -160,6 +162,8 @@ Y PROHIBIRLO TODO NO ES LA SOLUCIÓN
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo modela los cuatro flujos de un pago por separado. Conviene ver dónde se desincronizan: el asiento contable no puede ir con el mensaje.
+
 **Situación.** El equipo diseña la ruta de pagos transfronterizos para las pymes
 exportadoras y calibra el screening.
 
@@ -250,6 +254,8 @@ ahorraba más que cualquier negociación de precio.
 
 ## 🧭 Perspectivas
 
+Los pagos con el exterior afectan a cada actor de forma distinta, y varios de ellos solo ven uno de los cuatro flujos. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un pago que tarda dos días | Si acepta |
@@ -263,6 +269,8 @@ ahorraba más que cualquier negociación de precio.
 
 ## 🏦 Del cliente al banco
 
+El cliente envía dinero al exterior y el sistema coordina cuatro flujos con tramos distintos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Ya me llegó el aviso» | El aviso no son los fondos | 23, clase 11 |
@@ -270,6 +278,8 @@ ahorraba más que cualquier negociación de precio.
 | «Me piden datos del destino» | La regla del viaje lo exige | 23, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de desincronización y de cumplimiento. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -282,6 +292,8 @@ ahorraba más que cualquier negociación de precio.
 
 ## 🧪 Práctica
 
+El laboratorio pide modelar los cuatro flujos y resolver el resto no identificable. El procedimiento para lo no identificable es lo que se evalúa.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Modela los cuatro flujos con su momento y su fallo.
@@ -290,6 +302,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Diseña el tratamiento por tramos del resto no identificable.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pagos con problemas contables o de cumplimiento. La causa es haber tratado los cuatro flujos como uno.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

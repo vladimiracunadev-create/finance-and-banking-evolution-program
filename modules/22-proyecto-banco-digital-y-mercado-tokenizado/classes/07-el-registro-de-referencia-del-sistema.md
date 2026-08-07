@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el registro y su divergencia; los cuatro siguientes, los mecanismos que la resuelven. La **conciliación a tres bandas** es la que exige este sistema: hay tres registros —el propio, el del custodio y el del banco emisor— y conciliar dos de ellos no basta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `registro de referencia` | Aquel cuya versión prevalece |
@@ -156,6 +158,8 @@ Y EL DISEÑO QUE LO PERMITE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo decide el registro de referencia de cada dato y calcula la ventana con la distribución real. Conviene usar el cliente más activo y no la media.
 
 **Situación.** El equipo determina el registro de referencia de cada dato y
 calcula la ventana de conciliación.
@@ -257,6 +261,8 @@ el cliente más activo**. La atomicidad se demostró con cinco pruebas, y la qui
 
 ## 🧭 Perspectivas
 
+El registro de referencia afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un saldo que cuadra | — |
@@ -270,6 +276,8 @@ el cliente más activo**. La atomicidad se demostró con cinco pruebas, y la qui
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un saldo y el sistema sabe cuál de los tres registros manda en él. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El saldo es el que veo» | Puede estar en conciliación | 23, clase 7 |
@@ -277,6 +285,8 @@ el cliente más activo**. La atomicidad se demostró con cinco pruebas, y la qui
 | «Nunca hay diferencias» | Hay procedimiento por si las hay | 23, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de divergencia y de autoridad de resolución no definida. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -289,6 +299,8 @@ el cliente más activo**. La atomicidad se demostró con cinco pruebas, y la qui
 
 ## 🧪 Práctica
 
+El laboratorio pide decidir el registro de referencia por dato y calcular la ventana. El bloqueo de origen es la corrección que se evalúa.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Determina el registro de referencia de cada dato del sistema.
@@ -297,6 +309,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Ejecuta las cinco pruebas de atomicidad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen divergencias entre registros. La causa es la ventana calculada con la media.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

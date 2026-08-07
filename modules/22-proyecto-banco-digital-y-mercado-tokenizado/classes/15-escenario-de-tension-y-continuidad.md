@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el escenario y su punto de rotura; los cuatro siguientes, la degradación y su prueba. El **efecto combinado** es lo que hace útil el escenario: no son varios fallos independientes sino un proveedor con varios papeles cuyo fallo alcanza a todos a la vez.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `escenario de tensión` | Combinación adversa plausible |
@@ -147,6 +149,8 @@ Y EL INFORME DICE CUÁL SE EJECUTÓ
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el escenario desde la fuente de correlación y mide el punto de rotura. Conviene calcular a cuántas desviaciones está de un día normal: por debajo de tres no es un escenario adverso.
 
 **Situación.** El equipo diseña el escenario que rompe su sistema y lo ejecuta.
 
@@ -243,6 +247,8 @@ solo día de interrupción.
 
 ## 🧭 Perspectivas
 
+El escenario afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un pago que no sale | Si se va |
@@ -256,6 +262,8 @@ solo día de interrupción.
 
 ## 🏦 Del cliente al banco
 
+El cliente no puede operar y el sistema mide si superó su tolerancia. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Todo funcionaba bien» | Hasta que un proveedor hizo tres papeles | 23, clase 15 |
@@ -263,6 +271,8 @@ solo día de interrupción.
 | «Tenemos plan B» | Sin acuerdo firmado no es un plan | 23, clase 15 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de correlación no identificada y de nivel de prueba no declarado. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -275,6 +285,8 @@ solo día de interrupción.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el escenario y medir el punto de rotura. El nivel de prueba declarado es lo que se evalúa.
+
 En [`labs/lab-08.md`](../labs/lab-08.md):
 
 1. Identifica la fuente de correlación de tu sistema.
@@ -283,6 +295,8 @@ En [`labs/lab-08.md`](../labs/lab-08.md):
 4. Ejecuta el plan y declara el nivel de prueba alcanzado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pruebas de continuidad que no informan. Las causas son escenarios que el sistema aguanta y niveles no declarados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

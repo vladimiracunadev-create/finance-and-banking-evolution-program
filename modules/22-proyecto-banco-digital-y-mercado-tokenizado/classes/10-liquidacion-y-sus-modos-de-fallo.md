@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la atomicidad y su prueba; los cuatro siguientes, los riesgos que no elimina. El **fallo del ciclo** es el modo que nadie prueba: no falla una parte, falla el registro entero, y el sistema tiene que rechazar sin tocar nada.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `atomicidad` | Todos los movimientos ocurren o ninguno |
@@ -154,6 +156,8 @@ LA 5 ES LA QUE NADIE ESCRIBE
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo somete el liquidador a sus cinco modos de fallo. La quinta prueba —el registro detenido— es la que casi nadie escribe y la que más se activa.
+
 **Situación.** El equipo implementa la liquidación del colateral y calcula el
 ahorro neto.
 
@@ -235,6 +239,8 @@ momento— en vez de inflar el argumento de riesgo.
 
 ## 🧭 Perspectivas
 
+La liquidación afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Su garantía liberada al instante | Si lo valora |
@@ -248,6 +254,8 @@ momento— en vez de inflar el argumento de riesgo.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una operación y el sistema elimina o no el riesgo de principal. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es atómico, no hay riesgo» | Elimina uno de cinco | 23, clase 10 |
@@ -255,6 +263,8 @@ momento— en vez de inflar el argumento de riesgo.
 | «Nunca falla» | Y si falla el ciclo, fallan las 18 | 23, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos residuales son de reemplazo, de emisor y de ciclo. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -267,6 +277,8 @@ momento— en vez de inflar el argumento de riesgo.
 
 ## 🧪 Práctica
 
+El laboratorio pide probar los cinco modos de fallo y calcular el ahorro neto. El ahorro tras restar liquidez y fallo del ciclo es mucho menor de lo esperado.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Implementa la liquidación con rechazo previo al bloqueo.
@@ -275,6 +287,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Dimensiona el fallo del ciclo y corrige el ahorro.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen liquidaciones con estado intermedio. La causa es bloquear antes de verificar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

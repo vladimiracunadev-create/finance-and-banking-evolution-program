@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la amenaza y su control; los cuatro siguientes, el criterio de priorización y el riesgo que queda. El **atacante racional** es el criterio que reordena las prioridades: no se protege lo más sofisticado sino donde hay más valor detrás del control más débil.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `amenaza` | Lo que alguien podría intentar |
@@ -159,6 +161,8 @@ UN RIESGO EN UNA DECISIÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo prioriza las amenazas del sistema con el criterio racional. El orden que sale no es el que sugiere la sofisticación técnica.
 
 **Situación.** El equipo construye la matriz y encuentra que el punto más barato
 para un atacante no es el más protegido.
@@ -257,6 +261,8 @@ que ya estaba bien.
 
 ## 🧭 Perspectivas
 
+Las amenazas afectan a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una autenticación más estricta | Si la acepta |
@@ -270,6 +276,8 @@ que ya estaba bien.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en el sistema y el sistema se defiende donde el atacante atacaría. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Usan criptografía fuerte» | Y el punto débil es la autenticación | 23, clase 14 |
@@ -277,6 +285,8 @@ que ya estaba bien.
 | «Nunca ha pasado» | La prueba demuestra que el control funciona | 23, clase 14 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de priorización equivocada y de controles sin prueba. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -289,6 +299,8 @@ que ya estaba bien.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir la matriz de amenazas y asociar una prueba a cada control. Los controles sin prueba son lo que se busca.
+
 En [`labs/lab-07.md`](../labs/lab-07.md):
 
 1. Construye la matriz de componentes por actores.
@@ -297,6 +309,8 @@ En [`labs/lab-07.md`](../labs/lab-07.md):
 4. Declara el riesgo residual con sus cinco elementos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen sistemas atacados por el punto más barato. La causa es haber priorizado por sofisticación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

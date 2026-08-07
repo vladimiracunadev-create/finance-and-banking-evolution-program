@@ -31,7 +31,7 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 17.6 KB |
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 17.8 KB |
 | 22 | Parte 22: Regulación de mercados financieros digitales | 18 | 18 | `████████████████████` | 17.7 KB |
-| 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 13.1 KB |
+| 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 14.1 KB |
 | | **Total** | **352** | **352** | `████████████████████` | **18.0 KB** |
 
 ## Qué significa que una clase esté completa

@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el esquema de claves y su recuperación; los cuatro siguientes, la custodia delegada y su protección jurídica. La **no pignoración** es la cláusula que decide en un concurso, y su ausencia es el hallazgo más caro de todo el capstone.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `independencia efectiva` | Guardianes que un evento no tumba a la vez |
@@ -157,6 +159,8 @@ EXPECTATIVA
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo mide la independencia efectiva de un esquema y revisa las tres cláusulas del custodio. El hallazgo mayor no está en la criptografía sino en el contrato.
+
 **Situación.** El equipo diseña el esquema de claves del registro y verifica la
 custodia delegada del colateral.
 
@@ -246,6 +250,8 @@ claves: estaba en una cláusula ausente del contrato de custodia que valía
 
 ## 🧭 Perspectivas
 
+La custodia afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Su colateral custodiado | Si confía |
@@ -259,6 +265,8 @@ claves: estaba en una cláusula ausente del contrato de custodia que valía
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que su colateral es suyo y eso depende de una cláusula. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es 3 de 5, es seguro» | La independencia efectiva era 1 | 23, clase 9 |
@@ -266,6 +274,8 @@ claves: estaba en una cláusula ausente del contrato de custodia que valía
 | «Está todo verificado» | No había verificación independiente | 23, clase 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de concentración de claves y de segregación no pactada. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -278,6 +288,8 @@ claves: estaba en una cláusula ausente del contrato de custodia que valía
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la independencia efectiva y verificar las tres cláusulas. La cuantificación de la exposición es lo que convierte el hallazgo en decisión.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Mide la independencia efectiva del esquema propuesto.
@@ -286,6 +298,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Verifica las tres cláusulas del contrato de custodia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas de activos custodiados. Las causas son independencia efectiva de uno y cláusulas ausentes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

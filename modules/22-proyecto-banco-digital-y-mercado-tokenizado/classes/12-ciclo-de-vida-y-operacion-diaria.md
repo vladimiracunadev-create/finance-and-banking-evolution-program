@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el ciclo diario y sus eventos; los cuatro siguientes, lo que no se puede programar y lo que aparece al integrar. La **tensión de diseño** es lo que esta clase revela y lo que justifica el capstone entero: dos decisiones correctas por separado que se contradicen al operar juntas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ciclo diario` | Secuencia de hitos de una jornada operativa |
@@ -156,6 +158,8 @@ elección esté cuantificada y declarada
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo opera el sistema durante un día con seis incidencias. Conviene anotar cada contradicción que aparece: son las tensiones que la clase 13 tendrá que declarar.
 
 **Situación.** El equipo simula un día completo y encuentra tres tensiones.
 
@@ -250,6 +254,8 @@ la resolución exigió cambiar un parámetro de riesgo que ya estaba aprobado.
 
 ## 🧭 Perspectivas
 
+El ciclo diario afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un interés que no llega | Si reclama |
@@ -263,6 +269,8 @@ la resolución exigió cambiar un parámetro de riesgo que ya estaba aprobado.
 
 ## 🏦 Del cliente al banco
 
+El cliente espera que todo funcione y el sistema resuelve seis incidencias con decisiones que se estorban. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «No llegó el interés» | No se pagó a nadie: faltaban 1 500 | 23, clase 12 |
@@ -270,6 +278,8 @@ la resolución exigió cambiar un parámetro de riesgo que ya estaba aprobado.
 | «Tardó 40 minutos» | La cola se ejecutó al restablecerse | 23, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de eventos no programables y de tensiones no declaradas. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -282,6 +292,8 @@ la resolución exigió cambiar un parámetro de riesgo que ya estaba aprobado.
 
 ## 🧪 Práctica
 
+El laboratorio pide operar un día completo y declarar las tensiones. Cada tensión con su sacrificio cuantificado es lo que se evalúa.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Diseña el ciclo diario con sus hitos y su corte.
@@ -290,6 +302,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Identifica y cuantifica las tensiones de diseño.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen sistemas que fallan en la operación diaria. La causa es haber diseñado solo el día uno.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
