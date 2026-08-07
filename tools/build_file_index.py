@@ -93,7 +93,7 @@ PORTADA = """<!-- portada:inicio -->
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
 [![archivos](https://img.shields.io/badge/archivos-{total}-7c5cff?style=flat-square)](FILE_INDEX.md)
-[![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](tools/build_file_index.py)
+[![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
 [🏠 Inicio](README.md) ·

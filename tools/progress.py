@@ -64,7 +64,7 @@ PORTADA = """<!-- portada:inicio -->
 
 **Lo que hay en el repositorio ahora mismo, contado archivo por archivo. No lo que se planea.**
 
-[![generado por](https://img.shields.io/badge/generado%20por-progress.py-007c83?style=flat-square)](tools/progress.py)
+[![generado por](https://img.shields.io/badge/generado%20por-progress.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/progress.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
 [🏠 Inicio](README.md) ·

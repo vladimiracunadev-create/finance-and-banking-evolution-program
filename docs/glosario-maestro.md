@@ -7,7 +7,7 @@
 
 [![terminos](https://img.shields.io/badge/t%C3%A9rminos-2175-7c5cff?style=flat-square)](glosario-maestro.md)
 [![transversales](https://img.shields.io/badge/transversales-74%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
-[![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](../tools/build_glossary.py)
+[![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_glossary.py)
 
 [⬅️ Documentación](README.md) ·
 [🏠 Inicio](../README.md) ·

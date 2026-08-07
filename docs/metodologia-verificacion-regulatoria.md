@@ -6,7 +6,7 @@
 **Cómo se cita una norma, cómo se comprueba que sigue vigente y qué se hace cuando no se puede.**
 
 [![aplica a](https://img.shields.io/badge/aplica%20a-8%20fichas%20normativas-7c5cff?style=flat-square)](../regulatory/README.md)
-[![validador](https://img.shields.io/badge/validador-validate__metadata.py-2e8b57?style=flat-square)](../tools/validate_metadata.py)
+[![validador](https://img.shields.io/badge/validador-validate__metadata.py-2e8b57?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/validate_metadata.py)
 
 [⬅️ Documentación](README.md) ·
 [🏠 Inicio](../README.md) ·
