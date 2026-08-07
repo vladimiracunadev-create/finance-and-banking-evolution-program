@@ -184,6 +184,9 @@ FASES
 | Discrepancia entre lo declarado y lo verificado | El hallazgo más grave de todos |
 | Discrepancia técnica fundada | Legítima; se incorpora al expediente |
 
+De todos los desenlaces posibles de una inspección hay uno que no se corrige
+con un plan de acción.
+
 ```text
 EL PEOR HALLAZGO POSIBLE
   no es una deficiencia grave:

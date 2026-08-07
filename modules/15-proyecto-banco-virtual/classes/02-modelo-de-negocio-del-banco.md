@@ -133,6 +133,9 @@ Los segmentos se eligen por rentabilidad esperada y por capacidad de servir. La 
 | Microempresa informal | Grande | Baja, alto riesgo | Metodología específica | Parcial |
 | Empresa mediana y grande | Rentable | Muy alta | Capital, equipos, capacidad | No |
 
+De ese análisis salen dos segmentos objetivo, con su tamaño de mercado y su
+meta a tres años.
+
 ```text
 SEGMENTOS OBJETIVO DEL BANCO AUSTRAL
 
@@ -219,6 +222,9 @@ Cada renuncia tiene un costo en ingreso que hay que declarar. El procedimiento l
 | Comercio exterior | Ingreso estimado 620 anuales | Escala insuficiente para la especialización |
 | Derivados y coberturas | Ingreso estimado 340 anuales | Riesgo y capacidad |
 | Tarjeta de crédito propia | Ingreso estimado 1 900 anuales | Inversión y riesgo en un banco nuevo |
+
+Sumado el costo de todas las renuncias, la cifra resulta alta, y por eso hay
+que decir también que se compra con ella.
 
 ```text
 COSTO TOTAL DE LAS RENUNCIAS: 10 060 anuales de ingreso

@@ -120,6 +120,9 @@ pérdida esperada = PD × LGD × EAD
 | LGD | Proporción perdida | Recuperaciones históricas descontadas |
 | EAD | Exposición al momento | Saldo + uso esperado de líneas |
 
+Con los tres componentes estimados para una cartera concreta, la pérdida
+esperada se obtiene multiplicándolos.
+
 ```text
 ejemplo:
   cartera de consumo de 100 000 millones

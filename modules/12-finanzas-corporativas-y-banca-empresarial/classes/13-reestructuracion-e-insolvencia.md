@@ -141,6 +141,9 @@ Las alternativas de reestructuración tienen efectos distintos sobre el acreedor
 | Venta de la empresa | Transfiere a quien pueda operarla | Hay comprador |
 | Liquidación ordenada | Realiza activos por orden | No hay viabilidad |
 
+Todas esas alternativas tropiezan con el mismo obstaculo, y su solución es lo
+que hace viable cualquier reestructuración.
+
 ```text
 EL DINERO NUEVO ES EL PROBLEMA CENTRAL
   la empresa necesita caja para ejecutar el plan

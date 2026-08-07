@@ -118,6 +118,9 @@ LA PREGUNTA QUE DECIDE TODO
 | Uso típico | Mayorista, importes altos | Minorista, alto volumen |
 | Qué pasa si un participante falla | Solo su operación no ocurre | Puede deshacerse el ciclo entero |
 
+La elección entre ambos modelos responde a un compromiso que atraviesa el
+diseno de cualquier sistema de pagos.
+
 ```text
 EL COMPROMISO CENTRAL DE LOS SISTEMAS DE PAGO
   LIQUIDEZ  ⟷  RIESGO

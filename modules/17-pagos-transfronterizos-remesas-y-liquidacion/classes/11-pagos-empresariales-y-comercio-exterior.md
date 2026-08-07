@@ -117,6 +117,9 @@ EL COSTE SIGUE EL MISMO EJE, AL REVÉS
 | Cobranza documentaria | Medio | Medio | Medio | Relación en construcción |
 | Cuenta abierta | Alto | Ninguno | Muy bajo | Relación consolidada |
 
+Pese a lo que sugiere la tabla, el instrumento más usado en el comercio
+mundial es el que menos protege al exportador.
+
 ```text
 LA MAYOR PARTE DEL COMERCIO MUNDIAL
 SE HACE EN CUENTA ABIERTA

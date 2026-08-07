@@ -153,6 +153,9 @@ Cada nivel de riesgo exige controles concretos. La tabla los recoge.
 | Supervisión humana significativa | Automatización sin responsable |
 | Plan de reversión | Falla sin alternativa |
 
+El último de esos controles es el que más se declara y menos se cumple, porque
+exige condiciones que rara vez se dan.
+
 ```text
 SUPERVISIÓN HUMANA SIGNIFICATIVA
   no basta con que una persona apruebe la salida del sistema

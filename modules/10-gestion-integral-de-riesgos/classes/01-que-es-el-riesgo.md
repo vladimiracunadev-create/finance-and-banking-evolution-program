@@ -140,6 +140,9 @@ Un apetito de riesgo no es una declaración de intenciones. Es un conjunto de l�
 | Operacional | «Minimizar incidentes» | Pérdida operacional anual ≤ 0,9 % de ingresos operativos |
 | Conducta | «Actuar con integridad» | Reclamos fundados ≤ 1,2 por cada 1 000 clientes |
 
+Lo que separa la columna buena de la mala es un conjunto de elementos que todo
+límite debe traer consigo para poder aplicarse.
+
 ```text
 CADA LÍMITE NECESITA
   · métrica definida y calculable

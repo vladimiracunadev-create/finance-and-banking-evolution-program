@@ -209,6 +209,9 @@ La mitigación se puede aplicar antes, durante o después del entrenamiento. La 
 | Después | Revisión humana de los rechazos del grupo afectado | Corrige casos, no el modelo |
 | Proceso | Datos alternativos que amplíen la información | Reduce el rechazo por desconocimiento |
 
+Ninguna de esas técnicas es gratuita, y presentar el resultado como si lo
+fuera es la forma más común de eludir la decisión.
+
 ```text
 EL INTERCAMBIO ES REAL
   toda restricción de equidad reduce el poder predictivo

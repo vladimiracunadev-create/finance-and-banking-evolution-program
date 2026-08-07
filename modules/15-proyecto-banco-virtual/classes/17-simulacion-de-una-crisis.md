@@ -155,6 +155,9 @@ El tablero de crisis es distinto del ordinario: menos indicadores y mayor frecue
 | Menciones públicas y su tono | Horaria | Comunicación |
 | Disponibilidad de sistemas | Continua | Tecnología |
 
+De todas las metricas del tablero, una se mueve antes que las demás y es la
+unica que concede margen de reacción.
+
 ```text
 LA MÉTRICA MÁS PREDICTIVA EN UNA CORRIDA DIGITAL
   el volumen de consultas y su tema

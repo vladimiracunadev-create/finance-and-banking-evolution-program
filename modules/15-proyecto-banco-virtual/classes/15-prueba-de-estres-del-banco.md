@@ -226,6 +226,9 @@ Las acciones supuestas tienen que ser creíbles y ejecutables en el escenario. L
 | Aporte de los accionistas | Capital | Media (comprometido hasta 12 000) |
 | Venta de cartera | Capital y liquidez | Baja en estrés |
 
+De todas esas acciones, una es determinante y su viabilidad depende de algo
+que el banco no controla.
+
 ```text
 EL COMPROMISO DE APORTE DE LOS ACCIONISTAS (clase 3)
 ES LA ACCIÓN DECISIVA

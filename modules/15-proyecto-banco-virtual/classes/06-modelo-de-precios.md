@@ -262,6 +262,9 @@ Las comisiones se estructuran con criterio de costo y de conducta. La tabla las 
 | Apertura de crédito | — | 0: no se cobra |
 | Prepago | — | 0: no se cobra |
 
+Una de esas comisiones merece un tratamiento aparte, porque es la que más dano
+puede causar si se disena mal.
+
 ```text
 LA COMISIÓN DE MORA MERECE ATENCIÓN
   su costo real: gestión de contacto temprano

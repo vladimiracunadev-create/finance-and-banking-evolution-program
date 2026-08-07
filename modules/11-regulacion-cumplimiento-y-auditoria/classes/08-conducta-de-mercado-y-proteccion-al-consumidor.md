@@ -104,6 +104,9 @@ El riesgo de conducta produce pérdidas por dos vías, y la reputacional suele s
 | Se mide con | Reclamos fundados, compensaciones, sanciones | Fuga, costo de financiamiento |
 | Se gestiona con | Producto, proceso, incentivos | Comunicación y, sobre todo, conducta |
 
+Los dos riesgos no son independientes: uno es la manifestación publica del
+otro, y eso determina cual hay que gestionar.
+
 ```text
 LA RELACIÓN ENTRE AMBOS
   el riesgo reputacional es la CONSECUENCIA del de conducta
@@ -152,6 +155,9 @@ Las dos pruebas se aplican en situaciones distintas y exigen cosas distintas. La
 | Cuándo se exige | Productos complejos, venta sin asesoría | Asesoría y gestión de carteras |
 | Si el resultado es negativo | Advertencia; puede continuar bajo su responsabilidad | No se debe recomendar |
 
+Ambas evaluaciones se endurecen cuando el cliente se encuentra en una
+situación que limita su capacidad de decidir.
+
 ```text
 CLIENTES VULNERABLES — la evaluación se refuerza
   · edad avanzada con signos de deterioro cognitivo
@@ -177,6 +183,9 @@ Las prácticas indebidas están tipificadas y son reconocibles. La tabla las rec
 | Cargos por defecto | Servicios activados sin solicitud expresa | Reclamos concentrados en un cargo |
 | Información deficiente | Costo total no comparable | Diferencia entre lo entendido y lo contratado |
 | Barreras de salida | Cancelar es más difícil que contratar | Asimetría de canal |
+
+Varias de esas prácticas se detectan con un solo dato, que resume en un
+porcentaje si el producto transfiere riesgo o solo dinero.
 
 ```text
 INDICADOR MÁS POTENTE: LA TASA DE SINIESTRALIDAD DE UN SEGURO

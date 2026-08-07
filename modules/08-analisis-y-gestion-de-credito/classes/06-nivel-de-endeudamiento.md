@@ -164,6 +164,9 @@ Ponderación según la situación del deudor principal:
 | En mora significativa | 100 % |
 | Sin información | 50 % |
 
+A la ponderación según la situación del avalado se añaden tres factores
+adicionales, que pueden agravarla o atenuarla.
+
 ```text
 además, se evalúa:
   · el número de avales otorgados (concentración)
@@ -189,6 +192,9 @@ cobertura de garantías = deuda con garantía / deuda total
 | Carga financiera | < 30 % | 30–40 % | 40–50 % | > 50 % |
 | Composición cara | < 15 % | 15–30 % | 30–50 % | > 50 % |
 
+Aplicados al caso construido en la primera sección, los indicadores sitúan al
+solicitante en zonas distintas según qué dimensión se mire.
+
 ```text
 del ejemplo anterior, con renta anual de 28 800 000:
   endeudamiento relativo = 16 050 000/28 800 000 = 0,56×  → sano en tamaño
@@ -211,6 +217,9 @@ Antes de que los indicadores se disparen hay patrones reconocibles en el comport
 | Consultas frecuentes al informe de deudas | Solicitudes múltiples simultáneas |
 | Migración de deuda bancaria a no bancaria | Pérdida de acceso al crédito formal |
 | Cuotas que crecen más rápido que la renta | Trayectoria insostenible |
+
+Ningún patrón aislado prueba nada; lo que dispara la alerta es su acumulación
+en un mismo cliente.
 
 ```text
 señal compuesta de alerta:

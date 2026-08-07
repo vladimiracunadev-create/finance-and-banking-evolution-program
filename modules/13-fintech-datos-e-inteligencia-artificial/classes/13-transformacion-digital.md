@@ -170,6 +170,9 @@ ESTRATEGIAS DE MIGRACIÓN
 | Desacoplamiento progresivo | 3–6 años | Medio | Sí |
 | Envoltura | 1–2 años | Bajo | No |
 
+En la práctica las estrategias no se eligen en exclusiva: se combinan dos de
+ellas por razones de plazo.
+
 ```text
 LA COMBINACIÓN HABITUAL Y RAZONABLE
   envoltura para ganar velocidad ahora
@@ -249,6 +252,9 @@ La transformación se mide con indicadores de resultado y no de actividad. La ta
 | Aplicaciones migradas | Incidentes en producción por cambio |
 | Usuarios registrados | Usuarios activos que completan operaciones |
 | Reuniones de gobierno | Decisiones tomadas por semana |
+
+De la columna derecha hay cuatro indicadores que resisten cualquier intento de
+maquillaje, porque miden la capacidad de entrega en si misma.
 
 ```text
 LOS CUATRO INDICADORES QUE NO SE PUEDEN SIMULAR

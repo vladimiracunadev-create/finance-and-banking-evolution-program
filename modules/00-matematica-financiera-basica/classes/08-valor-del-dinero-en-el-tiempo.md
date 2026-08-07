@@ -152,6 +152,9 @@ Mismo caso, fecha focal en `t = 0`:
 | +250 | 4 | `÷ 1,10⁴` | +170,75 |
 | | | **Total** | **+43,78** |
 
+La comprobación consiste en llevar el resultado a otra fecha y verificar que
+coincide con lo calculado por el otro camino.
+
 ```text
 43,78 × 1,10⁴ = 64,10   ✔
 ```

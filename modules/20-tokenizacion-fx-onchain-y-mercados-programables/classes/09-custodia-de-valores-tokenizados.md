@@ -115,6 +115,9 @@ LA SEGUNDA ES LA QUE SE OLVIDA
 | Fecha de corte | El custodio reparte | El registro fija |
 | Error de conciliación | Afecta al conjunto | Afecta a un titular |
 
+La comparación cambia de sentido con un registro programable, y esa es una de
+las ventajas reales de tokenizar.
+
 ```text
 LA TOKENIZACIÓN HACE BARATA LA SEGREGADA
   y esa es una ventaja real y poco citada:

@@ -204,6 +204,9 @@ PROVISIÓN = EAD × PD (del horizonte) × LGD × factor de descuento
 | E2 | 3 | 3 % | 100 % | 46,3 % | 3 411 |
 | E3 | 1 | 100 % | 0,40 % | 35,0 % | 5 |
 
+Sumadas las provisiones de todos los productos aparece una distinción que
+conviene fijar antes de leer el estado de resultados.
+
 ```text
 PROVISIÓN TOTAL: 20 954
 sobre cartera bruta de 335 971: 6,24 %

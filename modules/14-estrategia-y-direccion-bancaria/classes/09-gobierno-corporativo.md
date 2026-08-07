@@ -142,6 +142,9 @@ La composición decide la calidad de la supervisión, y tiene requisitos. La tab
 | Dedicación | Tiempo suficiente para preparar y participar | Múltiples cargos simultáneos |
 | Renovación | Incorporación periódica | Permanencias muy largas sin renovación |
 
+De todos los criterios de composición, hay dos competencias que faltan
+sistematicamente y que son justo las que más se necesitan.
+
 ```text
 LA COMPETENCIA QUE MÁS FALTA EN LOS DIRECTORIOS BANCARIOS
   · riesgo tecnológico y ciberseguridad
@@ -160,6 +163,9 @@ Los comités especializados preparan las decisiones del directorio. La tabla los
 | Riesgos | Marco, apetito, perfil de riesgo | Mayoría independiente; experiencia en riesgos |
 | Nombramientos | Idoneidad, sucesión, evaluación | Mayoría independiente |
 | Remuneraciones | Política y su alineación con el riesgo | Mayoría independiente |
+
+Dos de esos comites se fusionan a veces por economia de tiempo, y conviene
+entender por que no deberian fusionarse.
 
 ```text
 POR QUÉ AUDITORÍA Y RIESGOS SON COMITÉS SEPARADOS

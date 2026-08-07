@@ -114,6 +114,9 @@ LA PREGUNTA ANTE CUALQUIER PROPUESTA
 | **Partición** | Divide el estado entre grupos | Cada fragmento tiene menos validadores |
 | **Cambio de consenso** | Menos participantes en el acuerdo | Menos independencias |
 
+De las cuatro familias, solo una puede conservar la seguridad de la capa base,
+y lo hace bajo una condición estricta.
+
 ```text
 LA SEGUNDA CAPA ES LA ÚNICA QUE PUEDE CONSERVAR
 LA SEGURIDAD DE LA BASE, Y SOLO SI SE CUMPLE

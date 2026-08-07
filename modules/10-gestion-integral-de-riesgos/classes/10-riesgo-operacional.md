@@ -110,6 +110,9 @@ Las categorías supervisoras estandarizan el registro y permiten comparar. La ta
 | Interrupción del negocio | Fallas de sistemas, de suministro, de proveedores |
 | Ejecución y gestión de procesos | Errores de registro, de liquidación, de documentación, de datos |
 
+Las siete categorías no pesan igual: unas dominan por cuántas veces ocurren y
+otras por cuánto cuestan cuando ocurren.
+
 ```text
 DISTRIBUCIÓN TÍPICA (bases sectoriales públicas)
   por FRECUENCIA: ejecución de procesos y fraude externo dominan

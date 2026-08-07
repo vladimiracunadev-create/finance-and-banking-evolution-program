@@ -151,6 +151,9 @@ CONSTRUCCIÓN
 | Tiempo desde la última revisión | Medio |
 | Solicitud de la gerencia | Bajo (se registra, no determina) |
 
+El plan que resulta de esos criterios no puede consumir toda la capacidad
+disponible, y la razón es práctica.
+
 ```text
 RESERVA PARA NO PLANIFICADO
   entre 10 % y 20 % de la capacidad
@@ -198,6 +201,9 @@ El muestreo decide qué se puede concluir del trabajo, y su diseño es estadíst
 | Estratificado | Población heterogénea | Extrapolable por estrato |
 | Dirigido por riesgo | Se buscan casos específicos | No extrapolable |
 | Población completa | Con datos y herramientas | Certeza, sin extrapolación necesaria |
+
+Entre los métodos hay una diferencia que se incumple con frecuencia al
+redactar la conclusión del informe.
 
 ```text
 LA REGLA QUE SE INCUMPLE MÁS

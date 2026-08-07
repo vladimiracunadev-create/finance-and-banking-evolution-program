@@ -137,6 +137,9 @@ Los supervisores han creado instrumentos para acompañar la innovación sin renu
 | Guía o criterio | Interpretación anticipada | Consulta formal | — |
 | Exención temporal | Suspensión de una obligación concreta | Justificación y plazo | Arbitraje |
 
+El primero de esos instrumentos arrastra un efecto secundario sobre la
+percepción del público que hay que mitigar expresamente.
+
 ```text
 EL RIESGO DEL ESPACIO CONTROLADO DE PRUEBAS
   el público interpreta la participación

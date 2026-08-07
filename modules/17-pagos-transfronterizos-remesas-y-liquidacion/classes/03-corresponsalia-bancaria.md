@@ -223,6 +223,9 @@ DÓNDE DUELE
 | Efecto | Menos riesgo, mismo acceso | Exclusión y flujos hacia canales opacos |
 | Coherencia | Consistente con el apetito declarado | Reactiva |
 
+La distinción entre ambas columnas tiene una consecuencia incomoda que hay que
+poder explicar ante un comite.
+
 ```text
 LA PARADOJA QUE HAY QUE PODER EXPLICAR
   cerrar un corredor por riesgo de lavado

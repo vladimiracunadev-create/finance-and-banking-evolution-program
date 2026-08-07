@@ -113,6 +113,9 @@ Y AHÍ ESTÁ TODO EL PROBLEMA
 | Entrega | Bajo demanda / publicación periódica | Retardo y coste |
 | Disputa | Sin mecanismo / con impugnación | Qué pasa si el dato es falso |
 
+De los ejes de la clasificación, hay uno que se olvida y que determina si el
+registro puede comprobar algo o no.
+
 ```text
 EL EJE DE DIRECCIÓN ES EL QUE MÁS SE OLVIDA
 

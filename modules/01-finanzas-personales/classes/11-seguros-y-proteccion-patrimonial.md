@@ -176,6 +176,9 @@ El deducible óptimo depende de tu liquidez:
 | 500 000 | 480 000 | 160 000 | 500 000 |
 | 1 000 000 | 360 000 | 280 000 | 1 000 000 |
 
+La elección entre esas alternativas se resuelve calculando cuántos años sin
+siniestro hacen falta para que el ahorro de prima compense el riesgo asumido.
+
 ```text
 subir de 200 000 a 1 000 000:
   ahorro anual 280 000, riesgo adicional 800 000

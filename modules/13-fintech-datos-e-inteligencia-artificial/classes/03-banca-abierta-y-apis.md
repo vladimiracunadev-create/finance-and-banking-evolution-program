@@ -103,6 +103,9 @@ Los países han implantado la banca abierta de formas distintas, con resultados 
 | Guiado por el mercado | El sector define estándares | Flexibilidad | Cobertura desigual |
 | Híbrido | Norma con principios, mercado con estándares | Equilibrio | Ambigüedad inicial |
 
+El debate entre modelos se concentra en una cuestión que es política antes que
+técnica.
+
 ```text
 LA RECIPROCIDAD ES LA CUESTIÓN POLÍTICA CENTRAL
 
@@ -162,6 +165,9 @@ El acceso se otorga por alcances acotados y no en bloque. La tabla los recoge.
 | Iniciación de pagos recurrentes | Órdenes periódicas | Cargos no deseados |
 | Datos de productos y precios | Comparar ofertas | Ninguno relevante |
 | Datos de crédito | Evaluar solvencia | Alto: discriminación, error |
+
+Cualquiera de esos alcances requiere un consentimiento que identifique el
+dato, el plazo y la finalidad.
 
 ```text
 EL CONSENTIMIENTO DEBE SER ESPECÍFICO

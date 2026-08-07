@@ -114,6 +114,9 @@ Los riesgos del banco se clasifican y se evalúa cuáles son materiales. La tabl
 | Mercado | Baja | Sin libro de negociación | — |
 | Moneda | Nula | Todo en moneda local | — |
 
+Tres de esos riesgos alcanzan la materialidad más alta, y uno de los tres
+suele quedarse fuera del apetito por costumbre.
+
 ```text
 LOS TRES RIESGOS DE MATERIALIDAD MUY ALTA
   crédito, liquidez y tecnológico
@@ -141,6 +144,9 @@ El apetito preliminar se revisa con la información de las diez clases anteriore
 | Disponibilidad de sistemas | no fijada | ≥ 99,7 % | 99,8 % | **Nueva** |
 | Modelos fuera de validación | no fijada | 0 | — | **Nueva** |
 | Excepciones/aprobaciones | no fijada | ≤ 10 % | 8 % | **Nueva** |
+
+Cuatro metricas de la tabla no existian en la versión anterior, y su origen
+dice algo sobre cómo madura un marco de riesgos.
 
 ```text
 CUATRO MÉTRICAS NUEVAS
@@ -201,6 +207,9 @@ Cada alerta tiene su acción decidida de antemano. La tabla las recoge.
 | Excepciones > 8 % | Revisión del comité de crédito; análisis por analista | 15 días |
 | Disponibilidad < 99,8 % | Revisión técnica y plan de remediación | 10 días |
 | Modelo fuera de validación | Suspensión de su uso | Inmediato |
+
+De todas las acciones comprometidas hay una que detiene el negocio, y por eso
+condiciona la planificación del resto.
 
 ```text
 LA ÚLTIMA ACCIÓN ES LA MÁS DURA Y LA MÁS NECESARIA

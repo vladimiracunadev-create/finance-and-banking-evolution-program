@@ -108,6 +108,9 @@ Una estructura se compone de elementos que se deciden juntos. La tabla los recog
 | Covenants | Detección y control | Riesgos específicos (clase 8) |
 | Condiciones previas | Requisitos antes de desembolsar | Riesgos a mitigar antes |
 
+De todos esos elementos hay uno que no se negocia, porque decidirlo mal
+convierte un riesgo en otro y lo devuelve agravado.
+
 ```text
 LA REGLA DE LA MONEDA
   la moneda del crédito debe ser la de los INGRESOS del deudor
@@ -139,6 +142,9 @@ REDUCEN LA PÉRDIDA SI OCURRE
 | Aval de socio | Según su patrimonio | 12 – 48 meses | Verifica el patrimonio real |
 | Aval de matriz extranjera | Según su calidad | Variable | Exigibilidad en su jurisdicción |
 | Garantía estatal parcial | Su porcentaje | Según programa | Verifica condiciones de cobro |
+
+Los valores de la tabla orientan; la decisión de aceptar una garantia se toma
+con cinco preguntas, y la cuarta es la que suele omitirse.
 
 ```text
 CRITERIOS PARA ACEPTAR UNA GARANTÍA
@@ -203,6 +209,9 @@ TASA MÍNIMA (Parte 11, clase 14)
 | Pérdida esperada | Mejor calificación, mejor garantía |
 | Costo del capital | Garantías elegibles, menor plazo |
 | Margen | Rentabilidad de la relación completa |
+
+Junto a la tasa hay comisiones que cumplen funciones distintas, y confundirlas
+produce estructuras opacas.
 
 ```text
 COMISIONES Y SU FUNCIÓN

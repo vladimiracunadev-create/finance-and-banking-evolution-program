@@ -165,6 +165,9 @@ Y ADEMÁS: LO QUE SE MUESTRA AL CLIENTE
 | Operación autorizada y arrepentida | El cliente ordenó y se arrepintió | El cliente |
 | Fraude por manipulación | El cliente autorizó, engañado | El caso más disputado |
 
+De las tres situaciones, la tercera es la que más crece y la que peor encaja
+en el reparto por defecto.
+
 ```text
 EL TERCERO ES EL QUE CRECE
 

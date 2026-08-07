@@ -189,6 +189,9 @@ Hay instrumentos más baratos y con menos protección, y conviene saber cuándo 
 | Uso típico | Relación con confianza previa | Primera operación, riesgo país | Respaldo de obligación |
 | Regla aplicable | URC 522 (CCI) | UCP 600 (CCI) | URDG 758 (CCI) |
 
+El primero de los tres instrumentos admite dos variantes que reparten el
+riesgo de forma muy distinta entre exportador e importador.
+
 ```text
 COBRANZA
   documentos contra pago (D/P)      el importador paga para obtener documentos

@@ -134,6 +134,9 @@ Situación: cuatro deudas, 400 000 mensuales disponibles para pagarlas.
 | Consumo | 2 800 000 | 21 % | 140 000 |
 | Automotriz | 4 100 000 | 13 % | 155 000 |
 
+Sobre esa cartera concreta, el primer paso de cualquiera de las dos
+estrategias es el mismo: cubrir los mínimos y ver cuánto queda para atacar.
+
 ```text
 mínimos totales = 380 000 → excedente para atacar = 20 000... 
 ```

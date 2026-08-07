@@ -131,6 +131,9 @@ rentabilidad bruta de 7,5 % anual:
 | 2,0 % | 5,50 % | 65 470 000 | 148 700 000 | 288 500 000 |
 | 3,0 % | 4,50 % | 60 380 000 | 128 000 000 | 230 200 000 |
 
+La diferencia entre las filas extremas de la tabla, expresada en dinero, es lo
+que hace que la comisión deje de parecer un detalle.
+
 ```text
 diferencia entre 0,4 % y 3,0 % a 30 años: 191 700 000
 sobre un aporte total de 92 000 000 → la comisión se llevó más del doble del aporte

@@ -105,6 +105,9 @@ Las dos situaciones se distinguen en teoría y se confunden en el momento, porqu
 | Visibilidad | Inmediata y pública | Puede ocultarse mucho tiempo |
 | Causa | Descalce y pérdida de confianza | Pérdidas acumuladas |
 
+Las dos situaciones se distinguen bien sobre el papel y en la práctica se
+alimentan la una a la otra.
+
 ```text
 LA CONEXIÓN
   la duda sobre la SOLVENCIA provoca el retiro

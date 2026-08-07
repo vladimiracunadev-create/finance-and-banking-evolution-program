@@ -116,6 +116,9 @@ LA REGLA OPERATIVA DE COMPATIBILIDAD
 | Reducir el rango de un campo | No | Rompe casos válidos |
 | Añadir un error nuevo | **No** | El cliente no lo trata |
 
+Dos filas de la tabla se clasifican mal casi siempre, y conviene detenerse en
+ellas.
+
 ```text
 LAS DOS FILAS MARCADAS SON LAS QUE MÁS SE EQUIVOCAN
 

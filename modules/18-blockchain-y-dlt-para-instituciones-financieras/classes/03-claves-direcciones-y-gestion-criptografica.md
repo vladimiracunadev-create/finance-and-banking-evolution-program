@@ -137,6 +137,9 @@ LA ENTROPÍA IMPORTA MÁS
 | Firma múltiple | Repartida entre m de n | Coordinación y disponibilidad | Tesorería corporativa |
 | Computación multiparte | Nunca existe entera | Complejidad de implementación | Institución financiera |
 
+Dos de esos modelos se confunden con frecuencia y protegen contra cosas
+distintas.
+
 ```text
 LA DIFERENCIA ENTRE FIRMA MÚLTIPLE Y MULTIPARTE
 

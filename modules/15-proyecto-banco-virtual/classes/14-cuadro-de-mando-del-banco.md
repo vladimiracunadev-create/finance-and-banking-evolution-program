@@ -129,6 +129,9 @@ La perspectiva de resultado recoge los indicadores financieros con sus contrapes
 | RAROC de cartera | 24,0 % | 19,0 % | Crecimiento | Trimestral |
 | Margen de las nuevas operaciones | 9,10 % | 8,40 % | Tasa de aprobación | Mensual |
 
+El primero de esos indicadores es el que resume la capacidad del banco antes
+de que intervenga el ciclo de crédito.
+
 ```text
 EL PRIMER INDICADOR ES EL PRINCIPAL DEL BANCO
   resultado antes de provisiones sobre activos
@@ -172,6 +175,9 @@ Las dos perspectivas restantes anticipan lo que las otras dos confirman. La tabl
 | Modelos fuera de validación | 0 | — | — | Mensual |
 | Rotación de personal | ≤ 18 % | 24 % | Costo de personal | Trimestral |
 | Partidas de conciliación > 3 días | 0 | — | Tiempo de conciliación | Diaria |
+
+Con estas dos perspectivas se cierra el cuadro, y conviene contar el total
+para comprobar que sigue siendo manejable.
 
 ```text
 TOTAL: 6 + 9 + 6 + 6 = 27 indicadores

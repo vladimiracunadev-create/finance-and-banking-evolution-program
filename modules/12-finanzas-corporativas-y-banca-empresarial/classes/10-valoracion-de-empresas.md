@@ -101,6 +101,9 @@ Los tres enfoques miran la misma empresa desde ángulos distintos. La tabla los 
 | Mercado (múltiplos) | ¿Cuánto pagan por negocios similares? | Existen comparables observables |
 | Activos (valor patrimonial ajustado) | ¿Cuánto valen sus bienes? | Empresa sin flujo, holding, liquidación |
 
+Los tres enfoques no compiten entre si: se usan a la vez, y sus diferencias
+son información.
+
 ```text
 NO SON ALTERNATIVOS: SON TRIANGULACIÓN
   un valor por flujos muy distinto del de múltiplos
@@ -155,6 +158,9 @@ Los múltiplos valoran por comparación y su dificultad está en elegir los comp
 | Precio / utilidad | Valor patrimonial | Utilidad neta | Empresas cotizadas comparables |
 | Precio / valor libro | Valor patrimonial | Patrimonio contable | Bancos y financieras |
 | VE / métrica operativa | Valor de empresa | Unidades, suscriptores, capacidad | Sectores específicos |
+
+Al combinar numerador y denominador hay una regla de consistencia que se rompe
+con facilidad y produce cifras sin significado.
 
 ```text
 CUIDADO CON LA CONSISTENCIA

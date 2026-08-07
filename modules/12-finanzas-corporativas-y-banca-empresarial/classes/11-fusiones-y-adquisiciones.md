@@ -106,6 +106,9 @@ Comprar acciones y comprar activos tienen consecuencias muy distintas en pasivos
 | Adquisición apalancada | Financiera | Estructura de capital y eficiencia |
 | Consolidación de sector | Escala en sector fragmentado | Sinergias repetibles |
 
+Una de esas lógicas se invoca con frecuencia y resiste mal el análisis, porque
+el accionista puede conseguir lo mismo por su cuenta.
+
 ```text
 LA DIVERSIFICACIÓN COMO LÓGICA ES DÉBIL
   el accionista puede diversificar por sí mismo
@@ -162,6 +165,9 @@ La revisión previa cubre áreas concretas y su alcance decide qué riesgos qued
 | Tecnológico | Sistemas, licencias, deuda técnica | Costo de integración |
 | Ambiental | Pasivos y remediación | Puede detener la operación |
 | Cumplimiento | Prácticas, sanciones, sobornos | Puede detener la operación |
+
+Entre lo que busca la revisión hay una clausula contractual capaz de eliminar
+buena parte del valor que se esta comprando.
 
 ```text
 CLÁUSULAS DE CAMBIO DE CONTROL

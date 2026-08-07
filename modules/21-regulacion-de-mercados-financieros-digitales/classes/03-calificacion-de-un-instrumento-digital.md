@@ -167,6 +167,9 @@ LA SEGUNDA ES UN VALOR
 | Utilidad genuina | Ninguna financiera | Consumidor | Consumidor |
 | Sin calificar | Incertidumbre | Ninguna clara | Ninguna clara |
 
+La última fila parece la más cómoda de las cuatro y es, en realidad, la peor
+situación posible para el proyecto.
+
 ```text
 LA ÚLTIMA FILA ES LA PEOR
   no significa libertad: significa que

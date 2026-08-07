@@ -127,6 +127,9 @@ La validación la hace quien no construyó el modelo, y revisa cosas concretas. 
 | Uso | Decisiones reales | ¿Se usa como se aprobó? |
 | Gobierno | Roles, documentación, controles | ¿Hay trazabilidad? |
 
+Todo eso solo funciona si el validador es realmente independiente, y la
+independencia tiene condiciones verificables.
+
 ```text
 INDEPENDENCIA REAL exige que el validador
   · no participe en el desarrollo
@@ -159,6 +162,9 @@ ESTABILIDAD — ¿la población sigue siendo la misma?
 | 0,10 – 0,25 | Cambio moderado; investigar |
 | > 0,25 | Cambio significativo; revalidar |
 
+El índice detecta un tipo de deterioro y es ciego a otro, y confundirlos deja
+pasar el más grave de los dos.
+
 ```text
 DISTINCIÓN CLAVE
   DERIVA DE POBLACIÓN   cambian las entradas (PSI lo detecta)
@@ -179,6 +185,9 @@ Los modelos de aprendizaje automático añaden riesgos que los tradicionales no 
 | Falta de explicabilidad | Relación no lineal, muchas variables | Métodos de atribución; modelo simple de respaldo |
 | Inestabilidad | Sensible a cambios pequeños en los datos | Pruebas de robustez |
 | Dependencia de datos externos | Proveedor cambia sin aviso | Contrato y monitoreo del insumo |
+
+De los seis riesgos, uno destaca por lo bien que se disfraza: produce
+resultados excelentes en desarrollo y falla en producción.
 
 ```text
 LA FUGA DE INFORMACIÓN es el error más común y menos detectado

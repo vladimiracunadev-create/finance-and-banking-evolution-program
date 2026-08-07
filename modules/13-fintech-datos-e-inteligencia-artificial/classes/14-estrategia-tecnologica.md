@@ -117,6 +117,9 @@ Las capacidades se clasifican por si diferencian o no. La tabla recoge el criter
 | Antifraude | Intermedia | El motor se compra; las reglas son propias |
 | Prevención de lavado | Intermedia | La herramienta se compra; la calibración es propia |
 
+Las capacidades intermedias siguen un patrón propio, que separa la herramienta
+de lo que no debe externalizarse con ella.
+
 ```text
 EL PATRÓN DE LAS CAPACIDADES INTERMEDIAS
   se compra la HERRAMIENTA

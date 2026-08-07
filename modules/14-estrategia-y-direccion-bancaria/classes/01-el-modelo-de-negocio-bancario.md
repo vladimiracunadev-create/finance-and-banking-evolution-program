@@ -144,6 +144,9 @@ Los modelos de negocio bancarios tienen perfiles de riesgo y de rentabilidad dis
 | Custodia y servicios | Comisiones | Operacional | Volumen y tasas |
 | Digital sin sucursales | Margen, costo bajo | Crédito y captación | Costo de adquisición |
 
+Ninguna fila de la tabla es la respuesta correcta: lo que importa es la
+coherencia entre el modelo elegido y el entorno en que se opera.
+
 ```text
 NINGÚN MODELO ES SUPERIOR EN ABSTRACTO
   cada uno rinde bien en un entorno

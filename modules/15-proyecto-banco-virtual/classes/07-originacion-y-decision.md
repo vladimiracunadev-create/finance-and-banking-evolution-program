@@ -204,6 +204,9 @@ TRES ZONAS (Parte 14, clase 6)
 | Revisión humana | 34 % | 51 % |
 | Rechazo recomendado | 28 % | 27 % |
 
+La diferencia de automatización entre ambos productos no es un descuido:
+responde a lo que el modelo puede y no puede capturar.
+
 ```text
 POR QUÉ E2 TIENE MENOS AUTOMATIZACIÓN
   la evaluación de una empresa exige juicio
@@ -263,6 +266,9 @@ El proceso se mide con indicadores de conversión y de calidad. La tabla los rec
 | Verificación de comprensión superada | ≥ 95 % | Reclamos futuros |
 | Mora a 6 meses de la cosecha | ≤ 2,4 % | Costo de riesgo |
 | Abandono en el proceso | ≤ 18 % | Fricción excesiva |
+
+De los nueve indicadores, dos anticipan el deterioro con meses de ventaja
+sobre el resto.
 
 ```text
 LOS DOS INDICADORES DECISIVOS

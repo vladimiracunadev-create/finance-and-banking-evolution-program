@@ -112,6 +112,9 @@ Las fuentes de datos alternativos se diferencian mucho en poder predictivo y en 
 | Redes sociales | — | Bajo | Muy baja |
 | Contactos del teléfono | — | Espurio | Inaceptable |
 
+Antes de incorporar cualquiera de esas fuentes conviene pasarla por cinco
+preguntas, y la primera descarta a la mayoria.
+
 ```text
 LA REGLA DE EVALUACIÓN DE UN DATO ALTERNATIVO
 
@@ -178,6 +181,9 @@ FLUJO COMPLETO
 | Oferta | Sobreendeudamiento | Verificación de deuda total |
 | Información | Incomprensión del costo | Costo total y verificación de comprensión |
 | Desembolso | Fraude por cuenta de tercero | Cuenta a nombre del solicitante |
+
+Al optimizar ese flujo aparece una tensión entre conversión y protección que
+conviene resolver de forma consciente.
 
 ```text
 LA FRICCIÓN ES UN CONTROL, NO UN DEFECTO

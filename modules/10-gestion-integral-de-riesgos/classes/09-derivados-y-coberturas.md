@@ -102,6 +102,9 @@ Los cuatro instrumentos básicos cubren necesidades distintas y tienen perfiles 
 | Swap | Ambas partes | Cero al inicio | Lineal, en el tiempo |
 | Opción | Solo el vendedor | Prima | Asimétrico |
 
+La diferencia entre obligarse y tener derecho se ve mejor dibujada que
+explicada.
+
 ```text
 PERFILES DE RESULTADO
 
@@ -131,6 +134,9 @@ La contabilidad reconoce tres tipos de cobertura con tratamientos distintos. La 
 | Valor razonable | Cambios de valor de un activo o pasivo reconocido | Resultado, junto con la partida |
 | Flujos de efectivo | Variabilidad de flujos futuros | Otro resultado integral, hasta que el flujo ocurra |
 | Inversión neta en el extranjero | Traslación de una operación en el exterior | Otro resultado integral |
+
+Acogerse a cualquiera de los tres tipos exige cumplir cuatro requisitos
+formales, y uno de ellos no admite corrección posterior.
 
 ```text
 REQUISITOS PARA APLICAR CONTABILIDAD DE COBERTURAS (NIIF 9)

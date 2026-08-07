@@ -105,6 +105,9 @@ Las sanciones tienen emisores y alcances distintos, y una entidad puede estar su
 | Territoriales | Un territorio completo | Prohibición general de operaciones |
 | De proliferación | Programas de armas de destrucción masiva | Restricciones específicas de bienes y finanzas |
 
+Los tipos dicen qué se restringe; los emisores dicen quién obliga y con que
+alcance, que es lo que determina si aplican fuera de su territorio.
+
 ```text
 EMISORES
   CONSEJO DE SEGURIDAD DE NACIONES UNIDAS
@@ -170,6 +173,9 @@ CUÁNDO
 | Transliteración de nombres | Coincidencias por variantes | Se escapan grafías alternativas |
 | Campos cribados | Más carga | Menos cobertura |
 
+Detras de esos parámetros hay una dificultad de fondo que ningún umbral
+resuelve por si solo.
+
 ```text
 EL PROBLEMA DE LOS NOMBRES
   transliteración desde otros alfabetos
@@ -226,6 +232,9 @@ Las técnicas de elusión son conocidas y su detección es parte de la obligaci�
 | Cambio de bandera o de nombre de un buque | Ocultar identidad |
 | Pagos por montos que evitan umbrales | Estructuración |
 | Reticencia a identificar al usuario final de un bien | Desvío |
+
+Además de esos indicadores conductuales, existe una regla de propiedad que
+alcanza a entidades que no figuran en ninguna lista.
 
 ```text
 LA REGLA DEL 50 %

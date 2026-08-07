@@ -170,6 +170,9 @@ QUÉ SE EXIGE
 | Subasta de precio único | Todos al precio de corte | Demanda con precio |
 | Por tramos | Cuota fija por tipo de inversionista | Objetivo de base accionaria |
 
+El primero de esos mecanismos reproduce aquí el mismo problema de incentivos
+que apareció con las redenciones.
+
 ```text
 LA REGLA DE LA PARTE 20, CLASE 5, APLICA IGUAL
   el orden de llegada premia al primero

@@ -173,6 +173,9 @@ EN UN CONSORCIO FINANCIERO
 | Verificación por un tercero | Requiere confiar en el operador | Independiente |
 | Qué pasa si el operador desaparece | El sistema muere | El sistema sigue |
 
+De los seis criterios, dos concentran la decisión y los otros cuatro suelen
+inclinarse hacia la alternativa más simple.
+
 ```text
 LAS DOS FILAS QUE DECIDEN
   «verificación por un tercero» y «si el operador desaparece»

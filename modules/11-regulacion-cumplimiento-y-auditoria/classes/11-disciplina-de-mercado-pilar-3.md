@@ -110,6 +110,9 @@ Las plantillas cubren áreas concretas con formatos fijos. La tabla las recoge.
 | Remuneraciones | Política, montos, diferimiento, ajustes |
 | Riesgos ambientales, sociales y de gobierno | Según marco aplicable |
 
+Esos bloques se publican en plantillas de formato fijo, y esa aparente rigidez
+es lo que hace útil al pilar entero.
+
 ```text
 POR QUÉ LAS PLANTILLAS SON DE FORMATO FIJO
   antes, cada banco divulgaba a su manera
@@ -173,6 +176,9 @@ El pilar 3 convive con la información financiera y con la de sostenibilidad, y 
 | Pilar 3 | Riesgo y capital regulatorio | Mercado y supervisores |
 | Información de sostenibilidad | Riesgos y oportunidades de sostenibilidad | Inversionistas |
 | Informes al supervisor | Detalle regulatorio | Solo el supervisor |
+
+Entre esos marcos hay que tender un puente explicito, porque el perimetro
+contable y el prudencial no coinciden.
 
 ```text
 LA CONCILIACIÓN ES OBLIGATORIA Y REVELADORA

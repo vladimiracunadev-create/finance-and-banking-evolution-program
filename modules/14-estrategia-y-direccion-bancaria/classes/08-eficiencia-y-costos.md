@@ -121,6 +121,9 @@ ESTRUCTURA TÍPICA DE UN BANCO MINORISTA
 | Mala calidad | Errores y reprocesos | 3–12 meses |
 | Complejidad | Variantes y excepciones | 12–24 meses |
 
+Sobre cada línea de esa descomposición conviene hacer una pregunta que separa
+lo que se optimiza de lo que se elimina.
+
 ```text
 LA PREGUNTA POR CADA COSTO
   ¿este costo existe porque el negocio lo requiere,

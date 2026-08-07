@@ -119,6 +119,9 @@ LO QUE NO CAMBIA
 | `camt.029` | ResolutionOfInvestigation | Respuesta a una investigación o cancelación |
 | `camt.053` / `camt.054` | Statement / Notification | Extracto y aviso de cargo o abono |
 
+Esos mensajes se encadenan en secuencias reconocibles según como termine la
+operación.
+
 ```text
 LA SECUENCIA HABITUAL DE UN PAGO CORRECTO
   pacs.008  →  pacs.002 (aceptado)  →  camt.054 (aviso)  →  camt.053 (extracto)

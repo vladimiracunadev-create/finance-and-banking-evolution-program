@@ -139,6 +139,9 @@ El tablero reúne las métricas de todos los riesgos con sus límites y su tende
 | Modelo | Modelos fuera de revalidación | 0 | 0 | 2 | ↑ |
 | Conducta | Reclamos fundados por 1 000 | 1,2 | 1,0 | 0,8 | ↓ |
 
+Un tablero solo sirve si se lee con reglas explícitas, porque el nivel de una
+métrica dice mucho menos que su movimiento.
+
 ```text
 REGLAS DE LECTURA
   · el color no lo da el nivel: lo da la TENDENCIA + la distancia a la alerta

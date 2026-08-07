@@ -115,6 +115,9 @@ SALE DE ESA PROPIEDAD
 | Transferencia internacional | Sí | No necesariamente | No necesariamente | Mover fondos entre cuentas propias en dos países |
 | Operación de cambio | No necesariamente | Sí, por definición | No necesariamente | Comprar dólares en el mercado local |
 
+Dos casos límite fijan las fronteras de la definición mejor que cualquier
+enunciado general.
+
 ```text
 LOS DOS CASOS LÍMITE QUE ORDENAN TODO
 
@@ -172,6 +175,9 @@ La hoja de ruta del G20 los nombró así, y toda la parte gira alrededor de ello
 | **Velocidad** | Días en vez de segundos | Horarios, días inhábiles, controles secuenciales |
 | **Acceso** | Corredores sin oferta o con una sola | Retirada de corresponsalías, escala insuficiente |
 | **Transparencia** | Nadie sabe cuánto llega ni cuándo | Comisiones deducidas en tránsito, sin trazabilidad |
+
+Antes de proponer soluciones conviene descartar el diagnostico equivocado que
+se repite en casi todas las presentaciones.
 
 ```text
 EL ERROR DE DIAGNÓSTICO MÁS FRECUENTE

@@ -120,6 +120,9 @@ LA RESPUESTA DE UN PERFIL FINANCIERO
 | Suplantación del cliente | Parcial | Autenticación por certificado |
 | Confusión de servidor de autorización | No | `iss` en la respuesta de autorización |
 
+De las amenazas que el perfil por defecto no cubre, una destaca por lo
+concreta y lo cara que resulta.
+
 ```text
 LA AMENAZA QUE MÁS SE SUBESTIMA
   «manipulación de los parámetros de la petición»
@@ -168,6 +171,9 @@ QUÉ NO CAMBIA
 | Sobrevive a un proxy que termina TLS | No sin cuidado | Sí |
 | Encaja bien en | Servidor a servidor | Aplicaciones móviles y de navegador |
 | Coste operativo | Alto: emisión, renovación, revocación | Menor |
+
+La elección entre ambos mecanismos se resuelve con una pregunta sobre donde se
+ejecuta el cliente.
 
 ```text
 CRITERIO DE ELECCIÓN

@@ -112,6 +112,9 @@ CONSECUENCIA QUE HAY QUE INTERIORIZAR
 | **Conjunto de validadores** | m de n firman que el hecho ocurrió | En la colusión de m validadores |
 | **Verificación en cadena** | El contrato de destino verifica el registro de origen | En la implementación y en el coste |
 
+El tercer modelo es el mejor desde el punto de vista de la seguridad y el que
+menos se implanta, por una razón de coste.
+
 ```text
 EL TERCERO ES EL MEJOR TÉCNICAMENTE Y EL MÁS CARO
   el contrato de destino ejecuta un cliente ligero

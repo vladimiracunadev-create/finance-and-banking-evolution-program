@@ -123,6 +123,9 @@ Tres indicadores miden la holgura desde ángulos distintos y hay que leerlos jun
 | Deuda / EBITDA | Deuda financiera neta / EBITDA | ≤ 3,5x | Tamaño relativo de la deuda |
 | Flujo / deuda | Flujo disponible / deuda financiera | ≥ 15 % | Velocidad de repago |
 
+Calculados sobre la empresa del ejemplo, los cuatro indicadores no apuntan en
+la misma dirección, y eso es precisamente lo que hay que explicar.
+
 ```text
 del ejemplo, año 0:
   deuda financiera neta              41 200

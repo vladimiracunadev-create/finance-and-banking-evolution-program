@@ -112,6 +112,9 @@ NINGUNO DE LOS SEIS ES UN PROBLEMA TÉCNICO
 | **Eje (hub)** | Todos se conectan a una plataforma común | n enlaces | Alta al inicio, baja después |
 | **Acuerdo común** | Reglas y mensajes comunes, conexión libre | n enlaces | Media; exige gobernanza fuerte |
 
+El primero de los tres modelos tiene un problema aritmético que explica por
+que los proyectos institucionales no lo eligen.
+
 ```text
 EL PROBLEMA DEL MODELO BILATERAL
   con 5 sistemas: 10 enlaces

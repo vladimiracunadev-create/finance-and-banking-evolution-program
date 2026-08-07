@@ -132,6 +132,9 @@ La autoridad dispone de varios instrumentos con efectos distintos. La tabla los 
 | Segregación de activos | Transfiere activos deteriorados a un vehículo | Cartera problemática identificable |
 | Absorción interna de pérdidas | Reduce o convierte deuda en capital | Entidad grande, funciones críticas |
 
+En la práctica esos instrumentos no se usan por separado: la resolución de una
+entidad mediana suele combinar tres de ellos.
+
 ```text
 COMBINACIÓN HABITUAL
   absorción interna para recapitalizar
@@ -215,6 +218,9 @@ DISEÑO
 | Financiamiento previo | El fondo existe antes de necesitarse |
 | Prima ajustada por riesgo | Reduce el riesgo moral entre bancos |
 | Preferencia del depositante | Mejora la recuperación del fondo |
+
+El diseno del seguro se completa con lo que deja fuera, y ahi esta el origen
+de una confusión que cuesta cara al cliente.
 
 ```text
 LO QUE EL SEGURO NO CUBRE

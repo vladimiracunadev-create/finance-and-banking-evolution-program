@@ -148,6 +148,8 @@ En cada periodo se dispone de información parcial y con rezago. La tabla la rec
 | Desempeño del modelo | 3 meses | Media |
 | Datos de mercado y competencia | 30 días | Baja |
 
+Cruzando rezago y fiabilidad aparece la dificultad central del ejercicio.
+
 ```text
 LA DECISIÓN MÁS IMPORTANTE — EL CORTE DE APROBACIÓN
 SE TOMA CON LA INFORMACIÓN MÁS REZAGADA

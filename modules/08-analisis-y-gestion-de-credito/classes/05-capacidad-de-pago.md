@@ -142,6 +142,9 @@ NO se pregunta al solicitante: se estima con métodos objetivos
 | Gasto observado | Análisis de cartolas del solicitante | Cuando hay historial en la institución |
 | Modelo estadístico | Estimación por segmento con datos de cartera | Instituciones con datos suficientes |
 
+Aplicado a un hogar concreto, el método de canasta ajustada entrega una cifra
+defendible, que es lo que se resta de la renta admisible.
+
 ```text
 método de canasta ajustada:
   hogar de 4 personas

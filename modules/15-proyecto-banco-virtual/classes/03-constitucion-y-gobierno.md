@@ -114,6 +114,9 @@ El licenciamiento exige acreditar capital, idoneidad y plan de negocio. La tabla
 | Continuidad operacional | Plan probado |
 | Prevención de lavado | Sistema completo antes de operar |
 
+De todos esos requisitos hay uno que no es documental y que resume la lógica
+de la licencia bancaria.
+
 ```text
 EL COMPROMISO DE APOYO DEL ACCIONISTA
   la mayoría de las jurisdicciones exige que el accionista

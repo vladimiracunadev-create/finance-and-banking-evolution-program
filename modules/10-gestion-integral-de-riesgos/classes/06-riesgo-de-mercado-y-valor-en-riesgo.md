@@ -99,6 +99,9 @@ Hay tres formas de calcular el valor en riesgo y dan resultados distintos sobre 
 | Simulación histórica | Aplica los cambios reales de los últimos N días a la cartera actual | Sin supuesto de distribución | Depende de la ventana; no ve lo que no pasó |
 | Monte Carlo | Simula miles de escenarios desde un modelo | Flexible; maneja no linealidad | Costoso; depende del modelo supuesto |
 
+El primero de los tres métodos se resume en una fórmula corta, cuyos cuatro
+términos conviene identificar antes de usarla.
+
 ```text
 PARAMÉTRICO
   VaR = z × σ × √h × V
@@ -172,6 +175,10 @@ COMPARAR cada día:
 | 0–4 | Verde | Modelo aceptable |
 | 5–9 | Amarilla | Multiplicador de capital creciente; investigar |
 | 10 o más | Roja | Modelo rechazado; enfoque estandarizado |
+
+Cuando el número de excepciones deja al modelo fuera de la zona verde, la
+reacción no es recalibrar sin más: hay cuatro preguntas que conviene responder
+antes.
 
 ```text
 QUÉ INVESTIGAR ANTE EXCEPCIONES

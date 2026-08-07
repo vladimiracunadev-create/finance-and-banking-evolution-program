@@ -112,6 +112,9 @@ Los procesos críticos se identifican por su efecto sobre el cliente. La tabla l
 | Atención de consultas | 340 000 | 73 % en canal digital |
 | Reclamos | 2 800 | 42 % resolución automática |
 
+La cifra de automatización del proceso más voluminoso parece exigente hasta
+que se traduce a personas.
+
 ```text
 LA TASA DE AUTOMATIZACIÓN DEL 99,8 % EN PAGOS
 NO ES UN OBJETIVO AMBICIOSO: ES EL MÍNIMO
@@ -145,6 +148,9 @@ MÉTODO
 | Atención asistida | 340 000 | 27 % | 7 | 6,9 |
 | Reclamos | 2 800 | 58 % | 42 | 0,7 |
 | **Total operativo** | | | | **31,3** |
+
+El dimensionamiento revela que el proceso más costoso no es el de mayor
+volumen, sino el de mayor porcentaje manual.
 
 ```text
 EL PROCESO MÁS COSTOSO ES EL MENOS EVIDENTE
@@ -186,6 +192,9 @@ PROCESO
 | Pendientes > 30 días | 0 |
 | Monto de pendientes / volumen | ≤ 0,002 % |
 | Pendientes con causa identificada | 100 % |
+
+De esos indicadores, el de partidas pendientes es el que se mueve primero
+cuando algo va mal.
 
 ```text
 LAS PARTIDAS PENDIENTES SON EL SÍNTOMA

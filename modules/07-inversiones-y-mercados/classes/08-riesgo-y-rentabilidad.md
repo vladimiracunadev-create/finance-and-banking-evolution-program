@@ -154,6 +154,9 @@ Efecto de la diversificación:
 | 100 | 18,7 % | −58,4 % |
 | Mercado completo | 18,5 % | −58,9 % |
 
+La serie tiene una forma reconocible: cae deprisa al principio y se aplana
+después, y ese suelo tiene nombre propio.
+
 ```text
 la mayor parte del beneficio se obtiene con 20–30 instrumentos
 más allá, la reducción adicional es marginal
@@ -175,6 +178,9 @@ La beta mide cuánto se mueve un activo respecto del mercado, y es la medida del
 | 1,0 | Se mueve como el mercado |
 | 1,5 | Amplifica los movimientos en un 50 % |
 | < 0 | Se mueve en dirección contraria |
+
+La interpretación se comprueba aplicándola en las dos direcciones, porque el
+coeficiente amplifica tanto las subidas como las caídas.
 
 ```text
 mercado sube 10 % · β = 1,4 → se espera que el activo suba 14 %
@@ -223,6 +229,9 @@ Ejemplo comparado:
 | P | 14,2 % | 22,4 % | 1,32 | 15,1 % | 0,455 | 7,73 | 0,675 | +2,94 % |
 | Q | 10,8 % | 12,1 % | 0,71 | 7,4 % | 0,562 | 9,58 | 0,919 | +2,90 % |
 | R | 16,5 % | 31,0 % | 1,85 | 24,8 % | 0,403 | 6,76 | 0,504 | +2,32 % |
+
+Ordenando los tres fondos por cada medida se ve que el ranking cambia según
+que se mire, y esa discrepancia es la información útil.
 
 ```text
 por retorno bruto:      R > P > Q

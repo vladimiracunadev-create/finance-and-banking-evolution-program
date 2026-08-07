@@ -144,6 +144,9 @@ MODELO DE VALORACIÓN DE ACTIVOS DE CAPITAL
 | Iliquidez | Sin mercado para sus acciones | 2 – 5 puntos |
 | Concentración | Dependencia de pocos clientes o de su dueño | Juicio |
 
+Para aplicar el modelo a una empresa sin acciones cotizadas hace falta ajustar
+el coeficiente de riesgo por la estructura de deuda.
+
 ```text
 BETA APALANCADA Y DESAPALANCADA
   βu = βL / [1 + (1−t) × D/E]        desapalancar (quitar el efecto deuda)

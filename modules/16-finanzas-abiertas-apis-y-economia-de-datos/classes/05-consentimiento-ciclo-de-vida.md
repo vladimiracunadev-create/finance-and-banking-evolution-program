@@ -133,6 +133,9 @@ CÓMO SE DETECTA EL ORDEN INCORRECTO
 | Un alcance por finalidad | Elige qué habilita | Equilibrio |
 | Un alcance por campo | Fatiga y abandono | Conversión nula |
 
+Entre los dos extremos hay un criterio para acertar, y no es el modelo de
+datos de la API.
+
 ```text
 LA GRANULARIDAD CORRECTA ES LA DEL PRODUCTO,
 NO LA DEL MODELO DE DATOS

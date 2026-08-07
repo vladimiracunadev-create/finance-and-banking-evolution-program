@@ -155,6 +155,9 @@ Ejemplo comparado:
 | Réplica | Física completa | Sintética | Física completa |
 | Dividendos | Acumulación | Acumulación | Distribución |
 
+Con esos datos se calcula el costo total de cada alternativa para un horizonte
+concreto, y el orden resultante no es el que sugiere la comisión.
+
 ```text
 costo total anual estimado (rotación baja, tenencia 5 años):
   A: 0,20 + 0,08 + 0,04/5 = 0,288 %

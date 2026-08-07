@@ -133,6 +133,9 @@ La sostenibilidad se integra en decisiones concretas o no se integra. La tabla r
 | Inversiones propias | Criterios de exclusión y de integración | Política de inversión |
 | Productos | Oferta de financiamiento de transición | Catálogo |
 
+En todos esos puntos de decisión reaparece la misma disyuntiva de fondo, y
+conviene resolverla con criterio antes que por reputación.
+
 ```text
 EXCLUIR O ACOMPAÑAR: LA DECISIÓN CENTRAL
 
@@ -178,6 +181,9 @@ CÓMO SE MIDEN
 | Emisiones financiadas | Cartera de crédito e inversión | Alta: dominan el total |
 | Cadena de suministro | Proveedores | Media |
 
+El orden de magnitud entre unas y otras explica por que la dificultad de medir
+no es excusa para no hacerlo.
+
 ```text
 LAS EMISIONES FINANCIADAS SUELEN SER
 CIENTOS DE VECES LAS PROPIAS
@@ -198,6 +204,9 @@ Los productos sostenibles tienen requisitos concretos para poder llamarse así. 
 | Préstamo verde | Uso específico de fondos | Elegibilidad discutible |
 | Préstamo ligado a sostenibilidad | Precio según indicadores acordados | Objetivos que se habrían cumplido igual |
 | Financiamiento de transición | Apoya el cambio de actividades intensivas | Que no haya transición real |
+
+El riesgo especifico del segundo producto se detecta con una pregunta que
+conviene hacerse antes de conceder el descuento.
 
 ```text
 LA PRUEBA DE UN INDICADOR LIGADO A SOSTENIBILIDAD

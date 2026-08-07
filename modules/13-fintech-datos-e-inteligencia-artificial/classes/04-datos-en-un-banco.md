@@ -120,6 +120,9 @@ CONSUMO
 | Semántica | Gobierno de datos | Cada área calcula distinto |
 | Consumo | Área usuaria | Decisiones sobre datos mal entendidos |
 
+De las cuatro capas hay una que rara vez tiene dueno y cuya ausencia se nota
+en cada comite.
+
 ```text
 LA CAPA SEMÁNTICA ES LA MÁS DESCUIDADA Y LA MÁS IMPORTANTE
   sin definiciones únicas, dos áreas presentan
@@ -140,6 +143,9 @@ La calidad de un dato se mide en varias dimensiones y cada una se comprueba dist
 | Validez | ¿Cumple el formato y el dominio? | Reglas de validación |
 | Unicidad | ¿Hay duplicados? | Detección de registros repetidos |
 | Trazabilidad | ¿Se sabe de dónde viene? | Linaje documentado |
+
+Medir las siete dimensiones no sirve de nada si la corrección se aplica en el
+lugar equivocado.
 
 ```text
 LA REGLA DE ORO

@@ -108,6 +108,9 @@ La estructura de financiamiento del Banco Austral se define con fuentes y propor
 | Financiamiento interbancario | 111 136 | Baja | 7,80 % |
 | **Total** | **403 056** | | |
 
+Una línea de esa estructura concentra casi todo el riesgo de liquidez del
+banco.
+
 ```text
 EL PROBLEMA ESTÁ EN LOS 111 136 INTERBANCARIOS
   se renuevan constantemente

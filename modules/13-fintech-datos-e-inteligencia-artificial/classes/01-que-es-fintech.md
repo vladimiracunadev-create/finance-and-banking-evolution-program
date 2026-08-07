@@ -109,6 +109,9 @@ Algunas piezas del negocio bancario se desagregan con facilidad y otras resisten
 | Gestión de riesgos | Capital y balance | Baja | Poco atacada |
 | Asesoría e información | Conocimiento | Alta | Muy atacada |
 
+Leyendo la tabla por columnas aparece un patrón que explica por qué unas
+funciones se desagregan y otras resisten.
+
 ```text
 EL PATRÓN
   las funciones que se prestan con CÓDIGO se desagregan
@@ -132,6 +135,9 @@ Los competidores adoptan modelos distintos con economías distintas. La tabla lo
 | Infraestructura | Vende capacidades a otros | Verificación, antifraude, núcleo bancario |
 | Banca como servicio | Licencia e infraestructura para terceros | Cuentas y tarjetas de marca blanca |
 | Seguros digitales | Suscripción y siniestros digitales | Microseguros |
+
+Todos esos modelos se pueden interrogar con una unica pregunta, que es la que
+revela dónde queda el riesgo.
 
 ```text
 LA PREGUNTA QUE DEFINE CADA MODELO
@@ -179,6 +185,9 @@ Un banco puede responder de varias formas y cada una tiene su costo y su plazo. 
 | Invertir | Se quiere opción sin integrar | Poca influencia |
 | Proveer infraestructura | Se monetiza la licencia y el balance | Margen bajo, pérdida de marca |
 | Ignorar | Casi nunca | Erosión silenciosa |
+
+La elección entre esas respuestas se resuelve clasificando primero la
+capacidad en cuestión.
 
 ```text
 CRITERIO DE DECISIÓN

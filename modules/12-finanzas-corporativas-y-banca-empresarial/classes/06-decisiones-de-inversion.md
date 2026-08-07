@@ -119,6 +119,9 @@ CONSTRUCCIÓN
 | Valor residual o de liquidación | Depreciación como salida de caja |
 | Efectos fiscales de la venta de activos | Costos de estudios ya realizados |
 
+Hay una exclusión de la lista que genera dudas cada vez, y conviene
+justificarla en lugar de memorizarla.
+
 ```text
 POR QUÉ NO SE INCLUYEN LOS INTERESES
   el costo del financiamiento ya está en la TASA DE DESCUENTO
@@ -139,6 +142,9 @@ Los criterios de decisión son los de la Parte 7 y se usan juntos. La tabla los 
 | Índice de rentabilidad | Aceptar si > 1 | Útil con capital racionado | No mide magnitud |
 | Período de recuperación | Aceptar si < umbral | Simple, mide liquidez | Ignora lo posterior; no descuenta |
 | Período descontado | Aceptar si < umbral | Corrige el anterior | Sigue ignorando lo posterior |
+
+Los criterios coinciden casi siempre, y conviene saber en qué caso concreto se
+contradicen y a cual hacer caso.
 
 ```text
 CUANDO VPN Y TIR SE CONTRADICEN

@@ -112,6 +112,9 @@ Las crisis bancarias tienen tipos con dinámicas y velocidades distintas. La tab
 | Reputacional | Cualquiera de las anteriores | Horas | Cobertura y reacción en redes |
 | Sistémica | Otro banco o el mercado | Días | Contagio, cierre de financiamiento |
 
+Los tipos se presentan separados y en la práctica se encadenan, casi siempre
+en la misma dirección.
+
 ```text
 LA MAYORÍA DE LAS CRISIS DE LIQUIDEZ
 SON CRISIS DE SOLVENCIA QUE SE ACELERARON
@@ -156,6 +159,9 @@ COMPONENTES
 | Uso de activos líquidos | Liquidez | Inmediato | Alta |
 | Acceso a facilidades del banco central | Liquidez | Días | Alta, con colateral preparado |
 | Reducción de la exposición | Capital y liquidez | 3–12 meses | Media |
+
+De las cuatro columnas, solo una decide si el plan funcionará el dia que se
+active.
 
 ```text
 LA COLUMNA DECISIVA ES LA ÚLTIMA

@@ -109,6 +109,9 @@ El pilar 1 deja fuera riesgos y trata mal otros. La tabla los recoge.
 | Operacional | Cubierto | Ajustes por eventos específicos o deficiencias |
 | Liquidez | Estándares propios | Autoevaluación de liquidez |
 
+De esa lista, tres riesgos concentran la mayor parte de los requerimientos
+adicionales que se imponen en la práctica.
+
 ```text
 EL CASO MÁS FRECUENTE DE REQUERIMIENTO ADICIONAL
   concentración + tasa en el libro de banca + deficiencias de gobierno
@@ -172,6 +175,9 @@ RESULTADO
 | Orientación no vinculante | Resultado de pruebas de estrés supervisoras |
 | Medida cualitativa | Deficiencias de proceso, gobierno o datos |
 | Restricción de distribuciones | Incumplimiento del requerimiento total |
+
+El resultado de la revisión se traduce en capas de capital que se consumen en
+un orden fijo, con consecuencias crecientes.
 
 ```text
 ORDEN DE CONSUMO DEL CAPITAL (jerarquía habitual)

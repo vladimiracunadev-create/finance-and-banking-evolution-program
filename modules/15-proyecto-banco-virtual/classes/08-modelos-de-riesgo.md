@@ -106,6 +106,9 @@ La estrategia cambia según la madurez del banco. La tabla la recoge.
 | Transición | 12–24 | Modelo estadístico sobre datos propios parciales | Alta; revisión trimestral |
 | Maduro | 24+ | Modelo propio validado, con muestra fuera de tiempo | Estándar; revisión semestral |
 
+En la primera fase no hay modelo estadistico, y conviene decir con precisión
+que ocupa su lugar.
+
 ```text
 EN LA FASE INICIAL
   el "modelo" es la política de crédito de la clase 7

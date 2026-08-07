@@ -127,6 +127,9 @@ Los estados de una pyme requieren ajustes antes de poder analizarse. La tabla lo
 | Provisión de incobrables insuficiente | Reduce el activo real | Antigüedad de la cartera |
 | Deuda con socios | Puede tratarse como cuasi-patrimonio | Contrato y condiciones de pago |
 
+Aplicados a un estado de resultados concreto, los ajustes mueven cada línea en
+una dirección distinta y el resultado final apenas se parece al declarado.
+
 ```text
 EJEMPLO DE AJUSTE
                               declarado    ajuste    ajustado
@@ -177,6 +180,9 @@ prueba: ¿qué ocurre si se pierde el cliente 1?
 | ¿Hay segunda línea de administración? | No |
 | ¿Existe plan de sucesión? | No |
 | ¿El dueño puede ausentarse un mes? | No |
+
+Detectada la dependencia, la pregunta siguiente es qué se puede hacer al
+respecto sin renunciar a la operación.
 
 ```text
 mitigantes de la dependencia del dueño:

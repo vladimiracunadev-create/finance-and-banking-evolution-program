@@ -116,6 +116,9 @@ REGLA
 | Revocación | Efecto hacia el futuro | No aplica: se agota al usarse |
 | Riesgo si falla | Acceso indebido a datos | Pérdida patrimonial |
 
+La regla general admite una excepción que hay que acotar con precisión para
+que siga siendo un consentimiento.
+
 ```text
 EXCEPCIÓN: PAGOS RECURRENTES
   existen consentimientos de pago de uso múltiple

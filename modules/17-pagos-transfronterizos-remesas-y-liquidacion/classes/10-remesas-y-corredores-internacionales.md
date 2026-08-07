@@ -156,6 +156,9 @@ como marco, no como dato inmutable.
 | Cuenta a efectivo en punto | Medio | Alto | Media | Robo en la última milla |
 | Efectivo a efectivo | Alto | Máximo | Baja | Alto |
 
+El cruce entre coste y acceso produce una paradoja que condiciona cualquier
+política de reducción de precios.
+
 ```text
 LA PARADOJA DEL ACCESO
   el canal más accesible —efectivo a efectivo—

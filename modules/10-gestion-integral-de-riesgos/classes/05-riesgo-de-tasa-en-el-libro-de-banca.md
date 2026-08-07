@@ -212,6 +212,9 @@ pero SÍ tiene comportamiento de repreciación
 | Ahorro | 40–60 % | Media |
 | Depósito a plazo | 90–100 % | Su vencimiento |
 
+De todos esos parámetros hay uno que domina el resultado y que, por eso mismo,
+el supervisor limita.
+
 ```text
 EL SUPUESTO QUE MÁS PESA: la vida media de los depósitos a la vista
 

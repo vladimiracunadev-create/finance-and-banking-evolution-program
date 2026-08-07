@@ -205,6 +205,9 @@ PAGO EN DÓLARES, ORDENADO EN SANTIAGO A LAS 16:40 (hora local)
 | Día inhábil de la moneda | La moneda no liquida ese día | No |
 | Fin de semana | Dos o tres días sin liquidación | Solo con sistemas 24/7 |
 
+La combinación de esos factores produce demoras que ningún eslabon considera
+un incidente.
+
 ```text
 EL CASO QUE MÁS SORPRENDE
   un pago ordenado el jueves por la tarde en una plaza

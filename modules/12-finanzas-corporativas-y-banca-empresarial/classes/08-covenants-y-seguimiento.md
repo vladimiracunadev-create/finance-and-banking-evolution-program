@@ -130,6 +130,9 @@ NEGATIVOS — prohibiciones
 | Afirmativo | Información y garantías | Continua |
 | Negativo | Que el riesgo no cambie | Continua |
 
+Entre los tres tipos, el que más información aporta no es el que impone un
+ratio sino el que obliga a informar.
+
 ```text
 EL COVENANT MÁS IMPORTANTE ES AFIRMATIVO
   entregar información financiera en plazo
@@ -207,6 +210,9 @@ FUENTES DE INFORMACIÓN CONTINUA
 | Renuncia del gerente de finanzas | 3 – 12 meses |
 | Pago sistemático el último día | 3 – 6 meses |
 | Solicitud de refinanciamiento | 1 – 3 meses |
+
+El orden de la tabla no es casual: las senales que más anticipan no vienen de
+los estados financieros.
 
 ```text
 LAS SEÑALES CONDUCTUALES ANTICIPAN MÁS QUE LAS FINANCIERAS

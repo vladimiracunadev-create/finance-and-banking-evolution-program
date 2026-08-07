@@ -116,6 +116,9 @@ CICLO = días de inventario + días de cobro − días de pago
 | Servicios profesionales | 0 | 45 | 20 | 25 |
 | Distribuidora mayorista | 46 | 55 | 38 | 63 |
 
+El signo del ciclo cambia por completo la relación entre crecimiento y caja, y
+de ahi sale la necesidad de financiamiento.
+
 ```text
 CICLO NEGATIVO = los proveedores financian la operación
   el negocio genera caja al crecer
@@ -164,6 +167,9 @@ CRITERIOS ÚTILES (más allá de las ventas anuales)
 | Mediana empresa | Ejecutivo con cartera acotada, apoyo de producto | Alta |
 | Gran empresa | Equipo dedicado, banca de inversión | Alta en volumen, márgenes estrechos |
 | Corporativa e internacional | Cobertura global, sindicación | Márgenes muy estrechos, comisiones |
+
+El segmento más grande presenta una paradoja que conviene entender antes de
+disenar su propuesta comercial.
 
 ```text
 LA PARADOJA DEL SEGMENTO GRANDE

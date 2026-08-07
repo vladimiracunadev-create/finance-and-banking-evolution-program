@@ -222,6 +222,9 @@ REGLA DE DISEÑO
 | 3 — Menor | Deterioro sin impacto perceptible | En el informe periódico |
 | 4 — Sin impacto | Detectado y contenido | Registro interno |
 
+La clasificación por niveles se aplica con un criterio que no siempre coincide
+con la gravedad técnica del fallo.
+
 ```text
 LO QUE CONVIERTE UN INCIDENTE EN CRÍTICO NO ES LA CAUSA:
 ES EL EFECTO SOBRE EL CLIENTE FINAL

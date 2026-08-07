@@ -122,6 +122,9 @@ CRÓNICO
 | EAD | Uso de líneas para financiar la recuperación |
 | Concentración | Muchos deudores en la misma zona expuesta |
 
+Esos mecanismos suponen que el seguro absorbe la pérdida, y ese supuesto tiene
+fecha de caducidad en las zonas más expuestas.
+
 ```text
 EL PROBLEMA DEL SEGURO
   el seguro traslada el riesgo... hasta que deja de ser asegurable

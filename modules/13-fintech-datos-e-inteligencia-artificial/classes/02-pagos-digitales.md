@@ -170,6 +170,9 @@ Los códigos de respuesta rápida son la vía de menor costo para aceptar pagos,
 | Del pagador | El comercio escanea al cliente | Control del comercio | Requiere lector |
 | Interoperable | Cualquier app lee cualquier código | Universalidad | Exige estándar común |
 
+Por encima de las diferencias entre modalidades hay una variable que decide si
+el sistema beneficia al conjunto o a un actor.
+
 ```text
 LA INTEROPERABILIDAD ES LA VARIABLE DECISIVA
   sin ella, cada billetera crea su propia red

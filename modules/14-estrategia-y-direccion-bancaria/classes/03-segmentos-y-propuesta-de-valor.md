@@ -116,6 +116,9 @@ UNA SEGMENTACIÓN ES ACCIONABLE SI
 | Rentabilidad y potencial | Muy | El más útil para decidir |
 | Necesidad dominante | Sí | Requiere investigación |
 
+Ningún criterio aislado basta: la segmentación útil combina dos ejes que
+responden a preguntas distintas.
+
 ```text
 LA SEGMENTACIÓN MÁS ÚTIL COMBINA DOS EJES
   NECESIDAD (qué problema tiene el cliente)
@@ -145,6 +148,8 @@ UNA PROPUESTA DE VALOR COMPLETA RESPONDE CINCO PREGUNTAS
 | «Las mejores tasas» | «La tasa más baja del mercado a cambio de atención exclusivamente digital» |
 | «Servicio personalizado» | «Un ejecutivo con máximo 40 clientes, disponible en 2 horas» |
 | «Innovación financiera» | «Todos los productos contratables y cancelables desde la app» |
+
+La diferencia entre ambas columnas se puede comprobar con una sola pregunta.
 
 ```text
 LA PRUEBA DE UNA PROPUESTA DE VALOR

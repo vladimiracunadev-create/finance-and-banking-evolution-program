@@ -180,6 +180,9 @@ CÓMO FUNCIONA
 | Patrón | Depósitos seguidos de retiro inmediato | Más selectiva |
 | Red | Conexiones entre cuentas aparentemente no relacionadas | La más potente y costosa |
 
+Las cuatro familias de reglas comparten un problema, y su magnitud se mide con
+un indicador que conviene vigilar.
+
 ```text
 EL PROBLEMA DE LOS FALSOS POSITIVOS
   una regla mal calibrada genera miles de alertas

@@ -112,6 +112,9 @@ Cada operación consume distintas cantidades de cada restricción. La tabla las 
 | Línea no utilizada | 20-50 % | 10-40 % | Consume | 5 % |
 | Derivados | Según método | Según método | Consume margen | Según posición |
 
+Leida por filas, la tabla describe activos; leida por columnas, plantea un
+dilema que no tiene solución optima.
+
 ```text
 LEE LA TABLA POR COLUMNAS Y APARECE EL DILEMA
   la deuda soberana no consume capital ponderado
@@ -180,6 +183,9 @@ LOS ACTIVOS POR SU RETORNO POR UNIDAD DE ELLA
 | Hipotecario | 2,4 % | 0,30 | 8,0 % |
 | Deuda soberana | 0,6 % | 0,00 | infinito |
 
+El orden que produce la última columna es el que debe guiar el crecimiento,
+con una excepción que conviene mirar dos veces.
+
 ```text
 LA COLUMNA FINAL ORDENA LAS DECISIONES
   con capital como restricción activa,
@@ -205,6 +211,9 @@ Hay instrumentos para liberar cada restricción, con sus costos. La tabla los re
 | Reducción de líneas no utilizadas | Capital y apalancamiento | Relación con clientes | Efecto inmediato |
 | Alargamiento del financiamiento | Financiamiento estable | Mayor costo de fondos | Efecto inmediato |
 | Compra de activos líquidos | Cobertura de liquidez | Diferencial negativo | Empeora apalancamiento |
+
+El primero de esos instrumentos solo cumple su función si se cumple una
+condición que el marco prudencial verifica con detalle.
 
 ```text
 LA TITULARIZACIÓN SOLO LIBERA CAPITAL

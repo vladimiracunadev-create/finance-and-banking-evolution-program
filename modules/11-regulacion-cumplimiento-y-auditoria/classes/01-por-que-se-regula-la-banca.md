@@ -132,6 +132,9 @@ Cada instrumento regulatorio corresponde a una falla concreta. La tabla los rela
 | Riesgo moral | Límite del seguro de depósitos | El depositante grande sí vigila |
 | Uso delictivo | Identificación y monitoreo | Conocimiento del cliente |
 
+De todos esos instrumentos, el capital merece una frase aparte porque su
+lógica explica por qué existe antes que cualquier otro.
+
 ```text
 LA LÓGICA DEL CAPITAL, EN UNA LÍNEA
   el capital hace que quien decide el riesgo

@@ -147,6 +147,9 @@ LA CONSECUENCIA
 | Cumplimiento | No | Se aplica igual, y a veces es más difícil |
 | Riesgo de contraparte | Cambia | Pasa del corresponsal al emisor |
 
+El resultado se ordena aplicando la pregunta de la clase 5, que separa lo que
+mejora de lo que permanece igual.
+
 ```text
 LA PREGUNTA DE LA CLASE 5 APLICADA AQUÍ
   ¿en qué capa actúa?

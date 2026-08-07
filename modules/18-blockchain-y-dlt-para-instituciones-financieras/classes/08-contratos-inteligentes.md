@@ -141,6 +141,9 @@ LA (C) ES LA ÚNICA DEFENDIBLE EN FINANZAS
 | **Suposición sobre el orden** | Otro observa la operación y actúa antes | Ver clase 12 |
 | **Inicialización** | El contrato queda sin dueño o con dueño ajeno | Inicialización atómica con el despliegue |
 
+Los seis defectos comparten un rasgo que conviene tener presente al repartir
+responsabilidades.
+
 ```text
 LOS SEIS TIENEN ALGO EN COMÚN
   ninguno es un fallo del registro: son fallos

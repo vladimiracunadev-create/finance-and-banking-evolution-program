@@ -143,6 +143,9 @@ El proyecto se organiza en fases con entregables encadenados. La tabla los recog
 | Prueba | 15–17 | Estrés, ciclo completo, crisis |
 | Cierre | 18 | Defensa del proyecto |
 
+Los bloques no son independientes: cada entregable es una entrada del
+siguiente, y eso condiciona el orden de trabajo.
+
 ```text
 CADA CLASE PRODUCE UN ENTREGABLE
 Y CADA ENTREGABLE ALIMENTA AL SIGUIENTE
@@ -165,6 +168,9 @@ El proyecto se evalúa con criterios explícitos y en proporciones conocidas. La
 | Control y cumplimiento | 15 % | Que el banco sea viable regulatoriamente |
 | Cliente y ética | 15 % | Que las decisiones consideren al afectado |
 | Comunicación | 10 % | Que la defensa sea clara y honesta |
+
+De los criterios, uno pesa más que el resto por una razón que conviene
+entender antes de empezar.
 
 ```text
 EL CRITERIO DE MAYOR PESO ES LA COHERENCIA
@@ -222,6 +228,9 @@ El proyecto admite recorridos distintos según el perfil de quien lo hace. La ta
 | Profesional bancario | Riesgo, control y cumplimiento | Comparar con tu institución |
 | Dirección | Estrategia y decisiones | Foco en las clases 2, 12, 14, 16, 17, 18 |
 | Docente | El proyecto como caso | Adaptar los datos a tu mercado |
+
+Los recorridos ajustan la profundidad de cada bloque y no cambian el alcance
+del entregable ni de la defensa.
 
 ```text
 TODOS LOS PERFILES HACEN EL MISMO PROYECTO

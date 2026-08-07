@@ -151,6 +151,9 @@ EL MOTIVO ES OBLIGATORIO
 | 14 | Transparencia | Booleano por ruta | Si el coste es comparable |
 | 15 | Disponibilidad de la ruta | % | Si se puede usar |
 
+Tres de esas metricas no admiten promedio, y conviene fijar la regla de
+presentación antes de empezar a medir.
+
 ```text
 REGLA DE PRESENTACIÓN
   las métricas 4, 5 y 6 se reportan en percentiles

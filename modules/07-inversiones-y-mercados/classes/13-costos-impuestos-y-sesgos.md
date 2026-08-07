@@ -102,6 +102,9 @@ Los costos visibles son una parte pequeña del total. La tabla recoge el inventa
 | Conversión de moneda | Explícito | 0,20 %–1,0 % por operación | Confirmación |
 | Retrocesión no informada | Implícito | 0,20 %–1,0 % | Debe consultarse |
 
+Sumados sobre una cartera que se presenta como barata, los costos del
+inventario dan una cifra muy distinta de la comisión publicada.
+
 ```text
 ejemplo de cartera con costos "bajos":
   comisión de fondos         0,42 %
@@ -215,6 +218,9 @@ el comportamiento óptimo desde lo tributario es exactamente el contrario:
 | Contabilidad mental | Una sola política para todo el patrimonio |
 | Descuento hiperbólico | Transferencia automática el día del ingreso |
 | Sesgo de confirmación | Escribir la tesis contraria antes de decidir |
+
+De todas las contramedidas, hay una que actúa sobre varios sesgos a la vez y
+no exige ninguna decisión en el momento difícil.
 
 ```text
 la contramedida más potente y más simple:

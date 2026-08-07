@@ -135,6 +135,9 @@ ENTRE EL 5 Y EL 6 ESTÁ TODO EL PROBLEMA
 | Contratos complejos | Natural | Más difícil |
 | Repetición | Se evita con número de orden | Imposible: la salida ya se gastó |
 
+De todas las filas de la comparación, una tiene consecuencias directas en
+finanzas y conviene desarrollarla.
+
 ```text
 LA FILA QUE MÁS IMPORTA EN FINANZAS
   «repetición»

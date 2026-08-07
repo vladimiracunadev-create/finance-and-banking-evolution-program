@@ -106,6 +106,9 @@ El análisis estructural clásico se aplica a la banca con matices propios. La t
 | Poder del proveedor | Alto en tecnología crítica | Creciente |
 | Sustitutos | Financiamiento no bancario, mercado de capitales | Creciente |
 
+El marco clasico deja fuera cuatro competencias que en banca han pasado a
+primer plano.
+
 ```text
 LO QUE EL ANÁLISIS TRADICIONAL SUBESTIMA EN BANCA
   1. la competencia por la INTERFAZ, no por el producto
@@ -195,6 +198,9 @@ Las barreras de la banca son en parte regulatorias y en parte de escala. La tabl
 | Datos e historial crediticio | Alta | Media, con banca abierta |
 | Acceso a sistemas de pago | Muy alta | Media, con acceso ampliado a no bancos |
 | Costo de cambio del cliente | Alta | Baja, con portabilidad |
+
+De todas esas barreras hay una que se ha desplomado, y su caida cambia sobre
+que se sostiene la relación con el cliente.
 
 ```text
 LA BARRERA QUE MÁS HA CAÍDO ES EL COSTO DE CAMBIO

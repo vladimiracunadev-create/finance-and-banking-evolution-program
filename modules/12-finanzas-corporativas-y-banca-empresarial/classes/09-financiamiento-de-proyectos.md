@@ -105,6 +105,8 @@ El financiamiento de proyectos conviene bajo condiciones concretas y no siempre.
 | Vida larga y definida | Permite plazos largos |
 | Varios patrocinadores | Reparte el riesgo entre ellos |
 
+Esas caracteristicas se dan juntas en un conjunto reconocible de sectores.
+
 ```text
 SECTORES TÍPICOS
   energía (generación, transmisión)
@@ -134,6 +136,9 @@ PRINCIPIO: cada riesgo va a quien mejor lo controla
 | Regulatorio | Estado | Estabilidad contractual, compensación |
 | Fuerza mayor | Seguros | Pólizas endosadas al prestamista |
 | Residual no asignable | Patrocinadores | Capital y reservas |
+
+Toda la matriz se puede verificar con una sola pregunta, aplicada riesgo a
+riesgo.
 
 ```text
 LA PREGUNTA CLAVE PARA CADA RIESGO

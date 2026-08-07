@@ -199,6 +199,9 @@ el hipotecario exige proyectar
 | Edad | Al vencimiento del crédito | Capacidad de generar renta |
 | Otras deudas | Vencimientos que liberan capacidad | Mejora la carga con el tiempo |
 
+Proyectadas esas variables a lo largo del crédito, la carga financiera
+describe una trayectoria que decide si el préstamo es sostenible.
+
 ```text
 PROYECCIÓN DE CARGA FINANCIERA
                           año 1    año 5    año 10   año 20

@@ -117,6 +117,9 @@ COMPONENTES
 | Prueba de participación | Quien compromete activos | Bajo | Redes abiertas actuales |
 | Consenso entre autorizados | Acuerdo entre nodos conocidos | Bajo | Redes privadas |
 
+Sobre esos mecanismos se monta una distinción que decide qué redes son
+utilizables por una entidad regulada.
+
 ```text
 REDES ABIERTAS vs. AUTORIZADAS
   ABIERTA      cualquiera participa, sin permiso
@@ -142,6 +145,9 @@ Los criptoactivos se clasifican por lo que representan económicamente, y esa cl
 | Token de utilidad | Derecho de acceso a un servicio | Del emisor y del servicio |
 | Token de activo real | Representación de un bien | Custodia y exigibilidad del bien |
 | Moneda digital de banco central | Pasivo del banco central | Ver clase 10 |
+
+Esa clasificación no es un ejercicio conceptual: de ella depende que norma
+resulta aplicable.
 
 ```text
 LA CLASIFICACIÓN NO ES ACADÉMICA: DETERMINA EL RÉGIMEN
@@ -233,6 +239,9 @@ Hay usos donde la tecnología aporta y usos donde no. La tabla los separa con el
 | Emisión de valores tokenizados | Sí | Ahorro de proceso; el marco legal es la restricción |
 | Identidad autogestionada | No plenamente | Prometedor, con marcos aún en desarrollo |
 | Contratos con ejecución automática | Depende | Útil donde la ejecución es objetiva y verificable |
+
+El mismo juicio se puede sistematizar en cinco preguntas, aplicables a
+cualquier caso de uso que se proponga.
 
 ```text
 CRITERIO DE EVALUACIÓN

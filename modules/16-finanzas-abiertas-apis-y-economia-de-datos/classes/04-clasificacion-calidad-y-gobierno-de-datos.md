@@ -112,6 +112,9 @@ TRES PREGUNTAS ANTES DE EXPONER UN CAMPO
 | Personal sensible por inferencia | Comercio, glosa, geolocalización del gasto | Consentimiento reforzado o no exponer |
 | Prohibido | Credencial, semilla, clave privada | Nunca sale del sistema |
 
+De los cinco niveles, el cuarto es el que más se subestima, porque sus campos
+no llevan el nombre de lo que revelan.
+
 ```text
 LA CATEGORÍA QUE MÁS SE SUBESTIMA ES LA CUARTA
 
@@ -157,6 +160,9 @@ EL RÉGIMEN NO ES EL MISMO
 | Puntualidad | ¿Está al día? | Retardo p95 respecto del hecho económico | < 60 s |
 | Unicidad | ¿Hay duplicados? | % de identificadores repetidos | 0 % |
 | Validez | ¿Cumple el formato? | % de valores fuera del dominio declarado | 0 % |
+
+Las seis dimensiones admiten umbrales negociables salvo una, y conviene
+explicar por que esa no.
 
 ```text
 LA CONSISTENCIA ES LA ÚNICA QUE ADMITE UMBRAL CERO

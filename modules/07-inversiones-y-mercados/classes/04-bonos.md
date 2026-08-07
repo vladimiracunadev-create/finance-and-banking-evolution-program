@@ -138,6 +138,9 @@ Bono de 1 000, cupón 6 % anual, 5 años, rendimiento de mercado 7 %:
 | 5 | 1 060 | 0,712986 | 755,76 |
 | | | **Precio** | **958,99** |
 
+La suma de la última columna es el precio, y su posición respecto del valor
+nominal ya anticipa la relación entre cupón y rendimiento.
+
 ```text
 precio 958,99 < 1 000 → BAJO LA PAR, porque el cupón (6 %) < rendimiento (7 %)
 ```

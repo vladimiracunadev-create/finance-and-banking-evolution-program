@@ -156,6 +156,9 @@ ELASTICIDAD = variación % de la demanda / variación % del precio
 | Comisión de transferencia | Alta | Alternativas gratuitas |
 | Asesoría patrimonial | Baja | Diferenciación y relación |
 
+Esas cifras son referencias, no datos: la elasticidad propia se mide con un
+experimento o no se conoce.
+
 ```text
 LA ELASTICIDAD SE ESTIMA, NO SE SUPONE
   método: experimento controlado (Parte 14, clase 5)

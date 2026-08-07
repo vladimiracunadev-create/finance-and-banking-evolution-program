@@ -110,6 +110,9 @@ Las modalidades de fraude digital tienen mecánicas distintas y controles distin
 | Fraude interno | Personal con acceso | Segregación, revisión de accesos |
 | Fraude de primera parte | El titular niega su propia operación | Evidencia de autenticación |
 
+De todos esos tipos, uno crece más deprisa que el resto y no deja rastro
+técnico que detectar.
+
 ```text
 EL FRAUDE POR INDUCCIÓN ES EL DE MAYOR CRECIMIENTO
   no hay compromiso técnico que detectar:
@@ -153,6 +156,9 @@ CAPA 5 — APRENDIZAJE
 | Sesión con navegación atípica | Suplantación | Medios |
 | Horario inusual para el cliente | Varios | Altos |
 | Combinación de tres o más señales | Fraude probable | Bajos |
+
+Ninguna de esas senales decide por si sola, y ese es precisamente el diseno de
+una defensa por capas.
 
 ```text
 NINGUNA SEÑAL AISLADA JUSTIFICA UN BLOQUEO

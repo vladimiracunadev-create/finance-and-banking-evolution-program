@@ -146,6 +146,9 @@ Cada componente se decide con el marco de la Parte 14, clase 14. La tabla recoge
 | Capa semántica | Construir | Son las definiciones del negocio |
 | Reportes regulatorios | Comprar o construir según el mercado | Depende de la estandarización |
 
+Esas decisiones tienen una traducción presupuestaria concreta, que es lo que
+el plan de negocio necesita.
+
 ```text
 LA CONSECUENCIA PARA EL PRESUPUESTO
   inversión inicial estimada

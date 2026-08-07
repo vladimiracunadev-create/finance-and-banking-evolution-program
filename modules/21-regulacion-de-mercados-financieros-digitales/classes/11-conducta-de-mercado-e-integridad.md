@@ -151,6 +151,9 @@ CONCLUSIÓN
 | Precio anómalo cerca de la hora de cálculo | Manipulación de referencia | Baja liquidez horaria |
 | Concentración de contraparte | Acuerdo tácito | Mercado pequeño |
 
+Cada uno de esos indicadores necesita un umbral, y elegirlo plantea el mismo
+compromiso que ya apareció con el filtrado de sanciones.
+
 ```text
 CADA UNO EXIGE UN UMBRAL, Y EL UMBRAL
 DECIDE PRECISIÓN Y EXHAUSTIVIDAD

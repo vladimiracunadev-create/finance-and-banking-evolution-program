@@ -109,6 +109,9 @@ Cada organismo internacional cubre un ámbito y emite un tipo de documento disti
 | Banco Mundial y FMI | Evaluación de sistemas financieros | Programa de evaluación del sector financiero |
 | OCDE | Política pública, consumo, tributación | Principios de protección del consumidor |
 
+Ninguno de esos organismos tiene potestad normativa directa, y conviene
+entender de dónde sale entonces su influencia.
+
 ```text
 NINGUNO DE ELLOS PUEDE OBLIGAR A UN BANCO
 su fuerza viene de:
@@ -163,6 +166,9 @@ UN MISMO ESTÁNDAR PRODUCE NORMAS DISTINTAS PORQUE:
 | Calendario | Un grupo internacional convive con dos regímenes |
 | Exigencia superior | Competencia desigual entre jurisdicciones |
 | Perímetro | Entidades similares con reglas distintas |
+
+Esas diferencias tienen una consecuencia concreta para cualquier grupo que
+opere en más de una jurisdicción.
 
 ```text
 PARA UN GRUPO INTERNACIONAL, ESTO SIGNIFICA:

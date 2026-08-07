@@ -245,6 +245,9 @@ El diseño del producto puede reducir la pérdida sin cambiar la admisión. La t
 | Plazo acotado | Reduce la exposición al ciclo | Segmentos de mayor riesgo |
 | Cierre de cupos rotativos | Reduce el endeudamiento total | Perfiles con alta utilización |
 
+Combinar dos de esos mitigantes tiene un efecto medible sobre la pérdida
+esperada, y ese efecto se puede devolver al cliente en tasa o retener.
+
 ```text
 efecto combinado de débito automático + fecha alineada:
   PD baja de 5,4 % a 4,1 % (−24 %)

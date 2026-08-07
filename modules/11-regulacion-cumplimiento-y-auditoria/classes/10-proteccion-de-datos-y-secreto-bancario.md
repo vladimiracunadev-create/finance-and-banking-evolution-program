@@ -103,6 +103,9 @@ Los tres regímenes protegen cosas distintas y sus excepciones no coinciden. La 
 | Alcance | Personas naturales y jurídicas | Solo personas naturales | Institucional |
 | Excepciones | Orden judicial, autoridad tributaria, prevención de lavado | Bases de licitud, obligaciones legales | Normativa específica |
 
+Los tres regimenes se superponen sobre un mismo cliente, y el caso de la
+empresa muestra que no coinciden.
+
 ```text
 UNA EMPRESA NO TIENE DATOS PERSONALES
   pero sí está protegida por el secreto bancario
@@ -154,6 +157,9 @@ Los derechos existen y tienen límites, algunos por obligaciones del propio banc
 | Oposición | Oponerse a un tratamiento | No aplica a obligaciones legales |
 | Portabilidad | Llevarse sus datos | Alcance definido por norma |
 | Revisión de decisión automatizada | Intervención humana | Ver clase 11 de la Parte 14 |
+
+De todos esos limites hay uno que no admite matices y que obliga a responder
+con especial cuidado.
 
 ```text
 EL LÍMITE MÁS IMPORTANTE
@@ -207,6 +213,9 @@ PROCESO
 | Consecuencias | Riesgos probables para los titulares |
 | Medidas | Adoptadas y propuestas |
 | Contacto | Punto de contacto para más información |
+
+El contenido de la notificación importa menos que el momento, y sobre el
+momento hay un malentendido frecuente.
 
 ```text
 EL PLAZO CORRE DESDE EL CONOCIMIENTO, NO DESDE LA RESOLUCIÓN

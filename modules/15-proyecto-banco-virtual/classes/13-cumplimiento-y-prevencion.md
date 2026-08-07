@@ -113,6 +113,9 @@ La evaluación institucional identifica los riesgos propios del modelo de negoci
 | Efectivo | Alto | Depósitos y retiros en corresponsales |
 | Nuevas tecnologías | Medio | Identidad digital, datos alternativos |
 
+La combinación de esos factores da un nivel institucional que determina el
+tamaño del programa.
+
 ```text
 RIESGO INSTITUCIONAL: ALTO
 

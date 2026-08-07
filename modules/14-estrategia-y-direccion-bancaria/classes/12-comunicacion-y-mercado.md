@@ -115,6 +115,9 @@ PRINCIPIOS
 | Sostenibilidad | Según el marco aplicable (clase 11) |
 | Gobierno corporativo | Composición, remuneraciones, políticas |
 
+La segunda obligación es la que más dudas genera, y conviene tener una lista
+concreta de lo que la activa en un banco.
+
 ```text
 LO QUE DEBE COMUNICARSE COMO HECHO RELEVANTE EN UN BANCO
   · cambios en la administración superior
@@ -148,6 +151,9 @@ UNA MEDIDA ALTERNATIVA ES LEGÍTIMA SI
 | Presentar la medida alternativa antes que la contable | Cuestionable |
 | Conciliación en una nota al pie | Cuestionable |
 | Serie histórica recalculada con la nueva definición | Correcto |
+
+Al margen de esas prácticas, dar una orientación sobre resultados futuros
+tiene consecuencias propias que conviene sopesar.
 
 ```text
 LAS GUÍAS SOBRE DESEMPEÑO FUTURO

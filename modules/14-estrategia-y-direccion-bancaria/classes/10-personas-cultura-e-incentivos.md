@@ -109,6 +109,9 @@ La cultura se puede diagnosticar con indicadores observables. La tabla los recog
 | Incentivos | ¿Premian el cómo, no solo el cuánto? | Casos de ajuste a la baja |
 | Consecuencias | ¿Se aplican, y a todos? | Casos de aplicación por nivel jerárquico |
 
+Todas esas dimensiones se pueden resumir en una pregunta cuya respuesta no
+admite matices.
+
 ```text
 LA PRUEBA MÁS DURA DE UNA CULTURA
   ¿alguna vez se aplicó una consecuencia

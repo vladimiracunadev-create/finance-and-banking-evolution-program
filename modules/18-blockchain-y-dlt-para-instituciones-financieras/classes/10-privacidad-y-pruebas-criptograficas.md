@@ -114,6 +114,9 @@ EL ERROR CLÁSICO EN FINANZAS
 | Compromisos | El valor, no la existencia | Bajo | Cualquiera, la consistencia |
 | Pruebas de conocimiento cero | El valor, demostrando propiedades | Alto | Cualquiera, la propiedad |
 
+La primera de las cuatro técnicas es la más empleada y casi nunca se cuenta
+como tal.
+
 ```text
 LA PRIMERA ES LA MÁS USADA Y LA MENOS RECONOCIDA
   «lo ponemos fuera y dejamos el resumen dentro»

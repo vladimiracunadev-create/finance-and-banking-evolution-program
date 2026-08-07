@@ -169,6 +169,9 @@ LA CONCILIACIÓN COMPARA LAS DOS
 | **Apunte duplicado** | Reintento sin idempotencia | Solicitud de anulación |
 | **Apunte ajeno** | Movimiento que no corresponde | Reclamación inmediata |
 
+Sobre esas cinco causas se apoya la regla que convierte la conciliación en un
+control y no en un tramite.
+
 ```text
 LA REGLA DE ORO DE LA CONCILIACIÓN
   una partida pendiente sin CAUSA IDENTIFICADA

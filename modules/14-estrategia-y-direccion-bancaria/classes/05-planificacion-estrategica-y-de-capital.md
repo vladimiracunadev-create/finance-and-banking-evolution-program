@@ -181,6 +181,8 @@ PROYECCIÓN DE FUENTES
 | Gestión de activos ponderados | Variable | Media | Difícil en estrés |
 | Emisión de acciones | Alto, dilutivo | Lenta | Muy difícil en estrés |
 
+La última columna de la tabla contiene toda la lección del plan de capital.
+
 ```text
 LA REGLA QUE SE DEDUCE DE LA ÚLTIMA COLUMNA
   todas las fuentes se cierran o encarecen en estrés

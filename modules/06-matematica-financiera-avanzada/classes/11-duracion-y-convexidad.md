@@ -103,6 +103,9 @@ Bono con valor nominal 1 000, cupón 6 % anual, 5 años, rendimiento 7 %:
 | 5 | 1 060 | 755,79 | 3 778,95 |
 | | | **959,02** | **4 269,86** |
 
+Las dos últimas columnas contienen todo lo necesario: su cociente da la
+duración, y un ajuste adicional la convierte en la versión modificada.
+
 ```text
 D = 4 269,86 / 959,02 = 4,4523 años
 D* = 4,4523/1,07 = 4,1610

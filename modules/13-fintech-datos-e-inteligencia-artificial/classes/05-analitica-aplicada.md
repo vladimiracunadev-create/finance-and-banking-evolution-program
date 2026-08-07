@@ -171,6 +171,9 @@ ANTES DE EMPEZAR, CALCULA EL TAMAÑO NECESARIO
 | Efecto pequeño, muestra grande | Real pero quizá no relevante |
 | Efecto pequeño, muestra pequeña | No concluyente |
 
+Con muestras grandes aparece una confusión habitual entre lo que el
+estadistico detecta y lo que el negocio necesita.
+
 ```text
 SIGNIFICANCIA NO ES RELEVANCIA
   un efecto de 0,02 puntos sobre 4 millones de clientes

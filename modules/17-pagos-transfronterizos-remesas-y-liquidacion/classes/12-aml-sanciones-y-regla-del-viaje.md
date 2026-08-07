@@ -188,6 +188,9 @@ EN PREVENCIÓN DE LAVADO, HAY EQUILIBRIO
 | Listas sin depurar | Entradas duplicadas o antiguas | Gestión de la fuente |
 | Texto libre | La dirección no es comparable | Campos estructurados |
 
+Frente a todas esas correcciones legítimas hay una que se propone siempre y
+que no lo es.
+
 ```text
 LA CORRECCIÓN QUE NUNCA ES CORRECTA
   «subimos el umbral porque hay demasiadas alertas»

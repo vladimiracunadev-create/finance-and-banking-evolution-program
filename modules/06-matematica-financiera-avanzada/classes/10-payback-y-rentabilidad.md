@@ -103,6 +103,9 @@ k = 12 %
 | 2 | 45 000 | −35 000 |
 | 3 | 38 000 | +3 000 |
 
+El acumulado cambia de signo entre dos años, y la fracción se obtiene
+interpolando dentro de ese periodo.
+
 ```text
 payback simple = 2 + 35 000/38 000 = 2,92 años
 ```
@@ -117,6 +120,9 @@ payback simple = 2 + 35 000/38 000 = 2,92 años
 | 3 | 38 000 | 0,711780 | 27 048 | −21 364 |
 | 4 | 32 000 | 0,635518 | 20 337 | −1 027 |
 | 5 | 28 000 | 0,567427 | 15 888 | +14 861 |
+
+Descontados los flujos, el cruce se produce dos años más tarde: esa diferencia
+es lo que costaba ignorar el valor del dinero en el tiempo.
 
 ```text
 payback descontado = 4 + 1 027/15 888 = 4,06 años

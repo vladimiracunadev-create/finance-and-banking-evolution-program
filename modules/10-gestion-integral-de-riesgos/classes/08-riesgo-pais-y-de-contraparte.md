@@ -163,6 +163,9 @@ La exposición se reduce con compensación contractual y con garantías. La tabl
 | Cámara de contrapartida central | Sustituye a la contraparte | Cámara reconocida y capitalizada |
 | Cláusula de terminación anticipada | Plazo de exposición | Detonantes objetivos |
 
+El primero de esos mecanismos merece un cálculo propio, porque su efecto sobre
+la exposición es mayor de lo que sugiere su descripción.
+
 ```text
 EFECTO DE LA COMPENSACIÓN
   sin compensación: exposición = Σ max(V_i, 0)

@@ -133,6 +133,9 @@ valor de liquidación = valor de tasación × factor de castigo
 | Existencias | 30–50 % | Obsolescencia y dispersión |
 | Cuentas por cobrar | 50–70 % | Depende de la calidad del deudor cedido |
 
+Al factor de castigo hay que restarle todavía lo que cuesta llegar hasta el
+remate, que no es un porcentaje despreciable.
+
 ```text
 además se descuentan los costos de ejecución:
   gastos judiciales, honorarios, comisión de remate, mantención del bien,

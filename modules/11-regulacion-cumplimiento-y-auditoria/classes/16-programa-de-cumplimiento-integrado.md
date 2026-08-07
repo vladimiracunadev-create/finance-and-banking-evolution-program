@@ -121,6 +121,9 @@ ESTRUCTURA DE CADA REGISTRO
 | Nadie responde por una obligación | Cada una tiene dueño |
 | Los controles se duplican | Un control cubre varias obligaciones |
 
+Del inventario surge un beneficio que no aparece en la tabla y que suele
+justificar por si solo el esfuerzo de construirlo.
+
 ```text
 EL BENEFICIO MENOS EVIDENTE: LA DESDUPLICACIÓN
   un mismo control —verificación de identidad al abrir cuenta—
@@ -207,6 +210,9 @@ La efectividad se mide con indicadores y con pruebas, no con horas de formación
 | Denuncias recibidas y resueltas | Confianza en el canal | Cero denuncias |
 | Sanciones y hallazgos supervisores | Resultado externo | Reincidencia |
 | Casos de aplicación de consecuencias | Seriedad | Cero |
+
+Por encima de todos esos indicadores hay una pregunta unica que revela si el
+programa tiene autoridad real.
 
 ```text
 EL INDICADOR DEFINITIVO

@@ -103,6 +103,9 @@ Los tres niveles exigen acciones concretas y distintas. La tabla las recoge.
 | Verificación | Documento oficial, contraste biométrico o con registro | Escritura, registro público, poderes vigentes |
 | Conocimiento | Actividad, ingresos, origen de fondos, propósito | Actividad real, estructura, flujos esperados, contrapartes |
 
+Los tres niveles se resumen en un perfil, y ese perfil tiene un contenido
+esperado que va bastante más alla de los datos de identificación.
+
 ```text
 LO QUE SE ESPERA DEL PERFIL
   · actividad económica y su coherencia con los flujos
@@ -169,6 +172,9 @@ La intensidad se ajusta al riesgo, y esa proporcionalidad es exigible en ambas d
 | Monitoreo | Básico | Estándar | Intensificado |
 | Revisión | 3–5 años | 2–3 años | Anual o menor |
 
+La columna de la derecha no se aplica por decisión discrecional: hay casos en
+que la norma la exige directamente.
+
 ```text
 CASOS QUE EXIGEN DILIGENCIA REFORZADA
   · personas expuestas políticamente, su familia y allegados
@@ -224,6 +230,9 @@ La identificación remota tiene requisitos propios y riesgos propios. La tabla l
 | Trazabilidad del proceso | Identidades sintéticas (datos reales combinados) | Contraste con múltiples fuentes |
 | Rapidez | Ausencia de contacto para juzgar contexto | Fricción adicional según riesgo |
 | Registro de evidencia | Dependencia de un proveedor único | Proveedor alterno (Parte 11, clase 2) |
+
+Entre los riesgos de la identidad digital hay uno que ninguna de esas
+mitigaciones detecta con facilidad, porque no tiene victima que reclame.
 
 ```text
 IDENTIDAD SINTÉTICA — el fraude más difícil de detectar

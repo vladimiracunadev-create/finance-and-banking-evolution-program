@@ -115,6 +115,9 @@ CONDICIONES PARA QUE UNA EMISIÓN TENGA SENTIDO
 | Costos recurrentes | Bajos | Auditoría, calificación anual, información |
 | Costo de la rigidez | Bajo | Alto si hay dificultades |
 
+Con esa estructura de costos se puede calcular a partir de que monto y plazo
+la emisión resulta más barata que el crédito.
+
 ```text
 PUNTO DE INDIFERENCIA
   la emisión conviene cuando el ahorro de tasa
@@ -167,6 +170,9 @@ QUÉ MIRA UNA AGENCIA
 | Inversión | AAA a BBB− | Acceso amplio; muchos fondos solo compran aquí |
 | Especulativo | BB+ a C | Base de inversionistas menor, diferencial mucho mayor |
 | Incumplimiento | D | — |
+
+Entre las categorías hay un escalon que no es uno más y que condiciona la
+política financiera de las empresas que rondan esa frontera.
 
 ```text
 EL SALTO ENTRE BBB− Y BB+ ES DESPROPORCIONADO

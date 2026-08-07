@@ -161,6 +161,9 @@ La intensidad de la diligencia se ajusta al riesgo del cliente, y esa proporcion
 | Canal | Presencial con verificación | Remoto sin controles reforzados |
 | Condición | Sin condiciones especiales | PEP, o vinculado a una PEP |
 
+La combinación de esos factores sitúa al cliente en uno de tres niveles, y
+cada nivel determina la profundidad de la verificación.
+
 ```text
 DILIGENCIA SIMPLIFICADA   riesgo bajo, verificación básica
 DILIGENCIA ESTÁNDAR       riesgo normal

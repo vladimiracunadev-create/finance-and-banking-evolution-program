@@ -113,6 +113,9 @@ RENTABILIDAD SOBRE PATRIMONIO (ROE)
 | Alta rotación | 3 % | 3,4 | 1,9 | Supermercado |
 | Alto apalancamiento | 5 % | 0,5 | 7,8 | Inmobiliaria |
 
+Los tres perfiles llegan al mismo resultado por caminos distintos, y
+distinguirlos es todo el valor de la descomposición.
+
 ```text
 LO QUE LA DESCOMPOSICIÓN REVELA
   un ROE que sube por APALANCAMIENTO no es una mejora operativa:
@@ -216,6 +219,9 @@ Un ratio aislado no significa nada; comparado con el sector, sí. La tabla recog
 | Endeudamiento | Sectores intensivos en capital soportan más |
 | Rotación de activos | Estructuralmente distinta entre sectores |
 | Ciclo de conversión | Define la necesidad de financiamiento |
+
+La comparación sectorial es útil con condiciones, porque un promedio puede
+estar formado por empresas que no se parecen entre si.
 
 ```text
 CUIDADO CON LOS PROMEDIOS SECTORIALES

@@ -111,6 +111,9 @@ Hay cuatro tipos de opinión con significados muy distintos. La tabla los recoge
 | Adversa | Error material y generalizado | No presenta razonablemente |
 | Abstención | No se pudo obtener evidencia suficiente | No se emite opinión |
 
+Junto a la opinion pueden aparecer parrafos que no la modifican y que, sin
+embargo, contienen la información más relevante del informe.
+
 ```text
 PÁRRAFOS ADICIONALES QUE NO MODIFICAN LA OPINIÓN
   ÉNFASIS              destaca un asunto ya revelado
@@ -140,6 +143,9 @@ LA AUDITORÍA NO BUSCA TODOS LOS ERRORES: BUSCA LOS MATERIALES
 | Ingresos totales | Resultado volátil o cercano a cero | 0,5 % – 1 % |
 | Activos totales | Entidades financieras | 0,5 % – 2 % |
 | Patrimonio | Foco en solvencia | 1 % – 5 % |
+
+Aplicada a un balance bancario, la materialidad produce un resultado que
+sorprende a quien lee los estados desde la cuenta de resultados.
 
 ```text
 CONSECUENCIA QUE SORPRENDE
@@ -226,6 +232,9 @@ Auditoría interna, externa y supervisión cubren cosas distintas y deben coordi
 | Destinatario | Comité de auditoría | Accionistas y terceros | Directorio |
 | Frecuencia | Continua | Anual, con revisiones intermedias | Periódica |
 | Puede confiar en | — | Trabajo de la interna, si es confiable | Ambos |
+
+El equilibrio entre los tres depende de que el auditor externo sea
+efectivamente independiente, y eso se sostiene con reglas concretas.
 
 ```text
 INDEPENDENCIA DEL AUDITOR EXTERNO

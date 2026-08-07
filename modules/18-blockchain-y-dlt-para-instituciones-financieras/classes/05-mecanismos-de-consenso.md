@@ -119,6 +119,9 @@ Y EN UNA PROPIEDAD QUE SE OLVIDA
 | Supuesto de seguridad | Mayoría del cómputo honesta | Mayoría del capital honesta | Menos de 1/3 defectuosos |
 | Coste de ataque | Adquirir cómputo | Adquirir capital | Coludir con conocidos |
 
+En un consorcio financiero hay una fila que decide la elección antes de mirar
+las demás.
+
 ```text
 LA FILA QUE DECIDE EN UN CONSORCIO FINANCIERO
   «participantes»

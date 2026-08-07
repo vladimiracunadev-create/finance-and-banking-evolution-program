@@ -140,6 +140,9 @@ Los indicadores que anticipan y los que confirman cumplen funciones distintas. L
 | Capacidades | Tiempo de idea a producción | Costo por operación |
 | Capacidades | Cobertura de datos críticos | Incidentes por cambio |
 
+La diferencia entre ambas columnas no es de precisión sino de oportunidad: una
+permite corregir y la otra solo confirmar.
+
 ```text
 LOS INDICADORES PRINCIPALES SON LOS QUE PERMITEN CORREGIR
   el costo de riesgo del período informa de lo ocurrido

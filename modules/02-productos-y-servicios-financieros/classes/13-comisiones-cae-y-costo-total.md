@@ -110,6 +110,9 @@ Resolviendo por bisección (Parte 1, clase 14):
 | 1,70 % | 2 988 000 |
 | **1,66 %** | **3 000 800** |
 
+Interpolando entre esos dos valores se obtiene la tasa buscada, y su
+comparación con la del contrato mide cuánto encarecen los gastos asociados.
+
 ```text
 i mensual ≈ 1,66 %
 CAE = (1,0166)^12 − 1 = 21,84 % anual

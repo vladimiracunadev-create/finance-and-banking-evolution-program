@@ -124,6 +124,9 @@ Ejemplo de un sistema bancario:
 | F | 6 % |
 | Otros (8 bancos) | 11 % |
 
+Con esas participaciones se calculan los dos indicadores habituales, que
+resumen la misma realidad con distinta sensibilidad al tamaño.
+
 ```text
 CR4 = 24 + 21 + 17 + 13 = 75 %
 HHI = 24² + 21² + 17² + 13² + 8² + 6² + (8 bancos de ~1,4 %)

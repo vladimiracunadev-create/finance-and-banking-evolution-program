@@ -143,6 +143,9 @@ Repartir el capital entre unidades tiene varios métodos y ninguno es neutral. L
 | Contribución al riesgo | Derivada del capital total respecto de la exposición | Suma exactamente el total | Más complejo |
 | Proporcional | Reparte el beneficio de diversificación pro rata | Simple y aditivo | Ignora quién diversifica |
 
+Elegir método no es un tecnicismo contable: cambia el retorno aparente de cada
+unidad y, con el, las decisiones que se toman sobre ellas.
+
 ```text
 EL MÉTODO IMPORTA PORQUE CAMBIA LAS DECISIONES
 

@@ -168,6 +168,9 @@ PERO LA GARANTÍA ES CONDICIONAL
 | Defecto en la implementación | Variable | No |
 | Ataque con poder de producción | Elegida por el atacante | Sí |
 
+La lectura de la tercera columna cambia por completo como debe tratarse una
+reorganización dentro de una institución.
+
 ```text
 LA MAYORÍA DE LAS REORGANIZACIONES NO SON ATAQUES
   son el funcionamiento normal de un sistema distribuido

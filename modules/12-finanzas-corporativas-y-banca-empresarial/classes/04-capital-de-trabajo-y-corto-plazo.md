@@ -138,6 +138,9 @@ COSTO EFECTIVO
 | Permanece en el balance de la empresa | Puede darse de baja del balance |
 | El banco evalúa a la empresa | El banco evalúa a los deudores |
 
+Ninguna de las dos modalidades cubre un riesgo que no es de crédito y que
+aparece en la mayoria de las operaciones.
+
 ```text
 LA DILUCIÓN: EL RIESGO QUE MÁS SE SUBESTIMA
   el deudor no paga los 1 000 porque:
@@ -193,6 +196,9 @@ El inventario como garantía tiene problemas propios de control y de valoración
 | Prenda sin desplazamiento | La mercancía queda con la empresa | Difícil de controlar |
 | Warrant o certificado de depósito | Almacén general controla la mercancía | Menor, con costo de almacenaje |
 | Financiamiento de materias primas | Sobre bienes con mercado y precio observable | Precio y calidad |
+
+Antes de elegir modalidad hay que decidir si el inventario sirve como
+garantia, y eso se responde con cinco preguntas.
 
 ```text
 CRITERIO DE ELEGIBILIDAD DEL INVENTARIO

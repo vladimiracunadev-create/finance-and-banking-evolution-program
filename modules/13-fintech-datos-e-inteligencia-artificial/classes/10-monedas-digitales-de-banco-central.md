@@ -110,6 +110,9 @@ Las dos variantes resuelven problemas distintos y afectan a la banca de forma di
 | Riesgo para la banca | Bajo | Potencialmente alto |
 | Estado de avance | Pruebas avanzadas | Diseño y pilotos |
 
+Las dos variantes no son dos versiones de lo mismo: una prolonga lo existente
+y la otra cambia la relación del público con el banco central.
+
 ```text
 LA MAYORISTA ES EVOLUTIVA
   los bancos ya tienen cuentas en el banco central
@@ -136,6 +139,9 @@ CADA DECISIÓN TIENE UN INTERCAMBIO EXPLÍCITO
 | Identificación | Plena | Anonimato acotado para montos bajos | Trazabilidad frente a privacidad |
 | Programabilidad | Sí | No | Utilidad de política frente a libertad de uso |
 | Funcionamiento sin conexión | Sí | No | Inclusión y resiliencia frente a riesgo de doble gasto |
+
+De todas esas decisiones hay una combinación que se repite en los proyectos en
+curso y que conviene conocer.
 
 ```text
 EL MODELO DE DOS NIVELES ES EL CONSENSO EMERGENTE

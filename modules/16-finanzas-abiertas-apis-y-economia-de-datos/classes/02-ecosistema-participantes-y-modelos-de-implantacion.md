@@ -144,6 +144,9 @@ donde la visibilidad no llega.
 | Resolución de disputas | Vía supervisor | Vía contrato | Mixta |
 | Riesgo de captura | Del regulador | Del participante dominante | De la gobernanza del esquema |
 
+Con criterios medibles sobre la mesa, conviene senalar el error de lectura que
+se comete con más frecuencia al compararlos.
+
 ```text
 EL ERROR DE ANÁLISIS MÁS COMÚN
   «el modelo regulatorio es mejor porque hay más entidades conectadas»

@@ -156,6 +156,9 @@ Quién tiene que probar qué decide muchos reclamos, y no siempre recae en el cl
 | Cobro indebido | El banco prueba la procedencia | Quien cobra justifica |
 | Negligencia grave del cliente | El banco la prueba | Es la excepción a la regla |
 
+El reparto de la prueba tiene una consecuencia operativa directa sobre lo que
+el banco debe conservar y durante cuánto tiempo.
+
 ```text
 CONSECUENCIA OPERATIVA
   el banco debe CONSERVAR la evidencia:

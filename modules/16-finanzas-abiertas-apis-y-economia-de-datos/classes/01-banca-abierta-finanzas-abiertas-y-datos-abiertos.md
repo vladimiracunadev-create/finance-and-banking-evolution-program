@@ -148,6 +148,9 @@ LO QUE CAMBIA NO ES LA TECNOLOGÍA: ES QUIÉN CONTROLA EL ACCESO
 | De mercado | Los participantes acuerdan | Estados Unidos por vía contractual | Ritmo rápido, cobertura desigual |
 | Híbrido | La norma fija principios, el mercado los estándares | Varios | Depende de la gobernanza del estándar |
 
+Ninguno de los tres modelos domina a los otros: cada uno resuelve un problema
+y deja otro abierto.
+
 ```text
 NINGUNO ES SUPERIOR EN ABSTRACTO
   regulatorio  resuelve la cobertura, no resuelve la calidad
@@ -218,6 +221,9 @@ SIN RECIPROCIDAD APARECE UN INCENTIVO PERVERSO
 | Inferencia sensible | Los movimientos revelan salud, ideología, familia | Cliente |
 | Reparto de responsabilidad opaco | Tres partes en un fraude | Cliente y entidades |
 | Superficie de ataque ampliada | Cada conexión es una puerta | Todos |
+
+El balance de riesgos del modelo no es una resta simple: unos bajan, otros
+suben y algunos cambian de dueno.
 
 ```text
 EL MODELO NO ES NEUTRAL EN RIESGO

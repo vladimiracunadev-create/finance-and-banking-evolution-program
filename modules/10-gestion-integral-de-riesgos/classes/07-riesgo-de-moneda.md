@@ -130,6 +130,9 @@ AGREGACIÓN BRUTA       mayor entre la suma de las largas
 | Yen | −1 100 | | 1 100 |
 | **Suma** | **+7 900** | **17 600** | **9 700** |
 
+Sobre esas posiciones, los dos criterios de agregación dan cifras muy
+distintas, y el supervisor se queda con la mayor.
+
 ```text
 posición global neta:   7 900
 posición global bruta: 17 600  (el mayor entre largas y cortas)
@@ -194,6 +197,9 @@ La cobertura cambiaria tiene un costo que depende del diferencial de tasas, y a 
 | Opción | Derecho a cambiar a un tipo dado | Prima |
 | Calce natural | Financiar activos en X con pasivos en X | Costo de oportunidad |
 | Cláusula contractual | Trasladar el riesgo al cliente | Se convierte en riesgo de crédito |
+
+El precio del primer instrumento no se negocia: lo determina una relación
+conocida, y entenderla evita el malentendido más común sobre coberturas.
 
 ```text
 LA PARIDAD DE TASAS DE INTERÉS determina el precio del forward

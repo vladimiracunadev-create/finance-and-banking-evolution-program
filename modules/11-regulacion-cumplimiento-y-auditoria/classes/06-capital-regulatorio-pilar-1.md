@@ -173,6 +173,9 @@ Los otros dos riesgos del pilar tienen sus propias metodologías. La tabla las r
 | Operacional | Estandarizado único | Indicador de negocio × multiplicador de pérdidas |
 | Ajuste de valoración por crédito | Estandarizado o básico | Exposición de derivados |
 
+Los tres riesgos se suman en el mismo denominador, y para ello los dos últimos
+se convierten con un factor fijo.
+
 ```text
 CONVERSIÓN A ACTIVOS PONDERADOS
   para mercado y operacional se calcula un REQUERIMIENTO de capital

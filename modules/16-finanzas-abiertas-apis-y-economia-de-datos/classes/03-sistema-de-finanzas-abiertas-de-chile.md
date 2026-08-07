@@ -152,6 +152,9 @@ protección al consumidor.
 | Asesoría de inversión | Recomendar sobre instrumentos | Idoneidad y conflicto de interés |
 | Enrutamiento de órdenes | Dirigir órdenes hacia intermediarios | Mejor ejecución y pago por flujo |
 
+El registro se organiza por actividades, y de ahi se sigue una consecuencia
+que sorprende a muchos equipos.
+
 ```text
 EL CRITERIO ES LA ACTIVIDAD, NO LA TECNOLOGÍA
   una aplicación móvil que recomienda instrumentos
