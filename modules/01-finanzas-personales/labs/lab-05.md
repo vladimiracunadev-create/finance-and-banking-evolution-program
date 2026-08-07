@@ -2,33 +2,65 @@
 
 ## Propósito
 
-Aplicar seguros y protección patrimonial en un caso controlado y documentar cada supuesto.
+Aplicar el criterio de decisión a seis riesgos y **sostener la conclusión de que la mayoría no se transfieren**.
+
+El laboratorio 4 midió lo que hay. Este protege lo que puede desaparecer, y su dificultad no es de cálculo: es sostener una decisión que va contra la sensación de estar desprotegido.
 
 ## Escenario
 
-Una persona, empresa o unidad bancaria debe tomar una decisión con información incompleta. Usa datos ficticios del repositorio o crea un conjunto pequeño claramente identificado como sintético.
+Seis riesgos concretos sobre el mismo perfil, con su probabilidad estimada y su impacto.
+
+## Datos
+
+Los seis riesgos con sus cifras y las primas de mercado sintéticas.
+
+## Supuestos del ejercicio
+
+- El fondo de emergencia del laboratorio 3 está constituido.
+- Las primas son sintéticas y representativas de mercado.
+- El criterio es la capacidad de absorber la consecuencia, no la probabilidad.
 
 ## Pasos
 
-1. Define el problema y la decisión.
-2. Identifica variables, unidades y periodicidad.
-3. Realiza los cálculos o el análisis.
-4. Ejecuta una prueba de sensibilidad.
-5. Explica riesgos y limitaciones.
-6. Entrega una conclusión de máximo 200 palabras.
+1. Estima el impacto de cada riesgo sobre el patrimonio del laboratorio 4.
+2. Aplica el criterio de decisión: qué se puede absorber y qué no.
+3. Para los que se transfieren, calcula la suma asegurada correcta.
+4. Comprueba el infraseguro: qué pasa si se asegura por menos del valor.
+5. Revisa las exclusiones y las carencias de cada póliza propuesta.
+6. Justifica por escrito los riesgos que decides no transferir.
+
+## Criterios de aceptación
+
+| # | Criterio | Cómo se comprueba |
+|---:|---|---|
+| 1 | El impacto de cada riesgo está cuantificado | Sobre el patrimonio real |
+| 2 | El criterio se aplica a los seis | Con su resultado |
+| 3 | Las sumas aseguradas están calculadas | No elegidas |
+| 4 | El efecto del infraseguro está cuantificado | En la indemnización |
+| 5 | Los riesgos no transferidos están justificados | Por escrito |
+
+## Errores que se penalizan
+
+| Error | Por qué |
+|---|---|
+| Asegurar por probabilidad | Se asegura por consecuencia, no por frecuencia |
+| Elegir la suma por la prima | El infraseguro reduce la indemnización proporcionalmente |
+| No leer exclusiones ni carencias | Se descubren en el siniestro |
+| Transferir todo | Consume el excedente sin reducir el riesgo relevante |
 
 ## Entregables
 
-- `solution.md` con razonamiento y resultado.
-- Archivo de cálculo o script reproducible.
-- Tabla de supuestos.
-- Reflexión ética y de seguridad.
+- `solution.md` con los seis riesgos evaluados.
+- Las sumas aseguradas calculadas de los que se transfieren.
+- El efecto cuantificado del infraseguro.
+- La justificación escrita de los que no se transfieren.
 
-## Criterios
+## Rúbrica
 
 | Criterio | Puntos |
 |---|---:|
-| Cálculo o análisis | 35 |
-| Trazabilidad | 25 |
-| Interpretación | 25 |
-| Riesgos y ética | 15 |
+| Impacto cuantificado | 20 |
+| Criterio aplicado | 25 |
+| Sumas calculadas | 20 |
+| Infraseguro | 15 |
+| Justificación de las exclusiones | 20 |
