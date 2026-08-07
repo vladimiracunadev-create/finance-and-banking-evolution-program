@@ -5,6 +5,70 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [2.0.0] — 2026-08-07
+
+Séptima y última parte de la **Etapa 5**, y cierre del programa. Con ella existen
+las siete partes de la etapa, y por eso se libera la versión que estaba reservada
+desde la 1.2.0: **el programa pasa de 240 clases en 16 partes a 352 clases en 23
+partes**, agrupadas en cinco etapas que se recorren en orden.
+
+La Parte 23 no introduce ningún concepto nuevo, y esa es su dificultad. Reúne los
+métodos de las veintidós anteriores y los somete a la única prueba que ninguna de
+ellas podía aplicar: hacerlos funcionar juntos. Al integrarlos aparecen
+contradicciones entre decisiones que eran correctas por separado, y esas
+contradicciones son el contenido de la parte.
+
+### Añadido
+
+**Parte 23 — Proyecto: banco digital y mercado tokenizado**
+
+- 18 clases de 90 minutos organizadas en tres bloques: qué construir (1-6),
+  construirlo y encontrar las contradicciones (7-12), y probarlo y defenderlo
+  (13-18).
+- Una **cadena de decisiones** explícita —alcance, registro, dinero, producto—
+  donde la clase 4 deja su conclusión pendiente de la 5 en vez de resolverla por
+  adelantado. Cerrar la cadena al revés es el error de capstone más difícil de
+  detectar, porque el resultado parece coherente.
+- 9 laboratorios con solución de referencia comentada.
+- Evaluación diagnóstica y final. La final califica algo distinto de las
+  anteriores: **no si se sabe cada tema, sino si el conjunto se sostiene ante
+  alguien que busca dónde se contradice**.
+- Proyecto capstone en tres fases, con doce entregables y la restricción de que
+  una tensión sin resolver bloquea la operación.
+
+**Aplicación `apps/digital_bank_capstone/`**
+
+- `scope`: las cuatro preguntas por función, exclusiones que exigen razón escrita
+  y el cálculo de la carga regulatoria y la facturación necesaria.
+- `build`: construir, integrar o comprar, con la salida real por encima del coste
+  y la medición de la concentración del sector.
+- `tensions`: decisiones, tolerancias que solo el consejo puede fijar y tensiones
+  que exigen declarar y cuantificar el sacrificio.
+- `stress`: fuente de correlación, escenario que debe afectar a más de un
+  componente y punto de rotura medido en desviaciones.
+- 24 pruebas, cuatro de las cuales **documentan razonamientos del capstone y
+  deben pasar**.
+
+**Documentación**
+
+- `docs/mapa-capstone.md` con la cadena de decisiones, la tabla de dónde está
+  cada cosa y las cinco afirmaciones que la parte desmonta.
+- Seis términos nuevos en el glosario digital, en una sección propia de diseño de
+  sistemas completos.
+
+### Cambiado
+
+- **El programa deja de estar en ampliación activa.** El README raíz, la ficha
+  técnica y la hoja de ruta describen ahora un programa completo de cinco etapas
+  y veintitrés partes, en vez de una etapa en curso.
+- La cifra publicada pasa a **352 clases en 23 partes** (528 horas), con 150
+  laboratorios, 46 evaluaciones, 23 proyectos y 11 aplicaciones.
+- El trabajo transversal que sigue abierto —biblioteca de casos, bloques «para
+  profundizar» en las partes antiguas y más fichas normativas— se separa en la
+  hoja de ruta del trabajo de la etapa, que está cerrado.
+
+---
+
 ## [1.7.0] — 2026-08-06
 
 Sexta parte de la **Etapa 5**: el régimen que alcanza a la infraestructura
@@ -584,6 +648,13 @@ Versión inicial: estructura del programa y herramientas base.
 
 ---
 
+[2.0.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v2.0.0
+[1.7.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.7.0
+[1.6.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.6.0
+[1.5.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.5.0
+[1.4.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.4.0
+[1.3.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.3.0
+[1.2.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.2.0
 [1.1.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.1.0
 [1.0.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.0.0
 [0.1.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v0.1.0

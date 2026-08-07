@@ -3,17 +3,17 @@
 # Finance & Banking Evolution Program
 
 **De no saber calcular un porcentaje a dirigir un banco digital.**
-Programa abierto de 334 clases con bibliografía oficial verificable en cada una.
+Programa abierto de 352 clases con bibliografía oficial verificable en cada una.
 
 [![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Clases](https://img.shields.io/badge/clases-334%20%2F%20352-2ea44f)](STATUS.md)
-[![Partes](https://img.shields.io/badge/partes-22-1f6feb)](SYLLABUS.md)
-[![Horas](https://img.shields.io/badge/horas-501-8957e5)](SYLLABUS.md)
-[![Versión](https://img.shields.io/badge/versión-1.7.0-0969da)](CHANGELOG.md)
+[![Clases](https://img.shields.io/badge/clases-352%20%2F%20352-2ea44f)](STATUS.md)
+[![Partes](https://img.shields.io/badge/partes-23-1f6feb)](SYLLABUS.md)
+[![Horas](https://img.shields.io/badge/horas-528-8957e5)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-2.0.0-0969da)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
 [![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](SYLLABUS.md)
 
@@ -36,9 +36,9 @@ diseñado para que una misma persona avance sin saltos desde no saber calcular u
 interés hasta poder sentarse en un comité de riesgos y defender la arquitectura de
 un banco digital ante un supervisor.
 
-El programa está en **ampliación activa**: las 16 partes originales están
-completas y la **Etapa 5 — Finanzas digitales** añade siete partes más, de las
-que hoy están publicadas las seis primeras. Las cifras exactas de avance están en
+El programa está **completo**: las cinco etapas y sus veintitrés partes están
+publicadas, desde la aritmética elemental hasta el proyecto capstone de un banco
+digital con mercado tokenizado. Las cifras exactas están en
 [STATUS.md](STATUS.md), que se genera contando los archivos.
 
 No es una colección de apuntes. Cada clase sigue una **estructura fija verificada por
@@ -52,10 +52,10 @@ IOSCO, CPMI y NIST.
 
 <table>
 <tr>
-<td width="25%" align="center"><b>334</b><br>clases completas</td>
+<td width="25%" align="center"><b>352</b><br>clases completas</td>
 <td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
-<td width="25%" align="center"><b>141</b><br>laboratorios</td>
-<td width="25%" align="center"><b>22</b><br>proyectos integradores</td>
+<td width="25%" align="center"><b>150</b><br>laboratorios</td>
+<td width="25%" align="center"><b>23</b><br>proyectos integradores</td>
 </tr>
 </table>
 
@@ -179,9 +179,9 @@ una capa: primero se aprende a calcular, después a analizar, después a operar 
 banco, después a dirigirlo y, por último, a construir la infraestructura sobre la
 que funcionan las finanzas digitales.
 
-Las cinco se presentan aquí con el mismo detalle. La columna «Clases» indica las
-publicadas; el avance real, contado sobre los archivos, está en
-**[STATUS.md](STATUS.md)**.
+Las cinco se presentan aquí con el mismo detalle y las cinco están completas. La
+columna «Clases» indica las publicadas; el recuento, hecho sobre los archivos del
+repositorio, está en **[STATUS.md](STATUS.md)**.
 
 ### Etapa 1 — Fundamentos
 
@@ -234,8 +234,8 @@ construye un banco completo de principio a fin.
 ### Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados
 
 La infraestructura por debajo. Continúa desde la introducción fintech de la
-Parte 14 y llega hasta construir y defender un mercado tokenizado completo. Es la
-etapa en **ampliación activa**: de sus siete partes hay seis publicadas. Ver
+Parte 14 y llega hasta construir y defender un mercado tokenizado completo. Sus
+siete partes están publicadas y cierran el programa. Ver
 **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
 
 | # | Parte | Clases | Contenido central |
@@ -246,7 +246,7 @@ etapa en **ampliación activa**: de sus siete partes hay seis publicadas. Ver
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | Taxonomía, reservas, redención, corrida, CBDC, custodia, contagio |
 | 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | Registro de referencia, emisión, mercado secundario, DvP, PvP y colateral |
 | 22 | [Regulación de mercados financieros digitales](modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | Perímetro, calificación, autorización, protección del cliente, resiliencia y regulación comparada |
-| 23 | Proyecto: banco digital y mercado tokenizado | — | Construir, operar y defender la infraestructura completa |
+| 23 | [Proyecto: banco digital y mercado tokenizado](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) | 18 | Alcance, arquitectura, construcción, tensiones, expediente y defensa |
 
 📖 **[Índice completo de las clases →](SYLLABUS.md)** · 📊 **[Avance real →](STATUS.md)**
 

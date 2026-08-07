@@ -1320,6 +1320,82 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Un punto de fallo invisible en el mapa de riesgo.
 - **Primera clase.** 17.2 · **Otras.** 17.13.
 
+## Diseño de sistemas completos
+
+Los términos de esta sección no describen mecanismos financieros sino decisiones
+de construcción. Aparecen en la Parte 23 porque solo tienen sentido cuando hay un
+sistema entero que sostener, y por eso ninguna de las seis partes anteriores podía
+introducirlos.
+
+### Capstone
+
+- **Definición.** Trabajo final que integra componentes diseñados por separado y
+  **busca las contradicciones que aparecen al integrarlos**.
+- **Qué NO significa.** No es un proyecto grande. Un proyecto grande yuxtapone
+  piezas correctas; un capstone las hace funcionar juntas y encuentra dónde se
+  estorban.
+- **Ejemplo.** Liquidación atómica y horario ampliado son correctas por separado
+  y se contradicen en el coste de prefinanciar.
+- **Riesgo.** Un capstone que no encuentra ninguna tensión no ha integrado nada.
+- **Primera clase.** 23.1 · **Otras.** 23.12.
+
+### Tensión de diseño
+
+- **Definición.** Contradicción entre dos decisiones **ambas correctas** que solo
+  se manifiesta cuando el sistema opera completo.
+- **Qué NO significa.** No es un error. Un error se corrige; una tensión se
+  resuelve eligiendo qué se sacrifica, y el sacrificio se declara.
+- **Ejemplo.** La lista blanca con espera de 48 horas impide atender una llamada
+  de margen legítima a 30 minutos.
+- **Riesgo.** Resolverla en silencio hace que reaparezca en la primera incidencia.
+- **Primera clase.** 23.12 · **Otras.** 23.13.
+
+### Salida real de un proveedor
+
+- **Definición.** Existencia comprobada de alternativa, portabilidad de datos,
+  plazo de migración y coste, **las cuatro respondidas**.
+- **Qué NO significa.** No basta con que el contrato tenga cláusula de
+  terminación. Sin las cuatro respuestas no hay salida, hay una intención.
+- **Ejemplo.** Un registro de colateral sin proveedor alternativo: abandonarlo no
+  es migrar, es rehacerlo.
+- **Riesgo.** Integrar sin salida convierte una decisión de coste en una
+  dependencia estructural.
+- **Primera clase.** 23.2 · **Otras.** 23.11.
+
+### Fuente de correlación
+
+- **Definición.** Proveedor que desempeña **varios papeles** en el sistema, de
+  modo que un solo fallo suyo alcanza a todos ellos a la vez.
+- **Qué NO significa.** No es lo mismo que un proveedor crítico. Lo que la define
+  no es su importancia sino la multiplicidad de papeles.
+- **Ejemplo.** Un corresponsal que emite el depósito, liquida los pagos y
+  custodia efectivo: tres dependencias declaradas y una sola real.
+- **Riesgo.** Se modelan tres fallos independientes e improbables cuando hay uno
+  correlacionado y frecuente.
+- **Primera clase.** 23.15.
+
+### Nivel de prueba de continuidad
+
+- **Definición.** Gradiente de cinco niveles, de la revisión documental a la
+  conmutación no anunciada, que califica **cuánto se probó de verdad**.
+- **Qué NO significa.** «Se probó la continuidad» no informa de nada. Sin el
+  nivel declarado, una lectura de documentos y una conmutación real se reportan
+  igual.
+- **Ejemplo.** Nivel 3 ejecutado, con compromiso de nivel 4 en seis meses.
+- **Riesgo.** Confiar en un plan cuyo plazo declarado nadie ha medido.
+- **Primera clase.** 23.15 · **Otras.** 23.16.
+
+### Sección de límites
+
+- **Definición.** Parte del expediente que enumera lo que el sistema **no puede
+  hacer**, cada punto con la razón concreta por la que no puede hacerlo.
+- **Qué NO significa.** No es una lista de descargos legales. Es el resultado de
+  las decisiones de arquitectura tomadas, y por eso es verificable.
+- **Ejemplo.** «No liquida fuera de horario, porque el tramo de dinero depende de
+  un banco que cierra a las 22:00».
+- **Riesgo.** Un expediente que solo dice lo que el sistema hace bien no se cree.
+- **Primera clase.** 23.17 · **Otras.** 23.18.
+
 ---
 
 **Ver también:** [Glosario general](glosario.md) ·
@@ -1327,4 +1403,5 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 [Mapa de finanzas abiertas](mapa-finanzas-abiertas.md) ·
 [Mapa de activos digitales](mapa-activos-digitales.md) ·
 [Mapa de tokenización](mapa-tokenizacion.md) ·
-[Mapa regulatorio](mapa-regulatorio.md)
+[Mapa regulatorio](mapa-regulatorio.md) ·
+[Mapa del capstone](mapa-capstone.md)

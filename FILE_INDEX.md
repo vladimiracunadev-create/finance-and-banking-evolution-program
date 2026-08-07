@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**793 archivos de texto versionados.**
+**842 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -63,6 +63,13 @@ repositorio. No se edita a mano.
 - `apps/digital_assets_risk_lab/market.py`
 - `apps/digital_assets_risk_lab/redemption.py`
 - `apps/digital_assets_risk_lab/reserves.py`
+- `apps/digital_bank_capstone/README.md`
+- `apps/digital_bank_capstone/__init__.py`
+- `apps/digital_bank_capstone/build.py`
+- `apps/digital_bank_capstone/cli.py`
+- `apps/digital_bank_capstone/scope.py`
+- `apps/digital_bank_capstone/stress.py`
+- `apps/digital_bank_capstone/tensions.py`
 - `apps/dlt_financial_lab/README.md`
 - `apps/dlt_financial_lab/__init__.py`
 - `apps/dlt_financial_lab/chain.py`
@@ -143,6 +150,7 @@ repositorio. No se edita a mano.
 - `docs/guia-laboratorios-digitales.md`
 - `docs/mapa-activos-digitales.md`
 - `docs/mapa-blockchain-dlt.md`
+- `docs/mapa-capstone.md`
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
 - `docs/mapa-pagos-transfronterizos.md`
@@ -760,6 +768,46 @@ repositorio. No se edita a mano.
 - `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-07.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-08.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/solutions/lab-09.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/assessments/diagnostic.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/assessments/final.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/01-alcance-y-modelo-de-negocio.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/02-construir-integrar-o-comprar.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/03-perimetro-del-propio-proyecto.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/04-decision-de-arquitectura-registro.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/05-decision-de-arquitectura-el-dinero.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/06-decision-de-producto-que-se-ofrece.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/07-el-registro-de-referencia-del-sistema.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/08-interfaces-consentimiento-y-terceros.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/09-custodia-y-gestion-de-claves.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/10-liquidacion-y-sus-modos-de-fallo.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/11-pagos-y-conexion-con-el-exterior.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/12-ciclo-de-vida-y-operacion-diaria.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/14-modelo-de-amenazas-priorizado.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/15-escenario-de-tension-y-continuidad.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/16-resolucion-ordenada-y-salida.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/17-lo-que-el-sistema-no-puede-hacer.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/18-defensa-ante-el-comite.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-01.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-02.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-03.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-04.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-05.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-06.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-07.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-08.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs/lab-09.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/project/README.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-01.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-02.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-03.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-04.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-05.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-06.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-07.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-08.md`
+- `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-09.md`
 - `portfolio/README.md`
 - `projects/README.md`
 - `pyproject.toml`
@@ -777,6 +825,7 @@ repositorio. No se edita a mano.
 - `tests/test_calculators.py`
 - `tests/test_cross_border_payments_lab.py`
 - `tests/test_digital_assets_risk_lab.py`
+- `tests/test_digital_bank_capstone.py`
 - `tests/test_dlt_financial_lab.py`
 - `tests/test_onchain_fx_lab.py`
 - `tests/test_open_finance_sandbox.py`

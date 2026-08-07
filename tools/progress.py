@@ -52,11 +52,7 @@ PLANNED = {
 # Titulo de las partes planificadas cuyo directorio todavia no existe. En cuanto
 # la parte se crea, su README.md pasa a ser la fuente del titulo y esta entrada
 # deja de usarse: no hay dos sitios donde mantener el mismo dato.
-PLANNED_TITLES = {
-    "22-proyecto-banco-digital-y-mercado-tokenizado": (
-        "Parte 23: Proyecto — banco digital y mercado tokenizado"
-    ),
-}
+PLANNED_TITLES: dict[str, str] = {}
 
 
 def module_title(module: Path) -> str:

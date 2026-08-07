@@ -23,19 +23,30 @@ Conviene decirlo antes que nada, porque determina el criterio de todo lo demás:
 
 ## Las siete partes
 
+Las siete están publicadas. Se recorren en orden, porque cada una supone la
+anterior: no se puede tokenizar un instrumento sin haber entendido qué registro
+manda en él, ni determinar el perímetro regulatorio de algo que aún no se sabe
+cómo funciona.
+
 | Parte | Tema | Clases | Estado |
 |---:|---|---:|---|
 | 17 | [Finanzas abiertas, APIs y economía de datos](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | Publicada |
-| 18 | Pagos transfronterizos, remesas y liquidación internacional | 16 | En preparación |
-| 19 | Blockchain y DLT para instituciones financieras | 14 | En preparación |
-| 20 | Activos digitales, stablecoins y dinero programable | 16 | En preparación |
-| 21 | Tokenización, FX on-chain y mercados programables | 16 | En preparación |
-| 22 | Regulación de mercados financieros digitales | 18 | En preparación |
-| 23 | Proyecto: banco digital y mercado tokenizado | 18 | En preparación |
+| 18 | [Pagos transfronterizos, remesas y liquidación](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | Publicada |
+| 19 | [Blockchain y DLT para instituciones financieras](../modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | Publicada |
+| 20 | [Activos digitales, stablecoins y dinero programable](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | Publicada |
+| 21 | [Tokenización, FX on-chain y mercados programables](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | Publicada |
+| 22 | [Regulación de mercados financieros digitales](../modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | Publicada |
+| 23 | [Proyecto: banco digital y mercado tokenizado](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) | 18 | Publicada |
 
-El avance real —no el plan— está en **[STATUS.md](../STATUS.md)**, que se genera
+El recuento —no el plan— está en **[STATUS.md](../STATUS.md)**, que se genera
 contando los archivos. Esta tabla describe la arquitectura; aquel documento
 describe lo que existe.
+
+La última cambia de naturaleza respecto de las seis anteriores. No enseña nada
+nuevo: reúne los métodos de las veintidós partes del programa y los hace
+funcionar juntos, que es cuando aparecen las contradicciones entre decisiones que
+por separado eran correctas. Su mapa está en
+**[mapa-capstone.md](mapa-capstone.md)**.
 
 ## De dónde viene cada parte
 

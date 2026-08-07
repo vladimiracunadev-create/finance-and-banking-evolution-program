@@ -21,6 +21,7 @@ sustituye. El número exacto de partes y clases está en
 | 🪙 **[Mapa de activos digitales](mapa-activos-digitales.md)** | Dónde está cada concepto de la Parte 20 y las seis afirmaciones que desmonta |
 | 🏛️ **[Mapa de tokenización](mapa-tokenizacion.md)** | Dónde está cada concepto de la Parte 21 y las seis afirmaciones que desmonta |
 | ⚖️ **[Mapa regulatorio](mapa-regulatorio.md)** | Dónde está cada concepto de la Parte 22 y las seis afirmaciones que desmonta |
+| 🏗️ **[Mapa del capstone](mapa-capstone.md)** | La cadena de decisiones de la Parte 23 y las cinco afirmaciones que desmonta |
 | 📘 **[Glosario de finanzas digitales](glosario-finanzas-digitales.md)** | Términos de la Etapa 5, cada uno con su «qué NO significa» |
 
 ## Para quien enseña

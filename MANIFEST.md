@@ -5,9 +5,9 @@
 | Campo | Valor |
 |---|---|
 | **Nombre** | `finance-and-banking-evolution-program` |
-| **Versión** | `1.7.0` |
-| **Fecha** | 2026-08-06 |
-| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (6 de 7 partes publicadas) |
+| **Versión** | `2.0.0` |
+| **Fecha** | 2026-08-07 |
+| **Estado** | Programa completo · 5 etapas · 23 partes publicadas |
 | **Licencia** | MIT |
 | **Idioma** | Español |
 | **Repositorio** | <https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program> |
@@ -20,17 +20,17 @@
 
 | Componente | Cantidad |
 |---|---:|
-| Partes publicadas | 22 |
+| Partes publicadas | 23 |
 | Partes planificadas | 23 |
-| Clases publicadas | 334 |
+| Clases publicadas | 352 |
 | Clases planificadas | 352 |
-| Horas de sesión publicadas | 501 |
+| Horas de sesión publicadas | 528 |
 | Duración por clase | 90 min |
-| Laboratorios | 141 |
-| Soluciones de referencia | 45 |
-| Evaluaciones | 44 |
-| Proyectos integradores | 22 |
-| Aplicaciones funcionales | 10 |
+| Laboratorios | 150 |
+| Soluciones de referencia | 54 |
+| Evaluaciones | 46 |
+| Proyectos integradores | 23 |
+| Aplicaciones funcionales | 11 |
 | Conjuntos de datos sintéticos | 6 |
 | Fichas normativas estructuradas | 8 |
 
@@ -64,8 +64,8 @@
 | Analista | 5 – 8 | 60 | 90 |
 | Bancario | 9 – 12 | 64 | 96 |
 | Dirección | 13 – 16 | 60 | 90 |
-| Finanzas digitales | 17 – 23 | 94 de 112 | 141 |
-| **Total** | **23** | **334 de 352** | **501** |
+| Finanzas digitales | 17 – 23 | 112 | 168 |
+| **Total** | **23** | **352** | **528** |
 
 ## Aplicaciones incluidas
 

@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**22 partes · 334 clases · 501 horas ·
+**23 partes · 352 clases · 528 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -32,7 +32,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 22 | [Regulación de mercados financieros digitales](modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | 27.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **334** | **501** | |
+| 23 | [Proyecto — banco digital y mercado tokenizado](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) | 18 | 27.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **352** | **528** | |
 
 ## Índice de clases
 
@@ -528,13 +529,38 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 17 | [Espacios de prueba y regulación experimental](modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md) | profesional |
 | 18 | [Proyecto: expediente regulatorio](modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) | profesional |
 
+### Parte 23 — Proyecto — banco digital y mercado tokenizado
+
+[Índice de la parte](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) · [Laboratorios](modules/22-proyecto-banco-digital-y-mercado-tokenizado/labs) · [Evaluaciones](modules/22-proyecto-banco-digital-y-mercado-tokenizado/assessments) · [Proyecto](modules/22-proyecto-banco-digital-y-mercado-tokenizado/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [Alcance y modelo de negocio](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/01-alcance-y-modelo-de-negocio.md) | profesional |
+| 02 | [Construir, integrar o comprar](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/02-construir-integrar-o-comprar.md) | profesional |
+| 03 | [Perímetro del propio proyecto](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/03-perimetro-del-propio-proyecto.md) | profesional |
+| 04 | [Decisión de arquitectura: ¿hace falta un registro?](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/04-decision-de-arquitectura-registro.md) | profesional |
+| 05 | [Decisión de arquitectura: el dinero](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/05-decision-de-arquitectura-el-dinero.md) | profesional |
+| 06 | [Decisión de producto: qué se ofrece](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/06-decision-de-producto-que-se-ofrece.md) | profesional |
+| 07 | [El registro de referencia del sistema](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/07-el-registro-de-referencia-del-sistema.md) | profesional |
+| 08 | [Interfaces, consentimiento y terceros](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/08-interfaces-consentimiento-y-terceros.md) | profesional |
+| 09 | [Custodia y gestión de claves](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/09-custodia-y-gestion-de-claves.md) | profesional |
+| 10 | [Liquidación y sus modos de fallo](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/10-liquidacion-y-sus-modos-de-fallo.md) | profesional |
+| 11 | [Pagos y conexión con el exterior](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/11-pagos-y-conexion-con-el-exterior.md) | profesional |
+| 12 | [Ciclo de vida y operación diaria](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/12-ciclo-de-vida-y-operacion-diaria.md) | profesional |
+| 13 | [Expediente regulatorio del sistema](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md) | profesional |
+| 14 | [Modelo de amenazas priorizado](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/14-modelo-de-amenazas-priorizado.md) | profesional |
+| 15 | [Escenario de tensión y continuidad](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/15-escenario-de-tension-y-continuidad.md) | profesional |
+| 16 | [Resolución ordenada y salida](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/16-resolucion-ordenada-y-salida.md) | profesional |
+| 17 | [Lo que el sistema no puede hacer](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/17-lo-que-el-sistema-no-puede-hacer.md) | profesional |
+| 18 | [Defensa ante el comité](modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/18-defensa-ante-el-comite.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 22 proyectos integradores.
+- Entrega de los 23 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Regulación de mercados financieros digitales» (Parte 22, clase 18).
+- Defensa del proyecto final «Proyecto — banco digital y mercado tokenizado» (Parte 23, clase 18).
 
 ## Resultados finales
 

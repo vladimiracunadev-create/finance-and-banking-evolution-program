@@ -23,23 +23,27 @@ bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 | **Parte 20 — Activos digitales, stablecoins y dinero programable** | 1.5.0 | ✅ Publicada |
 | **Parte 21 — Tokenización, FX on-chain y mercados programables** | 1.6.0 | ✅ Publicada |
 | **Parte 22 — Regulación de mercados financieros digitales** | 1.7.0 | ✅ Publicada |
+| **Parte 23 — Proyecto: banco digital y mercado tokenizado** | 2.0.0 | ✅ Publicada |
 | Entorno `open_finance_sandbox` con 28 pruebas | 1.2.0 | ✅ Funcional |
 | Entorno `cross_border_payments_lab` con 56 pruebas | 1.3.0 | ✅ Funcional |
 | Entorno `dlt_financial_lab` con 38 pruebas | 1.4.0 | ✅ Funcional |
 | Entorno `digital_assets_risk_lab` con 49 pruebas | 1.5.0 | ✅ Funcional |
 | Entornos `tokenization_platform` y `onchain_fx_lab` con 62 pruebas | 1.6.0 | ✅ Funcionales |
 | Entorno `regulatory_perimeter_engine` con 29 pruebas | 1.7.0 | ✅ Funcional |
+| Entorno `digital_bank_capstone` con 24 pruebas | 2.0.0 | ✅ Funcional |
+| **Etapa 5 completa: 7 partes, 112 clases, 168 horas** | 2.0.0 | ✅ Publicada |
 | Validadores de metadatos, OpenAPI, datasets, secretos y PII | 1.2.0 | ✅ En CI |
 | Fichas normativas estructuradas | 1.2.0 | ✅ Iniciadas |
 
 ---
 
-## 🚧 En curso — Etapa 5, hacia la v2.0.0
+## ✅ Etapa 5 — publicada como v2.0.0
 
 **Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados.**
-La ampliación se publicará como `2.0.0` cuando existan sus siete partes. Cada
-parte se entrega completa —clases, laboratorios con solución, evaluaciones,
-proyecto y aplicación— y en verde antes de empezar la siguiente.
+Las siete partes existen y la ampliación se ha publicado como `2.0.0`, tal como
+estaba reservado. Cada parte se entregó completa —clases, laboratorios con
+solución, evaluaciones, proyecto y aplicación— y en verde antes de empezar la
+siguiente.
 
 | Parte | Tema | Clases | Aplicación asociada | Estado |
 |---:|---|---:|---|---|
@@ -49,7 +53,7 @@ proyecto y aplicación— y en verde antes de empezar la siguiente.
 | 20 | Activos digitales, stablecoins y dinero programable | 16 | `digital_assets_risk_lab` | ✅ Publicada |
 | 21 | Tokenización, FX on-chain y mercados programables | 16 | `tokenization_platform`, `onchain_fx_lab` | ✅ Publicada |
 | 22 | Regulación de mercados financieros digitales | 18 | `regulatory_perimeter_engine` | ✅ Publicada |
-| 23 | Proyecto: banco digital y mercado tokenizado | 18 | Capstone integrado | 🔜 Siguiente |
+| 23 | Proyecto: banco digital y mercado tokenizado | 18 | `digital_bank_capstone` | ✅ Publicada |
 
 ### Qué incluye cada parte antes de darse por publicada
 
@@ -63,15 +67,19 @@ proyecto y aplicación— y en verde antes de empezar la siguiente.
 8. Fichas normativas de los instrumentos que cita.
 9. Todo el repositorio en verde: nueve validadores y las pruebas.
 
-### Trabajo transversal pendiente de la etapa
+### Trabajo transversal que continúa tras la v2.0.0
 
-| Línea | Descripción | Cuándo |
+Las siete partes están publicadas y sus mapas y glosario están al día. Lo que
+sigue abierto es transversal: no bloquea ninguna parte, pero mejora el conjunto.
+
+| Línea | Descripción | Estado |
 |---|---|---|
-| **Integración con partes antiguas** | Bloques «para profundizar» en las Partes 8, 10, 11, 12, 13, 14 y 16 | Con cada parte nueva |
-| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Con cada parte nueva |
-| **Mapas de documentación** | Uno por parte, como el de finanzas abiertas | Con cada parte |
-| **Glosario digital** | Se amplía con los términos de cada parte | Con cada parte |
-| **Fichas normativas** | Chile, Unión Europea e internacional comparada | Partes 22 y 23 |
+| **Mapas de documentación** | Uno por parte de la Etapa 5, del 17 al 23 | ✅ Completos |
+| **Glosario digital** | Ampliado con los términos de las siete partes | ✅ Completo |
+| **Fichas normativas** | Ocho fichas: Chile, Unión Europea e internacional | ✅ Publicadas |
+| **Integración con partes antiguas** | Bloques «para profundizar» en las Partes 8, 10, 11, 12, 13, 14 y 16 | Abierto |
+| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Abierto |
+| **Más fichas normativas** | DORA, TFR y ediciones locales adicionales | Abierto |
 
 ---
 
