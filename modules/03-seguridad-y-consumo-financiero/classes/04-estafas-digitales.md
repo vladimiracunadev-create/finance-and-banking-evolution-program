@@ -22,6 +22,8 @@ común una cosa: **la matemática no cuadra**. Esta clase entrega las herramient
 detectar un esquema piramidal antes de entrar, y el análisis de los patrones más frecuentes de estafa
 digital.
 
+Los dos fraudes anteriores buscan un acceso o una identidad. Este busca que la víctima transfiera voluntariamente, y por eso ningún control técnico lo detiene. Lo que sí lo detiene es un control de razonabilidad aritmético, que esta clase enseña a aplicar en menos de un minuto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son las estructuras que sostienen estas estafas; los cuatro últimos son las comprobaciones y los riesgos asociados. La **irreversibilidad** es lo que decide el desenlace: no todos los medios de pago se pueden revertir, y elegir bien el medio antes de pagar vale más que cualquier verificación posterior.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `esquema Ponzi` | Paga a los antiguos con el dinero de los nuevos. No hay actividad económica que genere el retorno. |
@@ -89,6 +93,8 @@ tiene más gente que todos los anteriores juntos.
 
 ### 1. Control de razonabilidad de rentabilidad
 
+Una rentabilidad prometida se puede contrastar en el acto con lo que produce el mercado, y casi todas las estafas de inversión no sobreviven a esa comprobación. El cálculo siguiente es esa comprobación.
+
 ```text
 1. ¿cuál es la tasa de un depósito bancario a ese plazo?
 2. ¿cuánto ofrece esta alternativa?
@@ -111,6 +117,8 @@ de particulares.
 
 ### 2. Los seis patrones más frecuentes
 
+Las estafas cambian de nombre y repiten estructura. La tabla recoge los seis patrones que concentran la mayoría de los casos, con la señal que los delata.
+
 | Patrón | Cómo opera | Señal decisiva |
 |---|---|---|
 | Inversión con retorno garantizado | Retorno fijo alto, "sin riesgo" | Rentabilidad y garantía son incompatibles |
@@ -124,6 +132,8 @@ En los seis, el punto de decisión es el mismo: **una transferencia irreversible
 verificar**.
 
 ### 3. Verificación antes de transferir
+
+Antes de transferir a alguien desconocido hay tres comprobaciones que cuestan dos minutos. Los pasos siguientes son esas comprobaciones.
 
 ```text
 1. ¿la entidad está en el registro del supervisor de valores o bancario? (sitio oficial)
@@ -141,6 +151,8 @@ suficiente para detener la operación.
 
 ### 4. Irreversibilidad por medio de pago
 
+Los medios de pago se ordenan por su posibilidad de reversión, y esa es la variable que más importa cuando hay dudas. La tabla los ordena.
+
 | Medio | Reversibilidad | Ventana |
 |---|---|---|
 | Tarjeta de crédito | Alta (contracargo) | Semanas |
@@ -154,6 +166,8 @@ Un vendedor que insiste en un medio irreversible está eligiendo, deliberadament
 reclamo. Esa insistencia es información.
 
 ### 5. Cuando ya transferiste
+
+Si la transferencia ya salió, quedan acciones cuyo éxito depende casi por completo de las primeras horas. Los pasos siguientes están en orden de urgencia.
 
 ```text
 hora 0–2
@@ -237,6 +251,8 @@ depende de detectar la mentira, sino de comprobar que los números no cierran.
 
 ## 🏦 Del cliente al banco
 
+La víctima ve una oportunidad y el banco ve una transferencia autorizada por el titular. La tabla enfrenta las dos lecturas, y explica por qué estos casos son los más difíciles de reclamar: la operación fue legítima desde el sistema.
+
 | Vista del cliente | Vista del sistema financiero | Parte |
 |---|---|---|
 | Transferencia a un particular | Posible operación inusual; puede generar reporte | 12, clase 8 |
@@ -246,6 +262,8 @@ depende de detectar la mentira, sino de comprobar que los números no cierran.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar el control de razonabilidad a ofertas sintéticas y ordenar medios de pago por reversibilidad. Los números de las ofertas están tomados de estructuras reales, y el control las descarta todas en el primer paso.
+
 En `labs/lab-03.md`:
 
 1. Construye la tabla de crecimiento de un esquema piramidal con distintos factores de reclutamiento.
@@ -254,6 +272,8 @@ En `labs/lab-03.md`:
 4. Documenta el procedimiento de denuncia y contracargo de tu país con plazos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen el momento en que la estafa se hace evidente, que suele ser cuando se intenta retirar. Las causas están en la ausencia del control de razonabilidad al principio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

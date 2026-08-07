@@ -22,6 +22,8 @@ en que todavía existen opciones. Esta clase entrega los indicadores objetivos, 
 proceso y las salidas disponibles en cada una —incluidas las que dejan de estar disponibles si se
 espera demasiado.
 
+Esta clase retoma la deuda de la Parte 2 desde el otro extremo: cuando ya no se sostiene. Y su aportación es que el sobreendeudamiento se detecta antes de la primera mora con indicadores que se calculan con los datos que ya se tienen, en un momento en que todavía quedan salidas baratas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos miden la carga y los tres últimos describen la espiral y su salida formal. La **amortización negativa** es la señal inequívoca: cuando la deuda crece pagando puntualmente, el problema ya no se resuelve con disciplina de gasto.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `carga financiera (RCI)` | `cuotas / ingreso líquido`. Sobre 40 % es zona de riesgo según la evidencia supervisora. |
@@ -84,6 +88,8 @@ capacidad de negociar; en la fase 3 se ha perdido las tres.
 
 ### 1. Los cuatro indicadores
 
+Cuatro indicadores bastan para saber si la carga es sostenible, y los cuatro se calculan con la información de la cartola. La tabla los recoge con su umbral de alerta.
+
 ```text
 1. carga financiera        = cuotas mensuales / ingreso líquido
 2. endeudamiento relativo  = deuda total / ingreso anual
@@ -103,6 +109,8 @@ peor que una del 40 % con deuda hipotecaria y tres meses de fondo.
 
 ### 2. Señales tempranas, antes de la mora
 
+Las señales que preceden a la primera mora aparecen con meses de antelación y son reconocibles. La lista las recoge.
+
 ```text
 · se usa la tarjeta para gastos corrientes que antes se pagaban con el sueldo
 · se paga el mínimo de alguna tarjeta más de dos meses seguidos
@@ -117,6 +125,8 @@ Tres o más señales simultáneas indican fase 2, aunque no exista un solo día 
 detectarlo aquí es que **todavía se puede refinanciar en condiciones normales**.
 
 ### 3. Liquidez frente a solvencia personal
+
+La misma distinción de la Parte 2, clase 5, decide aquí qué salida corresponde: un problema de liquidez se reprograma y uno de solvencia no. La tabla los separa.
 
 ```text
 PROBLEMA DE LIQUIDEZ    el flujo no calza con los vencimientos
@@ -142,6 +152,8 @@ cada operación alivia unos meses y empeora el total.
 
 ### 4. Salidas por fase
 
+Las salidas disponibles dependen de en qué fase se está, y las buenas se cierran a medida que avanza. La tabla las relaciona.
+
 | Fase | Salidas disponibles | Costo relativo |
 |---|---|---|
 | 1 — Tensión | Reducir gasto, aumentar ingreso, avalancha (Parte 2, clase 8), prepago | Bajo |
@@ -155,6 +167,8 @@ costos importantes —registro, restricciones, eventual liquidación de bienes�
 preferibles a una situación de mora perpetua.
 
 ### 5. Construir el plan de salida
+
+El plan de salida se construye en un orden concreto, empezando por la información completa de todas las deudas, que casi nunca se tiene junta.
 
 ```text
 1. inventario completo: acreedor, saldo, tasa efectiva, cuota, garantía, mora
@@ -254,6 +268,8 @@ dimensión correcta es lo que separa un plan que funciona de uno que solo poster
 
 ## 🏦 Del cliente al banco
 
+El deudor ve una situación insostenible y el banco ve una probabilidad de incumplimiento que ya tiene provisionada. La tabla enfrenta las dos lecturas, y esa segunda columna explica por qué avisar temprano cambia la respuesta.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Uso creciente de rotativos | Señal temprana en el modelo de comportamiento | 9, clase 10 |
@@ -264,6 +280,8 @@ dimensión correcta es lo que separa un plan que funciona de uno que solo poster
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular los cuatro indicadores sobre un caso sintético y ubicarlo en la fase que corresponda. La conclusión del ejercicio suele ser que la fase es más avanzada de lo que sugería la sensación.
+
 En `labs/lab-06.md`:
 
 1. Calcula tus cuatro indicadores y determina tu fase.
@@ -272,6 +290,8 @@ En `labs/lab-06.md`:
 4. Redacta tu plan con hitos trimestrales verificables y reglas escritas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen situaciones que se agravan por la vía elegida para resolverlas. La causa más frecuente es el refinanciamiento en cadena, que baja la cuota y sube el costo total.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

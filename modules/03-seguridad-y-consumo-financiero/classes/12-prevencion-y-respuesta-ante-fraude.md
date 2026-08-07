@@ -22,6 +22,8 @@ funcionan sin atención y un protocolo que se ejecuta bajo presión. La diferenc
 menor y una catastrófica se juega casi siempre en los primeros sesenta minutos, y esos sesenta minutos
 no se improvisan.
 
+Las once clases anteriores tratan amenazas concretas. Esta las reúne en una arquitectura y añade la dimensión que decide el resultado de cualquier caso real: el tiempo. Los derechos de reclamo tienen plazos cortos, y casi todo lo que se pierde en un fraude se pierde por haber reaccionado tarde y sin evidencia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son de arquitectura de controles y los tres últimos son los que deciden un reclamo. La **evidencia contemporánea** es la que hay que producir en el momento: capturas, horas y registros tomados durante el incidente valen más que cualquier reconstrucción posterior.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `defensa en profundidad` | Varias capas de control: si una falla, otra contiene. |
@@ -82,6 +86,8 @@ vez** —basta un día de cansancio—, el resultado depende de las capas 2 y 3.
 
 ### 1. Arquitectura de controles
 
+Los controles se organizan en capas para que el fallo de una no deje todo abierto. El esquema siguiente es esa arquitectura aplicada a finanzas personales.
+
 | Capa | Control | Reduce | Verificación |
 |---|---|---|---|
 | Prevenir | Límite diario por canal | Pérdida máxima | Captura de la configuración |
@@ -96,6 +102,8 @@ vez** —basta un día de cansancio—, el resultado depende de las capas 2 y 3.
 | Contener | Carpeta de evidencia preparada | Calidad del reclamo | Plantillas listas |
 
 ### 2. Dimensionar la pérdida máxima
+
+La pérdida máxima no es el patrimonio: es lo que alguien con un acceso concreto puede llegar a mover. El cálculo siguiente la acota y suele sugerir cambios simples de configuración.
 
 ```text
 pérdida máxima = saldo accesible en cuentas operativas
@@ -117,6 +125,8 @@ Ninguna de estas medidas cuesta dinero ni reduce la funcionalidad cotidiana. Es 
 mayor retorno de toda la parte.
 
 ### 3. Protocolo cronometrado
+
+El protocolo se organiza por minutos y no por importancia, porque las acciones que conservan derechos son las que tienen plazo. La secuencia siguiente está cronometrada.
 
 ```text
 MINUTO 0–5   CONTENER
@@ -154,6 +164,8 @@ operaciones pendientes se transforman, los sitios fraudulentos desaparecen y los
 
 ### 4. La evidencia que decide el reclamo
 
+Hay evidencia que decide y evidencia que no aporta. La tabla las separa e indica cómo capturar la primera.
+
 | Evidencia | Por qué pesa |
 |---|---|
 | Hora exacta del bloqueo | Acredita diligencia |
@@ -169,6 +181,8 @@ respalda que actuaste con la diligencia esperable, lo que importa cuando se disc
 responsabilidad.
 
 ### 5. Plazos: el factor que elimina derechos
+
+Los plazos de reclamo son cortos y su vencimiento cierra la vía por completo, con independencia de la razón que se tenga. La tabla los recoge.
 
 ```text
 · desconocimiento de operaciones no autorizadas: plazo breve, frecuentemente de días
@@ -262,6 +276,8 @@ configuran antes de que ocurra nada.
 
 ## 🏦 Del cliente al banco
 
+El cliente reporta un fraude y el banco aplica reglas de responsabilidad con plazos tasados. La tabla enfrenta las dos lecturas, y la columna del plazo es la que decide más casos.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Desconocimiento formal | Caso de fraude con plazo de resolución regulado | 12, clase 15 |
@@ -272,6 +288,8 @@ configuran antes de que ocurra nada.
 
 ## 🧪 Práctica
 
+El laboratorio pide ejecutar el protocolo cronometrado sobre un caso sintético y producir el expediente. Lo que se mide es el tiempo hasta cada acción, porque es lo que se mide también en un caso real.
+
 En `labs/lab-06.md`, sección de fraude:
 
 1. Diseña tu arquitectura de controles con las tres capas y verifica cada uno.
@@ -280,6 +298,8 @@ En `labs/lab-06.md`, sección de fraude:
 4. Investiga y documenta los plazos legales de desconocimiento de tu país.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen reclamos perdidos con razón de fondo. Las causas son siempre las mismas dos: fuera de plazo o sin evidencia contemporánea.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

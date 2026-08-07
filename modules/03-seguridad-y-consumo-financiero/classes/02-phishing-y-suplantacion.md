@@ -22,6 +22,8 @@ llamada y aplicaciones de mensajería— con un método que funciona bajo presi�
 técnicos. Esta clase entrega el procedimiento de verificación de dominio, la regla del canal inverso y
 el análisis de casos reales.
 
+La clase anterior clasificó las amenazas por vector. Esta desarrolla el que produce más pérdidas y no requiere ninguna habilidad técnica: convencer a la persona de que entregue el acceso. Contra esto no protege ningún antivirus, y sí protegen dos hábitos concretos que la clase enseña a ejecutar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el mismo fraude por tres canales distintos; los cuatro últimos son lo que permite detectarlo y lo que explica por qué a veces falla la detección. El **canal inverso** es el hábito que resuelve la mayoría de los casos: no se responde por donde llegó el mensaje, se llama al número que uno ya tenía.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `phishing` | Suplantación de una entidad de confianza para obtener credenciales o autorizaciones. |
@@ -83,6 +87,8 @@ Esta sola regla neutraliza la mayoría de los ataques, sin necesidad de detectar
 ## 📖 Desarrollo
 
 ### 1. Leer un dominio correctamente
+
+Un dominio se lee de derecha a izquierda y casi nadie lo hace así, que es exactamente de lo que vive este fraude. El procedimiento siguiente es el correcto y se ejecuta en tres segundos.
 
 ```text
 https://www.bancoxx.cl.verificacion-segura.net/login
@@ -147,6 +153,8 @@ uno recibido por mensaje para "pagar" o "verificar".
 
 ### 3. Por qué el segundo factor puede caer
 
+El segundo factor reduce mucho el riesgo y no lo elimina, y conviene saber en qué situación no protege para no confiarse. El esquema siguiente muestra el ataque en tiempo real.
+
 ```text
 14:02:10  víctima entra al sitio falso y escribe usuario y clave
 14:02:14  atacante los ingresa en el sitio REAL
@@ -165,6 +173,8 @@ problema es que la víctima autorizó una operación que no comprendía. De ahí
 Los códigos legítimos incluyen la descripción de la operación. Leerla es el control que falta.
 
 ### 4. Qué hacer si ya entregaste datos
+
+Si los datos ya se entregaron, el resultado depende casi por completo de la velocidad. Los pasos siguientes están en orden de urgencia y no de importancia.
 
 ```text
 minuto 0–5
@@ -250,6 +260,8 @@ teléfono.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un mensaje creíble y el banco ve un patrón de operación anómalo. La tabla enfrenta las dos lecturas, y explica qué detecta la entidad y qué no puede detectar.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Mensaje suplantado | Uso indebido de marca; se gestiona bloqueo del dominio | 12, clase 15 |
@@ -259,6 +271,8 @@ teléfono.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar mensajes sintéticos y clasificarlos. El ejercicio incluye deliberadamente casos legítimos que parecen fraudulentos: distinguir unos de otros con criterio, y no por desconfianza general, es lo que se evalúa.
+
 En `labs/lab-02.md`:
 
 1. Analiza diez URL y determina el dominio registrable de cada una.
@@ -267,6 +281,8 @@ En `labs/lab-02.md`:
 4. Documenta el protocolo de respuesta si ya entregaste datos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen situaciones en las que el fraude ya está en marcha. Las causas están todas en el primer minuto: se respondió por el canal que llegó, o no se leyó el dominio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

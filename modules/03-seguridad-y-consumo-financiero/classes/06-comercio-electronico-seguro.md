@@ -22,6 +22,8 @@ producto. Esta clase enseña a evaluar un vendedor con criterios verificables, a
 pago según su reversibilidad, y a ejercer el contracargo cuando corresponde —un derecho que existe y
 que la mayoría desconoce.
 
+Esta clase aplica lo anterior al contexto donde más operaciones se hacen. Y añade una distinción que decide el resultado de cualquier reclamo: no es lo mismo un fraude que un problema de consumo, aunque se parezcan desde fuera, porque el camino, el plazo y la evidencia son distintos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el mecanismo de reclamo de las tarjetas; los tres últimos son las protecciones previas. El **contracargo** es la herramienta central de la clase y la más desconocida: existe, tiene causales tasadas y plazos cortos, y se pierde por no reclamar a tiempo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `contracargo` | Mecanismo por el que el emisor reversa una operación con tarjeta ante causal válida. |
@@ -82,6 +86,8 @@ expuesto al otro.
 
 ### 1. Las siete verificaciones del vendedor
 
+Antes de comprar en un sitio desconocido hay siete comprobaciones que cuestan poco y descartan la mayoría de los casos problemáticos. La lista las recoge en orden de rapidez.
+
 ```text
 1. identificación completa: razón social, identificación tributaria, domicilio físico
 2. antigüedad del dominio y del negocio (una tienda creada hace 3 semanas es señal)
@@ -98,6 +104,8 @@ exposición y debe pesar en la decisión.
 
 ### 2. Medio de pago por nivel de confianza
 
+El medio de pago se elige según cuánto se conoce al vendedor, porque cada uno ofrece protecciones distintas. La tabla los relaciona.
+
 | Confianza en el vendedor | Medio recomendado | Motivo |
 |---|---|---|
 | Alta (comercio conocido, con historial) | Tarjeta de crédito o billetera tokenizada | Contracargo disponible; datos no expuestos |
@@ -109,6 +117,8 @@ La regla que resume la tabla: **nunca uses un medio irreversible con un vendedor
 verificar**.
 
 ### 3. Contracargo: causales, evidencia y plazos
+
+El contracargo procede por causales concretas y exige evidencia concreta dentro de un plazo concreto. La tabla las reúne, y conviene consultarla antes de escribir el reclamo.
 
 | Causal | Evidencia necesaria | Plazo típico |
 |---|---|---|
@@ -133,6 +143,8 @@ el vendedor. Sin ese registro, el contracargo suele rechazarse.
 
 ### 4. Reducir la exposición de tus datos
 
+Cada compra deja datos en un sistema que uno no controla, y hay formas de reducir lo que se deja. La lista recoge las que funcionan.
+
 | Medida | Efecto |
 |---|---|
 | Tarjeta virtual por comercio | El número no sirve en otro comercio ni después |
@@ -146,6 +158,8 @@ Una persona con quince comercios que almacenan su tarjeta tiene quince probabili
 de filtración. Reducirlos a tres baja la exposición un 80 % sin ninguna pérdida de comodidad real.
 
 ### 5. Problema de consumo o fraude
+
+La misma situación se reclama por vías distintas según sea una cosa u otra, y clasificarla mal hace perder el plazo. El criterio siguiente las separa.
 
 ```text
 FRAUDE            no autorizaste la operación
@@ -234,6 +248,8 @@ principio de la clase 1: diseñar suponiendo que el engaño puede funcionar.
 
 ## 🏦 Del cliente al banco
 
+El cliente reclama un cargo y el banco arbitra entre su cliente y el comercio con reglas de red. La tabla enfrenta las dos lecturas, y explica por qué la evidencia contemporánea pesa más que el relato.
+
 | Vista del cliente | Vista del sistema | Parte |
 |---|---|---|
 | Contracargo | Disputa gestionada por el emisor ante la red y el adquirente | 10, clase 10 |
@@ -243,6 +259,8 @@ principio de la clase 1: diseñar suponiendo que el engaño puede funcionar.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar seis casos entre fraude y problema de consumo, y redactar el reclamo correspondiente. La clasificación es la parte que decide, y en dos de los casos es discutible a propósito.
+
 En `labs/lab-04.md`:
 
 1. Aplica las siete verificaciones a tres comercios en línea que hayas usado.
@@ -251,6 +269,8 @@ En `labs/lab-04.md`:
 4. Configura una tarjeta virtual o un límite específico para compras por internet.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a reclamos rechazados. Las causas son casi siempre el plazo vencido o la causal equivocada, no la falta de razón.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

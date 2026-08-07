@@ -22,6 +22,8 @@ en un conjunto acotado de hábitos que efectivamente se sostienen. La seguridad 
 se logra con vigilancia permanente —que nadie mantiene— sino con controles que funcionan solos y con
 un pequeño número de reglas ejecutables bajo presión.
 
+Las tres partes anteriores enseñaron a calcular, a ordenar el propio dinero y a elegir productos. Esta cierra la etapa con lo que puede deshacer todo lo anterior en una tarde. Y lo hace con un criterio de ingeniería y no de miedo: la seguridad financiera personal es una cuestión de superficie de exposición y de controles, y las dos cosas se miden.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos miden el problema y los cuatro últimos son las respuestas. La distinción entre control **preventivo, detectivo y correctivo** es la que ordena toda la parte: la mayoría de la gente solo tiene controles preventivos, y cuando fallan no hay nada que avise ni nada que repare.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `vector de ataque` | Camino por el que llega la amenaza: mensaje, llamada, sitio falso, dispositivo, persona conocida. |
@@ -82,6 +86,8 @@ de hackers", sino a **no autorizar tú mismo la operación** que el atacante nec
 ## 📖 Desarrollo
 
 ### 1. Mapa de amenazas por vector
+
+Las amenazas se organizan mejor por la vía de entrada que por el nombre del fraude, porque los nombres cambian cada año y las vías no. La tabla las agrupa por vector.
 
 | Vector | Ejemplo | Probabilidad relativa | Pérdida típica |
 |---|---|---|---|
@@ -115,6 +121,8 @@ La mayoría de las personas trabaja solo en "proteger" y no tiene nada en "detec
 
 ### 3. Los siete controles de mayor impacto
 
+De todos los controles posibles, siete concentran casi toda la reducción de riesgo y se configuran en una tarde. La tabla los recoge en orden de impacto.
+
 | # | Control | Reduce | Costo |
 |---:|---|---|---|
 | 1 | Segundo factor en banca y correo | Acceso no autorizado | 0 |
@@ -130,6 +138,8 @@ más valioso: **ninguna operación financiera legítima exige decidir en menos d
 
 ### 4. Los principios que explotan los fraudes
 
+Los fraudes no explotan fallos técnicos sino mecanismos psicológicos conocidos y estudiados. Reconocerlos en el momento es lo que permite detenerse, y por eso conviene tenerlos nombrados.
+
 | Principio | Cómo se usa | Contramedida |
 |---|---|---|
 | Autoridad | "Le habla el departamento de fraude" | Cortar y llamar tú al número oficial |
@@ -144,6 +154,8 @@ Reconocer el principio en uso durante la conversación es la defensa más eficaz
 mecanismos funcionan sobre todo cuando no se los ve.
 
 ### 5. Medir y reducir tu superficie
+
+La superficie de exposición se puede contar: cuántas cuentas, cuántos accesos, cuánto saldo alcanzable. El procedimiento siguiente la mide y da la lista de lo que conviene cerrar.
 
 ```text
 superficie = Σ (cuentas con acceso remoto)
@@ -230,6 +242,8 @@ supone que en algún momento el engaño va a funcionar.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un fraude y el banco ve un caso con reglas de responsabilidad y plazos. La tabla enfrenta las dos lecturas, y la segunda columna explica por qué la rapidez del aviso cambia el resultado.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Mensaje sospechoso | Campaña de suplantación de marca detectada y bloqueada | 12, clase 15 |
@@ -239,6 +253,8 @@ supone que en algún momento el engaño va a funcionar.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la superficie de exposición propia y aplicar los siete controles. Es el ejercicio con mayor efecto real de todo el programa por el tiempo que cuesta, y su resultado se comprueba: los controles se verifican, no se declaran.
+
 En `labs/lab-01.md`:
 
 1. Construye tu mapa de amenazas con probabilidad y pérdida estimada por vector.
@@ -247,6 +263,8 @@ En `labs/lab-01.md`:
 4. Analiza tres mensajes sospechosos reales identificando los principios de manipulación.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase, casi todos los síntomas indican una superficie de exposición mayor de la que se creía, no un ataque sofisticado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

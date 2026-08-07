@@ -22,6 +22,8 @@ productos financieros. A diferencia de un cargo no reconocido, aquí no hay un m
 hay deudas que aparecen a tu nombre, y la carga de demostrar que no fuiste tú recae, en la práctica,
 sobre ti. Esta clase enseña a prevenirlo, detectarlo temprano y responder con evidencia.
 
+El phishing de la clase anterior busca un acceso concreto. Esta clase trata el caso en que lo que se obtiene son los datos que permiten actuar en nombre de otro, que es un problema distinto: no hay una cuenta que cerrar, y el daño aparece semanas después en entidades con las que nunca se ha tenido relación.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el problema y su detección; los cuatro últimos son el procedimiento de respuesta, que es más largo y más formal que en cualquier otro fraude. El **desconocimiento formal** es la pieza jurídica central: sin él por escrito y con fecha, la deuda sigue siendo del titular a todos los efectos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `robo de identidad` | Uso de datos personales de otra persona para contratar productos u obtener beneficios. |
@@ -83,6 +87,8 @@ día**.
 
 ### 1. Qué datos bastan y dónde se filtran
 
+Hace falta menos información de la que se cree para abrir un producto a nombre de otro, y esa información circula por vías previsibles. La tabla las recoge.
+
 | Dato | Uso para el atacante | Dónde se expone habitualmente |
 |---|---|---|
 | Número de identificación | Base de toda contratación | Formularios, fotocopias, redes sociales |
@@ -98,6 +104,8 @@ indispensable, marca la imagen con el propósito y la fecha (*"solo para arriend
 que reduce su reutilización.
 
 ### 2. Detección temprana
+
+El robo de identidad se detecta antes de que haya deuda si se vigilan tres señales concretas. La lista siguiente las recoge con su frecuencia de revisión.
 
 ```text
 mensual     revisa el informe de deudas y los movimientos de todos tus productos
@@ -122,6 +130,8 @@ Otras señales tempranas:
 ```
 
 ### 3. Procedimiento de respuesta
+
+La respuesta tiene un orden que conserva derechos y plazos, y ejecutarlo en otro orden cuesta meses. Los pasos siguientes son ese orden.
 
 ```text
 DÍA 1
@@ -149,6 +159,8 @@ expediente es la prueba. Y la entidad tiene obligación de conservarlo.
 
 ### 4. Qué exigir del expediente
 
+Frente a la entidad hay documentos concretos que se pueden exigir y que suelen decidir el caso. La lista los recoge.
+
 | Elemento | Qué demuestra |
 |---|---|
 | Formulario de solicitud | Datos declarados: domicilio, teléfono, correo |
@@ -163,6 +175,8 @@ de identidad, la responsabilidad por el crédito fraudulento se discute en un pl
 descuido. La Parte 12, clase 5, desarrolla las obligaciones de debida diligencia del cliente.
 
 ### 5. Reconstrucción
+
+Cerrado el caso queda la reconstrucción del historial, que tiene sus propios plazos y sus propias comprobaciones.
 
 ```text
 1. confirma por escrito la eliminación de cada obligación fraudulenta
@@ -237,6 +251,8 @@ una revisión de documentos.
 
 ## 🏦 Del cliente al banco
 
+El cliente sufre una suplantación y el banco tiene un crédito otorgado con documentación aparentemente válida. La tabla enfrenta las dos lecturas y explica dónde está la discusión real, que es la diligencia en la verificación de identidad.
+
 | Vista del cliente | Vista de la entidad | Parte |
 |---|---|---|
 | "Yo no contraté esto" | Debe acreditar que verificó la identidad | 12, clase 5 |
@@ -247,6 +263,8 @@ una revisión de documentos.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el expediente completo de un caso sintético, con su cronología y sus escritos. Es un ejercicio administrativo cuyo valor es tenerlo ensayado: en un caso real, el tiempo que se tarda en armarlo es tiempo en que la deuda sigue creciendo.
+
 En `labs/lab-02.md`, sección de identidad:
 
 1. Inventaría dónde están expuestos tus datos suficientes y reduce la exposición.
@@ -255,6 +273,8 @@ En `labs/lab-02.md`, sección de identidad:
 4. Redacta el modelo de carta de desconocimiento y de solicitud de expediente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen semanas o meses después del hecho. Las causas están en la ausencia de vigilancia temprana y en un desconocimiento formal presentado tarde o incompleto.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

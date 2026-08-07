@@ -22,6 +22,8 @@ verificable. No se trata de leer todo: se trata de **saber qué buscar y en qué
 entrega la lista de las doce cláusulas que determinan tu posición, y el método para detectar
 condiciones abusivas.
 
+Los productos de la Parte 3 se contratan con documentos que casi nadie lee, y que contienen las cláusulas que deciden qué pasa cuando algo va mal. Esta clase no propone leerlos enteros: propone leer doce cláusulas concretas, que son las que concentran el riesgo y se localizan en pocos minutos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos describen el tipo de contrato y su desequilibrio; los cuatro últimos son las cláusulas que más consecuencias tienen. El **mandato** es la que menos se conoce y más alcance tiene: autoriza a la entidad a actuar en nombre del cliente, y su redacción decide hasta dónde.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `contrato de adhesión` | Redactado por una parte; la otra solo acepta o rechaza. Es el estándar en banca minorista. |
@@ -83,6 +87,8 @@ cargar cuotas en cualquier cuenta, contratar seguros o ceder datos sin nueva aut
 
 ### 1. Las doce cláusulas críticas
 
+De un contrato de adhesión hay doce cláusulas que deciden casi todo, y localizarlas lleva unos minutos. La tabla las recoge con lo que hay que comprobar en cada una.
+
 | # | Cláusula | Qué verificar |
 |---:|---|---|
 | 1 | Tasa de interés | Valor, si es fija o variable, y el índice de referencia |
@@ -99,6 +105,8 @@ cargar cuotas en cualquier cuenta, contratar seguros o ceder datos sin nueva aut
 | 12 | Domicilio y jurisdicción | Dónde se resuelven las controversias |
 
 ### 2. Señales de cláusula potencialmente abusiva
+
+Ciertas redacciones son señales conocidas de desequilibrio y conviene reconocerlas al leer. La lista las recoge.
 
 ```text
 · otorga a la entidad una facultad sin contrapartida para el cliente
@@ -128,6 +136,8 @@ La diferencia está en tres palabras: **objeto determinado, cuenta determinada, 
 
 ### 3. Verificar que lo verbal coincide con lo escrito
 
+Lo que se promete en la conversación comercial y lo que dice el contrato no siempre coinciden, y solo lo segundo obliga. El procedimiento siguiente contrasta ambos.
+
 ```text
 antes de firmar, contrasta con tus notas de la conversación comercial:
   · tasa ofrecida             vs. tasa del contrato
@@ -142,6 +152,8 @@ documento, y demostrar lo dicho verbalmente es difícil salvo que exista respald
 
 ### 4. Documentar la etapa precontractual
 
+La información precontractual tiene valor y desaparece si no se conserva. La lista indica qué guardar y cómo.
+
 | Documento | Por qué guardarlo |
 |---|---|
 | Simulación o cotización con fecha | Prueba lo ofrecido |
@@ -155,6 +167,8 @@ La publicidad tiene valor jurídico en la mayoría de los marcos de protección 
 ofrecido en un anuncio forma parte de la oferta. Guardarla es gratuito y a veces decisivo.
 
 ### 5. Qué hacer si detectas una cláusula problemática
+
+Detectar una cláusula problemática antes de firmar abre opciones que después no existen. Los pasos siguientes las recorren.
 
 ```text
 1. solicita por escrito la modificación o la eliminación
@@ -258,6 +272,8 @@ verbalmente no era lo que decía el contrato**, y eso solo se detecta contrastan
 
 ## 🏦 Del cliente al banco
 
+El cliente firma un contrato y el banco aplica un texto estándar aprobado para todos sus clientes. La tabla enfrenta las dos lecturas y explica por qué la negociación de cláusulas es limitada pero no nula.
+
 | Vista del cliente | Vista de la entidad | Parte |
 |---|---|---|
 | Cláusula objetada | Riesgo legal y reputacional; puede ser nula | 12, clase 3 |
@@ -267,6 +283,8 @@ verbalmente no era lo que decía el contrato**, y eso solo se detecta contrastan
 
 ## 🧪 Práctica
 
+El laboratorio pide localizar las doce cláusulas en un contrato sintético y evaluarlas. El contrato incluye dos redacciones problemáticas, y encontrarlas en menos de quince minutos es el objetivo.
+
 En `labs/lab-05.md`:
 
 1. Toma un contrato financiero real y localiza las doce cláusulas críticas.
@@ -275,6 +293,8 @@ En `labs/lab-05.md`:
 4. Redacta la solicitud escrita de modificación con al menos cinco puntos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando algo va mal en la relación con la entidad. Las causas están en cláusulas que estaban escritas y no se leyeron.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

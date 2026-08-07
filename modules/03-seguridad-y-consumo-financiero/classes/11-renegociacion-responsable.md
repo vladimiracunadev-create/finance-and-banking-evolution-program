@@ -22,6 +22,8 @@ saber cuándo un acuerdo mejora la situación y cuándo solo la aplaza. Esta cla
 procedimiento de preparación, las alternativas disponibles con su costo real, y la forma de verificar
 que el acuerdo firmado es el que se negoció.
 
+La clase anterior identificó la fase y la salida que corresponde. Esta ejecuta la más habitual, y lo hace con una exigencia que la mayoría omite: una renegociación solo es buena si mejora la posición del deudor, y eso se comprueba con un cálculo antes de firmar, no con la sensación de alivio de una cuota menor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las formas de renegociar y los cuatro últimos, lo que decide si el acuerdo conviene. El **costo del acuerdo** es la comprobación que casi nadie hace: bajar la cuota alargando el plazo casi siempre sube el costo total, y saber cuánto es lo que permite decidir con criterio.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `renegociación` | Modificación de las condiciones de una deuda vigente por acuerdo de las partes. |
@@ -82,6 +86,8 @@ credibilidad se construye con números, no con explicaciones.
 ## 📖 Desarrollo
 
 ### 1. Los seis datos de la preparación
+
+Se negocia con información y no con argumentos. La lista recoge los seis datos que hay que tener antes de la primera llamada.
 
 ```text
 1. saldo exacto y tasa efectiva de cada deuda con ese acreedor
@@ -118,6 +124,8 @@ Tres lecturas:
 
 ### 3. Formular la propuesta
 
+Una propuesta concreta se acepta más que una petición genérica. El formato siguiente es el que funciona, e incluye lo que el deudor ofrece además de lo que pide.
+
 ```text
 ESTRUCTURA DE LA PROPUESTA
 
@@ -144,6 +152,8 @@ creíble de que el acuerdo se cumplirá, y es exactamente lo que el acreedor eva
 
 ### 4. Evaluar si el acuerdo mejora tu posición
 
+El acuerdo se evalúa comparando el costo total antes y después, no la cuota. El cálculo siguiente lo hace en dos pasos.
+
 ```text
 prueba 1  ¿la cuota nueva cabe en tu capacidad demostrable con margen?
 prueba 2  ¿el interés adicional es menor que el costo de caer en mora?
@@ -156,6 +166,8 @@ Si la prueba 4 falla —el acuerdo solo alarga sin plan de salida— se trata de
 legítimo cuando el problema es transitorio y no lo es cuando el problema es de solvencia (clase 10).
 
 ### 5. Verificar lo firmado
+
+Lo acordado y lo firmado no siempre coinciden, y una vez firmado obliga lo segundo. La lista recoge qué comprobar.
 
 ```text
 □ el saldo de partida coincide con el informado antes del acuerdo
@@ -258,6 +270,8 @@ no eliminar la deuda.
 
 ## 🏦 Del cliente al banco
 
+El deudor busca alivio y el banco compara el valor presente de renegociar con el de cobrar. La tabla enfrenta las dos lecturas, y explica qué margen real tiene la entidad para aceptar.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Renegociación preventiva | Menor provisión que la reestructuración en mora | 9, clase 14 |
@@ -268,6 +282,8 @@ no eliminar la deuda.
 
 ## 🧪 Práctica
 
+El laboratorio pide preparar y evaluar una renegociación completa. La parte que decide es la evaluación: en dos de los tres escenarios propuestos, el acuerdo que baja más la cuota es el que empeora la posición.
+
 En `labs/lab-06.md`, sección de renegociación:
 
 1. Reúne los seis datos de preparación para una deuda real o sintética.
@@ -276,6 +292,8 @@ En `labs/lab-06.md`, sección de renegociación:
 4. Aplica las cinco pruebas de evaluación y la lista de verificación del contrato.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen después de firmar. Las causas son casi siempre haber evaluado por la cuota y no por el costo total, o no haber verificado el documento final.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

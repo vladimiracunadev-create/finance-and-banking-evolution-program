@@ -21,6 +21,8 @@ Conocer el conjunto de derechos que la mayoría de las jurisdicciones reconoce a
 financiero, y —tanto o más importante— saber **cómo ejercerlos**: ante quién, con qué evidencia y en
 qué plazo. Un derecho que no se sabe ejercer no produce ningún efecto práctico.
 
+La clase anterior mostró qué dice el contrato. Esta muestra qué dice la norma por encima de él, que es lo que no se puede pactar en contra. Y añade la parte que suele omitirse en este tema: el consumidor también tiene deberes, y su incumplimiento es el argumento que más reclamos hunde.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son derechos reconocidos en casi cualquier ordenamiento; los dos últimos son la contraparte. El **escalamiento** es lo operativo: los derechos existen y se ejercen por una vía con etapas, y saltarse una etapa hace que la siguiente devuelva el caso.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `derecho a información` | Recibir condiciones claras, completas y oportunas antes y durante el contrato. |
@@ -82,6 +86,8 @@ molestia sin señalar qué se incumplió ni qué se pide.
 
 ### 1. Derechos reconocidos habitualmente
 
+Los derechos varían entre países en su detalle y coinciden en su núcleo. La tabla recoge ese núcleo, y cada fila indica qué se puede exigir concretamente.
+
 | Derecho | Contenido | Cómo se ejerce |
 |---|---|---|
 | Información | Condiciones claras antes y durante | Solicitud escrita de hoja resumen y contrato |
@@ -95,6 +101,8 @@ molestia sin señalar qué se incumplió ni qué se pide.
 | Seguridad | Protección ante operaciones no autorizadas | Desconocimiento formal (clase 1) |
 
 ### 2. Quién es competente para qué
+
+Dirigir un reclamo al organismo equivocado cuesta meses. La tabla reparte las materias entre los organismos que suelen conocerlas.
 
 ```text
 cobro indebido, información engañosa,
@@ -115,6 +123,8 @@ un incumplimiento**, salvo que haya habido información engañosa o venta inadec
 son reclamables.
 
 ### 3. Estructura de un reclamo eficaz
+
+Un reclamo eficaz tiene una estructura concreta y corta. El formato siguiente es el que más resuelve en primera instancia.
 
 ```text
 1. IDENTIFICACIÓN
@@ -149,6 +159,8 @@ interpretar, y la interpretación rara vez favorece a quien reclama.
 
 ### 4. Escalamiento
 
+Si la primera instancia no resuelve, hay una secuencia de escalamiento con plazos propios. La tabla la recoge.
+
 ```text
 nivel 1  entidad, canal formal de reclamos       → plazo de respuesta legal
 nivel 2  defensor del cliente o instancia interna, si existe
@@ -167,6 +179,8 @@ Reglas del escalamiento:
 ```
 
 ### 5. Tus deberes
+
+Los deberes del consumidor no son una formalidad: su incumplimiento es el argumento más usado para rechazar un reclamo. La lista los recoge.
 
 | Deber | Por qué condiciona tus derechos |
 |---|---|
@@ -270,6 +284,8 @@ numerada y evidencia adjunta.
 
 ## 🏦 Del cliente al banco
 
+El cliente ejerce un derecho y el banco gestiona un reclamo con métricas de resolución y plazos regulatorios. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista de la entidad | Parte |
 |---|---|---|
 | Reclamo formal | Caso con plazo regulado y métrica de servicio | 15, clase 9 |
@@ -279,6 +295,8 @@ numerada y evidencia adjunta.
 
 ## 🧪 Práctica
 
+El laboratorio pide redactar un reclamo completo y determinar el organismo competente. Elegir mal el organismo es el error que el ejercicio persigue, porque es el que más tiempo cuesta en la práctica.
+
 En `labs/lab-05.md`, sección de derechos:
 
 1. Elabora la tabla de derechos vigentes en tu país con su fundamento normativo.
@@ -287,6 +305,8 @@ En `labs/lab-05.md`, sección de derechos:
 4. Documenta la ruta de escalamiento con plazos de cada nivel.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen reclamos que no avanzan. Las causas son el organismo equivocado, la etapa saltada o un deber del propio consumidor incumplido.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

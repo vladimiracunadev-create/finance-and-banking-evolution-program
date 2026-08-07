@@ -22,6 +22,8 @@ seguridad financiera que sirva bajo presión, que sea verificable y que se mante
 resumen de buenas prácticas: es un procedimiento con controles configurados, evidencia de
 verificación y fechas de revisión.
 
+Esta clase cierra la parte y la etapa entera. Reúne las trece anteriores en un documento que se puede ejecutar bajo presión, y añade la única prueba que vale: el simulacro. Un protocolo que no se ha ensayado nunca no se sabe si funciona, y el momento del incidente es el peor para descubrirlo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los seis términos son de diseño del protocolo. La **accesibilidad bajo presión** es el criterio que descarta la mayoría de los diseños bonitos: un protocolo guardado en el gestor de contraseñas no sirve si lo que está comprometido es el acceso al gestor.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `protocolo` | Documento de procedimiento, no de recomendaciones. Se ejecuta, no se consulta. |
@@ -81,6 +85,8 @@ ubicación, nivel de detalle— responde a esa pregunta.
 
 ### 1. Las seis secciones
 
+El protocolo tiene seis secciones y ninguna es opcional. La tabla las recoge con lo que debe contener cada una.
+
 | # | Sección | Contenido |
 |---:|---|---|
 | 1 | Inventario | Productos, instituciones, cupos, saldos típicos, contactos oficiales |
@@ -91,6 +97,8 @@ ubicación, nivel de detalle— responde a esa pregunta.
 | 6 | Calendario | Revisiones periódicas con qué se verifica en cada una |
 
 ### 2. Sección 1 — inventario
+
+El inventario es la base de todo lo demás y es la parte que más tiempo cuesta. El formato siguiente lo hace utilizable en un incidente.
 
 ```text
 INSTITUCIÓN        PRODUCTO           CUPO/SALDO   BLOQUEO 24/7     CANAL DE RECLAMO
@@ -105,6 +113,8 @@ Requisito: los teléfonos deben estar **verificados llamando**, no copiados de u
 debe existir en un formato accesible sin el teléfono principal: impreso o en un segundo dispositivo.
 
 ### 3. Sección 2 — controles con evidencia
+
+Un control declarado no es un control. Esta sección exige evidencia de que cada uno está efectivamente activo, con la fecha de la última comprobación.
 
 | Control | Estado | Evidencia | Verificado |
 |---|---|---|---|
@@ -123,6 +133,8 @@ La columna "Evidencia" es lo que distingue este documento de una lista de buenos
 control declarado y no verificado tiene una probabilidad alta de estar mal configurado.
 
 ### 4. Sección 3 — pérdida máxima
+
+La pérdida máxima se calcula y se escribe, porque es la cifra que justifica el esfuerzo de todo lo demás y la que indica qué falta reducir.
 
 ```text
 ANTES
@@ -147,6 +159,8 @@ peor caso, y contra el que puede decidir si acepta ese riesgo o toma medidas adi
 
 ### 5. Sección 6 — calendario de vigencia
 
+Un protocolo caduca: cambian las cuentas, los dispositivos y los contactos. El calendario siguiente es el mínimo que lo mantiene vivo.
+
 | Frecuencia | Qué se revisa |
 |---|---|
 | Mensual | Cartolas de todos los productos; cargos recurrentes |
@@ -155,6 +169,8 @@ peor caso, y contra el que puede decidir si acepta ese riesgo o toma medidas adi
 | Anual | Simulacro completo; revisión de plazos legales; actualización del protocolo |
 
 ### 6. El simulacro
+
+El simulacro es la parte que valida el trabajo, y consiste en ejecutar el protocolo sin acceso a lo que se supone comprometido. Los pasos siguientes lo describen.
 
 ```text
 ESCENARIO: "recibo notificación de una transferencia no reconocida,
@@ -178,6 +194,8 @@ no estaban verificados, y no había un segundo dispositivo definido para cambiar
 hallazgos se corrigen en una hora y solo aparecen al probarlo.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre la construcción del protocolo completo y su primer simulacro. Conviene fijarse en lo que falla durante el simulacro: es siempre algo que en el papel parecía resuelto.
 
 **Situación de defensa.** Presentas tu protocolo y el revisor pregunta: *"Tu pérdida máxima residual
 es 2 400 000. ¿Por qué no la reduces más? Podrías dejar 200 000 en la cuenta y cupo cero."*
@@ -204,6 +222,8 @@ nombrado y aceptado es gestión; uno desconocido es exposición.
 
 ## 🏦 Del cliente al banco
 
+La persona escribe su protocolo y el banco tiene su plan de continuidad. La tabla enfrenta las dos lecturas, y muestra que la lógica es la misma a las dos escalas.
+
 | Tu protocolo | Equivalente institucional | Parte |
 |---|---|---|
 | Inventario de productos | Inventario de activos de información | 11, clase 8 |
@@ -222,6 +242,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Ejecuta el simulacro, documenta los hallazgos y aplica las correcciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en el simulacro, que es exactamente para lo que sirve. Las causas están en un protocolo guardado donde no se puede alcanzar o con datos desactualizados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

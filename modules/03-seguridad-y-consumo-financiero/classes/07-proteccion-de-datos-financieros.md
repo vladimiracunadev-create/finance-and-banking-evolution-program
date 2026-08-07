@@ -22,6 +22,8 @@ legal, y qué derechos puedes ejercer sobre ellos. Los datos financieros son una
 revelan patrones de vida completos. Esta clase enseña a inventariar tu huella, a ejercer tus derechos
 y a reaccionar ante una filtración.
 
+Las clases anteriores protegieron el acceso al dinero. Esta protege la información que lo rodea, que es la que permite la mayoría de los fraudes de las clases 2 a 4. Y lo hace desde el lado del derecho: hay obligaciones para quien trata los datos y derechos ejercitables para el titular, y conocerlos cambia lo que se puede exigir.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos delimitan qué está protegido; los cinco restantes son el régimen. La **base legal** es el concepto que hay que entender: el consentimiento es solo una de varias, y saberlo evita creer que retirar el consentimiento borra siempre los datos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dato personal` | Cualquier información sobre una persona identificada o identificable. |
@@ -85,6 +89,8 @@ habilita**, no si el texto parece razonable.
 
 ### 1. Inventario de tu huella financiera
 
+Antes de proteger hay que saber qué entidades tienen qué datos, y la lista suele ser más larga de lo esperado. El procedimiento siguiente construye ese inventario.
+
 | Categoría | Quién la tiene | Base legal habitual |
 |---|---|---|
 | Identificación y contacto | Bancos, comercios, servicios | Contrato |
@@ -102,6 +108,8 @@ explicación. La Parte 14, clase 13, desarrolla la explicabilidad algorítmica d
 
 ### 2. Bases legales y qué implican
 
+Cada base legal da al titular derechos distintos, y por eso conviene saber sobre cuál se apoya cada tratamiento. La tabla las enfrenta.
+
 | Base legal | Ejemplo | ¿Puedes oponerte? |
 |---|---|---|
 | Consentimiento | Marketing, cesión a terceros | **Sí**, y puedes revocarlo |
@@ -115,6 +123,8 @@ momento**, y la entidad debe dejar de tratar los datos para esa finalidad. Si la
 legal, no. Por eso conviene saber qué base invocan.
 
 ### 3. Evaluar un consentimiento antes de firmarlo
+
+Un consentimiento se evalúa con cuatro preguntas que cualquiera puede aplicar en un minuto. La lista las recoge.
 
 ```text
 1. ¿qué finalidad concreta declara? ("mejorar la experiencia" no es una finalidad)
@@ -130,6 +140,8 @@ servicio principal** en la mayoría de los marcos modernos. Si al desmarcar la c
 niegan la cuenta, hay un problema jurídico, no una política comercial.
 
 ### 4. Ejercer tus derechos
+
+Los derechos se ejercen por escrito, con un contenido mínimo y dentro de un plazo de respuesta exigible. El formato siguiente es el que funciona.
 
 ```text
 solicitud de ACCESO (la más útil)
@@ -152,6 +164,8 @@ El derecho de **rectificación** es el de mayor impacto económico: un dato err�
 deuda puede costar puntos de scoring, rechazo de crédito o una tasa mayor durante años.
 
 ### 5. Cuando te notifican una filtración
+
+Una notificación de filtración exige actuar en un orden concreto, y no todas las medidas son urgentes. Los pasos siguientes están priorizados.
 
 ```text
 hora 0–24
@@ -245,6 +259,8 @@ existe precisamente para esta situación y que casi nadie invoca porque no sabe 
 
 ## 🏦 Del cliente al banco
 
+El cliente ve sus datos y el banco los trata como responsable con obligaciones concretas. La tabla enfrenta las dos lecturas, y esa segunda columna reaparece con mucho más detalle en la Parte 17.
+
 | Vista del cliente | Vista de la entidad | Parte |
 |---|---|---|
 | Solicitud de acceso | Obligación de responder en plazo, con registro | 12, clase 10 |
@@ -255,6 +271,8 @@ existe precisamente para esta situación y que casi nadie invoca porque no sabe 
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el inventario de la huella financiera propia y redactar un ejercicio de derechos. Lo revelador del ejercicio es el inventario: casi siempre aparecen entidades que tienen datos y con las que ya no hay relación.
+
 En `labs/lab-04.md`, sección de datos:
 
 1. Construye el inventario de tu huella financiera con responsable y base legal.
@@ -263,6 +281,8 @@ En `labs/lab-04.md`, sección de datos:
 4. Documenta el procedimiento de reclamo ante la autoridad de datos de tu país.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a solicitudes que no prosperan. Las causas suelen ser el derecho invocado sobre una base legal que no lo admite, o una solicitud sin el contenido mínimo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

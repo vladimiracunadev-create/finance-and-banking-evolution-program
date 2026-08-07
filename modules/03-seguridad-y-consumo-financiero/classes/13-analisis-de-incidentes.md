@@ -22,6 +22,8 @@ analiza se repite; uno que se analiza produce controles nuevos. Esta clase ense�
 análisis de causa raíz aplicado a incidentes financieros personales, y la construcción de una
 retrospectiva que efectivamente cambie algo.
 
+Las clases anteriores responden a un incidente. Esta aprende de él, que es lo único que evita el segundo. El método viene de la ingeniería de seguridad y se aplica igual a una persona que a una entidad: separar la causa inmediata de la causa raíz y diseñar el control sobre la segunda, porque corregir la primera deja el problema intacto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos separan niveles de causa y los tres últimos son el método y su resultado. La distinción entre **causa inmediata y causa raíz** es toda la clase: la causa inmediata explica este incidente y la causa raíz explica por qué era posible, y solo la segunda admite un control que sirva.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `causa inmediata` | El último eslabón: "entregué el código". Es visible y poco útil por sí sola. |
@@ -85,6 +89,8 @@ configuran una sola vez**. Ese es el valor del análisis: mueve la solución des
 
 ### 1. Reconstruir la cronología
 
+El análisis empieza por una cronología con horas, no por una explicación. El formato siguiente es el que hace visibles los huecos.
+
 ```text
 formato de línea de tiempo
 
@@ -113,6 +119,8 @@ detener la cadena.
 
 ### 2. Los cinco porqués
 
+Preguntar por qué cinco veces seguidas lleva de la causa inmediata a la raíz, y suele detenerse antes de tiempo. El ejemplo siguiente lo recorre entero.
+
 ```text
 ¿por qué se transfirió el dinero?
   porque el atacante inició sesión en la banca en línea
@@ -134,6 +142,8 @@ irrelevante la verificación manual.
 
 ### 3. Causa raíz, causa inmediata y factores
 
+Las tres categorías se confunden y llevan a controles distintos. La tabla las separa con un ejemplo de cada una.
+
 | Tipo | Ejemplo del caso | Qué produce si se ataca |
 |---|---|---|
 | Causa inmediata | Ingresó el código | "Ser más cuidadoso": sin efecto medible |
@@ -146,6 +156,8 @@ La distinción es práctica: **los factores contribuyentes suelen ser los más f
 reducen el daño incluso cuando la causa raíz persiste.
 
 ### 4. Diseñar controles sobre la causa raíz
+
+Un control sobre la causa inmediata evita la repetición exacta y nada más. La tabla contrasta ambos diseños sobre el mismo incidente.
 
 ```text
 control 1  llave de seguridad física en correo y banca (donde esté disponible)
@@ -166,6 +178,8 @@ exactamente cuando se necesitan.
 
 ### 5. Retrospectiva sin culpa
 
+El análisis solo funciona si se puede decir lo que pasó, y eso exige separar el análisis de la responsabilidad. Los criterios siguientes lo consiguen.
+
 ```text
 ESTRUCTURA
 
@@ -183,6 +197,8 @@ fallas, la conclusión implícita es "todo estuvo mal", lo que no orienta. Nombr
 —el límite diario que evitó 1 200 000 adicionales— indica qué controles conservar y replicar.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo analiza un incidente completo desde la cronología hasta el control diseñado. Conviene seguir los cinco porqués sin saltárselos: la causa raíz aparece en el cuarto o el quinto, y detenerse antes es el error más común del método.
 
 **Situación.** Analiza un incidente distinto: durante ocho meses se cobró a Paula un seguro no
 contratado (caso de la clase 9). No hubo fraude externo; hubo un fallo de control propio y ajeno.
@@ -253,6 +269,8 @@ lo que un control puede reducir.
 
 ## 🏦 Del cliente al banco
 
+La persona analiza su incidente y el banco analiza patrones agregados de miles. La tabla enfrenta las dos lecturas, y la segunda es la que reaparece en la Parte 11 como riesgo operacional.
+
 | Vista personal | Equivalente institucional | Parte |
 |---|---|---|
 | Cronología del incidente | Línea de tiempo del análisis forense | 11, clase 15 |
@@ -263,6 +281,8 @@ lo que un control puede reducir.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar un incidente sintético y proponer controles sobre la causa raíz. La trampa del ejercicio es que la causa inmediata es evidente y la raíz está dos niveles más abajo.
+
 En `labs/lab-06.md`, sección de incidentes:
 
 1. Reconstruye la cronología de un incidente propio o documentado, con evidencia.
@@ -271,6 +291,8 @@ En `labs/lab-06.md`, sección de incidentes:
 4. Redacta la retrospectiva completa con acciones verificables y fecha de seguimiento.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen incidentes que se repiten después de haberlos corregido. La causa es siempre la misma: se corrigió la causa inmediata.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

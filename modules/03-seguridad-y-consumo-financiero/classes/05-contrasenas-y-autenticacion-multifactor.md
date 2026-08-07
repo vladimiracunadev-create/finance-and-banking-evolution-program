@@ -22,6 +22,8 @@ exigir memoria heroica. Esta clase reemplaza las recomendaciones obsoletas —ca
 días, mezclar símbolos raros— por las prácticas que la evidencia respalda, y jerarquiza los factores
 de autenticación por su resistencia real.
 
+Las cuatro clases anteriores describieron las amenazas. Esta construye el control que las cubre a casi todas y que casi nadie tiene bien montado. No es una clase de recomendaciones: la fortaleza de una credencial se mide, y de esa medida sale qué hay que cambiar y en qué orden.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos miden la fortaleza y el modo en que se pierde; los cuatro últimos son los factores adicionales y su recuperación. La **recuperación** es la que hay que diseñar con más cuidado y la que casi nadie mira: es el camino más corto para entrar en una cuenta, y suele estar peor protegido que la contraseña.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `entropía` | Medida de imprevisibilidad, en bits. Cada bit adicional duplica el esfuerzo de un ataque por fuerza bruta. |
@@ -82,6 +86,8 @@ Quien controla el correo restablece todo lo que cuelga de él. Por eso el orden 
 ## 📖 Desarrollo
 
 ### 1. Entropía: qué hace fuerte a una credencial
+
+La fortaleza de una contraseña no depende de tener símbolos raros sino de cuántas combinaciones posibles hay. El cálculo siguiente lo cuantifica, y su conclusión contradice buena parte de los consejos habituales.
 
 ```text
 entropía ≈ longitud × log₂(tamaño del alfabeto)
@@ -111,6 +117,8 @@ Prácticas obsoletas que conviene abandonar:
 
 ### 2. Gestor de contraseñas
 
+Un gestor resuelve el problema real, que no es recordar una contraseña buena sino tener cientos distintas. La comparación siguiente recoge las opciones con sus supuestos de confianza.
+
 ```text
 credencial maestra    frase de paso de 5+ palabras aleatorias, NUNCA reutilizada
                       memorizada, no escrita en el propio gestor
@@ -125,6 +133,8 @@ dominó ante cualquier filtración de un servicio de terceros. El gestor concent
 que **puedes proteger bien**, en lugar de distribuirlo en cincuenta que no puedes.
 
 ### 3. Jerarquía de factores
+
+No todos los segundos factores protegen igual, y la diferencia entre ellos es grande frente al phishing. La tabla los ordena por resistencia real.
 
 | Factor | Resistente al phishing | Comentario |
 |---|---|---|
@@ -141,6 +151,8 @@ verificación incluye el dominio y el usuario no puede transmitirla aunque quier
 
 ### 4. Orden de configuración
 
+El orden en que se configuran las cuentas importa, porque unas dan acceso a otras. La secuencia siguiente empieza por el correo, que es la llave de casi todo lo demás.
+
 ```text
 1. correo principal        → el factor más fuerte disponible
 2. gestor de contraseñas   → segundo factor
@@ -155,6 +167,8 @@ los códigos por mensaje de texto de todos los servicios. Solicitar a tu operado
 seguridad para cambios de línea cierra ese vector.
 
 ### 5. Recuperación sin puerta trasera
+
+Una recuperación mal diseñada anula toda la protección anterior. Los criterios siguientes la cierran sin dejar a nadie fuera de su propia cuenta.
 
 ```text
 ✓ códigos de recuperación impresos, guardados físicamente en un lugar seguro
@@ -240,6 +254,8 @@ dos nodos críticos son resistentes al engaño.
 
 ## 🏦 Del cliente al banco
 
+El cliente elige una contraseña y el banco gestiona el riesgo de suplantación de todos sus clientes a la vez. La tabla enfrenta las dos lecturas y explica por qué la entidad impone reglas que parecen arbitrarias.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Segundo factor | Autenticación reforzada exigida por norma | 14, clase 4 |
@@ -249,6 +265,8 @@ dos nodos críticos son resistentes al engaño.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la entropía de credenciales sintéticas y ordenar las cuentas propias por criticidad. El resultado suele ser que las cuentas peor protegidas son las que dan acceso a las demás.
+
 En `labs/lab-03.md`, sección de credenciales:
 
 1. Calcula la entropía de cinco credenciales que uses y clasifícalas.
@@ -257,6 +275,8 @@ En `labs/lab-03.md`, sección de credenciales:
 4. Revisa sesiones activas y aplicaciones autorizadas en tu correo, y revoca lo innecesario.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen accesos comprometidos sin que la contraseña fuera débil. Las causas son la reutilización y una recuperación mal configurada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
