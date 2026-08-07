@@ -21,6 +21,8 @@ Producir el documento que un comité de riesgo o un directorio recibe cada trime
 del entorno macroeconómico con implicancias concretas para el negocio bancario. Es el entregable que
 integra las catorce clases de la parte y el formato que se usa en la práctica profesional.
 
+Esta clase cierra la parte reuniendo las catorce anteriores en el documento que un comité lee de verdad. No introduce teoría nueva: introduce la exigencia de que cada afirmación macro se traduzca en una implicancia cuantificada para la entidad, porque un informe que describe el entorno sin decir qué hacer no se usa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura del informe y los dos últimos, lo que lo hace defendible. La **implicancia cuantificada** es lo que separa un informe útil de un resumen de prensa: no basta con decir que las tasas subirán, hay que decir cuánto cuesta eso a esta cartera.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `informe macrofinanciero` | Documento periódico que conecta el entorno económico con el negocio financiero. |
@@ -78,6 +82,8 @@ que lo convierte en herramienta de gestión es la de **implicancias cuantificada
 ## 📖 Desarrollo
 
 ### 1. Estructura del informe
+
+El informe tiene una estructura corta y fija que facilita compararlo con el del trimestre anterior. La tabla la recoge.
 
 | # | Sección | Extensión | Contenido |
 |---:|---|---|---|
@@ -116,6 +122,8 @@ Cada indicador debe llevar:
 ```
 
 ### 3. Construcción de escenarios
+
+Los escenarios no son adivinanzas: se construyen con supuestos declarados y con probabilidades asignadas. El procedimiento siguiente los estructura.
 
 ```text
 ESCENARIO BASE (probabilidad 55–65 %)
@@ -174,6 +182,8 @@ DECISIONES PROPUESTAS
 
 ### 5. Riesgos del informe e indicadores de seguimiento
 
+Todo informe puede equivocarse, y decir de antemano qué lo invalidaría es lo que le da credibilidad. La tabla recoge esos riesgos con el indicador que los vigila.
+
 ```text
 RIESGOS DEL DIAGNÓSTICO
   R1  la inflación resulta más persistente de lo supuesto → la tasa sube más y por más tiempo
@@ -192,6 +202,8 @@ Sin umbrales, la sección de riesgos es decorativa. Con umbrales, define **cuán
 antes de su periodicidad normal**.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye un informe completo desde los datos hasta las implicancias cuantificadas. Conviene fijarse en el paso de la afirmación macro a la cifra de cartera: es donde se pierde la mayoría de los informes.
 
 **Situación de defensa.** Presentas el informe y el comité formula tres preguntas.
 
@@ -242,6 +254,8 @@ credibilidad no viene de acertar, sino de que los errores estén acotados y docu
 
 ## 🏦 Del cliente al banco
 
+El analista describe el entorno y el comité pregunta qué hacer con la cartera. La tabla enfrenta las dos lecturas.
+
 | Sección del informe | Uso institucional | Parte |
 |---|---|---|
 | Escenarios | Insumo de las pruebas de estrés | 11, clase 13 |
@@ -260,6 +274,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Cuantifica las implicancias por línea y prepara la defensa de las tres preguntas del ejemplo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando el informe se presenta. Casi todos se evitan cuantificando la implicancia y declarando qué invalidaría el escenario.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

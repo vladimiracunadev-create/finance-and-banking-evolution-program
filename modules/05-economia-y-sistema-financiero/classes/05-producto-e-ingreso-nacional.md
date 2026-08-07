@@ -21,6 +21,8 @@ Aprender a leer los agregados que describen una economía completa, porque son e
 opera cualquier banco y cualquier empresa. Esta clase enseña qué mide el PIB, qué deja fuera, cómo se
 descompone y cómo se usa para anticipar el comportamiento de la cartera de crédito.
 
+Las cuatro clases anteriores trabajaron a nivel de mercado. Aquí empieza la macroeconomía, y con ella el indicador del que dependen casi todas las decisiones de crédito de un banco. Entender cómo se construye importa porque de esa construcción salen sus límites, y son grandes.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -54,6 +56,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cuatro primeros términos son la definición y sus dos formas de medirla; los tres últimos permiten comparar en el tiempo y entre países. El **valor agregado** es la clave de la construcción: evita contar dos veces lo mismo, y entenderlo explica por qué el PIB no es la suma de las ventas.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -113,6 +117,8 @@ PIB = remuneraciones + excedente de explotación bruto
 
 ### 2. Composición típica del gasto
 
+El PIB por el gasto se descompone en cuatro componentes con comportamientos muy distintos ante el ciclo. La tabla los recoge con su peso habitual.
+
 | Componente | Rango habitual | Volatilidad |
 |---|---|---|
 | Consumo (C) | 55–70 % | Baja |
@@ -126,6 +132,8 @@ que más se vigila para anticipar una recesión, y la que más responde a la tas
 clase 14).
 
 ### 3. Nominal, real y per cápita
+
+Las tres versiones del PIB responden a preguntas distintas y confundirlas produce conclusiones falsas sobre el crecimiento. La tabla las separa.
 
 ```text
 PIB nominal año 1   180 000 000 · PIB real (base año 1)  180 000 000 · deflactor 100,0
@@ -146,6 +154,8 @@ crecimiento del PIB real per cápita = (1,060/1,011) − 1 = 4,85 %
 población creciendo 3 % no mejora en promedio.
 
 ### 4. Qué no mide el PIB
+
+El PIB omite cosas relevantes por diseño y saber cuáles evita usarlo para lo que no sirve. La lista las recoge.
 
 ```text
 · producción doméstica no remunerada (cuidado, trabajo del hogar)
@@ -183,6 +193,8 @@ peor momento de la economía**, y por la que los modelos de provisión de la Par
 incorporan proyecciones macroeconómicas.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el PIB por los dos enfoques sobre la misma economía simplificada. Que los dos den lo mismo no es casualidad: es la identidad que sostiene toda la contabilidad nacional.
 
 **Situación.** Un banco proyecta su cartera para el próximo año con estos datos macroeconómicos.
 
@@ -257,6 +269,8 @@ tiene un área que sigue la economía agregada.
 
 ## 🏦 Del cliente al banco
 
+El cliente oye una cifra de crecimiento y el banco proyecta demanda de crédito y morosidad. La tabla enfrenta las dos lecturas.
+
 | Indicador | Uso bancario | Parte |
 |---|---|---|
 | PIB real | Proyección de colocaciones y de riesgo | 11, clase 13 |
@@ -267,6 +281,8 @@ tiene un área que sigue la economía agregada.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el PIB por ambos enfoques y separar nominal de real. La brecha entre las dos series es la inflación, y verlo así prepara la clase siguiente.
+
 En `labs/lab-03.md`:
 
 1. Calcula el PIB por los tres enfoques con un caso sencillo y verifica su equivalencia.
@@ -275,6 +291,8 @@ En `labs/lab-03.md`:
 4. Estima la relación con rezago entre PIB y colocaciones o morosidad con datos públicos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen comparaciones de crecimiento mal hechas. Las causas son mezclar nominal con real o comparar países sin ajustar por población.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

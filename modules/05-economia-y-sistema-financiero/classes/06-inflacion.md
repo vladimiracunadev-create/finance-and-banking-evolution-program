@@ -22,6 +22,8 @@ tasas de interés. La Parte 1, clase 7, mostró cómo protegerse individualmente
 dónde viene la inflación, cómo se mide, qué la sostiene y por qué las expectativas importan tanto como
 los hechos.
 
+La Parte 1 trató la inflación desde el bolsillo. Esta la trata desde su construcción y su política, porque de ella depende la tasa de interés de todo lo demás. Y añade lo que decide el comportamiento de un banco central: las expectativas, que son tan importantes como la cifra observada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la medida y su depuración; los cinco siguientes son las causas y los mecanismos que la perpetúan. El **anclaje** de las expectativas es el concepto central de la política monetaria moderna: mientras las expectativas están ancladas, un alza transitoria no se convierte en permanente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `inflación` | Aumento sostenido y generalizado del nivel de precios. No es que un producto suba. |
@@ -83,6 +87,8 @@ transitorio, o no responder a uno que ya contaminó las expectativas.
 ## 📖 Desarrollo
 
 ### 1. Cómo se construye el IPC
+
+El IPC sale de una canasta con ponderaciones fijadas por una encuesta de gasto, y de ahí vienen sus limitaciones. El procedimiento siguiente lo construye.
 
 ```text
 1. encuesta de presupuestos familiares → define la canasta y sus ponderaciones
@@ -144,6 +150,8 @@ señales: expectativas de mercado sobre la meta, indexación generalizada,
 
 ### 3. Inflación subyacente
 
+La inflación subyacente quita los componentes más volátiles para ver la tendencia. El esquema explica qué se quita y por qué.
+
 ```text
 IPC total       incluye todo
 IPC subyacente  excluye alimentos frescos y energía
@@ -163,6 +171,8 @@ contaminó la subyacente en agosto. **La respuesta debía ocurrir entre ambos mo
 evidencia todavía era ambigua. Ese es el dilema central de un banco central.
 
 ### 4. Ganadores y perdedores
+
+La inflación redistribuye entre deudores y acreedores de forma sistemática. La tabla recoge quién gana y quién pierde en cada caso.
 
 | Actor | Con inflación **no anticipada** al alza |
 |---|---|
@@ -184,6 +194,8 @@ nivel.**
 
 ### 5. Expectativas y anclaje
 
+Las expectativas de inflación influyen sobre la inflación futura, y por eso los bancos centrales las miden y hablan para orientarlas. El esquema muestra ese mecanismo.
+
 ```text
 expectativas ANCLADAS      un shock sube la inflación y los agentes esperan que vuelva a la meta
                            → el shock no se propaga a salarios ni a precios de servicios
@@ -199,6 +211,8 @@ contracción con costo en empleo y producto. Por eso la comunicación de un banc
 propaganda: **es un instrumento de política tan real como la tasa**.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye un IPC desde una canasta y calcula la inflación subyacente. Conviene fijarse en el efecto de las ponderaciones: es lo que explica por qué la inflación percibida difiere de la medida.
 
 **Situación.** Un país presenta esta trayectoria en dos años. Diagnostica el tipo de inflación y
 recomienda.
@@ -284,6 +298,8 @@ variables que indican si un shock se está convirtiendo en inflación.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve precios que suben y el banco ajusta tasas y reajusta contratos. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Inflación sorpresiva | Pérdida de valor real de la cartera a tasa fija | 11, clase 5 |
@@ -294,6 +310,8 @@ variables que indican si un shock se está convirtiendo en inflación.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir un índice y separar la subyacente de la total. El ejercicio incluye un mes con un choque de un solo producto, que es donde la distinción se hace evidente.
+
 En `labs/lab-03.md`, sección de inflación:
 
 1. Construye tu propia canasta de consumo y calcula tu inflación personal contra la oficial.
@@ -302,6 +320,8 @@ En `labs/lab-03.md`, sección de inflación:
 4. Analiza el efecto de la inflación sobre una cartera de créditos a tasa fija.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen lecturas equivocadas de la inflación. Las causas suelen ser confundir el nivel con la variación o la total con la subyacente.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

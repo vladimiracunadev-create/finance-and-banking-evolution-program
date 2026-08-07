@@ -22,6 +22,8 @@ de interés es el precio del dinero, el tipo de cambio el precio de una moneda, 
 por el mismo mecanismo. Esta clase enseña a distinguir movimientos sobre la curva de desplazamientos
 de la curva, que es el error de análisis más común.
 
+La clase anterior trató la decisión individual. Esta trata lo que ocurre cuando muchas se encuentran en un mercado, y sirve para lo que el resto de la parte necesita: predecir en qué dirección se mueve un precio ante un cambio, incluidos el precio del crédito y el de una divisa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son el modelo y los cuatro siguientes, lo que hay que distinguir para usarlo bien. La diferencia entre **movimiento sobre la curva y desplazamiento de la curva** es la que decide todas las predicciones: confundirlas produce sistemáticamente la respuesta contraria.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -111,6 +115,8 @@ que "la demanda no responde al precio", cuando lo que ocurrió fue un desplazami
 
 ### 2. Predecir el efecto de un cambio
 
+Predecir es un procedimiento de tres pasos y no una intuición. Los pasos siguientes lo estructuran y sirven para cualquier mercado.
+
 | Cambio | Curva | Efecto en precio | Efecto en cantidad |
 |---|---|---|---|
 | Aumento de la demanda | D → derecha | Sube | Sube |
@@ -155,6 +161,8 @@ resultado: cantidad ofrecida > cantidad demandada → EXCEDENTE (desempleo en es
 
 ### 4. El mercado de crédito
 
+El crédito es un mercado como cualquier otro, con su oferta, su demanda y su precio, que es la tasa. El esquema lo plantea en esos términos.
+
 ```text
 precio     = tasa de interés
 demanda    = solicitudes de crédito de hogares y empresas
@@ -171,6 +179,8 @@ oferta     = disposición de los bancos a colocar
 | Recesión: cae la inversión empresarial | Demanda ← izquierda | Baja |
 
 ### 5. El mercado de divisas
+
+El mismo modelo aplicado a las divisas explica en qué dirección se mueve un tipo de cambio ante un cambio de tasas o de flujos.
 
 ```text
 precio     = tipo de cambio (unidades de moneda local por dólar)
@@ -189,6 +199,8 @@ La Parte 6, clase 13, desarrolla el tipo de cambio en profundidad; aquí basta v
 modelo**.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica los tres pasos a un cambio concreto en el mercado de crédito. Conviene identificar primero qué curva se mueve: es el paso donde se equivoca casi todo el mundo.
 
 **Situación.** Durante un año ocurren cuatro hechos en el mercado de crédito hipotecario. Analiza el
 efecto conjunto.
@@ -259,6 +271,8 @@ precio y se suman en la cantidad**. Esa distinción cambia por completo la recom
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una tasa y el banco ve el precio de equilibrio de su mercado de fondos. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Desplazamiento de la oferta de crédito | Efecto de la política monetaria y del capital | 6, clase 14 |
@@ -269,6 +283,8 @@ precio y se suman en la cantidad**. Esa distinción cambia por completo la recom
 
 ## 🧪 Práctica
 
+El laboratorio pide predecir el efecto de seis cambios sobre precios de mercados financieros. La mitad de los casos requieren identificar un desplazamiento y la otra mitad un movimiento sobre la curva.
+
 En `labs/lab-01.md`, sección de mercados:
 
 1. Construye curvas de oferta y demanda a partir de tablas y determina el equilibrio.
@@ -277,6 +293,8 @@ En `labs/lab-01.md`, sección de mercados:
 4. Modela el efecto de un tope de tasa y cuantifica la escasez resultante.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen predicciones que salieron al revés. La causa es casi siempre haber movido la curva equivocada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

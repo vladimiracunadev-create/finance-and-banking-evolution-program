@@ -21,6 +21,8 @@ Cerrar el circuito entre la política macroeconómica y la vida financiera concr
 decisión de un banco central y la cuota que paga una familia. Esta clase explica por qué la
 transmisión es incompleta, asimétrica y desigual entre segmentos, y cómo se mide.
 
+La clase 10 explicó cómo se decide la tasa de política. Esta explica qué llega de ella al crédito de un hogar o de una empresa, que es siempre menos y más tarde de lo que se supone. Y añade una asimetría bien documentada: las subidas se trasladan más rápido que las bajadas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -54,6 +56,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son la medida del traspaso y sus imperfecciones; los cuatro siguientes, los canales y su desigualdad entre deudores. La **asimetría** es el hallazgo que hay que retener: no es una impresión, se mide, y tiene explicaciones de estructura de mercado.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -113,6 +117,8 @@ vez. Separarlos es la única forma de evaluar correctamente.
 
 ### 2. Medir el traspaso
 
+El traspaso se estima comparando el movimiento de la tasa de política con el de las tasas de colocación. El procedimiento siguiente lo hace.
+
 ```text
 traspaso = Δ tasa de colocación / Δ tasa de política
 ```
@@ -135,6 +141,8 @@ resultado de la banca suele mejorar en la fase inicial de un ciclo alcista.
 
 ### 3. Asimetría
 
+Las subidas y las bajadas no se trasladan igual, y la diferencia se cuantifica. La tabla recoge las magnitudes habituales y sus explicaciones.
+
 ```text
 alza de la tasa de política:  las colocaciones suben rápido, los depósitos suben lento
 baja de la tasa de política:  las colocaciones bajan lento, los depósitos bajan rápido
@@ -154,6 +162,8 @@ La regulación de conducta y la portabilidad financiera atacan las tres primeras
 
 ### 4. Canales sobre hogares y empresas
 
+El efecto llega por varios canales que no operan igual sobre todos los deudores. La tabla los separa.
+
 | Canal | Mecanismo | A quién afecta más |
 |---|---|---|
 | **Tasa directa** | Sube el costo de los créditos nuevos y de los variables | Deudores a tasa variable |
@@ -168,6 +178,8 @@ bancario con toda su fuerza**, mientras una empresa grande puede emitir bonos y 
 Por eso el efecto de la política monetaria sobre el empleo se concentra en las empresas pequeñas.
 
 ### 5. Anticipar el efecto de un ciclo
+
+Con el traspaso estimado se puede anticipar qué pasará con una cartera ante un ciclo de tasas. El procedimiento siguiente lo estructura.
 
 | Fase del ciclo de tasas | Hogares | Empresas | Banco |
 |---|---|---|---|
@@ -274,6 +286,8 @@ covenant y que el hogar hipotecado sufre por un canal distinto del esperado.
 
 ## 🏦 Del cliente al banco
 
+El cliente espera que su tasa baje y el banco reprecia según su propia estructura de fondos. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Descomposición de la tasa | Base del pricing basado en riesgo | 15, clase 7 |
@@ -284,6 +298,8 @@ covenant y que el hogar hipotecado sufre por un canal distinto del esperado.
 
 ## 🧪 Práctica
 
+El laboratorio pide estimar el traspaso sobre series sintéticas y medir la asimetría. El resultado es sistemático y por eso convincente.
+
 En `labs/lab-06.md`, sección de transmisión:
 
 1. Descompón la tasa de un producto real en sus cinco componentes con datos públicos.
@@ -292,6 +308,8 @@ En `labs/lab-06.md`, sección de transmisión:
 4. Estima el efecto de un ciclo de tasas sobre tres segmentos distintos de deudores.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen expectativas de tasa que no se cumplieron. Las causas son el rezago y la asimetría, no una decisión de la entidad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

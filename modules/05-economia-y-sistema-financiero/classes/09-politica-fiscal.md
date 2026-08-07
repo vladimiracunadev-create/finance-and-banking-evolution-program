@@ -22,6 +22,8 @@ interés y el negocio bancario. Un banco es acreedor del Estado, compite con él
 sufre o se beneficia de sus decisiones. Esta clase entrega el marco para leer un presupuesto público y
 anticipar sus efectos.
 
+Las clases anteriores describen el ciclo. Las tres siguientes tratan de las herramientas para influir en él, empezando por la del gobierno. Su efecto sobre la banca es directo y en dos direcciones opuestas: el gasto público sostiene la demanda de crédito y la deuda pública compite por los mismos fondos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la postura fiscal y su medición; los cuatro siguientes, sus efectos y sus límites. El **balance estructural** es el que permite juzgar: un déficit en recesión puede ser prudente y uno en expansión no lo es, y solo el estructural distingue una cosa de la otra.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `política fiscal` | Uso del gasto público y los impuestos para influir en la actividad. |
@@ -86,6 +90,8 @@ fortalecer los estabilizadores automáticos.
 
 ### 1. Instrumentos y postura
 
+La política fiscal actúa por gasto y por impuestos, y la combinación define su postura. La tabla los recoge.
+
 | Postura | Instrumentos | Cuándo |
 |---|---|---|
 | **Expansiva** | Más gasto, menos impuestos, más transferencias | Recesión, brecha del producto negativa |
@@ -106,6 +112,8 @@ Un país con déficit observado de 4,2 % puede tener una postura discrecional mo
 lleva a exigir ajustes en recesión, que profundizan la caída.
 
 ### 2. Multiplicador fiscal
+
+Un peso de gasto público produce más o menos de un peso de producto según las circunstancias. El cálculo siguiente lo estima y la tabla recoge de qué depende.
 
 ```text
 ΔPIB = multiplicador × Δgasto público
@@ -128,6 +136,8 @@ El valor del multiplicador **no es una constante**: depende de las condiciones.
 Las dos últimas filas explican por qué el diseño del estímulo importa tanto como su tamaño.
 
 ### 3. Efecto desplazamiento
+
+El financiamiento del déficit compite con el crédito privado por los mismos fondos, y eso sube las tasas. El esquema muestra el mecanismo.
 
 ```text
 mayor déficit → mayor emisión de deuda pública → mayor demanda de fondos
@@ -180,6 +190,8 @@ años pasaría de 60 % a cerca de 79 %.
 
 ### 5. Efectos sobre el sistema bancario
 
+La política fiscal alcanza al banco por varias vías a la vez, y algunas se compensan entre sí. La tabla las separa.
+
 | Decisión fiscal | Efecto en el banco | Parte |
 |---|---|---|
 | Mayor emisión de deuda soberana | Alternativa de inversión con baja ponderación de riesgo | 11, clase 3 |
@@ -194,6 +206,8 @@ pública se deteriora, los bancos que la tienen en su balance se deterioran con 
 es el garante último del sistema bancario, el problema se retroalimenta.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo estima el efecto de un paquete fiscal sobre el producto y sobre las tasas. Conviene seguir las dos direcciones: el efecto neto sobre un banco depende de cuál domine.
 
 **Situación.** Un país anuncia un paquete fiscal. Evalúa su efecto y las implicancias para un banco.
 
@@ -281,6 +295,8 @@ cálculo de dos líneas.
 
 ## 🏦 Del cliente al banco
 
+El ciudadano ve gasto público y el banco ve demanda de crédito y competencia por los fondos. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Balance estructural | Anticipar la trayectoria de tasas | 11, clase 5 |
@@ -291,6 +307,8 @@ cálculo de dos líneas.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el balance estructural y evaluar si la postura es adecuada a la fase del ciclo. La respuesta cambia respecto de la que sugiere el balance observado.
+
 En `labs/lab-05.md`:
 
 1. Analiza el presupuesto público de tu país e identifica su postura mediante el balance estructural.
@@ -299,6 +317,8 @@ En `labs/lab-05.md`:
 4. Evalúa el efecto de un paquete sobre el balance de un banco, línea por línea.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen juicios equivocados sobre la política fiscal. La causa es casi siempre haber mirado el balance efectivo y no el estructural.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

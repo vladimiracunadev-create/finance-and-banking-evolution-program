@@ -22,6 +22,8 @@ sistema de pagos, provee liquidez de emergencia y, en muchos países, supervisa 
 financiera. Entender sus funciones y sus límites es indispensable para cualquier persona que trabaje
 en banca.
 
+La clase anterior trató la política; esta trata a la institución que la ejecuta y las demás funciones que cumple. Dos de ellas afectan a un banco comercial todos los días: opera el sistema de pagos de alto valor y es el prestamista de última instancia, que es la red de seguridad de todo el sistema.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la posición institucional y su función crítica; los cuatro siguientes, su balance y sus otras funciones. El **prestamista de última instancia** es el concepto que sostiene la estabilidad del sistema y que reaparece en la Parte 11: existe porque ningún banco sobrevive a un retiro simultáneo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `independencia` | Autonomía para fijar instrumentos sin instrucción del gobierno. No es autonomía de objetivos. |
@@ -85,6 +89,8 @@ reservas y, con ella, la tasa interbancaria.
 
 ### 1. Funciones
 
+Un banco central hace varias cosas además de fijar tasas, y algunas son operativas y diarias. La tabla las recoge.
+
 | Función | Contenido |
 |---|---|
 | **Política monetaria** | Fijar la tasa y gestionar la liquidez para cumplir la meta de inflación |
@@ -107,6 +113,8 @@ Qué **no** hace habitualmente un banco central:
 ```
 
 ### 2. Independencia
+
+La independencia no es un principio abstracto: tiene mecanismos concretos y razones históricas. La tabla los recoge.
 
 ```text
 independencia de INSTRUMENTOS   el banco central elige cómo alcanzar el objetivo   → estándar
@@ -154,6 +162,8 @@ por el propio proceso de venta. Esa dinámica —la venta forzada— es la que l
 busca interrumpir.
 
 ### 4. El balance de un banco central
+
+El balance de un banco central se lee como cualquier otro y dice qué está haciendo. La tabla muestra su estructura y qué revela cada partida.
 
 ```text
 ACTIVOS                                  PASIVOS
@@ -316,6 +326,8 @@ garantía de depósitos existe para reducir esa dificultad.
 
 ## 🏦 Del cliente al banco
 
+El ciudadano ve una institución lejana y el banco comercial opera con ella a diario. La tabla enfrenta las dos lecturas.
+
 | Función del banco central | Efecto en el banco comercial | Parte |
 |---|---|---|
 | Tasa de política | Costo de fondos y pricing | 15, clase 7 |
@@ -326,6 +338,8 @@ garantía de depósitos existe para reducir esa dificultad.
 
 ## 🧪 Práctica
 
+El laboratorio pide leer un balance de banco central e inferir qué política está ejecutando. Es un ejercicio de lectura, y su resultado es más informativo que cualquier comunicado.
+
 En `labs/lab-06.md`:
 
 1. Identifica las funciones del banco central de tu país y cuáles corresponden al supervisor.
@@ -334,6 +348,8 @@ En `labs/lab-06.md`:
 4. Analiza un caso real de provisión de liquidez de emergencia y evalúa si cumplió las cinco condiciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen malentendidos frecuentes sobre lo que un banco central puede hacer. Las causas están en confundir sus funciones o en atribuirle instrumentos que no tiene.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

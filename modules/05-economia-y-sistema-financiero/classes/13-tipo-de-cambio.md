@@ -22,6 +22,8 @@ vías simultáneas: su posición en moneda extranjera, la capacidad de pago de l
 dólares, y la inflación que determinará la tasa. Esta clase enseña a leerlo, a explicar sus
 movimientos y a medir la exposición.
 
+Las clases anteriores trataron una economía cerrada. Esta abre la puerta al exterior y con ella al riesgo que más rápido destruye balances: el descalce cambiario. Un deudor que ingresa en una moneda y debe en otra tiene un riesgo que no aparece en ningún ratio de endeudamiento.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las medidas del tipo de cambio; los cuatro siguientes, las teorías que lo explican y sus efectos. El **descalce cambiario** es el que hay que saber detectar: es la causa de una parte importante de las crisis bancarias de mercados emergentes.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tipo de cambio nominal` | Unidades de moneda local por unidad de moneda extranjera. Si sube, la moneda local se **deprecia**. |
@@ -85,6 +89,8 @@ Por eso "una depreciación es buena o mala" es una afirmación sin sentido sin e
 
 ### 1. Nominal, real y multilateral
 
+Las tres medidas responden a preguntas distintas y solo la real dice algo sobre competitividad. La tabla las separa.
+
 ```text
 tipo de cambio nominal (e)     900 pesos por dólar
 
@@ -111,6 +117,8 @@ mirar solo el dólar cuando el comercio principal es con otras monedas.
 
 ### 2. Determinantes
 
+El tipo de cambio responde a varios factores con horizontes distintos. La tabla los recoge, separando los de corto plazo de los de largo.
+
 | Horizonte | Determinantes dominantes |
 |---|---|
 | **Muy corto plazo (días)** | Flujos de capital, expectativas, aversión al riesgo global |
@@ -124,6 +132,8 @@ para evaluar si una moneda está muy desalineada en el largo plazo, sí.
 
 ### 3. Regímenes cambiarios
 
+El régimen decide quién absorbe los choques externos, y esa elección tiene consecuencias sobre la política monetaria. La tabla los compara.
+
 | Régimen | Cómo funciona | Ventaja | Costo |
 |---|---|---|---|
 | **Flotación libre** | El mercado determina el precio | Absorbe shocks externos; permite política monetaria autónoma | Volatilidad |
@@ -136,6 +146,8 @@ La **trinidad imposible** resume la restricción: no se pueden tener simultánea
 fijo, libre movilidad de capitales y política monetaria autónoma. Hay que elegir dos.
 
 ### 4. Paridad de tasas de interés
+
+La relación entre diferenciales de tasas y expectativas de tipo de cambio es la que sostiene el arbitraje internacional. El esquema la plantea.
 
 ```text
 i_local ≈ i_externa + depreciación esperada + prima de riesgo
@@ -276,6 +288,8 @@ error de encuadre es uno de los más documentados en crisis cambiarias de econom
 
 ## 🏦 Del cliente al banco
 
+El cliente ve el precio del dólar y el banco gestiona su posición y la de sus deudores. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Descalce cambiario | Límite de posición y control diario | 11, clase 6 |
@@ -286,6 +300,8 @@ error de encuadre es uno de los más documentados en crisis cambiarias de econom
 
 ## 🧪 Práctica
 
+El laboratorio pide detectar descalces cambiarios en balances sintéticos y cuantificar el efecto de una devaluación. El efecto sobre el patrimonio es mayor que el que sugiere el tamaño de la deuda.
+
 En `labs/lab-06.md`, sección cambiaria:
 
 1. Calcula el tipo de cambio real y multilateral de tu país en 24 meses.
@@ -294,6 +310,8 @@ En `labs/lab-06.md`, sección cambiaria:
 4. Estima el riesgo cambiario inducido de una cartera de créditos en moneda extranjera.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas cambiarias inesperadas. La causa es casi siempre un descalce que no se midió porque el ratio de endeudamiento no lo muestra.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

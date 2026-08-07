@@ -21,6 +21,8 @@ Comprender el indicador que mejor predice la capacidad de pago de los hogares y,
 morosidad de la cartera de consumo e hipotecaria. Esta clase enseña a leer las estadísticas laborales
 con precisión —incluidos sus puntos ciegos— y a traducirlas en proyecciones de riesgo de crédito.
 
+El empleo es la variable que conecta la macroeconomía con la capacidad de pago de los deudores de un banco. Esta clase la mide con precisión y, sobre todo, muestra sus puntos ciegos: la tasa de desempleo puede bajar porque hay más empleo o porque hay gente que dejó de buscarlo, y son cosas opuestas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las medidas y los cuatro últimos, los tipos de desempleo y su matiz. La **tasa de participación** es la que evita el error más común: sin mirarla, una caída del desempleo puede interpretarse como una mejora cuando es lo contrario.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `fuerza de trabajo` | Ocupados más desocupados que buscan activamente. Excluye a quienes no buscan. |
@@ -85,6 +89,8 @@ que no tienen ese problema.
 
 ### 1. Los tres indicadores
 
+Tres tasas describen el mercado laboral y hay que leerlas juntas. La tabla las define y muestra qué combinación indica qué.
+
 ```text
 población en edad de trabajar (PET)
   ├─ fuerza de trabajo (FT) = ocupados + desocupados
@@ -112,6 +118,8 @@ explica la aparente mejora. Leer solo el desempleo habría llevado a la conclusi
 
 ### 2. Tipos de desempleo
 
+El desempleo tiene causas distintas y solo una responde a la política de demanda. La tabla las separa.
+
 | Tipo | Causa | ¿Responde a la política macro? | Solución |
 |---|---|---|---|
 | Friccional | Búsqueda y emparejamiento | No | Información, intermediación laboral |
@@ -124,6 +132,8 @@ y confundirlos produce inflación sin empleo. La tasa de desempleo compatible co
 —la "tasa natural"— es la suma del friccional y el estructural.
 
 ### 3. Puntos ciegos
+
+Las cifras oficiales omiten situaciones relevantes y saberlo evita lecturas optimistas. La tabla las recoge.
 
 ```text
 · desalentados: dejaron de buscar → no se cuentan como desocupados
@@ -146,6 +156,8 @@ Para un banco, **la informalidad es la variable crítica**: un ocupado informal 
 ingreso es más volátil, lo que lo excluye del crédito formal o lo lleva a segmentos de mayor tasa.
 
 ### 4. Desempleo e inflación
+
+Entre desempleo e inflación hay una relación de corto plazo que la política monetaria usa y que no se cumple siempre. El esquema la plantea con sus límites.
 
 ```text
 relación de corto plazo: menor desempleo → mayor inflación (curva de Phillips)
@@ -265,6 +277,8 @@ deterioro y a provisionar 0,75 puntos menos de lo necesario. **Los tres indicado
 
 ## 🏦 Del cliente al banco
 
+El cliente pierde el empleo y el banco observa el deterioro agregado de su cartera. La tabla enfrenta las dos lecturas.
+
 | Indicador | Uso bancario | Parte |
 |---|---|---|
 | Tasa de ocupación | Proyección de morosidad de consumo | 9, clase 10 |
@@ -275,6 +289,8 @@ deterioro y a provisionar 0,75 puntos menos de lo necesario. **Los tres indicado
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular las tres tasas sobre datos sintéticos donde la de desempleo baja y la situación empeora. Detectarlo es el objetivo del ejercicio.
+
 En `labs/lab-04.md`:
 
 1. Calcula los tres indicadores laborales con datos oficiales de ocho trimestres.
@@ -283,6 +299,8 @@ En `labs/lab-04.md`:
 4. Estima la relación entre ocupación y morosidad de consumo con datos públicos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen lecturas optimistas de datos malos. La causa es haber mirado la tasa de desempleo sin la de participación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

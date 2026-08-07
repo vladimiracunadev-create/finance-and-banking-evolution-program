@@ -22,6 +22,8 @@ llega desde fuera: **la mayor parte del dinero la crean los bancos comerciales a
 Esta clase explica el mecanismo, sus límites reales y por qué el modelo del multiplicador que se enseña
 tradicionalmente describe mal el proceso.
 
+Esta clase corrige una idea muy extendida y equivocada: que los bancos prestan el dinero que captan. En realidad el crédito crea depósitos, y esa dirección invertida explica por qué el crédito bancario es una variable macroeconómica y por qué se regula tanto.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los agregados monetarios y los tres últimos, el mecanismo y sus límites. El **dinero bancario** es el concepto central: la mayor parte del dinero que circula no lo emitió ningún banco central, lo crearon los bancos comerciales al prestar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `base monetaria (M0)` | Circulante más reservas de los bancos en el banco central. La crea el banco central. |
@@ -87,6 +91,8 @@ así lo describen las publicaciones de varios bancos centrales.
 
 ### 1. Los agregados monetarios
 
+Los agregados van de lo más líquido a lo menos, y cada uno incluye al anterior. La tabla los define.
+
 ```text
 M0 (base)    circulante + reservas de los bancos en el banco central
 M1           circulante en poder del público + depósitos a la vista
@@ -105,6 +111,8 @@ Proporción típica en una economía desarrollada:
 una fracción menor y decreciente.
 
 ### 2. El mecanismo de creación
+
+El mecanismo se ve mejor siguiendo los asientos contables de la Parte 5, que es lo que hace el esquema siguiente.
 
 ```text
 PASO 1  el banco otorga el crédito
@@ -129,6 +137,8 @@ que salen**. Si presta mucho más que sus pares, sus salidas superan sus entrada
 reservas en el mercado interbancario, a la tasa que fija el banco central.
 
 ### 3. Los límites reales
+
+La creación de dinero no es ilimitada, y los límites reales no son los que suele decirse. La tabla los recoge.
 
 | Límite | Cómo opera |
 |---|---|
@@ -169,6 +179,8 @@ La conclusión práctica: el multiplicador es una **razón contable observada** 
 descripción y no como mecanismo. Quien lo usa como mecanismo predice mal.
 
 ### 5. Crédito, inflación y estabilidad
+
+El crecimiento del crédito se relaciona con la inflación y con la estabilidad financiera, y esa relación justifica buena parte de la regulación. La tabla la desarrolla.
 
 ```text
 crecimiento del crédito muy por sobre el del PIB nominal
@@ -279,6 +291,8 @@ tendrá efecto sobre el crédito o no.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que le prestan lo que otros depositaron y el banco crea un depósito al otorgar el crédito. La tabla enfrenta las dos lecturas, y es de las que más cambian la comprensión del negocio bancario.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Creación de depósitos | Naturaleza del negocio bancario | 10, clase 1 |
@@ -289,6 +303,8 @@ tendrá efecto sobre el crédito o no.
 
 ## 🧪 Práctica
 
+El laboratorio pide seguir los asientos de una operación de crédito y comprobar el efecto sobre los agregados. Verlo en asientos es lo que hace creíble el mecanismo.
+
 En `labs/lab-06.md`, sección de dinero:
 
 1. Obtén los agregados monetarios de tu país y calcula la proporción de dinero bancario.
@@ -297,6 +313,8 @@ En `labs/lab-06.md`, sección de dinero:
 4. Determina si el límite vinculante de un banco simplificado es el capital o la liquidez.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen razonamientos que parten del modelo equivocado. La causa es el multiplicador monetario entendido como una restricción operativa y no como una relación observada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

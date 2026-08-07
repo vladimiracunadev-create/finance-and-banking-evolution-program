@@ -22,6 +22,8 @@ costos, y aplicar ese marco al sistema financiero, que en la mayoría de los pa�
 con barreras de entrada regulatorias. Esta clase entrega las herramientas para medir concentración y
 para leer el comportamiento competitivo de una industria.
 
+Las clases anteriores suponen mercados donde nadie fija el precio. Esta levanta ese supuesto, porque la banca no es uno de esos mercados: es concentrada, tiene barreras de entrada altas y sus participantes tienen poder sobre el precio. Medir esa concentración es un ejercicio con norma propia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las estructuras posibles y los tres últimos, las herramientas para medir dónde está un mercado concreto. El **índice Herfindahl-Hirschman** es el que usan las autoridades de competencia, y conviene saber calcularlo porque decide autorizaciones de fusiones.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `competencia perfecta` | Muchos oferentes, producto homogéneo, información completa, libre entrada. Nadie fija el precio. |
@@ -84,6 +88,8 @@ productos parcialmente diferenciados y barreras de entrada regulatorias signific
 
 ### 1. Las cuatro estructuras
 
+Las cuatro estructuras se distinguen por el número de participantes, la diferenciación y las barreras. La tabla las separa con un ejemplo financiero de cada una.
+
 | | Perfecta | Monopolística | Oligopolio | Monopolio |
 |---|---|---|---|---|
 | Número de oferentes | Muchísimos | Muchos | Pocos | Uno |
@@ -98,6 +104,8 @@ los otros**, lo que produce comportamientos que ninguna otra estructura genera, 
 precios y la rigidez a la baja.
 
 ### 2. Medir la concentración
+
+La concentración se mide con dos índices que dan lecturas complementarias. El procedimiento siguiente los calcula.
 
 ```text
 CR4 = suma de las participaciones de las 4 mayores
@@ -135,6 +143,8 @@ la mayoría de los sistemas bancarios del mundo tiene los cuatro mayores por sob
 
 ### 3. Barreras de entrada en banca
 
+La banca tiene barreras propias, y algunas son regulatorias por diseño. La tabla las recoge con su origen.
+
 | Barrera | Origen | Efecto |
 |---|---|---|
 | Licencia bancaria | Regulatorio | Impide la entrada sin autorización |
@@ -151,6 +161,8 @@ financiera** ataca el costo de cambio, y las **finanzas abiertas** atacan la asi
 (Parte 14, clase 3). Ambas son intervenciones sobre la estructura competitiva, no sobre el precio.
 
 ### 4. Diferenciación de producto
+
+En un mercado concentrado, la competencia se traslada de precio a diferenciación. La tabla recoge las formas que toma en banca.
 
 ```text
 un producto diferenciado permite cobrar más que el sustituto más barato
@@ -278,6 +290,8 @@ exigen estudios de mercado antes de intervenir.
 
 ## 🏦 Del cliente al banco
 
+El cliente compara ofertas y el banco compite en un mercado concentrado. La tabla enfrenta las dos lecturas, y explica por qué las tarifas convergen sin necesidad de acuerdo.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Concentración | Análisis de competencia y fusiones | 15, clase 11 |
@@ -288,6 +302,8 @@ exigen estudios de mercado antes de intervenir.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular los dos índices sobre datos de participación de mercado y clasificar la estructura. El ejercicio incluye el efecto de una fusión hipotética, que es el uso real del índice.
+
 En `labs/lab-02.md`, sección de estructura:
 
 1. Calcula CR4 y HHI del sistema bancario de tu país con datos públicos del supervisor.
@@ -296,6 +312,8 @@ En `labs/lab-02.md`, sección de estructura:
 4. Analiza la dispersión de tasas entre actores y formula hipótesis verificables sobre las brechas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen conclusiones equivocadas sobre competencia. Las causas están en índices calculados sobre mercados mal delimitados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

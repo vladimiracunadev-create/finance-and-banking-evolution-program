@@ -21,6 +21,8 @@ Reconocer en qué fase del ciclo está una economía y anticipar el comportamien
 bancaria, que es procíclica por construcción. Esta clase entrega los indicadores adelantados,
 coincidentes y rezagados, y explica por qué el crédito amplifica el ciclo en lugar de suavizarlo.
 
+Las clases anteriores midieron el estado de la economía. Esta la pone en movimiento, y añade una distinción que la crisis de 2008 hizo evidente: el ciclo financiero no coincide con el económico, es más largo y más profundo, y confundirlos hace que el riesgo parezca menor justo cuando es mayor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos describen el ciclo y su medición; los cinco siguientes, los indicadores y la relación con el crédito. La **prociclicidad** es el concepto que hay que retener: los sistemas de riesgo tienden a relajarse en la expansión y a endurecerse en la contracción, que es exactamente al revés de lo conveniente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ciclo económico` | Fluctuación de la actividad alrededor de su tendencia. No es regular ni predecible en su duración. |
@@ -84,6 +88,8 @@ profundas y más largas que las que no la tienen, y por qué la regulación prud
 
 ### 1. Las fases
 
+El ciclo tiene fases con características reconocibles, y ubicarse en una de ellas cambia las decisiones. La tabla las recorre.
+
 | Fase | Actividad | Empleo | Inflación | Crédito | Morosidad |
 |---|---|---|---|---|---|
 | **Expansión** | Crece sobre la tendencia | Mejora | Estable o al alza | Crece | Baja |
@@ -96,6 +102,8 @@ La fila de morosidad muestra el desfase clave: **es máxima en el valle o despu�
 caída. Un banco que provisiona según la morosidad observada siempre llega tarde.
 
 ### 2. Clasificación de indicadores
+
+Los indicadores se adelantan, coinciden o se rezagan respecto del ciclo, y usarlos sin saberlo lleva a decidir tarde. La tabla los clasifica.
 
 | Adelantados | Coincidentes | Rezagados |
 |---|---|---|
@@ -145,6 +153,8 @@ Contramedidas prudenciales:
 
 ### 4. Ciclo económico y ciclo financiero
 
+Los dos ciclos tienen duraciones y amplitudes distintas. El esquema los superpone, y esa superposición explica buena parte de las crisis.
+
 ```text
 ciclo económico   duración típica 5–8 años, medido por PIB y empleo
 ciclo financiero  duración típica 15–20 años, medido por crédito y precios de activos
@@ -160,6 +170,8 @@ muy por sobre la tendencia han precedido a episodios de estrés financiero en m�
 
 ### 5. Anticipar el comportamiento de la cartera
 
+Cada fase del ciclo produce efectos previsibles sobre una cartera de crédito. La tabla los recoge.
+
 | Fase | Qué hacer con la originación | Qué esperar del margen | Qué hacer con provisiones |
 |---|---|---|---|
 | Expansión temprana | Crecer con estándares firmes | Estable | Constituir colchón |
@@ -173,6 +185,8 @@ precisamente cuando produce más valor. Los créditos originados en el peak del 
 concentran las pérdidas de la recesión siguiente, un resultado documentado de forma consistente.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo ubica una economía en su fase del ciclo con indicadores y proyecta el efecto sobre una cartera. Conviene separar los indicadores adelantados de los rezagados antes de concluir.
 
 **Situación.** Un comité de riesgo evalúa la fase del ciclo con estos datos.
 
@@ -253,6 +267,8 @@ riesgo con marco de ciclo.
 
 ## 🏦 Del cliente al banco
 
+El cliente vive el ciclo y el banco lo anticipa provisionando. La tabla enfrenta las dos lecturas, y esa segunda columna reaparece en la Parte 9 con IFRS 9.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Fase del ciclo | Política de originación y de provisiones | 9, clase 14 |
@@ -263,6 +279,8 @@ riesgo con marco de ciclo.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar indicadores y ubicar la fase. La trampa del ejercicio es que los indicadores rezagados sugieren una fase distinta de los adelantados.
+
 En `labs/lab-04.md`, sección de ciclos:
 
 1. Construye un tablero con al menos nueve indicadores clasificados por tipo.
@@ -271,6 +289,8 @@ En `labs/lab-04.md`, sección de ciclos:
 4. Diseña la política de originación y provisiones que corresponde a la fase identificada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones tomadas con el ciclo equivocado. Las causas son indicadores rezagados usados como si fueran adelantados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

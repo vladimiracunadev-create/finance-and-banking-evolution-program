@@ -22,6 +22,8 @@ monetaria. Un cambio de esa tasa modifica el costo de fondos, el margen, la dema
 valor de la cartera de bonos y la morosidad futura. Esta clase explica cómo se decide, cómo se
 transmite y con qué rezagos.
 
+La política fiscal de la clase anterior actúa despacio y por decisión política. Esta actúa más rápido y por decisión técnica, y es la que fija el precio del dinero del que dependen todas las tasas del sistema. Para un banco, es la variable exógena más importante que existe.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el instrumento y su referencia; los tres siguientes, cómo llega a la economía y cómo se comunica. La **tasa neutral** es la referencia que da sentido a todo: sin ella no se puede decir si una tasa concreta es expansiva o contractiva.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tasa de política monetaria` | Tasa de referencia que fija el banco central para las operaciones interbancarias overnight. |
@@ -85,6 +89,8 @@ o dos años**, no sobre la de este mes, y por eso se decide mirando proyecciones
 
 ### 1. Objetivos e instrumentos
 
+El banco central tiene objetivos declarados y un conjunto acotado de instrumentos. La tabla los relaciona.
+
 | Objetivo | Alcance |
 |---|---|
 | Estabilidad de precios | Objetivo primario en la mayoría de los marcos |
@@ -102,6 +108,8 @@ o dos años**, no sobre la de este mes, y por eso se decide mirando proyecciones
 | Comunicación (*forward guidance*) | Influye en las expectativas de tasa futura |
 
 ### 2. Cómo se decide
+
+La decisión sigue un procedimiento con información, deliberación y comunicación. Los pasos siguientes lo recorren.
 
 ```text
 1. proyección de inflación a 12–24 meses, condicionada a supuestos
@@ -133,6 +141,8 @@ condiciones justificarían**. Eso no significa que la decisión sea incorrecta �
 shocks transitorios y riesgos de estabilidad financiera— pero sí que la desviación debe explicarse.
 
 ### 3. Canales de transmisión y rezagos
+
+La tasa de política llega a la economía por varios canales con velocidades distintas, y el rezago total es largo. La tabla los recoge.
 
 | Canal | Mecanismo | Rezago |
 |---|---|---|
@@ -173,6 +183,8 @@ activo y del pasivo se repacta en cada tramo de plazo. Ese análisis es la gesti
 del libro de banca de la Parte 11, clase 5.
 
 ### 5. Límites de la política monetaria
+
+La política monetaria no puede con todo, y conocer sus límites evita esperar de ella lo que no puede dar. La lista los recoge.
 
 ```text
 · no puede corregir problemas de oferta (sequía, shock de energía) sin costo en actividad
@@ -286,6 +298,8 @@ balance con margen sano y un valor económico severamente deteriorado.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve cambiar su tasa y el banco reprecia activos y pasivos a velocidades distintas. La tabla enfrenta las dos lecturas, y ese desfase es el riesgo de tasa de la Parte 11.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Tasa de política | Base del costo de fondos y del pricing | 15, clase 7 |
@@ -296,6 +310,8 @@ balance con margen sano y un valor económico severamente deteriorado.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar una regla de política a datos de inflación y brecha, y comparar con la decisión observada. Las diferencias son las que se discuten en un comité real.
+
 En `labs/lab-05.md`, sección de política monetaria:
 
 1. Lee tres comunicados de política monetaria de tu banco central y extrae sus fundamentos.
@@ -304,6 +320,8 @@ En `labs/lab-05.md`, sección de política monetaria:
 4. Estima el efecto de un alza de 100 pb sobre margen, valor de cartera y provisiones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen expectativas equivocadas sobre el efecto de una decisión. Las causas están en ignorar los rezagos o en confundir tasa nominal con real.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ modelo de oferta y demanda en una herramienta de decisión. Un banco que sube su
 cuánto volumen perderá; una empresa que sube su precio, cuánta venta sacrificará. La elasticidad
 responde exactamente eso.
 
+La clase anterior dice en qué dirección se mueve un precio. Esta dice cuánto, que es lo que hace falta para decidir. Y tiene una aplicación directa en banca: la elasticidad de la demanda de un producto financiero determina si subir su precio aumenta o reduce el ingreso total.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la medida y su cálculo; los tres últimos, sus variantes y su consecuencia. El **ingreso total** es la aplicación que importa: la relación entre elasticidad e ingreso permite saber de antemano si conviene subir o bajar un precio.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `elasticidad precio` | `%Δ cantidad / %Δ precio`. Habitualmente negativa; se cita en valor absoluto. |
@@ -85,6 +89,8 @@ costos.
 
 ### 1. Cálculo por el método del punto medio
 
+La elasticidad calculada de forma directa da resultados distintos según la dirección del cambio, y el método del punto medio corrige eso. El procedimiento siguiente lo aplica.
+
 ```text
         (Q₂ − Q₁) / ((Q₂ + Q₁)/2)
 E = ─────────────────────────────────
@@ -104,6 +110,8 @@ del cambio, lo que es indeseable para comparar.
 
 ### 2. Elasticidad e ingreso total
 
+La relación entre elasticidad e ingreso total es la aplicación práctica de todo el concepto. La tabla la recoge entera.
+
 | Elasticidad | Si sube el precio | Si baja el precio |
 |---|---|---|
 | Elástica (\|E\| > 1) | Ingreso **baja** | Ingreso **sube** |
@@ -119,6 +127,8 @@ después: 1 200 × 640 =   768 000  → el ingreso BAJÓ, consistente con demand
 
 ### 3. Determinantes de la elasticidad
 
+La elasticidad de un producto no es arbitraria: depende de factores identificables. La tabla los recoge y permite estimarla sin datos.
+
 | Factor | Más elástica cuando |
 |---|---|
 | Sustitutos disponibles | Hay muchos y cercanos |
@@ -133,6 +143,8 @@ son inmediatos. Por eso la competencia por precio es intensa aunque el producto 
 a la tasa.
 
 ### 4. Elasticidad ingreso y cruzada
+
+Además del precio propio, la demanda responde al ingreso y al precio de otros productos. La tabla recoge esas dos medidas y su lectura.
 
 ```text
 elasticidad ingreso = %ΔQ / %Δingreso
@@ -161,6 +173,8 @@ Aplicaciones bancarias:
 
 ### 5. Precio que maximiza el ingreso
 
+Con la elasticidad conocida, el precio que maximiza el ingreso se calcula. El procedimiento siguiente lo obtiene.
+
 ```text
 el ingreso total se maximiza donde |E| = 1
 ```
@@ -178,6 +192,8 @@ precio óptimo es mayor que el que maximiza el ingreso, porque vender menos unid
 Parte 15, clase 7, desarrolla el precio óptimo con costos.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la elasticidad de un producto financiero y decide el precio. Conviene fijarse en el signo y en la magnitud por separado: el signo dice la dirección y la magnitud dice si conviene moverse.
 
 **Situación.** Un banco evalúa bajar la tasa de su crédito de consumo de 21,5 % a 19,0 % efectivo
 anual para ganar participación. Datos de su análisis:
@@ -254,6 +270,8 @@ riesgo de la clase 7.
 
 ## 🏦 Del cliente al banco
 
+El cliente responde a un precio y el banco calibra su tarifa con la elasticidad estimada. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Elasticidad por segmento | Pricing diferenciado | 15, clase 7 |
@@ -264,6 +282,8 @@ riesgo de la clase 7.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular elasticidades sobre datos de demanda sintéticos y recomendar un precio. La recomendación tiene que ir con su justificación, que es lo que se evalúa.
+
 En `labs/lab-02.md`:
 
 1. Calcula la elasticidad precio por el método del punto medio en seis casos.
@@ -272,6 +292,8 @@ En `labs/lab-02.md`:
 4. Resuelve una decisión de rebaja de tasa con elasticidad de indiferencia y segmentación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones de precio que redujeron el ingreso. Las causas son la elasticidad mal estimada o calculada sin el método del punto medio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

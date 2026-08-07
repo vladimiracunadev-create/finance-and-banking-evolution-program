@@ -22,6 +22,8 @@ alternativos y un costo que no aparece en ninguna factura. El costo de oportunid
 conecta la Parte 1 (tasa de descuento), la Parte 2 (prioridad de metas) y toda la evaluación de
 proyectos de la Parte 7.
 
+La Parte 5 enseñó a leer lo que una empresa hizo. Esta parte explica por qué el entorno hace que unas decisiones sean posibles y otras no. Empieza por lo más básico y lo menos aplicado: toda decisión financiera renuncia a otra cosa, y esa renuncia tiene un valor que se puede calcular y que casi nunca se calcula.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los seis términos siguientes son los que convierten la economía en una herramienta de decisión y no en una descripción. El **costo hundido** es el que más dinero hace perder en la práctica: es el que ya se gastó y no se recupera, y por eso no debe entrar en ninguna decisión sobre lo que viene.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `escasez` | Los recursos son limitados frente a usos alternativos. No es pobreza: aplica también a quien tiene mucho. |
@@ -81,6 +85,8 @@ cálculo lo que ya se gastó y no se recupera.
 
 ### 1. Costo de oportunidad
 
+El costo de oportunidad no aparece en ninguna contabilidad y decide casi todo. El procedimiento siguiente lo hace explícito en una decisión concreta.
+
 ```text
 costo total de una decisión = costo explícito + costo de oportunidad
 ```
@@ -101,6 +107,8 @@ dos cifras son correctas y responden preguntas distintas: la contable dice cuán
 económica dice si valió la pena.
 
 ### 2. Costo hundido
+
+Lo ya gastado no se recupera con ninguna decisión futura, y sin embargo es el argumento más usado para insistir en algo que no funciona. El esquema siguiente separa lo que cuenta de lo que no.
 
 ```text
 regla: los costos hundidos son IRRELEVANTES para decisiones futuras
@@ -141,6 +149,8 @@ general de precios.
 
 ### 4. Frontera de posibilidades de producción
 
+La frontera es la representación más simple de que todo tiene un costo en términos de otra cosa. El esquema la construye.
+
 ```text
 un país puede producir bienes de consumo o bienes de capital
 
@@ -170,6 +180,8 @@ afuera**, lo que exige sacrificar consumo hoy para acumular capital: es el mismo
 presente y futuro de la Parte 1, clase 8.
 
 ### 5. Incentivos y efectos no previstos
+
+Las reglas producen comportamientos, y no siempre los que se buscaban. La tabla recoge casos financieros conocidos donde el efecto fue el contrario del buscado.
 
 | Diseño | Incentivo previsto | Efecto no previsto documentado |
 |---|---|---|
@@ -254,6 +266,8 @@ ninguna planilla de costos. Ese es exactamente el aporte del razonamiento econó
 
 ## 🏦 Del cliente al banco
 
+El cliente decide entre alternativas y el banco diseña incentivos que orientan esas decisiones. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Costo de oportunidad | Tasa de descuento y costo de fondos | 15, clase 7 |
@@ -264,6 +278,8 @@ ninguna planilla de costos. Ese es exactamente el aporte del razonamiento econó
 
 ## 🧪 Práctica
 
+El laboratorio pide identificar el costo de oportunidad y los costos hundidos en decisiones financieras concretas. Los casos están construidos para que el costo hundido sea emocionalmente difícil de ignorar, que es como se presenta en la realidad.
+
 En `labs/lab-01.md`:
 
 1. Calcula el costo económico total de una decisión personal o de negocio real.
@@ -272,6 +288,8 @@ En `labs/lab-01.md`:
 4. Analiza un esquema de incentivos y predice al menos dos efectos no previstos.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos indican una decisión tomada mirando hacia atrás en vez de hacia adelante.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
