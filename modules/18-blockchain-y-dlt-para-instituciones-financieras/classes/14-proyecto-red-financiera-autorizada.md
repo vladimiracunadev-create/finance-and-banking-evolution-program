@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el entregable y su comparación obligatoria; los cuatro siguientes, lo que lo hace defendible. La **alternativa de referencia** es la exigencia que da valor al proyecto: toda decisión de usar un registro distribuido se compara con la base de datos centralizada que resolvería lo mismo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `expediente` | Conjunto de documentos que sostienen una decisión de arquitectura |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `defensa` | Exposición ante quien decide, no ante quien aprende |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una pregunta que hay que responder antes de construir: si un solo actor puede operar el registro sin que eso rompa nada, la base centralizada gana en coste, en velocidad y en simplicidad. El registro distribuido se justifica cuando esa condición no se cumple.
 
 ```text
 UN EXPEDIENTE DE RED AUTORIZADA SE SOSTIENE
@@ -189,6 +193,8 @@ QUE UN COMITÉ PUEDE APROBAR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara la red diseñada con su alternativa centralizada. Conviene hacer la comparación en coste, plazo y garantías: en muchos casos la alternativa gana.
 
 **Situación.** Revisas el expediente de otra persona antes de que llegue al
 comité.
@@ -354,6 +360,8 @@ riesgo pregunta primero y las que casi nunca están.
 
 ## 🧭 Perspectivas
 
+La red diseñada afecta a todos los participantes de las trece clases anteriores. La tabla los reúne.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Autor | Un sistema que funciona | Si justifica o si describe |
@@ -366,6 +374,8 @@ riesgo pregunta primero y las que casi nunca están.
 
 ## 🏦 Del cliente al banco
 
+El cliente no distingue la tecnología y sus garantías dependen del diseño. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi banco usa blockchain» | Una decisión que hay que justificar | 19, clase 14 |
@@ -373,6 +383,8 @@ riesgo pregunta primero y las que casi nunca están.
 | «Nadie puede cambiarlo» | Depende de la clave de actualización | 19, clases 8 y 14 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del proyecto reúnen los de toda la parte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -385,6 +397,8 @@ riesgo pregunta primero y las que casi nunca están.
 
 ## 🧪 Práctica
 
+El laboratorio es el proyecto completo. La comparación con la alternativa centralizada es lo que decide su calificación.
+
 En el [proyecto de la parte](../project/README.md):
 
 1. Construye las doce piezas de tu expediente.
@@ -393,6 +407,8 @@ En el [proyecto de la parte](../project/README.md):
 4. Revisa el expediente de otra persona con la rúbrica.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa. Casi todos se evitan comparando con la alternativa antes de construir.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

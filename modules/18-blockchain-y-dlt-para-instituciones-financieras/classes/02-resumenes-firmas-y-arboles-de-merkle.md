@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la función de resumen y sus propiedades; los cinco siguientes, la firma y la estructura que permite probar sin revelar. La **prueba de inclusión** es lo que hace útil el árbol: permite demostrar que un dato está en un conjunto enorme entregando solo unos pocos resúmenes.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `función de resumen` | Transforma cualquier entrada en una salida de tamaño fijo |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `prueba de inclusión` | Demostración de que un elemento está, sin mostrar el resto |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una huella que no se puede falsificar: cualquier cambio en el dato cambia su resumen por completo, y por eso comparar resúmenes equivale a comparar los datos sin tenerlos.
 
 ```text
 TRES PIEZAS, TRES PROPIEDADES DISTINTAS
@@ -218,6 +222,8 @@ POR QUÉ IMPORTA EN FINANZAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye un árbol de Merkle y una prueba de inclusión. Conviene contar cuántos resúmenes hacen falta: crece con el logaritmo del conjunto, no con su tamaño.
 
 **Situación.** Un consorcio publica cada día la raíz de Merkle de sus reservas
 para que cualquiera pueda comprobar que su saldo está incluido. Un auditor debe
@@ -367,6 +373,8 @@ otra es el error que esta clase enseña a detectar.**
 
 ## 🧭 Perspectivas
 
+Estas primitivas afectan a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Puedo verificar mis fondos» | Si confía |
@@ -379,6 +387,8 @@ otra es el error que esta clase enseña a detectar.**
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en un comprobante y el banco puede demostrar su integridad sin revelar el resto. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Puedo comprobar mi saldo» | Prueba de inclusión, no de respaldo | 19, clase 2 |
@@ -386,6 +396,8 @@ otra es el error que esta clase enseña a detectar.**
 | «Publican la raíz cada día» | Sin árbol de sumas, se puede omitir | 19, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son criptográficos y de gestión. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -406,6 +418,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md) y [`labs/lab-03.md`](../labs/lab-03.md)
 4. Escribe qué demuestra y qué no demuestra tu construcción.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen usos incorrectos de estas primitivas. Las causas son confundir resumen con cifrado y firma con autenticación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

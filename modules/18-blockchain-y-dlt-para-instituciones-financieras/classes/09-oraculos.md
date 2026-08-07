@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el oráculo y sus direcciones; los cuatro siguientes, su seguridad y su disputa. El **coste de manipulación** es la medida que decide si un oráculo sirve: si mover el dato de entrada cuesta menos que lo que se gana manipulando el contrato, el oráculo es el punto débil.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `oráculo` | Mecanismo que introduce en el registro un dato del exterior |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mecanismo de disputa` | Procedimiento para impugnar un dato publicado |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un puente entre dos mundos con garantías distintas: dentro del registro todo es verificable y fuera no. El oráculo hereda la debilidad del mundo exterior, y por eso es el punto por donde se ataca casi siempre.
 
 ```text
 POR QUÉ UN REGISTRO NO PUEDE MIRAR FUERA
@@ -214,6 +218,8 @@ CASOS DONDE SIGUE COMPENSANDO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el coste de manipular un oráculo y lo compara con la ganancia posible. Cuando la segunda supera al primero, el diseño no se sostiene.
 
 **Situación.** Un contrato de préstamo con garantía en activos digitales liquida
 la posición si el valor de la garantía cae por debajo de un umbral. El oráculo
@@ -381,6 +387,8 @@ un comité de riesgo tiene que ver.
 
 ## 🧭 Perspectivas
 
+El oráculo afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Prestatario | Su posición liquidada | Si impugna |
@@ -393,6 +401,8 @@ un comité de riesgo tiene que ver.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en un precio y ese precio entró por un oráculo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me liquidaron a un precio que no existía» | Oráculo manipulado | 19, clase 9 |
@@ -400,6 +410,8 @@ un comité de riesgo tiene que ver.
 | «Es automático, no hay intermediarios» | Hay cinco fuentes y un comité | 19, clase 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de manipulación y de disponibilidad del dato. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -412,6 +424,8 @@ un comité de riesgo tiene que ver.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar oráculos por su coste de manipulación. El más barato de manipular es el que decide la seguridad del sistema entero.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Implementa la agregación con media y con mediana, y compara el coste de
@@ -421,6 +435,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Escribe la lista de dependencias reales de tu diseño.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen contratos atacados por su oráculo. La causa es el coste de manipulación no calculado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

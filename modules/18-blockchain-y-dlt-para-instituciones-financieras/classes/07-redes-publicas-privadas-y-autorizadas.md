@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tipos de permiso, y se pueden combinar de formas que no son evidentes; los cinco siguientes, el gobierno de la red. La separación entre **permiso de lectura, escritura y validación** es la que permite diseñar: una red puede ser abierta para leer y cerrada para validar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `permiso de lectura` | Quién puede ver el contenido del registro |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `gobierno de la red` | Quién decide las reglas y cómo se cambian |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres puertas independientes. Casi todo el debate entre redes públicas y privadas desaparece cuando se separan los tres permisos y se decide cada uno por su cuenta.
 
 ```text
 DOS EJES INDEPENDIENTES, NO UNA ETIQUETA
@@ -216,6 +220,8 @@ IMPORTA EN UNA EVALUACIÓN DE RIESGO DE TERCEROS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diseña una red decidiendo los tres permisos por separado. La combinación resultante no encaja en la clasificación habitual, y eso es lo normal.
 
 **Situación.** Un banco evalúa tres propuestas de proveedor para tokenizar
 depósitos entre entidades. Debe clasificarlas y decidir.
@@ -363,6 +369,8 @@ donde estaba: **en el acuerdo de gobierno, no en el software**.
 
 ## 🧭 Perspectivas
 
+El tipo de red afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un depósito tokenizado | Si le da igual la infraestructura |
@@ -375,6 +383,8 @@ donde estaba: **en el acuerdo de gobierno, no en el software**.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo percibe y sus garantías dependen de quién puede validar. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «¿Mis datos son públicos?» | Lectura abierta y secreto bancario | 19, clase 7 |
@@ -382,6 +392,8 @@ donde estaba: **en el acuerdo de gobierno, no en el software**.
 | «Mi banco dejó la red» | Expulsión u operaciones en curso | 19, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de gobierno y de concentración de validadores. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -402,6 +414,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md) y el [proyecto](../project/README.md):
 4. Escribe los cinco puntos de salida ordenada de tu consorcio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen redes mal diseñadas. La causa es haber elegido un tipo en bloque en vez de decidir los tres permisos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

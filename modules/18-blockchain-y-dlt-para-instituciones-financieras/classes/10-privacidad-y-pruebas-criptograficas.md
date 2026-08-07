@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son propiedades distintas que se confunden; los cinco siguientes, los mecanismos y su límite. La distinción entre **confidencialidad, anonimato y no vinculabilidad** es la que ordena la clase: un sistema puede ocultar el importe y revelar quién opera, o al revés.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `confidencialidad` | El contenido no es legible por quien no debe |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `análisis de la cadena` | Deducción de relaciones a partir de los metadatos |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una prueba sin revelar: se puede demostrar que algo es cierto sin mostrar el dato que lo hace cierto. Eso resuelve la tensión entre un registro compartido y la confidencialidad que exige la banca.
 
 ```text
 TRES PROPIEDADES QUE SE CONFUNDEN
@@ -222,6 +226,8 @@ Y UNA REGLA DE ORO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye una prueba de rango sobre un importe. Conviene ver qué se demuestra y qué no se revela: es exactamente lo que la banca necesita.
 
 **Situación.** El consorcio de bancos quiere registrar operaciones de préstamo
 sindicado. Debe decidir qué entra en el registro.
@@ -402,6 +408,8 @@ siendo la más simple: dejar fuera lo que no tiene por qué entrar.
 
 ## 🧭 Perspectivas
 
+La privacidad afecta a cada participante de forma distinta, y al supervisor de una forma particular. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Prestatario | Su operación en un registro compartido | Si consiente |
@@ -414,6 +422,8 @@ siendo la más simple: dejar fuera lo que no tiene por qué entrar.
 
 ## 🏦 Del cliente al banco
 
+El cliente espera confidencialidad y el registro es compartido. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Quiero que borren mis datos» | Solo se puede si están fuera | 19, clase 10 |
@@ -421,6 +431,8 @@ siendo la más simple: dejar fuera lo que no tiene por qué entrar.
 | «Está cifrado, es privado» | Los metadatos siguen visibles | 19, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de análisis de la cadena y de trazabilidad supervisora. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -441,6 +453,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md) y el [proyecto](../project/README.md):
 4. Escribe cómo ejercería un cliente su derecho de supresión en tu diseño.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen filtraciones de información en registros compartidos. La causa es haber confundido las tres propiedades.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

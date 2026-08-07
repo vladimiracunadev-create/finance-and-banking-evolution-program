@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tipos de finalidad, y son tres cosas distintas; los cinco siguientes, la reorganización y la política que la absorbe. La **finalidad jurídica** es la que decide en un tribunal y no coincide con ninguna de las dos técnicas: un registro puede considerar firme una operación que la norma todavía no.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `finalidad probabilística` | La reversión nunca es imposible, solo cada vez menos probable |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `política de aceptación` | Regla propia sobre cuándo tratar algo como definitivo |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres relojes que no marcan la misma hora: el técnico dice cuándo es improbable revertir, el determinístico dice cuándo es imposible y el jurídico dice cuándo es oponible. Una entidad tiene que esperar al tercero.
 
 ```text
 TRES FINALIDADES QUE NO SON LA MISMA
@@ -215,6 +219,8 @@ PARA TODOS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara los tres momentos sobre la misma operación. La distancia entre ellos es la exposición que alguien está asumiendo.
 
 **Situación.** Un banco acepta liquidaciones sobre una red autorizada con
 finalidad determinística. El asesor jurídico pregunta si puede tratarlas como
@@ -389,6 +395,8 @@ protección no exista.
 
 ## 🧭 Perspectivas
 
+La finalidad significa cosas distintas para cada participante. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Confirmado en 3 segundos» | Si dispone |
@@ -401,6 +409,8 @@ protección no exista.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una operación confirmada y el banco espera a la finalidad jurídica. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Ya está confirmado» | Firme entre participantes, no frente a terceros | 19, clase 6 |
@@ -408,6 +418,8 @@ protección no exista.
 | «Tarda más si el importe es alto» | Política de aceptación por tramo | 19, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de reorganización y de finalidad no oponible. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -428,6 +440,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md) y el [proyecto](../project/README.md):
 4. Analiza si el supuesto de seguridad de tu red se sostiene.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones revertidas o no oponibles. La causa es haber confundido los tres tipos de finalidad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

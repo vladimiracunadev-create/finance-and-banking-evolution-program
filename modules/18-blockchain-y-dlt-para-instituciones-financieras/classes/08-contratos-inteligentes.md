@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el contrato y sus propiedades; los cuatro siguientes, sus fallos característicos y sus defensas. El **interruptor de emergencia** es la decisión de diseño más discutida: sin él no se puede detener un error, y con él la inmutabilidad que justificaba el diseño desaparece.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `contrato inteligente` | Código que se ejecuta en el registro y controla activos |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `verificación formal` | Demostración matemática de una propiedad del código |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un programa que no se puede parchear y que gestiona dinero. Todo lo que se pueda comprobar antes hay que comprobarlo antes, porque después solo queda desplegar otro contrato y migrar.
 
 ```text
 TRES COSAS QUE NO ES
@@ -213,6 +217,8 @@ LA REGLA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo audita un contrato y encuentra una reentrada. Conviene seguir el orden de las operaciones: el fallo está en actualizar el estado después de transferir.
 
 **Situación.** Un banco despliega un contrato de depósito en garantía para
 operaciones de comercio exterior entre clientes. Antes del despliegue, revisión.
@@ -387,6 +393,8 @@ de custodiar 28 millones bajo un acuerdo que nadie había escrito.
 
 ## 🧭 Perspectivas
 
+El contrato inteligente afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Importador | Fondos retenidos hasta confirmar | Si acepta el mecanismo |
@@ -399,6 +407,8 @@ de custodiar 28 millones bajo un acuerdo que nadie había escrito.
 
 ## 🏦 Del cliente al banco
 
+El cliente firma un contrato y el código es el que se ejecuta. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El sistema liberó el pago solo» | Control de acceso ausente | 19, clase 8 |
@@ -406,6 +416,8 @@ de custodiar 28 millones bajo un acuerdo que nadie había escrito.
 | «¿Y si el verificador se equivoca?» | Eso lo resuelve el contrato jurídico | 19, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de código y de gobernanza del contrato. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -418,6 +430,8 @@ de custodiar 28 millones bajo un acuerdo que nadie había escrito.
 
 ## 🧪 Práctica
 
+El laboratorio pide auditar contratos y detectar sus fallos. Uno de ellos tiene una reentrada y otro un interruptor sin control de acceso.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Implementa el depósito en garantía con su máquina de estados.
@@ -426,6 +440,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Implementa el interruptor de emergencia y su simulacro.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen contratos explotados. Las causas son reentradas y actualizaciones sin gobierno.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

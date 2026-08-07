@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la identidad criptográfica; los cuatro siguientes, los esquemas de custodia. La **computación multiparte** es la alternativa a la firma múltiple cuando la red no la soporta, y su diferencia práctica es que produce una sola firma y no revela el esquema.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `clave privada` | Secreto que autoriza a disponer; es el activo |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `almacenamiento en frío` | Claves sin conexión a ninguna red |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que quien tiene la clave tiene el activo, sin excepciones ni recuperación. Toda la gestión criptográfica consiste en repartir esa capacidad entre varias personas y sistemas sin perderla del todo.
 
 ```text
 LA ASIMETRÍA QUE DEFINE TODO
@@ -211,6 +215,8 @@ LA 5 ES LA QUE FALLA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide la independencia efectiva de un esquema de firma múltiple. Conviene contar los factores compartidos: un esquema de cinco partes con un solo tipo de dispositivo tiene la independencia de una.
 
 **Situación.** Un banco diseña la custodia de activos digitales de clientes.
 Debe elegir el esquema y justificarlo ante el comité de riesgo.
@@ -376,6 +382,8 @@ ningún umbral.
 
 ## 🧭 Perspectivas
 
+La custodia de claves afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «El banco custodia mis activos» | Si confía en la segregación |
@@ -388,6 +396,8 @@ ningún umbral.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que su activo está en una cuenta y depende de quién tenga las claves. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Perdí mi clave y perdí todo» | No hay recuperación posible | 19, clase 3 |
@@ -396,6 +406,8 @@ ningún umbral.
 | «¿Qué pasa si quiebra el banco?» | Oponibilidad de la segregación | 21, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de pérdida y de concentración. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -409,6 +421,8 @@ ningún umbral.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la independencia efectiva de varios esquemas y corregir el peor. La corrección se hace redistribuyendo y no cambiando el umbral.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Genera un par de claves y deriva la dirección, con verificación de errores.
@@ -417,6 +431,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Escribe el procedimiento de recuperación con sus siete preguntas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas de acceso o de activos. Las causas son esquemas con independencia efectiva de uno y recuperación mal diseñada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las familias de consenso; los cuatro siguientes, sus parámetros y su economía. El **coste de ataque** es la medida que permite comparar mecanismos que parecen incomparables: cuánto cuesta reescribir la historia, y si ese coste supera al valor que protege.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `consenso` | Acuerdo sobre el orden de las operaciones entre nodos que no confían |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `liveness` | Propiedad de seguir progresando |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un acuerdo caro por diseño: el consenso hace que mentir cueste más que decir la verdad. Cada mecanismo elige una forma distinta de imponer ese coste, y de ahí salen sus propiedades.
 
 ```text
 EL CONSENSO NO DECIDE SI UNA TRANSACCIÓN ES VÁLIDA:
@@ -219,6 +223,8 @@ NINGUNO ES AUTOMÁTICO: HAY QUE DISEÑARLOS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el coste de atacar dos mecanismos distintos. Conviene compararlo con el valor asegurado: si el coste es menor, el mecanismo no protege lo suficiente.
 
 **Situación.** El consorcio de cinco bancos de la clase 4 debe elegir mecanismo
 de consenso y justificarlo.
@@ -402,6 +408,8 @@ comercial.
 
 ## 🧭 Perspectivas
 
+El mecanismo de consenso afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Banco participante | Un turno de producción cada 10 s | Si acepta el reparto |
@@ -414,6 +422,8 @@ comercial.
 
 ## 🏦 Del cliente al banco
 
+El cliente no lo ve y la seguridad de su operación depende de esa elección. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi operación tardó más» | El productor la ordenó después | 19, clase 5 |
@@ -421,6 +431,8 @@ comercial.
 | «Confirmado en segundos» | Finalidad determinística | 19, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de concentración de validadores y de coste de ataque insuficiente. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -433,6 +445,8 @@ comercial.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el coste de ataque de varios mecanismos. La comparación con el valor asegurado es la conclusión.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Implementa un consenso con votación y mide el umbral real.
@@ -441,6 +455,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Implementa la rotación de productor y la detección de desviación de orden.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen elecciones de consenso mal fundadas. Las causas son coste de ataque no calculado y concentración de validadores.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

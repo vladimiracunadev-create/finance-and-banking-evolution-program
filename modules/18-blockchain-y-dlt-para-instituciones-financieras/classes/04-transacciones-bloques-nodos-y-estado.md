@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la mecánica de la anotación; los cuatro siguientes, los tipos de nodo y su consecuencia. El **nodo ligero** es el que casi todo el mundo usa sin saberlo: no verifica, confía en otro, y esa diferencia decide qué garantías tiene realmente quien opera.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `transacción` | Instrucción firmada que cambia el estado |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `reorganización` | Sustitución de bloques ya difundidos por otra cadena |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cola con reglas: las transacciones esperan, alguien las ordena en un bloque y ese orden pasa a ser el estado. Quien decide el orden tiene poder, y eso reaparece en la clase 12.
 
 ```text
 EL ESTADO NO SE GUARDA: SE DEDUCE
@@ -210,6 +214,8 @@ ES EL COMPROMISO CENTRAL DE LA CLASE 12
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue una transacción desde la cola hasta el estado confirmado. Conviene mirar el momento en que deja de poder revertirse: es el de la clase 6.
 
 **Situación.** Un consorcio de cinco bancos dimensiona su red autorizada. Debe
 decidir tamaño de bloque, intervalo y tipo de nodo por participante.
@@ -363,6 +369,8 @@ discutiera.
 
 ## 🧭 Perspectivas
 
+La mecánica del registro afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Banco grande | 40 TB disponibles | Nodo completo |
@@ -375,6 +383,8 @@ discutiera.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una operación y el banco ve una transacción con un número de confirmaciones. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Quiero mi saldo de hace tres años» | Instantáneas y reejecución | 19, clase 4 |
@@ -382,6 +392,8 @@ discutiera.
 | «Quiero que borren mis datos» | El registro solo crece | 19, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de reorganización y de confianza en nodos ajenos. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -394,6 +406,8 @@ discutiera.
 
 ## 🧪 Práctica
 
+El laboratorio pide seguir transacciones y determinar cuándo aceptarlas. La política de aceptación con su justificación es lo que se evalúa.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Implementa la cadena con transacciones firmadas y número de orden.
@@ -402,6 +416,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Implementa instantáneas y reconstruye un estado pasado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen operaciones aceptadas antes de tiempo. La causa es la política de confirmaciones.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los mecanismos de traslado; los cinco siguientes, sus actores y su riesgo. El **riesgo de emisor del puente** es el concepto que hay que retener: un activo envuelto no es el activo original sino un derecho contra quien custodia el original.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `puente` | Mecanismo que representa en un registro un activo de otro |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `riesgo de emisor del puente` | Riesgo de que la representación no se pueda canjear |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que nada cruza de verdad: el activo se bloquea en un lado y se emite una representación en el otro. Quien custodia el bloqueo es una contraparte, y los puentes son el componente más atacado de este ecosistema.
 
 ```text
 UN ACTIVO NO SE MUEVE ENTRE REGISTROS.
@@ -202,6 +206,8 @@ en vez de asegurarlo
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue un activo a través de un puente y sitúa el riesgo de contraparte. El activo envuelto vale lo que valga el custodio.
 
 **Situación.** Un banco quiere ofrecer a sus clientes exposición a un activo que
 vive en otro registro. Evalúa usar un puente.
@@ -364,6 +370,8 @@ supervisor.
 
 ## 🧭 Perspectivas
 
+La interoperabilidad afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Exposición a un activo | Si distingue el envuelto del original |
@@ -376,6 +384,8 @@ supervisor.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree tener el activo original y tiene un derecho contra un custodio. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Tengo el activo» | Tiene un derecho frente al puente | 19, clase 11 |
@@ -383,6 +393,8 @@ supervisor.
 | «El puente lleva dos años bien» | El historial no mide la cola | 19, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de custodia del puente y de validación de mensajes. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -395,6 +407,8 @@ supervisor.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar el riesgo de contraparte de varios puentes. El mecanismo de bloqueo y emisión es el que concentra el riesgo.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Calcula el umbral efectivo de tres puentes con distinta estructura.
@@ -403,6 +417,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Compara tres alternativas por «riesgo que sé medir», no por coste.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas en puentes. La causa es el custodio tratado como si no existiera.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

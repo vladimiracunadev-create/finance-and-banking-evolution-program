@@ -66,6 +66,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son el problema de los sistemas distribuidos y sus modos de fallo; los tres siguientes, la tensión que ningún diseño resuelve del todo. El **fallo bizantino** es el que justifica toda la parte: un participante que miente es un problema distinto de uno que se cae, y solo el primero exige el aparato de las trece clases siguientes.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sistema distribuido` | Conjunto de nodos que cooperan sin memoria compartida |
@@ -78,6 +80,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `registro distribuido` | Registro replicado y sincronizado sin autoridad central |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una elección forzosa: ante una partición de red, un sistema distribuido puede seguir respondiendo o seguir siendo consistente, y no las dos cosas. En finanzas, la consistencia casi siempre gana, y esa decisión explica por qué estos sistemas son más lentos.
 
 ```text
 LA FRASE QUE HAY QUE PODER DECIR SIN LA PALABRA «BLOCKCHAIN»
@@ -210,6 +214,8 @@ Y AÑADE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el comportamiento de dos diseños ante una partición. Conviene fijarse en qué sacrifica cada uno: no hay un diseño que no sacrifique nada.
 
 **Situación.** Cuatro bancos quieren compartir el registro de garantías
 constituidas sobre bienes muebles, hoy repartido en cuatro sistemas que no se
@@ -376,6 +382,8 @@ esa pregunta.
 
 ## 🧭 Perspectivas
 
+Un registro distribuido significa cosas distintas para cada participante del sistema financiero. La tabla las recoge, y conviene volver a ella al final de la parte.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una garantía verificada en horas | Si acepta la operación |
@@ -389,6 +397,8 @@ esa pregunta.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y su operación depende de qué garantías eligió el diseño. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi garantía tardó tres días» | Verificación manual entre cuatro sistemas | 19, clase 1 |
@@ -396,6 +406,8 @@ esa pregunta.
 | «El registro no está actualizado» | Cinco días hábiles de desfase | 19, clase 1 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de consistencia y de disponibilidad, y reducir uno aumenta el otro. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -416,6 +428,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-06.md`](../labs/lab-06.md)
 4. Escribe la condición que cambiaría tu decisión.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber supuesto garantías que el diseño no da.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

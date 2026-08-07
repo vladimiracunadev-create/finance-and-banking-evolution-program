@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el gobierno y sus formas de cambio; los cuatro siguientes, la reversión y su coste. La **bifurcación incompatible** es la que obliga a todos a actualizarse a la vez, y coordinar eso en una red con participantes independientes es un problema de gobierno y no técnico.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `gobernanza` | Quién decide las reglas y con qué procedimiento |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `parada coordinada` | Detener la red de forma acordada |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que un registro inmutable sí se puede cambiar, pero solo por acuerdo. La pregunta no es si se puede revertir sino quién decide revertir, con qué mayoría y con qué compensación a quien pierda.
 
 ```text
 TRES GOBERNANZAS QUE SE CONFUNDEN
@@ -219,6 +223,8 @@ EL PUNTO 3 ES CONTRAINTUITIVO Y CORRECTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa una propuesta de reversión con sus perjudicados. Conviene identificar quién decide: en casi todas las redes esa respuesta no está escrita.
 
 **Situación.** En la red autorizada del consorcio, un defecto en el contrato de
 depósito en garantía ha permitido a un participante retirar 6 400 000 que no le
@@ -399,6 +405,8 @@ la mesa.
 
 ## 🧭 Perspectivas
 
+La gobernanza afecta a cada participante de forma muy distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Participante afectado | Fondos retirados por otro | Si reclama o sale |
@@ -411,6 +419,8 @@ la mesa.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en la inmutabilidad y la red puede cambiar por acuerdo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El servicio está parado» | Interruptor activado: es lo correcto | 19, clase 13 |
@@ -418,6 +428,8 @@ la mesa.
 | «Volvió a funcionar rápido» | No se reanuda por calendario | 19, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de gobierno y de coordinación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -438,6 +450,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md) y el [proyecto](../project/README.md):
 4. Dimensiona la garantía por exposición máxima, no por riesgo esperado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen crisis de gobernanza. La causa es no haber decidido de antemano quién decide.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

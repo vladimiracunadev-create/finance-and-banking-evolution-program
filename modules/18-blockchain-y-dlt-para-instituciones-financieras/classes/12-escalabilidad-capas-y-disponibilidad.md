@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la tensión de la escalabilidad y sus soluciones; los cuatro siguientes, sus riesgos propios. El **valor extraíble del orden** es el problema que ninguna capa resuelve: quien decide el orden de las transacciones puede beneficiarse de ese orden, y eso es una forma de anticipación.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capacidad` | Operaciones por segundo que el sistema procesa |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `salida de emergencia` | Mecanismo para recuperar fondos si la capa superior falla |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un compromiso de tres vértices: capacidad, descentralización y seguridad. Mejorar uno empeora alguno de los otros dos, y las segundas capas trasladan el compromiso en vez de resolverlo.
 
 ```text
 EL COMPROMISO QUE NO SE PUEDE ESQUIVAR
@@ -212,6 +216,8 @@ UNA SEGUNDA CAPA DE UN CUSTODIO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara la capacidad y las garantías de una capa base y de una segunda capa. La segunda capa gana capacidad y añade un supuesto de disponibilidad de datos.
 
 **Situación.** El consorcio de la clase 5 necesita pasar de 40 a 400 operaciones
 por segundo por el crecimiento de un nuevo servicio. Evalúa cuatro opciones.
@@ -393,6 +399,8 @@ aparecían en ningún requisito de capacidad.
 
 ## 🧭 Perspectivas
 
+La escalabilidad afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Usuario del servicio | Operaciones que esperan | Si el sistema le sirve |
@@ -405,6 +413,8 @@ aparecían en ningún requisito de capacidad.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere operaciones rápidas y baratas y el sistema traslada el compromiso a otra capa. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «La red funciona pero no pasa nada» | Congestión: disponible e inutilizable | 19, clase 12 |
@@ -412,6 +422,8 @@ aparecían en ningún requisito de capacidad.
 | «Ahora va más rápido» | Se cambió un supuesto: ¿cuál? | 19, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de disponibilidad de datos y de extracción de valor por orden. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -424,6 +436,8 @@ aparecían en ningún requisito de capacidad.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar capas por capacidad y por garantías. La salida de emergencia es lo que hay que comprobar en la segunda capa.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Calcula la capacidad y el volumen de tres configuraciones.
@@ -432,6 +446,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Implementa una regla de ordenación por hora de llegada firmada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas en segundas capas. Las causas son disponibilidad de datos supuesta y salidas de emergencia no probadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
