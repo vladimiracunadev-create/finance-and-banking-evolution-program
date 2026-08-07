@@ -1,9 +1,27 @@
-# Mapa de tokenización y FX sobre registros
+<!-- portada:inicio -->
+<div align="center">
+
+# 🏛️ Mapa de tokenización y FX sobre registros
+
+**Dónde está cada concepto de la Parte 21 y las seis afirmaciones que la parte desmonta.**
+
+[![parte](https://img.shields.io/badge/parte-21%20%C2%B7%20tokenizaci%C3%B3n%20y%20FX-7c5cff?style=flat-square)](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md)
+[![labs](https://img.shields.io/badge/labs-tokenization__platform%20%C2%B7%20onchain__fx__lab-3776AB?style=flat-square)](../apps/tokenization_platform/)
+
+[⬅️ Mapa anterior](mapa-activos-digitales.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 21](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) ·
+[➡️ Mapa siguiente](mapa-regulatorio.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 21: dónde está cada concepto, con qué se conecta
 y qué se puede ejecutar para comprobarlo.
 
-## El eje de la parte
+## 🎯 El eje de la parte
 
 ```text
 TOKENIZAR NO CREA UN DERECHO.
@@ -26,7 +44,7 @@ la mitad de los proyectos de tokenización.
 Y la respuesta decide algo más que la conciliación: **decide si el único
 beneficio exclusivo de la tokenización —la liquidación atómica— es alcanzable.**
 
-## Las cuatro preguntas de viabilidad
+## ❓ Las cuatro preguntas de viabilidad
 
 | Pregunta | Qué decide |
 |---|---|
@@ -39,7 +57,7 @@ De cinco promesas habituales, **dos resisten**: la operación fuera del horario
 del sistema de pagos y la liquidación atómica contra el dinero, esta última solo
 si ambos tramos están en el mismo registro.
 
-## Recorrido de la parte
+## 🧭 Recorrido de la parte
 
 ```text
 IDENTIFICACIÓN   1 · qué es y qué no es tokenizar
@@ -65,7 +83,7 @@ CONEXIÓN        15 · interoperabilidad
 INTEGRACIÓN     16 · expediente de diseño
 ```
 
-## Dónde está cada concepto
+## 🗺️ Dónde está cada concepto
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -121,7 +139,7 @@ INTEGRACIÓN     16 · expediente de diseño
 | Umbral efectivo y valor acumulado | 15 | 4 | — |
 | Las doce decisiones del expediente | 16 | proyecto | — |
 
-## Las seis afirmaciones que la parte desmonta
+## 🚫 Las seis afirmaciones que la parte desmonta
 
 1. **«Liquidación atómica con el registro oficial de referencia.»** Un espejo lo
    impide por construcción.
@@ -140,7 +158,7 @@ Las seis tienen una prueba en
 [`tests/test_onchain_fx_lab.py`](../tests/test_onchain_fx_lab.py); cinco de ellas
 **documentan defectos y deben pasar**.
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/tokenization_platform/cli.py registry
@@ -174,7 +192,7 @@ python apps/onchain_fx_lab/cli.py amm --rounds 4
 python apps/onchain_fx_lab/cli.py settlement
 ```
 
-## La conclusión que la parte permite
+## ✅ La conclusión que la parte permite
 
 Un expediente de esta parte **puede concluir que no procede tokenizar, y eso es
 la máxima calificación**. Lo que se evalúa es si las doce decisiones están, si
@@ -183,7 +201,7 @@ cada una tiene su alternativa medida y si los supuestos están declarados.
 Y hay una regla que resume la parte entera: **una decisión sin alternativa
 medida es una preferencia, no una decisión.**
 
-## Hacia dónde sigue
+## ➡️ Hacia dónde sigue
 
 | De esta parte | A | Qué se profundiza |
 |---|---|---|
@@ -200,3 +218,13 @@ medida es una preferencia, no una decisión.**
 [Tokenization Platform](../apps/tokenization_platform/README.md) ·
 [Onchain FX Lab](../apps/onchain_fx_lab/README.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Mapa anterior](mapa-activos-digitales.md) · [🏠 Inicio](../README.md) · [📘 Parte 21](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) · [➡️ Mapa siguiente](mapa-regulatorio.md)
+
+</div>
+<!-- pie:fin -->

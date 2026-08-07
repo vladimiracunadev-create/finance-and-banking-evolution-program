@@ -1,9 +1,27 @@
-# Mapa de pagos transfronterizos
+<!-- portada:inicio -->
+<div align="center">
+
+# 🌍 Mapa de pagos transfronterizos
+
+**Dónde está cada concepto de la Parte 18, con qué se conecta y los siete errores que persigue.**
+
+[![parte](https://img.shields.io/badge/parte-18%20%C2%B7%20pagos%20transfronterizos-7c5cff?style=flat-square)](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md)
+[![lab](https://img.shields.io/badge/lab-cross__border__payments__lab-3776AB?style=flat-square)](../apps/cross_border_payments_lab/)
+
+[⬅️ Mapa anterior](mapa-finanzas-abiertas.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 18](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) ·
+[➡️ Mapa siguiente](mapa-blockchain-dlt.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 18: dónde está cada concepto, con qué se conecta
 y qué se puede ejecutar para comprobarlo.
 
-## El eje de la parte
+## 🎯 El eje de la parte
 
 ```text
 UN MENSAJE NO ES UN MOVIMIENTO DE FONDOS
@@ -20,7 +38,7 @@ UN MENSAJE NO ES UN MOVIMIENTO DE FONDOS
 Si un diagnóstico o una propuesta no distingue las cuatro capas, no ha
 diagnosticado nada.
 
-## La pregunta que ordena cualquier propuesta
+## 🤝 La pregunta que ordena cualquier propuesta
 
 ```text
 «¿EN QUÉ CAPA ACTÚA?»
@@ -35,7 +53,7 @@ SI PROMETE VELOCIDAD Y SOLO TOCA LA CAPA 1,
 NO VA A ENTREGARLA
 ```
 
-## Los cuatro problemas del G20 y dónde se atacan
+## 🎯 Los cuatro problemas del G20 y dónde se atacan
 
 | Problema | Causa dominante | Clases |
 |---|---|---|
@@ -44,7 +62,7 @@ NO VA A ENTREGARLA
 | **Acceso** | Retirada de corresponsalías y última milla | 3, 10, 13 |
 | **Transparencia** | Comisiones deducidas en tránsito y diferencial oculto | 1, 6, 9 |
 
-## Recorrido de la parte
+## 🧭 Recorrido de la parte
 
 ```text
 FUNDAMENTO      1 · qué es     2 · quién participa
@@ -68,7 +86,7 @@ ALTERNATIVAS   13 · pagos inmediatos  14 · stablecoins  15 · PvP
 INTEGRACIÓN    16 · red de pagos y defensa
 ```
 
-## Dónde está cada concepto
+## 🗺️ Dónde está cada concepto
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -104,7 +122,7 @@ INTEGRACIÓN    16 · red de pagos y defensa
 | Motor de rutas con seis criterios | 16 | 2 | `routing_engine` |
 | Las quince métricas | 16 | todos | — |
 
-## Los siete errores que la parte persigue
+## ⚠️ Los siete errores que la parte persigue
 
 1. **«SWIFT mueve dinero.»** Transporta instrucciones; el dinero se mueve en
    cuentas.
@@ -122,7 +140,7 @@ INTEGRACIÓN    16 · red de pagos y defensa
 Los siete tienen una prueba asociada en
 [`tests/test_cross_border_payments_lab.py`](../tests/test_cross_border_payments_lab.py).
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/cross_border_payments_lab/cli.py trace --corridor CL-VN --amount 10000
@@ -144,7 +162,7 @@ python tools/validate_iso20022.py
 python -m pytest tests/test_cross_border_payments_lab.py -q
 ```
 
-## Cómo citar los proyectos institucionales
+## 📎 Cómo citar los proyectos institucionales
 
 Nexus, mBridge, Jura, Dunbar, Mariana, Agorá, Meridian FX y Rialto aparecen en
 la clase 13. La regla del programa para citarlos:
@@ -159,7 +177,7 @@ Presentar una prueba de concepto como producción
 es el error más común al citarlos.
 ```
 
-## Hacia dónde sigue
+## ➡️ Hacia dónde sigue
 
 | De esta parte | A | Qué se profundiza |
 |---|---|---|
@@ -175,3 +193,13 @@ es el error más común al citarlos.
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [Cross-Border Payments Lab](../apps/cross_border_payments_lab/README.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Mapa anterior](mapa-finanzas-abiertas.md) · [🏠 Inicio](../README.md) · [📘 Parte 18](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) · [➡️ Mapa siguiente](mapa-blockchain-dlt.md)
+
+</div>
+<!-- pie:fin -->

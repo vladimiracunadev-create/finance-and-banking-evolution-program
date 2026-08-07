@@ -1,9 +1,27 @@
-# Mapa de finanzas abiertas
+<!-- portada:inicio -->
+<div align="center">
+
+# 🔓 Mapa de finanzas abiertas
+
+**Dónde está cada concepto de la Parte 17, con qué se conecta y qué se puede ejecutar para comprobarlo.**
+
+[![parte](https://img.shields.io/badge/parte-17%20%C2%B7%20finanzas%20abiertas-7c5cff?style=flat-square)](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md)
+[![lab](https://img.shields.io/badge/lab-open__finance__sandbox-3776AB?style=flat-square)](../apps/open_finance_sandbox/)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 17](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) ·
+[➡️ Mapa siguiente](mapa-pagos-transfronterizos.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 17: dónde está cada concepto, con qué se conecta
 y qué se puede ejecutar para comprobarlo.
 
-## El eje de la parte
+## 🎯 El eje de la parte
 
 ```text
 LAS FINANZAS ABIERTAS NO SON UNA API:
@@ -18,7 +36,7 @@ SON UN RÉGIMEN DE CONSENTIMIENTO DEL CLIENTE CON SOPORTE TÉCNICO
 Toda la parte es esa frase desarrollada. Si una decisión de diseño no se puede
 justificar desde ahí, es una decisión de comodidad.
 
-## Las tres capas
+## 🧱 Las tres capas
 
 | Capa | Qué se comparte | ¿Consentimiento? | Riesgo dominante | Clase |
 |---|---|---|---|:---:|
@@ -26,7 +44,7 @@ justificar desde ahí, es una decisión de comodidad.
 | Banca abierta | Cuentas, saldos, movimientos, pagos | Sí, por finalidad y con plazo | Acceso indebido, pago no autorizado | 1, 9, 10 |
 | Finanzas abiertas | Todo lo anterior + crédito, seguros, inversiones | Sí, y más difícil de explicar | Inferencia sobre salud, familia y solvencia | 1, 9, 12 |
 
-## Recorrido de la parte
+## 🧭 Recorrido de la parte
 
 ```text
 FUNDAMENTO          1 · qué es          2 · quién participa      3 · Chile
@@ -48,7 +66,7 @@ CONSECUENCIAS      11 · fraude y responsabilidad
 INTEGRACIÓN        14 · expediente y defensa
 ```
 
-## Dónde está cada concepto
+## 🗺️ Dónde está cada concepto
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -87,7 +105,7 @@ INTEGRACIÓN        14 · expediente y defensa
 | Degradar en vez de caer | 13 | 6 | — |
 | Expediente en doce piezas | 14 | proyecto | — |
 
-## Los cinco errores que la parte persigue
+## ⚠️ Los cinco errores que la parte persigue
 
 Aparecen una y otra vez porque son los que más cuestan:
 
@@ -105,7 +123,7 @@ Aparecen una y otra vez porque son los que más cuestan:
 Los cinco tienen una prueba negativa asociada en
 [`tests/test_open_finance_sandbox.py`](../tests/test_open_finance_sandbox.py).
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/open_finance_sandbox/consent_dashboard/cli.py demo
@@ -123,7 +141,7 @@ python -m pytest tests/test_open_finance_sandbox.py -q
 python tools/validate_openapi.py && python tools/validate_metadata.py
 ```
 
-## Hacia dónde sigue
+## ➡️ Hacia dónde sigue
 
 | De esta parte | A | Qué se profundiza |
 |---|---|---|
@@ -138,3 +156,13 @@ python tools/validate_openapi.py && python tools/validate_metadata.py
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [Open Finance Sandbox](../apps/open_finance_sandbox/README.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [📘 Parte 17](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) · [➡️ Mapa siguiente](mapa-pagos-transfronterizos.md)
+
+</div>
+<!-- pie:fin -->

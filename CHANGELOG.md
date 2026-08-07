@@ -1,4 +1,21 @@
-# Historial de cambios
+<!-- portada:inicio -->
+<div align="center">
+
+# 📜 Historial de cambios
+
+**Todo lo que ha cambiado en el programa, versión a versión, con el formato Keep a Changelog.**
+
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-e67e22?style=flat-square)](CHANGELOG.md)
+[![formato](https://img.shields.io/badge/formato-Keep%20a%20Changelog%20%C2%B7%20SemVer-1f6feb?style=flat-square)](https://keepachangelog.com/es-ES/1.1.0/)
+
+[🏠 Inicio](README.md) ·
+[📊 Estado](STATUS.md) ·
+[🗺️ Roadmap](ROADMAP.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el
 versionado sigue [SemVer](https://semver.org/lang/es/).
@@ -658,3 +675,13 @@ Versión inicial: estructura del programa y herramientas base.
 [1.1.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.1.0
 [1.0.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.0.0
 [0.1.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v0.1.0
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📊 Estado](STATUS.md) · [🗺️ Roadmap](ROADMAP.md)
+
+</div>
+<!-- pie:fin -->

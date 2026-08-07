@@ -194,7 +194,7 @@ al flujo que lo paga, no al calendario del banco
 |---|---|---|
 | Capital de trabajo estacional | 90–180 días | Al vencimiento, revolvente |
 | Capital de trabajo estructural | 2–4 años | Cuotas |
-| Maquinaria | Vida útil del activo, 3–7 años | Cuotas, con período de gracia si hay puesta en marcha |
+| Maquinaria | Vida útil del activo, 3–7 años | Cuotas, con periodo de gracia si hay puesta en marcha |
 | Inmueble | 10–20 años | Cuotas |
 | Adquisición de empresa | 5–7 años | Cuotas con calendario adaptado al flujo |
 | Proyecto | Según el proyecto | Amortización según flujo del proyecto |

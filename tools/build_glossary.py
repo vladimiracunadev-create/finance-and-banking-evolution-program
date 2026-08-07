@@ -110,7 +110,27 @@ def leer_ampliado() -> dict[str, dict[str, str]]:
     return {sin_tildes(k): v for k, v in ampliado.items()}
 
 
-CABECERA = """# Glosario maestro
+CABECERA = """<!-- portada:inicio -->
+<div align="center">
+
+# 📖 Glosario maestro
+
+**Todos los conceptos centrales del programa en un solo documento, con su definicion y la clase donde se estudian.**
+
+[![terminos](https://img.shields.io/badge/t%C3%A9rminos-{terminos}-7c5cff?style=flat-square)](glosario-maestro.md)
+[![transversales](https://img.shields.io/badge/transversales-{ampliados}%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
+[![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](../tools/build_glossary.py)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[📗 Glosario general](glosario.md) ·
+[📘 Finanzas digitales](glosario-finanzas-digitales.md) ·
+[🧮 Formulario](formulas.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Todos los conceptos centrales del programa en un solo documento, ordenados
 alfabéticamente. Cada entrada trae la definición que declara la clase donde se
@@ -121,7 +141,7 @@ clases: no se escribe a mano y no puede desviarse de lo que el programa enseña.
 Si una definición cambia en una clase, cambia aquí en la siguiente ejecución de
 `python tools/build_glossary.py`.
 
-## Cómo se usa
+## 🧭 Cómo se usa
 
 Un término se busca aquí y se estudia en su clase. Las entradas indican **dónde
 se estudia**, y cuando el término aparece en varias clases las recogen todas, en
@@ -138,17 +158,22 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 > Toda norma citada en el programa debe verificarse en su fuente oficial
 > vigente antes de cualquier uso profesional.
 
-## Índice alfabético
+## 🔤 Índice alfabético
 
 """
 
 PIE = """
 ---
 
-**Ver también:** [Glosario general](glosario.md) ·
-[Glosario de finanzas digitales](glosario-finanzas-digitales.md) ·
-[Formulario](formulas.md) ·
-[Índice del programa](../SYLLABUS.md)
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) ·
+[📗 Glosario general](glosario.md) ·
+[📘 Finanzas digitales](glosario-finanzas-digitales.md) ·
+[🧮 Formulario](formulas.md) ·
+[📚 Programa](../SYLLABUS.md)
+
+</div>
 """
 
 
@@ -168,7 +193,12 @@ def documento() -> str:
             inicial = "#"
         letras[inicial].append((clave, apariciones))
 
-    piezas = [CABECERA.format(clases=total_clases)]
+    n_ampliados = sum(1 for clave in entradas if sin_tildes(clave) in ampliado)
+    piezas = [
+        CABECERA.format(
+            clases=total_clases, terminos=len(entradas), ampliados=n_ampliados
+        )
+    ]
     orden_letras = sorted(letras, key=lambda x: (x == "#", x))
     piezas.append(" · ".join(f"[{ltr}](#{ltr.lower() if ltr != '#' else 'otros'})"
                              for ltr in orden_letras))

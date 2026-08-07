@@ -1,9 +1,23 @@
-# Índice de archivos
+<!-- portada:inicio -->
+<div align="center">
 
-Generado por `tools/build_file_index.py` desde los archivos reales del
-repositorio. No se edita a mano.
+# 🗂️ Índice de archivos
 
-**848 archivos de texto versionados.**
+**Todo el texto versionado del repositorio, en un listado plano y ordenado.**
+
+[![archivos](https://img.shields.io/badge/archivos-848-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](tools/build_file_index.py)
+[![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
+
+[🏠 Inicio](README.md) ·
+[📚 Programa](SYLLABUS.md) ·
+[📊 Estado](STATUS.md) ·
+[🧾 Ficha técnica](MANIFEST.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -854,8 +868,16 @@ repositorio. No se edita a mano.
 - `tools/validate_openapi.py`
 - `tools/validate_program.py`
 
-## Verificación
+## ✅ Verificación
 
 ```bash
 python tools/build_file_index.py --check
 ```
+
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📚 Programa](SYLLABUS.md) · [📊 Estado](STATUS.md) · [🧾 Ficha técnica](MANIFEST.md)
+
+</div>

@@ -1,9 +1,27 @@
-# Mapa de blockchain y DLT
+<!-- portada:inicio -->
+<div align="center">
+
+# ⛓️ Mapa de blockchain y DLT
+
+**Dónde está cada concepto de la Parte 19 y las cinco afirmaciones que la parte desmonta.**
+
+[![parte](https://img.shields.io/badge/parte-19%20%C2%B7%20blockchain%20y%20DLT-7c5cff?style=flat-square)](../modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md)
+[![lab](https://img.shields.io/badge/lab-dlt__financial__lab-3776AB?style=flat-square)](../apps/dlt_financial_lab/)
+
+[⬅️ Mapa anterior](mapa-pagos-transfronterizos.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 19](../modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) ·
+[➡️ Mapa siguiente](mapa-activos-digitales.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 19: dónde está cada concepto, con qué se conecta
 y qué se puede ejecutar para comprobarlo.
 
-## El eje de la parte
+## 🎯 El eje de la parte
 
 ```text
 UN REGISTRO DISTRIBUIDO PERMITE QUE PARTES QUE NO CONFÍAN
@@ -21,7 +39,7 @@ Y la pregunta hay que hacerla bien: no «¿confiamos en ese participante?», sin
 **«¿aceptaríamos un tercero neutral?»**. Casi todos los proyectos que se
 justifican mal han respondido la primera creyendo responder la segunda.
 
-## Las seis preguntas del criterio
+## ❓ Las seis preguntas del criterio
 
 | Pregunta | ¿Justifica un registro distribuido? |
 |---|---|
@@ -32,7 +50,7 @@ justifican mal han respondido la primera creyendo responder la segunda.
 | ¿Regulatorio? | No: ninguna arquitectura elimina una obligación |
 | ¿De liquidez? | No |
 
-## Recorrido de la parte
+## 🧭 Recorrido de la parte
 
 ```text
 CRITERIO        1 · qué resuelve y a qué precio
@@ -54,7 +72,7 @@ GOBIERNO       13 · gobernanza y recuperación
 INTEGRACIÓN    14 · expediente y defensa
 ```
 
-## Dónde está cada concepto
+## 🗺️ Dónde está cada concepto
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -96,7 +114,7 @@ INTEGRACIÓN    14 · expediente y defensa
 | Plan de recuperación | 13 | 5 | — |
 | Expediente en doce piezas | 14 | proyecto | — |
 
-## Las cinco afirmaciones que la parte desmonta
+## 🚫 Las cinco afirmaciones que la parte desmonta
 
 1. **«Una vez en la cadena, no se puede cambiar.»** Recalcular la cadena entera
    vuelve a validar. La inmutabilidad la dan el consenso y el coste de rehacer.
@@ -112,7 +130,7 @@ Las cinco tienen una prueba en
 [`tests/test_dlt_financial_lab.py`](../tests/test_dlt_financial_lab.py), y tres
 de ellas **documentan defectos y deben pasar**.
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/dlt_financial_lab/cli.py chain --blocks 100 --difficulty 2
@@ -134,14 +152,14 @@ python apps/dlt_financial_lab/cli.py escrow
 python -m pytest tests/test_dlt_financial_lab.py -q
 ```
 
-## La conclusión que la parte permite
+## ✅ La conclusión que la parte permite
 
 Un proyecto de esta parte **puede concluir que no hace falta un registro
 distribuido, y eso es la máxima calificación**. El objetivo no es construir una
 red: es saber cuándo hace falta y cuándo una base de datos compartida operada
 por una sociedad conjunta hace lo mismo más barato, más rápido y corregible.
 
-## Hacia dónde sigue
+## ➡️ Hacia dónde sigue
 
 | De esta parte | A | Qué se profundiza |
 |---|---|---|
@@ -156,3 +174,13 @@ por una sociedad conjunta hace lo mismo más barato, más rápido y corregible.
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [DLT Financial Lab](../apps/dlt_financial_lab/README.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Mapa anterior](mapa-pagos-transfronterizos.md) · [🏠 Inicio](../README.md) · [📘 Parte 19](../modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) · [➡️ Mapa siguiente](mapa-activos-digitales.md)
+
+</div>
+<!-- pie:fin -->

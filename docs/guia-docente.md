@@ -1,4 +1,22 @@
-# Guía docente
+<!-- portada:inicio -->
+<div align="center">
+
+# 👩‍🏫 Guía docente
+
+**Cómo impartir el programa: la sesión de 90 minutos, la evaluación, las rúbricas y qué adaptar.**
+
+[![sesión](https://img.shields.io/badge/sesi%C3%B3n-90%20minutos%20por%20clase-7c5cff?style=flat-square)](../SYLLABUS.md)
+[![incluye](https://img.shields.io/badge/incluye-r%C3%BAbricas%20y%20evaluaci%C3%B3n-2e8b57?style=flat-square)](guia-docente.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🎯 Competencias](mapa-competencias.md) ·
+[🧪 Laboratorios digitales](guia-laboratorios-digitales.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Cómo impartir el programa. Cada clase está diseñada para una sesión de **90 minutos** y
 trae su agenda generada automáticamente; esta guía explica **cómo usarla**, cómo evaluar
@@ -6,7 +24,7 @@ y qué adaptar a tu contexto.
 
 ---
 
-## Antes de empezar
+## 🚦 Antes de empezar
 
 <table>
 <tr><td width="50%">
@@ -36,7 +54,7 @@ y qué adaptar a tu contexto.
 
 ---
 
-## La sesión de 90 minutos
+## ⏱️ La sesión de 90 minutos
 
 Todas las clases traen esta agenda en su bloque generado. La secuencia está diseñada
 para que el estudiante **haga** antes de que el docente **concluya**.
@@ -74,7 +92,7 @@ La tabla `🏦 Del cliente al banco` conecta cada concepto con la experiencia de
 
 ---
 
-## Evaluación
+## 📝 Evaluación
 
 ### Ponderación sugerida
 
@@ -112,7 +130,7 @@ Aplícala a cualquier entregable donde el estudiante deba decidir.
 
 ---
 
-## Ritmos y modalidades
+## ⏱️ Ritmos y modalidades
 
 | Modalidad | Dedicación | Duración | Observación |
 |---|---|---|---|
@@ -127,7 +145,7 @@ Aplícala a cualquier entregable donde el estudiante deba decidir.
 
 ---
 
-## Adaptación al contexto
+## 🌎 Adaptación al contexto
 
 | Qué adaptar | Cómo |
 |---|---|
@@ -142,7 +160,7 @@ Aplícala a cualquier entregable donde el estudiante deba decidir.
 
 ---
 
-## Grupos con perfiles mixtos
+## 👤 Grupos con perfiles mixtos
 
 Es la situación más común y la que mejor funciona si se gestiona.
 
@@ -155,7 +173,7 @@ Es la situación más común y la que mejor funciona si se gestiona.
 
 ---
 
-## Errores docentes frecuentes
+## 👩‍🏫 Errores docentes frecuentes
 
 | Síntoma | Causa | Corrección |
 |---|---|---|
@@ -168,11 +186,11 @@ Es la situación más común y la que mejor funciona si se gestiona.
 
 ---
 
-## Recursos
+## 🧰 Recursos
 
 | Recurso | Para qué |
 |---|---|
-| [Índice de las 240 clases](../SYLLABUS.md) | Planificar el curso completo |
+| [Índice de las 352 clases](../SYLLABUS.md) | Planificar el curso completo |
 | [Ruta de aprendizaje](ruta-aprendizaje.md) | Explicar la progresión al grupo |
 | [Mapa de competencias](mapa-competencias.md) | Definir resultados de aprendizaje |
 | [Glosario](glosario.md) | Repartir al inicio de cada etapa |
@@ -184,3 +202,13 @@ Es la situación más común y la que mejor funciona si se gestiona.
 
 **Ver también:** [README](../README.md) · [Estado del contenido](../STATUS.md) ·
 [Contribuir](../CONTRIBUTING.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🎯 Competencias](mapa-competencias.md) · [🧪 Laboratorios digitales](guia-laboratorios-digitales.md)
+
+</div>
+<!-- pie:fin -->

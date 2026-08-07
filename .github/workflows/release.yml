@@ -78,7 +78,7 @@ jobs:
             echo "| Archivo | Contenido |"
             echo "|---|---|"
             echo "| \`programa-completo.zip\` | Clases, documentacion, herramientas, aplicaciones y datos |"
-            echo "| \`solo-clases.zip\` | Solo las 240 clases y su indice |"
+            echo "| \`solo-clases.zip\` | Solo las 352 clases y su indice |"
             echo "| \`sbom.json\` | Inventario de dependencias en formato CycloneDX |"
             echo "| \`SHA256SUMS.txt\` | Sumas de verificacion |"
             echo ""

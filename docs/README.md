@@ -1,4 +1,21 @@
-# Documentación
+<!-- portada:inicio -->
+<div align="center">
+
+# 📚 Documentación
+
+**Todas las guías de referencia del programa, agrupadas por a quién sirven.**
+
+[![documentos](https://img.shields.io/badge/documentos-20-7c5cff?style=flat-square)](README.md)
+[![complementan](https://img.shields.io/badge/complementan-no%20sustituyen%20a%20las%20clases-2e8b57?style=flat-square)](../SYLLABUS.md)
+
+[🏠 Inicio](../README.md) ·
+[📚 Programa](../SYLLABUS.md) ·
+[📊 Estado](../STATUS.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guías de referencia del programa. Todas complementan a las clases; ninguna las
 sustituye. El número exacto de partes y clases está en
@@ -12,7 +29,7 @@ sustituye. El número exacto de partes y clases está en
 |---|---|
 | 🗺️ **[Ruta de aprendizaje](ruta-aprendizaje.md)** | Por dónde entrar según tu perfil, cadenas de dependencia entre partes y método de estudio |
 | 🎯 **[Mapa de competencias](mapa-competencias.md)** | Qué sabes hacer en cada nivel, con listas de verificación para autoevaluarte |
-| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 176 conceptos de las 352 clases, alfabéticos, con dónde se estudia cada uno |
+| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 175 conceptos de las 352 clases, alfabéticos, con dónde se estudia cada uno |
 | 📗 **[Glosario general](glosario.md)** | Definición operativa de los términos base, agrupados por tema |
 | 🧮 **[Formulario](formulas.md)** | Las fórmulas del programa con su trampa habitual |
 | 🌐 **[Etapa 5 — finanzas digitales](etapa-5-finanzas-digitales.md)** | Qué es y qué no es la etapa de infraestructura financiera digital, con sus seis criterios |
@@ -129,3 +146,13 @@ pip install -r requirements-site.txt && python tools/build_site.py
 ---
 
 **[⬅ Volver al inicio](../README.md)**
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](../README.md) · [📚 Programa](../SYLLABUS.md) · [📊 Estado](../STATUS.md)
+
+</div>
+<!-- pie:fin -->

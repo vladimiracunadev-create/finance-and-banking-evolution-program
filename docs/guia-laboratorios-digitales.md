@@ -1,8 +1,26 @@
-# Guía de laboratorios digitales
+<!-- portada:inicio -->
+<div align="center">
+
+# 🧪 Guía de laboratorios digitales
+
+**Cómo son, cómo se ejecutan y cómo se corrigen los laboratorios de la Etapa 5.**
+
+[![etapa](https://img.shields.io/badge/etapa-5%20%C2%B7%20Partes%2017%20a%2023-8957e5?style=flat-square)](etapa-5-finanzas-digitales.md)
+[![apps](https://img.shields.io/badge/apps-8%20ejecutables-3776AB?style=flat-square)](../apps/)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[👩‍🏫 Guía docente](guia-docente.md) ·
+[🌐 Etapa 5](etapa-5-finanzas-digitales.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Cómo son, cómo se ejecutan y cómo se corrigen los laboratorios de la Etapa 5.
 
-## Qué distingue a estos laboratorios
+## 🧪 Qué distingue a estos laboratorios
 
 Los de las Partes 1 a 16 piden analizar, calcular y concluir. Los de la Etapa 5
 piden además **construir algo que falle donde debe fallar**. La diferencia es
@@ -18,7 +36,7 @@ CUANDO EL CAMINO FELIZ FUNCIONA
   si alguien quita el control
 ```
 
-## Estructura fija
+## 🧱 Estructura fija
 
 Cada laboratorio tiene las mismas catorce secciones, en el mismo orden:
 
@@ -39,7 +57,7 @@ Cada laboratorio tiene las mismas catorce secciones, en el mismo orden:
 | Rúbrica | Puntos por criterio |
 | Solución de referencia | Enlace a `solutions/` |
 
-## Entorno
+## 💻 Entorno
 
 Todos funcionan con **Python 3.11 o superior y la biblioteca estándar**. Las
 únicas dependencias del repositorio son `pytest` para las pruebas y `markdown`
@@ -53,7 +71,7 @@ No hace falta red, ni cuenta en ningún servicio, ni contenedor, ni base de
 datos. Un laboratorio que necesitara cualquiera de esas cosas quedaría fuera del
 alcance de quien más lo necesita.
 
-## Reglas de datos y seguridad
+## 🔐 Reglas de datos y seguridad
 
 1. **Solo datos sintéticos**, generados con semilla fija y documentados en
    `datasets/schemas/`.
@@ -66,7 +84,7 @@ alcance de quien más lo necesita.
 5. **Ninguna herramienta ofensiva.** Los ataques se implementan como *pruebas
    que deben fallar*, nunca como utilidades reutilizables.
 
-## Cómo se corrige
+## 📝 Cómo se corrige
 
 La rúbrica de todos ellos reparte los puntos con el mismo criterio de fondo:
 
@@ -81,7 +99,7 @@ La rúbrica de todos ellos reparte los puntos con el mismo criterio de fondo:
 **Un laboratorio con todo en verde y sin pruebas negativas no aprueba.** Es la
 regla que más sorprende y la que mejor resume la etapa.
 
-## Las soluciones de referencia
+## 🔑 Las soluciones de referencia
 
 Están en `modules/<parte>/solutions/`. Son material **docente**:
 
@@ -94,7 +112,7 @@ Un trabajo que reproduce la solución de referencia sin decisiones propias
 obtiene el mínimo de la franja de aprobación. La solución muestra un camino
 válido, no el único.
 
-## Comandos que se usan
+## ⌨️ Comandos que se usan
 
 ```bash
 python -m pytest -q
@@ -116,7 +134,7 @@ python tools/detect_secrets.py && python tools/detect_pii.py
 python tools/validate_datasets.py && python tools/validate_metadata.py
 ```
 
-## Errores frecuentes al hacerlos
+## ⚠️ Errores frecuentes al hacerlos
 
 | Síntoma | Causa | Corrección |
 |---|---|---|
@@ -133,3 +151,13 @@ python tools/validate_datasets.py && python tools/validate_metadata.py
 [Guía docente](guia-docente.md) ·
 [Mapa de finanzas abiertas](mapa-finanzas-abiertas.md) ·
 [Ética y limitaciones](etica-y-limitaciones.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [👩‍🏫 Guía docente](guia-docente.md) · [🌐 Etapa 5](etapa-5-finanzas-digitales.md)
+
+</div>
+<!-- pie:fin -->

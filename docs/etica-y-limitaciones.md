@@ -1,4 +1,22 @@
-# Ética y limitaciones
+<!-- portada:inicio -->
+<div align="center">
+
+# ⚖️ Ética y limitaciones
+
+**Qué es y qué no es este material, y qué obligaciones asume quien lo aplica a una decisión real.**
+
+[![naturaleza](https://img.shields.io/badge/naturaleza-material%20formativo-8b0000?style=flat-square)](etica-y-limitaciones.md)
+[![no es](https://img.shields.io/badge/no%20es-asesor%C3%ADa%20ni%20certificaci%C3%B3n-8b0000?style=flat-square)](etica-y-limitaciones.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🔐 Seguridad](../SECURITY.md) ·
+[🏛️ Verificación regulatoria](metodologia-verificacion-regulatoria.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Qué es este material, qué no es, y qué obligaciones asume quien lo usa. **Lee esta página
 antes de aplicar cualquier contenido a una decisión real.**
@@ -33,7 +51,7 @@ antes de aplicar cualquier contenido a una decisión real.**
 
 ---
 
-## 2 · Verificación local: la regla central
+## ✅ 2 · Verificación local: la regla central
 
 Cada clase con contenido normativo cierra con una línea de **verificación local**.
 
@@ -57,7 +75,7 @@ nacional.** Lo que cambia por país y por fecha:
 
 ---
 
-## 3 · Datos
+## 🗄️ 3 · Datos
 
 ### Prohibiciones absolutas
 
@@ -79,7 +97,7 @@ nacional.** Lo que cambia por país y por fecha:
 
 ---
 
-## 4 · Modelos y decisiones automatizadas
+## 🤖 4 · Modelos y decisiones automatizadas
 
 Las Partes 9, 11, 14 y 16 desarrollan modelos de riesgo y decisión. Su uso educativo
 exige reconocer que:
@@ -105,7 +123,7 @@ proteja.
 
 ---
 
-## 5 · Uso profesional del material
+## 🧭 5 · Uso profesional del material
 
 Si aplicas estos contenidos en una institución financiera:
 
@@ -121,7 +139,7 @@ elasticidades, ponderaciones— deben estimarse con datos propios y validarse.**
 
 ---
 
-## 6 · Uso responsable de los contenidos sensibles
+## 📚 6 · Uso responsable de los contenidos sensibles
 
 El programa cubre materias donde el conocimiento tiene doble uso.
 
@@ -138,7 +156,7 @@ orientación es deliberada.
 
 ---
 
-## 7 · Conflictos entre objetivos legítimos
+## ⚔️ 7 · Conflictos entre objetivos legítimos
 
 El programa expone varias tensiones que no tienen solución técnica. Reconocerlas es parte
 del contenido:
@@ -158,11 +176,11 @@ del contenido:
 
 ---
 
-## 8 · Límites conocidos de este material
+## ⚖️ 8 · Límites conocidos de este material
 
 Declarados, no descubiertos:
 
-- **No es exhaustivo.** 240 clases cubren mucho y no todo.
+- **No es exhaustivo.** 352 clases cubren mucho y no todo.
 - **No cubre ninguna jurisdicción en particular.** Es su diseño, y también su límite.
 - **Los datos son sintéticos.** Los patrones son verosímiles, no reales.
 - **Los parámetros son ilustrativos.** PD, LGD y correlaciones deben estimarse.
@@ -172,7 +190,7 @@ Declarados, no descubiertos:
 
 ---
 
-## 9 · Cómo reportar un problema
+## 📣 9 · Cómo reportar un problema
 
 | Situación | Canal |
 |---|---|
@@ -183,7 +201,7 @@ Declarados, no descubiertos:
 
 ---
 
-## 10 · Resumen en cinco líneas
+## 🧾 10 · Resumen en cinco líneas
 
 > 1. Material **formativo**: no es asesoría ni norma.
 > 2. **Verifica siempre** la norma local vigente.
@@ -195,3 +213,13 @@ Declarados, no descubiertos:
 
 **Ver también:** [Guía docente](guia-docente.md) · [Fuentes](fuentes.md) ·
 [Código de conducta](../CODE_OF_CONDUCT.md) · [Seguridad](../SECURITY.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🔐 Seguridad](../SECURITY.md) · [🏛️ Verificación regulatoria](metodologia-verificacion-regulatoria.md)
+
+</div>
+<!-- pie:fin -->

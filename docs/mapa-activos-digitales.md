@@ -1,9 +1,27 @@
-# Mapa de activos digitales y stablecoins
+<!-- portada:inicio -->
+<div align="center">
+
+# 🪙 Mapa de activos digitales y stablecoins
+
+**Dónde está cada concepto de la Parte 20 y las seis afirmaciones que la parte desmonta.**
+
+[![parte](https://img.shields.io/badge/parte-20%20%C2%B7%20activos%20digitales-7c5cff?style=flat-square)](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md)
+[![lab](https://img.shields.io/badge/lab-digital__assets__risk__lab-3776AB?style=flat-square)](../apps/digital_assets_risk_lab/)
+
+[⬅️ Mapa anterior](mapa-blockchain-dlt.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 20](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) ·
+[➡️ Mapa siguiente](mapa-tokenizacion.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 20: dónde está cada concepto, con qué se conecta
 y qué se puede ejecutar para comprobarlo.
 
-## El eje de la parte
+## 🎯 El eje de la parte
 
 ```text
 UN ACTIVO DIGITAL NO ES UNA TECNOLOGÍA:
@@ -23,7 +41,7 @@ QUE OTRO ESTÉ DISPUESTO A PAGARLO
 Ninguna de las cinco preguntas es técnica. La red, el estándar de contrato y la
 billetera no aparecen, y esa ausencia es el contenido de la parte.
 
-## Los cinco instrumentos que no son sinónimos
+## 🧩 Los cinco instrumentos que no son sinónimos
 
 | Instrumento | Quién debe | Qué es el saldo | Clase |
 |---|---|---|:---:|
@@ -36,7 +54,7 @@ billetera no aparecen, y esa ausencia es el contenido de la parte.
 La tabla decide **quién quiebra, qué garantía aplica y a quién reclama el
 cliente**. Ningún componente técnico la cambia.
 
-## Recorrido de la parte
+## 🧭 Recorrido de la parte
 
 ```text
 IDENTIFICACIÓN   1 · taxonomía por la promesa
@@ -57,7 +75,7 @@ BALANCE         15 · contabilidad, tributación y prudencial
 INTEGRACIÓN     16 · expediente de decisión
 ```
 
-## Dónde está cada concepto
+## 🗺️ Dónde está cada concepto
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -108,7 +126,7 @@ INTEGRACIÓN     16 · expediente de decisión
 | Balance frente a capital regulatorio | 2, 15 | 2 | — |
 | Las doce piezas del expediente | 16 | proyecto | — |
 
-## Las seis afirmaciones que la parte desmonta
+## 🚫 Las seis afirmaciones que la parte desmonta
 
 1. **«La cobertura subió, vamos mejor.»** Sube mientras la composición empeora y
    el efectivo llega a cero.
@@ -126,7 +144,7 @@ Las seis tienen una prueba en
 [`tests/test_digital_assets_risk_lab.py`](../tests/test_digital_assets_risk_lab.py),
 y las seis **documentan defectos y deben pasar**.
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/digital_assets_risk_lab/cli.py reserves --redemption 0.35
@@ -156,13 +174,13 @@ python apps/digital_assets_risk_lab/cli.py contagion
 python -m pytest tests/test_digital_assets_risk_lab.py -q
 ```
 
-## La conclusión que la parte permite
+## ✅ La conclusión que la parte permite
 
 Un expediente de esta parte **puede concluir que el instrumento no es apto, y eso
 es la máxima calificación**. Lo que se evalúa no es la decisión: es si las doce
 piezas están, si los cálculos son correctos y si los supuestos están declarados.
 
-## Hacia dónde sigue
+## ➡️ Hacia dónde sigue
 
 | De esta parte | A | Qué se profundiza |
 |---|---|---|
@@ -179,3 +197,13 @@ piezas están, si los cálculos son correctos y si los supuestos están declarad
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [Digital Assets Risk Lab](../apps/digital_assets_risk_lab/README.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Mapa anterior](mapa-blockchain-dlt.md) · [🏠 Inicio](../README.md) · [📘 Parte 20](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) · [➡️ Mapa siguiente](mapa-tokenizacion.md)
+
+</div>
+<!-- pie:fin -->

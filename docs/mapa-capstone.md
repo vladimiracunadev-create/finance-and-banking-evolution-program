@@ -1,9 +1,27 @@
-# Mapa del capstone
+<!-- portada:inicio -->
+<div align="center">
+
+# 🏗️ Mapa del capstone
+
+**La cadena de decisiones de la Parte 23, de dónde viene cada una y las cinco afirmaciones que desmonta.**
+
+[![parte](https://img.shields.io/badge/parte-23%20%C2%B7%20capstone-7c5cff?style=flat-square)](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md)
+[![lab](https://img.shields.io/badge/lab-digital__bank__capstone-3776AB?style=flat-square)](../apps/digital_bank_capstone/)
+
+[⬅️ Mapa anterior](mapa-regulatorio.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 23](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) ·
+[📚 Documentación](README.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 23: dónde está cada decisión, de qué parte del
 programa viene y qué se puede ejecutar para comprobarla.
 
-## Qué hace distinta a esta parte
+## ⭐ Qué hace distinta a esta parte
 
 Las veintidós partes anteriores enseñan. Esta construye. No introduce ningún
 concepto nuevo, y esa es exactamente su dificultad: **todo lo que hace falta ya se
@@ -22,7 +40,7 @@ SI NO ENCUENTRA NINGUNA CONTRADICCION,
 NO HA INTEGRADO: HA APILADO.
 ```
 
-## Los tres bloques
+## 🧱 Los tres bloques
 
 La parte se organiza en tres bloques de seis clases, y el orden importa porque
 cada bloque solo puede empezar cuando el anterior ha cerrado sus decisiones.
@@ -33,7 +51,7 @@ cada bloque solo puede empezar cuando el anterior ha cerrado sus decisiones.
 | Construirlo | 7-12 | Registro, interfaces, custodia, liquidación, pagos y ciclo de vida |
 | Probarlo y defenderlo | 13-18 | Expediente, amenazas, tensión, resolución, límites y defensa |
 
-## La cadena de decisiones
+## 🔗 La cadena de decisiones
 
 Es lo que distingue este capstone de una lista de tareas. Cuatro decisiones
 dependen unas de otras, y tomarlas en otro orden produce un sistema que se
@@ -58,7 +76,7 @@ resolverla por adelantado para que salga como se quería. Cerrar la cadena al
 revés es el error más frecuente de los capstones y el más difícil de detectar,
 porque el resultado parece coherente.
 
-## Dónde está cada cosa
+## 🗺️ Dónde está cada cosa
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -81,7 +99,7 @@ porque el resultado parece coherente.
 | Lo que el sistema no puede hacer | 17 | 9 | — |
 | Defensa ante el comité | 18 | 9 | — |
 
-## Las cinco afirmaciones que la parte desmonta
+## 🚫 Las cinco afirmaciones que la parte desmonta
 
 Cada una es una intuición razonable que el sistema construido contradice con una
 prueba ejecutable.
@@ -94,7 +112,7 @@ prueba ejecutable.
 | «Tres fallos simultáneos son improbables» | Un proveedor con tres papeles los produce con uno | 23.15 |
 | «Un expediente debe mostrar fortalezas» | La sección de límites es la que da credibilidad | 23.17 |
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/digital_bank_capstone/cli.py scope
@@ -116,7 +134,7 @@ python apps/digital_bank_capstone/cli.py stress
 python -m pytest tests/test_digital_bank_capstone.py -q
 ```
 
-## De dónde viene cada método
+## 🧭 De dónde viene cada método
 
 El capstone no inventa herramientas: reutiliza las de las seis partes anteriores
 de la Etapa 5 y las de las cuatro etapas previas.
@@ -132,7 +150,7 @@ de la Etapa 5 y las de las cuatro etapas previas.
 | Tolerancia al impacto por función | Parte 22, clase 14 |
 | Gradiente de niveles de prueba | Parte 22, clase 15 |
 
-## Aviso
+## ⚠️ Aviso
 
 Material **docente**. El sistema del capstone es un simulador con datos sintéticos
 y **no es un banco**. No usa credenciales, claves ni fondos reales, no se conecta
@@ -145,3 +163,13 @@ asesoría legal, financiera ni de inversión.
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md) ·
 [Mapa regulatorio](mapa-regulatorio.md) ·
 [Mapa de tokenización](mapa-tokenizacion.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Mapa anterior](mapa-regulatorio.md) · [🏠 Inicio](../README.md) · [📘 Parte 23](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) · [📚 Documentación](README.md)
+
+</div>
+<!-- pie:fin -->

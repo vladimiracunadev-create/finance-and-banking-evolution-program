@@ -1,4 +1,22 @@
-# Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados
+<!-- portada:inicio -->
+<div align="center">
+
+# 🌐 Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados
+
+**Qué es y qué no es la etapa de infraestructura financiera digital, y los seis criterios que la ordenan.**
+
+[![partes](https://img.shields.io/badge/partes-17%20a%2023-8957e5?style=flat-square)](../SYLLABUS.md)
+[![clases](https://img.shields.io/badge/clases-112-7c5cff?style=flat-square)](../STATUS.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Glosario de la etapa](glosario-finanzas-digitales.md) ·
+[🧪 Laboratorios](guia-laboratorios-digitales.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 La Etapa 5 continúa el programa donde la Parte 14 lo dejó. Las Partes 1 a 16
 llevan de los porcentajes a la dirección bancaria; esta etapa lleva de la
@@ -7,7 +25,7 @@ un dato con consentimiento, cómo se mueve un pago entre países, qué es
 exactamente un activo digital y qué cambia cuando un instrumento financiero se
 representa en un registro programable.
 
-## Qué NO es esta etapa
+## 🚫 Qué NO es esta etapa
 
 Conviene decirlo antes que nada, porque determina el criterio de todo lo demás:
 
@@ -21,7 +39,7 @@ Conviene decirlo antes que nada, porque determina el criterio de todo lo demás:
   cliente, el producto, la entidad, la infraestructura, el mercado, el riesgo,
   la regulación, la supervisión y la decisión ejecutiva.
 
-## Las siete partes
+## 🧩 Las siete partes
 
 Las siete están publicadas. Se recorren en orden, porque cada una supone la
 anterior: no se puede tokenizar un instrumento sin haber entendido qué registro
@@ -48,7 +66,7 @@ funcionar juntos, que es cuando aparecen las contradicciones entre decisiones qu
 por separado eran correctas. Su mapa está en
 **[mapa-capstone.md](mapa-capstone.md)**.
 
-## De dónde viene cada parte
+## 🧩 De dónde viene cada parte
 
 ```text
 Parte 14 · Fintech, datos e IA          (introducción, se mantiene)
@@ -69,7 +87,7 @@ Las clases de las partes anteriores **se mantienen** y actúan como
 prerrequisito. La Etapa 5 no las repite: las profundiza, las implementa y les
 añade la capa regulatoria y de riesgo que una introducción no puede sostener.
 
-## Los seis criterios que ordenan toda la etapa
+## 📐 Los seis criterios que ordenan toda la etapa
 
 ### 1. Separación terminológica estricta
 
@@ -125,7 +143,7 @@ verificación**. `tools/validate_metadata.py` falla si una clase cita un
 instrumento y no declara su línea de verificación. El método está en
 **[Metodología de verificación regulatoria](metodologia-verificacion-regulatoria.md)**.
 
-## Aplicaciones de la etapa
+## 🐍 Aplicaciones de la etapa
 
 | Aplicación | Parte | Estado |
 |---|---:|---|
@@ -141,7 +159,7 @@ instrumento y no declara su línea de verificación. El método está en
 Todas comparten las mismas restricciones: **sin red externa, sin credenciales
 reales, sin fondos reales, sin datos personales y con dependencias mínimas**.
 
-## Qué se prohíbe construir
+## 🚫 Qué se prohíbe construir
 
 El material no incluye —y no aceptará contribuciones que incluyan— herramientas
 para ocultar el origen de fondos, evadir controles de prevención de lavado,
@@ -149,7 +167,7 @@ mezclar activos con fin de romper la trazabilidad, manipular mercados o cometer
 fraude. Los ataques se describen para poder **detectarlos y cortarlos**, siempre
 acompañados de su control y de la prueba que lo verifica.
 
-## Cómo estudiarla
+## 🎓 Cómo estudiarla
 
 1. Comprueba los prerrequisitos en el README de la parte antes de empezar.
 2. Haz la evaluación diagnóstica: no puntúa, pero te dice dónde vas a sufrir.
@@ -158,7 +176,7 @@ acompañados de su control y de la prueba que lo verifica.
    como estudiado**: la mitad del aprendizaje está en ver fallar el control.
 5. Entrega el proyecto y defiéndelo con las preguntas del panel.
 
-## Verificación
+## ✅ Verificación
 
 ```bash
 python tools/validate_program.py && python tools/validate_metadata.py
@@ -170,3 +188,13 @@ python tools/validate_program.py && python tools/validate_metadata.py
 [Mapa de finanzas abiertas](mapa-finanzas-abiertas.md) ·
 [Guía de laboratorios digitales](guia-laboratorios-digitales.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [📘 Glosario de la etapa](glosario-finanzas-digitales.md) · [🧪 Laboratorios](guia-laboratorios-digitales.md)
+
+</div>
+<!-- pie:fin -->

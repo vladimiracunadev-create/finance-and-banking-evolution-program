@@ -64,6 +64,42 @@ def module_title(module: Path) -> str:
     return re.sub(r"^Parte\s+\d+:\s*", "", title)
 
 
+# Portada del documento generado, con la misma pauta visual que el README.
+PORTADA = """<!-- portada:inicio -->
+<div align="center">
+
+# 📚 Programa completo
+
+**Las {clases} clases del programa, parte a parte, con su nivel y su enlace.**
+
+[![partes](https://img.shields.io/badge/partes-{partes}-7c5cff?style=flat-square)](README.md)
+[![clases](https://img.shields.io/badge/clases-{clases}-2ea44f?style=flat-square)](STATUS.md)
+[![horas](https://img.shields.io/badge/horas-{horas}-8957e5?style=flat-square)](docs/ruta-aprendizaje.md)
+[![sesión](https://img.shields.io/badge/sesión-90%20minutos-1f6feb?style=flat-square)](docs/guia-docente.md)
+
+[🏠 Inicio](README.md) ·
+[📊 Estado](STATUS.md) ·
+[🧭 Ruta de aprendizaje](docs/ruta-aprendizaje.md) ·
+[👩‍🏫 Guía docente](docs/guia-docente.md) ·
+[📖 Glosario maestro](docs/glosario-maestro.md)
+
+</div>
+<!-- portada:fin -->
+
+---
+"""
+
+PIE = """
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📊 Estado](STATUS.md) · [🧭 Ruta](docs/ruta-aprendizaje.md) · [📖 Glosario maestro](docs/glosario-maestro.md)
+
+</div>
+"""
+
+
 def collect() -> list[tuple[int, str, Path, list[tuple[int, str, str, Path]]]]:
     partes: list[tuple[int, str, Path, list[tuple[int, str, str, Path]]]] = []
     for module in sorted(p for p in MODULES.iterdir() if p.is_dir()):
@@ -90,15 +126,11 @@ def render() -> str:
     total_horas = total_clases * 1.5
 
     lines = [
-        "# Programa completo",
+        *PORTADA.format(
+            partes=len(partes), clases=total_clases, horas=f"{total_horas:.0f}"
+        ).splitlines(),
         "",
-        "Índice generado por `tools/build_syllabus.py` desde el encabezado de cada",
-        "clase. Describe el contenido real del repositorio, no un plan.",
-        "",
-        f"**{len(partes)} partes · {total_clases} clases · {total_horas:.0f} horas ·",
-        "90 minutos por clase**",
-        "",
-        "## Estructura por etapas",
+        "## 🪜 Estructura por etapas",
         "",
         "| Parte | Tema | Clases | Horas | Etapa |",
         "|---:|---|---:|---:|---|",
@@ -116,7 +148,7 @@ def render() -> str:
 
     lines += [
         "",
-        "## Índice de clases",
+        "## 📚 Índice de clases",
         "",
         "Cada clase dura 90 minutos e incluye ejemplo numérico guiado, puente",
         "«del cliente al banco», errores frecuentes, preguntas de comprobación,",
@@ -144,7 +176,7 @@ def render() -> str:
 
     ultima_parte, ultimo_titulo, _, ultimas_clases = partes[-1]
     lines += [
-        "## Criterio de aprobación sugerido",
+        "## 📝 Criterio de aprobación sugerido",
         "",
         "- Recorrer las clases en orden: cada una supone la anterior.",
         "- 70 % de logro en las evaluaciones diagnóstica y final de cada parte.",
@@ -153,7 +185,7 @@ def render() -> str:
         f"- Defensa del proyecto final «{ultimo_titulo}» "
         f"(Parte {ultima_parte}, clase {len(ultimas_clases)}).",
         "",
-        "## Resultados finales",
+        "## 🎯 Resultados finales",
         "",
         "Al completar el programa, quien lo recorra podrá interpretar productos",
         "financieros, modelar decisiones, analizar estados financieros, evaluar",
@@ -164,11 +196,12 @@ def render() -> str:
         "programable, sosteniendo cada decisión con su fundamento, sus supuestos",
         "y sus límites.",
         "",
-        "## Verificación",
+        "## ✅ Verificación",
         "",
         "```bash",
         "python tools/build_syllabus.py --check",
         "```",
+        *PIE.splitlines(),
         "",
     ]
     return "\n".join(lines)

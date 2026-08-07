@@ -1,4 +1,22 @@
-# Glosario
+<!-- portada:inicio -->
+<div align="center">
+
+# 📗 Glosario
+
+**Los términos base del programa con su definición operativa, agrupados por tema.**
+
+[![tipo](https://img.shields.io/badge/tipo-glosario%20general-7c5cff?style=flat-square)](glosario.md)
+[![ver también](https://img.shields.io/badge/ver%20tambi%C3%A9n-glosario%20maestro-007c83?style=flat-square)](glosario-maestro.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[📖 Glosario maestro](glosario-maestro.md) ·
+[🧮 Formulario](formulas.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Términos que el programa usa con un significado preciso. La definición operativa
 importa: **si dos áreas entienden lo mismo de forma distinta, sus cifras no son
@@ -199,3 +217,13 @@ comparables** (Parte 14, clase 4).
 **Ver también:** [Glosario de finanzas digitales](glosario-finanzas-digitales.md) ·
 [Fórmulas](formulas.md) · [Fuentes](fuentes.md) ·
 [Mapa de competencias](mapa-competencias.md) · [Índice del programa](../SYLLABUS.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [📖 Glosario maestro](glosario-maestro.md) · [🧮 Formulario](formulas.md)
+
+</div>
+<!-- pie:fin -->

@@ -1,6 +1,23 @@
-# Política de seguridad
+<!-- portada:inicio -->
+<div align="center">
 
-## Naturaleza del repositorio
+# 🔐 Política de seguridad
+
+**Qué contiene este repositorio, qué nunca contendrá y cómo reportar un hallazgo de seguridad.**
+
+[![datos](https://img.shields.io/badge/datos-solo%20sint%C3%A9ticos-2e8b57?style=flat-square)](datasets/README.md)
+[![escaneo](https://img.shields.io/badge/escaneo-secretos%20%C2%B7%20PII%20%C2%B7%20CodeQL-8b0000?style=flat-square)](README.md#-calidad-y-ci)
+
+[🏠 Inicio](README.md) ·
+[🤝 Contribuir](CONTRIBUTING.md) ·
+[⚖️ Ética y límites](docs/etica-y-limitaciones.md)
+
+</div>
+<!-- portada:fin -->
+
+---
+
+## 🏷️ Naturaleza del repositorio
 
 Este repositorio contiene **material educativo y datos exclusivamente sintéticos**. No
 almacena, procesa ni transmite información de personas reales, y las herramientas que
@@ -8,7 +25,7 @@ incluye son didácticas: no están endurecidas para uso en producción.
 
 ---
 
-## Qué nunca debe subirse
+## 🚫 Qué nunca debe subirse
 
 | ❌ Prohibido | Por qué |
 |---|---|
@@ -30,7 +47,7 @@ archivo.
 
 ---
 
-## Alcance de un reporte de seguridad
+## 🔐 Alcance de un reporte de seguridad
 
 ### Dentro del alcance
 
@@ -51,7 +68,7 @@ archivo.
 
 ---
 
-## Cómo reportar
+## 📣 Cómo reportar
 
 | Tipo de hallazgo | Canal |
 |---|---|
@@ -71,7 +88,7 @@ archivo.
 
 ---
 
-## Compromiso de respuesta
+## 🤞 Compromiso de respuesta
 
 | Etapa | Plazo objetivo |
 |---|---|
@@ -85,7 +102,7 @@ Quien reporte de buena fe no sufrirá represalias y se le acreditará si lo dese
 
 ---
 
-## Buenas prácticas para quien contribuye
+## 🤝 Buenas prácticas para quien contribuye
 
 ```bash
 # Revisa qué vas a confirmar antes de hacerlo
@@ -99,7 +116,7 @@ git diff --staged
 
 ---
 
-## Datos, secretos y material de laboratorio
+## 🗄️ Datos, secretos y material de laboratorio
 
 El repositorio contiene **claves de juguete** en el entorno simulado de la
 Parte 17. Están versionadas a propósito: el material necesita mostrar la forma
@@ -132,3 +149,13 @@ reutilizables.
 
 **Ver también:** [Ética y limitaciones](docs/etica-y-limitaciones.md) ·
 [Contribuir](CONTRIBUTING.md) · [Código de conducta](CODE_OF_CONDUCT.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [🤝 Contribuir](CONTRIBUTING.md) · [⚖️ Ética y límites](docs/etica-y-limitaciones.md)
+
+</div>
+<!-- pie:fin -->

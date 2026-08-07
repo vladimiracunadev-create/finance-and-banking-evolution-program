@@ -1,4 +1,22 @@
-# Fuentes
+<!-- portada:inicio -->
+<div align="center">
+
+# 📗 Fuentes
+
+**La bibliografía consolidada: manuales de referencia, marcos institucionales y artículos fundacionales.**
+
+[![citas](https://img.shields.io/badge/citas-2%20400%2B%20en%20las%20clases-007c83?style=flat-square)](../SYLLABUS.md)
+[![verificación](https://img.shields.io/badge/verificaci%C3%B3n-fecha%20por%20norma-2e8b57?style=flat-square)](metodologia-verificacion-regulatoria.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🏛️ Verificación regulatoria](metodologia-verificacion-regulatoria.md) ·
+[🗂️ Fichas normativas](../regulatory/README.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Bibliografía consolidada del programa. Cada clase cita las suyas al cierre; esta página
 reúne las obras y marcos que se usan de forma recurrente y explica **cómo se usan**.
@@ -10,7 +28,7 @@ reúne las obras y marcos que se usan de forma recurrente y explica **cómo se u
 
 ---
 
-## Cómo leer una cita del programa
+## 🔍 Cómo leer una cita del programa
 
 Cada clase cierra con una sección `📗 Fuentes y verificación` que contiene **al menos
 cuatro referencias** y una línea final de verificación local:
@@ -37,7 +55,7 @@ nacional**.
 
 ---
 
-## Manuales de referencia
+## 📚 Manuales de referencia
 
 ### Finanzas corporativas y valoración
 
@@ -137,7 +155,7 @@ nacional**.
 
 ---
 
-## Marcos institucionales
+## 🏛️ Marcos institucionales
 
 ### Comité de Supervisión Bancaria de Basilea (BIS)
 
@@ -217,7 +235,7 @@ nacional**.
 
 ---
 
-## Artículos y trabajos fundacionales
+## 📄 Artículos y trabajos fundacionales
 
 | Referencia | Aporta |
 |---|---|
@@ -242,7 +260,7 @@ nacional**.
 
 ---
 
-## Qué hacer si una fuente ya no está disponible
+## 🚧 Qué hacer si una fuente ya no está disponible
 
 Los enlaces a documentos oficiales cambian. Si uno no responde:
 
@@ -258,3 +276,13 @@ indicando la clase y la referencia.
 
 **Ver también:** [Glosario](glosario.md) · [Fórmulas](formulas.md) ·
 [Ética y limitaciones](etica-y-limitaciones.md) · [Índice del programa](../SYLLABUS.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🏛️ Verificación regulatoria](metodologia-verificacion-regulatoria.md) · [🗂️ Fichas normativas](../regulatory/README.md)
+
+</div>
+<!-- pie:fin -->

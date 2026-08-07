@@ -1,4 +1,22 @@
-# Metodología de verificación regulatoria
+<!-- portada:inicio -->
+<div align="center">
+
+# 🏛️ Metodología de verificación regulatoria
+
+**Cómo se cita una norma, cómo se comprueba que sigue vigente y qué se hace cuando no se puede.**
+
+[![aplica a](https://img.shields.io/badge/aplica%20a-8%20fichas%20normativas-7c5cff?style=flat-square)](../regulatory/README.md)
+[![validador](https://img.shields.io/badge/validador-validate__metadata.py-2e8b57?style=flat-square)](../tools/validate_metadata.py)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🗂️ Fichas normativas](../regulatory/README.md) ·
+[📗 Fuentes](fuentes.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Cómo el programa cita una norma, cómo comprueba que sigue vigente y qué hace
 cuando no puede comprobarlo.
@@ -7,7 +25,7 @@ cuando no puede comprobarlo.
 > verificar normas; no sustituye el criterio de un profesional habilitado en tu
 > jurisdicción.
 
-## El problema
+## ❓ El problema
 
 Una norma citada sin fecha es una afirmación que no caduca. Dentro de un año
 nadie sabrá si seguía siendo cierta, y quien la lea la tratará como vigente. En
@@ -18,7 +36,7 @@ La respuesta del repositorio es sencilla y automática: **toda cita de un
 instrumento concreto lleva su fecha de verificación, y un validador falla si no
 la lleva**.
 
-## Qué se considera un instrumento concreto
+## 📄 Qué se considera un instrumento concreto
 
 Activan la regla:
 
@@ -34,7 +52,7 @@ No la activan —porque no caducan del mismo modo— los marcos y principios sin
 número: Basilea III, las recomendaciones del GAFI, los principios del CPMI-IOSCO
 o las guías de la OCDE. Aun así, el programa indica su año de publicación.
 
-## Las siete preguntas de una lectura normativa
+## ❓ Las siete preguntas de una lectura normativa
 
 Se aplican siempre, en este orden. La destreza se enseña en la Parte 17, clase 3.
 
@@ -52,7 +70,7 @@ Los pasos 5 y 7 son los que más se saltan y los que más caro salen: el
 calendario real casi nunca está en el cuerpo del instrumento, y en finanzas
 abiertas la especificación de las APIs vive en el anexo técnico.
 
-## Cómo se registra una cita
+## 🗃️ Cómo se registra una cita
 
 ### En la clase
 
@@ -76,7 +94,7 @@ Una ficha por instrumento en [`regulatory/`](../regulatory/README.md), con
 autoridad, número, fechas, estado, alcance, actividades cubiertas, fuente
 oficial y `last_verified`.
 
-## Qué hace el validador
+## 🤖 Qué hace el validador
 
 ```bash
 python tools/validate_metadata.py
@@ -95,7 +113,7 @@ Lo que el validador **no** puede hacer es comprobar que la norma siga vigente:
 eso exige consultar la fuente. Lo que sí garantiza es que exista la fecha
 contra la que medir, y que nadie pueda añadir una cita sin ella.
 
-## Cuando no se puede verificar
+## 🚧 Cuando no se puede verificar
 
 Ocurre: el sitio del supervisor está caído, la norma está en consulta pública, o
 el material se escribe sin acceso a la fuente. El procedimiento es:
@@ -109,7 +127,7 @@ el material se escribe sin acceso a la fuente. El procedimiento es:
    la actividad y su escala» es verificable y duradero; una cifra sin fuente no
    es ninguna de las dos cosas.
 
-## Jerarquía de fuentes
+## 📗 Jerarquía de fuentes
 
 | Nivel | Fuente | Uso |
 |---:|---|---|
@@ -120,7 +138,7 @@ el material se escribe sin acceso a la fuente. El procedimiento es:
 | 5 | Literatura académica revisada | Evidencia empírica |
 | — | Blogs, prensa, notas de proveedores | **Nunca como fuente normativa** |
 
-## Errores que esta metodología evita
+## ⚠️ Errores que esta metodología evita
 
 | Error | Consecuencia | Qué lo corta |
 |---|---|---|
@@ -131,7 +149,7 @@ el material se escribe sin acceso a la fuente. El procedimiento es:
 | Citar sin fecha | La afirmación no caduca nunca | El validador |
 | Inventar una cifra plausible | Desinformación con apariencia de rigor | Preferir el principio |
 
-## Revisión periódica
+## 🔁 Revisión periódica
 
 | Tarea | Frecuencia |
 |---|---|
@@ -145,3 +163,13 @@ el material se escribe sin acceso a la fuente. El procedimiento es:
 **Ver también:** [Fichas normativas](../regulatory/README.md) ·
 [Etapa 5](etapa-5-finanzas-digitales.md) · [Fuentes](fuentes.md) ·
 [Ética y limitaciones](etica-y-limitaciones.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🗂️ Fichas normativas](../regulatory/README.md) · [📗 Fuentes](fuentes.md)
+
+</div>
+<!-- pie:fin -->

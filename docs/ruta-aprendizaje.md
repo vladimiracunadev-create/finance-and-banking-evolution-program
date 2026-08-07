@@ -1,4 +1,22 @@
-# Ruta de aprendizaje
+<!-- portada:inicio -->
+<div align="center">
+
+# 🧭 Ruta de aprendizaje
+
+**Por dónde entrar según tu punto de partida, en qué orden avanzar y cómo saber que una parte quedó cerrada.**
+
+[![cubre](https://img.shields.io/badge/cubre-las%2023%20partes-7c5cff?style=flat-square)](../SYLLABUS.md)
+[![ritmo](https://img.shields.io/badge/ritmo-30%20a%2060%20semanas-2e8b57?style=flat-square)](README.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🎯 Competencias](mapa-competencias.md) ·
+[📚 Programa](../SYLLABUS.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Cómo avanza el programa y por dónde entrar según tu punto de partida. **La progresión
 evita saltos**: primero se domina el dinero propio, después el lenguaje contable y
@@ -6,7 +24,7 @@ económico, luego los productos, riesgos y operaciones de una institución.
 
 ---
 
-## La progresión completa
+## 📈 La progresión completa
 
 ```mermaid
 flowchart TB
@@ -51,7 +69,7 @@ flowchart TB
 
 ---
 
-## Qué se puede hacer al terminar cada etapa
+## 🎯 Qué se puede hacer al terminar cada etapa
 
 | Etapa | Al terminar puedes | Clases |
 |---|---|:---:|
@@ -62,7 +80,7 @@ flowchart TB
 
 ---
 
-## Por dónde entrar
+## 🚪 Por dónde entrar
 
 <table>
 <thead><tr><th>Si eres…</th><th>Empieza en</th><th>Por qué</th></tr></thead>
@@ -127,7 +145,7 @@ flowchart TB
 
 ---
 
-## Cadenas de dependencia
+## 🔗 Cadenas de dependencia
 
 Qué necesitas antes de cada parte.
 
@@ -147,7 +165,7 @@ Qué necesitas antes de cada parte.
 
 ---
 
-## Ritmos
+## ⏱️ Ritmos
 
 | Modalidad | Dedicación | Duración total | Por etapa |
 |---|---|---|---|
@@ -156,11 +174,11 @@ Qué necesitas antes de cada parte.
 | **Extendida** | 6 h/semana | 60 semanas | ~15 semanas |
 
 Cada clase son **90 minutos de sesión** más el tiempo del laboratorio y del entregable.
-El total del programa es de **360 horas de sesión**.
+El total del programa es de **528 horas de sesión**.
 
 ---
 
-## El método de estudio
+## 🎓 El método de estudio
 
 ```mermaid
 flowchart LR
@@ -184,9 +202,9 @@ flowchart LR
 
 ---
 
-## Tu portafolio
+## 📥 Tu portafolio
 
-Cada clase produce un entregable. Al final tendrás **240 evidencias** organizadas así:
+Cada clase produce un entregable. Al final tendrás **352 evidencias** organizadas así:
 
 ```text
 portfolio/
@@ -204,5 +222,15 @@ tomaste, y el portafolio es lo que las sostiene.
 ---
 
 **Ver también:** [Mapa de competencias](mapa-competencias.md) ·
-[Guía docente](guia-docente.md) · [Índice de las 240 clases](../SYLLABUS.md) ·
+[Guía docente](guia-docente.md) · [Índice de las 352 clases](../SYLLABUS.md) ·
 [Estado del contenido](../STATUS.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🎯 Competencias](mapa-competencias.md) · [📚 Programa](../SYLLABUS.md)
+
+</div>
+<!-- pie:fin -->

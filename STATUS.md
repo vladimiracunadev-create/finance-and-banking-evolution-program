@@ -1,9 +1,24 @@
-# Estado del contenido
+<!-- portada:inicio -->
+<div align="center">
 
-Este archivo lo genera `tools/progress.py` a partir de los archivos reales
-del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
+# 📊 Estado del contenido
 
-## Avance global: 352 de 352 clases (100.0 %)
+**Lo que hay en el repositorio ahora mismo, contado archivo por archivo. No lo que se planea.**
+
+[![generado por](https://img.shields.io/badge/generado%20por-progress.py-007c83?style=flat-square)](tools/progress.py)
+[![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
+
+[🏠 Inicio](README.md) ·
+[📚 Programa](SYLLABUS.md) ·
+[🗺️ Roadmap](ROADMAP.md) ·
+[🧾 Ficha técnica](MANIFEST.md)
+
+</div>
+<!-- portada:fin -->
+
+---
+
+## 📈 Avance global: 352 de 352 clases (100.0 %)
 
 `████████████████████████████████████████`
 
@@ -34,7 +49,7 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 14.1 KB |
 | | **Total** | **352** | **352** | `████████████████████` | **18.4 KB** |
 
-## Qué significa que una clase esté completa
+## ✅ Qué significa que una clase esté completa
 
 Una clase solo se cuenta aquí si supera `tools/validate_program.py`, que exige:
 
@@ -45,7 +60,7 @@ Una clase solo se cuenta aquí si supera `tools/validate_program.py`, que exige:
   `tools/render_program.py`;
 - al menos cuatro fuentes verificables en «Fuentes y verificación».
 
-## Otros componentes
+## 🧩 Otros componentes
 
 Las cifras de esta tabla se cuentan sobre los archivos reales; no se
 escriben a mano.
@@ -62,7 +77,7 @@ escriben a mano.
 | Datasets documentados | 6 | Sintéticos, con diccionario |
 | Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |
 
-## Cómo verificarlo
+## 🔍 Cómo verificarlo
 
 ```bash
 python tools/validate_program.py     # estructura, secciones y fuentes
@@ -70,3 +85,11 @@ python tools/render_program.py --check  # navegación y bloques generados
 python tools/progress.py --check     # este archivo contra la realidad
 pytest -q                            # calculadoras y banco virtual
 ```
+
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📚 Programa](SYLLABUS.md) · [🗺️ Roadmap](ROADMAP.md) · [🧾 Ficha técnica](MANIFEST.md)
+
+</div>

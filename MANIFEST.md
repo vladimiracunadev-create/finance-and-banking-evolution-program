@@ -1,6 +1,23 @@
-# Ficha técnica
+<!-- portada:inicio -->
+<div align="center">
 
-## Identificación
+# 🧾 Ficha técnica
+
+**Ficha técnica del repositorio: qué se genera, con qué herramienta y qué garantiza cada comprobación.**
+
+[![generado](https://img.shields.io/badge/generado-4%20documentos-007c83?style=flat-square)](STATUS.md)
+[![validadores](https://img.shields.io/badge/validadores-15-2e8b57?style=flat-square)](README.md#-calidad-y-ci)
+
+[🏠 Inicio](README.md) ·
+[📊 Estado](STATUS.md) ·
+[📚 Documentación](docs/README.md)
+
+</div>
+<!-- portada:fin -->
+
+---
+
+## 🏷️ Identificación
 
 | Campo | Valor |
 |---|---|
@@ -16,7 +33,7 @@
 > calcula [`STATUS.md`](STATUS.md) contando los archivos: si esta ficha y aquel
 > documento discrepan, el correcto es aquel.
 
-## Contenido
+## 📚 Contenido
 
 | Componente | Cantidad |
 |---|---:|
@@ -34,7 +51,7 @@
 | Conjuntos de datos sintéticos | 6 |
 | Fichas normativas estructuradas | 8 |
 
-## Estructura de una clase
+## 🧱 Estructura de una clase
 
 | Elemento | Obligatorio | Verificado por |
 |---|:---:|---|
@@ -56,7 +73,7 @@
 | `regulation_last_verified` válida y no futura | ✅ | `validate_metadata.py` |
 | Aviso legal explícito si `requires_legal_review` | ✅ | `validate_metadata.py` |
 
-## Cobertura por etapa
+## 📊 Cobertura por etapa
 
 | Etapa | Partes | Clases publicadas | Horas |
 |---|:---:|---:|---:|
@@ -67,7 +84,7 @@
 | Finanzas digitales | 17 – 23 | 112 | 168 |
 | **Total** | **23** | **352** | **528** |
 
-## Aplicaciones incluidas
+## 🐍 Aplicaciones incluidas
 
 | Aplicación | Descripción | Pruebas |
 |---|---|:---:|
@@ -82,7 +99,7 @@
 | `onchain_fx_lab` | Coste total por ruta, creador de mercado automatizado y riesgo de liquidación en divisas | ✅ |
 | `regulatory_perimeter_engine` | Perímetro por hechos, calificación por criterios, salvaguarda, vigilancia y expediente cruzado | ✅ |
 
-## Documentos generados automáticamente
+## ⚙️ Documentos generados automáticamente
 
 Estos archivos se producen desde el contenido y **no se editan a mano**:
 
@@ -94,7 +111,7 @@ Estos archivos se producen desde el contenido y **no se editan a mano**:
 | Bloques `gen:*` de cada clase | `tools/render_program.py` |
 | Portal de estudio (`site/`) | `tools/build_site.py` |
 
-## Requisitos técnicos
+## 📋 Requisitos técnicos
 
 | Requisito | Versión |
 |---|---|
@@ -105,7 +122,7 @@ Estos archivos se producen desde el contenido y **no se editan a mano**:
 | Codificación | UTF-8 sin BOM |
 | Finales de línea | LF |
 
-## Verificación de la entrega
+## ✅ Verificación de la entrega
 
 ```bash
 python tools/validate_program.py
@@ -146,3 +163,13 @@ Todas se ejecutan en cada cambio mediante integración continua.
 **Ver también:** [Estado del contenido](STATUS.md) · [Historial](CHANGELOG.md) ·
 [Qué sigue](ROADMAP.md) · [Índice del programa](SYLLABUS.md) ·
 [Etapa 5](docs/etapa-5-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📊 Estado](STATUS.md) · [📚 Documentación](docs/README.md)
+
+</div>
+<!-- pie:fin -->

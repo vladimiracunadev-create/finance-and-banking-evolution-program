@@ -1,9 +1,27 @@
-# Mapa de regulación de mercados digitales
+<!-- portada:inicio -->
+<div align="center">
+
+# ⚖️ Mapa de regulación de mercados digitales
+
+**Dónde está cada concepto de la Parte 22 y las seis afirmaciones que la parte desmonta.**
+
+[![parte](https://img.shields.io/badge/parte-22%20%C2%B7%20regulaci%C3%B3n%20digital-7c5cff?style=flat-square)](../modules/21-regulacion-de-mercados-financieros-digitales/README.md)
+[![lab](https://img.shields.io/badge/lab-regulatory__perimeter__engine-3776AB?style=flat-square)](../apps/regulatory_perimeter_engine/)
+
+[⬅️ Mapa anterior](mapa-tokenizacion.md) ·
+[🏠 Inicio](../README.md) ·
+[📘 Parte 22](../modules/21-regulacion-de-mercados-financieros-digitales/README.md) ·
+[➡️ Mapa siguiente](mapa-capstone.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Guía de navegación de la Parte 22: dónde está cada concepto, con qué se conecta y
 qué se puede ejecutar para comprobarlo.
 
-## Qué hace distinta a esta parte
+## ⭐ Qué hace distinta a esta parte
 
 Las cinco partes anteriores de la Etapa 5 responden preguntas sobre cómo funciona
 algo. Esta responde una pregunta sobre qué está haciendo alguien, y esa diferencia
@@ -21,7 +39,7 @@ Y se responde con hechos observables,
 no con la calificación que el proyecto elija.
 ```
 
-## Las seis preguntas del perímetro
+## ❓ Las seis preguntas del perímetro
 
 Son el punto de entrada de la parte entera. Cada «sí» activa un régimen, y una
 misma entidad puede activar varios sin haberse dado cuenta.
@@ -38,7 +56,7 @@ misma entidad puede activar varios sin haberse dado cuenta.
 Y dos que aparecen al mirar lo accesorio y que casi nadie declara: el crédito
 contra el saldo y el cambio de moneda con margen propio.
 
-## Recorrido de la parte
+## 🧭 Recorrido de la parte
 
 ```text
 QUÉ HACES         1 · perímetro     2 · misma actividad
@@ -61,7 +79,7 @@ EL CONJUNTO      15 · estabilidad   16 · comparada
 INTEGRACIÓN      18 · expediente regulatorio
 ```
 
-## Dónde está cada concepto
+## 🗺️ Dónde está cada concepto
 
 | Concepto | Clase | Laboratorio | Código |
 |---|:---:|:---:|---|
@@ -116,7 +134,7 @@ INTEGRACIÓN      18 · expediente regulatorio
 | Las cinco parejas críticas | 18 | 9 | `dossier` |
 | Medida provisional | 18 | 9 | `dossier` |
 
-## Las seis afirmaciones que la parte desmonta
+## 🚫 Las seis afirmaciones que la parte desmonta
 
 1. **«Somos tecnología, no finanzas.»** Siete regímenes activados y ninguno
    declarado.
@@ -135,7 +153,7 @@ Las seis tienen una prueba en
 [`tests/test_regulatory_perimeter_engine.py`](../tests/test_regulatory_perimeter_engine.py),
 y las seis **documentan defectos o errores de razonamiento y deben pasar**.
 
-## Qué se puede ejecutar
+## 🧪 Qué se puede ejecutar
 
 ```bash
 python apps/regulatory_perimeter_engine/cli.py perimeter
@@ -157,7 +175,7 @@ python apps/regulatory_perimeter_engine/cli.py dossier
 python -m pytest tests/test_regulatory_perimeter_engine.py -q
 ```
 
-## La conclusión que la parte permite
+## ✅ La conclusión que la parte permite
 
 Un expediente de esta parte **puede concluir que la actividad no procede como
 está planteada, y eso vale lo mismo que la conclusión contraria** si está
@@ -167,7 +185,7 @@ Y hay una regla que resume la parte entera: **una afirmación sin evidencia se
 retira del expediente**, porque un supervisor que encuentra una sin respaldo
 revisa las demás con otra actitud.
 
-## Hacia dónde sigue
+## ➡️ Hacia dónde sigue
 
 | De esta parte | A | Qué se profundiza |
 |---|---|---|
@@ -183,3 +201,13 @@ revisa las demás con otra actitud.
 [Regulatory Perimeter Engine](../apps/regulatory_perimeter_engine/README.md) ·
 [Verificación regulatoria](metodologia-verificacion-regulatoria.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Mapa anterior](mapa-tokenizacion.md) · [🏠 Inicio](../README.md) · [📘 Parte 22](../modules/21-regulacion-de-mercados-financieros-digitales/README.md) · [➡️ Mapa siguiente](mapa-capstone.md)
+
+</div>
+<!-- pie:fin -->

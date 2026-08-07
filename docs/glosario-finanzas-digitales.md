@@ -1,4 +1,22 @@
-# Glosario de finanzas digitales
+<!-- portada:inicio -->
+<div align="center">
+
+# 📘 Glosario de finanzas digitales
+
+**Los términos de la Etapa 5, cada uno con su definición y con lo que **no** significa.**
+
+[![etapa](https://img.shields.io/badge/etapa-5%20%C2%B7%20finanzas%20digitales-8957e5?style=flat-square)](etapa-5-finanzas-digitales.md)
+[![rasgo](https://img.shields.io/badge/rasgo-incluye%20%C2%ABqu%C3%A9%20NO%20significa%C2%BB-2e8b57?style=flat-square)](glosario-finanzas-digitales.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🌐 Etapa 5](etapa-5-finanzas-digitales.md) ·
+[📖 Glosario maestro](glosario-maestro.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
@@ -6,7 +24,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 
 > Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 22.
 
-## Finanzas abiertas
+## 🚧 Finanzas abiertas
 
 ### Banca abierta
 
@@ -85,7 +103,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Sin ella, aparece el participante que solo extrae.
 - **Primera clase.** 17.1 · **Otras.** 17.2.
 
-## Autorización y seguridad
+## 🔐 Autorización y seguridad
 
 ### OAuth 2.x
 
@@ -153,7 +171,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Una fuga en un registro o en un proxy da acceso pleno.
 - **Primera clase.** 17.7 · **Otras.** 17.6.
 
-## Contrato e integración
+## 🔌 Contrato e integración
 
 ### Idempotencia
 
@@ -194,7 +212,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Apagar con volumen vivo es un incidente programado.
 - **Primera clase.** 17.8.
 
-## Pagos
+## 💳 Pagos
 
 ### Orden de pago
 
@@ -243,7 +261,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Sin ella, un código robado autoriza otra operación.
 - **Primera clase.** 17.11.
 
-## Pagos transfronterizos
+## 🌍 Pagos transfronterizos
 
 ### Pago transfronterizo
 
@@ -387,7 +405,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Mejora al 71 % y puede **empeorar** al 29 % que queda fuera.
 - **Primera clase.** 18.13 · **Otras.** 18.10, 18.14.
 
-## Registro distribuido
+## ⛓️ Registro distribuido
 
 ### Registro distribuido
 
@@ -511,7 +529,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Revertir una vez destruye la propiedad que justificaba el sistema.
 - **Primera clase.** 19.13.
 
-## Activos digitales y dinero
+## 🪙 Activos digitales y dinero
 
 ### Activo digital
 
@@ -771,7 +789,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Es el canal de contagio menos visible y el que más sorprende.
 - **Primera clase.** 20.14 · **Otras.** 17.2.
 
-## Tokenización y mercados
+## 🏛️ Tokenización y mercados
 
 ### Tokenización
 
@@ -1004,7 +1022,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** El puente se convierte en un objetivo económico racional.
 - **Primera clase.** 21.15 · **Otras.** 19.11, 20.12.
 
-## Regulación y supervisión
+## ⚖️ Regulación y supervisión
 
 ### Perímetro regulatorio
 
@@ -1250,7 +1268,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
   debía.
 - **Primera clase.** 22.18.
 
-## Datos y privacidad
+## 🗄️ Datos y privacidad
 
 ### Base de licitud
 
@@ -1289,7 +1307,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Celdas pequeñas permiten reidentificar por diferencia.
 - **Primera clase.** 17.12 · **Otras.** 17.4.
 
-## Operación
+## 🛠️ Operación
 
 ### SLI, SLO y SLA
 
@@ -1320,7 +1338,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Un punto de fallo invisible en el mapa de riesgo.
 - **Primera clase.** 17.2 · **Otras.** 17.13.
 
-## Diseño de sistemas completos
+## 🏗️ Diseño de sistemas completos
 
 Los términos de esta sección no describen mecanismos financieros sino decisiones
 de construcción. Aparecen en la Parte 23 porque solo tienen sentido cuando hay un
@@ -1405,3 +1423,13 @@ introducirlos.
 [Mapa de tokenización](mapa-tokenizacion.md) ·
 [Mapa regulatorio](mapa-regulatorio.md) ·
 [Mapa del capstone](mapa-capstone.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🌐 Etapa 5](etapa-5-finanzas-digitales.md) · [📖 Glosario maestro](glosario-maestro.md)
+
+</div>
+<!-- pie:fin -->

@@ -1,6 +1,23 @@
-# Código de conducta
+<!-- portada:inicio -->
+<div align="center">
 
-## Compromiso
+# 🤗 Código de conducta
+
+**Las reglas de convivencia del proyecto: qué se espera, qué no se tolera y cómo se reporta.**
+
+[![tipo](https://img.shields.io/badge/tipo-c%C3%B3digo%20de%20conducta-7c5cff?style=flat-square)](CODE_OF_CONDUCT.md)
+[![alcance](https://img.shields.io/badge/alcance-issues%20%C2%B7%20PR%20%C2%B7%20discusiones-2e8b57?style=flat-square)](CONTRIBUTING.md)
+
+[🏠 Inicio](README.md) ·
+[🤝 Contribuir](CONTRIBUTING.md) ·
+[🔐 Seguridad](SECURITY.md)
+
+</div>
+<!-- portada:fin -->
+
+---
+
+## 🤞 Compromiso
 
 Quienes participamos en este proyecto nos comprometemos a que la experiencia de
 contribuir y de aprender sea respetuosa para todas las personas, con independencia de su
@@ -14,7 +31,7 @@ separados.**
 
 ---
 
-## Se espera
+## ✅ Se espera
 
 - **Respeto** en toda interacción, incluidas las discrepancias técnicas.
 - **Precisión**: afirmaciones respaldadas por fuentes verificables.
@@ -24,7 +41,7 @@ separados.**
 - **Paciencia** con quien está aprendiendo. El programa empieza en «qué es un
   porcentaje» por decisión de diseño.
 
-## No se acepta
+## 🚫 No se acepta
 
 - Acoso, intimidación o comentarios despectivos de cualquier tipo.
 - Discriminación por cualquier característica personal.
@@ -37,14 +54,14 @@ separados.**
 
 ---
 
-## Alcance
+## 🎯 Alcance
 
 Se aplica a todos los espacios del proyecto —issues, propuestas de cambio, discusiones y
 comentarios— y a la representación pública del proyecto en cualquier contexto.
 
 ---
 
-## Aplicación
+## ⚙️ Aplicación
 
 Las conductas que infrinjan este código pueden reportarse abriendo un issue, o de forma
 privada al mantenedor si el asunto lo requiere. Todos los reportes se revisan.
@@ -62,7 +79,7 @@ Quien reporte de buena fe no sufrirá represalias.
 
 ---
 
-## Atribución
+## 📎 Atribución
 
 Este código se inspira en el [Contributor Covenant](https://www.contributor-covenant.org),
 versión 2.1, adaptado al contexto de un proyecto educativo sobre finanzas y banca.
@@ -71,3 +88,13 @@ versión 2.1, adaptado al contexto de un proyecto educativo sobre finanzas y ban
 
 **Ver también:** [Contribuir](CONTRIBUTING.md) ·
 [Ética y limitaciones](docs/etica-y-limitaciones.md) · [Seguridad](SECURITY.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [🤝 Contribuir](CONTRIBUTING.md) · [🔐 Seguridad](SECURITY.md)
+
+</div>
+<!-- pie:fin -->

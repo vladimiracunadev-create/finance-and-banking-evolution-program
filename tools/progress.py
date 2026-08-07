@@ -54,6 +54,40 @@ PLANNED = {
 # deja de usarse: no hay dos sitios donde mantener el mismo dato.
 PLANNED_TITLES: dict[str, str] = {}
 
+# Portada del documento generado. Sigue la misma pauta visual que el README y
+# que el resto de la documentacion: titulo con emoji, frase de una linea,
+# insignias y barra de navegacion, todo centrado.
+PORTADA = """<!-- portada:inicio -->
+<div align="center">
+
+# 📊 Estado del contenido
+
+**Lo que hay en el repositorio ahora mismo, contado archivo por archivo. No lo que se planea.**
+
+[![generado por](https://img.shields.io/badge/generado%20por-progress.py-007c83?style=flat-square)](tools/progress.py)
+[![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
+
+[🏠 Inicio](README.md) ·
+[📚 Programa](SYLLABUS.md) ·
+[🗺️ Roadmap](ROADMAP.md) ·
+[🧾 Ficha técnica](MANIFEST.md)
+
+</div>
+<!-- portada:fin -->
+
+---
+"""
+
+PIE = """
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📚 Programa](SYLLABUS.md) · [🗺️ Roadmap](ROADMAP.md) · [🧾 Ficha técnica](MANIFEST.md)
+
+</div>
+"""
+
 
 def module_title(module: Path) -> str:
     readme = module / "README.md"
@@ -130,12 +164,9 @@ def render() -> str:
     inventario = contar_componentes()
 
     lines = [
-        "# Estado del contenido",
+        *PORTADA.splitlines(),
         "",
-        "Este archivo lo genera `tools/progress.py` a partir de los archivos reales",
-        "del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.",
-        "",
-        f"## Avance global: {done} de {planned} clases ({pct:.1f} %)",
+        f"## 📈 Avance global: {done} de {planned} clases ({pct:.1f} %)",
         "",
         f"`{bar(done, planned, 40)}`",
         "",
@@ -154,7 +185,7 @@ def render() -> str:
         f"| | **Total** | **{done}** | **{planned}** | "
         f"`{bar(done, planned)}` | **{avg / 1024:.1f} KB** |",
         "",
-        "## Qué significa que una clase esté completa",
+        "## ✅ Qué significa que una clase esté completa",
         "",
         "Una clase solo se cuenta aquí si supera `tools/validate_program.py`, que exige:",
         "",
@@ -165,7 +196,7 @@ def render() -> str:
         "  `tools/render_program.py`;",
         "- al menos cuatro fuentes verificables en «Fuentes y verificación».",
         "",
-        "## Otros componentes",
+        "## 🧩 Otros componentes",
         "",
         "Las cifras de esta tabla se cuentan sobre los archivos reales; no se",
         "escriben a mano.",
@@ -182,7 +213,7 @@ def render() -> str:
         f"| Datasets documentados | {inventario['datasets']} | Sintéticos, con diccionario |",
         "| Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |",
         "",
-        "## Cómo verificarlo",
+        "## 🔍 Cómo verificarlo",
         "",
         "```bash",
         "python tools/validate_program.py     # estructura, secciones y fuentes",
@@ -190,6 +221,7 @@ def render() -> str:
         "python tools/progress.py --check     # este archivo contra la realidad",
         "pytest -q                            # calculadoras y banco virtual",
         "```",
+        *PIE.splitlines(),
         "",
     ]
     return "\n".join(lines)

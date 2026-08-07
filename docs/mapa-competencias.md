@@ -1,4 +1,22 @@
-# Mapa de competencias
+<!-- portada:inicio -->
+<div align="center">
+
+# 🎯 Mapa de competencias
+
+**Qué sabe hacer una persona en cada etapa y en qué parte concreta lo adquiere.**
+
+[![niveles](https://img.shields.io/badge/niveles-5%20etapas-7c5cff?style=flat-square)](../README.md)
+[![uso](https://img.shields.io/badge/uso-autoevaluaci%C3%B3n%20%C2%B7%20perfiles-2e8b57?style=flat-square)](ruta-aprendizaje.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[🧭 Ruta](ruta-aprendizaje.md) ·
+[👩‍🏫 Guía docente](guia-docente.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Qué sabe hacer una persona en cada etapa del programa, y **en qué parte lo adquiere**.
 Sirve para definir resultados de aprendizaje, ubicarse en el recorrido y verificar
@@ -6,7 +24,7 @@ prerrequisitos.
 
 ---
 
-## Los cuatro niveles
+## 🪜 Los cuatro niveles
 
 | Nivel | Etapa del programa | Partes | Descriptor |
 |---|---|:---:|---|
@@ -17,7 +35,7 @@ prerrequisitos.
 
 ---
 
-## Mapa por dominio
+## 🗺️ Mapa por dominio
 
 ### 🧮 Matemática financiera
 
@@ -129,9 +147,9 @@ prerrequisitos.
 
 ---
 
-## Competencias transversales
+## 🎯 Competencias transversales
 
-Se construyen en las 240 clases, no en una parte concreta. **Son el objetivo real del
+Se construyen en las 352 clases, no en una parte concreta. **Son el objetivo real del
 programa.**
 
 | Competencia | Cómo se ejercita |
@@ -146,7 +164,7 @@ programa.**
 
 ---
 
-## Verificación de nivel
+## ✅ Verificación de nivel
 
 Marca lo que puedes hacer **sin consultar material**. Si fallas más de dos de un nivel,
 vuelve a las partes indicadas.
@@ -212,3 +230,13 @@ vuelve a las partes indicadas.
 
 **Ver también:** [Ruta de aprendizaje](ruta-aprendizaje.md) ·
 [Guía docente](guia-docente.md) · [Índice del programa](../SYLLABUS.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [🧭 Ruta](ruta-aprendizaje.md) · [👩‍🏫 Guía docente](guia-docente.md)
+
+</div>
+<!-- pie:fin -->

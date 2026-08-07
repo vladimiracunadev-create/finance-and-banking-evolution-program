@@ -1,4 +1,24 @@
-# Glosario maestro
+<!-- portada:inicio -->
+<div align="center">
+
+# 📖 Glosario maestro
+
+**Todos los conceptos centrales del programa en un solo documento, con su definicion y la clase donde se estudian.**
+
+[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2175-7c5cff?style=flat-square)](glosario-maestro.md)
+[![transversales](https://img.shields.io/badge/transversales-74%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
+[![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](../tools/build_glossary.py)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[📗 Glosario general](glosario.md) ·
+[📘 Finanzas digitales](glosario-finanzas-digitales.md) ·
+[🧮 Formulario](formulas.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Todos los conceptos centrales del programa en un solo documento, ordenados
 alfabéticamente. Cada entrada trae la definición que declara la clase donde se
@@ -9,7 +29,7 @@ clases: no se escribe a mano y no puede desviarse de lo que el programa enseña.
 Si una definición cambia en una clase, cambia aquí en la siguiente ejecución de
 `python tools/build_glossary.py`.
 
-## Cómo se usa
+## 🧭 Cómo se usa
 
 Un término se busca aquí y se estudia en su clase. Las entradas indican **dónde
 se estudia**, y cuando el término aparece en varias clases las recogen todas, en
@@ -26,11 +46,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 > Toda norma citada en el programa debe verificarse en su fuente oficial
 > vigente antes de cualquier uso profesional.
 
-## Índice alfabético
+## 🔤 Índice alfabético
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [Z](#z)
 
-**2176 términos** de las 352 clases del programa. **74** son transversales y llevan entrada ampliada.
+**2175 términos** de las 352 clases del programa. **74** son transversales y llevan entrada ampliada.
 
 <h2 id="a">A</h2>
 
@@ -7726,17 +7746,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Tramo inicial sin amortización. Puede ser **total** (no se paga nada, y el interés se capitaliza) o **parcial** (se pagan solo intereses).
 - **También.** Días entre la compra y la fecha de pago sin interés, **solo si se paga el total**.
+- **También.** Lapso sin amortización de capital.
 - **También.** Suspensión de amortización. Si es total, capitaliza intereses (Parte 1, clase 12).
 - **Ejemplo.** Seis meses pagando solo intereses antes de empezar a amortizar capital.
 - **A considerar.** Baja la cuota inicial y sube el costo total. Si ni siquiera cubre el interes, el saldo crece y aparece amortizacion negativa.
-- **Dónde se estudia.** [1.12](../modules/00-matematica-financiera-basica/classes/12-amortizacion-basica.md) · [3.5](../modules/02-productos-y-servicios-financieros/classes/05-tarjetas-de-credito.md) · [4.11](../modules/03-seguridad-y-consumo-financiero/classes/11-renegociacion-responsable.md)
-
-### período de gracia
-
-- **Definición.** Lapso sin amortización de capital.
-- **Ejemplo.** Seis meses pagando solo intereses antes de empezar a amortizar capital.
-- **A considerar.** Baja la cuota inicial y sube el costo total. Si ni siquiera cubre el interes, el saldo crece y aparece amortizacion negativa.
-- **Dónde se estudia.** [13.7](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/07-credito-corporativo-y-estructuracion.md)
+- **Dónde se estudia.** [1.12](../modules/00-matematica-financiera-basica/classes/12-amortizacion-basica.md) · [3.5](../modules/02-productos-y-servicios-financieros/classes/05-tarjetas-de-credito.md) · [4.11](../modules/03-seguridad-y-consumo-financiero/classes/11-renegociacion-responsable.md) · [13.7](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/07-credito-corporativo-y-estructuracion.md)
 
 ### período de recuperación descontado
 
@@ -11527,7 +11541,12 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 ---
 
-**Ver también:** [Glosario general](glosario.md) ·
-[Glosario de finanzas digitales](glosario-finanzas-digitales.md) ·
-[Formulario](formulas.md) ·
-[Índice del programa](../SYLLABUS.md)
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) ·
+[📗 Glosario general](glosario.md) ·
+[📘 Finanzas digitales](glosario-finanzas-digitales.md) ·
+[🧮 Formulario](formulas.md) ·
+[📚 Programa](../SYLLABUS.md)
+
+</div>

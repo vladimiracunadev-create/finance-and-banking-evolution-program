@@ -73,7 +73,7 @@ No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo c
 
 | 📘 Clases | 📗 Fuentes citadas | 🧪 Laboratorios | 📝 Evaluaciones | 🎓 Proyectos | 📖 Términos |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **352** | **2 400+** | **150** | **46** | **23** | **2 176** |
+| **352** | **2 400+** | **150** | **46** | **23** | **2 175** |
 
 </div>
 
@@ -234,7 +234,7 @@ Leer el programa seguido no es solo comodidad — es la única forma de comproba
 
 | Documento | Qué contiene |
 |---|---|
-| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 176 conceptos** de las 352 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
+| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 175 conceptos** de las 352 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
 | 📗 **[Glosario general](docs/glosario.md)** | Los términos base del programa, agrupados por tema |
 | 📘 **[Glosario de finanzas digitales](docs/glosario-finanzas-digitales.md)** | Los términos de la Etapa 5, cada uno con su «qué NO significa» |
 | 🧮 **[Formulario](docs/formulas.md)** | Las fórmulas del programa, cada una con su trampa habitual |

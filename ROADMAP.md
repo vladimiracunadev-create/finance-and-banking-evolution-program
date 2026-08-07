@@ -1,4 +1,22 @@
-# Qué sigue
+<!-- portada:inicio -->
+<div align="center">
+
+# 🗺️ Qué sigue
+
+**Qué está cerrado, qué está en curso y qué líneas quedan abiertas a contribución.**
+
+[![programa](https://img.shields.io/badge/programa-352%20clases%20%C2%B7%20completo-2ea44f?style=flat-square)](STATUS.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-e67e22?style=flat-square)](CHANGELOG.md)
+
+[🏠 Inicio](README.md) ·
+[📊 Estado](STATUS.md) ·
+[📜 Historial](CHANGELOG.md) ·
+[🤝 Contribuir](CONTRIBUTING.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Estado y prioridades del programa. Las contribuciones en cualquiera de estas líneas son
 bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
@@ -157,7 +175,7 @@ nacional sin sustituir el contenido base.
 
 ---
 
-## Cómo proponer una línea nueva
+## 🤝 Cómo proponer una línea nueva
 
 Abre un [issue](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/issues)
 describiendo:
@@ -170,3 +188,13 @@ describiendo:
 
 **Ver también:** [Historial](CHANGELOG.md) · [Ficha técnica](MANIFEST.md) ·
 [Contribuir](CONTRIBUTING.md) · [Etapa 5](docs/etapa-5-finanzas-digitales.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📊 Estado](STATUS.md) · [📜 Historial](CHANGELOG.md) · [🤝 Contribuir](CONTRIBUTING.md)
+
+</div>
+<!-- pie:fin -->

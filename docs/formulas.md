@@ -1,4 +1,22 @@
-# Formulario
+<!-- portada:inicio -->
+<div align="center">
+
+# 🧮 Formulario
+
+**Las fórmulas del programa, cada una con su significado, su parte y su trampa habitual.**
+
+[![tipo](https://img.shields.io/badge/tipo-formulario-7c5cff?style=flat-square)](formulas.md)
+[![rasgo](https://img.shields.io/badge/rasgo-incluye%20la%20trampa%20de%20cada%20una-2e8b57?style=flat-square)](formulas.md)
+
+[⬅️ Documentación](README.md) ·
+[🏠 Inicio](../README.md) ·
+[📗 Glosario](glosario.md) ·
+[📚 Programa](../SYLLABUS.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Las fórmulas que el programa usa, con su significado y su trampa habitual. Cada una
 indica la parte donde se desarrolla.
@@ -40,7 +58,7 @@ indica la parte donde se desarrolla.
 > **Trampa:** en el sistema francés, la primera cuota amortiza poco capital. Un prepago
 > temprano ahorra mucho más interés que uno tardío (Parte 2).
 
-## 3 · Evaluación de proyectos
+## 📝 3 · Evaluación de proyectos
 
 <sub>Parte 13 · Finanzas corporativas</sub>
 
@@ -182,7 +200,7 @@ tasa mínima = costo de fondos del plazo
 
 ---
 
-## Verificaciones que el programa exige siempre
+## ✅ Verificaciones que el programa exige siempre
 
 1. **Periodicidad** — la tasa y los flujos en la misma unidad de tiempo.
 2. **Escala** — verifica el orden de magnitud antes de sumar o multiplicar.
@@ -194,3 +212,13 @@ tasa mínima = costo de fondos del plazo
 
 **Ver también:** [Glosario](glosario.md) · [Fuentes](fuentes.md) ·
 [Calculadoras](../apps/financial_calculators) · [Índice del programa](../SYLLABUS.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[⬅️ Documentación](README.md) · [🏠 Inicio](../README.md) · [📗 Glosario](glosario.md) · [📚 Programa](../SYLLABUS.md)
+
+</div>
+<!-- pie:fin -->

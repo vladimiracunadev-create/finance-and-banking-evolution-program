@@ -1,4 +1,23 @@
-# Contribuir
+<!-- portada:inicio -->
+<div align="center">
+
+# 🤝 Contribuir
+
+**Cómo proponer una corrección, una fuente o una traducción, y qué tiene que pasar antes de abrirla.**
+
+[![tipo](https://img.shields.io/badge/tipo-gu%C3%ADa%20de%20contribuci%C3%B3n-7c5cff?style=flat-square)](CONTRIBUTING.md)
+[![validación](https://img.shields.io/badge/validaci%C3%B3n-15%20comprobaciones-2e8b57?style=flat-square)](README.md#-calidad-y-ci)
+
+[🏠 Inicio](README.md) ·
+[📚 Documentación](docs/README.md) ·
+[🗺️ Roadmap](ROADMAP.md) ·
+[🤗 Código de conducta](CODE_OF_CONDUCT.md) ·
+[🔐 Seguridad](SECURITY.md)
+
+</div>
+<!-- portada:fin -->
+
+---
 
 Gracias por el interés. Este programa mejora con correcciones de contenido, fuentes
 adicionales, adaptaciones por país y traducciones.
@@ -8,7 +27,7 @@ adicionales, adaptaciones por país y traducciones.
 
 ---
 
-## Qué se acepta
+## ✅ Qué se acepta
 
 | ✅ Bienvenido | ❌ No se acepta |
 |---|---|
@@ -23,7 +42,7 @@ adicionales, adaptaciones por país y traducciones.
 
 ---
 
-## Antes de abrir una propuesta
+## 🤝 Antes de abrir una propuesta
 
 ```bash
 python tools/validate_program.py
@@ -63,14 +82,14 @@ python tools/build_syllabus.py && python tools/progress.py
 
 ---
 
-## Convención de una clase
+## 🧩 Convención de una clase
 
 La validación exige que **toda clase** contenga estas once secciones:
 
 ```text
 ## 🎯 Propósito
 ## 📚 Objetivos
-## Agenda de 90 minutos          ← generada por render_program.py
+## ⚙️ Agenda de 90 minutos          ← generada por render_program.py
 ## 🧩 Conceptos centrales
 ## 📖 Desarrollo
 ## 🧮 Ejemplo guiado
@@ -119,7 +138,7 @@ Los bloques entre `<!-- gen:*:start -->` y `<!-- gen:*:end -->` los genera
 
 ---
 
-## Estilo del contenido
+## ✍️ Estilo del contenido
 
 | Criterio | Regla |
 |---|---|
@@ -133,7 +152,7 @@ Los bloques entre `<!-- gen:*:start -->` y `<!-- gen:*:end -->` los genera
 
 ---
 
-## Fuentes
+## 📗 Fuentes
 
 Toda afirmación técnica necesita respaldo. Se aceptan:
 
@@ -158,7 +177,7 @@ Formato de una entrada:
 
 ---
 
-## Adaptaciones por país
+## 🌎 Adaptaciones por país
 
 Las ediciones locales son bienvenidas y **no sustituyen** el contenido internacional.
 
@@ -169,7 +188,7 @@ Las ediciones locales son bienvenidas y **no sustituyen** el contenido internaci
 
 ---
 
-## Flujo de trabajo
+## 🤝 Flujo de trabajo
 
 1. **Abre un issue** describiendo el cambio, salvo que sea trivial.
 2. **Crea una rama** por cambio: `fix/parte-11-clase-04-fuente`, `docs/glosario`.
@@ -190,7 +209,7 @@ Imperativo, con el porqué y la fuente cuando corresponda.
 
 ---
 
-## Herramientas y dependencias
+## 🔧 Herramientas y dependencias
 
 | Ámbito | Herramienta |
 |---|---|
@@ -202,7 +221,7 @@ Imperativo, con el porqué y la fuente cuando corresponda.
 
 ---
 
-## Reportar sin contribuir código
+## 📣 Reportar sin contribuir código
 
 | Situación | Canal |
 |---|---|
@@ -214,7 +233,7 @@ Imperativo, con el porqué y la fuente cuando corresponda.
 
 ---
 
-## Código de conducta
+## 🤗 Código de conducta
 
 Este proyecto se rige por su **[Código de Conducta](CODE_OF_CONDUCT.md)**. Participar
 implica aceptarlo.
@@ -223,3 +242,13 @@ implica aceptarlo.
 
 **Ver también:** [README](README.md) · [Documentación](docs/README.md) ·
 [Ética y limitaciones](docs/etica-y-limitaciones.md)
+
+<!-- pie:inicio -->
+---
+
+<div align="center">
+
+[🏠 Inicio](README.md) · [📚 Documentación](docs/README.md) · [🗺️ Roadmap](ROADMAP.md) · [🤗 Código de conducta](CODE_OF_CONDUCT.md) · [🔐 Seguridad](SECURITY.md)
+
+</div>
+<!-- pie:fin -->

@@ -66,7 +66,7 @@ Los cuatro primeros términos son las piezas de la estructura; los cuatro siguie
 | `garantía personal` | Compromiso de un tercero: aval, fianza, codeuda. |
 | `prelación` | Orden de cobro entre acreedores. |
 | `subordinación` | Acuerdo por el que un acreedor cobra después de otro. |
-| `período de gracia` | Lapso sin amortización de capital. |
+| `periodo de gracia` | Lapso sin amortización de capital. |
 | `crédito sindicado` | Financiamiento otorgado por varios bancos con un contrato común. |
 | `agente` | Banco que administra el crédito sindicado por cuenta de todos. |
 
@@ -347,7 +347,7 @@ PROBLEMA: el aumento de NOF del año 1 (1 682) golpea
 el mismo año en que empieza el servicio completo
 
 AJUSTES
-  1. período de gracia de capital de 12 meses en maquinaria
+  1. periodo de gracia de capital de 12 meses en maquinaria
      y capital de trabajo (solo intereses el primer año)
   2. alargar maquinaria de 6 a 7 años
   3. calendario creciente: cuotas menores los años 1-2
