@@ -92,6 +92,11 @@ jobs:
           python -m pip install -r requirements-site.txt
           python tools/build_book.py --check
 
+      # El glosario maestro se genera desde las tablas de conceptos: si una clase
+      # cambia una definicion, el glosario tiene que reflejarlo.
+      - name: Verificar que el glosario maestro este al dia
+        run: python tools/build_glossary.py --check
+
       - name: Compilar las herramientas y aplicaciones
         run: python -m compileall -q tools apps tests
 

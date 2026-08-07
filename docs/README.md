@@ -12,7 +12,8 @@ sustituye. El número exacto de partes y clases está en
 |---|---|
 | 🗺️ **[Ruta de aprendizaje](ruta-aprendizaje.md)** | Por dónde entrar según tu perfil, cadenas de dependencia entre partes y método de estudio |
 | 🎯 **[Mapa de competencias](mapa-competencias.md)** | Qué sabes hacer en cada nivel, con listas de verificación para autoevaluarte |
-| 📖 **[Glosario](glosario.md)** | Definición operativa de los términos, con la parte donde se desarrollan |
+| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 176 conceptos de las 352 clases, alfabéticos, con dónde se estudia cada uno |
+| 📗 **[Glosario general](glosario.md)** | Definición operativa de los términos base, agrupados por tema |
 | 🧮 **[Formulario](formulas.md)** | Las fórmulas del programa con su trampa habitual |
 | 🌐 **[Etapa 5 — finanzas digitales](etapa-5-finanzas-digitales.md)** | Qué es y qué no es la etapa de infraestructura financiera digital, con sus seis criterios |
 | 🔓 **[Mapa de finanzas abiertas](mapa-finanzas-abiertas.md)** | Dónde está cada concepto de la Parte 17 y qué se puede ejecutar |
@@ -61,8 +62,10 @@ sustituye. El número exacto de partes y clases está en
 
 ## Cómo se mantiene esta documentación
 
-Tres documentos se **generan automáticamente** desde los archivos del repositorio y no
-deben editarse a mano:
+Estos documentos se **generan automáticamente** desde los archivos del repositorio y
+no deben editarse a mano. El glosario maestro se genera desde las tablas de conceptos
+de las clases y el programa completo desde las clases enteras, de modo que ninguno de
+los dos puede declarar algo que el material no diga:
 
 | Documento | Generador | Verificación en CI |
 |---|---|---|
@@ -70,6 +73,8 @@ deben editarse a mano:
 | `STATUS.md` | `tools/progress.py` | `--check` |
 | Bloques generados de cada clase | `tools/render_program.py` | `--check` |
 | Portal de estudio (`site/`) | `tools/build_site.py` | `--check` |
+| `docs/glosario-maestro.md` | `tools/build_glossary.py` | `--check` |
+| Programa completo (`book/`) | `tools/build_book.py` | `--check` |
 
 El resto se edita a mano y se valida con `tools/check_links.py`, que comprueba que
 **todos** los enlaces relativos del repositorio resuelvan, y con `markdownlint`,
@@ -94,6 +99,19 @@ python tools/build_syllabus.py && python tools/progress.py && python tools/check
 ```bash
 python tools/validate_metadata.py && python tools/validate_openapi.py && python tools/validate_datasets.py
 ```
+
+## El programa completo en un documento
+
+Además del portal, el material se puede generar como **un solo documento** con las
+23 partes y las 352 clases seguidas, para leerlo de corrido o guardarlo como PDF:
+
+```bash
+pip install -r requirements-site.txt && python tools/build_book.py
+```
+
+Produce `book/programa-completo.html` —con hoja de estilo de impresión, portada e
+índice— y `book/programa-completo.md`. `book/` no se versiona: se regenera en un
+minuto y siempre refleja el estado actual.
 
 ## El portal de estudio
 

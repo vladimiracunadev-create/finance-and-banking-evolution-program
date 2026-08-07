@@ -1,0 +1,305 @@
+# Entradas ampliadas del glosario maestro.
+#
+# Los 74 terminos que aparecen en tres o mas partes distintas del programa. Son
+# los que se buscan de verdad y los que mas se confunden, porque en cada parte
+# significan algo ligeramente distinto. La definicion la aporta la clase; aqui
+# se anaden el ejemplo y la advertencia de uso.
+#
+# Formato: clave en minusculas, y debajo `ejemplo:` y `considerar:` con un
+# valor de una linea. Lo lee tools/build_glossary.py sin dependencias.
+
+apetito de riesgo:
+  ejemplo: "Un directorio fija una perdida maxima anual del 1,8 % de la cartera y de ahi salen los limites de cada producto."
+  considerar: "Es una decision del directorio, no un calculo del area de riesgos. Un apetito que no se traduce en limites concretos y en acciones comprometidas no gobierna nada."
+
+arbitraje regulatorio:
+  ejemplo: "La misma actividad de credito ejercida por una entidad no bancaria, sin requerimiento de capital ni provisiones."
+  considerar: "Parte de la ventaja competitiva de un entrante viene de aqui y no de la innovacion. Esa parte desaparece cuando la norma alcanza a la actividad, y conviene separarlas antes de valorar al competidor."
+
+atomicidad:
+  ejemplo: "Un colateral y su pago se mueven en la misma operacion: o los dos o ninguno, sin instante en que uno este hecho y el otro no."
+  considerar: "Solo alcanza a lo que esta dentro del mismo mecanismo. Si el dinero se liquida fuera del registro, no hay atomicidad por mucho que el activo este tokenizado."
+
+autorizacion:
+  ejemplo: "Una entidad de pago obtiene la habilitacion del supervisor tras acreditar capital, idoneidad y plan de negocio."
+  considerar: "No es lo mismo que registro ni que supervision. Estar inscrito en un registro publico no significa estar autorizado, y el cliente casi siempre supone que si."
+
+base de licitud:
+  ejemplo: "Un banco trata datos de un deudor por obligacion legal, no por consentimiento, y por eso el titular no puede retirarlo."
+  considerar: "El consentimiento es solo una de varias bases y no siempre la mejor. Elegir la equivocada da al titular derechos que el tratamiento no puede respetar."
+
+beneficiario final:
+  ejemplo: "Tras tres capas societarias, la persona natural que controla el 34 % efectivo de la sociedad que abre la cuenta."
+  considerar: "Se determina recorriendo la cadena de propiedad hasta personas naturales y multiplicando participaciones indirectas. Detenerse en el primer nivel es el incumplimiento mas frecuente."
+
+canal de transmision:
+  ejemplo: "Una sequia no golpea al banco: golpea a sus deudores agricolas y a las garantias sobre sus tierras."
+  considerar: "Sin identificar el canal concreto, un riesgo macroeconomico o climatico no se puede cuantificar y el analisis se queda en la declaracion de preocupacion."
+
+capital economico:
+  ejemplo: "El percentil 99,9 de la distribucion de perdidas de una cartera, menos su perdida esperada."
+  considerar: "No coincide con el capital regulatorio y las dos cifras conviven. La que obliga es la mayor, y gestionar solo una deja la otra sin control."
+
+carga financiera (rci):
+  ejemplo: "Cuotas mensuales de 620 000 sobre una renta liquida de 1 900 000: un 32,6 %."
+  considerar: "Calculada con la tasa contratada y no con una de calificacion mayor, subestima el riesgo. El credito que la usa asi falla al primer ciclo de alzas."
+
+cascada:
+  ejemplo: "Una caida de precio dispara llamadas de margen automaticas, las ventas forzadas bajan mas el precio y disparan mas llamadas."
+  considerar: "La automatizacion reduce el riesgo de contraparte y aumenta el de cascada. Las dos cosas ocurren a la vez, y el recorte y el retardo son las palancas que la contienen."
+
+caso de validacion:
+  ejemplo: "Una cuota calculada a mano en la Parte 1 que la funcion tiene que reproducir con el mismo resultado."
+  considerar: "Un caso resuelto con el propio codigo no valida nada. El valor esperado tiene que venir de un calculo independiente."
+
+causa raiz:
+  ejemplo: "El cargo indebido se produjo por una regla mal configurada, y la regla se pudo configurar mal porque no habia revision por un segundo."
+  considerar: "La causa inmediata explica este incidente y la raiz explica por que era posible. Corregir solo la primera garantiza que el incidente se repita con otra forma."
+
+coherencia interna:
+  ejemplo: "Un escenario que supone recesion profunda y a la vez inflacion de costos alta tiene que justificar por que ocurren juntas."
+  considerar: "Un escenario incoherente produce cifras precisas sobre una situacion imposible. La narrativa va antes que las variables, no despues."
+
+colocacion:
+  ejemplo: "La cartera de creditos de un banco, que es el activo del que sale su margen."
+  considerar: "En banca es prestar y en mercado de capitales es distribuir una emision. El programa usa los dos sentidos y el contexto los distingue."
+
+compensacion:
+  ejemplo: "Cuarenta pagos entre dos bancos se reducen a una sola posicion neta antes de liquidar."
+  considerar: "Reduce el volumen a liquidar y concentra el riesgo: si un participante falla despues de compensar, el fallo alcanza a todos los demas."
+
+concentracion:
+  ejemplo: "Cuarenta y una entidades declaran proveedores distintos y los cuarenta y uno se apoyan en tres infraestructuras."
+  considerar: "Se mide por proveedor y por infraestructura, y las dos medidas pueden dar resultados opuestos. La segunda es la que revela el riesgo del sector."
+
+conciliacion:
+  ejemplo: "El saldo del mayor y el de la cartola del corresponsal se enfrentan y cada diferencia se clasifica y se explica."
+  considerar: "Hecha por quien registra las operaciones no detecta nada. La independencia de quien concilia es lo que la convierte en un control."
+
+consentimiento:
+  ejemplo: "Un permiso para leer saldos de cuenta corriente, con finalidad de scoring, vigente noventa dias y revocable."
+  considerar: "Acota cuatro cosas: que datos, para que, cuanto tiempo y como se retira. Si no acota las cuatro, es una autorizacion general disfrazada."
+
+contracargo:
+  ejemplo: "Un cargo por un servicio no prestado se reclama con causal tasada y evidencia dentro del plazo de la red."
+  considerar: "Tiene causales cerradas y plazos cortos. Se pierde por reclamar tarde o por invocar la causal equivocada, no por falta de razon."
+
+costo de oportunidad:
+  ejemplo: "Prepagar una deuda al 18 % renuncia a invertir ese dinero al 7 %: la diferencia es lo que se gana."
+  considerar: "No aparece en ninguna contabilidad y decide casi todas las comparaciones. Omitirlo hace que la alternativa de no hacer nada parezca gratis."
+
+costo hundido:
+  ejemplo: "Los 40 millones ya gastados en un desarrollo que no funciona, y que no se recuperan con ninguna decision futura."
+  considerar: "Es el argumento mas usado para insistir en algo que no funciona. No entra en ninguna decision sobre lo que viene."
+
+criterio de aceptacion:
+  ejemplo: "El saldo insoluto de la tabla de amortizacion cierra exactamente en cero en la ultima cuota."
+  considerar: "Escrito despues de ver el resultado, deja de ser un criterio. Se fija antes de construir y se convierte en caso de prueba."
+
+dato personal:
+  ejemplo: "Un patron de movimientos que identifica a una persona aunque la cuenta este seudonimizada."
+  considerar: "Seudonimizar no es anonimizar. Un dato seudonimizado sigue siendo personal y le aplica todo el regimen, tambien en un registro publico."
+
+defensa:
+  ejemplo: "Veinte minutos ante un comite respondiendo con el calculo, el supuesto y la alternativa descartada de cada decision."
+  considerar: "Lo que mas credibilidad da no son las respuestas sino los limites que se reconocen. Un expediente que solo dice lo que funciona no se cree."
+
+depreciacion:
+  ejemplo: "Un equipo de 24 millones a seis anos de vida util y valor residual cero: 4 millones al ano."
+  considerar: "Depende de una vida util estimada, y cambiarla mueve el resultado sin mover un peso de caja. Es la partida donde mas margen hay para gestionar la utilidad."
+
+diccionario de datos:
+  ejemplo: "Cada campo del conjunto con su tipo, su unidad, su rango valido y quien responde por el."
+  considerar: "Un conjunto de datos sin diccionario no es reutilizable: quien lo herede tendra que deducir el significado de los campos, y deducira mal."
+
+dinero de banco central:
+  ejemplo: "El saldo de un banco comercial en su cuenta de reserva, que es el activo con el que se liquidan los pagos de alto valor."
+  considerar: "Es el unico sin riesgo de emisor. Liquidar en dinero de banco comercial es mas comodo y anade una contraparte que puede quebrar."
+
+dinero de banco comercial:
+  ejemplo: "El saldo de una cuenta corriente, que es un pasivo del banco frente al titular."
+  considerar: "Es la mayor parte del dinero que circula y lo crearon los bancos al prestar, no el banco central al emitir."
+
+dividendo:
+  ejemplo: "Una sociedad reparte el 40 % de su utilidad y retiene el 60 % para financiar su crecimiento."
+  considerar: "En banca hipotecaria chilena la palabra designa la cuota mensual del credito, que es otra cosa. El contexto distingue los dos usos."
+
+emisor:
+  ejemplo: "La entidad que emite una stablecoin y responde de su redencion a la par."
+  considerar: "Su solvencia es el riesgo del instrumento. Un token sin emisor identificable no puede incumplir y tampoco puede prometer nada."
+
+encargado:
+  ejemplo: "El proveedor que aloja la base de datos del banco trata datos por cuenta de este, sin decidir sobre ellos."
+  considerar: "Encargado y responsable tienen obligaciones distintas. Contratar a un tercero no traslada la responsabilidad del tratamiento."
+
+entrega contra pago:
+  ejemplo: "El valor se transfiere si y solo si el pago se transfiere, en la misma operacion."
+  considerar: "Elimina el riesgo de principal y no el de reemplazo. Decir que elimina el riesgo de liquidacion es inexacto y se nota en una revision."
+
+evidencia:
+  ejemplo: "La captura con hora del mensaje fraudulento, tomada durante el incidente y no reconstruida despues."
+  considerar: "La contemporanea vale mucho mas que la posterior. Casi todos los reclamos con razon que se pierden se pierden por falta de evidencia, no de argumento."
+
+excepcion:
+  ejemplo: "Un credito aprobado fuera de politica con doble aprobacion, motivo escrito y revision mensual."
+  considerar: "Un proceso sin via formal de excepcion produce excepciones informales que nadie registra. La via se disena antes de necesitarla."
+
+expediente:
+  ejemplo: "Las doce piezas de una entidad regulada, cada una con la evidencia que la sostiene."
+  considerar: "Los hallazgos no estan dentro de ninguna pieza: aparecen al leer dos juntas. Un expediente se revisa por parejas, no de principio a fin."
+
+explicabilidad:
+  ejemplo: "Un rechazo de credito acompanado del motivo concreto que lo produjo, no del puntaje."
+  considerar: "Es exigible en decisiones que afectan a personas. Un modelo que decide y no explica no se puede defender ante el cliente ni ante el supervisor."
+
+firmeza:
+  ejemplo: "El momento a partir del cual un pago es irrevocable frente a todos, incluida la quiebra del ordenante."
+  considerar: "No coincide con que el dinero aparezca en la cuenta destino. Antes de la firmeza hay reversion posible y despues no, y los fraudes se organizan alrededor de ese instante."
+
+horizonte:
+  ejemplo: "Un objetivo a dieciocho meses que descarta cualquier instrumento con volatilidad relevante."
+  considerar: "Es la variable que mas restringe y la que menos se discute. Elegir el instrumento antes que el horizonte es el error de proceso mas frecuente."
+
+idoneidad:
+  ejemplo: "Comprobar que un producto corresponde al conocimiento, la experiencia y los objetivos de quien lo compra."
+  considerar: "Es distinta de la conveniencia y se exige en situaciones distintas. Registrar por que no se vendio importa tanto como registrar por que si."
+
+independencia:
+  ejemplo: "Un esquema de cinco claves donde ningun grupo de tres comparte ubicacion, dispositivo, proveedor ni jurisdiccion."
+  considerar: "Se mide, no se declara. Cinco partes en el mismo tipo de dispositivo tienen la independencia efectiva de una."
+
+indicador de resultado:
+  ejemplo: "La mora a noventa dias, que confirma lo que la tasa de aprobacion anticipaba dieciocho meses antes."
+  considerar: "Confirma y no anticipa. Un cuadro de mando con solo indicadores de resultado informa de lo que ya no se puede cambiar."
+
+informacion precontractual:
+  ejemplo: "La hoja con la carga anual equivalente entregada antes de firmar, y conservada por el cliente."
+  considerar: "Tiene valor probatorio y desaparece si no se guarda. Lo prometido en la conversacion comercial no obliga; lo escrito, si."
+
+interoperabilidad:
+  ejemplo: "Dos sistemas de pagos inmediatos que se conectan y permiten pagar de uno a otro sin corresponsales."
+  considerar: "Lo dificil no es la conexion tecnica sino la armonizacion de formatos, horarios, identificadores y reglas de finalidad."
+
+linaje:
+  ejemplo: "Una cifra de un informe regulatorio que se puede seguir hacia atras hasta el documento que la origino."
+  considerar: "Se construye o no se tiene: reconstruirlo despues es casi imposible. Es lo que los supervisores piden primero cuando una cifra no cuadra."
+
+liquidacion:
+  ejemplo: "El momento en que los fondos se mueven de verdad entre las cuentas de los dos bancos."
+  considerar: "No es lo mismo que compensar ni que enviar el mensaje. Los tres ocurren en momentos distintos y el cliente los percibe como uno."
+
+limite declarado:
+  ejemplo: "«Esta calculadora no computa la carga anual equivalente, que tiene formula normativa por pais»."
+  considerar: "Una herramienta que no dice lo que no hace se usara para eso. Declarar el limite es parte del entregable, no un descargo."
+
+materialidad:
+  ejemplo: "Un umbral del 1 % de los activos por debajo del cual una diferencia no cambia la decision de un lector."
+  considerar: "La fija quien informa, y por ahi se vacia cualquier obligacion de divulgacion. Conviene saber que umbral se aplico antes de leer las cifras."
+
+minimizacion:
+  ejemplo: "Pedir el saldo de una cuenta cuando basta con saber si supera un importe."
+  considerar: "Es exigible y auditable por alcance. Pedir mas dato del necesario no es prudencia, es un incumplimiento."
+
+modelo de dos niveles:
+  ejemplo: "El banco central emite y los bancos comerciales distribuyen, mantienen la relacion con el cliente y hacen la diligencia."
+  considerar: "Conserva el papel de la banca comercial y por eso es el modelo que casi todos los proyectos eligen. El de un nivel desintermedia por diseno."
+
+periodo de gracia:
+  ejemplo: "Seis meses pagando solo intereses antes de empezar a amortizar capital."
+  considerar: "Baja la cuota inicial y sube el costo total. Si ni siquiera cubre el interes, el saldo crece y aparece amortizacion negativa."
+
+plan de salida:
+  ejemplo: "El procedimiento, el plazo y el costo de dejar a un proveedor, escritos antes de contratarlo."
+  considerar: "Sin el, la relacion con el proveedor deja de ser una decision. Es el requisito que menos se exige al contratar y el que mas cuesta despues."
+
+prelacion:
+  ejemplo: "El orden en que cobran los acreedores: primero los garantizados, despues los ordinarios, al final los subordinados."
+  considerar: "Determina el poder de negociacion de cada acreedor en una reestructuracion. Se conoce antes de sentarse a negociar o no se negocia."
+
+prepago:
+  ejemplo: "Un abono a capital de 500 000 en el mes 8 de un credito a 36 cuotas."
+  considerar: "Su efecto depende de si reduce la cuota o el plazo, y las dos opciones no valen lo mismo. Reducir plazo ahorra mas intereses."
+
+profundidad:
+  ejemplo: "El volumen que se puede operar sin mover el precio mas de un punto basico."
+  considerar: "Es la dimension de liquidez que decide el impacto de una venta, y no se publica. El volumen, que si se publica, no la predice."
+
+punto de quiebre:
+  ejemplo: "La caida de ventas del 22 % que lleva la cobertura del servicio de deuda a uno."
+  considerar: "Se compara con la variabilidad historica. Si el punto de quiebre esta dentro de lo que ya ocurrio, el credito no es prudente."
+
+perdida esperada:
+  ejemplo: "Probabilidad de incumplimiento por severidad por exposicion: 2,1 % x 45 % x 12 000 000."
+  considerar: "Se cubre con provisiones y con el precio, no con capital. Confundirla con la inesperada lleva a capitalizar lo que habia que cobrar."
+
+quita:
+  ejemplo: "El acreedor condona el 30 % del capital a cambio de cobrar el resto en un plazo cierto."
+  considerar: "Solo conviene si el valor presente de lo que se cobra supera al de la liquidacion. Es un calculo, no una concesion."
+
+recuperacion:
+  ejemplo: "Lo que se obtiene de una garantia tras plazo, costos y descuento de venta forzada."
+  considerar: "El valor de tasacion y el de recuperacion difieren en decenas de por ciento. Solo el segundo entra en el calculo de la severidad."
+
+reestructuracion:
+  ejemplo: "Ampliar el plazo de un credito de 36 a 60 cuotas para que la cuota quepa en el flujo del deudor."
+  considerar: "Funciona si el problema es de liquidez y solo pospone si es de viabilidad. El diagnostico va antes que la negociacion."
+
+reflexividad:
+  ejemplo: "Un banco busca liquidez de emergencia, el mercado lo interpreta como debilidad y la salida de depositos se acelera."
+  considerar: "En una crisis cada accion tiene un efecto directo y un efecto de senal, y el segundo puede dominar. Evaluar solo el primero agrava la situacion."
+
+registro de decisiones:
+  ejemplo: "Cada decision de arquitectura con su fecha, su razon, su alternativa descartada y quien la tomo."
+  considerar: "Se escribe cuando se decide o no se escribe. Reconstruirlo despues produce una justificacion, que no es lo mismo que un registro."
+
+revision periodica:
+  ejemplo: "El perimetro regulatorio se vuelve a determinar cada vez que cambia una decision de diseno."
+  considerar: "Lo que se determina una vez caduca. Un analisis correcto hace dieciocho meses puede estar equivocado hoy sin que nadie lo haya notado."
+
+revision posterior:
+  ejemplo: "Tras el incidente, la cronologia con horas, la causa raiz y el control que evita el siguiente."
+  considerar: "Solo funciona si se puede decir lo que paso, y eso exige separarla de la busqueda de responsables."
+
+revocacion:
+  ejemplo: "El cliente retira un consentimiento y los tokens del tercero se invalidan antes de responderle."
+  considerar: "El orden importa: responder antes de invalidar deja una ventana en la que el tercero sigue accediendo."
+
+riesgo de emisor:
+  ejemplo: "El deposito tokenizado de un banco vale lo que valga ese banco."
+  considerar: "Es la diferencia entre liquidar en dinero de banco central y en dinero de banco comercial, y no desaparece por tokenizar el instrumento."
+
+riesgo de liquidacion:
+  ejemplo: "Entregar la divisa en un huso horario y no recibir la contrapartida porque la contraparte quebro mientras tanto."
+  considerar: "Tiene dos componentes: principal y reemplazo. El pago contra pago elimina el primero y deja el segundo, y conviene declararlo asi."
+
+riesgo operacional:
+  ejemplo: "Un pago duplicado por un reintento no controlado, o un fraude interno en la mesa de dinero."
+  considerar: "Produce las perdidas mas frecuentes y no las mayores. Su medicion depende de una base de eventos propia que casi ninguna entidad tiene completa."
+
+saldo ocioso:
+  ejemplo: "Doce millones inmovilizados en cuentas de corresponsalia en cuatro monedas, que no rinden nada."
+  considerar: "Nadie lo factura y todos lo pagan. Es el coste principal del modelo de corresponsalia y el que justifica el neteo."
+
+segmento objetivo:
+  ejemplo: "Dos mil cuatrocientas pymes exportadoras con facturacion entre 200 y 900 millones."
+  considerar: "Si la respuesta es «todos», no hay segmento. Definirlo obliga a renunciar a otros, y esa renuncia es la parte de la estrategia que nadie quiere firmar."
+
+segregacion juridica:
+  ejemplo: "Una clausula que declara que el activo es del cliente y que el custodio no puede disponer de el."
+  considerar: "Es la unica de las tres segregaciones que sirve en un concurso. Las otras dos son operativas y no cambian la prelacion."
+
+tokenizacion:
+  ejemplo: "Dos cosas distintas con el mismo nombre. En medios de pago (Partes 3 y 10): sustituir el numero de tarjeta por un identificador que no sirve fuera de ese comercio. En mercados (Parte 21): trasladar a un registro programable el derecho que antes vivia en otro registro."
+  considerar: "Es un homonimo y no una misma idea aplicada a dos contextos: la primera es una medida de seguridad y la segunda una decision de arquitectura de mercado. En la segunda, si el derecho sigue viviendo en otro registro, la operacion anade una conciliacion en vez de quitarla."
+
+trazabilidad:
+  ejemplo: "Cualquier cifra del informe se puede seguir hasta el documento que la respalda, sin saltos."
+  considerar: "Es lo que permite defender una decision meses despues. Se construye mientras se trabaja; no se puede anadir al final."
+
+unidad indexada:
+  ejemplo: "Una unidad de cuenta que se reajusta con la inflacion y en la que se expresan los creditos hipotecarios."
+  considerar: "Protege al acreedor de la inflacion y traslada ese riesgo al deudor, cuyo sueldo puede no reajustarse al mismo ritmo."
+
+verificacion:
+  ejemplo: "Contrastar la renta declarada con la liquidacion de sueldo y con el movimiento de abono en la cuenta."
+  considerar: "Un documento presentado no es un dato verificado. La diferencia entre las dos cosas decide la calidad de un expediente."

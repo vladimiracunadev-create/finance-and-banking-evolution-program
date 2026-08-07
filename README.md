@@ -22,8 +22,9 @@ Programa abierto de 352 clases con bibliografía oficial verificable en cada una
 [**Programa**](SYLLABUS.md) ·
 [**Estado**](STATUS.md) ·
 [**Ruta**](docs/ruta-aprendizaje.md) ·
-[**Glosario**](docs/glosario.md) ·
-[**Fuentes**](docs/fuentes.md)
+[**Glosario maestro**](docs/glosario-maestro.md) ·
+[**Fuentes**](docs/fuentes.md) ·
+[**Libro completo**](#-el-programa-entero-en-un-documento)
 
 </div>
 
@@ -72,19 +73,8 @@ se puede seguir leyendo de la primera clase a la última.
 Abre el **[portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)**:
 todas las clases navegables, con diagramas renderizados y sin instalar nada.
 
-**¿Quieres el programa entero en un PDF?**
-Genera el documento completo —las 23 partes y las 352 clases seguidas— y guárdalo
-desde el navegador con Ctrl+P → «Guardar como PDF»:
-
-```bash
-python tools/build_book.py
-```
-
-Produce `book/programa-completo.html` para imprimir y `book/programa-completo.md`
-para revisar o convertir con cualquier herramienta. Leer el programa de corrido es
-además la forma de comprobar que el hilo pedagógico se sostiene entero: si una
-clase supone algo que todavía no se ha visto, se nota leyendo seguido y no se nota
-leyendo archivo a archivo.
+**¿Quieres el programa entero en un PDF, o buscar un término?**
+Ver **[El programa entero en un documento](#-el-programa-entero-en-un-documento)**.
 
 **¿Quieres los ejercicios y las herramientas?**
 
@@ -143,6 +133,8 @@ python apps/credit_scoring/demo.py
 <tr><td><b>Analista financiero</b></td><td>Partes 7 – 9 y 13</td><td>Modelamiento, crédito y finanzas corporativas</td></tr>
 <tr><td><b>Profesional bancario</b></td><td>Partes 9 – 12</td><td>Crédito, operaciones, riesgos y cumplimiento</td></tr>
 <tr><td><b>Dirección y gestión</b></td><td>Partes 13 – 16</td><td>Empresa, fintech, estrategia y banco virtual</td></tr>
+<tr><td><b>Finanzas digitales</b></td><td>Partes 17 – 22</td><td>Finanzas abiertas, pagos, DLT, activos digitales y su regulación</td></tr>
+<tr><td><b>Arquitectura de sistemas financieros</b></td><td>Parte 23</td><td>Construir, operar y defender un banco digital completo</td></tr>
 <tr><td><b>Docente</b></td><td><a href="docs/guia-docente.md">Guía docente</a></td><td>Agenda de 90 min y rúbricas por clase</td></tr>
 </tbody>
 </table>
@@ -173,9 +165,15 @@ flowchart LR
     O --> P["Estrategia<br/>y dirección"]
     P --> Q["Proyecto<br/>Banco Virtual"]
   end
+  subgraph DG["Finanzas digitales · Partes 17-23"]
+    R["Finanzas abiertas<br/>y pagos"] --> S["DLT y<br/>activos digitales"]
+    S --> T["Tokenización<br/>y regulación"]
+    T --> U["Capstone<br/>Banco digital"]
+  end
   D --> E
   I --> J
   M --> N
+  Q --> R
 ```
 
 <div align="center">
@@ -186,6 +184,8 @@ flowchart LR
 | 🔵 **Analista** | 5 – 8 | 60 | Lee estados financieros y valora activos |
 | 🟣 **Bancario** | 9 – 12 | 64 | Evalúa crédito, mide riesgo y aplica la norma |
 | 🟠 **Dirección** | 13 – 16 | 60 | Dirige un banco completo y lo defiende |
+| 🔴 **Finanzas digitales** | 17 – 23 | 112 | Construye y defiende la infraestructura digital |
+| | **1 – 23** | **352** | **528 horas de sesión** |
 
 </div>
 
@@ -268,6 +268,43 @@ siete partes están publicadas y cierran el programa. Ver
 | 23 | [Proyecto: banco digital y mercado tokenizado](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) | 18 | Alcance, arquitectura, construcción, tensiones, expediente y defensa |
 
 📖 **[Índice completo de las clases →](SYLLABUS.md)** · 📊 **[Avance real →](STATUS.md)**
+
+---
+
+## 📕 El programa entero en un documento
+
+Las 352 clases se pueden recorrer archivo a archivo en el repositorio, clase a
+clase en el portal, o **de corrido en un solo documento**. Lo último no es solo
+comodidad: leer el programa seguido es la única forma de comprobar que el hilo
+pedagógico se sostiene entero, porque una clase que supone algo que todavía no se
+ha visto se nota leyendo seguido y no se nota leyendo por partes.
+
+```bash
+python tools/build_book.py
+```
+
+| Archivo | Qué es | Cómo se usa |
+|---|---|---|
+| `book/programa-completo.html` | Documento único con hoja de estilo de impresión | Ábrelo y usa **Ctrl+P → «Guardar como PDF»** |
+| `book/programa-completo.md` | El mismo documento en Markdown | Para revisar, buscar o convertir con cualquier herramienta |
+
+Son **más de un millón de palabras** con portada, índice de 380 entradas y salto
+de página por parte y por clase. No se versionan en el repositorio: se generan
+en un minuto y siempre reflejan el estado actual del contenido.
+
+### Buscar un término
+
+| Documento | Qué contiene |
+|---|---|
+| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 176 conceptos** de las 352 clases, alfabéticos, con su definición, dónde se estudian y —los 74 transversales— con ejemplo y advertencia de uso |
+| 📗 **[Glosario general](docs/glosario.md)** | Los términos base del programa, agrupados por tema |
+| 📘 **[Glosario de finanzas digitales](docs/glosario-finanzas-digitales.md)** | Los términos de la Etapa 5, cada uno con su «qué NO significa» |
+| 🧮 **[Formulario](docs/formulas.md)** | Las fórmulas del programa, cada una con su trampa habitual |
+
+El glosario maestro **se genera** desde las tablas de conceptos de las clases, así
+que no puede desviarse de lo que el programa enseña. Y hace visible algo que
+archivo a archivo no se ve: los términos que se definen en varias partes, que a
+veces son el mismo concepto y a veces son homónimos.
 
 ---
 
@@ -385,6 +422,7 @@ Todo el repositorio se valida en cada cambio. Las insignias de arriba reflejan e
 | `tools/check_links.py` | Todos los enlaces relativos del repositorio resuelven |
 | `tools/build_site.py --check` | El portal se genera y sus enlaces resuelven |
 | `tools/build_book.py --check` | El programa completo se genera como un solo documento |
+| `tools/build_glossary.py --check` | El glosario maestro refleja los conceptos de las clases |
 | `tools/validate_metadata.py` | Ninguna norma citada sin fecha de verificación |
 | `tools/validate_openapi.py` | Contratos de API: alcances, errores e importes |
 | `tools/validate_iso20022.py` | Mensajes de pago: campos, formatos y referencia estable |

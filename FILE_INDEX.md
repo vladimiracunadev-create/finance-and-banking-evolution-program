@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**844 archivos de texto versionados.**
+**847 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -146,6 +146,8 @@ repositorio. No se edita a mano.
 - `docs/formulas.md`
 - `docs/fuentes.md`
 - `docs/glosario-finanzas-digitales.md`
+- `docs/glosario-maestro-ampliado.yml`
+- `docs/glosario-maestro.md`
 - `docs/glosario.md`
 - `docs/guia-docente.md`
 - `docs/guia-laboratorios-digitales.md`
@@ -836,6 +838,7 @@ repositorio. No se edita a mano.
 - `tests/test_tokenization_platform.py`
 - `tools/build_book.py`
 - `tools/build_file_index.py`
+- `tools/build_glossary.py`
 - `tools/build_site.py`
 - `tools/build_syllabus.py`
 - `tools/check_links.py`
