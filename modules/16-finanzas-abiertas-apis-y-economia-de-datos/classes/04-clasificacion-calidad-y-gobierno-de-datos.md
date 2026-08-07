@@ -126,6 +126,11 @@ LA CATEGORÍA QUE MÁS SE SUBESTIMA ES LA CUARTA
 
 ### 2. Dato declarado, derivado e inferido
 
+No todo dato tiene el mismo origen, y el origen determina cómo se corrige
+cuando está mal. El bloque separa los tres casos y termina en el que más
+problemas causa: el dato inferido, que el cliente no puede corregir porque ni
+siquiera sabe que existe.
+
 ```text
 DECLARADO   el cliente lo dio:      renta declarada, teléfono
 DERIVADO    se calculó:             gasto medio mensual, deuda total
@@ -183,6 +188,10 @@ contabilización produce categorizaciones desplazadas un día, y el cliente ve u
 gasto en el mes equivocado.
 
 ### 5. Gobierno: quién responde de qué
+
+Gobernar un dato es, sobre todo, poder nombrar a quien responde de él. El
+bloque reparte cinco papeles y cierra con la regla que los hace operativos:
+sin un propietario con nombre y apellido, el dato no sale al exterior.
 
 ```text
 PROPIETARIO DEL DATO      área de negocio; decide finalidad y acceso

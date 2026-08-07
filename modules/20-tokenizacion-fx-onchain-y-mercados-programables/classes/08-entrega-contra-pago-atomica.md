@@ -113,6 +113,10 @@ si no lo están, no hay atomicidad.
 
 ### 1. Qué es y qué no es atomicidad
 
+La atomicidad se define por la ausencia de un estado intermedio observable, y
+no por la rapidez ni por la existencia de una reversión. El bloque precisa la
+definición y cómo se demuestra.
+
 ```text
 ATOMICIDAD ES UNA PROPIEDAD DE UN CONJUNTO
 DE MOVIMIENTOS, NO DE UNA TECNOLOGÍA
@@ -134,6 +138,10 @@ CÓMO SE DEMUESTRA
 ```
 
 ### 2. La condición: mismo registro
+
+La condición que hace posible la atomicidad es que ambos tramos vivan en el
+mismo registro. El bloque explica qué pasa cuando no es así y enumera dónde
+puede estar el dinero para que sí lo sea.
 
 ```text
 SI EL VALOR ESTÁ EN UN REGISTRO
@@ -160,6 +168,10 @@ si un proyecto puede prometerla.
 ```
 
 ### 3. Los modos de fallo que la atomicidad no cubre
+
+Eliminar el riesgo de principal no elimina los demás. El bloque enumera los
+riesgos que sobreviven a la atomicidad, para no venderla como más de lo que
+es.
 
 ```text
 LA ATOMICIDAD ELIMINA EL RIESGO DE PRINCIPAL.
@@ -191,6 +203,10 @@ cubriera todos es el error de esta clase.
 
 ### 4. Diseño de la liquidación
 
+La liquidación atómica tiene una secuencia concreta, y el último paso es el
+que distingue un buen diseño. El bloque la detalla y explica por qué rechazar
+antes de bloquear es mejor que bloquear y revertir.
+
 ```text
 SECUENCIA DE UNA OPERACIÓN ATÓMICA
 
@@ -219,6 +235,9 @@ QUÉ HAY QUE PROBAR
 ```
 
 ### 5. Neteo y atomicidad
+
+Compensar y liquidar atómicamente parecen incompatibles y no lo son. El bloque
+explica cómo se combinan y con qué condición.
 
 ```text
 ¿SE PUEDEN COMBINAR?

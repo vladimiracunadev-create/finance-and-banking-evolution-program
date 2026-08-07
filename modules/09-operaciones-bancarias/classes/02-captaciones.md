@@ -111,6 +111,8 @@ El costo de fondos es el promedio ponderado de todas las fuentes, y es el suelo 
 costo de fondos = Σ (saldo_i × tasa_i) / Σ saldo_i
 ```
 
+El promedio ponderado se calcula fuente a fuente, y la última fila muestra por qué la composición del fondeo importa tanto como su volumen.
+
 ```text
 Fuente                        saldo      tasa     costo
 depósitos a la vista        420 000     0,30 %    1 260
@@ -153,6 +155,8 @@ saldo núcleo = porción de los depósitos a la vista que permanece
 3. segmentar por tipo de cliente y por rango de saldo
 4. estimar el porcentaje que permanece bajo estrés
 ```
+
+Aplicado a dos tipos de depositante, el procedimiento entrega saldos núcleo muy distintos, y esa diferencia es la que se lleva a la gestión de liquidez.
 
 ```text
 depósitos a la vista de personas, análisis de 5 años:
@@ -200,6 +204,8 @@ El diferencial depende de:
 · el costo de otras fuentes alternativas
 ```
 
+Traducidos a un diferencial concreto, esos criterios explican por qué dos depósitos del mismo plazo pagan tasas distintas.
+
 ```text
 ejemplo de estructura:
   depósito a plazo 90 días, minorista, cliente con nómina
@@ -224,6 +230,8 @@ indicadores de concentración:
   · % del fondeo con vencimiento en 30 días
   · % del fondeo sobre el límite de garantía de depósitos
 ```
+
+Puestos uno junto a otro, los indicadores de dos bancos revelan perfiles de fragilidad muy diferentes ante la misma tensión.
 
 ```text
                                         banco A    banco B

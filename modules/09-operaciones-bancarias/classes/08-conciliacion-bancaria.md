@@ -129,6 +129,8 @@ el indicador de calidad de una conciliación NO es que cierre:
 es la ANTIGÜEDAD de sus partidas
 ```
 
+El reporte de antigüedad ordena las partidas por tramos y convierte una conciliación aparentemente sana en una lista de hallazgos.
+
 ```text
 REPORTE DE ANTIGÜEDAD
 

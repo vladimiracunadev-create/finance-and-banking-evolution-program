@@ -110,6 +110,10 @@ La calificación no depende del soporte.
 
 ### 1. Por qué se prohíbe remunerar
 
+La prohibición de remunerar el saldo parece una restricción arbitraria y es la
+pieza que sostiene todo el régimen. El bloque reconstruye qué pasaría sin ella
+hasta llegar a la razón de fondo.
+
 ```text
 SI EL SALDO PAGARA INTERÉS
 
@@ -134,6 +138,10 @@ CONSECUENCIA PARA LAS STABLECOINS
 ```
 
 ### 2. Salvaguarda de fondos
+
+La salvaguarda es lo que separa el dinero del cliente del patrimonio del
+emisor. El bloque describe los dos métodos habituales y lo que hay que
+verificar en cualquiera de ellos.
 
 ```text
 DOS MÉTODOS HABITUALES
@@ -177,6 +185,10 @@ compensar y la salvaguarda se evapora
 
 ### 4. La diferencia que lo explica todo
 
+Una diferencia estructural explica por qué el dinero electrónico puede redimir
+a cualquiera y una stablecoin al portador no. El bloque la expone y muestra
+que de ahí nacen todas las restricciones vistas en la clase 3.
+
 ```text
 DINERO ELECTRÓNICO
   el saldo vive en el sistema del emisor
@@ -200,6 +212,10 @@ UN PRODUCTO MÁS FRÁGIL.
 ```
 
 ### 5. Sustancia sobre forma
+
+La calificación no depende del nombre del producto sino de cuatro
+características objetivas. El bloque las convierte en preguntas y extrae la
+consecuencia práctica para un proyecto que se presenta con otra etiqueta.
 
 ```text
 PREGUNTAS QUE DETERMINAN LA CALIFICACIÓN

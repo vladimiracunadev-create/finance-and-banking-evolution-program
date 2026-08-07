@@ -104,6 +104,10 @@ LA PREGUNTA ES «¿QUÉ PUEDE DEMOSTRAR CADA PARTE?»
 
 ### 1. Los tres factores y la trampa de la independencia
 
+Dos factores de categorías distintas no bastan si un mismo compromiso los
+derriba a los dos. El bloque enumera las categorías y desarrolla la
+combinación más extendida, que parece cumplir la regla y no la cumple.
+
 ```text
 CONOCIMIENTO   contraseña, PIN, respuesta secreta
 POSESIÓN       dispositivo registrado, tarjeta, llave física
@@ -128,6 +132,10 @@ OTRAS COMBINACIONES QUE FALLAN LA INDEPENDENCIA
 ```
 
 ### 2. Vinculación dinámica
+
+Autenticar a la persona y autorizar una operación concreta no son lo mismo. El
+bloque contrasta ambos casos y añade la parte que se olvida: lo que el cliente
+tiene que leer en la pantalla mientras confirma.
 
 ```text
 SIN VINCULACIÓN
@@ -177,6 +185,10 @@ EL TERCERO ES EL QUE CRECE
 
 ### 4. La evidencia que decide un reclamo
 
+Un reclamo se gana o se pierde por lo que se registró en el momento de
+autorizar. El bloque fija los ocho elementos mínimos y destaca el que falta
+casi siempre, que es justo el que rebate la alegación más habitual.
+
 ```text
 MÍNIMO PARA SOSTENER «la operación fue autorizada»
 
@@ -194,6 +206,10 @@ EL PUNTO 4 ES EL QUE FALTA CASI SIEMPRE
 ```
 
 ### 5. La matriz de responsabilidad
+
+Repartir responsabilidad no se hace caso a caso, sino con un árbol de
+decisión que se aplica igual a todos. El bloque lo recorre en el orden en que
+se comprueban las condiciones.
 
 ```text
 TRES PARTES: cliente, iniciador, institución de la cuenta

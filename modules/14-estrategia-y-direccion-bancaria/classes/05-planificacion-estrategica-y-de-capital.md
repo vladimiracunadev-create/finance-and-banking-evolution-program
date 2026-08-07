@@ -142,6 +142,8 @@ COMPONENTES OBLIGATORIOS
   10. sensibilidad a los supuestos críticos
 ```
 
+De todos los componentes, cinco supuestos concentran la sensibilidad del plan, y son los que el supervisor revisará primero.
+
 ```text
 LOS SUPUESTOS QUE MÁS IMPORTAN
   1. crecimiento del mercado y cuota

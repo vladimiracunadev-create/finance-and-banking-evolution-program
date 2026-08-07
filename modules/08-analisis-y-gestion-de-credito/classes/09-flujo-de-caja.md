@@ -150,6 +150,8 @@ cada supuesto debe tener una fuente:
   · impuestos                  → tasa efectiva histórica
 ```
 
+Con supuestos tomados de fuentes verificables, y no de lo que declara la empresa, la proyección del primer año queda así.
+
 ```text
 PROYECCIÓN AÑO 1
   ingresos: +4,0 % (crecimiento del sector, no del 8 % declarado por la empresa)
@@ -199,6 +201,8 @@ PRUEBA 2 — compresión de margen
   PUNTO DE QUIEBRE: margen de 9,03 % (vs. 9,5 % proyectado)
 ```
 
+La tercera prueba repite el método sobre la variable financiera, que es la que la empresa no controla.
+
 ```text
 PRUEBA 3 — alza de tasas
   la deuda a tasa variable es 24 000
@@ -207,6 +211,8 @@ PRUEBA 3 — alza de tasas
   
   PUNTO DE QUIEBRE: +196 puntos base
 ```
+
+La cuarta prueba toca la variable operativa más sensible, y su holgura resulta ser la más estrecha de las cuatro.
 
 ```text
 PRUEBA 4 — deterioro de cobranza
@@ -226,6 +232,8 @@ Del flujo disponible salen el monto y el plazo que la empresa puede soportar. El
 ```text
 servicio máximo sostenible = flujo disponible / DSCR objetivo
 ```
+
+Con la cobertura objetivo y el flujo proyectado, el cálculo dice cuánto servicio soporta la empresa y lo compara con el que ya tiene.
 
 ```text
 flujo disponible proyectado 5 321 · DSCR objetivo 1,30x

@@ -117,6 +117,10 @@ CONFUNDIRLOS ES EL ERROR MÁS FRECUENTE
 
 ### 1. Qué crea la ley y qué no
 
+La forma más rápida de entender una ley marco es contrastar lo que crea con lo
+que deliberadamente deja fuera. La segunda columna del bloque evita el error
+más caro de esta parte: dar por autorizado lo que la ley nunca autorizó.
+
 ```text
 CREA
   · un registro de prestadores de servicios financieros ante la CMF
@@ -156,6 +160,10 @@ EL CRITERIO ES LA ACTIVIDAD, NO LA TECNOLOGÍA
 ```
 
 ### 3. Las figuras del Sistema de Finanzas Abiertas
+
+El Sistema define tres figuras con obligaciones crecientes: la que custodia el
+dato, la que lo consume y la que además mueve dinero. Cada escalón añade
+requisitos a los del anterior, no los sustituye.
 
 ```text
 INSTITUCIÓN PROVEEDORA DE INFORMACIÓN
@@ -207,6 +215,10 @@ PASO 7 · ANEXOS TÉCNICOS
 ```
 
 ### 5. Las otras autoridades
+
+La inscripción ante la CMF no agota el mapa regulatorio. Un producto de
+finanzas abiertas toca, según lo que haga, a tres autoridades más, y cada una
+tiene competencias propias que no se delegan entre sí.
 
 ```text
 COMISIÓN PARA EL MERCADO FINANCIERO

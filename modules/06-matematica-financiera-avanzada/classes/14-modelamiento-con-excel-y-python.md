@@ -101,6 +101,8 @@ ESTRUCTURA DE HOJAS
   08_Registro      historial de cambios
 ```
 
+A la organización de las hojas se le añade un conjunto de convenciones visuales, que es lo que permite a un revisor externo entender el modelo sin preguntar.
+
 ```text
 CONVENCIONES
   · azul   = entrada manual

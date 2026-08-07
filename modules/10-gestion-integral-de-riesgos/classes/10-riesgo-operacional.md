@@ -225,6 +225,8 @@ JERARQUÍA DE CONTROLES (de más a menos efectivo)
   7. ACEPTAR       decisión documentada, dentro del apetito
 ```
 
+La jerarquía dice qué control es más efectivo; el principio de proporcionalidad dice cuál conviene implantar, que no siempre es el mismo.
+
 ```text
 PRINCIPIO DE PROPORCIONALIDAD
   el costo del control no debe superar la pérdida esperada que evita

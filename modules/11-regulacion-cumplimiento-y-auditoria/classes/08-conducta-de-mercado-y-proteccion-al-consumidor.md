@@ -128,6 +128,8 @@ CICLO COMPLETO
   8. RETIRO         con plan de transición para los clientes existentes
 ```
 
+La primera etapa del ciclo se resuelve con preguntas concretas, y una de ellas puede bastar para detener el producto.
+
 ```text
 PREGUNTAS DE LA ETAPA DE DISEÑO
   · ¿el cliente entiende cómo se calcula lo que paga?
@@ -201,6 +203,8 @@ DISEÑO DE INCENTIVOS QUE NO INDUCE DAÑO
   · sin concursos ni premios por volumen de un producto específico
   · el personal de control no se remunera por resultado comercial
 ```
+
+El diseño se valida con una pregunta única, cuya respuesta pesa más que cualquier declaración de principios.
 
 ```text
 PRUEBA DE UN SISTEMA DE INCENTIVOS

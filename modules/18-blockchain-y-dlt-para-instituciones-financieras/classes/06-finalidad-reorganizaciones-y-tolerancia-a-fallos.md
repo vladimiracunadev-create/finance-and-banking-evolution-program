@@ -106,6 +106,10 @@ LAS TRES PUEDEN NO COINCIDIR
 
 ### 1. Finalidad probabilística: cuánto hay que esperar
 
+Cuando la finalidad es probabilística, esperar más bloques reduce el riesgo
+pero nunca lo anula. El bloque muestra cómo cae esa probabilidad y reformula
+la pregunta que conviene hacerse en su lugar.
+
 ```text
 UN ATACANTE QUE CONTROLA UNA FRACCIÓN q DEL PODER
 DE PRODUCCIÓN PUEDE REESCRIBIR LOS ÚLTIMOS BLOQUES
@@ -130,6 +134,10 @@ LE CUESTA AL ATACANTE INTENTARLO?»
 ```
 
 ### 2. Finalidad determinística y su supuesto
+
+Un consenso bizantino sí declara un bloque final, y además hace que romperlo
+sea detectable y penalizable. El bloque explica el mecanismo y, a
+continuación, el supuesto del que depende íntegramente esa garantía.
 
 ```text
 UN CONSENSO BIZANTINO DECLARA UN BLOQUE FINAL
@@ -173,6 +181,10 @@ LA MAYORÍA DE LAS REORGANIZACIONES NO SON ATAQUES
 
 ### 4. Finalidad jurídica: lo que el software no da
 
+Existe una tercera finalidad que ningún programa puede otorgarse a sí mismo:
+la que reconoce el ordenamiento jurídico. El bloque explica de dónde viene y
+qué le ocurre a un registro que no la tiene.
+
 ```text
 LAS NORMAS DE SISTEMAS DE PAGO DEFINEN UN MOMENTO
 A PARTIR DEL CUAL UNA TRANSFERENCIA ES IRREVOCABLE
@@ -198,6 +210,10 @@ LA PREGUNTA QUE HAY QUE HACER AL ASESOR JURÍDICO
 ```
 
 ### 5. Política de aceptación
+
+La política de aceptación traduce todo lo anterior en una regla operativa que
+puede aplicar quien atiende al cliente. El bloque fija su contenido mínimo y
+propone una estructura por tramos de importe.
 
 ```text
 UNA POLÍTICA DE ACEPTACIÓN DICE, POR TRAMO DE IMPORTE

@@ -107,6 +107,10 @@ un punto único de fallo y de gobierno.
 
 ### 1. Puentes
 
+La primera opción es la más conocida y la que más incidentes acumula. El
+bloque describe cómo funciona y por qué el riesgo no se mide por operación
+sino por todo lo acumulado.
+
 ```text
 CÓMO FUNCIONA
 
@@ -134,6 +138,9 @@ REGLA DE LA PARTE 19, CLASE 11, APLICADA
 
 ### 2. Enlace directo
 
+La segunda opción evita representar nada: cada activo se queda donde está y
+solo se coordina la liquidación. El bloque expone su ventaja y su coste.
+
 ```text
 LAS DOS INFRAESTRUCTURAS SE CONECTAN
 Y COORDINAN LA LIQUIDACIÓN
@@ -159,6 +166,9 @@ EXIGE
 ```
 
 ### 3. Participante común
+
+La tercera opción no necesita acuerdo entre infraestructuras porque reproduce
+un mecanismo antiguo. El bloque la describe y la nombra por lo que es.
 
 ```text
 UNA ENTIDAD ESTÁ EN AMBAS INFRAESTRUCTURAS
@@ -186,6 +196,10 @@ CUÁNDO SE USA
 
 ### 4. El umbral efectivo
 
+Un umbral de firma anuncia una independencia que casi nunca existe en esa
+cantidad. El bloque aplica la medición de la parte anterior y añade el cálculo
+que falta.
+
 ```text
 UN PUENTE CON FIRMA 5-DE-9 NO TIENE
 NECESARIAMENTE 9 INDEPENDENCIAS
@@ -208,6 +222,9 @@ CÁLCULO ADICIONAL
 ```
 
 ### 5. Consolidación
+
+La cuarta opción elimina el problema haciendo desaparecer la frontera, y crea
+otros. El bloque enumera unas y otros, y devuelve la pregunta de fondo.
 
 ```text
 UN SOLO REGISTRO CON DINERO Y ACTIVOS

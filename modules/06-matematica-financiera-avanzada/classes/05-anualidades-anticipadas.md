@@ -157,6 +157,8 @@ Combinando las dos variantes anteriores se cubren casi todos los casos práctico
 VP = A × ä(n,i) × (1+i)^-k
 ```
 
+Un contrato de arrendamiento financiero con periodo de gracia reúne los tres elementos a la vez, y permite ver el orden de las operaciones.
+
 ```text
 leasing con 3 meses de gracia y 24 cuotas anticipadas de 850 000, i = 1,05 %
 

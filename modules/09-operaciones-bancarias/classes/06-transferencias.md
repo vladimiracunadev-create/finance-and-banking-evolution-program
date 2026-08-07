@@ -126,6 +126,8 @@ La firmeza no ocurre cuando el dinero aparece en la cuenta destino, y esa difere
 FIRMEZA = momento desde el cual el pago no puede revocarse
 ```
 
+La diferencia entre antes y después de ese momento se aprecia enumerando qué se puede hacer en cada tramo.
+
 ```text
 antes de la firmeza:
   · el pago puede anularse por error operativo

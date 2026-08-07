@@ -157,6 +157,11 @@ NINGUNO ES SUPERIOR EN ABSTRACTO
 
 ### 3. Quién es quién
 
+El modelo reparte el trabajo entre cinco figuras, y cada una tiene una
+obligación distinta. Conviene fijarlas ahora porque el resto de la parte se
+apoya en estos nombres: cuando más adelante se diga «el proveedor de
+iniciación», se estará hablando exactamente de la cuarta.
+
 ```text
 CLIENTE
   titular del dato y de la cuenta; otorga y revoca
@@ -182,6 +187,11 @@ está en su panel de consentimientos y, sin embargo, su caída deja sin servicio
 todo el sistema.
 
 ### 4. Reciprocidad y acceso obligatorio
+
+Dos reglas sostienen que el modelo arranque y que se mantenga en pie. La
+primera obliga a abrir; la segunda impide que abrir sea un mal negocio para
+quien abre. El bloque las separa porque un sistema puede tener la primera sin
+la segunda, y ahí es donde aparece el desequilibrio.
 
 ```text
 ACCESO OBLIGATORIO

@@ -144,6 +144,8 @@ la TIR supone implícitamente que los flujos intermedios
 se reinvierten a la propia TIR hasta el final del proyecto
 ```
 
+Puesto sobre una cifra concreta, el supuesto deja de sonar razonable: basta compararlo con el costo de capital de la propia empresa.
+
 ```text
 proyecto con TIR de 38 %
 ¿es realista suponer que los flujos anuales se reinvertirán al 38 %?
@@ -186,6 +188,8 @@ La TIRM corrige el supuesto de reinversión usando una tasa realista. El procedi
 ```text
 TIRM = [VF de las entradas a la tasa de reinversión / VP de las salidas a la tasa de financiamiento]^(1/n) − 1
 ```
+
+Sobre el mismo flujo de antes, la tasa modificada se calcula en dos etapas y entrega un resultado que sí es comparable entre proyectos.
 
 ```text
 FCF: −100 000, 35 000, 40 000, 45 000, 30 000

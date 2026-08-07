@@ -105,6 +105,10 @@ ES EL PRODUCTO
 
 ### 1. De la clave a la dirección
 
+Una dirección no se elige: se deriva de una clave privada mediante una cadena
+de operaciones. El bloque la recorre y se detiene en los dos pasos donde un
+descuido convierte fondos en pérdida definitiva.
+
 ```text
 1. se genera una clave privada: un número aleatorio
    de suficiente entropía
@@ -150,6 +154,10 @@ LA DIFERENCIA ENTRE FIRMA MÚLTIPLE Y MULTIPARTE
 
 ### 3. Elegir el umbral
 
+En un esquema de firma múltiple, el umbral es la única decisión que importa y
+tiene dos formas opuestas de estar mal. El bloque expone la tensión y da el
+método para resolverla con datos propios en vez de con una cifra de manual.
+
 ```text
 UN ESQUEMA m-de-n TIENE DOS FALLOS OPUESTOS
 
@@ -176,6 +184,11 @@ EJEMPLO DE 3-DE-5 BIEN CONSTRUIDO
 
 ### 4. Jerarquías deterministas y su punto único
 
+Derivar todas las claves de una sola semilla simplifica la copia de seguridad
+y concentra el riesgo en un único punto. El bloque expone la ventaja, el
+riesgo evidente y otro menos conocido que se apoya en cómo funciona la
+derivación.
+
 ```text
 UNA SEMILLA GENERA UNA JERARQUÍA COMPLETA DE CLAVES
 
@@ -196,6 +209,10 @@ UNA SEMILLA GENERA UNA JERARQUÍA COMPLETA DE CLAVES
 ```
 
 ### 5. Recuperación: el procedimiento que casi nadie escribe
+
+La recuperación se escribe antes de necesitarla o no existe. El bloque
+enumera las siete preguntas que un procedimiento debe responder y señala la
+que, al quedar sin respuesta, invalida a las otras seis.
 
 ```text
 UN PROCEDIMIENTO DE RECUPERACIÓN RESPONDE

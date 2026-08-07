@@ -114,6 +114,8 @@ TASA MÍNIMA DE UN CRÉDITO (Parte 11, clase 14)
   + margen objetivo
 ```
 
+La misma lógica de piso se traslada a los otros dos casos, con la diferencia de que en el depósito los términos se restan en vez de sumarse.
+
 ```text
 PRECIO DE UN SERVICIO SIN BALANCE
   costo operativo por unidad (costeo por actividad)
@@ -177,6 +179,8 @@ COMPONENTES POSIBLES
   · comisión por evento (mora, prepago, cambio)
   · margen implícito (tipo de cambio, plazo de liquidación)
 ```
+
+Elegidos los componentes, quedan dos principios que determinan si la estructura resultante es defendible ante el cliente y ante el supervisor.
 
 ```text
 DOS PRINCIPIOS DE DISEÑO

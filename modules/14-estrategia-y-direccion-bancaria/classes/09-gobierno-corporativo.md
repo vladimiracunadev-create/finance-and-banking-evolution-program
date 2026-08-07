@@ -117,6 +117,8 @@ GERENCIA GENERAL Y COMITÉS DE GESTIÓN
   ejecuta dentro del marco aprobado
 ```
 
+Dentro de esa estructura hay una frontera que el organigrama no dibuja y que es la que más se difumina en la práctica.
+
 ```text
 LA DISTINCIÓN QUE MÁS SE DIFUMINA
   el directorio DIRIGE y VIGILA; la gerencia EJECUTA

@@ -108,6 +108,10 @@ ESA PREGUNTA VA PRIMERO, y es la de la clase 3.
 
 ### 1. Qué da la norma y qué da el contrato
 
+La protección del cliente puede venir de la norma o solo del contrato, y la
+diferencia se nota el día del concurso. El bloque contrasta ambos casos y da
+la prueba para saber en cuál se está.
+
 ```text
 CUANDO EL RÉGIMEN DE VALORES APLICA
   · segregación jurídica por norma
@@ -128,6 +132,10 @@ LA PRUEBA
 ```
 
 ### 2. Reutilización
+
+Reutilizar el activo del cliente es lícito bajo condiciones estrictas, y son
+esas condiciones las que hay que verificar. El bloque describe la práctica y
+lo que la norma exige cuando la permite.
 
 ```text
 EL CUSTODIO USA EL ACTIVO DEL CLIENTE
@@ -157,6 +165,9 @@ INDICADOR ÚTIL
 
 ### 3. Las preguntas del supervisor
 
+Un supervisor plantea siempre las mismas seis preguntas sobre custodia. El
+bloque las enumera y señala en cuál se falla con más frecuencia.
+
 ```text
 SEIS QUE SIEMPRE APARECEN
 
@@ -178,6 +189,10 @@ nunca especifica.
 
 ### 4. Conciliación como obligación
 
+La palabra «periódica» en una obligación de conciliar admite lecturas muy
+distintas. El bloque compara lo que la norma suele exigir con lo que hace
+falta, y nombra la brecha.
+
 ```text
 LO QUE UNA NORMA SUELE EXIGIR
   «conciliación periódica»
@@ -198,6 +213,10 @@ LA BRECHA
 ```
 
 ### 5. El día del concurso
+
+El día del concurso, el administrador recorre cinco preguntas en orden, y de
+las respuestas depende qué recupera cada cliente. El bloque las enumera con
+sus desenlaces.
 
 ```text
 ORDEN DE PREGUNTAS DEL ADMINISTRADOR

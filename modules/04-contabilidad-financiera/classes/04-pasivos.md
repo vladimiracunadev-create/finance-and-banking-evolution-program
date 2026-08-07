@@ -148,6 +148,8 @@ mejor estimación del desembolso necesario
 si el efecto del tiempo es significativo → valor presente
 ```
 
+Sobre datos históricos de la propia empresa, la estimación deja de ser una opinión y se convierte en un cálculo que el auditor puede revisar.
+
 ```text
 provisión por garantías:
   ventas del periodo                 8 000 000 unidades monetarias

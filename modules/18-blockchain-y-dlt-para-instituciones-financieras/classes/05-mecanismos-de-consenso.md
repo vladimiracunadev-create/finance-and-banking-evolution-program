@@ -131,6 +131,10 @@ LA FILA QUE DECIDE EN UN CONSORCIO FINANCIERO
 
 ### 2. El umbral bizantino y por qué es un tercio
 
+La cifra de un tercio no es una convención: se deduce de contar cuántas
+respuestas hacen falta para que las honestas sean mayoría. El bloque hace la
+deducción y la aplica a dos tamaños de red.
+
 ```text
 CON n NODOS Y f DEFECTUOSOS
 
@@ -156,6 +160,10 @@ LA CUENTA QUE HAY QUE HACER EN UN CONSORCIO
 
 ### 3. El coste en mensajes
 
+El coste de un consenso bizantino clásico crece con el cuadrado del número de
+participantes, y eso decide dónde se puede usar. El bloque pone las cifras y
+extrae la frontera práctica entre red abierta y consorcio.
+
 ```text
 UN PROTOCOLO BIZANTINO CLÁSICO INTERCAMBIA
 MENSAJES EN CADA RONDA
@@ -176,6 +184,10 @@ EN UN CONSORCIO DE 5 A 20 PARTICIPANTES
 ```
 
 ### 4. De qué depende la seguridad de cada familia
+
+Cada familia de consenso apoya su seguridad en un supuesto económico distinto,
+y conviene saber cuál es para saber cuándo deja de sostenerse. El bloque los
+enuncia uno a uno con la condición que los rompe.
 
 ```text
 PRUEBA DE TRABAJO
@@ -201,6 +213,10 @@ BIZANTINO ENTRE CONOCIDOS
 ```
 
 ### 5. Quién ordena y por qué importa
+
+Quien produce un bloque decide qué entra y en qué orden, y eso es poder
+económico en cualquiera de las tres familias. El bloque describe lo que puede
+hacer y los controles que lo acotan.
 
 ```text
 EL PRODUCTOR DE UN BLOQUE ELIGE QUÉ INCLUIR

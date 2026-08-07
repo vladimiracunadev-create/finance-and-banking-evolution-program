@@ -125,6 +125,10 @@ LA TOKENIZACIÓN HACE BARATA LA SEGREGADA
 
 ### 2. La cadena de custodia
 
+Entre el titular final y el registro puede haber varios intermediarios, y cada
+uno añade riesgos. El bloque dibuja la cadena y enumera lo que aporta cada
+eslabón.
+
 ```text
 UNA POSICIÓN PUEDE ATRAVESAR VARIOS
 INTERMEDIARIOS
@@ -153,6 +157,10 @@ QUÉ NO CAMBIA
 ```
 
 ### 3. Concurso del custodio
+
+La pregunta sobre quién es dueño del activo custodiado se responde de forma
+distinta en valores que en criptoactivos. El bloque explica por qué y marca el
+límite de esa respuesta.
 
 ```text
 LA PREGUNTA DE LA CLASE 12, APLICADA
@@ -183,6 +191,9 @@ DE LA CLASE 1.
 
 ### 4. La conciliación a tres bandas
 
+Con tres registros en juego, la conciliación deja de ser una comparación entre
+dos. El bloque explica la diferencia y fija el procedimiento.
+
 ```text
 TRES REGISTROS QUE DEBEN COINCIDIR
 
@@ -208,6 +219,10 @@ QUIÉN LO HACE
 ```
 
 ### 5. Sustitución del custodio
+
+Sustituir al custodio es un plan que solo se echa en falta cuando ya es
+urgente. El bloque enumera sus elementos, empezando por los que hay que tener
+listos de antemano.
 
 ```text
 EL PLAN QUE NADIE ESCRIBE HASTA QUE

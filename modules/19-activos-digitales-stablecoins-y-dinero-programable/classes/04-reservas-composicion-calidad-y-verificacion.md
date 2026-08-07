@@ -117,6 +117,10 @@ SIN QUE NADIE HAYA MENTIDO
 
 ### 2. El descalce que el porcentaje oculta
 
+El porcentaje de cobertura publicado puede ser idéntico en dos reservas que se
+comportan de forma opuesta bajo tensión. El bloque las compara y simula sobre
+ambas una misma oleada de redenciones.
+
 ```text
 DOS RESERVAS CON LA MISMA COBERTURA DEL 102 %
 
@@ -136,6 +140,11 @@ DOS RESERVAS CON LA MISMA COBERTURA DEL 102 %
 
 ### 3. Descuento por venta forzada
 
+Valorar una cartera y venderla son dos cosas distintas, y la diferencia
+aparece justo cuando hace falta el dinero. El bloque ordena los activos por
+impacto de venta y propone tratarlo como una regla de trabajo, no como una
+opinión.
+
 ```text
 EL PRECIO DE PANTALLA NO ES EL PRECIO DE VENTA
 
@@ -153,6 +162,10 @@ REGLA DE TRABAJO
 ```
 
 ### 4. Atestación, revisión y auditoría
+
+Los tres informes que un emisor puede publicar se citan como equivalentes y no
+lo son. El bloque los distingue por alcance y por el tipo de conclusión que
+cada uno permite emitir.
 
 ```text
 NO SON LO MISMO Y LA DIFERENCIA ES GRANDE
@@ -181,6 +194,10 @@ QUÉ PREGUNTAR SIEMPRE
 ```
 
 ### 5. Segregación
+
+La segregación no cambia nada mientras el emisor esté sano y lo cambia todo si
+deja de estarlo. El bloque plantea las tres preguntas que determinan qué
+recuperan los tenedores en ese escenario.
 
 ```text
 LA PREGUNTA QUE SOLO IMPORTA EN LA QUIEBRA

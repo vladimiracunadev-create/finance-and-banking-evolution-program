@@ -126,6 +126,8 @@ suma asegurada = deudas totales
                − activos líquidos disponibles
 ```
 
+La fórmula se entiende mejor con cifras de un hogar concreto, donde cada sumando corresponde a una obligación que quedaría sin cubrir.
+
 ```text
 ejemplo: deudas 42 000 000 + (21 000 000 × 10) + educación 30 000 000 − activos 8 000 000
        = 274 000 000
@@ -151,6 +153,8 @@ Si aseguras por menos del valor real, la indemnización se reduce en proporción
 ```text
 indemnización = pérdida × (suma asegurada / valor real)
 ```
+
+Aplicada a un caso, la regla muestra cuánto pierde el asegurado por haber declarado una suma inferior al valor real del bien.
 
 ```text
 vivienda con valor de reconstrucción 80 000 000, asegurada en 50 000 000

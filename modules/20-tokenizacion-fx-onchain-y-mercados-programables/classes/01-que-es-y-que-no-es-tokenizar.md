@@ -113,6 +113,10 @@ EL PROYECTO NO EXISTE: es una demostración.
 
 ### 1. Cuatro cosas que no son lo mismo
 
+Cuatro palabras se usan como sinónimos en las presentaciones y describen
+procesos distintos, tres de los cuales ocurrieron antes. El bloque las separa
+para poder decir después qué es exactamente lo nuevo.
+
 ```text
 DESMATERIALIZACIÓN
   el título en papel desaparece
@@ -141,6 +145,10 @@ EMISIÓN NATIVA
 
 ### 2. El derecho no cambia por representarlo
 
+Representar un derecho en otro registro no altera el derecho. El bloque
+enumera lo que permanece intacto y, a continuación, la lista más corta de lo
+que efectivamente cambia.
+
 ```text
 UN BONO TOKENIZADO SIGUE SIENDO UN BONO
 
@@ -163,6 +171,10 @@ LO QUE NO CAMBIA
 ```
 
 ### 3. El envoltorio, y por qué complica todo
+
+Cuando el derecho no puede anotarse directamente, se interpone un vehículo, y
+con él aparecen riesgos nuevos. El bloque describe la estructura y las
+consecuencias que suelen quedar fuera del material comercial.
 
 ```text
 CUANDO EL DERECHO NO PUEDE ANOTARSE
@@ -188,6 +200,10 @@ REGLA
 ```
 
 ### 4. Qué se gana de verdad
+
+Conviene revisar uno a uno los beneficios que se prometen y preguntar de dónde
+salen. El bloque lo hace y muestra que la mayoría depende de decisiones ajenas
+al registro.
 
 ```text
 BENEFICIOS PROMETIDOS Y SU ORIGEN REAL
@@ -217,6 +233,10 @@ DE CINCO PROMESAS, DOS RESISTEN.
 ```
 
 ### 5. Cuándo la respuesta es no tokenizar
+
+Hay señales que indican que un proyecto de tokenización no procede, y
+detectarlas a tiempo ahorra el resto del trabajo. El bloque las enumera con el
+criterio de decisión.
 
 ```text
 SEÑALES DE QUE EL PROYECTO NO PROCEDE

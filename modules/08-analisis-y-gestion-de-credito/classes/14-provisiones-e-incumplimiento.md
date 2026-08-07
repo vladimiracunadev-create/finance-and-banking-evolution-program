@@ -224,6 +224,8 @@ INDICADORES
   provisiones / pérdida esperada calculada
 ```
 
+Los indicadores cobran sentido al compararlos entre dos entidades del mismo mercado y de tamaño parecido.
+
 ```text
                               banco A    banco B
 cartera total                 840 000    920 000
@@ -232,6 +234,8 @@ provisiones                    24 400     14 700
 cobertura de mora               116 %       80 %
 cobertura de cartera            2,90 %     1,60 %
 ```
+
+La combinación de menos mora y menos cobertura admite varias lecturas, y distinguirlas es el trabajo del analista.
 
 ```text
 banco B tiene MENOS mora y MENOS cobertura

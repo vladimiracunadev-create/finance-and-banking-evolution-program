@@ -117,6 +117,10 @@ DÓNDE SÍ APORTA
 
 ### 1. Formación del precio en el mayorista
 
+El mercado mayorista de divisas es la referencia contra la que se mide
+cualquier alternativa, así que conviene saber por qué es tan eficiente. El
+bloque enumera las razones.
+
 ```text
 POR QUÉ EL DIFERENCIAL ES TAN ESTRECHO
 
@@ -135,6 +139,9 @@ COMPARAR CUALQUIER ALTERNATIVA.
 ```
 
 ### 2. Formación del precio en un registro
+
+Dentro de un registro, el precio puede formarse de tres maneras, y solo dos lo
+forman de verdad. El bloque las describe con sus problemas asociados.
 
 ```text
 TRES MECANISMOS POSIBLES
@@ -165,6 +172,10 @@ EN LA PRÁCTICA, CASI TODO ES A o C.
 
 ### 3. Los tramos ocultos
 
+El precio que ve el usuario no incluye la mayor parte de lo que paga. El
+bloque enumera los seis tramos de coste y propone la comparación honesta con
+la ruta tradicional.
+
 ```text
 EL PRECIO MOSTRADO NO ES EL COSTE TOTAL
 
@@ -186,6 +197,10 @@ LA COMPARACIÓN HONESTA
 ```
 
 ### 4. Qué riesgo queda
+
+Cambiar divisa en un registro no elimina el riesgo de mercado, aunque sí puede
+eliminar otro. El bloque distingue ambos y precisa la condición para lo
+segundo.
 
 ```text
 UN CAMBIO EN REGISTRO NO ELIMINA
@@ -210,6 +225,9 @@ SI UNA PATA ESTÁ FUERA
 ```
 
 ### 5. Cuándo aporta y cuándo no
+
+La respuesta a si conviene depende del par y de la arquitectura. El bloque
+reparte los casos en dos listas con el motivo de cada uno.
 
 ```text
 APORTA

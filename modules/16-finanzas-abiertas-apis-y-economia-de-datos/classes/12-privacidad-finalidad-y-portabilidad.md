@@ -105,6 +105,11 @@ TENER ACCESO NO ES TENER PERMISO DE USO
 
 ### 1. Base de licitud, finalidad y consentimiento
 
+Tres términos que en las conversaciones de producto se usan como sinónimos
+designan cosas distintas, y confundirlos lleva a pedir consentimiento donde no
+hace falta o a no pedirlo donde sí. El bloque los separa y saca la
+consecuencia práctica.
+
 ```text
 NO SON SINÓNIMOS
 
@@ -128,6 +133,10 @@ CONSECUENCIA PRÁCTICA
 
 ### 2. Minimización con criterio operativo
 
+Minimizar no es una declaración de intenciones: es una prueba que se aplica
+campo a campo. El bloque propone la pregunta, clasifica las respuestas
+posibles y recuerda que la granularidad también se minimiza.
+
 ```text
 LA PRUEBA DE LA MINIMIZACIÓN
 
@@ -149,6 +158,10 @@ MINIMIZACIÓN NO ES SOLO «MENOS CAMPOS»
 ```
 
 ### 3. Limitación de la finalidad y tratamiento ulterior
+
+Reutilizar datos ya obtenidos para una finalidad nueva es la tentación más
+frecuente y la que más expedientes genera. El bloque plantea el caso típico y
+enumera los criterios con los que se analiza la compatibilidad.
 
 ```text
 EL CASO TÍPICO
@@ -174,6 +187,11 @@ EL CRITERIO 4 ES EL DECISIVO EN FINANZAS
 
 ### 4. Retención por finalidad
 
+Una retención única para todo el conjunto siempre está mal: o borra antes de
+tiempo lo que hay que conservar, o conserva de más lo que debería
+desaparecer. El bloque muestra la forma correcta, con una fila por finalidad y
+su fundamento.
+
 ```text
 UNA POLÍTICA DE RETENCIÓN TIENE UNA FILA POR FINALIDAD,
 NO UNA CIFRA GLOBAL
@@ -196,6 +214,10 @@ REGLAS
 
 ### 5. Portabilidad y sus límites
 
+La portabilidad se enuncia como un derecho amplio y tiene bordes concretos. El
+bloque separa lo que permite de lo que no, y termina en la tensión que no se
+resuelve del todo: los datos propios contienen datos de otras personas.
+
 ```text
 QUÉ PERMITE
   recibir los datos propios en formato estructurado
@@ -216,6 +238,10 @@ LA TENSIÓN REAL
 ```
 
 ### 6. Los tres planos que no hay que confundir
+
+Muchas discusiones de producto se estancan porque tres preguntas distintas se
+mezclan en una sola. El bloque las separa, muestra que son independientes
+entre sí y ofrece la pregunta que ordena la tercera.
 
 ```text
 TÉCNICAMENTE POSIBLE      ¿se puede construir?

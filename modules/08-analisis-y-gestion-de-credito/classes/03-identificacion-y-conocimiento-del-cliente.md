@@ -195,6 +195,8 @@ el perfil declara lo que se ESPERA del cliente:
   · zonas geográficas involucradas
 ```
 
+Redactado para un cliente concreto, el perfil deja de ser una plantilla y se convierte en el patrón contra el que se comparará cada operación.
+
 ```text
 ejemplo de perfil:
   cliente: comerciante minorista, ventas mensuales declaradas 42 millones

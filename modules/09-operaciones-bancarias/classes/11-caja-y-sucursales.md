@@ -130,6 +130,8 @@ de lo que es, y la decisión de cierre se toma con datos incompletos
 dotación = f(transacciones, tiempo por transacción, horario, nivel de servicio)
 ```
 
+Con datos de una sucursal concreta, el cálculo entrega una dotación mínima, que todavía no considera la concentración horaria.
+
 ```text
 transacciones diarias promedio: 340
 tiempo promedio por transacción: 4,2 minutos
@@ -150,6 +152,8 @@ dotación óptima de efectivo equilibra:
   · costo de mantener exceso (oportunidad, seguridad, seguro)
   · costo de las remesas (transporte, riesgo)
 ```
+
+Aplicado a la demanda observada, el mismo criterio de nivel de servicio entrega la dotación de efectivo y su costo diario.
 
 ```text
 demanda diaria promedio de efectivo:    82 millones
@@ -233,6 +237,8 @@ la sucursal deja de ser el canal transaccional y pasa a ser:
   · el canal de la incorporación de clientes con menor autonomía digital
   · el punto de presencia y de confianza
 ```
+
+Ese cambio de función obliga a cambiar también lo que se mide, porque los indicadores antiguos premiarían justo lo que se quiere migrar.
 
 ```text
 INDICADORES DEL NUEVO ROL

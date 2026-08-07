@@ -103,6 +103,10 @@ EL ACTO CENTRAL DE OAUTH
 
 ### 1. Los cuatro papeles
 
+OAuth reparte la conversación entre cuatro papeles, y buena parte de la
+confusión inicial viene de uno de sus nombres. El bloque los enumera y aclara
+enseguida cuál es el malentendido habitual.
+
 ```text
 PROPIETARIO DEL RECURSO     el cliente, dueño de los datos
 CLIENTE                     la aplicación que quiere acceder
@@ -115,6 +119,10 @@ CONFUSIÓN FRECUENTE
 ```
 
 ### 2. El flujo de código, paso a paso
+
+El flujo de código autorización es el único aceptable para finanzas abiertas.
+Conviene leerlo entero una vez, con sus parámetros, porque cada uno de ellos
+existe para cerrar un ataque concreto que se comenta después.
 
 ```text
 1. El cliente redirige el navegador al servidor de autorización con:
@@ -158,6 +166,10 @@ POR QUÉ DOS ETAPAS
 
 ### 3. PKCE: el ataque que corta
 
+PKCE parece un añadido técnico menor hasta que se ve el ataque que impide. El
+bloque reconstruye el robo del código de autorización paso a paso y muestra
+después dónde exactamente se rompe la cadena cuando PKCE está presente.
+
 ```text
 SIN PKCE, EN UN CLIENTE PÚBLICO
 
@@ -183,6 +195,11 @@ REGLA
 
 ### 4. Qué añade OpenID Connect
 
+OAuth autoriza y OpenID Connect identifica: son preguntas distintas y se
+responden con tokens distintos. El bloque contrasta ambas respuestas y detalla
+los campos del token de identidad, que se validan uno a uno en la sección
+siguiente.
+
 ```text
 OAUTH DEVUELVE          un token de acceso: «puede leer X»
 OPENID CONNECT AÑADE    un token de identidad: «el usuario es Y,
@@ -207,6 +224,11 @@ CUÁNDO NO
 ```
 
 ### 5. Validación del token de identidad
+
+Recibir un token de identidad y creérselo es equivalente a no tener
+autenticación. El bloque enumera las seis comprobaciones obligatorias y señala
+cuál de ellas se omite con más frecuencia, junto con lo que esa omisión
+permite.
 
 ```text
 UN TOKEN DE IDENTIDAD SIN VALIDAR ES UN TEXTO CUALQUIERA

@@ -109,6 +109,10 @@ no uno más moderno.
 
 ### 1. Qué cambia y qué no
 
+Tokenizar un depósito cambia el registro y no cambia la relación jurídica. El
+bloque reparte con precisión ambas listas, porque casi todos los malentendidos
+consisten en mover un elemento de la segunda a la primera.
+
 ```text
 CAMBIA
   · el registro donde se anota el saldo
@@ -132,6 +136,10 @@ REGLA
 
 ### 2. Cómo liquida entre dos bancos
 
+Una transferencia entre clientes de bancos distintos exige cuatro pasos, y el
+último es el que impide que el dinero de un banco valga distinto del de otro. El
+bloque los recorre y explica qué pasaría sin él.
+
 ```text
 TRANSFERENCIA DE 1 000 DEL CLIENTE X (BANCO A)
 AL CLIENTE Y (BANCO B)
@@ -151,6 +159,10 @@ EL PASO 4 ES EL QUE CONSERVA LA SINGULARIDAD
 ```
 
 ### 3. Qué aporta de verdad
+
+Conviene separar lo que esta arquitectura aporta de lo que se le atribuye. El
+bloque hace ambas listas, y la segunda es la que suele faltar en las
+presentaciones.
 
 ```text
 LO QUE SÍ APORTA
@@ -185,6 +197,10 @@ Y EN EL HORARIO, NO EN LA COMISIÓN
 | Balance | Depósito, con su encaje | Pasivo distinto |
 
 ### 5. El límite de horario
+
+El registro puede operar de forma continua y el sistema que salda entre bancos,
+no. El bloque explica qué se acumula en ese intervalo y cómo hay que
+gestionarlo, porque es crédito interbancario aunque no se llame así.
 
 ```text
 EL REGISTRO OPERA 24/7.

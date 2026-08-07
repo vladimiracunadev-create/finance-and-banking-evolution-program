@@ -114,6 +114,10 @@ NO EL PUNTO DE LLEGADA.
 
 ### 1. Por qué el principio es correcto
 
+El principio se entiende mejor viendo qué pasaría sin él. El bloque plantea la
+alternativa y después muestra cómo el principio extiende las normas
+existentes a los casos nuevos.
+
 ```text
 LA ALTERNATIVA SERÍA REGULAR POR TECNOLOGÍA
 
@@ -133,6 +137,10 @@ Y ESO CUBRE LA MAYOR PARTE DEL PROBLEMA.
 ```
 
 ### 2. Primer límite: el riesgo cambia
+
+El principio supone que la misma actividad conlleva el mismo riesgo, y eso no
+siempre es cierto. El bloque lo muestra con un caso donde la velocidad cambia
+la naturaleza del problema.
 
 ```text
 LA MISMA ACTIVIDAD PUEDE TENER OTRO RIESGO
@@ -156,6 +164,10 @@ CONSECUENCIA
 ```
 
 ### 3. Segundo límite: el sujeto puede no existir
+
+Casi toda norma financiera presupone que hay alguien a quien autorizar y a
+quien notificar. El bloque plantea qué ocurre cuando ese sujeto no existe y
+recoge las respuestas que se han intentado.
 
 ```text
 CASI TODA NORMA FINANCIERA SUPONE
@@ -185,6 +197,10 @@ es el límite estructural del principio.
 
 ### 4. Tercer límite: riesgos sin precedente
 
+Hay riesgos que no tienen norma previa porque no existían. El bloque describe
+los tres principales, que son los que obligan a escribir régimen nuevo en vez
+de extender el antiguo.
+
 ```text
 TRES QUE NO TIENEN NORMA PREVIA
 
@@ -213,6 +229,10 @@ lo completa.
 ```
 
 ### 5. Proporcionalidad sin exención
+
+Proporcionalidad y exención se invocan con las mismas palabras y son cosas
+opuestas. El bloque las distingue y ofrece la prueba que permite saber ante
+cuál se está.
 
 ```text
 PROPORCIONALIDAD BIEN ENTENDIDA

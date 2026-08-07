@@ -213,6 +213,8 @@ PRINCIPIOS EN SITUACIÓN DE TENSIÓN
   6. COHERENCIA   con lo que se dice al supervisor y al personal
 ```
 
+Los principios se concretan en dos listas breves, que conviene tener escritas antes de que llegue el día en que hagan falta.
+
 ```text
 LO QUE NUNCA DEBE DECIRSE EN UNA CRISIS DE LIQUIDEZ
   · "el banco es completamente sólido" sin datos

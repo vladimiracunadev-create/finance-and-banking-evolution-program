@@ -116,6 +116,10 @@ NO PUEDE TOMARSE.
 
 ### 1. La regla que ordena el proyecto
 
+Conviene fijar desde el principio qué se evalúa en este proyecto, porque no es
+la conclusión. El bloque lo enuncia y añade por qué un rechazo bien fundado
+suele costar más trabajo que una aprobación.
+
 ```text
 UN EXPEDIENTE QUE CONCLUYE «NO»
 VALE EXACTAMENTE LO MISMO QUE UNO
@@ -135,6 +139,10 @@ de quien ya decidió que sí.
 ```
 
 ### 2. Límites y su recálculo
+
+Un límite sin método ni frecuencia es una cifra que envejece sin que nadie se
+entere. El bloque fija los cuatro atributos que lo completan y los aplica a un
+ejemplo.
 
 ```text
 CADA LÍMITE NECESITA CUATRO COSAS
@@ -160,6 +168,10 @@ es una cifra en una diapositiva.
 
 ### 3. Indicadores de alerta temprana
 
+Las clases anteriores han producido, casi sin nombrarlos, seis indicadores que
+anticipan problemas. El bloque los reúne con la referencia de la clase donde
+se calculó cada uno.
+
 ```text
 LOS SEIS QUE ESTA PARTE PRODUCE
 
@@ -183,6 +195,10 @@ Ninguno exige información privilegiada.
 
 ### 4. Plan de salida
 
+El plan de salida se redacta antes de tomar la posición, cuando todavía no
+hay prisa. El bloque enumera lo que debe responder y señala el escenario que
+casi ningún plan contempla y que es el que ocurre.
+
 ```text
 SE ESCRIBE ANTES DE ENTRAR, NO DESPUÉS
 
@@ -201,6 +217,10 @@ y es el escenario que efectivamente ocurre
 ```
 
 ### 5. Condiciones resolutorias
+
+Algunas condiciones deben revertir la decisión automáticamente, sin volver a
+abrir la discusión. El bloque las enumera y precisa cómo se redactan para que
+funcionen así.
 
 ```text
 HECHOS QUE OBLIGAN A REVERTIR

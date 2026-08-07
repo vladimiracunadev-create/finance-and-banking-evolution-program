@@ -185,6 +185,8 @@ PRECIO DE EMPRESA (acordado)
   = PRECIO DE LAS ACCIONES
 ```
 
+Sobre esa estructura se montan los mecanismos que protegen al comprador de lo que aparezca después del cierre.
+
 ```text
 MECANISMOS DE PROTECCIÓN DEL COMPRADOR
   RETENCIÓN         parte del precio en depósito, liberada
@@ -213,6 +215,8 @@ FUENTES
   pago en acciones del comprador
   pago diferido del vendedor
 ```
+
+Combinando esas fuentes en su proporción extrema se llega a una estructura con nombre propio, que solo funciona sobre cierto tipo de objetivo.
 
 ```text
 ADQUISICIÓN APALANCADA — la estructura extrema

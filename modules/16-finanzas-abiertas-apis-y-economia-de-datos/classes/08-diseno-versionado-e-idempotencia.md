@@ -130,6 +130,11 @@ LAS DOS FILAS MARCADAS SON LAS QUE MÁS SE EQUIVOCAN
 
 ### 2. Estrategia de versión
 
+Hay tres sitios donde se puede declarar la versión de una API, y la elección
+tiene consecuencias operativas más que estéticas. El bloque los compara y
+justifica la recomendación con los cuatro lugares donde se diagnostica un
+incidente.
+
 ```text
 TRES OPCIONES
 
@@ -150,6 +155,11 @@ VERSIONA LA API, NO CADA RECURSO
 
 ### 3. Depreciación con fecha
 
+Apagar una versión de golpe rompe integraciones ajenas que nadie avisó. El
+bloque describe la retirada como un calendario con tres hitos y cabeceras que
+lo anuncian en cada respuesta, de modo que el integrador se entere sin leer un
+correo.
+
 ```text
 UNA VERSIÓN NO SE APAGA: SE DEPRECIA
 
@@ -169,6 +179,11 @@ SIN FECHA EN LA CABECERA
 ```
 
 ### 4. Idempotencia: los tres detalles que se omiten
+
+La idempotencia se explica en una frase y se implementa mal casi siempre,
+porque tres detalles se dan por supuestos. El bloque los desarrolla; el
+segundo es el que falla justo en el escenario para el que existe el
+mecanismo.
 
 ```text
 1 · CANONICALIZAR EL CUERPO ANTES DE LA HUELLA
@@ -194,6 +209,10 @@ Y UNO MÁS, DE OPERACIÓN
 
 ### 5. Paginación estable
 
+Paginar sobre datos que siguen llegando es distinto de paginar sobre una lista
+quieta. El bloque muestra qué le ocurre a la paginación por desplazamiento
+cuando entran filas nuevas y qué condición hace fiable al cursor.
+
 ```text
 DESPLAZAMIENTO (offset)
   página 1: filas 1-100
@@ -215,6 +234,10 @@ REGLA
 ```
 
 ### 6. Límite de tasa que informa
+
+Limitar la tasa es necesario; limitarla en silencio empeora la saturación que
+pretendía evitar. El bloque muestra la respuesta que permite al llamante
+reaccionar bien y las dimensiones sobre las que conviene contar.
 
 ```text
 UN LÍMITE SIN INFORMACIÓN ES UNA DENEGACIÓN DE SERVICIO MUTUA

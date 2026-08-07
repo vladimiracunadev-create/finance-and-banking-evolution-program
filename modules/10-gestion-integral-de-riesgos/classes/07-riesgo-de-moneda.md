@@ -109,6 +109,8 @@ POSICIÓN NETA EN LA MONEDA X =
   + delta de opciones en X
 ```
 
+Calculada moneda a moneda, la posición todavía no da la exposición total: falta decidir cómo se agregan, y hay dos criterios que dan resultados muy distintos.
+
 ```text
 POSICIÓN GLOBAL — dos criterios de agregación
 
@@ -164,6 +166,8 @@ CÓMO SE MIDE
   3. estima la PD de cada grupo bajo depreciación
   4. recalcula la pérdida esperada de la cartera
 ```
+
+Aplicado a una depreciación fuerte, el mecanismo muestra que el deterioro no llega solo por la probabilidad de incumplimiento: la garantía también pierde valor relativo.
 
 ```text
 EFECTO TÍPICO DE UNA DEPRECIACIÓN DEL 30 %

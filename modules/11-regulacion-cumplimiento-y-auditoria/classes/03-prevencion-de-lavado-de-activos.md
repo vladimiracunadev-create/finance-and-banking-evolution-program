@@ -208,6 +208,8 @@ Una alerta recorre un proceso con plazos hasta convertirse o no en reporte. El e
 8. CONSERVACIÓN    documentación por el plazo legal
 ```
 
+Ese circuito convive con una prohibición estricta que condiciona cómo se puede pedir información al cliente durante el análisis.
+
 ```text
 PROHIBICIÓN DE SOPLO
   advertir al cliente que se le investiga o se le reportó

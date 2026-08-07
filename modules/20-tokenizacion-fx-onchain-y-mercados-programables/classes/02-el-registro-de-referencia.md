@@ -114,6 +114,10 @@ ES LA AUSENCIA DE UNA DECISIÓN.
 
 ### 1. Por qué divergen dos registros
 
+Cuando existen dos registros del mismo saldo, divergen; la pregunta es por qué
+y con qué frecuencia. El bloque enumera las causas observadas ordenadas por lo
+habitual que son.
+
 ```text
 CAUSAS OBSERVADAS, POR FRECUENCIA
 
@@ -146,6 +150,10 @@ VIENEN DE FUERA DEL SISTEMA.
 
 ### 2. El procedimiento en cuatro tiempos
 
+Resolver una divergencia exige un procedimiento fijado de antemano, porque
+improvisar mientras hay saldos en duda agrava el problema. El bloque lo
+estructura en cuatro tiempos.
+
 ```text
 1 DETECCIÓN
     comparación periódica de saldos por titular
@@ -172,6 +180,10 @@ VIENEN DE FUERA DEL SISTEMA.
 
 ### 3. La ventana de divergencia
 
+El daño de una divergencia depende sobre todo del tiempo que tarda en
+detectarse. El bloque relaciona la frecuencia de conciliación con la ventana
+resultante y fija la regla de diseño que la acota.
+
 ```text
 ES EL TIEMPO ENTRE QUE APARECE Y SE DETECTA
 
@@ -193,6 +205,10 @@ REGLA DE DISEÑO
 ```
 
 ### 4. Por qué un espejo no permite atomicidad
+
+Un registro espejo no puede dar entrega contra pago atómica, y conviene ver
+por qué antes de que alguien lo prometa. El bloque lo deduce de la definición
+de atomicidad.
 
 ```text
 ATOMICIDAD = los dos movimientos ocurren
@@ -219,6 +235,10 @@ CÓMO DETECTARLO EN UNA PROPUESTA
 ```
 
 ### 5. La configuración híbrida que sí funciona
+
+Existe una configuración que sí resuelve el problema: en vez de duplicar el
+saldo, se inmoviliza en un registro mientras vive en el otro. El bloque
+describe el mecanismo completo, de entrada y de salida.
 
 ```text
 BLOQUEO DE ORIGEN

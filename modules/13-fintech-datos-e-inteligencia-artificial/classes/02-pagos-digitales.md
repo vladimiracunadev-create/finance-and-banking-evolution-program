@@ -109,6 +109,8 @@ COMPONENTES
   · reglas de disputa y devolución
 ```
 
+Puestos en secuencia, esos componentes describen el recorrido completo de un pago, con la liquidación ocurriendo por debajo y sin que el usuario la vea.
+
 ```text
 FLUJO
   pagador → app del banco A → esquema → banco B → beneficiario

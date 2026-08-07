@@ -173,6 +173,8 @@ Metodología:
 5. aplicar un tope global si la política lo establece
 ```
 
+Aplicado a un caso con cinco fuentes de ingreso, el procedimiento reduce la renta declarada a la que efectivamente se puede usar.
+
 ```text
 CASO
   sueldo base indefinido, 4 años      1 380 000  → 100 %  → 1 380 000

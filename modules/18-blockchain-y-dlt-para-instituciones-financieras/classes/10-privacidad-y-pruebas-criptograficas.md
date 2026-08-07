@@ -126,6 +126,10 @@ LA PRIMERA ES LA MÁS USADA Y LA MENOS RECONOCIDA
 
 ### 2. Qué demuestra una prueba de conocimiento cero
 
+Una prueba de conocimiento cero demuestra exactamente lo que se le pidió
+demostrar, ni un poco más. El bloque da ejemplos de afirmaciones probables y,
+sobre todo, la lista de lo que la prueba deja intacto.
+
 ```text
 DEMUESTRA
   que una afirmación es cierta, sin revelar los datos
@@ -151,6 +155,10 @@ Y TIENE UN COSTE QUE HAY QUE MEDIR
 ```
 
 ### 3. La tensión con el derecho de supresión
+
+Un registro inmutable y un derecho de supresión no pueden coexistir sobre el
+mismo dato. El bloque ordena las soluciones de mejor a peor y señala cuál es
+la buena, que además es la que hay que decidir al principio.
 
 ```text
 UN REGISTRO INMUTABLE Y UN DERECHO DE SUPRESIÓN
@@ -180,6 +188,10 @@ Después es una migración.
 
 ### 4. Análisis de la cadena: lo que revelan los metadatos
 
+Cifrar el contenido no oculta el patrón, y el patrón basta para reconstruir
+buena parte del negocio de un participante. El bloque enumera lo visible, lo
+que se deduce de ello y las mitigaciones disponibles.
+
 ```text
 AUNQUE EL CONTENIDO ESTÉ CIFRADO, SON VISIBLES
 
@@ -204,6 +216,10 @@ MITIGACIONES
 ```
 
 ### 5. El reparto: qué va dentro
+
+Todo lo anterior se resume en un reparto: qué se escribe en el registro y qué
+se queda fuera. El bloque lo fija como criterio práctico, aplicable durante el
+diseño y no después.
 
 ```text
 CRITERIO PRÁCTICO

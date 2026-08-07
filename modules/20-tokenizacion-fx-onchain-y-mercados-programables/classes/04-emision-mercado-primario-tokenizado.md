@@ -106,6 +106,10 @@ al inversionista— son idénticas.
 
 ### 1. Lo que no cambia
 
+Emitir en un registro distribuido no altera ninguna de las obligaciones de una
+oferta. El bloque las enumera y nombra el error que más caro sale en esta
+etapa.
+
 ```text
 OBLIGACIONES QUE SIGUEN IGUAL
 
@@ -127,6 +131,10 @@ EL ERROR MÁS CARO DE ESTA ETAPA
 ```
 
 ### 2. Suscripción y pago como un solo acto
+
+Cuando el dinero vive en el mismo registro, ordenar y pagar dejan de ser dos
+momentos. El bloque compara ambas secuencias y detalla lo que se gana al
+fundirlas.
 
 ```text
 EN UNA EMISIÓN TRADICIONAL
@@ -174,6 +182,10 @@ LA REGLA DE LA PARTE 20, CLASE 5, APLICA IGUAL
 
 ### 4. La sobredemanda artificial
 
+Si los inversionistas anticipan prorrateo, inflan sus peticiones, y el libro
+deja de informar. El bloque desarrolla el razonamiento individual y su efecto
+agregado sobre la colocación.
+
 ```text
 SI EL INVERSIONISTA SABE QUE HABRÁ PRORRATEO,
 PIDE MÁS DE LO QUE QUIERE
@@ -202,6 +214,10 @@ CORRECCIONES
 ```
 
 ### 5. La colocación desierta
+
+Que una emisión quede desierta es un riesgo real que las plataformas rara vez
+destacan. El bloque lo describe y enumera lo que hay que mirar antes de
+comprometer costes.
 
 ```text
 UN RIESGO QUE LAS PLATAFORMAS MINIMIZAN

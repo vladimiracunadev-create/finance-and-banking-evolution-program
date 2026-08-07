@@ -120,6 +120,8 @@ MECÁNICA
   5. el banco liquida el remanente menos comisión e intereses
 ```
 
+Con las cifras del mismo caso, el costo se calcula sobre lo efectivamente anticipado y por el plazo real, que es donde se ve su magnitud.
+
 ```text
 COSTO EFECTIVO
   comisión de factoraje: 0,6 % sobre el nominal = 6,0

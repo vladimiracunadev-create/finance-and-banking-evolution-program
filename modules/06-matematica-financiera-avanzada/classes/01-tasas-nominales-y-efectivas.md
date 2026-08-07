@@ -125,6 +125,8 @@ TEA = e^j − 1
 j = ln(1 + TEA)
 ```
 
+Las dos conversiones son inversas entre sí, y comprobarlo con una cifra concreta ayuda a no confundir la tasa continua con la efectiva.
+
 ```text
 j = 18 % continua → TEA = e^0,18 − 1 = 0,197217 → 19,7217 %
 TEA = 19,7217 % → j continua = ln(1,197217) = 0,18 = 18 %
@@ -151,6 +153,8 @@ B  8,60 % nominal capitalizable trimestral
 C  8,75 % efectivo anual
 D  8,35 % nominal continua
 ```
+
+Llevadas todas a la misma base, las cuatro ofertas se pueden ordenar, y el orden no coincide con el de las tasas anunciadas.
 
 ```text
 A  TEA = (1 + 0,084/12)^12 − 1 = (1,007)^12 − 1 = 8,7311 %
@@ -197,6 +201,8 @@ Cuando el plazo no es un número entero de periodos:
 TEA con base 365:  i_días = (1 + TEA)^(días/365) − 1
 TEA con base 360:  i_días = (1 + TEA)^(días/360) − 1
 ```
+
+Sobre un mismo plazo, las dos bases producen intereses distintos, y la diferencia se vuelve visible al aplicarla a un capital relevante.
 
 ```text
 TEA 12 %, plazo 47 días

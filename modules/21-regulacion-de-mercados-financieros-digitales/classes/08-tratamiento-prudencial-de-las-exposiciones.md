@@ -114,6 +114,10 @@ por encima de un umbral.
 
 ### 1. La prueba de estabilización
 
+La clasificación en el grupo favorable depende de una prueba que se verifica
+con datos, no con declaraciones. El bloque enumera los requisitos y señala
+cuál es el que más falla.
+
 ```text
 UN REFERENCIADO ES GRUPO 1 SI, ADEMÁS
 DE OTROS REQUISITOS
@@ -133,6 +137,10 @@ EL ÚLTIMO ES EL QUE MÁS FALLA
 ```
 
 ### 2. Los tres tipos de exposición
+
+Un banco puede estar expuesto de tres maneras distintas, y solo una es
+evidente. El bloque las separa, porque el tratamiento de cada una es
+diferente.
 
 ```text
 DIRECTA
@@ -160,6 +168,10 @@ LA TERCERA SE OLVIDA
 
 ### 3. El límite y su holgura
 
+El límite se expresa como porcentaje del capital, y medir la holgura frente a
+él tiene una sutileza. El bloque explica cómo se calcula y dónde está la
+trampa.
+
 ```text
 UN LÍMITE HABITUAL ES UN PORCENTAJE
 DEL CAPITAL DE NIVEL 1
@@ -180,6 +192,10 @@ Y AHÍ ESTÁ LA TRAMPA
 
 ### 4. Balance y capital no coinciden
 
+La cifra contable y la prudencial pueden diferir mucho sobre el mismo activo,
+y eso no es un error. El bloque explica por qué y qué hay que hacer al
+respecto.
+
 ```text
 POR QUÉ
 
@@ -199,6 +215,9 @@ QUÉ HAY QUE HACER
 ```
 
 ### 5. Liquidez
+
+Los supuestos estándar de salida de depósitos se calibraron sobre una
+clientela distinta. El bloque explica por qué se quedan cortos aquí.
 
 ```text
 EL COEFICIENTE DE COBERTURA SUPONE

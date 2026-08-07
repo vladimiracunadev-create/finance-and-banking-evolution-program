@@ -111,6 +111,9 @@ LA PRIMERA FAMILIA.
 
 ### 1. El cupón, paso a paso
 
+Pagar un cupón parece trivial y tiene cinco pasos, cada uno con su punto de
+fallo. El bloque los recorre en orden.
+
 ```text
 1 SE FIJA LA FECHA DE CORTE
     y se publica con antelación
@@ -143,6 +146,10 @@ LA PRIMERA FAMILIA.
 
 ### 2. Por qué la fecha de corte es crítica
 
+Entre la fecha de corte y el pago el instrumento sigue cambiando de manos, y
+el precio tiene que reflejarlo. El bloque explica qué ocurre si el registro no
+marca esa diferencia.
+
 ```text
 ENTRE LA FECHA DE CORTE Y EL PAGO
 EL INSTRUMENTO SIGUE NEGOCIÁNDOSE
@@ -167,6 +174,10 @@ referencia, no en el que sea más cómodo.
 ```
 
 ### 3. Lo que no se puede programar
+
+Un embargo no se puede programar porque no cumple ninguna de las condiciones
+que exige una condición automática. El bloque las repasa y describe lo que se
+diseña en su lugar.
 
 ```text
 UN EMBARGO ES UNA ORDEN DE UNA AUTORIDAD
@@ -194,6 +205,10 @@ aplicado a un titular en vez de al contrato.
 
 ### 4. Eventos con opción
 
+Algunos eventos exigen que el tenedor elija, y eso convierte el proceso en un
+problema de recogida de instrucciones. El bloque plantea la dificultad y el
+diseño que la resuelve.
+
 ```text
 EL TENEDOR ELIGE: CANJE, SUSCRIPCIÓN
 PREFERENTE, COBRO EN EFECTIVO O EN TÍTULOS
@@ -217,6 +232,10 @@ PREFERENTE, COBRO EN EFECTIVO O EN TÍTULOS
 ```
 
 ### 5. Vencimiento y destrucción
+
+El vencimiento cierra el ciclo con cuatro pasos que hay que ejecutar en orden.
+El bloque los enumera y recoge los tres errores que se cometen con más
+frecuencia.
 
 ```text
 AL VENCIMIENTO

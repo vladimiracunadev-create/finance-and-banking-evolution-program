@@ -137,6 +137,10 @@ LOS DOS CASOS LÍMITE QUE ORDENAN TODO
 
 ### 2. Mayorista y minorista
 
+Los dos segmentos comparten infraestructura y casi nada más: distinto importe,
+distinto volumen y, sobre todo, distinto riesgo dominante. El bloque los
+contrasta y explica por qué la distinción cambia dónde conviene invertir.
+
 ```text
 MAYORISTA
   entre instituciones financieras
@@ -186,6 +190,10 @@ EL ERROR DE DIAGNÓSTICO MÁS FRECUENTE
 
 ### 4. Descomposición del coste
 
+El precio de un pago transfronterizo se compone de cuatro sumandos, y solo
+tres se presentan como comisión. El bloque los separa y pone números al
+cuarto, que suele ser el mayor y el que nadie factura.
+
 ```text
 COSTE TOTAL = comisión explícita del banco ordenante
             + comisiones de los intermediarios
@@ -203,6 +211,10 @@ Y ES EL ÚNICO QUE NO APARECE COMO COMISIÓN
 ```
 
 ### 5. Las tres opciones de reparto de gastos
+
+Quién paga las comisiones de la cadena se declara con un código de tres
+letras. El bloque describe las tres opciones y señala en cuáles se cuela la
+opacidad que explica la queja más habitual del ordenante.
 
 ```text
 OUR    el ordenante paga todas las comisiones;

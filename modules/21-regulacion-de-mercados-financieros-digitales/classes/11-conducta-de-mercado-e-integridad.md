@@ -118,6 +118,10 @@ Y UNA PARTICULARIDAD DEL REGISTRO ABIERTO
 
 ### 1. Lo que la transparencia facilita y lo que dificulta
 
+Que las operaciones sean observables no favorece automáticamente la
+integridad: dificulta unas conductas y facilita otras. El bloque reparte unas
+y otras.
+
 ```text
 DIFICULTA
   · ocultar el volumen real: las operaciones
@@ -156,6 +160,10 @@ DECIDE PRECISIÓN Y EXHAUSTIVIDAD
 
 ### 3. El conflicto de la plataforma que opera
 
+Una plataforma que además opera, emite y decide qué se lista acumula varios
+conflictos a la vez. El bloque los enumera y recoge lo que exige la norma
+habitual.
+
 ```text
 UNA PLATAFORMA QUE ADEMÁS
   · opera por cuenta propia
@@ -180,6 +188,10 @@ TIENE CUATRO CONFLICTOS SIMULTÁNEOS
 
 ### 4. Mejor ejecución en un mercado fragmentado
 
+La mejor ejecución es una obligación de resultado que se complica cuando el
+mercado está repartido entre plataformas. El bloque explica qué hay que
+comparar y qué hay que poder demostrar.
+
 ```text
 LA OBLIGACIÓN EXIGE OBTENER EL MEJOR
 RESULTADO CONSIDERANDO PRECIO, COSTE,
@@ -201,6 +213,9 @@ Y LO QUE NO SIRVE
 ```
 
 ### 5. Lo que aplica sin régimen de mercado
+
+No estar sujeto a un régimen de mercado no autoriza a manipularlo. El bloque
+enumera lo que sigue aplicando en cualquier caso.
 
 ```text
 AUNQUE UNA PLATAFORMA NO ESTÉ SUJETA

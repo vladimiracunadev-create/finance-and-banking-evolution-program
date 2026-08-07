@@ -112,6 +112,10 @@ Cambia riesgo de emisor por riesgo de principal.
 
 ### 1. Por qué el dinero de banco central es el patrón
 
+Que el dinero de banco central sea el patrón de liquidación no es una
+preferencia: se deriva de una propiedad que ningún otro pasivo tiene. El
+bloque la enuncia y saca la consecuencia para la infraestructura.
+
 ```text
 NO ES UNA PREFERENCIA INSTITUCIONAL:
 ES UNA PROPIEDAD
@@ -138,6 +142,9 @@ CUANDO SE LIQUIDA CON OTRO DINERO
 ```
 
 ### 2. Prefinanciación y saldo ocioso
+
+Liquidar en el acto exige tener el dinero antes, y ese dinero deja de rendir. El
+bloque explica de dónde sale la necesidad y de qué depende su tamaño.
 
 ```text
 LIQUIDAR EN T+0 EXIGE TENER EL DINERO ANTES
@@ -166,6 +173,9 @@ POPULAR, porque reduce la inmediatez.
 ```
 
 ### 3. El horario
+
+El desajuste de horarios ya conocido reaparece aquí con una consecuencia
+propia. El bloque la describe y apunta el diseño que la absorbe.
 
 ```text
 UN REGISTRO OPERA 24/7.
@@ -196,6 +206,10 @@ LO QUE NO SE DEBE HACER
 
 ### 4. Consumo de capital
 
+El saldo prefinanciado es una exposición permanente, y consume capital según
+quién emita el dinero. El bloque compara los tres emisores posibles y deja el
+cálculo planteado.
+
 ```text
 UNA EXPOSICIÓN AL TRAMO DE DINERO
 CONSUME CAPITAL SEGÚN QUIÉN LO EMITA
@@ -219,6 +233,10 @@ CÁLCULO QUE HAY QUE HACER
 ```
 
 ### 5. La opción sin atomicidad
+
+Renunciar a la atomicidad y liquidar el dinero fuera es una opción legítima
+con su propio balance. El bloque enumera lo que se pierde, lo que se gana y
+cuándo la decisión es correcta.
 
 ```text
 LIQUIDAR EL DINERO FUERA DEL REGISTRO

@@ -202,6 +202,8 @@ cuota máxima = min(
 )
 ```
 
+Con los parámetros de política de una entidad, los dos criterios dan cifras distintas y manda el menor de ambos.
+
 ```text
 límite de carga: 40 % · excedente mínimo exigido: 200 000
 

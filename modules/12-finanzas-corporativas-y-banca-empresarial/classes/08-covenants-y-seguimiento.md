@@ -164,6 +164,8 @@ MÉTODO DE CALIBRACIÓN
      el límite debe estar a más de 1,5 desviaciones del caso base
 ```
 
+Aplicado a un indicador concreto, el método muestra que hay dos formas de equivocarse y una franja estrecha donde el límite cumple su función.
+
 ```text
 EJEMPLO
   cobertura del servicio de la deuda

@@ -162,6 +162,8 @@ CONSTRUCCIÓN DESDE EL RESULTADO
   = FLUJO PARA DIVIDENDOS Y CRECIMIENTO
 ```
 
+No todos los supuestos pesan igual en el resultado, y ordenarlos por influencia permite concentrar el esfuerzo de verificación donde importa.
+
 ```text
 SUPUESTOS QUE MÁS PESAN, EN ORDEN
   1. crecimiento de ventas
@@ -210,6 +212,8 @@ COBERTURA DEL SERVICIO DE LA DEUDA
   1,0–1,2 ajustado: cualquier desviación produce incumplimiento
   < 1,0  no puede pagar sin refinanciar
 ```
+
+El rango del indicador solo informa si se mide en condiciones adversas, no en el escenario que la empresa presenta.
 
 ```text
 LA COBERTURA SE EVALÚA EN ESCENARIOS, NO EN EL CASO BASE

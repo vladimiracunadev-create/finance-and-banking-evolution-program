@@ -112,6 +112,8 @@ uso de 200 000 durante 12 días:
   tasa anual equivalente ≈ (1,0441)^(365/12) − 1 ≈ 265 %
 ```
 
+El mismo cálculo sobre un uso mayor y más prolongado revela que el costo porcentual no baja al aumentar el monto: la comisión fija se diluye, pero el interés crece en la misma proporción.
+
 ```text
 uso de 1 500 000 durante 60 días:
   interés     = 1 500 000 × 0,024 × 60/30 = 72 000

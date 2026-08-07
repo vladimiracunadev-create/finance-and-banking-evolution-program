@@ -185,6 +185,8 @@ el modelo entrega una PROBABILIDAD
 la decisión de aprobar o rechazar es de NEGOCIO, no del modelo
 ```
 
+El efecto de esa decisión se ve moviendo el punto de corte y observando cómo se mueven a la vez la aprobación y la pérdida esperada.
+
 ```text
 punto de corte y su efecto:
 

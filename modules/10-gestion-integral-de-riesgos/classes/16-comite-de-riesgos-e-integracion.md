@@ -214,6 +214,8 @@ PRINCIPIOS DE REMUNERACIÓN COHERENTES CON EL RIESGO
   · métricas de riesgo y de conducta en la evaluación, con peso real
 ```
 
+Los principios se comprueban con una sola pregunta, y la respuesta suele revelar si el marco de riesgo es real o declarativo.
+
 ```text
 LA PRUEBA DE LA CULTURA
   ¿alguna vez se redujo la remuneración variable de alguien

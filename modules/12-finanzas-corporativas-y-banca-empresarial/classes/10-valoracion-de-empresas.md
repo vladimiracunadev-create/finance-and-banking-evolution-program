@@ -189,6 +189,8 @@ VALOR DE EMPRESA
   = VALOR DEL PATRIMONIO
 ```
 
+Cada uno de esos ajustes es una partida que las dos partes calculan de forma distinta, y ahí es donde se concentran las discusiones.
+
 ```text
 LOS AJUSTES SON DONDE SE PIERDEN LAS NEGOCIACIONES
   · caja "operativa" vs. caja excedente: quién se la lleva

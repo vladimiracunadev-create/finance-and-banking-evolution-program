@@ -78,6 +78,8 @@ El resultado del producto se descompone en cinco términos:
 resultado = tasa − costo de fondos − pérdida esperada − costo operativo − costo de capital
 ```
 
+Con cifras típicas de un producto de consumo, la descomposición muestra qué parte de la tasa es margen y qué parte es costo.
+
 ```text
 tasa                     22,0 %
 − costo de fondos        −6,2 %
@@ -118,6 +120,8 @@ El precio sale de sumar los componentes del costo, y la pérdida esperada es uno
 ```text
 pérdida esperada = PD × LGD × EAD
 ```
+
+Aplicada a dos segmentos con perfiles opuestos, la fórmula explica por qué no pueden pagar la misma tasa.
 
 ```text
 segmento A: PD 1,2 % · LGD 62 % · exposición promedio 100 %
@@ -165,6 +169,8 @@ la política define, para cada segmento:
   · nivel de aprobación requerido
 ```
 
+Escrita para dos segmentos concretos, la política deja de ser un principio y se convierte en parámetros que el motor puede ejecutar.
+
 ```text
 SEGMENTO A (score > 700)
   carga financiera máxima     45 %
@@ -195,6 +201,8 @@ Cada cambio de política mueve el volumen y la pérdida en direcciones opuestas.
 ```text
 simulación: relajar la carga financiera máxima de 40 % a 45 % en el segmento B
 ```
+
+El resultado de la simulación se lee en columnas: el volumen sube, el resultado unitario baja y solo la última fila dice si conviene.
 
 ```text
                         antes        después     variación

@@ -105,6 +105,10 @@ riesgo operativo— y deja los demás igual.
 
 ### 1. Finalidad técnica y finalidad jurídica
 
+Las dos finalidades ya aparecieron en partes anteriores y aquí se convierten
+en un requisito de designación. El bloque las contrapone y saca la
+consecuencia.
+
 ```text
 FINALIDAD TÉCNICA
   el registro considera la operación cerrada
@@ -127,6 +131,10 @@ CONSECUENCIA
 ```
 
 ### 2. El régimen piloto
+
+El régimen piloto es el mecanismo con el que varias jurisdicciones permiten
+probar arquitecturas nuevas sin cambiar la norma general. El bloque describe
+qué exime y qué exige a cambio.
 
 ```text
 QUÉ HACE
@@ -155,6 +163,10 @@ sustitución del custodio.
 
 ### 3. La estrategia de transición
 
+Toda infraestructura autorizada debe tener escrito qué pasa si cesa. El bloque
+enumera lo que esa estrategia resuelve y por qué improvisarla no es una
+opción.
+
 ```text
 QUÉ PASA SI LA INFRAESTRUCTURA CESA
 
@@ -178,6 +190,10 @@ QUÉ LA HACE ÚTIL
 
 ### 4. Acceso justo
 
+Quien controla el acceso a una infraestructura decide quién puede competir en
+el mercado que la usa. El bloque expone qué exige el principio de acceso justo
+y cómo se aplica a una plataforma tokenizada.
+
 ```text
 UNA INFRAESTRUCTURA CONCENTRA ACTIVIDAD
 
@@ -200,6 +216,10 @@ EN UNA PLATAFORMA TOKENIZADA
 ```
 
 ### 5. Enlaces
+
+Conectar dos infraestructuras traslada riesgo de cada una a la otra, y el
+régimen lo trata como tal. El bloque enumera lo que exige y recuerda que un
+puente es un enlace con otro nombre.
 
 ```text
 CONECTAR DOS INFRAESTRUCTURAS

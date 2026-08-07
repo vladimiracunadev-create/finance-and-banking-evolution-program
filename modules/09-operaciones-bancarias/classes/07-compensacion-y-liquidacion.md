@@ -173,6 +173,8 @@ con contraparte central:  A ←→ CCP ←→ B  (ambos asumen el riesgo de la C
 · cascada de recursos: orden en que se usan los recursos ante un incumplimiento
 ```
 
+Si un participante incumple, esos recursos se consumen en un orden fijado de antemano, y el orden es tan importante como el importe.
+
 ```text
 CASCADA DE RECURSOS TÍPICA
   1. márgenes del participante incumplidor
@@ -192,6 +194,8 @@ La liquidación exige tener fondos en momentos concretos del día, y esa necesid
 ```text
 un banco debe pagar antes de recibir, y necesita fondos para ese intervalo
 ```
+
+Seguido hora a hora, el saldo de un banco en el banco central deja ver los dos momentos del día en que necesita fondos que todavía no ha recibido.
 
 ```text
 PERFIL INTRADÍA DE UN BANCO

@@ -103,6 +103,10 @@ LA CONFUSIÓN ÚTIL PARA QUIEN VENDE
 
 ### 1. Cómo se mide un diferencial
 
+Medir el diferencial parece una resta y tiene una trampa: el resultado cambia
+según sobre qué base se divide. El bloque hace el cálculo de las dos formas y
+señala cuál mide de verdad lo que pierde el cliente.
+
 ```text
 TIPO DE REFERENCIA:  1 USD = 950,00 CLP
 TIPO APLICADO:       1 USD = 978,00 CLP
@@ -133,6 +137,10 @@ POR QUÉ SE USAN PUNTOS BÁSICOS
 ```
 
 ### 2. El tipo cruzado y dónde se esconde el doble margen
+
+Muchos pares de divisas no se cotizan directamente y pasan por una tercera. El
+bloque sigue ese recorrido y muestra dónde puede aplicarse margen dos veces
+sin que el cliente vea más que un único tipo.
 
 ```text
 UN PAGO CLP → PHP SUELE PASAR POR USD
@@ -167,6 +175,10 @@ DIFERENCIAL TOTAL
 
 ### 3. Quién asume el riesgo de cambio y cuándo
 
+El riesgo de cambio va cambiando de dueño a lo largo de la operación, y saber
+en qué tramo está cada uno explica por qué unos tipos son firmes y otros
+indicativos. El bloque recorre la línea de tiempo tramo a tramo.
+
 ```text
 LÍNEA DE TIEMPO DE UN PAGO CON CAMBIO
 
@@ -190,6 +202,10 @@ LA PREGUNTA QUE HAY QUE HACER SIEMPRE
 
 ### 4. Diferencial legítimo y margen no revelado
 
+Cobrar por convertir divisa es legítimo; la línea está en cómo se presenta y
+en si el cliente puede reaccionar. El bloque enumera primero los costes reales
+que cubre el diferencial y después las prácticas que no se sostienen.
+
 ```text
 UN DIFERENCIAL CUBRE COSTES REALES
   · riesgo de mercado entre T1 y T2
@@ -212,6 +228,10 @@ LA PRUEBA DE TRANSPARENCIA
 ```
 
 ### 5. El mercado cambiario formal
+
+Convertir divisa puede ser, en sí misma, una actividad regulada distinta de la
+de pagos. El bloque resume qué suele regularse y deja la consecuencia
+práctica: se verifica en la jurisdicción concreta, no se supone.
 
 ```text
 MUCHAS JURISDICCIONES DEFINEN QUIÉN PUEDE

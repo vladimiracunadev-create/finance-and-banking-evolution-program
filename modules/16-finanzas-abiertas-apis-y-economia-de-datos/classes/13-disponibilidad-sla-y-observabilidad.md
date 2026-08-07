@@ -106,6 +106,10 @@ LAS TRES SIGLAS
 
 ### 1. Elegir el indicador correcto
 
+Un indicador mal elegido puede estar en verde mientras ningún cliente logra
+usar el servicio. El bloque contrapone las dos formulaciones, explica qué mide
+cada una y propone los tres indicadores mínimos de una API financiera.
+
 ```text
 INDICADOR MALO
   «disponibilidad del servidor: 99,9 %»
@@ -126,6 +130,10 @@ TRES INDICADORES MÍNIMOS EN UNA API FINANCIERA
 ```
 
 ### 2. Presupuesto de error
+
+El presupuesto de error convierte un objetivo abstracto en minutos concretos
+que se pueden gastar. El bloque lo calcula sobre un objetivo realista y
+explica en qué decisión se traduce cuando queda saldo y cuando se agota.
 
 ```text
 SLO 99,5 % EN 28 DÍAS
@@ -153,6 +161,10 @@ EL PRESUPUESTO SE GASTA DONDE DUELE
 
 ### 3. Observabilidad mínima
 
+Observar no es solo guardar registros: son tres fuentes que responden
+preguntas distintas y que se necesitan a la vez. El bloque detalla qué lleva
+cada una, y también qué no debe llevar nunca la primera.
+
 ```text
 REGISTRO (qué pasó)
   por petición: id de petición, cliente, consentimiento,
@@ -177,6 +189,10 @@ LA PREGUNTA QUE HAY QUE PODER RESPONDER SIN DESPLEGAR
 ```
 
 ### 4. Degradar en vez de caer
+
+Ante la saturación hay una escalera de respuestas, y todas son preferibles a
+la caída. El bloque las ordena de menos a más drástica y cierra con la regla
+que las justifica.
 
 ```text
 JERARQUÍA DE RESPUESTA A LA SATURACIÓN
@@ -219,6 +235,10 @@ ES EL EFECTO SOBRE EL CLIENTE FINAL
 ```
 
 ### 6. Concentración y plan de salida
+
+Depender de un proveedor no es un riesgo mientras exista una salida probada. El
+bloque plantea las seis preguntas que la comprueban y señala en cuál se cae
+casi siempre.
 
 ```text
 PREGUNTAS DEL PLAN DE SALIDA

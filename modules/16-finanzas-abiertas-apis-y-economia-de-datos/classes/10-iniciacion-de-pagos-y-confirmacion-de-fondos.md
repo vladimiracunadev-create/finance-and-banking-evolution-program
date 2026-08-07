@@ -134,6 +134,10 @@ EXCEPCIÓN: PAGOS RECURRENTES
 
 ### 2. La máquina de estados completa
 
+Una orden de pago iniciada por un tercero atraviesa cinco estados, y en cada
+uno puede rechazarse por un motivo distinto. El diagrama los ordena y anota, a
+la derecha, qué condición provoca cada salida.
+
 ```text
    recibido
       │ validación de formato y de consentimiento
@@ -166,6 +170,10 @@ POR QUÉ «en_ejecucion» ES UN ESTADO Y NO UN DETALLE
 
 ### 3. Los datos mínimos de una orden
 
+Los datos de una orden se agrupan en tres bloques: los que no pueden faltar,
+los que son opcionales pero cambian lo que ve el beneficiario, y los que no
+deben viajar nunca por esta vía.
+
 ```text
 OBLIGATORIOS
   importe y moneda            (cadena decimal + código)
@@ -183,6 +191,11 @@ NUNCA
 ```
 
 ### 4. Confirmación de fondos: la sonda que hay que acotar
+
+La confirmación de fondos responde sí o no a una pregunta muy acotada, y esa
+acotación es precisamente el control. El bloque delimita qué es y qué no es, y
+después muestra cómo se rompe la acotación si no se limita el número de
+consultas.
 
 ```text
 QUÉ ES
@@ -207,6 +220,10 @@ CONTROLES, LOS TRES A LA VEZ
 ```
 
 ### 5. Quién responde en cada etapa
+
+Cuando una orden sale mal, la primera pregunta es en qué etapa se torció,
+porque la respuesta determina quién responde. El bloque recorre las etapas en
+orden y advierte que el reparto final lo fija la norma local.
 
 ```text
 ANTES DE LA AUTORIZACIÓN

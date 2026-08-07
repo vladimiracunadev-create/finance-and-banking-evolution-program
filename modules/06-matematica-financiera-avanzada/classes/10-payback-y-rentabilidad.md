@@ -202,6 +202,8 @@ La rentabilidad contable no descuenta y aun así se usa, porque es la que aparec
 tasa de rendimiento contable = resultado promedio / inversión promedio
 ```
 
+El indicador se calcula con cifras contables, no de caja, y eso se aprecia al desarrollarlo sobre una inversión con valor residual.
+
 ```text
 resultado contable promedio 18 000 · inversión 120 000 · valor residual 20 000
 inversión promedio = (120 000 + 20 000)/2 = 70 000

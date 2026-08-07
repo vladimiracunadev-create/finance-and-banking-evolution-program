@@ -103,6 +103,10 @@ Y UNA QUINTA, QUE NO ES DEL CONSENTIMIENTO SINO DE SU PRUEBA
 
 ### 1. La finalidad manda sobre el alcance
 
+El orden en que se piensan finalidad y alcance decide si el consentimiento es
+real o decorativo. El bloque contrapone la secuencia correcta con la que se ve
+en la práctica, y ofrece una pregunta que revela cuál de las dos se siguió.
+
 ```text
 ORDEN CORRECTO
   finalidad declarada
@@ -142,6 +146,10 @@ NO LA DEL MODELO DE DATOS
 
 ### 3. La máquina de estados
 
+Un consentimiento no es un interruptor: es un objeto con estados y con
+transiciones permitidas. El diagrama las fija, y las reglas de abajo explican
+por qué ninguna flecha vuelve hacia atrás.
+
 ```text
 borrador ──autoriza──► vigente ──┬── revoca ────► revocado
    │                             ├── expira ────► expirado
@@ -164,6 +172,10 @@ POR QUÉ LA RENOVACIÓN CREA UNO NUEVO
 
 ### 4. La evidencia
 
+Meses después, un reclamo obliga a reconstruir qué aceptó el cliente y en qué
+condiciones. Solo se puede reconstruir lo que se guardó, así que el bloque
+fija el mínimo y explica por qué dos de esos campos van separados.
+
 ```text
 MÍNIMO PARA RECONSTRUIR LA DECISIÓN
   1. identificador del proveedor solicitante
@@ -180,6 +192,11 @@ POR QUÉ «PRESENTADOS» Y «CONCEDIDOS» VAN SEPARADOS
 ```
 
 ### 5. La revocación es el examen del sistema
+
+La revocación es donde se comprueba si el consentimiento era de verdad
+reversible. El bloque describe las cuatro acciones que la componen, insiste en
+su orden y termina con la medida que hay que publicar para demostrar que
+funciona.
 
 ```text
 UNA REVOCACIÓN CORRECTA HACE CUATRO COSAS, EN ESTE ORDEN
@@ -199,6 +216,11 @@ MEDIDA QUE HAY QUE PUBLICAR
 ```
 
 ### 6. Fatiga de consentimiento
+
+Un consentimiento que el cliente firma sin leer sigue siendo válido en el
+papel y ha dejado de proteger a nadie. El bloque nombra el problema, propone
+señales que lo detectan con datos propios y apunta la única solución que
+funciona.
 
 ```text
 EL PROBLEMA

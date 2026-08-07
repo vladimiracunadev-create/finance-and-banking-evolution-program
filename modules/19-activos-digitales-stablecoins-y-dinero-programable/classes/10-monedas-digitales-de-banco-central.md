@@ -122,6 +122,10 @@ antes que de tecnología.
 
 ### 2. El modelo de dos niveles
 
+Casi todos los diseños en estudio reparten el trabajo en dos niveles, y las
+razones son prácticas antes que doctrinales. El bloque describe qué hace cada
+nivel y por qué esta arquitectura se ha impuesto.
+
 ```text
 NIVEL 1 · BANCO CENTRAL
   emite, liquida y mantiene el registro
@@ -149,6 +153,10 @@ RIESGO DEL MODELO
 
 ### 3. Desintermediación
 
+El riesgo central de una moneda digital minorista no es tecnológico: es que
+compita con el depósito bancario. El bloque plantea el problema en calma y en
+crisis, y recuerda de dónde sale el crédito.
+
 ```text
 EL RIESGO CENTRAL DE UNA CBDC MINORISTA
 
@@ -169,6 +177,10 @@ o crédito financiado más caro
 ```
 
 ### 4. Los límites y su coste
+
+Los límites existen para contener la desintermediación, y cada uno tiene su
+propio coste. El bloque describe los dos mecanismos habituales con el problema
+que ninguno resuelve del todo.
 
 ```text
 LÍMITE DE TENENCIA
@@ -198,6 +210,10 @@ NINGUNO ES GRATIS Y NINGUNO ES COMPLETO
 ```
 
 ### 5. Privacidad
+
+La privacidad de una moneda digital se sitúa entre el efectivo y el depósito, y
+dónde exactamente es una decisión que no toma la técnica. El bloque presenta
+el compromiso y los diseños que lo suavizan.
 
 ```text
 EL COMPROMISO REAL

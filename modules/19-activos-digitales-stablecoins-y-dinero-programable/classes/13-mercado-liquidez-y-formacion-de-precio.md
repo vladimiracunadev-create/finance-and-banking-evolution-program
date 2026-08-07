@@ -106,6 +106,10 @@ ES LA TERCERA.
 
 ### 1. Por qué el volumen engaña
 
+El volumen publicado puede ser real y no significar nada sobre la capacidad de
+vender. El bloque enumera las formas en que se genera volumen sin liquidez y
+las señales que permiten detectarlo.
+
 ```text
 FORMAS DE VOLUMEN SIN LIQUIDEZ
 
@@ -128,6 +132,10 @@ CÓMO SE DETECTA
 
 ### 2. Medir profundidad
 
+La profundidad se mide, no se estima. El bloque describe el procedimiento paso
+a paso e indica cómo se expresa el resultado para que sea utilizable en un
+límite de posición.
+
 ```text
 PROCEDIMIENTO
 
@@ -148,6 +156,10 @@ QUE DEBE ESTAR EN EL LÍMITE DE POSICIÓN
 ```
 
 ### 3. El precio de referencia
+
+Un precio de referencia es el resultado de una serie de decisiones
+metodológicas que no son neutrales. El bloque las enumera y advierte de que
+cada una mueve la cifra publicada.
 
 ```text
 CÓMO SE COMPONE
@@ -174,6 +186,10 @@ Y GARANTÍAS
 
 ### 4. Fragmentación
 
+Tener la posición repartida entre varias plataformas aumenta la profundidad
+agregada y la vuelve inaccesible justo cuando hace falta. El bloque explica la
+paradoja y su efecto en tensión.
+
 ```text
 LA MISMA POSICIÓN EN 6 PLATAFORMAS
 
@@ -194,6 +210,10 @@ EFECTO EN TENSIÓN
 ```
 
 ### 5. Prácticas que distorsionan
+
+Hay patrones de mercado que conviene saber reconocer, tanto para no
+interpretarlos mal como para no participar en ellos. El bloque los enumera y
+después fija la conducta esperable de un participante responsable.
 
 ```text
 QUÉ VIGILAR EN UN MERCADO

@@ -152,6 +152,8 @@ GERENCIA GENERAL
   └── AUDITORÍA INTERNA        → reporta al comité de auditoría
 ```
 
+La composición numérica no basta: el supervisor mira qué competencias reúne el conjunto, y en un banco digital una de ellas es determinante.
+
 ```text
 COMPETENCIAS EXIGIDAS EN EL DIRECTORIO
   · banca minorista y de pequeña empresa

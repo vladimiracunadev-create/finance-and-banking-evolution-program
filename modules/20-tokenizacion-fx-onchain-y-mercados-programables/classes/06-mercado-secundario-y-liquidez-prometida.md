@@ -108,6 +108,10 @@ INFRAESTRUCTURA DE TRANSFERENCIA.
 
 ### 1. Por qué fraccionar no crea liquidez
 
+El argumento de que fraccionar genera liquidez se repite sin examinarlo. El
+bloque lo enuncia, señala el salto lógico que contiene y acota los casos en
+que sí ayuda.
+
 ```text
 ARGUMENTO HABITUAL
   «al fraccionar, más gente puede comprar,
@@ -138,6 +142,9 @@ CUÁNDO NO
 
 ### 2. Medir en vez de suponer
 
+La liquidez de un instrumento se mide con las mismas herramientas de la parte
+anterior, más una específica de este mercado. El bloque las lista.
+
 ```text
 LO QUE HAY QUE MEDIR, CON LA PARTE 20,
 CLASE 13
@@ -160,6 +167,10 @@ Y UNA MÁS, PROPIA DE ESTE MERCADO
 ```
 
 ### 3. El proveedor de liquidez y su letra pequeña
+
+Un compromiso de cotización se evalúa por sus cuatro parámetros y por la
+cláusula que permite retirarlo. El bloque los expone y detalla esa cláusula,
+que es donde se decide si el compromiso sirve en tensión.
 
 ```text
 UN COMPROMISO DE COTIZACIÓN TIENE
@@ -189,6 +200,10 @@ REGLA DE ANÁLISIS
 
 ### 4. Subasta frente a mercado continuo
 
+Para un mercado con pocos participantes, la negociación continua produce
+peores precios que una subasta. El bloque compara ambos modelos con sus
+efectos sobre el libro.
+
 ```text
 MERCADO CONTINUO
   se cruza en cualquier momento
@@ -210,6 +225,10 @@ eligen el continuo porque parece más moderno.
 ```
 
 ### 5. La transparencia que sí sirve
+
+La transparencia útil es la que permite a un inversionista estimar si podrá
+vender. El bloque enumera lo que debería publicarse y señala el dato más
+informativo, que es también el que nunca aparece.
 
 ```text
 QUÉ DEBE PUBLICAR UNA PLATAFORMA

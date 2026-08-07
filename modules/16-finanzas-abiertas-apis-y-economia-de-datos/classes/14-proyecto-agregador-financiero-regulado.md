@@ -117,6 +117,10 @@ Y SE HUNDE EN LA 1 Y EN LA 3
 
 ### 2. Priorizar el modelo de amenazas
 
+Un modelo de amenazas sin orden es una lista; con orden, es un plan de
+trabajo. El bloque propone las dos escalas, la fórmula que las combina y el
+resultado incómodo al que suele llegar el ejercicio.
+
 ```text
 EL ERROR: ordenar por «lo más sofisticado»
 LA REGLA: ordenar por impacto × probabilidad
@@ -139,6 +143,10 @@ CONSECUENCIA HABITUAL DEL EJERCICIO
 
 ### 3. El registro de decisiones
 
+El panel no evalúa solo lo que se construyó, sino por qué se construyó así. El
+bloque fija el formato mínimo de una entrada del registro de decisiones, con
+la alternativa descartada incluida.
+
 ```text
 UNA ENTRADA POR DECISIÓN, CON CUATRO CAMPOS
 
@@ -156,6 +164,10 @@ EL CUARTO CAMPO ES EL QUE FALTA SIEMPRE
 ```
 
 ### 4. Declarar límites fortalece, no debilita
+
+Declarar los límites del trabajo parece una confesión de debilidad y funciona
+al revés. El bloque explica el mecanismo: el hueco existe igual, y lo único
+que se decide es quién lo nombra primero.
 
 ```text
 UN EXPEDIENTE SIN LÍMITES SE LEE COMO COBERTURA COMPLETA
@@ -175,6 +187,10 @@ LÍMITES TÍPICOS Y LEGÍTIMOS DE ESTE PROYECTO
 ```
 
 ### 5. La defensa
+
+La defensa tiene un tiempo fijo y conviene repartirlo antes, no
+improvisarlo. El bloque propone una distribución en tres bloques que deja
+espacio para lo único que no se puede recuperar: las preguntas.
 
 ```text
 DIEZ MINUTOS. TRES BLOQUES.

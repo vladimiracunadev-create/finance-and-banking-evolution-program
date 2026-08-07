@@ -71,6 +71,8 @@ Los dos primeros términos son los tipos de garantía; los cinco siguientes, có
 
 ## 🧠 Modelo mental
 
+Antes de entrar en tipos y valoraciones conviene fijar el orden de las dos fuentes de pago, porque de él depende para qué sirve una garantía y para qué no.
+
 ```text
 PRIMERA FUENTE DE PAGO   el flujo de caja del deudor
                          determina si la operación se aprueba
@@ -137,6 +139,8 @@ además se descuentan los costos de ejecución:
   impuestos: habitualmente 8 % a 15 % del valor
 ```
 
+Encadenados sobre una tasación concreta, el castigo y los costos dejan un valor recuperable muy inferior al que figura en el informe del tasador.
+
 ```text
 ejemplo:
   inmueble comercial, tasación                180 000 000
@@ -153,6 +157,8 @@ La relación préstamo/valor determina la severidad esperada, y esa es la conexi
 LTV = crédito / valor de tasación
 severidad (LGD) = (exposición − recuperación) / exposición
 ```
+
+Con esas dos definiciones se puede recorrer un mismo crédito en dos escenarios y ver cómo la severidad depende del momento del incumplimiento.
 
 ```text
 crédito 120 000 000 · tasación 180 000 000 · LTV = 66,7 %

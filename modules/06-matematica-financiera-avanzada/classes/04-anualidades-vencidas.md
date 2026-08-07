@@ -178,6 +178,8 @@ si i ≠ g:   VP = A/(i − g) × [1 − ((1+g)/(1+i))^n]
 si i = g:   VP = A × n / (1+i)
 ```
 
+Con un flujo que crece a ritmo constante, la fórmula se aplica paso a paso hasta el valor presente.
+
 ```text
 A = 800 000 (primer pago) · g = 3 % anual · i = 9 % anual · n = 15
 

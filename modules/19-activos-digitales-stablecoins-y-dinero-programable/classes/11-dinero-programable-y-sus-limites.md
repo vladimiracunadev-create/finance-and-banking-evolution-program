@@ -110,6 +110,10 @@ CONSECUENCIA
 
 ### 1. Qué sí conviene programar
 
+Programar la operación y programar la unidad de dinero son cosas muy
+distintas, y solo la primera es aceptable. El bloque recoge casos de uso
+legítimos y señala la propiedad que todos comparten.
+
 ```text
 CONDICIONES SOBRE LA OPERACIÓN, NO SOBRE LA UNIDAD
 
@@ -128,6 +132,9 @@ TODAS COMPARTEN UNA PROPIEDAD
 ```
 
 ### 2. Qué no debe programarse
+
+Hay cuatro condiciones que no deberían programarse nunca, y todas empiezan
+pareciendo razonables. El bloque las enumera con el efecto al que conducen.
 
 ```text
 1 CADUCIDAD DEL SALDO
@@ -157,6 +164,10 @@ TODAS COMPARTEN UNA PROPIEDAD
 
 ### 3. El caso de los subsidios
 
+El subsidio con destino restringido es el caso donde mejor se ve la distancia
+entre la intención y el resultado. El bloque presenta el argumento a favor y,
+a continuación, lo que se observa cuando se aplica.
+
 ```text
 EL ARGUMENTO A FAVOR
   «si el subsidio es para alimentación,
@@ -184,6 +195,10 @@ DISEÑO ALTERNATIVO QUE SÍ FUNCIONA
 
 ### 4. La vía de excepción
 
+Una condición programada sin vía de excepción convierte cualquier error en
+definitivo. El bloque fija las cuatro preguntas que debe responder esa vía
+para no convertirse ella misma en el agujero.
+
 ```text
 TODA CONDICIÓN PROGRAMADA NECESITA
 UN CAMINO PARA SALTÁRSELA
@@ -206,6 +221,10 @@ CONVIERTE CADA ERROR EN UN DAÑO PERMANENTE
 ```
 
 ### 5. Reversibilidad
+
+Antes de programar una condición conviene clasificarla por lo que costaría
+deshacerla. El bloque propone tres categorías y coloca en cada una los casos
+habituales.
 
 ```text
 CLASIFICACIÓN POR CONSECUENCIA

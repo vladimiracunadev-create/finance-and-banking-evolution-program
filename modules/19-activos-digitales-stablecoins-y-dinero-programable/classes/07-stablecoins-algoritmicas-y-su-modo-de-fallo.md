@@ -110,6 +110,10 @@ EL DISEÑO DE DOS TOKENS
 
 ### 1. Por qué funciona en calma
 
+El diseño funciona mientras entra dinero, y funciona cada vez mejor, lo que
+resulta engañoso. El bloque sigue el circuito en fase de crecimiento y explica
+por qué la solidez aparente y la exposición son la misma magnitud.
+
 ```text
 CON DEMANDA CRECIENTE DE E
 
@@ -125,6 +129,10 @@ son la misma cosa vista dos veces.
 ```
 
 ### 2. La espiral
+
+El mismo circuito recorrido al revés no se detiene: se acelera. El bloque
+numera los pasos de la espiral y explica por qué cada vuelta es más rápida que
+la anterior.
 
 ```text
 CON SALIDA DE FONDOS
@@ -146,6 +154,10 @@ CON SALIDA DE FONDOS
 ```
 
 ### 3. El rendimiento como acelerador
+
+Un rendimiento alto sobre un instrumento estable obliga a preguntar de dónde
+sale el dinero. El bloque plantea las dos respuestas posibles y da la
+comprobación que distingue una de la otra.
 
 ```text
 MUCHOS DISEÑOS OFRECEN UN RENDIMIENTO ALTO
@@ -174,6 +186,10 @@ EFECTO SOBRE EL RIESGO
 
 ### 4. Reconocerlo con otro nombre
 
+El mismo mecanismo se presenta bajo etiquetas que suenan conservadoras. El
+bloque recopila las más frecuentes y ofrece una única prueba que las detecta
+todas, sea cual sea el nombre.
+
 ```text
 EL MISMO MECANISMO APARECE COMO:
 
@@ -194,6 +210,10 @@ LA PRUEBA QUE LOS DETECTA TODOS
 ```
 
 ### 5. Diseños híbridos
+
+Un diseño híbrido mezcla respaldo externo con respaldo propio, y en tensión
+solo cuenta el primero. El bloque lo muestra con porcentajes y fija la regla
+para calcular la cobertura efectiva.
 
 ```text
 UN HÍBRIDO TIENE UNA PARTE EXÓGENA

@@ -148,6 +148,8 @@ Si conoces las tasas a dos plazos, la tasa forward es la que hace indiferente am
 (1 + i_largo)^n_largo = (1 + i_corto)^n_corto × (1 + f)^(n_largo − n_corto)
 ```
 
+Con dos tasas observadas en la curva, la igualdad se despeja para obtener la tasa que el mercado espera para el tramo intermedio.
+
 ```text
 tasa a 1 año  = 6,0 %
 tasa a 2 años = 6,8 %
@@ -176,6 +178,8 @@ si la tasa sube 1 punto en cada renovación:
   costo efectivo anual = [(1,052)^0,25 × (1,062)^0,25 × (1,072)^0,25 × (1,082)^0,25] − 1
                        = 6,6903 %
 ```
+
+De ese escenario se deduce el rendimiento mínimo que debe exigirse a la colocación larga para que la estrategia no pierda dinero.
 
 ```text
 la colocación a 360 días debe rendir al menos 6,69 % + margen

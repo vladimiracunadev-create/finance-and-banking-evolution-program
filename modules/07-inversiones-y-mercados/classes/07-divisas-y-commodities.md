@@ -102,6 +102,8 @@ retorno = variación del tipo de cambio + tasa de interés de esa moneda
                                         − tasa de interés de la moneda local
 ```
 
+Con tasas realistas y un tipo de cambio quieto, la cuenta muestra que mantener la moneda externa puede costar dinero aunque no se mueva nada.
+
 ```text
 tasa local 8,5 % · tasa externa 4,5 % · tipo de cambio estable
 retorno de mantener la moneda externa = 0 + 4,5 − 8,5 = −4,0 % anual

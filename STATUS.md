@@ -14,25 +14,25 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 3 | Parte 3: Productos y servicios financieros | 14 | 14 | `████████████████████` | 15.8 KB |
 | 4 | Parte 4: Seguridad y consumo financiero | 14 | 14 | `████████████████████` | 16.8 KB |
 | 5 | Parte 5: Contabilidad financiera | 15 | 15 | `████████████████████` | 16.8 KB |
-| 6 | Parte 6: Economía y sistema financiero | 15 | 15 | `████████████████████` | 16.9 KB |
-| 7 | Parte 7: Matemática financiera avanzada | 15 | 15 | `████████████████████` | 16.5 KB |
-| 8 | Parte 8: Inversiones y mercados | 15 | 15 | `████████████████████` | 17.9 KB |
-| 9 | Parte 9: Análisis y gestión de crédito | 16 | 16 | `████████████████████` | 19.3 KB |
-| 10 | Parte 10: Operaciones bancarias | 16 | 16 | `████████████████████` | 18.7 KB |
-| 11 | Parte 11: Gestión integral de riesgos | 16 | 16 | `████████████████████` | 19.2 KB |
+| 6 | Parte 6: Economía y sistema financiero | 15 | 15 | `████████████████████` | 17.0 KB |
+| 7 | Parte 7: Matemática financiera avanzada | 15 | 15 | `████████████████████` | 16.7 KB |
+| 8 | Parte 8: Inversiones y mercados | 15 | 15 | `████████████████████` | 18.0 KB |
+| 9 | Parte 9: Análisis y gestión de crédito | 16 | 16 | `████████████████████` | 19.5 KB |
+| 10 | Parte 10: Operaciones bancarias | 16 | 16 | `████████████████████` | 18.9 KB |
+| 11 | Parte 11: Gestión integral de riesgos | 16 | 16 | `████████████████████` | 19.3 KB |
 | 12 | Parte 12: Regulación, cumplimiento y auditoría | 16 | 16 | `████████████████████` | 20.0 KB |
-| 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 20.0 KB |
+| 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 20.1 KB |
 | 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 20.4 KB |
 | 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 20.4 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 20.0 KB |
-| 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 19.8 KB |
-| 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 19.7 KB |
-| 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 18.8 KB |
-| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 17.9 KB |
-| 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 18.0 KB |
-| 22 | Parte 22: Regulación de mercados financieros digitales | 18 | 18 | `████████████████████` | 17.8 KB |
+| 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 20.6 KB |
+| 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 20.6 KB |
+| 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 19.6 KB |
+| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 18.7 KB |
+| 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 18.8 KB |
+| 22 | Parte 22: Regulación de mercados financieros digitales | 18 | 18 | `████████████████████` | 18.4 KB |
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 14.1 KB |
-| | **Total** | **352** | **352** | `████████████████████` | **18.1 KB** |
+| | **Total** | **352** | **352** | `████████████████████` | **18.3 KB** |
 
 ## Qué significa que una clase esté completa
 

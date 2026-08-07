@@ -112,6 +112,10 @@ LA CONSECUENCIA CONTABLE
 
 ### 1. Los asientos de un pago, en los dos libros
 
+La forma más rápida de fijar los nombres es ver el mismo pago en los dos
+libros a la vez. El bloque escribe los asientos de cada banco y termina con
+las observaciones que suelen provocar el error de signo.
+
 ```text
 BANCO CL paga 10 000 USD a un cliente del BANCO NY
 
@@ -134,6 +138,10 @@ OBSERVA
 ```
 
 ### 2. La cuenta espejo
+
+El banco que ordena no ve el libro de su corresponsal: lo reconstruye. El
+bloque explica por qué hace falta una cuenta espejo, en qué se diferencia del
+extracto recibido y qué se hace con cada diferencia entre ambos.
 
 ```text
 EL PROBLEMA
@@ -176,6 +184,10 @@ LA REGLA DE ORO DE LA CONCILIACIÓN
 
 ### 4. El coste de tener saldos
 
+Tener saldo disponible en el extranjero no es gratis: es capital inmovilizado
+que se financia a un tipo y se remunera a otro. El bloque pone el cálculo
+completo, que es de donde sale toda la gestión de liquidez de la clase 8.
+
 ```text
 UN NOSTRO NECESITA SALDO PARA PODER PAGAR.
 ESE SALDO CUESTA.
@@ -194,6 +206,10 @@ DE AHÍ SALE TODA LA GESTIÓN DE LIQUIDEZ
 ```
 
 ### 5. Descubierto intradía
+
+El descubierto intradía permite operar con mucho menos saldo, a cambio de
+condiciones. El bloque enumera lo que exige el corresponsal, lo que gana el
+respondedor y la exposición que aparece si el día no cierra en positivo.
 
 ```text
 EL CORRESPONSAL PUEDE ADMITIR SALDO NEGATIVO

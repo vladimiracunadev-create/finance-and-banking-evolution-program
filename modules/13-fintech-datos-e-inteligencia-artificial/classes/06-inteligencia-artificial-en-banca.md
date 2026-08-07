@@ -180,6 +180,8 @@ LO QUE HACEN BIEN                    LO QUE NO HACEN
   generar borradores                   sustituir la verificación
 ```
 
+El límite de la columna derecha no es una carencia que se corrija con más datos: es una consecuencia de cómo funciona el sistema, y de ahí salen las reglas de uso.
+
 ```text
 LA ALUCINACIÓN NO ES UN ERROR CORREGIBLE: ES UNA PROPIEDAD
   el sistema genera lo plausible, no lo verificado

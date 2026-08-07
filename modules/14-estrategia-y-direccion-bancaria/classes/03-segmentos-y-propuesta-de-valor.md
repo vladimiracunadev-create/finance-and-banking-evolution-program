@@ -194,6 +194,8 @@ TIPOS DE RENUNCIA ESTRATÉGICA
   · niveles de servicio que no se prometen
 ```
 
+Enumerar los tipos de renuncia no basta: hay que poder distinguir una renuncia verdadera de una frase que no compromete a nada.
+
 ```text
 UNA RENUNCIA ES REAL SI TIENE COSTO
   "no atendemos a clientes de muy alto patrimonio"

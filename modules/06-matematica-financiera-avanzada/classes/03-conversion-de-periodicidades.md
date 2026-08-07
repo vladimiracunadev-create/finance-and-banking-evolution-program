@@ -157,6 +157,8 @@ convención EXPONENCIAL (compuesta):  M = C (1 + i)^n     con n fraccionario
 convención LINEAL (mixta):           M = C (1 + i)^⌊n⌋ × (1 + i × fracción)
 ```
 
+La diferencia entre ambas convenciones parece menor y conviene medirla con un caso, porque en contratos grandes deja de serlo.
+
 ```text
 C = 10 000 000 · i = 2 % mensual · n = 5,4 meses
 

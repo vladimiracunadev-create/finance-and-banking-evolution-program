@@ -133,6 +133,8 @@ COMPONENTES DE UNA AUTOEVALUACIÓN CREÍBLE
   9. uso efectivo: ¿el proceso cambia decisiones?
 ```
 
+De todos esos componentes, hay uno que pesa más que la calidad del documento, y es el que distingue un proceso vivo de un ejercicio anual.
+
 ```text
 EL CRITERIO QUE MÁS PESA: EL USO
   un documento excelente que nadie usa vale poco

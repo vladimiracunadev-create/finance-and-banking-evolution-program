@@ -103,6 +103,10 @@ LA PREGUNTA QUE LAS ORDENA
 
 ### 1. Los dos tipos de cambio
 
+Un cambio de reglas puede ser compatible con los nodos antiguos o no serlo, y
+de eso depende si se puede desplegar por etapas. El bloque define ambos tipos
+y matiza qué cambia en una red de participantes conocidos.
+
 ```text
 BIFURCACIÓN COMPATIBLE
   el cambio restringe lo que antes era válido
@@ -127,6 +131,10 @@ EN UNA RED ABIERTA
 
 ### 2. Qué es realmente una bifurcación de cadena
 
+Una bifurcación de cadena no es una avería: es un desacuerdo que el software
+se limita a ejecutar. El bloque lo explica y enumera las preguntas que abre
+inmediatamente en el balance de una institución.
+
 ```text
 NO ES UN FALLO TÉCNICO: ES UN DESACUERDO
 
@@ -149,6 +157,10 @@ CONSECUENCIAS PARA UNA INSTITUCIÓN
 ```
 
 ### 3. El dilema de revertir
+
+Cuando un defecto destruye fondos, la comunidad puede coordinarse para
+deshacerlo, y ahí empieza la discusión. El bloque recoge los argumentos de las
+dos partes sin resolverla, porque la decisión es de gobierno, no técnica.
 
 ```text
 OCURRE UN DEFECTO Y SE PIERDEN FONDOS.
@@ -178,6 +190,10 @@ EN UNA RED FINANCIERA AUTORIZADA
 
 ### 4. Compensación frente a reversión
 
+Existe una salida intermedia que la contabilidad lleva siglos usando: en vez
+de borrar el error, se registra su corrección. El bloque compara ambas vías y
+enumera las ventajas de la segunda.
+
 ```text
 REVERSIÓN
   se cambia la historia
@@ -199,6 +215,10 @@ un registro que se puede reescribir no es un registro
 ```
 
 ### 5. El plan de recuperación
+
+El plan de recuperación se escribe en frío y se ejecuta en caliente, así que
+debe responder por escrito a preguntas concretas. El bloque las enumera en el
+orden en que se plantean durante un incidente real.
 
 ```text
 QUÉ TIENE QUE RESPONDER, POR ESCRITO

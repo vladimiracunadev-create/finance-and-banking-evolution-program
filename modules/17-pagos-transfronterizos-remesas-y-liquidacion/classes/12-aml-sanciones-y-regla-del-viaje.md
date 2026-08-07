@@ -115,6 +115,10 @@ EL ERROR MÁS CARO
 
 ### 1. La regla del viaje, en concreto
 
+La regla del viaje se resume en una idea —la información del ordenante y del
+beneficiario acompaña al pago— y se aplica con una lista concreta de campos. El
+bloque la detalla y reparte la obligación entre las partes de la cadena.
+
 ```text
 QUÉ DEBE ACOMPAÑAR A UNA TRANSFERENCIA
 
@@ -144,6 +148,10 @@ EL PUNTO QUE SE INCUMPLE MÁS
 ```
 
 ### 2. Screening: precisión y exhaustividad
+
+El filtrado contra listas se evalúa con dos medidas que se mueven en
+direcciones opuestas. El bloque las define sobre la matriz de resultados y
+explica por qué, en sanciones, no se equilibran: manda una de las dos.
 
 ```text
 CUATRO RESULTADOS POSIBLES
@@ -191,6 +199,10 @@ LA CORRECCIÓN QUE NUNCA ES CORRECTA
 
 ### 4. Qué hacer ante una coincidencia de sanciones
 
+Cuando salta una coincidencia, el margen de improvisación es nulo. El bloque
+fija el procedimiento en orden y cierra con las tres cosas que no se hacen
+nunca, por muy razonable que parezca la presión del momento.
+
 ```text
 PROCEDIMIENTO, SIN EXCEPCIONES
 
@@ -212,6 +224,10 @@ LO QUE NUNCA SE HACE
 ```
 
 ### 5. El efecto sobre el acceso
+
+El cumplimiento estricto tiene un efecto secundario medible sobre quién queda
+dentro y fuera del sistema. El bloque expone la tensión, la conecta con las
+clases 3 y 10 y precisa dónde cabe proporcionalidad y dónde no.
 
 ```text
 LA TENSIÓN CENTRAL DE ESTA CLASE

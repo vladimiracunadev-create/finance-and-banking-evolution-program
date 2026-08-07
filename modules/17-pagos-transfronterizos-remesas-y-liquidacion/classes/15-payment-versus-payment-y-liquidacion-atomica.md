@@ -108,6 +108,10 @@ TRES PALABRAS QUE NO SON SINÓNIMAS
 
 ### 1. Cómo se consigue la atomicidad
 
+Que dos pagos ocurran «o los dos, o ninguno» se puede conseguir de tres
+maneras, y ninguna es gratis. El bloque describe cada mecanismo con lo que
+exige a cambio de la garantía que ofrece.
+
 ```text
 MECANISMO 1 · LIQUIDADOR CENTRAL
   ambas patas se liquidan en los libros de una entidad
@@ -136,6 +140,10 @@ EL PROBLEMA COMÚN DE LOS TRES
 
 ### 2. Exposición de liquidación
 
+La exposición de liquidación no se mide en importe sino en importe por tiempo,
+y no se suma como se suele suponer. El bloque da la fórmula y la aplica a una
+cartera pequeña para mostrar dónde está el máximo real.
+
 ```text
 FÓRMULA
   exposición = importe × tiempo entre entregar y recibir
@@ -159,6 +167,10 @@ POR QUÉ IMPORTA
 
 ### 3. Qué no elimina el pago contra pago
 
+El pago contra pago elimina un riesgo concreto y deja intactos otros cinco. El
+bloque los separa y se detiene en el último, que es el que aparece justo por
+haber resuelto el primero.
+
 ```text
 ELIMINA
   el riesgo de entregar y no recibir
@@ -179,6 +191,10 @@ EL ÚLTIMO ES EL MÁS IMPORTANTE
 ```
 
 ### 4. Liquidación atómica en plataformas programables
+
+Cuando ambos activos viven en el mismo registro, la atomicidad deja de
+necesitar coordinador. El bloque enuncia la promesa y, a continuación, las
+cuatro condiciones sin las cuales no se cumple.
 
 ```text
 LA PROMESA
@@ -203,6 +219,10 @@ LO QUE SE ESTUDIA EN LA PARTE 21
 ```
 
 ### 5. Sincronización sin plataforma común
+
+No hace falta una plataforma común para sincronizar dos liquidaciones. El
+bloque describe la vía intermedia, con la ventaja que la hace atractiva y la
+dificultad que explica por qué todavía no es habitual.
 
 ```text
 UNA VÍA INTERMEDIA

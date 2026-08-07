@@ -97,6 +97,8 @@ E = ─────────────────────────�
         (P₂ − P₁) / ((P₂ + P₁)/2)
 ```
 
+Aplicada a una variación concreta de precio y cantidad, la fórmula entrega un número que ya permite clasificar la demanda.
+
 ```text
 precio pasa de 1 000 a 1 200; cantidad de 800 a 640
 
@@ -154,6 +156,8 @@ elasticidad ingreso = %ΔQ / %Δingreso
   < 0     bien inferior (baja cuando sube el ingreso)
 ```
 
+La misma idea aplicada a dos bienes distintos mide si compiten entre sí o si se consumen juntos, y el signo del resultado es lo que lo dice.
+
 ```text
 elasticidad cruzada = %ΔQ de A / %ΔP de B
 
@@ -178,6 +182,8 @@ Con la elasticidad conocida, el precio que maximiza el ingreso se calcula. El pr
 ```text
 el ingreso total se maximiza donde |E| = 1
 ```
+
+Con una demanda estimada se puede recorrer la curva y comprobar dónde está ese máximo, comparando el ingreso en tres precios distintos.
 
 ```text
 demanda estimada: Q = 2 000 − 0,8 P

@@ -200,6 +200,8 @@ Una coincidencia se resuelve con un procedimiento y plazos estrictos. Los pasos 
 5. REGISTRO                  toda decisión, documentada
 ```
 
+Junto al procedimiento conviene fijar por escrito lo que queda excluido, porque son precisamente las salidas que la presión del momento sugiere.
+
 ```text
 LO QUE NUNCA DEBE HACERSE
   · devolver los fondos al ordenante en una coincidencia verdadera

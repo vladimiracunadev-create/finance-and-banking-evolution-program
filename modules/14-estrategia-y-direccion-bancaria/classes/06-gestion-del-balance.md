@@ -134,6 +134,8 @@ PROCEDIMIENTO
   2. la menor de todas es la restricción activa
 ```
 
+Aplicado a un balance concreto, el procedimiento traduce cada restricción a capacidad de crecimiento y deja ver cuál es la que realmente limita.
+
 ```text
 EJEMPLO
   capital: 12,46 %, requerimiento 11,34 %

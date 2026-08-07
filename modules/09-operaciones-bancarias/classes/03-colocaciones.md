@@ -124,6 +124,8 @@ La rentabilidad ajustada compara el resultado con el capital que la operación c
 RAROC = (ingreso − costo de fondos − pérdida esperada − costo operativo) / capital económico
 ```
 
+Calculado por segmento, el indicador ordena la cartera por lo que aporta al capital y no por lo que aporta al volumen.
+
 ```text
 segmento          tasa   costo     pérdida   costo    margen   capital   RAROC
                         fondos    esperada  operativo  neto    económico
@@ -142,6 +144,8 @@ corporativo       7,2 %  4,6 %     0,42 %    0,35 %   1,83 %    5,1 %    35,9 %
 · es un producto de atracción, no de rentabilidad directa
 · la rentabilidad debe medirse a nivel CLIENTE, no de producto (Parte 15, clase 4)
 ```
+
+Sumando los productos asociados, el mismo cliente que parecía destruir valor pasa a aportarlo.
 
 ```text
 rentabilidad del cliente hipotecario con productos asociados:
@@ -164,6 +168,8 @@ LÍMITES HABITUALES
   · exposición máxima a un sector: definida por política interna
   · exposición a partes relacionadas: límite más estricto
 ```
+
+Aplicados a un patrimonio concreto, los límites se traducen en cifras que permiten ver qué tan cerca está la entidad de cada techo.
 
 ```text
 CONCENTRACIÓN POR DEUDOR
@@ -199,6 +205,8 @@ El crecimiento rápido de una cartera anticipa deterioro con un rezago conocido.
 el crecimiento de la cartera se analiza junto con su calidad
 ```
 
+Puestas en tres años consecutivos, las cifras cuentan una historia que ninguna de ellas cuenta por separado.
+
 ```text
                           año −2    año −1    año 0
 crecimiento de cartera     +8,4 %   +12,1 %   +19,6 %
@@ -230,6 +238,8 @@ más allá de originar, un banco puede:
   · COBERTURAR con derivados de crédito
   · SINDICAR grandes operaciones entre varios bancos
 ```
+
+Sobre una cartera concreta, la decisión de venta se evalúa comparando lo que cuesta con lo que libera.
 
 ```text
 DECISIÓN DE VENTA DE CARTERA

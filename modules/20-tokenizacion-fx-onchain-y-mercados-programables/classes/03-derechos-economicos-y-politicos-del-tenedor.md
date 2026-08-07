@@ -110,6 +110,10 @@ Y UNA CUARTA, TRANSVERSAL:
 
 ### 1. Los económicos son los fáciles
 
+Los derechos económicos se programan sin dificultad conceptual; lo que se
+complica es determinar a quién pagar. El bloque muestra que el problema es de
+fecha de corte y de registro, no de cálculo.
+
 ```text
 CUPÓN, DIVIDENDO, AMORTIZACIÓN
 
@@ -130,6 +134,9 @@ PROGRAMAR EL PAGO NO ELIMINA EL PROBLEMA
 ```
 
 ### 2. Los políticos son los difíciles
+
+El voto es mucho más difícil de trasladar que el cupón, por razones que no
+tienen que ver con la tecnología. El bloque las enumera.
 
 ```text
 POR QUÉ EL VOTO SE COMPLICA
@@ -163,6 +170,10 @@ QUÉ NO RESUELVE
 
 ### 3. Los derechos con umbral
 
+Muchos derechos de un tenedor solo existen a partir de un porcentaje, y
+fraccionar los deja fuera de alcance. El bloque enumera esos derechos y hace
+la cuenta del efecto.
+
 ```text
 MUCHOS DERECHOS EXIGEN UN PORCENTAJE
 
@@ -195,6 +206,10 @@ no cuando alguien quiere impugnar.
 
 ### 4. Derechos perdidos por diseño
 
+Hay derechos que la norma concede y que una decisión de arquitectura vuelve
+inaplicables. El bloque recoge los casos más frecuentes, todos evitables en el
+diseño.
+
 ```text
 LA NORMA LOS CONCEDE Y LA ARQUITECTURA
 LOS IMPIDE
@@ -223,6 +238,10 @@ CADA UNO SE DETECTA CON LA MISMA PREGUNTA
 ```
 
 ### 5. El derecho de rescate
+
+La pregunta que casi nunca se hace es si el tenedor puede volver al registro
+oficial. El bloque la plantea para cada configuración y explica por qué
+importa más que ninguna otra.
 
 ```text
 EL MÁS OLVIDADO Y EL MÁS IMPORTANTE

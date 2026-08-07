@@ -106,6 +106,10 @@ LA CONSECUENCIA OPERATIVA
 
 ### 1. La relación con el contrato jurídico
 
+La relación entre el código y el contrato jurídico admite tres
+configuraciones, y elegir sin saberlo es elegir la peor. El bloque las
+describe con lo que ocurre en cada una cuando algo sale mal.
+
 ```text
 TRES CONFIGURACIONES POSIBLES
 
@@ -148,6 +152,10 @@ LOS SEIS TIENEN ALGO EN COMÚN
 
 ### 3. Diseñar con máquina de estados
 
+Un contrato financiero sin máquina de estados expone funciones que se pueden
+llamar en cualquier orden, y eso es un defecto. El bloque muestra el mismo
+depósito en garantía bien modelado, con sus transiciones.
+
 ```text
 UN CONTRATO FINANCIERO SIN MÁQUINA DE ESTADOS
 ES UN CONJUNTO DE FUNCIONES QUE CUALQUIERA
@@ -170,6 +178,10 @@ Y ADEMÁS, INVARIANTES QUE SE COMPRUEBAN SIEMPRE
 ```
 
 ### 4. Actualización: la tensión central
+
+Poder corregir un contrato y no poder alterarlo son propiedades incompatibles,
+y hay que renunciar conscientemente a una. El bloque presenta ambos extremos y
+los mecanismos intermedios que reparten el inconveniente.
 
 ```text
 UN CONTRATO NO ACTUALIZABLE
@@ -197,6 +209,10 @@ EL INTERRUPTOR QUE SOLO PARA ES EL MEJOR COMPROMISO
 ```
 
 ### 5. Qué debe quedar fuera del código
+
+No todo lo que forma parte de un acuerdo debe vivir dentro del código. El
+bloque reparte los contenidos entre dentro y fuera, y cierra con la regla que
+permite decidir los casos dudosos.
 
 ```text
 FUERA

@@ -79,6 +79,8 @@ cambia el PRECIO           → me muevo SOBRE la curva
 cambia OTRA COSA           → la curva SE DESPLAZA
 ```
 
+La distinción se fija leyendo tres frases de uso corriente y clasificando cada una según qué variable cambió.
+
 ```text
 "subió el precio del pan y se vende menos"      → movimiento sobre la curva
 "subió el ingreso y se vende más pan"           → desplazamiento de la demanda

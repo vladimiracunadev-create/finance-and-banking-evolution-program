@@ -153,6 +153,8 @@ La relación entre diferenciales de tasas y expectativas de tipo de cambio es la
 i_local ≈ i_externa + depreciación esperada + prima de riesgo
 ```
 
+Despejando la relación con datos observados se obtiene la depreciación que el mercado está descontando de forma implícita.
+
 ```text
 tasa local 8,5 % · tasa externa 4,5 % · prima de riesgo 1,2 %
 depreciación esperada implícita = 8,5 − 4,5 − 1,2 = 2,8 % anual
@@ -172,6 +174,8 @@ moneda: atrae capitales que buscan el diferencial.
 descalce = activos en moneda extranjera − pasivos en moneda extranjera
          ± posición neta en derivados
 ```
+
+Sobre un balance concreto, el descalce se calcula sumando las tres partidas y su signo indica en qué dirección duele un movimiento del tipo de cambio.
 
 ```text
 activos en dólares      2 400 (millones de dólares)

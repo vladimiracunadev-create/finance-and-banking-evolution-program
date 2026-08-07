@@ -131,6 +131,10 @@ SE HACE EN CUENTA ABIERTA
 
 ### 2. Cómo funciona una carta de crédito
 
+La carta de crédito resuelve la desconfianza entre dos empresas que no se
+conocen, interponiendo la obligación de un banco. El bloque recorre el
+mecanismo paso a paso y termina en la frase que resume su alcance real.
+
 ```text
 1. importador y exportador acuerdan pagar con crédito documentario
 2. el importador pide a SU banco que emita el crédito
@@ -153,6 +157,10 @@ LA FRASE QUE HAY QUE ENTENDER
 ```
 
 ### 3. Las discrepancias
+
+La mayoría de las presentaciones documentarias llegan con algún defecto, y el
+crédito se convierte entonces en otra cosa. El bloque enumera las
+discrepancias más frecuentes y describe qué ocurre a partir de ellas.
 
 ```text
 LAS MÁS FRECUENTES
@@ -183,6 +191,10 @@ en la fuente: es un indicador que se publica y varía.
 
 ### 4. El coste financiero completo
 
+El precio de un crédito documentario no está solo en las comisiones. El bloque
+suma los tres componentes que lo forman, dos de los cuales no aparecen en
+ninguna factura y sí en el resultado de la empresa.
+
 ```text
 NO ES SOLO LA COMISIÓN
 
@@ -207,6 +219,10 @@ NO ES SOLO LA COMISIÓN
 ```
 
 ### 5. Conciliación: el problema silencioso
+
+Para una empresa con cientos de cobros internacionales, el problema no es
+recibir el dinero: es saber a qué factura corresponde cada ingreso. El bloque
+describe por qué el casamiento falla y qué cuesta cuando falla.
 
 ```text
 UNA EMPRESA CON 400 COBROS INTERNACIONALES AL MES

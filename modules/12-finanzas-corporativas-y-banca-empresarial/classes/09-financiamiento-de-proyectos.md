@@ -226,6 +226,8 @@ CONTRATOS QUE SOSTIENEN LA ESTRUCTURA
   · acuerdos directos con las contrapartes principales
 ```
 
+A esa lista hay que añadir un instrumento que rara vez aparece en los resúmenes y que sostiene el valor del activo cuando todo lo demás falla.
+
 ```text
 ACUERDO DIRECTO — el instrumento menos conocido y más útil
   el prestamista firma con el comprador o el Estado

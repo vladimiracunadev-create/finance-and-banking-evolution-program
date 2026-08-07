@@ -112,6 +112,10 @@ EL ERROR DE ANÁLISIS MÁS COMÚN
 
 ### 1. Los tramos que realmente cuestan
 
+Al comparar rutas conviene mirar dónde está el coste, no dónde está la
+novedad. El bloque descompone la ruta con stablecoin y muestra que los tramos
+caros exigen exactamente los mismos requisitos que un operador clásico.
+
 ```text
 ENTRADA Y SALIDA SON EL 90 % DEL COSTE
 
@@ -156,6 +160,10 @@ LA PREGUNTA DE LA CLASE 5 APLICADA AQUÍ
 
 ### 3. Riesgos que la ruta introduce
 
+Cambiar de ruta no elimina riesgos: los sustituye por otros. El bloque
+enumera los que introduce esta y señala en cada caso de qué depende su
+magnitud, que casi siempre es el tiempo de tenencia.
+
 ```text
 RIESGO DE EMISOR
   mientras el valor está en stablecoin, se tiene
@@ -185,6 +193,10 @@ RIESGO DE CUMPLIMIENTO
 
 ### 4. Dónde tiene sentido y dónde no
 
+La respuesta honesta a «¿sirve una stablecoin para este pago?» es «depende del
+corredor». El bloque da los criterios de los dos lados, para que la decisión
+se apoye en condiciones verificables y no en una preferencia previa.
+
 ```text
 TIENE MÁS SENTIDO CUANDO
   · el corredor tiene pocos corresponsales o ninguno
@@ -204,6 +216,10 @@ TIENE MENOS SENTIDO CUANDO
 ```
 
 ### 5. Depósitos tokenizados: la alternativa que no es lo mismo
+
+Un depósito tokenizado se parece por fuera a una stablecoin y es otra cosa por
+dentro. El bloque marca las diferencias que importan y el intercambio que
+propone: menos riesgo de emisor a cambio de menos acceso abierto.
 
 ```text
 UN DEPÓSITO TOKENIZADO ES UN PASIVO BANCARIO

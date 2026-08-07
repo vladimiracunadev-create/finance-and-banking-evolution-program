@@ -129,6 +129,10 @@ UNA CONDICIÓN:
 
 ### 2. Disponibilidad de datos: el problema central
 
+La pregunta que separa a unas arquitecturas de escala de otras no es cuántas
+operaciones procesan, sino quién publica los datos. El bloque plantea el
+problema desde la posición del usuario que quiere retirar sus fondos.
+
 ```text
 UNA SEGUNDA CAPA PUBLICA EN LA BASE UN COMPROMISO
 DE SU ESTADO. LA BASE NO EJECUTA NADA: SOLO LO GUARDA.
@@ -156,6 +160,10 @@ Y ES LA DIFERENCIA REAL ENTRE LAS ARQUITECTURAS
 
 ### 3. Valor extraíble del orden
 
+Quien ordena las operaciones puede extraer valor de ese orden, y hay tres
+formas conocidas de hacerlo. El bloque las nombra y describe qué efecto tiene
+cada una sobre el usuario y sobre el mercado.
+
 ```text
 QUIEN DECIDE EL ORDEN DE LAS OPERACIONES
 PUEDE EXTRAER VALOR
@@ -182,6 +190,10 @@ NINGUNO ES COMPLETO, Y TODOS SON MEJORES QUE NADA
 
 ### 4. Disponibilidad del servicio
 
+Un registro distribuido falla de maneras que no aparecen en el catálogo
+habitual de incidencias. El bloque enumera sus modos propios y deriva qué
+métrica de servicio tiene sentido medir.
+
 ```text
 UN REGISTRO DISTRIBUIDO NO SE CAE DEL MISMO MODO
 QUE UN SISTEMA CENTRALIZADO
@@ -202,6 +214,11 @@ CONSECUENCIA PARA UN ACUERDO DE NIVEL DE SERVICIO
 ```
 
 ### 5. Elegir con criterios trazables
+
+Elegir una solución de escala es aceptar un cambio en los supuestos de
+seguridad, y conviene que ese cambio esté escrito. El bloque propone las seis
+preguntas y señala las dos cuyas respuestas revelan si se trata de una
+segunda capa o de un custodio.
 
 ```text
 PREGUNTAS ANTES DE ADOPTAR UNA SOLUCIÓN DE ESCALA

@@ -119,6 +119,8 @@ Con la duración modificada se estima el cambio de precio ante un movimiento de 
 ΔP ≈ −D* × Δy × P
 ```
 
+Comparar la estimación con el precio recalculado permite medir cuánto se pierde por usar la aproximación lineal en un movimiento pequeño.
+
 ```text
 Δy = +0,50 % (50 pb)
 ΔP ≈ −4,1610 × 0,005 × 959,02 = −19,95
@@ -178,6 +180,8 @@ La duración de un conjunto es el promedio ponderado de las duraciones, y eso pe
 duración de una cartera = Σ (peso_i × duración_i)
 ```
 
+El promedio ponderado se calcula instrumento a instrumento, y la última columna es la que suma.
+
 ```text
 Instrumento        Valor      Peso     D*      Peso × D*
 bono soberano 10a  40 000     0,40    7,82      3,128
@@ -186,6 +190,8 @@ depósito 90 días   20 000     0,20    0,24      0,048
 crédito 3 años     15 000     0,15    2,68      0,402
 TOTAL             100 000     1,00              4,618
 ```
+
+Con la duración de la cartera ya calculada, la pérdida ante un movimiento dado de la curva se obtiene con una sola multiplicación.
 
 ```text
 D* de la cartera = 4,618
@@ -197,6 +203,8 @@ Para el balance completo de un banco se usa la **brecha de duración**:
 ```text
 brecha = D*_activos − D*_pasivos × (pasivos/activos)
 ```
+
+Aplicada a un balance completo, la brecha traduce el riesgo de tasa a lo único que preocupa al accionista: cuánto patrimonio se pierde.
 
 ```text
 D*_activos = 3,8 · D*_pasivos = 1,4 · activos 100 000 · pasivos 92 000

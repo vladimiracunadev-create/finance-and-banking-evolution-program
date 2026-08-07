@@ -106,6 +106,10 @@ está expresando una opinión, no un cálculo.
 
 ### 1. Cómo se determina la oferta
 
+La oferta de un criptoactivo se fija por diseño, y hay tres formas habituales
+de hacerlo. El bloque las describe con la propiedad que cada una otorga —o
+retira— a la escasez resultante.
+
 ```text
 TRES MODELOS HABITUALES
 
@@ -127,6 +131,10 @@ SINO QUIÉN PUEDE CAMBIAR ESA CIFRA Y CÓMO
 
 ### 2. Escasez no es valor
 
+El argumento de la escasez es el más repetido y el más fácil de desmontar. El
+bloque lo enuncia, explica por qué no se sostiene y sustituye la pregunta por
+otras tres que sí admiten respuesta con datos.
+
 ```text
 ARGUMENTO FRECUENTE
   «solo habrá N unidades, luego subirá»
@@ -146,6 +154,10 @@ LO QUE SÍ IMPORTA
 
 ### 3. Reflexividad
 
+En un activo con flujos existe un mecanismo que frena las subidas; sin flujos,
+no existe. El bloque compara ambos casos y explica por qué la volatilidad
+resultante es estructural y no un síntoma de inmadurez.
+
 ```text
 EN UN ACTIVO CON FLUJOS
   precio ↑  →  rendimiento esperado ↓  →  demanda ↓
@@ -161,6 +173,10 @@ SIN FLUJOS
 ```
 
 ### 4. Tratamiento prudencial
+
+El tratamiento prudencial de estas exposiciones sorprende por lo severo hasta
+que se ve de dónde sale. El bloque reconstruye el razonamiento del supervisor
+paso a paso hasta la solución conservadora.
 
 ```text
 POR QUÉ EL TRATAMIENTO ES SEVERO
@@ -186,6 +202,10 @@ CONSECUENCIA PRÁCTICA
 ```
 
 ### 5. Qué sí puede decir un análisis serio
+
+La diferencia entre un análisis defendible y una opinión está en el tipo de
+afirmación que se pone por escrito. El bloque enfrenta unas y otras sobre las
+mismas cuestiones.
 
 ```text
 NO SE PUEDE DECIR                 SÍ SE PUEDE DECIR

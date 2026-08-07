@@ -120,6 +120,8 @@ VARIABLES MACRO TÍPICAS
   diferencial soberano          ampliación
 ```
 
+Elegidas las variables, queda la parte que más se descuida: que se muevan de forma coherente entre sí, y no cada una por su cuenta.
+
 ```text
 COHERENCIA INTERNA — relaciones que deben respetarse
   caída del producto  →  alza del desempleo (con rezago)

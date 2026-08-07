@@ -111,6 +111,10 @@ Y LA CUARTA ES LA DECISIVA
 
 ### 1. El material de promoción califica
 
+Cómo se vende un instrumento forma parte de lo que ese instrumento es a
+efectos regulatorios. El bloque lo muestra con dos frases casi idénticas que
+producen calificaciones distintas.
+
 ```text
 LO QUE SE DICE PARA VENDERLO
 FORMA PARTE DE LA CALIFICACIÓN
@@ -130,6 +134,9 @@ CONSECUENCIA PRÁCTICA
 ```
 
 ### 2. Utilidad de verdad y utilidad aparente
+
+La distinción entre un token de utilidad y uno que no lo es se puede hacer con
+cuatro criterios observables. El bloque los aplica a los dos casos.
 
 ```text
 UTILIDAD DE VERDAD
@@ -170,6 +177,10 @@ LA ÚLTIMA FILA ES LA PEOR
 
 ### 4. La recalificación
 
+Una calificación no es permanente: los hechos que la sostienen pueden cambiar
+en ambos sentidos. El bloque enumera los cambios que la mueven y qué hay que
+hacer cuando ocurren.
+
 ```text
 UN INSTRUMENTO PUEDE CAMBIAR
 DE CALIFICACIÓN
@@ -192,6 +203,9 @@ QUÉ HAY QUE HACER
 ```
 
 ### 5. El documento de calificación
+
+El documento de calificación es el entregable que queda, y tiene un contenido
+mínimo para servir ante un supervisor. El bloque lo detalla.
 
 ```text
 QUÉ TIENE QUE CONTENER PARA SERVIR

@@ -111,6 +111,10 @@ EL CLIENTE PERCIBE LA SEGUNDA.
 
 ### 1. Qué garantiza una red de mensajería
 
+Confundir «mensaje entregado» con «dinero recibido» es el malentendido más
+caro de esta parte. El bloque separa con precisión lo que una red de
+mensajería sí garantiza de lo que no puede garantizar por diseño.
+
 ```text
 GARANTIZA
   · autenticación: el mensaje viene de quien dice
@@ -134,6 +138,10 @@ CONSECUENCIA OPERATIVA
 
 ### 2. Dónde se mueve realmente el dinero
 
+El dinero se mueve en un libro contable, y qué libro sea depende de dónde
+estén las cuentas. El bloque recorre los tres casos, de menor a mayor
+complejidad, con el factor que determina el plazo en cada uno.
+
 ```text
 CASO A · las dos partes tienen cuenta en el mismo banco
   el dinero se mueve en UN libro contable
@@ -156,6 +164,10 @@ LA REGLA GENERAL
 ```
 
 ### 3. El desfase, contado
+
+El desfase se entiende mejor con reloj en mano. El bloque sigue un pago real
+minuto a minuto y muestra que la demora no la produce la red, sino los
+horarios de los sistemas de liquidación que hay al otro lado.
 
 ```text
 PAGO EN DÓLARES, ORDENADO EN SANTIAGO A LAS 16:40 (hora local)
@@ -204,6 +216,10 @@ EL CASO QUE MÁS SORPRENDE
 ```
 
 ### 5. Qué mejora realmente cada arquitectura
+
+Casi toda propuesta de mejora se puede clasificar preguntando en qué capa
+actúa. El bloque ofrece esa pregunta como método y anticipa qué efecto cabe
+esperar de una mejora en cada capa, para no prometer lo que no toca.
 
 ```text
 PREGUNTA DE MÉTODO PARA CUALQUIER PROPUESTA

@@ -108,6 +108,8 @@ La rentabilidad total de una acción tiene dos componentes con comportamientos d
 rentabilidad total = (D₁ + P₁ − P₀)/P₀ = rendimiento por dividendo + ganancia de capital
 ```
 
+Sobre una compra concreta, la descomposición separa lo que vino del dividendo de lo que vino del precio, que es la distinción que después importa para los impuestos.
+
 ```text
 compra a 4 200 · dividendo del año 180 · precio al cierre 4 830
 

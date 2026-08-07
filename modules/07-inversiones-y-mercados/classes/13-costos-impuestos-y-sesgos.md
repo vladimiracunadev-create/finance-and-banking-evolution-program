@@ -120,6 +120,8 @@ El régimen varía por país; el **mecanismo** es universal:
 diferir el impuesto permite que el monto no pagado siga rindiendo
 ```
 
+La magnitud del efecto se aprecia comparando dos estrategias idénticas en todo salvo en cuándo se paga el impuesto.
+
 ```text
 inversión de 20 000 000, rendimiento 8 % anual, impuesto 20 % sobre la ganancia
 

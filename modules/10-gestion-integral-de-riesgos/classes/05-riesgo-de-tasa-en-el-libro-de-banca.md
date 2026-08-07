@@ -181,6 +181,8 @@ El marco supervisor exige aplicar seis choques:
 6. baja del tramo corto
 ```
 
+Sobre esos seis escenarios se aplica un criterio cuantitativo que decide cuándo una entidad pasa a estar bajo atención del supervisor.
+
 ```text
 CRITERIO DE ATENCIÓN SUPERVISORA
   si la caída del valor económico en el PEOR de los seis escenarios

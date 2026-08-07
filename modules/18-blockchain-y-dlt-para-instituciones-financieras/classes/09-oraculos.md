@@ -128,6 +128,10 @@ EL EJE DE DIRECCIÓN ES EL QUE MÁS SE OLVIDA
 
 ### 2. Coste de manipulación
 
+Preguntar si un oráculo es fiable no lleva a ninguna parte; preguntar cuánto
+cuesta corromperlo, sí. El bloque reformula el problema en términos económicos
+y compara tres diseños de agregación por su coste de ataque.
+
 ```text
 LA PREGUNTA CORRECTA SOBRE UN ORÁCULO NO ES
 «¿ES FIABLE?» SINO
@@ -151,6 +155,10 @@ Y CUÁNTO SE GANA CON ELLO?»
 
 ### 3. Diseño de la agregación
 
+Una agregación defendible se construye con seis reglas, y ninguna es
+opcional. El bloque las enumera y destaca la que evita el fallo silencioso:
+dejar de publicar antes que publicar mal.
+
 ```text
 UNA AGREGACIÓN DEFENDIBLE
 
@@ -172,6 +180,10 @@ EL PUNTO 4 ES EL QUE SALVA
 ```
 
 ### 4. Retardo y su consecuencia
+
+Entre el hecho y su publicación transcurre un tiempo, y en un mercado volátil
+ese tiempo tiene precio. El bloque desglosa el retardo por etapas y describe
+qué puede hacer quien conoce el dato antes que el contrato.
 
 ```text
 ENTRE EL HECHO Y SU PUBLICACIÓN HAY TIEMPO
@@ -197,6 +209,10 @@ CONTROLES
 ```
 
 ### 5. Cuándo el oráculo hace inviable el caso
+
+Si toda la lógica depende de un tercero de confianza, la conclusión honesta es
+que la arquitectura no se justifica. El bloque lleva el razonamiento hasta ese
+punto y después acota los casos en que sí compensa.
 
 ```text
 SI EL ORÁCULO ES LA PIEZA CRÍTICA

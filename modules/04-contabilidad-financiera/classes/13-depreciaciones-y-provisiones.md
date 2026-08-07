@@ -177,6 +177,8 @@ pérdida esperada = probabilidad de incumplimiento × severidad × exposición
                  =        PD             ×      LGD      ×      EAD
 ```
 
+Con los tres parámetros de una cartera concreta, la fórmula entrega la cifra que se lleva al resultado del ejercicio.
+
 ```text
 cartera 5 400 000 · PD 4,2 % · LGD 45 %
 pérdida esperada = 5 400 000 × 0,042 × 0,45 = 102 060
@@ -221,6 +223,8 @@ Empresa A: vida útil de maquinaria 12 años
 Empresa B: vida útil de maquinaria 8 años
 ambas con maquinaria de 40 000 000
 ```
+
+El efecto de esa diferencia de criterio se mide poniendo ambas depreciaciones una junto a otra sobre el mismo activo.
 
 ```text
 depreciación A = 40 000 000/12 = 3 333 333

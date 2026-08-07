@@ -102,6 +102,10 @@ Y AHÍ ESTÁ EL PROBLEMA ESTRUCTURAL
 
 ### 1. Quién es sujeto obligado
 
+La condición de sujeto obligado depende de qué servicio se presta y por cuenta
+de quién. El bloque reparte los casos habituales entre los que suelen estar
+dentro y los que no.
+
 ```text
 HABITUALMENTE, QUIEN PRESTA POR CUENTA
 DE TERCEROS ALGUNO DE ESTOS SERVICIOS
@@ -123,6 +127,10 @@ descripción del servicio.
 ```
 
 ### 2. Enfoque basado en riesgo
+
+El enfoque basado en riesgo se invoca a menudo para justificar menos control
+del que corresponde. El bloque precisa qué significa, qué factores se ponderan
+y qué lo hace válido.
 
 ```text
 NO ES «MENOS CONTROL SI SOMOS PEQUEÑOS»
@@ -146,6 +154,9 @@ LO QUE HACE VÁLIDO EL ENFOQUE
 ```
 
 ### 3. La regla del viaje en la práctica
+
+Aplicar la regla del viaje sobre un registro exige cinco pasos, y el primero
+es el que no tiene solución automática. El bloque los enumera.
 
 ```text
 PASOS
@@ -172,6 +183,10 @@ que define el programa.
 
 ### 4. El destino no identificable
 
+Cuando el destino no es un sujeto obligado identificable, hay cuatro
+respuestas posibles y ninguna es cómoda. El bloque las expone junto con lo que
+no funciona.
+
 ```text
 OPCIONES QUE SE USAN
 
@@ -195,6 +210,9 @@ DISEÑO RAZONABLE
 ```
 
 ### 5. Sanciones
+
+Las sanciones obligan al margen de cualquier régimen financiero, y sobre estos
+registros tienen una particularidad. El bloque la describe.
 
 ```text
 LAS LISTAS DE SANCIONES OBLIGAN

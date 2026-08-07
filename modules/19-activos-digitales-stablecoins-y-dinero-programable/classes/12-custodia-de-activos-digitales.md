@@ -116,6 +116,10 @@ LOS DOS FALLOS SIMÉTRICOS
 
 ### 2. Elección del umbral
 
+El umbral de un esquema de firma múltiple falla por los dos extremos, y la
+pregunta habitual —cuántos— no ayuda a elegirlo. El bloque la reformula en
+términos de eventos que inutilizan a varios guardianes a la vez.
+
 ```text
 UN ESQUEMA m-DE-n
 
@@ -140,6 +144,10 @@ EVENTOS QUE AFECTAN A VARIOS GUARDIANES
 ```
 
 ### 3. Segregación operativa y jurídica
+
+Separar las cuentas de los clientes y separar su patrimonio son dos cosas
+distintas, y solo la segunda sirve en una quiebra. El bloque las define y
+muestra por qué ninguna sustituye a la otra.
 
 ```text
 SEGREGACIÓN OPERATIVA
@@ -169,6 +177,10 @@ PREGUNTAS AL CONTRATO
 
 ### 4. Recuperación sin puerta trasera
 
+Todo mecanismo de recuperación es también una vía de ataque, así que hay que
+diseñarlo para que sea lento y visible. El bloque plantea el problema y
+describe el diseño que lo resuelve sin abrir una puerta trasera.
+
 ```text
 EL PROBLEMA
   hace falta poder recuperar el acceso
@@ -195,6 +207,10 @@ POR QUÉ EL RETARDO ES LA PIEZA CLAVE
 ```
 
 ### 5. Controles de una retirada
+
+Una retirada de fondos atraviesa una cadena de controles, y cada uno cubre un
+fallo distinto de los anteriores. El bloque los enumera en el orden en que
+actúan.
 
 ```text
 LA CADENA COMPLETA

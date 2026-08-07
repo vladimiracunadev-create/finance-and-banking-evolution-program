@@ -121,6 +121,10 @@ SIN LA TERCERA, ES UNA DEPENDENCIA SIN PRECIO.
 
 ### 2. La demostración que más falta
 
+La pieza que casi ningún expediente trae es la comparación cuantificada con la
+alternativa aburrida. El bloque explica qué se considera una medición y qué es
+solo una afirmación repetida.
+
 ```text
 LA PIEZA 3 ES LA QUE CASI NINGÚN PROYECTO TRAE
 
@@ -142,6 +146,10 @@ LA PIEZA 3 ES LA QUE CASI NINGÚN PROYECTO TRAE
 
 ### 3. Verificar los supuestos
 
+Cada garantía que anuncia el sistema descansa sobre un supuesto, y el trabajo
+consiste en verificarlos uno a uno. El bloque presenta la tabla con la que se
+hace y advierte de que la última columna es todo el expediente.
+
 ```text
 CADA GARANTÍA DEL SISTEMA TIENE UN SUPUESTO.
 EL EXPEDIENTE LOS LISTA Y LOS VERIFICA.
@@ -161,6 +169,10 @@ Un supuesto que no se verifica es una afirmación.
 
 ### 4. Qué pregunta un comité
 
+Las preguntas de un comité son siempre las mismas seis, así que conviene
+llevarlas contestadas. El bloque las enumera y señala cuáles hunden proyectos
+y cuál delata que el equipo ya se autoevaluó.
+
 ```text
 LAS SEIS PREGUNTAS QUE SIEMPRE LLEGAN
 
@@ -176,6 +188,10 @@ LAS SEIS PREGUNTAS QUE SIEMPRE LLEGAN
 ```
 
 ### 5. Cómo se declara un límite
+
+Declarar un límite bien tiene una forma reconocible, y no es la breve. El
+bloque contrapone las dos redacciones sobre el mismo sistema para que se vea
+qué información aporta la segunda.
 
 ```text
 MAL

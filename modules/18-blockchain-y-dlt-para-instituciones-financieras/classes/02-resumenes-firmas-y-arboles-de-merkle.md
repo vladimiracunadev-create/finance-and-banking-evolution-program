@@ -108,6 +108,10 @@ EL ERROR CLÁSICO
 
 ### 1. Qué garantiza una función de resumen
 
+Una función de resumen se usa como si fuera una huella digital, y solo lo es
+mientras se cumplen ciertas propiedades. El bloque las enumera y muestra qué
+ataque concreto se abre cuando una de ellas se rompe.
+
 ```text
 PROPIEDADES QUE SE EXIGEN
 
@@ -129,6 +133,10 @@ QUÉ PASA CUANDO SE ROMPE LA RESISTENCIA A COLISIÓN
 ```
 
 ### 2. Firma digital, paso a paso
+
+Firmar y verificar son dos procedimientos de tres pasos que conviene tener
+claros por separado. El bloque los detalla y explica por qué lo que se firma
+nunca es el mensaje entero.
 
 ```text
 FIRMAR
@@ -153,6 +161,10 @@ Y AQUÍ ESTÁ LA DEPENDENCIA QUE HAY QUE VER
 
 ### 3. Lo que una firma no dice
 
+Una firma válida demuestra menos cosas de las que se le suelen atribuir, y
+casi todos los incidentes vienen de ahí. El bloque separa lo que demuestra de
+lo que no, indicando en cada caso qué mecanismo adicional haría falta.
+
 ```text
 UNA FIRMA VÁLIDA DEMUESTRA
   que quien poseía la clave privada aprobó ESE contenido
@@ -175,6 +187,10 @@ CONSECUENCIA PRÁCTICA
 ```
 
 ### 4. Árbol de Merkle
+
+El árbol de Merkle permite resumir un conjunto grande en un solo valor y, a
+partir de él, demostrar pertenencia sin revelar el resto. El bloque construye
+uno pequeño y sigue una prueba completa.
 
 ```text
 CONSTRUCCIÓN
@@ -204,6 +220,10 @@ LA PROPIEDAD QUE LO HACE ÚTIL EN FINANZAS
 ```
 
 ### 5. Prueba de exclusión: lo que cuesta más
+
+Probar que un elemento está en el conjunto es barato; probar que no está
+exige una estructura distinta. El bloque explica cómo se consigue y por qué
+esta prueba, y no la anterior, es la que necesita un banco.
 
 ```text
 DEMOSTRAR QUE ALGO ESTÁ ES BARATO.

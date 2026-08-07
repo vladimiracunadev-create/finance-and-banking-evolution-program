@@ -103,6 +103,10 @@ y casi ninguna documentación lo acota.
 
 ### 1. El incentivo a correr
 
+Cuando se atiende por orden de llegada y la liquidez es finita, esperar es
+irracional para todo el mundo a la vez. El bloque desarrolla el razonamiento
+del tenedor individual hasta su conclusión colectiva.
+
 ```text
 CON ORDEN DE LLEGADA Y LIQUIDEZ LIMITADA
 
@@ -126,6 +130,10 @@ correrán, corre. Y tiene razón.
 
 ### 2. Prorrateo
 
+El prorrateo elimina la ventaja de ser el primero, y con ella el incentivo a
+correr. El bloque explica cómo funciona y enumera después lo que cuesta,
+porque el mecanismo no es gratuito para nadie.
+
 ```text
 CON PRORRATEO
 
@@ -147,6 +155,10 @@ por equidad y por estabilidad del conjunto.
 ```
 
 ### 3. Comisión antidilución
+
+Cuando la reserva paga el coste de vender, ese coste lo soportan quienes se
+quedan. El bloque describe la transferencia y la corrección que la neutraliza
+cargándosela a quien la provoca.
 
 ```text
 EL PROBLEMA QUE RESUELVE
@@ -171,6 +183,10 @@ EFECTO SECUNDARIO ÚTIL
 
 ### 4. Puertas y suspensión
 
+Limitar la redención y cerrarla son medidas distintas en naturaleza y en
+efecto sobre el precio. El bloque las separa y fija los cuatro elementos que
+debe tener una cláusula de suspensión aceptable.
+
 ```text
 PUERTA
   límite al porcentaje redimible por ventana
@@ -193,6 +209,10 @@ DE SUSPENSIÓN QUE HAY QUE EXIGIR
 ```
 
 ### 5. La redención en la práctica del cliente
+
+Todo lo anterior describe el canal mayorista; el cliente minorista vive otra
+cosa. El bloque recorre su experiencia real y señala los diseños que sí le
+sirven.
 
 ```text
 LO QUE UN CLIENTE MINORISTA VIVE

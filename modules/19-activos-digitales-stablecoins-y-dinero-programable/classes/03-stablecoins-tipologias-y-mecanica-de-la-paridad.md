@@ -119,6 +119,10 @@ CORRIGIÉNDOLO.
 
 ### 2. La banda de no arbitraje
 
+El arbitraje que sostiene la paridad no es gratuito, y mientras el desvío no
+cubra sus costes nadie lo ejecuta. El bloque los enumera y saca la conclusión
+que reordena todo el análisis: la paridad es una banda, no un punto.
+
 ```text
 ARBITRAR TIENE COSTES
 
@@ -136,6 +140,10 @@ NADIE ARBITRA Y EL PRECIO SE QUEDA DONDE ESTÁ
 ```
 
 ### 3. Quién puede arbitrar
+
+De poco sirve una banda estrecha si solo unos pocos pueden operar dentro de
+ella. El bloque describe la restricción habitual de acceso a la redención y
+sus consecuencias para todos los demás tenedores.
 
 ```text
 LA PIEZA MÁS IGNORADA DEL DISEÑO
@@ -164,6 +172,10 @@ LA PIEZA MÁS IGNORADA DEL DISEÑO
 
 ### 4. Paridad de derecho frente a paridad de mercado
 
+Hay dos paridades y conviene no confundirlas: una es una obligación exigible y
+la otra es un precio observado. El bloque las define y describe qué se ve
+cuando ambas se separan.
+
 ```text
 PARIDAD DE DERECHO
   el emisor se obliga a entregar 1,00 por unidad
@@ -186,6 +198,10 @@ mientras el emisor comunicará el primero
 ```
 
 ### 5. Suspensión de la redención
+
+Casi toda documentación contempla suspender la redención, y ese es el
+apartado que decide el riesgo real del instrumento. El bloque recoge las
+causas típicas, el efecto inmediato y qué hay que buscar al leerla.
 
 ```text
 CASI TODA DOCUMENTACIÓN CONTEMPLA SUSPENDER

@@ -165,6 +165,8 @@ alfa            = rentabilidad − rentabilidad esperada dado el riesgo asumido
 ratio de información = (rentabilidad − índice)/error de seguimiento
 ```
 
+Aplicadas a dos fondos con rentabilidades distintas, las medidas ordenan al revés de lo que sugiere la rentabilidad sola.
+
 ```text
 Fondo P: rentabilidad 11,2 % · desviación 18,4 % · tasa libre 4,0 %
   Sharpe = (11,2 − 4,0)/18,4 = 0,391

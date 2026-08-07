@@ -103,6 +103,10 @@ EL ESTADO NO SE GUARDA: SE DEDUCE
 
 ### 1. Ciclo de una transacción
 
+Una transacción recorre ocho etapas desde que se construye hasta que se puede
+dar por firme. El bloque las enumera y marca dónde está el intervalo del que
+sale casi todo el problema de esta parte.
+
 ```text
 1. CONSTRUCCIÓN  se arma la instrucción: origen, destino,
                  importe, comisión, número de orden
@@ -147,6 +151,10 @@ LA FILA QUE MÁS IMPORTA EN FINANZAS
 
 ### 3. Anatomía de un bloque
 
+Un bloque tiene dos partes con funciones distintas: la que lo encadena con el
+pasado y la que contiene el trabajo. El bloque las detalla y explica por qué
+el orden dentro del cuerpo tiene valor económico.
+
 ```text
 CABECERA
   resumen del bloque anterior      ← el encadenamiento
@@ -166,6 +174,10 @@ POR QUÉ EL ORDEN IMPORTA
 ```
 
 ### 4. Tipos de nodo y qué puede verificar cada uno
+
+No todos los nodos verifican lo mismo, y esa diferencia determina de quién
+depende cada uno. El bloque describe los tres tipos con su coste y con lo que
+cada uno puede comprobar por sí solo.
 
 ```text
 NODO COMPLETO
@@ -194,6 +206,10 @@ LA PREGUNTA INSTITUCIONAL
 ```
 
 ### 5. Crecimiento y centralización
+
+El registro no deja de crecer nunca, y el crecimiento tiene consecuencias
+sobre quién puede seguir verificando. El bloque hace la cuenta con parámetros
+concretos y deriva la consecuencia de centralización.
 
 ```text
 EL REGISTRO SOLO CRECE

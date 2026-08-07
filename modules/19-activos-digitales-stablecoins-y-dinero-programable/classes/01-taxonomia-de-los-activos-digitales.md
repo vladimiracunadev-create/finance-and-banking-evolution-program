@@ -113,6 +113,10 @@ de que otro quiera comprarlo
 
 ### 1. Los tres términos que no son sinónimos
 
+Tres palabras se usan indistintamente en la conversación pública y designan
+conjuntos distintos, uno dentro de otro. El bloque los ordena de mayor a menor
+y advierte de que la tercera no describe un tipo de activo, sino un envase.
+
 ```text
 ACTIVO DIGITAL      el conjunto más amplio
                     incluye un apunte en la base de datos
@@ -149,6 +153,10 @@ pasivo bancario con garantía estatal y el otro no es pasivo de nadie.
 
 ### 3. Por qué la técnica no clasifica
 
+Dos instrumentos pueden ser indistinguibles en pantalla y ser cosas opuestas
+en derecho. El bloque enumera todo lo que pueden compartir y termina señalando
+dónde está lo único que los separa.
+
 ```text
 DOS INSTRUMENTOS PUEDEN SER IDÉNTICOS EN:
   · la red donde viven
@@ -171,6 +179,10 @@ REGLA PRÁCTICA
 ```
 
 ### 4. El perímetro y su consecuencia
+
+Clasificar no es un trámite: de la clasificación cuelgan cuatro consecuencias
+que determinan el producto entero. El bloque las ordena en la secuencia en que
+se van encadenando.
 
 ```text
 LA CLASIFICACIÓN DECIDE, EN ESTE ORDEN:
@@ -196,6 +208,10 @@ LA CLASIFICACIÓN DECIDE, EN ESTE ORDEN:
 ```
 
 ### 5. La trampa del nombre comercial
+
+El nombre comercial de un instrumento no aporta información sobre su régimen
+ni sobre su promesa. El bloque recopila los términos más usados y precisa qué
+no significa cada uno.
 
 ```text
 NOMBRES QUE NO CLASIFICAN NADA

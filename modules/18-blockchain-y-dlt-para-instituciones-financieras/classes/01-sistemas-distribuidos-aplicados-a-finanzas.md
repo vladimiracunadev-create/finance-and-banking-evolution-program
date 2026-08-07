@@ -109,6 +109,10 @@ LA PREGUNTA QUE ORDENA TODA LA PARTE
 
 ### 1. El compromiso fundamental
 
+Todo sistema repartido entre varias máquinas se topa con la misma disyuntiva
+en cuanto la red falla. El bloque la enuncia y explica por qué en finanzas la
+elección está prácticamente decidida de antemano.
+
 ```text
 CUANDO LA RED SE PARTE, HAY QUE ELEGIR
 
@@ -128,6 +132,10 @@ EN FINANZAS, LA ELECCIÓN CASI SIEMPRE ES CONSISTENCIA
 ```
 
 ### 2. Fallo por caída y fallo bizantino
+
+Un nodo puede fallar callándose o fallar hablando, y la diferencia decide
+cuántos nodos hacen falta para tolerarlo. El bloque define ambos modos con su
+umbral y explica qué se pierde al pasar del primero al segundo.
 
 ```text
 FALLO POR CAÍDA
@@ -176,6 +184,10 @@ LAS DOS FILAS QUE DECIDEN
 
 ### 4. Las seis preguntas del criterio
 
+Antes de elegir tecnología conviene saber qué problema se está resolviendo,
+porque solo uno de los seis posibles justifica un registro distribuido. El
+bloque plantea las preguntas en el orden en que conviene hacérselas.
+
 ```text
 ANTES DE DISEÑAR NADA, RESPONDER
 
@@ -199,6 +211,10 @@ ANTES DE DISEÑAR NADA, RESPONDER
 ```
 
 ### 5. Lo que un registro distribuido no arregla
+
+La lista de lo que esta tecnología no resuelve es tan útil como la de lo que
+resuelve, y más corta de encontrar en la bibliografía. El bloque la recoge y
+añade los tres problemas nuevos que aparecen al adoptarla.
 
 ```text
 NO ARREGLA

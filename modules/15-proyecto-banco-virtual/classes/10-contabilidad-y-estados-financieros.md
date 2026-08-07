@@ -127,6 +127,8 @@ ESTRUCTURA
     52 garantías recibidas
 ```
 
+Dentro de ese plan hay una cuenta que concentra la atención de la auditoría, porque es donde el modelo de riesgo se convierte en pérdida contable.
+
 ```text
 LA CUENTA 139 ES LA MÁS IMPORTANTE DEL BANCO
   es donde el modelo de riesgo se convierte

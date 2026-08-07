@@ -138,6 +138,8 @@ ROIC = NOPAT / capital invertido
      = (resultado operativo × (1 − tasa impuesto)) / (patrimonio + deuda financiera neta)
 ```
 
+Con las cifras de una empresa concreta, el indicador se compara con el costo de capital y el signo de la diferencia responde la pregunta de fondo.
+
 ```text
 resultado operativo 4 200 · tasa impuesto 25 % · patrimonio 18 400 · deuda neta 6 200
 NOPAT = 4 200 × 0,75 = 3 150

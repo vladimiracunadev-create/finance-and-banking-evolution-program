@@ -111,6 +111,10 @@ DEMOCRATIZA LA EXPOSICIÓN.
 
 ### 1. El coste unitario cambia todo
 
+Atender a un inversionista tiene un coste casi fijo, y sobre importes
+pequeños ese coste se vuelve dominante. El bloque pone la cifra y la aplica a
+dos tamaños de inversión.
+
 ```text
 ATENDER A UN INVERSIONISTA CUESTA
 CASI LO MISMO SEA GRANDE O PEQUEÑO
@@ -141,6 +145,10 @@ DE DÓNDE LO SACAN.
 
 ### 2. Idoneidad
 
+La idoneidad no pregunta si alguien puede permitirse perder el dinero, sino si
+entiende lo que compra. El bloque reformula el criterio y detalla qué exige
+una evaluación seria.
+
 ```text
 LA PREGUNTA NO ES «¿PUEDE PERMITÍRSELO?»
 SINO «¿ENTIENDE QUÉ ESTÁ COMPRANDO?»
@@ -164,6 +172,10 @@ Y UNA REGLA QUE SE OLVIDA
 ```
 
 ### 3. Concentración por tenedor
+
+El mismo instrumento puede ser prudente o temerario según el patrimonio de
+quien lo compra. El bloque lo muestra con dos casos numéricos y propone el
+control que lo tiene en cuenta.
 
 ```text
 UN MISMO INSTRUMENTO PUEDE SER PRUDENTE
@@ -189,6 +201,10 @@ QUÉ HACER
 
 ### 4. Acceso sin salida
 
+Dar acceso a un activo del que no se puede salir no amplía las oportunidades
+de nadie. El bloque desarrolla el argumento con los datos de la clase 6 y fija
+la regla que se deriva.
+
 ```text
 EL ACCESO A UN ACTIVO DEL QUE NO SE
 PUEDE SALIR NO ES ACCESO: ES UNA TRAMPA
@@ -209,6 +225,9 @@ REGLA
 ```
 
 ### 5. Divulgación adaptada
+
+Un folleto extenso cumple la norma y no informa a quien invierte poco. El
+bloque describe qué contenido sí informa, en el formato en que puede leerse.
 
 ```text
 UN FOLLETO DE 180 PÁGINAS NO INFORMA

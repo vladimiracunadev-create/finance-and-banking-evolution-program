@@ -126,6 +126,10 @@ EL TERCERO ES EL MEJOR TÉCNICAMENTE Y EL MÁS CARO
 
 ### 2. Los cuatro puntos de fallo
 
+Los incidentes de puentes se concentran en cuatro puntos, y conocerlos permite
+evaluar uno sin ser especialista en su implementación. El bloque los describe
+en orden de gravedad observada.
+
 ```text
 1. LAS CLAVES DEL PUENTE
    comprometer m de n validadores permite emitir
@@ -151,6 +155,10 @@ O DE GOBIERNO, NO DEL CONCEPTO
 
 ### 3. Evaluar un puente como una corresponsalía
 
+Un puente hace lo mismo que un corresponsal: custodia un activo en un sitio y
+emite un derecho en otro. El bloque reutiliza las preguntas de la parte
+anterior y añade la única que no tiene equivalente clásico.
+
 ```text
 LAS PREGUNTAS DE LA PARTE 18, CLASE 3, APLICAN AQUÍ
 
@@ -169,6 +177,10 @@ LA ÚLTIMA NO TIENE EQUIVALENTE EN CORRESPONSALÍA
 ```
 
 ### 4. Cuándo el activo envuelto deja de ser el activo
+
+Una representación deja de valer lo que el activo original de forma gradual, y
+hay señales que lo anticipan. El bloque las enumera y saca la consecuencia
+contable, que es la que suele llegar tarde.
 
 ```text
 SEÑALES DE QUE LA REPRESENTACIÓN SE HA DESPEGADO
@@ -190,6 +202,10 @@ CONSECUENCIA CONTABLE Y PRUDENCIAL
 ```
 
 ### 5. Interoperabilidad sin puente
+
+Antes de asegurar un puente conviene comprobar si hace falta. El bloque
+recoge las tres formas de interoperar sin mover activos y señala cuál eligen
+los proyectos institucionales, y por qué motivo.
 
 ```text
 NO TODA INTEROPERABILIDAD EXIGE MOVER ACTIVOS

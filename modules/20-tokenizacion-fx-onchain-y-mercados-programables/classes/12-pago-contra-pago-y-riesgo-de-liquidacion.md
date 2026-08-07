@@ -109,6 +109,10 @@ Y NINGUNA ELIMINA EL RIESGO DE REEMPLAZO.
 
 ### 1. La ventana entre husos
 
+La exposición no empieza ni termina donde la intuición sugiere, y esa
+imprecisión hace que se subestime. El bloque fija sus dos extremos y enumera
+lo que puede caber entre ellos.
+
 ```text
 LA EXPOSICIÓN NO ES «HASTA QUE PAGUE
 LA OTRA PARTE»
@@ -133,6 +137,10 @@ CASO PEOR HABITUAL
 ```
 
 ### 2. Pago contra pago
+
+El pago contra pago se define por lo que exige y por lo que garantiza. El
+bloque separa ambas cosas y conecta el segundo caso con la atomicidad de la
+clase 8.
 
 ```text
 QUÉ EXIGE
@@ -162,6 +170,9 @@ COSTE
 
 ### 3. Neteo
 
+Compensar las operaciones del día reduce el importe expuesto sin eliminar el
+riesgo. El bloque muestra la diferencia con un ejemplo.
+
 ```text
 COMPENSAR LAS OPERACIONES DEL DÍA
 ENTRE DOS PARTES
@@ -186,6 +197,10 @@ EXIGE
 
 ### 4. Límites bilaterales
 
+Los límites bilaterales son el control más extendido y el más fácil de aplicar
+mal. El bloque explica cómo se calculan y cuándo se liberan, que es donde está
+el error habitual.
+
 ```text
 EL MECANISMO MÁS SIMPLE Y EL MÁS USADO
 
@@ -206,6 +221,10 @@ ERROR HABITUAL
 ```
 
 ### 5. La exposición residual
+
+Después de aplicar todos los mecanismos queda una exposición residual que
+conviene tener nombrada. El bloque la enumera y se detiene en la que aparece
+precisamente al llevar el mecanismo a un registro.
 
 ```text
 LO QUE NO ELIMINA NINGÚN MECANISMO

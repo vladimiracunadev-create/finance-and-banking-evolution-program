@@ -110,6 +110,8 @@ CONTENIDO DE UN PLAN ÚTIL
   9. escenario de salida: qué haríamos si se deteriora
 ```
 
+De los nueve puntos hay uno que se omite casi siempre, y es el que evita tomar decisiones apuradas cuando el crédito se deteriora.
+
 ```text
 EL PUNTO 9 ES EL QUE FALTA EN CASI TODOS LOS PLANES
   definir la estrategia de salida ANTES de necesitarla

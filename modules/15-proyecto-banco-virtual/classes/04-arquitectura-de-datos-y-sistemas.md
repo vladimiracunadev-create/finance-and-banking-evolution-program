@@ -115,6 +115,8 @@ CAPA DE CONTROL
   riesgos · cumplimiento · reportes regulatorios
 ```
 
+Ese reparto por capas responde a un principio de diseño que evita, por construcción, el problema descrito en la parte anterior.
+
 ```text
 EL PRINCIPIO DE DISEÑO
   el NÚCLEO solo registra

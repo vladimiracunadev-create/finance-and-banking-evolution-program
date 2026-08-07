@@ -117,6 +117,10 @@ es una preferencia, no una decisión.
 
 ### 1. La regla del expediente
 
+El expediente se evalúa decisión a decisión, y cada una necesita tres
+elementos. El bloque los fija y los ilustra con un ejemplo correcto y otro
+que no lo es.
+
 ```text
 CADA DECISIÓN NECESITA TRES COSAS
 
@@ -139,6 +143,10 @@ SE PUEDE DISCUTIR Y LA SEGUNDA NO.
 ```
 
 ### 2. Las promesas del folleto
+
+Toda afirmación del material comercial debe poder respaldarse con una
+evidencia concreta. El bloque empareja las promesas habituales con la
+evidencia que las sostiene.
 
 ```text
 CADA AFIRMACIÓN DEL MATERIAL COMERCIAL
@@ -170,6 +178,9 @@ la mayor parte de los problemas posteriores.
 
 ### 3. Criterios de aceptación
 
+Antes de operar con dinero real hay que poder demostrar seis escenarios, y
+todos incluyen un fallo. El bloque los enumera.
+
 ```text
 QUÉ HAY QUE PODER DEMOSTRAR
 ANTES DE OPERAR CON DINERO REAL
@@ -194,6 +205,10 @@ LOS OCHO SE EJECUTAN, NO SE DOCUMENTAN.
 
 ### 4. Contingencias
 
+Cada componente puede fallar, y para cada uno debe existir una respuesta
+escrita. El bloque las recoge en una tabla que sirve de índice del plan de
+contingencia.
+
 ```text
 QUÉ SE HACE SI FALLA CADA COMPONENTE
 
@@ -215,6 +230,10 @@ y una prueba anual documentada.
 ```
 
 ### 5. La conclusión que el proyecto permite
+
+El proyecto admite concluir que no procede tokenizar, y esa conclusión se
+evalúa igual que la contraria. El bloque enumera las señales que suelen llevar
+a ella.
 
 ```text
 UN EXPEDIENTE PUEDE CONCLUIR

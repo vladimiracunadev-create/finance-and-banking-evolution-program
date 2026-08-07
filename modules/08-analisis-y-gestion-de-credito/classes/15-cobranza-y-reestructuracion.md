@@ -130,6 +130,8 @@ reestructurar tiene sentido si:
   > valor presente de la recuperación sin ella
 ```
 
+La comparación se hace sobre un caso concreto, valorando las dos alternativas al mismo momento del tiempo.
+
 ```text
 CASO
   saldo 8 400 000 · deudor con dificultad transitoria acreditada
@@ -184,6 +186,8 @@ para cada operación en mora avanzada, comparar el valor presente de:
   D  vender la cartera
   E  castigar y gestionar recuperación post-castigo
 ```
+
+Sobre una cartera concreta en mora avanzada, las alternativas se valoran una a una y el orden resultante no siempre es el intuitivo.
 
 ```text
 CARTERA DE 4 200 MILLONES CON MORA > 180 DÍAS
@@ -270,6 +274,8 @@ CASTIGO
   · NO impide la gestión de recuperación
   · el deudor permanece registrado por el plazo legal
 ```
+
+Los criterios que activan la decisión de castigo se fijan por política y conviene tenerlos escritos antes de que el caso llegue.
 
 ```text
 criterios habituales de castigo:

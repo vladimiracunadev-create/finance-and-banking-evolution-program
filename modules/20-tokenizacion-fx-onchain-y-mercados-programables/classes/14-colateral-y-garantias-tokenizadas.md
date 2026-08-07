@@ -108,6 +108,10 @@ QUÉ EMPEORA SI SE DISEÑA MAL
 
 ### 1. El recorte y su justificación
 
+El recorte no es un margen de prudencia genérico: cubre cuatro cosas
+concretas que pueden ocurrir entre la decisión de liquidar y la venta. El
+bloque las enumera y da la forma de calcularlo.
+
 ```text
 EL RECORTE CUBRE LO QUE PUEDE PASAR
 ENTRE QUE SE DECIDE LIQUIDAR Y SE VENDE
@@ -134,6 +138,10 @@ ERROR HABITUAL
 
 ### 2. Movilidad y su valor
 
+El valor de poder mover una garantía deprisa se ve al comparar con lo que
+cuesta no poder hacerlo. El bloque contrasta ambos mundos y cuantifica el
+ahorro.
+
 ```text
 UN MISMO COLATERAL PUEDE ESTAR EXIGIDO
 EN VARIOS SITIOS A LA VEZ
@@ -159,6 +167,10 @@ tarda hoy el traslado.
 
 ### 3. La llamada de margen bien diseñada
 
+Una llamada de margen se define por cuatro parámetros, y el plazo es el que
+decide si el sistema amplifica o amortigua. El bloque los expone junto con la
+vía de excepción.
+
 ```text
 CUATRO PARÁMETROS
 
@@ -180,6 +192,10 @@ POR QUÉ EL PLAZO ES CRÍTICO
 ```
 
 ### 4. La cascada
+
+Cuando muchas posiciones se liquidan a la vez, la liquidación alimenta la
+caída que la provocó. El bloque describe el bucle y localiza el punto donde se
+amplifica.
 
 ```text
 CÓMO SE FORMA
@@ -205,6 +221,10 @@ PUNTO DE AMPLIFICACIÓN
 ```
 
 ### 5. Cuándo la liquidación automática empeora
+
+La liquidación automática es correcta bajo condiciones que conviene comprobar
+antes de activarla. El bloque las enumera junto a las circunstancias en que la
+misma regla empeora el resultado.
 
 ```text
 LIQUIDAR AUTOMÁTICAMENTE ES CORRECTO SI

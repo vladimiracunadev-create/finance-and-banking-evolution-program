@@ -125,6 +125,10 @@ EL PROBLEMA DEL MODELO BILATERAL
 
 ### 2. Cómo se resuelve la identificación
 
+Enlazar dos sistemas nacionales obliga a resolver primero cómo se nombra al
+destinatario. El bloque plantea el problema, describe la solución habitual y
+enumera los dos cuidados que la hacen segura.
+
 ```text
 EL PROBLEMA
   el ordenante conoce el teléfono de su familiar,
@@ -144,6 +148,10 @@ LO QUE HAY QUE CUIDAR
 ```
 
 ### 3. Dónde ocurre el cambio de divisa
+
+En un enlace, la conversión de divisa puede colocarse en tres sitios, y la
+elección determina quién asume el riesgo y quién ve el tipo. El bloque
+describe los tres diseños con sus consecuencias.
 
 ```text
 TRES DISEÑOS
@@ -170,6 +178,10 @@ PROVEEDORES DE LIQUIDEZ DISPUESTOS
 ```
 
 ### 4. Los proyectos institucionales
+
+Varios proyectos institucionales han probado estas ideas en pilotos
+documentados. El bloque los recorre con una rejilla común y, en especial, con
+la columna que más se omite al citarlos: qué NO demostraron.
 
 ```text
 QUÉ MIRAR EN CADA UNO
@@ -209,6 +221,10 @@ REGLA DEL PROGRAMA
 ```
 
 ### 5. Lo que un enlace no resuelve
+
+Un enlace mejora el tramo técnico y deja intacto todo lo demás. El bloque
+separa lo que resuelve de la lista de problemas que siguen ahí, para calibrar
+qué se puede prometer al presentar uno.
 
 ```text
 UN ENLACE ENTRE DOS SISTEMAS RESUELVE

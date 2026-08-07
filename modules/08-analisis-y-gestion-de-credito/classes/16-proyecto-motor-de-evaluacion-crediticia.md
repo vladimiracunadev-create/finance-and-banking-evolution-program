@@ -209,6 +209,8 @@ cada regla debe tener:
   · fecha de vigencia
 ```
 
+El catálogo mínimo da la lista concreta de reglas que el motor debe evaluar, cada una con su código estable.
+
 ```text
 CATÁLOGO MÍNIMO DE REGLAS
 

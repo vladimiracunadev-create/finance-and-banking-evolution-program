@@ -135,6 +135,8 @@ COMPONENTES
      el usuario ve y revoca sus consentimientos activos
 ```
 
+Esa arquitectura existe para sustituir una práctica anterior, y conviene ver con detalle por qué aquella era inaceptable.
+
 ```text
 POR QUÉ EL RASPADO DE PANTALLA ES INACEPTABLE
   el usuario entrega sus CREDENCIALES al tercero

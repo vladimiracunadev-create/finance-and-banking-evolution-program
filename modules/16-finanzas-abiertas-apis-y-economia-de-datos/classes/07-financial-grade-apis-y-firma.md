@@ -134,6 +134,10 @@ LA AMENAZA QUE MÁS SE SUBESTIMA
 
 ### 2. Objeto de petición firmado
 
+La primera diferencia visible de un perfil de grado financiero es que los
+parámetros dejan de viajar sueltos. El bloque compara las dos formas de enviar
+la misma petición y detalla qué gana el servidor al recibir la segunda.
+
 ```text
 EN VEZ DE ENVIAR LOS PARÁMETROS SUELTOS
 
@@ -178,6 +182,10 @@ CRITERIO DE ELECCIÓN
 
 ### 4. La cadena de confianza
 
+La firma solo vale si se puede decir de quién es la clave, y eso lo resuelve
+una cadena de certificados que llega hasta la autoridad del esquema. El
+diagrama la recorre y enumera las cinco comprobaciones del servidor.
+
 ```text
 AUTORIDAD DEL ESQUEMA
       │ emite
@@ -198,6 +206,10 @@ un participante suspendido conserva un certificado técnicamente válido.
 
 ### 5. Protección contra repetición
 
+Una petición firmada es auténtica aunque la reenvíe un atacante: la firma
+sigue siendo válida. El bloque presenta los tres campos que, usados a la vez,
+convierten una petición válida en una petición válida **una sola vez**.
+
 ```text
 UNA PETICIÓN FIRMADA VÁLIDA, CAPTURADA, PUEDE REENVIARSE
 
@@ -214,6 +226,10 @@ UNA PETICIÓN FIRMADA VÁLIDA, CAPTURADA, PUEDE REENVIARSE
 ```
 
 ### 6. Rotación de claves sin cortar el servicio
+
+Cambiar la clave de firma sin cortar el servicio es un problema de
+calendario, no de criptografía. El bloque fija la regla de solape, los dos
+plazos que hay que respetar y el error que se comete cuando se ignoran.
 
 ```text
 LA REGLA: SIEMPRE HAY DOS CLAVES VÁLIDAS A LA VEZ

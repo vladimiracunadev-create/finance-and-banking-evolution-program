@@ -106,6 +106,10 @@ de conducta no compensa su ausencia.
 
 ### 1. Las cuatro preguntas de la salvaguarda
 
+Comprobar si la salvaguarda funciona se reduce a cuatro preguntas concretas
+sobre la cuenta bancaria. El bloque las plantea y destaca la que falla con más
+frecuencia.
+
 ```text
 1 ¿A NOMBRE DE QUIÉN ESTÁ LA CUENTA?
     debe decir «cuenta de clientes»
@@ -126,6 +130,9 @@ de conducta no compensa su ausencia.
 ```
 
 ### 2. Información que informa
+
+Cumplir el deber de información y conseguir que el cliente entienda no son lo
+mismo. El bloque separa ambas cosas y propone cómo se comprueba la segunda.
 
 ```text
 LO QUE LA NORMA SUELE EXIGIR
@@ -150,6 +157,10 @@ información informó.
 
 ### 3. Publicidad y presentación
 
+Hay prácticas de presentación que no contienen ninguna afirmación falsa y aun
+así dejan al cliente con una idea equivocada. El bloque las enumera y ofrece
+la prueba que las detecta.
+
 ```text
 PRÁCTICAS QUE DISTORSIONAN SIN MENTIR
 
@@ -171,6 +182,9 @@ LA PRUEBA
 ```
 
 ### 4. Reclamos
+
+Un procedimiento de reclamos se juzga por siete elementos, y el último es el
+que decide si sirve para algo más que tramitar. El bloque los enumera.
 
 ```text
 UN PROCEDIMIENTO ÚTIL TIENE

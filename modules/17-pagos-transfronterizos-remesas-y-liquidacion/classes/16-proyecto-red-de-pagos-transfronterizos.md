@@ -103,6 +103,10 @@ LA PREGUNTA QUE DESMONTA UN MAL PROYECTO
 
 ### 1. El motor de rutas
 
+El motor de rutas es el corazón del proyecto y se define por sus entradas y
+por el orden en que aplica los criterios. El bloque fija ambos: el orden
+importa, porque el coste solo decide entre rutas que ya son admisibles.
+
 ```text
 ENTRADA
   corredor, importe, moneda de origen y destino,
@@ -159,6 +163,10 @@ REGLA DE PRESENTACIÓN
 
 ### 3. La atribución del ahorro
 
+Decir que una ruta ahorra no basta: hay que decir de dónde sale el ahorro. El
+bloque enumera las fuentes posibles, ninguna de las cuales es «la tecnología»,
+y propone la prueba que valida la atribución.
+
 ```text
 CUANDO UNA RUTA NUEVA AHORRA, HAY QUE DECIR DE DÓNDE
 
@@ -183,6 +191,10 @@ LA PRUEBA
 
 ### 4. Contingencia
 
+Una ruta alternativa solo cuenta si se ha usado. El bloque fija qué se prueba
+en un ensayo de conmutación y con qué frecuencia, retomando la regla que ya
+apareció en la parte anterior.
+
 ```text
 CADA CORREDOR NECESITA UNA RUTA ALTERNATIVA
 Y UN PROCEDIMIENTO PROBADO
@@ -202,6 +214,10 @@ FRECUENCIA MÍNIMA DEL ENSAYO
 ```
 
 ### 5. Lo que el proyecto debe declarar
+
+El expediente se cierra declarando los límites del trabajo. El bloque los
+enumera para que el panel evalúe lo que el proyecto sí demuestra, sin tener
+que descubrir por su cuenta lo que queda fuera.
 
 ```text
 LÍMITES LEGÍTIMOS DE ESTE PROYECTO

@@ -132,6 +132,10 @@ EL COMPROMISO CENTRAL DE LOS SISTEMAS DE PAGO
 
 ### 2. Qué da finalidad
 
+La finalidad no es una sensación ni un apunte: la otorga una norma o una regla
+de sistema, y solo eso. El bloque separa las fuentes reales de las aparentes y
+cierra con el caso que muestra la diferencia en dinero.
+
 ```text
 LA FINALIDAD LA DA
   · la ley del sistema de pagos aplicable
@@ -156,6 +160,10 @@ EL CASO QUE LO ILUSTRA
 
 ### 3. Zona de liquidación y zona de disponibilidad
 
+Para el beneficiario el dinero pasa por tres estados, y entre el segundo y el
+tercero puede haber horas. El bloque los define con el riesgo asociado a cada
+uno, que es lo que determina cuándo se puede disponer.
+
 ```text
 TRES ESTADOS DEL DINERO PARA EL BENEFICIARIO
 
@@ -174,6 +182,10 @@ TRES ESTADOS DEL DINERO PARA EL BENEFICIARIO
 ```
 
 ### 4. El riesgo Herstatt
+
+El riesgo de liquidación tiene nombre propio por un episodio concreto. El
+bloque lo reconstruye con fechas, porque entender qué falló ese día explica
+por qué existen los mecanismos de pago contra pago de la clase 15.
 
 ```text
 26 DE JUNIO DE 1974. Bankhaus Herstatt, Colonia.
@@ -199,6 +211,10 @@ LA RESPUESTA DEL SISTEMA
 ```
 
 ### 5. Cuándo puede disponer el beneficiario
+
+Entre la regla prudente y la práctica comercial hay una distancia que el banco
+beneficiario cubre asumiendo riesgo. El bloque fija la regla, indica cómo se
+comprueba en cada tipo de sistema y qué debe decirse al cliente.
 
 ```text
 LA REGLA PRUDENTE

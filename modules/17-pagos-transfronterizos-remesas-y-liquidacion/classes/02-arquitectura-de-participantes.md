@@ -105,6 +105,11 @@ DE UNA DESINCRONIZACIÓN ENTRE DOS DE LOS CUATRO
 
 ### 1. Los ocho papeles
 
+Un pago transfronterizo pasa por más manos de las que aparecen en el contrato
+del cliente. El bloque enumera los ocho papeles del esquema clásico y añade
+dos que no suelen dibujarse y que, sin embargo, pueden detener la cadena
+entera.
+
 ```text
 1 ORDENANTE            instruye; asume el coste según OUR/SHA/BEN
 2 BANCO ORDENANTE      valida, aplica cumplimiento, ejecuta
@@ -123,6 +128,10 @@ Y DOS FIGURAS QUE NO APARECEN EN EL DIAGRAMA CLÁSICO
 ```
 
 ### 2. Pago en serie frente a pago con cobertura
+
+La instrucción y los fondos pueden viajar juntos o por caminos distintos, y
+esa elección cambia quién ve qué y quién asume el riesgo. El bloque compara
+ambos métodos con su ventaja y su problema.
 
 ```text
 EN SERIE
@@ -145,6 +154,10 @@ CON COBERTURA
 
 ### 3. Dónde se rompe la responsabilidad
 
+La cadena de pago es técnica; la cadena de reclamación es contractual, y no
+coinciden. El bloque las separa y deriva la consecuencia que explica por qué
+los bancos recortan su red de corresponsales.
+
 ```text
 FRENTE AL CLIENTE
   responde su banco: el ordenante reclama al banco ordenante
@@ -163,6 +176,10 @@ LA CONSECUENCIA PRÁCTICA
 ```
 
 ### 4. Los cuatro flujos sobre un caso
+
+Un mismo pago genera cuatro flujos que avanzan a velocidades distintas:
+mensaje, fondos, contabilidad e información al cliente. El bloque los sigue
+sobre un caso concreto para que se vea cuánto se separan entre sí.
 
 ```text
 PAGO DE 10 000 USD, CHILE → VIETNAM

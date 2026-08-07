@@ -100,6 +100,8 @@ cuota total                              157 900
 comisión de apertura (financiada)         55 000
 ```
 
+Con esos tres componentes sobre la mesa, la comparación entre lo que se recibe y lo que se paga deja ver la distancia entre la tasa publicada y la que realmente se soporta.
+
 ```text
 recibido efectivamente        3 000 000
 pagos totales                 3 789 600

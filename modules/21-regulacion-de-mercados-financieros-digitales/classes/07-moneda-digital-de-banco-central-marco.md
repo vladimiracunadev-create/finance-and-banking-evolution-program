@@ -108,6 +108,10 @@ NO TIENE REQUISITOS: TIENE PREFERENCIAS.
 
 ### 1. Curso legal y sus consecuencias
 
+El curso legal es un concepto jurídico preciso, y se le atribuyen efectos que
+no tiene. El bloque delimita qué significa y qué no, y enumera las cuestiones
+que hay que resolver antes de declararlo.
+
 ```text
 CURSO LEGAL SIGNIFICA
   el acreedor debe aceptarla en pago
@@ -132,6 +136,9 @@ CONSECUENCIAS QUE HAY QUE RESOLVER
 
 ### 2. La titularidad del pasivo
 
+De quién es el pasivo determina qué ocurre si el intermediario quiebra, y hay
+dos diseños posibles. El bloque los describe con su consecuencia.
+
 ```text
 LA PREGUNTA QUE DECIDE LA QUIEBRA
 DEL INTERMEDIARIO
@@ -154,6 +161,10 @@ DEL INTERMEDIARIO
 ```
 
 ### 3. Privacidad como decisión política
+
+El grado de privacidad no lo fija la tecnología: se decide y después se
+implementa. El bloque sitúa el rango posible y recoge los diseños que lo
+acotan.
 
 ```text
 EL RANGO POSIBLE
@@ -178,6 +189,10 @@ QUÉ NO SE PUEDE PROMETER
 ```
 
 ### 4. Habilitación legal
+
+Muchas leyes orgánicas facultan a emitir billetes y monedas, y no está claro
+que eso alcance a un saldo digital. El bloque expone las dos lecturas y por
+qué la duda no se resuelve con un informe.
 
 ```text
 LA MAYORÍA DE LEYES ORGÁNICAS

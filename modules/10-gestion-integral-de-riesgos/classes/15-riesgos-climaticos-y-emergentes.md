@@ -144,6 +144,8 @@ CUATRO CONDUCTORES
   REPUTACIÓN   presión pública sobre financiadores
 ```
 
+Los cuatro conductores no actúan en el vacío: su intensidad depende de cuándo ocurra la transición, y ahí aparece una paradoja que conviene tener presente.
+
 ```text
 LA PARADOJA DE LA TRANSICIÓN
   transición ORDENADA y temprana → costo moderado, distribuido

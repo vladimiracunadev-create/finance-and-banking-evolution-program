@@ -176,6 +176,8 @@ FASES
   8. SEGUIMIENTO                 hasta el cierre verificado
 ```
 
+Dentro de la ejecución hay una distinción que decide la gravedad del hallazgo y que se confunde con frecuencia.
+
 ```text
 DISEÑO vs. EFECTIVIDAD — la distinción que más se confunde
   DISEÑO       el control está bien pensado
@@ -222,6 +224,8 @@ ESTRUCTURA DE UN HALLAZGO
   EFECTO      qué consecuencia tiene, cuantificada si es posible
   RECOMENDACIÓN  qué corregir (el "qué", no el "cómo")
 ```
+
+De los cuatro elementos, uno determina si el plan de acción previene o solo repara, y conviene verlo sobre un ejemplo.
 
 ```text
 POR QUÉ LA CAUSA IMPORTA MÁS QUE LA CONDICIÓN

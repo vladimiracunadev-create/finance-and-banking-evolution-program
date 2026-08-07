@@ -177,6 +177,8 @@ CRITERIO DE DECISIÓN
   RAROC < costo del capital  →  destruye valor, aunque tenga utilidad contable
 ```
 
+El mismo criterio se puede expresar en unidades monetarias, y esa versión es la que permite comparar unidades de negocio de tamaños distintos.
+
 ```text
 VALOR ECONÓMICO AÑADIDO
   VEA = resultado ajustado − (capital asignado × costo del capital)

@@ -124,6 +124,9 @@ EL ERROR HABITUAL
 
 ### 2. Lo que más se rechaza
 
+Los expedientes se rechazan casi siempre por las mismas causas, y todas son
+evitables. El bloque las enumera por frecuencia.
+
 ```text
 CAUSAS FRECUENTES DE RECHAZO O DE
 REQUERIMIENTO ADICIONAL
@@ -152,6 +155,10 @@ REQUERIMIENTO ADICIONAL
 
 ### 3. El proceso y sus plazos
 
+El proceso tiene fases y plazos, y el plazo publicado no es el que se tarda. El
+bloque describe las fases y explica el mecanismo que alarga el calendario
+real.
+
 ```text
 FASES HABITUALES
 
@@ -173,6 +180,10 @@ DURANTE LOS REQUERIMIENTOS
 ```
 
 ### 4. El día después
+
+Obtener la autorización no cierra el trabajo: abre un régimen de obligaciones
+continuas. El bloque las enumera y añade el coste recurrente que casi nadie
+presupuesta.
 
 ```text
 QUÉ CAMBIA AL OBTENER LA AUTORIZACIÓN
@@ -196,6 +207,10 @@ REGLA PRÁCTICA
 ```
 
 ### 5. Pasaporte y establecimiento
+
+Una autorización tiene un alcance territorial, y determinar dónde se presta un
+servicio digital no es evidente. El bloque expone las reglas habituales y los
+criterios que se aplican.
 
 ```text
 UNA AUTORIZACIÓN VALE DONDE LA NORMA DIGA

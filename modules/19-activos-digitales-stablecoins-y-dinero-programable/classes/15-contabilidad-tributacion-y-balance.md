@@ -115,6 +115,10 @@ La diferencia está en el derecho y en el propósito.
 
 ### 1. La asimetría del intangible
 
+El tratamiento como intangible produce un resultado asimétrico que sorprende a
+quien lo ve por primera vez. El bloque describe qué ocurre al bajar y al subir
+el precio, y la consecuencia sobre el valor en libros.
+
 ```text
 BAJO EL MODELO DE COSTO PARA INTANGIBLES
 
@@ -140,6 +144,10 @@ CONSECUENCIA
 
 ### 2. Cuándo se puede usar valor razonable
 
+Existe una alternativa al modelo de costo, y está condicionada a que haya
+mercado activo. El bloque explica qué se exige para afirmarlo y adónde va la
+revalorización cuando se puede aplicar.
+
 ```text
 EL MODELO DE REVALORIZACIÓN PARA INTANGIBLES
 EXIGE UN MERCADO ACTIVO
@@ -160,6 +168,10 @@ no al resultado del ejercicio
 
 ### 3. Existencias
 
+Para un intermediario que compra y vende en el curso ordinario, la
+clasificación cambia por completo. El bloque describe ese tratamiento, que es
+el más próximo a la realidad económica, y lo que exige a cambio.
+
 ```text
 UN INTERMEDIARIO QUE COMPRA Y VENDE
 EN EL CURSO ORDINARIO
@@ -179,6 +191,10 @@ EN EL CURSO ORDINARIO
 ```
 
 ### 4. Activos custodiados
+
+Que un activo custodiado figure o no en el balance del custodio depende de una
+sola pregunta. El bloque la formula, da los dos desenlaces posibles y apunta
+la consecuencia del primero.
 
 ```text
 LA PREGUNTA DE CONTROL
@@ -205,6 +221,10 @@ Y NO TENERLAS
 ```
 
 ### 5. Tributación
+
+La tributación de estas operaciones no tiene misterio conceptual y sí una
+exigencia documental alta. El bloque enumera los hechos imponibles habituales
+y lo que hace falta registrar para poder declararlos.
 
 ```text
 HECHOS IMPONIBLES HABITUALES

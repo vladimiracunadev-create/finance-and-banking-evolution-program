@@ -102,6 +102,10 @@ Y AHÍ ESTÁ EL COSTE
 
 ### 1. De dónde sale la necesidad de liquidez
 
+El saldo de un nostro no es una decisión arbitraria: responde a un desfase
+entre salidas y entradas. El bloque enumera las causas y propone la fórmula
+con la que se fija un saldo objetivo defendible.
+
 ```text
 UN NOSTRO NECESITA SALDO PORQUE
   · los pagos salen antes de que entren los cobros
@@ -124,6 +128,10 @@ LA FÓRMULA DEL SALDO OBJETIVO
 
 ### 2. Netting bilateral
 
+El netting bilateral se entiende con dos cifras. El bloque compara la liquidez
+que hace falta con y sin él, calcula el ratio de ahorro y termina con lo que
+se paga a cambio, que no es dinero sino exposición durante un intervalo.
+
 ```text
 SIN NETTING, EN UN DÍA
   Banco A paga a Banco B:   3 200 000
@@ -145,6 +153,10 @@ EL PRECIO
 ```
 
 ### 3. Netting multilateral
+
+Con tres o más participantes el ahorro crece, porque las deudas cruzadas se
+cancelan entre sí. El bloque desarrolla el caso completo, de las posiciones
+bilaterales a las netas, hasta la liquidez que realmente se moviliza.
 
 ```text
 TRES BANCOS, POSICIONES BILATERALES
@@ -174,6 +186,10 @@ LO QUE HACE FALTA PARA QUE ESTO FUNCIONE
 
 ### 4. Horarios: el ahorro que no es netting
 
+Ampliar horarios y compensar importes reducen la necesidad de liquidez por
+mecanismos distintos, y conviene no atribuir a uno lo que consiguió el otro. El
+bloque los separa y muestra el efecto del horario con un ejemplo.
+
 ```text
 DOS FUENTES DE AHORRO QUE SE CONFUNDEN
 
@@ -193,6 +209,10 @@ EJEMPLO
 ```
 
 ### 5. Barrido y concentración
+
+Cuando un banco tiene veinte nostros, la gestión deja de ser cuenta a cuenta.
+El bloque describe las dos técnicas habituales, con lo que ahorra cada una y
+lo que sigue haciendo falta después de aplicarlas.
 
 ```text
 BARRIDO (sweeping)

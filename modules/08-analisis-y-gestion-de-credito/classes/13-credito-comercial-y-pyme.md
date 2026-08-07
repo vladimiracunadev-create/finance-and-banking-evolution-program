@@ -206,6 +206,8 @@ Z' > 2,90    zona segura
 Z' < 1,23    zona de dificultad
 ```
 
+Con los estados ya ajustados, cada componente se calcula y se pondera hasta obtener el puntaje que sitúa a la empresa en una zona.
+
 ```text
 cálculo con los estados ajustados:
   capital de trabajo 285 000 / activo 780 000 = 0,365   → 0,717 × 0,365 = 0,262

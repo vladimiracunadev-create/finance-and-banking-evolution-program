@@ -109,6 +109,10 @@ LA ASIMETRÍA QUE EXPLICA TODO
 
 ### 1. Qué obtiene cada parte
 
+La corresponsalía es un acuerdo entre dos bancos en el que cada uno obtiene
+algo distinto. El bloque reparte los beneficios y termina en lo que ninguno de
+los dos consigue, que es exactamente donde nace el problema de cumplimiento.
+
 ```text
 EL RESPONDEDOR OBTIENE
   · alcance a una moneda y a un sistema de pagos ajenos
@@ -126,6 +130,11 @@ LO QUE NINGUNO OBTIENE
 ```
 
 ### 2. La debida diligencia reforzada
+
+Abrir una relación de corresponsalía exige una diligencia mucho más profunda
+que la de un cliente ordinario, porque se está aceptando indirectamente a los
+clientes del otro banco. El bloque lista lo que se evalúa y lo que se pacta
+por escrito.
 
 ```text
 ANTES DE ABRIR LA RELACIÓN, EL CORRESPONSAL EVALÚA
@@ -147,6 +156,10 @@ Y ACUERDA POR ESCRITO
 ```
 
 ### 3. Banca anidada: el riesgo que no se ve
+
+La banca anidada es el caso en que el respondedor revende su acceso a otros
+bancos. El diagrama muestra la diferencia entre lo que el corresponsal cree
+estar procesando y lo que realmente pasa por su balance.
 
 ```text
 BANCO A (corresponsal, plaza fuerte)
@@ -173,6 +186,10 @@ POR QUÉ IMPORTA
 ```
 
 ### 4. La retirada de relaciones
+
+La retirada de relaciones es un fenómeno medido, no una impresión. El bloque
+separa el dato observado de su interpretación correcta y enumera las causas
+económicas que lo explican sin recurrir a la mala fe de nadie.
 
 ```text
 QUÉ SE OBSERVA

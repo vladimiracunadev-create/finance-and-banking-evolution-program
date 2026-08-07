@@ -115,6 +115,8 @@ banda absoluta = ±5 puntos porcentuales para clases con peso > 20 %
 banda relativa = ±25 % del peso objetivo para clases con peso < 20 %
 ```
 
+Aplicadas a una cartera concreta, las dos reglas producen la tabla de rangos que después dispara cada rebalanceo.
+
 ```text
 Clase                objetivo   banda        rango
 renta variable global   32 %    ±5 pp        27 % – 37 %

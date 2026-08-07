@@ -96,6 +96,8 @@ inequívocamente mala.
 σ = √[Σ(r_t − r̄)²/(n−1)]
 ```
 
+Sobre una serie corta de retornos anuales, la medida se calcula en dos pasos y ya permite comparar activos entre sí.
+
 ```text
 retornos anuales: 12,4 % · −8,1 % · 21,3 % · 4,7 % · −3,2 % · 16,8 %
 media = 7,32 %
@@ -184,6 +186,8 @@ Modelo de valoración de activos de capital:
 ```text
 E(r) = r_f + β × (E(r_m) − r_f)
 ```
+
+Con los tres parámetros del mercado, el modelo entrega el retorno que habría que exigir a ese activo para compensar su riesgo.
 
 ```text
 r_f = 4,0 % · E(r_m) = 9,5 % · β = 1,4

@@ -111,6 +111,10 @@ SIN HABERSE DADO CUENTA.
 
 ### 1. Tres conceptos que se confunden
 
+Tres preguntas distintas se confunden constantemente, y responderlas en
+desorden lleva a conclusiones equivocadas. El bloque las separa por el tipo de
+cosa sobre la que preguntan y fija el orden en que se resuelven.
+
 ```text
 PERÍMETRO
   qué actividades quedan dentro de un régimen
@@ -133,6 +137,10 @@ Y EL ERROR HABITUAL ES EMPEZAR POR EL TERCERO:
 ```
 
 ### 2. Hechos observables
+
+Lo que decide la calificación de una actividad no es cómo se describe la
+entidad, sino qué hace de forma comprobable. El bloque enfrenta las
+declaraciones más frecuentes con el hecho que las desmiente.
 
 ```text
 LO QUE DECIDE NO ES LO QUE LA ENTIDAD DICE
@@ -162,6 +170,10 @@ CÓMO SE VERIFICAN
 
 ### 3. La actividad que nadie declaró
 
+Muchas entidades ejercen una actividad regulada adicional sin haberlo
+advertido, porque llegó como una función más del producto. El bloque recoge
+los casos que más se repiten.
+
 ```text
 CASOS FRECUENTES
 
@@ -187,6 +199,10 @@ y no declararla no la desactiva.
 
 ### 4. Por qué el perímetro sigue a la actividad
 
+Que el perímetro siga a la actividad y no a la tecnología es una elección de
+técnica normativa con consecuencias claras. El bloque compara ambos criterios
+por lo que producen.
+
 ```text
 SI SIGUIERA A LA TECNOLOGÍA
 
@@ -209,6 +225,10 @@ CONSECUENCIA PRÁCTICA
 ```
 
 ### 5. Lo que aplica aunque no haya régimen
+
+Quedar fuera del régimen financiero no significa quedar fuera del derecho. El
+bloque enumera lo que sigue aplicando y traduce la frase que suele
+acompañarlo.
 
 ```text
 AUNQUE UNA ACTIVIDAD QUEDE FUERA

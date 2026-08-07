@@ -101,6 +101,10 @@ SI FALTA UNA CAPA, EL SISTEMA NO FUNCIONA AUNQUE LAS OTRAS TRES SEAN BUENAS
 
 ### 1. El mapa completo
 
+El esquema no es un participante más: es la capa que fija las reglas bajo las
+que operan todos los demás. El diagrama coloca arriba las funciones de
+gobierno y abajo la operación diaria, para que se vea qué depende de qué.
+
 ```text
                        ┌──────────────────────┐
                        │  ESQUEMA / GOBIERNO  │  reglas, estándar, sanciones
@@ -150,6 +154,11 @@ EL ERROR DE ANÁLISIS MÁS COMÚN
 ```
 
 ### 3. Gobernanza del esquema
+
+Un esquema es, en la práctica, una lista de decisiones que alguien tiene que
+tomar. El bloque enumera las mínimas y después señala lo que más determina el
+resultado: no el contenido de las decisiones, sino la composición del órgano
+que las toma.
 
 ```text
 UN ESQUEMA DECIDE, COMO MÍNIMO

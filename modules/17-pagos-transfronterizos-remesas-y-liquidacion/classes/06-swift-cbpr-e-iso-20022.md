@@ -138,6 +138,11 @@ EL ORDEN IMPORTA
 
 ### 2. Anatomía de un `pacs.008`
 
+Conviene leer una vez la estructura del mensaje que transporta una
+transferencia de crédito, aunque no se vaya a construir a mano. El bloque
+recorre sus bloques principales y marca el campo del que depende toda la
+conciliación posterior.
+
 ```text
 GroupHeader
   MsgId                identificador del mensaje
@@ -165,6 +170,10 @@ CreditTransferTransactionInformation
 
 ### 3. Deudor y deudor último: la distinción que cuesta dinero
 
+La norma distingue entre quien paga y por cuenta de quién se paga, y esa
+distinción tiene consecuencias en cumplimiento y en conciliación. El bloque
+define los cuatro campos y los aplica a dos casos habituales.
+
 ```text
 Dbtr        DEUDOR: quien ordena y de cuya cuenta sale el dinero
 UltmtDbtr   DEUDOR ÚLTIMO: por cuenta de quién se paga realmente
@@ -190,6 +199,10 @@ POR QUÉ IMPORTA
 
 ### 4. Códigos de propósito y referencias
 
+Dos campos convierten un pago en un dato utilizable: el que dice para qué se
+paga y el que permite casarlo con la factura. El bloque detalla ambos, con los
+códigos más frecuentes y la regla que ningún eslabón debe romper.
+
 ```text
 CÓDIGO DE PROPÓSITO (Purp)
   SALA  salario          SUPP  pago a proveedor
@@ -214,6 +227,10 @@ IDENTIFICADOR ÚNICO (UETR)
 ```
 
 ### 5. Por qué el texto libre destruye el procesamiento directo
+
+La diferencia entre un pago que se procesa solo y otro que cae a revisión
+manual está muchas veces en cómo se escribió una dirección. El bloque compara
+las dos formas sobre el mismo dato.
 
 ```text
 DIRECCIÓN EN TEXTO LIBRE

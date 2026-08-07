@@ -191,6 +191,8 @@ DIFERENCIAS CON LA DEUDA
   · el precio de colocación es la variable crítica
 ```
 
+A esas diferencias se suma un costo que no aparece en ninguna comisión y que soportan los accionistas que ya estaban.
+
 ```text
 EL DESCUENTO DE COLOCACIÓN
   las emisiones se colocan por debajo del precio de referencia

@@ -109,6 +109,10 @@ QUÉ CUESTA
 
 ### 1. El cálculo del precio
 
+El mecanismo se apoya en una fórmula que cabe en tres líneas, y todo lo demás
+se deriva de ella. El bloque la desarrolla y distingue el precio marginal del
+precio efectivamente pagado.
+
 ```text
 RESERVAS X e Y, PRODUCTO K = X × Y
 
@@ -131,6 +135,10 @@ Y SIEMPRE
 ```
 
 ### 2. El deslizamiento es la profundidad
+
+En este mecanismo la profundidad no se lee en el libro: es el tamaño de la
+reserva. El bloque establece la correspondencia y la resume en una regla
+práctica.
 
 ```text
 EN UN LIBRO DE ÓRDENES, LA PROFUNDIDAD
@@ -160,6 +168,10 @@ es enorme comparado con el volumen que sirve.
 
 ### 3. La pérdida por divergencia
 
+Quien aporta reservas cobra comisiones y soporta una pérdida frente a no haber
+hecho nada. El bloque explica de dónde sale esa pérdida y por qué es
+sistemática.
+
 ```text
 QUIEN APORTA LAS RESERVAS RECIBE COMISIONES
 Y SOPORTA UNA PÉRDIDA
@@ -187,6 +199,10 @@ FÓRMULA APROXIMADA PARA PRODUCTO CONSTANTE
 ```
 
 ### 4. Cuándo compensa aportar
+
+Aportar reservas compensa o no según una comparación con dos términos que
+dependen de cosas distintas. El bloque la plantea y la traduce a la apuesta
+que realmente se está haciendo.
 
 ```text
 COMISIONES ACUMULADAS > PÉRDIDA POR DIVERGENCIA

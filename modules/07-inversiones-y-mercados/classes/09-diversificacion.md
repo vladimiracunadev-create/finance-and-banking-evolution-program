@@ -100,6 +100,8 @@ E(r_p) = w₁ E(r₁) + w₂ E(r₂)
 σ_p = √(w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂)
 ```
 
+Las dos fórmulas se aplican a un par de activos con características opuestas y una correlación baja, que es el caso donde la diversificación se nota.
+
 ```text
 Activo A: E(r) = 11 % · σ = 22 %
 Activo B: E(r) = 6 %  · σ = 9 %
@@ -127,6 +129,8 @@ w_A* = (σ_B² − ρσ_Aσ_B)/(σ_A² + σ_B² − 2ρσ_Aσ_B)
      = (81 − 0,25×22×9)/(484 + 81 − 2×0,25×22×9)
      = (81 − 49,5)/(565 − 99) = 31,5/466 = 6,76 %
 ```
+
+Resuelta la expresión, la combinación de mínimo riesgo resulta muy desequilibrada, y su desviación queda por debajo de la del activo más tranquilo.
 
 ```text
 cartera de mínima varianza: 6,76 % en A, 93,24 % en B

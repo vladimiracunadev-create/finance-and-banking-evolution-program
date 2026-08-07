@@ -222,6 +222,8 @@ costo total = comisión de administración
             ± efecto tributario de la estructura
 ```
 
+Sumados sobre una inversión y un horizonte concretos, los componentes revelan cuál pesa de verdad, que no suele ser la comisión anunciada.
+
 ```text
 inversión de 12 000 000, tenencia de 7 años, ETF C:
   comisión           0,12 % × 7 = 0,84 %

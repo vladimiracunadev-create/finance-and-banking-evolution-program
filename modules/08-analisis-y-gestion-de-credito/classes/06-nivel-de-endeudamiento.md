@@ -96,6 +96,8 @@ ENDEUDAMIENTO TOTAL =
   + deudas fuera del sistema financiero
 ```
 
+El detalle de un caso real muestra cuántas obligaciones distintas hay que reunir antes de poder sumar.
+
 ```text
 ejemplo:
   crédito de consumo, saldo                       3 200 000
@@ -107,6 +109,8 @@ ejemplo:
   aval a un familiar                              4 000 000
   deuda con caja de compensación                    920 000
 ```
+
+Aplicadas las ponderaciones de política a cada partida, el total consolidado se aleja bastante de lo que muestra el informe estándar.
 
 ```text
 CONSOLIDADO

@@ -102,6 +102,10 @@ Y CON UNA ÚLTIMA MILLA QUE CUESTA
 
 ### 1. Por qué las remesas son un segmento propio
 
+Una remesa no es un pago comercial pequeño: se comporta de otra manera en
+todas las dimensiones que importan. El bloque las compara una a una y saca la
+conclusión que explica por qué el segmento recibe atención propia.
+
 ```text
 DIFERENCIAS CON UN PAGO COMERCIAL
 
@@ -119,6 +123,10 @@ CONSECUENCIA
 ```
 
 ### 2. Los objetivos internacionales
+
+Existen objetivos internacionales cuantificados para el coste, la velocidad,
+el acceso y la transparencia de estos pagos. El bloque los resume por
+dimensión y remite a la fuente, porque las cifras y los plazos se actualizan.
 
 ```text
 LA HOJA DE RUTA DEL G20 FIJÓ METAS PARA 2027
@@ -163,6 +171,10 @@ LA PARADOJA DEL ACCESO
 
 ### 4. Por qué un corredor es caro
 
+Que un corredor sea caro casi nunca se debe a una sola causa. El bloque las
+ordena por el peso que suelen tener, de modo que una propuesta de mejora pueda
+decir sobre cuál de ellas actúa.
+
 ```text
 CAUSAS ESTRUCTURALES, EN ORDEN DE PESO HABITUAL
 
@@ -192,6 +204,11 @@ LO QUE CASI NUNCA ES LA CAUSA PRINCIPAL
 ```
 
 ### 5. Canales informales
+
+Junto a los operadores registrados existe un circuito informal que mueve
+volúmenes relevantes. El bloque explica qué son estos canales, por qué se
+usan y por qué su existencia distorsiona tanto la protección del usuario como
+las estadísticas del corredor.
 
 ```text
 QUÉ SON

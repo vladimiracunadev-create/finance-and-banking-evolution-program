@@ -72,6 +72,8 @@ Los dos primeros términos son la distinción que ordena la clase; los seis sigu
 
 ## 🧠 Modelo mental
 
+Conviene empezar por una constatación incómoda, porque explica que la gestión de liquidez no busque eliminar el riesgo sino mantenerlo dentro de un margen sobrevivible.
+
 ```text
 UN BANCO ES ILÍQUIDO POR DISEÑO
 
@@ -158,6 +160,8 @@ La segunda métrica mira el horizonte de un año y la estructura del fondeo. El 
 ESTABLE (NSFR) = ──────────────────────────────────  ≥ 100 %
                 financiamiento estable REQUERIDO
 ```
+
+Las ponderaciones de ambos lados del cociente son las que traducen la idea de estabilidad en un número, y conviene leerlas juntas.
 
 ```text
 DISPONIBLE (ponderaciones)      REQUERIDO (ponderaciones)

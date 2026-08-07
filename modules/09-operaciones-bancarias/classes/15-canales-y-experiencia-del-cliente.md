@@ -202,6 +202,8 @@ Un reclamo tiene un ciclo y su análisis de causa raíz es lo que evita el sigui
 8. VERIFICACIÓN   ¿bajaron los reclamos de esa causa?
 ```
 
+Sobre un caso repetido cientos de veces, se ve la diferencia entre corregir los casos y corregir la causa que los produce.
+
 ```text
 ANÁLISIS DE CAUSA RAÍZ — ejemplo
   reclamo: "me cobraron mantención dos veces"

@@ -104,6 +104,10 @@ DECIDE QUÉ PASA EL PEOR DÍA.
 
 ### 1. La reserva: qué exige la norma frente a qué mide el riesgo
 
+Conviene contrastar lo que la norma exige sobre la reserva con lo que el
+análisis de la parte anterior demostró que importa. El bloque pone ambas
+listas juntas.
+
 ```text
 LO QUE UNA NORMA SUELE EXIGIR
   · segregación jurídica de la reserva
@@ -129,6 +133,10 @@ DÓNDE ESTÁ LA BRECHA
 
 ### 2. El reembolso: qué es un coste indebido
 
+La expresión «sin coste indebido» se repite en todos los regímenes y necesita
+concretarse. El bloque enumera qué se ha considerado indebido y se detiene en
+el punto más discutido.
+
 ```text
 LOS REGÍMENES SUELEN DECIR
 «a la par y sin coste indebido»
@@ -152,6 +160,10 @@ CRITERIO PRÁCTICO
 
 ### 3. El plan de rescate
 
+Un emisor puede cesar, y lo que ocurra entonces depende de que exista un plan
+escrito. El bloque enumera lo que debe resolver y describe lo que pasa sin
+él.
+
 ```text
 QUÉ PASA SI EL EMISOR CESA
 
@@ -174,6 +186,10 @@ LO QUE HACE ÚTIL A UN PLAN
 ```
 
 ### 4. El emisor extranjero
+
+El emisor extranjero cuyo instrumento circula localmente escapa a las
+obligaciones dirigidas al emisor autorizado. El bloque recoge las opciones que
+se han usado para alcanzarlo.
 
 ```text
 LA MAYORÍA DE LAS OBLIGACIONES
@@ -200,6 +216,10 @@ Y LA CONSECUENCIA PARA EL TENEDOR
 ```
 
 ### 5. El reporte que el supervisor pedirá
+
+El reporte periódico es donde el supervisor ve lo que realmente ocurre, y su
+contenido puede anticipar problemas o no. El bloque propone el mínimo útil y
+señala qué tres datos son los que avisan.
 
 ```text
 CONTENIDO MÍNIMO ÚTIL

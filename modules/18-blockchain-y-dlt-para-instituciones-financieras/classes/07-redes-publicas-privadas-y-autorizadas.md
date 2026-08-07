@@ -111,6 +111,10 @@ solo los autorizados escriben
 
 ### 1. Qué cambia con cada permiso
 
+Los permisos de lectura y de escritura se deciden por separado, y cada
+combinación tiene consecuencias distintas sobre lo que se puede cumplir. El
+bloque las recorre una a una.
+
 ```text
 LECTURA ABIERTA
   · máxima verificabilidad por terceros
@@ -136,6 +140,10 @@ ESCRITURA AUTORIZADA
 
 ### 2. La incompatibilidad que decide
 
+Hay obligaciones que un banco no puede suspender por elegir una arquitectura.
+El bloque las enumera y muestra cuáles quedan incumplidas en cada tipo de red,
+que es lo que en la práctica decide la elección.
+
 ```text
 UN BANCO TIENE OBLIGACIONES QUE NO PUEDE SUSPENDER
 
@@ -160,6 +168,10 @@ CONCLUSIÓN QUE NO ES IDEOLÓGICA
 
 ### 3. Lo que sí se puede hacer sobre una red abierta
 
+Que una entidad regulada no pueda operar su negocio sobre una red abierta no
+significa que no pueda usarla para nada. El bloque separa los usos viables de
+los que no lo son, con el motivo en cada caso.
+
 ```text
 · mantener exposición propia, con tratamiento prudencial
 · custodiar activos de clientes, con controles
@@ -176,6 +188,10 @@ LO QUE NO
 ```
 
 ### 4. Gobierno de una red autorizada
+
+Una red autorizada necesita respuestas escritas a preguntas que suelen
+posponerse hasta que ocurre el conflicto. El bloque las agrupa por materia,
+que es como se redacta un acuerdo de consorcio.
 
 ```text
 UN CONSORCIO TIENE QUE RESPONDER, POR ESCRITO
@@ -204,6 +220,10 @@ IMPORTA EN UNA EVALUACIÓN DE RIESGO DE TERCEROS
 ```
 
 ### 5. La trampa de la etiqueta
+
+La misma etiqueta cubre dos arquitecturas muy distintas, y la diferencia entre
+ellas es la que decide si hay o no registro distribuido. El bloque las separa
+y propone la pregunta que las distingue en un minuto.
 
 ```text
 «RED PRIVADA» PUEDE SIGNIFICAR

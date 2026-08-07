@@ -126,6 +126,10 @@ Por eso se preparan de antemano.
 
 ### 2. La fase 3 es la que decide
 
+Un desvío de precio no es todavía una crisis: es una pregunta que se le hace
+al canal de redención. El bloque describe las dos respuestas posibles y qué
+ocurre después de cada una.
+
 ```text
 EL DESVÍO INICIAL NO ES LA CRISIS.
 LA CRISIS ES EL RESULTADO DE LA PRUEBA.
@@ -151,6 +155,10 @@ LA CRISIS ES EL RESULTADO DE LA PRUEBA.
 
 ### 3. La espiral de realización forzada
 
+Cuando el emisor tiene que vender para pagar, cada venta empeora las
+condiciones de la siguiente. El bloque describe el bucle y localiza el punto a
+partir del cual deja de poder cerrarse.
+
 ```text
 EL EMISOR VENDE PARA PAGAR REDENCIONES
 
@@ -173,6 +181,10 @@ PUNTO DE NO RETORNO
 ```
 
 ### 4. Contagio a instrumentos sanos
+
+En una tensión también caen instrumentos que no tenían ningún problema, y hay
+cuatro razones distintas para ello. El bloque las separa, porque cada una se
+mitiga de una forma.
 
 ```text
 POR QUÉ CAE LO QUE NO TENÍA PROBLEMA
@@ -198,6 +210,10 @@ pueden depender del mismo banco
 ```
 
 ### 5. La recuperación aparente
+
+Que el precio vuelva a la paridad no significa que el problema se haya
+resuelto. El bloque enumera las cuatro causas posibles de la recuperación y
+señala cuál es la única que corrige la causa.
 
 ```text
 EL PRECIO VUELVE A 1,00 Y TODOS RESPIRAN

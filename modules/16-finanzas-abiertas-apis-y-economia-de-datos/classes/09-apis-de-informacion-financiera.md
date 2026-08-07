@@ -102,6 +102,10 @@ ES QUÉ BLOQUE CONCENTRA EL VALOR Y CUÁL LA SENSIBILIDAD
 
 ### 1. Cuentas y medios de pago
 
+Cada familia de productos se modela con la misma estructura de tres capas
+—identidad, condiciones y dinámica—, y lo interesante está en qué campos
+concentran la sensibilidad. El bloque la aplica a cuentas y medios de pago.
+
 ```text
 IDENTIDAD     id opaco, tipo, moneda, titulares, estado, apertura
 CONDICIONES   comisión de mantención, línea asociada, límites
@@ -120,6 +124,10 @@ DECISIÓN DE DISEÑO IMPRESCINDIBLE
 ```
 
 ### 2. Créditos
+
+El crédito repite las tres capas y añade una particularidad: un campo que, por
+sí solo, revela la situación financiera del cliente y es exactamente el que un
+tercero querría para decidir.
 
 ```text
 IDENTIDAD     tipo (consumo, hipotecario, comercial), estado
@@ -144,6 +152,10 @@ EL CAMPO MÁS ÚTIL ES «tasa» + «saldo insoluto»
 
 ### 3. Seguros
 
+En seguros, las tres capas dejan fuera lo que de verdad determina si la póliza
+sirve. El bloque lo señala junto al segundo problema propio del ramo, que
+arrastra una categoría de datos con régimen reforzado.
+
 ```text
 IDENTIDAD     ramo, póliza, vigencia, estado
 CONDICIONES   coberturas, sumas aseguradas, deducibles,
@@ -166,6 +178,10 @@ DOS PROBLEMAS PROPIOS
 
 ### 4. Inversiones
 
+En inversiones, la dificultad no está en los campos sino en el número: el
+mismo activo tiene varios valores válidos a la vez. El bloque los enumera y
+resuelve la exposición con una regla simple.
+
 ```text
 IDENTIDAD     tipo de cuenta, custodio, régimen tributario
 CONDICIONES   perfil, comisiones, restricciones de rescate
@@ -187,6 +203,10 @@ SENSIBILIDAD
 ```
 
 ### 5. Los tres problemas transversales
+
+Tres problemas atraviesan las cuatro familias anteriores y no se resuelven en
+el catálogo de campos, sino en el diseño del consentimiento. El bloque los
+plantea con su respuesta de diseño y advierte dónde manda la norma local.
 
 ```text
 PROBLEMA 1 · TITULARIDAD COMPARTIDA

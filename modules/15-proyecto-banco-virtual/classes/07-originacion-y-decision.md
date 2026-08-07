@@ -113,6 +113,8 @@ El flujo tiene etapas con puntos de decisión y de abandono. El esquema lo recor
 12. REGISTRO         decisión, factores y datos, para explicabilidad
 ```
 
+De los pasos anteriores hay dos que se omiten con frecuencia y cuya ausencia tiene consecuencias distintas: uno comercial y otro normativo.
+
 ```text
 LOS PASOS 9 Y 12 SON LOS QUE MÁS SE OMITEN
 

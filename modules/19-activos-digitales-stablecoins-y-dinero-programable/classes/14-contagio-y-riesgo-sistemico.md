@@ -111,6 +111,10 @@ Y EL QUE MÁS SORPRENDE.
 
 ### 1. Construir el grafo
 
+El análisis de contagio empieza dibujando quién depende de quién. El bloque
+define los tres elementos del grafo —nodos, aristas y pesos— con el nivel de
+detalle que hace falta para poder calcular después.
+
 ```text
 NODOS
   emisores, custodios, plataformas,
@@ -139,6 +143,10 @@ CONSTRUIR EL GRAFO, NO ANALIZARLO
 
 ### 2. Exposición de segundo grado
 
+La exposición indirecta se puede estimar con una fórmula sencilla a partir de
+datos públicos. El bloque la presenta, la interpreta y declara enseguida su
+límite, que conviene tener presente al usarla.
+
 ```text
 FÓRMULA OPERATIVA
 
@@ -162,6 +170,10 @@ LÍMITE DEL MÉTODO
 
 ### 3. Dependencias comunes
 
+Las dependencias compartidas son la vía de contagio menos visible y la más
+rápida. El bloque describe cómo se descubren y qué suele aparecer cuando se
+buscan en serio.
+
 ```text
 CÓMO SE DESCUBREN
 
@@ -183,6 +195,10 @@ LO QUE SUELE APARECER
 ```
 
 ### 4. Venta correlacionada
+
+En una tensión se vende lo que tiene comprador, no lo que ha fallado. El
+bloque explica el mecanismo y saca la consecuencia que descoloca a quien mira
+solo la exposición directa.
 
 ```text
 POR QUÉ CAE LO QUE NO TENÍA PROBLEMA
@@ -206,6 +222,10 @@ CONSECUENCIA PARA EL ANÁLISIS
 ```
 
 ### 5. Qué debe recibir un comité
+
+Todo el análisis de esta clase cabe en cuatro indicadores que se pueden
+mantener actualizados. El bloque los define en el formato en que se llevan a
+un comité.
 
 ```text
 CUATRO INDICADORES, ACTUALIZADOS MENSUALMENTE
