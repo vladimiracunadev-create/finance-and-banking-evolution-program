@@ -21,6 +21,8 @@ Analizar dos clases de activo que no generan flujo por sí mismas y cuya rentabi
 únicamente del cambio de precio. Esa característica las hace estructuralmente distintas de acciones y
 bonos, y determina el papel limitado que deben tener en una cartera de largo plazo.
 
+Los cuatro instrumentos anteriores producen flujos: dividendos, cupones o participaciones en ellos. Los de esta clase no producen ninguno, y esa diferencia cambia por completo cómo se analizan: su rentabilidad depende solo del precio y, en el caso de los futuros, de un efecto de rolado que sorprende a quien no lo conoce.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la naturaleza del activo y sus dos usos; los cuatro siguientes, la mecánica de los futuros y su riesgo. El **retorno de rolado** es el concepto que explica por qué un fondo de materias primas puede perder dinero con el precio del subyacente subiendo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `activo sin flujo` | No paga cupón, dividendo ni arriendo. Su único retorno es el cambio de precio. |
@@ -83,6 +87,8 @@ ser el núcleo de una cartera de acumulación.
 ## 📖 Desarrollo
 
 ### 1. Divisas
+
+Una divisa no es una inversión sino una exposición, y conviene tratarla como tal. El esquema lo plantea.
 
 ```text
 comprar una divisa = tomar posición sobre el diferencial de tasas y sobre la
@@ -116,6 +122,8 @@ Usos legítimos de una posición en divisas:
 
 ### 2. Commodities
 
+Las materias primas se acceden casi siempre por futuros, y ahí aparece el rolado. El esquema muestra el mecanismo.
+
 ```text
 tipos: energía (petróleo, gas), metales industriales (cobre, aluminio),
        metales preciosos (oro, plata), agrícolas (trigo, soja, café)
@@ -148,6 +156,8 @@ precio spot se mantiene estable**: el rolado en contango sostenido erosiona el v
 
 ### 3. El oro como caso particular
 
+El oro se comporta distinto del resto de materias primas y su papel en una cartera se discute con argumentos propios. La tabla los recoge.
+
 ```text
 argumentos habituales a favor              evidencia
 "protege de la inflación"                  la relación es débil en horizontes de 5-10 años
@@ -163,6 +173,8 @@ inadecuado como núcleo de una cartera.
 
 ### 4. Papel en una cartera
 
+Estos activos tienen un papel acotado y justificable en una cartera, o ninguno. La tabla recoge los argumentos de ambos lados.
+
 | Activo | Correlación con acciones | Genera flujo | Papel razonable |
 |---|---|---|---|
 | Acciones | 1,00 | Sí | Núcleo de crecimiento |
@@ -176,6 +188,8 @@ Regla defendible: **los activos sin flujo se limitan a una proporción menor y s
 diversificar, no generar retorno**.
 
 ### 5. Instrumentos apalancados
+
+Los productos apalancados sobre estos activos tienen un comportamiento que no es el que sugiere su nombre. El esquema muestra el efecto de la composición diaria.
 
 ```text
 un ETF apalancado 3x busca replicar TRES VECES el movimiento DIARIO del índice
@@ -313,6 +327,8 @@ aporte técnico de esta clase.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una oportunidad y el banco gestiona una posición de tesorería o cubre a un cliente. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Cobertura vs. especulación | Política de uso de derivados | 11, clase 6 |
@@ -323,6 +339,8 @@ aporte técnico de esta clase.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir el efecto del rolado sobre un año de futuros en contango. La pérdida acumulada sin que el precio del subyacente baje es el resultado que el ejercicio busca.
+
 En `labs/lab-04.md`:
 
 1. Calcula el retorno de mantener tres divisas considerando el diferencial de tasas.
@@ -331,6 +349,8 @@ En `labs/lab-04.md`:
 4. Compara tres alternativas de protección inflacionaria en dos escenarios.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas con el subyacente al alza. La causa es el rolado o la composición diaria de un producto apalancado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

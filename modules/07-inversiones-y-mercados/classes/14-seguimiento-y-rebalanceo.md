@@ -21,6 +21,8 @@ Mantener una cartera alineada con su política a lo largo del tiempo, que es don
 resultado de largo plazo. El rebalanceo es la única disciplina que **obliga a vender lo que subió y
 comprar lo que bajó**, en contra del instinto, y por eso funciona.
 
+Una cartera construida se desvía sola: lo que sube pesa más y el riesgo aumenta sin que nadie lo decida. Esta clase trata la disciplina que la devuelve a su sitio, y la distinción que evita el peor error de la gestión: rebalancear no es lo mismo que cambiar de opinión.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son la mecánica del rebalanceo y su beneficio; los dos últimos, la deriva y la revisión de la política. La distinción entre **rebalanceo y revisión de política** es la que hay que fijar: el primero es mecánico y el segundo es una decisión, y disfrazar la segunda de primero es como se abandonan las estrategias.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `desviación` | Diferencia entre el peso actual y el objetivo de una clase. |
@@ -84,6 +88,8 @@ vender lo que subió.
 
 ### 1. Estrategias de rebalanceo
 
+Hay varias formas de decidir cuándo rebalancear y ninguna domina a las demás. La tabla las compara.
+
 | Estrategia | Regla | Ventaja | Desventaja |
 |---|---|---|---|
 | Calendario | Rebalancear cada N meses | Simple, predecible | Puede operar sin necesidad |
@@ -101,6 +107,8 @@ dirigir los aportes nuevos a las clases más rezagadas
 ```
 
 ### 2. Diseñar las bandas
+
+Las bandas se diseñan según la volatilidad del activo y el costo de operar. El procedimiento siguiente las fija.
 
 ```text
 banda absoluta = ±5 puntos porcentuales para clases con peso > 20 %
@@ -146,6 +154,8 @@ control del riesgo, no el retorno.**
 
 ### 4. Tablero de seguimiento
 
+El seguimiento se hace con pocos indicadores y en fechas fijas. La tabla recoge el tablero mínimo.
+
 ```text
 TABLERO — [fecha]
 
@@ -176,6 +186,8 @@ PROGRESO DE OBJETIVOS
 ```
 
 ### 5. Rebalanceo frente a revisión de política
+
+Las dos cosas se parecen y son opuestas. La tabla las separa con el criterio que decide cuál corresponde.
 
 ```text
 REBALANCEO       devolver la cartera a la asignación objetivo
@@ -214,6 +226,8 @@ La distinción es la que impide que "revisar la política" se convierta en un eu
 el pánico.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo rebalancea una cartera desviada por bandas y calcula el costo de hacerlo. Conviene comparar con la alternativa de no rebalancear: el riesgo de la cartera sin rebalancear crece de forma sostenida.
 
 **Situación.** Una cartera de 92 000 000 después de un año de mercado volátil.
 
@@ -328,6 +342,8 @@ como los seis anteriores.
 
 ## 🏦 Del cliente al banco
 
+El cliente rebalancea y el banco cobra por cada operación. La tabla enfrenta las dos lecturas, y explica por qué el rebalanceo demasiado frecuente destruye su propio beneficio.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Bandas de tolerancia | Límites de exposición en el marco de apetito | 11, clase 12 |
@@ -338,6 +354,8 @@ como los seis anteriores.
 
 ## 🧪 Práctica
 
+El laboratorio pide rebalancear la misma cartera por calendario y por bandas y comparar costo y resultado. La comparación decide cuál conviene a cada tamaño de cartera.
+
 En `labs/lab-06.md`, sección de rebalanceo:
 
 1. Simula una cartera 60/40 durante 20 años con y sin rebalanceo y compara riesgo y retorno.
@@ -346,6 +364,8 @@ En `labs/lab-06.md`, sección de rebalanceo:
 4. Calcula el costo total de un rebalanceo y evalúa tres alternativas de menor costo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras que se desviaron o que se operaron de más. Las causas son bandas mal diseñadas o revisiones de política disfrazadas de rebalanceo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

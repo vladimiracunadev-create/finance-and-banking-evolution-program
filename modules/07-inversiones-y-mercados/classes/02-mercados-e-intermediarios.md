@@ -21,6 +21,8 @@ Comprender la infraestructura por la que circula el dinero de las inversiones: q
 intermedia, dónde se transa, quién custodia y quién supervisa. Saber dónde está tu dinero en cada
 momento y qué protección tiene es la diferencia entre una inversión y una apuesta.
 
+El perfil de la clase anterior dice qué se puede hacer. Esta dice a través de quién, y su punto crítico es dónde queda el dinero: la protección del inversionista depende mucho más de cómo están custodiados los activos que del instrumento que se compre.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la estructura del mercado y sus actores; los tres últimos, la infraestructura que protege. La **segregación de activos** es lo que decide qué pasa si el intermediario quiebra, y es la comprobación que hay que hacer antes de abrir cualquier cuenta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `mercado primario` | Emisión: el dinero va al emisor. Solo ocurre una vez por instrumento. |
@@ -84,6 +88,8 @@ ante su quiebra es sustancialmente menor.
 
 ### 1. Primario y secundario
 
+El mismo instrumento se compra de dos formas distintas y con consecuencias distintas. La tabla las separa.
+
 | | Mercado primario | Mercado secundario |
 |---|---|---|
 | Qué ocurre | Emisión de instrumentos nuevos | Transacción de instrumentos existentes |
@@ -96,6 +102,8 @@ El mercado secundario **no financia a las empresas** y es indispensable para que
 nadie compraría una emisión si no pudiera venderla después. Esa es su función económica.
 
 ### 2. Los actores
+
+Entre el inversionista y el instrumento hay varios intermediarios con funciones distintas. La tabla los recoge.
 
 | Actor | Función | Qué NO hace |
 |---|---|---|
@@ -115,6 +123,8 @@ mercado** y **una clasificación AAA no significa que el instrumento sea una bue
 actual**.
 
 ### 3. El ciclo de una orden
+
+Una orden recorre varias etapas antes de quedar liquidada, y saberlo explica plazos y bloqueos. El esquema siguiente lo recorre.
 
 ```text
 T+0  10:31  envías la orden (compra de 500 acciones a precio de mercado)
@@ -140,6 +150,8 @@ Puntos que importan:
 
 ### 4. Dónde está tu protección
 
+La protección viene de varias fuentes y ninguna cubre todo. La tabla las separa con su alcance.
+
 | Eslabón | Riesgo | Protección |
 |---|---|---|
 | Intermediario | Quiebra, fraude, error operacional | Segregación de activos; fondos de garantía acotados |
@@ -154,6 +166,8 @@ contra pérdidas de inversión**. Un inversionista protegido por toda la cadena 
 su dinero si el emisor no paga o si el precio cae.
 
 ### 5. Verificar un intermediario
+
+Antes de entregar dinero hay comprobaciones concretas y rápidas. Los pasos siguientes son esas comprobaciones.
 
 ```text
 1. ¿está inscrito en el registro del supervisor de valores? (sitio oficial)
@@ -266,6 +280,8 @@ existe. Ese es el aporte de conocer la infraestructura.
 
 ## 🏦 Del cliente al banco
 
+El cliente opera y el banco ejecuta, custodia y liquida. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Segregación de activos | Obligación del intermediario | 12, clase 12 |
@@ -276,6 +292,8 @@ existe. Ese es el aporte de conocer la infraestructura.
 
 ## 🧪 Práctica
 
+El laboratorio pide verificar intermediarios reales y determinar dónde quedaría cada activo. La verificación de la custodia es la parte que decide.
+
 En `labs/lab-01.md`, sección de infraestructura:
 
 1. Mapea la cadena completa de una inversión tuya, nombrando cada actor.
@@ -284,6 +302,8 @@ En `labs/lab-01.md`, sección de infraestructura:
 4. Calcula el costo total a 10 años de tres alternativas de acceso al mercado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas que aparecen cuando el intermediario falla. Las causas están casi siempre en la custodia y no en el instrumento.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Analizar el vehículo que ha transformado la industria de inversión: fondos que
 transan como una acción. Su ventaja de costo es real y verificable, y tienen riesgos propios —de
 réplica, de liquidez y de estructura— que conviene entender antes de usarlos.
 
+El fondo de la clase anterior se compra y se rescata con el emisor. Este se negocia en bolsa como una acción, y de ahí salen sus ventajas y sus riesgos propios: puede cotizar por encima o por debajo de lo que valen sus activos, y su forma de replicar el índice introduce riesgos que no son evidentes.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el vehículo y su mecánica de precio; los cuatro siguientes, sus formas de réplica y sus riesgos. La **réplica sintética** es la que hay que saber reconocer: replica el índice mediante un contrato con una contraparte, y eso añade un riesgo que la réplica física no tiene.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ETF` | Fondo que cotiza en bolsa y se transa como una acción durante la sesión. |
@@ -83,6 +87,8 @@ de estrés.
 
 ### 1. Comparación de vehículos
 
+El ETF se entiende mejor comparado con el fondo mutuo y con la compra directa. La tabla los enfrenta.
+
 | Característica | Fondo mutuo tradicional | Fondo mutuo indexado | ETF |
 |---|---|---|---|
 | Gestión | Activa | Pasiva | Habitualmente pasiva |
@@ -104,6 +110,8 @@ costo de transacción anual = 42 000 = 3,5 % del aporte anual
 
 ### 2. Creación y rescate
 
+El mecanismo que mantiene el precio cerca del valor de los activos es institucional y conviene conocerlo, porque explica cuándo deja de funcionar. El esquema lo recorre.
+
 ```text
 si el ETF cotiza SOBRE su valor liquidativo (prima):
   un participante autorizado compra los activos del índice
@@ -122,6 +130,8 @@ el mercado subyacente sea líquido. Cuando no lo es —bonos corporativos en est
 cerrados— **las primas y descuentos pueden ser significativos y persistentes**.
 
 ### 3. Las siete variables para evaluar un ETF
+
+Siete datos deciden si un ETF sirve, y la comisión es solo uno de ellos. La tabla los recoge.
 
 ```text
 1. índice replicado          ¿qué mide exactamente? ¿ponderado por capitalización, igual, por factor?
@@ -200,6 +210,8 @@ durante episodios de tensión de mercado
 
 ### 5. Costo total de propiedad
 
+El costo real de un ETF suma comisión, error de seguimiento, horquilla y costos de operación. El cálculo siguiente lo obtiene.
+
 ```text
 costo total = comisión de administración
             + error de seguimiento
@@ -224,6 +236,8 @@ inversión de 12 000 000, tenencia de 7 años, ETF C:
 ETF. Para inversión internacional desde una moneda local, ese costo debe incluirse siempre.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara dos ETF sobre el mismo índice con las siete variables. La conclusión suele depender del error de seguimiento y no de la comisión.
 
 **Situación.** Una persona quiere construir una cartera global de 30 000 000 con aportes mensuales de
 350 000 y evalúa tres vías de implementación.
@@ -321,6 +335,8 @@ permite tomarla con información en lugar de por comodidad.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un ETF y el banco lo intermedia y a veces también lo emite. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Creación y rescate | Rol del banco como participante autorizado | 8, clase 2 |
@@ -331,6 +347,8 @@ permite tomarla con información en lugar de por comodidad.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar tres ETF sobre el mismo índice y calcular su costo total de propiedad. El orden por comisión y el orden por costo total no coinciden.
+
 En `labs/lab-03.md`, sección de ETF:
 
 1. Evalúa tres ETF del mismo índice con las siete variables.
@@ -339,6 +357,8 @@ En `labs/lab-03.md`, sección de ETF:
 4. Compara tres vías de implementación de una cartera global con aportes periódicos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen ETF que no siguieron a su índice. Las causas son el error de seguimiento y las primas o descuentos en momentos de tensión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

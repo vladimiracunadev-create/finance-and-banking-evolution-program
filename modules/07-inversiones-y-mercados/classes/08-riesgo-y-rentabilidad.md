@@ -21,6 +21,8 @@ Formalizar la relación que gobierna toda decisión de inversión: **mayor renta
 mayor riesgo**, y no al revés. Esta clase enseña a medir el riesgo, a distinguir el que se remunera
 del que no, y a evaluar cualquier inversión ajustando por el riesgo asumido.
 
+Las cinco clases anteriores describieron instrumentos. Esta introduce la medida que permite compararlos entre sí, y la separación que ordena toda la teoría de carteras: hay riesgo que se puede eliminar diversificando y riesgo que no, y solo el segundo se remunera.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -54,6 +56,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los dos primeros términos miden el riesgo total; los cinco siguientes lo descomponen y lo relacionan con la rentabilidad. La distinción entre riesgo **sistemático y específico** es la que justifica diversificar: asumir riesgo específico no aumenta la rentabilidad esperada, solo la incertidumbre.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -128,6 +132,8 @@ estándar penaliza igual una sorpresa positiva que una negativa.
 
 ### 2. Sistemático y específico
 
+El riesgo total de un activo se descompone en dos partes con tratamientos opuestos. El esquema las separa.
+
 ```text
 riesgo total = riesgo sistemático + riesgo específico
 ```
@@ -153,6 +159,8 @@ el piso de 18,5 % es el RIESGO SISTEMÁTICO: no se puede eliminar
 ```
 
 ### 3. Beta
+
+La beta mide cuánto se mueve un activo respecto del mercado, y es la medida del riesgo sistemático. El procedimiento siguiente la calcula e indica cómo leerla.
 
 ```text
 β = covarianza(activo, mercado) / varianza(mercado)
@@ -194,6 +202,8 @@ E(r) = 4,0 + 1,4 × 5,5 = 11,7 %
 
 ### 4. Medidas ajustadas por riesgo
 
+Comparar rentabilidades sin ajustar por riesgo no dice nada. La tabla recoge las medidas ajustadas y qué compara cada una.
+
 ```text
 Sharpe    = (r − r_f)/σ                     retorno por unidad de riesgo TOTAL
 Treynor   = (r − r_f)/β                     retorno por unidad de riesgo SISTEMÁTICO
@@ -222,6 +232,8 @@ se explica por haber asumido más riesgo, no por habilidad.
 
 ### 5. Límites de la desviación estándar
 
+La desviación estándar es la medida más usada y tiene supuestos que los mercados no cumplen. La tabla recoge sus límites.
+
 ```text
 · supone distribución simétrica: los retornos financieros no lo son
 · penaliza igual las sorpresas positivas y las negativas
@@ -244,6 +256,8 @@ Consecuencia práctica: **las medidas basadas en desviación estándar subestima
 extremas**. Complementarlas con caída máxima y con pruebas de estrés es obligatorio.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la beta y el ratio de Sharpe de dos activos y los ordena. El orden por rentabilidad y el orden ajustado por riesgo son distintos, y ese es el punto.
 
 **Situación.** Un comité evalúa tres gestores externos con cinco años de historia.
 
@@ -355,6 +369,8 @@ que impide que la decisión se justifique después como "elegimos al mejor gesto
 
 ## 🏦 Del cliente al banco
 
+El cliente mira rentabilidad y el banco mide riesgo ajustado y consumo de capital. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Riesgo sistemático | Base del capital económico | 11, clase 3 |
@@ -365,6 +381,8 @@ que impide que la decisión se justifique después como "elegimos al mejor gesto
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular medidas de riesgo sobre series sintéticas y ordenar activos. El ejercicio incluye un activo con alta rentabilidad y peor Sharpe.
+
 En `labs/lab-04.md`, sección de riesgo:
 
 1. Calcula desviación estándar, caída máxima y semidesviación de tres series reales.
@@ -373,6 +391,8 @@ En `labs/lab-04.md`, sección de riesgo:
 4. Evalúa la significancia estadística del alfa de un gestor.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen comparaciones que ignoran el riesgo. Las causas son la desviación usada sin sus límites y rentabilidades comparadas sin ajustar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

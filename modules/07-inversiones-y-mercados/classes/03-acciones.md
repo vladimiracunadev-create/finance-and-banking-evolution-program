@@ -21,6 +21,8 @@ Entender qué se compra al comprar una acción —una participación en la propi
 sus derechos y su riesgo residual— y de dónde proviene su rentabilidad. Esta clase separa el análisis
 del instrumento del análisis del precio, que son dos preguntas distintas y frecuentemente confundidas.
 
+Con el mercado ya situado, las cinco clases siguientes recorren los instrumentos. Esta empieza por el que representa propiedad, y por tanto derecho residual: el accionista cobra el último y por eso asume el mayor riesgo y la mayor rentabilidad esperada. Todo lo demás se deduce de esa posición.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el instrumento y sus fuentes de rentabilidad; los tres últimos, las medidas con las que se compara. El **derecho residual** es lo que define el instrumento: la acción vale lo que quede después de pagar a todos los demás, y por eso su valor es tan sensible.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `acción` | Título de propiedad sobre una fracción del patrimonio de una sociedad. |
@@ -82,6 +86,8 @@ confundirlos es el error más común del inversionista minorista.
 
 ### 1. Derechos y límites del accionista
 
+Ser accionista da derechos concretos y no da otros que se suponen. La tabla los separa.
+
 | Derecho | Contenido | Límite |
 |---|---|---|
 | Económico | Participar en las utilidades vía dividendo | La junta decide si se reparte |
@@ -95,6 +101,8 @@ fisco, acreedores garantizados y acreedores comunes. **En la mayoría de las liq
 nada para el accionista.**
 
 ### 2. Descomponer la rentabilidad
+
+La rentabilidad total de una acción tiene dos componentes con comportamientos distintos. El procedimiento siguiente los separa.
 
 ```text
 rentabilidad total = (D₁ + P₁ − P₀)/P₀ = rendimiento por dividendo + ganancia de capital
@@ -119,6 +127,8 @@ Consecuencia práctica: **comparar índices de precio con índices de rentabilid
 frecuente**, y subestima sistemáticamente el rendimiento de la renta variable.
 
 ### 3. Múltiplos de valoración
+
+Los múltiplos comparan precio con alguna magnitud del negocio, y cada uno tiene su uso y su trampa. La tabla los recoge.
 
 | Múltiplo | Fórmula | Qué mide | Cuándo no sirve |
 |---|---|---|---|
@@ -154,6 +164,8 @@ contra el crecimiento esperado.
 
 ### 4. Analizar la empresa frente a analizar el precio
 
+Una buena empresa y una buena inversión no son lo mismo, y confundirlas es el error más caro de esta clase. El contraste siguiente los separa.
+
 ```text
 ANÁLISIS DE LA EMPRESA
   ¿el negocio es rentable y sostenible?
@@ -182,6 +194,8 @@ valor del crecimiento implícito = 9 800 − 2 548 = 7 252
 
 ### 5. Riesgos específicos
 
+La acción tiene riesgos que no comparte con otros instrumentos. La tabla los recoge.
+
 | Riesgo | Descripción | Mitigación |
 |---|---|---|
 | De mercado | El precio cae por factores generales | Horizonte largo, diversificación |
@@ -196,6 +210,8 @@ El riesgo específico es el único que **se elimina gratis mediante diversificac
 mercado no lo remunera. Es el resultado central de la clase 9.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo descompone la rentabilidad de una acción y calcula sus múltiplos. Conviene comparar el múltiplo con el del sector: aislado no significa nada.
 
 **Situación.** Una inversionista analiza dos acciones del mismo sector para incorporar a su cartera.
 
@@ -306,6 +322,8 @@ Esa es la diferencia entre comparar precios y analizar empresas.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra acciones y el banco intermedia y evalúa idoneidad. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Análisis fundamental | Área de estudios de la corredora | 8, clase 11 |
@@ -316,6 +334,8 @@ Esa es la diferencia entre comparar precios y analizar empresas.
 
 ## 🧪 Práctica
 
+El laboratorio pide descomponer rentabilidades y comparar múltiplos entre empresas del mismo sector. La comparación es lo único que hace informativo un múltiplo.
+
 En `labs/lab-02.md`:
 
 1. Calcula los cinco múltiplos de tres empresas del mismo sector con datos reales.
@@ -324,6 +344,8 @@ En `labs/lab-02.md`:
 4. Investiga por qué una empresa cotiza con descuento respecto de su sector.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones basadas en múltiplos mal usados. La causa suele ser comparar entre sectores distintos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ llegar a una conclusión defendible sobre si su precio es razonable. Esta clase 
 completo, desde el negocio hasta el rango de valor, con las verificaciones que hacen el resultado
 auditable.
 
+La cartera de la clase anterior necesita instrumentos concretos. Esta explica cómo se analiza una empresa para decidir si su precio tiene sentido, y aplica directamente la Parte 5: sin saber leer estados financieros, el análisis fundamental es imposible.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el método y lo que busca; los tres siguientes, el resultado y su honestidad. El **rango de valor** es la forma correcta de presentar una valoración: una cifra única comunica una precisión que ningún modelo tiene.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `análisis fundamental` | Estimación del valor de una empresa a partir de su capacidad de generar caja. |
@@ -81,6 +85,8 @@ y por qué "crecimiento" no es sinónimo de "buena inversión".
 ## 📖 Desarrollo
 
 ### 1. Las cinco capas del proceso
+
+El análisis va de lo general a lo particular en cinco capas, y saltarse una produce conclusiones frágiles. La tabla las recoge.
 
 ```text
 1. NEGOCIO       ¿qué hace, cómo gana dinero, quién es su cliente?
@@ -124,6 +130,8 @@ si el ROIC converge al WACC en pocos años → la ventaja no era sostenible
 ```
 
 ### 3. Análisis financiero orientado a la valoración
+
+El análisis de estados financieros para valorar mira cosas distintas del análisis para dar crédito. La tabla las separa.
 
 ```text
 ROIC = NOPAT / capital invertido
@@ -194,6 +202,8 @@ tiene un error.
 
 ### 5. Límites del análisis y del analista
 
+El análisis fundamental tiene límites conocidos, y el analista también. La tabla los recoge, y la segunda columna es la más incómoda.
+
 ```text
 LÍMITES DEL MÉTODO
 · el valor depende de supuestos sobre un futuro incierto
@@ -218,6 +228,8 @@ Contramedidas concretas:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre las cinco capas sobre una empresa y llega a un rango de valor. Conviene fijarse en el margen de seguridad: es lo que separa una valoración de una decisión.
 
 **Situación.** Analiza una empresa de servicios que cotiza a 3 850 por acción.
 
@@ -376,6 +388,8 @@ mal análisis.
 
 ## 🏦 Del cliente al banco
 
+El inversionista valora una empresa y el banco valora su capacidad de pago. La tabla enfrenta las dos lecturas, y explica por qué las conclusiones pueden diferir sobre la misma empresa.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | ROIC vs. WACC | Evaluación de la capacidad de repago de largo plazo | 13, clase 4 |
@@ -386,6 +400,8 @@ mal análisis.
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar una empresa por múltiplos y por flujos y comparar los rangos. Que no coincidan es lo normal, y explicar por qué difieren es el ejercicio.
+
 En `labs/lab-06.md`:
 
 1. Analiza el negocio y la industria de una empresa cotizada con las seis preguntas.
@@ -394,6 +410,8 @@ En `labs/lab-06.md`:
 4. Escribe la tesis contraria y determina qué supone el precio de mercado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen valoraciones que no se sostuvieron. Las causas son proyecciones optimistas y ausencia de margen de seguridad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

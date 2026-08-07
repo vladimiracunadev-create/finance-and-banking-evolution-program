@@ -22,6 +22,8 @@ capacidad predictiva— con el mismo rigor con que se examina cualquier otro mé
 promueve ni descarta el enfoque: entrega los elementos para evaluarlo y para reconocer cuándo se usa
 como sustituto del análisis.
 
+Esta clase trata un tema donde la evidencia y la práctica no coinciden, y por eso se presenta de forma crítica. No se enseña a operar con él: se enseña qué afirma, qué dice la evidencia sobre esas afirmaciones y por qué la mayoría de los resultados publicados no sobreviven a un análisis riguroso.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son el método y su relación con la teoría de eficiencia; los cuatro siguientes, sus herramientas y los sesgos metodológicos que las invalidan. El **sobreajuste** es el problema central: con suficientes reglas probadas sobre los mismos datos, alguna siempre parece funcionar.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -134,6 +138,8 @@ que uno con volumen bajo
 ```
 
 ### 3. Qué dice la evidencia
+
+La evidencia académica sobre el análisis técnico es abundante y bastante consistente. La tabla la resume con sus matices, incluido el caso del momentum.
 
 | Afirmación | Estado de la evidencia |
 |---|---|
@@ -215,6 +221,8 @@ Uso **no** defendible:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica una regla técnica a una serie y luego la somete a la comprobación fuera de muestra. La diferencia entre los dos resultados es la lección de la clase.
 
 **Situación.** Alguien propone una estrategia: comprar cuando la media móvil de 50 días cruza sobre la
 de 200, vender en el cruce inverso. Muestra un retorno histórico de 14,2 % anual contra 9,8 % del
@@ -316,6 +324,8 @@ después de las siete verificaciones.
 
 ## 🏦 Del cliente al banco
 
+El cliente opera con señales y el banco cobra comisión por cada operación. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Ejecución de órdenes grandes | Mesa de negociación y microestructura | 8, clase 2 |
@@ -326,6 +336,8 @@ después de las siete verificaciones.
 
 ## 🧪 Práctica
 
+El laboratorio pide probar una regla técnica dentro y fuera de muestra. El deterioro del resultado fuera de muestra es sistemático y es lo que el ejercicio demuestra.
+
 En `labs/lab-06.md`, sección de análisis técnico:
 
 1. Calcula medias móviles y RSI de una serie real y grafica las señales.
@@ -334,6 +346,8 @@ En `labs/lab-06.md`, sección de análisis técnico:
 4. Aplica las siete verificaciones de honestidad a una estrategia publicada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen estrategias que funcionaban en el pasado y no en el futuro. Las causas son el sobreajuste y el sesgo de anticipación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

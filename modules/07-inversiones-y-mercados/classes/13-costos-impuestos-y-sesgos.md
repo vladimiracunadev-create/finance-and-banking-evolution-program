@@ -22,6 +22,8 @@ inversionista efectivamente obtiene. Los costos y los impuestos son ciertos y ca
 de conducta son el mayor de los tres y el menos medido. Esta clase los mide y entrega contramedidas
 concretas.
 
+Las clases anteriores buscan rentabilidad. Esta se ocupa de lo que se la lleva, y su hallazgo es que las tres causas principales no son de mercado: son costos, impuestos y comportamiento propio. Los tres se pueden reducir con decisiones concretas y ninguno depende de acertar con el instrumento.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son las clases de costo; los cuatro siguientes, el efecto del comportamiento y su corrección. La **brecha del inversionista** es la cifra que resume el problema: la diferencia entre lo que rindió un fondo y lo que ganaron sus partícipes, causada por entrar y salir en los peores momentos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `costo explícito` | Comisión de administración, corretaje, custodia. Aparece en documentos. |
@@ -83,6 +87,8 @@ horizonte, y la tercera con **reglas mecánicas**, no con fuerza de voluntad.
 ## 📖 Desarrollo
 
 ### 1. Inventario completo de costos
+
+Los costos visibles son una parte pequeña del total. La tabla recoge el inventario completo.
 
 | Costo | Tipo | Magnitud típica anual | Dónde aparece |
 |---|---|---:|---|
@@ -143,6 +149,8 @@ Otras consideraciones tributarias con efecto material:
 
 ### 3. La brecha del inversionista
 
+La brecha se mide y es persistente entre mercados y periodos. El procedimiento siguiente la calcula.
+
 ```text
 brecha = rendimiento del fondo − rendimiento del inversionista promedio en ese fondo
 ```
@@ -167,6 +175,8 @@ puntos porcentuales anuales según el periodo, el tipo de fondo y la metodologí
 cualitativa es robusta aunque la magnitud se discuta:** la conducta reduce el rendimiento efectivo.
 
 ### 4. Los sesgos que más cuestan
+
+Los sesgos que más dinero cuestan están identificados y cuantificados. La tabla los recoge con su contramedida mecánica.
 
 | Sesgo | Descripción | Costo estimado |
 |---|---|---|
@@ -214,6 +224,8 @@ la contramedida más potente y más simple:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el costo total de una cartera y estima la brecha del inversionista. Conviene sumar las tres fuentes: por separado ninguna parece grande.
 
 **Situación.** Se analiza el historial real de un inversionista durante 10 años.
 
@@ -319,6 +331,8 @@ forma sistemática.
 
 ## 🏦 Del cliente al banco
 
+El cliente busca rentabilidad y el banco genera ingresos por operación y por saldo. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Costos implícitos | Transparencia exigida en la asesoría | 12, clase 4 |
@@ -329,6 +343,8 @@ forma sistemática.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el costo total de propiedad de una cartera a diez años y diseñar contramedidas mecánicas para dos sesgos. Las contramedidas tienen que ser automáticas, no propósitos.
+
 En `labs/lab-06.md`, sección de costos y conducta:
 
 1. Inventaría y cuantifica todos los costos de tu cartera, explícitos e implícitos.
@@ -337,6 +353,8 @@ En `labs/lab-06.md`, sección de costos y conducta:
 4. Diseña una contramedida mecánica para cada uno de los tres sesgos que más te afecten.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras que rinden menos que sus instrumentos. La causa está en los costos y en el comportamiento, no en el mercado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

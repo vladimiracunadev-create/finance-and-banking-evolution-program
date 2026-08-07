@@ -21,6 +21,8 @@ Integrar todo lo anterior en un procedimiento que transforma un perfil y unos ob
 concreta, con instrumentos, pesos, límites y reglas. Esta clase entrega el método completo, desde la
 asignación estratégica hasta la selección de instrumentos y la documentación de la decisión.
 
+Las dos clases anteriores dan las herramientas. Esta las usa para construir, y ordena las decisiones por su importancia real: la asignación estratégica explica la mayor parte del resultado, y la selección de instrumentos —que es donde se pone casi toda la atención— explica bastante menos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tres niveles de decisión; los cuatro siguientes, la teoría y las restricciones que la aterrizan. La **asignación estratégica** es la decisión que más pesa y la que menos tiempo suele recibir.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `asignación estratégica` | Distribución de largo plazo entre clases de activo. Explica la mayor parte de la variación del retorno. |
@@ -81,6 +85,8 @@ resultados que dedicarlo a elegir el mejor fondo o el mejor momento.
 ## 📖 Desarrollo
 
 ### 1. Las tres decisiones
+
+Las tres decisiones se toman en orden y tienen pesos muy distintos en el resultado. La tabla las recoge.
 
 | Decisión | Horizonte | Frecuencia de revisión | Impacto |
 |---|---|---|---|
@@ -169,6 +175,8 @@ Y con enfoques que reducen la dependencia de las estimaciones:
 
 ### 5. Implementación y documentación
 
+Una cartera se implementa por pasos y se documenta, porque en la siguiente caída habrá que recordar por qué se hizo así. El procedimiento siguiente lo estructura.
+
 ```text
 CARTERA CONSTRUIDA — [nombre] — [fecha]
 
@@ -212,6 +220,8 @@ MÉTRICAS ESPERADAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye una cartera desde el perfil de la clase 1 hasta los instrumentos concretos. Conviene seguir el orden: elegir instrumentos antes de fijar la asignación es el error de proceso más frecuente.
 
 **Situación.** Construye la cartera de una persona con estos datos.
 
@@ -333,6 +343,8 @@ habría pasado por alto**. La verificación final con checklist es lo que hace l
 
 ## 🏦 Del cliente al banco
 
+El cliente arma su cartera y el banco propone según su oferta disponible. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Asignación estratégica | Política de inversión institucional | 11, clase 12 |
@@ -343,6 +355,8 @@ habría pasado por alto**. La verificación final con checklist es lo que hace l
 
 ## 🧪 Práctica
 
+El laboratorio pide construir tres carteras para tres perfiles distintos y justificar cada asignación. La justificación por escrito es lo que se evalúa.
+
 En `labs/lab-05.md`, sección de portafolios:
 
 1. Construye la frontera eficiente de tres clases de activo con datos reales.
@@ -351,6 +365,8 @@ En `labs/lab-05.md`, sección de portafolios:
 4. Verifica todas las restricciones con un checklist y documenta los ajustes.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras que no corresponden al perfil. La causa es haber empezado por los instrumentos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

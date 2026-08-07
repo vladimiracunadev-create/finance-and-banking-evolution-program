@@ -21,6 +21,8 @@ Comprender el único mecanismo de la inversión que **reduce el riesgo sin reduc
 y aplicarlo correctamente. La diversificación es más sutil de lo que parece: depende de la
 correlación, no del número de instrumentos, y falla precisamente cuando más se necesita.
 
+La clase anterior estableció que hay riesgo eliminable. Esta muestra cómo se elimina, y con qué límites. Su hallazgo incómodo es que la diversificación funciona menos justo cuando más hace falta: las correlaciones aumentan en las crisis, y una cartera que parecía diversificada deja de estarlo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos miden la relación entre activos; los cinco siguientes, el beneficio que producen y sus límites. La **diversificación aparente** es lo que hay que saber detectar: tener veinte fondos no diversifica si todos siguen al mismo mercado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `correlación (ρ)` | Grado en que dos activos se mueven juntos. Entre −1 y +1. |
@@ -88,6 +92,8 @@ dos activos, cada uno con σ = 20 %, en partes iguales:
 ## 📖 Desarrollo
 
 ### 1. Cartera de dos activos
+
+El caso de dos activos muestra todo el mecanismo con la aritmética mínima. El procedimiento siguiente lo desarrolla.
 
 ```text
 E(r_p) = w₁ E(r₁) + w₂ E(r₂)
@@ -129,6 +135,8 @@ cartera de mínima varianza: 6,76 % en A, 93,24 % en B
 
 ### 2. Cartera de N activos
 
+Al añadir activos, el beneficio de diversificación crece y se agota. El esquema muestra dónde está ese límite.
+
 ```text
 σ_p² = Σ Σ w_i w_j ρ_ij σ_i σ_j
 ```
@@ -153,6 +161,8 @@ Por más instrumentos que se agreguen, **el riesgo no baja de 19,2 %**. Ese piso
 sistemático de la clase 8.
 
 ### 3. Diversificación real y aparente
+
+Contar instrumentos no mide diversificación. La tabla contrasta las dos lecturas y da la medida correcta.
 
 ```text
 DIVERSIFICACIÓN APARENTE
@@ -186,6 +196,8 @@ al mirar sus carteras subyacentes:
 
 ### 4. Correlaciones en crisis
 
+Las correlaciones no son estables: aumentan cuando los mercados caen. La tabla recoge magnitudes observadas y su consecuencia.
+
 ```text
 correlación promedio entre acciones globales:
   periodos normales:  0,35 a 0,50
@@ -213,6 +225,8 @@ con las correlaciones observadas en el peor periodo histórico
 
 ### 5. Dimensiones de diversificación
 
+Se puede diversificar por varias dimensiones y no todas aportan lo mismo. La tabla las recoge.
+
 | Dimensión | Qué diversifica | Cómo verificar |
 |---|---|---|
 | Emisor | Riesgo específico de una empresa | Máximo por emisor |
@@ -228,6 +242,8 @@ una vez** reduce el riesgo de haber entrado en el peor momento, a costa de un re
 levemente menor (porque parte del capital permanece sin invertir).
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el riesgo de una cartera de dos activos a distintas correlaciones. Conviene fijarse en el caso de correlación uno: ahí la diversificación no aporta nada, y es el que se aproxima en una crisis.
 
 **Situación.** Un inversionista con 60 000 000 cree tener una cartera diversificada. Se analiza su
 composición efectiva.
@@ -332,6 +348,8 @@ mirar la exposición efectiva, no el número de líneas del estado de cuenta.
 
 ## 🏦 Del cliente al banco
 
+El cliente diversifica su cartera y el banco diversifica su cartera de créditos. La tabla enfrenta las dos lecturas, y el mecanismo es el mismo.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Correlación de la cartera | Riesgo de concentración de crédito | 11, clase 2 |
@@ -342,6 +360,8 @@ mirar la exposición efectiva, no el número de líneas del estado de cuenta.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la diversificación real de una cartera y recalcularla con correlaciones de crisis. La diferencia entre ambas es lo que hay que saber antes de necesitarlo.
+
 En `labs/lab-05.md`:
 
 1. Calcula el riesgo de una cartera de dos activos para siete correlaciones distintas.
@@ -350,6 +370,8 @@ En `labs/lab-05.md`:
 4. Recalcula el riesgo con correlaciones observadas en un periodo de crisis.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras que cayeron todas juntas. La causa es diversificación aparente o correlaciones estimadas en periodos tranquilos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

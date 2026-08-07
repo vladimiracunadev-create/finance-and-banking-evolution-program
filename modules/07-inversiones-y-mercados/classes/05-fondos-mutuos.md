@@ -22,6 +22,8 @@ variables que más determinan su resultado y que menos se comparan: **la comisi�
 inversión real**. Esta clase enseña a leer un reglamento interno, a calcular el efecto acumulado de
 los costos y a evaluar el desempeño con la referencia correcta.
 
+Los dos instrumentos anteriores se compran directamente. Este los agrupa, y con eso resuelve un problema real de diversificación a cambio de un costo anual. La clase se concentra en ese costo y en su medición correcta, porque es lo que decide el resultado a largo plazo más que la habilidad del gestor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son el vehículo y su costo; los cinco siguientes, cómo se evalúa su desempeño. El **índice de referencia** es la pieza que falta en casi toda evaluación: una rentabilidad sin comparación con su referencia no dice si el gestor aportó algo.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -111,6 +115,8 @@ Dos hallazgos frecuentes al leer:
 
 ### 2. Costo total y su efecto
 
+El costo de un fondo no es solo su remuneración declarada, y su efecto se acumula. El cálculo siguiente lo mide a horizonte largo.
+
 ```text
 costo total anual = remuneración + gastos operacionales + comisión de éxito (si aplica)
 ```
@@ -134,6 +140,8 @@ sobre un aporte total de 92 000 000 → la comisión se llevó más del doble de
 30 años, se lleva el 45 % del patrimonio final.
 
 ### 3. Evaluar el desempeño con la referencia correcta
+
+Evaluar un fondo exige compararlo con la referencia que corresponde a su mandato, y no con la que le conviene. El procedimiento siguiente lo hace.
 
 ```text
 ✗ "el fondo rindió 9,2 % el año pasado" → sin referencia no significa nada
@@ -168,6 +176,8 @@ Fondo Q: rentabilidad 8,9 % · desviación 9,8 %
 
 ### 4. Gestión activa frente a pasiva
 
+El debate se resuelve con evidencia y con costos, no con opiniones. La tabla enfrenta las dos aproximaciones.
+
 ```text
 argumento aritmético (Sharpe, 1991):
   el conjunto de los inversionistas posee el mercado
@@ -198,6 +208,8 @@ Cuándo la gestión activa puede justificarse:
 | Costo activo cercano al pasivo | La barrera es menor |
 
 ### 5. Prácticas que perjudican al partícipe
+
+Hay prácticas legales que reducen el resultado del partícipe. La tabla las recoge con la señal que las delata.
 
 | Práctica | Efecto | Cómo detectarla |
 |---|---|---|
@@ -322,6 +334,8 @@ de desempeño como el perfil de riesgo que la persona creía tener.
 
 ## 🏦 Del cliente al banco
 
+El cliente busca rentabilidad y la administradora cobra sobre el saldo gestionado. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Distribución de fondos | El banco es distribuidor, no gestor | 15, clase 8 |
@@ -332,6 +346,8 @@ de desempeño como el perfil de riesgo que la persona creía tener.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar tres fondos contra su referencia correcta y medir el efecto del costo. El fondo con mejor rentabilidad bruta no siempre es el mejor neto, y ese es el punto.
+
 En `labs/lab-03.md`:
 
 1. Lee el reglamento interno de dos fondos reales y extrae los ocho elementos clave.
@@ -340,6 +356,8 @@ En `labs/lab-03.md`:
 4. Evalúa el desempeño de un fondo contra su índice correcto y ajustado por riesgo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen evaluaciones que llevan a elegir mal. Las causas son la referencia equivocada y el costo total no calculado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

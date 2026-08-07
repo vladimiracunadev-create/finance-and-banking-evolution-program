@@ -22,6 +22,8 @@ Establecer el punto de partida de toda decisión de inversión, que no es "cuán
 sin responder esas tres preguntas produce la conducta que más destruye rentabilidad: vender en la
 caída.
 
+Esta parte cierra la Etapa 2 aplicando todo lo anterior a las decisiones de inversión, y empieza por lo que decide el resto: el perfil. No es un cuestionario comercial. Se compone de tres cosas distintas que suelen confundirse —cuánto riesgo se puede asumir, cuánto se soporta y cuánto hace falta— y que pueden apuntar en direcciones opuestas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son las tres dimensiones del perfil y los tres siguientes, lo que las concreta. La **capacidad de riesgo** es objetiva y se calcula; la tolerancia es psicológica y se descubre en una caída. Cuando difieren, manda la menor de las dos, y esa regla evita la mayoría de los abandonos en el peor momento.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -120,6 +124,8 @@ riesgo innecesario**: aumenta la varianza sin mejorar la probabilidad de cumplir
 
 ### 2. El horizonte manda
 
+El horizonte es la variable que más restringe y la que menos se discute. La tabla relaciona horizontes con lo que es razonable hacer en cada uno.
+
 | Horizonte | Instrumentos apropiados | Caída típica en un mal año |
 |---|---|---:|
 | < 1 año | Liquidez, depósitos cortos | 0 % |
@@ -178,6 +184,8 @@ pérdida máxima 35 % → 78 %
 Esta regla se contrasta con la capacidad y la necesidad, y **manda la menor de las tres**.
 
 ### 5. La política de inversión personal
+
+La política se escribe antes de invertir y se consulta en las caídas, que es cuando hace falta. El formato siguiente es el mínimo que funciona.
 
 ```text
 POLÍTICA DE INVERSIÓN — [nombre] — [fecha]
@@ -308,6 +316,8 @@ peor que una conservadora mantenida.
 
 ## 🏦 Del cliente al banco
 
+El cliente completa un perfil y el banco cumple una obligación de idoneidad. La tabla enfrenta las dos lecturas, y esa segunda columna es una exigencia regulatoria que se desarrolla en la Parte 12.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Perfilamiento | Obligación regulatoria de idoneidad | 12, clase 4 |
@@ -318,6 +328,8 @@ peor que una conservadora mantenida.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir la política de inversión propia con las tres dimensiones separadas. El ejercicio revela con frecuencia que la capacidad y la tolerancia no coinciden, que es justamente lo que hay que saber antes de invertir.
+
 En `labs/lab-01.md`:
 
 1. Evalúa tu capacidad con los siete factores objetivos.
@@ -326,6 +338,8 @@ En `labs/lab-01.md`:
 4. Redacta tu política de inversión personal completa y fírmala.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber definido el perfil por una sola de las tres dimensiones.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

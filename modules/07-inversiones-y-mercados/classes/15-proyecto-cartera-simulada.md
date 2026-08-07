@@ -21,6 +21,8 @@ Construir, documentar y operar una cartera simulada durante un periodo definido,
 disciplina que exigiría una cartera real. El objetivo no es acertar el rendimiento: es **demostrar que
 se puede construir, sostener y explicar una decisión de inversión** bajo reglas escritas.
 
+Esta clase cierra la parte y la Etapa 2. Construye una cartera completa con datos sintéticos y la sigue durante un periodo, con una exigencia que no ha aparecido antes: llevar bitácora de las decisiones para poder distinguir después la suerte del criterio.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el entregable y su registro; los dos últimos, cómo se evalúa. El **error de proceso** es lo que de verdad se evalúa: una decisión mal tomada que salió bien sigue siendo un error, y solo la bitácora permite verlo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cartera simulada` | Cartera con datos reales de mercado y sin dinero real. Todas las reglas se aplican igual. |
@@ -79,6 +83,8 @@ política y pierde obtiene mejor evaluación que uno que la incumple y gana.
 ## 📖 Desarrollo
 
 ### 1. Estructura del proyecto
+
+El proyecto tiene cuatro fases y cada una produce un entregable. La tabla las recoge.
 
 ```text
 FASE 1 — Política (semana 1)
@@ -118,6 +124,8 @@ Debe contener, como mínimo:
 ```
 
 ### 3. Construcción (Fase 2)
+
+La construcción sigue el orden de la clase 10 y se documenta a medida que se hace. Los pasos siguientes la recorren.
 
 ```text
 capital simulado: 50 000 000
@@ -162,6 +170,8 @@ decisión sin regla aplicable es un error de proceso.
 
 ### 5. Evaluación (Fase 4)
 
+La evaluación separa el resultado del proceso, que es lo que la hace útil. La tabla recoge los criterios.
+
 ```text
 RESULTADO
   valor inicial            50 000 000
@@ -194,6 +204,8 @@ ERRORES DE PROCESO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre las cuatro fases sobre una cartera concreta. Conviene fijarse en la fase de evaluación: es la que distingue este proyecto de una simulación de resultados.
 
 **Situación de defensa.** Presentas el proyecto y el evaluador formula cuatro preguntas.
 
@@ -280,6 +292,8 @@ resultado**. La cuarta respuesta —no cambiar la asignación— es la más dif�
 
 ## 🏦 Del cliente al banco
 
+El inversionista evalúa su resultado y el banco evalúa el proceso de sus gestores. La tabla enfrenta las dos lecturas.
+
 | Elemento del proyecto | Equivalente profesional | Parte |
 |---|---|---|
 | Política de inversión | Mandato de gestión institucional | 15, clase 12 |
@@ -298,6 +312,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Evalúa el resultado con atribución, identifica errores de proceso y prepara la defensa.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la evaluación final. Casi todos vienen de no haber llevado bitácora, que es lo que impide distinguir criterio de suerte.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

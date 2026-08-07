@@ -22,6 +22,8 @@ principal del balance de un banco. Un bono es un préstamo negociable, y entende
 precios —por qué sube cuando las tasas bajan y en qué magnitud— es indispensable para gestionar
 cualquier cartera o balance.
 
+La acción de la clase anterior es propiedad. El bono es deuda, y por eso su análisis es el de la Parte 7: un bono es una serie de flujos conocidos, y su precio es el valor presente de esa serie. Lo que añade esta clase es la relación inversa entre precio y tasa, que es la base de la gestión de carteras de renta fija.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la estructura del instrumento; los cuatro siguientes, cómo se valora y cómo se mide su riesgo de crédito. El **rendimiento al vencimiento** es la TIR de la clase 9 de la Parte 7 aplicada al bono, y es la cifra que permite compararlos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor nominal` | Monto que se paga al vencimiento. Base del cálculo del cupón. |
@@ -84,6 +88,8 @@ su precio cae hasta que su rendimiento efectivo sea 7 %.
 ## 📖 Desarrollo
 
 ### 1. Elementos de un bono
+
+Un bono se describe con pocos elementos y todos importan para el precio. La tabla los recoge.
 
 ```text
 FICHA DE EMISIÓN
@@ -114,6 +120,8 @@ La opción de rescate merece atención: **el emisor la ejerce cuando le conviene
 tasas bajaron y el tenedor querría mantener el bono. Esa asimetría se compensa con un cupón mayor.
 
 ### 2. Precio y rendimiento
+
+Precio y rendimiento se mueven en direcciones opuestas, y esa relación es la clave de toda la renta fija. El esquema la muestra.
 
 ```text
 P = Σ (C/(1+y)^t) + VN/(1+y)^n
@@ -200,6 +208,8 @@ spreads pueden multiplicarse por tres o cuatro sin que cambie la calidad del emi
 
 ### 5. Riesgos de un bono
 
+Un bono tiene varios riesgos además del de impago, y algunos son mayores. La tabla los recoge.
+
 | Riesgo | Descripción | Medición |
 |---|---|---|
 | De tasa | El precio cae si las tasas suben | Duración y convexidad |
@@ -215,6 +225,8 @@ caída de precio no se materializa**. El riesgo de tasa afecta a quien debe vend
 valora su cartera a mercado, como un banco.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo valora un bono y calcula su rendimiento al vencimiento. Conviene comprobar el signo de la relación precio-tasa: si el precio sube cuando la tasa sube, hay un error.
 
 **Situación.** Un inversionista compara tres bonos para un objetivo a 6 años.
 
@@ -322,6 +334,8 @@ pregunta viene de la clase 1, no del análisis del instrumento.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un bono y el banco lo valora a mercado en su balance. La tabla enfrenta las dos lecturas, y explica por qué un alza de tasas produce pérdidas contables sin que nadie haya vendido nada.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Duración de la cartera de bonos | Riesgo de tasa del banco | 11, clase 5 |
@@ -332,6 +346,8 @@ pregunta viene de la clase 1, no del análisis del instrumento.
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar bonos a distintas tasas y medir el efecto sobre el precio. La sensibilidad crece con el plazo, y comprobarlo prepara la duración de la Parte 7.
+
 En `labs/lab-02.md`, sección de renta fija:
 
 1. Calcula el precio de cinco bonos a partir de su rendimiento y verifica en sentido inverso.
@@ -340,6 +356,8 @@ En `labs/lab-02.md`, sección de renta fija:
 4. Compara rendimiento al vencimiento y al rescate de un bono con opción.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas inesperadas en renta fija. La causa habitual es haber supuesto que un bono no puede perder valor si no hay impago.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
