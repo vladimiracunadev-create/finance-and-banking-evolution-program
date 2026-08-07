@@ -21,6 +21,8 @@ Comprender el ecosistema de pagos desde la perspectiva del banco: qué medios ex
 monetizan, qué riesgos generan y cómo compiten entre sí. El negocio de pagos es de alto volumen y
 bajo margen unitario, y su rentabilidad depende de escala y de eficiencia operativa.
 
+Las clases anteriores tratan operaciones concretas. Esta las mira como un mercado: qué medios existen, cuánto cuesta cada uno y por qué el que gana no siempre es el más barato. Es la clase que explica la economía de los pagos, que es la base de la Parte 18 y de buena parte de la Parte 14.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la estructura de costos del sistema; los cuatro siguientes, sus características técnicas y comerciales. La **tasa de intercambio** es la pieza que explica el modelo de negocio de las tarjetas y por qué su precio se regula en tantos países.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `medio de pago` | Instrumento que permite transferir valor entre partes. |
@@ -83,6 +87,8 @@ es un intercambio, no una jerarquía.**
 ## 📖 Desarrollo
 
 ### 1. Panorama de medios
+
+Los medios de pago se comparan por costo, velocidad, alcance y reversibilidad. La tabla los enfrenta.
 
 | Medio | Costo comercio | Velocidad | Protección al pagador | Uso típico |
 |---|---|---|---|---|
@@ -126,6 +132,8 @@ el negocio NO está en la comisión: está en
 
 ### 3. Competencia entre medios
 
+Los medios compiten en dimensiones distintas y la elección del comercio no es la del cliente. La tabla recoge esa tensión.
+
 ```text
 tendencias documentadas en la mayoría de los mercados:
   · el efectivo pierde participación de forma sostenida
@@ -152,6 +160,8 @@ inmediato compite, la tarjeta debe apoyarse en su componente de financiamiento y
 
 ### 4. Riesgos por medio
 
+Cada medio tiene su perfil de riesgo y su forma de fraude característica. La tabla los recoge.
+
 | Medio | Riesgo principal | Control |
 |---|---|---|
 | Efectivo | Robo, falsificación | Seguridad física, detectores |
@@ -168,6 +178,8 @@ atractivos para el fraude por ingeniería social. La víctima autoriza el pago y
 irrecuperable en segundos.
 
 ### 5. Estrategia por segmento
+
+El medio que conviene depende del segmento y del tipo de operación. La tabla los relaciona.
 
 ```text
 PERSONAS DE CONSUMO COTIDIANO
@@ -337,6 +349,8 @@ pérdida de la relación con el cliente.
 
 ## 🏦 Del cliente al banco
 
+El cliente elige cómo pagar y el banco gana o pierde según el medio elegido. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Pago inmediato gratuito | Menor ingreso, menor costo, mismo fondeo | 14, clase 5 |
@@ -347,6 +361,8 @@ pérdida de la relación con el cliente.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el costo por transacción de varios medios y recomendar por segmento. El medio más barato para el banco y el preferido por el cliente rara vez coinciden.
+
 En `labs/lab-05.md`:
 
 1. Compara ocho medios de pago en las cuatro dimensiones.
@@ -355,6 +371,8 @@ En `labs/lab-05.md`:
 4. Diseña la estrategia de medios de pago para dos segmentos distintos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen estrategias de medios de pago que pierden dinero. Las causas son costos por transacción mal calculados y efectos de red ignorados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

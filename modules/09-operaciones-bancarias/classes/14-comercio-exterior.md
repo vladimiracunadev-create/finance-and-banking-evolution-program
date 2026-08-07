@@ -22,6 +22,8 @@ y el importador no quiere pagar sin recibir**. Los instrumentos de comercio exte
 documentario, cobranza, garantías— existen para reemplazar la confianza que las partes no tienen por
 la confianza que sí tienen en sus bancos.
 
+Los pagos de la clase anterior suponen que las partes confían entre sí. Esta clase trata el caso en que no, que es el habitual en el comercio internacional: comprador y vendedor están en países distintos, no se conocen y ninguno quiere entregar primero. Los instrumentos de esta clase existen para resolver exactamente eso.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son los instrumentos; los cinco siguientes, su mecánica documental y el reparto del riesgo. Los **documentos conformes** son el concepto central: el banco paga contra documentos que cumplen exactamente lo pactado, no contra la mercadería, y esa abstracción es lo que hace funcionar el instrumento.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -90,6 +94,8 @@ importador**. El instrumento elegido revela la relación de fuerzas entre las pa
 
 ### 1. El problema y su solución
 
+El problema de confianza en el comercio internacional tiene una estructura conocida y una solución bancaria clásica. El esquema los plantea.
+
 ```text
 EL PROBLEMA
   exportador en un país, importador en otro
@@ -111,6 +117,8 @@ los documentos están conformes, el banco paga aunque la mercancía sea defectuo
 discrepancia, el banco puede no pagar aunque la mercancía sea perfecta.
 
 ### 2. Crédito documentario
+
+El crédito documentario sustituye la confianza en el comprador por la de un banco. El esquema recorre su mecánica.
 
 ```text
 FLUJO
@@ -142,6 +150,8 @@ origen, lista de empaque, certificados sanitarios o de calidad.
 
 ### 3. Discrepancias
 
+La mayoría de los créditos documentarios se presentan con discrepancias, y su tratamiento decide si se cobra. La tabla las recoge.
+
 ```text
 CAUSAS MÁS FRECUENTES (los estudios de la CCI las repiten año tras año)
   · documentos presentados fuera de plazo
@@ -169,6 +179,8 @@ puede usar la discrepancia para renegociar el precio
 
 ### 4. Cobranza documentaria y garantías
 
+Hay instrumentos más baratos y con menos protección, y conviene saber cuándo bastan. La tabla los compara.
+
 | | Cobranza documentaria | Crédito documentario | Garantía |
 |---|---|---|---|
 | ¿El banco se obliga a pagar? | No | Sí | Sí, si se reclama |
@@ -191,6 +203,8 @@ con requisitos formales estrictos en el texto.
 
 ### 5. Incoterms y punto de riesgo
 
+El Incoterm decide en qué punto del trayecto cambia el riesgo de manos, y con él el seguro y el costo. La tabla los recoge.
+
 ```text
 EXW ──── FCA ── FAS ── FOB ──── CFR ── CIF ──── CPT ── CIP ──── DAP ── DPU ── DDP
 menos obligación del vendedor ─────────────────────────────► más obligación
@@ -212,6 +226,8 @@ documentos.
 
 ### 6. Exposición del banco
 
+El banco que confirma o emite asume una exposición que consume capital. La tabla la describe.
+
 ```text
 CRÉDITO DOCUMENTARIO EMITIDO
   es un compromiso contingente: no está en el activo, pero obliga
@@ -229,6 +245,8 @@ FINANCIAMIENTO DE COMERCIO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo tramita un crédito documentario con una discrepancia. Conviene fijarse en la discrepancia: es menor y bastaría para no pagar, y esa es toda la lección del instrumento.
 
 **Situación.** Un banco recibe la solicitud de emitir un crédito documentario.
 
@@ -338,6 +356,8 @@ y capital, no un servicio operativo.
 
 ## 🏦 Del cliente al banco
 
+El exportador quiere cobrar y el banco asume una obligación contra documentos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Necesito una carta de crédito» | Solicitud de crédito con consumo de línea | 9, clase 5 |
@@ -348,6 +368,8 @@ y capital, no un servicio operativo.
 
 ## 🧪 Práctica
 
+El laboratorio pide revisar un juego de documentos y decidir si son conformes. Dos discrepancias son sustanciales y una es discutible.
+
 En `labs/lab-06.md`, sección de comercio exterior:
 
 1. Ordena cinco medios de pago según riesgo para exportador e importador.
@@ -356,6 +378,8 @@ En `labs/lab-06.md`, sección de comercio exterior:
 4. Elige el Incoterm adecuado para tres operaciones y justifica el punto de riesgo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen créditos documentarios que no se cobraron. La causa es siempre documental.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

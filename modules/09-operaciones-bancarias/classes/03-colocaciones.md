@@ -21,6 +21,8 @@ Gestionar el activo principal de un banco desde la perspectiva operativa y de ca
 complementa el análisis individual de la Parte 9 con la visión agregada: composición, rentabilidad,
 concentración y crecimiento de la cartera de colocaciones.
 
+La clase anterior explica de dónde sale el dinero. Esta, dónde se pone, y desde una perspectiva distinta a la de la Parte 9: no la de un crédito sino la de toda la cartera. A ese nivel aparecen dos cosas que no se ven en el caso individual, que son la concentración y el consumo de capital.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la cartera y su medida de rentabilidad; los cuatro siguientes, la concentración y las herramientas para gestionarla. La **rentabilidad ajustada por riesgo** es la medida que decide dónde crecer: un producto con alto margen que consume mucho capital puede rendir menos que uno de margen menor.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `colocación` | Crédito otorgado. Constituye el activo principal del banco. |
@@ -81,6 +85,8 @@ maximizar el retorno sobre él.
 ## 📖 Desarrollo
 
 ### 1. Composición de la cartera
+
+La cartera se descompone por producto, plazo, moneda y garantía, y cada corte revela algo distinto. La tabla los recoge.
 
 ```text
 por PRODUCTO
@@ -111,6 +117,8 @@ CARTERA DE EJEMPLO (miles de millones)
 ```
 
 ### 2. Rentabilidad ajustada por riesgo
+
+La rentabilidad ajustada compara el resultado con el capital que la operación consume. El procedimiento siguiente la calcula.
 
 ```text
 RAROC = (ingreso − costo de fondos − pérdida esperada − costo operativo) / capital económico
@@ -145,6 +153,8 @@ rentabilidad del cliente hipotecario con productos asociados:
 ```
 
 ### 3. Concentración
+
+La concentración es el riesgo que la diversificación de la Parte 8 debería eliminar y que en una cartera de créditos nunca se elimina del todo. La tabla recoge sus dimensiones y sus límites.
 
 ```text
 LÍMITES HABITUALES
@@ -183,6 +193,8 @@ ciclo y con el hipotecario. La correlación entre exposiciones es lo que la suma
 
 ### 4. Crecimiento y calidad
 
+El crecimiento rápido de una cartera anticipa deterioro con un rezago conocido. La tabla recoge la relación observada.
+
 ```text
 el crecimiento de la cartera se analiza junto con su calidad
 ```
@@ -207,6 +219,8 @@ Esa combinación describe un banco que crece relajando estándares y no reconoce
 patrón de la Parte 9, clase 1, visto desde el agregado.
 
 ### 5. Gestión activa de cartera
+
+Una cartera no solo se origina: se puede vender, cubrir o titularizar. La tabla recoge las herramientas.
 
 ```text
 más allá de originar, un banco puede:
@@ -235,6 +249,8 @@ DECISIÓN DE VENTA DE CARTERA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la rentabilidad ajustada por riesgo de tres productos. El orden por margen y el orden por rentabilidad ajustada no coinciden, y esa es la conclusión.
 
 **Situación.** El comité de activos y pasivos debe decidir la asignación de crecimiento del próximo
 año.
@@ -371,6 +387,8 @@ corte protege contra el patrón de deterioro de la Parte 9, clase 1.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe un crédito y el banco añade una exposición a su cartera con su consumo de capital. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Crédito hipotecario a tasa baja | Producto de baja rentabilidad directa y alta relación | 15, clase 4 |
@@ -381,6 +399,8 @@ corte protege contra el patrón de deterioro de la Parte 9, clase 1.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la concentración de una cartera y calcular la rentabilidad ajustada por producto. La recomendación de dónde crecer es lo que se evalúa.
+
 En `labs/lab-02.md`:
 
 1. Calcula el RAROC de cinco segmentos con sus componentes.
@@ -389,6 +409,8 @@ En `labs/lab-02.md`:
 4. Resuelve una asignación de capital con restricciones operativas y de mercado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras que crecen y no crean valor. Las causas son concentración no medida y rentabilidad sin ajustar por capital.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Gestionar la liquidez, el calce y las posiciones de mercado de un banco. La teso
 conecta el balance con los mercados financieros, y su gestión determina si el banco puede cumplir sus
 obligaciones cada día y si su margen resiste los movimientos de tasas.
 
+Todas las clases anteriores producen flujos de dinero que alguien tiene que gestionar centralmente. Esta clase trata esa función, que es donde se juntan el fondeo de la clase 2, las colocaciones de la clase 3 y la liquidez intradía de la clase 7. Es también donde se mide el riesgo de tasa que la Parte 7 enseñó a calcular.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos separan los dos libros con reglas contables distintas; los cinco siguientes, los mecanismos de gestión y control. El **precio de transferencia interno** es la pieza que hace posible medir la rentabilidad de cada área: sin él, el margen del banco no se puede repartir entre quien capta y quien coloca.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `libro de banca` | Posiciones mantenidas hasta el vencimiento: colocaciones y captaciones. |
@@ -85,6 +89,8 @@ distintos.
 
 ### 1. Los dos libros
 
+El libro de banca y el de negociación tienen propósitos, reglas contables y tratamientos de capital distintos. La tabla los separa.
+
 | | Libro de banca | Libro de negociación |
 |---|---|---|
 | Intención | Mantener | Negociar |
@@ -97,6 +103,8 @@ distintos.
 justificación y suele estar restringido. Esa restricción evita el arbitraje contable.
 
 ### 2. Gestión de liquidez
+
+La liquidez se gestiona por horizontes, del intradía al estructural. La tabla los recoge con sus instrumentos.
 
 ```text
 HORIZONTES DE GESTIÓN
@@ -128,6 +136,8 @@ cobertura: 1,79 veces  ✓
 ```
 
 ### 3. Precio de transferencia interno
+
+El precio de transferencia interno asigna a cada área el costo o el valor de los fondos que usa o aporta. El procedimiento siguiente lo aplica.
 
 ```text
 la tesorería COMPRA los fondos a las áreas que captan
@@ -162,6 +172,8 @@ EJEMPLO
 
 ### 4. Calce y su gestión
 
+El calce entre activos y pasivos por plazo y por moneda es la medida del riesgo estructural. La tabla lo recoge.
+
 ```text
 CALCE DE PLAZOS      correspondencia entre vencimientos
 CALCE DE TASAS       correspondencia entre fechas de repreciación
@@ -183,6 +195,8 @@ tasa**: un crédito a 5 años a tasa variable repacta cada 90 días, aunque venz
 | Colocar excedentes | Depósitos interbancarios, instrumentos de corto plazo |
 
 ### 5. Controles y límites de la mesa
+
+Una mesa opera dentro de límites, y los límites se controlan desde fuera de la mesa. La tabla los recoge.
 
 ```text
 LÍMITES DE POSICIÓN
@@ -363,6 +377,8 @@ con límite es el aporte del análisis.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una tasa y la tesorería gestiona el calce de todo el balance. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista de la tesorería | Parte |
 |---|---|---|
 | Tasa de su depósito | Precio de transferencia menos margen del área | 10, clase 2 |
@@ -373,6 +389,8 @@ con límite es el aporte del análisis.
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar precios de transferencia y calcular el margen por área. La suma de los márgenes tiene que dar el margen del banco, y comprobarlo valida el sistema.
+
 En `labs/lab-06.md`, sección de tesorería:
 
 1. Construye la escalera de vencimientos de un balance y calcula sus brechas.
@@ -381,6 +399,8 @@ En `labs/lab-06.md`, sección de tesorería:
 4. Diseña el conjunto de límites de una mesa de operaciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resultados mal atribuidos entre áreas. La causa es un precio de transferencia mal construido.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

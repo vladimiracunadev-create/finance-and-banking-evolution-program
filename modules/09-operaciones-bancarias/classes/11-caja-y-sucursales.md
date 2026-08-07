@@ -21,6 +21,8 @@ Gestionar el canal físico en un contexto de digitalización acelerada. La sucur
 principal a ser un canal especializado y caro, y su gestión exige decisiones sobre red, dotación,
 efectivo y seguridad que tienen efecto directo en el costo y en el servicio.
 
+Las clases anteriores tratan operaciones y sus costos. Esta trata el canal más caro y el que más discusiones estratégicas genera. Y lo plantea como una decisión económica y no ideológica: una sucursal tiene un costo de servir medible y una función que puede no ser transaccional.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la economía del canal; los cuatro siguientes, la operación de efectivo y los dos papeles posibles de una sucursal. La distinción entre **sucursal transaccional y de asesoría** es la que resuelve el debate: la primera compite con el móvil y pierde, la segunda no compite con él.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `costo de servir` | Costo total de atender a un cliente por un canal determinado. |
@@ -66,6 +70,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `sucursal de asesoría` | Enfocada en venta y servicio complejo. Modelo predominante. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una comparación de costos por transacción: la misma operación cuesta órdenes de magnitud distintas según el canal, y esa diferencia es lo que decide qué se migra y qué no.
 
 El costo de una operación difiere radicalmente por canal:
 
@@ -82,6 +88,8 @@ migración de transacciones sea la palanca de eficiencia más potente de la banc
 ## 📖 Desarrollo
 
 ### 1. Rentabilidad de una sucursal
+
+Una sucursal se evalúa como una unidad de negocio con ingresos y costos propios. El procedimiento siguiente lo hace.
 
 ```text
 INGRESOS ATRIBUIBLES (mensual, millones)
@@ -161,6 +169,8 @@ frecuencia óptima: la que iguala el costo marginal de mantener con el de repone
 
 ### 3. Controles de seguridad
 
+El manejo de efectivo tiene controles físicos y de procedimiento. La tabla los recoge.
+
 ```text
 SEGURIDAD FÍSICA
   · bóveda con doble clave y apertura con retardo
@@ -183,6 +193,8 @@ SEGURIDAD OPERATIVA
 requieren intervención diaria para mantenerse ocultos, y una ausencia de dos semanas los revela.
 
 ### 4. Decisiones sobre la red
+
+Las decisiones sobre la red se toman con datos de transaccionalidad y de valor del cliente. La tabla recoge los criterios.
 
 ```text
 ANÁLISIS DE UNA SUCURSAL
@@ -212,6 +224,8 @@ esperada.
 
 ### 5. El rol en un modelo multicanal
 
+En un modelo multicanal la sucursal tiene un papel acotado y valioso, o ninguno. La tabla lo delimita.
+
 ```text
 la sucursal deja de ser el canal transaccional y pasa a ser:
   · el canal de la venta compleja (hipotecario, empresas, inversión)
@@ -230,6 +244,8 @@ INDICADORES DEL NUEVO ROL
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa la rentabilidad de una sucursal y decide sobre su continuidad. Conviene separar el resultado transaccional del valor de los clientes atendidos: la decisión cambia.
 
 **Situación.** Un banco evalúa qué hacer con una sucursal de bajo resultado.
 
@@ -384,6 +400,8 @@ anuales en una ganancia de 45.
 
 ## 🏦 Del cliente al banco
 
+El cliente valora la cercanía y el banco mide el costo de servir. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Cerraron mi sucursal" | Decisión de red con plan de migración | 15, clase 10 |
@@ -394,6 +412,8 @@ anuales en una ganancia de 45.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar tres sucursales y recomendar. Una de ellas pierde dinero en transacciones y concentra clientes de alto valor, que es el caso interesante.
+
 En `labs/lab-06.md`:
 
 1. Construye el estado de resultados de una sucursal con atribución de ingresos.
@@ -402,6 +422,8 @@ En `labs/lab-06.md`:
 4. Diseña un plan de acompañamiento digital con sus fases e indicadores.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones de red mal tomadas. Las causas son evaluar solo por transacciones o solo por cercanía.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

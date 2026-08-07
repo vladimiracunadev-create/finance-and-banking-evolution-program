@@ -21,6 +21,8 @@ Dominar las operaciones más elementales y de mayor frecuencia de un banco. Su v
 la principal fuente de riesgo operacional por acumulación: un error de baja severidad repetido miles
 de veces produce pérdidas materiales y deteriora la confianza del cliente.
 
+Con la cuenta abierta empiezan los movimientos. Esta clase trata los de efectivo y documentos, que son los que tienen controles físicos además de contables. Y explica una distinción que produce muchas discusiones en el mostrador: el saldo contable y el saldo disponible no son lo mismo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las formas de ingreso y sus efectos sobre el saldo; los tres siguientes, la salida y sus controles. La distinción entre **saldo contable y disponible** es la que hay que fijar: un depósito en documentos aumenta el primero de inmediato y el segundo solo cuando el canje concluye.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `depósito en efectivo` | Entrega de dinero físico. Disponibilidad inmediata tras el conteo. |
@@ -83,6 +87,8 @@ está".
 
 ### 1. Tipos de depósito y disponibilidad
 
+Cada tipo de depósito tiene su plazo de disponibilidad, y ese plazo tiene una razón operativa. La tabla los recoge.
+
 | Tipo | Disponibilidad | Control principal |
 |---|---|---|
 | Efectivo por caja | Inmediata | Conteo, detección de billetes falsos |
@@ -102,6 +108,8 @@ está".
 ```
 
 ### 2. El proceso de canje
+
+El canje es el mecanismo por el que un documento se convierte en fondos disponibles, y dura lo que dura por razones de sistema. El esquema lo recorre.
 
 ```text
 día 0  el cliente deposita un cheque de otro banco
@@ -126,6 +134,8 @@ día 2  el resultado se refleja en la cuenta del depositante
 
 ### 3. Controles del giro por caja
 
+Los giros en efectivo tienen controles proporcionales al monto. La tabla los recoge.
+
 ```text
 1. identificación del solicitante (documento vigente)
 2. verificación de la titularidad o del poder
@@ -148,6 +158,8 @@ día 2  el resultado se refleja en la cuenta del depositante
 ```
 
 ### 4. Diferencias de caja
+
+Una diferencia de caja se trata con un procedimiento formal, con independencia de su importe. Los pasos siguientes lo recogen.
 
 ```text
 arqueo = recuento físico del efectivo comparado con el registro del sistema
@@ -179,6 +191,8 @@ el patrón a vigilar no es el monto acumulado, sino la FRECUENCIA
 
 ### 5. Riesgos de fraude
 
+Las operaciones de efectivo concentran modalidades de fraude conocidas. La tabla las recoge con su control.
+
 | Riesgo | Mecanismo | Control |
 |---|---|---|
 | Billetes falsos | Depósito de efectivo falsificado | Detectores y capacitación |
@@ -190,6 +204,8 @@ el patrón a vigilar no es el monto acumulado, sino la FRECUENCIA
 | Manipulación de comprobantes | Alteración de registros | Numeración correlativa y auditoría |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue un depósito en documentos hasta su disponibilidad. Conviene mirar los dos saldos en paralelo: la diferencia entre ambos explica la mayoría de los reclamos en caja.
 
 **Situación.** Una sucursal presenta diferencias de caja recurrentes. Investiga.
 
@@ -305,6 +321,8 @@ caja realizaba su propio arqueo, lo que hacía posible la compensación.
 
 ## 🏦 Del cliente al banco
 
+El cliente deposita un documento y el banco asume un riesgo hasta que el canje concluye. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Deposité un cheque y no puedo girar" | Documento en canje: saldo contable ≠ disponible | 3, clase 3 |
@@ -315,6 +333,8 @@ caja realizaba su propio arqueo, lo que hacía posible la compensación.
 
 ## 🧪 Práctica
 
+El laboratorio pide seguir la disponibilidad de varios depósitos y resolver una diferencia de caja. El procedimiento formal es lo que se evalúa.
+
 En `labs/lab-03.md`:
 
 1. Construye la conciliación entre saldo contable y disponible de una cuenta.
@@ -323,6 +343,8 @@ En `labs/lab-03.md`:
 4. Analiza un registro de diferencias de caja por frecuencia y por patrón.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen reclamos y descuadres de caja. Las causas son la confusión entre saldos y controles de giro no aplicados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

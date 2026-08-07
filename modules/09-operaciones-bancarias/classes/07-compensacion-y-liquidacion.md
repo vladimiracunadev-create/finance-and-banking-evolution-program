@@ -21,6 +21,8 @@ Entender la infraestructura que permite que millones de operaciones diarias entr
 sin que cada una exija mover dinero físicamente. La compensación y la liquidación son invisibles para
 el cliente y son el corazón operativo del sistema financiero.
 
+Las transferencias de la clase anterior no se liquidan una a una entre bancos: se compensan. Esta clase explica ese mecanismo y el riesgo que introduce, que es el que ha producido las intervenciones más grandes de bancos centrales: entre que se compensa y se liquida, hay una exposición entre entidades.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el mecanismo y su resultado; los cuatro siguientes, los riesgos y las soluciones institucionales. El **riesgo de liquidación** es el que lo justifica todo: si un participante no cumple después de que la compensación calculó las posiciones, el fallo se propaga a todos los demás.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `compensación` | Cálculo de las obligaciones netas entre participantes. |
@@ -82,6 +86,8 @@ reservas relativamente pequeñas.
 ## 📖 Desarrollo
 
 ### 1. Compensación bilateral y multilateral
+
+La compensación reduce enormemente el volumen a liquidar, y la multilateral más que la bilateral. El procedimiento siguiente las compara sobre el mismo conjunto de operaciones.
 
 ```text
 OBLIGACIONES BRUTAS DEL DÍA (millones)
@@ -127,6 +133,8 @@ reducción: 93,5 %
 
 ### 2. Riesgos del proceso
 
+El proceso introduce riesgos que la liquidación operación por operación no tiene. La tabla los recoge.
+
 | Riesgo | Descripción | Mitigante |
 |---|---|---|
 | De crédito | Un participante no cumple su posición neta | Garantías, fondo de respaldo |
@@ -147,6 +155,8 @@ sin mitigantes, el incumplimiento de un participante puede paralizar el sistema
 ```
 
 ### 3. Contraparte central
+
+Una contraparte central se interpone entre los participantes y concentra el riesgo para poder gestionarlo. El esquema muestra el cambio de estructura.
 
 ```text
 sin contraparte central:  A ←→ B  (cada uno asume el riesgo del otro)
@@ -177,6 +187,8 @@ se socialice de inmediato.
 
 ### 4. Liquidez intradía
 
+La liquidación exige tener fondos en momentos concretos del día, y esa necesidad es distinta de la liquidez diaria. La tabla la explica.
+
 ```text
 un banco debe pagar antes de recibir, y necesita fondos para ese intervalo
 ```
@@ -206,6 +218,8 @@ los bancos postergan sus pagos esperando recibir primero, el sistema se paraliza
 
 ### 5. Entrega contra pago
 
+La entrega contra pago elimina el riesgo de principal condicionando cada tramo al otro. El esquema lo muestra, y este mecanismo reaparece en la Parte 21.
+
 ```text
 en operaciones de valores existe un riesgo adicional:
   A entrega los títulos y B no paga, o viceversa
@@ -225,6 +239,8 @@ modelo 3  ambos netos, al final del ciclo
 El modelo 1 elimina el riesgo de principal por completo, a costa de mayor necesidad de liquidez.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compensa un conjunto de operaciones bilateral y multilateralmente. La diferencia en el importe a liquidar es grande, y explica por qué todos los sistemas compensan.
 
 **Situación.** Un banco mediano evalúa su gestión de liquidez intradía.
 
@@ -372,6 +388,8 @@ individual completa produce externalidades.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una transferencia y el banco gestiona posiciones netas y liquidez intradía. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del sistema | Parte |
 |---|---|---|
 | Transferencia que llega en minutos | Compensación y liquidación en segundo plano | 10, clase 6 |
@@ -382,6 +400,8 @@ individual completa produce externalidades.
 
 ## 🧪 Práctica
 
+El laboratorio pide compensar por los dos métodos y medir el riesgo de liquidación resultante. La reducción de volumen viene con una concentración de riesgo, y verlo así prepara la Parte 11.
+
 En `labs/lab-04.md`:
 
 1. Calcula posiciones netas bilaterales y multilaterales de un conjunto de obligaciones.
@@ -390,6 +410,8 @@ En `labs/lab-04.md`:
 4. Simula una reprogramación de pagos y cuantifica el ahorro y el riesgo sistémico.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen fallos de liquidación. Las causas son liquidez intradía mal dimensionada y ausencia de entrega contra pago.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

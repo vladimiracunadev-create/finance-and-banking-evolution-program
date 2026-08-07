@@ -21,6 +21,8 @@ Comprender cómo funciona un banco por dentro: qué áreas existen, qué hace ca
 dónde se generan los riesgos operacionales. Sin este mapa, las decisiones de producto, de riesgo y de
 tecnología se toman sin entender sus consecuencias operativas.
 
+La Parte 9 evaluó el crédito. Esta parte sale del crédito y recorre todo lo demás que hace un banco todos los días: captar, pagar, compensar, conciliar y cuadrar. Empieza por el modelo operativo porque casi todos los controles del resto de la parte se explican por una sola idea, que es la separación entre quien vende, quien controla y quien registra.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las tres áreas del banco; los cuatro siguientes, el control que las separa y la infraestructura que las une. La **segregación de funciones** es el principio que ordena toda la parte: quien origina una operación no la aprueba, y quien la aprueba no la registra.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `front office` | Áreas que atienden al cliente y originan negocio. |
@@ -81,6 +85,8 @@ registrada que no se liquidó, o un pago realizado sin registro— se produce un
 ## 📖 Desarrollo
 
 ### 1. Estructura funcional
+
+El banco se organiza en tres bloques con responsabilidades que no se solapan. La tabla los recoge con lo que hace cada uno.
 
 ```text
 NEGOCIO (front office)
@@ -113,6 +119,8 @@ Cada separación existe porque su ausencia permitió un fraude documentado. La c
 más de estas funciones en una persona es uno de los hallazgos más frecuentes de auditoría.
 
 ### 2. Recorrido de una operación
+
+Una operación cualquiera atraviesa los tres bloques en un orden fijo. El esquema lo recorre, y ese recorrido es el mismo para casi todo lo que viene en la parte.
 
 ```text
 SOLICITUD DE CRÉDITO DE CONSUMO
@@ -157,6 +165,8 @@ SOLICITUD DE CRÉDITO DE CONSUMO
 
 ### 3. Arquitectura de sistemas
 
+Los sistemas de un banco se organizan alrededor de un núcleo que lleva las cuentas. La tabla los sitúa.
+
 ```text
 CORE BANCARIO
   cuentas · saldos · movimientos · productos · contabilidad
@@ -188,6 +198,8 @@ detiene la operación del día siguiente.
 
 ### 4. El día operativo
 
+El día de un banco tiene una estructura horaria fija impuesta por los sistemas de pago. La tabla la recoge, y explica por qué ciertas operaciones no se pueden hacer a ciertas horas.
+
 ```text
 06:00  apertura de sistemas · verificación del cierre anterior
 08:00  apertura de sucursales y canales
@@ -207,6 +219,8 @@ detiene la operación del día siguiente.
 día siguiente, y esa diferencia importa para el cliente y para la posición de liquidez del banco.
 
 ### 5. Riesgo operacional
+
+El riesgo operacional es el que produce las pérdidas más frecuentes, aunque no las mayores. La tabla recoge sus categorías.
 
 ```text
 categorías estándar:
@@ -235,6 +249,8 @@ custodia de valores     baja        muy alta   conciliación con depósito centr
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue una operación desde la sucursal hasta el asiento contable. Conviene fijarse en cada cambio de área: ahí es donde están los controles y donde ocurren los errores.
 
 **Situación.** Un banco detecta un descuadre de 84 millones en su cierre diario. Diagnostica el
 proceso.
@@ -344,6 +360,8 @@ detectaría un desvío real.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una operación y el banco ejecuta un proceso de tres áreas con controles cruzados. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista operativa | Parte |
 |---|---|---|
 | "Mi transferencia no llegó hoy" | Se emitió después del corte interbancario | 10, clase 6 |
@@ -354,6 +372,8 @@ detectaría un desvío real.
 
 ## 🧪 Práctica
 
+El laboratorio pide recorrer una operación completa y ubicar sus controles. Encontrar el punto donde falta segregación es el objetivo.
+
 En `labs/lab-01.md`:
 
 1. Mapea la estructura funcional de un banco con sus áreas y su clasificación.
@@ -362,6 +382,8 @@ En `labs/lab-01.md`:
 4. Diagnostica un descuadre de cierre siguiendo los siete pasos del ejemplo.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos apuntan a segregación insuficiente o a controles ejecutados por quien tenía interés en el resultado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

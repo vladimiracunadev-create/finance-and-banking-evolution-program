@@ -21,6 +21,8 @@ Cerrar la parte integrando sus doce procesos en una sola pregunta de dirección:
 operando cuando algo falla, y a qué costo opera cuando todo funciona?** La continuidad y la eficiencia
 son las dos medidas con las que se juzga una operación bancaria completa.
 
+Esta clase cierra la parte con la pregunta que ninguna de las quince anteriores se hizo: qué pasa cuando el proceso no funciona. Y con una exigencia que reaparecerá en las Partes 17 y 22: un plan de continuidad que no se ha probado no es un plan, es un documento.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la criticidad y sus objetivos de recuperación; los cuatro siguientes, la eficiencia, la resiliencia y su prueba. La **tolerancia a la interrupción** es la que hay que fijar con criterio de negocio: es el tiempo tras el cual el daño al cliente deja de ser recuperable, y no la coincide con el objetivo técnico.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `proceso crítico` | Aquel cuya interrupción impide cumplir obligaciones o daña gravemente al cliente. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `prueba de continuidad` | Ejercicio real que verifica el plan; sin prueba, el plan es un documento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un mapa de dependencias: cada proceso crítico depende de sistemas, de personas y de terceros, y la continuidad se diseña sobre el eslabón más débil de esa cadena y no sobre el proceso en abstracto.
 
 ```text
 CONTINUIDAD responde:  ¿qué pasa si falla?
@@ -85,6 +91,8 @@ apostando sin saber cuánto apostó.
 ## 📖 Desarrollo
 
 ### 1. Mapa de procesos de la Parte 10
+
+Todos los procesos de la parte se recogen aquí con su criticidad. La tabla los reúne y sirve de cierre de las quince clases anteriores.
 
 ```text
 CAPTACIÓN ────► CUENTAS ────► MEDIOS DE PAGO ────► COMPENSACIÓN
@@ -106,6 +114,8 @@ COLOCACIÓN ────► CAJA Y SUCURSALES ────► TESORERÍA ──�
 vertebral: si el registro es incompleto o la conciliación no se hace, ningún otro control funciona.
 
 ### 2. Criticidad y tolerancia
+
+La criticidad se determina por el efecto sobre el cliente y no por el volumen. La tabla recoge el criterio.
 
 | Proceso | Criticidad | Tiempo objetivo de recuperación | Punto objetivo |
 |---|---|---:|---:|
@@ -133,6 +143,8 @@ CÓMO SE DETERMINA
 ```
 
 ### 3. Componentes de un plan de continuidad
+
+Un plan tiene componentes obligatorios y ninguno es opcional. La tabla los recoge.
 
 ```text
 1. ANÁLISIS DE IMPACTO          procesos, dependencias, tiempos objetivo
@@ -162,6 +174,8 @@ PREGUNTAS SOBRE UN PROVEEDOR CRÍTICO
 
 ### 4. Prueba: el plan que no se prueba no existe
 
+Las pruebas de continuidad tienen niveles, y declarar cuál se ejecutó es lo que informa. La tabla recoge el gradiente.
+
 | Tipo de prueba | Qué verifica | Frecuencia típica |
 |---|---|---|
 | Revisión documental | Coherencia y actualización | Anual |
@@ -176,6 +190,8 @@ menor a M minutos, sin intervención del personal que diseñó el plan». Sin es
 prueba mide el conocimiento de dos personas, no la capacidad de la organización.
 
 ### 5. Eficiencia operativa
+
+La eficiencia se mide con un índice y se mejora por vías concretas. La tabla las recoge.
 
 ```text
                     gastos operativos
@@ -203,6 +219,8 @@ y empeora su riesgo operativo: la Parte 11, clase 10 lo mide
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo dimensiona la continuidad de un proceso crítico y diseña su prueba. Conviene comparar el objetivo técnico con la tolerancia de negocio: casi nunca coinciden, y manda la segunda.
 
 **Situación.** El banco sufre una interrupción y luego evalúa su inversión en continuidad.
 
@@ -306,6 +324,8 @@ operacional y le asigna capital.
 
 ## 🏦 Del cliente al banco
 
+El cliente espera que el servicio funcione y el banco gestiona dependencias y objetivos de recuperación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi tarjeta no funcionó todo el viernes» | Falla de proveedor único y tiempo objetivo excedido | 10, clase 16 |
@@ -316,6 +336,8 @@ operacional y le asigna capital.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el mapa de criticidad de los procesos de la parte y diseñar la prueba de uno. El nivel de prueba declarado es lo que se evalúa.
+
 En `labs/lab-06.md`, sección de continuidad:
 
 1. Clasifica diez procesos por criticidad y asígnales tiempo y punto objetivo de recuperación.
@@ -324,6 +346,8 @@ En `labs/lab-06.md`, sección de continuidad:
 4. Evalúa una inversión en redundancia comparando su costo con la pérdida esperada evitada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen durante una interrupción real. Las causas son planes no probados y dependencias de terceros no mapeadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

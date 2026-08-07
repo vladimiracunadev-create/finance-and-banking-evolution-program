@@ -21,6 +21,8 @@ Dominar el proceso que inicia toda relación bancaria y que concentra los contro
 prevención de lavado y de riesgo operacional. Una cuenta mal abierta es un problema que persiste años;
 una cuenta bien abierta es la base de la relación comercial.
 
+Las dos clases anteriores tratan agregados. Esta baja al proceso individual con el que empieza toda relación bancaria, y donde se concentran las obligaciones de identificación de la Parte 9, clase 3. Una apertura mal hecha arrastra problemas durante toda la vida de la cuenta.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las figuras que pueden operar una cuenta; los tres siguientes, su ciclo de vida. El **apoderado** es la figura que más problemas causa: sus facultades se otorgan una vez y rara vez se revisan, y siguen vigentes hasta que alguien las revoca.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `apertura` | Proceso de constitución de la relación contractual y del producto. |
@@ -82,6 +86,8 @@ actualizados, titulares fallecidos, datos desactualizados.
 
 ### 1. Proceso de apertura
 
+La apertura tiene pasos obligatorios en orden y ninguno se puede posponer. La tabla los recoge.
+
 ```text
 1. IDENTIFICACIÓN          documento vigente, verificación en registro
 2. CONOCIMIENTO            actividad, origen de fondos, perfil (Parte 9, clase 3)
@@ -107,6 +113,8 @@ actualizados, titulares fallecidos, datos desactualizados.
 | 8 | Expediente digitalizado y completo | Imposibilidad de acreditar diligencia |
 
 ### 2. Tipos de cuenta y requisitos
+
+Cada tipo de cuenta tiene requisitos propios de apertura y de operación. La tabla los recoge.
 
 | Tipo | Titular | Requisitos adicionales | Uso |
 |---|---|---|---|
@@ -137,6 +145,8 @@ Ante el fallecimiento de un titular, el tratamiento difiere sustancialmente entr
 explicarse al momento de la apertura.
 
 ### 3. Ciclo de vida de la cuenta
+
+Una cuenta pasa por estados y cada uno tiene reglas distintas. La tabla los recorre.
 
 ```text
 APERTURA → OPERACIÓN → MODIFICACIONES → INACTIVIDAD → CIERRE
@@ -172,6 +182,8 @@ tratamiento:
 Las cuentas inactivas son un vector de fraude conocido: **nadie revisa sus movimientos**.
 
 ### 4. Cierre
+
+El cierre tiene un procedimiento y unos plazos, y hacerlo mal deja saldos y obligaciones vivas. La lista lo recoge.
 
 ```text
 CIERRE A SOLICITUD DEL CLIENTE
@@ -229,6 +241,8 @@ el apoderado designado por el titular pierde facultades al declararse la incapac
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo abre y administra una cuenta a lo largo de su ciclo, incluidas la inactividad y el cierre. Conviene fijarse en la actualización de datos: es el paso que se omite y el que produce la mayoría de los problemas posteriores.
 
 **Situación.** Un banco detecta un fraude en una cuenta y revisa el proceso que lo permitió.
 
@@ -375,6 +389,8 @@ y cada uno por separado habría limitado o impedido la pérdida.
 
 ## 🏦 Del cliente al banco
 
+El cliente abre una cuenta y el banco asume obligaciones de identificación y de custodia. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Piden mucho para abrir una cuenta" | Controles de identidad y prevención | 12, clase 5 |
@@ -385,6 +401,8 @@ y cada uno por separado habría limitado o impedido la pérdida.
 
 ## 🧪 Práctica
 
+El laboratorio pide ejecutar una apertura completa y detectar los defectos de otra. Los defectos son de verificación, que es donde importan.
+
 En `labs/lab-02.md`, sección de cuentas:
 
 1. Diseña el flujo de apertura con sus ocho pasos y controles.
@@ -393,6 +411,8 @@ En `labs/lab-02.md`, sección de cuentas:
 4. Analiza un caso de toma de cuenta e identifica los controles que fallaron.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen años después de la apertura. Las causas son datos no actualizados y poderes no revisados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

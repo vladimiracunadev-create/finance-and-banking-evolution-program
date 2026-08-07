@@ -21,6 +21,8 @@ Analizar los dos lados del negocio de tarjetas —emisión y adquirencia— con 
 su gestión operativa. Es un negocio de red donde el valor depende de que ambos lados crezcan de forma
 equilibrada, y donde la gestión del fraude determina la rentabilidad.
 
+El medio de pago más rentable de la clase anterior merece su propia clase, porque tiene dos negocios distintos dentro: emitir tarjetas a clientes y afiliar comercios. Los dos ganan dinero de formas opuestas, y entender esa oposición explica por qué las comisiones son las que son.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los dos negocios y su mecanismo de reclamo; los cuatro siguientes, los riesgos del lado del comercio y la estructura del mercado. El **mercado de dos lados** es la clave económica: el precio de un lado subsidia al otro, y por eso no se puede analizar cada uno por separado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `emisión` | Negocio de emitir tarjetas a tarjetahabientes. |
@@ -85,6 +89,8 @@ afiliado, con un plazo que puede extenderse meses.
 
 ### 1. Roles y flujo
 
+Cada operación con tarjeta involucra cuatro actores y un reparto de comisiones fijado por reglas de red. El esquema los sitúa.
+
 ```text
 TARJETAHABIENTE ←→ EMISOR ←→ MARCA ←→ ADQUIRENTE ←→ COMERCIO
 ```
@@ -97,6 +103,8 @@ TARJETAHABIENTE ←→ EMISOR ←→ MARCA ←→ ADQUIRENTE ←→ COMERCIO
 | Procesador | Provee la infraestructura técnica | Tarifa por transacción |
 
 ### 2. Rentabilidad de la emisión
+
+El negocio de emisión gana por intercambio, por interés y por comisiones, en proporciones que dependen del uso. El procedimiento siguiente lo calcula.
 
 ```text
 por cada 100 000 de volumen transaccional:
@@ -125,6 +133,8 @@ ellos, el cliente usa otra tarjeta y el emisor pierde el 100 % del ingreso, no e
 
 ### 3. Rentabilidad de la adquirencia
 
+El negocio de adquirencia gana un margen pequeño sobre un volumen grande, y asume el riesgo del comercio. El procedimiento lo calcula.
+
 ```text
 por cada 100 000 de volumen procesado:
 
@@ -148,6 +158,8 @@ RESULTADO                                          190  (0,19 % del volumen)
 variables: la tasa de intercambio (que no controla) y las pérdidas por contracargos (que sí gestiona).
 
 ### 4. Ciclo de contracargos
+
+El contracargo tiene un ciclo con etapas y plazos, y el adquirente responde con su propio patrimonio si el comercio no está. El esquema lo recorre.
 
 ```text
 1. el tarjetahabiente disputa una operación ante su emisor
@@ -174,6 +186,8 @@ variables: la tasa de intercambio (que no controla) y las pérdidas por contraca
 traslada la responsabilidad de la operación no autorizada del comercio al emisor.
 
 ### 5. Riesgo del comercio afiliado
+
+El adquirente asume un riesgo de crédito frente al comercio que rara vez se reconoce como tal. La tabla lo describe con sus mitigantes.
 
 ```text
 el adquirente evalúa al comercio como un deudor
@@ -209,6 +223,8 @@ no el saldo del día
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la rentabilidad de los dos lados sobre la misma operación. Conviene sumar los dos: el resultado del sistema es lo que explica el precio de cada lado.
 
 **Situación.** Un adquirente evalúa la afiliación de una empresa de cursos en línea.
 
@@ -367,6 +383,8 @@ cambiar el momento en que el comercio recibe los fondos.
 
 ## 🏦 Del cliente al banco
 
+El cliente paga con tarjeta y el banco gana como emisor o como adquirente, con lógicas opuestas. La tabla enfrenta las dos lecturas.
+
 | Vista del comercio | Vista del adquirente | Parte |
 |---|---|---|
 | "Retienen parte de mis ventas" | Garantía ante contracargos futuros | 10, clase 10 |
@@ -377,6 +395,8 @@ cambiar el momento en que el comercio recibe los fondos.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la rentabilidad de la emisión y de la adquirencia y evaluar el riesgo de un comercio. El comercio propuesto tiene una tasa de contracargo alta, y dimensionar la retención de garantía es el ejercicio.
+
 En `labs/lab-05.md`, sección de tarjetas:
 
 1. Descompón la rentabilidad de emisión y adquirencia por cada 100 000 de volumen.
@@ -385,6 +405,8 @@ En `labs/lab-05.md`, sección de tarjetas:
 4. Diseña los mitigantes de un comercio de alto riesgo y evalúa su suficiencia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas en el negocio de adquirencia. La causa es riesgo del comercio no dimensionado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Comprender el mecanismo por el que se mueve la mayor parte del dinero moderno. U
 parece instantánea y en realidad recorre varios sistemas con reglas, horarios y riesgos propios.
 Conocerlos permite explicar demoras, prevenir fraudes y gestionar la liquidez.
 
+Los movimientos de la clase anterior son físicos. Esta trata los electrónicos, que son la mayoría, y añade el concepto que decide si un pago se puede deshacer: la firmeza. Antes de ella una transferencia se puede revertir; después, no, y por eso los fraudes se organizan alrededor de ese momento.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son los tipos de sistema; los cinco siguientes, sus mecánicas de liquidación y sus riesgos. La **firmeza** es el concepto jurídico y operativo central: es el momento a partir del cual el pago es irrevocable frente a todos, incluida la quiebra del ordenante.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sistema de alto valor` | Liquidación bruta en tiempo real, operación por operación. Irrevocable. |
@@ -83,6 +87,8 @@ desaparece. Cuando se separan, aparece.
 
 ### 1. Sistemas de pago
 
+Los sistemas de alto valor y los minoristas resuelven problemas distintos y por eso funcionan distinto. La tabla los compara.
+
 | Sistema | Monto típico | Velocidad | Liquidación | Firmeza |
 |---|---|---|---|---|
 | Alto valor | Alto | Minutos | Bruta en tiempo real | Inmediata e irrevocable |
@@ -92,6 +98,8 @@ desaparece. Cuando se separan, aparece.
 | Internacional | Cualquiera | 1 a 5 días | Vía corresponsales | Al abonar el beneficiario |
 
 ### 2. Recorrido de una transferencia
+
+Una transferencia recorre varias etapas y en cada una puede detenerse por una razón distinta. El esquema las recorre.
 
 ```text
 TRANSFERENCIA ENTRE BANCOS, SISTEMA MINORISTA
@@ -111,6 +119,8 @@ TRANSFERENCIA ENTRE BANCOS, SISTEMA MINORISTA
 aún no han liquidado entre sí. Los sistemas lo mitigan con garantías, límites y fondos de respaldo.
 
 ### 3. Firmeza
+
+La firmeza no ocurre cuando el dinero aparece en la cuenta destino, y esa diferencia es la que importa. El esquema la sitúa.
 
 ```text
 FIRMEZA = momento desde el cual el pago no puede revocarse
@@ -137,6 +147,8 @@ importante del proceso.
 
 ### 4. Controles de prevención de fraude
 
+Los controles se aplican antes de la firmeza porque después no hay nada que hacer. La tabla los recoge.
+
 | Control | Efecto | Momento |
 |---|---|---|
 | Verificación del nombre del beneficiario | Detecta cuenta errónea o fraudulenta | Antes de ejecutar |
@@ -153,6 +165,8 @@ fraudes consisten en desviar un pago legítimo a una cuenta distinta, y la disco
 esperado y el titular real lo revela.
 
 ### 5. Gestionar una transferencia errónea o fraudulenta
+
+Una vez enviada, las opciones dependen de si hubo firmeza y de la colaboración del banco receptor. Los pasos siguientes las recorren.
 
 ```text
 TRANSFERENCIA POR ERROR DEL CLIENTE
@@ -176,6 +190,8 @@ TRANSFERENCIA FRAUDULENTA
 transfieren nuevamente en minutos. De ahí la importancia de la detección en tiempo real.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue una transferencia y sitúa el momento de firmeza. Conviene fijarse en la ventana anterior: es donde caben todos los controles y toda la posibilidad de reversión.
 
 **Situación.** Una empresa denuncia el desvío de un pago a un proveedor por 148 millones.
 
@@ -313,6 +329,8 @@ priorizar** para que las críticas se atiendan en minutos.
 
 ## 🏦 Del cliente al banco
 
+El cliente transfiere y el banco asume riesgo de liquidación hasta la firmeza. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Quiero cancelar mi transferencia" | Después de la firmeza no es posible unilateralmente | 10, clase 7 |
@@ -323,6 +341,8 @@ priorizar** para que las críticas se atiendan en minutos.
 
 ## 🧪 Práctica
 
+El laboratorio pide situar la firmeza en tres tipos de transferencia y decidir qué se puede hacer en cada caso ante un fraude. La respuesta depende del sistema usado.
+
 En `labs/lab-03.md`, sección de transferencias:
 
 1. Compara los cinco sistemas de pago por monto, velocidad, liquidación y firmeza.
@@ -331,6 +351,8 @@ En `labs/lab-03.md`, sección de transferencias:
 4. Analiza un caso de desvío de pago identificando los controles fallidos en cada parte.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen transferencias que no se pudieron recuperar. La causa es casi siempre que la firmeza ya se había producido.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

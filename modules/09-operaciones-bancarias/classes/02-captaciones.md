@@ -21,6 +21,8 @@ Gestionar el lado del balance que financia todo lo demás. Las captaciones deter
 fondos, la estabilidad del banco y su capacidad de crecer. Esta clase enseña a analizar su
 composición, a medir su estabilidad y a fijar su precio.
 
+El modelo operativo de la clase anterior mueve dinero ajeno. Esta explica de dónde sale ese dinero, que es la materia prima del negocio bancario. Y añade la variable que decide cuánto cuesta: no todos los depósitos son igual de estables, y la parte estable vale mucho más que la volátil.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las fuentes de fondeo; los cuatro siguientes, cómo se mide su estabilidad y su costo. El **saldo núcleo** es el concepto operativo: la parte de los depósitos a la vista que permanece pese a los movimientos individuales, y que por eso se puede financiar a largo plazo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `captación` | Fondos recibidos del público o del mercado. Constituyen el pasivo del banco. |
@@ -82,6 +86,8 @@ estable es el más caro. La composición óptima equilibra las tres.
 
 ### 1. Fuentes de fondeo
 
+Un banco se financia de varias fuentes con costos y estabilidades muy distintos. La tabla las compara.
+
 | Fuente | Costo | Estabilidad | Plazo |
 |---|---|---|---|
 | Depósitos a la vista de personas | Muy bajo | **Alta** | Indefinido |
@@ -98,6 +104,8 @@ fuente más estable**, porque el comportamiento agregado de miles de depositante
 la base de la transformación de plazos.
 
 ### 2. Costo de fondos
+
+El costo de fondos es el promedio ponderado de todas las fuentes, y es el suelo de cualquier tasa de colocación. El procedimiento siguiente lo calcula.
 
 ```text
 costo de fondos = Σ (saldo_i × tasa_i) / Σ saldo_i
@@ -129,6 +137,8 @@ MARGINAL, no contra el medio
 Usar el costo medio para decidir operaciones marginales lleva a colocar por debajo del costo real.
 
 ### 3. Estabilidad y saldo núcleo
+
+El saldo núcleo se estima observando el comportamiento histórico del agregado, no de las cuentas individuales. El procedimiento lo obtiene.
 
 ```text
 saldo núcleo = porción de los depósitos a la vista que permanece
@@ -174,6 +184,8 @@ aunque el producto sea idéntico.
 
 ### 4. Fijar el precio
 
+El precio de una captación se fija con la curva de mercado y con el valor que ese fondo tiene para el banco. La tabla recoge los criterios.
+
 ```text
 tasa de captación = tasa de referencia − diferencial
 ```
@@ -203,6 +215,8 @@ segmentación de la clase 15.
 
 ### 5. Concentración y riesgo del fondeo
 
+Un fondeo concentrado en pocos depositantes es frágil aunque sea barato. La tabla recoge los indicadores de concentración.
+
 ```text
 indicadores de concentración:
   · % del fondeo de los 10 mayores depositantes
@@ -223,6 +237,8 @@ sobre el límite de garantía / total      26,0 %     61,0 %
 similar. En un evento de estrés, la proporción que puede retirarse rápidamente es más del doble.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el costo de fondos de un banco y estima su saldo núcleo. Conviene comparar el costo medio con el marginal: el segundo es el que decide si conviene captar más.
 
 **Situación.** Un banco evalúa su estructura de fondeo tras un alza de tasas de 300 puntos base.
 
@@ -357,6 +373,8 @@ consecuencias en la planificación.
 
 ## 🏦 Del cliente al banco
 
+El cliente deposita y el banco obtiene su fuente de financiamiento más barata. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Mi cuenta vista no paga nada" | Beta baja: el banco traslada poco | 3, clase 2 |
@@ -367,6 +385,8 @@ consecuencias en la planificación.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el costo de fondos y el saldo núcleo de un banco sintético. La proporción de saldo núcleo decide cuánto puede prestar a largo plazo.
+
 En `labs/lab-01.md`, sección de captaciones:
 
 1. Calcula el costo de fondos medio y marginal de una estructura dada.
@@ -375,6 +395,8 @@ En `labs/lab-01.md`, sección de captaciones:
 4. Evalúa la concentración del fondeo con los cuatro indicadores.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de fondeo. Las causas son la concentración y un saldo núcleo estimado en periodos tranquilos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

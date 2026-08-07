@@ -21,6 +21,8 @@ Dominar el control que verifica que dos registros independientes coincidan, y qu
 el que se detectan la mayoría de los errores y fraudes operacionales. Una conciliación bien diseñada
 detecta; una mal diseñada da falsa tranquilidad.
 
+Todas las operaciones de las clases anteriores producen registros en dos sitios que tienen que coincidir. Esta clase trata el control que lo comprueba, que parece administrativo y no lo es: la conciliación es donde se detecta la mayoría de los fraudes internos y de los errores de sistema.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la mecánica del control; los tres siguientes, lo que lo hace eficaz. La **independencia** es el requisito que decide: una conciliación hecha por quien registra las operaciones no detecta nada, porque el error y su comprobación vienen de la misma mano.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `conciliación` | Comparación de dos registros independientes del mismo hecho. |
@@ -81,6 +85,8 @@ que convierte una conciliación en un trámite.
 
 ### 1. Estructura de una conciliación
 
+Una conciliación tiene una estructura fija que parte de los dos saldos y explica su diferencia. La tabla la recoge.
+
 ```text
 CONCILIACIÓN DE LA CUENTA CORRIENTE — al 30 de abril
 
@@ -102,6 +108,8 @@ identificada.
 
 ### 2. Clasificación de partidas
 
+Las partidas conciliatorias se clasifican por su origen, y cada tipo tiene un tratamiento distinto. La tabla las recoge.
+
 | Tipo | Origen | Tratamiento | Antigüedad máxima |
 |---|---|---|---|
 | Depósito en tránsito | Registrado por nosotros, no por el banco | Se regulariza solo | 2 días hábiles |
@@ -113,6 +121,8 @@ identificada.
 | **No identificada** | **Desconocido** | **Investigar** | **0: es un hallazgo** |
 
 ### 3. Controles de antigüedad
+
+Una partida conciliatoria antigua es una señal de alerta con independencia de su importe. La tabla recoge los umbrales.
 
 ```text
 el indicador de calidad de una conciliación NO es que cierre:
@@ -142,6 +152,8 @@ razones habituales:
 
 ### 4. Patrones que indican error o fraude
 
+Ciertos patrones de partidas conciliatorias apuntan a algo más que un desfase. La tabla los recoge.
+
 | Patrón | Qué sugiere |
 |---|---|
 | Partidas que aparecen y desaparecen sin resolución documentada | Compensación entre errores |
@@ -156,6 +168,8 @@ volumen alto de operaciones es estadísticamente improbable, y sugiere que se es
 con un asiento de ajuste en lugar de investigar.
 
 ### 5. Diseño del proceso
+
+El proceso se diseña con independencia, frecuencia y escalamiento definidos. La tabla recoge los criterios.
 
 ```text
 INDEPENDENCIA
@@ -184,6 +198,8 @@ ESCALAMIENTO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo concilia una cuenta con partidas de varios tipos, incluida una antigua. Conviene detenerse en la partida antigua: es la que revela el problema.
 
 **Situación.** Auditas el proceso de conciliación de un banco y revisas la cuenta de tránsito de
 transferencias.
@@ -322,6 +338,8 @@ es **la independencia de quien concilia**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve su cartola y el banco compara dos registros que deben coincidir. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Cargo no reconocido en la cartola | Puede ser partida conciliatoria en investigación | 3, clase 2 |
@@ -331,6 +349,8 @@ es **la independencia de quien concilia**.
 
 ## 🧪 Práctica
 
+El laboratorio pide conciliar una cuenta con partidas problemáticas y clasificarlas. Una de ellas corresponde a un patrón de fraude, y detectarla es el objetivo.
+
 En `labs/lab-04.md`, sección de conciliación:
 
 1. Construye una conciliación bancaria completa con todas sus partidas.
@@ -339,6 +359,8 @@ En `labs/lab-04.md`, sección de conciliación:
 4. Diseña el proceso de conciliación con su matriz de independencia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen conciliaciones que no detectan. Las causas son la falta de independencia y las partidas antiguas arrastradas sin investigar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

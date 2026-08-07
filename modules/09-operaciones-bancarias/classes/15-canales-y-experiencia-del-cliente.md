@@ -21,6 +21,8 @@ Diseñar y medir la relación operativa con el cliente a través de todos los ca
 banca en línea, aplicación móvil, contacto telefónico y corresponsales. La calidad de esa relación no
 es un tema de amabilidad: es una variable operativa que determina costo, riesgo, reclamos y permanencia.
 
+Las clases anteriores describen operaciones. Esta las mira desde el canal por el que llegan, y añade la dimensión económica que decide la estrategia: la misma operación cuesta cien veces más en una sucursal que en una aplicación, y esa diferencia es lo que financia todo lo demás.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la economía de los canales y su segmentación; los cuatro siguientes, la medición de la experiencia y su límite. La **accesibilidad** es la restricción que no se puede optimizar: migrar canales tiene un límite en las poblaciones que no pueden usar el canal barato.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `costo por transacción` | Costo total del canal dividido por su volumen. Varía en órdenes de magnitud. |
@@ -85,6 +89,8 @@ operativo, reputacional y regulatorio que arrastra**.
 
 ### 1. Los canales y su economía
 
+Cada canal tiene un costo por transacción muy distinto. La tabla los recoge con órdenes de magnitud.
+
 | Canal | Costo relativo por transacción | Alcance | Riesgo dominante |
 |---|---:|---|---|
 | Sucursal con ejecutivo | 100 | Bajo | Operativo y de fraude interno |
@@ -107,6 +113,8 @@ un ahorro de costo en exclusión y en riesgo
 ```
 
 ### 2. Qué operación va en qué canal
+
+No toda operación puede ir a cualquier canal, y forzarlo produce reclamos. La tabla las asigna.
 
 ```text
 CRITERIOS DE ASIGNACIÓN
@@ -131,6 +139,8 @@ es una exigencia creciente en las normas de protección al consumidor financiero
 la asimetría se usó como fricción deliberada.
 
 ### 3. Segmentación operativa
+
+La atención se segmenta por valor del cliente y por complejidad de la operación. La tabla recoge el criterio.
 
 ```text
 SEGMENTACIÓN POR INGRESO SOLAMENTE → obsoleta
@@ -162,6 +172,8 @@ ejemplo). La Parte 14, clase 11 desarrolla el sesgo algorítmico; aquí basta la
 
 ### 4. Medir la experiencia
 
+La experiencia se mide con indicadores concretos y no con encuestas de satisfacción. La tabla los recoge.
+
 | Indicador | Qué mide | Trampa frecuente |
 |---|---|---|
 | Tiempo de espera | Eficiencia del canal | Se mide solo en horario valle |
@@ -176,6 +188,8 @@ ejemplo). La Parte 14, clase 11 desarrolla el sesgo algorítmico; aquí basta la
 o el problema quedó resuelto o volvió.
 
 ### 5. Ciclo del reclamo
+
+Un reclamo tiene un ciclo y su análisis de causa raíz es lo que evita el siguiente. El esquema lo recorre.
 
 ```text
 1. RECEPCIÓN      por cualquier canal, con constancia y número de caso
@@ -202,6 +216,8 @@ ANÁLISIS DE CAUSA RAÍZ — ejemplo
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el ahorro de migrar un conjunto de operaciones y el efecto sobre los clientes que no pueden migrar. Las dos cifras juntas son la decisión.
 
 **Situación.** El comité de operaciones evalúa cerrar sucursales y migrar clientes a canales digitales.
 
@@ -314,6 +330,8 @@ no permite decidir: permite justificar.
 
 ## 🏦 Del cliente al banco
 
+El cliente elige un canal y el banco paga un costo por transacción muy distinto según cuál. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Cerraron mi sucursal» | Optimización de red con costo de atrición | 10, clase 15 |
@@ -324,6 +342,8 @@ no permite decidir: permite justificar.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar una estrategia de canales con su ahorro y su efecto sobre la accesibilidad. Declarar el segundo es parte del ejercicio.
+
 En `labs/lab-06.md`, sección de canales:
 
 1. Construye la matriz de costo por transacción y por canal de un banco sintético.
@@ -332,6 +352,8 @@ En `labs/lab-06.md`, sección de canales:
 4. Evalúa un plan de cierre de sucursales incorporando el costo de atrición y de exclusión.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen migraciones de canal que produjeron reclamos o exclusión. Las causas son operaciones asignadas al canal equivocado y accesibilidad no considerada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ cuentas en moneda extranjera y compraventa de divisas. Un pago internacional no 
 otra moneda: involucra bancos que no se conocen, dos sistemas de pago distintos, dos regímenes
 normativos y un tipo de cambio que se fija en algún momento del recorrido.
 
+Las clases anteriores operan dentro de un país. Esta cruza la frontera, y con eso aparece una limitación estructural: no existe un sistema de pagos global, y por eso un pago internacional se resuelve con cuentas entre bancos. Esta clase explica ese mecanismo, que la Parte 18 desarrolla entero.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cuatro primeros términos son la red de corresponsalía y sus cuentas; los cuatro siguientes, el margen, la posición y el fenómeno que está reduciendo la red. La distinción entre **nostro y vostro** es la que hay que fijar: es la misma cuenta vista desde los dos lados, y confundirlas descuadra cualquier conciliación internacional.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -91,6 +95,8 @@ alcanza a operaciones entre dos terceros países.
 
 ### 1. La red de corresponsalía
 
+La corresponsalía es la infraestructura que sustituye a un sistema de pagos global que no existe. El esquema la describe.
+
 ```text
 un banco no puede tener cuenta en el banco central de todos los países
 tampoco puede tener relación bilateral con los ~25 000 bancos del mundo
@@ -114,6 +120,8 @@ de las remesas. Es un caso donde **el cumplimiento correctamente aplicado en un 
 financiera en otro país**: la clase 3 de la Parte 12 vuelve sobre este dilema.
 
 ### 2. Recorrido de una transferencia
+
+Un pago internacional puede pasar por varios bancos, y cada uno cobra y demora. El esquema recorre el trayecto.
 
 ```text
 ORDENANTE                                              BENEFICIARIO
@@ -162,6 +170,8 @@ comparación honesta se hace sobre el monto que efectivamente recibe el destinat
 
 ### 4. Posición de cambios
 
+La posición de cambios es la exposición neta del banco en cada moneda, y se controla con límites. El procedimiento siguiente la calcula.
+
 ```text
 POSICIÓN LARGA en una moneda   activos > pasivos en esa moneda
                                 gana si la moneda se aprecia
@@ -179,6 +189,8 @@ adivinando el tipo de cambio está tomando un riesgo que sus depositantes no eli
 
 ### 5. Controles específicos
 
+Las operaciones internacionales tienen controles adicionales de sanciones y de origen de fondos. La tabla los recoge.
+
 | Control | Qué previene |
 |---|---|
 | Listas de sanciones sobre ambas partes y bancos de la cadena | Financiamiento prohibido |
@@ -189,6 +201,8 @@ adivinando el tipo de cambio está tomando un riesgo que sus depositantes no eli
 | Corte horario por moneda | Riesgo de liquidación |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue un pago internacional por la cadena de corresponsales. Conviene sumar las comisiones de cada tramo: la diferencia con lo cotizado explica la mayoría de los reclamos.
 
 **Situación.** Una clienta envía dinero a su hija en el exterior. Compara dos opciones.
 
@@ -286,6 +300,8 @@ precisamente el costo total sobre el monto enviado, por esta razón.
 
 ## 🏦 Del cliente al banco
 
+El cliente envía dinero al extranjero y el banco mueve saldos en cuentas de corresponsalía. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Llegó menos de lo que envié» | Comisión de intermediario y modalidad de gastos | 10, clase 13 |
@@ -296,6 +312,8 @@ precisamente el costo total sobre el monto enviado, por esta razón.
 
 ## 🧪 Práctica
 
+El laboratorio pide reconstruir el costo total de un pago internacional y calcular la posición de cambios. El costo total supera lo cotizado, y localizar dónde se pierde es el objetivo.
+
 En `labs/lab-06.md`, sección de operaciones internacionales:
 
 1. Traza el recorrido completo de una transferencia con dos intermediarios.
@@ -304,6 +322,8 @@ En `labs/lab-06.md`, sección de operaciones internacionales:
 4. Diseña la lista de controles de cumplimiento aplicables a un corredor de alto riesgo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pagos internacionales con costos o demoras inesperadas. Las causas están en los bancos intermediarios y en los controles de sanciones.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
