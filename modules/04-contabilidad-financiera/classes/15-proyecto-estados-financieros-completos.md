@@ -22,6 +22,8 @@ cuatro estados financieros con sus notas, y luego analizarlos como lo haría un 
 entregable que demuestra dominio de toda la parte y el insumo directo del análisis crediticio de la
 Parte 9.
 
+Esta clase cierra la parte construyendo un juego completo de estados a partir de operaciones, con sus notas y su coherencia comprobada. No introduce técnica nueva: introduce la exigencia de que los cuatro estados cuadren entre sí, que es donde aparecen los errores que ninguna clase por separado mostraba.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son los componentes de la entrega y el último, lo que se evalúa. La **coherencia entre estados** es el criterio central: cada estado por separado puede estar bien y el conjunto no cuadrar, y esa comprobación es la que hace un auditor primero.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `juego completo` | Situación financiera, resultados y otro resultado integral, cambios en el patrimonio, flujo de efectivo y notas. |
@@ -83,6 +87,8 @@ del proyecto.**
 
 ### 1. Alcance del proyecto
 
+El proyecto tiene un alcance acotado y declarado. La tabla lo delimita, incluida la columna de lo que queda fuera.
+
 ```text
 · empresa ficticia con actividad comercial o de servicios
 · periodo: 12 meses
@@ -94,6 +100,8 @@ del proyecto.**
 ```
 
 ### 2. Estructura de entrega
+
+La entrega tiene una estructura fija que reproduce la de un juego real de estados financieros. La tabla la recoge.
 
 ```text
 portfolio/parte-05/clase-15/
@@ -108,6 +116,8 @@ portfolio/parte-05/clase-15/
 ```
 
 ### 3. Las notas mínimas
+
+Las notas no son un anexo: son parte del estado financiero y hay un mínimo que no se puede omitir. La tabla lo recoge.
 
 | # | Nota | Contenido obligatorio |
 |---:|---|---|
@@ -126,6 +136,8 @@ Las notas 4, 6 y 8 son las que un analista de crédito lee primero. Un juego de 
 formalmente completo y prácticamente inutilizable.
 
 ### 4. Los cuatro controles de coherencia
+
+Cuatro comprobaciones enfrentan los estados entre sí, y su fallo indica un error concreto. La tabla las recoge con lo que revela cada una.
 
 ```text
 CONTROL 1  ecuación contable
@@ -190,6 +202,8 @@ Lo que distingue una defensa fuerte: **cuantifica la sensibilidad y nombra las v
 que se las pregunten**.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre la construcción completa desde las operaciones hasta los cuatro controles de coherencia. Conviene ejecutar los controles aunque todo parezca bien: los tres primeros suelen pasar y el cuarto es el que falla.
 
 **Situación de autoevaluación.** Antes de entregar, aplica esta revisión completa a tu propio trabajo.
 
@@ -257,6 +271,8 @@ financieros de un tercero.
 
 ## 🏦 Del cliente al banco
 
+El cliente entrega estados y el banco los somete a sus propios controles antes de leerlos. La tabla enfrenta las dos lecturas.
+
 | Tu proyecto | Equivalente profesional | Parte |
 |---|---|---|
 | Juego completo con notas | Estados auditados que exige el banco | 9, clase 2 |
@@ -275,6 +291,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Analiza tus estados y prepara la defensa de tres estimaciones con su sensibilidad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en los controles de coherencia. Las causas están en asientos que afectaron a un estado y no al otro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

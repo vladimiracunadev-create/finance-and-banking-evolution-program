@@ -21,6 +21,8 @@ Convertir estados financieros en diagnóstico mediante dos técnicas simples y m
 estructura en un momento (vertical) y la evolución en el tiempo (horizontal). Combinadas con ratios y
 comparación sectorial, permiten formular hipótesis verificables sobre lo que ocurre en una empresa.
 
+Las trece clases anteriores construyeron y leyeron los estados. Esta introduce las dos técnicas que los hacen comparables entre empresas y entre años, y añade la exigencia que separa el análisis de la descripción: toda anomalía detectada tiene que convertirse en una hipótesis que se pueda comprobar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las técnicas y sus bases; los dos últimos son el método de descomposición y su producto. La **hipótesis verificable** es la que da valor al análisis: describir que un margen cayó no es analizar; analizar es proponer por qué y decir con qué dato se comprueba.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `análisis vertical` | Cada partida como porcentaje de una base: activo total en el balance, ventas en resultados. |
@@ -86,6 +90,8 @@ dimensiones aparece el diagnóstico.
 
 ### 1. Análisis vertical del balance
 
+El análisis vertical convierte cada partida en un porcentaje del total, y con eso vuelve comparables empresas de tamaños muy distintos. La tabla lo aplica al balance.
+
 | Partida | Monto | % del activo |
 |---|---:|---:|
 | Efectivo | 1 240 000 | 5,2 % |
@@ -108,6 +114,8 @@ financiamiento.
 
 ### 2. Análisis vertical del resultado
 
+Sobre el estado de resultados, la base es la venta y lo que se obtiene es la estructura de costos del negocio. La tabla la muestra.
+
 | Partida | Monto | % de ventas |
 |---|---:|---:|
 | Ventas | 51 300 000 | 100,0 % |
@@ -120,6 +128,8 @@ financiamiento.
 | Resultado neto | 1 400 000 | 2,7 % |
 
 ### 3. Análisis horizontal
+
+El análisis horizontal compara la misma partida en el tiempo, y su dificultad está en elegir el año base. La tabla recoge los criterios.
 
 | Partida | Año 1 | Año 2 | Δ absoluta | Δ % | Índice (base 100) |
 |---|---:|---:|---:|---:|---:|
@@ -134,6 +144,8 @@ financiamiento.
 explicación. Aquí, las tres últimas filas crecen entre 3 y 6 veces más rápido que las ventas.
 
 ### 4. Sistema DuPont
+
+DuPont descompone la rentabilidad en tres factores que se pueden gestionar por separado. El esquema siguiente los separa.
 
 ```text
 ROE = margen neto × rotación del activo × multiplicador de apalancamiento
@@ -160,6 +172,8 @@ Es decir, **1,0 punto del ROE del año 2 proviene de mayor endeudamiento, no de 
 
 ### 5. De la anomalía a la hipótesis verificable
 
+Detectada una anomalía, el paso siguiente es formular por qué pudo ocurrir y qué dato lo confirmaría. El procedimiento siguiente lo estructura.
+
 | Anomalía | Hipótesis | Cómo se verifica |
 |---|---|---|
 | Cuentas por cobrar +45 % con ventas +11 % | Relajación de condiciones de crédito | Antigüedad de cartera; días de cobro por cliente |
@@ -175,6 +189,8 @@ Una hipótesis es útil solo si **se puede refutar con información concreta**. 
 una hipótesis; "las cuentas por cobrar sobre 90 días superan el 20 % de la cartera" sí lo es.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica las dos técnicas y DuPont sobre los mismos estados y llega a una hipótesis. Conviene seguir el paso final: es donde el análisis deja de describir y empieza a explicar.
 
 **Situación.** Compara dos empresas del mismo sector con tamaños muy distintos.
 
@@ -255,6 +271,8 @@ del análisis de rentabilidad.
 
 ## 🏦 Del cliente al banco
 
+El cliente presenta cifras y el banco las compara con el sector y con la propia historia de la empresa. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | ROE alto | ¿De dónde viene: margen, rotación o deuda? | 9, clase 9 |
@@ -265,6 +283,8 @@ del análisis de rentabilidad.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar tres años de estados y formular tres hipótesis verificables. Lo que se evalúa no son las anomalías detectadas sino la calidad de las hipótesis.
+
 En `labs/lab-06.md`, sección de análisis:
 
 1. Elabora análisis vertical y horizontal de un estado financiero público real.
@@ -273,6 +293,8 @@ En `labs/lab-06.md`, sección de análisis:
 4. Formula cinco hipótesis verificables desde las anomalías detectadas, con su método de verificación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis que no llevan a ninguna conclusión. Las causas son un año base mal elegido o anomalías descritas sin hipótesis.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ detecta y qué no. El balance de comprobación es el punto de revisión donde un
 encuentra los errores antes de que lleguen al balance, y donde un analista entrenado detecta las
 partidas que exigen explicación.
 
+El ciclo de la clase anterior termina en un control aritmético. Esta clase lo desarrolla y, sobre todo, delimita lo que ese control detecta y lo que no: un balance de comprobación cuadrado no significa que la contabilidad esté bien, y creer lo contrario es el error más extendido de quien empieza.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son el instrumento y sus versiones; los dos últimos, lo que sí detecta. El **saldo anómalo** es la señal más útil: una cuenta de activo con saldo acreedor indica un error de clasificación que el cuadre no detecta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `balance de comprobación` | Listado de todas las cuentas con sus sumas y saldos, verificando la igualdad de cargos y abonos. |
@@ -84,6 +88,8 @@ son precisamente los que más afectan la interpretación.
 ## 📖 Desarrollo
 
 ### 1. Estructura
+
+El balance de comprobación tiene una estructura fija con cuatro columnas. La tabla la recoge y explica qué se lee en cada una.
 
 ```text
                               SUMAS                    SALDOS
@@ -116,6 +122,8 @@ suma de saldos DEUDORES = suma de saldos ACREEDORES
 
 ### 2. Previo, ajustado y de cierre
 
+Hay tres momentos en que se prepara y sirven para cosas distintas. La tabla los separa.
+
 | Momento | Contenido | Uso |
 |---|---|---|
 | **Previo** | Solo asientos del periodo | Verificar el registro corriente |
@@ -138,6 +146,8 @@ CARGO Resultado del ejercicio 3 178 333
 ```
 
 ### 3. Qué detecta y qué no
+
+El cuadre detecta unos errores y es ciego a otros, y conocer esa frontera es el objetivo de la clase. La tabla la traza.
 
 | Error | ¿Descuadra? | Cómo se detecta |
 |---|---|---|
@@ -280,6 +290,8 @@ el resultado de la revisión.
 
 ## 🏦 Del cliente al banco
 
+El contador comprueba el cuadre y el banco busca saldos anómalos. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del analista o auditor | Parte |
 |---|---|---|
 | Balance cuadrado | Condición mínima; no acredita nada | 9, clase 9 |
@@ -290,6 +302,8 @@ el resultado de la revisión.
 
 ## 🧪 Práctica
 
+El laboratorio entrega un balance cuadrado con tres errores dentro. Encontrarlos es el ejercicio, y demuestra por sí solo por qué el cuadre no basta.
+
 En `labs/lab-05.md`:
 
 1. Elabora el balance de comprobación previo y ajustado de un caso completo.
@@ -298,6 +312,8 @@ En `labs/lab-05.md`:
 4. Realiza la revisión analítica con la lista de verificación y documenta los hallazgos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen errores que sobreviven al cuadre. Las causas son omisiones completas, errores compensados o clasificaciones equivocadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ elemental sobre la que se construye todo lo demás. Esta clase entrega el métod
 preguntas, el mecanismo del cargo y el abono deducido de la ecuación, y los asientos típicos que
 cubren el 90 % de las operaciones de una empresa.
 
+Las cinco clases anteriores explicaron qué se registra. Esta explica cómo, y su valor práctico no es aprender a hacer asientos sino aprender a leerlos: casi todos los errores y todos los fraudes contables se ven en el asiento antes que en el estado financiero.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cuatro primeros términos son la mecánica del registro y los tres últimos, los momentos en que se registra algo que no es una transacción. El **documento de respaldo** es lo que separa la contabilidad de la ficción: un asiento sin respaldo es una afirmación.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -236,6 +240,8 @@ equipos, no como pasivo.
 
 ### 4. Documento de respaldo
 
+Cada asiento se apoya en un documento concreto, y el tipo de documento depende de la operación. La tabla los relaciona.
+
 ```text
 todo asiento debe tener:
   · fecha del hecho económico (no de la digitación)
@@ -249,6 +255,8 @@ documento son el primer foco de revisión, precisamente porque son el mecanismo 
 manipulación.
 
 ### 5. Detectar asientos incorrectos por sus consecuencias
+
+Un asiento mal hecho produce efectos reconocibles en los estados financieros. La tabla va del efecto al asiento que lo causó, que es como se detectan en la práctica.
 
 | Error | Consecuencia en los estados |
 |---|---|
@@ -365,6 +373,8 @@ esta clase importa más allá de la teneduría.
 
 ## 🏦 Del cliente al banco
 
+El contador registra y el banco audita la pista. La tabla enfrenta las dos lecturas, y explica qué mira una entidad cuando revisa la contabilidad de un deudor.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | Asientos con respaldo | Requisito de auditabilidad | 12, clase 14 |
@@ -375,6 +385,8 @@ esta clase importa más allá de la teneduría.
 
 ## 🧪 Práctica
 
+El laboratorio pide registrar un conjunto de operaciones y luego detectar los errores introducidos en otro conjunto. La segunda parte es la que entrena la habilidad útil.
+
 En `labs/lab-04.md`:
 
 1. Aplica las cuatro preguntas a veinte hechos y escribe los asientos correspondientes.
@@ -383,6 +395,8 @@ En `labs/lab-04.md`:
 4. Construye los estados financieros del mes y verifica la ecuación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla son efectos visibles en los estados financieros. Las causas son asientos concretos, y el recorrido de uno a otro es lo que hay que practicar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

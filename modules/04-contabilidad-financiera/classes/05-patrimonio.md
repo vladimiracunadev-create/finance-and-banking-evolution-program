@@ -22,6 +22,8 @@ capital aportan los dueños, cuánto se reinvierte y cuánto se reparte. El patr
 colchón que absorbe pérdidas, y por eso es la variable central de la regulación bancaria que se verá
 en la Parte 12.
 
+Los dos elementos anteriores son lo que se tiene y lo que se debe. Este es lo que queda, y tiene una función que ninguno de los otros dos cumple: absorber pérdidas. Esa función es la que convierte al patrimonio en el centro de la regulación bancaria de las Partes 11 y 12.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los componentes del patrimonio y los tres últimos, lo que se hace con él y para qué sirve. El **colchón de absorción** es la idea que hay que retener: el patrimonio es lo que permite que una pérdida no se convierta en un impago a los acreedores.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capital emitido` | Aportes de los dueños. No es "dinero disponible": es el origen de recursos ya invertidos. |
@@ -85,6 +89,8 @@ acreedores, pagado por los dueños.**
 
 ### 1. Componentes
 
+El patrimonio no es una sola cifra sino varias con orígenes y restricciones distintas. La tabla las separa.
+
 | Componente | Qué representa | Cómo cambia |
 |---|---|---|
 | Capital emitido | Aportes recibidos | Emisiones, reducciones de capital |
@@ -95,6 +101,8 @@ acreedores, pagado por los dueños.**
 | Participaciones no controladoras | Parte de filiales no poseída | Resultado atribuible, dividendos |
 
 ### 2. Estado de cambios en el patrimonio
+
+El movimiento del patrimonio durante el año se explica en un estado propio, que es el menos leído y el que revela las decisiones de los dueños. La tabla muestra su estructura.
 
 ```text
                         Capital  Reservas  Result.Acum  ORI    TOTAL
@@ -120,6 +128,8 @@ PN final = PN inicial + resultado + ORI + aportes − dividendos ± transferenci
 
 ### 3. Resultado del periodo y otro resultado integral
 
+Hay resultados que pasan por la cuenta de resultados y otros que van directamente al patrimonio, y confundirlos distorsiona cualquier análisis de rentabilidad. La tabla los separa.
+
 ```text
 RESULTADO DEL PERIODO      efectos realizados que pasan por el estado de resultados
                            → ventas, costos, gastos, deterioros, intereses
@@ -136,6 +146,8 @@ mostrar utilidad del periodo positiva y resultado integral negativo, o viceversa
 ambos: el primero indica desempeño operativo; el segundo, cambios de valor que afectan al patrimonio.
 
 ### 4. Política de dividendos y crecimiento sostenible
+
+Cuánto se reparte y cuánto se retiene decide cuánto puede crecer la empresa sin endeudarse más. El cálculo siguiente lo cuantifica.
 
 ```text
 tasa de reparto (payout) = dividendos / utilidad
@@ -155,6 +167,8 @@ endeudarse más o emitir capital**. La política de dividendos no es una decisi�
 de crecimiento: es la misma decisión vista desde el otro lado.
 
 ### 5. El patrimonio como colchón
+
+El patrimonio absorbe pérdidas hasta agotarse, y a partir de ahí las absorben los acreedores. El esquema muestra esa prelación, que reaparece en la Parte 12.
 
 ```text
 capacidad de absorción = patrimonio / activo total
@@ -252,6 +266,8 @@ estructura de capital.
 
 ## 🏦 Del cliente al banco
 
+El dueño ve su participación y el banco ve capacidad de absorción antes de que la pérdida lo alcance. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | Alto reparto de dividendos | Menor capacidad de absorción; se vigila | 9, clase 9 |
@@ -262,6 +278,8 @@ estructura de capital.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el estado de cambios en el patrimonio y calcular el crecimiento sostenible. La segunda cifra suele ser menor que el crecimiento planificado, y esa brecha es lo que hay que financiar.
+
 En `labs/lab-03.md`:
 
 1. Construye el estado de cambios en el patrimonio de un caso y verifica su conciliación.
@@ -270,6 +288,8 @@ En `labs/lab-03.md`:
 4. Simula dos políticas de dividendos y su efecto sobre el apalancamiento a cinco años.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a patrimonios que no evolucionan como el resultado sugería. Las causas están en el otro resultado integral y en los dividendos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ no es un trámite tributario: es un sistema de representación con reglas explí
 depende de lo que otros le cuenten. Esta clase instala el vocabulario, el marco conceptual y los
 criterios que decidirán todo lo que sigue.
 
+Aquí empieza la Etapa 2 y con ella el cambio de perfil: hasta la Parte 4 el programa mira las finanzas desde quien las padece, y a partir de aquí las mira desde quien las analiza. La contabilidad es la primera herramienta de ese cambio porque es el idioma en que las empresas —y los bancos— cuentan lo que hicieron, y sin él ningún estado financiero significa nada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los siete términos siguientes son las reglas del juego, no vocabulario. El **devengo** es el que hay que interiorizar antes que ninguno: la contabilidad registra cuando ocurre el hecho económico y no cuando se mueve el dinero, y esa sola diferencia explica por qué una empresa con utilidad puede quedarse sin caja.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `entidad que informa` | La unidad cuya situación se describe. Se separa del patrimonio de sus dueños: es el primer supuesto. |
@@ -88,6 +92,8 @@ estados existen porque ninguno responde solo.
 
 ### 1. Para qué existe y para quién
 
+La contabilidad no se hace para uno mismo: se hace para terceros que toman decisiones con ella. Saber quiénes son esos terceros explica por qué las reglas son las que son.
+
 | Usuario | Qué pregunta responde |
 |---|---|
 | Inversionista | ¿Debo aportar capital? ¿Cuánto vale? |
@@ -102,6 +108,8 @@ crédito lee estados financieros todos los días** (Parte 9), y un banco publica
 específicas (Parte 15, clase 2).
 
 ### 2. Devengo frente a caja
+
+Los dos criterios de registro producen números distintos sobre los mismos hechos, y los dos son correctos para su propósito. El contraste siguiente los enfrenta.
 
 ```text
 15-08  se vende mercadería por 3 000 000, con pago a 60 días
@@ -126,6 +134,8 @@ cuentas. Confundirlos produce el error que más empresas cierra: **crecer en ven
 liquidez**.
 
 ### 3. Los cinco elementos
+
+Todo lo que registra la contabilidad cae en cinco categorías y no hay una sexta. La tabla las define con el criterio que decide la clasificación.
 
 | Elemento | Definición operativa | Ejemplo |
 |---|---|---|
@@ -166,6 +176,8 @@ resultado para cumplir un covenant bancario, y es precisamente lo que un analist
 saber detectar.
 
 ### 5. Marcos normativos y por qué importa cuál
+
+Dos empresas que aplican marcos distintos no son directamente comparables, y saber cuál aplica cada una es el primer dato que se comprueba. La tabla los sitúa.
 
 | Marco | Alcance | Base de medición predominante |
 |---|---|---|
@@ -247,6 +259,8 @@ es la que un analista de crédito hace primero.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una empresa y el banco lee sus estados financieros para decidir un crédito. La tabla enfrenta las dos lecturas, y esa segunda columna es la que se desarrolla en toda la Parte 9.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Tengo utilidad" | ¿La utilidad se convierte en caja? | 9, clase 9 |
@@ -256,6 +270,8 @@ es la que un analista de crédito hace primero.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar hechos económicos por devengo y por caja sobre el mismo periodo. Los dos resultados difieren, y entender por qué difieren es lo que hace comprensible todo lo que viene después.
+
 En `labs/lab-01.md`:
 
 1. Clasifica veinte hechos económicos según los elementos que afectan.
@@ -264,6 +280,8 @@ En `labs/lab-01.md`:
 4. Identifica el marco normativo de dos estados financieros públicos reales.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase, casi todos vienen de haber mezclado el criterio de devengo con el de caja dentro del mismo estado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

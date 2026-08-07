@@ -22,6 +22,8 @@ presentación exigida, los criterios de clasificación, los indicadores que se l
 balance, y —lo más importante— qué preguntas hacer cuando una cifra no calza con la historia que la
 empresa cuenta.
 
+Las nueve clases anteriores construyeron el registro. Esta presenta el primero de los estados que salen de él, y añade lo que un analista hace con él: leerlo, calcular indicadores y desconfiar de la fecha, porque un balance es una foto y las fotos se pueden preparar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son la lectura del balance y los dos últimos, sus límites. El **maquillaje de cierre** es lo que hay que saber detectar: hay operaciones legítimas cuyo único efecto es mejorar los indicadores del día del corte, y se reconocen comparando la foto con la serie.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `fecha de corte` | El balance describe una fecha, no un periodo. Un día antes o después puede verse distinto. |
@@ -85,6 +89,8 @@ que es más difícil de posar.
 ## 📖 Desarrollo
 
 ### 1. Estructura de presentación
+
+El balance se presenta en un orden que no es arbitrario: refleja liquidez y exigibilidad. La tabla lo recoge.
 
 ```text
 ACTIVO
@@ -131,6 +137,8 @@ Requisitos de presentación relevantes:
 
 ### 2. Indicadores que se leen del balance
 
+Cinco indicadores se calculan directamente sobre el balance y responden a preguntas distintas. La tabla los reúne con su umbral habitual.
+
 ```text
 capital de trabajo    = AC − PC
 razón corriente       = AC / PC
@@ -154,6 +162,8 @@ incobrables acumuladas. **Los indicadores tienen rango óptimo, no dirección ó
 
 ### 3. Interpretar la evolución
 
+Un balance aislado dice poco. La tabla muestra qué se lee cuando hay tres o cuatro cierres seguidos, que es donde aparece la tendencia.
+
 | Partida | Año 1 | Año 2 | Variación | Lectura |
 |---|---:|---:|---:|---|
 | Efectivo | 820 000 | 1 940 000 | +136,6 % | ¿De dónde? |
@@ -170,6 +180,8 @@ con el balance**: requieren el flujo de efectivo (clase 12) y las notas.
 
 ### 4. Señales de maquillaje de cierre
 
+Las operaciones de cierre dejan huellas concretas. La tabla las recoge con la comprobación que las confirma.
+
 | Señal | Qué buscar |
 |---|---|
 | Efectivo sube fuerte y baja en enero | Comparar con balances intermedios |
@@ -183,6 +195,8 @@ El control más simple: **comparar el balance de cierre con uno intermedio** (tr
 indicadores del cierre son notoriamente mejores que los de los trimestres, hay una pregunta que hacer.
 
 ### 5. Lo que el balance no dice
+
+El balance omite cosas importantes por diseño, y saber cuáles evita conclusiones falsas. La lista las recoge.
 
 ```text
 · la CALIDAD de los activos (¿se cobrarán? ¿se venderán?)
@@ -286,6 +300,8 @@ de los tres requiere información adicional: los tres salen del mismo balance, l
 
 ## 🏦 Del cliente al banco
 
+El cliente presenta un balance y el banco calcula sus indicadores y los compara con el sector. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Tengo buena razón corriente" | ¿Con qué activos y a qué plazo? | 9, clase 9 |
@@ -296,6 +312,8 @@ de los tres requiere información adicional: los tres salen del mismo balance, l
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular los indicadores de tres cierres consecutivos y detectar maquillaje. La comparación entre cierres es lo que revela lo que un solo balance esconde.
+
 En `labs/lab-05.md`, sección de balance:
 
 1. Presenta un estado de situación financiera completo con comparativo.
@@ -304,6 +322,8 @@ En `labs/lab-05.md`, sección de balance:
 4. Simula la normalización de una partida (proveedores o cobranza) y recalcula los indicadores.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen balances que mejoran sin que el negocio haya mejorado. Las causas están casi siempre en operaciones de cierre.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ administración tiene mayor efecto sobre el resultado. Cambiar una vida útil o 
 incobrabilidad modifica la utilidad sin que ocurra nada en el mundo real. Esta clase enseña a
 calcularlas, a evaluar su razonabilidad y a ajustarlas para comparar.
 
+Los tres estados ya están construidos. Esta clase entra en las partidas que no salen de una transacción sino de una estimación, que son las que más margen dejan y las que más se discuten. Cambiar una vida útil no mueve un peso de caja y sí mueve el resultado.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son la depreciación y sus supuestos; los cuatro siguientes, las provisiones y el efecto de cambiarlas. La **sensibilidad** es lo que hay que calcular siempre: saber cuánto cambia el resultado si la vida útil se mueve dos años es lo que permite juzgar si la estimación es razonable.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -125,6 +129,8 @@ intermedios, el resultado y el activo difieren de forma material.
 
 ### 2. Evaluar la razonabilidad de una vida útil
 
+Una vida útil se compara con la del sector y con la realidad física del activo. El procedimiento siguiente la evalúa.
+
 ```text
 señales de vida útil sobreestimada:
 · superior a la de empresas comparables del sector
@@ -183,6 +189,8 @@ clase 2, desarrolla PD, LGD y EAD en profundidad.
 
 ### 4. Cambio de estimación
 
+Un cambio de estimación afecta al futuro y no rehace el pasado, y esa asimetría es la que permite usarlo para gestionar el resultado. La tabla explica su tratamiento.
+
 ```text
 aplicación PROSPECTIVA: afecta el periodo actual y los futuros
 NO se reexpresan periodos anteriores
@@ -205,6 +213,8 @@ Un aumento de utilidad de 720 000 sin ningún cambio operativo. Es legítimo si 
 información nueva, y es una señal de alerta si coincide con la necesidad de cumplir un covenant.
 
 ### 5. Ajustar para comparar
+
+Dos empresas con estimaciones distintas no son comparables hasta que se ajustan a una base común. El procedimiento siguiente lo hace.
 
 ```text
 Empresa A: vida útil de maquinaria 12 años
@@ -308,6 +318,8 @@ antes de cualquier decisión de crédito o inversión.
 
 ## 🏦 Del cliente al banco
 
+El cliente aplica sus estimaciones y el banco las ajusta a una base común antes de comparar. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | Vida útil extendida | Ajuste del analista para comparar | 9, clase 9 |
@@ -318,6 +330,8 @@ antes de cualquier decisión de crédito o inversión.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la sensibilidad del resultado a cambios en las estimaciones. La magnitud del efecto sorprende, y es la razón por la que estas partidas se revisan primero.
+
 En `labs/lab-06.md`, sección de estimaciones:
 
 1. Calcula la depreciación de un activo por los tres métodos y compara valor en libros año a año.
@@ -326,6 +340,8 @@ En `labs/lab-06.md`, sección de estimaciones:
 4. Ajusta dos empresas con estimaciones distintas a un supuesto común y compara.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resultados que mejoran sin que la operación cambie. La causa es casi siempre un cambio de estimación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

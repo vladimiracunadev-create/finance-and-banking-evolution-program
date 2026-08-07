@@ -22,6 +22,8 @@ sin conocer el detalle: **activo = pasivo + patrimonio**. Esta clase demuestra p
 mantiene siempre, cómo se extiende para incorporar el resultado, y cómo se usa para detectar errores
 en segundos.
 
+La clase anterior estableció qué registra la contabilidad y bajo qué criterio. Esta introduce la restricción que hace que ese registro sea verificable: toda operación afecta al menos a dos cuentas y la ecuación sigue cuadrando. No es una convención de escritura, es un control de integridad.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la ecuación y su mecánica; los tres últimos, lo que se lee en ella. El **origen y aplicación** es la lectura que más aclara: el lado derecho dice de dónde salió el dinero y el izquierdo en qué se puso, y esa lectura convierte el balance en una historia.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ecuación contable` | `Activo = Pasivo + Patrimonio`. No es una convención: expresa que todo recurso tiene un origen. |
@@ -83,6 +87,8 @@ si el registro es correcto, y cuando se rompe, hay un error.
 ## 📖 Desarrollo
 
 ### 1. La ecuación básica y su lógica
+
+La ecuación no es una fórmula que haya que memorizar: es una identidad que se cumple por construcción. El esquema siguiente muestra por qué.
 
 ```text
 Activo = Pasivo + Patrimonio
@@ -161,6 +167,8 @@ Lo que la ecuación **no** detecta: una transacción omitida por completo, una r
 cuadratura es necesario y no suficiente.
 
 ### 5. Qué dice la estructura
+
+La proporción entre pasivo y patrimonio dice cómo se financia la empresa y cuánto margen tiene ante una pérdida. La tabla recoge las lecturas habituales.
 
 ```text
 Empresa A   activo 100  pasivo 20   patrimonio 80    → apalancamiento 0,25
@@ -269,6 +277,8 @@ clase 2.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un balance y el banco ve estructura de financiamiento y capacidad de absorber pérdidas. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | Ecuación cuadrada | Requisito mínimo; no acredita calidad | 9, clase 9 |
@@ -279,6 +289,8 @@ clase 2.
 
 ## 🧪 Práctica
 
+El laboratorio pide registrar operaciones y comprobar que la ecuación cuadra en cada paso. El ejercicio incluye operaciones que parecen afectar a un solo lado: descubrir la segunda cuenta es el objetivo.
+
 En `labs/lab-01.md`, sección de ecuación:
 
 1. Registra quince transacciones como efectos sobre la ecuación y verifica la igualdad en cada paso.
@@ -287,6 +299,8 @@ En `labs/lab-01.md`, sección de ecuación:
 4. Deduce la tabla de cargo y abono desde la ecuación ampliada, sin memorizarla.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a ecuaciones que no cuadran o que cuadran ocultando un error. La causa de las segundas es siempre la misma: dos errores compensados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

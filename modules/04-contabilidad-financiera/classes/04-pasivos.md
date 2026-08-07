@@ -22,6 +22,8 @@ no aparecen en el balance. El pasivo determina la presión de caja futura y, par
 capacidad real de asumir una obligación nueva. Esta clase enseña a clasificarlos, a medirlos y a
 buscar los que están fuera de balance.
 
+El activo de la clase anterior dice qué tiene la empresa. Esta dice qué debe, y añade la dimensión que más problemas causa en el análisis: cuándo hay que pagarlo. Dos empresas con la misma deuda total y distinto perfil de vencimientos están en situaciones que no se parecen.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos clasifican la obligación y los tres últimos tratan lo que todavía no es cierto. La distinción entre **provisión y pasivo contingente** es la que decide qué aparece en el balance y qué solo en las notas, y es donde se esconden más sorpresas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `pasivo` | Obligación **presente** de transferir un recurso, surgida de hechos pasados. |
@@ -83,6 +87,8 @@ perfil de vencimientos, que está en las notas, muestra el cuándo.**
 
 ### 1. Cuándo una obligación califica
 
+No toda obligación se reconoce como pasivo, y las condiciones son concretas. La lista las recoge.
+
 ```text
 1. ¿existe una obligación PRESENTE? (no una intención futura)
 2. ¿surge de un hecho pasado?
@@ -105,6 +111,8 @@ convierte en una de las áreas más revisadas por auditores y analistas.
 
 ### 2. Pasivo financiero frente a operativo
 
+La deuda con bancos y la deuda con proveedores se comportan de forma muy distinta ante un problema, y por eso se analizan separadas. La tabla las enfrenta.
+
 ```text
 FINANCIERO   préstamos bancarios, bonos, arrendamientos, líneas utilizadas
              → tiene costo explícito, vence en fechas ciertas, genera intereses
@@ -123,6 +131,8 @@ Porque mide la exposición real frente a acreedores financieros, que son los que
 ejecutar garantías.
 
 ### 3. Provisiones y contingencias
+
+Lo probable se provisiona, lo posible se revela y lo remoto se omite. La tabla recoge esa gradación con lo que implica cada nivel.
 
 | | Provisión | Pasivo contingente |
 |---|---|---|
@@ -169,6 +179,8 @@ cambiara nada de su realidad económica. Es un ejemplo claro de que **el balance
 y las reglas de representación importan**.
 
 ### 5. Perfil de vencimientos
+
+El calendario de vencimientos dice más sobre el riesgo que el importe total de la deuda. La tabla muestra cómo se construye y qué se lee en él.
 
 ```text
                         < 1 año   1–2 años   2–5 años   > 5 años   TOTAL
@@ -282,6 +294,8 @@ cifras.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve deudas y el banco ve prelación y calendario. La tabla enfrenta las dos lecturas, y explica por qué la entidad pregunta por los vencimientos antes que por el importe.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Mi pasivo es moderado" | ¿Incluye avales, arriendos y compromisos? | 9, clase 6 |
@@ -292,6 +306,8 @@ cifras.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el perfil de vencimientos y clasificar contingencias. Dos de los casos propuestos están en la frontera entre provisión y revelación, que es donde el criterio importa.
+
 En `labs/lab-02.md`, sección de pasivos:
 
 1. Evalúa diez obligaciones y clasifícalas en pasivo, provisión o contingente.
@@ -300,6 +316,8 @@ En `labs/lab-02.md`, sección de pasivos:
 4. Busca en las notas al menos tres obligaciones fuera de balance y cuantifica su efecto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a deudas que aparecen tarde o por importes distintos. Las causas están en contingencias no reveladas y en pasivos operativos que financian a largo plazo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

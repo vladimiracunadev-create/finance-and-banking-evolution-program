@@ -22,6 +22,8 @@ porque de la medición depende buena parte del patrimonio que un estado financie
 enseña a leer críticamente el activo de una empresa, que es exactamente lo que hace un analista de
 crédito antes de aprobar una operación.
 
+Con la ecuación planteada, las cuatro clases siguientes desarrollan sus elementos uno a uno. Esta empieza por el izquierdo, y su punto central es que no todo lo que una empresa usa es un activo suyo, ni todo activo vale lo que dice el balance. Las dos cosas dependen de criterios que se pueden comprobar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+El primer término decide si algo entra en el balance y los seis siguientes deciden por cuánto. El **control** es el criterio de reconocimiento: no es la propiedad jurídica sino la capacidad de obtener los beneficios y de impedir que otros lo hagan, y por eso un bien arrendado puede ser un activo del arrendatario.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `control` | Capacidad de dirigir el uso y obtener los beneficios. Es el criterio, no la propiedad jurídica. |
@@ -85,6 +89,8 @@ leer de mayor a menor certeza.**
 
 ### 1. Cuándo una partida califica como activo
 
+Un activo se reconoce cuando cumple condiciones concretas, y muchas cosas valiosas no las cumplen. La lista recoge esas condiciones.
+
 ```text
 1. ¿hay un recurso? (algo con potencial de producir beneficios)
 2. ¿la entidad lo CONTROLA? (dirige su uso y obtiene los beneficios)
@@ -108,6 +114,8 @@ contable puede subestimar significativamente el valor económico.
 
 ### 2. Clasificación corriente y no corriente
 
+La separación entre corriente y no corriente no es de tamaño sino de horizonte de realización, y de ella dependen los indicadores de liquidez. La tabla la explica.
+
 ```text
 CORRIENTE si:
   · se espera realizar en el ciclo normal de operación, o
@@ -123,6 +131,8 @@ mecánicamente distorsiona la lectura de esas industrias.
 
 ### 3. Bases de medición y su efecto
 
+El mismo activo puede figurar por importes muy distintos según la base de medición, y todas son legítimas. La tabla las enfrenta con su efecto sobre el resultado.
+
 | Base | Se usa en | Ventaja | Riesgo |
 |---|---|---|---|
 | Costo histórico | Propiedades, planta y equipo (modelo del costo), existencias | Verificable | Se aleja del valor actual |
@@ -136,6 +146,8 @@ La elección de base **no es neutral**: una propiedad medida a costo histórico 
 responden preguntas distintas.
 
 ### 4. Deterioro: cuando el activo vale menos
+
+Cuando un activo deja de poder generar lo que se esperaba, la norma exige reconocerlo. El procedimiento siguiente lo determina.
 
 ```text
 importe recuperable = mayor entre (valor razonable menos costos de venta) y (valor en uso)
@@ -158,6 +170,8 @@ juicio: el valor en uso depende de flujos proyectados y de una tasa de descuento
 la propia administración.
 
 ### 5. Las partidas que suelen esconder problemas
+
+Ciertas partidas del activo concentran los problemas de calidad, y conviene mirarlas primero. La tabla las recoge con la señal que las delata.
 
 | Partida | Señal de alerta | Qué revisar |
 |---|---|---|
@@ -257,6 +271,8 @@ analizarlo.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve bienes y el banco ve garantías con su valor de realización. La tabla enfrenta las dos lecturas, y explica por qué la entidad descuenta el valor contable.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Mis activos crecieron" | ¿Qué activos y con qué calidad? | 9, clase 9 |
@@ -267,6 +283,8 @@ analizarlo.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar partidas y evaluar su calidad. El ejercicio incluye activos correctamente reconocidos y de dudosa realización a la vez: distinguirlos es la habilidad que se persigue.
+
 En `labs/lab-02.md`:
 
 1. Evalúa diez partidas y determina si califican como activo, justificando con los tres criterios.
@@ -275,6 +293,8 @@ En `labs/lab-02.md`:
 4. Identifica en un estado financiero público al menos dos partidas que requieran verificación adicional.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen activos que valen menos de lo que dicen. Las causas suelen ser un deterioro no reconocido o una base de medición que no corresponde.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

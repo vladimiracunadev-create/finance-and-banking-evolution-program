@@ -22,6 +22,8 @@ y producen los saldos que alimentan los estados financieros. Esta clase muestra 
 de un dato desde el documento hasta el balance, que es exactamente el camino que un auditor recorre
 en sentido inverso.
 
+Los asientos de la clase anterior no viven sueltos: forman un ciclo que va de la operación al estado financiero y que se puede recorrer en los dos sentidos. Esta clase construye ese ciclo, y con él la capacidad de rastrear cualquier cifra de un estado hasta el documento que la respalda.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los libros y su relación; los cuatro últimos, la estructura que los organiza y los verifica. La **pista de auditoría** es el resultado de todo el ciclo: la posibilidad de ir de una cifra agregada hasta el documento original sin saltos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `libro diario` | Registro cronológico de todos los asientos. Es la fuente primaria. |
@@ -82,6 +86,8 @@ sigue siendo recuperable, y su ausencia es lo que hace inauditable a un sistema.
 ## 📖 Desarrollo
 
 ### 1. El ciclo contable completo
+
+El ciclo tiene etapas fijas y en orden, y cada una produce lo que la siguiente consume. El esquema siguiente lo recorre entero.
 
 ```text
 1. identificar el hecho económico y su documento
@@ -180,6 +186,8 @@ aparecen los errores.
 
 ### 4. Libros auxiliares y conciliación
 
+Los libros auxiliares detallan lo que el mayor resume, y la conciliación entre ambos es el control que detecta la mayoría de los errores de registro.
+
 | Cuenta de control | Auxiliar | Qué contiene |
 |---|---|---|
 | Cuentas por cobrar | Auxiliar de clientes | Saldo y antigüedad por cliente |
@@ -198,6 +206,8 @@ Si no coinciden, hay un asiento registrado en la cuenta de control sin detalle e
 viceversa. Esta conciliación es la que detecta, por ejemplo, cobros aplicados a un cliente equivocado.
 
 ### 5. Pista de auditoría
+
+La pista de auditoría se construye o no se tiene: no se puede reconstruir después. Los requisitos siguientes son los que la hacen posible.
 
 ```text
 partiendo del estado financiero:
@@ -289,6 +299,8 @@ que existe.
 
 ## 🏦 Del cliente al banco
 
+El contador lleva libros y el banco reconstruye operaciones. La tabla enfrenta las dos lecturas, y explica qué pide una entidad cuando algo no cuadra.
+
 | Vista de la empresa | Vista del banco / auditor | Parte |
 |---|---|---|
 | Plan de cuentas ordenado | Facilita el análisis y la comparabilidad | 9, clase 9 |
@@ -299,6 +311,8 @@ que existe.
 
 ## 🧪 Práctica
 
+El laboratorio pide recorrer el ciclo completo desde documentos hasta balance de comprobación. El ejercicio es largo a propósito: la comprensión del ciclo viene de haberlo recorrido una vez entero.
+
 En `labs/lab-04.md`, sección de libros:
 
 1. Registra un mes en libro diario y mayoriza a todas las cuentas afectadas.
@@ -307,6 +321,8 @@ En `labs/lab-04.md`, sección de libros:
 4. Rastrea una cifra del estado financiero hasta su documento de origen, documentando cada eslabón.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se refieren a cifras que no se pueden rastrear. Las causas están en asientos sin respaldo o en auxiliares que no concilian con el mayor.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

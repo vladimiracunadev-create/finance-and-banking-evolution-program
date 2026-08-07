@@ -22,6 +22,8 @@ que muestra de dónde vino y a dónde fue el efectivo. Utilidad e ingresos depen
 efectivo, no. Esta clase enseña a construirlo, a leerlo por combinación de signos y a detectar
 empresas que crecen consumiendo caja.
 
+Los dos estados anteriores están construidos sobre el devengo de la clase 1. Este vuelve a la caja, y por eso es el que no se puede maquillar con criterios: el efectivo entró o no entró. Es también el estado que revela si la utilidad del estado de resultados es real.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las tres secciones del estado y los cuatro siguientes, sus métodos y sus lecturas. La **calidad del resultado** es lo que se busca al leerlo: la relación entre el flujo operativo y la utilidad dice si esa utilidad se convierte en dinero.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `flujo operativo` | Efectivo generado o consumido por el giro. Es el indicador de sostenibilidad. |
@@ -83,6 +87,8 @@ tiene un límite.
 ## 📖 Desarrollo
 
 ### 1. Método indirecto, paso a paso
+
+El método indirecto parte de la utilidad y le deshace los efectos del devengo hasta llegar a la caja. El procedimiento siguiente lo recorre entero.
 
 ```text
 Resultado del ejercicio                                   1 197 000
@@ -114,6 +120,8 @@ cuentas por cobrar y las existencias, y ambas son salidas de efectivo.
 
 ### 2. Clasificación de flujos
 
+Cada movimiento va a una de las tres secciones, y clasificarlo mal cambia por completo la lectura. La tabla recoge los casos y su sección.
+
 | Concepto | Sección |
 |---|---|
 | Cobros a clientes, pagos a proveedores y personal | Operación |
@@ -131,6 +139,8 @@ cambiarla altera el flujo operativo sin que cambie nada real.
 
 ### 3. Las ocho combinaciones
 
+Los signos de las tres secciones producen ocho combinaciones posibles, y cada una describe una situación de empresa reconocible. La tabla las recorre.
+
 | Op | Inv | Fin | Diagnóstico típico |
 |:--:|:--:|:--:|---|
 | + | − | − | **Madura y sana**: genera caja, invierte y devuelve capital |
@@ -146,6 +156,8 @@ Las filas 5 y 6 son las que un analista de crédito marca de inmediato: **una op
 caja financiada con deuda tiene un horizonte finito y calculable**.
 
 ### 4. Flujo de caja libre y servicio de la deuda
+
+El flujo de caja libre es lo que queda para pagar deuda y remunerar al capital. El cálculo siguiente lo obtiene.
 
 ```text
 flujo de caja libre = flujo operativo − inversión en activos fijos de mantenimiento
@@ -165,6 +177,8 @@ Este es el indicador que aparece como covenant en la mayoría de los contratos d
 
 ### 5. Calidad del resultado
 
+La relación entre flujo operativo y utilidad se mide, y su deterioro sostenido es la señal de alerta más fiable del análisis financiero.
+
 ```text
 calidad del resultado = flujo operativo / resultado neto
 ```
@@ -181,6 +195,8 @@ divergencia exigen una explicación estructural**, y las hipótesis son las de l
 reconocimiento agresivo, cobranza deteriorada o costos diferidos.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el estado por el método indirecto desde la utilidad. Conviene seguir cada ajuste: son exactamente los efectos del devengo que la clase 1 introdujo, deshechos uno a uno.
 
 **Situación.** Reconstruye el flujo de efectivo de una empresa a partir de sus estados.
 
@@ -272,6 +288,8 @@ que produce. **Ambas cosas son ciertas y solo la segunda determina si sobrevive.
 
 ## 🏦 Del cliente al banco
 
+El cliente muestra utilidad y el banco mira flujo operativo, porque las cuotas se pagan con caja. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Crecimos y somos rentables" | ¿El flujo operativo cubre el servicio de la deuda? | 9, clase 9 |
@@ -282,6 +300,8 @@ que produce. **Ambas cosas son ciertas y solo la segunda determina si sobrevive.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el estado y clasificar la empresa en una de las ocho combinaciones. La clasificación dice más sobre la situación que cualquier ratio aislado.
+
 En `labs/lab-06.md`, sección de flujo:
 
 1. Construye el flujo de efectivo por método indirecto desde dos balances y un estado de resultados.
@@ -290,6 +310,8 @@ En `labs/lab-06.md`, sección de flujo:
 4. Calcula calidad del resultado y cobertura del servicio de deuda de tres periodos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen empresas con utilidad y sin caja. Las causas están en el capital de trabajo y en el reconocimiento de ingresos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ de lo financiero. Un resultado neto positivo puede provenir de la venta de un te
 operación que pierde dinero. Esta clase enseña a descomponerlo en sus niveles de margen y a construir
 el resultado normalizado que un analista usa para proyectar.
 
+El balance de la clase anterior es una foto. Este es la película del periodo, y su análisis exige una operación que casi nadie hace: separar lo que se repetirá el año que viene de lo que no. Un resultado sin normalizar no sirve para proyectar nada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los dos primeros términos son formas de presentación y los cinco siguientes, niveles de resultado y su depuración. El **resultado normalizado** es la cifra que de verdad se usa para decidir: es el resultado sin las partidas que no se repetirán, y calcularlo exige criterio además de aritmética.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -119,6 +123,8 @@ personal y el 5 % es depreciación**. Esa información determina el apalancamien
 
 ### 2. Los cinco niveles de margen
 
+El estado de resultados baja por niveles y cada uno responde a una pregunta distinta sobre el negocio. La tabla los recorre.
+
 ```text
 margen bruto      = margen bruto / ventas            = 7 400 000/26 500 000 = 27,9 %
 margen operativo  = resultado operativo / ventas     = 2 280 000/26 500 000 =  8,6 %
@@ -138,6 +144,8 @@ Diagnóstico por comparación entre niveles:
 
 ### 3. Operativo, no operativo y excepcional
 
+Separar estas tres categorías es lo que permite saber cómo va el negocio de verdad. La tabla las distingue con ejemplos.
+
 ```text
 OPERATIVO      ventas, costo de ventas, gastos de administración y distribución
 NO OPERATIVO   ingresos financieros, resultado de inversiones, diferencias de cambio
@@ -156,6 +164,8 @@ si las tres son sí → no recurrente
 
 ### 4. Resultado normalizado
 
+La normalización quita del resultado lo que no se repetirá. El procedimiento siguiente la hace, y su parte difícil es justificar cada exclusión.
+
 ```text
 Resultado del ejercicio reportado              1 197 000
 (−) utilidad por venta de terreno                −850 000
@@ -169,6 +179,8 @@ El resultado reportado sobreestima la capacidad recurrente en **14,5 %**. Un ana
 1 045 000, no desde 1 197 000, y esa diferencia cambia una valoración o una decisión de crédito.
 
 ### 5. Relación con los otros estados
+
+El resultado no se lee solo: se contrasta con el balance y con el flujo de efectivo. La tabla recoge esas relaciones.
 
 ```text
 resultado del ejercicio → estado de cambios en el patrimonio (clase 5)
@@ -272,6 +284,8 @@ analista de crédito hace antes de aprobar (Parte 9, clase 9).
 
 ## 🏦 Del cliente al banco
 
+El cliente muestra utilidades y el banco busca resultado operativo recurrente. La tabla enfrenta las dos lecturas, y explica por qué una utilidad extraordinaria no mejora una evaluación.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Tuvimos utilidad" | ¿Operativa o por venta de activos? | 9, clase 9 |
@@ -282,6 +296,8 @@ analista de crédito hace antes de aprobar (Parte 9, clase 9).
 
 ## 🧪 Práctica
 
+El laboratorio pide normalizar un resultado con varias partidas discutibles. Justificar cada exclusión por escrito es la parte del ejercicio que se evalúa.
+
 En `labs/lab-06.md`:
 
 1. Presenta un estado de resultados por función y por naturaleza con los mismos datos.
@@ -290,6 +306,8 @@ En `labs/lab-06.md`:
 4. Proyecta el periodo siguiente con las tendencias por nivel y evalúa la sostenibilidad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resultados que no se sostienen al año siguiente. La causa suele ser una partida no recurrente que nadie separó.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

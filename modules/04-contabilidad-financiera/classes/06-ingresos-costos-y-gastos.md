@@ -22,6 +22,8 @@ donde se concentra la mayor parte de la manipulación contable documentada. Esta
 de cinco pasos para el reconocimiento de ingresos, la distinción entre costo y gasto, y las señales de
 reconocimiento agresivo.
 
+Las cuatro clases anteriores cubrieron el balance. Esta pasa al estado de resultados, y empieza por la partida que más se manipula: el ingreso. Reconocerlo antes de tiempo es la forma más común de mejorar un resultado sin haber vendido nada, y la norma tiene un procedimiento de cinco pasos precisamente para impedirlo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el ingreso y su condición; los cinco siguientes, los costos y sus comportamientos. La **obligación de desempeño** es el concepto operativo: el ingreso se reconoce cuando se cumple la obligación comprometida, y no cuando se factura ni cuando se cobra.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ingreso ordinario` | Surge de las actividades ordinarias. Se reconoce cuando se transfiere el **control** del bien o servicio. |
@@ -84,6 +88,8 @@ de las áreas más vigiladas por auditores y analistas.
 ## 📖 Desarrollo
 
 ### 1. El modelo de cinco pasos
+
+El reconocimiento de ingresos sigue un procedimiento de cinco pasos que la norma establece en ese orden. Saltarse uno es lo que produce el reconocimiento anticipado.
 
 ```text
 1. identificar el CONTRATO con el cliente
@@ -114,6 +120,8 @@ Reconocer los 12 000 000 completos al entregar el equipo **sobrestima el ingreso
 
 ### 2. Cuándo se transfiere el control
 
+La transferencia del control es el momento que decide, y no siempre coincide con la entrega física. La tabla recoge los indicadores que la determinan.
+
 ```text
 indicadores de transferencia de control:
   · el cliente tiene la obligación presente de pagar
@@ -135,6 +143,8 @@ Ninguno es decisivo por sí solo: se evalúan en conjunto. Casos habituales:
 
 ### 3. Costo, gasto y asociación
 
+Costo y gasto no son sinónimos y su diferencia decide en qué periodo aparece cada uno. La tabla los separa con el principio de asociación.
+
 | Tipo | Ejemplo | Cuándo pasa por resultado |
 |---|---|---|
 | Costo de producto | Materia prima, mano de obra directa | Al vender el producto |
@@ -155,6 +165,8 @@ El error frecuente es activar gastos que no cumplen la condición —publicidad,
 
 ### 4. Señales de reconocimiento agresivo
 
+El reconocimiento anticipado deja señales reconocibles en los estados financieros. La tabla las recoge con lo que hay que comprobar en cada caso.
+
 | Señal | Qué sugiere | Cómo se verifica |
 |---|---|---|
 | Ventas concentradas en el último mes del periodo | Adelantamiento de ingresos | Distribución mensual de ventas |
@@ -168,6 +180,8 @@ La última fila es la más potente: **el flujo operativo es difícil de manipula
 utilidad creciente y flujo operativo decreciente durante varios periodos exige explicación.
 
 ### 5. Estructura de costos y apalancamiento operativo
+
+La proporción entre costos fijos y variables decide cuánto amplifica el resultado un cambio en las ventas. El cálculo siguiente lo mide.
 
 ```text
 apalancamiento operativo = margen de contribución / resultado operativo
@@ -282,6 +296,8 @@ correctas**, y la diferencia entre ellas es exactamente lo que esta clase enseñ
 
 ## 🏦 Del cliente al banco
 
+El cliente ve ventas y el banco ve calidad y recurrencia del ingreso. La tabla enfrenta las dos lecturas, y explica por qué un ingreso extraordinario no mejora la evaluación crediticia.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Crecimos 200 % en resultado" | ¿Cuánto de eso es caja? | 9, clase 9 |
@@ -292,6 +308,8 @@ correctas**, y la diferencia entre ellas es exactamente lo que esta clase enseñ
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar los cinco pasos a contratos sintéticos y detectar reconocimiento agresivo. Dos de los contratos están en la frontera, que es donde el criterio se ejercita de verdad.
+
 En `labs/lab-03.md`, sección de resultados:
 
 1. Aplica el modelo de cinco pasos a tres contratos con obligaciones múltiples.
@@ -300,6 +318,8 @@ En `labs/lab-03.md`, sección de resultados:
 4. Calcula el apalancamiento operativo de dos empresas y simula una caída del 20 % en ventas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resultados que no se convierten en caja. La causa suele estar en el reconocimiento del ingreso.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
