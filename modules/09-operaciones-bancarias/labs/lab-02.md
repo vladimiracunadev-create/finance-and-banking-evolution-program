@@ -2,33 +2,66 @@
 
 ## Propósito
 
-Aplicar apertura y administración de cuentas en un caso controlado y documentar cada supuesto.
+Auditar cinco aperturas y **encontrar los defectos que aparecen años después**.
+
+El laboratorio 1 recorrió un proceso. Este entra en el que abre toda relación bancaria, donde un defecto se descubre cuando ya produjo consecuencias.
 
 ## Escenario
 
-Una persona, empresa o unidad bancaria debe tomar una decisión con información incompleta. Usa datos ficticios del repositorio o crea un conjunto pequeño claramente identificado como sintético.
+Cinco cuentas abiertas hace entre dos y seis años: una con poder no revocado, una con datos sin actualizar, una conjunta mal documentada, una inactiva y una correctamente cerrada.
+
+## Datos
+
+Los cinco expedientes de apertura con su historial posterior.
+
+## Supuestos del ejercicio
+
+- El poder otorgado en la primera sigue vigente y su titular ya no tiene relación.
+- La actualización de datos exigible es cada tres años.
+- La cuenta inactiva lleva 28 meses sin movimiento.
 
 ## Pasos
 
-1. Define el problema y la decisión.
-2. Identifica variables, unidades y periodicidad.
-3. Realiza los cálculos o el análisis.
-4. Ejecuta una prueba de sensibilidad.
-5. Explica riesgos y limitaciones.
-6. Entrega una conclusión de máximo 200 palabras.
+1. Verifica el proceso de apertura de las cinco contra sus pasos obligatorios.
+2. Comprueba la vigencia de los datos y de los poderes en cada una.
+3. Determina el estado actual de cada cuenta en su ciclo de vida.
+4. Identifica los defectos y clasifícalos por su consecuencia potencial.
+5. Calcula la exposición del poder no revocado.
+6. Propón el procedimiento de revisión periódica que los habría detectado.
+7. Verifica que el cierre de la quinta se hizo correctamente y sin saldos vivos.
+
+## Criterios de aceptación
+
+| # | Criterio | Cómo se comprueba |
+|---:|---|---|
+| 1 | Las cinco aperturas están verificadas | Contra los pasos obligatorios |
+| 2 | La vigencia de datos y poderes está comprobada | Con su fecha |
+| 3 | El estado en el ciclo está determinado | Las cinco |
+| 4 | Los defectos están clasificados por consecuencia | No por gravedad formal |
+| 5 | El procedimiento de revisión los detectaría | Y se dice cómo |
+
+## Errores que se penalizan
+
+| Error | Por qué |
+|---|---|
+| Verificar solo la documentación inicial | Los defectos aparecen después |
+| Ignorar los poderes vigentes | Siguen operando hasta que alguien los revoca |
+| Tratar la inactividad como un estado neutro | Tiene reglas y plazos propios |
+| Cerrar sin comprobar saldos vivos | Deja obligaciones abiertas |
 
 ## Entregables
 
-- `solution.md` con razonamiento y resultado.
-- Archivo de cálculo o script reproducible.
-- Tabla de supuestos.
-- Reflexión ética y de seguridad.
+- `solution.md` con las cinco aperturas verificadas.
+- La vigencia de datos y poderes de cada una.
+- Los defectos clasificados con su exposición.
+- El procedimiento de revisión periódica propuesto.
 
-## Criterios
+## Rúbrica
 
 | Criterio | Puntos |
 |---|---:|
-| Cálculo o análisis | 35 |
-| Trazabilidad | 25 |
-| Interpretación | 25 |
-| Riesgos y ética | 15 |
+| Verificación de apertura | 20 |
+| Vigencia comprobada | 25 |
+| Estados determinados | 15 |
+| Defectos clasificados | 25 |
+| Procedimiento propuesto | 15 |
