@@ -47,13 +47,18 @@ bibliografía consultable: manuales universitarios de referencia, normas NIIF,
 documentos del Comité de Basilea y marcos de OCDE, FMI, Banco Mundial, GAFI, FSB,
 IOSCO, CPMI y NIST.
 
+Tampoco es una colección de tablas. **Ninguna tabla y ningún diagrama del programa
+aparece sin un párrafo que diga antes qué viene, por qué viene ahí y cómo se lee**, y
+el Propósito de cada clase abre explicando qué dejó establecido la anterior. El hilo
+se puede seguir leyendo de la primera clase a la última.
+
 > **Estado del contenido:** [STATUS.md](STATUS.md) se genera automáticamente desde los
 > archivos del repositorio. La documentación nunca declara más de lo que existe.
 
 <table>
 <tr>
 <td width="25%" align="center"><b>352</b><br>clases completas</td>
-<td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
+<td width="25%" align="center"><b>2 400+</b><br>fuentes citadas</td>
 <td width="25%" align="center"><b>150</b><br>laboratorios</td>
 <td width="25%" align="center"><b>23</b><br>proyectos integradores</td>
 </tr>
@@ -271,12 +276,12 @@ siete partes están publicadas y cierran el programa. Ver
 Todas las clases comparten la misma estructura. La validación de CI la exige.
 
 ```text
-🎯 Propósito              por qué existe la clase y qué problema resuelve
+🎯 Propósito              qué dejó la clase anterior y qué problema resuelve esta
 📚 Objetivos              cinco resultados verificables
    Agenda de 90 minutos   guía docente, generada automáticamente
-🧩 Conceptos centrales    término y comprensión verificable
+🧩 Conceptos centrales    para qué sirven y comprensión verificable de cada uno
 🧠 Modelo mental          la idea que ordena todo lo demás
-📖 Desarrollo             fórmulas, tablas, casos y advertencias
+📖 Desarrollo             cada bloque presentado: fórmulas, tablas, casos y avisos
 🧮 Ejemplo guiado         caso numérico resuelto paso a paso, con su interpretación
 🏦 Del cliente al banco   el mismo concepto desde ambos lados del mostrador
 🧪 Práctica               qué hacer en el laboratorio de la parte
