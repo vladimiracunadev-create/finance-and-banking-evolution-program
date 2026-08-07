@@ -32,6 +32,7 @@ from apps.dlt_financial_lab.contracts import (  # noqa: E402
     Interruptor,
 )
 from apps.dlt_financial_lab.crypto import (  # noqa: E402
+    LARGO_DIRECCION,
     derivar_direccion,
     direccion_valida,
     firmar,
@@ -143,6 +144,24 @@ def test_un_mensaje_alterado_invalida_la_firma():
 def test_una_direccion_valida_se_reconoce():
     par = generar_par()
     assert direccion_valida(derivar_direccion(par.publica))
+
+
+def test_toda_direccion_tiene_el_mismo_largo_documenta_el_problema():
+    """Clase 3: la codificacion de longitud variable perdia el byte inicial
+    cuando valia cero, y una de cada doscientas cincuenta y seis direcciones se
+    generaba bien y no validaba. Con longitud fija no puede volver a ocurrir.
+    """
+    for _ in range(1000):
+        direccion = derivar_direccion(generar_par().publica)
+        assert len(direccion) == LARGO_DIRECCION
+        assert direccion_valida(direccion)
+
+
+def test_un_cuerpo_que_empieza_por_cero_va_y_vuelve():
+    from apps.dlt_financial_lab.crypto import _codificar, _decodificar
+
+    cuerpo = bytes([0]) + bytes(range(1, 20))
+    assert _decodificar(_codificar(cuerpo), 20) == cuerpo
 
 
 def test_una_direccion_mal_tecleada_se_detecta():

@@ -59,48 +59,76 @@ def verificar(par: Par, mensaje: bytes, firma: bytes) -> bool:
     return hmac.compare_digest(esperada, firma)
 
 
+# Longitudes fijas de la direccion. El cuerpo son 20 bytes y la verificacion 3,
+# y cada byte ocupa ocho bits que se reparten en simbolos de cinco.
+BYTES_CUERPO = 20
+BYTES_VERIFICACION = 3
+
+
+def _caracteres(n_bytes: int) -> int:
+    return -(-n_bytes * 8 // 5)
+
+
+CARACTERES_CUERPO = _caracteres(BYTES_CUERPO)
+CARACTERES_VERIFICACION = _caracteres(BYTES_VERIFICACION)
+LARGO_DIRECCION = 4 + CARACTERES_CUERPO + CARACTERES_VERIFICACION
+
+
 def _codificar(datos: bytes) -> str:
+    """Codificacion de longitud fija.
+
+    El relleno por delante no es cosmetico. Si se codifica tratando los bytes
+    como un entero y se corta al primer digito significativo, un cuerpo que
+    empieza por cero pierde ese byte al codificar y ya no se puede reconstruir:
+    la direccion se genera bien y no valida. El fallo aparece en una de cada
+    doscientas cincuenta y seis claves, que es justo la frecuencia con la que
+    un defecto se atribuye al azar en vez de al codigo.
+    """
     alfabeto = "0123456789abcdefghjkmnpqrstuvwxyz"
     numero = int.from_bytes(datos, "big")
-    salida = ""
-    while numero:
+    salida = []
+    for _ in range(_caracteres(len(datos))):
         numero, resto = divmod(numero, 32)
-        salida = alfabeto[resto] + salida
-    return salida or "0"
+        salida.append(alfabeto[resto])
+    return "".join(reversed(salida))
 
 
 def derivar_direccion(publica: bytes) -> str:
     """Direccion con digitos de verificacion.
 
-    Los cuatro caracteres finales detectan un error de tecleo antes de enviar.
-    Sin ellos, un caracter equivocado envia los fondos a una direccion que nadie
+    Los caracteres finales detectan un error de tecleo antes de enviar. Sin
+    ellos, un caracter equivocado envia los fondos a una direccion que nadie
     controla, y no vuelven.
     """
-    cuerpo = resumen(publica)[:20]
-    verificacion = resumen(cuerpo)[:3]
+    cuerpo = resumen(publica)[:BYTES_CUERPO]
+    verificacion = resumen(cuerpo)[:BYTES_VERIFICACION]
     return "dlt1" + _codificar(cuerpo) + _codificar(verificacion)
 
 
 def direccion_valida(direccion: str) -> bool:
-    if not direccion.startswith("dlt1") or len(direccion) < 12:
+    """Recalcula la direccion completa desde su cuerpo y la compara entera.
+
+    Con longitudes fijas la comprobacion es exacta: no hay que probar donde
+    termina el cuerpo, y una direccion de largo distinto se rechaza antes de
+    tocar el alfabeto.
+    """
+    if not direccion.startswith("dlt1") or len(direccion) != LARGO_DIRECCION:
         return False
-    # Se recalcula la direccion completa a partir del cuerpo declarado:
-    # comparar la cadena entera es mas simple y no deja huecos.
-    for longitud in range(4, len(direccion)):
-        cuerpo_texto = direccion[4:longitud]
-        try:
-            cuerpo = _decodificar(cuerpo_texto)
-        except ValueError:
-            continue
-        if len(cuerpo) != 20:
-            continue
-        esperada = "dlt1" + cuerpo_texto + _codificar(resumen(cuerpo)[:3])
-        if esperada == direccion:
-            return True
-    return False
+    cuerpo_texto = direccion[4:4 + CARACTERES_CUERPO]
+    try:
+        cuerpo = _decodificar(cuerpo_texto, BYTES_CUERPO)
+    except ValueError:
+        return False
+    esperada = "dlt1" + cuerpo_texto + _codificar(resumen(cuerpo)[:BYTES_VERIFICACION])
+    return esperada == direccion
 
 
-def _decodificar(texto: str) -> bytes:
+def _decodificar(texto: str, n_bytes: int) -> bytes:
+    """Inverso exacto de `_codificar`.
+
+    La longitud se pasa como argumento en vez de deducirla del valor: deducirla
+    es lo que hacia perder los bytes iniciales que valen cero.
+    """
     alfabeto = "0123456789abcdefghjkmnpqrstuvwxyz"
     numero = 0
     for caracter in texto:
@@ -108,5 +136,4 @@ def _decodificar(texto: str) -> bytes:
         if indice < 0:
             raise ValueError(f"caracter invalido: {caracter}")
         numero = numero * 32 + indice
-    longitud = (numero.bit_length() + 7) // 8
-    return numero.to_bytes(max(longitud, 1), "big")
+    return numero.to_bytes(n_bytes, "big")
