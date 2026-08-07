@@ -19,6 +19,7 @@ on:
       - "LICENSE"
       - "VERSION"
       - "tools/build_site.py"
+      - "tools/build_book.py"
       - "requirements-site.txt"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -34,7 +35,7 @@ jobs:
   construir:
     name: Generar el portal
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     # `pages: write` lo necesita configure-pages para activar Pages en un
     # repositorio (o en un fork) donde todavia no lo esta. Sin el permiso la
     # accion falla con "Resource not accessible by integration".
@@ -60,6 +61,22 @@ jobs:
       - name: Generar y verificar el portal
         run: python tools/build_site.py --check
 
+      # El manual pesa demasiado para versionarlo en git y se regenera con cada
+      # cambio de contenido, asi que se publica como descarga del portal. Va
+      # despues de build_site.py porque ese script vacia `site/` antes de
+      # generarlo. El runner de Ubuntu ya trae Google Chrome, que es lo que
+      # build_book.py usa para imprimir el PDF.
+      - name: Generar el manual completo
+        run: python tools/build_book.py
+
+      - name: Publicar el manual como descarga del portal
+        run: |
+          mkdir -p site/descargas
+          cp book/programa-completo.pdf  site/descargas/
+          cp book/programa-completo.html site/descargas/
+          cp book/programa-completo.md   site/descargas/
+          ls -lh site/descargas
+
       - name: Configurar Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
         with:
@@ -78,6 +95,7 @@ jobs:
             echo ""
             echo "- Paginas generadas: **$(find site -name '*.html' | wc -l)**"
             echo "- Peso del sitio: **$(du -sh site | cut -f1)**"
+            echo "- Manual publicado: **$(du -h site/descargas/programa-completo.pdf | cut -f1)**"
           } >> "$GITHUB_STEP_SUMMARY"
 
   publicar:

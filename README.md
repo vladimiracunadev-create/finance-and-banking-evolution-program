@@ -14,7 +14,7 @@
 [![Versión](https://img.shields.io/badge/versión-2.0.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-352%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
 [![Nivel](https://img.shields.io/badge/nivel-cero%20→%20dirección%20bancaria-2e8b57?style=for-the-badge)](STATUS.md)
-[![Manual](https://img.shields.io/badge/manual-3.672%20páginas-007c83?style=for-the-badge)](#-el-programa-entero-en-un-documento)
+[![Manual](https://img.shields.io/badge/manual%20PDF-3.672%20páginas-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)
 [![Idioma](https://img.shields.io/badge/idioma-español-1f6feb?style=for-the-badge)](SYLLABUS.md)
 [![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
 
@@ -28,7 +28,7 @@
 
 [🌐 **Portal de estudio**](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) ·
 [📚 Índice de las 352 clases](SYLLABUS.md) ·
-[📕 Manual completo (PDF)](#-el-programa-entero-en-un-documento) ·
+[📕 Descargar el manual (PDF)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf) ·
 [📖 Glosario maestro](docs/glosario-maestro.md) ·
 [🧭 Ruta de aprendizaje](docs/ruta-aprendizaje.md) ·
 [👩‍🏫 Guía docente](docs/guia-docente.md) ·
@@ -209,19 +209,26 @@ La infraestructura por debajo. Continúa desde la introducción fintech de la Pa
 
 ¿Prefieres el curso entero en un solo sitio, para leer de corrido o estudiar sin conexión? El **manual** consolida las **352 clases** en orden, con portada, índice enlazado de 380 entradas y salto de página por parte y por clase.
 
+- 📥 **[Descargar el manual en PDF](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)** — 3 672 páginas, 1 033 449 palabras.
+- 🌐 **[Leerlo en el navegador (HTML)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.html)** — el mismo documento, con hoja de estilo de impresión.
+- 📝 **[Descargarlo en Markdown](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.md)** — para revisar, convertir o citar.
+
+> Los tres se regeneran en cada despliegue del portal, así que **siempre reflejan el estado actual del contenido**. No se versionan en el repositorio: el PDF pesa 47 MB y cambiaría en cada clase que se edita.
+
+<details>
+<summary><b>Generarlo tú mismo</b></summary>
+
+<br>
+
 ```bash
 python tools/build_book.py
 ```
 
-| Archivo | Qué es |
-|---|---|
-| `book/programa-completo.pdf` | **El manual completo en PDF** — 3 672 páginas, 1 033 449 palabras |
-| `book/programa-completo.html` | El mismo documento en HTML, con hoja de estilo de impresión |
-| `book/programa-completo.md` | El mismo documento en Markdown, para revisar o convertir |
+Deja los tres archivos en `book/`. El PDF se imprime desde el HTML con el Edge o el Chrome que ya está en el sistema, sin instalar nada; si no hay ninguno, el HTML queda listo y se guarda con Ctrl+P. Para saltarse el paso del PDF, `python tools/build_book.py --sin-pdf`.
 
-El PDF se imprime automáticamente desde el HTML con el Edge o el Chrome que ya está en el sistema, sin instalar nada. Si no hay ninguno, el HTML queda listo y se guarda con Ctrl+P; para saltarse ese paso, `python tools/build_book.py --sin-pdf`.
+</details>
 
-> No se versionan en el repositorio: se generan en un minuto y **siempre reflejan el estado actual del contenido**. Leer el programa seguido no es solo comodidad — es la única forma de comprobar que el hilo pedagógico se sostiene entero, porque una clase que supone algo que todavía no se ha visto se nota leyendo de corrido y no se nota leyendo por partes.
+Leer el programa seguido no es solo comodidad — es la única forma de comprobar que el hilo pedagógico se sostiene entero, porque una clase que supone algo que todavía no se ha visto se nota leyendo de corrido y no se nota leyendo por partes.
 
 ### 🔎 Buscar un término
 
