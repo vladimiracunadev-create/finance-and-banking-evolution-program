@@ -1,0 +1,39 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: internacional
+authority: CPMI e IOSCO
+instrument_type: principios
+instrument_number: PFMI-2012
+title: >-
+  Principios aplicables a las infraestructuras del mercado financiero
+publication_date: "2012-04-16"
+effective_date: >-
+  no tiene fecha de entrada en vigor propia; obligan cuando una jurisdiccion los
+  incorpora al regimen de sus infraestructuras
+implementation_stage: incorporados en la mayoria de las jurisdicciones
+status: vigente
+scope: >-
+  Veinticuatro principios sobre organizacion, gestion de riesgos, liquidacion,
+  acceso, eficiencia y transparencia de sistemas de pago, depositarios centrales,
+  sistemas de liquidacion de valores, entidades de contrapartida central y
+  registros de operaciones.
+activities_covered:
+  - sistemas de pago de importancia sistemica
+  - depositarios centrales de valores
+  - sistemas de liquidacion de valores
+  - entidades de contrapartida central
+  - registros de operaciones
+  - acuerdos de stablecoins con funcion de infraestructura
+official_source: https://www.bis.org/cpmi/publ/d101.htm
+last_verified: "2026-08-06"
+supersedes: >-
+  los Principios basicos para sistemas de pago de importancia sistemica y las
+  recomendaciones anteriores sobre liquidacion de valores
+superseded_by: ninguno
+notes: >-
+  No son normas de aplicacion directa: obliga la norma de cada jurisdiccion que
+  los incorpora. Su aportacion para la Parte 21 es que el principio sobre
+  entrega contra pago y el principio sobre liquidacion en dinero de banco central
+  son anteriores a la tokenizacion y siguen decidiendo el diseno: la atomicidad
+  no es una novedad conceptual, es una forma de cumplir un principio de 2012 sin
+  su coste habitual de liquidez. En 2022 CPMI e IOSCO publicaron su aplicacion a
+  los acuerdos de stablecoins. Ver Parte 21, clases 8, 10, 12 y 15, y Parte 22.

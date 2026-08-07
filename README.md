@@ -3,17 +3,17 @@
 # Finance & Banking Evolution Program
 
 **De no saber calcular un porcentaje a dirigir un banco digital.**
-Programa abierto de 300 clases con bibliografía oficial verificable en cada una.
+Programa abierto de 316 clases con bibliografía oficial verificable en cada una.
 
 [![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Clases](https://img.shields.io/badge/clases-300%20%2F%20352-2ea44f)](STATUS.md)
-[![Partes](https://img.shields.io/badge/partes-20-1f6feb)](SYLLABUS.md)
-[![Horas](https://img.shields.io/badge/horas-450-8957e5)](SYLLABUS.md)
-[![Versión](https://img.shields.io/badge/versión-1.5.0-0969da)](CHANGELOG.md)
+[![Clases](https://img.shields.io/badge/clases-316%20%2F%20352-2ea44f)](STATUS.md)
+[![Partes](https://img.shields.io/badge/partes-21-1f6feb)](SYLLABUS.md)
+[![Horas](https://img.shields.io/badge/horas-474-8957e5)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-1.6.0-0969da)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
 [![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](SYLLABUS.md)
 
@@ -38,7 +38,7 @@ un banco digital ante un supervisor.
 
 El programa está en **ampliación activa**: las 16 partes originales están
 completas y la **Etapa 5 — Finanzas digitales** añade siete partes más, de las
-que hoy están publicadas las cuatro primeras. Las cifras exactas de avance están en
+que hoy están publicadas las cinco primeras. Las cifras exactas de avance están en
 [STATUS.md](STATUS.md), que se genera contando los archivos.
 
 No es una colección de apuntes. Cada clase sigue una **estructura fija verificada por
@@ -52,10 +52,10 @@ IOSCO, CPMI y NIST.
 
 <table>
 <tr>
-<td width="25%" align="center"><b>300</b><br>clases completas</td>
+<td width="25%" align="center"><b>316</b><br>clases completas</td>
 <td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
-<td width="25%" align="center"><b>124</b><br>laboratorios</td>
-<td width="25%" align="center"><b>20</b><br>proyectos integradores</td>
+<td width="25%" align="center"><b>132</b><br>laboratorios</td>
+<td width="25%" align="center"><b>21</b><br>proyectos integradores</td>
 </tr>
 </table>
 
@@ -197,7 +197,7 @@ flowchart LR
 
 Continúa el programa desde la introducción fintech de la Parte 14 hacia la
 infraestructura financiera. Siete partes, de las que hoy están publicadas las
-cuatro primeras. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
+cinco primeras. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
 
 | # | Parte | Clases | Contenido central |
 |---:|---|---:|---|
@@ -205,7 +205,7 @@ cuatro primeras. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md
 | 18 | [Pagos transfronterizos, remesas y liquidación](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | Corresponsalía, ISO 20022, finalidad, liquidez, PvP, interconexión |
 | 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | Consenso, finalidad, redes autorizadas, contratos, oráculos, comparación con base centralizada |
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | Taxonomía, reservas, redención, corrida, CBDC, custodia, contagio |
-| 21 | Tokenización, FX on-chain y mercados programables | — | Derecho económico, emisión, mercado secundario, DvP y PvP |
+| 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | Registro de referencia, emisión, mercado secundario, DvP, PvP y colateral |
 | 22 | Regulación de mercados financieros digitales | — | Ley Fintec, MiCA, DORA, regulación comparada |
 | 23 | Proyecto: banco digital y mercado tokenizado | — | Construir, operar y defender la infraestructura completa |
 

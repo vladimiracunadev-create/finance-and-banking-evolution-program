@@ -5,9 +5,9 @@
 | Campo | Valor |
 |---|---|
 | **Nombre** | `finance-and-banking-evolution-program` |
-| **Versión** | `1.5.0` |
+| **Versión** | `1.6.0` |
 | **Fecha** | 2026-08-06 |
-| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (4 de 7 partes publicadas) |
+| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (5 de 7 partes publicadas) |
 | **Licencia** | MIT |
 | **Idioma** | Español |
 | **Repositorio** | <https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program> |
@@ -20,19 +20,19 @@
 
 | Componente | Cantidad |
 |---|---:|
-| Partes publicadas | 20 |
+| Partes publicadas | 21 |
 | Partes planificadas | 23 |
-| Clases publicadas | 300 |
+| Clases publicadas | 316 |
 | Clases planificadas | 352 |
-| Horas de sesión publicadas | 450 |
+| Horas de sesión publicadas | 474 |
 | Duración por clase | 90 min |
-| Laboratorios | 124 |
-| Soluciones de referencia | 28 |
-| Evaluaciones | 40 |
-| Proyectos integradores | 20 |
-| Aplicaciones funcionales | 7 |
+| Laboratorios | 132 |
+| Soluciones de referencia | 36 |
+| Evaluaciones | 42 |
+| Proyectos integradores | 21 |
+| Aplicaciones funcionales | 9 |
 | Conjuntos de datos sintéticos | 6 |
-| Fichas normativas estructuradas | 6 |
+| Fichas normativas estructuradas | 8 |
 
 ## Estructura de una clase
 
@@ -64,8 +64,8 @@
 | Analista | 5 – 8 | 60 | 90 |
 | Bancario | 9 – 12 | 64 | 96 |
 | Dirección | 13 – 16 | 60 | 90 |
-| Finanzas digitales | 17 – 23 | 60 de 112 | 90 |
-| **Total** | **23** | **300 de 352** | **450** |
+| Finanzas digitales | 17 – 23 | 76 de 112 | 114 |
+| **Total** | **23** | **316 de 352** | **474** |
 
 ## Aplicaciones incluidas
 
@@ -78,6 +78,8 @@
 | `cross_border_payments_lab` | Cuatro flujos, motor de rutas, ISO 20022, screening, PvP, enlace de pagos inmediatos y ruta con stablecoin | ✅ |
 | `dlt_financial_lab` | Cadena, firmas, árbol de Merkle con sumas, consenso bizantino, contrato con reentrada y oráculo | ✅ |
 | `digital_assets_risk_lab` | Clasificación por promesa, reservas, cola de redención, espiral algorítmica, custodia, profundidad y contagio | ✅ |
+| `tokenization_platform` | Registro de referencia, emisión, ciclo de vida, entrega contra pago atómica y cascada de colateral | ✅ |
+| `onchain_fx_lab` | Coste total por ruta, creador de mercado automatizado y riesgo de liquidación en divisas | ✅ |
 
 ## Documentos generados automáticamente
 

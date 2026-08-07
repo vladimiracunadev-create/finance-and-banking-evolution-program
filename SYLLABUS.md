@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**20 partes · 300 clases · 450 horas ·
+**21 partes · 316 clases · 474 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -30,7 +30,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 18 | [Pagos transfronterizos, remesas y liquidación internacional](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **300** | **450** | |
+| 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **316** | **474** | |
 
 ## Índice de clases
 
@@ -478,13 +479,36 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 15 | [Contabilidad, tributación y balance](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md) | profesional |
 | 16 | [Proyecto: evaluación de un activo digital](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/16-proyecto-evaluacion-de-un-activo-digital.md) | profesional |
 
+### Parte 21 — Tokenización, FX on-chain y mercados programables
+
+[Índice de la parte](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) · [Laboratorios](modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs) · [Evaluaciones](modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments) · [Proyecto](modules/20-tokenizacion-fx-onchain-y-mercados-programables/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [Qué es y qué no es tokenizar](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/01-que-es-y-que-no-es-tokenizar.md) | profesional |
+| 02 | [El registro de referencia](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/02-el-registro-de-referencia.md) | profesional |
+| 03 | [Derechos económicos y políticos del tenedor](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/03-derechos-economicos-y-politicos-del-tenedor.md) | profesional |
+| 04 | [Emisión: mercado primario tokenizado](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/04-emision-mercado-primario-tokenizado.md) | profesional |
+| 05 | [Ciclo de vida del instrumento](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/05-ciclo-de-vida-del-instrumento.md) | profesional |
+| 06 | [Mercado secundario y liquidez prometida](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/06-mercado-secundario-y-liquidez-prometida.md) | profesional |
+| 07 | [Fraccionamiento y acceso](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/07-fraccionamiento-y-acceso.md) | profesional |
+| 08 | [Entrega contra pago atómica](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/08-entrega-contra-pago-atomica.md) | profesional |
+| 09 | [Custodia de valores tokenizados](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/09-custodia-de-valores-tokenizados.md) | profesional |
+| 10 | [El tramo de dinero](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/10-el-tramo-de-dinero.md) | profesional |
+| 11 | [FX: del mercado mayorista al registro](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/11-fx-del-mercado-mayorista-al-registro.md) | profesional |
+| 12 | [Pago contra pago y riesgo de liquidación](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/12-pago-contra-pago-y-riesgo-de-liquidacion.md) | profesional |
+| 13 | [Creación de mercado automatizada](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/13-creacion-de-mercado-automatizada.md) | profesional |
+| 14 | [Colateral y garantías tokenizadas](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/14-colateral-y-garantias-tokenizadas.md) | profesional |
+| 15 | [Interoperabilidad entre infraestructuras](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/15-interoperabilidad-entre-infraestructuras.md) | profesional |
+| 16 | [Proyecto: mercado primario y secundario](modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/16-proyecto-mercado-primario-y-secundario.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 20 proyectos integradores.
+- Entrega de los 21 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Activos digitales, stablecoins y dinero programable» (Parte 20, clase 16).
+- Defensa del proyecto final «Tokenización, FX on-chain y mercados programables» (Parte 21, clase 16).
 
 ## Resultados finales
 

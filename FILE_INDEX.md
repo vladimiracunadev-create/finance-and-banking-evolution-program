@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**689 archivos de texto versionados.**
+**744 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -76,6 +76,12 @@ repositorio. No se edita a mano.
 - `apps/financial_calculators/README.md`
 - `apps/financial_calculators/calculators.py`
 - `apps/financial_calculators/cli.py`
+- `apps/onchain_fx_lab/README.md`
+- `apps/onchain_fx_lab/__init__.py`
+- `apps/onchain_fx_lab/amm.py`
+- `apps/onchain_fx_lab/cli.py`
+- `apps/onchain_fx_lab/pricing.py`
+- `apps/onchain_fx_lab/settlement.py`
 - `apps/open_finance_sandbox/README.md`
 - `apps/open_finance_sandbox/__init__.py`
 - `apps/open_finance_sandbox/authorization_server/__init__.py`
@@ -94,6 +100,14 @@ repositorio. No se edita a mano.
 - `apps/openbank_simulator/README.md`
 - `apps/openbank_simulator/bank.py`
 - `apps/openbank_simulator/cli.py`
+- `apps/tokenization_platform/README.md`
+- `apps/tokenization_platform/__init__.py`
+- `apps/tokenization_platform/cli.py`
+- `apps/tokenization_platform/collateral.py`
+- `apps/tokenization_platform/issuance.py`
+- `apps/tokenization_platform/lifecycle.py`
+- `apps/tokenization_platform/registry.py`
+- `apps/tokenization_platform/settlement.py`
 - `datasets/README.md`
 - `datasets/loan_applications_synthetic.csv`
 - `datasets/personal_budget_synthetic.csv`
@@ -125,6 +139,7 @@ repositorio. No se edita a mano.
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
 - `docs/mapa-pagos-transfronterizos.md`
+- `docs/mapa-tokenizacion.md`
 - `docs/metodologia-verificacion-regulatoria.md`
 - `docs/ruta-aprendizaje.md`
 - `localizations/TEMPLATE.md`
@@ -661,15 +676,53 @@ repositorio. No se edita a mano.
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-06.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-07.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-08.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments/diagnostic.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments/final.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/01-que-es-y-que-no-es-tokenizar.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/02-el-registro-de-referencia.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/03-derechos-economicos-y-politicos-del-tenedor.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/04-emision-mercado-primario-tokenizado.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/05-ciclo-de-vida-del-instrumento.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/06-mercado-secundario-y-liquidez-prometida.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/07-fraccionamiento-y-acceso.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/08-entrega-contra-pago-atomica.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/09-custodia-de-valores-tokenizados.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/10-el-tramo-de-dinero.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/11-fx-del-mercado-mayorista-al-registro.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/12-pago-contra-pago-y-riesgo-de-liquidacion.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/13-creacion-de-mercado-automatizada.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/14-colateral-y-garantias-tokenizadas.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/15-interoperabilidad-entre-infraestructuras.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/16-proyecto-mercado-primario-y-secundario.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-01.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-02.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-03.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-04.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-05.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-06.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-07.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/labs/lab-08.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/project/README.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-01.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-02.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-03.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-04.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-05.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-06.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-07.md`
+- `modules/20-tokenizacion-fx-onchain-y-mercados-programables/solutions/lab-08.md`
 - `portfolio/README.md`
 - `projects/README.md`
 - `pyproject.toml`
 - `regulatory/README.md`
 - `regulatory/chile/ley-21521.yml`
 - `regulatory/internacional/bcbs-sco60-criptoactivos.yml`
+- `regulatory/internacional/cpmi-iosco-pfmi.yml`
 - `regulatory/internacional/fsb-hoja-de-ruta-g20.yml`
 - `regulatory/internacional/fsb-stablecoins-globales.yml`
 - `regulatory/internacional/gafi-recomendacion-16.yml`
+- `regulatory/union-europea/dlt-pilot-reglamento-2022-858.yml`
 - `regulatory/union-europea/mica-reglamento-2023-1114.yml`
 - `requirements-site.txt`
 - `requirements.txt`
@@ -677,9 +730,11 @@ repositorio. No se edita a mano.
 - `tests/test_cross_border_payments_lab.py`
 - `tests/test_digital_assets_risk_lab.py`
 - `tests/test_dlt_financial_lab.py`
+- `tests/test_onchain_fx_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`
 - `tests/test_scoring.py`
+- `tests/test_tokenization_platform.py`
 - `tools/build_file_index.py`
 - `tools/build_site.py`
 - `tools/build_syllabus.py`

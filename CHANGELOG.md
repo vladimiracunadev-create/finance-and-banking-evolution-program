@@ -5,6 +5,75 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [1.6.0] — 2026-08-06
+
+Quinta parte de la **Etapa 5**: el instrumento financiero anotado en el registro.
+Su pregunta central es jurídica antes que técnica, y decide si el único beneficio
+exclusivo de la tokenización es alcanzable.
+
+### Añadido
+
+**Parte 21 — Tokenización, FX on-chain y mercados programables**
+
+- 16 clases de 90 minutos, con el eje de que **tokenizar no crea un derecho: lo
+  representa**, y que si el registro oficial sigue mandando, la liquidación
+  atómica es imposible por construcción.
+- De cinco promesas habituales de la tokenización, la parte demuestra que **dos
+  resisten**: la operación fuera del horario del sistema de pagos y la
+  liquidación atómica contra el dinero, esta última solo si ambos tramos están
+  en el mismo registro.
+- 8 laboratorios con solución de referencia comentada.
+- Evaluación diagnóstica y final con rúbrica que no puntúa las decisiones
+  justificadas por «es más adecuado».
+- Proyecto integrador de doce decisiones, cada una con su alternativa medida, que
+  **puede concluir que no procede tokenizar y obtener la máxima calificación**.
+
+**Aplicación `apps/tokenization_platform/`**
+
+- `registry`: espejo frente a bloqueo de origen, con las seis causas de
+  divergencia, conciliación completa, congelación simultánea y autoridad de
+  resolución obligatoria.
+- `issuance`: libro de órdenes, tres mecanismos de adjudicación, coste del
+  bloqueo del importe y emisión desierta con liberación automática.
+- `lifecycle`: cupón que verifica el aprovisionamiento **antes** de pagar,
+  inmovilización con doble aprobación y vencimiento que destruye solo lo
+  confirmado.
+- `settlement`: entrega contra pago que rechaza antes de bloquear, con
+  `observar()` para poder probar la ausencia de estado intermedio, y que se niega
+  a operar si el tramo de dinero está fuera del registro.
+- `collateral`: recorte, colchón, cascada de liquidaciones y la corrección que la
+  apaga sin tocar ningún parámetro de riesgo.
+
+**Aplicación `apps/onchain_fx_lab/`**
+
+- `pricing`: coste total por ruta con los seis tramos y corrección por
+  profundidad del libro.
+- `amm`: producto constante, deslizamiento y pérdida por divergencia, con la
+  razón crítica resuelta por bisección.
+- `settlement`: ventana de irrevocable a confirmado, y comparación de neteo,
+  límites y pago contra pago **contra la misma base**, con la oponibilidad del
+  acuerdo como parámetro explícito.
+
+- 62 pruebas entre ambas aplicaciones, cinco de las cuales **documentan defectos
+  o errores de razonamiento y deben pasar**.
+
+**Documentación y metadatos**
+
+- `docs/mapa-tokenizacion.md` con las cuatro preguntas de viabilidad, la tabla de
+  dónde está cada concepto y las seis afirmaciones que la parte desmonta.
+- 20 términos nuevos en el glosario digital, cada uno con su «qué NO significa».
+- Fichas normativas del régimen piloto DLT de la Unión Europea y de los
+  Principios para las Infraestructuras del Mercado Financiero.
+
+### Cambiado
+
+- La cifra publicada pasa a **316 clases en 21 partes** (474 horas).
+- `README.md`, `MANIFEST.md` y `ROADMAP.md` reflejan cinco de las siete partes de
+  la Etapa 5 publicadas. La versión `2.0.0` sigue reservada para cuando existan
+  las siete.
+
+---
+
 ## [1.5.0] — 2026-08-06
 
 Cuarta parte de la **Etapa 5**: lo que circula sobre el registro. El eje es que

@@ -1,0 +1,34 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: union-europea
+authority: Parlamento Europeo y Consejo de la Union Europea
+instrument_type: reglamento
+instrument_number: "2022/858"
+title: >-
+  Reglamento (UE) 2022/858 sobre un regimen piloto de infraestructuras del
+  mercado basadas en tecnologia de registro descentralizado
+publication_date: "2022-06-02"
+effective_date: "2023-03-23"
+implementation_stage: en aplicacion, con autorizaciones caso a caso
+status: vigente
+scope: >-
+  Crea un regimen temporal que permite explotar sistemas multilaterales de
+  negociacion, sistemas de liquidacion y sistemas combinados basados en registro
+  descentralizado, con exenciones tasadas de la normativa general de mercados y
+  con limites de volumen por instrumento y por infraestructura.
+activities_covered:
+  - negociacion de valores en registro descentralizado
+  - liquidacion de valores en registro descentralizado
+  - operacion de sistemas combinados de negociacion y liquidacion
+  - registro y anotacion de valores admitidos
+official_source: https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858
+last_verified: "2026-08-06"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  Es una referencia comparada, no derecho aplicable en Chile. Se cita porque
+  resuelve de forma expresa la pregunta central de la Parte 21: reconoce que una
+  anotacion en un registro descentralizado pueda producir efectos de registro de
+  valores, y a cambio impone limites de volumen y una estrategia de transicion
+  obligatoria por si la infraestructura tiene que cesar. Ese plan de transicion
+  es el equivalente regulatorio del plan de sustitucion del custodio de la
+  clase 9. Ver Parte 21, clases 1, 2, 9 y 16, y Parte 22.

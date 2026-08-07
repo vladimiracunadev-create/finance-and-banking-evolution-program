@@ -4,7 +4,7 @@ Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
 etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro.
 
-> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 20.
+> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 21.
 
 ## Finanzas abiertas
 
@@ -771,6 +771,239 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Es el canal de contagio menos visible y el que más sorprende.
 - **Primera clase.** 20.14 · **Otras.** 17.2.
 
+## Tokenización y mercados
+
+### Tokenización
+
+- **Definición.** Representación en un registro programable de un derecho que ya
+  existe fuera de él.
+- **Qué NO significa.** No es digitalizar —eso automatiza un proceso— ni
+  desmaterializar —eso ocurrió hace décadas— ni emitir. **No crea un derecho: lo
+  representa**, y por eso hay dos representaciones y hay que decidir cuál manda.
+- **Ejemplo.** Un bono corporativo anotado además en un registro distribuido.
+- **Riesgo.** Sin decidir el registro de referencia, la atomicidad es imposible y
+  el coste de conciliación es permanente.
+- **Primera clase.** 21.1 · **Otras.** 21.2, 21.8.
+
+### Emisión nativa
+
+- **Definición.** El instrumento nace en el registro y no existe en ningún otro
+  sitio.
+- **Qué NO significa.** No es tokenizar algo previo. Es más limpia —no hay dos
+  representaciones— y más difícil de encajar jurídicamente.
+- **Ejemplo.** Un pagaré emitido directamente sobre el registro, sin anotación
+  previa en un depositario.
+- **Riesgo.** Puede no tener un régimen claro en la jurisdicción de emisión.
+- **Primera clase.** 21.1.
+
+### Registro de referencia
+
+- **Definición.** Aquel cuya versión prevalece cuando dos registros discrepan.
+- **Qué NO significa.** No es «el más completo» ni «el más actualizado»: es una
+  decisión jurídica que hay que tomar **por escrito antes de emitir**. Si no está
+  tomada, la tomará un tribunal, tarde y caro.
+- **Ejemplo.** El registro del administrador del fondo, con el token como espejo.
+- **Riesgo.** Con un espejo, la liquidación atómica es imposible por
+  construcción.
+- **Primera clase.** 21.2 · **Otras.** 21.8, 21.9.
+
+### Bloqueo de origen
+
+- **Definición.** Inmovilizar el saldo en el registro oficial y emitir su
+  representación en el token, de modo que solo uno esté operativo a la vez.
+- **Qué NO significa.** No es una conciliación más rápida: es la **ausencia** de
+  divergencia estructural, porque no hay dos versiones que puedan diferir.
+- **Ejemplo.** El partícipe inmoviliza su participación y recibe el token; al
+  salir, el token se destruye y el saldo se libera.
+- **Riesgo.** No elimina las divergencias que vienen de fuera, como un embargo.
+- **Primera clase.** 21.2.
+
+### Atomicidad
+
+- **Definición.** Propiedad de un conjunto de movimientos: ocurren todos o no
+  ocurre ninguno.
+- **Qué NO significa.** **No es que ocurran «casi a la vez».** Y no basta con que
+  haya una reversión: una reversión demuestra que hubo un estado intermedio, y en
+  ese estado alguien pudo actuar.
+- **Ejemplo.** Una prueba que intenta observar el estado entre los dos
+  movimientos y no encuentra ninguno a medias.
+- **Riesgo.** Prometerla con el tramo de dinero fuera del registro.
+- **Primera clase.** 21.8 · **Otras.** 21.2, 21.10.
+
+### Entrega contra pago
+
+- **Definición.** Que la entrega del valor ocurra si y solo si ocurre el pago.
+- **Qué NO significa.** No es lo mismo que pago contra pago, que liquida las dos
+  patas de un cambio de divisas. Y elimina **exactamente un** riesgo de cinco: el
+  de principal.
+- **Ejemplo.** Modelo bruto simultáneo, posible sin su coste habitual de liquidez
+  si ambos tramos están en el mismo registro.
+- **Riesgo.** Presentarla como si cubriera el riesgo de reemplazo, de liquidez,
+  operativo y jurídico.
+- **Primera clase.** 21.8 · **Otras.** 21.10, 21.12.
+
+### Sobredemanda artificial
+
+- **Definición.** Demanda registrada por encima de la real porque los
+  inversionistas exageran su orden anticipando el prorrateo.
+- **Qué NO significa.** No es interés del mercado. Con 3,75 veces registradas, la
+  genuina puede ser 1,31: el libro deja de informar.
+- **Ejemplo.** Quien quiere 100 000 y espera un prorrateo del 40 % pide 250 000.
+- **Riesgo.** El emisor concluye que colocó barato y encarece la siguiente
+  emisión hasta dejarla desierta.
+- **Primera clase.** 21.4.
+
+### Bloqueo del importe
+
+- **Definición.** Inmovilizar los fondos al enviar la orden de suscripción.
+- **Qué NO significa.** No es un requisito operativo: es **lo que hace que el
+  libro de órdenes informe**, porque convierte exagerar en algo que cuesta
+  dinero.
+- **Ejemplo.** Bloquear 500 000 durante 10 días al 4,2 % cuesta 583.
+- **Riesgo.** Sin él, pedir de más es gratis y todo el mundo lo hace.
+- **Primera clase.** 21.4.
+
+### Fecha de corte
+
+- **Definición.** Momento que fija quién tiene derecho a un evento corporativo.
+- **Qué NO significa.** No se toma donde sea cómodo: se toma en el registro de
+  referencia. Un error de una hora puede costar más corregirlo que el importe en
+  disputa.
+- **Ejemplo.** 46 operaciones en la ventana equivocada: 6 848 en disputa y 7 820
+  de coste de corrección.
+- **Riesgo.** Cobra quien no debía y hay que recuperar dinero ya pagado.
+- **Primera clase.** 21.5.
+
+### Función de inmovilización
+
+- **Definición.** Capacidad de congelar el saldo de un titular por orden de una
+  autoridad.
+- **Qué NO significa.** No transfiere ni altera saldos, y no se programa: un
+  embargo no tiene una condición verificable en el registro. Es el interruptor de
+  la Parte 19, clase 8, aplicado a un titular.
+- **Ejemplo.** Doble aprobación, registro inmutable del quién, cuándo y en virtud
+  de qué.
+- **Riesgo.** Anular el derecho al cupón de un titular que lo tenía a la fecha de
+  corte.
+- **Primera clase.** 21.5 · **Otras.** 19.8.
+
+### Liquidez prometida
+
+- **Definición.** La que un folleto declara, frente a la que se mide.
+- **Qué NO significa.** No es transferibilidad —esa la da el registro— ni
+  negociabilidad —esa la da una plataforma—. **La liquidez la dan participantes
+  dispuestos a comprar, y eso no lo da ninguna tecnología.**
+- **Ejemplo.** «Liquidez diaria» con operaciones en 74 de 182 días y el 53,8 %
+  del volumen puesto por el promotor.
+- **Riesgo.** Un activo ilíquido tokenizado sigue siendo ilíquido, ahora
+  repartido entre más gente.
+- **Primera clase.** 21.6 · **Otras.** 21.7, 20.13.
+
+### Importe de equilibrio
+
+- **Definición.** Inversión mínima por debajo de la cual el coste unitario de
+  servicio anula la prima por riesgo.
+- **Qué NO significa.** No es el mínimo que elige el marketing. Con un coste de
+  18 al año, el equilibrio puede estar en 2 250 mientras el folleto anuncia 500.
+- **Ejemplo.** Con 500, el inversionista rinde un 3,3 % frente al 4,1 % de un
+  depósito.
+- **Riesgo.** Democratizar la exposición en vez del acceso.
+- **Primera clase.** 21.7.
+
+### Tramo de dinero
+
+- **Definición.** El activo con el que se liquida la pata de efectivo de una
+  operación.
+- **Qué NO significa.** No es indiferente cuál sea: decide el capital consumido y
+  el riesgo de cola. Y si está **fuera** del registro, no hay atomicidad.
+- **Ejemplo.** CBDC mayorista, depósito tokenizado o stablecoin, por ese orden de
+  riesgo.
+- **Riesgo.** Eliminar el riesgo de principal frente a la contraparte y asumir el
+  de crédito frente al emisor del dinero.
+- **Primera clase.** 21.10 · **Otras.** 20.8, 20.10.
+
+### Ventana de exposición
+
+- **Definición.** Tiempo durante el que se ha entregado una divisa y no se ha
+  confirmado la otra.
+- **Qué NO significa.** No va del envío a la recepción esperada: va de que **mi
+  pago es irrevocable** a que **confirmo el contravalor**. Y el peor caso es el
+  viernes, no el día medio.
+- **Ejemplo.** 19 horas un día normal y 67 en fin de semana.
+- **Riesgo.** Es el único riesgo de mercado en que se pierde el 100 % del
+  principal y no una variación.
+- **Primera clase.** 21.12 · **Otras.** 18.10.
+
+### Oponibilidad del neteo
+
+- **Definición.** Que el acuerdo de compensación produzca efectos en el concurso
+  de la contraparte.
+- **Qué NO significa.** No basta con que esté firmado. Sin oponibilidad, el neteo
+  **no reduce nada** aunque el informe declare la exposición reducida.
+- **Ejemplo.** La misma cartera pasa de 46 332 a 257 400 de pérdida esperada
+  según la opinión jurídica.
+- **Riesgo.** Reportar una exposición neta que en el concurso será bruta.
+- **Primera clase.** 21.12.
+
+### Deslizamiento
+
+- **Definición.** Diferencia entre el precio marginal y el precio efectivo de una
+  operación.
+- **Qué NO significa.** No es una comisión oculta: es la forma de la curva. En un
+  mecanismo de producto constante equivale aproximadamente al **tamaño de la
+  operación como fracción de la reserva**.
+- **Ejemplo.** Operar el 2 % de la reserva produce un 2 % de deslizamiento.
+- **Riesgo.** Para operar 1 000 000 con menos del 1 % hace falta una reserva de
+  100 000 000.
+- **Primera clase.** 21.13.
+
+### Pérdida por divergencia
+
+- **Definición.** Pérdida de quien aporta reservas frente a haber conservado los
+  activos, cuando el precio externo se mueve.
+- **Qué NO significa.** **No es «impermanente»**: se materializa al retirar. Y es
+  estructural, no accidental: los arbitrajistas operan contra la reserva hasta
+  igualar el precio, y el aportante acaba con más del activo que baja.
+- **Ejemplo.** Con r = 1,45 la pérdida es del 1,70 %; con r = 4,00, del 20 %.
+- **Riesgo.** Aportar reservas es una apuesta a mucho volumen y poco movimiento,
+  sin poder retirarse ni ajustar la cotización.
+- **Primera clase.** 21.13.
+
+### Recorte
+
+- **Definición.** Descuento sobre el valor de mercado de una garantía.
+- **Qué NO significa.** No es lo mismo que el colchón entre el ratio exigido y el
+  umbral de liquidación: **el recorte cubre lo que pasa después de decidir
+  liquidar y el colchón lo que pasa antes**.
+- **Ejemplo.** 4,39 % de recorte frente a un colchón implícito del 20 %.
+- **Riesgo.** Aplicar el recorte estándar de un activo líquido a uno cien veces
+  menos profundo.
+- **Primera clase.** 21.14.
+
+### Cascada de liquidaciones
+
+- **Definición.** Liquidaciones cuya venta forzada deprime el precio y dispara
+  más liquidaciones.
+- **Qué NO significa.** No la causa un recorte insuficiente: la causa **liquidar
+  posiciones enteras** contra un mercado menos profundo que el volumen a vender.
+- **Ejemplo.** Con liquidación entera, la vuelta 1 vende 10 veces la profundidad;
+  con liquidación parcial, 2,4 veces y se apaga.
+- **Riesgo.** La corrección más eficaz —vender solo lo necesario— no toca ningún
+  parámetro de riesgo, y por eso nadie la busca ahí.
+- **Primera clase.** 21.14.
+
+### Umbral efectivo de un puente
+
+- **Definición.** Independencia real de quienes custodian el activo bloqueado en
+  una conexión entre registros.
+- **Qué NO significa.** No es el número que aparece en «5 de 9». Si cinco
+  firmantes son de la misma organización y el umbral es cinco, un solo evento lo
+  alcanza.
+- **Ejemplo.** Un puente que acumula 94 720 000 con un umbral que cuesta mucho
+  menos comprometer.
+- **Riesgo.** El puente se convierte en un objetivo económico racional.
+- **Primera clase.** 21.15 · **Otras.** 19.11, 20.12.
+
 ## Datos y privacidad
 
 ### Base de licitud
@@ -846,4 +1079,5 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 **Ver también:** [Glosario general](glosario.md) ·
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [Mapa de finanzas abiertas](mapa-finanzas-abiertas.md) ·
-[Mapa de activos digitales](mapa-activos-digitales.md)
+[Mapa de activos digitales](mapa-activos-digitales.md) ·
+[Mapa de tokenización](mapa-tokenizacion.md)
