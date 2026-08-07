@@ -68,6 +68,18 @@ def bar(done: int, total: int, width: int = 20) -> str:
     return "█" * filled + "░" * (width - filled)
 
 
+def peso(archivo: Path) -> int:
+    """Tamano de una clase, en bytes y con final de linea normalizado.
+
+    No se usa `stat().st_size` porque cuenta los bytes del disco: en Windows una
+    clase guardada con CRLF pesa una linea mas por cada salto, y entonces la
+    cifra de STATUS.md no coincide con la que calcula la integracion continua
+    sobre el mismo contenido en LF. El tamano de una clase es una propiedad de
+    su texto, no del sistema donde se lea.
+    """
+    return len(archivo.read_text(encoding="utf-8").replace("\r\n", "\n").encode("utf-8"))
+
+
 def collect() -> tuple[list[tuple[str, str, int, int, int]], int, int, int]:
     rows: list[tuple[str, str, int, int, int]] = []
     total_done = total_planned = total_bytes = 0
@@ -75,7 +87,7 @@ def collect() -> tuple[list[tuple[str, str, int, int, int]], int, int, int]:
         module = MODULES / name
         classes = sorted((module / "classes").glob("*.md")) if module.exists() else []
         done = len(classes)
-        size = sum(p.stat().st_size for p in classes)
+        size = sum(peso(p) for p in classes)
         rows.append((name, module_title(module), done, planned, size))
         total_done += done
         total_planned += planned
