@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos separan autenticar de autorizar, que es la distinción que ordena toda la clase; los cinco siguientes son los elementos del protocolo. El **PKCE** es la protección que impide que un tercero intercepte el código de autorización, y en un contexto financiero no es opcional.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `autenticación` | Comprobar quién es alguien |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `introspección` | Consulta al emisor sobre la validez de un token |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una delegación con tres partes: el titular autoriza al banco a entregar un token, y el tercero usa ese token en vez de las credenciales. La credencial nunca sale del banco, y ese es todo el punto del protocolo.
 
 ```text
 LA PREGUNTA QUE ORDENA TODO
@@ -232,6 +236,8 @@ OMITIR EL PASO 3 ES EL DEFECTO MÁS COMÚN
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo recorre un flujo de autorización completo con sus parámetros. Conviene seguir dónde está la credencial en cada paso: nunca pasa por el tercero.
+
 **Situación.** Auditas la implementación de un proveedor de información. Estos son
 los hallazgos de la revisión de código y de tráfico.
 
@@ -368,6 +374,8 @@ verificación.
 
 ## 🧭 Perspectivas
 
+El flujo de autorización se ve distinto desde cada actor. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una pantalla de su banco | Si aprueba |
@@ -380,6 +388,8 @@ verificación.
 
 ## 🏦 Del cliente al banco
 
+El cliente introduce su clave en la pantalla del banco y el tercero recibe un token con alcance limitado. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me llevó a la web de mi banco» | El cliente se autentica ante su institución | 17, clase 6 |
@@ -388,6 +398,8 @@ verificación.
 | «Alguien entró a mi cuenta» | Token de identidad sin verificar | 17, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del protocolo están en su implementación y en la gestión de los tokens. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -401,6 +413,8 @@ verificación.
 
 ## 🧪 Práctica
 
+El laboratorio pide recorrer un flujo completo y detectar dónde fallaría sin PKCE. El punto de intercepción es el objetivo del ejercicio.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Implementa el flujo completo con PKCE.
@@ -409,6 +423,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Valida un token de identidad con los seis pasos, y falla uno a propósito.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen implementaciones inseguras del protocolo. Las causas son flujos obsoletos y tokens sin acotar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

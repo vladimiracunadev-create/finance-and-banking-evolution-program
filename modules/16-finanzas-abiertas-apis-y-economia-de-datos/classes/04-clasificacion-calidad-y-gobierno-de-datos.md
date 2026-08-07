@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos clasifican el dato por su origen; los cuatro siguientes, su calidad y sus límites de uso. La distinción entre **dato derivado e inferido** es la que más consecuencias tiene: un dato inferido puede revelar información sensible que el titular nunca entregó.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `clasificación` | Asignar a un dato un nivel de sensibilidad y un tratamiento |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `finalidad` | Uso declarado y limitado para el que se obtuvo el dato |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de transformación con un límite: cada transformación produce un dato nuevo, y el consentimiento del dato original no cubre automáticamente lo que se deduce de él.
 
 ```text
 TRES PREGUNTAS ANTES DE EXPONER UN CAMPO
@@ -191,6 +195,8 @@ REGLA PRÁCTICA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica un conjunto de datos y determina qué consentimiento cubre cada uno. Conviene detenerse en los inferidos: son los que exigen una base propia.
 
 **Situación.** Antes de publicar la API de movimientos, calidad audita una muestra
 de 50 000 movimientos de 2 400 cuentas.
@@ -331,6 +337,8 @@ interpretables.
 
 ## 🧭 Perspectivas
 
+La clasificación del dato afecta a lo que cada actor puede hacer con él. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un gasto en el mes equivocado | Si confía en la app |
@@ -344,6 +352,8 @@ interpretables.
 
 ## 🏦 Del cliente al banco
 
+El cliente comparte movimientos y el banco maneja datos derivados e inferidos con reglas distintas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El gasto salió en otro mes» | Fecha de operación vs. contabilización | 17, clase 4 |
@@ -352,6 +362,8 @@ interpretables.
 | «¿Cómo saben que tengo hijos?» | Dato inferido no declarado | 17, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos de esta clase están en la inferencia y en la calidad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -364,6 +376,8 @@ interpretables.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar datos y determinar el consentimiento de cada uno. Los datos inferidos son los que deciden el ejercicio.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Clasifica quince campos por sensibilidad efectiva, no por su nombre.
@@ -372,6 +386,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Identifica un campo que decidas **no** exponer, y justifícalo por escrito.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas con datos. Las causas son inferencias sin base propia y calidad no medida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

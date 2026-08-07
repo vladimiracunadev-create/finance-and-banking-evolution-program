@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la autenticación y sus requisitos; los cuatro siguientes, el fraude y su reparto de responsabilidad. La **vinculación dinámica** es el requisito que impide el fraude más eficaz: el código de autenticación tiene que estar ligado al importe y al destinatario concretos.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `autenticación reforzada` | Verificación con al menos dos factores de categorías distintas e independientes |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `exención` | Supuesto en que la norma permite no aplicar autenticación reforzada |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de tres actores donde el fraude puede ocurrir en cualquiera y la responsabilidad recae según reglas previas. Sin esas reglas escritas, cada caso se discute desde cero.
 
 ```text
 LA PREGUNTA NO ES «¿HUBO FRAUDE?»
@@ -215,6 +219,8 @@ EL DETALLE QUE DECIDE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo reparte la responsabilidad de un fraude concreto entre los tres actores. Conviene aplicar la carga de la prueba: quién tiene que demostrar qué decide la mayoría de los casos.
 
 **Situación.** Una institución revisa 1 000 reclamos de operaciones disputadas del
 trimestre para decidir su política de autenticación.
@@ -374,6 +380,8 @@ técnico.
 
 ## 🧭 Perspectivas
 
+El fraude afecta a cada actor con consecuencias distintas. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un cargo que no reconoce | Si reclama |
@@ -386,6 +394,8 @@ técnico.
 
 ## 🏦 Del cliente al banco
 
+El cliente desconoce una operación y el banco aplica un reparto de responsabilidad con reglas previas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Yo no hice esa transferencia» | Operación no autorizada: carga de la prueba | 17, clase 11 |
@@ -394,6 +404,8 @@ técnico.
 | «Me pide esperar 30 minutos» | Retardo por beneficiario nuevo | 17, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de autenticación y de reparto. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -414,6 +426,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md) y [`labs/lab-06.md`](../labs/lab-06.md)
 4. Calcula el equilibrio entre fricción y fraude con los datos del ejercicio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen fraudes mal repartidos. Las causas son vinculación dinámica ausente y carga de la prueba mal aplicada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

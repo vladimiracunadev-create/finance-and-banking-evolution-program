@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el contrato y su evolución; los cinco siguientes, los mecanismos que hacen fiable una API. La **idempotencia** es el que evita el problema más caro: un pago reintentado por un error de red no se puede ejecutar dos veces, y eso exige diseño y no buena voluntad.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `contrato` | Especificación formal que ambas partes tratan como fuente de verdad |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `depreciación` | Retirada anunciada de una versión, con fecha |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un contrato entre dos sistemas que evolucionan a ritmos distintos. El consumidor no se actualiza cuando el proveedor quiere, y por eso todo cambio tiene que ser compatible o tener versión propia y calendario de retirada.
 
 ```text
 UNA API ES UNA PROMESA QUE OTRO PROGRAMA EN SU CÓDIGO
@@ -231,6 +235,8 @@ DIMENSIONES DEL LÍMITE
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo implementa una operación idempotente con huella canónica. Conviene reintentar la misma petición: el resultado tiene que ser idéntico y no producir un segundo movimiento.
+
 **Situación.** La API v1 lleva 14 meses en producción con 180 integradores. Hay
 que introducir cuatro cambios.
 
@@ -349,6 +355,8 @@ versiones vivas) o meterlos todos en la actual (y romper a 71 integradores).
 
 ## 🧭 Perspectivas
 
+El contrato de la API afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Que la app deja de mostrar movimientos | Si la desinstala |
@@ -361,6 +369,8 @@ versiones vivas) o meterlos todos en la actual (y romper a 71 integradores).
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un pago duplicado y el banco tiene un reintento que no se controló. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «La app dejó de leer mi banco» | Versión apagada sin migración completa | 17, clase 8 |
@@ -369,6 +379,8 @@ versiones vivas) o meterlos todos en la actual (y romper a 71 integradores).
 | «La app va lenta a fin de mes» | Límite de tasa mal dimensionado | 17, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de contrato y de reintento. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -389,6 +401,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md) y [`labs/lab-04.md`](../labs/lab-04.md)
 4. Diseña el calendario de depreciación de una versión, con su regla de parada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen integraciones que se rompen o que duplican. Las causas son cambios incompatibles sin versión y operaciones no idempotentes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las métricas de servicio y su presupuesto; los cuatro siguientes, la observación y la salida. La distinción entre **SLI, SLO y SLA** es la que hay que fijar: el compromiso contractual tiene que ser más laxo que el objetivo interno, o cada desviación se convierte en un incumplimiento y el equipo deja de reportar la verdad.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `SLI` | Indicador que mide el servicio desde la perspectiva de quien lo usa |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `plan de salida` | Cómo se sustituye un proveedor sin detener el servicio |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un presupuesto de error que se gasta: si el objetivo es 99,5 %, el 0,5 % restante es una cantidad concreta de fallos admisibles que se puede consumir en mejoras o en incidentes. Verlo como presupuesto convierte la disponibilidad en una decisión.
 
 ```text
 LA CADENA DE UNA CAÍDA EN FINANZAS ABIERTAS
@@ -230,6 +234,8 @@ LA PREGUNTA 6 ES LA QUE FALLA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el presupuesto de error de un servicio y lo contrasta con su consumo. Conviene medirlo en peticiones y no en minutos: el goteo continuo de errores no aparece en los minutos de incidente.
 
 **Situación.** Una institución proveedora revisa su trimestre antes de renovar el
 acuerdo de nivel de servicio con 180 terceros.
@@ -397,6 +403,8 @@ problema se veía.**
 
 ## 🧭 Perspectivas
 
+La disponibilidad afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una app que no carga | Si la sigue usando |
@@ -409,6 +417,8 @@ problema se veía.**
 
 ## 🏦 Del cliente al banco
 
+El cliente no puede operar y el banco consume presupuesto de error. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «La app no carga mi banco» | Goteo de 5xx, no un incidente | 17, clase 13 |
@@ -417,6 +427,8 @@ problema se veía.**
 | «Todas las apps fallaron a la vez» | Proveedor tecnológico crítico | 17, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de disponibilidad y de dependencia. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -429,6 +441,8 @@ problema se veía.**
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el presupuesto de error de un servicio y contrastarlo con su consumo real. La medición en peticiones y no en minutos es lo que hace visible el goteo continuo de errores.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Define SLI, SLO y SLA de tu API, con ventana y umbral.
@@ -437,6 +451,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Escribe el procedimiento de notificación por nivel de incidente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen servicios que cumplen el compromiso y no funcionan. La causa es la métrica elegida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

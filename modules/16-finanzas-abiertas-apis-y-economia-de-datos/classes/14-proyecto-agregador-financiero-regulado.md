@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el entregable y su registro; los cuatro siguientes, lo que lo hace defendible. El **límite declarado** es lo que cierra el proyecto: decir qué no hace el agregador es lo que evita que se use para lo que no debe.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `expediente` | Conjunto de documentos y evidencias que sostienen una autorización |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `criterio de aceptación` | Condición verificable, no opinable |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un expediente completo: cada decisión de las trece clases anteriores queda registrada con su razón, su alternativa descartada y su evidencia. Lo que se defiende no es el sistema sino el expediente.
 
 ```text
 UN EXPEDIENTE RESPONDE TRES PREGUNTAS, EN ESTE ORDEN
@@ -192,6 +196,8 @@ LAS PREGUNTAS QUE SIEMPRE LLEGAN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre la construcción del expediente y su defensa. Conviene fijarse en las decisiones registradas: son la respuesta a casi todas las preguntas del comité.
 
 **Situación.** Actúas como revisor de un expediente entregado. Estos son los
 extractos relevantes.
@@ -362,6 +368,8 @@ decisión, pero no la sustituye**.
 
 ## 🧭 Perspectivas
 
+El proyecto afecta a los actores del ecosistema de las trece clases anteriores. La tabla los reúne.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un producto que le pide seis permisos | Si acepta |
@@ -374,6 +382,8 @@ decisión, pero no la sustituye**.
 
 ## 🏦 Del cliente al banco
 
+El cliente usa un agregador y el banco responde de una parte de la cadena. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me pide ver mi mora» | Alcance sin finalidad | 17, clases 5 y 14 |
@@ -382,6 +392,8 @@ decisión, pero no la sustituye**.
 | «¿Quién responde?» | Matriz de responsabilidad | 17, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del proyecto reúnen los de toda la parte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -394,6 +406,8 @@ decisión, pero no la sustituye**.
 
 ## 🧪 Práctica
 
+El laboratorio es el proyecto completo. Lo que se evalúa es el expediente y la defensa, no el código.
+
 En el [proyecto de la parte](../project/README.md):
 
 1. Construye las doce piezas del expediente.
@@ -402,6 +416,8 @@ En el [proyecto de la parte](../project/README.md):
 4. Revisa el expediente de otra persona con la rúbrica y escríbele la devolución.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa. Casi todos se evitan registrando las decisiones cuando se toman.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

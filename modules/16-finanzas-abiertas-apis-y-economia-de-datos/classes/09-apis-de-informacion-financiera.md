@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las familias de producto y sus casos difíciles; los cuatro siguientes, los datos que se exponen. La **titularidad compartida** es el caso que rompe casi todos los diseños: una cuenta con dos titulares exige decidir de quién es el consentimiento y qué ve cada uno.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `familia de producto` | Conjunto de productos con la misma estructura de datos |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `beneficiario` | Persona designada, típica de seguros y previsión |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un catálogo por familia: cada tipo de producto expone posiciones, movimientos y condiciones, y lo que cambia entre familias es qué significa cada uno de los tres.
 
 ```text
 TODO PRODUCTO FINANCIERO SE DESCRIBE CON TRES BLOQUES
@@ -227,6 +231,8 @@ PROBLEMA 3 · DATOS DE TERCEROS
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo modela una cuenta con titularidad compartida y determina qué ve cada titular. Conviene fijarse en los datos de terceros: los movimientos revelan a quién se paga.
+
 **Situación.** Un producto de «salud financiera» quiere calcular la capacidad de
 ahorro mensual del cliente. Hay que decidir qué familias necesita, en qué fase se
 puede lanzar y qué campo sensible se puede evitar.
@@ -362,6 +368,8 @@ del producto determinó el dato, y el dato determinó el alcance**.
 
 ## 🧭 Perspectivas
 
+Cada familia de producto afecta a los actores de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una cifra de capacidad de ahorro | Si confía en ella |
@@ -374,6 +382,8 @@ del producto determinó el dato, y el dato determinó el alcance**.
 
 ## 🏦 Del cliente al banco
 
+El cliente comparte su cuenta y el banco expone también datos de terceros que nunca consintieron. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Dice que tengo más de lo que tengo» | Saldo contable vs. disponible | 17, clase 9 |
@@ -382,6 +392,8 @@ del producto determinó el dato, y el dato determinó el alcance**.
 | «Sabe que estuve en mora» | Alcance de mora concedido | 17, clase 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos están en los datos de terceros y en la titularidad compartida. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -394,6 +406,8 @@ del producto determinó el dato, y el dato determinó el alcance**.
 
 ## 🧪 Práctica
 
+El laboratorio pide modelar productos de varias familias, incluida una cuenta compartida. El caso de titularidad compartida es el que decide el ejercicio.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Modela las cinco familias con los tres bloques.
@@ -402,6 +416,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Enumera los campos que descartarás en la ingesta y demuéstralo con una prueba.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen exposiciones de datos indebidas. Las causas son titularidad no resuelta y datos de terceros no filtrados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

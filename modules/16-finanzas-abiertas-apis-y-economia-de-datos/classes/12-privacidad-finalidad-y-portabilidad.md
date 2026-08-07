@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la base del tratamiento y sus límites; los cuatro siguientes, la retención y los derechos. La **limitación de finalidad** es la restricción que más se incumple sin querer: un dato obtenido para una finalidad no se puede usar para otra sin una base nueva.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `base de licitud` | Fundamento jurídico que habilita un tratamiento |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `evaluación de impacto` | Análisis previo cuando el tratamiento es de alto riesgo |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un dato con una etiqueta pegada: la finalidad para la que se obtuvo. Esa etiqueta viaja con el dato y limita todo lo que se puede hacer con él después, incluido el entrenamiento de modelos.
 
 ```text
 DOS PERMISOS DISTINTOS SOBRE EL MISMO DATO
@@ -230,6 +234,8 @@ LA PREGUNTA QUE ORDENA EL TERCER PLANO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa si un tratamiento ulterior está cubierto por la finalidad original. Conviene aplicar el criterio de compatibilidad: en dos de los tres casos no lo está.
 
 **Situación.** El equipo de datos propone tres usos nuevos de los movimientos ya
 obtenidos para categorizar gastos.
@@ -400,6 +406,8 @@ sobre el mismo dato.
 
 ## 🧭 Perspectivas
 
+La privacidad afecta a cada actor con obligaciones distintas. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una oferta que le inquieta | Si sigue usando el producto |
@@ -412,6 +420,8 @@ sobre el mismo dato.
 
 ## 🏦 Del cliente al banco
 
+El cliente comparte para una cosa y el dato puede usarse para otra. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «¿Cómo saben eso de mí?» | Dato inferido, no declarado | 17, clase 12 |
@@ -420,6 +430,8 @@ sobre el mismo dato.
 | «Borren todo lo mío» | Retención por finalidad, con obligaciones legales | 17, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de finalidad y de retención. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -432,6 +444,8 @@ sobre el mismo dato.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar tratamientos ulteriores contra la finalidad declarada. El criterio de compatibilidad es lo que se evalúa.
+
 En [`labs/lab-01.md`](../labs/lab-01.md) y el [proyecto](../project/README.md):
 
 1. Escribe la base de licitud y la finalidad de cada alcance de tu producto.
@@ -440,6 +454,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y el [proyecto](../project/README.md):
 4. Evalúa un uso ulterior con los cinco criterios y con los tres planos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen tratamientos indebidos. Las causas son finalidades demasiado amplias y retención sin plazo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

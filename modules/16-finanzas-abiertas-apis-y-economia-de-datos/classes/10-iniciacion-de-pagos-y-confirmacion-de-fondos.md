@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la orden y su ejecución; los cuatro siguientes, los estados y su irrevocabilidad. La distinción entre **orden, pago y liquidación** es la que produce más malentendidos: son tres momentos distintos y el cliente los percibe como uno.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `orden de pago` | Instrucción autorizada por el cliente |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `firmeza` | Punto a partir del cual el pago no puede revertirse unilateralmente |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres momentos separados en el tiempo: se ordena, se ejecuta y se liquida. El iniciador solo controla el primero, y todo lo que promete sobre los otros dos depende de infraestructura que no opera.
 
 ```text
 TRES MOMENTOS QUE NO SON EL MISMO
@@ -225,6 +229,8 @@ SI LA OPERACIÓN RESULTA NO AUTORIZADA
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo sigue una orden de pago por sus tres momentos con sus estados. Conviene situar la firmeza: a partir de ahí no hay devolución posible.
+
 **Situación.** Un comercio integra el botón de pago. En la primera semana
 aparecen tres incidentes.
 
@@ -372,6 +378,8 @@ del sistema, sino de estados mal comunicados.
 
 ## 🧭 Perspectivas
 
+La iniciación de pagos cambia el papel de cada actor. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un botón «pagar con mi banco» | Si lo usa |
@@ -384,6 +392,8 @@ del sistema, sino de estados mal comunicados.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que pagó y el banco distingue orden, pago y liquidación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me cobraron dos veces» | Idempotencia ausente | 17, clases 8 y 10 |
@@ -392,6 +402,8 @@ del sistema, sino de estados mal comunicados.
 | «Pagué y esperé un rato» | Ejecución con corte horario | 18, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos están en los estados intermedios y en la irrevocabilidad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -404,6 +416,8 @@ del sistema, sino de estados mal comunicados.
 
 ## 🧪 Práctica
 
+El laboratorio pide seguir una orden de pago por sus tres momentos y situar la firmeza en cada uno. Los estados intermedios son los que producen los reclamos, y distinguirlos de los finales es el objetivo del ejercicio.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Implementa la máquina de estados con los seis estados y sus transiciones.
@@ -412,6 +426,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Escribe la prueba que detecta el patrón de bisección.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pagos con estado incierto. Las causas son estados no finales tratados como finales.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

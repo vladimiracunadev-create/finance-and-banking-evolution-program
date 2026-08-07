@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son el ciclo de vida del consentimiento; los tres siguientes, su evidencia y sus patologías. La **fatiga de consentimiento** es el problema de diseño que arruina el régimen desde dentro: si se pide permiso demasiadas veces, el titular acepta sin leer y el consentimiento deja de informar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `alcance` | Unidad mínima de autorización, ligada a una finalidad |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `consentimiento de un solo uso` | Autorización ligada a una operación concreta |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un permiso con cuatro dimensiones: qué datos, para qué finalidad, durante cuánto tiempo y con qué posibilidad de retirarlo. Un consentimiento que no acota las cuatro no es un consentimiento, es una autorización general.
 
 ```text
 UN CONSENTIMIENTO ES UN CONTRATO CON CUATRO COORDENADAS
@@ -215,6 +219,8 @@ QUÉ HACER
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo construye un consentimiento completo con sus cuatro dimensiones y su evidencia. Conviene comparar con uno en bloque: el primero es más trabajo y es el único que resiste una revisión.
+
 **Situación.** Un producto de categorización de gastos mide su embudo de
 consentimiento y sus revocaciones durante un trimestre.
 
@@ -344,6 +350,8 @@ de producto y la validez del acto apuntaban en direcciones opuestas.
 
 ## 🧭 Perspectivas
 
+El consentimiento significa cosas distintas para cada actor de la cadena. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una pantalla con cinco líneas | Si lee o si acepta |
@@ -356,6 +364,8 @@ de producto y la validez del acto apuntaban en direcciones opuestas.
 
 ## 🏦 Del cliente al banco
 
+El cliente dice que autorizó algo y el banco tiene que poder demostrar exactamente qué. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Acepté sin leer» | Fatiga: cuatro señales medibles | 17, clase 5 |
@@ -364,6 +374,8 @@ de producto y la validez del acto apuntaban en direcciones opuestas.
 | «Me lo volvieron a pedir» | Renovación crea un consentimiento nuevo | 17, clase 5 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del consentimiento son de diseño y de evidencia. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -384,6 +396,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-05.md`](../labs/lab-05.md)
 4. Calcula las cuatro señales de fatiga sobre los datos del ejercicio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen consentimientos que no sirven. Las causas son alcances demasiado amplios y evidencia que no reconstruye la decisión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

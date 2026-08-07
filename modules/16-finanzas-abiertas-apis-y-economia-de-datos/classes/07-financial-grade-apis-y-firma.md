@@ -66,6 +66,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el perfil de seguridad y su transporte; los cinco siguientes, los mecanismos criptográficos y su gestión. La diferencia entre **token al portador y prueba de posesión** es la que decide el daño de una filtración: el primero lo puede usar cualquiera que lo tenga.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `perfil de seguridad` | Restricción de un estándar general para un uso concreto |
@@ -78,6 +80,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `rotación de claves` | Sustitución planificada de claves sin interrupción |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una escalera de exigencia: el perfil financiero añade sobre el protocolo base la autenticación mutua, la firma de mensajes y la prueba de posesión. Cada escalón cierra un ataque concreto y cuesta implementación.
 
 ```text
 EL PROBLEMA DEL TOKEN AL PORTADOR
@@ -229,6 +233,8 @@ EL ERROR CLÁSICO
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo construye una petición firmada con prueba de posesión. Conviene comparar con una al portador: la diferencia es qué puede hacer quien intercepte el token.
+
 **Situación.** Un esquema debe elegir perfil de seguridad. Se comparan tres
 opciones para 42 entidades proveedoras y 180 terceros.
 
@@ -346,6 +352,8 @@ opción: cubría una amenaza que ninguna de las tres alternativas cubría.
 
 ## 🧭 Perspectivas
 
+El perfil de seguridad afecta a cada actor de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Nada: todo ocurre bajo el capó | Nada, y por eso hay que protegerlo |
@@ -358,6 +366,8 @@ opción: cubría una amenaza que ninguna de las tres alternativas cubría.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y su exposición depende por completo de qué perfil se implementó. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «La app dejó de funcionar hoy» | Certificado caducado o rotación mal planificada | 17, clase 7 |
@@ -366,6 +376,8 @@ opción: cubría una amenaza que ninguna de las tres alternativas cubría.
 | «Esa empresa ya no opera» | Estado del directorio, no solo el certificado | 17, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son criptográficos y de gestión de claves. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -386,6 +398,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md) y [`labs/lab-06.md`](../labs/lab-06.md)
 4. Escribe la prueba que detecta un participante suspendido con certificado válido.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen implementaciones que no alcanzan el perfil. Las causas son tokens al portador y rotación de claves no ejecutada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

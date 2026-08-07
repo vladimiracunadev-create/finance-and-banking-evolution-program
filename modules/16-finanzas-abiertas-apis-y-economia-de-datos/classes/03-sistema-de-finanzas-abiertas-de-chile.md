@@ -71,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el marco legal y su registro; los cuatro siguientes, las figuras que reconoce y su calendario. El **registro de prestadores** es la puerta de entrada: sin inscripción no se puede operar, y la figura que se solicita determina qué se puede hacer y qué capital hace falta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `Ley N.º 21.521` | Ley que promueve la competencia e inclusión financiera mediante innovación y tecnología |
@@ -83,6 +85,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `despliegue por fases` | Entrada en vigor escalonada por tipo de entidad y de información |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un despliegue por fases: la norma no entra en vigor de golpe, sino que abre capacidades sucesivas con plazos publicados. Saber en qué fase está cada capacidad decide qué se puede construir hoy y qué hay que esperar.
 
 ```text
 LA LEY 21.521 HACE DOS COSAS DISTINTAS EN UN MISMO TEXTO
@@ -227,6 +231,8 @@ o cinco autoridades distintas**, y el calendario de cada una es independiente.
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo determina qué figura corresponde a un proyecto concreto y qué exige. Conviene mirar el calendario de fases: la figura puede estar disponible y su capacidad todavía no.
+
 **Situación.** Una empresa quiere lanzar en Chile un producto que: (a) muestra la
 posición consolidada del cliente en bancos y tarjetas; (b) recomienda cuál de sus
 créditos conviene prepagar; y (c) permite ordenar ese prepago desde la aplicación.
@@ -369,6 +375,8 @@ nacen de un producto que contenía una actividad que nadie nombró.
 
 ## 🧭 Perspectivas
 
+El marco chileno afecta a cada actor de forma distinta y en momentos distintos. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una app que consolida y sugiere | Si confía y consiente |
@@ -382,6 +390,8 @@ nacen de un producto que contenía una actividad que nadie nombró.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un derecho nuevo y la entidad ve obligaciones con calendario. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Esta app ve mis cuentas» | Obligación de proveer información | 17, clase 3 |
@@ -390,6 +400,8 @@ nacen de un producto que contenía una actividad que nadie nombró.
 | «¿Y si se equivocan?» | Régimen de operaciones no autorizadas | 17, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos aquí son de cumplimiento y de calendario. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -411,6 +423,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y el
 4. Anota, para cada fila, la fecha en que verificaste la fuente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos mal planificados frente a esta norma. Las causas son la figura equivocada y el calendario de fases ignorado.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

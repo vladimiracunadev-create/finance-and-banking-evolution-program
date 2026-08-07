@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las piezas de infraestructura del ecosistema; los cuatro siguientes, su gobierno y su medición. El **proveedor tecnológico crítico** es la figura que no aparece en ningún panel de consentimientos y cuya caída deja sin servicio a decenas de entidades a la vez.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `esquema` | Conjunto de reglas, estándares y gobernanza que ordena el ecosistema |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `indicador de madurez` | Medida objetiva del funcionamiento real del ecosistema |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un esquema con tres capas de actores: los que tienen los datos, los que los consumen y los que operan la infraestructura por la que viajan. La tercera capa es la que concentra el riesgo sistémico y la que menos visibilidad tiene.
 
 ```text
 UN ECOSISTEMA DE FINANZAS ABIERTAS TIENE CUATRO CAPAS
@@ -194,6 +198,8 @@ SIN DIRECTORIO EN TIEMPO REAL
 | Incidentes con impacto en cliente | Operación real | Tendencia creciente |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara dos modelos de implantación sobre el mismo mercado. Conviene mirar el ritmo de adopción y el costo por participante: los dos modelos funcionan y no producen el mismo ecosistema.
 
 **Situación.** Un supervisor debe decidir si el ecosistema está listo para
 ampliar el alcance obligatorio a productos de inversión. Tiene estos datos del
@@ -326,6 +332,8 @@ supervisión de un sistema de finanzas abiertas.
 
 ## 🧭 Perspectivas
 
+Cada actor del ecosistema ve una parte del sistema y decide sobre ella. La tabla las enfrenta, y la fila de la infraestructura es la que revela la concentración.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un panel que a veces no carga | Si sigue usándolo |
@@ -339,6 +347,8 @@ supervisión de un sistema de finanzas abiertas.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una aplicación y el banco ve una cadena de participantes con responsabilidades repartidas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «La app no carga mi banco» | Tasa de éxito por entidad | 17, clase 13 |
@@ -347,6 +357,8 @@ supervisión de un sistema de finanzas abiertas.
 | «Me pidieron autorizar otra vez» | Certificado o directorio caducado | 17, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del ecosistema son de estructura antes que de tecnología: concentración, dependencia y responsabilidad difusa. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -367,6 +379,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md) y [`labs/lab-06.md`](../labs/lab-06.md)
 4. Propón el umbral de certificación que exigirías y justifícalo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de ecosistema. Las causas son concentración no medida y certificaciones tratadas como garantía de seguridad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

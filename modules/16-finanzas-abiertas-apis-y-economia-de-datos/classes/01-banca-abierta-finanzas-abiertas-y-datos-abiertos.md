@@ -67,6 +67,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son tres cosas distintas que se nombran igual, y confundirlas hace imposible saber qué obliga. Los cinco siguientes son las figuras del ecosistema y su pieza central. El **consentimiento** es el núcleo del régimen: no lo define la tecnología sino el permiso del titular, y por eso una API sin consentimiento no es finanzas abiertas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `banca abierta` | Compartir datos de cuentas bancarias e iniciar pagos con consentimiento |
@@ -79,6 +81,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `reciprocidad` | Obligación de compartir de quien exige compartir |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres capas concéntricas: los datos abiertos no tienen titular, la banca abierta cubre cuentas y pagos, y las finanzas abiertas alcanzan a seguros, inversiones y previsión. Cada capa amplía el alcance y mantiene la misma exigencia de consentimiento.
 
 ```text
 LAS TRES CAPAS, DE MENOS A MÁS SENSIBLE
@@ -214,6 +218,8 @@ EL MODELO NO ES NEUTRAL EN RIESGO
 
 ## 🧮 Ejemplo guiado
 
+El ejemplo clasifica productos concretos en las tres capas y determina qué figura y qué consentimiento exige cada uno. Conviene hacer la clasificación antes de mirar ninguna especificación técnica: la capa decide el régimen.
+
 **Situación.** Una empresa quiere lanzar tres productos y necesita saber, para
 cada uno, qué capa del modelo usa, si la actividad es regulada y qué
 consentimiento requiere.
@@ -333,6 +339,8 @@ producto **lee** o **mueve**.
 
 ## 🧭 Perspectivas
 
+La misma apertura se ve distinta desde cada actor, y ninguna de esas visiones es completa por sí sola. La tabla las enfrenta, y conviene leerla entera: las decisiones de las trece clases siguientes afectan a varios de estos actores a la vez.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una aplicación que le pide permiso | Si otorga y por cuánto tiempo |
@@ -347,6 +355,8 @@ producto **lee** o **mueve**.
 
 ## 🏦 Del cliente al banco
 
+El cliente describe lo que hace con palabras cotidianas y el banco tiene que traducirlo a figuras con consecuencias jurídicas. La tabla enfrenta las dos lecturas y señala en qué clase se desarrolla cada una.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Le di mi clave a esa app» | Credencial compartida, riesgo no acotado | 17, clase 1 |
@@ -356,6 +366,8 @@ producto **lee** o **mueve**.
 | «Me cobraron algo que no ordené» | Matriz de responsabilidad | 17, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos de esta clase no vienen de la tecnología sino del diseño del consentimiento y de la estructura del mercado. La tabla los recoge con el control que los acota.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -368,6 +380,8 @@ producto **lee** o **mueve**.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar seis productos en las tres capas y determinar su figura y su consentimiento. La clasificación es lo que decide todo lo demás, y hacerla antes de mirar la API es el hábito que la clase instala.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Clasifica seis productos en las tres capas del modelo.
@@ -376,6 +390,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Identifica en cuál de los seis aparece un proveedor tecnológico crítico.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber confundido las tres capas o de haber tratado la API como si fuera el régimen.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
