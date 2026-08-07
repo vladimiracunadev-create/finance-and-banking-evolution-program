@@ -18,7 +18,9 @@ bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 | Portal de estudio en GitHub Pages | 1.1.0 | ✅ Publicado |
 | Integración continua endurecida y auditada | 1.1.0 | ✅ Completo |
 | **Parte 17 — Finanzas abiertas, APIs y economía de datos** | 1.2.0 | ✅ Publicada |
+| **Parte 18 — Pagos transfronterizos, remesas y liquidación** | 1.3.0 | ✅ Publicada |
 | Entorno `open_finance_sandbox` con 28 pruebas | 1.2.0 | ✅ Funcional |
+| Entorno `cross_border_payments_lab` con 56 pruebas | 1.3.0 | ✅ Funcional |
 | Validadores de metadatos, OpenAPI, datasets, secretos y PII | 1.2.0 | ✅ En CI |
 | Fichas normativas estructuradas | 1.2.0 | ✅ Iniciadas |
 
@@ -34,8 +36,8 @@ proyecto y aplicación— y en verde antes de empezar la siguiente.
 | Parte | Tema | Clases | Aplicación asociada | Estado |
 |---:|---|---:|---|---|
 | 17 | Finanzas abiertas, APIs y economía de datos | 14 | `open_finance_sandbox` | ✅ Publicada |
-| 18 | Pagos transfronterizos, remesas y liquidación | 16 | `cross_border_payments_lab` | 🔜 Siguiente |
-| 19 | Blockchain y DLT para instituciones financieras | 14 | `dlt_financial_lab` | Prevista |
+| 18 | Pagos transfronterizos, remesas y liquidación | 16 | `cross_border_payments_lab` | ✅ Publicada |
+| 19 | Blockchain y DLT para instituciones financieras | 14 | `dlt_financial_lab` | 🔜 Siguiente |
 | 20 | Activos digitales, stablecoins y dinero programable | 16 | `digital_assets_risk_lab` | Prevista |
 | 21 | Tokenización, FX on-chain y mercados programables | 16 | `tokenization_platform`, `onchain_fx_lab` | Prevista |
 | 22 | Regulación de mercados financieros digitales | 18 | `regulatory_perimeter_engine` | Prevista |
@@ -74,7 +76,7 @@ proyecto y aplicación— y en verde antes de empezar la siguiente.
 | Validación de datasets | Ficha y diccionario obligatorios | ✅ 1.2.0 |
 | Detección de secretos y de PII | Distingue el ejemplo del secreto | ✅ 1.2.0 |
 | Índice de archivos generado | `FILE_INDEX.md` deja de escribirse a mano | ✅ 1.2.0 |
-| Validación de mensajes ISO 20022 sintéticos | Estructura y campos obligatorios | Con la Parte 18 |
+| Validación de mensajes ISO 20022 sintéticos | Campos, formatos y referencia estable | ✅ 1.3.0 |
 | Matriz de competencias generada | Desde los encabezados de clase | Prevista |
 | Inventario de aplicaciones generado | Desde `apps/` | Prevista |
 | Generador de datos sintéticos configurable | Por segmento, cosecha y escenario | Prevista |

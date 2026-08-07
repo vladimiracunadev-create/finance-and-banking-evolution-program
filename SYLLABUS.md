@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**17 partes · 254 clases · 381 horas ·
+**18 partes · 270 clases · 405 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -27,7 +27,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 15 | [Estrategia y dirección bancaria](modules/14-estrategia-y-direccion-bancaria/README.md) | 14 | 21.0 | Dirección — empresa, tecnología, estrategia y proyecto |
 | 16 | [Proyecto Banco Virtual](modules/15-proyecto-banco-virtual/README.md) | 18 | 27.0 | Dirección — empresa, tecnología, estrategia y proyecto |
 | 17 | [Finanzas abiertas, APIs y economía de datos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **254** | **381** | |
+| 18 | [Pagos transfronterizos, remesas y liquidación internacional](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **270** | **405** | |
 
 ## Índice de clases
 
@@ -408,13 +409,36 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 13 | [Disponibilidad, SLA, observabilidad e incidentes](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/13-disponibilidad-sla-y-observabilidad.md) | profesional |
 | 14 | [Proyecto: agregador financiero regulado](modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/14-proyecto-agregador-financiero-regulado.md) | profesional |
 
+### Parte 18 — Pagos transfronterizos, remesas y liquidación internacional
+
+[Índice de la parte](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) · [Laboratorios](modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs) · [Evaluaciones](modules/17-pagos-transfronterizos-remesas-y-liquidacion/assessments) · [Proyecto](modules/17-pagos-transfronterizos-remesas-y-liquidacion/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [Qué es un pago transfronterizo](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/01-que-es-un-pago-transfronterizo.md) | profesional |
+| 02 | [Arquitectura de participantes y responsabilidades](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/02-arquitectura-de-participantes.md) | profesional |
+| 03 | [Corresponsalía bancaria](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/03-corresponsalia-bancaria.md) | profesional |
+| 04 | [Cuentas nostro, vostro y loro](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/04-cuentas-nostro-vostro-y-loro.md) | profesional |
+| 05 | [Mensajería frente a movimiento de fondos](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/05-mensajeria-frente-a-movimiento-de-fondos.md) | profesional |
+| 06 | [SWIFT, CBPR+ e ISO 20022](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/06-swift-cbpr-e-iso-20022.md) | profesional |
+| 07 | [Compensación, liquidación y finalidad](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/07-compensacion-liquidacion-y-finalidad.md) | profesional |
+| 08 | [Liquidez, prefinanciación, netting y horarios](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/08-liquidez-prefinanciacion-y-netting.md) | profesional |
+| 09 | [El cambio de divisa dentro de un pago](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/09-fx-dentro-de-un-pago-transfronterizo.md) | profesional |
+| 10 | [Remesas y corredores internacionales](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/10-remesas-y-corredores-internacionales.md) | profesional |
+| 11 | [Pagos empresariales y comercio exterior](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/11-pagos-empresariales-y-comercio-exterior.md) | profesional |
+| 12 | [AML, sanciones y regla del viaje](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/12-aml-sanciones-y-regla-del-viaje.md) | profesional |
+| 13 | [Interconexión de sistemas de pagos inmediatos](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/13-interconexion-de-pagos-inmediatos.md) | profesional |
+| 14 | [Stablecoins y pagos internacionales](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/14-stablecoins-y-pagos-internacionales.md) | profesional |
+| 15 | [Payment versus Payment y liquidación atómica](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/15-payment-versus-payment-y-liquidacion-atomica.md) | profesional |
+| 16 | [Proyecto: red de pagos transfronterizos](modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/16-proyecto-red-de-pagos-transfronterizos.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 17 proyectos integradores.
+- Entrega de los 18 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Finanzas abiertas, APIs y economía de datos» (Parte 17, clase 14).
+- Defensa del proyecto final «Pagos transfronterizos, remesas y liquidación internacional» (Parte 18, clase 16).
 
 ## Resultados finales
 

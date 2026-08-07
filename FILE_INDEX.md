@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**531 archivos de texto versionados.**
+**595 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -33,6 +33,25 @@ repositorio. No se edita a mano.
 - `apps/credit_scoring/README.md`
 - `apps/credit_scoring/demo.py`
 - `apps/credit_scoring/scoring.py`
+- `apps/cross_border_payments_lab/README.md`
+- `apps/cross_border_payments_lab/__init__.py`
+- `apps/cross_border_payments_lab/cli.py`
+- `apps/cross_border_payments_lab/data/alias.json`
+- `apps/cross_border_payments_lab/data/corredores.json`
+- `apps/cross_border_payments_lab/data/fx_trades.json`
+- `apps/cross_border_payments_lab/data/messages/pacs008-001-basico.xml`
+- `apps/cross_border_payments_lab/data/messages/pacs008-002-con-partes-ultimas.xml`
+- `apps/cross_border_payments_lab/data/messages/pacs008-003-salario.xml`
+- `apps/cross_border_payments_lab/data/plazas.json`
+- `apps/cross_border_payments_lab/data/rutas.json`
+- `apps/cross_border_payments_lab/fast_payment_link/__init__.py`
+- `apps/cross_border_payments_lab/flows/__init__.py`
+- `apps/cross_border_payments_lab/iso20022/__init__.py`
+- `apps/cross_border_payments_lab/remittances/__init__.py`
+- `apps/cross_border_payments_lab/routing_engine/__init__.py`
+- `apps/cross_border_payments_lab/screening/__init__.py`
+- `apps/cross_border_payments_lab/settlement/__init__.py`
+- `apps/cross_border_payments_lab/stablecoin_route/__init__.py`
 - `apps/financial_calculators/README.md`
 - `apps/financial_calculators/calculators.py`
 - `apps/financial_calculators/cli.py`
@@ -63,9 +82,13 @@ repositorio. No se edita a mano.
 - `datasets/schemas/loan_applications_synthetic.md`
 - `datasets/schemas/open_finance_consents.md`
 - `datasets/schemas/personal_budget_synthetic.md`
+- `datasets/schemas/remittance_corridors.md`
+- `datasets/schemas/sanctions_screening_alerts.md`
 - `datasets/schemas/transactions_synthetic.md`
 - `datasets/synthetic/README.md`
 - `datasets/synthetic/open_finance_consents.csv`
+- `datasets/synthetic/remittance_corridors.csv`
+- `datasets/synthetic/sanctions_screening_alerts.csv`
 - `datasets/transactions_synthetic.csv`
 - `docs/README.md`
 - `docs/etapa-5-finanzas-digitales.md`
@@ -78,6 +101,7 @@ repositorio. No se edita a mano.
 - `docs/guia-laboratorios-digitales.md`
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
+- `docs/mapa-pagos-transfronterizos.md`
 - `docs/metodologia-verificacion-regulatoria.md`
 - `docs/ruta-aprendizaje.md`
 - `localizations/TEMPLATE.md`
@@ -512,14 +536,53 @@ repositorio. No se edita a mano.
 - `modules/16-finanzas-abiertas-apis-y-economia-de-datos/solutions/lab-04.md`
 - `modules/16-finanzas-abiertas-apis-y-economia-de-datos/solutions/lab-05.md`
 - `modules/16-finanzas-abiertas-apis-y-economia-de-datos/solutions/lab-06.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/assessments/diagnostic.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/assessments/final.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/01-que-es-un-pago-transfronterizo.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/02-arquitectura-de-participantes.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/03-corresponsalia-bancaria.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/04-cuentas-nostro-vostro-y-loro.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/05-mensajeria-frente-a-movimiento-de-fondos.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/06-swift-cbpr-e-iso-20022.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/07-compensacion-liquidacion-y-finalidad.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/08-liquidez-prefinanciacion-y-netting.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/09-fx-dentro-de-un-pago-transfronterizo.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/10-remesas-y-corredores-internacionales.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/11-pagos-empresariales-y-comercio-exterior.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/12-aml-sanciones-y-regla-del-viaje.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/13-interconexion-de-pagos-inmediatos.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/14-stablecoins-y-pagos-internacionales.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/15-payment-versus-payment-y-liquidacion-atomica.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/16-proyecto-red-de-pagos-transfronterizos.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-01.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-02.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-03.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-04.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-05.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-06.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-07.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/labs/lab-08.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/project/README.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-01.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-02.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-03.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-04.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-05.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-06.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-07.md`
+- `modules/17-pagos-transfronterizos-remesas-y-liquidacion/solutions/lab-08.md`
 - `portfolio/README.md`
 - `projects/README.md`
 - `pyproject.toml`
 - `regulatory/README.md`
 - `regulatory/chile/ley-21521.yml`
+- `regulatory/internacional/fsb-hoja-de-ruta-g20.yml`
+- `regulatory/internacional/gafi-recomendacion-16.yml`
 - `requirements-site.txt`
 - `requirements.txt`
 - `tests/test_calculators.py`
+- `tests/test_cross_border_payments_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`
 - `tests/test_scoring.py`
@@ -533,6 +596,7 @@ repositorio. No se edita a mano.
 - `tools/progress.py`
 - `tools/render_program.py`
 - `tools/validate_datasets.py`
+- `tools/validate_iso20022.py`
 - `tools/validate_metadata.py`
 - `tools/validate_openapi.py`
 - `tools/validate_program.py`

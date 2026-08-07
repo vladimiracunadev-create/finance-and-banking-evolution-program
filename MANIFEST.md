@@ -5,9 +5,9 @@
 | Campo | Valor |
 |---|---|
 | **Nombre** | `finance-and-banking-evolution-program` |
-| **Versión** | `1.2.0` |
+| **Versión** | `1.3.0` |
 | **Fecha** | 2026-08-06 |
-| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (1 de 7 partes publicada) |
+| **Estado** | 16 partes completas · Etapa 5 en ampliación activa (2 de 7 partes publicadas) |
 | **Licencia** | MIT |
 | **Idioma** | Español |
 | **Repositorio** | <https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program> |
@@ -20,19 +20,19 @@
 
 | Componente | Cantidad |
 |---|---:|
-| Partes publicadas | 17 |
+| Partes publicadas | 18 |
 | Partes planificadas | 23 |
-| Clases publicadas | 254 |
+| Clases publicadas | 270 |
 | Clases planificadas | 352 |
-| Horas de sesión publicadas | 381 |
+| Horas de sesión publicadas | 405 |
 | Duración por clase | 90 min |
-| Laboratorios | 102 |
-| Soluciones de referencia | 6 |
-| Evaluaciones | 34 |
-| Proyectos integradores | 17 |
-| Aplicaciones funcionales | 4 |
-| Conjuntos de datos sintéticos | 4 |
-| Fichas normativas estructuradas | 1 |
+| Laboratorios | 110 |
+| Soluciones de referencia | 14 |
+| Evaluaciones | 36 |
+| Proyectos integradores | 18 |
+| Aplicaciones funcionales | 5 |
+| Conjuntos de datos sintéticos | 6 |
+| Fichas normativas estructuradas | 3 |
 
 ## Estructura de una clase
 
@@ -64,8 +64,8 @@
 | Analista | 5 – 8 | 60 | 90 |
 | Bancario | 9 – 12 | 64 | 96 |
 | Dirección | 13 – 16 | 60 | 90 |
-| Finanzas digitales | 17 – 23 | 14 de 112 | 21 |
-| **Total** | **23** | **254 de 352** | **381** |
+| Finanzas digitales | 17 – 23 | 30 de 112 | 45 |
+| **Total** | **23** | **270 de 352** | **405** |
 
 ## Aplicaciones incluidas
 
@@ -75,6 +75,7 @@
 | `credit_scoring` | Modelo de scoring con métricas de discriminación | ✅ |
 | `openbank_simulator` | Banco con cuentas y movimientos sobre SQLite | ✅ |
 | `open_finance_sandbox` | Consentimiento, autorización con PKCE, API de cuentas, iniciación de pagos y batería de conformidad | ✅ |
+| `cross_border_payments_lab` | Cuatro flujos, motor de rutas, ISO 20022, screening, PvP, enlace de pagos inmediatos y ruta con stablecoin | ✅ |
 
 ## Documentos generados automáticamente
 
@@ -118,7 +119,11 @@ python tools/check_links.py && python tools/build_site.py --check
 ```
 
 ```bash
-python tools/validate_metadata.py && python tools/validate_openapi.py && python tools/validate_datasets.py
+python tools/validate_metadata.py && python tools/validate_openapi.py
+```
+
+```bash
+python tools/validate_iso20022.py && python tools/validate_datasets.py
 ```
 
 ```bash

@@ -1,0 +1,32 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: internacional
+authority: GAFI
+instrument_type: recomendacion
+instrument_number: "16"
+title: >-
+  Recomendacion 16 del GAFI: informacion que debe acompanar a las
+  transferencias electronicas (regla del viaje)
+publication_date: "2012-02-16"
+effective_date: >-
+  segun la transposicion de cada jurisdiccion; el GAFI evalua su
+  implementacion en las evaluaciones mutuas
+implementation_stage: implementada de forma desigual entre jurisdicciones
+status: vigente
+scope: >-
+  Exige que los datos del ordenante y del beneficiario acompanen a la
+  transferencia y que los intermediarios los conserven. Su nota interpretativa
+  extiende el criterio a los proveedores de servicios de activos virtuales.
+activities_covered:
+  - transferencias electronicas transfronterizas
+  - transferencias electronicas nacionales
+  - transferencias de activos virtuales
+official_source: https://www.fatf-gafi.org/
+last_verified: "2026-08-06"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  El GAFI emite recomendaciones, no normas de aplicacion directa: lo que obliga
+  es la norma de cada jurisdiccion que las transpone, con sus propios umbrales y
+  plazos. El incumplimiento mas frecuente no es no enviar la informacion, sino
+  que un intermediario la trunque al adaptarla a un formato antiguo. Ver
+  Parte 18, clases 6 y 12, y Parte 20, clase 15.

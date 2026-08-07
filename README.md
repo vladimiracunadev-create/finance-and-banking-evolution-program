@@ -3,17 +3,17 @@
 # Finance & Banking Evolution Program
 
 **De no saber calcular un porcentaje a dirigir un banco digital.**
-Programa abierto de 254 clases con bibliografía oficial verificable en cada una.
+Programa abierto de 270 clases con bibliografía oficial verificable en cada una.
 
 [![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Clases](https://img.shields.io/badge/clases-254%20%2F%20352-2ea44f)](STATUS.md)
-[![Partes](https://img.shields.io/badge/partes-17-1f6feb)](SYLLABUS.md)
-[![Horas](https://img.shields.io/badge/horas-381-8957e5)](SYLLABUS.md)
-[![Versión](https://img.shields.io/badge/versión-1.2.0-0969da)](CHANGELOG.md)
+[![Clases](https://img.shields.io/badge/clases-270%20%2F%20352-2ea44f)](STATUS.md)
+[![Partes](https://img.shields.io/badge/partes-18-1f6feb)](SYLLABUS.md)
+[![Horas](https://img.shields.io/badge/horas-405-8957e5)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-1.3.0-0969da)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-24292f)](LICENSE)
 [![Idioma](https://img.shields.io/badge/idioma-español-db6d28)](SYLLABUS.md)
 
@@ -52,10 +52,10 @@ IOSCO, CPMI y NIST.
 
 <table>
 <tr>
-<td width="25%" align="center"><b>254</b><br>clases completas</td>
+<td width="25%" align="center"><b>270</b><br>clases completas</td>
 <td width="25%" align="center"><b>1 000+</b><br>fuentes citadas</td>
-<td width="25%" align="center"><b>102</b><br>laboratorios</td>
-<td width="25%" align="center"><b>17</b><br>proyectos integradores</td>
+<td width="25%" align="center"><b>110</b><br>laboratorios</td>
+<td width="25%" align="center"><b>18</b><br>proyectos integradores</td>
 </tr>
 </table>
 
@@ -196,13 +196,13 @@ flowchart LR
 ### Etapa 5 — Finanzas digitales, infraestructura y mercados tokenizados
 
 Continúa el programa desde la introducción fintech de la Parte 14 hacia la
-infraestructura financiera. Siete partes, de las que hoy está publicada la
-primera. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
+infraestructura financiera. Siete partes, de las que hoy están publicadas las
+dos primeras. Ver **[la guía de la etapa](docs/etapa-5-finanzas-digitales.md)**.
 
 | # | Parte | Clases | Contenido central |
 |---:|---|---:|---|
 | 17 | [Finanzas abiertas, APIs y economía de datos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | Consentimiento, OAuth y FAPI, contratos de API, iniciación de pagos, responsabilidad |
-| 18 | Pagos transfronterizos, remesas y liquidación | — | Corresponsalía, ISO 20022, PvP, interconexión de pagos inmediatos |
+| 18 | [Pagos transfronterizos, remesas y liquidación](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | Corresponsalía, ISO 20022, finalidad, liquidez, PvP, interconexión |
 | 19 | Blockchain y DLT para instituciones financieras | — | Consenso, finalidad, redes autorizadas, contratos, comparación con base centralizada |
 | 20 | Activos digitales, stablecoins y dinero programable | — | Taxonomía, reservas, redención, depeg, CBDC, custodia |
 | 21 | Tokenización, FX on-chain y mercados programables | — | Derecho económico, emisión, mercado secundario, DvP y PvP |
@@ -328,6 +328,7 @@ Todo el repositorio se valida en cada cambio. Las insignias de arriba reflejan e
 | `tools/build_site.py --check` | El portal se genera y sus enlaces resuelven |
 | `tools/validate_metadata.py` | Ninguna norma citada sin fecha de verificación |
 | `tools/validate_openapi.py` | Contratos de API: alcances, errores e importes |
+| `tools/validate_iso20022.py` | Mensajes de pago: campos, formatos y referencia estable |
 | `tools/validate_datasets.py` | Todo conjunto de datos con ficha y diccionario |
 | `tools/detect_secrets.py` · `tools/detect_pii.py` | Sin credenciales ni datos personales |
 | `pytest -q` | Calculadoras, scoring, banco virtual y entorno de finanzas abiertas |

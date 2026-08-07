@@ -1,0 +1,1262 @@
+[
+  {
+    "identificador": "FX0001",
+    "contraparte": "CP09",
+    "importe": 27500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0002",
+    "contraparte": "CP01",
+    "importe": 39500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0003",
+    "contraparte": "CP21",
+    "importe": 59000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0004",
+    "contraparte": "CP02",
+    "importe": 44000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0005",
+    "contraparte": "CP09",
+    "importe": 28000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0006",
+    "contraparte": "CP17",
+    "importe": 46500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0007",
+    "contraparte": "CP02",
+    "importe": 11500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0008",
+    "contraparte": "CP06",
+    "importe": 25000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0009",
+    "contraparte": "CP18",
+    "importe": 47500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0010",
+    "contraparte": "CP04",
+    "importe": 49500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0011",
+    "contraparte": "CP02",
+    "importe": 52000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0012",
+    "contraparte": "CP01",
+    "importe": 56500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0013",
+    "contraparte": "CP14",
+    "importe": 47000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0014",
+    "contraparte": "CP07",
+    "importe": 3500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0015",
+    "contraparte": "CP18",
+    "importe": 25500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0016",
+    "contraparte": "CP17",
+    "importe": 15000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0017",
+    "contraparte": "CP06",
+    "importe": 14000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0018",
+    "contraparte": "CP05",
+    "importe": 29000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0019",
+    "contraparte": "CP09",
+    "importe": 55000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0020",
+    "contraparte": "CP06",
+    "importe": 23500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0021",
+    "contraparte": "CP22",
+    "importe": 55000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0022",
+    "contraparte": "CP16",
+    "importe": 4000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0023",
+    "contraparte": "CP12",
+    "importe": 24500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0024",
+    "contraparte": "CP15",
+    "importe": 30500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0025",
+    "contraparte": "CP21",
+    "importe": 34500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0026",
+    "contraparte": "CP06",
+    "importe": 6000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0027",
+    "contraparte": "CP10",
+    "importe": 14000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0028",
+    "contraparte": "CP10",
+    "importe": 45000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0029",
+    "contraparte": "CP07",
+    "importe": 33000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0030",
+    "contraparte": "CP01",
+    "importe": 25000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0031",
+    "contraparte": "CP18",
+    "importe": 20000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0032",
+    "contraparte": "CP05",
+    "importe": 32500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0033",
+    "contraparte": "CP22",
+    "importe": 52500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0034",
+    "contraparte": "CP12",
+    "importe": 58000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0035",
+    "contraparte": "CP06",
+    "importe": 18500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0036",
+    "contraparte": "CP01",
+    "importe": 45500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0037",
+    "contraparte": "CP09",
+    "importe": 21500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0038",
+    "contraparte": "CP17",
+    "importe": 14500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0039",
+    "contraparte": "CP21",
+    "importe": 47000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0040",
+    "contraparte": "CP12",
+    "importe": 56500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0041",
+    "contraparte": "CP15",
+    "importe": 20000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0042",
+    "contraparte": "CP20",
+    "importe": 44000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0043",
+    "contraparte": "CP10",
+    "importe": 42500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0044",
+    "contraparte": "CP15",
+    "importe": 8000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0045",
+    "contraparte": "CP10",
+    "importe": 58000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0046",
+    "contraparte": "CP12",
+    "importe": 41500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0047",
+    "contraparte": "CP02",
+    "importe": 48000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0048",
+    "contraparte": "CP14",
+    "importe": 34000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0049",
+    "contraparte": "CP06",
+    "importe": 21000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0050",
+    "contraparte": "CP22",
+    "importe": 14000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0051",
+    "contraparte": "CP01",
+    "importe": 44000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0052",
+    "contraparte": "CP21",
+    "importe": 50500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0053",
+    "contraparte": "CP12",
+    "importe": 46000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0054",
+    "contraparte": "CP19",
+    "importe": 16500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0055",
+    "contraparte": "CP03",
+    "importe": 24500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0056",
+    "contraparte": "CP21",
+    "importe": 2000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0057",
+    "contraparte": "CP04",
+    "importe": 3000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0058",
+    "contraparte": "CP16",
+    "importe": 54000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0059",
+    "contraparte": "CP06",
+    "importe": 35500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0060",
+    "contraparte": "CP04",
+    "importe": 43500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0061",
+    "contraparte": "CP11",
+    "importe": 48500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0062",
+    "contraparte": "CP12",
+    "importe": 10500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0063",
+    "contraparte": "CP16",
+    "importe": 56500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0064",
+    "contraparte": "CP06",
+    "importe": 58500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0065",
+    "contraparte": "CP05",
+    "importe": 52500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0066",
+    "contraparte": "CP05",
+    "importe": 1000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0067",
+    "contraparte": "CP07",
+    "importe": 48000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0068",
+    "contraparte": "CP03",
+    "importe": 36500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0069",
+    "contraparte": "CP09",
+    "importe": 9500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0070",
+    "contraparte": "CP01",
+    "importe": 41500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0071",
+    "contraparte": "CP09",
+    "importe": 29000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0072",
+    "contraparte": "CP05",
+    "importe": 1000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0073",
+    "contraparte": "CP15",
+    "importe": 46000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0074",
+    "contraparte": "CP18",
+    "importe": 52500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0075",
+    "contraparte": "CP11",
+    "importe": 14500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0076",
+    "contraparte": "CP12",
+    "importe": 25500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0077",
+    "contraparte": "CP16",
+    "importe": 1500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0078",
+    "contraparte": "CP08",
+    "importe": 21500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0079",
+    "contraparte": "CP09",
+    "importe": 49000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0080",
+    "contraparte": "CP12",
+    "importe": 32000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0081",
+    "contraparte": "CP13",
+    "importe": 11500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0082",
+    "contraparte": "CP14",
+    "importe": 48500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0083",
+    "contraparte": "CP22",
+    "importe": 55000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0084",
+    "contraparte": "CP08",
+    "importe": 18500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0085",
+    "contraparte": "CP13",
+    "importe": 57000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0086",
+    "contraparte": "CP13",
+    "importe": 24000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0087",
+    "contraparte": "CP06",
+    "importe": 39500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0088",
+    "contraparte": "CP18",
+    "importe": 27000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0089",
+    "contraparte": "CP08",
+    "importe": 22000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0090",
+    "contraparte": "CP21",
+    "importe": 30500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0091",
+    "contraparte": "CP22",
+    "importe": 46000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0092",
+    "contraparte": "CP08",
+    "importe": 21000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0093",
+    "contraparte": "CP21",
+    "importe": 4500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0094",
+    "contraparte": "CP13",
+    "importe": 18000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0095",
+    "contraparte": "CP16",
+    "importe": 10500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0096",
+    "contraparte": "CP02",
+    "importe": 7000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0097",
+    "contraparte": "CP07",
+    "importe": 9500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0098",
+    "contraparte": "CP14",
+    "importe": 36500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0099",
+    "contraparte": "CP09",
+    "importe": 37000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0100",
+    "contraparte": "CP07",
+    "importe": 7000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0101",
+    "contraparte": "CP17",
+    "importe": 32500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0102",
+    "contraparte": "CP08",
+    "importe": 11500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0103",
+    "contraparte": "CP21",
+    "importe": 41000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0104",
+    "contraparte": "CP17",
+    "importe": 58000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0105",
+    "contraparte": "CP08",
+    "importe": 39000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0106",
+    "contraparte": "CP17",
+    "importe": 9000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0107",
+    "contraparte": "CP09",
+    "importe": 9000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0108",
+    "contraparte": "CP21",
+    "importe": 56500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0109",
+    "contraparte": "CP16",
+    "importe": 51500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0110",
+    "contraparte": "CP22",
+    "importe": 3000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0111",
+    "contraparte": "CP20",
+    "importe": 12500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0112",
+    "contraparte": "CP07",
+    "importe": 12500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0113",
+    "contraparte": "CP10",
+    "importe": 29000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0114",
+    "contraparte": "CP14",
+    "importe": 32000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0115",
+    "contraparte": "CP03",
+    "importe": 4000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0116",
+    "contraparte": "CP08",
+    "importe": 7000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0117",
+    "contraparte": "CP02",
+    "importe": 21500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0118",
+    "contraparte": "CP11",
+    "importe": 51000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0119",
+    "contraparte": "CP12",
+    "importe": 3000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0120",
+    "contraparte": "CP21",
+    "importe": 18000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0121",
+    "contraparte": "CP04",
+    "importe": 40000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0122",
+    "contraparte": "CP09",
+    "importe": 43000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0123",
+    "contraparte": "CP16",
+    "importe": 46000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0124",
+    "contraparte": "CP08",
+    "importe": 32500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0125",
+    "contraparte": "CP18",
+    "importe": 16000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0126",
+    "contraparte": "CP06",
+    "importe": 26500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0127",
+    "contraparte": "CP17",
+    "importe": 50500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0128",
+    "contraparte": "CP03",
+    "importe": 43500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0129",
+    "contraparte": "CP03",
+    "importe": 56500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0130",
+    "contraparte": "CP12",
+    "importe": 17500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0131",
+    "contraparte": "CP07",
+    "importe": 42000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0132",
+    "contraparte": "CP14",
+    "importe": 29500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0133",
+    "contraparte": "CP18",
+    "importe": 39500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0134",
+    "contraparte": "CP03",
+    "importe": 34000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0135",
+    "contraparte": "CP17",
+    "importe": 51000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0136",
+    "contraparte": "CP14",
+    "importe": 58500000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0137",
+    "contraparte": "CP21",
+    "importe": 59500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0138",
+    "contraparte": "CP08",
+    "importe": 44000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0139",
+    "contraparte": "CP06",
+    "importe": 30500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0140",
+    "contraparte": "CP09",
+    "importe": 20000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0141",
+    "contraparte": "CP07",
+    "importe": 45500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0142",
+    "contraparte": "CP10",
+    "importe": 16000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0143",
+    "contraparte": "CP08",
+    "importe": 25500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0144",
+    "contraparte": "CP22",
+    "importe": 3000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0145",
+    "contraparte": "CP11",
+    "importe": 6500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0146",
+    "contraparte": "CP17",
+    "importe": 48000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0147",
+    "contraparte": "CP12",
+    "importe": 38000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0148",
+    "contraparte": "CP15",
+    "importe": 2000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0149",
+    "contraparte": "CP21",
+    "importe": 26000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0150",
+    "contraparte": "CP16",
+    "importe": 53000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0151",
+    "contraparte": "CP19",
+    "importe": 41500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0152",
+    "contraparte": "CP19",
+    "importe": 14500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0153",
+    "contraparte": "CP02",
+    "importe": 9500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0154",
+    "contraparte": "CP06",
+    "importe": 54000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0155",
+    "contraparte": "CP07",
+    "importe": 22000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0156",
+    "contraparte": "CP15",
+    "importe": 12000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0157",
+    "contraparte": "CP18",
+    "importe": 18000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0158",
+    "contraparte": "CP14",
+    "importe": 13000000,
+    "hora_entrega": 10,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0159",
+    "contraparte": "CP11",
+    "importe": 11000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0160",
+    "contraparte": "CP16",
+    "importe": 4000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0161",
+    "contraparte": "CP20",
+    "importe": 27500000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0162",
+    "contraparte": "CP20",
+    "importe": 28500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0163",
+    "contraparte": "CP15",
+    "importe": 26500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0164",
+    "contraparte": "CP21",
+    "importe": 6000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0165",
+    "contraparte": "CP15",
+    "importe": 41000000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0166",
+    "contraparte": "CP21",
+    "importe": 50500000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0167",
+    "contraparte": "CP14",
+    "importe": 52000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0168",
+    "contraparte": "CP15",
+    "importe": 27500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0169",
+    "contraparte": "CP06",
+    "importe": 24000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0170",
+    "contraparte": "CP09",
+    "importe": 29000000,
+    "hora_entrega": 13,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0171",
+    "contraparte": "CP13",
+    "importe": 22000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0172",
+    "contraparte": "CP19",
+    "importe": 8000000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0173",
+    "contraparte": "CP05",
+    "importe": 55500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0174",
+    "contraparte": "CP12",
+    "importe": 29500000,
+    "hora_entrega": 15,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0175",
+    "contraparte": "CP06",
+    "importe": 42500000,
+    "hora_entrega": 11,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0176",
+    "contraparte": "CP02",
+    "importe": 32000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0177",
+    "contraparte": "CP21",
+    "importe": 11000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0178",
+    "contraparte": "CP02",
+    "importe": 36500000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0179",
+    "contraparte": "CP19",
+    "importe": 54000000,
+    "hora_entrega": 9,
+    "hora_recepcion": 16
+  },
+  {
+    "identificador": "FX0180",
+    "contraparte": "CP16",
+    "importe": 13000000,
+    "hora_entrega": 14,
+    "hora_recepcion": 16
+  }
+]

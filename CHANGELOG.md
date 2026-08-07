@@ -5,6 +5,92 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [1.3.0] — 2026-08-06
+
+Segunda parte de la **Etapa 5**: la infraestructura por la que un pago cruza una
+frontera. Continúa desde la Parte 10 hacia la corresponsalía, la mensajería
+ISO 20022, la liquidación y las arquitecturas que intentan sustituirla.
+
+### Añadido
+
+**Parte 18 — Pagos transfronterizos, remesas y liquidación internacional**
+
+- 16 clases de 90 minutos, con el eje de que **un mensaje no es un movimiento de
+  fondos**: la red transporta instrucciones, el dinero se mueve en cuentas, la
+  liquidación ocurre en un sistema de pagos y la finalidad la da la norma.
+- 8 laboratorios con solución de referencia comentada.
+- Evaluación diagnóstica y final con guía de corrección y cálculos resueltos.
+- Proyecto integrador «red de pagos transfronterizos» con seis corredores, cada
+  uno diseñado para forzar una decisión distinta del motor de rutas.
+
+**Aplicación `apps/cross_border_payments_lab/`**
+
+- Los cuatro flujos modelados por separado, con husos, ventanas y calendarios.
+- Motor de rutas con tres filtros y tres factores: un filtro de cumplimiento no
+  se compensa con precio, y hay una prueba que lo demuestra.
+- Construcción y validación de `pacs.008`, `pacs.002` y la máquina de estados
+  que impide devolver antes de liquidar.
+- Screening con precisión, exhaustividad y prueba retrospectiva.
+- Liquidación con pago contra pago, incluidos los dos escenarios de fallo.
+- Enlace de pagos inmediatos con resolución de alias y subasta de liquidez.
+- Comparación honesta de la ruta con stablecoin, con el ahorro descompuesto por
+  fuente.
+- 56 pruebas, cada una asociada a una afirmación concreta de una clase.
+
+**Herramientas**
+
+- `tools/validate_iso20022.py`: campos obligatorios, formato de importe, divisa
+  ISO, direcciones estructuradas, códigos de propósito y **referencia estable**
+  entre reintentos. Es independiente del espacio de nombres del esquema, para
+  que no deje de funcionar en la siguiente versión.
+
+**Datos y metadatos**
+
+- `datasets/synthetic/remittance_corridors.csv` (36 rutas, 9 corredores) y
+  `sanctions_screening_alerts.csv` (12 000 alertas con resolución etiquetada),
+  ambos con ficha, supuestos y **limitaciones explícitas**.
+- Fichas normativas de la Recomendación 16 del GAFI y de la hoja de ruta del G20.
+
+**Documentación**
+
+- `docs/mapa-pagos-transfronterizos.md` y ampliación del glosario digital con
+  los 12 términos de la parte.
+
+### Cambiado
+
+- La CI valida los mensajes ISO 20022 en cada cambio.
+- `tools/build_file_index.py` usa `--cached --others --exclude-standard`: el
+  índice ya no depende de si se generó antes o después de `git add`.
+- `tools/build_site.py` descubre los adjuntos enlazados leyendo los enlaces
+  reales, en lugar de una lista mantenida a mano.
+
+### Corregido
+
+- **Base del diferencial de cambio (Parte 18, clase 9).** El material medía el
+  diferencial sobre la cotización inversa (28/950 = 2,947 %) cuando la pérdida
+  del cliente es 1 − 950/978 = 2,863 %. Con la base equivocada, la composición
+  del diferencial cruzado no cuadraba con el cálculo directo. La clase explica
+  ahora la diferencia y el laboratorio la comprueba.
+- **Descomposición del ahorro de la ruta con stablecoin.** Las partes no sumaban
+  el ahorro total, lo que producía porcentajes sin sentido. Ahora suman, incluida
+  una componente negativa que el análisis honesto no puede ocultar.
+- `CHANGELOG.md`: 66 líneas con codificación corrompida en la entrada 1.1.0.
+
+### Seguridad
+
+- Las listas de sanciones y los nombres del laboratorio son sintéticos y se
+  declara en cada salida. El módulo **no sirve para calibrar un sistema real**.
+- El screening nunca descarta un caso por **falta** de información: lo escala.
+  Descartar por ausencia de dato es el falso negativo que la Parte 18 persigue.
+
+### Notas de migración
+
+- Las Partes 1 a 17 no cambian.
+- Quien tuviera un guion contra `tools/build_file_index.py` debe saber que ahora
+  incluye los archivos sin rastrear que no están ignorados.
+
+---
+
 ## [1.2.0] — 2026-08-06
 
 Comienza la **Etapa 5 — Finanzas digitales, infraestructura y mercados

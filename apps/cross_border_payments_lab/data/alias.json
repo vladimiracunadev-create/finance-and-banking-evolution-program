@@ -1,0 +1,23 @@
+[
+  {
+    "alias": "+5551234567",
+    "banco": "BANK_Q_001",
+    "titular": "Maria Elena Rojas"
+  },
+  {
+    "alias": "+5559876543",
+    "banco": "BANK_Q_002",
+    "titular": "Jose Antonio Vega"
+  },
+  {
+    "alias": "+5551112222",
+    "banco": "BANK_Q_001",
+    "titular": "Ana Lucia Fuentes"
+  },
+  {
+    "alias": "+5553334444",
+    "banco": "BANK_Q_003",
+    "titular": "Pedro Ramirez Diaz",
+    "tiene_cuenta": false
+  }
+]

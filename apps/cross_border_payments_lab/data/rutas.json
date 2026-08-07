@@ -1,0 +1,299 @@
+[
+  {
+    "nombre": "A-enlace",
+    "tipo": "enlace_pagos_inmediatos",
+    "corredor": "A",
+    "importe_maximo": 2000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "billetera"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 1.97,
+    "coste_variable": 0.0,
+    "diferencial_pb": 45,
+    "plazo_p50_h": 0.02,
+    "plazo_p95_h": 0.1,
+    "riesgo": 0.1,
+    "disponibilidad": 0.995
+  },
+  {
+    "nombre": "A-clasica",
+    "tipo": "corresponsalia",
+    "corredor": "A",
+    "importe_maximo": 500000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "efectivo"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 38.0,
+    "coste_variable": 0.0,
+    "diferencial_pb": 185,
+    "plazo_p50_h": 26,
+    "plazo_p95_h": 58,
+    "riesgo": 0.3,
+    "disponibilidad": 0.99
+  },
+  {
+    "nombre": "B-clasica",
+    "tipo": "corresponsalia",
+    "corredor": "B",
+    "importe_maximo": 500000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "efectivo"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 38.0,
+    "coste_variable": 0.0,
+    "diferencial_pb": 185,
+    "plazo_p50_h": 26,
+    "plazo_p95_h": 58,
+    "riesgo": 0.3,
+    "disponibilidad": 0.99
+  },
+  {
+    "nombre": "B-stablecoin",
+    "tipo": "stablecoin",
+    "corredor": "B",
+    "importe_maximo": 100000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "billetera"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 9.04,
+    "coste_variable": 0.008,
+    "diferencial_pb": 155,
+    "plazo_p50_h": 0.6,
+    "plazo_p95_h": 2.0,
+    "riesgo": 0.55,
+    "disponibilidad": 0.985
+  },
+  {
+    "nombre": "C-clasica",
+    "tipo": "corresponsalia",
+    "corredor": "C",
+    "importe_maximo": 500000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "efectivo"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 82.0,
+    "coste_variable": 0.0,
+    "diferencial_pb": 255,
+    "plazo_p50_h": 52,
+    "plazo_p95_h": 98,
+    "riesgo": 0.45,
+    "disponibilidad": 0.97
+  },
+  {
+    "nombre": "C-stablecoin",
+    "tipo": "stablecoin",
+    "corredor": "C",
+    "importe_maximo": 100000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "billetera"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 9.04,
+    "coste_variable": 0.008,
+    "diferencial_pb": 155,
+    "plazo_p50_h": 0.6,
+    "plazo_p95_h": 2.0,
+    "riesgo": 0.55,
+    "disponibilidad": 0.985
+  },
+  {
+    "nombre": "D-clasica",
+    "tipo": "corresponsalia",
+    "corredor": "D",
+    "importe_maximo": 500000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "efectivo"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule",
+      "cambios_internacionales"
+    ],
+    "coste_fijo": 64.0,
+    "coste_variable": 0.0,
+    "diferencial_pb": 230,
+    "plazo_p50_h": 44,
+    "plazo_p95_h": 80,
+    "riesgo": 0.4,
+    "disponibilidad": 0.98
+  },
+  {
+    "nombre": "D-stablecoin",
+    "tipo": "stablecoin",
+    "corredor": "D",
+    "importe_maximo": 100000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta"
+    ],
+    "controles_soportados": [
+      "screening"
+    ],
+    "coste_fijo": 9.04,
+    "coste_variable": 0.008,
+    "diferencial_pb": 410,
+    "plazo_p50_h": 0.6,
+    "plazo_p95_h": 26.0,
+    "riesgo": 0.8,
+    "disponibilidad": 0.9
+  },
+  {
+    "nombre": "E-clasica",
+    "tipo": "corresponsalia",
+    "corredor": "E",
+    "importe_maximo": 500000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 45.0,
+    "coste_variable": 0.0,
+    "diferencial_pb": 165,
+    "plazo_p50_h": 30,
+    "plazo_p95_h": 62,
+    "riesgo": 0.3,
+    "disponibilidad": 0.99
+  },
+  {
+    "nombre": "E-enlace",
+    "tipo": "enlace_pagos_inmediatos",
+    "corredor": "E",
+    "importe_maximo": 3000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "billetera"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 2.4,
+    "coste_variable": 0.0,
+    "diferencial_pb": 60,
+    "plazo_p50_h": 0.03,
+    "plazo_p95_h": 0.2,
+    "riesgo": 0.1,
+    "disponibilidad": 0.993
+  },
+  {
+    "nombre": "F-efectivo",
+    "tipo": "operador_remesas",
+    "corredor": "F",
+    "importe_maximo": 3000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "efectivo"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 6.9,
+    "coste_variable": 0.021,
+    "diferencial_pb": 270,
+    "plazo_p50_h": 0.5,
+    "plazo_p95_h": 4,
+    "riesgo": 0.35,
+    "disponibilidad": 0.99
+  },
+  {
+    "nombre": "F-enlace",
+    "tipo": "enlace_pagos_inmediatos",
+    "corredor": "F",
+    "importe_maximo": 2000,
+    "monedas": [
+      "MA",
+      "MB"
+    ],
+    "canales": [
+      "cuenta",
+      "billetera"
+    ],
+    "controles_soportados": [
+      "screening",
+      "travel_rule"
+    ],
+    "coste_fijo": 1.97,
+    "coste_variable": 0.0,
+    "diferencial_pb": 45,
+    "plazo_p50_h": 0.02,
+    "plazo_p95_h": 0.1,
+    "riesgo": 0.1,
+    "disponibilidad": 0.995
+  }
+]

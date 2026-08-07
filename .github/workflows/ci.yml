@@ -4,7 +4,7 @@ name: CI
 #   - todas las clases mantienen su estructura, sus secciones y sus fuentes;
 #   - ninguna clase cita una norma sin declarar su fecha de verificacion;
 #   - los documentos generados (SYLLABUS, STATUS, FILE_INDEX, bloques) estan al dia;
-#   - los contratos OpenAPI y los conjuntos de datos estan validados;
+#   - los contratos OpenAPI, los mensajes ISO 20022 y los datos estan validados;
 #   - todos los enlaces internos resuelven;
 #   - el estilo de Markdown es consistente;
 #   - las aplicaciones funcionan en tres sistemas y tres versiones de Python;
@@ -78,6 +78,9 @@ jobs:
 
       - name: Validar los contratos OpenAPI
         run: python tools/validate_openapi.py
+
+      - name: Validar los mensajes ISO 20022 sinteticos
+        run: python tools/validate_iso20022.py
 
       - name: Validar los conjuntos de datos y sus fichas
         run: python tools/validate_datasets.py

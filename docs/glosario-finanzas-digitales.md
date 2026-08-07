@@ -4,7 +4,7 @@ Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
 etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro.
 
-> Este glosario crece con cada parte publicada. Hoy cubre la Parte 17.
+> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 y 18.
 
 ## Finanzas abiertas
 
@@ -242,6 +242,150 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Ejemplo.** «Confirma 45.000 a JUAN PEREZ, código 481920».
 - **Riesgo.** Sin ella, un código robado autoriza otra operación.
 - **Primera clase.** 17.11.
+
+## Pagos transfronterizos
+
+### Pago transfronterizo
+
+- **Definición.** Pago en que ordenante y beneficiario están en jurisdicciones
+  distintas, de modo que **ningún sistema único liquida las dos patas**.
+- **Qué NO significa.** No es «pago a larga distancia» ni implica cambio de
+  divisa. Mover dólares entre dos cuentas propias en dos países lo es; comprar
+  euros en el banco de la esquina no lo es.
+- **Ejemplo.** Una empresa chilena paga a un proveedor vietnamita.
+- **Riesgo.** Coste opaco, plazo indeterminado, pérdida en tránsito.
+- **Primera clase.** 18.1 · **Otras.** 18.2, 18.16.
+
+### Remesa
+
+- **Definición.** Transferencia de persona a persona, típicamente de un
+  trabajador migrante a su hogar.
+- **Qué NO significa.** No es «un pago pequeño»: es un ingreso familiar, y por
+  eso su elasticidad al coste es distinta de la de un pago comercial.
+- **Ejemplo.** 300 dólares mensuales de un país a otro, retirados en efectivo.
+- **Riesgo.** Coste alto empuja al canal informal, sin protección ni registro.
+- **Primera clase.** 18.10 · **Otras.** 18.1, 18.13.
+
+### Corresponsalía
+
+- **Definición.** Relación por la que un banco presta a otro acceso a su plaza,
+  su moneda y su sistema de pagos.
+- **Qué NO significa.** No es una conexión técnica: es un **crédito y una
+  responsabilidad**. El corresponsal responde ante su supervisor por operaciones
+  de clientes que nunca ha visto.
+- **Ejemplo.** Un banco chileno con cuenta en dólares en Nueva York.
+- **Riesgo.** Banca anidada, retirada de relaciones, concentración.
+- **Primera clase.** 18.3 · **Otras.** 18.4, 18.12.
+
+### Nostro y vostro
+
+- **Definición.** La **misma cuenta** vista desde los dos lados: nostro es
+  «nuestra cuenta en vuestro banco»; vostro, «vuestra cuenta en el nuestro».
+- **Qué NO significa.** El prefijo no indica dónde está la cuenta, sino **de
+  quién es el dinero**.
+- **Ejemplo.** Un pago produce un cargo en un libro y un abono en el otro, por
+  el mismo importe y la misma fecha valor.
+- **Riesgo.** Descuadres que tardan semanas en resolverse.
+- **Primera clase.** 18.4 · **Otras.** 18.8.
+
+### Finalidad
+
+- **Definición.** Momento en que una transferencia es **irrevocable e
+  incondicional**.
+- **Qué NO significa.** No la da el mensaje, ni el aviso al beneficiario, ni el
+  apunte contable, ni que el dinero «se vea» en la cuenta. La da la norma.
+- **Ejemplo.** La anotación en la cuenta del banco central, cuando la ley se la
+  atribuye.
+- **Riesgo.** Abonar antes de la finalidad es conceder crédito sin saberlo.
+- **Primera clase.** 18.7 · **Otras.** 18.15, 17.10.
+
+### ISO 20022
+
+- **Definición.** Norma de mensajería financiera con un diccionario común y
+  campos estructurados.
+- **Qué NO significa.** No es «un formato nuevo» ni acelera la liquidación:
+  actúa en la capa de mensajería.
+- **Ejemplo.** `pacs.008` para una transferencia de cliente; `pacs.004` para su
+  devolución.
+- **Riesgo.** Un campo en el sitio equivocado convierte un pago automático en
+  una cola manual.
+- **Primera clase.** 18.6 · **Otras.** 18.11, 18.12.
+
+### Deudor último
+
+- **Definición.** Persona **por cuenta de la cual** se paga, cuando no coincide
+  con el titular de la cuenta de cargo.
+- **Qué NO significa.** No es el ordenante técnico. Omitirlo no rompe el
+  esquema: rompe el screening.
+- **Ejemplo.** Una gestora paga la factura de la empresa que administra.
+- **Riesgo.** Hallazgo de auditoría y screening incompleto.
+- **Primera clase.** 18.6 · **Otras.** 18.12.
+
+### Diferencial de cambio
+
+- **Definición.** Diferencia entre el tipo aplicado y el de referencia, medida
+  **sobre la magnitud que el cliente recibe**.
+- **Qué NO significa.** No es la diferencia sobre la cotización inversa: si el
+  banco cotiza pesos por dólar y el cliente compra dólares, medir sobre la
+  cotización da un número distinto del que el cliente pierde.
+- **Ejemplo.** 286,3 pb con tipo aplicado 978 y referencia 950.
+- **Riesgo.** Es la mitad del coste de una remesa y no aparece como comisión.
+- **Primera clase.** 18.9 · **Otras.** 18.1, 18.10.
+
+### Regla del viaje
+
+- **Definición.** Obligación de que ciertos datos del ordenante y del
+  beneficiario **acompañen** a la transferencia.
+- **Qué NO significa.** No es prevención de lavado ni sanciones: es una
+  obligación de datos, con su propia consecuencia si falta.
+- **Ejemplo.** Nombre y cuenta del ordenante conservados por el intermediario.
+- **Riesgo.** El intermediario trunca campos y el destino no puede aplicar ni
+  justificar el pago.
+- **Primera clase.** 18.12 · **Otras.** 18.6, 18.14.
+
+### Payment versus Payment
+
+- **Definición.** Mecanismo por el que **ninguna pata se liquida si la otra no
+  se liquida**.
+- **Qué NO significa.** No elimina el riesgo de reposición, ni el de liquidez,
+  ni el operacional del coordinador. Protege el principal, no el precio.
+- **Ejemplo.** Bloqueo en dos sistemas, comprobación y liberación conjunta.
+- **Riesgo.** Concentra en un liquidador lo que antes era bilateral.
+- **Primera clase.** 18.15 · **Otras.** 18.7, 21.15.
+
+### Riesgo Herstatt
+
+- **Definición.** Riesgo de liquidación en operaciones de cambio por la falta de
+  simultaneidad entre husos horarios.
+- **Qué NO significa.** No es riesgo de mercado: es riesgo de entregar y no
+  recibir.
+- **Ejemplo.** Se entregan marcos por la mañana europea y no llegan los dólares
+  de la tarde neoyorquina.
+- **Riesgo.** Pérdida del principal completo.
+- **Primera clase.** 18.7 · **Otras.** 18.15.
+
+### Exposición máxima simultánea
+
+- **Definición.** Mayor importe expuesto a la vez, sumando todas las operaciones
+  vivas en cada instante.
+- **Qué NO significa.** No es la operación mayor. Tres operaciones de 40, 25 y
+  30 solapadas exponen 95, no 40.
+- **Ejemplo.** El límite de contraparte se consume por esta cifra.
+- **Riesgo.** Subestimarla deja el límite mal calibrado.
+- **Primera clase.** 18.15 · **Otras.** 18.8.
+
+### Enlace de pagos inmediatos
+
+- **Definición.** Conexión entre dos sistemas nacionales que liquidan en
+  segundos, de modo que un pago internacional sean dos pagos domésticos con un
+  cambio de divisa en medio.
+- **Qué NO significa.** No resuelve el cumplimiento, ni la protección al
+  consumidor, ni las disputas, ni la última milla. De los seis problemas de un
+  enlace, **solo uno es técnico**.
+- **Ejemplo.** Un corredor que baja del 7,9 % al 1,1 % para el 71 % de los
+  pagos.
+- **Riesgo.** Mejora al 71 % y puede **empeorar** al 29 % que queda fuera.
+- **Primera clase.** 18.13 · **Otras.** 18.10, 18.14.
 
 ## Datos y privacidad
 

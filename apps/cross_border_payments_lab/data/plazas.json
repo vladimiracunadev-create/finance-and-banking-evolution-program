@@ -1,0 +1,65 @@
+[
+  {
+    "codigo": "CL",
+    "huso": -4,
+    "apertura": 9,
+    "cierre": 17,
+    "minutos_liquidacion": 15,
+    "festivos": [
+      "2026-09-18",
+      "2026-09-19"
+    ]
+  },
+  {
+    "codigo": "US",
+    "huso": -5,
+    "apertura": 8,
+    "cierre": 18,
+    "minutos_liquidacion": 31,
+    "festivos": [
+      "2026-07-03",
+      "2026-11-26"
+    ]
+  },
+  {
+    "codigo": "SG",
+    "huso": 8,
+    "apertura": 9,
+    "cierre": 17,
+    "minutos_liquidacion": 20,
+    "festivos": [
+      "2026-06-19",
+      "2026-08-10"
+    ]
+  },
+  {
+    "codigo": "VN",
+    "huso": 7,
+    "apertura": 8,
+    "cierre": 16,
+    "minutos_liquidacion": 120,
+    "festivos": [
+      "2026-09-02"
+    ]
+  },
+  {
+    "codigo": "ES",
+    "huso": 2,
+    "apertura": 8,
+    "cierre": 17,
+    "minutos_liquidacion": 9,
+    "festivos": [
+      "2026-08-15"
+    ]
+  },
+  {
+    "codigo": "PH",
+    "huso": 8,
+    "apertura": 9,
+    "cierre": 16,
+    "minutos_liquidacion": 25,
+    "festivos": [
+      "2026-06-12"
+    ]
+  }
+]

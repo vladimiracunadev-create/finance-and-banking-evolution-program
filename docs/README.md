@@ -16,6 +16,7 @@ sustituye. El número exacto de partes y clases está en
 | 🧮 **[Formulario](formulas.md)** | Las fórmulas del programa con su trampa habitual |
 | 🌐 **[Etapa 5 — finanzas digitales](etapa-5-finanzas-digitales.md)** | Qué es y qué no es la etapa de infraestructura financiera digital, con sus seis criterios |
 | 🔓 **[Mapa de finanzas abiertas](mapa-finanzas-abiertas.md)** | Dónde está cada concepto de la Parte 17 y qué se puede ejecutar |
+| 🌍 **[Mapa de pagos transfronterizos](mapa-pagos-transfronterizos.md)** | Dónde está cada concepto de la Parte 18 y los siete errores que persigue |
 | 📘 **[Glosario de finanzas digitales](glosario-finanzas-digitales.md)** | Términos de la Etapa 5, cada uno con su «qué NO significa» |
 
 ## Para quien enseña
@@ -80,6 +81,7 @@ python tools/build_syllabus.py && python tools/progress.py && python tools/check
 | `tools/validate_program.py` | Estructura, secciones obligatorias y mínimo de fuentes |
 | `tools/validate_metadata.py` | Que ninguna norma se cite sin fecha de verificación |
 | `tools/validate_openapi.py` | Contratos de API: alcances, errores, importes y enumerados |
+| `tools/validate_iso20022.py` | Mensajes de pago: campos, formatos y referencia estable |
 | `tools/validate_datasets.py` | Que todo conjunto de datos tenga ficha y toda columna, diccionario |
 | `tools/detect_secrets.py` | Que no haya credenciales reales versionadas |
 | `tools/detect_pii.py` | Que no haya datos personales reales en datos ni portafolio |
