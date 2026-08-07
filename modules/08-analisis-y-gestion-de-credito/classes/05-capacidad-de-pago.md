@@ -21,6 +21,8 @@ Determinar si el solicitante puede sostener la cuota propuesta, que es la pregun
 evaluación crediticia. Esta clase entrega el cálculo, sus límites de referencia, la prueba de estrés
 que lo valida y el criterio para distinguir una capacidad ajustada de una insuficiente.
 
+La clase anterior determinó cuánto entra. Esta determina cuánto de eso puede comprometerse, que es la decisión central de la evaluación. Y añade la comprobación que separa una evaluación prudente de una que se rompe al primer cambio de tasa: la prueba de estrés sobre la propia cuota.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la medida y sus componentes; los tres siguientes, el estrés y su resultado. La **prueba de estrés** es la que evita el problema recurrente de los créditos a tasa variable: se evalúa con una tasa de calificación mayor que la contratada, y esa diferencia es el margen.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `carga financiera (RCI)` | `cuotas totales / renta admisible`. Indicador central de la evaluación. |
@@ -81,6 +85,8 @@ discrimina contra las rentas bajas.
 
 ### 1. El cálculo básico
 
+La capacidad de pago se calcula con una fórmula corta y con criterios que hay que declarar. El procedimiento siguiente lo hace.
+
 ```text
 carga financiera = (cuotas vigentes + cuota propuesta) / renta admisible
 
@@ -98,6 +104,8 @@ excedente = 2 400 000 − 1 150 000 − 900 000 = 350 000
 ```
 
 ### 2. Límites de referencia y su fundamento
+
+Los límites de carga financiera no son convenciones: tienen fundamento en la evidencia de incumplimiento. La tabla los recoge con su razón.
 
 | Renta | Límite de carga financiera de referencia | Fundamento |
 |---|---:|---|
@@ -120,6 +128,8 @@ con la carga financiera, y el punto de inflexión suele ubicarse entre el 40 % y
 segmento.
 
 ### 3. Estimar el gasto de subsistencia
+
+El excedente disponible depende de un gasto de subsistencia que hay que estimar y no suponer. La tabla recoge los métodos.
 
 ```text
 NO se pregunta al solicitante: se estima con métodos objetivos
@@ -183,6 +193,8 @@ PRUEBA COMBINADA (ambas simultáneas):
 
 ### 5. Monto máximo financiable
 
+Del excedente y de la tasa de calificación sale el monto máximo. El procedimiento siguiente lo despeja.
+
 ```text
 cuota máxima = min(
     renta admisible × límite de carga − cuotas vigentes,
@@ -222,6 +234,8 @@ monto máximo a 20 años, tasa real 4,3 %: ≈ 1 620 UF
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la capacidad de pago con y sin estrés. La diferencia entre las dos cifras es el margen que el crédito tiene ante un alza de tasas, y verlo así explica por qué la calificación se hace con una tasa mayor.
 
 **Situación.** Evalúa la capacidad de pago de un solicitante de crédito hipotecario.
 
@@ -351,6 +365,8 @@ comparar la situación anterior y la posterior.
 
 ## 🏦 Del cliente al banco
 
+El cliente pregunta cuánto le prestan y el banco calcula cuánto puede pagar en el peor escenario razonable. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Puedo pagar más" | El límite protege también al cliente | 4, clase 10 |
@@ -361,6 +377,8 @@ comparar la situación anterior y la posterior.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el monto máximo financiable con y sin estrés para tres perfiles. La diferencia decide si el crédito es sostenible.
+
 En `labs/lab-03.md`:
 
 1. Calcula carga financiera y excedente de cinco casos con rentas distintas.
@@ -369,6 +387,8 @@ En `labs/lab-03.md`:
 4. Determina el monto máximo financiable aplicando ambos criterios y el estrés.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen créditos que dejan de pagarse tras un alza de tasas. La causa es haber calificado con la tasa contratada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

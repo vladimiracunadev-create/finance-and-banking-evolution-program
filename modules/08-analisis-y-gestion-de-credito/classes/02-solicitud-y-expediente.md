@@ -22,6 +22,8 @@ auditoría, un reclamo o un litigio años después. Un expediente incompleto no 
 decisión: impide demostrar que se actuó con diligencia y debilita la posición del acreedor ante un
 incumplimiento.
 
+El ciclo de la clase anterior empieza con una solicitud. Esta clase construye el expediente que la sostiene, y su exigencia central es que cada afirmación tenga su documento: un expediente es la prueba de que la decisión fue razonable con la información disponible, y sin él no se puede defender ninguna decisión ante un auditor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cuatro primeros términos son las piezas del expediente y su verificación; los dos últimos, cómo se documenta lo que se sale de la norma. La **trazabilidad** es el criterio que gobierna todo: cualquier cifra de la propuesta debe poder seguirse hasta el documento que la respalda.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -137,6 +141,8 @@ GARANTÍAS
 
 ### 2. Verificación
 
+Un documento presentado no es un dato verificado, y la diferencia decide. La tabla recoge qué se verifica y contra qué fuente.
+
 ```text
 DECLARADO ≠ VERIFICADO
 ```
@@ -165,6 +171,8 @@ posible explicación ilegítima: liquidación adulterada
 ```
 
 ### 3. Señales de expediente manipulado
+
+Los expedientes manipulados dejan señales reconocibles. La tabla las recoge con la comprobación que las confirma.
 
 | Señal | Qué sugiere |
 |---|---|
@@ -216,6 +224,8 @@ analizó, describió**.
 
 ### 5. Controles de calidad antes de someter
 
+Antes de someter la propuesta hay controles que evitan devoluciones y decisiones mal fundadas. La lista los recoge.
+
 ```text
 □ todos los documentos están vigentes a la fecha de la decisión
 □ cada dato relevante tiene su fuente identificada
@@ -233,6 +243,8 @@ El último control es el criterio de suficiencia: **si otra persona con el exped
 reconstruir la decisión, el expediente está incompleto**.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo arma un expediente completo y le aplica los controles de calidad. Conviene fijarse en las excepciones: son las que más atención reciben en cualquier revisión posterior.
 
 **Situación.** Revisa el expediente de una solicitud de crédito comercial por 180 millones.
 
@@ -362,6 +374,8 @@ apalancamiento de 4,44 veces.
 
 ## 🏦 Del cliente al banco
 
+El cliente entrega papeles y el banco construye la prueba de una decisión. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Piden demasiados documentos" | Cada uno sustenta un dato de la decisión | 9, clase 5 |
@@ -372,6 +386,8 @@ apalancamiento de 4,44 veces.
 
 ## 🧪 Práctica
 
+El laboratorio pide detectar las inconsistencias de un expediente sintético. Dos de ellas son señales de manipulación y las demás son errores administrativos: distinguirlas es lo que se evalúa.
+
 En `labs/lab-01.md`, sección de expedientes:
 
 1. Construye la lista de documentos exigibles para tres tipos de deudor.
@@ -380,6 +396,8 @@ En `labs/lab-01.md`, sección de expedientes:
 4. Redacta una propuesta de crédito completa con sus ocho secciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la revisión de calidad o en la auditoría. Las causas están en verificaciones que no se hicieron y en excepciones sin justificar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

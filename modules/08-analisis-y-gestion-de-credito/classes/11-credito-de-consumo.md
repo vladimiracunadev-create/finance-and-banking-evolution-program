@@ -21,6 +21,8 @@ Aplicar todo lo anterior al producto de mayor volumen y mayor riesgo relativo de
 El crédito de consumo se decide en minutos, sin garantía, y su rentabilidad depende de un equilibrio
 fino entre volumen, precio y calidad de originación.
 
+Las diez clases anteriores dan las herramientas. Esta las aplica al producto de mayor volumen y mayor pérdida esperada, y añade la pieza que convierte el riesgo en precio: si la pérdida esperada se puede calcular, se puede cobrar, y de ahí sale el precio ajustado por riesgo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el producto y su riesgo; los cuatro siguientes, cómo se traduce en precio y en política. La **rentabilidad ajustada por riesgo** es la medida que decide: un producto con alta tasa y alta pérdida puede rendir menos que uno con tasa baja y pérdida mínima.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `crédito de consumo` | Préstamo sin garantía específica, destinado a consumo, con cuotas fijas. |
@@ -65,6 +69,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mitigante` | Condición que reduce el riesgo sin cambiar el precio. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una ecuación de precio: la tasa que se cobra tiene que cubrir el costo de fondos, la pérdida esperada, los costos operativos y el retorno exigido al capital. Si falta un componente, el producto pierde dinero sin que nadie lo note hasta el año siguiente.
 
 El resultado del producto se descompone en cinco términos:
 
@@ -88,6 +94,8 @@ resultado de 5,6 %, un aumento de 2 puntos en la pérdida se lleva el 36 % del r
 
 ### 1. Estructura de la evaluación
 
+La evaluación de consumo combina scoring con reglas de política. La tabla recoge su estructura.
+
 ```text
 1. identificación y conocimiento del cliente (clase 3)
 2. renta admisible (clase 4)
@@ -104,6 +112,8 @@ Los pasos 1 a 6 son **acumulativos, no alternativos**: un buen score no exime de
 capacidad de pago.
 
 ### 2. Calcular la pérdida esperada y el precio
+
+El precio sale de sumar los componentes del costo, y la pérdida esperada es uno de ellos. El procedimiento siguiente lo calcula.
 
 ```text
 pérdida esperada = PD × LGD × EAD
@@ -144,6 +154,8 @@ produce pérdida sistemática.
 
 ### 3. Política de admisión por segmento
 
+La política se define por segmento porque el mismo producto tiene comportamientos muy distintos. La tabla la recoge.
+
 ```text
 la política define, para cada segmento:
   · punto de corte del score
@@ -178,6 +190,8 @@ SEGMENTO E (score < 400)
 
 ### 4. Efecto de las decisiones de política
 
+Cada cambio de política mueve el volumen y la pérdida en direcciones opuestas. La tabla cuantifica los efectos habituales.
+
 ```text
 simulación: relajar la carga financiera máxima de 40 % a 45 % en el segmento B
 ```
@@ -211,6 +225,8 @@ tramo**, y esa es precisamente la zona donde la calibración suele fallar (clase
 
 ### 5. Mitigantes del producto
 
+El diseño del producto puede reducir la pérdida sin cambiar la admisión. La tabla recoge los mitigantes.
+
 | Mitigante | Efecto | Aplicable a |
 |---|---|---|
 | Débito automático | Reduce PD entre 15 % y 30 % | Todos los segmentos |
@@ -230,6 +246,8 @@ efecto combinado de débito automático + fecha alineada:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el precio ajustado por riesgo de un producto de consumo. Conviene comprobar que la suma de componentes cubre la tasa cobrada: si no, el producto pierde dinero.
 
 **Situación.** Evalúa una solicitud de crédito de consumo por 7 500 000 a 48 meses.
 
@@ -348,6 +366,8 @@ solicitud original.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una tasa alta y el banco cubre una pérdida esperada alta. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "¿Por qué esa tasa?" | Pricing basado en la pérdida esperada del segmento | 15, clase 7 |
@@ -358,6 +378,8 @@ solicitud original.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el precio de tres segmentos con distinta pérdida esperada. El segmento con mayor tasa no es el más rentable.
+
 En `labs/lab-06.md`:
 
 1. Evalúa tres solicitudes completas aplicando los nueve pasos.
@@ -366,6 +388,8 @@ En `labs/lab-06.md`:
 4. Cuantifica el efecto de tres mitigantes sobre la PD y el precio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen productos que crecen y no ganan dinero. La causa es un precio que no cubre la pérdida esperada real.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

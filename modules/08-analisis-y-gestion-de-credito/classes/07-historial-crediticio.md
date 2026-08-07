@@ -21,6 +21,8 @@ Interpretar el comportamiento de pago pasado como predictor del futuro, que es l
 poder predictivo de cualquier modelo crediticio. Esta clase enseña a leer un informe completo, a
 distinguir una mora circunstancial de un patrón, y a evaluar a quien no tiene historial.
 
+Las tres clases anteriores miden la situación actual. Esta mira hacia atrás, que es el mejor predictor disponible del comportamiento futuro. Pero exige criterio: una mora aislada por un problema puntual y un patrón de morosidad son cosas distintas, y el informe las presenta igual.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el contenido del informe y su interpretación; los tres siguientes, los casos difíciles. El **patrón de comportamiento** es lo que hay que leer: la secuencia importa más que el número de eventos, y un deterioro reciente pesa más que uno antiguo ya superado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `informe de deudas` | Registro consolidado de obligaciones y comportamiento de pago. |
@@ -81,6 +85,8 @@ corto en un periodo bueno tiene poco poder predictivo.
 
 ### 1. Leer un informe completo
 
+Un informe tiene varias secciones y la más informativa no es la de morosidades. El recorrido siguiente indica el orden de lectura.
+
 ```text
 SECCIONES DE UN INFORME
   1. deudas vigentes: acreedor, tipo, monto, cuota, estado
@@ -105,6 +111,8 @@ SECCIONES DE UN INFORME
 | Reestructuraciones | Cuántas, cuándo, si se cumplieron |
 
 ### 2. Mora circunstancial y patrón
+
+Distinguir una mora puntual de un patrón exige mirar la secuencia completa. La tabla recoge los criterios.
 
 ```text
 MORA CIRCUNSTANCIAL
@@ -174,6 +182,8 @@ protestos con documentos de gran monto   → problema estructural
 
 ### 4. Solicitantes sin historial
 
+La ausencia de historial no es un mal historial, y tratarla como tal excluye a poblaciones enteras. La tabla recoge las alternativas de evaluación.
+
 ```text
 sin historial ≠ mal historial
 ```
@@ -203,6 +213,8 @@ Rechazar sistemáticamente a quien no tiene historial produce una exclusión que
 
 ### 5. Ponderar el historial en la decisión
 
+El historial es un insumo y no la decisión. La tabla recoge cómo se pondera junto con el resto.
+
 ```text
 el historial es el factor de mayor poder predictivo Y NO ES SUFICIENTE
 ```
@@ -221,6 +233,8 @@ insuficiente**. Son dimensiones distintas, y la capacidad es la que determina si
 pagar.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo interpreta dos informes con el mismo número de morosidades y comportamientos opuestos. La diferencia está en la secuencia, y verla es el objetivo.
 
 **Situación.** Compara tres solicitantes con la misma capacidad de pago y distinto historial.
 
@@ -349,6 +363,8 @@ diseño de producto**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un informe y el banco lee un patrón. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Nunca he tenido mora grave" | El patrón de atrasos cortos también es predictivo | 4, clase 10 |
@@ -359,6 +375,8 @@ diseño de producto**.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar cinco historiales y decidir. Dos tienen el mismo número de eventos y merecen decisiones opuestas.
+
 En `labs/lab-04.md`:
 
 1. Analiza tres informes de deudas sintéticos e identifica patrones frente a eventos aislados.
@@ -367,6 +385,8 @@ En `labs/lab-04.md`:
 4. Define mitigantes para un caso de conducta de pago tardío.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones mal fundadas en el historial. Las causas son contar eventos en vez de leer la secuencia, y rechazar por ausencia de historial.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

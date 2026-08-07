@@ -21,6 +21,8 @@ Comprender cómo se construye, valida y usa un modelo de scoring, que es el inst
 mayoría de las operaciones minoristas. Esta clase entrega el proceso completo, las métricas de
 evaluación y —especialmente— los límites y riesgos que un modelo mal gobernado introduce.
 
+Las clases anteriores evalúan caso a caso. Esta automatiza la decisión para volúmenes grandes, y con eso introduce ventajas y riesgos nuevos: consistencia y velocidad por un lado, y por otro un modelo que se deteriora con el tiempo y que puede discriminar sin que nadie lo haya decidido.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la construcción del modelo; los cuatro siguientes, su calidad, su uso y su deterioro. La **definición de malo** es la decisión más importante y la que menos se discute: de ella depende todo lo que el modelo aprende, y cambiarla cambia el modelo entero.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `scoring` | Modelo estadístico que estima la probabilidad de incumplimiento de un solicitante. |
@@ -84,6 +88,8 @@ nivel de riesgo de todos**. Eso produce precios equivocados aunque la selección
 
 ### 1. Proceso de construcción
 
+Construir un modelo de scoring tiene etapas fijas y en orden. La tabla las recoge con su producto.
+
 ```text
 1. definir el evento ("malo"): mora ≥ 90 días en los 12 meses siguientes
 2. definir la ventana: cosecha de originación y periodo de observación
@@ -104,6 +110,8 @@ población que ya pasó el filtro anterior. Las técnicas de inferencia de recha
 con supuestos que deben declararse.
 
 ### 2. Variables típicas y su poder predictivo
+
+Ciertas variables predicen mejor que otras de forma consistente entre carteras. La tabla las recoge con su poder habitual.
 
 | Categoría | Variables | Poder predictivo relativo |
 |---|---|---|
@@ -169,6 +177,8 @@ PSI < 0,10   población estable
 ```
 
 ### 4. Del puntaje a la decisión
+
+Un puntaje no es una decisión: hace falta un punto de corte, y elegirlo es una decisión de negocio con consecuencias medibles. El procedimiento siguiente lo fija.
 
 ```text
 el modelo entrega una PROBABILIDAD
@@ -245,6 +255,8 @@ anual        revisión completa y decisión de recalibrar o reconstruir
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mueve el punto de corte de un modelo y mide el efecto sobre aprobación y pérdida. Conviene ver las dos cifras juntas: mover el corte siempre mejora una y empeora la otra.
 
 **Situación.** Un modelo de scoring de consumo muestra deterioro. Diagnostícalo.
 
@@ -352,6 +364,8 @@ canal sucursal, que seguía funcionando bien, compensaba en el promedio. El cost
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una decisión y el banco aplica un modelo con su punto de corte y su gobierno. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Me rechazaron sin explicación" | Derecho a conocer los factores principales | 12, clase 10 |
@@ -362,6 +376,8 @@ canal sucursal, que seguía funcionando bien, compensaba en el promedio. El cost
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la discriminación de un modelo y elegir el punto de corte que maximiza el resultado ajustado por riesgo. La elección con su justificación es lo que se evalúa.
+
 En `labs/lab-05.md`, sección de scoring:
 
 1. Calcula Gini y la tabla de calibración de un modelo con datos sintéticos.
@@ -370,6 +386,8 @@ En `labs/lab-05.md`, sección de scoring:
 4. Diseña el tablero de monitoreo con sus umbrales de alerta.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen modelos que dejan de funcionar. Las causas son la deriva no vigilada y una definición de malo que cambió sin recalibrar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

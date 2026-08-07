@@ -21,6 +21,8 @@ Determinar si una empresa genera la caja necesaria para servir su deuda, que es 
 importa en el crédito comercial. Los estados financieros muestran utilidad; **la deuda se paga con
 caja**, y esta clase enseña a construir, proyectar y estresar el flujo que la sostiene.
 
+Las siete clases anteriores evalúan personas. Esta pasa a empresas, donde la primera fuente de pago no es un sueldo sino un flujo de caja que hay que construir a partir de los estados financieros de la Parte 5. Y añade la pregunta que un comité hace siempre: hasta dónde puede caer la venta antes de que la empresa no pueda pagar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las medidas de generación de caja; los cuatro siguientes, las coberturas y el límite. La **cobertura del servicio de deuda** es el indicador que decide: mide cuántas veces cabe el pago anual de deuda en el flujo disponible, y por debajo de uno la empresa no puede pagar sin refinanciarse.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `EBITDA` | Aproximación del flujo operativo antes de capital de trabajo e inversión. No es caja. |
@@ -66,6 +70,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `punto de quiebre` | Caída de ventas o margen que lleva el DSCR a 1,0. |
 
 ## 🧠 Modelo mental
+
+El modelo mental de esta clase es una cascada: de la utilidad contable al flujo que efectivamente queda disponible para pagar deuda, restando en cada escalón algo que la utilidad no descontó.
 
 La secuencia desde la utilidad hasta la caja disponible:
 
@@ -84,6 +90,8 @@ obligatoria (sin ella el negocio se deteriora); la de expansión es discrecional
 ## 📖 Desarrollo
 
 ### 1. Construir el flujo disponible
+
+El flujo disponible para deuda se construye bajando desde el EBITDA y restando lo que la deuda no puede tocar. El procedimiento siguiente lo recorre.
 
 ```text
                                       Año −2    Año −1    Año 0
@@ -105,6 +113,8 @@ DSCR                                            1,38    1,37    0,87
 que consumió 3 480 en lugar de 2 210. Esa es la información que el estado de resultados no muestra.
 
 ### 2. Indicadores de cobertura
+
+Tres indicadores miden la holgura desde ángulos distintos y hay que leerlos juntos. La tabla los recoge con sus umbrales.
 
 | Indicador | Fórmula | Referencia mínima | Qué mide |
 |---|---|---:|---|
@@ -128,6 +138,8 @@ la empresa puede pagar los intereses y no puede amortizar. Ese es un perfil que 
 y colapsa cuando el refinanciamiento se cierra.
 
 ### 3. Proyectar con supuestos verificables
+
+Una proyección solo vale lo que valen sus supuestos, y estos tienen que poder contrastarse con algo. La tabla recoge los criterios.
 
 ```text
 cada supuesto debe tener una fuente:
@@ -161,6 +173,8 @@ PROYECCIÓN AÑO 1
 el que declara la empresa. Un analista que proyecta con los supuestos del cliente no está analizando.
 
 ### 4. Estresar y encontrar el punto de quiebre
+
+El punto de quiebre es la caída de ventas que lleva la cobertura a uno. El procedimiento siguiente lo calcula.
 
 ```text
 PRUEBA 1 — caída de ingresos
@@ -207,6 +221,8 @@ solo aparece al estresar cada variable por separado.
 
 ### 5. Dimensionar monto y plazo
 
+Del flujo disponible salen el monto y el plazo que la empresa puede soportar. El procedimiento los despeja.
+
 ```text
 servicio máximo sostenible = flujo disponible / DSCR objetivo
 ```
@@ -230,6 +246,8 @@ Alternativas para reducir el servicio:
 | Vender activos no operativos | Variable | Existencia de activos prescindibles |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el flujo disponible de una empresa y encuentra su punto de quiebre. Conviene comparar el punto de quiebre con la caída observada en la última recesión: si es menor, el crédito no es prudente.
 
 **Situación.** Una empresa constructora solicita 320 millones para capital de trabajo.
 
@@ -361,6 +379,8 @@ ciclo.
 
 ## 🏦 Del cliente al banco
 
+La empresa muestra utilidad y el banco calcula flujo disponible y cobertura. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Tenemos utilidad y crecemos" | ¿La utilidad se convierte en caja? | 5, clase 12 |
@@ -371,6 +391,8 @@ ciclo.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el flujo disponible de una empresa y calcular su punto de quiebre. La distancia entre el punto de quiebre y la variabilidad histórica de las ventas es lo que decide.
+
 En `labs/lab-05.md`:
 
 1. Construye el flujo disponible para deuda de tres empresas a partir de sus estados.
@@ -379,6 +401,8 @@ En `labs/lab-05.md`:
 4. Encuentra los cuatro puntos de quiebre y determina la vulnerabilidad crítica.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen empresas que incumplieron pese a mostrar utilidad. La causa es la diferencia entre utilidad y flujo disponible.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ del negocio. La pyme presenta un desafío particular: información financiera de
 concentración de riesgo en una persona y frontera difusa entre el patrimonio de la empresa y el del
 dueño.
 
+Esta clase trata el segmento donde los estados financieros son menos fiables y el análisis cualitativo pesa más. Una pyme suele confundir el patrimonio del dueño con el de la empresa, y esa confusión no es una irregularidad: es la situación normal, y la evaluación tiene que trabajar con ella.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el método y sus correcciones; los cuatro siguientes, los riesgos propios del segmento y la estructura de la operación. La **dependencia del dueño** es el riesgo característico: en muchas pymes la relación comercial, el conocimiento técnico y el crédito de proveedores dependen de una sola persona.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `análisis cualitativo` | Evaluación del negocio, la industria y la administración. No es opinión: se estructura. |
@@ -86,6 +90,8 @@ empresa peor o mejor de lo que es.
 
 ### 1. Estructura de la evaluación
 
+La evaluación de pyme combina lo cuantitativo con lo cualitativo en una proporción distinta a la de una empresa grande. La tabla la recoge.
+
 ```text
 CUANTITATIVO
   1. ajuste de los estados financieros
@@ -107,6 +113,8 @@ INTEGRACIÓN
 ```
 
 ### 2. Ajustes a los estados financieros de una pyme
+
+Los estados de una pyme requieren ajustes antes de poder analizarse. La tabla los recoge con su razón.
 
 | Ajuste | Efecto | Cómo detectarlo |
 |---|---|---|
@@ -219,6 +227,8 @@ cálculo con los estados ajustados:
 
 ### 5. Estructurar la operación
 
+La estructura de la operación puede compensar debilidades del análisis. La tabla recoge las herramientas disponibles.
+
 ```text
 la necesidad determina el producto, no al revés
 ```
@@ -237,6 +247,8 @@ permanente, y financiarlo con una línea rotativa de corto plazo crea un riesgo 
 estructural.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo ajusta los estados de una pyme y evalúa la operación. Conviene comparar los indicadores antes y después del ajuste: la diferencia suele cambiar la decisión.
 
 **Situación.** Una pyme metalmecánica solicita 95 millones para capital de trabajo.
 
@@ -433,6 +445,8 @@ el aporte de capital**: sin él, el banco estaría financiando el patrimonio de 
 
 ## 🏦 Del cliente al banco
 
+El empresario presenta sus estados y el banco los ajusta antes de analizarlos. La tabla enfrenta las dos lecturas.
+
 | Vista de la empresa | Vista del banco | Parte |
 |---|---|---|
 | "Necesito capital de trabajo" | ¿Es un desfase o un crecimiento estructural? | 13, clase 2 |
@@ -443,6 +457,8 @@ el aporte de capital**: sin él, el banco estaría financiando el patrimonio de 
 
 ## 🧪 Práctica
 
+El laboratorio pide ajustar los estados de una pyme con confusión patrimonial y evaluar. Detectar qué partidas son personales es la parte que decide.
+
 En `labs/lab-06.md`, sección comercial:
 
 1. Ajusta los estados financieros de una pyme con al menos cinco correcciones.
@@ -451,6 +467,8 @@ En `labs/lab-06.md`, sección comercial:
 4. Diseña la estructura de operación que resuelve la necesidad real del caso.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen evaluaciones de pyme que fallaron. Las causas son estados sin ajustar y dependencia del dueño no considerada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

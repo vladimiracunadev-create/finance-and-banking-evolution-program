@@ -21,6 +21,8 @@ Construir una herramienta que evalúe solicitudes de crédito de principio a fin
 codificada, la decisión trazable y el precio calculado según el riesgo. Es el proyecto que integra las
 quince clases de la parte y el insumo directo del banco virtual de la Parte 16.
 
+Esta clase cierra la parte codificando en un motor las quince anteriores. No introduce criterio nuevo: introduce la exigencia de que la política quede escrita en código y de que cada decisión pueda explicarse, porque un motor que decide y no explica no se puede defender ante un cliente ni ante un supervisor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el entregable y su gobierno; los tres siguientes, lo que lo hace defendible. La **explicabilidad** es la exigencia que más condiciona el diseño: cada rechazo tiene que poder acompañarse del motivo concreto que lo produjo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `motor de decisión` | Sistema que aplica la política a una solicitud y produce una decisión fundada. |
@@ -81,6 +85,8 @@ al cliente y no se puede mejorar**.
 
 ### 1. Requisitos funcionales
 
+Los requisitos se escriben antes y se convierten en casos de prueba. La tabla los recoge.
+
 | # | Requisito | Entrada | Salida |
 |---:|---|---|---|
 | 1 | Validar completitud del expediente | Documentos declarados | Faltantes identificados |
@@ -99,6 +105,8 @@ al cliente y no se puede mejorar**.
 | 14 | Registrar la evaluación | Todo | Registro auditable con marca de tiempo |
 
 ### 2. Arquitectura
+
+La separación entre política, cálculo y decisión permite cambiar la política sin tocar el cálculo. El esquema la muestra.
 
 ```text
 apps/credit_engine/
@@ -124,6 +132,8 @@ portfolio/parte-09/clase-16/
 ```
 
 ### 3. Implementación de referencia
+
+Las funciones necesarias existen parcialmente en el repositorio. La lista indica cuáles ampliar.
 
 ```python
 from dataclasses import dataclass, field
@@ -187,6 +197,8 @@ def evaluar_carga_financiera(
 
 ### 4. Codificar la política
 
+La política se codifica como reglas con su origen documentado, no como condiciones dispersas en el código. El esquema muestra la forma.
+
 ```text
 cada regla debe tener:
   · código único y versión
@@ -218,6 +230,8 @@ P-015  identificación y beneficiario final verificados
 ```
 
 ### 5. Validación
+
+La validación compara el motor con decisiones resueltas a mano en las clases anteriores. La tabla recoge los casos.
 
 ```text
 CASO 1 — aprobación limpia
@@ -254,6 +268,8 @@ CASO 8 — explicabilidad
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre la construcción completa hasta la explicación de un rechazo. Conviene fijarse en la explicación: es la parte que distingue un motor utilizable de uno que solo calcula.
 
 **Situación de defensa.** Presentas el motor y el comité formula cuatro preguntas.
 
@@ -347,6 +363,8 @@ monitorea el modelo que lo alimenta y qué queda fuera de su alcance**.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una decisión y el banco tiene que poder explicarla y auditarla. La tabla enfrenta las dos lecturas.
+
 | Componente del motor | Equivalente en producción | Parte |
 |---|---|---|
 | Política codificada | Motor de decisión del core bancario | 14, clase 12 |
@@ -365,6 +383,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Prepara la defensa de las cuatro preguntas con tus propios datos y límites.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando alguien cuestiona una decisión del motor. Casi todos se evitan con trazabilidad y con la política escrita como regla.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

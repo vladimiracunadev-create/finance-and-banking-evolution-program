@@ -21,6 +21,8 @@ Entender qué hace y qué no hace una garantía. Una garantía **no mejora la ca
 deudor**: reduce la pérdida si el deudor incumple. Confundir ambas cosas produce el error más caro de
 la originación: aprobar a quien no puede pagar porque "tiene garantía".
 
+Las clases anteriores evalúan la primera fuente de pago, que es el flujo del deudor. Esta trata la segunda, y con una advertencia que ordena toda la clase: una garantía no convierte un mal crédito en uno bueno. Reduce la pérdida si el crédito falla, y eso es distinto de reducir la probabilidad de que falle.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son los tipos de garantía; los cinco siguientes, cómo se valoran y qué efecto tienen. La distinción entre **valor de tasación y valor de liquidación** es la que hay que fijar: lo que importa no es cuánto vale el bien sino cuánto se obtendría vendiéndolo con prisa.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `garantía real` | Recae sobre un bien: hipoteca, prenda. Da preferencia sobre otros acreedores. |
@@ -83,6 +87,8 @@ el negocio inmobiliario o de remates.
 
 ### 1. Tipos de garantía y su eficacia
 
+Las garantías se diferencian mucho en su eficacia real, que depende de cuánto se recupera y en cuánto tiempo. La tabla las compara.
+
 | Tipo | Bien | Constitución | Eficacia relativa |
 |---|---|---|---|
 | Hipoteca | Inmueble | Escritura pública e inscripción | **Alta** |
@@ -105,6 +111,8 @@ el negocio inmobiliario o de remates.
 ```
 
 ### 2. Valorar con criterio de liquidación
+
+La valoración de liquidación descuenta plazo, costos y descuento de venta forzada. El procedimiento siguiente la obtiene.
 
 ```text
 valor de liquidación = valor de tasación × factor de castigo
@@ -139,6 +147,8 @@ ejemplo:
 
 ### 3. LTV y severidad
 
+La relación préstamo/valor determina la severidad esperada, y esa es la conexión entre garantía y provisión. El cálculo siguiente la establece.
+
 ```text
 LTV = crédito / valor de tasación
 severidad (LGD) = (exposición − recuperación) / exposición
@@ -165,6 +175,8 @@ precios.
 
 ### 4. Verificar la constitución
 
+Una garantía mal constituida no sirve en el momento de ejecutarla. La lista recoge las comprobaciones.
+
 ```text
 □ el bien existe y está identificado sin ambigüedad
 □ el constituyente es el dueño (certificado de dominio vigente)
@@ -182,6 +194,8 @@ precios.
 inscrita. Entre la firma y la inscripción pueden aparecer gravámenes de terceros que tomen preferencia.
 
 ### 5. Garantía como segunda fuente, nunca primera
+
+Otorgar mirando la garantía en vez del flujo es la causa más frecuente de carteras problemáticas con buenas garantías. El esquema explica por qué.
 
 ```text
 la garantía NO:
@@ -210,6 +224,8 @@ diferencia:                           1,20 puntos de menor tasa
 **La garantía se traduce en precio, no en aprobación.**
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo valora una garantía a criterio de liquidación y calcula la severidad resultante. La diferencia con el valor de tasación suele ser de decenas de por ciento.
 
 **Situación.** Una empresa solicita 240 millones ofreciendo garantías. Evalúa la operación.
 
@@ -337,6 +353,8 @@ deuda, necesita reperfilar la que tiene**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ofrece una garantía y el banco calcula su valor de liquidación y su efecto sobre la provisión. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Tengo garantías suficientes" | La garantía no reemplaza la capacidad de pago | 9, clase 5 |
@@ -347,6 +365,8 @@ deuda, necesita reperfilar la que tiene**.
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar tres garantías a criterio de liquidación y calcular la severidad. El orden por valor de tasación y por valor de liquidación no coincide.
+
 En `labs/lab-04.md`, sección de garantías:
 
 1. Valora cinco garantías con criterio de liquidación y costos de ejecución.
@@ -355,6 +375,8 @@ En `labs/lab-04.md`, sección de garantías:
 4. Calcula el efecto de la garantía sobre el precio de la operación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen garantías que no cubrieron lo esperado. Las causas son valoraciones sin descuento de liquidación y constituciones defectuosas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

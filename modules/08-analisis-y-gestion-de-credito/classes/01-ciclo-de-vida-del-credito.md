@@ -21,6 +21,8 @@ Establecer el marco completo del negocio crediticio, desde la definición del ap
 de una operación irrecuperable. Cada etapa tiene decisiones propias, indicadores propios y errores
 propios, y la mayoría de las pérdidas de una cartera se originan en la primera etapa, no en la última.
 
+Aquí empieza la Etapa 3 y con ella el banco por dentro. Las etapas anteriores miraron el crédito desde quien lo pide; esta parte lo mira desde quien decide otorgarlo. Y empieza por el ciclo completo porque casi todo el daño de una cartera se origina en la primera etapa y se manifiesta en la quinta, cuando ya no hay nada que hacer.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los seis primeros términos son las etapas del ciclo y sus resultados; los dos últimos, el marco de gobierno que lo controla. El **apetito de riesgo** es el que ordena todo lo demás: es la decisión del directorio sobre cuánta pérdida está dispuesto a asumir, y de ella se derivan todas las políticas de las quince clases siguientes.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `apetito de riesgo` | Nivel y tipo de riesgo crediticio que la institución decide asumir. Se aprueba en el directorio. |
@@ -82,6 +86,8 @@ disciplinada y cobranza mediocre, no. Por eso el esfuerzo de control se concentr
 
 ### 1. Las siete etapas
 
+El ciclo tiene siete etapas y cada una produce lo que la siguiente consume. La tabla las recorre con su responsable.
+
 | # | Etapa | Decisión central | Responsable |
 |---:|---|---|---|
 | 1 | **Estrategia y apetito** | Qué segmentos, qué límites, qué rentabilidad exigida | Directorio |
@@ -93,6 +99,8 @@ disciplinada y cobranza mediocre, no. Por eso el esfuerzo de control se concentr
 | 7 | **Castigo y venta de cartera** | Reconocer la pérdida definitiva | Riesgo + Finanzas |
 
 ### 2. Indicadores por etapa
+
+Cada etapa se mide con indicadores propios, y mirarlos todos juntos es lo que permite ver dónde se origina un deterioro. La tabla los recoge.
 
 | Etapa | Indicadores clave |
 |---|---|
@@ -124,6 +132,8 @@ el deterioro comenzó en el T3, lo que apunta a un cambio en la política de adm
 
 ### 3. Por qué el origen está en la originación
 
+Un problema de cartera aparece en la mora y nace en la admisión, con meses o años de diferencia. El esquema muestra ese desfase, que es la razón de que la cobranza no pueda arreglar lo que la originación estropeó.
+
 ```text
 una operación mal originada NO se puede arreglar después:
   · la cobranza recupera una fracción, con costo
@@ -146,6 +156,8 @@ Descomposición típica de las causas de pérdida de una cartera:
 | Shock económico imprevisible | Externo | Variable |
 
 ### 4. Las tres líneas de defensa
+
+El control del riesgo se reparte en tres niveles con independencia creciente. La tabla los separa, y este marco reaparece en las Partes 11 y 12.
 
 ```text
 PRIMERA LÍNEA — el negocio
@@ -188,6 +200,8 @@ Método de diagnóstico:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo sigue una cosecha de créditos por las siete etapas. Conviene mirar la relación entre la política de admisión y la mora dieciocho meses después: es la única forma de ver que fueron la misma decisión.
 
 **Situación.** La cartera de consumo de un banco pasó de 2,4 % a 4,7 % de mora en 18 meses. El
 directorio pide un diagnóstico.
@@ -295,6 +309,8 @@ lo hizo visible.
 
 ## 🏦 Del cliente al banco
 
+El cliente pide un crédito y el banco ejecuta un proceso con siete etapas y tres líneas de control. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Me aprobaron rápido" | Menor control puede significar mayor precio o mayor riesgo | 9, clase 3 |
@@ -305,6 +321,8 @@ lo hizo visible.
 
 ## 🧪 Práctica
 
+El laboratorio pide ubicar el origen de un deterioro de cartera recorriendo el ciclo hacia atrás. El origen nunca está donde aparece el síntoma, y encontrarlo es el objetivo.
+
 En `labs/lab-01.md`:
 
 1. Mapea las siete etapas del ciclo con sus decisiones, responsables e indicadores.
@@ -313,6 +331,8 @@ En `labs/lab-01.md`:
 4. Diseña las tres líneas de defensa para un producto crediticio concreto.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos apuntan a decisiones de admisión tomadas mucho antes de que el problema fuera visible.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

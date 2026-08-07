@@ -21,6 +21,8 @@ Gestionar el crédito que ya salió mal, maximizando la recuperación y respetan
 deudor. La cobranza es la última etapa del ciclo y la que más expone a riesgo reputacional y
 regulatorio: **una recuperación obtenida con prácticas indebidas cuesta más de lo que recupera**.
 
+Esta clase trata lo que ocurre cuando el crédito ya falló. Y su criterio es económico y no moral: se compara el valor presente de cada alternativa —cobrar, reestructurar, vender o castigar— y se elige la mayor, con los límites que impone la conducta debida hacia el deudor.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las fases de la cobranza; los cuatro siguientes, las salidas disponibles. La **reestructuración** es la que más criterio exige: hecha a tiempo recupera más que cualquier gestión judicial, y hecha para posponer el reconocimiento de la pérdida la agrava.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cobranza preventiva` | Gestión antes del vencimiento o en los primeros días. La más efectiva y barata. |
@@ -83,6 +87,8 @@ gestión preventiva rinde más que cualquier esfuerzo posterior.
 ## 📖 Desarrollo
 
 ### 1. Estrategia segmentada
+
+La gestión se segmenta por probabilidad de recuperación y por tamaño, porque tratar todo igual desperdicia recursos. La tabla la recoge.
 
 ```text
 la gestión se segmenta por DOS dimensiones:
@@ -115,6 +121,8 @@ recordatorio agresivo a alguien con dificultad transitoria daña la relación si
 recuperación.
 
 ### 2. Cuándo reestructurar
+
+Reestructurar conviene bajo condiciones concretas y no siempre. La tabla recoge los criterios.
 
 ```text
 reestructurar tiene sentido si:
@@ -166,6 +174,8 @@ de los focos principales de la revisión supervisora.
 
 ### 3. Valorar las alternativas
 
+Las cuatro alternativas se comparan por su valor presente. El procedimiento siguiente lo hace.
+
 ```text
 para cada operación en mora avanzada, comparar el valor presente de:
   A  continuar la gestión propia
@@ -214,6 +224,8 @@ la decisión entre B y C depende de factores no financieros:
 
 ### 4. Estándares de conducta
 
+La cobranza tiene límites normativos y de conducta que no dependen de la deuda. La tabla los recoge.
+
 ```text
 PROHIBIDO
   · contactar en horarios inhábiles
@@ -248,6 +260,8 @@ cobrar sobre el máximo es una infracción, y además:
 ```
 
 ### 5. Castigo y recuperación posterior
+
+El castigo contable no extingue la deuda y la recuperación posterior sigue reglas propias. La tabla las recoge.
 
 ```text
 CASTIGO
@@ -447,6 +461,8 @@ precisamente donde una gestión de cobranza agresiva habría destruido valor.
 
 ## 🏦 Del cliente al banco
 
+El deudor recibe una gestión de cobro y el banco compara alternativas por su valor presente. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Llamada de cobranza | Gestión segmentada por tramo y perfil | 4, clase 13 |
@@ -457,6 +473,8 @@ precisamente donde una gestión de cobranza agresiva habría destruido valor.
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar las cuatro alternativas sobre la misma operación en mora. El resultado depende del momento, y comprobarlo justifica la cobranza temprana.
+
 En `labs/lab-06.md`, sección de cobranza:
 
 1. Segmenta una cartera en mora por tramo, perfil y monto.
@@ -465,6 +483,8 @@ En `labs/lab-06.md`, sección de cobranza:
 4. Construye la lista de controles de conducta y su método de verificación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras en mora que se gestionan mal. Las causas son reestructuraciones que solo posponen y gestión no segmentada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

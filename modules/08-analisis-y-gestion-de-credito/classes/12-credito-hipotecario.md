@@ -22,6 +22,8 @@ hipotecario combina una garantía sólida con un horizonte de veinte a treinta a
 foco desde la probabilidad de incumplimiento hacia la **sostenibilidad de la capacidad de pago en el
 tiempo** y hacia la calidad de la garantía.
 
+El crédito de consumo de la clase anterior dura meses. Este dura veinte años, y esa diferencia cambia todo: la evaluación tiene que proyectar la capacidad de pago a lo largo de una vida laboral, y la garantía tiene que valorarse sabiendo que el mercado inmobiliario también tiene ciclos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la estructura de la operación; los cuatro siguientes, los riesgos propios del plazo largo y de la unidad de cuenta. El **riesgo de reajuste** es el que menos se explica al cliente y más problemas causa: la cuota expresada en una unidad indexada sube con la inflación aunque el sueldo no lo haga.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `relación préstamo/valor (LTV)` | `crédito / valor de tasación`. Determina el colchón ante caídas de precio. |
@@ -85,6 +89,8 @@ recupero si no puede?**
 
 ### 1. Variables específicas de la evaluación
 
+La evaluación hipotecaria añade variables que no aparecen en otros créditos. La tabla las recoge.
+
 ```text
 además de las variables generales (clases 4 a 7):
 
@@ -109,6 +115,8 @@ DE LA OPERACIÓN
 ```
 
 ### 2. LTV y sus límites
+
+La relación préstamo/valor determina la severidad y suele tener límites regulatorios. La tabla los recoge con su fundamento.
 
 ```text
 LTV = crédito / min(valor de tasación, precio de compra)
@@ -146,6 +154,8 @@ límites de LTV son un instrumento macroprudencial (Parte 6, clase 11).
 
 ### 3. Evaluar la garantía
 
+La tasación de un inmueble tiene métodos y sesgos conocidos. La tabla los recoge.
+
 ```text
 □ tasación por profesional independiente registrado
 □ tasación con antigüedad menor a 6 meses
@@ -171,6 +181,8 @@ un inmueble con ampliaciones sin recepción municipal:
 ```
 
 ### 4. Proyectar la capacidad a veinte años
+
+Proyectar a veinte años exige supuestos sobre la vida laboral y sobre las tasas. El procedimiento siguiente los estructura.
 
 ```text
 la evaluación estándar mira el presente
@@ -211,6 +223,8 @@ inflación— es el riesgo estructural de los créditos indexados y debe evaluar
 
 ### 5. Mitigantes específicos
 
+El producto hipotecario tiene mitigantes propios que reducen la severidad. La tabla los recoge.
+
 | Mitigante | Efecto |
 |---|---|
 | Mayor pie (menor LTV) | Reduce la severidad y mejora la tasa |
@@ -223,6 +237,8 @@ inflación— es el riesgo estructural de los créditos indexados y debe evaluar
 | Tasa fija en lugar de variable | Elimina el riesgo de tasa del deudor |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa una operación hipotecaria completa con estrés de tasa y de reajuste. Conviene mirar la cuota en el peor escenario: es la que decide si la operación es prudente.
 
 **Situación.** Evalúa una solicitud hipotecaria completa.
 
@@ -373,6 +389,8 @@ cliente de mantener un fondo de emergencia. La condición C2 es la que hace comp
 
 ## 🏦 Del cliente al banco
 
+El cliente compra una vivienda y el banco origina un activo a veinte años que puede vender. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Quiero el máximo crédito" | El LTV determina la severidad de la pérdida | 11, clase 2 |
@@ -383,6 +401,8 @@ cliente de mantener un fondo de emergencia. La condición C2 es la que hace comp
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar una operación hipotecaria con estrés de tasa, de reajuste y de valor del inmueble. Los tres estreses juntos son los que revelan la exposición real.
+
 En `labs/lab-06.md`, sección hipotecaria:
 
 1. Calcula el LTV y la severidad de tres operaciones en dos escenarios de precio.
@@ -391,6 +411,8 @@ En `labs/lab-06.md`, sección hipotecaria:
 4. Diseña la estructura que cumple el límite de LTV y el objetivo de reserva del cliente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras hipotecarias que se deterioran con el ciclo. Las causas son LTV alto y estrés insuficiente en la calificación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Medir y reconocer la pérdida de una cartera antes de que se materialice. Las pr
 mecanismo por el que un banco reconoce que parte de sus colocaciones no se recuperará, y su
 subestimación es la forma más directa de sobrestimar el patrimonio.
 
+Las clases anteriores deciden si se otorga. Esta mide lo que ya se otorgó, y aplica el marco contable que reemplazó al de pérdida incurrida: hoy se provisiona la pérdida esperada, lo que significa reconocer el deterioro antes de que ocurra, en cuanto el riesgo aumenta.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el evento y la medida; los cinco siguientes, sus componentes y el marco de tres etapas. El **modelo de tres etapas** es la estructura de IFRS 9: la etapa en que está una operación decide si se provisiona la pérdida de doce meses o la de toda la vida, y el salto entre etapas es lo que produce los saltos de provisión.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `incumplimiento` | Evento definido: habitualmente mora ≥ 90 días o improbabilidad de pago. |
@@ -82,6 +86,8 @@ vigente y la razón por la que las provisiones se constituyen **antes** del incu
 
 ### 1. Definir el incumplimiento
 
+El incumplimiento tiene una definición técnica con criterios objetivos y subjetivos. La tabla los recoge.
+
 ```text
 CRITERIO OBJETIVO
   mora ≥ 90 días en una obligación material
@@ -102,6 +108,8 @@ incumplidas. La razón es que la capacidad de pago es del deudor, no de la opera
 
 ### 2. Los tres componentes
 
+La pérdida esperada es el producto de tres componentes que se estiman por separado. La tabla los recoge con su forma de estimación.
+
 ```text
 pérdida esperada = PD × LGD × EAD
 ```
@@ -121,6 +129,8 @@ ejemplo:
 ```
 
 ### 3. El modelo de tres etapas
+
+Las tres etapas dependen del deterioro del riesgo desde el origen y no del nivel absoluto. La tabla las separa.
 
 ```text
 ETAPA 1   sin aumento significativo del riesgo desde el origen
@@ -205,6 +215,8 @@ dificultad utiliza todo el crédito disponible.
 
 ### 5. Evaluar la suficiencia de las provisiones
 
+Las provisiones se contrastan con la pérdida observada, y la diferencia sostenida indica un problema de modelo. El procedimiento siguiente lo hace.
+
 ```text
 INDICADORES
   cobertura de mora = provisiones / cartera en mora ≥ 90 días
@@ -241,6 +253,8 @@ posibles explicaciones:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la provisión de una cartera por etapas. Conviene mirar el efecto del salto de etapa uno a dos: multiplica la provisión sin que haya habido ningún impago.
 
 **Situación.** Evalúa la suficiencia de las provisiones de una cartera de consumo.
 
@@ -402,6 +416,8 @@ hallazgo: sugiere un sesgo sistemático, no errores independientes.
 
 ## 🏦 Del cliente al banco
 
+El cliente se atrasa y el banco reconoce una pérdida esperada en su resultado. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | Mora de 35 días | Traspaso a etapa 2: la provisión se multiplica | 9, clase 15 |
@@ -412,6 +428,8 @@ hallazgo: sugiere un sesgo sistemático, no errores independientes.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar una cartera por etapas y calcular la provisión. El caso incluye operaciones al día con deterioro significativo, que es donde el criterio importa.
+
 En `labs/lab-06.md`, sección de provisiones:
 
 1. Estima PD a partir de cosechas históricas con datos sintéticos.
@@ -420,6 +438,8 @@ En `labs/lab-06.md`, sección de provisiones:
 4. Evalúa la suficiencia de las provisiones y cuantifica el déficit o exceso.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen provisiones insuficientes o volátiles. Las causas son etapas mal asignadas y componentes estimados con datos de un solo ciclo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

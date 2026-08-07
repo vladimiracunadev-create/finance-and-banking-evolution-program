@@ -22,6 +22,8 @@ cliente, de dónde provienen sus recursos y si su perfil es coherente con las op
 Esta obligación tiene fundamento en la prevención del lavado de activos y, además, es la primera
 defensa contra el fraude de identidad.
 
+Antes de evaluar si alguien puede pagar hay que saber quién es, y esa obligación no viene del riesgo de crédito sino de la norma de prevención de lavado. Esta clase la desarrolla porque su incumplimiento tiene consecuencias que ninguna pérdida crediticia alcanza: sanciones, pérdida de corresponsalías y responsabilidad personal.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la obligación y sus niveles; los tres siguientes, los casos que exigen más y el seguimiento posterior. El **beneficiario final** es el concepto que más trabajo cuesta y más importa: la persona natural que en última instancia controla, que puede estar varias capas societarias más arriba.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `conoce a tu cliente (KYC)` | Conjunto de procedimientos para identificar, verificar y entender al cliente. |
@@ -86,6 +90,8 @@ sin haber definido qué es usual para ese cliente**.
 
 ### 1. Identificación y verificación
 
+Identificar y verificar son dos cosas distintas y las dos son obligatorias. La tabla las separa con lo que exige cada una.
+
 ```text
 IDENTIFICAR   obtener los datos que individualizan al cliente
 VERIFICAR     comprobar esos datos con documentos o fuentes confiables
@@ -108,6 +114,8 @@ la contratación no presencial exige controles reforzados:
 ```
 
 ### 2. Beneficiario final
+
+Determinar el beneficiario final exige recorrer la cadena de propiedad hasta llegar a personas naturales. El procedimiento siguiente lo estructura.
 
 ```text
 beneficiario final = persona natural que posee o controla, directa o indirectamente,
@@ -142,6 +150,8 @@ más común.
 
 ### 3. Clasificación de riesgo y diligencia proporcional
 
+La intensidad de la diligencia se ajusta al riesgo del cliente, y esa proporcionalidad es una exigencia normativa. La tabla la recoge.
+
 | Factor | Menor riesgo | Mayor riesgo |
 |---|---|---|
 | Tipo de cliente | Persona natural asalariada | Estructura con múltiples niveles |
@@ -171,6 +181,8 @@ DILIGENCIA REFORZADA      riesgo alto: verificación adicional del origen de fon
 ```
 
 ### 4. Perfil transaccional
+
+El perfil transaccional es lo que permite detectar después lo que no encaja. La tabla recoge cómo se construye.
 
 ```text
 el perfil declara lo que se ESPERA del cliente:
@@ -207,6 +219,8 @@ caso **se actualiza el perfil**.
 
 ### 5. Del hallazgo a la acción
 
+Detectar una operación inusual abre un procedimiento con plazos y con reglas de confidencialidad estrictas. Los pasos siguientes lo recorren.
+
 ```text
 1. desviación detectada por el monitoreo
 2. análisis: ¿hay explicación económica aparente?
@@ -227,6 +241,8 @@ Tres reglas que rigen el proceso:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo determina el beneficiario final de una estructura de tres niveles. Conviene seguir los porcentajes: la propiedad indirecta se multiplica, y el umbral se aplica sobre el resultado.
 
 **Situación.** Una empresa solicita una línea de comercio exterior por 400 millones. Aplica el proceso
 completo.
@@ -345,6 +361,8 @@ prestando, y ningún análisis de capacidad de pago corrige eso.
 
 ## 🏦 Del cliente al banco
 
+El cliente aporta documentos y el banco cumple una obligación con sanción personal asociada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Piden datos de mis socios" | Identificación del beneficiario final: obligación normativa | 12, clase 5 |
@@ -355,6 +373,8 @@ prestando, y ningún análisis de capacidad de pago corrige eso.
 
 ## 🧪 Práctica
 
+El laboratorio pide determinar el beneficiario final en estructuras societarias sintéticas y clasificar el riesgo. Una de las estructuras está diseñada para ocultarlo, y detectarla es el objetivo.
+
 En `labs/lab-02.md`:
 
 1. Determina el beneficiario final de tres estructuras societarias con cadenas de tres niveles.
@@ -363,6 +383,8 @@ En `labs/lab-02.md`:
 4. Analiza un caso de desviación del perfil y define el curso de acción.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en revisiones de cumplimiento. Las causas están en cadenas de propiedad no recorridas hasta el final y en perfiles transaccionales no construidos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

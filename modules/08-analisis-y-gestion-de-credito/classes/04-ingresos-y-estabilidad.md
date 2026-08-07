@@ -21,6 +21,8 @@ Determinar cuánto ingreso de un solicitante puede considerarse para efectos de 
 casi nunca es "todo": depende de qué esté acreditado, cuán estable sea y cuánto de él sobreviviría a
 un mal año. Esta clase entrega la metodología de ponderación que usa un evaluador profesional.
 
+Con el cliente identificado, empieza la evaluación económica. Esta clase determina cuánto gana, que es menos evidente de lo que parece: no todo ingreso declarado es acreditable, no todo acreditado es admisible, y la parte admisible depende de su estabilidad. Tres filtros sucesivos sobre la misma cifra.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tres filtros sucesivos; los cuatro siguientes, los ajustes que se aplican. La **ponderación** es la herramienta operativa: un ingreso variable no se descarta ni se toma entero, se pondera según su estabilidad medida.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `renta declarada` | Lo que el solicitante afirma ganar. Punto de partida, no dato. |
@@ -80,6 +84,8 @@ ventas en un sector cíclico, no. La ponderación traduce esa diferencia a un n�
 
 ### 1. Clasificación de rentas
 
+Las rentas se clasifican por su origen y por su regularidad, y cada tipo se trata distinto. La tabla las recoge.
+
 | Tipo | Origen | Acreditación habitual | Estabilidad |
 |---|---|---|---|
 | Sueldo indefinido | Relación laboral | Liquidaciones + cotizaciones | Alta |
@@ -94,6 +100,8 @@ ventas en un sector cíclico, no. La ponderación traduce esa diferencia a un n�
 | Rentas del capital | Dividendos, intereses | Certificados | Variable |
 
 ### 2. Ponderaciones de referencia
+
+Las ponderaciones no son arbitrarias: reflejan la persistencia observada de cada tipo de renta. La tabla recoge las habituales.
 
 ```text
 la ponderación NO es arbitraria: refleja evidencia sobre persistencia
@@ -118,6 +126,8 @@ cada institución calibra las suyas con su propia experiencia de cartera
 promedio simple (Parte 2, clase 2).
 
 ### 3. Medir la estabilidad
+
+La estabilidad se mide con el coeficiente de variación de la serie, igual que en la Parte 2. El procedimiento siguiente lo aplica.
 
 ```text
 antigüedad laboral
@@ -181,6 +191,8 @@ a un mal año.**
 
 ### 5. Señales de ingreso sobreestimado
 
+Un ingreso sobreestimado deja señales en la documentación. La tabla las recoge.
+
 | Señal | Qué investigar |
 |---|---|
 | Renta declarada muy superior a la cotización imponible | Tope imponible o renta no formal |
@@ -193,6 +205,8 @@ a un mal año.**
 | Antigüedad laboral inferior al periodo de las comisiones promediadas | Promedio de un empleo distinto |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo pasa una renta variable por los tres filtros hasta la renta admisible. Conviene comparar la cifra inicial con la final: la diferencia es lo que separa una evaluación seria de una optimista.
 
 **Situación.** Evalúa la renta admisible de un solicitante de crédito hipotecario.
 
@@ -319,6 +333,8 @@ conversación con soluciones.
 
 ## 🏦 Del cliente al banco
 
+El cliente declara lo que gana y el banco calcula lo que puede comprometer. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Gano más de lo que consideran" | Renta admisible ≠ renta declarada | 9, clase 5 |
@@ -329,6 +345,8 @@ conversación con soluciones.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la renta admisible de cuatro perfiles con distinta variabilidad. El perfil con mayor renta media no siempre es el de mayor renta admisible.
+
 En `labs/lab-02.md`, sección de ingresos:
 
 1. Clasifica y pondera diez componentes de renta de tres solicitantes.
@@ -337,6 +355,8 @@ En `labs/lab-02.md`, sección de ingresos:
 4. Detecta al menos tres señales de ingreso sobreestimado en un caso sintético.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando el deudor no puede pagar pese a que la evaluación decía que sí. La causa suele ser una renta variable tomada entera.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

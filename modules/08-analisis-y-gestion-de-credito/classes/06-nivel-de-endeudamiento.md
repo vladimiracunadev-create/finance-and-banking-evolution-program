@@ -21,6 +21,8 @@ Determinar la exposición total del deudor, incluida la que no aparece en el inf
 análisis que solo considera las deudas declaradas subestima sistemáticamente el riesgo, y el
 sobreendeudamiento es la causa más frecuente de incumplimiento en carteras minoristas.
 
+La capacidad de pago de la clase anterior se calcula sobre las deudas conocidas. Esta clase se ocupa de encontrarlas todas, que es más difícil de lo que parece: hay deuda que no aparece en el informe, cupos disponibles que se pueden usar mañana y avales que obligan sin figurar como deuda propia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las formas de endeudamiento y su disponibilidad; los cuatro siguientes, los indicadores y lo que se escapa. La **deuda no registrada** es la que más sorpresas da: créditos informales, deudas con proveedores o avales que no constan en ningún informe.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `endeudamiento directo` | Deudas vigentes a nombre del deudor. |
@@ -81,6 +85,8 @@ Omitir las capas 2 a 4 es el error que más subestima el riesgo en carteras de c
 ## 📖 Desarrollo
 
 ### 1. Construir el endeudamiento consolidado
+
+El endeudamiento consolidado se arma de varias fuentes porque ninguna las tiene todas. El procedimiento siguiente las reúne.
 
 ```text
 ENDEUDAMIENTO TOTAL =
@@ -116,6 +122,8 @@ diferencia: 5 650 000 (54 % más)
 
 ### 2. Tratamiento de los cupos disponibles
 
+Un cupo no usado no es deuda hoy y puede serlo mañana sin que nadie lo autorice. La tabla recoge los criterios de tratamiento.
+
 ```text
 ¿por qué computar un cupo no utilizado?
   · el deudor puede usarlo mañana sin pedir autorización
@@ -136,6 +144,8 @@ Ponderaciones habituales:
 importante mejora materialmente la evaluación (Parte 3, clase 6).
 
 ### 3. Avales y codeudas
+
+Un aval obliga igual que una deuda propia y no aparece igual en los informes. La tabla recoge su tratamiento.
 
 ```text
 un aval es una obligación contingente que puede volverse directa
@@ -158,6 +168,8 @@ además, se evalúa:
 ```
 
 ### 4. Indicadores y límites
+
+Los indicadores de endeudamiento se leen juntos y con sus límites de referencia. La tabla los recoge.
 
 ```text
 endeudamiento relativo = deuda total / renta anual
@@ -184,6 +196,8 @@ a alguien que debe poco y lo debe mal.
 
 ### 5. Patrones de sobreendeudamiento incipiente
 
+Antes de que los indicadores se disparen hay patrones reconocibles en el comportamiento. La tabla los recoge.
+
 | Patrón | Qué indica |
 |---|---|
 | Aumento del número de acreedores en 12 meses | Búsqueda de crédito en múltiples fuentes |
@@ -200,6 +214,8 @@ señal compuesta de alerta:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo consolida el endeudamiento de un solicitante con cupos y avales. Conviene comparar con el informe simple: la diferencia suele cambiar la decisión.
 
 **Situación.** Un solicitante pide un crédito de consumo de 8 000 000. Analiza su endeudamiento.
 
@@ -359,6 +375,8 @@ patrones de deterioro.** La diferencia entre ambos análisis es de 2,5 veces, y 
 
 ## 🏦 Del cliente al banco
 
+El cliente declara sus deudas y el banco reconstruye el endeudamiento real. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | "Solo tengo tres deudas" | El consolidado incluye cupos y avales | 2, clase 8 |
@@ -369,6 +387,8 @@ patrones de deterioro.** La diferencia entre ambos análisis es de 2,5 veces, y 
 
 ## 🧪 Práctica
 
+El laboratorio pide consolidar el endeudamiento de un caso con deuda no registrada y avales. Detectar lo que no está en el informe es el ejercicio.
+
 En `labs/lab-03.md`, sección de endeudamiento:
 
 1. Construye el endeudamiento consolidado de tres casos con las cuatro capas.
@@ -377,6 +397,8 @@ En `labs/lab-03.md`, sección de endeudamiento:
 4. Busca los siete patrones de sobreendeudamiento en un caso sintético.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen deudores que resultaron más endeudados de lo evaluado. Las causas son los cupos y los avales no considerados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
