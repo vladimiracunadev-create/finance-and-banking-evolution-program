@@ -22,6 +22,8 @@ un evento lejano: es una meta de 20 a 30 años de gasto que se financia con 35 a
 cada año de postergación tiene un costo cuantificable. Esta clase enseña a calcular cuánto se
 necesita, cuánto se lleva acumulado y qué hacer con la brecha.
 
+Esta clase aplica todo lo anterior al horizonte más largo que tiene una persona. Y tiene una particularidad que la hace incómoda: es la única meta en la que no hay segunda oportunidad, porque cuando se descubre que el aporte era insuficiente ya no queda tiempo para corregirlo con aportes.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos dimensionan cuánto hace falta y los cuatro últimos explican por qué la cifra que sale suele ser mayor de lo esperado. La **comisión sobre saldo** es la que más patrimonio consume sin que se note: medio punto anual durante treinta años se lleva una fracción del capital final que sorprende cuando se calcula.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tasa de reemplazo` | `pensión / último ingreso`. El indicador central: una tasa de 40 % significa vivir con el 40 % de lo que ganabas. |
@@ -88,6 +92,8 @@ años.
 ## 📖 Desarrollo
 
 ### 1. Método 1 — capital por regla de retiro seguro
+
+El primer método parte del gasto anual deseado y deduce el capital necesario. Es el más simple y el que produce la cifra que más impresiona.
 
 ```text
 capital necesario = gasto anual del retiro / tasa de retiro segura
@@ -128,6 +134,8 @@ final del periodo, mientras la regla del 4 % busca preservarlo. Ambas cifras son
 preguntas distintas: dejar herencia o no.
 
 ### 3. Tasa de reemplazo proyectada
+
+El segundo método va por el otro lado: parte de lo que el sistema previsional entregará y calcula qué proporción del ingreso actual representa. La brecha entre las dos cifras es lo que hay que financiar por cuenta propia.
 
 ```text
 tasa de reemplazo = pensión estimada / último ingreso
@@ -240,6 +248,8 @@ una promesa.
 
 ## 🏦 Del cliente al banco
 
+El cliente piensa en su jubilación y la entidad gestiona un saldo con una comisión. La tabla enfrenta las dos lecturas, y la fila de la comisión es la que decide una parte grande del resultado a treinta años.
+
 | Concepto personal | Equivalente institucional | Parte |
 |---|---|---|
 | Proyección de pensión | Cálculo actuarial de la cuenta individual | — |
@@ -250,6 +260,8 @@ una promesa.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el capital necesario por los dos métodos y comparar. Los dos números casi nunca coinciden, y entender por qué difieren es más útil que quedarse con cualquiera de ellos.
+
 En `labs/lab-06.md`, sección de previsión:
 
 1. Calcula tu capital necesario con los dos métodos y explica la diferencia.
@@ -258,6 +270,8 @@ En `labs/lab-06.md`, sección de previsión:
 4. Repite la proyección con tres supuestos de rendimiento y presenta el resultado como rango.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se descubren tarde por definición. Las causas están en el principio: horizonte tratado como corto, comisiones ignoradas o meta expresada en pesos de hoy sin proyectar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

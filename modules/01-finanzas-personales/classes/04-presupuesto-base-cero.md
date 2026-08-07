@@ -22,6 +22,8 @@ presupuesto base cero invierte la lógica habitual: en lugar de gastar y ver qu�
 primero y se gasta después. Esta clase compara los tres métodos más usados, muestra cuándo cada uno
 funciona, y enseña a cerrar el mes con una conciliación real.
 
+Las dos clases anteriores midieron lo que entra y lo que sale. Esta decide qué hacer con la diferencia antes de que ocurra, que es lo único que distingue un presupuesto de un registro. Un registro cuenta lo que pasó; un presupuesto asigna cada peso a un destino antes de que llegue.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son métodos de presupuesto y compiten entre sí; los cuatro últimos son mecanismos que cualquiera de los tres necesita para sobrevivir al segundo mes. La **conciliación** es la que decide si el presupuesto es una herramienta o una intención: sin comparar lo presupuestado con lo ocurrido, no se aprende nada.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `presupuesto base cero` | `ingresos − asignaciones = 0`. Todo peso tiene destino, incluido el ahorro y el disfrute. |
@@ -82,6 +86,8 @@ el mismo ingreso y el mismo gasto declarado.
 ## 📖 Desarrollo
 
 ### 1. Construcción del presupuesto base cero
+
+El método base cero parte de que cada peso debe tener un destino asignado, incluido el que sobra. El procedimiento siguiente se ejecuta en ese orden y no en otro, porque asignar el ahorro al final es lo que hace que nunca quede nada.
 
 ```text
 paso 1  ingreso base del mes (clase 2)
@@ -114,6 +120,8 @@ más. **Un presupuesto que "casi cuadra" no es un presupuesto.**
 
 ### 2. Comparación de los tres métodos
 
+Los tres métodos funcionan y no sirven para lo mismo. La tabla los enfrenta sobre las dimensiones que deciden cuál conviene a cada perfil.
+
 | Criterio | Base cero | 50/30/20 | Sobres |
 |---|---|---|---|
 | Precisión | Alta | Media | Alta en variables |
@@ -129,6 +137,8 @@ herramienta de diagnóstico —"¿cuánto me desvío de 50/30/20?"— y una mala
 para quien más lo necesita.
 
 ### 3. Págate primero, en la práctica
+
+«Págate primero» es un principio conocido y casi nunca implementado, porque exige un mecanismo y no una intención. Los pasos siguientes son ese mecanismo.
 
 ```text
 día 1 del ingreso:
@@ -230,6 +240,8 @@ encuentra es que **el problema no está donde se buscaba**, y eso también es un
 
 ## 🏦 Del cliente al banco
 
+El cliente presupuesta para no quedarse corto; el banco presupuesta para estimar la estabilidad del saldo. La tabla enfrenta las dos lecturas de la misma disciplina.
+
 | Práctica personal | Equivalente institucional |
 |---|---|
 | Presupuesto base cero | Presupuesto anual por centro de costo |
@@ -240,6 +252,8 @@ encuentra es que **el problema no está donde se buscaba**, y eso también es un
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el presupuesto por los tres métodos sobre los mismos datos y compararlos. Los tres dan asignaciones distintas y ninguno es erróneo: el ejercicio consiste en elegir uno con un criterio explícito y no por costumbre.
+
 En `labs/lab-02.md`, sección de presupuesto:
 
 1. Construye tu presupuesto base cero con control de suma exacta.
@@ -248,6 +262,8 @@ En `labs/lab-02.md`, sección de presupuesto:
 4. Ajusta el presupuesto del mes siguiente justificando cada cambio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en el segundo o tercer mes, que es cuando fracasa la mayoría de los presupuestos. Las causas están todas en el diseño inicial: categorías demasiado finas, ahorro al final o ausencia de conciliación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

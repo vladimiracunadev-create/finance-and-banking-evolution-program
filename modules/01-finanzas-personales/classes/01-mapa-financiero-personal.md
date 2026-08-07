@@ -22,6 +22,8 @@ las decisiones malas de dinero se toman sin saber la posición de partida: no cu
 cuánto entra, cuánto sale, qué se debe, qué se tiene y qué compromisos están firmados. Esta clase
 construye ese inventario y define los cinco indicadores que se seguirán durante toda la parte.
 
+La Parte 1 dejó las herramientas de cálculo: interés, valor presente, cuotas y amortización. Esta parte las aplica al único caso sobre el que se puede practicar sin pedirle datos a nadie, que es el propio. Y empieza por el mapa porque ninguna decisión financiera —ahorrar, endeudarse, invertir— significa nada sin saber desde dónde se parte.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los siete términos siguientes son los que convierten un montón de saldos sueltos en una posición. El que ordena a todos los demás es el **patrimonio neto**, porque es el único que resume activos y deudas en una sola cifra; y el que más gente descubre aquí por primera vez es el **capital humano**, que suele ser el activo más grande de una persona joven y no aparece en ningún estado de cuenta.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -113,6 +117,8 @@ La mayoría de las personas solo mira la película, y solo el mes en curso. Las 
 
 ### 2. Los cinco indicadores
 
+Un mapa con cinco indicadores es suficiente y uno con veinte no se revisa nunca. Los cinco siguientes se eligieron porque cada uno responde a una pregunta distinta y porque juntos no dejan ningún hueco relevante.
+
 ```text
 1. excedente        = ingresos − gastos
 2. tasa de ahorro   = excedente / ingresos
@@ -151,6 +157,8 @@ A los 55 años, el mismo cálculo da unos 50 millones y el balance se invierte: 
 financiero es el que manda, y la prioridad pasa a preservarlo.
 
 ### 4. Las tres señales de alerta
+
+Hay tres situaciones que no admiten interpretación: cuando aparecen, la decisión ya no es de optimización sino de corrección, y conviene reconocerlas antes de seguir con el resto de la parte.
 
 ```text
 1. carga financiera > 40 %          → riesgo de mora ante cualquier imprevisto
@@ -251,6 +259,8 @@ concreta, con fecha, y es mucho más útil que "todavía no".
 
 ## 🏦 Del cliente al banco
 
+El mismo mapa se lee de dos maneras. El cliente ve su situación; el banco ve capacidad de pago y riesgo. Saber qué mira la segunda columna es lo que permite anticipar una respuesta antes de pedir un crédito.
+
 | Indicador personal | Nombre en el banco | Uso |
 |---|---|---|
 | Carga financiera | RCI — razón cuota/ingreso | Variable central del scoring (Parte 9, clase 5) |
@@ -260,6 +270,8 @@ concreta, con fecha, y es mucho más útil que "todavía no".
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el mapa con datos propios o sintéticos. Si se usan propios, no salen del equipo de quien los escribe: el programa entero trabaja con esa regla. El objetivo del ejercicio no es el número final sino descubrir qué dato no se tenía a mano, que suele ser el más revelador.
+
 En `labs/lab-01.md`:
 
 1. Construye tu mapa financiero completo con las cuatro tablas.
@@ -268,6 +280,8 @@ En `labs/lab-01.md`:
 4. Simula una decisión mayor (crédito, cambio de trabajo, mudanza) y recalcula los indicadores.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa al revés de como se lee: se busca el síntoma y desde ahí se llega a la causa. En esta clase casi todos los síntomas vienen de un mapa incompleto, no de un cálculo mal hecho.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

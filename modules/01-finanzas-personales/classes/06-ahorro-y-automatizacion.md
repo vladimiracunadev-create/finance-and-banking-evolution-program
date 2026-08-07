@@ -23,6 +23,8 @@ ingreso o en la disciplina, sino en si la transferencia ocurre **automáticament
 ese mecanismo, define dónde poner cada tipo de ahorro y cuantifica cuánto cuesta elegir mal el
 instrumento.
 
+Las clases anteriores dejaron un excedente identificado y un calendario que lo sostiene. Esta convierte ese excedente en ahorro efectivo, y el problema que resuelve no es de cálculo sino de diseño: el ahorro que depende de acordarse fracasa, y el que ocurre solo, no.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -57,6 +59,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son de diseño del sistema y los cuatro últimos, de elección del instrumento. La **separación de propósitos** es la que más resultado da por el esfuerzo que cuesta: un solo saldo para todo se gasta, y tres saldos con nombre, no.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `ahorro automático` | Transferencia programada el día del ingreso. Elimina la decisión, que es donde falla el plan. |
@@ -85,6 +89,8 @@ trabajo que en el primer caso recae, todos los días, sobre el autocontrol.
 
 ### 1. El sistema de tres destinos
 
+El ahorro no es una sola cosa: hay dinero que se va a usar este año, dinero para imprevistos y dinero de largo plazo, y mezclarlos garantiza que el de largo plazo se gaste. La tabla separa los tres destinos con su horizonte y su instrumento.
+
 | Destino | Propósito | Horizonte | Instrumento | Regla |
 |---|---|---|---|---|
 | Colchón operativo | Desfases de fechas (clase 5) | Días | Cuenta vista | Saldo mínimo permanente |
@@ -95,6 +101,8 @@ Los tres deben estar en **cuentas o instrumentos distintos**. Mezclarlos garanti
 emergencia financie las vacaciones y que las vacaciones se financien con crédito.
 
 ### 2. La automatización, paso a paso
+
+La automatización es lo que convierte una intención en un resultado, y tiene un orden concreto: la transferencia se programa para el día del ingreso y no para el final del mes.
 
 ```text
 día de pago (ej. día 25):
@@ -112,6 +120,8 @@ Tres detalles que deciden si funciona:
 3. **Difícil de revertir**: si cancelarla toma treinta segundos, se cancelará.
 
 ### 3. Elegir instrumento por horizonte
+
+El instrumento correcto lo decide el horizonte y no el rendimiento ofrecido. La tabla los relaciona, y la columna de la derecha es la que suele decidir.
 
 | Horizonte | Necesidad | Instrumento típico | Tasa relativa | Riesgo |
 |---|---|---|---|---|
@@ -160,6 +170,8 @@ La escalera es la misma técnica que un banco usa para calzar plazos en su libro
 (Parte 10, clase 12). Aquí resuelve el mismo problema a otra escala.
 
 ### 6. Por qué fracasan los planes de ahorro
+
+Los planes de ahorro fracasan por razones repetidas y previsibles. La tabla las recoge junto con la corrección que cada una admite.
 
 | Causa | Señal | Corrección |
 |---|---|---|
@@ -230,6 +242,8 @@ años. La diferencia completa está en la automatización y en la separación de
 
 ## 🏦 Del cliente al banco
 
+El cliente ahorra y el banco capta. La tabla enfrenta las dos lecturas, y muestra que la estabilidad del saldo importa a la entidad tanto como su tamaño.
+
 | Práctica personal | Equivalente institucional |
 |---|---|
 | Transferencia automática | Orden permanente / domiciliación (producto de captación) |
@@ -240,6 +254,8 @@ años. La diferencia completa está en la automatización y en la separación de
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar el sistema completo de tres destinos con montos, fechas e instrumentos. Lo que se evalúa no es cuánto se ahorra sino si el sistema funciona sin que nadie tenga que acordarse.
+
 En `labs/lab-03.md`, sección de ahorro:
 
 1. Diagnostica por qué fracasó tu último intento de ahorro usando la tabla de causas.
@@ -248,6 +264,8 @@ En `labs/lab-03.md`, sección de ahorro:
 4. Construye una escalera de vencimientos con tu saldo actual.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se manifiestan meses después de empezar. Las causas están en el diseño: un solo saldo para todo, transferencia a fin de mes o instrumento con liquidez que no corresponde al propósito.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

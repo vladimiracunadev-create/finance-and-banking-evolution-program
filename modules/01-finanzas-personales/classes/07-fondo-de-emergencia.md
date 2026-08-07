@@ -22,6 +22,8 @@ emergencia es la decisión financiera con mejor relación entre esfuerzo y resul
 no genera rentabilidad, y evita el crédito caro que destruye años de ahorro. Esta clase define
 cuánto, dónde y bajo qué reglas de uso.
 
+El sistema de ahorro de la clase anterior separaba tres destinos. Esta clase desarrolla el segundo, que es el único cuyo objetivo no es crecer sino estar disponible. El fondo de emergencia es la pieza que evita que un problema de ingreso se convierta en una deuda cara, y por eso va antes que cualquier inversión.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cuatro primeros términos dimensionan el fondo y los tres últimos gobiernan su uso. La **regla de uso escrita** es la que más gente omite y la que decide si el fondo sigue existiendo al año siguiente: sin un criterio previo de qué es una emergencia, cualquier gasto lo parece.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -127,6 +131,8 @@ de 2,3 millones es la que hace la meta alcanzable en lugar de desalentadora.
 
 ### 3. Dónde ponerlo
 
+El instrumento del fondo se elige por disponibilidad y no por rendimiento, porque un fondo que tarda cinco días en liquidarse no sirve para lo que existe. La tabla compara las opciones en esa dimensión.
+
 | Requisito | Peso | Por qué |
 |---|---|---|
 | Disponible en ≤ 48 horas | Crítico | Una emergencia no espera un vencimiento |
@@ -140,6 +146,8 @@ accionarios, criptoactivos, depósitos a plazo largo, ni el cupo disponible de u
 —que es deuda, no fondo.
 
 ### 4. La regla de uso escrita
+
+La regla se escribe antes de necesitarla, cuando todavía se puede pensar con calma. El formato siguiente es el mínimo que funciona.
 
 ```text
 ES emergencia:
@@ -161,6 +169,8 @@ emergencias, y confundirlos vacía el fondo justo antes de que ocurra una de ver
 
 ### 5. Construcción por etapas
 
+Reunir seis meses de gasto de golpe desanima y se abandona. Construirlo por etapas, con un objetivo alcanzable primero, es lo que hace que se termine.
+
 | Etapa | Meta | Prioridad relativa | Hito |
 |---|---:|---|---|
 | 1 | 500 000 | Antes de cualquier abono extra a deuda | Cubre el imprevisto pequeño típico |
@@ -174,6 +184,8 @@ volver a endeudarse al primer imprevisto; construir 6 meses de fondo mientras se
 es regalar dinero.
 
 ### 6. El retorno implícito
+
+Un fondo de emergencia parece rendir poco, y el cálculo cambia cuando se compara con lo que evita: el crédito de consumo que habría hecho falta sin él. El cálculo siguiente cuantifica ese retorno implícito.
 
 ```text
 retorno del fondo = costo del crédito evitado − rendimiento no percibido
@@ -252,6 +264,8 @@ durante 13 meses**. La respuesta correcta no era ninguno de los dos extremos.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un colchón y el banco ve un cliente que no va a caer en mora. La tabla enfrenta las dos lecturas, y explica por qué la existencia del fondo mejora las condiciones de todo lo demás.
+
 | Concepto personal | Equivalente bancario | Parte |
 |---|---|---|
 | Fondo de emergencia | Colchón de activos líquidos de alta calidad | 11, clase 4 |
@@ -262,6 +276,8 @@ durante 13 meses**. La respuesta correcta no era ninguno de los dos extremos.
 
 ## 🧪 Práctica
 
+El laboratorio pide dimensionar el fondo con el gasto esencial propio y escribir la regla de uso. Escribir la regla es la parte del ejercicio que cuesta, porque obliga a decidir de antemano qué situaciones no van a contar como emergencia.
+
 En `labs/lab-04.md`:
 
 1. Dimensiona tu fondo con la tabla de factores y justifica cada punto sumado.
@@ -270,6 +286,8 @@ En `labs/lab-04.md`:
 4. Diseña tu plan por etapas con fechas y decide el orden frente a tu deuda más cara.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen fondos que existen sobre el papel y no cuando hacen falta. Las causas son dos: instrumento sin liquidez suficiente o ausencia de regla de uso.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

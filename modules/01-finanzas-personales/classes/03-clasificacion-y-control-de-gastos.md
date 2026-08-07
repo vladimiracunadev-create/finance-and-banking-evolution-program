@@ -22,6 +22,8 @@ enseña las tres clasificaciones que sirven para decidir —esencial/discreciona
 recurrente/irregular—, el método de registro que la gente efectivamente sostiene, y el fenómeno que
 arruina más presupuestos que cualquier crisis: el gasto hormiga y la inflación del estilo de vida.
 
+Con el ingreso ya separado por su grado de certeza, esta clase hace lo mismo con el otro lado. Clasificar el gasto no es un ejercicio de orden: es lo que permite saber qué parte del gasto se puede tocar en una crisis y qué parte no, y esa distinción es la que decide si un problema de ingreso se convierte en una emergencia.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Las cinco primeras entradas son ejes de clasificación —esencial o discrecional, fijo o variable, regular o irregular— y las dos últimas son los dos mecanismos por los que el gasto crece sin que nadie lo decida. La **inflación del estilo de vida** es el que más patrimonio destruye a largo plazo y el único que no se ve en un solo mes.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -107,6 +111,8 @@ deudas · seguros · ahorro · ocio · personal · imprevistos
 
 ### 2. Mensualizar lo irregular
 
+El gasto que ocurre una o dos veces al año descuadra cualquier presupuesto mensual si se registra el mes en que se paga. Mensualizarlo es la operación que lo vuelve manejable, y consiste en repartirlo antes de que llegue.
+
 ```text
 provisión mensual = gasto anual / 12
 ```
@@ -128,6 +134,8 @@ tranquilo y uno con tres refinanciamientos.
 
 ### 3. El gasto hormiga
 
+Los gastos pequeños y frecuentes son invisibles por definición: ninguno justifica una decisión y el conjunto sí. El cálculo siguiente los hace visibles por la única vía que funciona, que es anualizarlos.
+
 ```text
 café diario           2 800 × 22 días =  61 600/mes  →   739 200/año
 delivery 2 veces/sem  9 500 × 8       =  76 000/mes  →   912 000/año
@@ -144,6 +152,8 @@ ahorro de esa diferencia** (clase 6), porque el dinero no gastado que queda en l
 gasta en otra cosa.
 
 ### 4. Inflación del estilo de vida
+
+Cuando el ingreso sube, el gasto tiende a subir con él y la tasa de ahorro se queda igual. El esquema siguiente cuantifica ese mecanismo sobre un aumento concreto.
 
 ```text
 año 1  ingreso 900 000   gasto 810 000   ahorro  90 000  (10,0 %)
@@ -244,6 +254,8 @@ que se aborda en la clase 8.
 
 ## 🏦 Del cliente al banco
 
+El cliente clasifica su gasto para controlarlo; el banco lo clasifica para estimar cuánto de ese gasto se puede reducir si el ingreso cae. La tabla enfrenta las dos lecturas.
+
 | Concepto personal | Equivalente bancario | Dónde se profundiza |
 |---|---|---|
 | Clasificación de gastos | Categorización automática de transacciones (PFM) | Parte 14, clase 9 |
@@ -253,6 +265,8 @@ que se aborda en la clase 8.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar tres meses de gasto en los cinco ejes a la vez. Lo que se busca no es la clasificación perfecta —hay casos discutibles— sino descubrir qué proporción del gasto es realmente intocable, que suele ser menor de lo que se cree.
+
 En `labs/lab-02.md`:
 
 1. Descarga tres meses de cartola y clasifica cada movimiento en las tres dimensiones.
@@ -261,6 +275,8 @@ En `labs/lab-02.md`:
 4. Ordena diez recortes candidatos por ahorro anual y esfuerzo, y ejecuta los tres primeros.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla comparten una causa: se clasificó el gasto por su nombre y no por su función. Un mismo concepto puede ser esencial para una persona y discrecional para otra, y es esa segunda lectura la que sirve.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

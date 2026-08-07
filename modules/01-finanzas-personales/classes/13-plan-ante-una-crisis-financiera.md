@@ -22,6 +22,8 @@ crisis financiera personal no se resuelve improvisando: se resuelve con decision
 orden ya definido, porque en el momento del shock la capacidad de decidir bien está deteriorada. Esta
 clase produce ese documento.
 
+Las doce clases anteriores construyen un plan que funciona en condiciones normales. Esta se ocupa de las otras, y su premisa es que las decisiones de una crisis se toman mal si se toman durante la crisis. Por eso lo que se escribe aquí se escribe antes: la jerarquía de pagos, el protocolo y los límites, decididos con calma.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos clasifican la crisis por su origen, porque una caída de ingreso y un aumento de gasto se manejan distinto. Los cinco restantes son el procedimiento. La **jerarquía de pagos** es la pieza central: decidir con calma qué se paga primero cuando no alcanza para todo evita que lo decida el acreedor más insistente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `crisis de ingreso` | Pérdida o caída del ingreso. Es la más común y la que más rápido consume el fondo. |
@@ -83,6 +87,8 @@ todo mientras se pueda— y descubrir en el mes tres que no queda liquidez ni pa
 
 ### 1. Clasificar la crisis
 
+El primer paso es saber de qué tipo de crisis se trata, porque las medidas eficaces son distintas. La tabla separa los dos casos con sus señales.
+
 | Tipo | Ejemplo | Duración típica | Respuesta dominante |
 |---|---|---|---|
 | Ingreso — temporal | Cesantía con reinserción rápida | 1–3 meses | Fondo de emergencia |
@@ -95,6 +101,8 @@ Clasificar en la primera hora evita dos errores opuestos: sobrerreaccionar ante 
 (liquidar activos con pérdida) o subestimar algo prolongado (agotar el fondo antes de ajustar).
 
 ### 2. Protocolo de las primeras 72 horas
+
+Las primeras horas son las que más condicionan el resultado y las peores para improvisar. El protocolo siguiente se escribe antes y se ejecuta sin discutirlo.
 
 ```text
 hora 0–24
@@ -160,6 +168,8 @@ Alternativas típicas y su costo:
 Ninguna es gratis. La última es siempre la más cara.
 
 ### 5. Reconstrucción
+
+Salir de la crisis no es volver al punto de partida: hay que reconstruir el fondo, normalizar el historial y revisar qué falló en el plan. La secuencia importa.
 
 ```text
 fase 1 (meses 1–3 tras normalizar ingreso)
@@ -247,6 +257,8 @@ hay margen para elegir.
 
 ## 🏦 Del cliente al banco
 
+El cliente intenta sobrevivir al mes y el banco decide si reestructura o provisiona. La tabla enfrenta las dos lecturas, y explica por qué avisar antes de dejar de pagar cambia la respuesta de la entidad.
+
 | Situación personal | Lectura del banco | Parte |
 |---|---|---|
 | Cliente contacta antes de la mora | Señal positiva; habilita reestructuración preventiva | 9, clase 15 |
@@ -256,6 +268,8 @@ hay margen para elegir.
 
 ## 🧪 Práctica
 
+El laboratorio pide escribir la jerarquía de pagos propia y el protocolo de 72 horas antes de que haga falta. Es el ejercicio menos apetecible de la parte y el que más valor tiene, porque escribirlo en frío es la única forma de que sirva en caliente.
+
 En `labs/lab-06.md`, sección de crisis:
 
 1. Calcula tu gasto esencial de crisis y tu pista de aterrizaje real.
@@ -264,6 +278,8 @@ En `labs/lab-06.md`, sección de crisis:
 4. Redacta el borrador de la carta de negociación que enviarías a tu acreedor principal.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen crisis que empeoran por las decisiones tomadas durante ellas. Las causas son casi siempre la ausencia de una jerarquía escrita y el silencio frente al acreedor.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

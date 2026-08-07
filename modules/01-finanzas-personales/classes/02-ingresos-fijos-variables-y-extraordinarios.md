@@ -22,6 +22,8 @@ y un millón de comisiones no soportan las mismas decisiones, y confundirlos es 
 sobreendeudamiento en personas con buenos ingresos. Esta clase enseña a medir la estabilidad del
 ingreso, a construir un ingreso base conservador y a manejar los extraordinarios sin diluirlos.
 
+El mapa de la clase anterior tomó el ingreso como un número único. Esta clase lo abre, porque de un ingreso importa tanto cuánto es como cuán seguro es: dos personas con la misma cifra anual toman decisiones distintas si una la cobra en doce partes iguales y la otra en tres picos impredecibles.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos clasifican el ingreso por su comportamiento y los tres últimos lo convierten en algo con lo que se puede planificar. El **ingreso base** es el concepto operativo de la clase: es la cifra sobre la que se construye todo compromiso fijo, y casi siempre es bastante menor que el ingreso medio.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -225,6 +229,8 @@ regla de extraordinarios        meses > 2 000 000 → 60 % a fondo, 25 % a metas
 
 ## 🏦 Del cliente al banco
 
+El cliente piensa en cuánto gana y el banco en cuánto de eso puede comprometer. La tabla enfrenta las dos lecturas, y explica por qué una entidad descuenta la parte variable en vez de sumarla entera.
+
 | Situación | Lectura del cliente | Lectura del evaluador |
 |---|---|---|
 | "Gano 1,5 millones promedio" | Capacidad de 375 000 de cuota | Renta variable ponderada al 60 %: 900 000 → cuota 225 000 |
@@ -234,6 +240,8 @@ regla de extraordinarios        meses > 2 000 000 → 60 % a fondo, 25 % a metas
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el coeficiente de variación de una serie de ingresos y derivar de ahí el ingreso base. Es un cálculo corto cuyo valor está en la conclusión: cuanto más variable es el ingreso, menor es la parte que se puede comprometer, y esa relación se puede cuantificar en vez de intuir.
+
 En `labs/lab-01.md`, sección de ingresos:
 
 1. Registra 12–24 meses de tus ingresos y calcula promedio, desviación y CV.
@@ -242,6 +250,8 @@ En `labs/lab-01.md`, sección de ingresos:
 4. Escribe tu regla de asignación de extraordinarios y aplícala a un caso real.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen sobre todo en los meses malos, cuando el compromiso fijo se fijó con la cifra de un mes bueno. La causa casi siempre es haber usado el ingreso medio en vez del ingreso base.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

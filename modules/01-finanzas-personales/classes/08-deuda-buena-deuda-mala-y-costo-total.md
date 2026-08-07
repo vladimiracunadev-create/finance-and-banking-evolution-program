@@ -22,6 +22,8 @@ en abstracto: existe deuda cuyo costo es menor que el beneficio que produce, y d
 excede cualquier beneficio posible. Esta clase entrega el criterio, el método para calcular el costo
 total real, y las dos estrategias probadas para salir de un conjunto de deudas.
 
+Con el fondo de emergencia en su sitio, esta clase entra en la otra cara de las finanzas personales. Y lo hace con un criterio y no con una opinión: la deuda no se clasifica por su nombre ni por su tamaño, sino por lo que financia y por lo que cuesta de verdad, que casi nunca es la tasa publicada.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Las cuatro primeras entradas clasifican la deuda y las tres últimas son estrategias para salir de ella. El **costo efectivo** es el concepto que hace posible todo lo demás: comparar dos créditos por su tasa nominal es comparar cosas distintas, y solo el costo efectivo los pone en la misma escala.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -109,6 +113,8 @@ sobre lo recibido.
 
 ### 2. Matriz de clasificación
 
+La clasificación cruza dos preguntas —qué financia y cuánto cuesta— porque ninguna de las dos basta por separado. Una deuda barata para financiar consumo y una deuda cara para financiar formación caen en casillas distintas y admiten decisiones distintas.
+
 | | Costo bajo (< 10 %) | Costo medio (10–20 %) | Costo alto (> 20 %) |
 |---|---|---|---|
 | **Genera ingreso o valor** | Óptima: hipotecario, estudios | Aceptable: herramienta de trabajo | Revisar: el costo se come el beneficio |
@@ -152,6 +158,8 @@ planes de pago antes. La evidencia conductual muestra que la tasa de abandono es
 nieve, y un plan abandonado cuesta más que 84 000.
 
 ### 4. Prepagar frente a invertir
+
+La pregunta de si conviene prepagar una deuda o invertir el dinero tiene una respuesta aritmética antes que una respuesta de criterio, y el cálculo siguiente la produce.
 
 ```text
 prepagar rinde, garantizado y libre de impuestos, la tasa efectiva de la deuda
@@ -251,6 +259,8 @@ volver a la situación inicial en 18 meses es alta, y entonces Isabel tendría l
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una cuota y el banco ve una colocación con su margen. La tabla enfrenta las dos lecturas, y muestra por qué el producto más rentable para la entidad suele ser el más caro para quien lo usa.
+
 | Situación del cliente | Lectura del banco | Parte |
 |---|---|---|
 | Consolida y vuelve a usar el cupo | Deterioro del perfil; alerta de sobreendeudamiento | 9, clase 6 |
@@ -260,6 +270,8 @@ volver a la situación inicial en 18 meses es alta, y entonces Isabel tendría l
 
 ## 🧪 Práctica
 
+El laboratorio pide ordenar una cartera de deudas por los dos métodos —avalancha y bola de nieve— y comparar el resultado. La avalancha siempre gana en dinero y no siempre en probabilidad de completarse: esa tensión es lo que el ejercicio pone sobre la mesa.
+
 En `labs/lab-04.md`, sección de deuda:
 
 1. Inventaría todas tus deudas con saldo, tasa efectiva, cuota y garantía.
@@ -268,6 +280,8 @@ En `labs/lab-04.md`, sección de deuda:
 4. Evalúa una oferta de consolidación real contra tu plan de avalancha.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando la deuda deja de bajar aunque se pague puntualmente. Las causas son casi siempre el costo efectivo mal medido o una consolidación que alargó el plazo sin bajar el costo total.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

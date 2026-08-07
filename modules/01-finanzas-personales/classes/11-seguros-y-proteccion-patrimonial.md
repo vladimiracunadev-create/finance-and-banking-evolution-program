@@ -22,6 +22,8 @@ riesgo que no puedes absorber a cambio de un costo que sí puedes pagar. La preg
 "¿es caro?", sino "¿puedo pagar la pérdida si ocurre?". Esta clase entrega el criterio de decisión,
 enseña a leer una póliza y a dimensionar coberturas sin sobreasegurar.
 
+Las metas de la clase anterior suponen que el plan sigue su curso. Esta clase se ocupa de lo que lo interrumpe. Un seguro no es un producto de ahorro ni una inversión: es la transferencia de un riesgo que no se puede absorber, y ese criterio —no el precio— es el que decide qué se asegura y qué no.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la mecánica del contrato y los cuatro últimos, las formas en que una cobertura falla justo cuando se necesita. El **infraseguro** es el más costoso y el menos conocido: asegurar por menos del valor real no reduce proporcionalmente la prima, reduce proporcionalmente la indemnización.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `prima` | Precio del seguro. Se compara contra la pérdida esperada y contra tu capacidad de absorberla. |
@@ -86,6 +90,8 @@ apostar tu patrimonio completo.
 ## 📖 Desarrollo
 
 ### 1. El criterio de decisión
+
+La decisión de asegurar no depende de la probabilidad del evento sino de si sus consecuencias se pueden absorber. El criterio siguiente separa los dos casos sin ambigüedad.
 
 ```text
 ¿puedo pagar la pérdida máxima sin destruir mi plan financiero?
@@ -178,6 +184,8 @@ convierte un siniestro cubierto en una deuda.
 
 ### 5. Lo que no hay que asegurar
 
+Hay riesgos que no conviene transferir porque su costo cabe en el fondo de emergencia de la clase 7. La tabla los recoge, y es tan útil como la lista de los que sí.
+
 | Producto | Por qué suele no convenir |
 |---|---|
 | Garantía extendida de electrodomésticos | Evento de baja severidad, prima con recargo alto |
@@ -190,6 +198,8 @@ Revisar duplicidades es el ejercicio de mayor retorno inmediato: es habitual enc
 80 000 mensuales en coberturas repetidas o innecesarias, contratadas como accesorio de créditos.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre una decisión completa de cobertura, del riesgo identificado a la suma asegurada. Conviene seguir el orden: elegir la suma antes de comparar primas es lo que evita comprar la cobertura más barata en vez de la que corresponde.
 
 **Situación.** Los Herrera: dos ingresos (1 800 000 y 1 200 000), dos hijos de 8 y 11 años, vivienda
 propia con hipotecario de 46 000 000, valor de reconstrucción 72 000 000, un vehículo de 9 000 000,
@@ -262,6 +272,8 @@ prima, sino su distribución**. Ese diagnóstico es imposible sin el inventario 
 
 ## 🏦 Del cliente al banco
 
+El cliente compra tranquilidad y la aseguradora vende una probabilidad calculada. La tabla enfrenta las dos lecturas, y la fila de las exclusiones es la que más disgustos produce en el momento del siniestro.
+
 | Concepto personal | Equivalente bancario | Parte |
 |---|---|---|
 | Transferir riesgo | Cobertura y mitigación del riesgo (Parte 11) | 11, clase 1 |
@@ -272,6 +284,8 @@ prima, sino su distribución**. Ese diagnóstico es imposible sin el inventario 
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar el criterio de decisión a seis riesgos y justificar cuáles se transfieren. Lo interesante del ejercicio es que la mayoría no se transfieren, y sostener esa conclusión frente a la sensación de estar desprotegido es la parte difícil.
+
 En `labs/lab-06.md`:
 
 1. Ubica ocho riesgos personales en la matriz frecuencia–severidad y decide su tratamiento.
@@ -280,6 +294,8 @@ En `labs/lab-06.md`:
 4. Detecta duplicidades y calcula el ahorro; verifica si tienes infraseguro en algún bien.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla se descubren en el siniestro, que es el peor momento. Las causas están todas en la contratación: suma asegurada insuficiente, exclusión no leída o carencia vigente.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

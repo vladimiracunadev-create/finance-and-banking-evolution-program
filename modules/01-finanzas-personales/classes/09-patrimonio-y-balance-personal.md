@@ -22,6 +22,8 @@ como el indicador de largo plazo que realmente mide el progreso. El excedente me
 patrimonio neto mide la trayectoria. Esta clase enseña a valorar activos con honestidad, a
 clasificarlos por lo que producen y a leer la evolución del patrimonio como un diagnóstico.
 
+Las clases 1 a 8 trabajaron sobre flujos: lo que entra, lo que sale y lo que se debe. Esta cierra con la foto, que es lo que queda. El balance personal es además la primera aparición en el programa de la lógica contable que la Parte 5 desarrolla en profundidad, y conviene reconocerla ya aquí.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos clasifican los activos por su función, que es lo único que importa para decidir. El **activo de uso** es la categoría que más balances infla: la casa en la que se vive es un activo real y no produce ingreso, y confundir las dos cosas produce una sensación de patrimonio que no se puede gastar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `balance personal` | Foto de activos y pasivos a una fecha determinada. Sin fecha, no es un balance. |
@@ -85,6 +89,8 @@ sí.** Por eso se miran juntos.
 
 ### 1. Criterios de valoración
 
+Un balance vale lo que valen sus criterios de valoración, y por eso se declaran antes de poner cifras. La tabla recoge los que se usan aquí, cada uno con su límite.
+
 | Activo | Criterio correcto | Error frecuente |
 |---|---|---|
 | Cuentas y depósitos | Saldo a la fecha | — |
@@ -100,6 +106,8 @@ sentirse bien no sirve para decidir.
 
 ### 2. Clasificación por función
 
+Clasificar por función y no por tipo es lo que hace útil el balance: dos inmuebles idénticos pueden ser un activo productivo y un activo de uso según qué se haga con ellos.
+
 ```text
 PRODUCTIVOS        depósitos, fondos, acciones, bonos, propiedad arrendada, negocio
 DE USO             vivienda habitada, vehículo particular, bienes personales
@@ -112,6 +120,8 @@ produce flujo, y un balance compuesto solo por activos de uso significa que **to
 depende de seguir trabajando**.
 
 ### 3. Los cuatro ratios
+
+Cuatro ratios bastan para leer un balance personal, y los cuatro se calculan con las cifras que ya están. Añadir más no aporta y hace que no se revise ninguno.
 
 ```text
 1. patrimonio neto            = activos − pasivos
@@ -131,6 +141,8 @@ Referencias por edad para el cuarto ratio (orientativas, dependen fuertemente de
 
 ### 4. Los tres errores que inflan un balance
 
+Un balance personal se infla casi siempre de las mismas tres maneras, y las tres son involuntarias. Reconocerlas es lo que permite comparar el propio balance con el de otro año sin engañarse.
+
 ```text
 1. valorar la vivienda propia al precio deseado
    → corrección: tasación o comparables reales, menos 5 % de costos de venta
@@ -146,6 +158,8 @@ Los tres juntos pueden inflar un balance personal en un 40 % a 60 %, y el efecto
 decisiones —endeudarse, invertir, cambiar de trabajo— sobre una posición que no existe.
 
 ### 5. La serie, no la foto
+
+Un balance aislado dice poco; la serie de varios dice casi todo. La tabla muestra qué se mira cuando hay tres o cuatro fotos seguidas.
 
 | Fecha | Activos | Pasivos | Patrimonio | Variación | Ratio productivos |
 |---|---:|---:|---:|---:|---:|
@@ -223,6 +237,8 @@ patrimonio neto.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve lo que tiene y el banco ve garantías y capacidad de respaldo. La tabla enfrenta las dos lecturas de las mismas partidas.
+
 | Elemento personal | Uso bancario | Parte |
 |---|---|---|
 | Balance personal | Declaración de patrimonio en la solicitud de crédito | 9, clase 2 |
@@ -233,6 +249,8 @@ patrimonio neto.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el balance con criterios declarados y calcular los cuatro ratios. La parte difícil no es sumar: es sostener el criterio de valoración cuando produce una cifra menor que la esperada.
+
 En `labs/lab-05.md`:
 
 1. Construye tu balance personal con criterio de valoración declarado por cada activo.
@@ -241,6 +259,8 @@ En `labs/lab-05.md`:
 4. Registra el balance con fecha e inicia tu serie semestral.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen balances que suben sin que la situación haya mejorado. La causa está siempre en el criterio de valoración o en haber contado como productivo un activo de uso.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

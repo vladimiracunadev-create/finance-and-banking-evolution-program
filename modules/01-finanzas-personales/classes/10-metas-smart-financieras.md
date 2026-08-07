@@ -22,6 +22,8 @@ no tiene fecha y no genera ninguna acción concreta. Esta clase convierte intenc
 monto, fecha, aporte mensual e instrumento asignado, y enseña a resolver el problema que aparece
 siempre: **hay más metas que dinero**.
 
+El balance de la clase anterior dice dónde se está. Esta clase define hacia dónde, y lo hace con una exigencia concreta: una meta financiera que no tiene monto, fecha y aporte calculado no es una meta, es un deseo. La diferencia es que la primera se puede verificar cada trimestre y la segunda no.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos convierten un deseo en una cifra y los cuatro últimos deciden si esa cifra es alcanzable y con qué prioridad. La **alcanzabilidad** es la que produce las conversaciones difíciles: una meta cuyo aporte requerido supera el excedente disponible no es ambiciosa, es imposible, y conviene saberlo al definirla.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `meta SMART` | Específica, Medible, Alcanzable, Relevante y con Tiempo definido. En finanzas: monto, fecha e instrumento. |
@@ -83,6 +87,8 @@ automática. Ese es el criterio de calidad de una meta.
 ## 📖 Desarrollo
 
 ### 1. SMART aplicado a dinero
+
+El criterio SMART es genérico y aquí se concreta para metas de dinero, donde cada letra tiene una traducción exacta. La tabla la recoge.
 
 | Criterio | Pregunta | Ejemplo correcto |
 |---|---|---|
@@ -144,6 +150,8 @@ Aplicado: fondo de emergencia (262 000) + posgrado (258 000) = 520 000. Las otra
 
 ### 4. Instrumento por horizonte
 
+El instrumento se elige por el horizonte de la meta y no por el rendimiento que promete. La tabla los relaciona, y sirve igual para la meta de un año que para la de veinte.
+
 | Meta | Plazo | Instrumento | Justificación |
 |---|---:|---|---|
 | Fondo de emergencia | Permanente | Fondo de liquidez | Disponibilidad inmediata |
@@ -153,6 +161,8 @@ Aplicado: fondo de emergencia (262 000) + posgrado (258 000) = 520 000. Las otra
 | Jubilación | 25 años | Cartera diversificada (Parte 8) | Horizonte largo, tolera volatilidad |
 
 ### 5. Hitos y ajuste
+
+Una meta a cinco años sin puntos de control intermedios se descubre incumplida el último año, cuando ya no hay margen. Los hitos son lo que permite corregir a tiempo.
 
 ```text
 meta: 17 548 000 en 36 meses
@@ -246,6 +256,8 @@ completar el fondo de emergencia no es un costo para las demás metas, sino la c
 
 ## 🏦 Del cliente al banco
 
+El cliente define metas y el banco vende productos asociados a ellas. La tabla enfrenta las dos lecturas, y conviene tenerla presente porque el producto que se ofrece para una meta no siempre es el que le corresponde por horizonte.
+
 | Práctica personal | Equivalente institucional |
 |---|---|
 | Meta con monto, fecha e instrumento | Objetivo estratégico con indicador y plazo (Parte 15, clase 11) |
@@ -256,6 +268,8 @@ completar el fondo de emergencia no es un costo para las demás metas, sino la c
 
 ## 🧪 Práctica
 
+El laboratorio pide definir tres metas completas y comprobar si la suma de sus aportes cabe en el excedente. En la mayoría de los casos no cabe, y ahí empieza el ejercicio de verdad, que es priorizar con un criterio escrito.
+
 En `labs/lab-05.md`, sección de metas:
 
 1. Formula cinco metas propias con los cinco criterios SMART completos.
@@ -264,6 +278,8 @@ En `labs/lab-05.md`, sección de metas:
 4. Diseña el plan secuenciado con hitos y fechas de reevaluación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen al revisar las metas un año después. Las causas son siempre las mismas: no había monto, no había fecha o el aporte requerido nunca se calculó.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

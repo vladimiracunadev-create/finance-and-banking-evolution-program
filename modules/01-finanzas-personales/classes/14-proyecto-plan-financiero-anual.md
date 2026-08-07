@@ -22,6 +22,8 @@ los próximos doce meses. Un plan financiero anual no es una lista de propósito
 diagnóstico, metas cuantificadas, presupuesto, calendario, indicadores y reglas de decisión escritas
 para los casos que aún no ocurren.
 
+Esta clase cierra la parte reuniendo las trece anteriores en un solo documento que se puede revisar cada trimestre. No introduce ningún tema nuevo: introduce la exigencia de que todas las piezas sean coherentes entre sí, que es donde aparecen las contradicciones que ninguna clase por separado mostraba.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los seis términos son de plan, no de finanzas. La **regla de decisión previa** es la que da valor al documento: decidir de antemano qué se hará si el ingreso cae un veinte por ciento vale más que cualquier proyección, porque es lo único que sigue sirviendo cuando la proyección falla.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `plan financiero anual` | Documento de 6 a 12 páginas con diagnóstico, metas, presupuesto, calendario, indicadores, reglas y riesgos. |
@@ -85,6 +89,8 @@ cadena es el criterio de evaluación del proyecto.
 ## 📖 Desarrollo
 
 ### 1. Estructura del documento
+
+El plan tiene una estructura fija y corta. La tabla la recoge, y conviene respetarla porque un plan de treinta páginas no se revisa y uno de cuatro sí.
 
 | # | Sección | Contenido | Origen |
 |---:|---|---|---|
@@ -140,6 +146,8 @@ La regla R6 es la que más dinero ahorra y la más fácil de escribir.
 
 ### 4. Riesgos del plan
 
+Un plan sin riesgos declarados es un plan que supone que todo saldrá como está escrito. La tabla recoge los que hay que declarar como mínimo, cada uno con su regla de decisión previa.
+
 | Supuesto crítico | Si falla | Mitigación | Señal de alerta |
 |---|---|---|---|
 | Ingreso estable 12 meses | El plan completo se detiene | Fondo de emergencia y protocolo | Reestructuración en la empresa |
@@ -148,6 +156,8 @@ La regla R6 es la que más dinero ahorra y la más fácil de escribir.
 | Rendimiento del ahorro ≈ 4,2 % | Metas se retrasan 2–3 meses | Aporte adicional o extensión de plazo | Revisión semestral |
 
 ### 5. Calendario anual
+
+El plan se revisa en fechas fijas y no cuando se acuerda uno. El calendario siguiente es el mínimo que funciona.
 
 ```text
 enero      revisión completa del plan · actualizar balance
@@ -208,6 +218,8 @@ verdad** y no se defiende de todos por igual.
 
 ## 🏦 Del cliente al banco
 
+El cliente escribe su plan y el banco lo lee como perfil. La tabla enfrenta las dos lecturas del mismo documento.
+
 | Elemento del plan | Equivalente institucional | Parte |
 |---|---|---|
 | Diagnóstico e indicadores | Cuadro de mando con línea base y metas | 15, clase 11 |
@@ -226,6 +238,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Prepara tu defensa ante las tres preguntas críticas del ejemplo, con tus propios números.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la primera revisión trimestral. Las causas están en la redacción: metas sin aporte calculado, ausencia de línea base o reglas de decisión que no se escribieron.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

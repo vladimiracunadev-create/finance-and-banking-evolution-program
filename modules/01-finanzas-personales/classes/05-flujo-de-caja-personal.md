@@ -22,6 +22,8 @@ presupuesto equilibrado se endeudan igual, porque los ingresos y los gastos no o
 Esta clase enseña a proyectar el saldo diario, a detectar los puntos de quiebre antes de que ocurran
 y a resolverlos sin recurrir a crédito caro.
 
+El presupuesto de la clase anterior dice cuánto se asigna a cada cosa en un mes. Esta clase añade la dimensión que faltaba: cuándo. Un presupuesto equilibrado puede producir un descubierto si los cobros llegan el día 30 y los pagos vencen el día 5, y esa diferencia no la detecta ningún presupuesto mensual.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la mecánica del flujo y los cuatro últimos, lo que revela. La distinción entre **liquidez y solvencia** es la más importante de la clase y reaparece en la Parte 11 aplicada a bancos enteros: se puede ser solvente y no poder pagar hoy, y eso basta para provocar un problema real.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `flujo de caja` | Entradas y salidas ordenadas por **fecha**. El presupuesto dice cuánto; el flujo dice cuándo. |
@@ -84,6 +88,8 @@ crédito del riesgo de liquidez en un banco (Parte 11, clase 4).
 ## 📖 Desarrollo
 
 ### 1. Construir el flujo mensual
+
+El flujo se construye por días o por semanas, nunca por meses: agregarlo por mes esconde exactamente el problema que se busca. La tabla siguiente muestra la estructura mínima.
 
 | Mes | Ingresos | Gastos fijos | Gastos variables | Irregulares | Flujo neto | Saldo acumulado |
 |---|---:|---:|---:|---:|---:|---:|
@@ -115,6 +121,8 @@ los cobros caen al inicio. **El desfase de fechas es el problema, no el monto.**
 
 ### 3. Liquidez frente a solvencia
 
+Las dos palabras se usan como sinónimos y no lo son. La tabla las enfrenta en las dimensiones que las distinguen, y conviene retenerla porque la misma distinción vuelve a aparecer en la Parte 11 con un banco de por medio.
+
 | | Líquido | Ilíquido |
 |---|---|---|
 | **Solvente** | Situación sana | Ana: patrimonio alto, sin caja → riesgo real |
@@ -125,6 +133,8 @@ descuento para cubrir un desfase de dos semanas, o pedir un crédito de consumo 
 en realidad es de solvencia y que el crédito solo agrava.
 
 ### 4. El colchón operativo
+
+El colchón operativo no es el fondo de emergencia de la clase 7: es mucho más pequeño y tiene otra función, que es absorber el desfase entre cobros y pagos dentro de un mes normal.
 
 ```text
 colchón operativo = |saldo mínimo proyectado| + margen de seguridad (20 %)
@@ -227,6 +237,8 @@ situación es holgada. El riesgo no está en el monto sino **en el calendario**.
 
 ## 🏦 Del cliente al banco
 
+El cliente mira si le alcanza y el banco mira el saldo medio y su variabilidad. La tabla enfrenta las dos lecturas, y la última fila explica por qué una cuenta que nunca queda en cero recibe mejor trato que una que oscila.
+
 | Concepto personal | Equivalente bancario | Parte |
 |---|---|---|
 | Flujo de caja proyectado | Proyección de flujos y calce de plazos | 11, clase 4 |
@@ -237,6 +249,8 @@ situación es holgada. El riesgo no está en el monto sino **en el calendario**.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el flujo semanal de un mes con ingresos y vencimientos desalineados y encontrar el punto de quiebre. El ejercicio está diseñado para que el presupuesto mensual cuadre y el flujo semanal no: esa es toda la lección.
+
 En `labs/lab-03.md`:
 
 1. Construye tu flujo de caja proyectado a 12 meses con saldo acumulado.
@@ -245,6 +259,8 @@ En `labs/lab-03.md`:
 4. Simula los tres escenarios de shock y determina tus meses de resistencia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen situaciones en las que las cuentas cuadran al final del mes y aun así hubo un problema. La causa siempre es la misma: se miró el agregado y no el calendario.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
