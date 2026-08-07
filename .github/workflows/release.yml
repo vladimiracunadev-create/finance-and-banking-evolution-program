@@ -1,11 +1,18 @@
 name: Publicacion
 
-# Al etiquetar una version (vX.Y.Z) publica el programa como un paquete
-# descargable: el material completo, su indice, sus sumas de verificacion y
-# el inventario de dependencias (SBOM).
+# Verificacion previa a una publicacion.
 #
-# El objetivo es que alguien pueda estudiar el programa sin conexion y pueda
-# comprobar que lo que descargo es lo que se publico.
+# Este flujo NO publica: lo hace `apps.yml`, que construye el APK, la
+# aplicacion de Windows, el manual y los paquetes del repositorio, y adjunta
+# todo al release con un unico archivo de sumas.
+#
+# Cuando publicaban los dos, cada uno escribia su propio SHA256SUMS.txt y el
+# segundo en llegar pisaba al primero: el archivo publicado solo cubria la
+# mitad de los adjuntos, y ademas el segundo fallaba con «a release with the
+# same tag name already exists».
+#
+# Lo que queda aqui es la puerta: si el programa no valida, la etiqueta lo
+# dice antes de que `apps.yml` empiece a compilar binarios.
 
 on:
   push:
@@ -16,12 +23,10 @@ permissions:
   contents: read
 
 jobs:
-  empaquetar:
-    name: Empaquetar y publicar
+  verificar:
+    name: Verificar antes de publicar
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -34,98 +39,31 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias
-        run: python -m pip install -r requirements.txt cyclonedx-bom
+        run: python -m pip install -r requirements.txt
 
-      - name: Verificar el programa antes de publicar
+      - name: Verificar el programa
         run: |
           python tools/validate_program.py
           python tools/render_program.py --check
           python tools/build_syllabus.py --check
+          python tools/build_file_index.py --check
           python tools/progress.py --check
           python tools/check_links.py
           pytest -q
 
-      - name: Construir el paquete del programa
-        run: |
-          mkdir -p dist
-          zip -q -r "dist/programa-completo.zip" \
-            modules docs apps datasets tools tests \
-            README.md SYLLABUS.md STATUS.md MANIFEST.md CHANGELOG.md \
-            ROADMAP.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md \
-            LICENSE VERSION requirements.txt \
-            -x "*/__pycache__/*" "*.pyc"
-          zip -q -r "dist/solo-clases.zip" modules SYLLABUS.md \
-            -x "*/__pycache__/*" "*.pyc"
-
-      - name: Generar inventario de dependencias
-        run: cyclonedx-py environment -o dist/sbom.json
-
-      - name: Calcular sumas de verificacion
-        run: |
-          cd dist
-          sha256sum ./*.zip ./sbom.json > SHA256SUMS.txt
-          cat SHA256SUMS.txt
-
-      - name: Preparar notas de la publicacion
-        run: |
-          {
-            echo "## Programa completo"
-            echo ""
-            python tools/validate_program.py
-            echo ""
-            echo "### Contenido de la descarga"
-            echo ""
-            echo "| Archivo | Contenido |"
-            echo "|---|---|"
-            echo "| \`programa-completo.zip\` | Clases, documentacion, herramientas, aplicaciones y datos |"
-            echo "| \`solo-clases.zip\` | Solo las 352 clases y su indice |"
-            echo "| \`sbom.json\` | Inventario de dependencias en formato CycloneDX |"
-            echo "| \`SHA256SUMS.txt\` | Sumas de verificacion |"
-            echo ""
-            echo "Verifica la descarga con \`sha256sum -c SHA256SUMS.txt\`."
-            echo ""
-            echo "Ver [CHANGELOG.md](CHANGELOG.md) para el detalle de los cambios."
-          } > notas.md
-
-      # Se publica con `gh release`, que ya viene instalado en el runner, en vez
-      # de con una accion de terceros: una dependencia externa menos que fijar,
-      # auditar y renovar para hacer exactamente lo mismo.
-      #
-      # GITHUB_REF_NAME lo define el propio runner y en un push de etiqueta
-      # contiene la etiqueta; por eso no hace falta interpolar nada.
-      - name: Publicar
+      - name: Comprobar que la version y la etiqueta coinciden
         if: startsWith(github.ref, 'refs/tags/v')
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # `apps.yml` publica el APK y la aplicacion de Windows para la misma
-          # etiqueta, asi que los dos flujos pueden llegar aqui en cualquier
-          # orden. El primero crea el release y el segundo le anade lo suyo:
-          # con `gh release create` a secas, el segundo fallaba con «a release
-          # with the same tag name already exists».
-          archivos="dist/programa-completo.zip dist/solo-clases.zip \
-                    dist/sbom.json dist/SHA256SUMS.txt"
-          if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
-            echo "El release ya existe: se anaden los artefactos"
-            # shellcheck disable=SC2086  # la lista de archivos se separa a proposito
-            gh release upload "${GITHUB_REF_NAME}" ${archivos} --clobber
-          else
-            # shellcheck disable=SC2086
-            gh release create "${GITHUB_REF_NAME}" \
-              --title "${GITHUB_REF_NAME}" \
-              --notes-file notas.md \
-              ${archivos}
-          fi
+          version="v$(cat VERSION)"
+          echo "VERSION=${version} · etiqueta=${GITHUB_REF_NAME}"
+          [ "${version}" = "${GITHUB_REF_NAME}" ] || {
+            echo "La etiqueta no coincide con VERSION"; exit 1; }
 
       - name: Resumen
         if: always()
         run: |
           {
-            echo "### Paquete de publicacion"
+            echo "### Verificacion previa"
             echo ""
-            echo "| Archivo | Tamano |"
-            echo "|---|---|"
-            for archivo in dist/*; do
-              echo "| \`$(basename "${archivo}")\` | $(du -h "${archivo}" | cut -f1) |"
-            done
+            echo "Programa validado. La publicacion la realiza \`apps.yml\`."
           } >> "$GITHUB_STEP_SUMMARY"

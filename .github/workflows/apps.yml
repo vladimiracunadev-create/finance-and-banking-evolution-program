@@ -46,7 +46,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias
-        run: python -m pip install -r requirements-site.txt
+        run: python -m pip install -r requirements-site.txt -r requirements.txt cyclonedx-bom
 
       - name: Generar el sitio
         run: python tools/build_site.py --check
@@ -78,6 +78,25 @@ jobs:
         with:
           name: manual
           path: book/programa-completo.pdf
+          retention-days: 1
+
+      # Los paquetes del repositorio se construyen aqui y no en release.yml
+      # para que un unico flujo publique todo: cuando publicaban los dos, cada
+      # uno escribia su propio SHA256SUMS.txt y el segundo pisaba al primero,
+      # de modo que el archivo publicado solo cubria la mitad de los adjuntos.
+      - name: Empaquetar el repositorio
+        run: |
+          mkdir -p dist
+          zip -q -r "dist/programa-completo.zip"             modules docs apps datasets tools tests             README.md SYLLABUS.md STATUS.md MANIFEST.md CHANGELOG.md             ROADMAP.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md             LICENSE VERSION requirements.txt             -x "*/__pycache__/*" "*.pyc"
+          zip -q -r "dist/solo-clases.zip" modules SYLLABUS.md             -x "*/__pycache__/*" "*.pyc"
+          cyclonedx-py environment -o dist/sbom.json
+          ls -lh dist
+
+      - name: Subir los paquetes
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: paquetes
+          path: dist/*
           retention-days: 1
 
   android:
@@ -229,7 +248,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Solo los tres artefactos que se publican. Sin `pattern`, tambien se
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      # Solo los artefactos que se publican. Sin `pattern`, tambien se
       # descargaria `sitio`, que es material intermedio de 16 MB en miles de
       # archivos: el release se llenaria de directorios y `sha256sum` fallaria
       # sobre ellos.
@@ -237,7 +266,7 @@ jobs:
         uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
           path: entrega
-          pattern: "{apk,windows,manual}"
+          pattern: "{apk,windows,manual,paquetes}"
           merge-multiple: true
 
       - name: Sumas de verificación
@@ -258,14 +287,17 @@ jobs:
       #
       # El release puede existir ya, creado por release.yml para la misma
       # etiqueta: en ese caso se le anaden los artefactos en vez de fallar.
+      - name: Redactar las notas
+        run: python tools/release_notes.py "${GITHUB_REF_NAME}" entrega > notas.md
+
       - name: Publicar
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
           if gh release view "${GITHUB_REF_NAME}" --repo "${REPO}" >/dev/null 2>&1; then
-            echo "El release ya existe: se anaden los artefactos"
             gh release upload "${GITHUB_REF_NAME}" entrega/* --repo "${REPO}" --clobber
+            gh release edit "${GITHUB_REF_NAME}" --repo "${REPO}" --notes-file notas.md
           else
-            gh release create "${GITHUB_REF_NAME}" entrega/*               --repo "${REPO}"               --title "${GITHUB_REF_NAME}"               --generate-notes
+            gh release create "${GITHUB_REF_NAME}" entrega/*               --repo "${REPO}"               --title "${GITHUB_REF_NAME}"               --notes-file notas.md
           fi
