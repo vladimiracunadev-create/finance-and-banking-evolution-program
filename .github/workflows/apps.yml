@@ -225,16 +225,25 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Solo los tres artefactos que se publican. Sin `pattern`, tambien se
+      # descargaria `sitio`, que es material intermedio de 16 MB en miles de
+      # archivos: el release se llenaria de directorios y `sha256sum` fallaria
+      # sobre ellos.
       - name: Recuperar los artefactos
         uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
           path: entrega
+          pattern: "{apk,windows,manual}"
           merge-multiple: true
 
       - name: Sumas de verificación
         run: |
           cd entrega
           ls -lh
+          # Solo archivos: si algo llega como directorio, es que se colo un
+          # artefacto que no toca y es mejor detenerse.
+          test -z "$(find . -mindepth 1 -maxdepth 1 -type d)" || {
+            echo "Hay directorios en la entrega:"; find . -mindepth 1 -maxdepth 1 -type d; exit 1; }
           sha256sum * > SHA256SUMS.txt
           cat SHA256SUMS.txt
 
