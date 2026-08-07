@@ -21,6 +21,8 @@ Dominar la capa donde se juega la mayor parte de la competencia digital en finan
 puerta de entrada a la relación con el cliente, el generador de datos más rico del sistema y la función
 donde la política pública ha intervenido con más fuerza.
 
+El primer eslabón que se desagregó fue el pago, y esta clase explica por qué. Un pago parece un servicio simple y es una infraestructura con tres tipos de dinero distintos por debajo. Entender esa arquitectura es lo que permite ver por qué un pago inmediato cambia el negocio y un pago con tarjeta no.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tipos de dinero; los cinco siguientes, la infraestructura y su economía. La **irrevocabilidad** es la característica que cambia el negocio: un pago inmediato e irrevocable elimina el riesgo del comercio y elimina también el mecanismo de contracargo que protegía al cliente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dinero de banco central` | Reservas y efectivo; sin riesgo de crédito. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `irrevocabilidad` | Que el pago no pueda deshacerse una vez liquidado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres dineros que se parecen y no lo son: el del banco central, el del banco comercial y el electrónico de un emisor no bancario. Un pago mueve uno de los tres, y el riesgo que asume quien lo recibe depende de cuál.
 
 ```text
 TRES DINEROS QUE CIRCULAN A LA VEZ
@@ -91,6 +97,8 @@ verificación— es lo que separa un emisor seguro de uno que no lo es.
 ## 📖 Desarrollo
 
 ### 1. Arquitectura de pagos inmediatos
+
+Un sistema de pagos inmediatos tiene componentes definidos y opera veinticuatro horas. El esquema lo recorre.
 
 ```text
 COMPONENTES
@@ -119,6 +127,8 @@ FLUJO
 | Híbrida | Neta con ciclos frecuentes y garantías | El más usado |
 
 ### 2. Economía de un pago con tarjeta
+
+El pago con tarjeta reparte una comisión entre cuatro actores. El procedimiento siguiente la descompone.
 
 ```text
 COMPRA DE 100 CON TARJETA
@@ -149,6 +159,8 @@ LA REGULACIÓN DE LA TASA DE INTERCAMBIO
 
 ### 3. Códigos de respuesta rápida
 
+Los códigos de respuesta rápida son la vía de menor costo para aceptar pagos, y tienen sus propios riesgos. La tabla los recoge.
+
 | Modalidad | Cómo funciona | Ventaja | Riesgo |
 |---|---|---|---|
 | Estático del comercio | Un código fijo por comercio | Costo cero | Suplantación del código |
@@ -167,6 +179,8 @@ LA INTEROPERABILIDAD ES LA VARIABLE DECISIVA
 ```
 
 ### 4. Riesgos del pago instantáneo
+
+La inmediatez elimina la ventana de reversión y con ella varias protecciones. La tabla recoge los riesgos.
 
 ```text
 IRREVOCABILIDAD + INMEDIATEZ = RIESGO DE FRAUDE ELEVADO
@@ -198,6 +212,8 @@ estafador— a controlar mejor. Los esquemas modernos reparten la responsabilida
 
 ### 5. Dinero electrónico
 
+El dinero electrónico no es un depósito y su protección es distinta. La tabla lo separa.
+
 ```text
 OBLIGACIONES DE UN EMISOR DE DINERO ELECTRÓNICO
   · respaldo del 100 % de los saldos
@@ -214,6 +230,8 @@ LO QUE UN EMISOR NO PUEDE HACER
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el costo y el riesgo de la misma operación por tres medios. Conviene mirar quién asume el riesgo en cada uno: cambia con el medio y no con el importe.
 
 **Situación.** Un banco evalúa su posición en pagos tras la introducción del sistema inmediato.
 
@@ -386,6 +404,8 @@ venga. Anticipar el cambio regulatorio es aquí una decisión económica, no una
 
 ## 🏦 Del cliente al banco
 
+El cliente paga con el móvil y el banco pierde o gana según qué infraestructura se use. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Transferir es instantáneo y gratis» | Costo sin ingreso directo | 14, clase 2 |
@@ -396,6 +416,8 @@ venga. Anticipar el cambio regulatorio es aquí una decisión económica, no una
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar tres medios por costo, velocidad y protección. Ningún medio gana en las tres dimensiones.
+
 En `labs/lab-01.md`, sección de pagos:
 
 1. Distingue los tres dineros en cinco situaciones concretas.
@@ -404,6 +426,8 @@ En `labs/lab-01.md`, sección de pagos:
 4. Analiza el efecto de un régimen de reembolso obligatorio.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas con pagos inmediatos. La causa es casi siempre la irrevocabilidad no comprendida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

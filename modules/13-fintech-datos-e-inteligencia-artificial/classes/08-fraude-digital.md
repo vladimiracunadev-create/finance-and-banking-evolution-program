@@ -21,6 +21,8 @@ Construir la defensa contra el fraude en canales digitales. Es el único riesgo 
 adversario que se adapta en días, y donde cada control añade fricción a clientes legítimos: **la
 optimización no es minimizar el fraude, es minimizar el costo total**.
 
+Los canales digitales de las clases anteriores traen su propio fraude. Esta clase lo trata desde la perspectiva del banco, que es distinta de la de la Parte 4: no se trata de protegerse uno mismo sino de calibrar un sistema que atiende a millones y que se equivoca en las dos direcciones.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las modalidades; los cinco siguientes, los errores del sistema y sus controles. El **fraude por inducción** es el que más crece y el que peor se detecta: el cliente autoriza la operación, engañado, y todos los controles técnicos la validan.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `apropiación de cuenta` | El atacante toma control de la cuenta del cliente. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `regla de decisión` | Criterio que aprueba, rechaza o escala una operación. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una balanza con dos costos: bloquear operaciones legítimas cuesta clientes y dejar pasar fraudulentas cuesta dinero. No existe un punto sin error; existe un punto donde el costo total es mínimo, y encontrarlo es un cálculo.
 
 ```text
 EL COSTO TOTAL DEL FRAUDE TIENE TRES COMPONENTES
@@ -91,6 +97,8 @@ que se cambian de banco, y todo eso tiene un costo que rara vez se atribuye al �
 
 ### 1. Tipos y mecánica
 
+Las modalidades de fraude digital tienen mecánicas distintas y controles distintos. La tabla las recoge.
+
 | Tipo | Mecánica | Detección |
 |---|---|---|
 | Apropiación de cuenta | Credenciales robadas o suplantación de canal | Dispositivo, comportamiento, geolocalización |
@@ -113,6 +121,8 @@ EL FRAUDE POR INDUCCIÓN ES EL DE MAYOR CRECIMIENTO
 ```
 
 ### 2. Defensa por capas
+
+La defensa se organiza en capas que actúan en momentos distintos. La tabla las recoge.
 
 ```text
 CAPA 1 — PREVENCIÓN
@@ -152,6 +162,8 @@ NINGUNA SEÑAL AISLADA JUSTIFICA UN BLOQUEO
 
 ### 3. Calibración
 
+La calibración fija el umbral entre falsos positivos y negativos. El procedimiento la determina.
+
 ```text
 LA MATRIZ DE DECISIÓN
 
@@ -180,6 +192,8 @@ porque los falsos positivos son mucho más numerosos
 
 ### 4. Costo total y su optimización
 
+El costo total suma fraude, fricción y operación, y tiene un mínimo. El procedimiento lo encuentra.
+
 ```text
 COSTO TOTAL = pérdida por fraude
             + falsos positivos × costo unitario
@@ -192,6 +206,8 @@ SE MINIMIZA BUSCANDO EL UMBRAL ÓPTIMO
 ```
 
 ### 5. Evento masivo
+
+Un evento masivo de fraude exige una respuesta distinta de la gestión ordinaria. Los pasos siguientes la recogen.
 
 ```text
 CUANDO UN FRAUDE AFECTA A MUCHOS CLIENTES A LA VEZ
@@ -210,6 +226,8 @@ ERROR HABITUAL: retrasar el reembolso mientras se investiga
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calibra un sistema de detección minimizando el costo total. Conviene mirar el costo de la fricción: suele ser mayor que el del fraude y casi nunca se mide.
 
 **Situación.** Un banco optimiza su sistema antifraude de pagos digitales.
 
@@ -385,6 +403,8 @@ si las dos opciones son las únicas.
 
 ## 🏦 Del cliente al banco
 
+El cliente sufre una fricción y el banco equilibra dos costos que no puede minimizar a la vez. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me bloquearon la tarjeta sin razón» | Falso positivo | 14, clase 8 |
@@ -395,6 +415,8 @@ si las dos opciones son las únicas.
 
 ## 🧪 Práctica
 
+El laboratorio pide calibrar un sistema y calcular el costo total en varios umbrales. El umbral óptimo deja pasar más fraude del que la intuición aceptaría.
+
 En `labs/lab-04.md`, sección de fraude:
 
 1. Clasifica veinte casos por tipo de fraude y señala su mecánica.
@@ -403,6 +425,8 @@ En `labs/lab-04.md`, sección de fraude:
 4. Diseña un sistema de tres zonas y compara su costo con el de dos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen sistemas de fraude mal calibrados. Las causas son el costo de la fricción no medido y el fraude por inducción tratado con controles técnicos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

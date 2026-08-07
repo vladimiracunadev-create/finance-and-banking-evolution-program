@@ -21,6 +21,8 @@ Evaluar la transformación potencialmente más profunda del sistema bancario: **
 un pasivo directo del banco central**. Esta clase analiza sus diseños posibles, sus efectos sobre la
 intermediación bancaria y las decisiones que un banco debe anticipar.
 
+El dinero de la clase 2 tiene tres formas. Esta trata de una cuarta que varios bancos centrales están construyendo, y de por qué su diseño importa tanto: según cómo se decidan cuatro parámetros, una moneda digital de banco central puede ser irrelevante para la banca comercial o puede vaciarle los depósitos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tipos y el modelo de distribución; los cinco siguientes, las decisiones de diseño y sus efectos. El **límite de tenencia** es el parámetro que decide si hay desintermediación: sin él, en una crisis los depósitos migrarían al banco central en horas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `moneda digital de banco central` | Pasivo digital del banco central, de curso legal. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `programabilidad` | Capacidad de condicionar el uso de los fondos. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una competencia por el pasivo: si el público puede tener dinero del banco central directamente, y ese dinero es seguro y remunerado, los depósitos bancarios pierden su ventaja. Los límites de tenencia y la no remuneración existen para evitar exactamente eso.
 
 ```text
 HOY EL PÚBLICO TIENE DOS FORMAS DE DINERO
@@ -94,6 +100,8 @@ intermediación bancaria.** Los límites de tenencia y la no remuneración son l
 
 ### 1. Mayorista y minorista
 
+Las dos variantes resuelven problemas distintos y afectan a la banca de forma distinta. La tabla las separa.
+
 | | Mayorista | Minorista |
 |---|---|---|
 | Usuarios | Bancos y entidades autorizadas | Público general |
@@ -113,6 +121,8 @@ LA MINORISTA ES DISRUPTIVA
 ```
 
 ### 2. Decisiones de diseño
+
+Cuatro decisiones de diseño determinan casi todos los efectos. La tabla las recoge.
 
 ```text
 CADA DECISIÓN TIENE UN INTERCAMBIO EXPLÍCITO
@@ -138,6 +148,8 @@ EL MODELO DE DOS NIVELES ES EL CONSENSO EMERGENTE
 ```
 
 ### 3. Efecto sobre la intermediación
+
+El efecto sobre los depósitos bancarios se puede estimar según el diseño. El procedimiento lo hace.
 
 ```text
 EL MECANISMO DE LA DESINTERMEDIACIÓN
@@ -177,6 +189,8 @@ POR ESO LOS LÍMITES DE TENENCIA
 
 ### 4. Privacidad y trazabilidad
 
+Hay una tensión entre privacidad y trazabilidad que ningún diseño resuelve del todo. La tabla la recoge.
+
 ```text
 EL CONFLICTO CENTRAL
 
@@ -210,6 +224,8 @@ NINGUNA ES PERFECTA, Y LA DECISIÓN ES POLÍTICA
 
 ### 5. Papel del banco
 
+En el modelo de dos niveles el banco comercial mantiene funciones concretas. La tabla las recoge.
+
 ```text
 LO QUE UN BANCO PUEDE APORTAR EN UN MODELO DE DOS NIVELES
   · identificación y cumplimiento
@@ -230,6 +246,8 @@ LA PREGUNTA ESTRATÉGICA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo estima el efecto de una moneda digital sobre los depósitos de un banco según el límite de tenencia. Conviene probar dos límites distintos: la diferencia es de orden de magnitud.
 
 **Situación.** Un banco evalúa el efecto de una moneda digital minorista anunciada por su banco central.
 
@@ -445,6 +463,8 @@ del distribuidor determinará si el modelo de dos niveles es viable.
 
 ## 🏦 Del cliente al banco
 
+El ciudadano tendría dinero de banco central y el banco comercial perdería su pasivo más barato. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Tendré dinero del banco central en el teléfono» | Tercera forma de dinero | 14, clase 10 |
@@ -455,6 +475,8 @@ del distribuidor determinará si el modelo de dos niveles es viable.
 
 ## 🧪 Práctica
 
+El laboratorio pide estimar el efecto sobre los depósitos con distintos diseños. Con un diseño el efecto es marginal y con otro es estructural.
+
 En `labs/lab-05.md`, sección de moneda digital:
 
 1. Evalúa seis decisiones de diseño y sus intercambios.
@@ -463,6 +485,8 @@ En `labs/lab-05.md`, sección de moneda digital:
 4. Diseña la estrategia de un banco como distribuidor.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis mal planteados sobre este tema. Las causas son ignorar los límites de tenencia y confundir mayorista con minorista.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Aplicar inteligencia artificial en un banco con criterio: **sabiendo qué proble
 y qué obligaciones adicionales impone su uso** en un sector donde cada decisión afecta a una persona y
 debe poder explicarse.
 
+La analítica de la clase anterior usa modelos que se pueden explicar. Esta trata los que no siempre se pueden, y su criterio central es de proporcionalidad: la exigencia de explicabilidad y de control depende de qué decide el modelo, y no de qué tecnología usa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las familias de técnica; los cinco siguientes, los controles y los modos de fallo. La **alucinación** es el modo de fallo característico de los sistemas generativos: producen respuestas plausibles y falsas con la misma confianza que las correctas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `aprendizaje supervisado` | Aprende de ejemplos con la respuesta conocida. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `deriva` | Degradación del desempeño por cambio del entorno. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una clasificación por consecuencia: un modelo que ordena una lista de correos y uno que rechaza un crédito son la misma tecnología con exigencias radicalmente distintas. Lo que decide los controles es el efecto sobre la persona, no la sofisticación del algoritmo.
 
 ```text
 LA PREGUNTA QUE ORDENA TODA LA CLASE
@@ -89,6 +95,8 @@ la sofisticación técnica NO cambia esta clasificación
 
 ### 1. Tipos y usos
 
+Las técnicas se aplican a usos concretos en banca. La tabla los relaciona.
+
 | Tipo de sistema | Qué hace | Uso bancario típico |
 |---|---|---|
 | Clasificación supervisada | Asigna categorías | Admisión, fraude, cobranza |
@@ -101,6 +109,8 @@ la sofisticación técnica NO cambia esta clasificación
 | Aprendizaje por refuerzo | Optimiza secuencias de decisión | Precios, cobranza (con cautela) |
 
 ### 2. Clasificación por riesgo
+
+Los casos de uso se clasifican por su efecto sobre las personas, y de ahí salen los controles. La tabla los recoge.
 
 ```text
 BAJO RIESGO — el error no daña a nadie
@@ -130,6 +140,8 @@ sistema de alto riesgo; un modelo sofisticado que ordena una lista de trabajo in
 
 ### 3. Controles específicos
 
+Cada nivel de riesgo exige controles concretos. La tabla los recoge.
+
 | Control | Qué previene |
 |---|---|
 | Validación independiente (Parte 11, clase 12) | Modelo incorrecto |
@@ -156,6 +168,8 @@ SUPERVISIÓN HUMANA SIGNIFICATIVA
 ```
 
 ### 4. Sistemas generativos
+
+Los sistemas generativos tienen usos legítimos en banca y límites claros. La tabla los separa.
 
 ```text
 LO QUE HACEN BIEN                    LO QUE NO HACEN
@@ -190,6 +204,8 @@ LA ALUCINACIÓN NO ES UN ERROR CORREGIBLE: ES UNA PROPIEDAD
 
 ### 5. Modos de falla característicos
 
+Estos sistemas fallan de formas propias y reconocibles. La tabla las recoge.
+
 ```text
 1. DERIVA SILENCIOSA
    el mundo cambia y el sistema sigue respondiendo
@@ -218,6 +234,8 @@ de cien maneras distintas; un modelo se equivoca de la misma manera cien mil vec
 error pequeño en un evento material.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica tres casos de uso por su riesgo y define sus controles. Conviene fijarse en el caso de riesgo alto: exige humano en el circuito y explicación individual.
 
 **Situación.** Un banco evalúa tres casos de uso propuestos por distintas áreas.
 
@@ -448,6 +466,8 @@ personas afectadas. La asimetría entre aprobar y rechazar es el criterio más �
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una decisión automática y el banco tiene que poder explicarla. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me atendió un robot» | Asistente con alcance restringido | 14, clase 6 |
@@ -458,6 +478,8 @@ personas afectadas. La asimetría entre aprobar y rechazar es el criterio más �
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar casos de uso y definir controles proporcionales. Aplicar controles máximos a todo es tan incorrecto como no aplicarlos.
+
 En `labs/lab-03.md`, sección de inteligencia artificial:
 
 1. Clasifica ocho casos de uso por riesgo según su consecuencia.
@@ -466,6 +488,8 @@ En `labs/lab-03.md`, sección de inteligencia artificial:
 4. Evalúa un caso de uso con su beneficio y el costo de sus controles obligatorios.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen sistemas de inteligencia artificial que causaron problemas. Las causas son controles no proporcionales y modos de fallo no previstos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

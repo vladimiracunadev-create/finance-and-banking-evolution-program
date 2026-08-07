@@ -21,6 +21,8 @@ Situar la innovación financiera dentro del marco normativo. La regulación de l
 enfrenta un problema propio: **cómo permitir que aparezcan cosas nuevas sin que la novedad sirva para
 eludir obligaciones** que existen por razones que siguen siendo válidas.
 
+Las once clases anteriores describen actividades nuevas. Esta trata de cómo la norma las alcanza, y anticipa el principio que la Parte 22 desarrolla entero: la regulación sigue a la actividad y no a la tecnología. De ahí se deduce que casi ninguna innovación queda fuera del perímetro, aunque tarde en entrar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el principio y el perímetro; los cinco siguientes, los instrumentos de innovación y la tecnología aplicada al cumplimiento. La **neutralidad tecnológica** es el principio rector y tiene límites reales, que la clase 2 de la Parte 22 desarrolla.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `neutralidad tecnológica` | La norma regula la actividad, no la tecnología. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `tecnología para la supervisión` | Herramientas del supervisor para vigilar. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un perímetro que se mueve más despacio que la innovación: primero aparece la actividad, después se descubre que encaja en un régimen existente o que hace falta uno nuevo, y entre ambos momentos hay una ventana de arbitraje que siempre se cierra.
 
 ```text
 EL DILEMA REGULATORIO DE LA INNOVACIÓN
@@ -90,6 +96,8 @@ haciendo?».
 ## 📖 Desarrollo
 
 ### 1. Neutralidad tecnológica y sus límites
+
+El principio es sólido y tiene tres límites conocidos. La tabla los recoge.
 
 ```text
 EL PRINCIPIO
@@ -118,6 +126,8 @@ SU LÍMITE
 ```
 
 ### 2. Instrumentos de innovación regulatoria
+
+Los supervisores han creado instrumentos para acompañar la innovación sin renunciar al control. La tabla los recoge.
 
 | Instrumento | Qué ofrece | Qué exige | Riesgo |
 |---|---|---|---|
@@ -149,6 +159,8 @@ LO QUE UN ESPACIO CONTROLADO DEBE EXIGIR SIEMPRE
 
 ### 3. Perímetro y vacíos
 
+Algunas actividades quedan fuera del perímetro por un tiempo, y eso produce arbitraje. La tabla recoge los casos.
+
 ```text
 CÓMO SE DETERMINA SI UNA ACTIVIDAD ESTÁ DENTRO
 
@@ -179,6 +191,8 @@ los últimos años.** Reconoce que si todos los bancos dependen de tres proveedo
 solo a los bancos deja el riesgo sin supervisar.
 
 ### 4. Obligaciones por actividad
+
+Las obligaciones dependen de la actividad y no de la licencia que se tenga. La tabla las recoge.
 
 ```text
 CUALQUIERA QUE REALICE ESTAS ACTIVIDADES
@@ -218,6 +232,8 @@ LA PRUEBA PRÁCTICA PARA UN BANCO
 
 ### 5. Dirección de la regulación
 
+La regulación de este ámbito se mueve en direcciones identificables. La tabla las recoge.
+
 ```text
 TENDENCIAS OBSERVABLES
 
@@ -231,6 +247,8 @@ TENDENCIAS OBSERVABLES
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo determina qué obligaciones alcanzan a una actividad nueva. Conviene aplicar el principio de actividad: casi siempre hay un régimen existente que ya la cubre.
 
 **Situación.** Un banco evalúa una alianza con una empresa de tecnología financiera.
 
@@ -436,6 +454,8 @@ puede gestionar.
 
 ## 🏦 Del cliente al banco
 
+La fintech opera sin licencia bancaria y el banco cumple obligaciones por la misma actividad. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Pedí el crédito en una app, no en el banco» | El banco responde de todo | 14, clase 12 |
@@ -446,6 +466,8 @@ puede gestionar.
 
 ## 🧪 Práctica
 
+El laboratorio pide determinar el perímetro de tres actividades nuevas. Dos están claramente dentro y una está en el vacío.
+
 En `labs/lab-06.md`, sección regulatoria:
 
 1. Determina qué obligaciones activa cada una de diez actividades.
@@ -454,6 +476,8 @@ En `labs/lab-06.md`, sección regulatoria:
 4. Redacta las condiciones contractuales de una externalización material.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos que chocaron con la regulación. La causa es haber supuesto que una tecnología nueva está fuera del perímetro.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Cerrar la parte con la decisión que la resume: **qué capacidades tecnológicas
 y cuáles debe comprar**. Es la decisión que determina su margen, su velocidad y su dependencia durante
 la década siguiente, y se toma una y otra vez sin marco explícito.
 
+Esta clase cierra la parte con la decisión que ordena todas las anteriores: qué construye el banco y qué compra. Y su criterio no es de costo sino de estrategia, porque una capacidad que diferencia y se compra deja de diferenciar en cuanto el competidor compra la misma.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la clasificación y su costo; los cinco siguientes, la dependencia y su gobierno. El **plan de salida** es el requisito que rara vez se exige al contratar y que decide el coste real: sin él, la relación con el proveedor deja de ser una decisión.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capacidad estratégica` | Aquella que diferencia al banco o define su riesgo. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `arquitectura de referencia` | Modelo que orienta las decisiones individuales. |
 
 ## 🧠 Modelo mental
+
+El modelo mental separa dos tipos de capacidad: las que diferencian al banco y las que son infraestructura. Las primeras se construyen aunque salgan caras, y las segundas se compran aunque construirlas sea posible. Confundirlas es lo que produce bancos que programan lo que podrían comprar y compran lo que los distinguía.
 
 ```text
 LA PREGUNTA QUE ORDENA TODA DECISIÓN TECNOLÓGICA
@@ -96,6 +102,8 @@ EL ERROR MÁS CARO
 
 ### 1. Clasificación de capacidades
 
+Las capacidades se clasifican por si diferencian o no. La tabla recoge el criterio.
+
 | Capacidad | Clasificación habitual | Razón |
 |---|---|---|
 | Modelos de riesgo de crédito | Estratégica | Define el riesgo y el precio |
@@ -122,6 +130,8 @@ EL PATRÓN DE LAS CAPACIDADES INTERMEDIAS
 
 ### 2. Marco de decisión
 
+La decisión de construir, comprar o asociarse sigue un marco con criterios en orden. La tabla lo recoge.
+
 ```text
 CINCO PREGUNTAS, EN ORDEN
 
@@ -145,6 +155,8 @@ CINCO PREGUNTAS, EN ORDEN
 ```
 
 ### 3. Costo total de propiedad
+
+El costo total incluye implantación, operación, evolución y salida. El procedimiento lo calcula.
 
 ```text
 COMPONENTES QUE SE OLVIDAN AL COMPARAR
@@ -177,6 +189,8 @@ LA ASIMETRÍA DE HORIZONTE
 ```
 
 ### 4. Dependencia y concentración
+
+La dependencia de un proveedor y la concentración del sector son dos riesgos distintos. La tabla los separa, y esta idea reaparece en las Partes 17 y 22.
 
 ```text
 TRES NIVELES DE RIESGO DE PROVEEDOR
@@ -211,6 +225,8 @@ diferencia entre una hipótesis y un plan se descubre precisamente el día que h
 
 ### 5. Arquitectura de referencia
 
+Una arquitectura de referencia hace que las decisiones individuales sumen en vez de estorbarse. La tabla la recoge.
+
 ```text
 POR QUÉ HACE FALTA
   sin un modelo común, cada decisión individual
@@ -228,6 +244,8 @@ QUÉ DEFINE
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo decide sobre cuatro capacidades con el marco completo. Conviene fijarse en el costo de salida: es el que cambia la decisión en dos de los cuatro casos.
 
 **Situación.** Un banco decide sobre su plataforma de decisión de crédito.
 
@@ -438,6 +456,8 @@ valor está en lo que hacen posible en conjunto**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un servicio y el banco depende de proveedores que también sirven a sus competidores. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco tarda meses en cambiar algo» | Capacidad dentro del núcleo | 14, clase 13 |
@@ -448,6 +468,8 @@ valor está en lo que hacen posible en conjunto**.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar capacidades y decidir. Una capacidad diferenciadora se puede comprar más barato, y sostener la decisión de construirla es el ejercicio.
+
 En `labs/lab-06.md`, sección de estrategia:
 
 1. Clasifica quince capacidades entre estratégicas, intermedias e infraestructura.
@@ -456,6 +478,8 @@ En `labs/lab-06.md`, sección de estrategia:
 4. Redacta las cláusulas contractuales que evitan la cautividad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones tecnológicas que salieron caras. Las causas son costo de salida no calculado y capacidades diferenciadoras externalizadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

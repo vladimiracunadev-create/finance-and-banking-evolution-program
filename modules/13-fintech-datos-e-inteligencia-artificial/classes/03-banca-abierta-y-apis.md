@@ -21,6 +21,8 @@ Entender el cambio de propiedad de los datos financieros y sus consecuencias. La
 un principio simple —**los datos de una cuenta pertenecen a su titular, no al banco**— y de él se
 derivan la competencia, la interoperabilidad y un conjunto nuevo de riesgos.
 
+El pago de la clase anterior se desagregó por infraestructura. Este eslabón se desagrega por norma: la banca abierta obliga al banco a compartir con terceros los datos de sus clientes, y con eso desmonta la barrera de entrada más antigua del sector, que era la información.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el mecanismo y su alcance; los cinco siguientes, los actores y las prácticas que sustituye. El **consentimiento** es la pieza que sostiene todo el modelo: sin él no hay acceso, y su diseño decide si el cliente entiende lo que autoriza.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `interfaz de programación (API)` | Punto de acceso normalizado a datos o servicios. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `reciprocidad` | Que quien accede a datos ajenos también comparta los propios. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un cambio de propietario del dato: la información de la cuenta deja de ser del banco y pasa a ser del cliente, que puede llevársela a donde quiera. Todo lo demás —las interfaces, el consentimiento, la responsabilidad— es la mecánica de ese cambio.
 
 ```text
 LA PREGUNTA QUE ORIGINA TODO
@@ -89,6 +95,8 @@ DE LA SEGUNDA RESPUESTA SE DERIVA TODO LO DEMÁS
 
 ### 1. Modelos de implantación
 
+Los países han implantado la banca abierta de formas distintas, con resultados distintos. La tabla los compara.
+
 | Modelo | Cómo se impone | Ventaja | Limitación |
 |---|---|---|---|
 | Regulatorio obligatorio | La norma exige APIs con estándar común | Cobertura universal, estándar único | Costo de cumplimiento |
@@ -108,6 +116,8 @@ LA RECIPROCIDAD ES LA CUESTIÓN POLÍTICA CENTRAL
 ```
 
 ### 2. Arquitectura
+
+La arquitectura técnica tiene componentes definidos y estándares de seguridad propios. El esquema los recoge.
 
 ```text
 COMPONENTES
@@ -140,6 +150,8 @@ donde el alcance es explícito y el acceso es trazable
 
 ### 3. Alcances típicos
 
+El acceso se otorga por alcances acotados y no en bloque. La tabla los recoge.
+
 | Alcance | Qué permite | Riesgo |
 |---|---|---|
 | Información de cuentas | Ver saldos y movimientos | Privacidad, perfilado |
@@ -158,6 +170,8 @@ EL CONSENTIMIENTO DEBE SER ESPECÍFICO
 ```
 
 ### 4. Riesgos y responsabilidad
+
+Cuando algo sale mal en una cadena de tres actores, hay que saber quién responde. La tabla lo recoge.
 
 ```text
 PREGUNTA CENTRAL: SI ALGO SALE MAL, ¿QUIÉN RESPONDE?
@@ -187,6 +201,8 @@ compromiso afectaría al sistema entero.
 
 ### 5. Oportunidades para el banco
 
+La banca abierta también abre oportunidades al banco que la cumple bien. La tabla las recoge.
+
 ```text
 EL BANCO NO ES SOLO UN OBLIGADO: TAMBIÉN PUEDE CONSUMIR
 
@@ -213,6 +229,8 @@ LA VENTAJA COMPETITIVA SE DESPLAZA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diseña un consentimiento con alcance por finalidad. Conviene comparar con un consentimiento en bloque: el primero es más trabajo y es el único defendible.
 
 **Situación.** Un banco define su estrategia de banca abierta ante la entrada en vigor de la norma.
 
@@ -409,6 +427,8 @@ que permite rechazar mejor permite **aprobar a quien antes se rechazaba por desc
 
 ## 🏦 Del cliente al banco
 
+El cliente comparte sus datos y el banco pierde exclusividad sobre la información que lo protegía. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Puedo ver todas mis cuentas en una app» | Agregación con consentimiento | 14, clase 3 |
@@ -419,6 +439,8 @@ que permite rechazar mejor permite **aprobar a quien antes se rechazaba por desc
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar los alcances de un consentimiento y determinar responsabilidades ante un incidente. La cadena de responsabilidad es lo que se evalúa.
+
 En `labs/lab-02.md`:
 
 1. Diseña el flujo de consentimiento para tres casos de uso distintos.
@@ -427,6 +449,8 @@ En `labs/lab-02.md`:
 4. Identifica los riesgos de un esquema de banca abierta y sus mitigantes.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas de banca abierta. Las causas son consentimientos demasiado amplios y responsabilidades no repartidas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

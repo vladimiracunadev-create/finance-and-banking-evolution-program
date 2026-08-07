@@ -21,6 +21,8 @@ Ejecutar el cambio, no solo diseñarlo. Las transformaciones digitales bancarias
 frecuencia bien documentada, y la causa dominante no es tecnológica: es que **se digitaliza un proceso
 existente en lugar de rediseñarlo**, y que la organización que lo opera no cambia con él.
 
+Las clases anteriores describen tecnologías. Esta trata de cómo un banco existente las adopta, que es un problema de organización antes que de tecnología. Y empieza distinguiendo dos cosas que se confunden: digitalizar un proceso malo produce un proceso malo más rápido.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el objeto de la transformación; los cuatro siguientes, la organización y su medición. La **deuda técnica** es la restricción que explica los plazos: cada año de aplazamiento encarece el cambio, y en algún momento reemplazar sale más barato que arreglar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `digitalización` | Trasladar un proceso existente a un canal digital. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `indicador de resultado` | Métrica que mide efecto, no actividad. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una distinción entre capa y núcleo: se puede poner una aplicación bonita sobre un sistema central de treinta años, y funciona hasta que el cliente pide algo que el núcleo no sabe hacer. La transformación real toca el núcleo y por eso cuesta lo que cuesta.
 
 ```text
 DIGITALIZAR                        TRANSFORMAR
@@ -92,6 +98,8 @@ no solo la tecnología
 ## 📖 Desarrollo
 
 ### 1. Cuatro dimensiones del diagnóstico
+
+El diagnóstico cubre cuatro dimensiones y ninguna es solo tecnológica. La tabla las recoge.
 
 ```text
 1. PROPUESTA AL CLIENTE
@@ -123,6 +131,8 @@ no solo la tecnología
 necesita seis meses para aprobar un cambio entrega igual de lento que uno con tecnología antigua.
 
 ### 2. El núcleo bancario
+
+El sistema central condiciona todo lo demás, y sus opciones de evolución son pocas. La tabla las compara.
 
 ```text
 EL PROBLEMA
@@ -169,6 +179,8 @@ LA COMBINACIÓN HABITUAL Y RAZONABLE
 
 ### 3. Deuda técnica
 
+La deuda técnica se mide y su costo crece con el tiempo. El procedimiento la estima.
+
 ```text
 QUÉ ES
   el costo futuro de una decisión técnica
@@ -198,6 +210,8 @@ SIN CAPACIDAD ASIGNADA, LA DEUDA SOLO CRECE
 
 ### 4. Organización
 
+La organización determina la capacidad de entrega más que la tecnología. La tabla recoge los modelos.
+
 ```text
 DE PROYECTOS A PRODUCTOS
 
@@ -225,6 +239,8 @@ producen coordinación permanente y ninguna autonomía
 
 ### 5. Medición
 
+La transformación se mide con indicadores de resultado y no de actividad. La tabla los separa.
+
 | Indicador de actividad (evítalo) | Indicador de resultado (úsalo) |
 |---|---|
 | Iniciativas lanzadas | Operaciones completadas en el canal digital |
@@ -247,6 +263,8 @@ LOS CUATRO INDICADORES QUE NO SE PUEDEN SIMULAR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diagnostica la situación de un banco en las cuatro dimensiones. Conviene mirar la de organización: suele ser la peor y la que menos presupuesto recibe.
 
 **Situación.** Un banco evalúa su programa de transformación tras dos años.
 
@@ -456,6 +474,8 @@ pretendía comprar.
 
 ## 🏦 Del cliente al banco
 
+El cliente quiere una aplicación que funcione y el banco tiene un sistema central que condiciona lo que puede ofrecer. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Abrir la cuenta fue rápido» | Digitalización bien ejecutada | 14, clase 13 |
@@ -466,6 +486,8 @@ pretendía comprar.
 
 ## 🧪 Práctica
 
+El laboratorio pide diagnosticar un banco y priorizar. La prioridad que sale del diagnóstico rara vez es la que el banco tenía.
+
 En `labs/lab-06.md`, sección de transformación:
 
 1. Diagnostica una organización en las cuatro dimensiones.
@@ -474,6 +496,8 @@ En `labs/lab-06.md`, sección de transformación:
 4. Construye el inventario de deuda técnica con sus intereses anuales.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen transformaciones que no transformaron. Las causas son digitalizar sin rediseñar y no tocar el núcleo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

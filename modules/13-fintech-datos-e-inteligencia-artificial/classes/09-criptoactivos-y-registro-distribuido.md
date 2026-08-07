@@ -21,6 +21,8 @@ Entender qué resuelve técnicamente un registro distribuido, qué son los cript
 debe tratarlos. La clase separa deliberadamente **la tecnología, que tiene usos verificables**, del
 mercado de criptoactivos, que tiene características de riesgo propias y bien documentadas.
 
+Esta clase introduce la tecnología que la Etapa 5 desarrolla en tres partes enteras. Aquí se da el marco mínimo: qué es un registro distribuido, en qué se diferencia de una base de datos y qué exposición tiene un banco a estos activos, que casi siempre es indirecta y mayor de lo que sus cifras muestran.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la tecnología; los cinco siguientes, los activos que la usan y su custodia. La **custodia de claves** es el problema práctico que decide todo: quien tiene las claves tiene los activos, y no hay forma de recuperarlos si se pierden.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `registro distribuido` | Base de datos replicada y sincronizada sin autoridad central. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `custodia de claves` | Control de las claves privadas que dan acceso a los activos. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un registro compartido sin dueño único: varios participantes mantienen la misma anotación y acuerdan cómo actualizarla sin que ninguno decida solo. Todo lo demás —las cadenas de bloques, los consensos, los contratos— es la mecánica de ese acuerdo.
 
 ```text
 QUÉ PROBLEMA RESUELVE UN REGISTRO DISTRIBUIDO
@@ -93,6 +99,8 @@ un tercero de confianza disponible, pagando su costo sin obtener su beneficio.
 ## 📖 Desarrollo
 
 ### 1. Cómo funciona
+
+Un registro distribuido resuelve un problema concreto con componentes concretos. El esquema los recorre.
 
 ```text
 COMPONENTES
@@ -123,6 +131,8 @@ REDES ABIERTAS vs. AUTORIZADAS
 
 ### 2. Clasificación económica
 
+Los criptoactivos se clasifican por lo que representan económicamente, y esa clasificación decide su tratamiento. La tabla la recoge.
+
 | Tipo | Qué es económicamente | Riesgo dominante |
 |---|---|---|
 | Sin respaldo | Activo especulativo sin flujo ni emisor | Precio, liquidez, sin valor intrínseco |
@@ -144,6 +154,8 @@ LA CLASIFICACIÓN NO ES ACADÉMICA: DETERMINA EL RÉGIMEN
 ```
 
 ### 3. Riesgos para un banco
+
+Un banco tiene exposición a estos activos por vías directas e indirectas. La tabla las recoge.
 
 ```text
 EXPOSICIÓN DIRECTA
@@ -178,6 +190,8 @@ gestiona mal.
 
 ### 4. Tratamiento prudencial
 
+El tratamiento de capital de estas exposiciones es muy conservador y depende de la clasificación. La tabla lo recoge.
+
 ```text
 EL MARCO PRUDENCIAL DISTINGUE DOS GRUPOS
 
@@ -208,6 +222,8 @@ QUÉ SIGNIFICA UNA PONDERACIÓN DE 1 250 %
 
 ### 5. Casos de uso con criterio
 
+Hay usos donde la tecnología aporta y usos donde no. La tabla los separa con el criterio que decide.
+
 | Caso de uso | ¿Hay tercero de confianza? | Valoración |
 |---|---|---|
 | Pagos transfronterizos entre bancos | Sí (corresponsales) | La mejora está en el proceso, no en la descentralización |
@@ -229,6 +245,8 @@ CRITERIO DE EVALUACIÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara un registro distribuido con una base de datos centralizada para el mismo problema. Conviene fijarse en la pregunta de si hace falta que no haya un dueño único: si no hace falta, la base centralizada gana.
 
 **Situación.** Un banco recibe tres propuestas relacionadas con criptoactivos y debe decidir.
 
@@ -444,6 +462,8 @@ esta clase.
 
 ## 🏦 Del cliente al banco
 
+El cliente compra criptoactivos y el banco tiene exposición indirecta por sus clientes y sus contrapartes. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Perdí mi clave y perdí todo» | Irreversibilidad de la custodia propia | 14, clase 9 |
@@ -454,6 +474,8 @@ esta clase.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar criptoactivos y estimar la exposición indirecta de un banco. La exposición indirecta supera con mucho a la directa.
+
 En `labs/lab-05.md`:
 
 1. Clasifica diez criptoactivos por su naturaleza económica y su régimen aplicable.
@@ -462,6 +484,8 @@ En `labs/lab-05.md`:
 4. Identifica la correlación adversa en un esquema de garantía.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones mal fundadas sobre esta tecnología. Las causas son usarla sin necesidad y medir solo la exposición directa.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

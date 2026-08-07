@@ -21,6 +21,8 @@ Entender qué cambia realmente cuando la tecnología entra en las finanzas, más
 escepticismo. La pregunta útil no es si la tecnología transformará la banca —ya lo hizo— sino **qué
 funciones bancarias se desagregan, cuáles resisten y por qué**.
 
+La Parte 13 trató el negocio bancario con empresas. Esta trata de quién se lo está quitando y cómo. Es la parte que introduce todo lo que la Etapa 5 desarrolla en profundidad, y su valor está en dar el marco: la competencia fintech no ataca al banco entero, ataca los eslabones donde la ventaja del banco era solo la infraestructura.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la dinámica competitiva; los cuatro siguientes, los modelos que resultan. La **desagregación** es el concepto que ordena la parte: cada clase siguiente trata una pieza que se desprendió del paquete bancario.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `desagregación` | Separación de funciones que el banco prestaba en conjunto. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `gran tecnológica` | Empresa tecnológica de gran escala que entra en finanzas. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de valor que se desmonta pieza a pieza. El banco ofrecía todo junto porque hacerlo por separado no era rentable; cuando la tecnología baja el costo marginal de cada pieza, cada una se puede atacar sola. Y después alguien las vuelve a juntar, pero ya no es el banco.
 
 ```text
 LA BANCA NO ES UN NEGOCIO: SON SEIS FUNCIONES AGRUPADAS
@@ -91,6 +97,8 @@ regulación prudencial y acceso a un prestamista de última instancia.
 
 ### 1. Qué se desagrega y qué resiste
 
+Algunas piezas del negocio bancario se desagregan con facilidad y otras resisten, y la diferencia no es tecnológica. La tabla las separa.
+
 | Función | Barrera principal | Vulnerabilidad | Estado |
 |---|---|---|---|
 | Pagos | Red y regulación | Alta: proceso puro | Muy atacada |
@@ -112,6 +120,8 @@ EL PATRÓN
 
 ### 2. Modelos de negocio
 
+Los competidores adoptan modelos distintos con economías distintas. La tabla los recoge.
+
 | Modelo | Lógica | Ejemplos de función |
 |---|---|---|
 | Pagos y billeteras | Efecto de red y costo marginal bajo | Transferencias, cobro a comercios |
@@ -132,6 +142,8 @@ LA PREGUNTA QUE DEFINE CADA MODELO
 ```
 
 ### 3. Grandes tecnológicas
+
+Las grandes tecnológicas compiten con ventajas que ninguna fintech tiene, y por eso su entrada plantea problemas propios. La tabla los recoge.
 
 ```text
 SU VENTAJA NO ES LA TECNOLOGÍA: ES EL ACCESO AL CLIENTE
@@ -157,6 +169,8 @@ manos.
 
 ### 4. Respuestas del banco
 
+Un banco puede responder de varias formas y cada una tiene su costo y su plazo. La tabla las compara.
+
 | Respuesta | Cuándo funciona | Riesgo |
 |---|---|---|
 | Competir directamente | Hay escala y capacidad de ejecución | Costo alto, velocidad menor |
@@ -177,6 +191,8 @@ CRITERIO DE DECISIÓN
 ```
 
 ### 5. Valor real o arbitraje
+
+Parte de la ventaja de un competidor viene de innovación y parte de estar menos regulado. Separarlas es lo que permite predecir si la ventaja durará. La tabla lo recoge.
 
 ```text
 DOS FUENTES DE VENTAJA MUY DISTINTAS
@@ -200,6 +216,8 @@ ARBITRAJE REGULATORIO
 regulatorio desaparecerá o se encarecerá cuando la norma lo alcance; uno cuya ventaja es de proceso, no.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo analiza un competidor concreto y separa su ventaja real de su arbitraje regulatorio. La parte que viene del arbitraje desaparece cuando la norma alcanza a la actividad.
 
 **Situación.** Un banco analiza la pérdida de participación en pagos y decide su respuesta.
 
@@ -382,6 +400,8 @@ comercio.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una aplicación mejor y el banco pierde el eslabón más rentable de su cadena. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Transferir es gratis ahora» | Ingreso de pagos desaparecido | 14, clase 2 |
@@ -392,6 +412,8 @@ comercio.
 
 ## 🧪 Práctica
 
+El laboratorio pide analizar tres competidores y clasificar su ventaja. En dos de los casos la ventaja es principalmente regulatoria.
+
 En `labs/lab-01.md`:
 
 1. Descompón la banca en sus seis funciones y evalúa la vulnerabilidad de cada una.
@@ -400,6 +422,8 @@ En `labs/lab-01.md`:
 4. Diseña la respuesta de un banco a la pérdida de una función.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber confundido innovación con arbitraje regulatorio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

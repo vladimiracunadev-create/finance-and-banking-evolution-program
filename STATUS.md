@@ -22,7 +22,7 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 11 | Parte 11: Gestión integral de riesgos | 16 | 16 | `████████████████████` | 19.2 KB |
 | 12 | Parte 12: Regulación, cumplimiento y auditoría | 16 | 16 | `████████████████████` | 20.0 KB |
 | 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 20.0 KB |
-| 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 18.4 KB |
+| 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 20.4 KB |
 | 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 18.5 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 18.1 KB |
 | 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 18.3 KB |
@@ -32,7 +32,7 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 16.6 KB |
 | 22 | Parte 22: Regulación de mercados financieros digitales | 18 | 18 | `████████████████████` | 16.4 KB |
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 13.1 KB |
-| | **Total** | **352** | **352** | `████████████████████` | **17.4 KB** |
+| | **Total** | **352** | **352** | `████████████████████` | **17.5 KB** |
 
 ## Qué significa que una clase esté completa
 

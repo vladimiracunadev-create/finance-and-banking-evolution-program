@@ -21,6 +21,8 @@ Convertir datos en decisiones. Esta clase cubre el trabajo analítico que un ban
 —segmentar, predecir, priorizar, medir— y el error metodológico que más lo arruina: **confundir
 correlación con causalidad al diseñar una intervención**.
 
+Con los datos ya organizados, esta clase los usa para decidir. Y establece la distinción que más resultados invalida: predecir quién comprará no es lo mismo que saber a quién conviene ofrecerle algo. La primera pregunta es de correlación y la segunda es causal, y solo la segunda justifica una acción.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos separan los dos tipos de pregunta; los seis siguientes, el diseño experimental y su lectura. La **elevación** es la medida que de verdad importa en una campaña: no cuántos compraron sino cuántos compraron por la campaña.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `problema de predicción` | Estimar un valor o una clase a partir de datos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `validez externa` | Que el resultado se sostenga fuera de la muestra. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un contrafactual: para saber si una acción funcionó hay que compararla con lo que habría pasado sin ella. Como eso no se observa, se construye con un grupo de control, y sin grupo de control cualquier resultado se puede explicar de varias formas.
 
 ```text
 DOS PREGUNTAS QUE PARECEN LA MISMA Y NO LO SON
@@ -90,6 +96,8 @@ efecto incremental cercano a cero, porque esas personas habrían contratado igua
 
 ### 1. Del problema de negocio al problema analítico
 
+Traducir una pregunta de negocio a una analítica es el paso donde se decide si el proyecto servirá. El procedimiento siguiente lo estructura.
+
 ```text
 FORMULACIÓN EN CUATRO PARTES
   1. DECISIÓN     ¿qué se va a decidir con el resultado?
@@ -112,6 +120,8 @@ el análisis no debe hacerse
 | ¿Por qué se van los clientes? | Explicación | Análisis y experimentación |
 
 ### 2. El experimento controlado
+
+El experimento controlado es la única forma limpia de medir causalidad. El procedimiento lo diseña.
 
 ```text
 DISEÑO MÍNIMO
@@ -139,6 +149,8 @@ ERRORES QUE INVALIDAN UN EXPERIMENTO
 ```
 
 ### 3. Tamaño de muestra y significancia
+
+El tamaño de muestra se calcula antes y no después. El procedimiento lo obtiene.
 
 ```text
 ANTES DE EMPEZAR, CALCULA EL TAMAÑO NECESARIO
@@ -170,6 +182,8 @@ SIGNIFICANCIA NO ES RELEVANCIA
 
 ### 4. Modelos de elevación
 
+Los modelos de elevación predicen el efecto de la acción y no la propensión. La tabla los separa.
+
 ```text
 CUATRO TIPOS DE CLIENTE ANTE UNA ACCIÓN
 
@@ -197,6 +211,8 @@ otros bancos.
 
 ### 5. Comunicar un resultado
 
+Un resultado analítico se comunica con su intervalo y sus supuestos. La tabla recoge el formato.
+
 ```text
 ESTRUCTURA DE UNA COMUNICACIÓN ÚTIL
   1. la decisión que se recomienda
@@ -213,6 +229,8 @@ LO QUE NO DEBE APARECER
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo diseña un experimento y calcula la elevación de una campaña. Conviene comparar con la tasa de respuesta bruta: la diferencia es lo que la campaña realmente aportó.
 
 **Situación.** El área comercial evalúa una campaña de colocación de tarjetas de crédito.
 
@@ -370,6 +388,8 @@ preguntas.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una oferta y el banco mide si la oferta cambió su comportamiento. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me llaman para ofrecerme lo mismo siempre» | Contacto a clientes seguros | 14, clase 5 |
@@ -380,6 +400,8 @@ preguntas.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar un experimento y medir la elevación. La tasa de respuesta es alta y la elevación es casi cero, que es el caso más frecuente en la práctica.
+
 En `labs/lab-03.md`:
 
 1. Formula tres preguntas de negocio en las cuatro partes y clasifícalas.
@@ -388,6 +410,8 @@ En `labs/lab-03.md`:
 4. Segmenta la elevación e identifica persuadibles y contraproducentes.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen campañas que parecían funcionar. La causa es la ausencia de grupo de control.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

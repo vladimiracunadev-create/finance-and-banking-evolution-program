@@ -21,6 +21,8 @@ Construir la base sobre la que descansa todo lo demás de esta parte. Ningún mo
 ninguna estrategia de datos funciona sobre información que nadie gobierna: **la calidad del dato es el
 límite superior de la calidad de cualquier decisión que se tome con él**.
 
+Las tres clases anteriores mueven datos. Esta explica cómo están organizados dentro del banco, y por qué casi ningún proyecto analítico funciona a la primera: los datos existen, están repartidos entre sistemas que no se hablan y nadie es responsable de su calidad.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las capas de la arquitectura; los cuatro siguientes, el gobierno que las hace fiables. El **linaje** es el requisito que los supervisores exigen y que casi nadie tiene completo: poder rastrear cualquier cifra hasta su origen.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `sistema de origen` | Aplicación donde el dato se genera. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `dato maestro` | Información de referencia compartida: cliente, producto. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de custodia: cada dato nace en un sistema, se copia, se transforma y llega a un informe. Si no se puede recorrer esa cadena hacia atrás, el número del informe no se puede defender ante nadie.
 
 ```text
 UN BANCO NO TIENE UN PROBLEMA DE DATOS: TIENE VARIOS
@@ -89,6 +95,8 @@ LOS TRES SE RESUELVEN CON LO MISMO: GOBIERNO
 ## 📖 Desarrollo
 
 ### 1. Arquitectura por capas
+
+Los datos recorren capas con propósitos distintos. La tabla las recoge.
 
 ```text
 SISTEMAS DE ORIGEN
@@ -121,6 +129,8 @@ LA CAPA SEMÁNTICA ES LA MÁS DESCUIDADA Y LA MÁS IMPORTANTE
 
 ### 2. Dimensiones de calidad
 
+La calidad de un dato se mide en varias dimensiones y cada una se comprueba distinto. La tabla las recoge.
+
 | Dimensión | Pregunta | Cómo se mide |
 |---|---|---|
 | Exactitud | ¿Refleja la realidad? | Contraste con fuente autorizada |
@@ -141,6 +151,8 @@ LA REGLA DE ORO
 ```
 
 ### 3. Gobierno de datos
+
+El gobierno asigna dueños y responsabilidades sobre cada dato. La tabla lo recoge.
 
 ```text
 ROLES
@@ -170,6 +182,8 @@ LA SEÑAL DE UN GOBIERNO QUE NO FUNCIONA
 
 ### 4. Linaje
 
+El linaje se construye o no se tiene: reconstruirlo después es casi imposible. El esquema lo describe.
+
 ```text
 POR QUÉ IMPORTA
   · un reporte regulatorio con un error exige explicar
@@ -185,6 +199,8 @@ QUÉ DEBE REGISTRARSE
 ```
 
 ### 5. Requisitos supervisores
+
+Los supervisores exigen capacidades concretas de agregación de datos de riesgo. La tabla las recoge.
 
 ```text
 EL PRINCIPIO SUPERVISOR CENTRAL
@@ -210,6 +226,8 @@ es una cosa; responder en 48 horas «cuál es nuestra exposición total a este g
 derivados y contingentes, consolidada» es otra muy distinta.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo rastrea el linaje de una cifra de un informe regulatorio. Conviene contar las transformaciones: cada una es un punto donde el dato pudo cambiar sin que nadie lo notara.
 
 **Situación.** Un banco mide el costo de su mala calidad de datos.
 
@@ -405,6 +423,8 @@ dimensionarlo, no para decidirlo.
 
 ## 🏦 Del cliente al banco
 
+El cliente genera datos y el banco los reparte entre sistemas que no siempre coinciden. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me llegó la carta a una dirección vieja» | Calidad del dato de domicilio | 14, clase 4 |
@@ -415,6 +435,8 @@ dimensionarlo, no para decidirlo.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el linaje de una cifra y medir la calidad de un conjunto de datos. La cifra no cuadra con su origen, y encontrar dónde se rompió es el objetivo.
+
 En `labs/lab-02.md`, sección de datos:
 
 1. Mide las siete dimensiones de calidad sobre un conjunto de datos sintético.
@@ -423,6 +445,8 @@ En `labs/lab-02.md`, sección de datos:
 4. Diseña el marco de gobierno con roles y comité para diez datos críticos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen informes que no se pueden defender. Las causas son ausencia de linaje y datos sin dueño.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

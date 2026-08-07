@@ -21,6 +21,8 @@ Detectar y corregir la discriminación producida por sistemas automatizados. Un 
 atributo protegido puede discriminar igual, y esta clase enseña por qué ocurre, cómo se mide y qué se
 puede hacer al respecto — incluyendo lo que **no** se puede resolver técnicamente.
 
+Las clases 6 y 7 usan modelos que deciden sobre personas. Esta trata de que decidan de forma justa, y su resultado más incómodo es matemático: existen varias definiciones razonables de equidad y está demostrado que no se pueden cumplir todas a la vez. Elegir cuál se cumple es una decisión que hay que tomar y declarar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las formas de discriminación; los cinco siguientes, las definiciones de equidad y su medición. El **impacto dispar** es la forma que aparece sin intención: un modelo que no usa ningún atributo protegido puede producir resultados sistemáticamente peores para un grupo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `atributo protegido` | Característica sobre la que la ley prohíbe discriminar. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `explicabilidad` | Justificar una decisión individual en términos comprensibles. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un conflicto sin solución técnica: paridad demográfica, igualdad de oportunidad y calibración por grupo son incompatibles entre sí salvo en casos triviales. No hay un modelo justo; hay un modelo que cumple la definición de equidad que la entidad eligió y justificó.
 
 ```text
 UN MODELO NO NECESITA VER EL ATRIBUTO PARA DISCRIMINAR
@@ -90,6 +96,8 @@ Y HAY UNA RAZÓN MÁS PROFUNDA
 ## 📖 Desarrollo
 
 ### 1. Cómo se produce el sesgo
+
+El sesgo entra por vías identificables y ninguna requiere mala intención. La tabla las recoge.
 
 ```text
 FUENTES, EN ORDEN DE FRECUENCIA
@@ -122,6 +130,8 @@ FUENTES, EN ORDEN DE FRECUENCIA
 modelo: al no prestar a un grupo, nunca se observa que habría pagado.
 
 ### 2. Definiciones de equidad y su incompatibilidad
+
+Las definiciones son varias y demostradamente incompatibles. La tabla las recoge con su conflicto.
 
 ```text
 TRES DEFINICIONES RAZONABLES
@@ -159,6 +169,8 @@ RESULTADO DE IMPOSIBILIDAD (demostrado formalmente)
 
 ### 3. Medición
 
+El sesgo se mide con métricas concretas por grupo. El procedimiento las calcula.
+
 ```text
 MÉTRICAS POR GRUPO, TODAS NECESARIAS
 
@@ -185,6 +197,8 @@ LA MÉTRICA MÁS REVELADORA
 ```
 
 ### 4. Mitigación
+
+La mitigación se puede aplicar antes, durante o después del entrenamiento. La tabla recoge las opciones.
 
 | Momento | Técnica | Efecto |
 |---|---|---|
@@ -219,6 +233,8 @@ LA MITIGACIÓN MÁS EFECTIVA NO ES TÉCNICA
 
 ### 5. Explicabilidad y revisión
 
+Una decisión adversa exige poder explicarse y poder revisarse. La tabla recoge los requisitos.
+
 ```text
 QUÉ DEBE PODER EXPLICARSE
   · los factores principales que llevaron a la decisión
@@ -245,6 +261,8 @@ EJEMPLO DE EXPLICACIÓN INÚTIL
 | Corrección de datos | Rectificar el dato inexacto y reevaluar |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide el sesgo de un modelo con tres definiciones de equidad. El modelo cumple una y falla las otras dos, que es el resultado normal.
 
 **Situación.** Una auditoría de equidad sobre el modelo de admisión de consumo.
 
@@ -439,6 +457,8 @@ banco consideraba buenas y que estaba rechazando por un error de medición.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe un rechazo y el banco tiene que poder demostrar que el criterio no discrimina. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me rechazaron y no sé por qué» | Derecho a explicación concreta | 14, clase 11 |
@@ -449,6 +469,8 @@ banco consideraba buenas y que estaba rechazando por un error de medición.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir el sesgo de un modelo y elegir una definición de equidad justificada. La justificación es lo que se evalúa.
+
 En `labs/lab-06.md`:
 
 1. Identifica variables sustitutas de atributos protegidos en un conjunto de variables.
@@ -457,6 +479,8 @@ En `labs/lab-06.md`:
 4. Evalúa cuatro opciones de mitigación por su efecto y su costo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen modelos con sesgo no detectado. Las causas son variables sustitutas y equidad no medida por grupo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Evaluar solvencia sin historial crediticio. Es la aplicación de datos con mayor
 del sector —cientos de millones de personas no tienen historial— y también la de mayor potencial de
 daño, porque un dato alternativo mal usado excluye con apariencia de objetividad.
 
+El crédito de la Parte 9 usa datos financieros. Esta clase añade los que no lo son, y con ellos una promesa y un riesgo: permiten evaluar a quien no tiene historial, y permiten discriminar por variables que ninguna política habría aprobado. Distinguir un uso del otro es todo el contenido de la clase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos son la evaluación del dato; los tres siguientes, el producto digital. La **variable sustituta** es el riesgo central: un dato aparentemente neutro que en la práctica identifica un atributo protegido, y que produce discriminación sin que nadie la haya decidido.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dato alternativo` | Información no crediticia usada para evaluar solvencia. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `préstamo escalonado` | Estrategia de límites crecientes según comportamiento. |
 
 ## 🧠 Modelo mental
+
+El modelo mental son tres filtros que un dato alternativo debe pasar: que prediga, que sea estable en el tiempo y que el solicitante no lo pueda manipular. Un dato que falla cualquiera de los tres no sirve, por muy correlacionado que esté.
 
 ```text
 EL PROBLEMA QUE RESUELVEN LOS DATOS ALTERNATIVOS
@@ -90,6 +96,8 @@ Y LA PREGUNTA CRÍTICA ES SIEMPRE LA MISMA
 ## 📖 Desarrollo
 
 ### 1. Fuentes y su valor
+
+Las fuentes de datos alternativos se diferencian mucho en poder predictivo y en aceptabilidad. La tabla las recoge.
 
 | Fuente | Qué mide | Poder predictivo | Aceptabilidad |
 |---|---|---|---|
@@ -122,6 +130,8 @@ no lo uses
 
 ### 2. Usos inaceptables
 
+Hay datos que predicen y no se pueden usar, por razones legales o éticas. La tabla los recoge con su razón.
+
 ```text
 · contactos del teléfono como señal de riesgo
   → convierte la relación social en garantía implícita
@@ -144,6 +154,8 @@ un dato puede predecir bien y ser inaceptable
 ```
 
 ### 3. Originación digital
+
+La originación digital tiene un recorrido propio con puntos de abandono medibles. El esquema lo recorre.
 
 ```text
 FLUJO COMPLETO
@@ -178,6 +190,8 @@ LA FRICCIÓN ES UN CONTROL, NO UN DEFECTO
 
 ### 4. Préstamo escalonado
 
+El préstamo escalonado construye historial con exposiciones crecientes. El esquema lo describe.
+
 ```text
 ESTRATEGIA PARA QUIEN NO TIENE HISTORIAL
 
@@ -207,6 +221,8 @@ RIESGO DEL DISEÑO
 
 ### 5. Medir inclusión y riesgo a la vez
 
+Un modelo puede incluir más y perder menos, y las dos cosas se miden juntas. El procedimiento lo hace.
+
 ```text
 DOS MÉTRICAS QUE DEBEN REPORTARSE JUNTAS
 
@@ -225,6 +241,8 @@ DOS MÉTRICAS QUE DEBEN REPORTARSE JUNTAS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa tres datos alternativos con los tres filtros. Uno de ellos predice bien y es manipulable, y por eso no sirve.
 
 **Situación.** Un banco evalúa incorporar datos alternativos a su admisión de consumo.
 
@@ -444,6 +462,8 @@ una objeción a él.
 
 ## 🏦 Del cliente al banco
 
+El solicitante sin historial no accede al crédito y el banco puede evaluarlo con otros datos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Nunca tuve crédito y por eso no me dan» | El círculo de la falta de historial | 14, clase 7 |
@@ -454,6 +474,8 @@ una objeción a él.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar datos alternativos y detectar variables sustitutas. Una de las variables propuestas identifica un atributo protegido.
+
 En `labs/lab-04.md`:
 
 1. Evalúa ocho datos alternativos con la regla de seis puntos.
@@ -462,6 +484,8 @@ En `labs/lab-04.md`:
 4. Diseña un esquema de préstamo escalonado con sus límites.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen modelos con datos alternativos que fallaron. Las causas son datos manipulables y variables sustitutas no detectadas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
