@@ -1,0 +1,33 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: internacional
+authority: Consejo de Estabilidad Financiera
+instrument_type: recomendaciones
+instrument_number: FSB-GSC-2023
+title: >-
+  Recomendaciones de alto nivel para la regulacion, supervision y vigilancia
+  de los acuerdos globales de stablecoins
+publication_date: "2023-07-17"
+effective_date: >-
+  no tiene fecha de entrada en vigor propia; obliga cuando una jurisdiccion
+  la incorpora a su ordenamiento
+implementation_stage: en incorporacion desigual entre jurisdicciones
+status: vigente
+scope: >-
+  Fija diez recomendaciones sobre gobernanza, gestion de reservas, derechos de
+  redencion, resiliencia operativa y cooperacion transfronteriza aplicables a
+  los acuerdos de stablecoins con alcance global.
+activities_covered:
+  - emision y redencion de stablecoins
+  - gestion y custodia de la reserva de activos
+  - distribucion y transferencia
+  - infraestructura de liquidacion asociada
+official_source: https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/
+last_verified: "2026-08-06"
+supersedes: recomendaciones del FSB de 2020 sobre el mismo ambito
+superseded_by: ninguno
+notes: >-
+  El FSB no emite normas vinculantes: lo que obliga es la norma de cada
+  jurisdiccion. Su aportacion util para el material es que exige mirar el
+  acuerdo COMPLETO —emisor, custodio, distribuidor e infraestructura— y no solo
+  al emisor, que es la omision que la Parte 20, clase 14 mide como exposicion
+  indirecta. Ver Parte 20, clases 3, 4, 5, 6 y 14, y Parte 22.

@@ -1,0 +1,34 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: internacional
+authority: Comite de Supervision Bancaria de Basilea
+instrument_type: norma-prudencial
+instrument_number: SCO60
+title: >-
+  Tratamiento prudencial de las exposiciones a criptoactivos
+publication_date: "2022-12-16"
+effective_date: >-
+  segun la transposicion de cada jurisdiccion; el Comite fijo 2025 como fecha
+  objetivo de aplicacion
+implementation_stage: en transposicion, con calendarios distintos por pais
+status: vigente
+scope: >-
+  Clasifica las exposiciones a criptoactivos en dos grupos y fija su
+  tratamiento de capital. El grupo 1 recoge activos tokenizados y stablecoins
+  que superan una prueba de estabilizacion; el grupo 2, el resto, con un
+  tratamiento conservador y un limite de exposicion.
+activities_covered:
+  - tenencia de criptoactivos en balance
+  - exposiciones indirectas a traves de otros instrumentos
+  - custodia por cuenta de terceros
+  - prestacion de servicios sobre criptoactivos
+official_source: https://www.bis.org/bcbs/publ/d545.htm
+last_verified: "2026-08-06"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  El Comite emite normas que no son de aplicacion directa: obliga la norma de
+  cada jurisdiccion que las transpone. El punto que mas se malinterpreta es que
+  el tratamiento contable y el prudencial no coinciden y no tienen por que:
+  el primero informa, el segundo protege. Antes de usar el calculo de capital de
+  la Parte 20, clase 2, verificar el regimen vigente y su calendario en la
+  jurisdiccion correspondiente. Ver Parte 20, clases 2 y 15, y Parte 22.

@@ -3,9 +3,9 @@
 Este archivo lo genera `tools/progress.py` a partir de los archivos reales
 del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 
-## Avance global: 284 de 352 clases (80.7 %)
+## Avance global: 300 de 352 clases (85.2 %)
 
-`████████████████████████████████░░░░░░░░`
+`██████████████████████████████████░░░░░░`
 
 | Parte | Tema | Clases | Plan | Avance | Tamaño medio |
 |---:|---|---:|---:|---|---:|
@@ -28,11 +28,11 @@ del repositorio. No se edita a mano: refleja lo que hay, no lo que se planea.
 | 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 17.6 KB |
 | 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 17.7 KB |
 | 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 16.7 KB |
-| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
+| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 15.7 KB |
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 0 | 16 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
 | 22 | Parte 22: Regulación de mercados financieros digitales | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 0 | 18 | `░░░░░░░░░░░░░░░░░░░░` | 0.0 KB |
-| | **Total** | **284** | **352** | `████████████████░░░░` | **16.0 KB** |
+| | **Total** | **300** | **352** | `█████████████████░░░` | **15.9 KB** |
 
 ## Qué significa que una clase esté completa
 
@@ -52,13 +52,13 @@ escriben a mano.
 
 | Componente | Cantidad | Estado |
 |---|---:|---|
-| Arquitectura curricular (partes) | 19 | Completa |
-| Laboratorios | 116 | Estructurados |
-| Evaluaciones | 38 | Diagnóstico y final por parte |
-| Proyectos integradores | 19 | Especificados |
-| Aplicaciones didácticas | 6 | Ejecutables con pruebas |
+| Arquitectura curricular (partes) | 20 | Completa |
+| Laboratorios | 124 | Estructurados |
+| Evaluaciones | 40 | Diagnóstico y final por parte |
+| Proyectos integradores | 20 | Especificados |
+| Aplicaciones didácticas | 7 | Ejecutables con pruebas |
 | Estudios de caso | 0 | Con hechos, fuentes y preguntas |
-| Fichas normativas estructuradas | 3 | Con fecha de verificación |
+| Fichas normativas estructuradas | 6 | Con fecha de verificación |
 | Datasets documentados | 6 | Sintéticos, con diccionario |
 | Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |
 

@@ -5,6 +5,66 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [1.5.0] — 2026-08-06
+
+Cuarta parte de la **Etapa 5**: lo que circula sobre el registro. El eje es que
+un activo digital no es una tecnología sino una promesa anotada, y que
+clasificarlo no exige mirar ni una línea de código.
+
+### Añadido
+
+**Parte 20 — Activos digitales, stablecoins y dinero programable**
+
+- 16 clases de 90 minutos, con la ficha de cinco preguntas —quién promete, qué
+  promete, con qué respaldo, exigible cuándo y ante quién— como criterio único
+  de clasificación. Ninguna de las cinco es técnica.
+- Separación estricta de cinco instrumentos que se confunden a diario:
+  criptoactivo no respaldado, stablecoin, dinero electrónico, depósito
+  tokenizado y CBDC. La distinción decide quién quiebra, qué garantía aplica y
+  a quién reclama el cliente.
+- 8 laboratorios con solución de referencia comentada.
+- Evaluación diagnóstica y final con guía de corrección y rúbrica que penaliza
+  el supuesto oculto el doble de lo que valía la cifra.
+- Proyecto integrador «expediente de decisión» de doce piezas, que **puede
+  concluir que el instrumento no es apto y obtener la máxima calificación**.
+
+**Aplicación `apps/digital_assets_risk_lab/`**
+
+- `classification`: ficha de cinco preguntas y rastreo del respaldo hasta un
+  activo externo, con detección de circularidad.
+- `reserves`: cobertura contable, cobertura líquida a 24 horas, escalera de
+  descuentos creciente y punto de no retorno.
+- `redemption`: orden de llegada frente a prorrateo, comisión antidilución y
+  tramo mínimo íntegro, con la ventaja del primero como métrica.
+- `depeg`: banda de no arbitraje, vigilancia de desvío persistente y las cinco
+  fases de una corrida.
+- `algorithmic`: espiral de dos tokens, con el ratio de absorción y la emisión
+  por unidad retirada calculados en paralelo.
+- `custody`: independencia efectiva por cuatro factores, recuperación con
+  retardo y los siete controles de retirada.
+- `market`: libro con importe acumulado, profundidad, impacto y límite de
+  posición colgado de la profundidad, no del volumen.
+- `contagion`: grafo de exposición, segundo grado, dependencias comunes y
+  cascada de liquidez.
+- 49 pruebas, seis de las cuales **documentan defectos y deben pasar**.
+
+**Documentación y metadatos**
+
+- `docs/mapa-activos-digitales.md` con el recorrido, la tabla de dónde está cada
+  concepto y las seis afirmaciones que la parte desmonta.
+- 24 términos nuevos en el glosario digital, cada uno con su «qué NO significa».
+- Fichas normativas del Reglamento (UE) 2023/1114, de la norma prudencial SCO60
+  de Basilea y de las recomendaciones del FSB sobre stablecoins globales.
+
+### Cambiado
+
+- La cifra publicada pasa a **300 clases en 20 partes** (450 horas).
+- `README.md`, `MANIFEST.md` y `ROADMAP.md` reflejan cuatro de las siete partes
+  de la Etapa 5 publicadas. La versión `2.0.0` sigue reservada para cuando
+  existan las siete.
+
+---
+
 ## [1.4.0] — 2026-08-06
 
 Tercera parte de la **Etapa 5**: el registro distribuido. Se estudia como una

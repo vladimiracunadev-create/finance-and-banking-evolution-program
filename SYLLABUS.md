@@ -3,7 +3,7 @@
 Índice generado por `tools/build_syllabus.py` desde el encabezado de cada
 clase. Describe el contenido real del repositorio, no un plan.
 
-**19 partes · 284 clases · 426 horas ·
+**20 partes · 300 clases · 450 horas ·
 90 minutos por clase**
 
 ## Estructura por etapas
@@ -29,7 +29,8 @@ clase. Describe el contenido real del repositorio, no un plan.
 | 17 | [Finanzas abiertas, APIs y economía de datos](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 18 | [Pagos transfronterizos, remesas y liquidación internacional](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **284** | **426** | |
+| 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| | **Total** | **300** | **450** | |
 
 ## Índice de clases
 
@@ -454,13 +455,36 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 13 | [Gobernanza, bifurcaciones y recuperación](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md) | profesional |
 | 14 | [Proyecto: red financiera autorizada](modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/14-proyecto-red-financiera-autorizada.md) | profesional |
 
+### Parte 20 — Activos digitales, stablecoins y dinero programable
+
+[Índice de la parte](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) · [Laboratorios](modules/19-activos-digitales-stablecoins-y-dinero-programable/labs) · [Evaluaciones](modules/19-activos-digitales-stablecoins-y-dinero-programable/assessments) · [Proyecto](modules/19-activos-digitales-stablecoins-y-dinero-programable/project/README.md)
+
+| # | Clase | Nivel |
+|---:|---|---|
+| 01 | [Taxonomía de los activos digitales](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/01-taxonomia-de-los-activos-digitales.md) | profesional |
+| 02 | [Criptoactivos no respaldados](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/02-criptoactivos-no-respaldados.md) | profesional |
+| 03 | [Stablecoins: tipologías y mecánica de la paridad](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/03-stablecoins-tipologias-y-mecanica-de-la-paridad.md) | profesional |
+| 04 | [Reservas: composición, calidad y verificación](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/04-reservas-composicion-calidad-y-verificacion.md) | profesional |
+| 05 | [Redención: el derecho, el proceso y la cola](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/05-redencion-el-derecho-el-proceso-y-la-cola.md) | profesional |
+| 06 | [Pérdida de paridad: anatomía de una corrida](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/06-perdida-de-paridad-anatomia-de-una-corrida.md) | profesional |
+| 07 | [Stablecoins algorítmicas y su modo de fallo](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/07-stablecoins-algoritmicas-y-su-modo-de-fallo.md) | profesional |
+| 08 | [Depósitos tokenizados y dinero de banco comercial](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/08-depositos-tokenizados-y-dinero-de-banco-comercial.md) | profesional |
+| 09 | [Dinero electrónico: el régimen que ya existía](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/09-dinero-electronico-el-regimen-que-ya-existia.md) | profesional |
+| 10 | [Monedas digitales de banco central](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/10-monedas-digitales-de-banco-central.md) | profesional |
+| 11 | [Dinero programable y sus límites](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/11-dinero-programable-y-sus-limites.md) | profesional |
+| 12 | [Custodia de activos digitales](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md) | profesional |
+| 13 | [Mercado, liquidez y formación de precio](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/13-mercado-liquidez-y-formacion-de-precio.md) | profesional |
+| 14 | [Contagio y riesgo sistémico](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/14-contagio-y-riesgo-sistemico.md) | profesional |
+| 15 | [Contabilidad, tributación y balance](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md) | profesional |
+| 16 | [Proyecto: evaluación de un activo digital](modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/16-proyecto-evaluacion-de-un-activo-digital.md) | profesional |
+
 ## Criterio de aprobación sugerido
 
 - Recorrer las clases en orden: cada una supone la anterior.
 - 70 % de logro en las evaluaciones diagnóstica y final de cada parte.
-- Entrega de los 19 proyectos integradores.
+- Entrega de los 20 proyectos integradores.
 - Portafolio con el entregable de cada clase.
-- Defensa del proyecto final «Blockchain y DLT para instituciones financieras» (Parte 19, clase 14).
+- Defensa del proyecto final «Activos digitales, stablecoins y dinero programable» (Parte 20, clase 16).
 
 ## Resultados finales
 

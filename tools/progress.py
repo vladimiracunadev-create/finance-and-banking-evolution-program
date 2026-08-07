@@ -53,9 +53,6 @@ PLANNED = {
 # la parte se crea, su README.md pasa a ser la fuente del titulo y esta entrada
 # deja de usarse: no hay dos sitios donde mantener el mismo dato.
 PLANNED_TITLES = {
-    "19-activos-digitales-stablecoins-y-dinero-programable": (
-        "Parte 20: Activos digitales, stablecoins y dinero programable"
-    ),
     "20-tokenizacion-fx-onchain-y-mercados-programables": (
         "Parte 21: Tokenización, FX on-chain y mercados programables"
     ),

@@ -4,7 +4,7 @@ Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
 etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro.
 
-> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17, 18 y 19.
+> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 20.
 
 ## Finanzas abiertas
 
@@ -511,6 +511,266 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Revertir una vez destruye la propiedad que justificaba el sistema.
 - **Primera clase.** 19.13.
 
+## Activos digitales y dinero
+
+### Activo digital
+
+- **Definición.** Cualquier representación digital de valor o de un derecho.
+- **Qué NO significa.** No es sinónimo de criptoactivo: un apunte en la base de
+  datos de un banco también lo es. Y **no dice nada sobre la promesa**, que es lo
+  único que clasifica.
+- **Ejemplo.** Un depósito, una milla de fidelización y un criptoactivo son los
+  tres activos digitales.
+- **Riesgo.** Agrupar por el soporte instrumentos con regímenes opuestos.
+- **Primera clase.** 20.1 · **Otras.** 20.8, 20.15.
+
+### Token
+
+- **Definición.** Unidad de anotación en un registro.
+- **Qué NO significa.** **No es un tipo de activo.** Es un contenedor, igual que
+  «fila de una tabla» no es un tipo de contrato.
+- **Ejemplo.** Un depósito tokenizado y un criptoactivo no respaldado son ambos
+  tokens y no se parecen en nada.
+- **Riesgo.** La palabra sugiere parentesco entre instrumentos que no lo tienen.
+- **Primera clase.** 20.1 · **Otras.** 20.8.
+
+### Paridad de derecho
+
+- **Definición.** Obligación contractual del emisor de entregar el importe
+  nominal por unidad.
+- **Qué NO significa.** No es el precio observado. Puede haber paridad de derecho
+  con el mercado cotizando a 0,97, y ambas cosas ser ciertas a la vez.
+- **Ejemplo.** El emisor redime a 1,00 a los grandes mientras el minorista solo
+  puede vender a 0,994.
+- **Riesgo.** Suponer un derecho que el umbral de redención no concede.
+- **Primera clase.** 20.3 · **Otras.** 20.5, 20.9.
+
+### Banda de no arbitraje
+
+- **Definición.** Rango de precio dentro del cual corregir el desvío no compensa.
+- **Qué NO significa.** No es un margen de tolerancia elegido: la fija el diseño
+  del emisor mediante su comisión, su plazo y su mínimo.
+- **Ejemplo.** Con 12,9 puntos básicos de coste, la banda es 0,99871 – 1,00129.
+- **Riesgo.** Sin calcularla, se confunde ruido con crisis, y al revés.
+- **Primera clase.** 20.3 · **Otras.** 20.6.
+
+### Participante autorizado
+
+- **Definición.** Quien puede emitir y redimir directamente contra el emisor.
+- **Qué NO significa.** No es un detalle operativo: **su número es un dato de
+  riesgo tan importante como la composición de las reservas**, porque si se
+  retiran, el arbitraje se detiene aunque las reservas estén intactas.
+- **Ejemplo.** Siete participantes, de los que dos hacen el 61 % del volumen.
+- **Riesgo.** Dos puntos únicos de fallo en el mecanismo que sostiene el precio.
+- **Primera clase.** 20.3 · **Otras.** 20.6, 20.16.
+
+### Cobertura líquida
+
+- **Definición.** Parte de la reserva convertible en efectivo en un plazo dado.
+- **Qué NO significa.** No es la cobertura contable. La primera puede ser del
+  102 % y la segunda del 73 % sin que nadie haya mentido.
+- **Ejemplo.** Tras una redención del 35 %, la contable sube al 103,5 % y la
+  líquida cae al 78,9 %.
+- **Riesgo.** La cifra publicada se mueve en dirección contraria al riesgo real.
+- **Primera clase.** 20.4 · **Otras.** 20.6, 20.16.
+
+### Atestación
+
+- **Definición.** Informe de un profesional sobre una afirmación de la dirección,
+  **en una fecha concreta**.
+- **Qué NO significa.** No es una auditoría de estados financieros. No dice nada
+  del día anterior ni del siguiente, y puede excluir la valoración o la
+  titularidad.
+- **Ejemplo.** «A 30 de junio, los saldos declarados coinciden con los extractos.»
+- **Riesgo.** Aceptar «auditado» como sinónimo y no preguntar el alcance.
+- **Primera clase.** 20.4.
+
+### Comisión antidilución
+
+- **Definición.** Cargo que traslada a quien redime el coste real de realizar los
+  activos.
+- **Qué NO significa.** No es una penalización por salir: sin ella, ese coste lo
+  pagan **los que se quedan**, y ese traslado es el premio por salir primero.
+- **Ejemplo.** Realizar 900 millones cuesta 10 millones: un 1,112 % sobre lo
+  pagado.
+- **Riesgo.** Externalizar el coste crea el incentivo a correr.
+- **Primera clase.** 20.5.
+
+### Prorrateo
+
+- **Definición.** Reparto de la liquidez disponible en la misma fracción para
+  todos los solicitantes de una ventana.
+- **Qué NO significa.** No es una restricción a la salida: es lo que hace que ser
+  el primero **no valga nada**, y por tanto que solicite quien necesita el dinero.
+- **Ejemplo.** 900 millones para 1 800 millones solicitados: todos cobran el 50 %.
+- **Riesgo.** Sin tramo mínimo íntegro, deja sin efectivo a quien lo necesita de
+  verdad.
+- **Primera clase.** 20.5.
+
+### Punto de no retorno
+
+- **Definición.** Redención acumulada a partir de la cual la venta forzada
+  consume el margen de sobrecolateralización.
+- **Qué NO significa.** No se calcula con un descuento constante: con escalera
+  creciente aparece, y sin ella parece no existir.
+- **Ejemplo.** Con un margen del 1,45 %, se alcanza al redimir el 77 % del
+  circulante.
+- **Riesgo.** Vigilar la cobertura en vez de la redención acumulada.
+- **Primera clase.** 20.6 · **Otras.** 20.4, 20.16.
+
+### Respaldo endógeno
+
+- **Definición.** Colateral formado por un activo del propio sistema.
+- **Qué NO significa.** No es sobrecolateralización. La diferencia es si el
+  colateral pierde valor exactamente cuando hace falta: si lo hace, no absorbe,
+  **amplifica**.
+- **Ejemplo.** Un token estable respaldado por el token de gobernanza del mismo
+  protocolo.
+- **Riesgo.** Toda la cobertura vale cero en el único escenario en que importa.
+- **Primera clase.** 20.7 · **Otras.** 20.1.
+
+### Rendimiento por dilución
+
+- **Definición.** Pago financiado emitiendo unidades nuevas en lugar de con
+  ingresos.
+- **Qué NO significa.** No es un rendimiento: es una transferencia de los que
+  entran después a los que entraron antes.
+- **Ejemplo.** Se pagan 240 millones con 42 millones de ingresos reales: el
+  82,5 % es dilución.
+- **Riesgo.** Atrae depósitos, y con ellos crece el tamaño del día de la salida.
+- **Primera clase.** 20.7.
+
+### Depósito tokenizado
+
+- **Definición.** Un depósito bancario anotado en un registro programable.
+- **Qué NO significa.** **No es una moneda del banco ni una stablecoin
+  bancaria.** Conserva el obligado, la garantía de depósitos, el encaje y el
+  capital: el registro cambia cómo se transfiere, no qué es.
+- **Ejemplo.** Un pago que se liquida el domingo y se salda en el banco central
+  al abrir.
+- **Riesgo.** Operar 24/7 genera crédito intradía entre bancos que hay que
+  limitar.
+- **Primera clase.** 20.8 · **Otras.** 20.10, 20.11.
+
+### Singularidad del dinero
+
+- **Definición.** Que una unidad valga lo mismo con independencia del banco que
+  la debe.
+- **Qué NO significa.** No es automática: la sostienen la conversión a la par, la
+  liquidación interbancaria en dinero de banco central y la supervisión común.
+- **Ejemplo.** Nadie cotiza «pesos del banco A» frente a «pesos del banco B».
+- **Riesgo.** Si cada banco emitiera un token negociable, aparecería un descuento
+  por banco: un sistema monetario peor, no más moderno.
+- **Primera clase.** 20.8 · **Otras.** 20.10.
+
+### Dinero electrónico
+
+- **Definición.** Valor almacenado, emitido contra la recepción de fondos y
+  aceptado como pago por terceros.
+- **Qué NO significa.** No es una stablecoin ni un depósito. Su régimen **prohíbe
+  remunerar el saldo** y exige redención a la par y salvaguarda de fondos.
+- **Ejemplo.** El saldo de una entidad autorizada de dinero electrónico.
+- **Riesgo.** Un producto que cumple los tres elementos lo es aunque se llame
+  token, y descubrirlo tarde es caro.
+- **Primera clase.** 20.9 · **Otras.** 20.1.
+
+### Salvaguarda de fondos
+
+- **Definición.** Segregación de los fondos recibidos en cuenta separada o
+  cobertura equivalente.
+- **Qué NO significa.** No basta con abrir una cuenta aparte: sin **renuncia
+  expresa del banco depositario a compensar** con deudas del emisor, la
+  salvaguarda se evapora.
+- **Ejemplo.** Cuenta a nombre de «Fintech S.A. — cuenta de clientes», con
+  conciliación diaria.
+- **Riesgo.** El punto que suele fallar es la renuncia a compensar.
+- **Primera clase.** 20.9.
+
+### CBDC
+
+- **Definición.** Pasivo del banco central en forma digital.
+- **Qué NO significa.** No es una criptomoneda —hay emisor y es soberano—, ni una
+  stablecoin —no hay reserva: **es** la reserva—, ni un depósito.
+- **Ejemplo.** Un saldo minorista con límite de tenencia, distribuido por
+  intermediarios en un modelo de dos niveles.
+- **Riesgo.** Un límite de tenencia retrasa una corrida; no la evita.
+- **Primera clase.** 20.10 · **Otras.** 20.8.
+
+### Dinero programable
+
+- **Definición.** Restricción adherida a la unidad monetaria, que viaja con ella.
+- **Qué NO significa.** **No es un pago programable.** La prueba: cuando el
+  dinero llega al destinatario, ¿sigue llevando la restricción? Si sí, es dinero
+  programable y rompe la fungibilidad.
+- **Ejemplo.** Un saldo que solo puede gastarse en comercios de una lista.
+- **Riesgo.** Aparece un descuento, un mercado gris y una pérdida que soporta el
+  beneficiario peor situado.
+- **Primera clase.** 20.11.
+
+### Fungibilidad
+
+- **Definición.** Que una unidad sea intercambiable por otra sin distinción.
+- **Qué NO significa.** No es una propiedad técnica del registro: la destruyen las
+  restricciones adheridas a la unidad, aunque el registro las trate igual.
+- **Ejemplo.** 180 000 con restricción de destino se cambian por 144 000 libres.
+- **Riesgo.** El descuento es el síntoma; para cuando se ve, el daño ya ocurrió.
+- **Primera clase.** 20.11.
+
+### Independencia efectiva
+
+- **Definición.** Número de guardianes que un solo evento no puede dejar
+  inoperativos a la vez.
+- **Qué NO significa.** No es el número de guardianes. Cinco con el mismo
+  proveedor son uno, y un «3 de 5» puede tener independencia efectiva 1.
+- **Ejemplo.** Tres directivos en la misma oficina alcanzan por sí solos un
+  umbral de 3.
+- **Riesgo.** La probabilidad de bloqueo supone independencia; sin ella, la cifra
+  es falsa.
+- **Primera clase.** 20.12 · **Otras.** 19.5.
+
+### Segregación jurídica
+
+- **Definición.** Que el activo custodiado no forme parte del patrimonio del
+  custodio.
+- **Qué NO significa.** No es la segregación operativa. Un custodio puede llevar
+  direcciones separadas por cliente y, aun así, si el contrato dice que el activo
+  es suyo, el cliente es acreedor ordinario en el concurso.
+- **Ejemplo.** Cláusulas de propiedad, no pignoración y verificación
+  independiente del saldo total.
+- **Riesgo.** Ningún esquema criptográfico protege de la quiebra del custodio.
+- **Primera clase.** 20.12 · **Otras.** 20.15.
+
+### Profundidad
+
+- **Definición.** Importe absorbible sin que el precio se mueva más de un umbral
+  dado.
+- **Qué NO significa.** **No es el volumen.** El volumen se publica y puede
+  inflarse sin coste; la profundidad hay que medirla sobre el libro.
+- **Ejemplo.** Volumen diario de 184 millones y profundidad al 1 % de 2,08
+  millones.
+- **Riesgo.** Calibrar el límite de posición con el dato equivocado.
+- **Primera clase.** 20.13.
+
+### Exposición indirecta
+
+- **Definición.** Riesgo por un instrumento a través de contrapartes expuestas a
+  él.
+- **Qué NO significa.** No es una estimación fina: el traslado lineal de pérdidas
+  sirve para **ordenar** contrapartes, no para predecir importes.
+- **Ejemplo.** Exposición directa cero y 38 millones de crédito en riesgo.
+- **Riesgo.** Reportar «cero» es cierto y completamente inútil.
+- **Primera clase.** 20.14.
+
+### Dependencia común
+
+- **Definición.** Proveedor o infraestructura compartida por varias entidades.
+- **Qué NO significa.** No es una contraparte financiera y no aparece en ningún
+  balance. Un fallo suyo puede producir el mismo efecto que una caída del 60 %
+  del activo, sin que el activo se mueva.
+- **Ejemplo.** Tres contrapartes que usan el mismo proveedor de precios.
+- **Riesgo.** Es el canal de contagio menos visible y el que más sorprende.
+- **Primera clase.** 20.14 · **Otras.** 17.2.
+
 ## Datos y privacidad
 
 ### Base de licitud
@@ -585,4 +845,5 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 
 **Ver también:** [Glosario general](glosario.md) ·
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
-[Mapa de finanzas abiertas](mapa-finanzas-abiertas.md)
+[Mapa de finanzas abiertas](mapa-finanzas-abiertas.md) ·
+[Mapa de activos digitales](mapa-activos-digitales.md)

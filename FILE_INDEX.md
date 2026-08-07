@@ -3,7 +3,7 @@
 Generado por `tools/build_file_index.py` desde los archivos reales del
 repositorio. No se edita a mano.
 
-**637 archivos de texto versionados.**
+**689 archivos de texto versionados.**
 
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/content-gap.md`
@@ -52,6 +52,17 @@ repositorio. No se edita a mano.
 - `apps/cross_border_payments_lab/screening/__init__.py`
 - `apps/cross_border_payments_lab/settlement/__init__.py`
 - `apps/cross_border_payments_lab/stablecoin_route/__init__.py`
+- `apps/digital_assets_risk_lab/README.md`
+- `apps/digital_assets_risk_lab/__init__.py`
+- `apps/digital_assets_risk_lab/algorithmic.py`
+- `apps/digital_assets_risk_lab/classification.py`
+- `apps/digital_assets_risk_lab/cli.py`
+- `apps/digital_assets_risk_lab/contagion.py`
+- `apps/digital_assets_risk_lab/custody.py`
+- `apps/digital_assets_risk_lab/depeg.py`
+- `apps/digital_assets_risk_lab/market.py`
+- `apps/digital_assets_risk_lab/redemption.py`
+- `apps/digital_assets_risk_lab/reserves.py`
 - `apps/dlt_financial_lab/README.md`
 - `apps/dlt_financial_lab/__init__.py`
 - `apps/dlt_financial_lab/chain.py`
@@ -109,6 +120,7 @@ repositorio. No se edita a mano.
 - `docs/glosario.md`
 - `docs/guia-docente.md`
 - `docs/guia-laboratorios-digitales.md`
+- `docs/mapa-activos-digitales.md`
 - `docs/mapa-blockchain-dlt.md`
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
@@ -613,17 +625,57 @@ repositorio. No se edita a mano.
 - `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-04.md`
 - `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-05.md`
 - `modules/18-blockchain-y-dlt-para-instituciones-financieras/solutions/lab-06.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/assessments/diagnostic.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/assessments/final.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/01-taxonomia-de-los-activos-digitales.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/02-criptoactivos-no-respaldados.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/03-stablecoins-tipologias-y-mecanica-de-la-paridad.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/04-reservas-composicion-calidad-y-verificacion.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/05-redencion-el-derecho-el-proceso-y-la-cola.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/06-perdida-de-paridad-anatomia-de-una-corrida.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/07-stablecoins-algoritmicas-y-su-modo-de-fallo.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/08-depositos-tokenizados-y-dinero-de-banco-comercial.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/09-dinero-electronico-el-regimen-que-ya-existia.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/10-monedas-digitales-de-banco-central.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/11-dinero-programable-y-sus-limites.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/13-mercado-liquidez-y-formacion-de-precio.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/14-contagio-y-riesgo-sistemico.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/16-proyecto-evaluacion-de-un-activo-digital.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-01.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-02.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-03.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-04.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-05.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-06.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-07.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-08.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/project/README.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-01.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-02.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-03.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-04.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-05.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-06.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-07.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-08.md`
 - `portfolio/README.md`
 - `projects/README.md`
 - `pyproject.toml`
 - `regulatory/README.md`
 - `regulatory/chile/ley-21521.yml`
+- `regulatory/internacional/bcbs-sco60-criptoactivos.yml`
 - `regulatory/internacional/fsb-hoja-de-ruta-g20.yml`
+- `regulatory/internacional/fsb-stablecoins-globales.yml`
 - `regulatory/internacional/gafi-recomendacion-16.yml`
+- `regulatory/union-europea/mica-reglamento-2023-1114.yml`
 - `requirements-site.txt`
 - `requirements.txt`
 - `tests/test_calculators.py`
 - `tests/test_cross_border_payments_lab.py`
+- `tests/test_digital_assets_risk_lab.py`
 - `tests/test_dlt_financial_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`
