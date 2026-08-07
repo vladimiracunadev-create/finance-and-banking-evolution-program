@@ -432,6 +432,8 @@ Los riesgos son de amplificación y de contagio. La tabla los recoge con su cont
 
 ## 🧪 Práctica
 
+El laboratorio pide reconstruir un episodio de pérdida de paridad separando detonante, mecanismo y amplificador. Identificar el punto de no retorno es el objetivo, porque es el único momento en que la intervención habría servido.
+
 En [`labs/lab-04.md`](../labs/lab-04.md):
 
 1. Reconstruye un episodio separando detonante, mecanismo y amplificadores.

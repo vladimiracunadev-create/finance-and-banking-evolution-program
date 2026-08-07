@@ -428,6 +428,8 @@ Los riesgos son de salvaguarda y de perímetro. La tabla los recoge con su contr
 
 ## 🧪 Práctica
 
+El laboratorio pide aplicar el criterio de sustancia a varios instrumentos y determinar cuáles caen bajo el régimen de dinero electrónico. Dos de ellos lo activan sin haberlo previsto, y esa es la lección.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Califica tres productos aplicando los tres elementos.
