@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las categorías que se usan como sinónimos y no lo son; los cinco siguientes, el criterio que las separa. El **obligado** es la pregunta que ordena la parte entera: quién debe algo al tenedor. Si no hay nadie, el instrumento no puede incumplir y tampoco puede prometer nada.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `activo digital` | Categoría amplia: cualquier representación digital de valor o derecho |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `sustancia sobre forma` | La clasificación sigue el derecho, no la etiqueta |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una sola pregunta aplicada a cualquier activo digital: ¿hay una promesa y hay alguien obligado a cumplirla? De la respuesta salen la taxonomía, el régimen aplicable y el tipo de riesgo, y por eso se hace antes que cualquier análisis técnico.
 
 ```text
 LAS CINCO PREGUNTAS DE LA FICHA
@@ -206,6 +210,8 @@ EN INSTRUMENTOS QUE PERDIERON SU VALOR
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica varios instrumentos por su promesa y su obligado. Conviene resistir la clasificación por nombre comercial: dos instrumentos con el mismo nombre pueden tener obligados distintos.
 
 **Situación.** Una tesorería recibe cuatro propuestas para mantener saldos
 operativos. Las cuatro se presentan como «dólares digitales». Hay que
@@ -348,6 +354,8 @@ trabajo, y ninguna de las cinco es técnica.**
 
 ## 🧭 Perspectivas
 
+El mismo activo digital significa cosas distintas para cada participante del sistema financiero. La tabla las recoge, y conviene volver a ella en la clase 16.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Cuatro cosas llamadas igual | En cuál deja su dinero |
@@ -365,6 +373,8 @@ trabajo, y ninguna de las cinco es técnica.**
 
 ## 🏦 Del cliente al banco
 
+El cliente compra algo que llama moneda y el banco determina qué es y quién responde. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es un dólar digital» | Cuatro instrumentos con regímenes distintos | 20, clase 1 |
@@ -372,6 +382,8 @@ trabajo, y ninguna de las cinco es técnica.**
 | «Está en blockchain, es lo mismo» | La red no determina el régimen | 20, clase 1 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos dependen por completo de la categoría, y por eso la clasificación es el primer control. La tabla los recoge.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -384,6 +396,8 @@ trabajo, y ninguna de las cinco es técnica.**
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar instrumentos por promesa y obligado. Los que no tienen obligado son los que exigen un análisis de riesgo distinto.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Aplica la ficha de cinco preguntas a cuatro instrumentos reales.
@@ -392,6 +406,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 4. Escribe la consecuencia práctica de cada clasificación.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber clasificado por nombre en vez de por sustancia.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la estructura de un episodio; los cinco siguientes, sus fases y su punto crítico. El **punto de no retorno** es el que hay que saber identificar: a partir de él la corrida se alimenta sola y ninguna intervención del emisor la detiene.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `detonante` | El hecho concreto que inicia el episodio |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `punto de no retorno` | Nivel a partir del cual el mecanismo se sostiene solo |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una espiral con tres fases: un detonante que hace dudar, un mecanismo que convierte la duda en redenciones y un amplificador que convierte las redenciones en ventas forzadas que confirman la duda. Cortar la espiral exige intervenir antes de la tercera fase.
 
 ```text
 LAS CINCO FASES DE UNA PÉRDIDA DE PARIDAD
@@ -215,6 +219,8 @@ REGLA DE ANÁLISIS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo reconstruye una pérdida de paridad fase a fase. Conviene identificar el punto donde la recuperación aparente engañó: casi todos los episodios tienen uno.
 
 **Situación.** Reconstruimos un episodio con datos sintéticos construidos para
 reproducir el mecanismo. Hay que hallar el punto de no retorno.
@@ -385,6 +391,8 @@ institución tiene que estimar por su cuenta.
 
 ## 🧭 Perspectivas
 
+Una corrida afecta a cada participante de forma distinta y en momentos distintos. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un precio que se aleja de 1 | Si vende |
@@ -401,6 +409,8 @@ institución tiene que estimar por su cuenta.
 
 ## 🏦 Del cliente al banco
 
+El cliente intenta salir y el emisor vende reservas con descuento. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Cayó por una noticia» | La noticia fue el detonante, no la causa | 20, clase 6 |
@@ -408,6 +418,8 @@ institución tiene que estimar por su cuenta.
 | «Este no tenía nada que ver» | Comparten depositario o plataforma | 20, clase 6 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de amplificación y de contagio. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -428,6 +440,8 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 4. Escribe la separación de hecho, supuesto e interpretación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen episodios de pérdida de paridad. La causa estructural es el descalce entre la reserva y la promesa.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

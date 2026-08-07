@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los esquemas de custodia; los cuatro siguientes, sus protecciones jurídicas y operativas. La **segregación jurídica** es la que decide en un concurso: sin una cláusula que declare que el activo es del cliente y que el custodio no puede disponer de él, el cliente es un acreedor ordinario.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `autocustodia` | El titular controla la clave |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `ventana de espera` | Retardo obligatorio entre orden y ejecución |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la criptografía protege del robo y no de la quiebra. Un esquema técnicamente impecable con un contrato de custodia deficiente deja al cliente sin nada si el custodio entra en concurso.
 
 ```text
 LA DIFERENCIA CON LA CUSTODIA TRADICIONAL
@@ -214,6 +218,8 @@ a una dirección nueva en el momento
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide la independencia efectiva de un esquema y revisa las cláusulas del contrato. El hallazgo mayor suele estar en el contrato.
 
 **Situación.** Un custodio institucional diseña su esquema. Hay que elegir el
 umbral y medir si resiste los escenarios que importan.
@@ -406,6 +412,8 @@ sustituye a las tres cláusulas del contrato.
 
 ## 🧭 Perspectivas
 
+La custodia afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un saldo en una aplicación | En quién confía |
@@ -420,6 +428,8 @@ sustituye a las tres cláusulas del contrato.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree que el activo es suyo y eso depende de una cláusula. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mis fondos están seguros» | Depende del contrato, no solo de la clave | 20, clase 12 |
@@ -427,6 +437,8 @@ sustituye a las tres cláusulas del contrato.
 | «El custodio quebró pero mis activos están» | Solo con segregación jurídica | 20, clase 12 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de concentración de claves y de segregación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -439,6 +451,8 @@ sustituye a las tres cláusulas del contrato.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la independencia efectiva y verificar las tres cláusulas. La cuantificación de la exposición sin la cláusula de no disposición es lo que decide.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Calcula la independencia efectiva de un esquema dado.
@@ -447,6 +461,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Ejecuta el escenario de sesión comprometida y mide el tiempo ganado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas de activos custodiados. Las causas son independencia efectiva de uno y segregación no pactada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

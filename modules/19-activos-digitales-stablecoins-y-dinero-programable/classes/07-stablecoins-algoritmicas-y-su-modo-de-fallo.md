@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el mecanismo endógeno y su dilución; los cuatro siguientes, su punto de agotamiento. El **respaldo endógeno** es lo que define el modo de fallo: la garantía es un activo emitido por el propio sistema, y cuando hace falta usarla su valor ya se ha desplomado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `respaldo endógeno` | El colateral es un activo del propio sistema |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `reflexividad` | El precio sostiene la demanda que sostiene el precio |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un mecanismo que funciona mientras nadie lo necesita: la absorción de una caída se hace emitiendo un activo cuyo precio depende de la confianza en el mismo sistema. En el momento en que se activa, deja de valer.
 
 ```text
 EL DISEÑO DE DOS TOKENS
@@ -210,6 +214,8 @@ REGLA DE ANÁLISIS
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el punto de agotamiento de un mecanismo endógeno. Conviene ver la velocidad de la dilución: en los episodios reales se mide en horas.
 
 **Situación.** Un diseño de dos tokens con datos sintéticos. Hay que calcular
 cuánto aguanta y en qué punto la espiral se vuelve irreversible.
@@ -381,6 +387,8 @@ de una foto de su estado.
 
 ## 🧭 Perspectivas
 
+El diseño algorítmico afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un 12 % de rendimiento | Si deposita |
@@ -395,6 +403,8 @@ de una foto de su estado.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en un algoritmo y el sistema no tiene reserva externa. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Paga 12 %, es mejor que el depósito» | El 82,5 % de ese pago es dilución | 20, clase 7 |
@@ -402,6 +412,8 @@ de una foto de su estado.
 | «El ratio de cobertura mejoró» | Subió mientras el sistema se hundía | 20, clase 7 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de reflexividad y de agotamiento. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -414,6 +426,8 @@ de una foto de su estado.
 
 ## 🧪 Práctica
 
+El laboratorio pide simular la dilución de un mecanismo endógeno ante una caída. El punto de agotamiento llega antes de lo que sugiere la intuición.
+
 En [`labs/lab-05.md`](../labs/lab-05.md):
 
 1. Implementa el mecanismo de acuñación y quema con impacto de mercado.
@@ -422,6 +436,8 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 4. Calcula la salida máxima que el diseño soporta en un día.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen fallos de mecanismos endógenos. La causa es siempre la misma y es estructural.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

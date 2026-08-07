@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las dos coberturas y sus descalces; los cuatro siguientes, la protección jurídica y su verificación. La distinción entre **cobertura contable y líquida** es la clave: tener activos por el cien por cien no significa poder redimir hoy, y esa diferencia es la que produce las corridas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `cobertura contable` | Valor de la reserva dividido por el circulante |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `concentración` | Peso del mayor emisor o de la mayor contraparte |
 
 ## 🧠 Modelo mental
+
+El modelo mental son dos preguntas distintas sobre la misma reserva: si vale lo suficiente y si se puede convertir a tiempo. Una reserva de bonos a diez años cubre la primera y falla la segunda.
 
 ```text
 UNA RESERVA TIENE TRES CIFRAS, Y SOLO SE PUBLICA LA PRIMERA
@@ -196,6 +200,8 @@ LA PREGUNTA QUE SOLO IMPORTA EN LA QUIEBRA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la cobertura líquida de una reserva con descuento por venta forzada. La diferencia con la cobertura contable es la exposición real.
 
 **Situación.** Un emisor publica una cobertura del 102,3 %. Hay que calcular qué
 queda tras una redención del 35 % en 24 horas.
@@ -339,6 +345,8 @@ tiene que incluir composición y plazo, no solo el porcentaje.
 
 ## 🧭 Perspectivas
 
+La composición de la reserva afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «102 %, está sobrecubierto» | Si confía |
@@ -353,6 +361,8 @@ tiene que incluir composición y plazo, no solo el porcentaje.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en un respaldo y el banco mira su liquidez y su segregación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Está auditado» | Puede ser una atestación a una fecha | 20, clase 4 |
@@ -360,6 +370,8 @@ tiene que incluir composición y plazo, no solo el porcentaje.
 | «La cobertura subió» | La composición empeoró | 20, clase 4 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de descalce y de segregación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -372,6 +384,8 @@ tiene que incluir composición y plazo, no solo el porcentaje.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular las dos coberturas de una reserva. La brecha entre ambas es el resultado que importa.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Descompón una cartera y calcula cobertura contable y líquida.
@@ -380,6 +394,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 4. Redacta las cinco preguntas al informe de atestación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen reservas insuficientes en el momento de la redención. Las causas son descalce de plazo y atestación confundida con auditoría.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

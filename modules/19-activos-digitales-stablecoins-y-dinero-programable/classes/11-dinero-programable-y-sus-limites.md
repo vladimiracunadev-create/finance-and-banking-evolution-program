@@ -64,6 +64,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos separan programar el pago de programar el dinero; los cuatro siguientes, sus consecuencias jurídicas. La **fungibilidad** es lo que se pierde al programar el dinero: si una unidad tiene condiciones y otra no, dejan de ser intercambiables, y eso rompe una propiedad básica del dinero.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `pago programable` | Condición que se evalúa al ejecutar una operación |
@@ -76,6 +78,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `uso restringido` | Limitación del destino del importe |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una distinción con consecuencias: programar la condición de un pago es inocuo y programar la unidad monetaria no lo es. La primera afecta a una operación y la segunda afecta a todo lo que se haga después con esa unidad.
 
 ```text
 LA PRUEBA QUE LOS SEPARA
@@ -224,6 +228,8 @@ REGLA DE DISEÑO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara un pago programable y una unidad programada sobre el mismo caso. Solo el segundo produce pérdida de fungibilidad.
 
 **Situación.** Una administración quiere entregar una ayuda de emergencia a
 120 000 hogares y propone restringir su uso. Hay que evaluar el diseño.
@@ -383,6 +389,8 @@ monetaria, donde no los hay.**
 
 ## 🧭 Perspectivas
 
+El dinero programable afecta a cada participante de forma distinta, y a algunos les restringe derechos. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Dinero que no puede usar donde necesita | Si lo vende con descuento |
@@ -398,6 +406,8 @@ monetaria, donde no los hay.**
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe dinero con condiciones y esas condiciones limitan lo que puede hacer. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Tengo 180 000 que no puedo usar» | La restricción viaja con la unidad | 20, clase 11 |
@@ -405,6 +415,8 @@ monetaria, donde no los hay.**
 | «Se me venció el saldo» | Caducidad: una quita encubierta | 20, clase 11 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de fungibilidad y de vías de excepción ausentes. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -417,6 +429,8 @@ monetaria, donde no los hay.**
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar casos entre pago programable y dinero programado. La pérdida de fungibilidad es el criterio.
+
 En [`labs/lab-06.md`](../labs/lab-06.md):
 
 1. Clasifica cinco condiciones como pago o dinero programable.
@@ -425,6 +439,8 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 4. Redacta la vía de excepción con sus cuatro elementos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen usos problemáticos de la programabilidad. La causa es haber programado la unidad y no el pago.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

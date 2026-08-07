@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el derecho y su mecánica de reparto; los cinco siguientes, los mecanismos de contención. El **orden de llegada** es el diseño que produce la corrida: si quien redime primero cobra entero, todos tienen incentivo a ser el primero, y ese incentivo es el que hay que eliminar.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `redención` | Entrega del instrumento a cambio del importe prometido |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `suspensión` | Cierre del canal de redención |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cola con dos reglas posibles: por orden de llegada, que premia correr, o a prorrata, que no. La segunda es más justa y más difícil de operar, y la elección de una u otra determina si el emisor sobrevive a un episodio de tensión.
 
 ```text
 LAS SIETE ETAPAS DE UNA REDENCIÓN
@@ -208,6 +212,8 @@ DISEÑOS QUE SÍ LE SIRVEN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara el resultado de una cola por orden de llegada y una a prorrata sobre la misma reserva insuficiente. El reparto cambia por completo y el incentivo a correr desaparece.
 
 **Situación.** Un emisor con 5 000 000 000 en circulación recibe en un día
 solicitudes por 1 800 000 000. Su efectivo disponible ese día es 900 000 000.
@@ -363,6 +369,8 @@ sin dejar desprotegido al pequeño.
 
 ## 🧭 Perspectivas
 
+La redención afecta a cada participante de forma distinta según su posición en la cola. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una cola que no ve | Si solicita ya |
@@ -378,6 +386,8 @@ sin dejar desprotegido al pequeño.
 
 ## 🏦 Del cliente al banco
 
+El cliente espera redimir a la par y el emisor tiene una cola con reglas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Pedí redimir y no llega» | Está en cola tras la inmovilización | 20, clase 5 |
@@ -385,6 +395,8 @@ sin dejar desprotegido al pequeño.
 | «Todos pidieron a la vez» | El diseño de la cola lo provocó | 20, clase 5 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de incentivo a correr y de mecanismos de contención mal diseñados. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -397,6 +409,8 @@ sin dejar desprotegido al pequeño.
 
 ## 🧪 Práctica
 
+El laboratorio pide simular las dos reglas de cola sobre la misma reserva. El resultado por tenedor es lo que decide cuál es defendible.
+
 En [`labs/lab-03.md`](../labs/lab-03.md):
 
 1. Simula la cola con orden de llegada y con prorrateo.
@@ -405,6 +419,8 @@ En [`labs/lab-03.md`](../labs/lab-03.md):
 4. Redacta la cláusula de suspensión con sus cuatro elementos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen redenciones que degeneran en corrida. La causa es el orden de llegada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

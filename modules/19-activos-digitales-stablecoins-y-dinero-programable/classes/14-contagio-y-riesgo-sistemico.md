@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las vías de exposición; los cuatro siguientes, los mecanismos de propagación. La **exposición indirecta** es la que no aparece en ningún balance: un banco sin criptoactivos puede tener clientes cuya solvencia depende de ellos, y eso es exposición.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `exposición directa` | Posición propia en el instrumento |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `cascada` | Secuencia de caídas encadenadas |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un mapa de dependencias comunes: lo que propaga una crisis no son las exposiciones directas, que son pequeñas, sino los nodos que varios participantes comparten sin saberlo.
 
 ```text
 CINCO CANALES, Y SOLO EL PRIMERO
@@ -224,6 +228,8 @@ son cifras sin significado.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide la exposición directa e indirecta de un sistema bancario. La segunda es varios órdenes de magnitud mayor.
 
 **Situación.** Un banco quiere conocer su exposición total al instrumento S, del
 que **no tiene ni una unidad**.
@@ -406,6 +412,8 @@ financiero y se descubrió leyendo condiciones de servicio.
 
 ## 🧭 Perspectivas
 
+El contagio afecta a cada participante de forma distinta y algunos no saben que están expuestos. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Su banco «no está expuesto» | Si confía |
@@ -421,6 +429,8 @@ financiero y se descubrió leyendo condiciones de servicio.
 
 ## 🏦 Del cliente al banco
 
+El cliente no tiene criptoactivos y su banco puede estar expuesto por otra vía. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «No estamos expuestos» | Cero directo, 117 millones de liquidez | 20, clase 14 |
@@ -428,6 +438,8 @@ financiero y se descubrió leyendo condiciones de servicio.
 | «Cayó lo que no tenía problema» | Se vende lo que se puede vender | 20, clase 14 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de dependencia común y de venta correlacionada. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -440,6 +452,8 @@ financiero y se descubrió leyendo condiciones de servicio.
 
 ## 🧪 Práctica
 
+El laboratorio pide mapear canales de contagio y medir la exposición indirecta. Los nodos críticos son lo que hay que identificar.
+
 En [`labs/lab-08.md`](../labs/lab-08.md):
 
 1. Construye el grafo con nodos, aristas y pesos.
@@ -448,6 +462,8 @@ En [`labs/lab-08.md`](../labs/lab-08.md):
 4. Simula la cascada y produce los cuatro indicadores del comité.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen contagios inesperados. La causa es haber medido solo la exposición directa.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

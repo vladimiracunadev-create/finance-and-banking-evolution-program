@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los tipos y su distribución; los cuatro siguientes, los parámetros de diseño y sus efectos. El **límite de tenencia** es el parámetro que decide si hay desintermediación: sin él, en una crisis los depósitos migrarían al banco central en horas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `CBDC` | Pasivo del banco central en forma digital |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `privacidad por diseño` | Datos mínimos y separación de funciones |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una competencia por el pasivo bancario. Si el público puede tener dinero de banco central directamente, el depósito pierde su ventaja de seguridad, y los parámetros de diseño existen para acotar ese efecto.
 
 ```text
 QUÉ ES Y QUÉ NO ES
@@ -217,6 +221,8 @@ QUÉ NO SE PUEDE PROMETER
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo estima el efecto de una moneda digital sobre los depósitos según su límite de tenencia. Con dos límites distintos el efecto cambia de orden de magnitud.
 
 **Situación.** Un banco central estudia una CBDC minorista con límite de
 tenencia. Hay que estimar el efecto sobre el crédito del sistema bancario.
@@ -372,6 +378,8 @@ sería falso.
 
 ## 🧭 Perspectivas
 
+Una moneda digital de banco central afecta a cada participante de forma muy distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Dinero del banco central en el móvil | Cuánto deja en el banco |
@@ -387,6 +395,8 @@ sería falso.
 
 ## 🏦 Del cliente al banco
 
+El ciudadano tendría dinero público y el banco comercial perdería su pasivo más barato. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es más seguro que el banco» | Es cierto, y por eso migra el depósito | 20, clase 10 |
@@ -394,6 +404,8 @@ sería falso.
 | «¿Van a ver mis pagos?» | Depende del diseño, y es una decisión política | 20, clase 10 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de desintermediación y de privacidad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -406,6 +418,8 @@ sería falso.
 
 ## 🧪 Práctica
 
+El laboratorio pide estimar el efecto sobre los depósitos con distintos parámetros. El límite de tenencia es la variable dominante.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Clasifica una CBDC con la ficha de cinco preguntas de la clase 1.
@@ -413,6 +427,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Modela la salida en tensión con un límite de tenencia dado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis mal planteados. Las causas son confundir mayorista con minorista e ignorar los límites.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

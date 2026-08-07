@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las dimensiones de la liquidez, que no son lo mismo que el volumen; los cuatro siguientes, la fragmentación y sus distorsiones. La **operación circular** es la práctica que infla el volumen sin aportar liquidez, y por eso el volumen es la peor de las cuatro dimensiones.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `volumen` | Cantidad negociada en un periodo |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `operación circular` | Compraventa entre partes vinculadas que infla volumen |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la liquidez tiene cuatro dimensiones y solo una se publica. Un mercado con volumen alto y profundidad baja parece líquido y no lo es, y la diferencia aparece justo cuando hay que vender.
 
 ```text
 LAS CUATRO DIMENSIONES, Y SOLO SE PUBLICA UNA
@@ -215,6 +219,8 @@ enseña a detectarlo y a protegerse.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide las cuatro dimensiones de un mercado y calcula el impacto de una venta. El volumen publicado no predice el impacto.
 
 **Situación.** Una tesorería tiene 12 000 000 en un activo digital y necesita
 saber en cuánto tiempo puede salir sin destruir el precio.
@@ -382,6 +388,8 @@ la medición, no del dato publicado.
 
 ## 🧭 Perspectivas
 
+La liquidez afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un precio en pantalla | Si compra o vende |
@@ -397,6 +405,8 @@ la medición, no del dato publicado.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un precio y el banco calcula a qué precio podría vender de verdad. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mueve 184 millones al día» | Absorbe 2 con un 1 % de impacto | 20, clase 13 |
@@ -404,6 +414,8 @@ la medición, no del dato publicado.
 | «El precio es 100» | Es un índice con decisiones dentro | 20, clase 13 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de liquidez aparente y de precio de referencia manipulable. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -416,6 +428,8 @@ la medición, no del dato publicado.
 
 ## 🧪 Práctica
 
+El laboratorio pide medir las cuatro dimensiones y estimar el impacto de una venta. La diferencia con el precio publicado es el resultado.
+
 En [`labs/lab-07.md`](../labs/lab-07.md):
 
 1. Mide profundidad al 1 %, 2 % y 5 % sobre un libro dado.
@@ -424,6 +438,8 @@ En [`labs/lab-07.md`](../labs/lab-07.md):
 4. Deriva un límite de posición y justifícalo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen ventas ejecutadas muy por debajo del precio. La causa es la profundidad no medida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

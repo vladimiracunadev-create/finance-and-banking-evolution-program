@@ -61,6 +61,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el expediente y sus límites; los cuatro siguientes, la vigilancia y la salida. La **condición resolutoria** es lo que hace ejecutable la decisión: qué hecho concreto obliga a deshacer la posición, escrito antes de tomarla.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `expediente de decisión` | Conjunto ordenado de análisis que sostiene una decisión |
@@ -73,6 +75,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `trazabilidad de la decisión` | Quién decidió, con qué información y cuándo |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un expediente que puede concluir que no. Evaluar un activo digital y decidir no exponerse es un resultado válido y frecuente, y sostenerlo con las quince clases anteriores vale lo mismo que la conclusión contraria.
 
 ```text
 LAS DOCE PIEZAS DEL EXPEDIENTE
@@ -216,6 +220,8 @@ y luego se discute.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa un activo digital con el expediente completo. Conviene fijarse en las condiciones resolutorias: son lo que convierte la decisión en algo vigilable.
 
 **Situación.** Se evalúa el instrumento S para uso de tesorería, con un saldo
 operativo objetivo de 8 000 000. Recorremos el expediente y llegamos a la
@@ -393,6 +399,8 @@ plazo máximo.
 
 ## 🧭 Perspectivas
 
+El proyecto afecta a todos los participantes de las quince clases anteriores. La tabla los reúne.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Una tesorería que opera | — |
@@ -408,6 +416,8 @@ plazo máximo.
 
 ## 🏦 Del cliente al banco
 
+El cliente pide exposición a un activo y el banco decide con un expediente. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco lo aprobó» | Con saldo reducido y tres condiciones | 20, clase 16 |
@@ -415,6 +425,8 @@ plazo máximo.
 | «Lo revisan cada año» | Semanal por alertas, mensual por límites | 20, clase 16 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos del proyecto reúnen los de toda la parte. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -427,10 +439,14 @@ plazo máximo.
 
 ## 🧪 Práctica
 
+El laboratorio es el proyecto completo. Las condiciones resolutorias y el plan de salida son lo que se evalúa.
+
 En [`project/README.md`](../project/README.md) se desarrolla el expediente
 completo. Aquí se cierra el ensamblaje y se ensaya la defensa ante el comité.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen al revisar la decisión meses después. Casi todos se evitan escribiendo las condiciones resolutorias al decidir.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

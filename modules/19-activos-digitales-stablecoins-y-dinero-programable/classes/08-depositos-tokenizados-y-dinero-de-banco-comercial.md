@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el instrumento y el principio que lo sostiene; los cuatro siguientes, su liquidación y su protección. La **singularidad del dinero** es el principio que está en juego: un peso en un banco tiene que valer lo mismo que un peso en otro, y si los depósitos tokenizados se negocian con descuento entre sí, ese principio se rompe.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `depósito tokenizado` | Un depósito bancario anotado en un registro programable |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `descuento entre bancos` | Cotizar el pasivo de un banco por debajo de otro |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un depósito bancario con otra forma de anotarse: sigue siendo dinero de banco comercial, sigue teniendo garantía de depósitos y sigue liquidándose en dinero de banco central. Lo que cambia es la posibilidad de liquidar atómicamente contra otro activo.
 
 ```text
 LA SINGULARIDAD DEL DINERO
@@ -200,6 +204,8 @@ NO HA MIRADO EL DISEÑO COMPLETO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara un depósito tokenizado con una stablecoin sobre las mismas dimensiones. La diferencia decisiva es el obligado y su régimen.
 
 **Situación.** Dos bancos evalúan un piloto de depósitos tokenizados para pagos
 entre empresas. Hay que calcular el ahorro y separar qué parte se debe a la
@@ -365,6 +371,8 @@ atomicidad futura de la Parte 21, no por este ahorro.
 
 ## 🧭 Perspectivas
 
+El depósito tokenizado afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un pago que llega el domingo | Si cambia su operativa |
@@ -380,6 +388,8 @@ atomicidad futura de la Parte 21, no por este ahorro.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un saldo y el banco tiene un depósito con las mismas obligaciones de siempre. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es una moneda del banco» | Es un depósito con otro soporte | 20, clase 8 |
@@ -387,6 +397,8 @@ atomicidad futura de la Parte 21, no por este ahorro.
 | «¿Sigue garantizado?» | Sí: es un depósito | 20, clase 8 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de singularidad y de liquidación. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -399,6 +411,8 @@ atomicidad futura de la Parte 21, no por este ahorro.
 
 ## 🧪 Práctica
 
+El laboratorio pide comparar depósito tokenizado y stablecoin en sus dimensiones jurídicas. El obligado y la garantía son lo que los separa.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Clasifica un depósito tokenizado con la ficha de cinco preguntas.
@@ -406,6 +420,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Estima el crédito intradía generado por operar fuera de horario.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen confusiones entre los dos instrumentos. La causa es haberlos comparado por su forma técnica.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

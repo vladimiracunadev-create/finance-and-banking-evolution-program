@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los dos tipos de paridad y su arbitraje; los cuatro siguientes, los mecanismos que la sostienen. La distinción entre **paridad de derecho y de mercado** es la que ordena la clase: una es un derecho a redimir y la otra es el precio al que se negocia, y solo la primera obliga a alguien.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `paridad` | Relación de valor declarada frente a una referencia |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `mecanismo endógeno` | Estabilización basada en el propio sistema |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un arbitraje que mantiene el precio: mientras se pueda redimir a la par, cualquier desviación de mercado se corrige comprando barato y redimiendo. La paridad se sostiene sobre esa posibilidad, y desaparece en cuanto la redención se cierra.
 
 ```text
 POR QUÉ EL PRECIO DE MERCADO SE PEGA A LA PARIDAD
@@ -203,6 +207,8 @@ QUÉ MIRAR EN LA DOCUMENTACIÓN
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la banda de no arbitraje de una stablecoin. Conviene mirar quién puede redimir: si solo unos pocos participantes autorizados, la banda es mucho más ancha de lo que parece.
 
 **Situación.** Una stablecoin con respaldo fiduciario cotiza a 0,9940. Hay que
 decidir si arbitrar y calcular la banda que su diseño puede sostener.
@@ -351,6 +357,8 @@ verdadero primer síntoma.
 
 ## 🧭 Perspectivas
 
+La paridad significa cosas distintas para cada participante. La tabla las recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | «Vale 1» | Si lo usa para cobrar |
@@ -367,6 +375,8 @@ verdadero primer síntoma.
 
 ## 🏦 Del cliente al banco
 
+El cliente cree tener un peso y tiene un derecho contra un emisor. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Cotiza a 0,994, es temporal» | Desvío fuera de banda persistente | 20, clase 3 |
@@ -374,6 +384,8 @@ verdadero primer síntoma.
 | «Puedo cambiarlo cuando quiera» | Solo si supera el mínimo de redención | 20, clase 3 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de emisor y de mecanismo de paridad. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -386,6 +398,8 @@ verdadero primer síntoma.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la banda de no arbitraje de varias stablecoins. El acceso a la redención es lo que decide su anchura.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Calcula la banda de no arbitraje de tres diseños distintos.
@@ -393,6 +407,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Construye el indicador de desvío persistente y pruébalo con una serie.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen paridades que se rompen. La causa es la redención restringida o cerrada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

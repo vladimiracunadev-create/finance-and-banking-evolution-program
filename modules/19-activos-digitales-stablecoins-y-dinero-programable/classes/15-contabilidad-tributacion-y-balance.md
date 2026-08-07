@@ -62,6 +62,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las clasificaciones contables posibles y su medición; los cuatro siguientes, el deterioro y el tratamiento fiscal. El **activo custodiado** es la partida que decide si figura o no en el balance del custodio, y esa decisión cambia por completo su tamaño aparente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `activo intangible` | Identificable, no monetario, sin sustancia física |
@@ -74,6 +76,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `base de costo` | Valor de referencia para calcular el resultado |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que la clasificación contable no la elige la entidad: depende de qué es el activo y para qué se tiene. De esa clasificación salen la medición, el deterioro y el momento en que se reconoce el resultado.
 
 ```text
 LA CLASIFICACIÓN DEPENDE DE DOS COSAS
@@ -226,6 +230,8 @@ DESDE EL PRINCIPIO
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica y mide un activo digital en dos supuestos distintos. El resultado del periodo cambia según la clasificación.
 
 **Situación.** Una entidad compra en enero y hay que presentar el balance de
 diciembre bajo dos tratamientos.
@@ -387,6 +393,8 @@ por qué el capital regulatorio no coincide con el balance.
 
 ## 🧭 Perspectivas
 
+El tratamiento contable afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un balance con cifras | Si confía en la entidad |
@@ -401,6 +409,8 @@ por qué el capital regulatorio no coincide con el balance.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una ganancia y el banco tiene reglas de reconocimiento y de tributación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El balance dice 13 millones» | El capital regulatorio lo dedujo entero | 20, clase 15 |
@@ -408,6 +418,8 @@ por qué el capital regulatorio no coincide con el balance.
 | «Mis activos están en su balance» | Depende de quién controla | 20, clase 15 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de clasificación y de hecho imponible no identificado. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -420,6 +432,8 @@ por qué el capital regulatorio no coincide con el balance.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar y medir activos digitales en varios supuestos. El activo custodiado es el caso que más cambia el balance.
+
 En [`labs/lab-02.md`](../labs/lab-02.md):
 
 1. Clasifica tres tenencias por naturaleza y propósito.
@@ -427,6 +441,8 @@ En [`labs/lab-02.md`](../labs/lab-02.md):
 3. Construye el registro tributario mínimo de un año de operaciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen problemas contables y fiscales. Las causas son clasificaciones elegidas y hechos imponibles no reconocidos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

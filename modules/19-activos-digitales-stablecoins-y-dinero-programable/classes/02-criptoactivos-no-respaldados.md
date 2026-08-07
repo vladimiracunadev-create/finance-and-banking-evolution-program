@@ -63,6 +63,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la oferta y su ausencia de obligado; los cuatro siguientes, el comportamiento del precio y su tratamiento prudencial. La **deducción del capital** es la consecuencia regulatoria: una exposición sin obligado se trata como la más severa del marco, y eso hace inviable mantenerla en volumen.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `oferta programada` | Emisión fijada por reglas del protocolo, no por un emisor |
@@ -75,6 +77,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `riesgo de mercado sin ancla` | No hay flujo futuro contra el que contrastar |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un precio sin ancla: no hay flujo que descontar ni obligado que responda, y por eso el precio depende únicamente de lo que otro esté dispuesto a pagar. La reflexividad hace el resto.
 
 ```text
 UN BONO VALE POR SUS FLUJOS
@@ -203,6 +207,8 @@ Un informe de riesgo solo puede contener la segunda.
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la volatilidad realizada de un criptoactivo y su consumo de capital. Conviene comparar el consumo con el ingreso esperado: la cuenta no suele salir.
 
 **Situación.** Un banco evalúa mantener una exposición de 4 000 000 en un
 criptoactivo no respaldado como cobertura de un servicio a clientes. Hay que
@@ -343,6 +349,8 @@ es la cifra que decide.
 
 ## 🧭 Perspectivas
 
+Un criptoactivo sin respaldo afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un precio que sube y baja | Si compra |
@@ -357,6 +365,8 @@ es la cifra que decide.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una inversión y el banco ve una exposición con deducción del capital. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco no quiere ofrecerlo» | Consume capital como pérdida | 20, clase 2 |
@@ -364,6 +374,8 @@ es la cifra que decide.
 | «Bajó un 70 %, es un caso raro» | Está dentro de lo observado | 20, clase 2 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de mercado sin ancla y de custodia. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -376,6 +388,8 @@ es la cifra que decide.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular volatilidad y consumo de capital. La comparación con el ingreso esperado es la conclusión.
+
 En [`labs/lab-01.md`](../labs/lab-01.md):
 
 1. Calcula el capital desplazado por una exposición dada.
@@ -383,6 +397,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Distingue las afirmaciones medibles de las opiniones en un informe.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen exposiciones mal dimensionadas. La causa es haber aplicado métodos de valoración que suponen un flujo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

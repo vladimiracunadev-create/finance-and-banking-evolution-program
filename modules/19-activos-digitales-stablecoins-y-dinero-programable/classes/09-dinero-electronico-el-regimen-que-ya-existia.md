@@ -65,6 +65,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son el régimen y sus obligaciones; los cuatro siguientes, su alcance y su criterio. La **prohibición de interés** es la que sorprende: un emisor de dinero electrónico no puede remunerar el saldo, y eso descarta buena parte de los modelos de negocio que se proponen.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `dinero electrónico` | Valor almacenado, emitido contra fondos, aceptado por terceros |
@@ -77,6 +79,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `perímetro` | Qué queda dentro y qué fuera del régimen |
 
 ## 🧠 Modelo mental
+
+El modelo mental es que el régimen ya existía. Un instrumento que representa fondos recibidos, es redimible a la par y sirve para pagar es dinero electrónico, se llame como se llame, y las obligaciones de salvaguarda le aplican desde el primer día.
 
 ```text
 LOS TRES ELEMENTOS DEL DINERO ELECTRÓNICO
@@ -216,6 +220,8 @@ CONSECUENCIA PRÁCTICA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo aplica el criterio de sustancia a un instrumento nuevo. Conviene comprobar las tres condiciones: si se cumplen, el régimen aplica.
 
 **Situación.** Una fintech quiere lanzar un saldo digital para pagos entre
 usuarios. Presenta dos variantes. Hay que calificarlas y calcular qué exige cada
@@ -383,6 +389,8 @@ una fragilidad que las clases 3 a 6 ya habían medido.
 
 ## 🧭 Perspectivas
 
+El régimen de dinero electrónico afecta a cada participante de forma distinta. La tabla lo recoge.
+
 | Actor | Qué ve | Qué decide |
 |---|---|---|
 | Cliente | Un saldo para pagar | Si lo usa como cuenta |
@@ -397,6 +405,8 @@ una fragilidad que las clases 3 a 6 ya habían medido.
 
 ## 🏦 Del cliente al banco
 
+El cliente carga saldo y el emisor tiene obligaciones de salvaguarda. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Es como una cuenta y paga interés» | Captación sin licencia bancaria | 20, clase 9 |
@@ -404,6 +414,8 @@ una fragilidad que las clases 3 a 6 ya habían medido.
 | «Es un token, es distinto» | La sustancia manda sobre el nombre | 20, clase 9 |
 
 ## ⚖️ Riesgos y controles
+
+Los riesgos son de salvaguarda y de perímetro. La tabla los recoge con su control.
 
 | Riesgo | Cómo se materializa | Control |
 |---|---|---|
@@ -423,6 +435,8 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Aplica las cuatro preguntas de salvaguarda a un caso documentado.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos que descubren tarde este régimen. La causa es haber supuesto que un instrumento nuevo está fuera.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
