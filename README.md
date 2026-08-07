@@ -283,10 +283,19 @@ ha visto se nota leyendo seguido y no se nota leyendo por partes.
 python tools/build_book.py
 ```
 
-| Archivo | Qué es | Cómo se usa |
-|---|---|---|
-| `book/programa-completo.html` | Documento único con hoja de estilo de impresión | Ábrelo y usa **Ctrl+P → «Guardar como PDF»** |
-| `book/programa-completo.md` | El mismo documento en Markdown | Para revisar, buscar o convertir con cualquier herramienta |
+| Archivo | Qué es |
+|---|---|
+| `book/programa-completo.pdf` | **El manual completo en PDF**, con portada, índice y salto de página por clase |
+| `book/programa-completo.html` | El mismo documento en HTML, con hoja de estilo de impresión |
+| `book/programa-completo.md` | El mismo documento en Markdown, para revisar o convertir |
+
+El PDF se imprime automáticamente desde el HTML con el Edge o el Chrome que ya
+está en el sistema, sin instalar nada. Si no hay ninguno, el HTML queda listo y
+se guarda como PDF con Ctrl+P. Para saltarse ese paso:
+
+```bash
+python tools/build_book.py --sin-pdf
+```
 
 Son **más de un millón de palabras** con portada, índice de 380 entradas y salto
 de página por parte y por clase. No se versionan en el repositorio: se generan

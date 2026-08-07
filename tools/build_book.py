@@ -11,12 +11,15 @@ Produce dos archivos en `book/`:
 
 * `programa-completo.md`  el documento maestro en Markdown, para revisar y para
   cualquier conversor externo;
-* `programa-completo.html` autocontenido, con hoja de estilo de impresion. Se
-  convierte a PDF desde el navegador (Ctrl+P, «Guardar como PDF») sin instalar
-  nada ni depender de ningun servicio.
+* `programa-completo.html` autocontenido, con hoja de estilo de impresion;
+* `programa-completo.pdf`  el manual completo, impreso desde ese HTML con un
+  navegador en modo headless. No hace falta instalar nada: se usa el Edge o el
+  Chrome que ya esta en el sistema. Si no hay ninguno, el HTML sigue ahi y se
+  imprime a mano con Ctrl+P.
 
 Uso:
-    python tools/build_book.py            # genera book/
+    python tools/build_book.py            # genera el Markdown, el HTML y el PDF
+    python tools/build_book.py --sin-pdf  # solo Markdown y HTML (mas rapido)
     python tools/build_book.py --check    # verifica que sea generable
 """
 
@@ -25,6 +28,8 @@ from __future__ import annotations
 import argparse
 import html
 import re
+import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -263,15 +268,66 @@ def a_html(md_texto: str, indice: list[tuple[int, str, str]]) -> str:
 """
 
 
-def generar() -> int:
+# Rutas habituales de un navegador basado en Chromium. Se usa en modo headless
+# para imprimir el HTML a PDF: es la unica via que produce un PDF con el mismo
+# aspecto que el documento y no exige instalar ninguna dependencia de Python.
+NAVEGADORES = (
+    r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+    r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
+    r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+    r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+    "/usr/bin/microsoft-edge",
+    "/usr/bin/google-chrome",
+    "/usr/bin/chromium",
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+)
+
+
+def navegador() -> str | None:
+    for ruta in NAVEGADORES:
+        if Path(ruta).exists():
+            return ruta
+    return shutil.which("msedge") or shutil.which("google-chrome") or shutil.which("chromium")
+
+
+def a_pdf(html: Path, pdf: Path) -> bool:
+    """Imprime el HTML a PDF con un navegador en modo headless."""
+    exe = navegador()
+    if not exe:
+        print("No se encontro un navegador basado en Chromium para generar el PDF.")
+        print("El HTML esta listo: abrelo y usa Ctrl+P -> Guardar como PDF.")
+        return False
+    orden = [
+        exe, "--headless=new", "--disable-gpu", "--no-sandbox",
+        "--no-pdf-header-footer",
+        f"--print-to-pdf={pdf}",
+        html.resolve().as_uri(),
+    ]
+    # El documento supera el millon de palabras: la impresion tarda minutos.
+    resultado = subprocess.run(orden, capture_output=True, text=True, timeout=1800)
+    if not pdf.exists():
+        print("El navegador no produjo el PDF:")
+        print((resultado.stderr or "").strip()[-400:])
+        return False
+    return True
+
+
+def generar(con_pdf: bool = True) -> int:
     SALIDA.mkdir(exist_ok=True)
     md_texto, indice = documento()
     (SALIDA / "programa-completo.md").write_text(md_texto, encoding="utf-8")
-    (SALIDA / "programa-completo.html").write_text(a_html(md_texto, indice), encoding="utf-8")
+    html = SALIDA / "programa-completo.html"
+    html.write_text(a_html(md_texto, indice), encoding="utf-8")
     palabras = len(md_texto.split())
     print(f"book/programa-completo.md   {len(md_texto):>9,} caracteres · {palabras:,} palabras")
     print(f"book/programa-completo.html {len(indice):>9,} entradas de indice")
-    print("Para el PDF: abre el HTML y usa Ctrl+P -> Guardar como PDF.")
+    if con_pdf:
+        pdf = SALIDA / "programa-completo.pdf"
+        if pdf.exists():
+            pdf.unlink()
+        print("Imprimiendo el PDF... (tarda unos minutos)")
+        if a_pdf(html, pdf):
+            print(f"book/programa-completo.pdf  {pdf.stat().st_size / 1_048_576:>9,.1f} MB")
     return 0
 
 
@@ -287,8 +343,12 @@ def verificar() -> int:
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--check", action="store_true", help="solo verifica")
+    p.add_argument("--sin-pdf", action="store_true",
+                   help="genera solo el Markdown y el HTML, sin imprimir el PDF")
     args = p.parse_args()
-    return verificar() if args.check else generar()
+    if args.check:
+        return verificar()
+    return generar(con_pdf=not args.sin_pdf)
 
 
 if __name__ == "__main__":
