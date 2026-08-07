@@ -21,6 +21,8 @@ Responder la pregunta que ninguna medición estadística responde: **¿qué le p
 escenario adverso ocurre?** La prueba de estrés no estima probabilidades: construye un mundo coherente,
 lo aplica al balance completo y muestra si el banco sobrevive.
 
+Todas las medidas anteriores se calculan en condiciones normales. Esta clase las lleva a condiciones que no lo son, y añade la exigencia que separa un ejercicio útil de uno decorativo: el escenario tiene que ser coherente y suficientemente severo como para que el banco no lo apruebe con holgura.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los escenarios y su exigencia; los cinco siguientes, la mecánica de la proyección y sus variantes. La **prueba inversa** es la más informativa y la menos usada: en vez de preguntar qué pasa en este escenario, pregunta qué escenario haría inviable al banco.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `escenario base` | Proyección más probable. Sirve de referencia. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `prueba inversa` | Se parte del resultado intolerable y se busca qué lo produce. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una cadena de traducción: un escenario macroeconómico se convierte en parámetros de riesgo, esos parámetros en pérdidas, y esas pérdidas en capital. Cada eslabón puede romperse, y el más frágil suele ser la traducción del escenario a los parámetros.
 
 ```text
 UNA PRUEBA DE ESTRÉS NO PREGUNTA "¿QUÉ TAN PROBABLE ES?"
@@ -88,6 +94,8 @@ resultados no significan nada.
 
 ### 1. Tipos de prueba
 
+Hay varios tipos de prueba de estrés con propósitos distintos. La tabla los recoge.
+
 | Tipo | Qué varía | Uso |
 |---|---|---|
 | Sensibilidad | Una variable a la vez | Entender la mecánica |
@@ -97,6 +105,8 @@ resultados no significan nada.
 | Interna | Escenario propio del banco | Gestión y planificación de capital |
 
 ### 2. Diseño del escenario
+
+Un escenario se diseña desde una narrativa coherente y no desde una lista de variables movidas. El procedimiento siguiente lo estructura.
 
 ```text
 VARIABLES MACRO TÍPICAS
@@ -127,6 +137,8 @@ COHERENCIA INTERNA — relaciones que deben respetarse
 
 ### 3. Traducción a parámetros de riesgo
 
+La traducción del escenario a probabilidad de incumplimiento y severidad es el eslabón más frágil. La tabla recoge los métodos.
+
 ```text
 FUNCIÓN DE TRADUCCIÓN — ejemplo para cartera de consumo
 
@@ -151,6 +163,8 @@ escenario fuera de ese rango. La relación real suele ser convexa: el deterioro 
 linealmente **subestima sistemáticamente** la pérdida en la parte severa del escenario.
 
 ### 4. Proyección integral
+
+La proyección integra resultado, balance y capital bajo el escenario. El procedimiento la recorre.
 
 ```text
 LO QUE DEBE PROYECTARSE (no solo pérdidas de crédito)
@@ -182,6 +196,8 @@ ERROR FRECUENTE: proyectar solo las provisiones
 
 ### 5. Acciones de gestión y credibilidad
 
+Las acciones de gestión que el banco supone que tomará tienen que ser creíbles y ejecutables en el escenario. La tabla recoge los criterios.
+
 ```text
 ACCIONES CREÍBLES              ACCIONES NO CREÍBLES
   suspender dividendos           vender cartera a valor libro en plena crisis
@@ -194,6 +210,8 @@ REGLA: si la acción depende de que otros actúen de forma normal
 ```
 
 ### 6. Prueba inversa
+
+La prueba inversa busca el escenario que rompe al banco en vez de comprobar que sobrevive a uno dado. El procedimiento la plantea.
 
 ```text
 PROCEDIMIENTO
@@ -208,6 +226,8 @@ VALOR: no requiere estimar probabilidades
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo proyecta el capital de un banco bajo un escenario adverso. Conviene mirar las acciones de gestión supuestas: son las que más suelen inflar el resultado.
 
 **Situación.** Un banco ejecuta su prueba de estrés interna a tres años.
 
@@ -403,6 +423,8 @@ usado; se usa cuando cambia una decisión de capital, de apetito o de negocio.
 
 ## 🏦 Del cliente al banco
 
+El cliente no ve nada de esto y el banco calcula si sobreviviría a una recesión severa. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco dejó de dar créditos de consumo» | Apetito revisado tras la prueba | 11, clase 13 |
@@ -413,6 +435,8 @@ usado; se usa cuando cambia una decisión de capital, de apetito o de negocio.
 
 ## 🧪 Práctica
 
+El laboratorio pide diseñar un escenario coherente y proyectar el capital. El escenario tiene que romper alguna métrica: si no, no informa.
+
 En `labs/lab-06.md`, sección de estrés:
 
 1. Diseña un escenario adverso a tres años y verifica su coherencia interna.
@@ -421,6 +445,8 @@ En `labs/lab-06.md`, sección de estrés:
 4. Ejecuta una prueba inversa y evalúa qué tan lejano está el punto de quiebre.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pruebas de estrés que no informan. Las causas son escenarios suaves y acciones de gestión no creíbles.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Gestionar el riesgo que mata bancos rápido. Un banco puede sobrevivir años con
 horas por falta de liquidez. Esta clase explica por qué la solvencia y la liquidez son problemas
 distintos, cómo se miden y por qué el segundo se manifiesta casi siempre como consecuencia del primero.
 
+El riesgo de crédito de la clase anterior se materializa en meses. Este puede acabar con un banco en días, y no requiere que haya pérdidas: basta con que los depositantes duden. Es el riesgo que la Parte 3 anticipó al hablar de transformación de plazos, tratado ahora con sus métricas regulatorias.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -54,6 +56,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los dos primeros términos son la distinción que ordena la clase; los seis siguientes, las métricas y los supuestos que las sostienen. El **supuesto conductual** es donde vive la fragilidad de todo el aparato: las métricas dependen de cuánto se supone que se retirará en estrés, y esa cifra no se observa hasta que ocurre.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -89,6 +93,8 @@ funciona sola.
 
 ### 1. Iliquidez e insolvencia
 
+Las dos situaciones se distinguen en teoría y se confunden en el momento, porque la duda sobre una provoca la otra. El esquema muestra el círculo.
+
 | | Iliquidez | Insolvencia |
 |---|---|---|
 | Definición | No puede pagar hoy | No podría pagar nunca |
@@ -112,6 +118,8 @@ LA CONEXIÓN
 duda cuando se necesita la asistencia.
 
 ### 2. Cobertura de liquidez
+
+La cobertura de liquidez mide si los activos líquidos alcanzan para treinta días de estrés. El procedimiento siguiente la calcula.
 
 ```text
                     activos líquidos de alta calidad
@@ -143,6 +151,8 @@ que se observó. El financiamiento minorista con seguro de depósitos es el que 
 
 ### 3. Financiamiento estable neto
 
+La segunda métrica mira el horizonte de un año y la estructura del fondeo. El procedimiento la calcula.
+
 ```text
                 financiamiento estable DISPONIBLE
 ESTABLE (NSFR) = ──────────────────────────────────  ≥ 100 %
@@ -163,6 +173,8 @@ primero con un colchón de bonos y fallar el segundo por financiar crédito hipo
 la vista. Son controles complementarios, no redundantes.
 
 ### 4. Supuestos conductuales
+
+Los supuestos de retiro son la parte más frágil y la más determinante. La tabla los recoge con su origen.
 
 ```text
 EL PROBLEMA
@@ -188,6 +200,8 @@ revisado al menos anualmente y **sometido a estrés en el escenario adverso**. U
 escenario adverso es una suposición optimista con apariencia técnica.
 
 ### 5. Velocidad de la corrida
+
+Las corridas actuales son mucho más rápidas que las que inspiraron las métricas. La tabla recoge la evidencia.
 
 ```text
 CORRIDA CLÁSICA (siglo XX)
@@ -215,6 +229,8 @@ implicancias operativas son concretas:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la cobertura de liquidez de un banco y la recalcula con supuestos de retiro más severos. La diferencia entre las dos cifras es la medida real de la fragilidad.
 
 **Situación.** Un banco calcula su posición de liquidez y la somete a un escenario de estrés propio.
 
@@ -343,6 +359,8 @@ diagnosticar**.
 
 ## 🏦 Del cliente al banco
 
+El cliente retira su depósito y el banco pierde su fuente de fondeo más barata en el peor momento. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi depósito está seguro» | Seguro de depósitos y su límite | 4, clase 11 |
@@ -353,6 +371,8 @@ diagnosticar**.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular las dos métricas y estresar los supuestos conductuales. El banco pasa la métrica regulatoria y no sobrevive al escenario realista.
+
 En `labs/lab-02.md`, sección de liquidez:
 
 1. Calcula la cobertura de liquidez de un banco sintético con sus descuentos y límites.
@@ -361,6 +381,8 @@ En `labs/lab-02.md`, sección de liquidez:
 4. Diseña un plan de contingencia con indicadores de activación cuantificados.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen crisis de liquidez en bancos solventes. Las causas son supuestos conductuales optimistas y concentración de fondeo.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

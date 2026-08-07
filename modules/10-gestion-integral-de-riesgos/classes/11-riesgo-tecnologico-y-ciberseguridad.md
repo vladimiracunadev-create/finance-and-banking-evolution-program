@@ -21,6 +21,8 @@ Gestionar el riesgo de que la tecnología del banco falle, sea comprometida o qu
 riesgo que más rápido ha crecido, el único con un adversario inteligente que se adapta, y el que puede
 convertir un problema técnico en una corrida de depósitos en horas.
 
+El riesgo operacional de la clase anterior incluye el tecnológico, y esta clase lo separa porque su naturaleza es distinta: tiene un adversario que se adapta. Un fallo operativo ocurre; un ataque se diseña contra los controles que uno tiene, y por eso la medición histórica sirve menos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos separan el fallo del ataque; los seis siguientes, la superficie, las arquitecturas de defensa y la medida del daño. El **tiempo de permanencia** es la métrica que más dice: cuánto tiempo estuvo un atacante dentro antes de ser detectado, y suele medirse en meses.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo tecnológico` | Fallas de disponibilidad, integridad o capacidad de los sistemas. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `resiliencia cibernética` | Capacidad de operar y recuperarse durante un ataque. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es el del atacante racional: compara lo que gana con lo que le cuesta y ataca por donde sale más barato. La defensa no consiste en ser inexpugnable sino en ser más caro de atacar que el valor que hay detrás.
 
 ```text
 LOS DEMÁS RIESGOS NO TIENEN INTENCIÓN. ESTE SÍ.
@@ -87,6 +93,8 @@ CONSECUENCIAS METODOLÓGICAS
 ## 📖 Desarrollo
 
 ### 1. Tres riesgos distintos
+
+Fallo tecnológico, ataque y obsolescencia son riesgos distintos con controles distintos. La tabla los separa.
 
 | | Tecnológico | Cibernético | De información |
 |---|---|---|---|
@@ -126,6 +134,8 @@ LA PREGUNTA QUE MÁS BANCOS FALLAN
 
 ### 3. Superficie de ataque
 
+La superficie de ataque se puede inventariar y reducir. El procedimiento siguiente la mide.
+
 ```text
 COMPONENTES
   · personas          suplantación, ingeniería social, personal interno
@@ -149,6 +159,8 @@ no con una falla de software. Por eso la formación y la autenticación multifac
 retorno entre todos los controles disponibles.
 
 ### 4. Respuesta a incidentes
+
+La respuesta tiene fases con objetivos distintos y en orden. La tabla las recoge.
 
 ```text
 FASES
@@ -177,6 +189,8 @@ CONFLICTO CENTRAL DE LA CONTENCIÓN
 
 ### 5. Terceros y concentración
 
+La dependencia de proveedores comunes concentra el riesgo del sector entero. La tabla lo describe, y esta idea reaparece en las Partes 17 y 22.
+
 ```text
 EL PERÍMETRO YA NO EXISTE
   proveedor de nube, procesador de pagos, plataforma de núcleo bancario,
@@ -198,6 +212,8 @@ RIESGO DE CONCENTRACIÓN SISTÉMICA
 | Segmentación del acceso del proveedor | Que su compromiso no sea el tuyo |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo prioriza amenazas con el criterio del atacante racional. El orden que sale no coincide con el que sugiere la sofisticación técnica, y esa es la conclusión.
 
 **Situación.** Un banco sufre un incidente y evalúa su preparación después.
 
@@ -356,6 +372,8 @@ insustituible: es lo único que descubre el 32 % que la autoevaluación no vio.
 
 ## 🏦 Del cliente al banco
 
+El cliente confía en la aplicación y el banco defiende una superficie que crece con cada canal nuevo. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco estuvo caído dos semanas» | Punto objetivo de recuperación no cumplido | 10, clase 16 |
@@ -366,6 +384,8 @@ insustituible: es lo único que descubre el 32 % que la autoevaluación no vio.
 
 ## 🧪 Práctica
 
+El laboratorio pide inventariar la superficie de ataque de un servicio y priorizar. El punto más barato para el atacante no es el más protegido.
+
 En `labs/lab-06.md`:
 
 1. Aplica las cinco funciones del marco de ciberseguridad a un banco sintético.
@@ -374,6 +394,8 @@ En `labs/lab-06.md`:
 4. Diseña el plan de respuesta con las decisiones y plazos predefinidos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen incidentes detectados tarde. Las causas son ausencia de detección y confianza en controles perimetrales.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

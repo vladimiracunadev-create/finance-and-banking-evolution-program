@@ -22,6 +22,8 @@ materialización ya es observable. El riesgo climático es el caso de estudio: n
 de riesgo, es **un conductor que se manifiesta a través de todos los riesgos existentes**, con un
 horizonte más largo que el de cualquier modelo bancario habitual.
 
+Los riesgos anteriores tienen historia con la que estimarlos. Estos no, y por eso exigen un método distinto. Su dificultad no es que sean nuevos sino que sus horizontes no encajan con los de la gestión bancaria: la mayoría de los efectos ocurren más allá del plazo de cualquier crédito de la cartera.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los tipos de riesgo climático; los cinco siguientes, el análisis y sus trampas. La **declaración ambiental engañosa** es un riesgo de conducta con sanción propia: afirmar sostenibilidad sin evidencia expone a la entidad de la misma forma que cualquier otra afirmación comercial sin respaldo.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo físico agudo` | Eventos: inundación, incendio, ciclón, ola de calor. |
@@ -68,6 +72,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `riesgo emergente` | Aún no materializado en el sector, con potencial de serlo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un canal de transmisión: el clima no golpea al banco directamente, sino a través de sus deudores y de las garantías que tiene. Identificar el canal es lo que permite medir algo en vez de declarar preocupación.
 
 ```text
 EL CLIMA NO ES UN RIESGO NUEVO: ES UN CONDUCTOR DE LOS EXISTENTES
@@ -91,6 +97,8 @@ plazo**, no el modelo estadístico.
 ## 📖 Desarrollo
 
 ### 1. Riesgo físico
+
+El riesgo físico llega por eventos agudos y por cambios crónicos, y los dos afectan garantías y flujos. La tabla los separa.
 
 ```text
 AGUDO
@@ -126,6 +134,8 @@ EL PROBLEMA DEL SEGURO
 
 ### 2. Riesgo de transición
 
+El riesgo de transición viene de la política, la tecnología y el mercado, no del clima. La tabla lo recoge.
+
 ```text
 CUATRO CONDUCTORES
   POLÍTICA     impuesto al carbono, prohibiciones, normas de emisión
@@ -156,6 +166,8 @@ LA PARADOJA DE LA TRANSICIÓN
 
 ### 3. Horizontes y escenarios
 
+Los horizontes de estos riesgos exceden los de la gestión ordinaria, y eso obliga a métodos propios. La tabla los recoge.
+
 ```text
 EL DESAJUSTE DE HORIZONTES
   planificación de negocio        1 – 3 años
@@ -180,6 +192,8 @@ cada escenario define trayectorias de:
 
 ### 4. Declaración ambiental engañosa
 
+Afirmar más de lo que se puede sostener con evidencia es un riesgo de conducta. La tabla recoge los criterios.
+
 ```text
 EL RIESGO LEGAL Y REPUTACIONAL DE AFIRMAR DE MÁS
 
@@ -199,6 +213,8 @@ superar al riesgo de no anunciarlos. La regla operativa es simple: **no declares
 medir y verificar**.
 
 ### 5. Proceso para riesgos emergentes
+
+Los riesgos emergentes exigen un proceso de vigilancia distinto del de los conocidos. La tabla lo recoge.
 
 ```text
 1. VIGILANCIA        fuentes diversas: científicas, regulatorias,
@@ -221,6 +237,8 @@ medir y verificar**.
 | Envejecimiento demográfico | Modelo de negocio, ahorro previsional |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo identifica los canales de transmisión de un riesgo físico sobre una cartera concreta. Conviene bajar hasta la garantía: es donde el riesgo climático se convierte en pérdida medible.
 
 **Situación.** Un banco mapea su exposición climática y evalúa una cartera hipotecaria.
 
@@ -395,6 +413,8 @@ originación.
 
 ## 🏦 Del cliente al banco
 
+El cliente no percibe el riesgo y el banco tiene garantías en zonas expuestas. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «No consigo seguro para mi casa» | Retiro de asegurabilidad por zona | 4, clase 13 |
@@ -405,6 +425,8 @@ originación.
 
 ## 🧪 Práctica
 
+El laboratorio pide identificar los canales de transmisión de dos riesgos climáticos sobre una cartera. Cuantificar aunque sea de forma gruesa es lo que se evalúa.
+
 En `labs/lab-06.md`, sección climática:
 
 1. Mapea una cartera hipotecaria por zona de exposición física.
@@ -413,6 +435,8 @@ En `labs/lab-06.md`, sección climática:
 4. Diseña el proceso de vigilancia de tres riesgos emergentes de tu contexto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis climáticos que no llevan a ninguna acción. La causa es no haber identificado el canal de transmisión.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Pasar del riesgo de un crédito al riesgo de una cartera. La Parte 9 enseñó a 
 clase enseña que **una cartera de buenos deudores puede ser una mala cartera** si están correlacionados,
 y que la concentración es el mecanismo por el que eso ocurre.
 
+La Parte 9 midió el riesgo de un crédito. Esta lo mide para una cartera entera, y ahí aparece algo que no existe en el caso individual: los incumplimientos están correlacionados. Esa correlación es la que hace que una cartera pierda mucho más de lo esperado en una recesión, y la que determina el capital.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son las medidas de cartera; los seis siguientes, lo que las determina. La **correlación de incumplimiento** es el concepto que separa esta clase de la Parte 9: sin ella, la pérdida de una cartera grande sería casi determinista.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `pérdida esperada de cartera` | Suma de las pérdidas esperadas individuales. Es aditiva. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `capital económico` | Capital necesario para absorber la pérdida a un nivel de confianza dado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una distribución de pérdidas asimétrica: la mayoría de los años se pierde poco, y de vez en cuando se pierde mucho. La media es la pérdida esperada y la cola es lo que hay que capitalizar; la correlación entre deudores es lo que engorda la cola.
 
 ```text
 DOS CARTERAS con la misma pérdida esperada
@@ -88,6 +94,8 @@ es la que consume capital.
 ## 📖 Desarrollo
 
 ### 1. De la pérdida individual a la de cartera
+
+La pérdida de una cartera no es la suma de las individuales cuando hay correlación. El esquema muestra la diferencia.
 
 ```text
 PÉRDIDA ESPERADA (aditiva, siempre)
@@ -136,6 +144,8 @@ aplica tu jurisdicción.)*
 
 ### 3. Medición de la concentración
 
+La concentración se mide en varias dimensiones y cada una añade capital. La tabla las recoge.
+
 ```text
 ÍNDICE DE HERFINDAHL
   HHI = Σ w_i²        w_i = participación de la exposición i
@@ -176,6 +186,8 @@ misma empresa grande son formalmente cincuenta deudores independientes y sustant
 
 ### 4. Capital económico
 
+El capital económico sale del percentil elegido de la distribución de pérdidas. El procedimiento siguiente lo obtiene.
+
 ```text
 CAPITAL ECONÓMICO = percentil de la distribución de pérdidas − pérdida esperada
 
@@ -197,6 +209,8 @@ FÓRMULA DE BASILEA (enfoque IRB, cartera granular)
 y por eso el Pilar 2 exige un cargo adicional por concentración.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la pérdida esperada e inesperada de una cartera con y sin correlación. La diferencia entre ambos casos es lo que justifica todo el aparato de esta clase.
 
 **Situación.** Un banco analiza si su cartera comercial está adecuadamente diversificada.
 
@@ -344,6 +358,8 @@ documentadas: **límites individuales cumplidos y una concentración sectorial q
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe un crédito y el banco añade una exposición correlacionada con el resto de su cartera. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi empresa es sólida pero me redujeron la línea» | Límite sectorial alcanzado | 11, clase 3 |
@@ -354,6 +370,8 @@ documentadas: **límites individuales cumplidos y una concentración sectorial q
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular el capital económico de una cartera a distintos niveles de correlación y de concentración. Ambos efectos son grandes y se suman.
+
 En `labs/lab-02.md`:
 
 1. Calcula la pérdida esperada e inesperada de dos carteras con la misma media.
@@ -362,6 +380,8 @@ En `labs/lab-02.md`:
 4. Diseña un conjunto de límites de concentración con su fundamento cuantitativo.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen carteras que perdieron mucho más de lo modelado. Las causas son correlaciones estimadas en periodos tranquilos y concentración no medida.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

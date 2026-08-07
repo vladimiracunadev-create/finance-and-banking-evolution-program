@@ -21,6 +21,8 @@ Construir el mapa completo de los riesgos de un banco y aprender a leerlo. Una t
 es la estructura que determina quién responde por cada riesgo, cómo se mide y con qué se cubre. Un riesgo
 sin lugar en la taxonomía es un riesgo sin dueño.
 
+La clase anterior definió el riesgo. Esta lo clasifica, y no por afán taxonómico: cada categoría tiene una forma de medirse, un responsable y un tratamiento de capital distintos. Y añade lo que las taxonomías clásicas dejan fuera, que es donde suelen estar las sorpresas.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los ejes de la clasificación; los cuatro siguientes, la matriz y sus dos lecturas. El **riesgo de segundo orden** es el que la taxonomía tiende a perder: un riesgo de mercado que se convierte en riesgo de crédito porque el deudor estaba descalzado no aparece en ninguna de las dos casillas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo financiero` | Aquel cuyo origen está en variables de mercado o en el incumplimiento de una contraparte. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `riesgo emergente` | Aún no materializado en el sector, con potencial de serlo. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una matriz de dos ejes: el riesgo inherente que tiene una actividad por naturaleza y el residual que queda después de los controles. La distancia entre ambos es lo que aportan los controles, y medirla es lo que permite saber si valen lo que cuestan.
 
 **Los riesgos no ocurren en compartimentos: ocurren en cadena.**
 
@@ -88,6 +94,8 @@ estrés integradas (clase 13) y por eso el capital económico no es la suma de l
 
 ### 1. Riesgos financieros
 
+Los riesgos financieros son los que se miden con modelos y consumen capital regulatorio. La tabla los recoge.
+
 | Riesgo | Definición operativa | Se mide con | Clase |
 |---|---|---|---|
 | Crédito | La contraparte no paga | PD, LGD, EAD, pérdida esperada | 3 |
@@ -99,6 +107,8 @@ estrés integradas (clase 13) y por eso el capital económico no es la suma de l
 
 ### 2. Riesgos no financieros
 
+Los no financieros producen las pérdidas más frecuentes y se miden peor. La tabla los recoge.
+
 | Riesgo | Definición operativa | Se mide con | Clase |
 |---|---|---|---|
 | Operacional | Falla de procesos, personas, sistemas o eventos externos | Pérdidas históricas, escenarios, indicadores | 10 |
@@ -109,6 +119,8 @@ estrés integradas (clase 13) y por eso el capital económico no es la suma de l
 | Legal | Contratos, litigios, ejecución de garantías | Contingencias, provisiones | Parte 12 |
 
 ### 3. Riesgos transversales
+
+Algunos riesgos atraviesan las dos categorías y no tienen dueño natural. La tabla los recoge.
 
 ```text
 ESTRATÉGICO     decisiones de negocio erróneas o entorno que cambia
@@ -130,6 +142,8 @@ y preparando la respuesta.
 
 ### 4. Riesgo inherente y residual
 
+La diferencia entre ambos es el efecto de los controles, y medirla obliga a evaluarlos. El esquema la muestra.
+
 ```text
 RIESGO INHERENTE  ──── CONTROLES ────► RIESGO RESIDUAL ──── comparar con APETITO
   probabilidad × impacto              probabilidad × impacto
@@ -148,6 +162,8 @@ CORRECCIÓN:      el residual se estima con la EFECTIVIDAD PROBADA del control,
 | No evaluado | Se trata como inefectivo hasta que se pruebe |
 
 ### 5. Matriz de riesgos
+
+La matriz reúne todo con su probabilidad y su impacto. La tabla muestra su forma y su uso.
 
 ```text
 IMPACTO
@@ -178,6 +194,8 @@ CORRECCIÓN: los riesgos de impacto crítico se tratan aparte,
 
 ### 6. Riesgos que la taxonomía clásica no captura
 
+Hay riesgos que ninguna casilla recoge y que aparecen en las interacciones. La tabla los recoge, y esta idea vuelve en la clase 16.
+
 ```text
 · CONCENTRACIÓN         no es un riesgo: es un multiplicador de todos
 · CONTAGIO              la falla de otro banco te alcanza
@@ -190,6 +208,8 @@ CORRECCIÓN: los riesgos de impacto crítico se tratan aparte,
 Los tres últimos crecen con la digitalización y son el objeto de la Parte 14.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo clasifica los riesgos de una entidad y construye su matriz. Conviene fijarse en los que no encajan en ninguna casilla: son los que la clase 16 vuelve a tratar.
 
 **Situación.** El comité de riesgos evalúa un evento y debe clasificarlo, medirlo y decidir.
 
@@ -308,6 +328,8 @@ corrección también será la equivocada**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un servicio y el banco ve un conjunto de riesgos con dueños distintos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Abrieron cuentas con mi identidad» | Riesgo de identidad y control de admisión | 4, clase 8 |
@@ -318,6 +340,8 @@ corrección también será la equivocada**.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar una lista de riesgos y detectar los de segundo orden. Dos de los propuestos son de segundo orden y no encajan en la taxonomía.
+
 En `labs/lab-01.md`, sección de taxonomía:
 
 1. Clasifica quince eventos de pérdida en la taxonomía completa.
@@ -326,6 +350,8 @@ En `labs/lab-01.md`, sección de taxonomía:
 4. Identifica tres riesgos que la taxonomía clásica no captura en tu contexto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen riesgos que nadie gestionaba. Las causas son categorías sin dueño y riesgos de segundo orden no identificados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

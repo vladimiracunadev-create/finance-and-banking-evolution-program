@@ -21,6 +21,8 @@ Convertir la medición de riesgos en la decisión que gobierna un banco: **cuán
 qué negocios se emplea**. El capital es el recurso escaso; asignarlo bien es la diferencia entre crecer
 con rentabilidad y crecer destruyendo valor.
 
+Las clases anteriores miden riesgos por separado. Esta los suma y decide cuánto capital hace falta para todos juntos, que es menos que la suma porque no se materializan a la vez. Y después reparte ese capital entre las unidades de negocio, que es donde la medición se convierte en decisión.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son las tres nociones de capital que no coinciden; los cinco siguientes, la agregación y su uso. El **beneficio de diversificación** es lo que hace que la suma de capitales por riesgo sea mayor que el capital total, y repartir ese beneficio entre unidades es una decisión discutida.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `capital regulatorio` | El que exige la norma. Mínimo, no óptimo. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `valor económico añadido` | Resultado menos el costo del capital empleado. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un presupuesto de riesgo: el banco tiene una cantidad de capital y cada unidad consume una parte al asumir riesgo. Medir ese consumo es lo que permite comparar unidades que ganan cifras distintas asumiendo riesgos distintos.
 
 ```text
 TRES CAPITALES QUE NO COINCIDEN
@@ -89,6 +95,8 @@ la restricción efectiva es EL MAYOR DE LOS DOS
 
 ### 1. Nivel de solvencia objetivo
 
+El nivel de solvencia objetivo se elige y de él depende todo el capital económico. La tabla recoge los criterios.
+
 ```text
 el capital económico se calcula a un nivel de confianza
 que corresponde a una calificación crediticia objetivo
@@ -103,6 +111,8 @@ más capital → más seguro → menor retorno sobre patrimonio
 ```
 
 ### 2. Agregación entre riesgos
+
+Sumar capitales por riesgo sobrestima el total porque los riesgos no se materializan a la vez. La tabla recoge los métodos de agregación.
 
 ```text
 SUMA SIMPLE (conservadora, supone correlación 1)
@@ -124,6 +134,8 @@ necesita. Muchos supervisores no permiten reconocerlo para efectos regulatorios.
 
 ### 3. Asignación a unidades de negocio
 
+Repartir el capital entre unidades tiene varios métodos y ninguno es neutral. La tabla los compara.
+
 | Método | Cómo reparte | Ventaja | Limitación |
 |---|---|---|---|
 | Autónomo | Cada unidad como si fuera un banco | Simple | Suma más que el total |
@@ -143,6 +155,8 @@ EL MÉTODO IMPORTA PORQUE CAMBIA LAS DECISIONES
 ```
 
 ### 4. Retorno ajustado por riesgo
+
+El retorno ajustado compara resultado con capital consumido. El procedimiento siguiente lo calcula.
 
 ```text
                      resultado ajustado por riesgo
@@ -173,6 +187,8 @@ VALOR ECONÓMICO AÑADIDO
 
 ### 5. Del capital al precio
 
+El costo del capital consumido entra en el precio de cada operación, y ese es el vínculo con la Parte 9. El procedimiento lo establece.
+
 ```text
 TASA MÍNIMA DE UN CRÉDITO
 
@@ -197,6 +213,8 @@ del accionista al cliente sin decidirlo
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo agrega el capital de varios riesgos y lo asigna entre unidades. Conviene mirar el beneficio de diversificación: su reparto cambia qué unidad parece rentable.
 
 **Situación.** Un banco asigna capital a sus cuatro unidades y evalúa su desempeño.
 
@@ -372,6 +390,8 @@ comparables entre sí**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un precio y el banco cubre con él el costo del capital que la operación consume. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco no baja la tasa» | Tasa mínima por costo de capital | 15, clase 7 |
@@ -382,6 +402,8 @@ comparables entre sí**.
 
 ## 🧪 Práctica
 
+El laboratorio pide agregar capitales y asignar por dos métodos distintos. El orden de rentabilidad de las unidades cambia según el método, y esa es la conclusión.
+
 En `labs/lab-06.md`, sección de capital:
 
 1. Agrega capital por riesgo con y sin correlaciones y cuantifica la diversificación.
@@ -390,6 +412,8 @@ En `labs/lab-06.md`, sección de capital:
 4. Construye la tasa mínima de un producto y evalúa una operación bajo ella.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen asignaciones de capital discutidas. Las causas son métodos de reparto no acordados y beneficios de diversificación atribuidos sin criterio.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

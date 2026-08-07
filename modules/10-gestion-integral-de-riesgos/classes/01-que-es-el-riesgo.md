@@ -21,6 +21,8 @@ Establecer la base de toda la parte: qué es un riesgo, en qué se diferencia de
 problema, y quién responde por él dentro de un banco. Sin esta base, la gestión de riesgos se convierte
 en un ejercicio documental que produce informes y no decisiones.
 
+Las Partes 9 y 10 gestionan riesgos concretos sin nombrarlos como tales. Esta parte los nombra, los mide y los gobierna. Empieza por la distinción que ordena toda la disciplina: hay una pérdida que se espera y se cobra en el precio, y otra que no se espera y se cubre con capital. Confundirlas es el origen de casi todos los errores de gestión de riesgo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las medidas; los cuatro siguientes, el marco de gobierno que decide cuánto riesgo se asume. La **pérdida inesperada** es la que justifica el capital: la esperada se provisiona y se cobra, la inesperada solo se puede absorber con patrimonio.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo` | Efecto de la incertidumbre sobre los objetivos. Puede ser favorable o desfavorable. |
@@ -86,6 +90,8 @@ precio y capitalizado?** Si falta cualquiera de los cinco, hay un problema.
 
 ### 1. Riesgo, incertidumbre y problema
 
+Riesgo, incertidumbre y problema no son sinónimos, y tratarlos igual lleva a gestionar el que no toca. La tabla los separa.
+
 ```text
 PROBLEMA        ya ocurrió. Se gestiona corrigiendo.
 RIESGO          puede ocurrir, y se puede describir su distribución.
@@ -97,6 +103,8 @@ La distinción entre riesgo e incertidumbre —planteada por Knight en 1921— s
 banco que trata toda su incertidumbre como riesgo modelable termina con una falsa precisión.
 
 ### 2. Pérdida esperada y pérdida inesperada
+
+Las dos pérdidas se cubren con instrumentos distintos, y esa es la razón de la distinción. El esquema las separa.
 
 ```text
 distribución de pérdidas de una cartera
@@ -146,6 +154,8 @@ real es simple: busca la última vez que se superó un nivel de alerta y verific
 
 ### 4. Tres líneas de defensa
 
+El marco de tres líneas de la Parte 9 se formaliza aquí con sus responsabilidades e independencias. La tabla las recoge.
+
 ```text
 PRIMERA LÍNEA — quien toma el riesgo
   las áreas de negocio
@@ -187,6 +197,8 @@ El Consejo de Estabilidad Financiera identificó cuatro indicadores observables 
 grandes, alguien lo sabía y no pudo o no quiso decirlo.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo separa la pérdida esperada de la inesperada en una cartera y determina cuánto se provisiona y cuánto se capitaliza. Conviene fijarse en la cola de la distribución: es la que decide el capital.
 
 **Situación.** Un banco define su apetito de riesgo de crédito y debe verificar si es coherente.
 
@@ -297,6 +309,8 @@ La clase 3 de esta parte desarrolla su medición.
 
 ## 🏦 Del cliente al banco
 
+El cliente paga una tasa y el banco cubre con ella la pérdida esperada, mientras el accionista cubre la inesperada. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me rechazaron el crédito» | Límite de apetito o de concentración aplicado | 9, clase 6 |
@@ -307,6 +321,8 @@ La clase 3 de esta parte desarrolla su medición.
 
 ## 🧪 Práctica
 
+El laboratorio pide separar las dos pérdidas sobre una cartera sintética y determinar el capital necesario. La proporción entre ambas cambia mucho con la concentración.
+
 En `labs/lab-01.md`:
 
 1. Formula un apetito de riesgo completo con seis límites y sus niveles de alerta.
@@ -315,6 +331,8 @@ En `labs/lab-01.md`:
 4. Asigna cada control de un proceso a su línea de defensa y detecta los solapamientos.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de cubrir la pérdida inesperada con provisiones o la esperada con capital.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

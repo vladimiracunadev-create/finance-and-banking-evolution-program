@@ -21,6 +21,8 @@ Medir y gestionar la exposición de un banco a los movimientos del tipo de cambi
 más dañina y menos evidente: **el riesgo de crédito inducido por el tipo de cambio**, cuando el banco
 está calzado en su balance y sus deudores no lo están.
 
+Esta clase mide la exposición a los tipos de cambio, y su parte más importante no es la posición propia del banco, que se controla con límites. Es la que el banco tiene sin saberlo: sus deudores descalzados. Cuando la moneda se mueve, ese riesgo de mercado se convierte en riesgo de crédito.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la posición propia; los cinco siguientes, los tipos de exposición y el riesgo inducido. El **riesgo de crédito inducido** es el concepto central de la clase y el que no aparece en ningún límite de posición.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `posición neta` | Activos menos pasivos en una moneda, incluidas las posiciones fuera de balance. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `descalce del deudor` | Ingresos en una moneda, deuda en otra. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una transformación: una devaluación no golpea al banco por su posición, que está cubierta, sino a través de los deudores que ingresan en moneda local y deben en moneda extranjera. El riesgo entra por una puerta y sale por otra.
 
 ```text
 UN BANCO PUEDE ESTAR PERFECTAMENTE CALZADO
@@ -91,6 +97,8 @@ economías emergentes documentadas por el FMI y el BIS.
 ## 📖 Desarrollo
 
 ### 1. Posición por moneda
+
+La posición neta por moneda se calcula sumando activos y pasivos de esa moneda, incluidos los fuera de balance. El procedimiento siguiente lo hace.
 
 ```text
 POSICIÓN NETA EN LA MONEDA X =
@@ -130,6 +138,8 @@ porque euro y dólar no se compensan entre sí en una crisis
 
 ### 2. Tres exposiciones
 
+La exposición cambiaria tiene tres formas con horizontes y tratamientos distintos. La tabla las separa.
+
 | Exposición | Horizonte | Se cubre con | Se ve en |
 |---|---|---|---|
 | Transacción | Corto, flujos ciertos | Forward, swap | Resultado |
@@ -141,6 +151,8 @@ un negocio. Un banco cuyo país se aprecia sostenidamente pierde clientes export
 esté calzado.
 
 ### 3. Riesgo de crédito inducido
+
+El descalce de los deudores convierte un movimiento cambiario en pérdidas de crédito. El esquema muestra el mecanismo con su cuantificación.
 
 ```text
 CÓMO SE MIDE
@@ -169,6 +181,8 @@ relativo de la garantía. Ambos factores se multiplican en la pérdida esperada.
 
 ### 4. Cobertura y su costo
 
+La cobertura cambiaria tiene un costo que depende del diferencial de tasas, y a veces ese costo hace preferible no cubrir. La tabla lo recoge.
+
 | Instrumento | Qué hace | Costo |
 |---|---|---|
 | Forward | Fija el tipo de cambio de una fecha futura | Diferencial de tasas entre monedas |
@@ -193,6 +207,8 @@ vuelve a tenerlo, ahora en forma de incumplimiento y con menos instrumentos para
 
 ### 5. Dolarización y riesgo sistémico
 
+En economías dolarizadas el riesgo inducido es sistémico y no diversificable. La tabla recoge la evidencia.
+
 ```text
 ECONOMÍA PARCIALMENTE DOLARIZADA
   · los depositantes ahorran en moneda extranjera (protección)
@@ -210,6 +226,8 @@ límites de posición más estrictos, exigencia de calce del deudor, mayores pon
 créditos en moneda extranjera a deudores no generadores, y reservas internacionales adecuadas.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo mide la posición propia y el riesgo inducido ante la misma devaluación. La segunda cifra es mucho mayor que la primera, que es toda la lección.
 
 **Situación.** Un banco en una economía parcialmente dolarizada evalúa su exposición real.
 
@@ -359,6 +377,8 @@ esa es la razón por la que los supervisores de estas economías exigen medidas 
 
 ## 🏦 Del cliente al banco
 
+El cliente toma un crédito en dólares porque la tasa es menor y el banco asume un riesgo de crédito que aparece con la devaluación. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me ofrecieron crédito en dólares con tasa menor» | Riesgo trasladado al cliente | 11, clase 7 |
@@ -369,6 +389,8 @@ esa es la razón por la que los supervisores de estas economías exigen medidas 
 
 ## 🧪 Práctica
 
+El laboratorio pide medir la posición y el riesgo inducido de una cartera con deudores descalzados. La comparación entre ambos decide la política de otorgamiento en moneda extranjera.
+
 En `labs/lab-04.md`:
 
 1. Calcula la posición por moneda y la posición global neta y bruta.
@@ -377,6 +399,8 @@ En `labs/lab-04.md`:
 4. Compara el costo de cubrirse con forwards contra el costo del riesgo asumido.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas cambiarias en bancos con posición cubierta. La causa es siempre el riesgo inducido.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

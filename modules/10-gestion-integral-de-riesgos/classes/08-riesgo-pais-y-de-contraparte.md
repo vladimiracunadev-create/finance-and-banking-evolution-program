@@ -21,6 +21,8 @@ Medir dos riesgos que comparten una característica incómoda: **la exposición 
 de contraparte, la exposición depende del valor futuro de un contrato; en el riesgo país, la capacidad
 de pago del deudor depende de decisiones de un soberano sobre las que nadie tiene control.
 
+Las clases anteriores tratan riesgos dentro de una jurisdicción. Esta añade dos que aparecen al operar con otros: el del país donde está el deudor, que puede impedir el pago aunque el deudor quiera pagar, y el de la contraparte de un derivado, cuya exposición cambia todos los días.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son las capas del riesgo país; los seis siguientes, la exposición de contraparte y sus correcciones. La **correlación adversa** es la que produce las pérdidas mayores: cuando la exposición crece justo cuando la contraparte se deteriora, porque ambas cosas tienen la misma causa.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo soberano` | Que el Estado no pague su propia deuda. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `correlación adversa` | La exposición crece justo cuando la contraparte empeora. |
 
 ## 🧠 Modelo mental
+
+El modelo mental de la exposición de contraparte es que no es un número sino una película: hoy vale poco, mañana puede valer mucho, y lo que hay que capitalizar no es lo que vale hoy sino lo que puede llegar a valer antes del vencimiento.
 
 ```text
 UN CRÉDITO tiene exposición CONOCIDA: el saldo
@@ -90,6 +96,8 @@ correlacionado con el deterioro de la contraparte.
 ## 📖 Desarrollo
 
 ### 1. Las capas del riesgo país
+
+El riesgo país tiene capas que se pueden materializar por separado. La tabla las recoge.
 
 ```text
 1. SOBERANO        el Estado no paga su deuda
@@ -118,6 +126,8 @@ TECHO SOBERANO
 
 ### 2. Exposición de contraparte
 
+La exposición de un derivado tiene un componente actual y uno potencial futuro. El procedimiento siguiente los calcula.
+
 ```text
 EXPOSICIÓN AL INCUMPLIMIENTO (enfoque estandarizado)
 
@@ -142,6 +152,8 @@ EXPOSICIÓN AL INCUMPLIMIENTO (enfoque estandarizado)
 *(Factores del enfoque estandarizado vigente; verifica los aplicables.)*
 
 ### 3. Mitigación
+
+La exposición se reduce con compensación contractual y con garantías. La tabla recoge los mecanismos y su efecto.
 
 | Mecanismo | Qué reduce | Condición para reconocerlo |
 |---|---|---|
@@ -168,6 +180,8 @@ liquidador puede exigir los contratos favorables y dejar los desfavorables como 
 
 ### 4. Ajuste de valoración por crédito
 
+El ajuste por crédito lleva al precio el riesgo de que la contraparte no cumpla. El procedimiento lo calcula.
+
 ```text
 CVA = pérdida esperada por el riesgo de crédito de la contraparte
       sobre la vida del derivado
@@ -187,6 +201,8 @@ CONSECUENCIAS PRÁCTICAS
 ```
 
 ### 5. Riesgo de correlación adversa
+
+Cuando exposición y deterioro comparten causa, la mitigación falla justo cuando hace falta. La tabla recoge los casos típicos.
 
 ```text
 CORRELACIÓN ADVERSA GENERAL
@@ -211,6 +227,8 @@ CORRELACIÓN ADVERSA ESPECÍFICA
 | Repo con colateral emitido por la contraparte | Específica | Prohibido o sin reconocimiento |
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula la exposición de una cartera de derivados con y sin compensación contractual. La reducción es grande, y comprobar que el acuerdo es oponible es lo que la hace real.
 
 **Situación.** Un banco evalúa su exposición a una jurisdicción y a una contraparte financiera de ella.
 
@@ -370,6 +388,8 @@ sobre los demás riesgos: **es una condición que puede desactivar sus mitigante
 
 ## 🏦 Del cliente al banco
 
+El cliente contrata una cobertura y el banco asume una exposición que varía con el mercado. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi empresa es solvente pero no me prestan» | Techo soberano y límite de país | 11, clase 8 |
@@ -380,6 +400,8 @@ sobre los demás riesgos: **es una condición que puede desactivar sus mitigante
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la exposición de contraparte con mitigantes y detectar un caso de correlación adversa. El caso está construido para que la garantía pierda valor con el mismo evento que deteriora a la contraparte.
+
 En `labs/lab-04.md`, sección de contraparte:
 
 1. Calcula la exposición al incumplimiento de una cartera de derivados con y sin compensación.
@@ -388,6 +410,8 @@ En `labs/lab-04.md`, sección de contraparte:
 4. Evalúa qué parte de esa exposición está sujeta a riesgo de transferencia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas con contrapartes garantizadas. La causa es la correlación adversa o una compensación no oponible.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

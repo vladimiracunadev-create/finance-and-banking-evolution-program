@@ -21,6 +21,8 @@ Gestionar el riesgo de que fallen los procesos, las personas o los sistemas. Es 
 existe en todas las áreas del banco, el que produce las pérdidas individuales más grandes registradas
 y el más difícil de medir, porque sus eventos graves son raros y cada uno es distinto del anterior.
 
+Los riesgos anteriores son financieros y se modelan con series de precios. Este no: se materializa en fallos de procesos, de personas y de sistemas, produce las pérdidas más frecuentes y se mide con datos propios que casi ninguna entidad tiene completos. Esta clase construye ese aparato de medición.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los eventos y su registro; los cinco siguientes, la medición regulatoria y las herramientas de gestión. La **casi-pérdida** es el dato que más aporta y menos se registra: un evento que no produjo pérdida por casualidad revela un control que falló.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo operacional` | Pérdida por fallas de procesos, personas, sistemas o eventos externos. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `distribución de severidad` | Cómo se reparten las pérdidas por tamaño. Cola muy pesada. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una distribución con muchos eventos pequeños y muy pocos enormes. La gestión diaria se ocupa de los primeros y el capital existe por los segundos, y los datos que hacen falta para estimar los segundos casi nunca están en la propia base.
 
 ```text
 LA DISTRIBUCIÓN DEL RIESGO OPERACIONAL TIENE DOS MUNDOS
@@ -92,6 +98,8 @@ el 80 % de la PÉRDIDA está en el segundo
 
 ### 1. Las siete categorías supervisoras
 
+Las categorías supervisoras estandarizan el registro y permiten comparar. La tabla las recoge con ejemplos.
+
 | Categoría | Ejemplos |
 |---|---|
 | Fraude interno | Apropiación, operaciones no autorizadas, ocultamiento de pérdidas |
@@ -113,6 +121,8 @@ DISTRIBUCIÓN TÍPICA (bases sectoriales públicas)
 ```
 
 ### 2. Base de eventos de pérdida
+
+La base de eventos es la materia prima de todo el resto, y su calidad decide. La tabla recoge los requisitos.
 
 ```text
 QUÉ REGISTRAR
@@ -174,6 +184,8 @@ evento extremo domine el resultado. Las jurisdicciones pueden fijar el ILM en 1 
 
 ### 4. Autoevaluación e indicadores
 
+La autoevaluación mira hacia adelante donde la base de eventos mira hacia atrás. La tabla las complementa.
+
 ```text
 AUTOEVALUACIÓN DE RIESGOS Y CONTROLES — proceso
   1. mapear el proceso paso a paso
@@ -200,6 +212,8 @@ casi todos los fraudes internos prolongados requieren la presencia continua de q
 
 ### 5. Controles proporcionales
 
+Un control tiene que costar menos que el riesgo que reduce. El procedimiento siguiente lo evalúa.
+
 ```text
 JERARQUÍA DE CONTROLES (de más a menos efectivo)
   1. ELIMINAR      quitar el paso que puede fallar
@@ -222,6 +236,8 @@ PRINCIPIO DE PROPORCIONALIDAD
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el capital operacional por el método estandarizado. Conviene mirar el multiplicador de pérdidas internas: es donde la historia propia de la entidad entra en la cifra.
 
 **Situación.** Un banco analiza su base de pérdidas y decide sobre un control.
 
@@ -368,6 +384,8 @@ el riesgo está.
 
 ## 🏦 Del cliente al banco
 
+El cliente sufre un error operativo y el banco registra un evento de pérdida en su base. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me cobraron dos veces» | Evento de ejecución de procesos | 10, clase 8 |
@@ -378,6 +396,8 @@ el riesgo está.
 
 ## 🧪 Práctica
 
+El laboratorio pide clasificar eventos, calcular el capital y evaluar la proporcionalidad de tres controles. Uno de los controles cuesta más que el riesgo que cubre.
+
 En `labs/lab-05.md`, sección de operacional:
 
 1. Clasifica 30 eventos en las siete categorías supervisoras y analiza su distribución.
@@ -386,6 +406,8 @@ En `labs/lab-05.md`, sección de operacional:
 4. Evalúa dos diseños de control por su relación entre costo y pérdida esperada evitada.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen bases de eventos que no sirven para medir. Las causas son umbrales de registro altos y casi-pérdidas no registradas.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

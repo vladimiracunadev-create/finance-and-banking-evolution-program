@@ -21,6 +21,8 @@ Usar derivados para reducir riesgo, y reconocer cuándo se están usando para lo
 herramienta que permite a un banco eliminar un descalce permite acumular una posición direccional
 invisible en el balance: la diferencia está en la intención, la documentación y la medición.
 
+Las clases anteriores miden riesgos. Esta trata los instrumentos con los que se cubren, y su punto crítico no es cómo funcionan sino cuándo dejan de cubrir. Una cobertura que no cumple los requisitos de efectividad no es una cobertura: es una posición especulativa con otro nombre.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son los instrumentos; los cuatro siguientes, la relación de cobertura y su medición. La **inefectividad** es lo que hay que vigilar: una cobertura que se mueve menos o más que la partida cubierta deja una parte descubierta que sí impacta el resultado.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `forward` | Obligación de comprar o vender a un precio fijado, en una fecha futura. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `inefectividad` | Parte del movimiento que la cobertura no neutraliza. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una pareja: un instrumento de cobertura solo existe respecto de una partida cubierta concreta. Sin esa pareja documentada desde el principio, el mismo contrato es una posición direccional, y su resultado va a la cuenta de resultados sin compensar nada.
 
 ```text
 UNA COBERTURA ES UNA POSICIÓN OPUESTA A UNA QUE YA TIENES
@@ -86,6 +92,8 @@ TRES PREGUNTAS QUE DISTINGUEN UNA DE OTRA
 ## 📖 Desarrollo
 
 ### 1. Los cuatro instrumentos
+
+Los cuatro instrumentos básicos cubren necesidades distintas y tienen perfiles de pago distintos. La tabla los compara.
 
 | Instrumento | Obligación | Costo inicial | Perfil |
 |---|---|---|---|
@@ -116,6 +124,8 @@ LA ASIMETRÍA DE LA OPCIÓN TIENE PRECIO
 
 ### 2. Los tres tipos de cobertura contable
 
+La contabilidad reconoce tres tipos de cobertura con tratamientos distintos. La tabla los separa.
+
 | Tipo | Qué cubre | Dónde va el resultado |
 |---|---|---|
 | Valor razonable | Cambios de valor de un activo o pasivo reconocido | Resultado, junto con la partida |
@@ -135,6 +145,8 @@ REQUISITOS PARA APLICAR CONTABILIDAD DE COBERTURAS (NIIF 9)
 ```
 
 ### 3. Ratio de cobertura
+
+El ratio de cobertura determina qué proporción de la partida queda cubierta. El procedimiento siguiente lo calcula.
 
 ```text
 RATIO ÓPTIMO (mínima varianza)
@@ -159,6 +171,8 @@ diferencia entre ambos es lo que la cobertura no neutraliza.
 
 ### 4. Efectividad
 
+La efectividad se mide y se documenta periódicamente, no se supone. El procedimiento la evalúa.
+
 ```text
 MEDICIÓN DE EFECTIVIDAD
   cambio de valor del instrumento de cobertura
@@ -179,6 +193,8 @@ INEFECTIVIDAD = la parte que no se compensa
 
 ### 5. Cuándo una cobertura deja de serlo
 
+Hay situaciones concretas en que la relación de cobertura se rompe, con efectos contables inmediatos. La tabla las recoge.
+
 ```text
 SEÑALES DE ALERTA
   · el nocional supera la exposición real
@@ -195,6 +211,8 @@ aproximadamente opuesto al de la partida cubierta. **Un libro de coberturas que 
 cubriendo nada.**
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo documenta una relación de cobertura y mide su efectividad. Conviene fijarse en la parte inefectiva: por pequeña que sea, va directa al resultado.
 
 **Situación.** Un banco cubre el riesgo de tasa de una emisión y evalúa la efectividad.
 
@@ -330,6 +348,8 @@ que dice cubrir.
 
 ## 🏦 Del cliente al banco
 
+El cliente contrata una cobertura y el banco la registra como tal solo si cumple requisitos formales. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Me ofrecen fijar el tipo de cambio» | Forward vendido; el banco cubre su posición | 13, clase 9 |
@@ -340,6 +360,8 @@ que dice cubrir.
 
 ## 🧪 Práctica
 
+El laboratorio pide evaluar la efectividad de tres coberturas. Una de ellas no califica, y explicar por qué es el objetivo.
+
 En `labs/lab-05.md`:
 
 1. Dibuja el perfil de resultado de los cuatro instrumentos ante movimientos del subyacente.
@@ -348,6 +370,8 @@ En `labs/lab-05.md`:
 4. Evalúa tres operaciones y determina cuáles son coberturas y cuáles posiciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen coberturas que produjeron volatilidad en el resultado. Las causas son documentación insuficiente y ratios mal calculados.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

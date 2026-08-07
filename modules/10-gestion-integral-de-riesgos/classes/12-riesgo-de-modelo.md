@@ -21,6 +21,8 @@ Gestionar el riesgo de decidir mal por confiar en un modelo. Los bancos aprueban
 capital, fijan precios y detectan fraude con modelos; cuando un modelo está mal construido, mal usado o
 aplicado fuera de su dominio, el error se produce a escala industrial y en la misma dirección.
 
+Las clases anteriores usan modelos para medir riesgos. Esta trata el riesgo de que esos modelos estén mal, que es una categoría propia desde que un modelo puede decidir miles de operaciones al día. Y su parte más difícil no es técnica: es que el modelo se usa como coartada para decisiones que nadie quiere firmar.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el modelo y su control; los cinco siguientes, las formas en que deja de funcionar. La **deriva de concepto** es la más difícil de detectar: la relación entre las variables y el resultado cambia, y el modelo sigue prediciendo con confianza sobre una realidad distinta.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `modelo` | Método cuantitativo que procesa datos para producir una estimación. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `explicabilidad` | Capacidad de justificar una predicción individual. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un modelo con fecha de caducidad: todo modelo se construyó sobre una población y un contexto, y ambos cambian. La pregunta no es si el modelo es correcto sino si sigue siéndolo, y eso exige medirlo periódicamente.
 
 ```text
 TRES FUENTES DEL RIESGO DE MODELO
@@ -88,6 +94,8 @@ porque no hay nada que "corregir": todo funcionó como se diseñó
 
 ### 1. Ciclo de vida
 
+Un modelo tiene un ciclo con etapas y controles en cada una. La tabla lo recorre.
+
 ```text
 1. DEFINICIÓN      ¿qué decisión apoya? ¿qué se estima exactamente?
 2. DATOS           origen, calidad, representatividad, linaje
@@ -107,6 +115,8 @@ produce decisiones incorrectas indistinguibles de un modelo incorrecto. La verif
 —recalcular una muestra con dos implantaciones independientes— es barata y detecta este caso.
 
 ### 2. Validación independiente
+
+La validación la hace quien no construyó el modelo, y revisa cosas concretas. La tabla las recoge.
 
 | Componente | Qué revisa | Pregunta central |
 |---|---|---|
@@ -128,6 +138,8 @@ si el validador no puede decir "no", no está validando
 ```
 
 ### 3. Medidas de desempeño
+
+El desempeño se mide con métricas de discriminación y de calibración, que dicen cosas distintas. La tabla las separa.
 
 ```text
 DISCRIMINACIÓN — ¿separa buenos de malos?
@@ -157,6 +169,8 @@ DISTINCIÓN CLAVE
 
 ### 4. Riesgos específicos del aprendizaje automático
 
+Los modelos de aprendizaje automático añaden riesgos que los tradicionales no tienen. La tabla los recoge.
+
 | Riesgo | Por qué es mayor aquí | Mitigación |
 |---|---|---|
 | Sobreajuste | Muchos parámetros, alta flexibilidad | Validación cruzada, muestra fuera de tiempo |
@@ -180,6 +194,8 @@ LA FUGA DE INFORMACIÓN es el error más común y menos detectado
 
 ### 5. Uso: anulaciones y el modelo como coartada
 
+El mayor riesgo de modelo suele estar en su uso y no en su construcción. La tabla recoge los patrones.
+
 ```text
 ANULACIÓN (override)
   el analista decide distinto de lo que el modelo recomienda
@@ -200,6 +216,8 @@ una renuncia a la responsabilidad. El marco de gestión de modelos existe, entre
 mantener identificable a la persona que responde por cada decisión.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo detecta una deriva en un modelo en producción. Conviene comparar la deriva de población con la de concepto: la primera es visible y la segunda no.
 
 **Situación.** Un modelo de admisión de créditos de consumo se deteriora y se investiga.
 
@@ -356,6 +374,8 @@ el riesgo de modelo en estado puro: la falla no está en la estadística, está 
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe una decisión de un modelo y el banco responde por ella. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El sistema me rechazó y nadie me explica» | Explicabilidad y derecho a revisión | 14, clase 11 |
@@ -366,6 +386,8 @@ el riesgo de modelo en estado puro: la falla no está en la estadística, está 
 
 ## 🧪 Práctica
 
+El laboratorio pide validar un modelo y detectar su deriva. El modelo mantiene su discriminación y ha perdido calibración, que es el caso difícil.
+
 En `labs/lab-06.md`, sección de modelos:
 
 1. Ejecuta una validación independiente sobre un modelo sintético con sus seis componentes.
@@ -374,6 +396,8 @@ En `labs/lab-06.md`, sección de modelos:
 4. Documenta el dominio de aplicación de un modelo y las condiciones que lo invalidan.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen modelos que fallaron en producción. Las causas son deriva no vigilada y uso fuera del dominio de aplicación.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

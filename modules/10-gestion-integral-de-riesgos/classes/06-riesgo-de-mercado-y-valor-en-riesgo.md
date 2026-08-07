@@ -20,6 +20,8 @@ status: complete
 Medir cuánto puede perder una cartera de negociación en un día malo, y entender por qué la medida más
 usada del sector —el valor en riesgo— es útil, insuficiente y peligrosa si se interpreta mal.
 
+Las clases anteriores miden el balance. Esta mide las posiciones que se negocian, y presenta la medida más usada y más criticada de la gestión de riesgo. La clase la enseña completa y también sus límites, porque su uso sin entenderlos es lo que produjo varias de las pérdidas más grandes de la historia bancaria.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -54,6 +56,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la medida y sus parámetros; los cuatro siguientes, su verificación y sus problemas. El **déficit esperado** es la respuesta al problema principal: promedia las pérdidas de la cola en vez de ignorarlas, y por eso reemplazó al valor en riesgo en la norma.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `valor en riesgo` | Pérdida que no se superará con probabilidad p en un horizonte h. |
@@ -66,6 +70,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `estrés` | Escenario extremo definido, no derivado de la distribución histórica. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una frase incómoda: el valor en riesgo dice cuánto se pierde en el peor día de cada cien, y no dice nada sobre cuánto se pierde en ese uno por ciento restante. Todo lo que importa de verdad está en la parte que la medida no cubre.
 
 ```text
 EL VALOR EN RIESGO RESPONDE:
@@ -84,6 +90,8 @@ deja abierta.
 ## 📖 Desarrollo
 
 ### 1. Los tres métodos
+
+Hay tres formas de calcular el valor en riesgo y dan resultados distintos sobre la misma cartera. La tabla las compara.
 
 | Método | Cómo funciona | Ventaja | Limitación |
 |---|---|---|---|
@@ -110,6 +118,8 @@ HISTÓRICO
 ```
 
 ### 2. Por qué el déficit esperado lo reemplazó
+
+El valor en riesgo tiene dos defectos teóricos con consecuencias prácticas. El esquema los muestra.
 
 ```text
 DOS CARTERAS, MISMO VaR al 99 %
@@ -145,6 +155,8 @@ incentivos perversos para fragmentar posiciones.
 
 ### 3. Prueba retrospectiva
 
+La prueba retrospectiva compara las pérdidas observadas con las predichas y es lo que valida el modelo. El procedimiento siguiente la ejecuta.
+
 ```text
 COMPARAR cada día:
   pérdida real del día  vs.  VaR predicho el día anterior
@@ -174,6 +186,8 @@ volatilidad se agrupa y el modelo no lo captura.
 
 ### 4. Lo que ninguna medida estadística ve
 
+Hay riesgos que no aparecen en ninguna serie histórica y por eso ninguna medida estadística los captura. La tabla los recoge.
+
 ```text
 · eventos sin precedente en la ventana histórica
 · quiebres de correlación (todo cae junto)
@@ -196,6 +210,8 @@ un escenario dado, pregunta qué tendría que pasar para que la pérdida sea int
 qué tan lejano es eso realmente.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula el valor en riesgo por los tres métodos y el déficit esperado. La diferencia entre las cifras es grande, y elegir cuál se reporta es una decisión con consecuencias.
 
 **Situación.** Una mesa mide su riesgo y el comité evalúa si la medición es confiable.
 
@@ -359,6 +375,8 @@ modelo con la realidad, y por eso es el control más importante de toda la clase
 
 ## 🏦 Del cliente al banco
 
+El cliente compra un producto y el banco mide la pérdida potencial de su posición. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Mi fondo perdió más de lo que decía el folleto» | Límite del valor en riesgo como medida | 8, clase 12 |
@@ -369,6 +387,8 @@ modelo con la realidad, y por eso es el control más importante de toda la clase
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular las medidas y ejecutar la prueba retrospectiva. El modelo propuesto tiene más excepciones de las admisibles, y explicar por qué es el objetivo.
+
 En `labs/lab-03.md`, sección de mercado:
 
 1. Calcula el valor en riesgo paramétrico de una cartera con matriz de correlaciones.
@@ -377,6 +397,8 @@ En `labs/lab-03.md`, sección de mercado:
 4. Diseña un escenario de estrés y un escenario inverso para la cartera.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen pérdidas muy superiores a las modeladas. Las causas son el uso del valor en riesgo sin estrés y series históricas sin episodios adversos.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

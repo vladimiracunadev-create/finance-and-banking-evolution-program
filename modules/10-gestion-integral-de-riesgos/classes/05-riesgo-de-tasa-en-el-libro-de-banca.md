@@ -21,6 +21,8 @@ Medir y gestionar el efecto de los movimientos de tasas sobre el balance estruct
 riesgo más grande que no aparece en el estado de resultados hasta que ya ocurrió, y el que puede
 destruir el patrimonio económico de un banco que muestra utilidades.
 
+Esta clase mide lo que ocurre cuando cambian las tasas, que para un banco es doblemente grave: cambia lo que gana este año y cambia el valor de todo su balance. Las dos cosas se miden por separado y pueden apuntar en direcciones opuestas, y esa contradicción es el centro de la clase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son las fuentes del riesgo; los cuatro siguientes, las dos medidas y su marco. El **riesgo de opcionalidad** es el que más sorprende: los clientes prepagan cuando conviene prepagar y retiran cuando conviene retirar, y esa opción es gratuita para ellos y cara para el banco.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `riesgo de repreciación` | Diferencia de fechas en que activos y pasivos ajustan su tasa. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `escenario estandarizado` | Los seis choques de tasa que el marco supervisor exige aplicar. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es una balanza con dos platillos que no se pueden equilibrar a la vez: proteger el margen del año exige una estructura de plazos, y proteger el valor económico del patrimonio exige otra. Elegir cuál se protege es una decisión del comité, no un cálculo.
 
 ```text
 DOS FORMAS DE MIRAR EL MISMO RIESGO
@@ -87,6 +93,8 @@ direcciones opuestas.
 ## 📖 Desarrollo
 
 ### 1. Las cuatro fuentes
+
+El riesgo de tasa tiene cuatro orígenes distintos y cada uno exige una medición propia. La tabla los recoge.
 
 ```text
 1. REPRECIACIÓN   activos y pasivos ajustan tasa en momentos distintos
@@ -114,6 +122,8 @@ neutrales subestima la exposición.
 
 ### 2. Sensibilidad del margen
 
+La sensibilidad del margen mide el efecto sobre el resultado de los próximos doce meses. El procedimiento siguiente la calcula.
+
 ```text
 BRECHA DE REPRECIACIÓN por tramo temporal
 
@@ -132,6 +142,8 @@ BRECHA DE REPRECIACIÓN por tramo temporal
 todo su descalce más allá de 12 meses mostrará sensibilidad cero del margen y una exposición enorme.
 
 ### 3. Sensibilidad del valor económico
+
+La sensibilidad del valor económico mide el efecto sobre el valor presente de todo el balance. El procedimiento la calcula, y usa la duración de la Parte 7.
 
 ```text
 VALOR ECONÓMICO = VP(activos) − VP(pasivos)
@@ -178,6 +190,8 @@ CRITERIO DE ATENCIÓN SUPERVISORA
 
 ### 5. Depósitos sin vencimiento: el problema central
 
+Los depósitos a la vista no tienen vencimiento contractual y sí tienen un comportamiento estimable, y de esa estimación depende todo el cálculo. El esquema plantea el problema.
+
 ```text
 un depósito a la vista no tiene fecha de repreciación contractual
 pero SÍ tiene comportamiento de repreciación
@@ -209,6 +223,8 @@ EL SUPUESTO QUE MÁS PESA: la vida media de los depósitos a la vista
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo calcula las dos sensibilidades del mismo balance ante el mismo movimiento de tasas. Los signos son opuestos, y esa es exactamente la contradicción que el comité tiene que resolver.
 
 **Situación.** Un banco mide su exposición con ambas métricas y obtiene señales contradictorias.
 
@@ -350,6 +366,8 @@ un tercio de la exposición: **la parte más importante del modelo no es la fór
 
 ## 🏦 Del cliente al banco
 
+El cliente ve su tasa y el banco ve la diferencia entre la velocidad de repreciación de sus activos y la de sus pasivos. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «Prepagué mi hipotecario cuando bajaron las tasas» | Riesgo de opcionalidad | 11, clase 5 |
@@ -360,6 +378,8 @@ un tercio de la exposición: **la parte más importante del modelo no es la fór
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular ambas sensibilidades y proponer una cobertura. La cobertura que protege una medida empeora la otra, y justificar la elección es el ejercicio.
+
 En `labs/lab-03.md`:
 
 1. Construye la brecha de repreciación por tramos y calcula la sensibilidad del margen.
@@ -368,6 +388,8 @@ En `labs/lab-03.md`:
 4. Somete el supuesto de vida media de los depósitos a un análisis de sensibilidad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen bancos que se protegieron de un riesgo y quedaron expuestos al otro. La causa es haber medido solo una de las dos sensibilidades.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

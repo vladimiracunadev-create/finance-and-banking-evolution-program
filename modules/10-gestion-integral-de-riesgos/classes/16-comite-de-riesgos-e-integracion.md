@@ -21,6 +21,8 @@ Cerrar la parte convirtiendo quince mediciones separadas en una sola decisión d
 tiene un riesgo de crédito y un riesgo de liquidez y un riesgo operacional: tiene **un balance** que los
 sufre todos a la vez. Esta clase construye el proceso que integra la medición y produce decisiones.
 
+Esta clase cierra la parte reuniendo los quince riesgos anteriores en un solo gobierno. Y su aportación es la que ninguna clase individual podía dar: los riesgos interactúan, y las crisis reales no son un riesgo grande sino varios medianos que se activan juntos por la misma causa.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son los órganos de gobierno; los cinco siguientes, sus instrumentos y su cultura. La **interacción de riesgos** es el concepto que justifica la clase: es lo que ninguna medición individual captura y lo que produce las crisis.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `comité de riesgos del directorio` | Órgano de gobierno que aprueba el marco y vigila su aplicación. |
@@ -67,6 +71,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 | `declaración de apetito` | Documento que declara y limita el riesgo asumible. |
 
 ## 🧠 Modelo mental
+
+El modelo mental es un tablero único: cada riesgo tiene su métrica y su límite, y lo que decide es mirarlos a la vez bajo un mismo escenario. Un banco puede estar dentro de todos sus límites por separado y no sobrevivir al escenario que los activa todos.
 
 ```text
 UN COMITÉ DE RIESGOS EFECTIVO SE RECONOCE POR UNA SOLA COSA:
@@ -85,6 +91,8 @@ PRUEBA VERIFICABLE
 ## 📖 Desarrollo
 
 ### 1. Estructura de gobierno
+
+El gobierno del riesgo se reparte entre órganos con composiciones e independencias distintas. La tabla los recoge.
 
 ```text
 DIRECTORIO
@@ -113,6 +121,8 @@ información sobre el riesgo llega al órgano de gobierno filtrada por quienes l
 
 ### 2. Tablero integrado
 
+El tablero reúne las métricas de todos los riesgos con sus límites y su tendencia. La tabla muestra su forma.
+
 | Dimensión | Métrica | Límite | Alerta | Actual | Tendencia |
 |---|---|---:|---:|---:|:---:|
 | Solvencia | Capital nivel 1 ordinario | 12,0 % | 12,8 % | 13,0 % | ↓ |
@@ -140,6 +150,8 @@ REGLAS DE LECTURA
 
 ### 3. Escalamiento
 
+Cuando una métrica se acerca a su límite hay un procedimiento de escalamiento con plazos. La tabla lo recoge.
+
 ```text
 NIVEL 1  dentro de límites, sin alerta
          → reporte periódico
@@ -162,6 +174,8 @@ NIVEL 4  exceso material o repetido
 que llega cuando ya no puede cambiar nada.
 
 ### 4. Integración en un escenario único
+
+Someter todos los riesgos al mismo escenario es lo que revela las interacciones. El procedimiento siguiente lo hace.
 
 ```text
 LA PRÁCTICA HABITUAL: cada riesgo con su prueba de estrés
@@ -187,6 +201,8 @@ LA PRÁCTICA CORRECTA: un escenario, todos los riesgos
 
 ### 5. Remuneración y cultura
 
+Los incentivos determinan el riesgo que se asume más que cualquier política escrita. La tabla recoge los mecanismos de ajuste.
+
 ```text
 PRINCIPIOS DE REMUNERACIÓN COHERENTES CON EL RIESGO
   · una porción variable significativa DIFERIDA en el tiempo
@@ -207,6 +223,8 @@ LA PRUEBA DE LA CULTURA
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo somete todos los riesgos de un banco a un escenario único. Conviene mirar qué métricas se activan a la vez: eso es lo que ninguna medición individual mostraba.
 
 **Situación.** El comité de riesgos recibe el tablero del trimestre y debe decidir.
 
@@ -374,6 +392,8 @@ forma en que la organización decide**.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un banco y el directorio ve un tablero con quince riesgos que interactúan. La tabla enfrenta las dos lecturas.
+
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
 | «El banco dejó de dar hipotecarios» | Límite de concentración alcanzado | 11, clase 16 |
@@ -384,6 +404,8 @@ forma en que la organización decide**.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el tablero integrado y someterlo a un escenario. El banco cumple todos los límites por separado y falla en el escenario conjunto.
+
 En `labs/lab-06.md`, sección de integración:
 
 1. Construye el tablero integrado de un banco sintético con límites y alertas.
@@ -392,6 +414,8 @@ En `labs/lab-06.md`, sección de integración:
 4. Diseña un escenario integrado y traza las interacciones entre riesgos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen crisis en bancos que cumplían sus límites. La causa es la interacción de riesgos no evaluada.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
