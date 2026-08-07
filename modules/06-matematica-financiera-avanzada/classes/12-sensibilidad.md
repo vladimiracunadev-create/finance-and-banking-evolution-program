@@ -22,6 +22,8 @@ análisis de sensibilidad responde la pregunta que un comité siempre hace: **¿
 para que esta decisión fuera equivocada?** Esta clase entrega las cuatro técnicas y el criterio para
 presentar sus resultados.
 
+Todos los cálculos anteriores dependen de supuestos. Esta clase mide de cuáles depende de verdad el resultado, que casi nunca son los que más se discuten. Un análisis de sensibilidad bien hecho reordena las prioridades de la discusión antes de que empiece.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos son las técnicas y su representación; los tres siguientes, lo que se obtiene de ellas. El **valor de equilibrio** es el resultado más comunicable: decir a partir de qué precio el proyecto deja de tener sentido es más útil que cualquier tabla de escenarios.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -122,6 +126,8 @@ las tres primeras variables explican la mayor parte de la incertidumbre
 
 ### 3. Valores de equilibrio y margen de seguridad
 
+El valor de equilibrio de cada variable indica cuánto puede moverse antes de que la decisión cambie. El procedimiento siguiente lo obtiene.
+
 ```text
 valor de equilibrio = valor de la variable que hace VAN = 0
 margen de seguridad = (valor base − valor de equilibrio)/valor base
@@ -184,6 +190,8 @@ elasticidad = (%Δ VAN)/(%Δ variable)
 métrica hace comparables variables medidas en unidades, en pesos y en porcentaje.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye la sensibilidad univariante y el diagrama de tornado de un proyecto. Conviene mirar el orden del tornado: casi nunca coincide con el orden de las variables que más se discutieron.
 
 **Situación.** Un banco evalúa el financiamiento de un proyecto agroindustrial por 2 400 millones. El
 comité pide el análisis de sensibilidad antes de decidir.
@@ -289,6 +297,8 @@ aprobación condicionada con cinco mitigantes concretos.
 
 ## 🏦 Del cliente al banco
 
+El cliente presenta un caso base y el banco pregunta a partir de qué punto deja de funcionar. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Variables críticas | Foco del análisis de crédito | 9, clase 9 |
@@ -299,6 +309,8 @@ aprobación condicionada con cinco mitigantes concretos.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el tornado de un proyecto y calcular los valores de equilibrio. El resultado suele mostrar que la variable dominante no era la esperada.
+
 En `labs/lab-06.md`, sección de sensibilidad:
 
 1. Construye el análisis univariante de un proyecto con rangos realistas justificados.
@@ -307,6 +319,8 @@ En `labs/lab-06.md`, sección de sensibilidad:
 4. Construye una tabla bivariante y traza la frontera de viabilidad.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen análisis de sensibilidad que no informan. Las causas son rangos elegidos sin criterio o variables movidas en proporciones incomparables.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

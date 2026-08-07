@@ -22,6 +22,8 @@ misma frecuencia que la tasa cotizada. Un crédito con cuotas trimestrales y tas
 arrendamiento con pagos irregulares, un bono con cupones semestrales y tasa anual. Esta clase entrega
 el procedimiento sistemático para resolver cualquiera de esos casos.
 
+Las dos clases anteriores convierten tasas. Esta trata el problema que aparece cuando la periodicidad de la tasa y la del flujo no coinciden, que es la situación normal en la práctica y la que produce errores silenciosos: el resultado sale, es plausible y está mal.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los tres primeros términos nombran el problema y los tres últimos, las herramientas para resolverlo. La **desalineación** es el diagnóstico que hay que saber hacer: antes de cualquier cálculo con flujos, se comprueba que tasa y flujo hablan de la misma unidad de tiempo.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -295,6 +299,8 @@ valor del equipo, hay un error en alguna conversión.
 
 ## 🏦 Del cliente al banco
 
+El cliente recibe un calendario de pagos y el banco trabaja con su periodo de devengo. La tabla enfrenta las dos lecturas y explica de dónde vienen las diferencias de céntimos que a veces aparecen.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Conversión de periodicidad | Estructuración de operaciones | 13, clase 8 |
@@ -305,6 +311,8 @@ valor del equipo, hay un error en alguna conversión.
 
 ## 🧪 Práctica
 
+El laboratorio pide resolver el mismo caso alineando por dos caminos distintos y comprobar que coinciden. Que coincidan es la verificación de que la conversión se hizo bien.
+
 En `labs/lab-02.md`:
 
 1. Resuelve seis casos de desalineación de periodicidades con el procedimiento de tres pasos.
@@ -313,6 +321,8 @@ En `labs/lab-02.md`:
 4. Estructura una operación de leasing completa con verificación por valor presente.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen resultados plausibles y equivocados. La causa es siempre la misma: se operó sin alinear las periodicidades.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

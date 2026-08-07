@@ -22,6 +22,8 @@ incorpore análisis de riesgo y produzca un informe defendible ante un comité. 
 técnico más exigente del programa hasta este punto y el insumo directo de la evaluación crediticia de
 la Parte 9 y de las finanzas corporativas de la Parte 13.
 
+Esta clase cierra la parte construyendo un motor que aplica las catorce anteriores y produce un informe defendible ante un comité. No introduce técnica nueva: introduce la exigencia de declarar las limitaciones, que es lo que un comité pregunta primero y lo que más credibilidad da.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son el entregable y su validación; los dos últimos, lo que se evalúa en la defensa. La **limitación declarada** es la pieza central: un motor que no dice qué no puede valorar se usará para valorar eso.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `motor de valoración` | Herramienta que transforma supuestos en criterios de decisión con su análisis de riesgo. |
@@ -83,6 +87,8 @@ herramienta de decisión.
 
 ### 1. Requisitos funcionales
 
+Los requisitos se escriben antes y se convierten en casos de prueba. La tabla los recoge.
+
 | # | Requisito | Entrada | Salida |
 |---:|---|---|---|
 | 1 | Construir flujo de caja libre | Supuestos operativos, inversión, impuestos, capital de trabajo | Serie de FCF |
@@ -109,6 +115,8 @@ Requisitos transversales:
 
 ### 2. Arquitectura
 
+La separación entre cálculo, supuestos y presentación es lo que permite auditar cada capa por separado. El esquema la muestra.
+
 ```text
 apps/valuation_engine/
   models.py         Supuestos, Resultado, Escenario (dataclasses)
@@ -132,6 +140,8 @@ portfolio/parte-07/clase-15/
 ```
 
 ### 3. Implementación de referencia
+
+Las funciones necesarias existen parcialmente en el repositorio y hay que completarlas. La lista indica cuáles.
 
 ```python
 from dataclasses import dataclass
@@ -182,6 +192,8 @@ def payback_descontado(flujos: list[float], tasa: float) -> float | None:
 
 ### 4. El informe de comité
 
+El informe tiene un formato fijo de una página con los supuestos al frente. La tabla lo recoge.
+
 ```text
 EVALUACIÓN DE PROYECTO — Ampliación de capacidad planta norte
 Fecha: 2026-08-05 · Analista: [nombre] · Versión del modelo: 2.1
@@ -228,6 +240,8 @@ cubre está afirmando implícitamente que lo cubre todo.**
 
 ### 5. Casos de validación
 
+La validación compara el motor con casos resueltos a mano en las clases anteriores. La tabla los enumera.
+
 ```text
 Caso 1 — VAN con flujos constantes (verificado a mano)
   I₀ = 100 000 · FCF = 25 000 × 6 años · k = 10 %
@@ -258,6 +272,8 @@ Caso 6 — simulación converge
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo recorre la construcción completa y la defensa del resultado. Conviene fijarse en las preguntas de la defensa: casi todas apuntan a los supuestos y no al cálculo.
 
 **Situación de defensa.** El comité formula tres preguntas sobre tu motor.
 
@@ -320,6 +336,8 @@ cada indicador, graduando la confianza de cada supuesto y declarando lo que no s
 
 ## 🏦 Del cliente al banco
 
+El analista entrega una valoración y el comité pregunta de qué depende. La tabla enfrenta las dos lecturas.
+
 | Componente del motor | Equivalente profesional | Parte |
 |---|---|---|
 | Flujo de caja libre | Base del análisis de crédito comercial | 13, clase 3 |
@@ -338,6 +356,8 @@ Este proyecto es la práctica. Trabaja en `project/README.md` de esta parte.
 4. Prepara la defensa de tres decisiones de diseño con sus limitaciones.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen en la defensa. Casi todos se evitan declarando las limitaciones y presentando el resultado como rango.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

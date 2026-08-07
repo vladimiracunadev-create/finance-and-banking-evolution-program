@@ -22,6 +22,8 @@ capturan combinaciones coherentes de supuestos; la simulación de Monte Carlo en
 del resultado. Ambas técnicas responden preguntas que la sensibilidad no puede: **¿cuál es la
 probabilidad de perder?** y **¿cuánto se puede perder en el peor caso razonable?**
 
+La sensibilidad de la clase anterior mueve una variable cada vez. En la realidad las variables se mueven juntas y correlacionadas, y esta clase modela eso: primero con escenarios coherentes y después con simulación, que produce una distribución del resultado en vez de una cifra.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el escenario y su exigencia; los cinco siguientes, la simulación y su lectura. La **coherencia interna** es lo que separa un escenario de una lista de supuestos pesimistas: si un escenario supone recesión y a la vez inflación de costos alta, hay que justificar por qué ocurren juntas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `escenario` | Conjunto coherente de valores de todas las variables. No es mover una sola. |
@@ -83,6 +87,8 @@ de entrada.
 ## 📖 Desarrollo
 
 ### 1. Construir escenarios coherentes
+
+Un escenario se construye desde una narrativa y no desde una tabla de porcentajes. El procedimiento siguiente lo estructura.
 
 ```text
 ✗ INCOHERENTE
@@ -112,6 +118,8 @@ Escenarios típicos de un proyecto:
 
 ### 2. Valor esperado y dispersión
 
+Con probabilidades asignadas, los escenarios producen un valor esperado y una dispersión. El cálculo siguiente los obtiene.
+
 ```text
 E[VAN] = Σ p_i × VAN_i
        = 0,20 × (−78 400) + 0,55 × 42 000 + 0,25 × 136 900
@@ -136,6 +144,8 @@ Dos lecturas:
 ```
 
 ### 3. Simulación de Monte Carlo
+
+La simulación repite el cálculo miles de veces con valores extraídos de distribuciones. El procedimiento siguiente la plantea con sus decisiones de diseño.
 
 ```text
 PROCEDIMIENTO
@@ -220,6 +230,8 @@ Lo que la distribución aporta y los escenarios no:
 ```
 
 ### 5. Límites y errores
+
+La simulación produce cifras precisas a partir de supuestos que no lo son, y eso induce a confiar de más. La tabla recoge sus límites.
 
 | Error | Efecto | Corrección |
 |---|---|---|
@@ -344,6 +356,8 @@ de mirar la distribución completa en lugar de tres puntos.
 
 ## 🏦 Del cliente al banco
 
+El cliente presenta un caso base y el banco exige el escenario adverso. La tabla enfrenta las dos lecturas, y esa exigencia es la que la Parte 11 formaliza como prueba de estrés.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Escenarios coherentes | Pruebas de estrés regulatorias | 11, clase 13 |
@@ -354,6 +368,8 @@ de mirar la distribución completa en lugar de tres puntos.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir tres escenarios coherentes y una simulación sobre el mismo proyecto. Comparar la distribución con los tres escenarios muestra qué aporta cada técnica.
+
 En `labs/lab-06.md`, sección de simulación:
 
 1. Construye tres escenarios coherentes con narrativa económica y probabilidades.
@@ -362,6 +378,8 @@ En `labs/lab-06.md`, sección de simulación:
 4. Compara los resultados con y sin correlación, y cuantifica la diferencia.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen simulaciones que dan falsa confianza. Las causas son correlaciones ignoradas y distribuciones elegidas por comodidad.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -22,6 +22,8 @@ malinterpretado. La TIR es intuitiva, comunicable y tiene tres problemas estruct
 invertir una decisión. Esta clase enseña a calcularla, a reconocer cuándo falla y a usar la TIR
 modificada cuando corresponde.
 
+El VAN de la clase anterior da una cifra en dinero. La TIR da un porcentaje, que se comunica mejor y por eso se usa más. Esta clase la calcula y, sobre todo, delimita sus tres problemas conocidos, porque usarla sin conocerlos lleva a ordenar mal los proyectos.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los dos primeros términos son el indicador y su regla; los cinco siguientes, sus problemas y sus correcciones. La **TIR modificada** es la respuesta al más grave de ellos: la TIR supone que los flujos se reinvierten a la propia TIR, que casi nunca es realista.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `TIR` | Tasa que hace `VAN = 0`. Rendimiento implícito del proyecto. |
@@ -81,6 +85,8 @@ es convencional o cuando se comparan proyectos entre sí.
 ## 📖 Desarrollo
 
 ### 1. Cálculo por iteración
+
+La TIR no tiene solución cerrada y se obtiene por aproximaciones sucesivas. El procedimiento siguiente converge en pocas iteraciones y sirve para hacerlo a mano.
 
 ```text
 se busca r tal que:  Σ FCF_t/(1+r)^t = 0
@@ -131,6 +137,8 @@ En estos casos se decide por VAN, que siempre tiene un único valor para una tas
 
 ### 3. Problema 2 — supuesto de reinversión
 
+La TIR supone algo que rara vez se cumple, y ese supuesto la infla. El esquema muestra el mecanismo.
+
 ```text
 la TIR supone implícitamente que los flujos intermedios
 se reinvierten a la propia TIR hasta el final del proyecto
@@ -146,6 +154,8 @@ El efecto es que **la TIR sobrestima el rendimiento efectivo** de proyectos con 
 tasa de descuento. Cuanto mayor la brecha, mayor la sobrestimación.
 
 ### 4. Problema 3 — escala y orden
+
+Dos proyectos de tamaños distintos pueden ordenarse al revés por TIR y por VAN. El contraste siguiente lo muestra.
 
 ```text
 Proyecto A: −10 000, +14 000        TIR = 40,0 %, VAN al 10 % = +2 727
@@ -170,6 +180,8 @@ para k > 23,33 % → A es mejor por VAN
 ```
 
 ### 5. TIR modificada
+
+La TIRM corrige el supuesto de reinversión usando una tasa realista. El procedimiento la calcula.
 
 ```text
 TIRM = [VF de las entradas a la tasa de reinversión / VP de las salidas a la tasa de financiamiento]^(1/n) − 1
@@ -292,6 +304,8 @@ capital.** Y la TIRM aporta el matiz de cuánto de la TIR reportada es real.
 
 ## 🏦 Del cliente al banco
 
+El cliente presenta una TIR y el banco comprueba la escala y el supuesto de reinversión. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | TIR | Rendimiento de una operación de crédito | 3, clase 13 |
@@ -302,6 +316,8 @@ capital.** Y la TIRM aporta el matiz de cuánto de la TIR reportada es real.
 
 ## 🧪 Práctica
 
+El laboratorio pide ordenar proyectos por TIR y por VAN y explicar la discrepancia. La discrepancia está construida a propósito, y explicarla es el objetivo.
+
 En `labs/lab-05.md`:
 
 1. Calcula la TIR de cinco proyectos por bisección y verifica cada resultado.
@@ -310,6 +326,8 @@ En `labs/lab-05.md`:
 4. Resuelve un caso de asignación de capital donde TIR y VAN ordenan distinto.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones de inversión mal ordenadas. Las causas son los tres problemas de la TIR, y cada uno tiene su corrección.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

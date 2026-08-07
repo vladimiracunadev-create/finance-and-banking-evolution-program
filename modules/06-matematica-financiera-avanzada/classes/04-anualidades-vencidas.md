@@ -22,6 +22,8 @@ periodo. Créditos, arriendos, sueldos, seguros y bonos con cupón fijo son anua
 clase deriva sus fórmulas, muestra sus cuatro despejes y las aplica a los cálculos que se usan a
 diario.
 
+La Parte 1 usó la fórmula de la cuota sin derivarla. Esta la deriva y la generaliza, porque de esa generalización salen los casos que aparecen en la práctica: pagos diferidos, pagos que crecen y valoración de flujos regulares de cualquier tipo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la anualidad y sus dos factores; los tres siguientes, sus variantes y la relación que las une. Los **factores** son lo operativo: una vez tabulados, resuelven cualquier problema de la clase sin volver a la fórmula.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `anualidad vencida` | Serie de pagos iguales al **final** de cada periodo. Es la convención por defecto. |
@@ -86,6 +90,8 @@ falta, se resta; si hay crecimiento, cambia la razón de la progresión.
 
 ### 1. Derivación
 
+La fórmula de la anualidad no se memoriza: sale de sumar una progresión geométrica de valores presentes. La derivación siguiente lo muestra, y verla una vez evita confundir las variantes después.
+
 ```text
 VP = A Σ(t=1 a n) (1+i)^-t
 ```
@@ -114,6 +120,8 @@ VF = VP × (1+i)^n
 
 ### 2. Los cuatro despejes
 
+Con cuatro variables y una ecuación hay cuatro despejes, y en la práctica se usan todos. El esquema los recoge juntos.
+
 ```text
 VP  = A × [1 − (1+i)^-n]/i
 A   = VP × i / [1 − (1+i)^-n]
@@ -137,6 +145,8 @@ i:  VP = 5 000 000 · A = 180 000 · n = 34  →  por iteración: i = 1,2000 %
 ```
 
 ### 3. Anualidad diferida
+
+Cuando los pagos empiezan después de un periodo de espera, la fórmula sigue sirviendo con un ajuste. El esquema muestra cuál y por qué.
 
 ```text
 VP = A × a(n,i) × (1+i)^-k
@@ -205,6 +215,8 @@ La regla general: **cada tramo se valora como anualidad independiente y se descu
 tramo, luego se trae a hoy**.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo resuelve los cuatro despejes sobre el mismo contrato. Conviene comprobar el último contra el primero: si el circuito cierra, la fórmula se está usando bien.
 
 **Situación.** Un banco estructura un crédito de capital de trabajo para una empresa con estacionalidad
 marcada.
@@ -278,6 +290,8 @@ calcularlo es exactamente lo que esta clase permite.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una cuota y el banco valora una serie de flujos. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Anualidad vencida | Cuota de todo crédito de cuotas iguales | 1, clase 11 |
@@ -288,6 +302,8 @@ calcularlo es exactamente lo que esta clase permite.
 
 ## 🧪 Práctica
 
+El laboratorio pide resolver anualidades vencidas, diferidas y crecientes sobre el mismo capital. Comparar los tres resultados muestra cuánto vale cada estructura.
+
 En `labs/lab-02.md`, sección de anualidades:
 
 1. Deriva la fórmula de valor presente a partir de la suma de la progresión.
@@ -296,6 +312,8 @@ En `labs/lab-02.md`, sección de anualidades:
 4. Estructura un crédito con tramos de cuota distinta y verifica con la tabla completa.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen valoraciones que no cuadran con la intuición. Las causas están en el momento del primer pago y en el periodo de diferimiento.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

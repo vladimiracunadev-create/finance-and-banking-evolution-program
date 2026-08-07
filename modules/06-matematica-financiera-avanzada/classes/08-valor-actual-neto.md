@@ -22,6 +22,8 @@ regla es simple —aceptar si es positivo— y su aplicación correcta exige rig
 descuidan sistemáticamente: qué flujos incluir, qué tasa usar y cómo comparar proyectos de distinta
 escala o duración.
 
+Las siete clases anteriores valoran instrumentos con flujos conocidos. Esta pasa a decidir sobre proyectos, y lo difícil deja de ser la aritmética: está en decidir qué flujos entran en el cálculo. La fórmula es la de la Parte 1; el criterio de qué se incluye es nuevo y es donde se equivoca casi todo el mundo.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cinco primeros términos deciden qué flujos entran y los dos últimos son variantes del indicador. El **flujo incremental** es la regla que ordena todo: solo entra lo que cambia por hacer el proyecto, ni lo que ya se gastó ni lo que ocurriría igualmente.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `VAN` | `Σ FCF_t/(1+k)^t − I₀`. Valor creado por el proyecto, en unidades monetarias de hoy. |
@@ -82,6 +86,8 @@ No significa que gane 4,2 millones: la alternativa también gana.
 
 ### 1. Qué flujos incluir
 
+La lista de qué entra y qué no es corta y se aplica en ese orden. La tabla la recoge con la razón de cada exclusión.
+
 | Concepto | ¿Se incluye? | Por qué |
 |---|---|---|
 | Inversión inicial en activos | Sí | Salida de caja del proyecto |
@@ -100,6 +106,8 @@ Las tres filas críticas son: **no incluir intereses**, **sí incluir capital de
 el costo de oportunidad de los recursos propios**.
 
 ### 2. Construcción del flujo
+
+El flujo del proyecto se construye por líneas y en un orden fijo. El procedimiento siguiente lo estructura.
 
 ```text
                               Año 0      Año 1      Año 2   ...
@@ -121,6 +129,8 @@ Nótese que la depreciación **se resta para calcular el impuesto y se suma de v
 salida de caja. Su único efecto real es el escudo fiscal.
 
 ### 3. Elegir y justificar la tasa
+
+La tasa de descuento es la decisión más discutida del análisis y la que menos se justifica por escrito. Los criterios siguientes la sostienen.
 
 ```text
 la tasa de descuento debe reflejar el RIESGO DEL PROYECTO,
@@ -172,6 +182,8 @@ La lógica: si los proyectos son repetibles, C se puede repetir con más frecuen
 
 ### 5. Presentar el resultado
 
+Un VAN se presenta con su tasa, sus supuestos y su sensibilidad, porque sin eso no se puede juzgar. El formato siguiente es el mínimo.
+
 ```text
 ✗ "El VAN del proyecto es 4 237 812"
 ✓ "El VAN es positivo en el rango de tasas de 9 % a 14 % y en los escenarios
@@ -189,6 +201,8 @@ Toda presentación de VAN incluye:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo construye el flujo incremental de un proyecto desde cero y calcula el VAN. Conviene detenerse en las partidas excluidas: son las que producen la mayoría de las diferencias entre analistas.
 
 **Situación.** Una empresa evalúa una nueva línea de producción.
 
@@ -303,6 +317,8 @@ claramente negativo, y la recomendación habría sido distinta.
 
 ## 🏦 Del cliente al banco
 
+El cliente presenta un proyecto y el banco lo evalúa con su propia tasa. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | VAN | Evaluación de proyectos del cliente y del banco | 13, clase 4 |
@@ -313,6 +329,8 @@ claramente negativo, y la recomendación habría sido distinta.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el flujo incremental de un proyecto que incluye costos hundidos y externalidades. Identificarlos correctamente decide el resultado.
+
 En `labs/lab-04.md`, sección de VAN:
 
 1. Clasifica veinte conceptos en relevantes e irrelevantes para el flujo incremental.
@@ -321,6 +339,8 @@ En `labs/lab-04.md`, sección de VAN:
 4. Compara dos proyectos de distinta escala y dos de distinta duración con los métodos correctos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen proyectos aprobados que no rindieron. Las causas están en flujos no incrementales y en tasas sin justificar.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

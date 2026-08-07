@@ -22,6 +22,8 @@ rentas vitalicias. La perpetuidad parece un artificio teórico y es la herramien
 valor terminal de casi toda valoración por flujos descontados: entre el 60 % y el 80 % del valor de
 una empresa suele estar en ese término.
 
+Las anualidades anteriores tienen un número finito de pagos. Esta clase trata el caso en que no lo tienen, que parece teórico y es la pieza que sostiene la mitad del valor de cualquier valoración de empresa: el valor terminal se calcula como una perpetuidad.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los dos primeros términos son la perpetuidad y su versión creciente; los cuatro siguientes, su aplicación y sus límites. La **condición de convergencia** es la que hay que comprobar siempre: si el crecimiento supuesto iguala o supera a la tasa de descuento, la fórmula no tiene sentido económico y aun así devuelve un número.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -111,6 +115,8 @@ suma diverge. Un modelo con `g ≥ i` está mal planteado, no describe una empre
 
 ### 2. Aplicaciones
 
+Las perpetuidades aparecen en instrumentos concretos y en valoraciones. La tabla recoge los casos.
+
 | Aplicación | Fórmula | Comentario |
 |---|---|---|
 | Bono perpetuo | `VP = cupón / i` | Existen emisiones reales de este tipo |
@@ -120,6 +126,8 @@ suma diverge. Un modelo con `g ≥ i` está mal planteado, no describe una empre
 | Capitalización de rentas inmobiliarias | `V = NOI / tasa de capitalización` | Estándar en tasación |
 
 ### 3. Valor terminal en una valoración
+
+El valor terminal suele ser la mayor parte del valor de una empresa, y sale de una perpetuidad creciente. El procedimiento siguiente lo calcula.
 
 ```text
 estructura típica de una valoración por flujos descontados:
@@ -182,6 +190,8 @@ Ninguna empresa puede crecer perpetuamente más que la economía, porque en el l
 economía. Un `g` de 5 % en una economía que crece 4 % nominal es indefendible.
 
 ### 5. Límites y errores
+
+La fórmula es extremadamente sensible a dos supuestos, y por eso se presenta siempre con su rango. La tabla recoge los errores habituales.
 
 | Error | Consecuencia | Corrección |
 |---|---|---|
@@ -287,6 +297,8 @@ distingue una valoración profesional de un ejercicio de planilla.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un valor de empresa y el banco comprueba de qué supuestos depende. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Valor terminal | Valoración de empresas en banca de inversión | 13, clase 7 |
@@ -297,6 +309,8 @@ distingue una valoración profesional de un ejercicio de planilla.
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular un valor terminal y su sensibilidad al crecimiento supuesto. La dispersión resultante es la razón por la que estas cifras se presentan como rangos.
+
 En `labs/lab-03.md`, sección de perpetuidades:
 
 1. Demuestra numéricamente por qué un flujo infinito tiene valor finito.
@@ -305,6 +319,8 @@ En `labs/lab-03.md`, sección de perpetuidades:
 4. Verifica la consistencia entre `g`, la tasa de reinversión y el retorno sobre el capital.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen valoraciones desproporcionadas. La causa está casi siempre en un crecimiento perpetuo demasiado cerca de la tasa de descuento.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

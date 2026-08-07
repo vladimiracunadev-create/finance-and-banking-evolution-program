@@ -21,6 +21,8 @@ Construir el puente entre cualquier par de tasas de periodicidades distintas, qu
 permite comparar, calzar y estructurar. Un tesorero que capta a 30 días y coloca a 180 necesita saber
 exactamente qué tasa a 30 días equivale a una a 180, y esta clase entrega ese aparato.
 
+La clase anterior convirtió entre nominal y efectiva. Esta generaliza esa conversión a cualquier par de periodicidades, y añade lo que hace falta para trabajar con curvas: la tasa implícita entre dos plazos, que es la que el mercado está descontando aunque nadie la publique.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la equivalencia y su cálculo; los tres siguientes, lo que se deduce de una curva. La distinción entre **tasas equivalentes y proporcionales** es la que hay que fijar: las proporcionales se obtienen dividiendo y son incorrectas salvo en interés simple.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tasas equivalentes` | Producen el mismo monto final en el mismo plazo, con distinta periodicidad. |
@@ -80,6 +84,8 @@ equivalente coinciden solo en interés simple; con capitalización, nunca.
 ## 📖 Desarrollo
 
 ### 1. La fórmula general
+
+Una sola fórmula convierte entre dos periodicidades cualesquiera, y de ella salen todos los casos particulares de la clase anterior.
 
 ```text
 (1 + i₁)^m₁ = (1 + i₂)^m₂
@@ -181,6 +187,8 @@ plazos se cuantifica con tasas equivalentes**.
 
 ### 5. Arbitrajes aparentes
 
+Cuando dos tasas parecen ofrecer una ganancia sin riesgo, casi siempre hay un supuesto oculto. La tabla recoge los casos habituales con el supuesto que los explica.
+
 ```text
 oferta A: depósito a 180 días al 3,10 % del periodo
 oferta B: depósito a 90 días al 1,52 % del periodo, renovable
@@ -204,6 +212,8 @@ B encadenado: (1,0152)(1,0160) − 1 = 3,1443 %  → ahora B es mejor
 convierte una decisión de tesorería en una posición especulativa no reconocida.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo obtiene la tasa forward implícita entre dos plazos de una curva. Conviene fijarse en el sentido de la operación: la forward es la tasa que hace indiferentes las dos estrategias.
 
 **Situación.** La tesorería de un banco enfrenta esta curva de captación y debe decidir la estructura
 de fondeo de una colocación de 12 meses por 8 000 millones.
@@ -285,6 +295,8 @@ profesional.
 
 ## 🏦 Del cliente al banco
 
+El cliente compara plazos y el banco extrae de la curva la tasa a la que puede fondearse. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Tasas equivalentes | Comparación de fondeo y colocación | 10, clase 12 |
@@ -295,6 +307,8 @@ profesional.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir tasas equivalentes y forwards implícitas a partir de una curva sintética. El ejercicio incluye un arbitraje aparente que se deshace al declarar el supuesto.
+
 En `labs/lab-01.md`, sección de equivalencias:
 
 1. Construye la tabla de equivalencias de tres TEA distintas en ocho periodicidades.
@@ -303,6 +317,8 @@ En `labs/lab-01.md`, sección de equivalencias:
 4. Evalúa una estrategia de fondeo descalzada con tres escenarios de tasas.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen equivalencias que no cuadran. La causa casi siempre es haber usado tasas proporcionales donde correspondían equivalentes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

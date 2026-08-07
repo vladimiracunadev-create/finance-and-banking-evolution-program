@@ -22,6 +22,8 @@ tasa. Es una convención de cotización que solo adquiere significado al declara
 capitalización. Esta clase entrega el aparato completo de conversión y el criterio para comparar
 cualquier par de tasas.
 
+La Parte 1 usó una sola tasa por periodo y funcionó porque todos los ejemplos estaban alineados. Esta parte levanta ese supuesto, y empieza por donde se rompe: una tasa publicada no dice cuánto se paga si no se sabe con qué frecuencia capitaliza. Dos ofertas con la misma cifra pueden costar distinto, y la diferencia es exactamente esta clase.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son la misma tasa expresada de formas distintas; los dos últimos son el caso límite y la relación general. La **tasa efectiva anual** es la única comparable entre ofertas, y por eso la regulación de casi todos los países obliga a publicarla.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `tasa nominal (j)` | Cotización anual que **debe** acompañarse de su frecuencia de capitalización. Sola, no significa nada. |
@@ -81,6 +85,8 @@ Toda cotización financiera profesional declara la frecuencia. Cuando no lo hace
 ## 📖 Desarrollo
 
 ### 1. Las tres tasas y su relación
+
+Nominal, periódica y efectiva no son tres conceptos sino tres formas de escribir lo mismo, y pasar de una a otra es mecánico. El esquema siguiente recoge las tres relaciones.
 
 ```text
 tasa periódica     i = j / m
@@ -111,6 +117,8 @@ La convergencia explica por qué en la práctica casi nadie usa capitalización 
 modelos teóricos y en instrumentos de mercados profesionales.
 
 ### 2. Capitalización continua
+
+Si la frecuencia de capitalización crece sin límite, la tasa efectiva converge a un valor concreto. El resultado tiene uso práctico en valoración de derivados y conviene conocerlo.
 
 ```text
 TEA = e^j − 1
@@ -163,6 +171,8 @@ peor.** Sin convertir a TEA, el orden es aleatorio.
 
 ### 4. El error de dividir una tasa efectiva
 
+Dividir una tasa efectiva anual entre doce para obtener la mensual es el error más frecuente de esta parte, y produce una diferencia que crece con la tasa. El contraste siguiente lo cuantifica.
+
 ```text
 ✗ tasa mensual de una TEA de 24 % = 24/12 = 2 %
 ✓ tasa mensual de una TEA de 24 % = (1,24)^(1/12) − 1 = 1,8088 %
@@ -199,6 +209,8 @@ La base debe declararse en el contrato. La Parte 1, clase 5, mostró el mismo pr
 simple; aquí reaparece con capitalización.
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo compara dos ofertas con la misma tasa nominal y distinta frecuencia. Conviene llegar hasta la efectiva anual antes de opinar: hasta ese punto las dos ofertas parecen idénticas.
 
 **Situación.** Un tesorero compara cuatro alternativas de inversión de excedentes por 500 millones a
 90 días, y cuatro alternativas de financiamiento a 180 días.
@@ -288,6 +300,8 @@ entre una decisión de tesorería informada y una aleatoria.
 
 ## 🏦 Del cliente al banco
 
+El cliente ve una tasa publicada y el banco calcula su rendimiento efectivo. La tabla enfrenta las dos lecturas, y explica por qué la frecuencia de capitalización es una cláusula y no un detalle.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | TEA | Base de comparación normativa (CAE) | 3, clase 13 |
@@ -298,6 +312,8 @@ entre una decisión de tesorería informada y una aleatoria.
 
 ## 🧪 Práctica
 
+El laboratorio pide convertir entre las tres formas y comparar ofertas que solo difieren en frecuencia. El resultado es que la oferta con menor tasa nominal puede ser la más cara.
+
 En `labs/lab-01.md`:
 
 1. Convierte diez cotizaciones distintas a TEA y ordénalas.
@@ -306,6 +322,8 @@ En `labs/lab-01.md`:
 4. Compara base 360 y 365 en cinco plazos y tabula la diferencia.
 
 ## ⚠️ Errores frecuentes
+
+La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber operado con una tasa sin saber a qué periodo corresponde.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

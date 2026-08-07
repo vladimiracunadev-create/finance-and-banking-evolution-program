@@ -21,6 +21,8 @@ Profundizar los sistemas de amortización de la Parte 1, clase 12, con las varia
 operaciones profesionales: cuotas variables, amortización con reajuste, sistemas mixtos y estructuras
 con prepago. Esta clase entrega el criterio de estructuración y las tablas completas de cada sistema.
 
+La Parte 3 comparó tres sistemas de amortización con cifras. Esta los generaliza, añade dos más y plantea la pregunta profesional: no cuál es más barato, sino cuál encaja con el flujo de caja del deudor, porque un sistema barato con cuotas que el deudor no puede pagar termina en incumplimiento.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -54,6 +56,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 <!-- gen:agenda:end -->
 
 ## 🧩 Conceptos centrales
+
+Los cinco primeros términos son sistemas y el sexto, la medida que los compara con una sola cifra. La **duración del crédito** es esa medida: resume en un número cuándo se recupera el capital en promedio, y permite comparar sistemas que tienen calendarios muy distintos.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -136,6 +140,8 @@ costo neto = 5 990 496
 
 ### 2. Comparación
 
+Los cinco sistemas se comparan sobre el mismo capital y plazo, que es la única forma de ver la diferencia. La tabla los enfrenta.
+
 | Sistema | Primera cuota | Última cuota | Interés total | Sobre francés |
 |---|---:|---:|---:|---:|
 | Alemán | 1 610 000 | 1 265 000 | 4 500 000 | −5,4 % |
@@ -163,6 +169,8 @@ Para el banco, **la duración determina el riesgo de tasa** (clase 11) y la expo
 crédito en el tiempo. Un crédito americano mantiene la exposición máxima durante todo el plazo.
 
 ### 4. Estructurar según el flujo del deudor
+
+El sistema se elige a partir del perfil de ingresos del deudor y no de su costo total. La tabla los relaciona.
 
 | Perfil del deudor | Sistema recomendable | Razón |
 |---|---|---|
@@ -194,6 +202,8 @@ reducción de CUOTA   mantiene el plazo, baja la cuota    → alivia el flujo, a
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo amortiza el mismo capital por los cinco sistemas y calcula la duración de cada uno. Conviene mirar la duración junto al costo total: son dos criterios distintos y no coinciden.
 
 **Situación.** Estructura el financiamiento de un proyecto de energía con este perfil de generación de
 caja.
@@ -308,6 +318,8 @@ en financiamiento de proyectos (Parte 13, clase 4).
 
 ## 🏦 Del cliente al banco
 
+El cliente elige una cuota y el banco estructura según el riesgo y la duración. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Elección de sistema | Estructuración de operaciones | 13, clase 4 |
@@ -318,6 +330,8 @@ en financiamiento de proyectos (Parte 13, clase 4).
 
 ## 🧪 Práctica
 
+El laboratorio pide estructurar un crédito para tres perfiles de flujo distintos y justificar el sistema elegido. La justificación es lo que se evalúa.
+
 En `labs/lab-04.md`:
 
 1. Construye las tablas completas de los cinco sistemas para un mismo crédito.
@@ -326,6 +340,8 @@ En `labs/lab-04.md`:
 4. Estructura un financiamiento de proyecto alineado con un perfil de generación de caja.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen créditos que incumplen pese a estar bien calculados. La causa es un sistema que no encajaba con el flujo del deudor.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

@@ -21,6 +21,8 @@ Construir modelos financieros que otras personas puedan revisar, auditar y mante
 solo su autor entiende es un riesgo operacional, no un activo. Esta clase entrega los estándares de
 construcción, las pruebas que todo modelo debe superar y el criterio para elegir la herramienta.
 
+Las trece clases anteriores producen modelos. Esta trata de cómo construirlos para que otra persona los pueda auditar, porque un modelo que solo entiende quien lo hizo no se puede usar para decidir. El riesgo de modelo es una categoría de riesgo con nombre propio en la regulación bancaria.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son estándares de construcción; los tres siguientes, la documentación y el control. La **validación independiente** es la exigencia que separa un modelo profesional de una planilla: alguien que no lo construyó tiene que poder reproducir sus resultados.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `separación de capas` | Entradas, cálculo y salidas en zonas o módulos distintos. Ninguna fórmula contiene números. |
@@ -83,6 +87,8 @@ en un solo lugar y el modelo entero se recalcula.
 
 ### 1. Estándares de construcción en planilla
 
+Una planilla auditable cumple reglas concretas de estructura. La tabla las recoge, y todas se pueden comprobar en un minuto.
+
 ```text
 ESTRUCTURA DE HOJAS
   01_Portada       propósito, autor, versión, fecha, limitaciones
@@ -109,6 +115,8 @@ CONVENCIONES
 
 ### 2. Controles automáticos
 
+Un modelo debe avisar cuando algo no cuadra en vez de esperar a que alguien lo note. La tabla recoge los controles mínimos.
+
 ```text
 HOJA DE CONTROLES
 
@@ -126,6 +134,8 @@ HOJA DE CONTROLES
 La hoja de controles debe ser **la primera que se mira** al abrir el modelo, no la última.
 
 ### 3. Estructura en Python
+
+En Python la separación de capas es más fácil de imponer y de probar. El esquema siguiente muestra la estructura.
 
 ```python
 """Motor de valoración de proyectos.
@@ -200,6 +210,8 @@ def tir(s: Supuestos, tol: float = 1e-7, max_iter: int = 200) -> float:
 
 ### 4. Pruebas del modelo
 
+Las pruebas comparan el modelo con casos resueltos independientemente. La tabla recoge los tipos de prueba y qué detecta cada uno.
+
 ```python
 def test_van_cero_cuando_wacc_igual_tir():
     """Si se descuenta a la TIR, el VAN debe ser cero."""
@@ -242,6 +254,8 @@ La última prueba —**verificar una propiedad estructural**— es más valiosa 
 detecta errores que un caso puntual no revelaría.
 
 ### 5. Elegir la herramienta
+
+La herramienta se elige por la frecuencia de uso y por quién tiene que auditarlo. La tabla los relaciona.
 
 | Criterio | Planilla | Código |
 |---|---|---|
@@ -374,6 +388,8 @@ formalismo: son el mecanismo que hace detectables los errores.
 
 ## 🏦 Del cliente al banco
 
+El analista construye un modelo y el banco lo somete a validación independiente. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Riesgo de modelo | Marco de gestión exigido por el supervisor | 12, clase 12 |
@@ -384,6 +400,8 @@ formalismo: son el mecanismo que hace detectables los errores.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el mismo modelo con los estándares y luego auditar uno ajeno. La auditoría del modelo ajeno es la parte que enseña qué estándares importan.
+
 En `labs/lab-06.md`, sección de modelamiento:
 
 1. Construye un modelo de valoración con separación de capas y hoja de controles.
@@ -392,6 +410,8 @@ En `labs/lab-06.md`, sección de modelamiento:
 4. Audita un modelo ajeno con la lista de verificación y emite un informe de hallazgos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla aparecen cuando alguien intenta reproducir el modelo. Las causas están en supuestos incrustados y en ausencia de controles.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

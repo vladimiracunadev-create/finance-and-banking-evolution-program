@@ -22,6 +22,8 @@ arriendos, los seguros, muchos leasing y los aportes de ahorro programado. La di
 anualidad vencida es un solo factor `(1+i)`, y su omisión produce errores sistemáticos de un periodo
 completo de interés.
 
+La clase anterior supone que el pago ocurre al final del periodo. Esta trata el caso en que ocurre al principio, que es el de la mayoría de los arriendos y de muchos seguros. La diferencia parece menor y cambia el valor de la serie en una proporción exacta que conviene conocer.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son la variante y su relación con la vencida; los dos últimos, cómo se reconoce en un contrato real. La **relación de cuotas** es lo práctico: una anualidad anticipada vale exactamente la vencida multiplicada por un factor, y eso ahorra memorizar fórmulas nuevas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `anualidad anticipada` | Pagos al **inicio** de cada periodo. El primero ocurre en `t = 0`. |
@@ -83,6 +87,8 @@ presente se multiplique por `(1+i)`.
 
 ### 1. Las fórmulas
 
+Las fórmulas anticipadas se obtienen de las vencidas con un solo factor. El esquema las recoge juntas para poder compararlas.
+
 ```text
 VP anticipada = A × [1 − (1+i)^-n]/i × (1+i)  =  A × ä(n,i)
 VF anticipada = A × [(1+i)^n − 1]/i × (1+i)   =  A × s̈(n,i)
@@ -100,6 +106,8 @@ Formulación alternativa, a veces más intuitiva:
 Es decir: el primer pago no se descuenta (vale 1) y los `n−1` restantes forman una anualidad vencida.
 
 ### 2. Efecto cuantificado
+
+La diferencia entre pagar al principio o al final se puede medir sobre el mismo contrato. La tabla la cuantifica.
 
 ```text
 A = 500 000 · i = 1,2 % · n = 36
@@ -126,6 +134,8 @@ con la misma cuota.
 
 ### 3. Casos reales
 
+Las anualidades anticipadas aparecen en contratos concretos y frecuentes. La tabla los recoge.
+
 | Operación | Estructura | Razón |
 |---|---|---|
 | Arriendo de inmueble | Anticipada | Se paga por el mes que comienza |
@@ -140,6 +150,8 @@ La consecuencia práctica: **al valorar un contrato de arriendo hay que usar la 
 usar la vencida subestima el valor presente en un `(1+i)` completo.
 
 ### 4. Anualidad anticipada diferida
+
+Combinando las dos variantes anteriores se cubren casi todos los casos prácticos. El esquema muestra el tratamiento.
 
 ```text
 VP = A × ä(n,i) × (1+i)^-k
@@ -156,6 +168,8 @@ VP = 850 000 × 21,3464 × (1,0105)^-3
 ```
 
 ### 5. Detectar la estructura en un contrato
+
+Un contrato no dice «anualidad anticipada»: dice cuándo vence el primer pago. Los indicios siguientes permiten clasificarlo correctamente.
 
 ```text
 señales de anualidad ANTICIPADA:
@@ -262,6 +276,8 @@ matemática ordena; el contexto decide, y el rol del analista es entregar ambos 
 
 ## 🏦 Del cliente al banco
 
+El cliente firma un contrato y el banco lo modela según venza el primer pago. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Anualidad anticipada | Valoración de leasing y arriendos | 13, clase 8 |
@@ -272,6 +288,8 @@ matemática ordena; el contexto decide, y el rol del analista es entregar ambos 
 
 ## 🧪 Práctica
 
+El laboratorio pide valorar el mismo contrato en las dos modalidades y explicar la diferencia. La diferencia es exactamente un factor, y comprobarlo fija el concepto.
+
 En `labs/lab-03.md`:
 
 1. Calcula el valor presente y futuro de cinco anualidades en ambas modalidades y tabula la diferencia.
@@ -280,6 +298,8 @@ En `labs/lab-03.md`:
 4. Compara una compra financiada y un leasing con opción de compra, con verificación.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen valoraciones desfasadas en un periodo. La causa es haber supuesto la modalidad en vez de leerla en el contrato.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

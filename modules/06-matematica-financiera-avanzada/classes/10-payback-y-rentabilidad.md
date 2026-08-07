@@ -22,6 +22,8 @@ rentabilidad, entendiendo qué aporta cada uno y qué no. El payback es el crite
 práctica pese a sus defectos conocidos, y esa popularidad tiene una razón que conviene comprender
 antes de descartarlo.
 
+Las dos clases anteriores dan los dos indicadores principales. Esta añade los que se usan junto a ellos en la práctica y explica por qué se usan aunque sean teóricamente inferiores: responden a preguntas que el VAN no responde, empezando por cuánto tiempo está el dinero comprometido.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -56,6 +58,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los cuatro primeros términos son indicadores complementarios; los dos últimos son la forma de combinarlos. El **criterio multicriterio** es lo que se hace en la práctica: ningún indicador decide solo, y el tablero que los reúne es lo que se lleva al comité.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `payback simple` | Periodos hasta recuperar la inversión con flujos sin descontar. |
@@ -82,6 +86,8 @@ demás informan.**
 ## 📖 Desarrollo
 
 ### 1. Payback simple y descontado
+
+El payback mide cuándo se recupera lo invertido, con y sin descontar. El procedimiento siguiente calcula los dos.
 
 ```text
 FCF: −120 000, 40 000, 45 000, 38 000, 32 000, 28 000
@@ -144,6 +150,8 @@ Su lugar es junto al VAN, no en su lugar.
 
 ### 3. Índice de rentabilidad
 
+El índice de rentabilidad convierte el VAN en una medida por peso invertido, que es lo que hace falta cuando el capital está racionado.
+
 ```text
 IR = VP de los flujos futuros / inversión inicial
 
@@ -188,6 +196,8 @@ proyectos divisibles, el IR entrega directamente la asignación óptima.
 
 ### 4. Rentabilidad contable
 
+La rentabilidad contable no descuenta y aun así se usa, porque es la que aparece en los estados financieros. Conviene saber calcularla y conocer su sesgo.
+
 ```text
 tasa de rendimiento contable = resultado promedio / inversión promedio
 ```
@@ -213,6 +223,8 @@ presentarán a terceros.
 
 ### 5. Tablero multicriterio
 
+El tablero reúne los indicadores con sus umbrales y hace visible cuándo se contradicen. La tabla muestra su forma.
+
 ```text
 PROYECTO: ampliación de planta
 
@@ -237,6 +249,8 @@ Reglas del tablero:
 ```
 
 ## 🧮 Ejemplo guiado
+
+El ejemplo evalúa un proyecto con los cinco indicadores a la vez. Conviene fijarse en el caso en que se contradicen: resolver esa contradicción con criterio es el objetivo de la clase.
 
 **Situación.** Un comité debe asignar 500 000 entre cuatro proyectos indivisibles, con WACC de 13 %.
 
@@ -323,6 +337,8 @@ tarde y aprender de ella.
 
 ## 🏦 Del cliente al banco
 
+El cliente muestra un payback corto y el banco calcula el VAN y la duración. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Payback | Indicador de riesgo del proyecto de un cliente | 13, clase 4 |
@@ -333,6 +349,8 @@ tarde y aprender de ella.
 
 ## 🧪 Práctica
 
+El laboratorio pide construir el tablero completo de tres proyectos y recomendar uno. La recomendación con su justificación es lo que se evalúa.
+
 En `labs/lab-05.md`, sección de criterios:
 
 1. Calcula payback simple y descontado de cinco proyectos y explica la diferencia.
@@ -341,6 +359,8 @@ En `labs/lab-05.md`, sección de criterios:
 4. Diseña un tablero multicriterio con umbrales y aplícalo a tres proyectos.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen decisiones basadas en un solo indicador. La causa es haber usado el payback como criterio y no como restricción.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|

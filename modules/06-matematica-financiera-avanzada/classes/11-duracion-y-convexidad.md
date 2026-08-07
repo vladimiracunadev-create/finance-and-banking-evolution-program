@@ -21,6 +21,8 @@ Medir cuánto cambia el valor de un instrumento o de una cartera ante un movimie
 duración es la herramienta central de la gestión de riesgo de tasa —del libro de tesorería y del libro
 de banca— y su aplicación errónea ha estado detrás de episodios de estrés bancario documentados.
 
+Las clases anteriores valoran flujos a una tasa dada. Esta mide qué pasa cuando la tasa cambia, que es la pregunta central de la gestión de riesgo de tasa. De aquí sale la herramienta que un banco usa para medir la exposición de todo su balance, y que reaparece en la Parte 11.
+
 ## 📚 Objetivos
 
 Al finalizar podrás:
@@ -55,6 +57,8 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
+Los tres primeros términos son medidas de sensibilidad de creciente concreción; los tres siguientes, la corrección de segundo orden y sus aplicaciones. La **brecha de duración** es la aplicación bancaria: la diferencia entre la duración del activo y la del pasivo dice cuánto pierde el patrimonio si suben las tasas.
+
 | Concepto | Comprensión verificable |
 |---|---|
 | `duración de Macaulay (D)` | Plazo promedio ponderado de los flujos, con pesos iguales a su valor presente relativo. Se expresa en años. |
@@ -82,6 +86,8 @@ grandes: ahí entra la convexidad.
 
 ### 1. Duración de Macaulay
 
+La duración es el plazo medio ponderado de los flujos, y esa interpretación es la que la hace intuitiva. El procedimiento siguiente la calcula.
+
 ```text
 D = Σ [t × VP(FC_t)] / Σ VP(FC_t)
 ```
@@ -106,6 +112,8 @@ Lectura: **la duración modificada de 4,161 significa que el bono pierde 4,161 %
 rendimiento sube 1 punto**.
 
 ### 2. Estimación del cambio de valor
+
+Con la duración modificada se estima el cambio de precio ante un movimiento de tasas. La fórmula siguiente lo hace, y es exacta solo para cambios pequeños.
 
 ```text
 ΔP ≈ −D* × Δy × P
@@ -134,6 +142,8 @@ subestima la ganancia). Esa asimetría es lo que corrige la convexidad.
 
 ### 3. Convexidad
 
+La relación entre precio y tasa es curva, y la duración la aproxima con una recta. La convexidad corrige esa aproximación, y el esquema muestra cuánto importa.
+
 ```text
 C = Σ [t(t+1) × VP(FC_t)] / [P × (1+y)²]
 
@@ -161,6 +171,8 @@ error = 0,61 (0,07 %)  ← quince veces mejor que sin convexidad
 ```
 
 ### 4. Duración de una cartera y del balance
+
+La duración de un conjunto es el promedio ponderado de las duraciones, y eso permite llevarla del instrumento al balance completo.
 
 ```text
 duración de una cartera = Σ (peso_i × duración_i)
@@ -200,6 +212,8 @@ alza borran casi un tercio del patrimonio económico.** Ese es exactamente el c�
 episodios recientes de estrés bancario.
 
 ### 5. Inmunización
+
+Igualar la duración del activo y la del pasivo protege el patrimonio ante cambios de tasa. El procedimiento siguiente lo plantea con sus límites.
 
 ```text
 objetivo: hacer que el valor del patrimonio sea insensible a cambios de tasas
@@ -353,6 +367,8 @@ observable y el que más juicio requiere. Reconocerlo explícitamente es parte d
 
 ## 🏦 Del cliente al banco
 
+El cliente ve un bono y el banco mide la sensibilidad de su balance. La tabla enfrenta las dos lecturas.
+
 | Concepto | Aplicación bancaria | Parte |
 |---|---|---|
 | Duración modificada | Medición del riesgo de tasa | 11, clase 5 |
@@ -363,6 +379,8 @@ observable y el que más juicio requiere. Reconocerlo explícitamente es parte d
 
 ## 🧪 Práctica
 
+El laboratorio pide calcular la duración de una cartera y estimar la pérdida ante un alza de cien puntos base. La estimación se compara con el cálculo exacto, y la diferencia es la convexidad.
+
 En `labs/lab-06.md`:
 
 1. Calcula duración de Macaulay, modificada y convexidad de cinco bonos.
@@ -371,6 +389,8 @@ En `labs/lab-06.md`:
 4. Diseña una cobertura para reducir la brecha a un objetivo definido.
 
 ## ⚠️ Errores frecuentes
+
+Los síntomas de la tabla describen estimaciones de pérdida que se quedan cortas. La causa es haber usado solo duración ante movimientos grandes.
 
 | Síntoma | Causa probable | Corrección |
 |---|---|---|
