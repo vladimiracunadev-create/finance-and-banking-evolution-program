@@ -2,33 +2,65 @@
 
 ## Propósito
 
-Aplicar registro de transacciones en un caso controlado y documentar cada supuesto.
+Detectar seis asientos incorrectos **por sus consecuencias en los estados**, sin revisar el asiento.
+
+El laboratorio 2 clasificó partidas. Este entra en la mecánica del registro, y su habilidad útil no es hacer asientos sino leerlos hacia atrás desde el efecto que producen.
 
 ## Escenario
 
-Una persona, empresa o unidad bancaria debe tomar una decisión con información incompleta. Usa datos ficticios del repositorio o crea un conjunto pequeño claramente identificado como sintético.
+Un juego de estados financieros con seis efectos anómalos, producidos por seis asientos concretos.
+
+## Datos
+
+Los estados con los efectos, y el libro diario del periodo.
+
+## Supuestos del ejercicio
+
+- Todos los asientos cuadran: el error no es de partida doble.
+- Los documentos de respaldo están disponibles para tres de los seis.
+- El periodo está cerrado y no se puede reabrir.
 
 ## Pasos
 
-1. Define el problema y la decisión.
-2. Identifica variables, unidades y periodicidad.
-3. Realiza los cálculos o el análisis.
-4. Ejecuta una prueba de sensibilidad.
-5. Explica riesgos y limitaciones.
-6. Entrega una conclusión de máximo 200 palabras.
+1. Identifica los seis efectos anómalos en los estados.
+2. Deduce qué asiento pudo producir cada uno, antes de mirar el diario.
+3. Comprueba tu deducción contra el libro diario.
+4. Determina cuáles de los seis carecen de documento de respaldo.
+5. Propón el asiento de corrección de cada uno.
+6. Explica cuál de los seis podría no ser un error sino una decisión.
+
+## Criterios de aceptación
+
+| # | Criterio | Cómo se comprueba |
+|---:|---|---|
+| 1 | Los seis efectos están identificados | En los estados |
+| 2 | La deducción está escrita antes de mirar el diario | Y se contrasta |
+| 3 | Los que carecen de respaldo están señalados | Tres de seis |
+| 4 | Las correcciones están propuestas | Como asientos |
+| 5 | El caso discutible está identificado | Con su razón |
+
+## Errores que se penalizan
+
+| Error | Por qué |
+|---|---|
+| Revisar el diario antes de deducir | Se pierde la habilidad que el ejercicio entrena |
+| Suponer que si cuadra está bien | La partida doble no detecta clasificaciones erróneas |
+| Corregir sin documento de respaldo | Un asiento sin respaldo es una afirmación |
+| Tratar toda anomalía como error | Alguna puede ser una decisión legítima |
 
 ## Entregables
 
-- `solution.md` con razonamiento y resultado.
-- Archivo de cálculo o script reproducible.
-- Tabla de supuestos.
-- Reflexión ética y de seguridad.
+- `solution.md` con los seis efectos y su deducción previa.
+- El contraste con el libro diario.
+- Los asientos sin respaldo señalados.
+- Las correcciones propuestas y el caso discutible.
 
-## Criterios
+## Rúbrica
 
 | Criterio | Puntos |
 |---|---:|
-| Cálculo o análisis | 35 |
-| Trazabilidad | 25 |
-| Interpretación | 25 |
-| Riesgos y ética | 15 |
+| Efectos identificados | 25 |
+| Deducción previa | 25 |
+| Respaldo verificado | 20 |
+| Correcciones | 20 |
+| Caso discutible | 10 |
