@@ -105,32 +105,43 @@ jobs:
       - name: Configurar Gradle
         uses: gradle/actions/setup-gradle@94baf225fe0a508e581a564467443d0e2379123b # v4.3.0
 
+      # Se compila la variante de depuracion, no la de publicacion, porque
+      # `assembleRelease` produce un APK SIN FIRMAR y Android se niega a
+      # instalarlo: el artefacto compilaria y no serviria. La variante de
+      # depuracion la firma Gradle con su clave de desarrollo, que es lo que
+      # permite instalarlo de forma lateral. Firmarlo con una clave propia
+      # exige un almacen de claves como secreto del repositorio; mientras no
+      # exista, esta es la unica via que produce un APK instalable.
       - name: Compilar el APK
         working-directory: mobile
         env:
           VERSION_NAME: ${{ github.ref_type == 'tag' && github.ref_name || '0.0.0-dev' }}
           VERSION_CODE: ${{ github.run_number }}
-        run: gradle --no-daemon assembleRelease
+        run: gradle --no-daemon assembleDebug
 
       # Un APK que compila puede instalarse vacio si el contenido no llego a
-      # empaquetarse. Se abre y se cuentan las clases que hay dentro.
-      - name: Comprobar que el APK trae las clases
+      # empaquetarse, o no instalarse siquiera si le falta la firma. Se abre y
+      # se comprueban las dos cosas.
+      - name: Comprobar que el APK trae las clases y esta firmado
         env:
           CLASES_ESPERADAS: "352"
         run: |
-          apk=$(find mobile/app/build/outputs/apk/release -name '*.apk' | head -1)
+          apk=$(find mobile/app/build/outputs/apk/debug -name '*.apk' | head -1)
           echo "APK: $apk ($(du -h "$apk" | cut -f1))"
           dentro=$(unzip -l "$apk" | grep -c 'assets/site/modules/.*/classes/.*\.html' || true)
           echo "clases dentro del APK: $dentro"
           [ "$dentro" -eq "${CLASES_ESPERADAS}" ] || { echo "El APK no trae las clases"; exit 1; }
           unzip -l "$apk" | grep -q 'assets/site/index.html' || { echo "Falta la portada"; exit 1; }
+          firmante=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort | tail -1)
+          "$firmante" verify --print-certs "$apk" | head -4
+          echo "APK firmado"
 
       - name: Renombrar con la version
         env:
           VERSION_NAME: ${{ github.ref_type == 'tag' && github.ref_name || '0.0.0-dev' }}
         run: |
           mkdir -p dist
-          apk=$(find mobile/app/build/outputs/apk/release -name '*.apk' | head -1)
+          apk=$(find mobile/app/build/outputs/apk/debug -name '*.apk' | head -1)
           cp "$apk" "dist/FinanzasYBanca-${VERSION_NAME}.apk"
           ls -lh dist
 

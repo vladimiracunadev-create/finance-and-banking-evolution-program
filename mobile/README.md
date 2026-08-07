@@ -47,6 +47,8 @@ El contenido **no se versiona aquí**: lo copia el flujo desde `site/` antes de 
 
 Descarga el APK del [último release](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) y ábrelo en el teléfono. Es una instalación **fuera de Play Store**, así que Android pedirá permitir «orígenes desconocidos» para la aplicación desde la que lo abras.
 
+> El APK va firmado con la **clave de desarrollo de Gradle**, que es lo que lo hace instalable de forma lateral. No es una firma de identidad: no acredita quién lo compiló. Lo que sí acredita el origen es que el binario sale del flujo público [`apps.yml`](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/apps.yml) y que su suma de verificación se publica con el release. Una firma con clave propia llegará cuando haya un almacén de claves que custodiar.
+
 Verifica la descarga con el `SHA256SUMS.txt` del release:
 
 ```bash
