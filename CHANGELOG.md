@@ -5,7 +5,7 @@
 
 **Todo lo que ha cambiado en el programa, versión a versión, con el formato Keep a Changelog.**
 
-[![versión](https://img.shields.io/badge/versi%C3%B3n-2.2.0-e67e22?style=flat-square)](CHANGELOG.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.2.1-e67e22?style=flat-square)](CHANGELOG.md)
 [![formato](https://img.shields.io/badge/formato-Keep%20a%20Changelog%20%C2%B7%20SemVer-1f6feb?style=flat-square)](https://keepachangelog.com/es-ES/1.1.0/)
 
 [🏠 Inicio](README.md) ·
@@ -19,6 +19,34 @@
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el
 versionado sigue [SemVer](https://semver.org/lang/es/).
+
+---
+
+## [2.2.1] — 2026-08-13
+
+Arregla el paquete del release, que salía incompleto.
+
+### 🔧 Corregido
+
+- `programa-completo.zip` se armaba con una **lista de directorios escrita a
+  mano** —`modules docs apps datasets tools tests`— y esa lista nunca incorporó
+  `case-studies/` ni `regulatory/`. El resultado: el paquete que el release
+  describe como «el repositorio entero» se publicó en la 2.2.0 **sin los 26
+  estudios de caso y sin las 13 fichas normativas**, y nada falló, porque un
+  `zip` de una ruta que no existe no devuelve error. Ahora la lista sale de
+  `git ls-files`, así que el paquete no puede quedarse corto cuando aparezca una
+  carpeta nueva.
+- El flujo comprueba además el paquete **abriéndolo**: cuenta los archivos de
+  cada carpeta dentro del `.zip` y los compara con los del repositorio. Es la
+  misma verificación que ya existía para el APK y para la aplicación de Windows,
+  que sí contaban las clases de dentro.
+
+### 🧭 Notas de migración
+
+- Quien haya descargado `programa-completo.zip` de la **v2.2.0** debe descargarlo
+  de nuevo: le faltan `case-studies/` y `regulatory/`. El APK, la aplicación de
+  Windows, el PDF y `solo-clases.zip` de la 2.2.0 **están completos** y no hace
+  falta volver a bajarlos.
 
 ---
 

@@ -11,7 +11,7 @@
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg?branch=main)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Versión](https://img.shields.io/badge/versión-2.2.0-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/versión-2.2.1-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-356%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
 [![Nivel](https://img.shields.io/badge/nivel-cero%20→%20dirección%20bancaria-2e8b57?style=for-the-badge)](STATUS.md)
 [![Manual](https://img.shields.io/badge/manual%20PDF-descargar-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)

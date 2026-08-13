@@ -84,13 +84,37 @@ jobs:
       # para que un unico flujo publique todo: cuando publicaban los dos, cada
       # uno escribia su propio SHA256SUMS.txt y el segundo pisaba al primero,
       # de modo que el archivo publicado solo cubria la mitad de los adjuntos.
+      # El paquete completo se arma desde `git ls-files` y no desde una lista
+      # escrita a mano. La lista anterior nombraba seis directorios, y cada
+      # vez que aparecia uno nuevo el paquete lo omitia en silencio: la 2.2.0
+      # se publico sin los 26 estudios de caso ni las 13 fichas normativas, y
+      # nada fallo porque un `zip` de una ruta inexistente no es un error.
+      # Preguntandole a git, el paquete no puede quedarse corto.
       - name: Empaquetar el repositorio
         run: |
           mkdir -p dist
-          zip -q -r "dist/programa-completo.zip"             modules docs apps datasets tools tests             README.md SYLLABUS.md STATUS.md MANIFEST.md CHANGELOG.md             ROADMAP.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md             LICENSE VERSION requirements.txt             -x "*/__pycache__/*" "*.pyc"
-          zip -q -r "dist/solo-clases.zip" modules SYLLABUS.md             -x "*/__pycache__/*" "*.pyc"
+          git ls-files -z \
+            ':!:.github' ':!:mobile' ':!:desktop' ':!:*.png' ':!:*.jpg' \
+            > dist/incluidos.txt
+          xargs -0 -a dist/incluidos.txt zip -q "dist/programa-completo.zip"
+          zip -q -r "dist/solo-clases.zip" modules SYLLABUS.md \
+            -x "*/__pycache__/*" "*.pyc"
+          rm dist/incluidos.txt
           cyclonedx-py environment -o dist/sbom.json
           ls -lh dist
+
+      # Un paquete que pesa lo esperado puede venir incompleto. Se abre y se
+      # cuentan las piezas contra el repositorio, igual que con el APK.
+      - name: Comprobar que el paquete trae todo
+        run: |
+          unzip -Z1 dist/programa-completo.zip > dist/dentro.txt
+          for carpeta in modules docs apps case-studies regulatory datasets tools tests; do
+            reales=$(git ls-files "$carpeta" | wc -l)
+            dentro=$(grep -c "^${carpeta}/" dist/dentro.txt || true)
+            printf '%-14s repositorio=%-5s paquete=%-5s\n' "$carpeta" "$reales" "$dentro"
+            [ "$dentro" -eq "$reales" ] || { echo "El paquete no trae $carpeta completo"; exit 1; }
+          done
+          rm dist/dentro.txt
 
       - name: Subir los paquetes
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2

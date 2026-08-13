@@ -9,7 +9,7 @@ El CHANGELOG ya cuenta lo primero, escrito a mano y revisado. Este script lo
 extrae y le anade la lista real de artefactos publicados, con su tamano.
 
 Uso:
-    python tools/release_notes.py v2.2.0 entrega/ > notas.md
+    python tools/release_notes.py v2.2.1 entrega/ > notas.md
 """
 
 from __future__ import annotations
@@ -24,11 +24,13 @@ REPO = "https://github.com/vladimiracunadev-create/finance-and-banking-evolution
 
 # Titular de la publicacion. Es lo unico que se escribe a mano por version: el
 # resto sale del CHANGELOG y de los archivos que se publican.
-TITULAR = """## ⚖️ La regulación, con nombre propio
+TITULAR = """## 📦 El paquete completo, ahora completo de verdad
 
-Hasta esta versión la Parte 22 enseñaba a determinar un perímetro sin decir en qué país: el método estaba completo y nunca se aplicaba a una norma concreta. **v2.2.0 cierra esa brecha** con cuatro clases que leen dos regímenes reales —MiCA y sus normas conexas, y el caso de El Salvador— y con la **biblioteca de 26 casos** que el repositorio declaraba pendiente.
+La **v2.2.0** trajo la regulación con nombre propio —cuatro clases sobre MiCA, sus normas conexas y el caso de El Salvador— y la biblioteca de 26 casos. Pero su `programa-completo.zip` se armaba con una lista de carpetas escrita a mano, y esa lista nunca incluyó `case-studies/` ni `regulatory/`: el paquete se publicó sin ellas y nada falló.
 
-El programa pasa a **356 clases y 534 horas**."""
+**v2.2.1** lo arma desde `git ls-files` y lo verifica abriéndolo. El APK, la aplicación de Windows y el PDF de la 2.2.0 ya estaban completos.
+
+El programa sigue en **356 clases y 534 horas**."""
 
 # Que es cada artefacto. Los que no aparezcan aqui se listan igual, sin
 # descripcion, para que anadir uno nuevo no lo deje fuera de la tabla.
