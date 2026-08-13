@@ -91,3 +91,49 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 > sintéticos. El proyecto no se conecta con ninguna infraestructura real, no usa
 > credenciales ni fondos, y ninguna de sus salidas constituye asesoría financiera,
 > legal ni de inversión.
+
+## Continúa en la Etapa 5
+
+El banco de esta parte opera dentro de un país y con instrumentos tradicionales.
+La Parte 23 construye el mismo banco con finanzas abiertas, pagos
+transfronterizos, custodia de activos digitales y un mercado tokenizado, y lo
+defiende ante un supervisor.
+
+**Quince incidentes que la Etapa 5 añade a la simulación de crisis.** Se pueden
+inyectar en el ejercicio de esta parte una vez estudiadas las Partes 17 a 22,
+como ampliación del escenario:
+
+```text
+ 1 · consentimiento revocado durante una
+     operación en curso
+ 2 · interfaz de datos caída el día 1 de mes
+ 3 · mensaje de pago duplicado
+ 4 · pago transfronterizo retenido por
+     coincidencia parcial de sanciones
+ 5 · falta de liquidez en la cuenta nostro
+     antes del corte
+ 6 · instrumento estable que pierde su
+     paridad durante nueve horas
+ 7 · pérdida de una parte del material
+     criptográfico de custodia
+ 8 · oráculo que reporta un precio correcto
+     de un mercado vacío
+ 9 · contrato inteligente que ejecuta lo que
+     dice y no lo que se quiso decir
+10 · manipulación del precio de referencia
+     en la ventana de cálculo
+11 · fallo de entrega contra pago en una
+     emisión tokenizada
+12 · fallo de pago contra pago en una
+     operación de cambio
+13 · proveedor tecnológico común a veinte
+     entidades que deja de operar
+14 · corrida digital sobre un pasivo
+     reembolsable en horas
+15 · incumplimiento de la regla del viaje
+     detectado en inspección
+```
+
+Cada uno tiene su caso desarrollado en la
+[biblioteca de casos](../../case-studies/README.md), con hechos, decisiones,
+controles y preguntas.

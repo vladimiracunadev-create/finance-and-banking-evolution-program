@@ -82,3 +82,23 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 - Una operación estructurada con su calendario ajustado al flujo y sus covenants calibrados.
 - La valoración de una empresa por tres enfoques, con la dispersión explicada.
 - La autoevaluación final con lo que quedó flojo.
+
+## Continúa en la Etapa 5
+
+La financiación empresarial es uno de los pocos sitios donde la tokenización
+tiene un caso de uso con números defendibles: emisiones pequeñas cuyo coste fijo
+de colocación las hace inviables por la vía tradicional. La Parte 21 lo estudia
+sin entusiasmo, con la prima de iliquidez incluida, que es donde suelen morir
+estos proyectos.
+
+| Qué se profundiza | Dónde |
+|---|---|
+| Bonos y deuda tokenizada | Parte 21, clases 1, 4 y 5 |
+| Facturas y activos reales tokenizados | Parte 21, clase 7 |
+| Financiamiento colectivo y su régimen | Parte 22, clases 1 y 4 |
+| Valores digitales y calificación del instrumento | Parte 22, clase 3 |
+| Liquidación programable y entrega contra pago | Parte 21, clases 8 y 12 |
+| Mercado secundario y prima de iliquidez | Parte 21, clase 6 |
+
+**Casos relacionados:** [`tokenization/bono-tokenizado`](../../case-studies/tokenization/bono-tokenizado.md) ·
+[`tokenization/proyecto-inmobiliario-tokenizado`](../../case-studies/tokenization/proyecto-inmobiliario-tokenizado.md)

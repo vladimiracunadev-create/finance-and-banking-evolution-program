@@ -83,3 +83,28 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 - El experimento con grupo de control y su elevación medida.
 - La clasificación de casos de uso con sus controles proporcionales.
 - La autoevaluación final con lo que quedó flojo.
+
+## Continúa en la Etapa 5
+
+Esta parte es la **introducción** a lo que la Etapa 5 desarrolla. Aquí los
+conceptos se presentan para que una dirección bancaria pueda decidir; allí se
+implementan, se miden y se regulan. Ninguna de las partes siguientes repite estas
+clases: las supone.
+
+**Prerrequisitos que aporta esta parte.** Clase 2, pagos digitales y dinero
+electrónico. Clase 3, banca abierta y APIs. Clase 9, criptoactivos y registro
+distribuido. Clase 10, monedas digitales de banco central. Clase 12, regulación
+de la tecnología financiera.
+
+| Para profundizar | Continuación |
+|---|---|
+| Banca abierta y APIs, clase 3 | **Parte 17** — consentimiento, autorización, contratos de API e iniciación de pagos |
+| Pagos digitales, clase 2 | **Parte 18** — corresponsalía, ISO 20022, liquidez y liquidación internacional |
+| Registro distribuido, clase 9 | **Parte 19** — consenso, finalidad, contratos, oráculos y comparación con base centralizada |
+| Criptoactivos, clase 9 | **Parte 20** — taxonomía, reservas, redención, custodia y contagio |
+| Monedas digitales, clase 10 | **Parte 20**, clase 10 · **Parte 22**, clase 7 |
+| Regulación fintech, clase 12 | **Parte 22** — perímetro, autorización, MiCA y regulación comparada |
+| Transformación digital, clase 13 | **Parte 21** y **Parte 23** — tokenización y el proyecto completo |
+
+**Casos relacionados:** [`open-finance/consentimiento-invalido`](../../case-studies/open-finance/consentimiento-invalido.md) ·
+[`blockchain/falla-de-oraculo`](../../case-studies/blockchain/falla-de-oraculo.md)

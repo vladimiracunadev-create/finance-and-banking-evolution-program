@@ -84,3 +84,25 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 - La medición del riesgo de crédito inducido de una cartera descalzada.
 - El tablero integrado sometido a un escenario único, con lo que se activa a la vez.
 - La autoevaluación final con lo que quedó flojo.
+
+## Continúa en la Etapa 5
+
+Los tipos de riesgo de esta parte no cambian en la Etapa 5: cambian sus fuentes y
+su velocidad. Una corrida sobre un depósito tarda días; sobre un instrumento
+digital que se reembolsa en cadena, horas. Ese cambio de escala temporal es lo
+que obliga a revisar los controles, no una taxonomía nueva.
+
+| Qué se profundiza | Dónde |
+|---|---|
+| Riesgo de reservas, redención y pérdida de paridad | Parte 20, clases 4, 5 y 6 |
+| Custodia y pérdida de material criptográfico | Parte 20, clase 12 |
+| Oráculos, puentes y contratos defectuosos | Parte 19, clases 8, 9 y 11 |
+| Riesgo de liquidación y riesgo Herstatt | Parte 18, clase 15 · Parte 21, clase 12 |
+| Liquidez 24/7 y ausencia de horario de corte | Parte 21, clase 13 |
+| Concentración de interfaces y de agregadores | Parte 17, clase 13 |
+| Terceros críticos y proveedor común | Parte 22, clases 14 y 19 |
+| Contagio y corridas digitales | Parte 20, clase 14 |
+
+**Casos relacionados:** [`stablecoins/corrida-de-reembolsos`](../../case-studies/stablecoins/corrida-de-reembolsos.md) ·
+[`cyber-incidents/proveedor-critico-comun`](../../case-studies/cyber-incidents/proveedor-critico-comun.md) ·
+[`cross-border-payments/falla-pvp`](../../case-studies/cross-border-payments/falla-pvp.md)

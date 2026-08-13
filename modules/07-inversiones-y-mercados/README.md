@@ -88,3 +88,25 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 > **Aviso.** Material formativo. No constituye asesoría de inversión, no
 > recomienda instrumentos y no proyecta rentabilidades. Toda cifra es sintética o
 > ilustrativa.
+
+## Continúa en la Etapa 5
+
+Esta parte enseña cómo se forma un precio, cómo se negocia y cómo se liquida en
+el mercado tradicional. La Etapa 5 pregunta qué cambia —y qué no— cuando esas
+mismas funciones se llevan a una infraestructura programable. Conviene volver
+aquí antes de entrar en cualquiera de las partes siguientes, porque todas
+suponen lo que en esta se explica.
+
+| Qué se profundiza | Dónde |
+|---|---|
+| Microestructura, libro de órdenes y profundidad real | Parte 21, clases 6 y 13 |
+| Bolsas, sistemas alternativos y su régimen | Parte 22, clase 10 |
+| Custodia, segregación e insolvencia | Parte 21, clase 9 · Parte 22, clase 9 |
+| Compensación, liquidación y firmeza | Parte 21, clases 8 y 12 |
+| Entrega contra pago atómica | Parte 21, clase 8 |
+| Abuso de mercado en instrumentos digitales | Parte 22, clase 11 |
+| Formación de precio sin creador de mercado | Parte 21, clase 13 |
+| Activos tokenizados y su mercado secundario | Parte 21, clases 1 a 6 |
+
+**Casos relacionados:** [`tokenization/bono-tokenizado`](../../case-studies/tokenization/bono-tokenizado.md) ·
+[`market-regulation/manipulacion-de-precio`](../../case-studies/market-regulation/manipulacion-de-precio.md)

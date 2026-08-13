@@ -84,3 +84,26 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 - El cálculo del ratio de capital con sus colchones y sus restricciones.
 - El programa de cumplimiento con sus obligaciones mapeadas hasta su prueba.
 - La autoevaluación final con lo que quedó flojo.
+
+## Continúa en la Etapa 5
+
+Esta parte enseña por qué se regula la banca y con qué instrumentos. La Parte 22
+aplica ese mismo método a actividades que no existían cuando se escribieron
+aquellos instrumentos, y encuentra tres límites: actividades cuyo riesgo cambia
+al cambiar de infraestructura, servicios sin sujeto al que exigir cumplimiento, y
+riesgos que ninguna norma anterior contempló.
+
+| Qué se profundiza | Dónde |
+|---|---|
+| Perímetro por actividad y neutralidad tecnológica | Parte 22, clases 1 y 2 |
+| Ley Fintec chilena y su normativa de desarrollo | Parte 17, clase 3 · Parte 22, clase 4 |
+| Sistema de Finanzas Abiertas | Parte 17, clases 1 a 5 |
+| MiCA y los regímenes europeos conexos | Parte 22, clases 17, 18 y 19 |
+| Activos virtuales y regla del viaje | Parte 18, clase 12 · Parte 22, clase 12 |
+| Proveedores tecnológicos críticos | Parte 22, clases 14 y 19 |
+| Espacios de prueba y regulación experimental | Parte 22, clase 21 |
+| Mercados tokenizados y su régimen | Parte 22, clase 10 |
+
+**Casos relacionados:** [`chile/sistema-de-finanzas-abiertas`](../../case-studies/chile/sistema-de-finanzas-abiertas.md) ·
+[`european-union/mica-transicion`](../../case-studies/european-union/mica-transicion.md) ·
+[`market-regulation/rechazo-de-autorizacion`](../../case-studies/market-regulation/rechazo-de-autorizacion.md)

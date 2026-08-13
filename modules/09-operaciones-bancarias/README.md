@@ -87,3 +87,26 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 - Una conciliación con sus partidas clasificadas y su hallazgo.
 - El mapa de criticidad de los procesos con la prueba de continuidad de uno.
 - La autoevaluación final con lo que quedó flojo.
+
+## Continúa en la Etapa 5
+
+Aquí se opera un banco por dentro. La Parte 18 sale del país: coge la misma
+transferencia y la sigue por una cadena de corresponsales, con su mensajería, su
+liquidez y sus controles. Casi todo lo que allí parece complicado se entiende sin
+esfuerzo si esta parte está asentada.
+
+| Qué se profundiza | Dónde |
+|---|---|
+| Corresponsalía bancaria y sus responsabilidades | Parte 18, clase 3 |
+| Cuentas nostro, vostro y loro | Parte 18, clase 4 |
+| Mensajería frente a movimiento de fondos | Parte 18, clase 5 |
+| ISO 20022 y datos estructurados | Parte 18, clase 6 |
+| Compensación, liquidación y finalidad | Parte 18, clase 7 |
+| Liquidez, prefinanciación y neteo | Parte 18, clase 8 |
+| Remesas y corredores internacionales | Parte 18, clase 10 |
+| Pago contra pago y liquidación atómica | Parte 18, clase 15 |
+| Interconexión de sistemas de pago inmediato | Parte 18, clase 13 |
+
+**Casos relacionados:** [`cross-border-payments/pago-retenido`](../../case-studies/cross-border-payments/pago-retenido.md) ·
+[`cross-border-payments/falta-de-liquidez`](../../case-studies/cross-border-payments/falta-de-liquidez.md) ·
+[`iso20022/error-de-migracion`](../../case-studies/iso20022/error-de-migracion.md)
