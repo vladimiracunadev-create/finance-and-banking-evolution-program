@@ -22,7 +22,7 @@ Términos de la **Etapa 5**. A diferencia del [glosario general](glosario.md),
 cada entrada incluye **qué no significa**: la mayoría de los errores de esta
 etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro.
 
-> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 22.
+> Este glosario crece con cada parte publicada. Hoy cubre las Partes 17 a 23.
 
 ## 🚧 Finanzas abiertas
 
@@ -1044,7 +1044,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Ejemplo.** Condiciones de servicio, flujos de fondos, quién puede mover el
   activo, qué se muestra en pantalla.
 - **Riesgo.** Un hecho sin fuente es una declaración disfrazada.
-- **Primera clase.** 22.1 · **Otras.** 22.3, 22.18.
+- **Primera clase.** 22.1 · **Otras.** 22.3, 22.22.
 
 ### Misma actividad, mismo riesgo, misma regulación
 
@@ -1101,7 +1101,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
   reales, más la preparación.
 - **Riesgo.** No presupuestar la carga recurrente y agotar el capital al año
   siguiente.
-- **Primera clase.** 22.4 · **Otras.** 22.10, 22.17.
+- **Primera clase.** 22.4 · **Otras.** 22.10, 22.21.
 
 ### Salvaguarda de fondos
 
@@ -1125,7 +1125,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Ejemplo.** «Si esta entidad quiebra mañana, ¿qué recupera el cliente, cuándo
   y de quién?»
 - **Riesgo.** Auditar solo la primera capa y dar la segunda por supuesta.
-- **Primera clase.** 22.6 · **Otras.** 22.9, 22.18.
+- **Primera clase.** 22.6 · **Otras.** 22.9, 22.22.
 
 ### Firmeza
 
@@ -1231,6 +1231,147 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
   el coste permanente de acceso a servicios.
 - **Primera clase.** 22.16.
 
+### Ficha referenciada a activos
+
+- **Definición.** Criptoactivo que estabiliza su valor frente a una cesta: varias
+  monedas oficiales, materias primas u otros criptoactivos.
+- **Qué NO significa.** No es una ficha de dinero electrónico, que se referencia a
+  **una sola** moneda oficial y tiene emisor restringido. Tampoco es un depósito
+  tokenizado ni un fondo monetario tokenizado.
+- **Ejemplo.** Un token respaldado por cuatro monedas y oro.
+- **Riesgo.** La reserva puede cumplir el importe y no la composición ni la
+  segregación; y el reembolso a la par no puede remunerarse.
+- **Primera clase.** 22.17 · **Otras.** 22.18, 20.3.
+
+### Ficha de dinero electrónico
+
+- **Definición.** Criptoactivo que estabiliza su valor frente a **una** moneda
+  oficial, con derecho de reembolso a la par en todo momento.
+- **Qué NO significa.** No es dinero de banco central. No es un depósito. Y su
+  saldo **no se remunera**: la prohibición es de estabilidad financiera, no de
+  protección al consumidor.
+- **Ejemplo.** Un token que promete un euro por unidad, emitido por una entidad
+  de dinero electrónico.
+- **Riesgo.** Compite con el depósito bancario; de ahí el umbral de instrumento
+  significativo y el cambio de supervisor.
+- **Primera clase.** 22.17 · **Otras.** 22.18, 20.9.
+
+### Libro blanco
+
+- **Definición.** Documento de información del emisor u oferente de un
+  criptoactivo, con responsabilidad civil por su contenido.
+- **Qué NO significa.** **No es una autorización.** Para la mayoría de los
+  criptoactivos se **notifica**, no se aprueba; la autoridad puede intervenir
+  después. Anunciar la notificación como un aval es la infracción de publicidad
+  más frecuente.
+- **Ejemplo.** «Registrado ante la autoridad» en una campaña, cuando solo se
+  presentó el documento.
+- **Riesgo.** El cliente interpreta información como respaldo.
+- **Primera clase.** 22.17 · **Otras.** 22.18.
+
+### Instrumento significativo
+
+- **Definición.** Ficha que supera umbrales de tenedores, valor emitido, volumen
+  o relevancia para los pagos, y cuya supervisión pasa a una autoridad superior.
+- **Qué NO significa.** No es una calificación de calidad: es una medida de
+  tamaño. Un instrumento significativo no es más seguro, es más vigilado.
+- **Ejemplo.** Una ficha de dinero electrónico que se convierte en
+  infraestructura de pagos de hecho.
+- **Riesgo.** El cambio de supervisor trae requisitos reforzados no previstos en
+  el plan de negocio.
+- **Primera clase.** 22.17 · **Otras.** 22.15.
+
+### Plan de reembolso
+
+- **Definición.** Procedimiento escrito que explica cómo se devuelve el valor a
+  **todos** los tenedores si la actividad cesa de forma ordenada.
+- **Qué NO significa.** No es el plan de recuperación, que responde a «cómo
+  vuelvo a cumplir sin dejar de operar». La prueba de que está bien escrito es
+  que **pueda ejecutarse sin el emisor**.
+- **Ejemplo.** Orden de prelación, calendario, canal de comunicación, quién
+  ejecuta si el equipo ya no está y con qué se financia el proceso.
+- **Riesgo.** Un plan que depende del emisor no sirve en el escenario en que se
+  activa.
+- **Primera clase.** 22.18 · **Otras.** 20.5, 20.6.
+
+### Exención con límite
+
+- **Definición.** Dispensa temporal de requisitos concretos a cambio de un tope
+  de volumen o de tamaño, propia de los regímenes piloto de infraestructuras.
+- **Qué NO significa.** No es una autorización ordinaria ni un régimen
+  definitivo. El techo suele llegar antes que el punto de equilibrio, y salir del
+  régimen es obligatorio, no opcional.
+- **Ejemplo.** Un sistema que negocia y liquida en la misma entidad —imposible en
+  el régimen ordinario— con límite agregado de instrumentos admitidos.
+- **Riesgo.** Entrar sin plan de transición: el proyecto nace con fecha de
+  caducidad.
+- **Primera clase.** 22.19 · **Otras.** 21.15.
+
+### Vigilancia directa
+
+- **Definición.** Supervisión que la autoridad ejerce sobre un proveedor
+  tecnológico designado como crítico, y no solo sobre las entidades que lo
+  contratan.
+- **Qué NO significa.** No sustituye a la responsabilidad de la entidad, que
+  sigue respondiendo del servicio que ejecuta el tercero. Cambia el destinatario
+  del requerimiento, no el reparto de responsabilidad.
+- **Ejemplo.** Veintidós entidades que cumplen su norma y un proveedor común que
+  concentra el 86 %: una conversación en vez de veintidós.
+- **Riesgo.** La entidad hereda cambios de servicio que no pidió.
+- **Primera clase.** 22.19 · **Otras.** 22.14.
+
+### Dirección autoalojada
+
+- **Definición.** Dirección controlada directamente por su titular, sin un
+  proveedor de servicios en ese extremo de la operación.
+- **Qué NO significa.** No está exenta de la regla del viaje: la ausencia de
+  proveedor **cambia** la obligación —verificación del control de la dirección
+  por encima de ciertos importes— en lugar de eliminarla.
+- **Ejemplo.** Una transferencia desde una cuenta de un proveedor autorizado
+  hacia una cartera propia del cliente.
+- **Riesgo.** Suele ser minoría de operaciones y mayoría del coste de
+  cumplimiento.
+- **Primera clase.** 22.19 · **Otras.** 22.12, 18.12.
+
+### Curso legal
+
+- **Definición.** Obligación jurídica de aceptar un instrumento en pago de
+  deudas dentro de un territorio.
+- **Qué NO significa.** No es lo mismo que «medio de pago aceptado», que no
+  obliga a nadie; ni que «moneda de referencia», que es aquella en la que se
+  llevan precios y cuentas. Un instrumento puede ser de curso legal y no ser la
+  moneda de referencia.
+- **Ejemplo.** Un país dolarizado que declara de curso legal un activo digital
+  sin emisor y mantiene el dólar como referencia contable.
+- **Riesgo.** La obligación legal no produce aceptación efectiva si el comercio
+  no ve beneficio.
+- **Primera clase.** 22.20 · **Otras.** 20.10.
+
+### Operativa circular
+
+- **Definición.** Operaciones entre cuentas vinculadas que no producen cambio
+  neto de posición económica y dan apariencia de actividad.
+- **Qué NO significa.** No es provisión legítima de liquidez, que sí asume
+  riesgo. Y no se detecta con el volumen bruto: hace falta medir el **volumen con
+  cambio neto de posición**.
+- **Ejemplo.** Cuarenta y una cuentas con el mismo origen de fondos que generan
+  el 63 % del volumen publicado.
+- **Riesgo.** Un incentivo por volumen sin límite de contraparte la produce por
+  diseño; y quien opera el mercado responde aunque no participe.
+- **Primera clase.** 22.11 · **Otras.** 22.20.
+
+### Régimen transitorio
+
+- **Definición.** Periodo durante el cual quien ya operaba bajo normas
+  anteriores puede seguir haciéndolo mientras se adapta al régimen nuevo.
+- **Qué NO significa.** No es un régimen definitivo ni una prórroga automática.
+  Su duración puede diferir entre jurisdicciones sujetas a la misma norma, y el
+  plazo no se amplía por haber empezado tarde el expediente.
+- **Ejemplo.** Un proveedor autorizado por norma nacional que dispone de un plazo
+  para obtener la autorización del nuevo reglamento.
+- **Riesgo.** Tratarlo como definitivo y llegar al final del plazo sin expediente.
+- **Primera clase.** 22.19 · **Otras.** 22.4.
+
 ### Espacio de prueba
 
 - **Definición.** Entorno con requisitos adaptados, perímetro acotado y
@@ -1240,7 +1381,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Ejemplo.** «Comprobar si X reduce el plazo de cobro en más de 10 días sin
   aumentar la morosidad», no «probar X».
 - **Riesgo.** El efecto de señal: el cliente interpreta la admisión como un aval.
-- **Primera clase.** 22.17.
+- **Primera clase.** 22.21.
 
 ### Medida provisional
 
@@ -1253,7 +1394,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
   autorización esté resuelta.
 - **Riesgo.** Sin ella, el intervalo de remediación deja al cliente expuesto sin
   que nadie lo haya decidido.
-- **Primera clase.** 22.18.
+- **Primera clase.** 22.22.
 
 ### Lectura cruzada
 
@@ -1266,7 +1407,7 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
   3-de-5 en la de resiliencia.
 - **Riesgo.** Si todos los hallazgos son ordinarios, la revisión no miró donde
   debía.
-- **Primera clase.** 22.18.
+- **Primera clase.** 22.22.
 
 ## 🗄️ Datos y privacidad
 
