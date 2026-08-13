@@ -149,7 +149,7 @@ prerrequisitos.
 
 ## 🎯 Competencias transversales
 
-Se construyen en las 352 clases, no en una parte concreta. **Son el objetivo real del
+Se construyen en las 356 clases, no en una parte concreta. **Son el objetivo real del
 programa.**
 
 | Competencia | Cómo se ejercita |

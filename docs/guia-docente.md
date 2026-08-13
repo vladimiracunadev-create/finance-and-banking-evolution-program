@@ -190,7 +190,7 @@ Es la situación más común y la que mejor funciona si se gestiona.
 
 | Recurso | Para qué |
 |---|---|
-| [Índice de las 352 clases](../SYLLABUS.md) | Planificar el curso completo |
+| [Índice de las 356 clases](../SYLLABUS.md) | Planificar el curso completo |
 | [Ruta de aprendizaje](ruta-aprendizaje.md) | Explicar la progresión al grupo |
 | [Mapa de competencias](mapa-competencias.md) | Definir resultados de aprendizaje |
 | [Glosario](glosario.md) | Repartir al inicio de cada etapa |

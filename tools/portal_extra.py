@@ -8,7 +8,7 @@ clases tiene y por donde entrar.
 Este modulo produce las tres piezas que faltan:
 
 * la **portada**, con las cifras reales, las cinco etapas y las 23 partes;
-* el **temario**, con las 352 clases y un buscador que filtra sin recargar;
+* el **temario**, con las 356 clases y un buscador que filtra sin recargar;
 * el **manifiesto y el trabajador de servicio**, que permiten instalar el
   portal en el telefono y consultarlo despues sin conexion.
 
@@ -295,7 +295,7 @@ def temario(clases: int) -> str:
 MANIFIESTO = {
     "name": "Finance & Banking Evolution Program",
     "short_name": "Finanzas y Banca",
-    "description": "352 clases de finanzas, banca e infraestructura financiera digital.",
+    "description": "356 clases de finanzas, banca e infraestructura financiera digital.",
     "start_url": "./index.html",
     "scope": "./",
     "display": "standalone",

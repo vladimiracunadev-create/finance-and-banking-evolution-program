@@ -3,7 +3,7 @@ name: Aplicaciones
 # Construye el material distribuible del programa y, cuando se etiqueta una
 # version, publica el release con todo:
 #
-#   * el APK de Android, con las 352 clases dentro y sin permiso de red;
+#   * el APK de Android, con todas las clases dentro y sin permiso de red;
 #   * la aplicacion portable de Windows, con el mismo contenido;
 #   * el manual completo en PDF;
 #   * las sumas de verificacion de los tres.
@@ -55,13 +55,13 @@ jobs:
         run: python tools/build_book.py
 
       - name: Comprobar que el contenido esta completo
-        env:
-          CLASES_ESPERADAS: "352"
         run: |
+          esperadas=$(find modules -path '*/classes/*.md' | wc -l)
           clases=$(find site/modules -path '*/classes/*.html' | wc -l)
-          echo "clases en el sitio: $clases"
-          if [ "$clases" -ne "${CLASES_ESPERADAS}" ]; then
-            echo "El sitio no trae las ${CLASES_ESPERADAS} clases: trae $clases"
+          echo "clases en el repositorio: $esperadas"
+          echo "clases en el sitio:       $clases"
+          if [ "$clases" -ne "$esperadas" ]; then
+            echo "El sitio no trae las $esperadas clases: trae $clases"
             exit 1
           fi
           test -s book/programa-completo.pdf
@@ -146,14 +146,14 @@ jobs:
       # empaquetarse, o no instalarse siquiera si le falta la firma. Se abre y
       # se comprueban las dos cosas.
       - name: Comprobar que el APK trae las clases y esta firmado
-        env:
-          CLASES_ESPERADAS: "352"
         run: |
+          esperadas=$(find modules -path '*/classes/*.md' | wc -l)
           apk=$(find mobile/app/build/outputs/apk/debug -name '*.apk' | head -1)
           echo "APK: $apk ($(du -h "$apk" | cut -f1))"
           dentro=$(unzip -l "$apk" | grep -c 'assets/site/modules/.*/classes/.*\.html' || true)
+          echo "clases esperadas:      $esperadas"
           echo "clases dentro del APK: $dentro"
-          [ "$dentro" -eq "${CLASES_ESPERADAS}" ] || { echo "El APK no trae las clases"; exit 1; }
+          [ "$dentro" -eq "$esperadas" ] || { echo "El APK no trae las clases"; exit 1; }
           unzip -l "$apk" | grep -q 'assets/site/index.html' || { echo "Falta la portada"; exit 1; }
           firmante=$(find "$ANDROID_HOME/build-tools" -name apksigner | sort | tail -1)
           "$firmante" verify --print-certs "$apk" | head -4
@@ -212,14 +212,14 @@ jobs:
 
       - name: Comprobar que la aplicación trae las clases
         shell: bash
-        env:
-          CLASES_ESPERADAS: "352"
         run: |
+          esperadas=$(find modules -path '*/classes/*.md' | wc -l)
           raiz="dist/FinanzasYBanca/_internal/site"
           [ -d "$raiz" ] || raiz="dist/FinanzasYBanca/site"
           clases=$(find "$raiz/modules" -path '*/classes/*.html' | wc -l)
+          echo "clases esperadas:    $esperadas"
           echo "clases empaquetadas: $clases"
-          [ "$clases" -eq "${CLASES_ESPERADAS}" ] || { echo "Faltan clases"; exit 1; }
+          [ "$clases" -eq "$esperadas" ] || { echo "Faltan clases"; exit 1; }
           test -f "dist/FinanzasYBanca/FinanzasYBanca.exe"
 
       - name: Comprimir

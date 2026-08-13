@@ -204,7 +204,7 @@ flowchart LR
 
 ## 📥 Tu portafolio
 
-Cada clase produce un entregable. Al final tendrás **352 evidencias** organizadas así:
+Cada clase produce un entregable. Al final tendrás **356 evidencias** organizadas así:
 
 ```text
 portfolio/
@@ -222,7 +222,7 @@ tomaste, y el portafolio es lo que las sostiene.
 ---
 
 **Ver también:** [Mapa de competencias](mapa-competencias.md) ·
-[Guía docente](guia-docente.md) · [Índice de las 352 clases](../SYLLABUS.md) ·
+[Guía docente](guia-docente.md) · [Índice de las 356 clases](../SYLLABUS.md) ·
 [Estado del contenido](../STATUS.md)
 
 <!-- pie:inicio -->

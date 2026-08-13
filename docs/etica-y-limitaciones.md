@@ -180,7 +180,7 @@ del contenido:
 
 Declarados, no descubiertos:
 
-- **No es exhaustivo.** 352 clases cubren mucho y no todo.
+- **No es exhaustivo.** 356 clases cubren mucho y no todo.
 - **No cubre ninguna jurisdicción en particular.** Es su diseño, y también su límite.
 - **Los datos son sintéticos.** Los patrones son verosímiles, no reales.
 - **Los parámetros son ilustrativos.** PD, LGD y correlaciones deben estimarse.

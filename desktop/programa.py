@@ -1,6 +1,6 @@
 """Lector de escritorio del programa completo.
 
-Muestra las 352 clases —el mismo HTML que publica el portal— en una ventana
+Muestra las 356 clases —el mismo HTML que publica el portal— en una ventana
 propia, sin conexion y sin navegador. El material viaja junto al ejecutable.
 
 Se ejecuta igual desde el repositorio que empaquetado:

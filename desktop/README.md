@@ -5,7 +5,7 @@
 
 **El programa completo en una ventana propia, sin conexión y sin instalar nada: se descomprime y se ejecuta.**
 
-[![clases](https://img.shields.io/badge/clases-352%20embebidas-7c5cff?style=flat-square)](../SYLLABUS.md)
+[![clases](https://img.shields.io/badge/clases-356%20embebidas-7c5cff?style=flat-square)](../SYLLABUS.md)
 [![formato](https://img.shields.io/badge/formato-portable%20(.zip)-1f6feb?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
 [![motor](https://img.shields.io/badge/PySide6-QtWebEngine-41cd52?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/desktop/requirements.txt)
 

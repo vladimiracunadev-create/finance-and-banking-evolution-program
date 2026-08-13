@@ -639,7 +639,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1113 relativo a la información que acompaña a las transferencias de fondos y de determinados criptoactivos*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1113>
 - Grupo de Acción Financiera Internacional. *Recomendación 16 y activos virtuales*. GAFI-FATF. <https://www.fatf-gafi.org/en/topics/virtual-assets.html>
-- Fichas normativas del repositorio: [`dlt-pilot`](../../../regulatory/union-europea/dlt-pilot-reglamento-2022-858.yml) · [`dora`](../../../regulatory/union-europea/dora-reglamento-2022-2554.yml) · [`transferencias`](../../../regulatory/union-europea/transferencias-fondos-reglamento-2023-1113.yml)
+- Fichas normativas del repositorio: `regulatory/union-europea/dlt-pilot-reglamento-2022-858.yml`, `regulatory/union-europea/dora-reglamento-2022-2554.yml` y `regulatory/union-europea/transferencias-fondos-reglamento-2023-1113.yml`
 - Verificación local: los topes cuantitativos del régimen piloto, los umbrales de la regla del viaje y los criterios de designación de proveedor crítico están en el texto consolidado y en normas técnicas posteriores, y **cambian**. Ninguna cifra de esta clase debe usarse para configurar un sistema sin comprobarla en EUR-Lex. Estas normas no son derecho aplicable en Chile. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-12.**
 
 <!-- gen:footer:start -->

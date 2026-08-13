@@ -14,7 +14,7 @@ import androidx.webkit.WebViewAssetLoader
 /**
  * Lector del programa completo.
  *
- * Las 352 clases viajan dentro del APK como HTML ya generado, el mismo que
+ * Las 356 clases viajan dentro del APK como HTML ya generado, el mismo que
  * publica el portal. La aplicacion no descarga nada y no necesita conexion:
  * es un visor sobre contenido local.
  *

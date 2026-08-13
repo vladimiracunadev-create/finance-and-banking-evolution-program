@@ -3,9 +3,9 @@
 
 # 📱 Aplicación de Android
 
-**Las 352 clases en el teléfono, sin conexión y sin telemetría: el APK no declara permiso de red.**
+**Las 356 clases en el teléfono, sin conexión y sin telemetría: el APK no declara permiso de red.**
 
-[![clases](https://img.shields.io/badge/clases-352%20embebidas-7c5cff?style=flat-square)](../SYLLABUS.md)
+[![clases](https://img.shields.io/badge/clases-356%20embebidas-7c5cff?style=flat-square)](../SYLLABUS.md)
 [![permiso de red](https://img.shields.io/badge/INTERNET-no%20declarado-2e8b57?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/mobile/app/src/main/AndroidManifest.xml)
 [![mínimo](https://img.shields.io/badge/Android-7.0%20o%20superior-3ddc84?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/mobile/app/build.gradle.kts)
 
@@ -21,7 +21,7 @@
 
 ## 🎯 Qué es
 
-Un lector del programa completo. Muestra el **mismo HTML que publica el portal**, empaquetado dentro del APK: portada, temario con buscador, las 352 clases, los índices de las 23 partes y toda la documentación.
+Un lector del programa completo. Muestra el **mismo HTML que publica el portal**, empaquetado dentro del APK: portada, temario con buscador, las 356 clases, los índices de las 23 partes y toda la documentación.
 
 No es un navegador ni un cliente de nada. No descarga contenido, no pide cuenta y no guarda nada fuera del teléfono.
 
