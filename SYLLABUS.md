@@ -3,11 +3,11 @@
 
 # 📚 Programa completo
 
-**Las 352 clases del programa, parte a parte, con su nivel y su enlace.**
+**Las 356 clases del programa, parte a parte, con su nivel y su enlace.**
 
 [![partes](https://img.shields.io/badge/partes-23-7c5cff?style=flat-square)](README.md)
-[![clases](https://img.shields.io/badge/clases-352-2ea44f?style=flat-square)](STATUS.md)
-[![horas](https://img.shields.io/badge/horas-528-8957e5?style=flat-square)](docs/ruta-aprendizaje.md)
+[![clases](https://img.shields.io/badge/clases-356-2ea44f?style=flat-square)](STATUS.md)
+[![horas](https://img.shields.io/badge/horas-534-8957e5?style=flat-square)](docs/ruta-aprendizaje.md)
 [![sesión](https://img.shields.io/badge/sesión-90%20minutos-1f6feb?style=flat-square)](docs/guia-docente.md)
 
 [🏠 Inicio](README.md) ·
@@ -46,9 +46,9 @@
 | 19 | [Blockchain y DLT para instituciones financieras](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | 21.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 20 | [Activos digitales, stablecoins y dinero programable](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 21 | [Tokenización, FX on-chain y mercados programables](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | 24.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| 22 | [Regulación de mercados financieros digitales](modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | 27.0 | Finanzas digitales — infraestructura y mercados tokenizados |
+| 22 | [Regulación de mercados financieros digitales](modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 22 | 33.0 | Finanzas digitales — infraestructura y mercados tokenizados |
 | 23 | [Proyecto — banco digital y mercado tokenizado](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) | 18 | 27.0 | Finanzas digitales — infraestructura y mercados tokenizados |
-| | **Total** | **352** | **528** | |
+| | **Total** | **356** | **534** | |
 
 ## 📚 Índice de clases
 
@@ -541,8 +541,12 @@ entregable de portafolio y al menos cuatro fuentes verificables.
 | 14 | [Resiliencia operativa y terceros críticos](modules/21-regulacion-de-mercados-financieros-digitales/classes/14-resiliencia-operativa-y-terceros-criticos.md) | profesional |
 | 15 | [Estabilidad financiera y vigilancia macroprudencial](modules/21-regulacion-de-mercados-financieros-digitales/classes/15-estabilidad-financiera-y-vigilancia.md) | profesional |
 | 16 | [Regulación comparada: Chile y el mundo](modules/21-regulacion-de-mercados-financieros-digitales/classes/16-regulacion-comparada-chile-y-el-mundo.md) | profesional |
-| 17 | [Espacios de prueba y regulación experimental](modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md) | profesional |
-| 18 | [Proyecto: expediente regulatorio](modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) | profesional |
+| 17 | [MiCA I: perímetro, activos y participantes](modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md) | profesional |
+| 18 | [MiCA II: obligaciones, reservas y supervisión](modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md) | profesional |
+| 19 | [Regímenes europeos conexos: piloto DLT, DORA y regla del viaje](modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md) | profesional |
+| 20 | [El Salvador: bitcoin, Chivo y activos digitales](modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md) | profesional |
+| 21 | [Espacios de prueba y regulación experimental](modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md) | profesional |
+| 22 | [Proyecto: expediente regulatorio](modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md) | profesional |
 
 ### Parte 23 — Proyecto — banco digital y mercado tokenizado
 

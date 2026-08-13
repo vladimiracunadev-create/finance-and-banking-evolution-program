@@ -1,6 +1,6 @@
 <!-- meta
 part: 22
-class: 17
+class: 21
 title: "Espacios de prueba y regulación experimental"
 level: profesional
 duration_minutes: 90
@@ -14,9 +14,9 @@ requires_legal_review: true
 -->
 
 <!-- gen:header:start -->
-# Clase 17 · Espacios de prueba y regulación experimental
+# Clase 21 · Espacios de prueba y regulación experimental
 
-> [← 16 · Regulación comparada: Chile y el mundo](16-regulacion-comparada-chile-y-el-mundo.md) · [Índice de la parte](../README.md) · [18 · Proyecto: expediente regulatorio →](18-proyecto-expediente-regulatorio.md)
+> [← 20 · El Salvador: bitcoin, Chivo y activos digitales](20-el-salvador-bitcoin-chivo-y-activos-digitales.md) · [Índice de la parte](../README.md) · [22 · Proyecto: expediente regulatorio →](22-proyecto-expediente-regulatorio.md)
 
 **Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
 <!-- gen:header:end -->
@@ -410,9 +410,9 @@ El cliente participa en un ensayo y sus protecciones pueden ser distintas. La ta
 
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
-| «Está aprobado por el supervisor» | La admisión no aprueba el producto | 22, clase 17 |
-| «Tienen menos requisitos» | Con perímetro acotado y plazo | 22, clase 17 |
-| «Es una prueba, no pasa nada» | Las salvaguardas no se relajan | 22, clase 17 |
+| «Está aprobado por el supervisor» | La admisión no aprueba el producto | 22, clase 21 |
+| «Tienen menos requisitos» | Con perímetro acotado y plazo | 22, clase 21 |
+| «Es una prueba, no pasa nada» | Las salvaguardas no se relajan | 22, clase 21 |
 
 ## ⚖️ Riesgos y controles
 
@@ -463,7 +463,7 @@ Los síntomas de la tabla describen ensayos que no aportan. La causa es la ausen
 
 ## 📥 Entregable
 
-Guarda en `portfolio/parte-22/clase-17/`:
+Guarda en `portfolio/parte-22/clase-21/`:
 
 - la evaluación de cuatro solicitudes por su hipótesis;
 - la comprobación de perímetro frente a capacidad de devolución;
@@ -473,7 +473,7 @@ Guarda en `portfolio/parte-22/clase-17/`:
 ## 🔗 Referencias cruzadas
 
 - **Viene de:** clases 2, 10 y 16.
-- **Continúa en:** clase 18 de esta parte.
+- **Continúa en:** clase 22 de esta parte.
 - **Se aplica en:** Parte 23, clases 3 y 16.
 
 <!-- gen:etica:start -->
@@ -500,5 +500,5 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 | Anterior | Índice | Siguiente |
 |---|---|---|
-| [← 16 · Regulación comparada: Chile y el mundo](16-regulacion-comparada-chile-y-el-mundo.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [18 · Proyecto: expediente regulatorio →](18-proyecto-expediente-regulatorio.md) |
+| [← 20 · El Salvador: bitcoin, Chivo y activos digitales](20-el-salvador-bitcoin-chivo-y-activos-digitales.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [22 · Proyecto: expediente regulatorio →](22-proyecto-expediente-regulatorio.md) |
 <!-- gen:footer:end -->

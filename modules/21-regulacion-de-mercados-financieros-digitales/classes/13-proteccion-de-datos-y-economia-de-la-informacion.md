@@ -478,7 +478,7 @@ Guarda en `portfolio/parte-22/clase-13/`:
 
 - **Viene de:** clases 11 y 12; Parte 17, clase 10; Parte 19, clase 10.
 - **Continúa en:** clase 14 de esta parte.
-- **Se aplica en:** clase 18 de esta parte; Parte 23, clase 13.
+- **Se aplica en:** clase 22 de esta parte; Parte 23, clase 13.
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

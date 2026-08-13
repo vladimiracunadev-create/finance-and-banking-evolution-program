@@ -2,7 +2,7 @@
 
 # 🏦 Finance & Banking Evolution Program
 
-## **352 clases · 23 partes · 528 horas · de calcular un porcentaje a defender un banco digital**
+## **356 clases · 23 partes · 534 horas · de calcular un porcentaje a defender un banco digital**
 
 **El programa de finanzas y banca más completo en español — desde aritmética financiera, presupuesto personal y contabilidad NIIF hasta crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins y mercados tokenizados.**
 
@@ -11,8 +11,8 @@
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg?branch=main)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Versión](https://img.shields.io/badge/versión-2.1.0-e67e22?style=for-the-badge)](CHANGELOG.md)
-[![Clases](https://img.shields.io/badge/clases-352%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
+[![Versión](https://img.shields.io/badge/versión-2.2.0-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Clases](https://img.shields.io/badge/clases-356%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
 [![Nivel](https://img.shields.io/badge/nivel-cero%20→%20dirección%20bancaria-2e8b57?style=for-the-badge)](STATUS.md)
 [![Manual](https://img.shields.io/badge/manual%20PDF-descargar-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)
 [![Android](https://img.shields.io/badge/Android-APK%20sin%20conexión-3ddc84?style=for-the-badge)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
@@ -31,7 +31,7 @@
 [🌐 **Portal de estudio**](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) ·
 [📱 App Android](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) ·
 [💻 App Windows](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) ·
-[📚 Índice de las 352 clases](SYLLABUS.md) ·
+[📚 Índice de las 356 clases](SYLLABUS.md) ·
 [📕 Descargar el manual (PDF)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf) ·
 [📖 Glosario maestro](docs/glosario-maestro.md) ·
 [🧭 Ruta de aprendizaje](docs/ruta-aprendizaje.md) ·
@@ -49,13 +49,13 @@
 
 ---
 
-> 🧭 **Estado del programa.** **Programa completo: las 5 etapas y sus 23 partes (352 clases) están construidas** — de la aritmética elemental al proyecto capstone de un banco digital con mercado tokenizado. Ninguna parte es un esqueleto.
+> 🧭 **Estado del programa.** **Programa completo: las 5 etapas y sus 23 partes (356 clases) están construidas** — de la aritmética elemental al proyecto capstone de un banco digital con mercado tokenizado. Ninguna parte es un esqueleto.
 >
-> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **352 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **298 pruebas** sobre las 11 aplicaciones en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
+> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **298 pruebas** sobre las 11 aplicaciones en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
 
 ## 🎯 Qué es esto
 
-Un currículo modular y **secuencial** que cubre **todo el espectro de las finanzas y la banca modernas**, paso a paso, en 352 clases agrupadas en 23 partes y 5 etapas. Está diseñado para que **una misma persona** avance sin saltos desde no saber calcular un interés hasta poder sentarse en un comité de riesgos y defender la arquitectura de un banco digital ante un supervisor.
+Un currículo modular y **secuencial** que cubre **todo el espectro de las finanzas y la banca modernas**, paso a paso, en 356 clases agrupadas en 23 partes y 5 etapas. Está diseñado para que **una misma persona** avance sin saltos desde no saber calcular un interés hasta poder sentarse en un comité de riesgos y defender la arquitectura de un banco digital ante un supervisor.
 
 No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo con una **estructura fija verificada por integración continua**:
 
@@ -77,7 +77,7 @@ No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo c
 
 | 📘 Clases | 📗 Fuentes citadas | 🧪 Laboratorios | 📝 Evaluaciones | 🎓 Proyectos | 📖 Términos |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **352** | **2 400+** | **150** | **46** | **23** | **2 175** |
+| **356** | **2 400+** | **150** | **46** | **23** | **2 198** |
 
 </div>
 
@@ -140,8 +140,8 @@ flowchart LR
 | 🔵 **Analista** | 5 – 8 | 60 | Lee estados financieros y valora activos |
 | 🟣 **Bancario** | 9 – 12 | 64 | Evalúa crédito, mide riesgo y aplica la norma |
 | 🟠 **Dirección** | 13 – 16 | 60 | Dirige un banco completo y lo defiende |
-| 🔴 **Finanzas digitales** | 17 – 23 | 112 | Construye y defiende la infraestructura digital |
-| | **1 – 23** | **352** | **528 horas de sesión** |
+| 🔴 **Finanzas digitales** | 17 – 23 | 116 | Construye y defiende la infraestructura digital |
+| | **1 – 23** | **356** | **534 horas de sesión** |
 
 </div>
 
@@ -204,14 +204,14 @@ La infraestructura por debajo. Continúa desde la introducción fintech de la Pa
 | 19 | Blockchain y DLT para instituciones financieras | 14 | Consenso, finalidad, redes autorizadas, contratos, oráculos, comparación con base centralizada | [📘 leer](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) |
 | 20 | Activos digitales, stablecoins y dinero programable | 16 | Taxonomía, reservas, redención, corrida, CBDC, custodia, contagio | [📘 leer](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) |
 | 21 | Tokenización, FX on-chain y mercados programables | 16 | Registro de referencia, emisión, mercado secundario, DvP, PvP y colateral | [📘 leer](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) |
-| 22 | Regulación de mercados financieros digitales | 18 | Perímetro, calificación, autorización, protección del cliente, resiliencia y regulación comparada | [📘 leer](modules/21-regulacion-de-mercados-financieros-digitales/README.md) |
+| 22 | Regulación de mercados financieros digitales | 22 | Perímetro, calificación, autorización, protección del cliente, resiliencia, regulación comparada, MiCA y el caso de El Salvador | [📘 leer](modules/21-regulacion-de-mercados-financieros-digitales/README.md) |
 | 23 | Proyecto: banco digital y mercado tokenizado | 18 | Alcance, arquitectura, construcción, tensiones, expediente y defensa | [📘 leer](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) |
 
-➡️ **[Ver el índice plano de las 352 clases](SYLLABUS.md)** · 📊 **[Avance real](STATUS.md)**
+➡️ **[Ver el índice plano de las 356 clases](SYLLABUS.md)** · 📊 **[Avance real](STATUS.md)**
 
 ## 📕 El programa entero en un documento
 
-¿Prefieres el curso entero en un solo sitio, para leer de corrido o estudiar sin conexión? El **manual** consolida las **352 clases** en orden, con portada, índice enlazado de 380 entradas y salto de página por parte y por clase.
+¿Prefieres el curso entero en un solo sitio, para leer de corrido o estudiar sin conexión? El **manual** consolida las **356 clases** en orden, con portada, índice enlazado de 384 entradas y salto de página por parte y por clase.
 
 - 📥 **[Descargar el manual en PDF](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)** — más de 3 500 páginas y 1 036 000 palabras, con **380 marcadores** en tres niveles (etapa → parte → clase) y numeración de página.
 - 🌐 **[Leerlo en el navegador (HTML)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.html)** — el mismo documento, con hoja de estilo de impresión.
@@ -238,7 +238,7 @@ Leer el programa seguido no es solo comodidad — es la única forma de comproba
 
 | Documento | Qué contiene |
 |---|---|
-| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 175 conceptos** de las 352 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
+| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 198 conceptos** de las 356 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
 | 📗 **[Glosario general](docs/glosario.md)** | Los términos base del programa, agrupados por tema |
 | 📘 **[Glosario de finanzas digitales](docs/glosario-finanzas-digitales.md)** | Los términos de la Etapa 5, cada uno con su «qué NO significa» |
 | 🧮 **[Formulario](docs/formulas.md)** | Las fórmulas del programa, cada una con su trampa habitual |
@@ -251,8 +251,8 @@ El portal se lee en cualquier navegador, pero para consultarlo **sin conexión**
 
 | | Qué es | Descarga |
 |---|---|---|
-| 🌐 **Portal** | Las 352 clases navegables, con temario y buscador. Se **instala** desde el navegador del teléfono («Añadir a pantalla de inicio») y relee sin conexión lo ya visitado | [Abrir el portal](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) |
-| 📱 **Android** | APK con las 352 clases dentro. **No declara permiso de red**: la ausencia de telemetría se comprueba en los ajustes, no se promete | [Último release](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) |
+| 🌐 **Portal** | Las 356 clases navegables, con temario y buscador. Se **instala** desde el navegador del teléfono («Añadir a pantalla de inicio») y relee sin conexión lo ya visitado | [Abrir el portal](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/) |
+| 📱 **Android** | APK con las 356 clases dentro. **No declara permiso de red**: la ausencia de telemetría se comprueba en los ajustes, no se promete | [Último release](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) |
 | 💻 **Windows** | Lector portable con ventana propia. Se descomprime y se ejecuta; para desinstalar, se borra la carpeta | [Último release](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest) |
 
 Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/README.md) y [desktop/](desktop/README.md).
@@ -287,7 +287,7 @@ python apps/openbank_simulator/cli.py demo
 
 ## 🧭 Portal, mapas y progreso
 
-- 🌐 **[Portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)** — las 352 clases navegables, con diagramas renderizados y sin instalar nada.
+- 🌐 **[Portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)** — las 356 clases navegables, con diagramas renderizados y sin instalar nada.
 - 🧭 **[Ruta de aprendizaje](docs/ruta-aprendizaje.md)** y **[mapa de competencias](docs/mapa-competencias.md)** — qué se sabe hacer al terminar cada parte.
 - 🗺️ **Mapas temáticos de la Etapa 5** — [finanzas abiertas](docs/mapa-finanzas-abiertas.md) · [pagos transfronterizos](docs/mapa-pagos-transfronterizos.md) · [blockchain y DLT](docs/mapa-blockchain-dlt.md) · [activos digitales](docs/mapa-activos-digitales.md) · [tokenización](docs/mapa-tokenizacion.md) · [regulatorio](docs/mapa-regulatorio.md) · [capstone](docs/mapa-capstone.md).
 - 📋 **[Fichas normativas](regulatory/README.md)** — normas de Chile, Unión Europea e internacionales, cada una con su fecha de verificación y la **[metodología](docs/metodologia-verificacion-regulatoria.md)** con que se comprueban.
@@ -303,7 +303,7 @@ python apps/openbank_simulator/cli.py demo
 | **Analista financiero** | Partes 7 – 9 y 13 | Modelamiento, crédito y finanzas corporativas |
 | **Profesional bancario** | Partes 9 – 12 | Crédito, operaciones, riesgos y cumplimiento |
 | **Dirección y gestión** | Partes 13 – 16 | Empresa, fintech, estrategia y banco virtual |
-| **Finanzas digitales** | Partes 17 – 22 | Finanzas abiertas, pagos, DLT, activos digitales y su regulación |
+| **Finanzas digitales** | Partes 17 – 23 | Finanzas abiertas, pagos, DLT, activos digitales y su regulación |
 | **Arquitectura de sistemas financieros** | Parte 23 | Construir, operar y defender un banco digital completo |
 | **Docente** | [Guía docente](docs/guia-docente.md) | Agenda de 90 min y rúbricas por clase |
 
@@ -353,7 +353,7 @@ Abre la **[Parte 1, clase 1](modules/00-matematica-financiera-basica/classes/01-
 ## 👩‍🏫 Para instructores
 
 - 📅 **[Guía docente](docs/guia-docente.md)** — cómo impartir el programa, con la agenda de 90 minutos que cada clase trae generada y las rúbricas de evaluación.
-- 🗂️ **[Syllabus completo](SYLLABUS.md)** — las 352 clases con sus horas, laboratorios, evaluaciones y proyectos.
+- 🗂️ **[Syllabus completo](SYLLABUS.md)** — las 356 clases con sus horas, laboratorios, evaluaciones y proyectos.
 - 🧭 **[Mapa de competencias](docs/mapa-competencias.md)** — qué sabe hacer el estudiante al terminar cada parte.
 - 🌎 **[Localizaciones](localizations/)** — plantilla para adaptar cifras y normativa por país, con la edición de Chile como ejemplo.
 
@@ -375,7 +375,7 @@ Las acciones de terceros están **fijadas por SHA de commit**, los permisos son 
 Los mismos validadores corren en local antes de subir:
 
 ```bash
-python tools/validate_program.py    # 352 clases: 11 secciones obligatorias y ≥ 4 fuentes
+python tools/validate_program.py    # 356 clases: 11 secciones obligatorias y ≥ 4 fuentes
 ```
 
 ```bash
@@ -422,7 +422,7 @@ pytest -q && npx markdownlint-cli2 "**/*.md"
 
 ### ✅ Lo que sí es
 
-- 📚 un currículo **secuencial y completo** de 352 clases, de la aritmética a la dirección bancaria;
+- 📚 un currículo **secuencial y completo** de 356 clases, de la aritmética a la dirección bancaria;
 - 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 150 laboratorios;
 - 📗 material con **bibliografía verificable**: 2 400+ fuentes citadas y cada norma con su fecha de verificación;
 - 🏦 un puente **cliente ↔ banco**: la misma clase sirve a quien lee su estado de cuenta y a quien decide ese cobro;

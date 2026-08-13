@@ -18,7 +18,7 @@
 
 ---
 
-## 📈 Avance global: 352 de 352 clases (100.0 %)
+## 📈 Avance global: 356 de 356 clases (100.0 %)
 
 `████████████████████████████████████████`
 
@@ -45,9 +45,9 @@
 | 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 19.7 KB |
 | 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 18.7 KB |
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 18.9 KB |
-| 22 | Parte 22: Regulación de mercados financieros digitales | 18 | 18 | `████████████████████` | 18.4 KB |
+| 22 | Parte 22: Regulación de mercados financieros digitales | 22 | 22 | `████████████████████` | 19.4 KB |
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 14.1 KB |
-| | **Total** | **352** | **352** | `████████████████████` | **18.4 KB** |
+| | **Total** | **356** | **356** | `████████████████████` | **18.5 KB** |
 
 ## ✅ Qué significa que una clase esté completa
 
@@ -72,8 +72,8 @@ escriben a mano.
 | Evaluaciones | 46 | Diagnóstico y final por parte |
 | Proyectos integradores | 23 | Especificados |
 | Aplicaciones didácticas | 11 | Ejecutables con pruebas |
-| Estudios de caso | 0 | Con hechos, fuentes y preguntas |
-| Fichas normativas estructuradas | 8 | Con fecha de verificación |
+| Estudios de caso | 26 | Con hechos, fuentes y preguntas |
+| Fichas normativas estructuradas | 13 | Con fecha de verificación |
 | Datasets documentados | 6 | Sintéticos, con diccionario |
 | Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |
 

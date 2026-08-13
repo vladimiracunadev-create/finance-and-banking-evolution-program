@@ -16,7 +16,7 @@ requires_legal_review: true
 <!-- gen:header:start -->
 # Clase 16 · Regulación comparada: Chile y el mundo
 
-> [← 15 · Estabilidad financiera y vigilancia macroprudencial](15-estabilidad-financiera-y-vigilancia.md) · [Índice de la parte](../README.md) · [17 · Espacios de prueba y regulación experimental →](17-espacios-de-prueba-y-regulacion-experimental.md)
+> [← 15 · Estabilidad financiera y vigilancia macroprudencial](15-estabilidad-financiera-y-vigilancia.md) · [Índice de la parte](../README.md) · [17 · MiCA I: perímetro, activos y participantes →](17-mica-perimetro-activos-y-participantes.md)
 
 **Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
 <!-- gen:header:end -->
@@ -464,7 +464,8 @@ Guarda en `portfolio/parte-22/clase-16/`:
 ## 🔗 Referencias cruzadas
 
 - **Viene de:** todas las clases anteriores de la parte.
-- **Continúa en:** clases 17 y 18 de esta parte.
+- **Continúa en:** clases 17 a 20 de esta parte, que aplican este método a un
+  régimen concreto —MiCA y sus normas conexas— y a un país concreto.
 - **Se aplica en:** Parte 23, clases 3 y 16.
 
 <!-- gen:etica:start -->
@@ -492,5 +493,5 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 | Anterior | Índice | Siguiente |
 |---|---|---|
-| [← 15 · Estabilidad financiera y vigilancia macroprudencial](15-estabilidad-financiera-y-vigilancia.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [17 · Espacios de prueba y regulación experimental →](17-espacios-de-prueba-y-regulacion-experimental.md) |
+| [← 15 · Estabilidad financiera y vigilancia macroprudencial](15-estabilidad-financiera-y-vigilancia.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [17 · MiCA I: perímetro, activos y participantes →](17-mica-perimetro-activos-y-participantes.md) |
 <!-- gen:footer:end -->

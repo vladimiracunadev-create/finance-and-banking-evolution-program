@@ -39,9 +39,9 @@
 |---|---:|
 | Partes publicadas | 23 |
 | Partes planificadas | 23 |
-| Clases publicadas | 352 |
-| Clases planificadas | 352 |
-| Horas de sesión publicadas | 528 |
+| Clases publicadas | 356 |
+| Clases planificadas | 356 |
+| Horas de sesión publicadas | 534 |
 | Duración por clase | 90 min |
 | Laboratorios | 150 |
 | Soluciones de referencia | 54 |
@@ -81,8 +81,8 @@
 | Analista | 5 – 8 | 60 | 90 |
 | Bancario | 9 – 12 | 64 | 96 |
 | Dirección | 13 – 16 | 60 | 90 |
-| Finanzas digitales | 17 – 23 | 112 | 168 |
-| **Total** | **23** | **352** | **528** |
+| Finanzas digitales | 17 – 23 | 116 | 174 |
+| **Total** | **23** | **356** | **534** |
 
 ## 🐍 Aplicaciones incluidas
 

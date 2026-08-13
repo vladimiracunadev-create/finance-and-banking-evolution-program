@@ -1,6 +1,6 @@
 <!-- meta
 part: 22
-class: 18
+class: 22
 title: "Proyecto: expediente regulatorio"
 level: profesional
 duration_minutes: 90
@@ -14,16 +14,16 @@ requires_legal_review: true
 -->
 
 <!-- gen:header:start -->
-# Clase 18 · Proyecto: expediente regulatorio
+# Clase 22 · Proyecto: expediente regulatorio
 
-> [← 17 · Espacios de prueba y regulación experimental](17-espacios-de-prueba-y-regulacion-experimental.md) · [Índice de la parte](../README.md) · [Proyecto de la parte →](../project/README.md)
+> [← 21 · Espacios de prueba y regulación experimental](21-espacios-de-prueba-y-regulacion-experimental.md) · [Índice de la parte](../README.md) · [Proyecto de la parte →](../project/README.md)
 
 **Parte 22 — Regulación de mercados financieros digitales** · **Nivel:** Profesional — perfil bancario · **Duración:** 90 minutos
 <!-- gen:header:end -->
 
 ## 🎯 Propósito
 
-Reunir las diecisiete clases en un **expediente regulatorio**: el documento con
+Reunir las veintiuna clases en un **expediente regulatorio**: el documento con
 el que una entidad se presenta ante un supervisor y demuestra que sabe qué hace,
 bajo qué régimen y con qué controles.
 
@@ -33,7 +33,7 @@ cada bloque de obligaciones; la 15 y la 16, a situarse en el sistema y en el
 mundo. Ahora se ensamblan, y el ensamblaje revela las contradicciones que cada
 pieza por separado no muestra.
 
-Esta clase cierra la parte reuniendo las diecisiete anteriores en un expediente. Y su valor no está en las piezas sino en cruzarlas por parejas, que es como lo lee quien va a hacer las preguntas.
+Esta clase cierra la parte reuniendo las veintiuna anteriores en un expediente. Y su valor no está en las piezas sino en cruzarlas por parejas, que es como lo lee quien va a hacer las preguntas.
 
 ## 📚 Objetivos
 
@@ -433,7 +433,7 @@ lee un supervisor.
 
 ## 🧭 Perspectivas
 
-El expediente afecta a todos los participantes de las diecisiete clases anteriores. La tabla los reúne.
+El expediente afecta a todos los participantes de las veintiuna clases anteriores. La tabla los reúne.
 
 | Actor | Qué ve | Qué decide |
 |---|---|---|
@@ -453,9 +453,9 @@ El cliente no ve el expediente y su protección depende de que las piezas no se 
 
 | Vista del cliente | Vista del banco | Parte |
 |---|---|---|
-| «Cumplen con todo» | Cada pieza sí; el conjunto no | 22, clase 18 |
-| «No custodian mis claves» | Tienen cuatro de cinco partes | 22, clase 18 |
-| «Mis fondos están separados» | Las devoluciones salen de la operativa | 22, clase 18 |
+| «Cumplen con todo» | Cada pieza sí; el conjunto no | 22, clase 22 |
+| «No custodian mis claves» | Tienen cuatro de cinco partes | 22, clase 22 |
+| «Mis fondos están separados» | Las devoluciones salen de la operativa | 22, clase 22 |
 
 ## ⚖️ Riesgos y controles
 
@@ -501,7 +501,7 @@ Los síntomas de la tabla aparecen en la revisión supervisora. Casi todos se ev
 
 ## 📥 Entregable
 
-Guarda en `portfolio/parte-22/clase-18/`:
+Guarda en `portfolio/parte-22/clase-22/`:
 
 - las doce piezas del expediente;
 - la lectura cruzada por parejas con las contradicciones halladas;
@@ -538,5 +538,5 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 | Anterior | Índice | Siguiente |
 |---|---|---|
-| [← 17 · Espacios de prueba y regulación experimental](17-espacios-de-prueba-y-regulacion-experimental.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [Proyecto de la parte →](../project/README.md) |
+| [← 21 · Espacios de prueba y regulación experimental](21-espacios-de-prueba-y-regulacion-experimental.md) | [Parte 22](../README.md) · [Programa](../../../SYLLABUS.md) | [Proyecto de la parte →](../project/README.md) |
 <!-- gen:footer:end -->

@@ -5,7 +5,7 @@
 
 **Todos los conceptos centrales del programa en un solo documento, con su definicion y la clase donde se estudian.**
 
-[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2175-7c5cff?style=flat-square)](glosario-maestro.md)
+[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2198-7c5cff?style=flat-square)](glosario-maestro.md)
 [![transversales](https://img.shields.io/badge/transversales-74%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_glossary.py)
 
@@ -24,7 +24,7 @@ Todos los conceptos centrales del programa en un solo documento, ordenados
 alfabéticamente. Cada entrada trae la definición que declara la clase donde se
 estudia, y un enlace para leerla completa.
 
-Este documento **se genera** desde las tablas de conceptos de las 352
+Este documento **se genera** desde las tablas de conceptos de las 356
 clases: no se escribe a mano y no puede desviarse de lo que el programa enseña.
 Si una definición cambia en una clase, cambia aquí en la siguiente ejecución de
 `python tools/build_glossary.py`.
@@ -50,7 +50,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [Z](#z)
 
-**2175 términos** de las 352 clases del programa. **74** son transversales y llevan entrada ampliada.
+**2198 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
 
 <h2 id="a">A</h2>
 
@@ -160,6 +160,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Categoría amplia: cualquier representación digital de valor o derecho
 - **Dónde se estudia.** [20.1](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/01-taxonomia-de-los-activos-digitales.md)
 
+### activo digital con emisor
+
+- **Definición.** El que tiene responsable identificable
+- **Dónde se estudia.** [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
+
 ### activo envuelto
 
 - **Definición.** Representación de un activo de otro registro
@@ -231,6 +236,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Decisión de aprobar o rechazar, con sus condiciones.
 - **También.** Proceso por el que un participante entra
 - **Dónde se estudia.** [9.1](../modules/08-analisis-y-gestion-de-credito/classes/01-ciclo-de-vida-del-credito.md) · [19.7](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/07-redes-publicas-privadas-y-autorizadas.md)
+
+### admisión a negociación
+
+- **Definición.** Incorporación del activo a una plataforma
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
 
 ### adquirencia
 
@@ -790,6 +800,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **También.** Quien decide qué versión es correcta
 - **Dónde se estudia.** [21.2](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/02-el-registro-de-referencia.md) · [23.7](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/07-el-registro-de-referencia-del-sistema.md)
 
+### autoridad sectorial
+
+- **Definición.** Organismo con competencia sobre esa actividad
+- **Dónde se estudia.** [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
+
 ### autorización ⭐
 
 - **Definición.** Verificación en línea de fondos y de reglas de riesgo. Retiene el monto, no lo transfiere.
@@ -1055,6 +1070,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Cambio que exige que todos actualicen
 - **Dónde se estudia.** [19.13](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md)
+
+### billetera
+
+- **Definición.** Aplicación que da acceso a fondos; no es dinero
+- **Dónde se estudia.** [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
 
 ### bitácora de decisiones
 
@@ -1541,7 +1561,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### carta de no acción
 
 - **Definición.** Compromiso de no ejercer potestad sancionadora
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### cartera de mercado
 
@@ -2364,7 +2384,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### contradicción entre piezas
 
 - **Definición.** Dos secciones que afirman cosas incompatibles
-- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md)
+- **Dónde se estudia.** [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md)
 
 ### contramedida mecánica
 
@@ -2913,7 +2933,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### criterio de salida
 
 - **Definición.** Condición que cierra la participación
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### criterio de valoración
 
@@ -3064,7 +3084,8 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### curso legal
 
 - **Definición.** Obligación de aceptar en pago de una deuda
-- **Dónde se estudia.** [22.7](../modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md)
+- **También.** Obligación jurídica de aceptar en pago de deudas
+- **Dónde se estudia.** [22.7](../modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md) · [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
 
 ### curva de precios de transferencia
 
@@ -3085,6 +3106,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Control de las claves privadas que dan acceso a los activos.
 - **Dónde se estudia.** [14.9](../modules/13-fintech-datos-e-inteligencia-artificial/classes/09-criptoactivos-y-registro-distribuido.md)
+
+### custodia de la reserva
+
+- **Definición.** Depósito en entidad habilitada y distinta
+- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
 
 ### custodia de valores
 
@@ -3276,7 +3302,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **También.** Presentación y sustentación del proyecto completo.
 - **Ejemplo.** Veinte minutos ante un comite respondiendo con el calculo, el supuesto y la alternativa descartada de cada decision.
 - **A considerar.** Lo que mas credibilidad da no son las respuestas sino los limites que se reconocen. Un expediente que solo dice lo que funciona no se cree.
-- **Dónde se estudia.** [1.14](../modules/00-matematica-financiera-basica/classes/14-proyecto-calculadora-financiera-personal.md) · [16.1](../modules/15-proyecto-banco-virtual/classes/01-alcance-del-proyecto.md) · [16.18](../modules/15-proyecto-banco-virtual/classes/18-defensa-y-cierre.md) · [17.14](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/14-proyecto-agregador-financiero-regulado.md) · [19.14](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/14-proyecto-red-financiera-autorizada.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) · [23.18](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/18-defensa-ante-el-comite.md)
+- **Dónde se estudia.** [1.14](../modules/00-matematica-financiera-basica/classes/14-proyecto-calculadora-financiera-personal.md) · [16.1](../modules/15-proyecto-banco-virtual/classes/01-alcance-del-proyecto.md) · [16.18](../modules/15-proyecto-banco-virtual/classes/18-defensa-y-cierre.md) · [17.14](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/14-proyecto-agregador-financiero-regulado.md) · [19.14](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/14-proyecto-red-financiera-autorizada.md) · [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md) · [23.18](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/18-defensa-ante-el-comite.md)
 
 ### defensa de estimaciones
 
@@ -3892,6 +3918,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Identificador derivado de la clave pública
 - **Dónde se estudia.** [19.3](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/03-claves-direcciones-y-gestion-criptografica.md)
 
+### dirección autoalojada
+
+- **Definición.** Dirección controlada por su titular, sin proveedor
+- **Dónde se estudia.** [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
+
 ### director de riesgos
 
 - **Definición.** Responsable de la segunda línea, con acceso directo al directorio.
@@ -4134,7 +4165,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Lo que una acción comunica, más allá de lo que hace.
 - **También.** Percepción de aval que genera la admisión
-- **Dónde se estudia.** [16.17](../modules/15-proyecto-banco-virtual/classes/17-simulacion-de-una-crisis.md) · [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [16.17](../modules/15-proyecto-banco-virtual/classes/17-simulacion-de-una-crisis.md) · [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### efecto desplazamiento
 
@@ -4490,7 +4521,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### espacio de prueba
 
 - **Definición.** Entorno con requisitos adaptados y vigilancia reforzada
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### especulación
 
@@ -4724,7 +4755,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **También.** Registro que reconstruye qué autorizó el cliente y con qué texto
 - **Ejemplo.** La captura con hora del mensaje fraudulento, tomada durante el incidente y no reconstruida despues.
 - **A considerar.** La contemporanea vale mucho mas que la posterior. Casi todos los reclamos con razon que se pierden se pierden por falta de evidencia, no de argumento.
-- **Dónde se estudia.** [12.14](../modules/11-regulacion-cumplimiento-y-auditoria/classes/14-auditoria-interna.md) · [17.5](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/05-consentimiento-ciclo-de-vida.md) · [17.14](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/14-proyecto-agregador-financiero-regulado.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
+- **Dónde se estudia.** [12.14](../modules/11-regulacion-cumplimiento-y-auditoria/classes/14-auditoria-interna.md) · [17.5](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/05-consentimiento-ciclo-de-vida.md) · [17.14](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/14-proyecto-agregador-financiero-regulado.md) · [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
 
 ### evidencia contemporánea
 
@@ -4765,6 +4796,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Supuesto en que la norma permite no aplicar autenticación reforzada
 - **Dónde se estudia.** [17.11](../modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/11-autenticacion-reforzada-fraude-y-responsabilidad.md)
+
+### exención con límite
+
+- **Definición.** Dispensa temporal a cambio de un tope de volumen
+- **Dónde se estudia.** [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
 
 ### exhaustividad
 
@@ -4809,7 +4845,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### expediente regulatorio
 
 - **Definición.** Conjunto ordenado que sostiene la posición de la entidad
-- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md)
+- **Dónde se estudia.** [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md)
 
 ### explicabilidad ⭐
 
@@ -4896,6 +4932,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Efecto del proyecto sobre otros negocios de la empresa. Se incluye, positivo o negativo.
 - **También.** Costo que una decisión impone a terceros que no participaron en ella.
 - **Dónde se estudia.** [7.8](../modules/06-matematica-financiera-avanzada/classes/08-valor-actual-neto.md) · [12.1](../modules/11-regulacion-cumplimiento-y-auditoria/classes/01-por-que-se-regula-la-banca.md)
+
+### externalización
+
+- **Definición.** Delegar una función sin delegar la responsabilidad
+- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
 
 ### extraterritorialidad
 
@@ -5016,10 +5057,20 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Día en que el importe produce efectos económicos
 - **Dónde se estudia.** [18.5](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/05-mensajeria-frente-a-movimiento-de-fondos.md)
 
+### ficha de dinero electrónico
+
+- **Definición.** Criptoactivo que estabiliza su valor contra una moneda oficial
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
+
 ### ficha de indicador
 
 - **Definición.** Definición, objetivo, alerta, responsable y frecuencia.
 - **Dónde se estudia.** [16.14](../modules/15-proyecto-banco-virtual/classes/14-cuadro-de-mando-del-banco.md)
+
+### ficha referenciada a activos
+
+- **Definición.** Criptoactivo que estabiliza su valor contra una cesta
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
 
 ### finalidad
 
@@ -5195,6 +5246,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Patrimonio colectivo de rescate diario. El valor de la cuota cambia todos los días; puede bajar.
 - **También.** Patrimonio colectivo de rescate diario, administrado por una sociedad autorizada.
 - **Dónde se estudia.** [3.11](../modules/02-productos-y-servicios-financieros/classes/11-fondos-y-ahorro-previsional.md) · [8.5](../modules/07-inversiones-y-mercados/classes/05-fondos-mutuos.md)
+
+### fondos propios
+
+- **Definición.** Capital exigido de forma permanente
+- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
 
 ### formación
 
@@ -5514,7 +5570,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### hallazgo bloqueante
 
 - **Definición.** El que impide operar hasta corregirse
-- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
+- **Dónde se estudia.** [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
 
 ### hecho de diseño
 
@@ -5554,7 +5610,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### hipótesis
 
 - **Definición.** Lo que el experimento quiere averiguar
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### hipótesis verificable
 
@@ -5923,7 +5979,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### informe de resultados
 
 - **Definición.** Publicación de lo aprendido
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### informe externo
 
@@ -5939,6 +5995,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Sistema que negocia, compensa, liquida o registra
 - **Dónde se estudia.** [22.10](../modules/21-regulacion-de-mercados-financieros-digitales/classes/10-infraestructuras-de-mercado-y-su-regimen.md)
+
+### infraestructura DLT
+
+- **Definición.** Mercado o sistema de liquidación sobre registro distribuido
+- **Dónde se estudia.** [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
 
 ### infraseguro
 
@@ -6024,6 +6085,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** El derivado que lo neutraliza.
 - **Dónde se estudia.** [11.9](../modules/10-gestion-integral-de-riesgos/classes/09-derivados-y-coberturas.md)
+
+### instrumento significativo
+
+- **Definición.** El que supera umbrales y cambia de supervisor
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
 
 ### integración
 
@@ -6217,6 +6283,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Detalle de una cuenta de control: clientes, proveedores, activo fijo.
 - **Dónde se estudia.** [5.8](../modules/04-contabilidad-financiera/classes/08-libro-diario-y-mayor.md)
+
+### libro blanco
+
+- **Definición.** Documento de información con responsabilidad del emisor
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
 
 ### libro contable
 
@@ -6670,7 +6741,8 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### medio de pago
 
 - **Definición.** Instrumento que permite transferir valor entre partes.
-- **Dónde se estudia.** [10.9](../modules/09-operaciones-bancarias/classes/09-medios-de-pago.md)
+- **También.** Instrumento aceptado, con o sin obligación
+- **Dónde se estudia.** [10.9](../modules/09-operaciones-bancarias/classes/09-medios-de-pago.md) · [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
 
 ### mejor ejecución
 
@@ -6897,6 +6969,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Tendencia de los activos que subieron a seguir subiendo en horizontes intermedios.
 - **Dónde se estudia.** [8.12](../modules/07-inversiones-y-mercados/classes/12-analisis-tecnico-introductorio.md)
+
+### moneda de referencia
+
+- **Definición.** Aquella en la que se llevan cuentas y precios
+- **Dónde se estudia.** [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
 
 ### moneda digital de banco central
 
@@ -7232,7 +7309,9 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### oferta pública
 
 - **Definición.** Ofrecimiento dirigido al público, sujeto a régimen
-- **Dónde se estudia.** [21.4](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/04-emision-mercado-primario-tokenizado.md)
+- **También.** Comunicación al público para adquirir el activo
+- **También.** Comunicación dirigida al público para adquirir el activo
+- **Dónde se estudia.** [21.4](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/04-emision-mercado-primario-tokenizado.md) · [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md) · [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
 
 ### oligopolio
 
@@ -7354,6 +7433,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Cambios de valor que no pasan por el resultado del periodo: revaluaciones, coberturas, diferencias de conversión.
 - **Dónde se estudia.** [5.5](../modules/04-contabilidad-financiera/classes/05-patrimonio.md)
+
+### otros criptoactivos
+
+- **Definición.** Los que no prometen estabilidad frente a una referencia
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
 
 <h2 id="p">P</h2>
 
@@ -7720,7 +7804,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### perímetro del ensayo
 
 - **Definición.** Clientes, importes y plazo admitidos
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### perímetro efectivo
 
@@ -7932,11 +8016,17 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Documento que sustenta la viabilidad ante el supervisor.
 - **Dónde se estudia.** [16.3](../modules/15-proyecto-banco-virtual/classes/03-constitucion-y-gobierno.md)
 
-### plan de recuperación
+### plan de recuperación ⭐
 
 - **Definición.** Documento con las opciones para restaurar la viabilidad.
+- **También.** Cómo se restablece el cumplimiento sin cerrar
 - **También.** Procedimiento previsto ante un fallo grave
-- **Dónde se estudia.** [15.13](../modules/14-estrategia-y-direccion-bancaria/classes/13-gestion-de-crisis.md) · [19.13](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md)
+- **Dónde se estudia.** [15.13](../modules/14-estrategia-y-direccion-bancaria/classes/13-gestion-de-crisis.md) · [19.13](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
+
+### plan de reembolso
+
+- **Definición.** Cómo se devuelve a todos si se cierra
+- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
 
 ### plan de relación
 
@@ -7946,7 +8036,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### plan de remediación
 
 - **Definición.** Corrección con responsable, plazo y verificación
-- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md)
+- **Dónde se estudia.** [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md)
 
 ### plan de rescate
 
@@ -8560,6 +8650,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Documento de procedimiento, no de recomendaciones. Se ejecuta, no se consulta.
 - **Dónde se estudia.** [4.14](../modules/03-seguridad-y-consumo-financiero/classes/14-proyecto-protocolo-personal-de-seguridad.md)
 
+### proveedor crítico
+
+- **Definición.** Tercero designado y vigilado por la autoridad
+- **Dónde se estudia.** [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
+
 ### proveedor de información
 
 - **Definición.** Tercero que agrega datos de cuentas.
@@ -8586,6 +8681,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Entidad que aporta la divisa de destino
 - **También.** Quien se compromete a cotizar de compra y venta
 - **Dónde se estudia.** [18.13](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/13-interconexion-de-pagos-inmediatos.md) · [21.6](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/06-mercado-secundario-y-liquidez-prometida.md)
+
+### proveedor de servicios
+
+- **Definición.** Persona jurídica autorizada para prestar servicios listados
+- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md)
 
 ### proveedor de servicios basados en información
 
@@ -8698,6 +8798,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Un caso con resultado conocido que se ejecuta automáticamente. Si falla, el cambio rompió algo.
 - **Dónde se estudia.** [1.13](../modules/00-matematica-financiera-basica/classes/13-herramientas-calculadora-excel-y-python.md)
+
+### pruebas de resiliencia
+
+- **Definición.** Ejercicios que verifican la continuidad real
+- **Dónde se estudia.** [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
 
 ### puente
 
@@ -8988,6 +9093,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Todos guardan todo
 - **Dónde se estudia.** [23.4](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/04-decision-de-arquitectura-registro.md)
 
+### reembolso a la par
+
+- **Definición.** Derecho a recuperar el valor nominal sin descuento
+- **Dónde se estudia.** [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
+
 ### reentrada
 
 - **Definición.** Una llamada externa vuelve al contrato antes de que termine
@@ -9118,8 +9228,9 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### regla del viaje
 
 - **Definición.** Obligación de que ciertos datos acompañen a la transferencia
+- **También.** Datos del ordenante y beneficiario que acompañan la operación
 - **También.** Datos que deben acompañar a la transferencia
-- **Dónde se estudia.** [18.12](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/12-aml-sanciones-y-regla-del-viaje.md) · [22.12](../modules/21-regulacion-de-mercados-financieros-digitales/classes/12-prevencion-de-lavado-y-financiamiento.md)
+- **Dónde se estudia.** [18.12](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/12-aml-sanciones-y-regla-del-viaje.md) · [22.12](../modules/21-regulacion-de-mercados-financieros-digitales/classes/12-prevencion-de-lavado-y-financiamiento.md) · [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
 
 ### regla del viaje en activos virtuales
 
@@ -9418,7 +9529,13 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### reserva de activos
 
 - **Definición.** Cartera que respalda el circulante
-- **Dónde se estudia.** [22.5](../modules/21-regulacion-de-mercados-financieros-digitales/classes/05-regimen-de-emisores.md)
+- **También.** Patrimonio afecto que respalda las fichas emitidas
+- **Dónde se estudia.** [22.5](../modules/21-regulacion-de-mercados-financieros-digitales/classes/05-regimen-de-emisores.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
+
+### reserva pública
+
+- **Definición.** Tenencia del Estado, con su régimen de transparencia
+- **Dónde se estudia.** [22.20](../modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md)
 
 ### reservas internacionales
 
@@ -9635,7 +9752,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **También.** Rehacer el expediente cuando cambian los hechos
 - **Ejemplo.** El perimetro regulatorio se vuelve a determinar cada vez que cambia una decision de diseno.
 - **A considerar.** Lo que se determina una vez caduca. Un analisis correcto hace dieciocho meses puede estar equivocado hoy sin que nadie lo haya notado.
-- **Dónde se estudia.** [20.16](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/16-proyecto-evaluacion-de-un-activo-digital.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
+- **Dónde se estudia.** [20.16](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/16-proyecto-evaluacion-de-un-activo-digital.md) · [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
 
 ### revisión posterior ⭐
 
@@ -10030,7 +10147,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### salvaguarda del cliente
 
 - **Definición.** Protección que no se relaja nunca
-- **Dónde se estudia.** [22.17](../modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md)
+- **Dónde se estudia.** [22.21](../modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md)
 
 ### sanción
 
@@ -10094,7 +10211,8 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### segregación
 
 - **Definición.** Separación jurídica de la reserva del patrimonio del emisor
-- **Dónde se estudia.** [20.4](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/04-reservas-composicion-calidad-y-verificacion.md)
+- **También.** Separación jurídica del patrimonio propio del emisor
+- **Dónde se estudia.** [20.4](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/04-reservas-composicion-calidad-y-verificacion.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
 
 ### segregación contable
 
@@ -10370,6 +10488,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Solo intereses durante el plazo y **capital íntegro al vencimiento**. Es la estructura de un bono.
 - **También.** Solo interés; capital al vencimiento.
 - **Dónde se estudia.** [1.12](../modules/00-matematica-financiera-basica/classes/12-amortizacion-basica.md) · [7.7](../modules/06-matematica-financiera-avanzada/classes/07-sistemas-de-amortizacion.md)
+
+### sistema conjunto
+
+- **Definición.** Negociación y liquidación en la misma entidad
+- **Dónde se estudia.** [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
 
 ### sistema de alto valor
 
@@ -11093,7 +11216,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **También.** Quién afirmó qué, cuándo y con qué base
 - **Ejemplo.** Cualquier cifra del informe se puede seguir hasta el documento que la respalda, sin saltos.
 - **A considerar.** Es lo que permite defender una decision meses despues. Se construye mientras se trabaja; no se puede anadir al final.
-- **Dónde se estudia.** [1.13](../modules/00-matematica-financiera-basica/classes/13-herramientas-calculadora-excel-y-python.md) · [6.15](../modules/05-economia-y-sistema-financiero/classes/15-proyecto-informe-macrofinanciero.md) · [9.2](../modules/08-analisis-y-gestion-de-credito/classes/02-solicitud-y-expediente.md) · [9.16](../modules/08-analisis-y-gestion-de-credito/classes/16-proyecto-motor-de-evaluacion-crediticia.md) · [16.1](../modules/15-proyecto-banco-virtual/classes/01-alcance-del-proyecto.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
+- **Dónde se estudia.** [1.13](../modules/00-matematica-financiera-basica/classes/13-herramientas-calculadora-excel-y-python.md) · [6.15](../modules/05-economia-y-sistema-financiero/classes/15-proyecto-informe-macrofinanciero.md) · [9.2](../modules/08-analisis-y-gestion-de-credito/classes/02-solicitud-y-expediente.md) · [9.16](../modules/08-analisis-y-gestion-de-credito/classes/16-proyecto-motor-de-evaluacion-crediticia.md) · [16.1](../modules/15-proyecto-banco-virtual/classes/01-alcance-del-proyecto.md) · [22.22](../modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md) · [23.13](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/13-expediente-regulatorio-del-sistema.md)
 
 ### trazabilidad de la decisión
 
@@ -11490,7 +11613,8 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 ### vigilancia directa
 
 - **Definición.** Supervisión del proveedor, no solo de la entidad
-- **Dónde se estudia.** [22.14](../modules/21-regulacion-de-mercados-financieros-digitales/classes/14-resiliencia-operativa-y-terceros-criticos.md)
+- **También.** Supervisión del proveedor, no solo de su cliente
+- **Dónde se estudia.** [22.14](../modules/21-regulacion-de-mercados-financieros-digitales/classes/14-resiliencia-operativa-y-terceros-criticos.md) · [22.19](../modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md)
 
 ### vigilancia normativa
 

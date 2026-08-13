@@ -1,0 +1,44 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: El Salvador
+authority: Asamblea Legislativa de la Republica de El Salvador
+instrument_type: ley
+instrument_number: "Decreto Legislativo 57 (2021)"
+title: >-
+  Ley Bitcoin, que adopto el bitcoin como moneda de curso legal en
+  El Salvador, reformada en enero de 2025
+publication_date: "2021-06-09"
+effective_date: "2021-09-07"
+implementation_stage: >-
+  vigente con reforma sustancial en enero de 2025 que convirtio la aceptacion
+  en voluntaria para el sector privado
+status: vigente con reformas
+scope: >-
+  Regula el uso del bitcoin en El Salvador. En su version original de 2021
+  declaraba el bitcoin moneda de curso legal, obligaba a todo agente economico
+  a aceptarlo como pago cuando fuera tecnologicamente posible, permitia pagar
+  obligaciones tributarias con bitcoin y mantenia el dolar de Estados Unidos
+  como moneda de referencia contable. La reforma de enero de 2025 elimino la
+  obligacion de aceptacion, retiro el pago de tributos en bitcoin y ordeno la
+  retirada progresiva del Estado de la billetera Chivo.
+activities_covered:
+  - uso del bitcoin como medio de pago
+  - conversion entre bitcoin y dolar
+  - servicios de billetera provistos o respaldados por el Estado
+  - tratamiento tributario de las ganancias en bitcoin
+official_source: https://www.asamblea.gob.sv/
+last_verified: "2026-08-12"
+supersedes: ninguno
+superseded_by: >-
+  no derogada; reformada por decreto legislativo de enero de 2025 en el marco
+  del acuerdo con el Fondo Monetario Internacional
+notes: >-
+  Es una referencia comparada, no derecho aplicable en Chile. Se cita porque
+  es el unico caso en que un Estado declaro moneda de curso legal un activo
+  digital sin emisor, y porque su reforma posterior permite separar siete
+  resultados distintos: monetario, de adopcion, fiscal, tecnologico,
+  regulatorio, reputacional y de inversion. El bitcoin de esta ley NO es
+  dinero electronico, NO es una stablecoin y NO es una moneda digital de
+  banco central; Chivo es una billetera, no una moneda. El texto consolidado
+  y la fecha exacta de la reforma deben verificarse en el Diario Oficial:
+  las cifras de adopcion que circulan proceden de fuentes distintas y no
+  siempre comparables. Ver Parte 22, clase 20.

@@ -44,7 +44,7 @@ PLANNED = {
     "18-blockchain-y-dlt-para-instituciones-financieras": 14,
     "19-activos-digitales-stablecoins-y-dinero-programable": 16,
     "20-tokenizacion-fx-onchain-y-mercados-programables": 16,
-    "21-regulacion-de-mercados-financieros-digitales": 18,
+    "21-regulacion-de-mercados-financieros-digitales": 22,
     "22-proyecto-banco-digital-y-mercado-tokenizado": 18,
 }
 

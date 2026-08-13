@@ -499,7 +499,7 @@ Guarda en `portfolio/parte-22/clase-09/`:
 
 - **Viene de:** clases 3, 6 y 8; Parte 20, clase 12; Parte 21, clase 9.
 - **Continúa en:** clases 10 y 14 de esta parte.
-- **Se aplica en:** clase 18 de esta parte; Parte 23, clase 10.
+- **Se aplica en:** clase 22 de esta parte; Parte 23, clase 10.
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

@@ -5,7 +5,7 @@
 
 **Todas las guías de referencia del programa, agrupadas por a quién sirven.**
 
-[![documentos](https://img.shields.io/badge/documentos-20-7c5cff?style=flat-square)](README.md)
+[![documentos](https://img.shields.io/badge/documentos-27-7c5cff?style=flat-square)](README.md)
 [![complementan](https://img.shields.io/badge/complementan-no%20sustituyen%20a%20las%20clases-2e8b57?style=flat-square)](../SYLLABUS.md)
 
 [🏠 Inicio](../README.md) ·
@@ -29,7 +29,7 @@ sustituye. El número exacto de partes y clases está en
 |---|---|
 | 🗺️ **[Ruta de aprendizaje](ruta-aprendizaje.md)** | Por dónde entrar según tu perfil, cadenas de dependencia entre partes y método de estudio |
 | 🎯 **[Mapa de competencias](mapa-competencias.md)** | Qué sabes hacer en cada nivel, con listas de verificación para autoevaluarte |
-| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 175 conceptos de las 352 clases, alfabéticos, con dónde se estudia cada uno |
+| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 198 conceptos de las 356 clases, alfabéticos, con dónde se estudia cada uno |
 | 📗 **[Glosario general](glosario.md)** | Definición operativa de los términos base, agrupados por tema |
 | 🧮 **[Formulario](formulas.md)** | Las fórmulas del programa con su trampa habitual |
 | 🌐 **[Etapa 5 — finanzas digitales](etapa-5-finanzas-digitales.md)** | Qué es y qué no es la etapa de infraestructura financiera digital, con sus seis criterios |
@@ -39,6 +39,9 @@ sustituye. El número exacto de partes y clases está en
 | 🪙 **[Mapa de activos digitales](mapa-activos-digitales.md)** | Dónde está cada concepto de la Parte 20 y las seis afirmaciones que desmonta |
 | 🏛️ **[Mapa de tokenización](mapa-tokenizacion.md)** | Dónde está cada concepto de la Parte 21 y las seis afirmaciones que desmonta |
 | ⚖️ **[Mapa regulatorio](mapa-regulatorio.md)** | Dónde está cada concepto de la Parte 22 y las seis afirmaciones que desmonta |
+| 🪙 **[Mapa de stablecoins](mapa-stablecoins.md)** | La ruta transversal completa: diseño, reservas, redención, crisis y resolución |
+| 💱 **[Mapa de FX on-chain](mapa-fx-onchain.md)** | La ruta transversal del cambio de divisas sobre infraestructura programable |
+| 🧱 **[Arquitectura de un mercado tokenizado](arquitectura-mercado-tokenizado.md)** | Las nueve piezas y las cinco decisiones que la tecnología no resuelve |
 | 🏗️ **[Mapa del capstone](mapa-capstone.md)** | La cadena de decisiones de la Parte 23 y las cinco afirmaciones que desmonta |
 | 📘 **[Glosario de finanzas digitales](glosario-finanzas-digitales.md)** | Términos de la Etapa 5, cada uno con su «qué NO significa» |
 
@@ -48,6 +51,8 @@ sustituye. El número exacto de partes y clases está en
 |---|---|
 | 👩‍🏫 **[Guía docente](guia-docente.md)** | Sesión de 90 minutos, evaluación, rúbricas, adaptación al contexto y errores docentes |
 | 🧪 **[Guía de laboratorios digitales](guia-laboratorios-digitales.md)** | Cómo son, cómo se ejecutan y cómo se corrigen los laboratorios de la Etapa 5 |
+| 🌐 **[Guía docente de la Etapa 5](guia-docente-etapa-5.md)** | Qué cambia al enseñar las Partes 17 a 23 y los cinco errores docentes propios de la etapa |
+| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Veintiséis casos con hechos, actores, decisiones, regulación, controles y preguntas |
 
 ## Para todos
 
@@ -56,6 +61,9 @@ sustituye. El número exacto de partes y clases está en
 | 📗 **[Fuentes](fuentes.md)** | Bibliografía consolidada: manuales, marcos institucionales y artículos fundacionales |
 | ⚖️ **[Ética y limitaciones](etica-y-limitaciones.md)** | Qué es y qué no es este material, uso de datos, modelos y contenidos sensibles |
 | 🏛️ **[Verificación regulatoria](metodologia-verificacion-regulatoria.md)** | Cómo se cita una norma, cómo se comprueba su vigencia y qué hacer si no se puede |
+| 🇨🇱 **[Matriz normativa de Chile](mapa-regulatorio-chile.md)** | Qué norma alcanza a qué actividad, quién supervisa y qué hay que verificar |
+| 🌍 **[Mapa regulatorio internacional](mapa-regulatorio-internacional.md)** | Qué comparar, cómo compararlo y qué organismo produce qué |
+| 🏛️ **[Referencias oficiales digitales](referencias-oficiales-digitales.md)** | Dónde verificar cada cosa, por jurisdicción y por organismo |
 | 🗂️ **[Fichas normativas](../regulatory/README.md)** | Índice legible por máquina de los instrumentos citados, con su fecha de verificación |
 
 ---
@@ -120,7 +128,7 @@ python tools/validate_metadata.py && python tools/validate_openapi.py && python 
 ## El programa completo en un documento
 
 Además del portal, el material se puede generar como **un solo documento** con las
-23 partes y las 352 clases seguidas, para leerlo de corrido o guardarlo como PDF:
+23 partes y las 356 clases seguidas, para leerlo de corrido o guardarlo como PDF:
 
 ```bash
 pip install -r requirements-site.txt && python tools/build_book.py

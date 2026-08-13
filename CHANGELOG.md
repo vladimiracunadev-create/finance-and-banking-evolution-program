@@ -5,7 +5,7 @@
 
 **Todo lo que ha cambiado en el programa, versión a versión, con el formato Keep a Changelog.**
 
-[![versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-e67e22?style=flat-square)](CHANGELOG.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.2.0-e67e22?style=flat-square)](CHANGELOG.md)
 [![formato](https://img.shields.io/badge/formato-Keep%20a%20Changelog%20%C2%B7%20SemVer-1f6feb?style=flat-square)](https://keepachangelog.com/es-ES/1.1.0/)
 
 [🏠 Inicio](README.md) ·
@@ -19,6 +19,85 @@
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el
 versionado sigue [SemVer](https://semver.org/lang/es/).
+
+---
+
+## [2.2.0] — 2026-08-12
+
+Regulación con nombre propio y la biblioteca de casos. Hasta esta versión, la
+Parte 22 enseñaba a determinar un perímetro sin decir en qué país; el método
+estaba completo y nunca se aplicaba a una norma concreta. Esta versión cierra esa
+brecha con cuatro clases sobre dos regímenes reales, y añade los veintiséis casos
+que el repositorio declaraba pendientes desde la 1.0.0.
+
+### ✨ Añadido
+
+- **Parte 22 · cuatro clases nuevas** que leen regímenes concretos en lugar de
+  describir principios:
+  - clase 17 · **MiCA I: perímetro, activos y participantes** — el embudo de tres
+    filtros, las tres categorías y por qué el libro blanco no es una autorización;
+  - clase 18 · **MiCA II: obligaciones, reservas y supervisión** — las cuatro
+    reglas de la reserva, el reembolso a la par y la diferencia entre el plan de
+    recuperación y el plan de reembolso;
+  - clase 19 · **Regímenes europeos conexos** — régimen piloto DLT, resiliencia
+    operativa y regla del viaje, con el reparto de coste que demuestra que MiCA
+    suele ser la quinta parte de la carga regulatoria;
+  - clase 20 · **El Salvador: bitcoin, Chivo y activos digitales** — tres
+    decisiones en una sola ley y siete resultados que no se promedian.
+- **Biblioteca de casos** en `case-studies/`: **26 casos** en 13 temas, todos con
+  la misma estructura de diez bloques —hechos, actores, decisiones, riesgos,
+  regulación, controles, resultado, lecciones, preguntas y fuentes— y con la
+  separación explícita entre hecho verificado, supuesto del ejercicio e
+  interpretación.
+- **Cinco fichas normativas** nuevas en `regulatory/`: Ley Bitcoin de El Salvador
+  y su reforma, Ley de Emisión de Activos Digitales, resiliencia operativa
+  digital de la Unión Europea, reglamento europeo sobre la información que
+  acompaña a las transferencias, y la norma de carácter general chilena de
+  prestadores de servicios financieros.
+- **Siete documentos** en `docs/`:
+  - `mapa-stablecoins.md` — la ruta transversal completa, de diseño a resolución;
+  - `mapa-fx-onchain.md` — el cambio de divisas sobre infraestructura programable;
+  - `arquitectura-mercado-tokenizado.md` — las nueve piezas y las cinco
+    decisiones que ninguna tecnología resuelve;
+  - `mapa-regulatorio-chile.md` — matriz de actividad, norma, autoridad y clase;
+  - `mapa-regulatorio-internacional.md` — el método de comparación y quién
+    produce qué;
+  - `guia-docente-etapa-5.md` — qué cambia al enseñar las Partes 17 a 23;
+  - `referencias-oficiales-digitales.md` — dónde verificar cada cosa.
+
+### 🔧 Cambiado
+
+- La Parte 22 pasa de **18 a 22 clases**. Las dos últimas se renumeran: espacios
+  de prueba pasa de la 17 a la 21, y el proyecto de expediente regulatorio de la
+  18 a la 22. Las referencias cruzadas del resto de la parte se actualizaron en
+  consecuencia.
+- El programa pasa de **352 a 356 clases** y de **528 a 534 horas** de sesión.
+  Todas las cifras de `STATUS.md`, `SYLLABUS.md`, `FILE_INDEX.md` y el glosario
+  maestro se regeneraron desde los archivos.
+- `tools/progress.py` actualiza el plan de la Parte 22 a 22 clases, para que el
+  avance declarado no supere el cien por cien.
+- `ROADMAP.md` cierra la línea «Biblioteca de casos», que figuraba como abierta.
+- `docs/README.md` incorpora los siete documentos nuevos y la biblioteca de casos.
+
+### 📚 Documentación
+
+- El glosario maestro pasa de 2 175 a **2 198 términos**.
+- El índice del manual pasa de 380 a **384 entradas**.
+
+### 🔐 Seguridad
+
+- Las cuatro clases nuevas y los veintiséis casos declaran de forma expresa que
+  los regímenes citados **no son derecho aplicable en Chile** cuando son
+  extranjeros, y que sus cifras son sintéticas.
+- Ningún caso atribuye a una entidad identificable un fallo, una pérdida o una
+  infracción.
+
+### 🧭 Notas de migración
+
+- Quien tenga enlaces a `modules/21-.../classes/17-espacios-de-prueba-*.md` o a
+  `18-proyecto-expediente-regulatorio.md` debe apuntarlos a `21-` y `22-`
+  respectivamente. Los enlaces internos del repositorio ya se actualizaron y
+  `tools/check_links.py` los verifica.
 
 ---
 

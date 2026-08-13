@@ -1,0 +1,38 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: El Salvador
+authority: Comision Nacional de Activos Digitales (CNAD)
+instrument_type: ley
+instrument_number: "Decreto Legislativo 673 (2023)"
+title: >-
+  Ley de Emision de Activos Digitales, que crea el regimen de oferta publica
+  de activos digitales y la Comision Nacional de Activos Digitales
+publication_date: "2023-01-31"
+effective_date: "2023-02-08"
+implementation_stage: en aplicacion, con registro de proveedores operativo
+status: vigente
+scope: >-
+  Establece el marco de la oferta publica de activos digitales, el registro de
+  emisores, proveedores de servicios de activos digitales y agentes de
+  certificacion, y crea la Comision Nacional de Activos Digitales como
+  autoridad y la Oficina Nacional del Bitcoin. Cubre la emision de activos
+  digitales respaldados por bienes o derechos y la de activos digitales sin
+  respaldo, y define el contenido minimo del documento de oferta.
+activities_covered:
+  - oferta publica de activos digitales
+  - registro de emisores de activos digitales
+  - registro de proveedores de servicios de activos digitales
+  - certificacion de emisiones
+  - custodia de activos digitales de terceros
+  - negociacion secundaria de activos digitales
+official_source: https://www.cnad.gob.sv/
+last_verified: "2026-08-12"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  Es una referencia comparada, no derecho aplicable en Chile. Se cita porque
+  separa con claridad dos cosas que la Ley Bitcoin mezclaba: el uso de un
+  activo sin emisor como medio de pago y el regimen de una emision con
+  emisor identificable y documento de oferta. Esa separacion es exactamente
+  la que estudia la Parte 22, clase 3. El numero de emisiones efectivamente
+  autorizadas y de proveedores inscritos cambia: consultar el registro
+  publico de la CNAD antes de citar cualquier cifra. Ver Parte 22, clase 20.

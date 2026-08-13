@@ -13,3 +13,4 @@ dist/
 coverage/
 site/
 book/
+progress-tracker.csv

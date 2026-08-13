@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-870-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-914-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -139,6 +139,33 @@
 - `apps/tokenization_platform/settlement.py`
 - `audit.json`
 - `bloques.json`
+- `case-studies/README.md`
+- `case-studies/blockchain/ataque-a-un-puente.md`
+- `case-studies/blockchain/contrato-defectuoso.md`
+- `case-studies/blockchain/falla-de-oraculo.md`
+- `case-studies/blockchain/perdida-de-claves.md`
+- `case-studies/chile/sistema-de-finanzas-abiertas.md`
+- `case-studies/cross-border-payments/falla-pvp.md`
+- `case-studies/cross-border-payments/falta-de-liquidez.md`
+- `case-studies/cross-border-payments/pago-retenido.md`
+- `case-studies/cyber-incidents/proveedor-critico-comun.md`
+- `case-studies/el-salvador/bitcoin-chivo-y-activos-digitales.md`
+- `case-studies/european-union/mica-transicion.md`
+- `case-studies/fx-onchain/deslizamiento-y-mev.md`
+- `case-studies/iso20022/error-de-migracion.md`
+- `case-studies/market-regulation/incumplimiento-regla-del-viaje.md`
+- `case-studies/market-regulation/informacion-privilegiada.md`
+- `case-studies/market-regulation/manipulacion-de-precio.md`
+- `case-studies/market-regulation/rechazo-de-autorizacion.md`
+- `case-studies/market-regulation/wash-trading.md`
+- `case-studies/open-finance/agregador-concentrado.md`
+- `case-studies/open-finance/api-caida.md`
+- `case-studies/open-finance/consentimiento-invalido.md`
+- `case-studies/remittances/remesa-costosa.md`
+- `case-studies/stablecoins/corrida-de-reembolsos.md`
+- `case-studies/stablecoins/perdida-de-paridad.md`
+- `case-studies/tokenization/bono-tokenizado.md`
+- `case-studies/tokenization/proyecto-inmobiliario-tokenizado.md`
 - `datasets/README.md`
 - `datasets/loan_applications_synthetic.csv`
 - `datasets/personal_budget_synthetic.csv`
@@ -161,6 +188,7 @@
 - `desktop/programa.py`
 - `desktop/requirements.txt`
 - `docs/README.md`
+- `docs/arquitectura-mercado-tokenizado.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
 - `docs/formulas.md`
@@ -169,6 +197,7 @@
 - `docs/glosario-maestro-ampliado.yml`
 - `docs/glosario-maestro.md`
 - `docs/glosario.md`
+- `docs/guia-docente-etapa-5.md`
 - `docs/guia-docente.md`
 - `docs/guia-laboratorios-digitales.md`
 - `docs/mapa-activos-digitales.md`
@@ -176,10 +205,15 @@
 - `docs/mapa-capstone.md`
 - `docs/mapa-competencias.md`
 - `docs/mapa-finanzas-abiertas.md`
+- `docs/mapa-fx-onchain.md`
 - `docs/mapa-pagos-transfronterizos.md`
+- `docs/mapa-regulatorio-chile.md`
+- `docs/mapa-regulatorio-internacional.md`
 - `docs/mapa-regulatorio.md`
+- `docs/mapa-stablecoins.md`
 - `docs/mapa-tokenizacion.md`
 - `docs/metodologia-verificacion-regulatoria.md`
+- `docs/referencias-oficiales-digitales.md`
 - `docs/ruta-aprendizaje.md`
 - `localizations/TEMPLATE.md`
 - `localizations/chile/README.md`
@@ -785,8 +819,12 @@
 - `modules/21-regulacion-de-mercados-financieros-digitales/classes/14-resiliencia-operativa-y-terceros-criticos.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/classes/15-estabilidad-financiera-y-vigilancia.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/classes/16-regulacion-comparada-chile-y-el-mundo.md`
-- `modules/21-regulacion-de-mercados-financieros-digitales/classes/17-espacios-de-prueba-y-regulacion-experimental.md`
-- `modules/21-regulacion-de-mercados-financieros-digitales/classes/18-proyecto-expediente-regulatorio.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/19-regimenes-europeos-conexos.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/20-el-salvador-bitcoin-chivo-y-activos-digitales.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/21-espacios-de-prueba-y-regulacion-experimental.md`
+- `modules/21-regulacion-de-mercados-financieros-digitales/classes/22-proyecto-expediente-regulatorio.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-01.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-02.md`
 - `modules/21-regulacion-de-mercados-financieros-digitales/labs/lab-03.md`
@@ -847,17 +885,23 @@
 - `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-08.md`
 - `modules/22-proyecto-banco-digital-y-mercado-tokenizado/solutions/lab-09.md`
 - `portfolio/README.md`
+- `progress-tracker.csv`
 - `projects/README.md`
 - `pyproject.toml`
 - `regulatory/README.md`
 - `regulatory/chile/ley-21521.yml`
+- `regulatory/chile/ncg-502-prestadores-fintec.yml`
+- `regulatory/el-salvador/ley-bitcoin-decreto-57-2021.yml`
+- `regulatory/el-salvador/ley-emision-activos-digitales-2023.yml`
 - `regulatory/internacional/bcbs-sco60-criptoactivos.yml`
 - `regulatory/internacional/cpmi-iosco-pfmi.yml`
 - `regulatory/internacional/fsb-hoja-de-ruta-g20.yml`
 - `regulatory/internacional/fsb-stablecoins-globales.yml`
 - `regulatory/internacional/gafi-recomendacion-16.yml`
 - `regulatory/union-europea/dlt-pilot-reglamento-2022-858.yml`
+- `regulatory/union-europea/dora-reglamento-2022-2554.yml`
 - `regulatory/union-europea/mica-reglamento-2023-1114.yml`
+- `regulatory/union-europea/transferencias-fondos-reglamento-2023-1113.yml`
 - `requirements-site.txt`
 - `requirements.txt`
 - `tests/test_calculators.py`

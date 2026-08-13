@@ -1,0 +1,40 @@
+# Ficha normativa. ESTA FICHA NO ES ASESORIA LEGAL.
+country: union-europea
+authority: Parlamento Europeo y Consejo de la Union Europea
+instrument_type: reglamento
+instrument_number: "2022/2554"
+title: >-
+  Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector
+  financiero, conocido como DORA
+publication_date: "2022-12-27"
+effective_date: "2025-01-17"
+implementation_stage: en aplicacion, con normas tecnicas de desarrollo
+status: vigente
+scope: >-
+  Armoniza los requisitos de resiliencia operativa digital de las entidades
+  financieras de la Union Europea. Cubre la gestion del riesgo de las
+  tecnologias de la informacion, la notificacion de incidentes graves, las
+  pruebas de resiliencia, la gestion del riesgo de terceros proveedores y un
+  marco de vigilancia directa sobre los proveedores tercerizados criticos.
+  Alcanza tambien a los proveedores de servicios de criptoactivos autorizados
+  conforme al Reglamento (UE) 2023/1114.
+activities_covered:
+  - gestion del riesgo tecnologico
+  - notificacion de incidentes graves
+  - pruebas de resiliencia operativa digital
+  - contratacion y salida de proveedores tecnologicos
+  - vigilancia de proveedores tercerizados criticos
+  - intercambio de informacion sobre amenazas
+official_source: https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554
+last_verified: "2026-08-12"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  Es una referencia comparada, no derecho aplicable en Chile. Se cita porque
+  resuelve de forma expresa el problema que la Parte 22, clase 14 plantea sin
+  jurisdiccion: un proveedor tecnologico comun a muchas entidades no esta en
+  el perimetro de ninguna norma prudencial, y DORA lo incorpora creando una
+  vigilancia directa sobre el proveedor, no solo sobre sus clientes. Los
+  umbrales de designacion de proveedor critico y los plazos de notificacion
+  estan en normas tecnicas posteriores: verificar la version consolidada en
+  EUR-Lex. Ver Parte 22, clases 14 y 19.
