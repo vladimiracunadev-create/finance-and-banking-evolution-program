@@ -74,19 +74,22 @@ jobs:
           python - <<'PY' > pendientes.md
           import json, pathlib
           registro = json.loads(pathlib.Path("sources/bibliography.json").read_text(encoding="utf-8"))
-          caidas = [
-              e for e in registro["entries"]
-              if e.get("status") != "verificada" and e.get("http_status") not in (None, 200)
-          ]
+          # Un 403 o un 429 no dicen que el documento se haya ido: dicen que el
+          # servidor no atiende a un agente automatico. Solo se abre issue por
+          # lo que de verdad desaparecio, para que el aviso siga significando algo.
+          ROTO = {404, 410, 500, 502, 503}
+          caidas = [e for e in registro["entries"] if e.get("http_status") in ROTO]
+          rechazos = [e for e in registro["entries"] if e.get("http_status") in (401, 403, 405, 406, 429)]
           print("La revalidacion semanal encontro fuentes oficiales que dejaron de responder.")
           print("Ninguna se ha borrado del registro: quedan como `pendiente` con su motivo.")
           print()
           print("| Entrada | Estado | Localizador |")
           print("|---|---:|---|")
           for e in sorted(caidas, key=lambda x: x["id"])[:100]:
-              print(f"| {e['id']} | {e.get('http_status', '-')} | {e.get('locator', '-')} |")
+              print(f"| {e['id']} | {e.get('http_status')} | `{e.get('locator', '-')}` |")
           print()
-          print(f"Total sin resolver por red: **{len(caidas)}**.")
+          print(f"Enlaces rotos: **{len(caidas)}**. ", end="")
+          print(f"Servidores que rechazan consultas automaticas: **{len(rechazos)}** (no es rotura).")
           PY
           conteo=$(grep -c '^| [a-z0-9]' pendientes.md || true)
           echo "rotas=${conteo}" >> "$GITHUB_OUTPUT"
