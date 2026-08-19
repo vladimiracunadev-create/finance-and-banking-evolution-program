@@ -474,11 +474,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement*. BIS. <https://www.bis.org/cpmi/publ/d157.htm>
-- Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. <https://www.bis.org/bcbs/publ/d516.htm>
-- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos que el expediente debe acreditar ante el comité. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Comparación con la alternativa que no usa registro distribuido. <https://www.bis.org/cpmi/publ/d157.htm>
+- Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. Tolerancia a la interrupción declarada en el proyecto. <https://www.bis.org/bcbs/publ/d516.htm>
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Gestión del operador de la red como tercero crítico. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Descripción técnica de la red que se propone. <https://csrc.nist.gov/pubs/ir/8202/final>
 - Verificación local: comprueba qué antecedentes exige tu supervisor antes de que una entidad adopte una infraestructura compartida basada en registro distribuido. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

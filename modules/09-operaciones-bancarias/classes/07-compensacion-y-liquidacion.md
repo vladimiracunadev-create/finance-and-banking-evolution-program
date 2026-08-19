@@ -457,8 +457,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Committee on Payments and Market Infrastructures (2012). *Principles for Financial Market Infrastructures*. CPMI-IOSCO/BIS. Marco completo de compensación, liquidación y contrapartes centrales. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2013). *Monitoring tools for intraday liquidity management*. BIS. <https://www.bis.org/publ/bcbs248.htm>
-- Bank for International Settlements (2005). *New developments in large-value payment systems*. CPSS.
+- Committee on Payments and Market Infrastructures (2013). *Monitoring tools for intraday liquidity management*. BIS. Indicadores de liquidez intradía que vigilan los bancos liquidadores. <https://www.bis.org/publ/bcbs248.htm>
+- Bank for International Settlements (2005). *New developments in large-value payment systems*. CPSS. Evolución de los sistemas de alto valor y su diseño de liquidación.
 - Bech, M. y Garratt, R. (2003). "The Intraday Liquidity Management Game". *Journal of Economic Theory*. Problema de coordinación en el orden de los pagos.
 - Duffie, D. (2011). *How Big Banks Fail and What to Do about It*. Princeton University Press. Riesgo de liquidación y contrapartes centrales.
 - Verificación local: revisa los sistemas de compensación y liquidación de tu país, sus horarios, sus reglas de garantías y las facilidades de liquidez intradía del banco central.

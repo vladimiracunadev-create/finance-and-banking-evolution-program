@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile, union-europea]
 regulatory_topics: [open-finance]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: en-despliegue
 primary_authorities: [CMF]
 requires_legal_review: true
@@ -461,12 +461,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Comisión para el Mercado Financiero (Chile). *Normativa del Sistema de Finanzas Abiertas de la Ley N.º 21.521*. CMF. <https://www.cmfchile.cl/>
-- Bank for International Settlements (2019). *Report on open banking and application programming interfaces*. Basel Committee on Banking Supervision. <https://www.bis.org/bcbs/publ/d486.htm>
-- Financial Stability Board (2019). *BigTech in finance: market developments and potential financial stability implications*. FSB. <https://www.fsb.org/2019/12/bigtech-in-finance-market-developments-and-potential-financial-stability-implications/>
-- OpenID Foundation. *FAPI — Financial-grade API security profile*. <https://openid.net/wg/fapi/>
-- Parlamento Europeo y Consejo. *Directiva (UE) 2015/2366 sobre servicios de pago en el mercado interior (PSD2)*. <https://eur-lex.europa.eu/eli/dir/2015/2366/oj>
-- Verificación local: comprueba qué norma regula las finanzas abiertas en tu país, en qué fase de despliegue está y qué figuras contempla. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Comisión para el Mercado Financiero (Chile). *Normativa del Sistema de Finanzas Abiertas de la Ley N.º 21.521*. CMF. Alcance obligado del sistema chileno que la clase usa como caso. <https://www.cmfchile.cl/>
+- Bank for International Settlements (2019). *Report on open banking and application programming interfaces*. Basel Committee on Banking Supervision. Comparación internacional de modelos de banca abierta. <https://www.bis.org/bcbs/publ/d486.htm>
+- Financial Stability Board (2019). *BigTech in finance: market developments and potential financial stability implications*. FSB. Riesgos de concentración cuando entran grandes plataformas. <https://www.fsb.org/2019/12/bigtech-in-finance-market-developments-and-potential-financial-stability-implications/>
+- OpenID Foundation. *FAPI — Financial-grade API security profile*. Perfil técnico que separa una API financiera de una API cualquiera. <https://openid.net/wg/fapi/>
+- Parlamento Europeo y Consejo. *Directiva (UE) 2015/2366 sobre servicios de pago en el mercado interior (PSD2)*. Origen regulatorio europeo del acceso de terceros a la cuenta. <https://eur-lex.europa.eu/eli/dir/2015/2366/oj>
+- Verificación local: comprueba qué norma regula las finanzas abiertas en tu país, en qué fase de despliegue está y qué figuras contempla. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

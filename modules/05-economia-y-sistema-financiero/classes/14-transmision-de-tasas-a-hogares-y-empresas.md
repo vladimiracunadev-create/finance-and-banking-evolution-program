@@ -351,7 +351,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Mishkin, F. (2022). *The Economics of Money, Banking and Financial Markets* (13.ª ed.). Pearson. Capítulo 26: canales de transmisión de la política monetaria.
-- Bernanke, B. y Gertler, M. (1995). "Inside the Black Box: The Credit Channel of Monetary Policy Transmission". *Journal of Economic Perspectives*, 9(4).
+- Bernanke, B. y Gertler, M. (1995). "Inside the Black Box: The Credit Channel of Monetary Policy Transmission". *Journal of Economic Perspectives*, 9(4). Canal del crédito en la transmisión de la política monetaria.
 - Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre transmisión y márgenes bancarios. <https://www.bis.org/publ/arpdf/ar2023e.htm>
 - Drechsler, I., Savov, A. y Schnabl, P. (2017). "The Deposits Channel of Monetary Policy". *Quarterly Journal of Economics*. Poder de mercado en depósitos y traspaso.
 - European Central Bank (2021). *Monetary policy pass-through to bank lending rates*. Economic Bulletin. Metodología de medición del traspaso.

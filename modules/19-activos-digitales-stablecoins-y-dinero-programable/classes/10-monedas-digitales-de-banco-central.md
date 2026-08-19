@@ -493,10 +493,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Bank for International Settlements (2021). *Central bank digital currencies: financial stability implications*. BIS. <https://www.bis.org/publ/othp42_fin_stab.htm>
-- Committee on Payments and Market Infrastructures (2020). *Central bank digital currencies: foundational principles and core features*. BIS. <https://www.bis.org/publ/othp33.htm>
-- Banco Central de Chile (2022). *Emisión de moneda digital de banco central en Chile*. BCCh. <https://www.bcentral.cl/documents/33528/3060272/Informe_CBDC.pdf>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Bank for International Settlements (2021). *Central bank digital currencies: financial stability implications*. BIS. Efectos sobre los depósitos bancarios y la intermediación. <https://www.bis.org/publ/othp42_fin_stab.htm>
+- Committee on Payments and Market Infrastructures (2020). *Central bank digital currencies: foundational principles and core features*. BIS. Principios rectores del diseño que la clase evalúa. <https://www.bis.org/publ/othp33.htm>
+- Banco Central de Chile (2022). *Emisión de moneda digital de banco central en Chile*. BCCh. Estado del análisis chileno sobre una moneda digital. <https://www.bcentral.cl/documents/33528/3060272/Informe_CBDC.pdf>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Papel de la moneda digital mayorista en el libro unificado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Verificación local: comprueba el estado actual del proyecto de moneda digital en tu jurisdicción y qué decisiones de diseño se han publicado; este ámbito cambia con rapidez. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

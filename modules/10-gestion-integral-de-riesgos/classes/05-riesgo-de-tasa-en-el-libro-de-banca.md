@@ -435,10 +435,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS. <https://www.bis.org/bcbs/publ/d368.htm>
+- Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS. Escenarios de choque de tasas y medidas de valor económico y margen. <https://www.bis.org/bcbs/publ/d368.htm>
 - Basel Committee on Banking Supervision (2024). *Standards: Interest rate risk in the banking book* (revisión). BIS.
-- European Banking Authority (2022). *Guidelines on IRRBB and CSRBB*. EBA.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Capítulos 8 y 9: modelos de repreciación y duración.
+- European Banking Authority (2022). *Guidelines on IRRBB and CSRBB*. EBA. Detalle europeo de la medición del IRRBB y del riesgo de spread.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulos 8 y 9: modelos de repreciación y duración.
 - Bank for International Settlements (2023). *Annual Economic Report*. Análisis de las pérdidas por riesgo de tasa en 2023.
 - Verificación local: revisa los escenarios de tasa, los límites al supuesto de vida media y el umbral de atención supervisora aplicables en tu jurisdicción.
 

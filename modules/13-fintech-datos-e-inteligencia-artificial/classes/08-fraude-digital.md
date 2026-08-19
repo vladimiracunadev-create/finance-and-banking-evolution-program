@@ -473,11 +473,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB.
-- Committee on Payments and Market Infrastructures (2016). *Fast payments*, sección de gestión de fraude. BIS.
-- European Banking Authority (2018). *Guidelines on fraud reporting under PSD2*. EBA.
-- NIST (2024). *Cybersecurity Framework 2.0*. NIST.
-- Bolton, R. y Hand, D. (2002). "Statistical Fraud Detection: A Review". *Statistical Science*, 17(3).
+- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. Respuesta y recuperación ante un incidente de fraude masivo.
+- Committee on Payments and Market Infrastructures (2016). *Fast payments — Enhancing the speed and availability of retail payments*, sección de gestión de fraude. BIS.
+- European Banking Authority (2018). *Guidelines on fraud reporting under PSD2*. EBA. Taxonomía y umbrales del reporte de fraude en pagos.
+- NIST (2024). *Cybersecurity Framework 2.0*. NIST. Controles preventivos y de detección que ordena el marco.
+- Bolton, R. y Hand, D. (2002). "Statistical Fraud Detection: A Review". *Statistical Science*, 17(3). Métodos estadísticos de detección de fraude y sus tasas de error.
 - Verificación local: revisa las obligaciones de autenticación reforzada, los plazos de reembolso y las reglas de responsabilidad por operaciones no autorizadas en tu país.
 
 <!-- gen:footer:start -->

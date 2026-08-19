@@ -463,11 +463,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Action Task Force (2012-2025). *International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation — The FATF Recommendations*. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html>
-- Financial Action Task Force (2021). *Guidance on Risk-Based Supervision*. FATF.
-- Financial Action Task Force (2021). *Stocktake on Data Pooling, Collaborative Analytics and Data Protection*. FATF.
-- Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. <https://www.bis.org/bcbs/publ/d505.htm>
-- World Bank (2018). *De-risking in the Financial Sector*. World Bank Group.
+- Financial Action Task Force (2012-2025). *International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation — The FATF Recommendations*. FATF. Cuarenta recomendaciones que estructuran el sistema de prevención. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html>
+- Financial Action Task Force (2021). *Guidance on Risk-Based Supervision*. FATF. Supervisión basada en riesgo aplicada al programa del banco.
+- Financial Action Task Force (2021). *Stocktake on Data Pooling, Collaborative Analytics and Data Protection*. FATF. Límites del uso compartido de datos en la analítica de prevención.
+- Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. Expectativa prudencial sobre la gestión del riesgo de lavado. <https://www.bis.org/bcbs/publ/d505.htm>
+- World Bank (2018). *De-risking in the Financial Sector*. World Bank Group. Efecto excluyente de cerrar relaciones por precaución.
 - Verificación local: revisa la ley de prevención de lavado de tu país, los umbrales de reporte, los plazos, la autoridad receptora y las obligaciones de conservación.
 
 <!-- gen:footer:start -->

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional, chile]
 regulatory_topics: [custodia, segregacion, riesgo-operacional]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [IOSCO, NIST, CMF]
 requires_legal_review: true
@@ -527,11 +527,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- NIST (2016). *SP 800-57 Part 1: Recommendation for Key Management*. NIST. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
-- NIST (2020). *SP 800-207: Zero Trust Architecture*. NIST. <https://csrc.nist.gov/pubs/sp/800/207/final>
-- Comisión para el Mercado Financiero. *Normativa aplicable a la custodia de instrumentos financieros*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu jurisdicción para custodiar activos digitales por cuenta de terceros, si requiere autorización previa y qué régimen de segregación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Exigencias de segregación y control de activos del cliente. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- NIST (2016). *SP 800-57 Part 1: Recommendation for Key Management*. NIST. Gestión del ciclo de vida de las claves de custodia. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
+- NIST (2020). *SP 800-207: Zero Trust Architecture*. NIST. Modelo de acceso sin confianza implícita aplicado a la custodia. <https://csrc.nist.gov/pubs/sp/800/207/final>
+- Comisión para el Mercado Financiero. *Normativa aplicable a la custodia de instrumentos financieros*. CMF. Régimen chileno de custodia de instrumentos financieros. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba qué exige tu jurisdicción para custodiar activos digitales por cuenta de terceros, si requiere autorización previa y qué régimen de segregación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

@@ -449,10 +449,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
+- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Obligaciones de los proveedores de servicios sobre activos virtuales. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
 - Financial Action Task Force. *The FATF Recommendations*, recomendación 15 y 16. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html>
-- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
-- Unidad de Análisis Financiero de Chile. *Normativa aplicable a los sujetos obligados*. UAF. <https://www.uaf.cl/>
+- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Encaje del régimen de prevención en el marco global. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
+- Unidad de Análisis Financiero de Chile. *Normativa aplicable a los sujetos obligados*. UAF. Obligaciones chilenas de los sujetos obligados. <https://www.uaf.cl/>
 - Verificación local: comprueba quiénes son sujetos obligados en tu jurisdicción, qué umbrales aplica la regla del viaje y qué canal de intercambio de información se admite. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

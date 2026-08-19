@@ -396,8 +396,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Committee on Payments and Market Infrastructures (2012). *Principles for Financial Market Infrastructures*. CPMI-IOSCO/BIS. Firmeza, liquidación y riesgo. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2016). *Fast payments — Enhancing the speed and availability of retail payments*. BIS.
-- Bank for International Settlements (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial.
+- Committee on Payments and Market Infrastructures (2016). *Fast payments — Enhancing the speed and availability of retail payments*. BIS. Requisitos de disponibilidad y velocidad de los pagos minoristas.
+- Bank for International Settlements (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial. Condiciones para que una transferencia alcance a población no bancarizada.
 - Financial Action Task Force (2023). *FATF Recommendations*, R.16: transferencias electrónicas e información del ordenante y beneficiario.
 - Europol (2024). *Internet Organised Crime Threat Assessment (IOCTA)*. Fraude de suplantación de proveedor.
 - Verificación local: revisa los sistemas de pago de tu país, sus horarios de corte, sus reglas de firmeza y la normativa sobre operaciones no autorizadas.

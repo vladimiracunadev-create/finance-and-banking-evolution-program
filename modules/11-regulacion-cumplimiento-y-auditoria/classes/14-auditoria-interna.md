@@ -492,11 +492,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Institute of Internal Auditors (2024). *Global Internal Audit Standards*. IIA. <https://www.theiia.org/>
-- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA.
-- Basel Committee on Banking Supervision (2012). *The internal audit function in banks*. BIS. <https://www.bis.org/publ/bcbs223.htm>
-- COSO (2013). *Internal Control — Integrated Framework*. COSO.
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
+- Institute of Internal Auditors (2024). *Global Internal Audit Standards*. IIA. Normas profesionales que rigen la función de auditoría interna. <https://www.theiia.org/>
+- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA. Posición de la auditoría interna frente a las otras dos líneas.
+- Basel Committee on Banking Supervision (2012). *The internal audit function in banks*. BIS. Expectativa supervisora sobre independencia y alcance. <https://www.bis.org/publ/bcbs223.htm>
+- COSO (2013). *Internal Control — Integrated Framework*. COSO. Marco de control interno sobre el que se emite la opinión.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Relación entre auditoría interna y comité de auditoría.
 - Verificación local: revisa las exigencias sobre la función de auditoría interna, su dependencia del comité de auditoría y la cobertura mínima que exige tu supervisor.
 
 <!-- gen:footer:start -->

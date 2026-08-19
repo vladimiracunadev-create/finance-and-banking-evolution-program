@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, firmeza, riesgo-de-liquidacion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: true
@@ -510,11 +510,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*, principio 8 sobre firmeza de la liquidación. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement*. BIS. <https://www.bis.org/cpmi/publ/d157.htm>
-- Parlamento Europeo y Consejo. *Directiva 98/26/CE sobre firmeza de la liquidación en los sistemas de pagos y de liquidación de valores*. <https://eur-lex.europa.eu/eli/dir/1998/26/oj>
-- IOSCO (2022). *Decentralized Finance Report*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué norma otorga firmeza en tu jurisdicción, qué requisitos exige para designar un sistema y si el reconocimiento es mutuo entre las jurisdicciones de todos los participantes. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Distinción entre firmeza probabilística y firmeza jurídica. <https://www.bis.org/cpmi/publ/d157.htm>
+- Parlamento Europeo y Consejo. *Directiva 98/26/CE sobre firmeza de la liquidación en los sistemas de pagos y de liquidación de valores*. Régimen legal de firmeza que la clase contrasta con la técnica. <https://eur-lex.europa.eu/eli/dir/1998/26/oj>
+- IOSCO (2022). *Decentralized Finance Report*. IOSCO. Casos de reorganización observados y sus consecuencias. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Descripción técnica de la reorganización de la cadena. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Verificación local: comprueba qué norma otorga firmeza en tu jurisdicción, qué requisitos exige para designar un sistema y si el reconocimiento es mutuo entre las jurisdicciones de todos los participantes. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

@@ -551,11 +551,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Nagle, T., Hogan, J. y Zale, J. (2016). *The Strategy and Tactics of Pricing* (6.ª ed.). Routledge.
+- Nagle, T., Hogan, J. y Zale, J. (2016). *The Strategy and Tactics of Pricing* (6.ª ed.). Routledge. Método de fijación de precios basado en valor y no en costo.
 - Financial Conduct Authority (2020). *General insurance pricing practices market study* (MS18/1.3). FCA. Penalización por inercia. <https://www.fca.org.uk/publications/market-studies/ms18-1-general-insurance-pricing-practices-market-study>
-- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD.
+- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Límites de conducta a la política de precios.
 - Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley. Precio ajustado por riesgo.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Fijación de tasas y comisiones en productos bancarios.
 - Verificación local: revisa las obligaciones de información del costo total, los límites a comisiones por evento y las reglas sobre diferenciación de precios en tu país.
 
 <!-- gen:footer:start -->

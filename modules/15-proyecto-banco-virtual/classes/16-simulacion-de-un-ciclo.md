@@ -534,10 +534,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux. Evaluación de decisiones y resultados.
-- Kahneman, D., Sibony, O. y Sunstein, C. (2021). *Noise: A Flaw in Human Judgment*. Little, Brown.
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
-- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
+- Kahneman, D., Sibony, O. y Sunstein, C. (2021). *Noise: A Flaw in Human Judgment*. Little, Brown. Dispersión de criterio entre decisores y cómo acotarla.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Reparto de decisiones entre gerencia, comités y directorio.
+- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. Uso de escenarios en la decisión mes a mes.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Decisiones de gestión bancaria que la simulación reproduce.
 - Verificación local: revisa la frecuencia con que tu supervisor exige reportes y compárala con el rezago de la información que necesitas para decidir.
 
 <!-- gen:footer:start -->

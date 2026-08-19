@@ -436,7 +436,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Financial Stability Board (2012). *Principles for Sound Residential Mortgage Underwriting Practices*. FSB. Verificación de capacidad de pago y pruebas de estrés. <https://www.fsb.org/>
 - European Banking Authority (2020). *Guidelines on loan origination and monitoring*. EBA. Criterios de capacidad de pago y sensibilidad.
-- Basel Committee on Banking Supervision (2000). *Principles for the Management of Credit Risk*. BIS.
+- Basel Committee on Banking Supervision (2000). *Principles for the Management of Credit Risk*. BIS. Expectativa supervisora sobre la evaluación de la capacidad de pago.
 - Consumer Financial Protection Bureau. *Ability-to-Repay and Qualified Mortgage Rule*. Estándares de evaluación de capacidad de pago.
 - International Monetary Fund (2011). *Macroprudential Policy: An Organizing Framework*. Límites a la carga financiera como instrumento macroprudencial.
 - Verificación local: revisa los límites de carga financiera y de relación préstamo/valor que aplica el supervisor de tu país, y las canastas básicas oficiales.

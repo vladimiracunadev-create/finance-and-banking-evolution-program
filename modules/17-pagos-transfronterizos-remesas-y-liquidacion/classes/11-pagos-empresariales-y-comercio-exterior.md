@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile]
 regulatory_topics: [cross-border-payments, comercio-exterior, cambios-internacionales]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [Banco Central de Chile, CCI]
 requires_legal_review: true
@@ -527,11 +527,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Cámara de Comercio Internacional. *Reglas uniformes relativas a los créditos documentarios (UCP 600)* y *Reglas uniformes para las cobranzas (URC 522)*. ICC. <https://iccwbo.org/>
-- Cámara de Comercio Internacional. *Trade Register Report*. ICC. <https://iccwbo.org/>
-- Basel Committee on Banking Supervision (2014). *Treatment of trade finance under the Basel capital framework*. BIS. <https://www.bis.org/publ/bcbs205.htm>
-- Organización Mundial del Comercio. *Trade finance and SMEs*. OMC. <https://www.wto.org/>
-- Banco Central de Chile. *Capítulo del Compendio de Normas de Cambios Internacionales sobre operaciones de comercio exterior*. <https://www.bcentral.cl/>
-- Verificación local: comprueba qué operaciones de comercio exterior deben informarse al banco central y qué documentación de respaldo se exige. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Cámara de Comercio Internacional. *Trade Register Report*. ICC. Datos de incumplimiento de los instrumentos de comercio. <https://iccwbo.org/>
+- Basel Committee on Banking Supervision (2014). *Treatment of trade finance under the Basel capital framework*. BIS. Tratamiento de capital del financiamiento del comercio. <https://www.bis.org/publ/bcbs205.htm>
+- Organización Mundial del Comercio. *Trade finance and SMEs*. OMC. Evidencia sobre acceso de las pymes al financiamiento comercial. <https://www.wto.org/>
+- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. Obligaciones cambiarias de la operación de comercio exterior. <https://www.bcentral.cl/>
+- Verificación local: comprueba qué operaciones de comercio exterior deben informarse al banco central y qué documentación de respaldo se exige. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

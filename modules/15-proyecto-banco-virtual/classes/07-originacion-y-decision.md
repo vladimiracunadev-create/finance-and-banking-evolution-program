@@ -532,10 +532,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley.
-- Anderson, R. (2007). *The Credit Scoring Toolkit*. Oxford University Press.
-- World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group.
-- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD.
+- Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley. Construcción del modelo de puntuación de la originación.
+- Anderson, R. (2007). *The Credit Scoring Toolkit*. Oxford University Press. Diseño de la política de corte y de las reglas de decisión.
+- World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group. Uso de datos alternativos en clientes sin historial.
+- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Obligaciones de información y trato justo en la aprobación.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, exposiciones minoristas. BIS.
 - Verificación local: revisa las obligaciones de evaluación de capacidad de pago, información precontractual y notificación de rechazo de tu país.
 

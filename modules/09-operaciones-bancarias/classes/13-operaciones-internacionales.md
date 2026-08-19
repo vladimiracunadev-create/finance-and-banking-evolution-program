@@ -364,11 +364,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. <https://www.bis.org/cpmi/publ/d147.htm>
-- Financial Stability Board (2018). *Stocktake of remittance service providers' access to banking services*. FSB.
-- Financial Action Task Force (2012-2025). *Recommendation 16: Wire transfers* e Interpretive Note. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html>
+- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. Estructura de la banca corresponsal y su retroceso. <https://www.bis.org/cpmi/publ/d147.htm>
+- Financial Stability Board (2018). *Stocktake of remittance service providers' access to banking services*. FSB. Acceso de los proveedores de remesas a servicios bancarios.
+- Financial Action Task Force (2012-2025). *Recommendation 16: Wire transfers* e Interpretive Note. FATF. Información que debe acompañar a una transferencia transfronteriza. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html>
 - World Bank (serie trimestral). *Remittance Prices Worldwide*. Metodología de costo total. <https://remittanceprices.worldbank.org/>
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Capítulo 14: riesgo de cambio.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulo 14: riesgo de cambio.
 - Verificación local: consulta el régimen cambiario, los límites de posición y las obligaciones de informe de operaciones transfronterizas de tu país.
 
 <!-- gen:footer:start -->

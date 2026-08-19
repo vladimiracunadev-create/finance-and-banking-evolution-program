@@ -444,7 +444,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Fabozzi, F. (2021). *Bond Markets, Analysis, and Strategies* (10.ª ed.). MIT Press. Capítulos 4 y 5: duración, convexidad y su aplicación.
 - Hull, J. (2021). *Options, Futures, and Other Derivatives* (11.ª ed.). Pearson. Capítulo 4: duración y cobertura de riesgo de tasa.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Capítulos 8 y 9: modelo de duración aplicado al balance bancario.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulos 8 y 9: modelo de duración aplicado al balance bancario.
 - Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book* (IRRBB). BIS. Marco estándar de medición y supuestos de comportamiento. <https://www.bis.org/bcbs/publ/d368.htm>
 - Macaulay, F. (1938). *Some Theoretical Problems Suggested by the Movements of Interest Rates*. NBER. Formulación original de la duración.
 - Verificación local: revisa qué exige tu supervisor sobre medición del riesgo de tasa del libro de banca y sobre la modelación de depósitos sin vencimiento.

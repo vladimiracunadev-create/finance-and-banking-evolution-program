@@ -456,9 +456,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*, principio sobre reclamos y reparación. OECD.
 - World Bank (2021). *Good Practices for Financial Consumer Protection*, capítulo sobre mecanismos de resolución de disputas. World Bank Group.
-- International Network of Financial Services Ombudsman Schemes. *Effective approaches to fundamental principles*. INFO Network. <https://www.networkfso.org/>
-- ISO (2018). *ISO 10002: Quality management — Customer satisfaction — Guidelines for complaints handling*. ISO.
-- Consumer Financial Protection Bureau. *Consumer Response Annual Report*. CFPB.
+- International Network of Financial Services Ombudsman Schemes. *Effective approaches to fundamental principles*. INFO Network. Principios de un esquema de defensoría del cliente financiero. <https://www.networkfso.org/>
+- ISO (2018). *ISO 10002: Quality management — Customer satisfaction — Guidelines for complaints handling*. ISO. Requisitos del sistema de tratamiento de reclamos.
+- Consumer Financial Protection Bureau. *Consumer Response Annual Report*. CFPB. Datos comparados sobre tipos y resolución de reclamos.
 - Verificación local: revisa los plazos de respuesta, las instancias disponibles, la existencia de defensoría del cliente y las reglas sobre carga de la prueba en tu jurisdicción.
 
 <!-- gen:footer:start -->

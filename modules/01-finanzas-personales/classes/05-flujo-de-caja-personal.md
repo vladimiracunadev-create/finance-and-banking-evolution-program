@@ -304,7 +304,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Gitman, L., Joehnk, M. y Billingsley, R. (2020). *Personal Financial Planning* (14.ª ed.). Cengage. Capítulo 2: presupuesto de caja y proyección temporal.
 - Kapoor, J., Dlabay, L. y Hughes, R. (2022). *Personal Finance* (14.ª ed.). McGraw-Hill. Capítulo 4: gestión de liquidez personal.
 - Morduch, J. y Schneider, R. (2017). *The Financial Diaries*. Princeton University Press. Evidencia sobre desfases de calendario como causa de endeudamiento.
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio*. BIS. Marco conceptual de liquidez aplicable por analogía. <https://www.bis.org/publ/bcbs238.htm>
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Marco conceptual de liquidez aplicable por analogía. <https://www.bis.org/publ/bcbs238.htm>
 - Brunnermeier, M. y Pedersen, L. (2009). "Market Liquidity and Funding Liquidity". *Review of Financial Studies*. Distinción formal entre solvencia y liquidez.
 - Verificación local: consulta el costo efectivo del sobregiro o línea de crédito de tu banco; suele ser el financiamiento más caro disponible y define el costo de no planificar.
 

@@ -407,7 +407,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulo 4: fondos cotizados y su estructura.
 - Bogle, J. (2017). *The Little Book of Common Sense Investing*. Wiley. Fundamento de la inversión indexada.
 - IOSCO (2013). *Principles for the Regulation of Exchange Traded Funds*. Riesgos de réplica sintética y de préstamo de valores. <https://www.iosco.org/>
-- Bank for International Settlements (2018). *The implications of passive investing for securities markets*. BIS Quarterly Review.
+- Bank for International Settlements (2018). *The implications of passive investing for securities markets*. BIS Quarterly Review. Efectos de la gestión pasiva sobre la liquidez y la formación de precios.
 - Financial Stability Board (2022). *Liquidity in Core Government Bond Markets*. Comportamiento de ETF de renta fija en estrés.
 - Verificación local: revisa el tratamiento tributario de ETF extranjeros en tu país y las obligaciones de declaración de activos en el exterior.
 

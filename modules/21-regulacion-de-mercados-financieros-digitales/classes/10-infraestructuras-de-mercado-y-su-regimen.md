@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [union-europea, internacional]
 regulatory_topics: [infraestructura, liquidacion, resiliencia]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, CMF]
 requires_legal_review: true
@@ -511,11 +511,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/858 sobre el régimen piloto de infraestructuras del mercado basadas en DLT*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- Comisión para el Mercado Financiero. *Normativa sobre infraestructuras del mercado de valores*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué sistemas están designados a efectos de firmeza en tu jurisdicción, cómo se solicita la designación y si existe un régimen piloto aplicable. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Principios que la infraestructura tokenizada debe cumplir igual. <https://www.bis.org/cpmi/publ/d101.htm>
+- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/858 sobre el régimen piloto de infraestructuras del mercado basadas en DLT*. EUR-Lex. Exenciones y límites del régimen piloto europeo. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Efectos de la tokenización sobre el diseño de la infraestructura. <https://www.bis.org/cpmi/publ/d225.htm>
+- Comisión para el Mercado Financiero. *Normativa sobre infraestructuras del mercado de valores*. CMF. Régimen chileno de infraestructuras del mercado de valores. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba qué sistemas están designados a efectos de firmeza en tu jurisdicción, cómo se solicita la designación y si existe un régimen piloto aplicable. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

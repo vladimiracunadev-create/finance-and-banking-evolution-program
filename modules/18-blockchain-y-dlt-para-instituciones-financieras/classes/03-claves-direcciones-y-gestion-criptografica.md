@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, custodia, criptografia, riesgo-operacional]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [NIST, Comité de Basilea]
 requires_legal_review: true
@@ -504,12 +504,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- NIST (2020). *SP 800-57 Part 1 Rev. 5: Recommendation for Key Management*. NIST. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
-- NIST (2019). *FIPS 140-3: Security Requirements for Cryptographic Modules*. NIST. <https://csrc.nist.gov/pubs/fips/140-3/final>
-- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures*. BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Committee on Payments and Market Infrastructures e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. <https://www.bis.org/cpmi/publ/d206.htm>
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué exige tu supervisor en materia de custodia y segregación de activos digitales, y si la segregación es oponible en un procedimiento de insolvencia en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- NIST (2020). *SP 800-57 Part 1 Rev. 5: Recommendation for Key Management*. NIST. Generación, custodia y rotación de claves. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
+- NIST (2019). *FIPS 140-3: Security Requirements for Cryptographic Modules*. NIST. Requisitos del módulo criptográfico que custodia la clave. <https://csrc.nist.gov/pubs/fips/140-3/final>
+- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures*. BIS. Exigencias prudenciales sobre la custodia de criptoactivos. <https://www.bis.org/bcbs/publ/d545.htm>
+- Committee on Payments and Market Infrastructures e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de custodia aplicables a un acuerdo de stablecoin. <https://www.bis.org/cpmi/publ/d206.htm>
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Relación entre clave, dirección y control del activo. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Verificación local: comprueba qué exige tu supervisor en materia de custodia y segregación de activos digitales, y si la segregación es oponible en un procedimiento de insolvencia en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

@@ -358,7 +358,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - McLeay, M., Radia, A. y Thomas, R. (2014). "Money creation in the modern economy". *Bank of England Quarterly Bulletin*, Q1. Descripción operativa de la creación de dinero por los bancos. <https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy>
 - Bank for International Settlements (2015). *Should monetary policy target financial stability?*. BIS. Relación entre crédito, dinero y estabilidad.
 - Mishkin, F. (2022). *The Economics of Money, Banking and Financial Markets* (13.ª ed.). Pearson. Capítulos 3 y 14: agregados monetarios y oferta de dinero.
-- Jakab, Z. y Kumhof, M. (2015). "Banks are not intermediaries of loanable funds — and why this matters". *Bank of England Working Paper 529*.
+- Jakab, Z. y Kumhof, M. (2015). "Banks are not intermediaries of loanable funds — and why this matters". *Bank of England Working Paper 529*. Evidencia contra el modelo del banco como simple intermediario de fondos prestables.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. El capital como restricción al crecimiento del balance.
 - Verificación local: descarga los agregados monetarios publicados por el banco central de tu país y la tasa de encaje vigente por tipo de depósito.
 

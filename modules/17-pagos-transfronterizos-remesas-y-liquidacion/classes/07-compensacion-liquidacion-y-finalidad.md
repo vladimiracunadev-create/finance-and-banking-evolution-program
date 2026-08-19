@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile]
 regulatory_topics: [cross-border-payments, infraestructura, firmeza]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, Banco Central de Chile]
 requires_legal_review: true
@@ -490,12 +490,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2008). *The interdependencies of payment and settlement systems*. BIS. <https://www.bis.org/cpmi/publ/d84.htm>
-- Committee on Payments and Market Infrastructures (2013). *Supervisory guidance for managing risks associated with the settlement of foreign exchange transactions*. BIS. <https://www.bis.org/publ/bcbs241.htm>
-- Banco Central de Chile. *Normativa del sistema de liquidación bruta en tiempo real*. <https://www.bcentral.cl/>
-- Committee on Payments and Market Infrastructures (2003). *A glossary of terms used in payments and settlement systems*. BIS. <https://www.bis.org/cpmi/glossary_030301.htm>
-- Verificación local: comprueba qué norma otorga finalidad a los pagos en tu jurisdicción y en qué momento exacto la sitúa. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Definición jurídica de firmeza y sus requisitos. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (2008). *The interdependencies of payment and settlement systems*. BIS. Interdependencias entre sistemas y riesgo de contagio. <https://www.bis.org/cpmi/publ/d84.htm>
+- Committee on Payments and Market Infrastructures (2013). *Supervisory guidance for managing risks associated with the settlement of foreign exchange transactions*. BIS. Gestión del riesgo de liquidación en operaciones de cambio. <https://www.bis.org/publ/bcbs241.htm>
+- Banco Central de Chile. *Normativa del sistema de liquidación bruta en tiempo real*. Funcionamiento del sistema de liquidación bruta chileno. <https://www.bcentral.cl/>
+- Committee on Payments and Market Infrastructures (2003). *A glossary of terms used in payments and settlement systems*. BIS. Vocabulario preciso de compensación, liquidación y firmeza. <https://www.bis.org/cpmi/glossary_030301.htm>
+- Verificación local: comprueba qué norma otorga finalidad a los pagos en tu jurisdicción y en qué momento exacto la sitúa. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

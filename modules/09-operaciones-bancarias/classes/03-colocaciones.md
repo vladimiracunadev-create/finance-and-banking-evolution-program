@@ -461,7 +461,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Gestión de cartera y asignación de capital.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Gestión de cartera y asignación de capital.
 - Basel Committee on Banking Supervision (2014). *Supervisory framework for measuring and controlling large exposures*. BIS. Límites de concentración. <https://www.bis.org/publ/bcbs283.htm>
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Ponderaciones de riesgo por segmento.
 - Zaik, E., Walter, J. y Kelling, G. (1996). "RAROC at Bank of America". *Journal of Applied Corporate Finance*. Aplicación práctica del RAROC.

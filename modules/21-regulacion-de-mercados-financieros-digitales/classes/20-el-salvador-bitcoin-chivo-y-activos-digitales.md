@@ -619,10 +619,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Asamblea Legislativa de la República de El Salvador. *Ley Bitcoin y sus reformas*. <https://www.asamblea.gob.sv/>
-- Comisión Nacional de Activos Digitales. *Ley de Emisión de Activos Digitales y registro de proveedores*. CNAD. <https://www.cnad.gob.sv/>
-- Banco Central de Reserva de El Salvador. *Estadísticas de remesas familiares*. BCR. <https://www.bcr.gob.sv/>
-- Fondo Monetario Internacional. *El Salvador: informes de consulta del Artículo IV y del acuerdo vigente*. FMI. <https://www.imf.org/en/Countries/SLV>
+- Asamblea Legislativa de la República de El Salvador. *Ley Bitcoin y sus reformas*. Texto legal que declaró el curso legal y sus reformas. <https://www.asamblea.gob.sv/>
+- Comisión Nacional de Activos Digitales. *Ley de Emisión de Activos Digitales y registro de proveedores*. CNAD. Régimen posterior de emisión y registro de proveedores. <https://www.cnad.gob.sv/>
+- Banco Central de Reserva de El Salvador. *Estadísticas de remesas familiares*. BCR. Serie oficial de remesas usada en la evaluación. <https://www.bcr.gob.sv/>
+- Fondo Monetario Internacional. *El Salvador: informes de consulta del Artículo IV y del acuerdo vigente*. FMI. Evaluación externa de los efectos macroeconómicos. <https://www.imf.org/en/Countries/SLV>
 - Fichas normativas del repositorio: `regulatory/el-salvador/ley-bitcoin-decreto-57-2021.yml` y `regulatory/el-salvador/ley-emision-activos-digitales-2023.yml`
 - Verificación local: las cifras de adopción, remesas, tenencias públicas y coste fiscal de este caso proceden de fuentes con metodologías distintas y **no son comparables entre sí**; los importes del ejemplo guiado son sintéticos y no describen a El Salvador. Comprueba en la fuente oficial antes de citar cualquier dato, y consulta el texto consolidado de ambas leyes y de la reforma. Esta clase no constituye asesoría legal ni recomendación de inversión. **Fecha de verificación de esta clase: 2026-08-12.**
 

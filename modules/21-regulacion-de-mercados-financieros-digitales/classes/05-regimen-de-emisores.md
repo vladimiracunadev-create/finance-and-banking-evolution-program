@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [union-europea, internacional]
 regulatory_topics: [emisores, reservas, redencion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, IOSCO]
 requires_legal_review: true
@@ -519,11 +519,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
-- CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. <https://www.bis.org/cpmi/publ/d206.htm>
-- Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114*, títulos sobre emisores. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Verificación local: comprueba qué obligaciones impone tu jurisdicción a los emisores de instrumentos referenciados, si admite mínimos de reembolso y qué exige del plan de rescate. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. Obligaciones de reserva, redención y revelación del emisor. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
+- CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de infraestructura aplicables al emisor. <https://www.bis.org/cpmi/publ/d206.htm>
+- Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*, títulos sobre emisores. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de conducta y revelación del emisor. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Verificación local: comprueba qué obligaciones impone tu jurisdicción a los emisores de instrumentos referenciados, si admite mínimos de reembolso y qué exige del plan de rescate. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

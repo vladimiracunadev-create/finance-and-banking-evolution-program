@@ -513,11 +513,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2021). *Targets for Addressing the Four Challenges of Cross-border Payments*. FSB. <https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/>
-- Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. <https://www.bis.org/cpmi/publ/d193.htm>
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Banco Mundial. *Remittance Prices Worldwide: metodología*. <https://remittanceprices.worldbank.org/>
-- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. <https://www.bcentral.cl/>
+- Financial Stability Board (2021). *Targets for Addressing the Four Challenges of Cross-border Payments*. FSB. Metas que el proyecto debe alcanzar y demostrar. <https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/>
+- Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. Bloques constructivos con que se justifica la arquitectura. <https://www.bis.org/cpmi/publ/d193.htm>
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de la infraestructura elegida para liquidar. <https://www.bis.org/cpmi/publ/d101.htm>
+- Banco Mundial. *Remittance Prices Worldwide*. Datos de coste con que se mide el corredor del proyecto. <https://remittanceprices.worldbank.org/>
+- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. Obligaciones cambiarias del corredor chileno del proyecto. <https://www.bcentral.cl/>
 - Verificación local: comprueba qué operaciones deben informarse, qué autorizaciones exige tu jurisdicción para cada ruta y qué obligaciones de transparencia aplican. **Fecha de verificación de esta clase: 2026-08-06.** Este material no constituye asesoría legal.
 
 <!-- gen:footer:start -->

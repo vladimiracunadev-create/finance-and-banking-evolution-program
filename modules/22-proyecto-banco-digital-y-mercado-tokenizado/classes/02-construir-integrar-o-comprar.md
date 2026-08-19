@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [externalizacion, arquitectura, terceros]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [BCBS, CPMI, CMF]
 requires_legal_review: true
@@ -437,11 +437,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. <https://www.bis.org/bcbs/publ/d516.htm>
-- Basel Committee on Banking Supervision (2018). *Sound Practices: implications of fintech developments*. BIS. <https://www.bis.org/bcbs/publ/d431.htm>
-- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/2554 sobre resiliencia operativa digital*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
-- Comisión para el Mercado Financiero. *Normativa sobre externalización de servicios*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu jurisdicción para externalizar funciones relevantes, qué derechos de auditoría impone y qué funciones no admite delegar. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Tolerancia a la interrupción de cada componente integrado. <https://www.bis.org/bcbs/publ/d516.htm>
+- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Criterio supervisor sobre dependencias tecnológicas. <https://www.bis.org/bcbs/publ/d431.htm>
+- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero*. EUR-Lex. Obligaciones sobre proveedores tecnológicos críticos. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
+- Comisión para el Mercado Financiero. *Normativa sobre externalización de servicios*. CMF. Requisitos chilenos de externalización y planes de salida. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba qué exige tu jurisdicción para externalizar funciones relevantes, qué derechos de auditoría impone y qué funciones no admite delegar. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

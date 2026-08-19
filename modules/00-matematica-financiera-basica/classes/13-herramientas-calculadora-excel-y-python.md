@@ -317,7 +317,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Benninga, S. (2014). *Financial Modeling* (4.ª ed.). MIT Press. Capítulos 1 a 3: construcción de modelos auditables y funciones financieras.
 - Swan, J. (2015). *Practical Financial Modelling* (3.ª ed.). Elsevier. Estándares de diseño de planillas y separación de entradas y cálculos.
 - Ross, S., Westerfield, R. y Jordan, B. (2022). *Fundamentos de finanzas corporativas* (12.ª ed.). McGraw-Hill. Apéndices de calculadora financiera y hoja de cálculo.
-- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting* (BCBS 239). BIS. Requisitos de trazabilidad y reproducibilidad de datos de riesgo. <https://www.bis.org/publ/bcbs239.htm>
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)* (BCBS 239). BIS. Requisitos de trazabilidad y reproducibilidad de datos de riesgo. <https://www.bis.org/publ/bcbs239.htm>
 - Federal Reserve / OCC (2011). *Supervisory Guidance on Model Risk Management* (SR 11-7). Validación independiente y documentación de modelos.
 - Verificación local: comprueba qué exige tu supervisor sobre documentación y validación de modelos internos antes de usarlos en decisiones de crédito.
 

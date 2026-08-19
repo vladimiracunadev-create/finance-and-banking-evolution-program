@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [seguridad, riesgo-operativo, controles]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [NIST, BCBS, FSB]
 requires_legal_review: false
@@ -357,11 +357,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- NIST (2016). *SP 800-57 Part 1: Recommendation for Key Management*. NIST. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
-- NIST (2020). *SP 800-207: Zero Trust Architecture*. NIST. <https://csrc.nist.gov/pubs/sp/800/207/final>
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. <https://www.bis.org/bcbs/publ/d516.htm>
-- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. **Fecha de verificación de esta clase: 2026-08-06.**
+- NIST (2016). *SP 800-57 Part 1: Recommendation for Key Management*. NIST. Amenazas sobre la clave y controles de su ciclo de vida. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
+- NIST (2020). *SP 800-207: Zero Trust Architecture*. NIST. Segmentación y verificación continua como control transversal. <https://csrc.nist.gov/pubs/sp/800/207/final>
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Priorización de amenazas por efecto sobre el servicio crítico. <https://www.bis.org/bcbs/publ/d516.htm>
+- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. Preparación de la respuesta a la amenaza materializada. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

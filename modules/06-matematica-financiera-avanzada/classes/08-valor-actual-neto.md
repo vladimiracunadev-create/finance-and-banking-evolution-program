@@ -385,7 +385,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Ross, S., Westerfield, R. y Jaffe, J. (2021). *Corporate Finance* (12.ª ed.). McGraw-Hill. Capítulos 6 y 7: VAN y análisis de proyectos.
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Capítulo 5: reglas de decisión de inversión.
 - Blank, L. y Tarquin, A. (2018). *Ingeniería económica* (8.ª ed.). McGraw-Hill. Capítulos 5 y 6: VAN y comparación de alternativas.
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation* (7.ª ed.). McKinsey/Wiley. Definición del flujo de caja libre.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). McKinsey/Wiley. Definición del flujo de caja libre.
 - Verificación local: usa la tasa de impuesto a la renta vigente en tu país y las reglas de depreciación tributaria aplicables al calcular el escudo fiscal.
 
 <!-- gen:footer:start -->

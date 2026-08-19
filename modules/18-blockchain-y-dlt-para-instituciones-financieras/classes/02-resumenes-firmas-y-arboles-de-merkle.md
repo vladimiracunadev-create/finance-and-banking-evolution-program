@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, criptografia, integridad]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: estandar-vigente
 primary_authorities: [NIST]
 requires_legal_review: false
@@ -490,12 +490,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- NIST (2015). *FIPS 180-4: Secure Hash Standard*. National Institute of Standards and Technology. <https://csrc.nist.gov/pubs/fips/180-4/upd1/final>
-- NIST (2023). *FIPS 186-5: Digital Signature Standard*. NIST. <https://csrc.nist.gov/pubs/fips/186-5/final>
-- Merkle, R. (1988). *A Digital Signature Based on a Conventional Encryption Function*. CRYPTO '87.
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- NIST (2020). *SP 800-57 Part 1 Rev. 5: Recommendation for Key Management*. NIST. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
-- Verificación local: comprueba qué algoritmos admite tu jurisdicción para firma electrónica con efectos jurídicos y cuáles están en retirada. **Fecha de verificación de esta clase: 2026-08-06.**
+- NIST (2015). *FIPS 180-4: Secure Hash Standard*. National Institute of Standards and Technology. Especificación de las funciones de resumen que se usan. <https://csrc.nist.gov/pubs/fips/180-4/upd1/final>
+- NIST (2023). *FIPS 186-5: Digital Signature Standard*. NIST. Especificación de los esquemas de firma digital. <https://csrc.nist.gov/pubs/fips/186-5/final>
+- Merkle, R. (1988). *A Digital Signature Based on a Conventional Encryption Function*. CRYPTO '87. Origen del árbol de resúmenes y su prueba de pertenencia.
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Encaje de las tres piezas dentro de la cadena de bloques. <https://csrc.nist.gov/pubs/ir/8202/final>
+- NIST (2020). *SP 800-57 Part 1 Rev. 5: Recommendation for Key Management*. NIST. Ciclo de vida de las claves que sostienen la firma. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
+- Verificación local: comprueba qué algoritmos admite tu jurisdicción para firma electrónica con efectos jurídicos y cuáles están en retirada. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

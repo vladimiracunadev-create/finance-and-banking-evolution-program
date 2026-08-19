@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional, union-europea]
 regulatory_topics: [reservas, liquidez, atestacion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, IOSCO]
 requires_legal_review: true
@@ -461,12 +461,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
-- CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. <https://www.bis.org/cpmi/publ/d206.htm>
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. <https://www.bis.org/publ/bcbs238.htm>
-- Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114*, título sobre reservas de activos. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Verificación local: comprueba qué composición de reservas exige tu jurisdicción, con qué frecuencia de publicación y qué tipo de informe externo requiere. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. Exigencias de composición y segregación de la reserva. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
+- CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de gestión de riesgos de la reserva. <https://www.bis.org/cpmi/publ/d206.htm>
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Criterio de activo líquido de alta calidad aplicado a la reserva. <https://www.bis.org/publ/bcbs238.htm>
+- Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*, título sobre reservas de activos. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Expectativas de revelación y verificación independiente. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Verificación local: comprueba qué composición de reservas exige tu jurisdicción, con qué frecuencia de publicación y qué tipo de informe externo requiere. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

@@ -338,7 +338,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - European Union (1993). *Directive 93/13/EEC on unfair terms in consumer contracts*. Criterios de abusividad y desequilibrio contractual. <https://eur-lex.europa.eu/>
 - UNCTAD (2017). *United Nations Guidelines for Consumer Protection*. Naciones Unidas. Estándares sobre contratos de adhesión.
 - World Bank (2017). *Good Practices for Financial Consumer Protection*. Banco Mundial. Información precontractual y prácticas contractuales.
-- OECD (2011). *G20 High-Level Principles on Financial Consumer Protection*. OCDE/G20. Trato equitativo y divulgación. <https://www.oecd.org/finance/financial-education/>
+- OECD (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OCDE/G20. Trato equitativo y divulgación. <https://www.oecd.org/finance/financial-education/>
 - Ben-Shahar, O. y Schneider, C. (2014). *More Than You Wanted to Know: The Failure of Mandated Disclosure*. Princeton University Press. Límites de la divulgación como mecanismo de protección.
 - Verificación local: revisa la ley de protección al consumidor de tu país, el listado de cláusulas presuntamente abusivas y la obligación de entregar hoja resumen precontractual.
 

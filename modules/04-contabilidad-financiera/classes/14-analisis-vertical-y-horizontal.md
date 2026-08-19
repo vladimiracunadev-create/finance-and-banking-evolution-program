@@ -336,7 +336,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Wild, J., Subramanyam, K. y Halsey, R. (2019). *Financial Statement Analysis* (12.ª ed.). McGraw-Hill. Capítulos 1 y 8: análisis de tamaño común y de tendencias.
-- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation* (5.ª ed.). Cengage. Capítulo 5: análisis financiero y descomposición del ROE.
+- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage. Capítulo 5: análisis financiero y descomposición del ROE.
 - Higgins, R. (2019). *Analysis for Financial Management* (12.ª ed.). McGraw-Hill. Capítulo 2: sistema DuPont y sus extensiones.
 - Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Capítulos 11 y 12: análisis de la rentabilidad y del crecimiento.
 - Brealey, R., Myers, S. y Allen, F. (2023). *Principios de finanzas corporativas* (14.ª ed.). McGraw-Hill. Capítulo 28: análisis de estados financieros.

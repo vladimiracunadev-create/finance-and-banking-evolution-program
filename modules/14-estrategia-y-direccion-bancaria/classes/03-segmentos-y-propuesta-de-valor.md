@@ -500,10 +500,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Porter, M. (1996). "What Is Strategy?". *Harvard Business Review*. Las renuncias como esencia de la estrategia.
-- Osterwalder, A. y Pigneur, Y. (2010). *Business Model Generation*. Wiley.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
+- Osterwalder, A. y Pigneur, Y. (2010). *Business Model Generation*. Wiley. Lienzo con el que la clase describe la propuesta de valor.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Segmentación de clientes y diseño de la oferta bancaria.
 - World Bank (2021). *Good Practices for Financial Consumer Protection*, acceso a servicios básicos. World Bank Group.
-- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD.
+- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Trato justo y adecuación del producto al segmento.
 - Verificación local: revisa si existe en tu país una obligación de cuenta básica o de acceso universal a servicios financieros y sus condiciones.
 
 <!-- gen:footer:start -->

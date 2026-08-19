@@ -526,11 +526,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Kaplan, R. y Anderson, S. (2007). *Time-Driven Activity-Based Costing*. Harvard Business School Press.
+- Kaplan, R. y Anderson, S. (2007). *Time-Driven Activity-Based Costing*. Harvard Business School Press. Identificación de capacidad ociosa y costo por actividad.
 - Crosby, P. (1979). *Quality Is Free*. McGraw-Hill. Costo de la mala calidad.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 6.
-- Berger, A. y Humphrey, D. (1997). "Efficiency of financial institutions: International survey and directions for future research". *European Journal of Operational Research*, 98(2).
-- Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 6. Indicadores de eficiencia bancaria y su lectura.
+- Berger, A. y Humphrey, D. (1997). "Efficiency of financial institutions: International survey and directions for future research". *European Journal of Operational Research*, 98(2). Evidencia comparada sobre eficiencia de instituciones financieras.
+- Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60. Evolución de las estructuras de costo tras la crisis.
 - Verificación local: compara el índice de eficiencia de los bancos de tu país publicado por el supervisor y verifica su definición exacta.
 
 <!-- gen:footer:start -->

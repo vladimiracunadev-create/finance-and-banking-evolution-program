@@ -386,7 +386,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Broverman, S. (2017). *Mathematics of Investment and Credit* (7.ª ed.). ACTEX. Capítulo 3: sistemas de amortización comparados.
 - Yescombe, E. (2013). *Principles of Project Finance* (2.ª ed.). Academic Press. Estructuración de deuda alineada con generación de caja.
 - Ross, S., Westerfield, R. y Jaffe, J. (2021). *Corporate Finance* (12.ª ed.). McGraw-Hill. Capítulo 25: estructuras de deuda.
-- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets*. BIS. Tratamiento de estructuras con gracia.
+- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets — definitions of non-performing exposures and forbearance*. BIS. Tratamiento de estructuras con gracia.
 - Verificación local: revisa qué sistemas de amortización admite tu normativa y qué información debe entregarse sobre periodos de gracia.
 
 <!-- gen:footer:start -->

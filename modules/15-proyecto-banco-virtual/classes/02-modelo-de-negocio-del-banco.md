@@ -536,11 +536,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Porter, M. (1996). "What Is Strategy?". *Harvard Business Review*.
-- World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group.
-- OECD (2023). *Financing SMEs and Entrepreneurs: An OECD Scoreboard*. OECD.
+- Porter, M. (1996). "What Is Strategy?". *Harvard Business Review*. Criterio de renuncia estratégica que la clase aplica al banco.
+- World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group. Evidencia sobre datos alternativos para el segmento pyme.
+- OECD (2023). *Financing SMEs and Entrepreneurs: An OECD Scoreboard*. OECD. Datos comparados del acceso al crédito que justifican el segmento.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, exposiciones minoristas regulatorias. BIS.
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB.
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Formulación del apetito de riesgo preliminar del banco.
 - Verificación local: revisa el umbral de exposición minorista regulatoria y los datos de inclusión financiera de tu país.
 
 <!-- gen:footer:start -->

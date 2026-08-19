@@ -290,7 +290,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Kellison, S. (2008). *The Theory of Interest* (3.ª ed.). McGraw-Hill/Irwin. Capítulo 3: anualidades vencidas y anticipadas.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulo 5: horizonte de inversión y acumulación.
 - OECD (2022). *OECD Pensions Outlook*. OCDE. Evidencia sobre el efecto de la edad de inicio del ahorro previsional.
-- Benartzi, S. y Thaler, R. (2004). "Save More Tomorrow". *Journal of Political Economy*, 112(S1). Diseño de planes de ahorro y efecto de la postergación.
+- Benartzi, S. y Thaler, R. (2004). "Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving". *Journal of Political Economy*, 112(S1). Diseño de planes de ahorro y efecto de la postergación.
 - Verificación local: usa la rentabilidad histórica publicada por el administrador de fondos previsionales o el supervisor de tu país, y declara el periodo del dato.
 
 <!-- gen:footer:start -->

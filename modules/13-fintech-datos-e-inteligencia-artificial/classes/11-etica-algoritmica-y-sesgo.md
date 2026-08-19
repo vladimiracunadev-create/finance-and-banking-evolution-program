@@ -524,12 +524,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Barocas, S., Hardt, M. y Narayanan, A. (2023). *Fairness and Machine Learning: Limitations and Opportunities*. MIT Press. <https://fairmlbook.org/>
+- Barocas, S., Hardt, M. y Narayanan, A. (2023). *Fairness and Machine Learning: Limitations and Opportunities*. MIT Press. Marco conceptual de equidad algorítmica que ordena la clase. <https://fairmlbook.org/>
 - Kleinberg, J., Mullainathan, S. y Raghavan, M. (2017). "Inherent Trade-Offs in the Fair Determination of Risk Scores". *ITCS 2017*. Resultado de imposibilidad.
-- Hardt, M., Price, E. y Srebro, N. (2016). "Equality of Opportunity in Supervised Learning". *NIPS 2016*.
-- NIST (2022). *Towards a Standard for Identifying and Managing Bias in Artificial Intelligence* (NIST SP 1270). NIST.
-- Consumer Financial Protection Bureau (2023). *Adverse action notification requirements in connection with credit decisions based on complex algorithms*. CFPB.
-- OECD (2021). *Artificial Intelligence, Machine Learning and Big Data in Finance*. OECD.
+- Hardt, M., Price, E. y Srebro, N. (2016). "Equality of Opportunity in Supervised Learning". *NIPS 2016*. Definición formal de igualdad de oportunidad y su medición.
+- NIST (2022). *Towards a Standard for Identifying and Managing Bias in Artificial Intelligence* (NIST SP 1270). NIST. Taxonomía de sesgos y prácticas de mitigación.
+- Consumer Financial Protection Bureau (2023). *Adverse action notification requirements in connection with credit decisions based on complex algorithms*. CFPB. Obligación de explicar la denegación con modelos complejos.
+- OECD (2021). *Artificial Intelligence, Machine Learning and Big Data in Finance*. OECD. Panorámica del uso de datos masivos en finanzas y sus riesgos.
 - Verificación local: revisa los atributos protegidos por la normativa antidiscriminación de tu país y las obligaciones de notificación de rechazo de crédito.
 
 <!-- gen:footer:start -->

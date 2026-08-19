@@ -521,11 +521,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation* (7.ª ed.). Wiley. Capítulos sobre fusiones y adquisiciones.
-- Bruner, R. (2004). *Applied Mergers and Acquisitions*. Wiley.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). Wiley. Capítulos sobre fusiones y adquisiciones.
+- Bruner, R. (2004). *Applied Mergers and Acquisitions*. Wiley. Proceso de la operación, sinergias y estructuras de pago.
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Valoración de sinergias y control.
-- Moeller, S., Schlingemann, F. y Stulz, R. (2005). "Wealth Destruction on a Massive Scale?". *Journal of Finance*, 60(2).
-- IFRS Foundation. *NIIF 3 Combinaciones de Negocios*. <https://www.ifrs.org/>
+- Moeller, S., Schlingemann, F. y Stulz, R. (2005). "Wealth Destruction on a Massive Scale?". *Journal of Finance*, 60(2). Evidencia sobre destrucción de valor en adquisiciones grandes.
+- IFRS Foundation. *NIIF 3 Combinaciones de Negocios*. Reconocimiento contable de la combinación y de la plusvalía. <https://www.ifrs.org/>
 - Verificación local: revisa el régimen de control de concentraciones de tu país, los umbrales de notificación y el tratamiento tributario de las fusiones.
 
 <!-- gen:footer:start -->

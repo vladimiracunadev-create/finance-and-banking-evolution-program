@@ -473,11 +473,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. <https://www.bis.org/cpmi/publ/d147.htm>
-- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
-- Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. <https://www.bis.org/cpmi/publ/d193.htm>
-- Wolfsberg Group. *Correspondent Banking Due Diligence Questionnaire*. <https://www.wolfsberg-group.org/>
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. Papel de cada eslabón de la cadena de corresponsalía. <https://www.bis.org/cpmi/publ/d147.htm>
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Responsabilidad sobre proveedores intermedios de la cadena. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. Reparto de funciones entre los bloques de la arquitectura. <https://www.bis.org/cpmi/publ/d193.htm>
+- Wolfsberg Group. *Correspondent Banking Due Diligence Questionnaire*. Cuestionario estándar de debida diligencia entre bancos. <https://www.wolfsberg-principles.com/>
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Responsabilidades de la infraestructura que liquida el pago. <https://www.bis.org/cpmi/publ/d101.htm>
 - Verificación local: comprueba qué exige tu supervisor sobre gestión de terceros críticos y sobre trazabilidad de pagos internacionales. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

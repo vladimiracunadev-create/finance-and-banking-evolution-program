@@ -490,11 +490,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Kaplan, R. y Norton, D. (1996). *The Balanced Scorecard: Translating Strategy into Action*. Harvard Business School Press.
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
-- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting*. BIS.
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
+- Kaplan, R. y Norton, D. (1996). *The Balanced Scorecard: Translating Strategy into Action*. Harvard Business School Press. Estructura del cuadro de mando que la clase construye.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Responsabilidades de dirección que el cuadro de mando debe reflejar.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Calidad del dato que sostiene los indicadores de dirección.
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Límites de apetito integrados en el cuadro de mando.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Indicadores bancarios que alimentan cada perspectiva.
 - Verificación local: revisa qué información exige tu supervisor que llegue al directorio y con qué frecuencia.
 
 <!-- gen:footer:start -->

@@ -500,12 +500,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2005). *Compliance and the compliance function in banks*. BIS. <https://www.bis.org/publ/bcbs113.htm>
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
+- Basel Committee on Banking Supervision (2005). *Compliance and the compliance function in banks*. BIS. Independencia, alcance y reporte de la función de cumplimiento. <https://www.bis.org/publ/bcbs113.htm>
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Responsabilidad del directorio sobre el programa.
 - United States Department of Justice (2023). *Evaluation of Corporate Compliance Programs*. DOJ. Las tres preguntas de evaluación. <https://www.justice.gov/criminal-fraud/page/file/937501/download>
-- OECD (2010). *Good Practice Guidance on Internal Controls, Ethics, and Compliance*. OECD.
-- ISO (2021). *ISO 37301: Compliance management systems*. ISO.
-- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA.
+- OECD (2010). *Good Practice Guidance on Internal Controls, Ethics, and Compliance*. OECD. Elementos de un programa de ética y cumplimiento efectivo.
+- ISO (2021). *ISO 37301: Compliance management systems*. ISO. Requisitos del sistema de gestión de cumplimiento.
+- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA. Encaje del cumplimiento en el modelo de tres líneas.
 - Verificación local: revisa las exigencias sobre la función de cumplimiento, el canal de denuncia y la responsabilidad de la alta administración en tu jurisdicción.
 
 <!-- gen:footer:start -->

@@ -326,7 +326,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - European Union (2016). *Regulation (EU) 2016/679 — General Data Protection Regulation (GDPR)*. Artículos 15 a 22: derechos de acceso, rectificación, supresión, limitación, portabilidad y decisiones automatizadas. <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 - OECD (2013). *Guidelines governing the Protection of Privacy and Transborder Flows of Personal Data*. OCDE. Principios de minimización y finalidad.
 - ISO/IEC (2019). *ISO/IEC 27701: Privacy Information Management*. Marco de gestión de privacidad para organizaciones.
-- Basel Committee on Banking Supervision (2013). *BCBS 239: Principles for effective risk data aggregation and risk reporting*. BIS. Calidad y trazabilidad del dato en instituciones financieras.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Calidad y trazabilidad del dato en instituciones financieras.
 - World Bank (2017). *Good Practices for Financial Consumer Protection*. Banco Mundial. Capítulo sobre privacidad y protección de datos del consumidor financiero.
 - Verificación local: identifica la ley de protección de datos personales vigente en tu país, la autoridad competente y los plazos de respuesta exigibles.
 

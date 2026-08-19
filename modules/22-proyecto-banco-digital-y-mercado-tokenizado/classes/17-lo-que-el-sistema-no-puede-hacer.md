@@ -369,10 +369,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- OCDE (2011). *G20 High-Level Principles on Financial Consumer Protection*. OECD. <https://www.oecd.org/finance/financial-education/48892010.pdf>
-- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
-- Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Revelación de límites y riesgos exigible al proveedor. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- OCDE (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Advertencias y transparencia debidas al cliente. <https://www.oecd.org/finance/financial-education/48892010.pdf>
+- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Riesgos que el marco global declara no mitigables. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
+- Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones chilenas de información veraz y no engañosa. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

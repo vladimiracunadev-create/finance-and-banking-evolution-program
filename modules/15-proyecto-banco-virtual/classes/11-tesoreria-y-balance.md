@@ -546,10 +546,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio*. BIS.
-- Basel Committee on Banking Supervision (2014). *Basel III: The Net Stable Funding Ratio*. BIS.
-- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS.
-- Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS.
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Cálculo del ratio de cobertura de liquidez del banco.
+- Basel Committee on Banking Supervision (2014). *Basel III: The Net Stable Funding Ratio*. BIS. Cálculo del ratio de financiamiento estable neto.
+- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Diseño del plan de contingencia de liquidez.
+- Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS. Medición del riesgo de tasa del balance estructural.
 - Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre las turbulencias bancarias de 2023.
 - Verificación local: revisa qué activos y qué carteras acepta tu banco central como colateral, con qué descuentos y qué preparación exige.
 

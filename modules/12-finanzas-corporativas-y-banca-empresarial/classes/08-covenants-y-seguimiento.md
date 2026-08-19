@@ -518,11 +518,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Smith, C. y Warner, J. (1979). "On Financial Contracting: An Analysis of Bond Covenants". *Journal of Financial Economics*, 7(2).
-- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley.
-- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets — definitions of non-performing exposures and forbearance*. BIS. <https://www.bis.org/bcbs/publ/d403.htm>
-- European Banking Authority (2018). *Guidelines on management of non-performing and forborne exposures*. EBA.
-- Loan Market Association. Documentación estándar y cláusulas de covenants.
+- Smith, C. y Warner, J. (1979). "On Financial Contracting: An Analysis of Bond Covenants". *Journal of Financial Economics*, 7(2). Función económica de los covenants en el contrato de deuda.
+- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Seguimiento del deudor y señales de alerta temprana.
+- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets — definitions of non-performing exposures and forbearance*. BIS. Definición de refinanciación y de exposición dudosa. <https://www.bis.org/bcbs/publ/d403.htm>
+- European Banking Authority (2018). *Guidelines on management of non-performing and forborne exposures*. EBA. Expectativa supervisora sobre la gestión de exposiciones deterioradas.
+- Loan Market Association. *Documentación estándar de créditos sindicados*. Cláusulas de covenants y eventos de incumplimiento.
 - Verificación local: revisa la definición de exposición reestructurada de tu supervisor y sus efectos sobre la clasificación y las provisiones.
 
 <!-- gen:footer:start -->

@@ -368,7 +368,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Kieso, D., Weygandt, J. y Warfield, T. (2022). *Intermediate Accounting* (18.ª ed.). Wiley. Capítulo 5: estado de situación financiera y revelaciones.
 - Wild, J., Subramanyam, K. y Halsey, R. (2019). *Financial Statement Analysis* (12.ª ed.). McGraw-Hill. Capítulos 3 y 11: análisis de liquidez y estructura.
 - Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Capítulo 9: reformulación del balance para el análisis.
-- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation* (5.ª ed.). Cengage. Capítulo 4: análisis contable y detección de distorsiones.
+- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage. Capítulo 4: análisis contable y detección de distorsiones.
 - Verificación local: revisa el formato de presentación exigido por el supervisor de tu país para entidades reguladas y los requisitos de estados financieros intermedios.
 
 <!-- gen:footer:start -->

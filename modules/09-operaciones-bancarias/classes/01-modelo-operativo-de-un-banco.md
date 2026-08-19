@@ -426,7 +426,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Rose, P. y Hudgins, S. (2013). *Bank Management & Financial Services* (9.ª ed.). McGraw-Hill. Capítulos 1 y 2: organización y operación de un banco.
 - Basel Committee on Banking Supervision (2011). *Principles for the Sound Management of Operational Risk*. BIS. Categorías y gestión del riesgo operacional. <https://www.bis.org/publ/bcbs195.htm>
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS.
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Mapa de servicios críticos y tolerancia a la interrupción.
 - COSO (2013). *Internal Control — Integrated Framework*. Segregación de funciones y actividades de control.
 - Committee on Payments and Market Infrastructures (2012). *Principles for Financial Market Infrastructures*. CPMI-IOSCO/BIS. Ciclos de liquidación.
 - Verificación local: revisa los horarios de corte del sistema de pagos de alto valor de tu país y las exigencias de tu supervisor sobre segregación de funciones.

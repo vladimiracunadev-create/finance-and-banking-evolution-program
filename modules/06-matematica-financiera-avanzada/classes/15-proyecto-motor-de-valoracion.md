@@ -402,7 +402,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Capítulos 5, 6 y 28: criterios, riesgo y opciones reales.
 - Brealey, R., Myers, S. y Allen, F. (2023). *Principios de finanzas corporativas* (14.ª ed.). McGraw-Hill. Capítulos 5, 6, 10 y 22.
 - Federal Reserve / OCC (2011). *Supervisory Guidance on Model Risk Management* (SR 11-7). Documentación, validación y limitaciones de un modelo.
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation* (7.ª ed.). McKinsey/Wiley. Estructura de un informe de valoración.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). McKinsey/Wiley. Estructura de un informe de valoración.
 - Verificación local: contrasta el formato de tu informe con el que exige el comité de crédito de una institución de tu mercado, si tienes acceso a uno.
 
 <!-- gen:footer:start -->

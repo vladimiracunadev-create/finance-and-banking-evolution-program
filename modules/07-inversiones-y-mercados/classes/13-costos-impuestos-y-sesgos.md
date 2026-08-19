@@ -405,7 +405,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Barber, B. y Odean, T. (2000). "Trading Is Hazardous to Your Wealth". *Journal of Finance*. Efecto de la rotación sobre el rendimiento del inversionista.
 - Kahneman, D. (2011). *Pensar rápido, pensar despacio*. Debate. Aversión a la pérdida y sesgos de decisión.
-- Thaler, R. (2015). *Misbehaving*. Norton. Contabilidad mental y su efecto en decisiones financieras.
+- Thaler, R. (2015). *Misbehaving: The Making of Behavioral Economics*. Norton. Contabilidad mental y su efecto en decisiones financieras.
 - Dalbar. *Quantitative Analysis of Investor Behavior* (informe anual). Medición de la brecha del inversionista.
 - Bogle, J. (2017). *The Little Book of Common Sense Investing*. Wiley. Efecto acumulado de costos e impuestos.
 - Verificación local: revisa el régimen tributario aplicable a ganancias de capital, dividendos e intereses en tu país, y sus obligaciones de declaración.

@@ -305,7 +305,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Rose, P. y Hudgins, S. (2013). *Bank Management & Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 17: líneas de crédito y compromisos.
 - Casu, B., Girardone, C. y Molyneux, P. (2021). *Introduction to Banking* (3.ª ed.). Pearson. Capítulo 4: productos de crédito revolvente.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Compromisos crediticios y su tratamiento de capital.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Compromisos crediticios y su tratamiento de capital.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Factores de conversión de crédito para compromisos no utilizados. <https://www.bis.org/bcbs/publ/d424.htm>
 - World Bank (2017). *Good Practices for Financial Consumer Protection*. Banco Mundial. Información obligatoria sobre productos revolventes.
 - Verificación local: solicita a tu emisor el detalle de comisiones por giro y la tasa vigente de la línea, y contrástalos con la tasa máxima convencional aplicable.

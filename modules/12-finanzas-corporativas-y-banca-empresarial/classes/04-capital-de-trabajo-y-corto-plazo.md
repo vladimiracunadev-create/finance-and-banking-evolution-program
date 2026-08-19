@@ -475,11 +475,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill.
-- Klapper, L. (2006). "The role of factoring for financing small and medium enterprises". *Journal of Banking & Finance*, 30(11).
+- Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Gestión del ciclo de conversión de efectivo.
+- Klapper, L. (2006). "The role of factoring for financing small and medium enterprises". *Journal of Banking & Finance*, 30(11). Evidencia sobre el factoraje como financiamiento de pymes.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, tratamiento de exposiciones a corto plazo. BIS.
-- IFRS Foundation. *NIIF 9*, baja en cuentas de activos financieros; y *NIC 7*, clasificación de flujos. <https://www.ifrs.org/>
-- International Chamber of Commerce (2016). *Standard Definitions for Techniques of Supply Chain Finance*. ICC.
+- IFRS Foundation. *NIIF 9 Instrumentos Financieros*, baja en cuentas de activos financieros; y *NIC 7*, clasificación de flujos. <https://www.ifrs.org/>
+- International Chamber of Commerce (2016). *Standard Definitions for Techniques of Supply Chain Finance*. ICC. Definiciones estándar de los instrumentos de financiamiento de cadena.
 - Verificación local: revisa el marco legal de la cesión de créditos, el registro de cesiones y los requisitos de notificación al deudor en tu país.
 
 <!-- gen:footer:start -->

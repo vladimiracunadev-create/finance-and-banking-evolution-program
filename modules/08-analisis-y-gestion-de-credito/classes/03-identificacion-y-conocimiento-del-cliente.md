@@ -431,7 +431,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Financial Action Task Force (2023). *FATF Recommendations*, R.10 (diligencia debida), R.12 (PEP), R.24 y R.25 (beneficiario final). <https://www.fatf-gafi.org/>
-- Basel Committee on Banking Supervision (2016, rev. 2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. <https://www.bis.org/bcbs/publ/d505.htm>
+- Basel Committee on Banking Supervision (2016, rev. 2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. Debida diligencia del cliente y coherencia entre perfil y operaciones. <https://www.bis.org/bcbs/publ/d505.htm>
 - Wolfsberg Group (2022). *Wolfsberg Standards on Correspondent Banking and CDD*. Buenas prácticas de la industria. <https://www.wolfsberg-principles.com/>
 - Financial Action Task Force (2020). *Guidance on Digital Identity*. Verificación en contratación remota.
 - Egmont Group. *Best Practices for Suspicious Transaction Reporting*. Proceso de reporte a unidades de inteligencia financiera.

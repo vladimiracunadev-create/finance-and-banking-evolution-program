@@ -436,11 +436,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- NIST (2024). *Cybersecurity Framework 2.0*. National Institute of Standards and Technology. <https://www.nist.gov/cyberframework>
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS.
-- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
-- Committee on Payments and Market Infrastructures e IOSCO (2016). *Guidance on cyber resilience for financial market infrastructures*. BIS.
-- ISO/IEC (2022). *ISO/IEC 27001: Information security management systems*. ISO.
+- NIST (2024). *Cybersecurity Framework 2.0*. National Institute of Standards and Technology. Funciones del marco de ciberseguridad que ordena los controles. <https://www.nist.gov/cyberframework>
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Tolerancia a la interrupción de los servicios críticos.
+- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. Prácticas de respuesta y recuperación ante un incidente. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
+- Committee on Payments and Market Infrastructures e IOSCO (2016). *Guidance on cyber resilience for financial market infrastructures*. BIS. Expectativas de ciberresiliencia para infraestructuras de mercado.
+- ISO/IEC (2022). *ISO/IEC 27001: Information security management systems*. ISO. Requisitos del sistema de gestión de seguridad de la información.
 - Verificación local: revisa los plazos de notificación de incidentes, los requisitos de gestión de proveedores tecnológicos y la normativa de protección de datos personales de tu país.
 
 <!-- gen:footer:start -->

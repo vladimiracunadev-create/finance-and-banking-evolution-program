@@ -547,10 +547,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- OCDE (2023). *G20/OECD Principles of Corporate Governance*. OECD. <https://www.oecd.org/corporate/principles-corporate-governance/>
-- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
-- Comisión para el Mercado Financiero. *Normativa sobre sociedades anónimas y derechos de accionistas*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Revelación exigible sobre los derechos que otorga el token. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- OCDE (2023). *G20/OECD Principles of Corporate Governance*. OECD. Derechos del accionista que la clase traslada al token. <https://www.oecd.org/corporate/principles-corporate-governance/>
+- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. Protección del inversionista sobre el contenido del derecho. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
+- Comisión para el Mercado Financiero. *Normativa sobre sociedades anónimas y derechos de accionistas*. CMF. Derechos societarios reconocidos por la ley chilena. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba qué derechos son irrenunciables en tu jurisdicción, qué umbrales fija la norma y si admite el cómputo agrupado. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

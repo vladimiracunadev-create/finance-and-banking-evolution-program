@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [criptoactivos, riesgo-de-mercado, prudencial]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [BCBS, IOSCO, FSB]
 requires_legal_review: false
@@ -470,10 +470,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Bank for International Settlements (2022). *Annual Economic Report*, capítulo III: el futuro del sistema monetario. BIS. <https://www.bis.org/publ/arpdf/ar2022e3.htm>
-- Verificación local: comprueba el tratamiento prudencial vigente en tu jurisdicción y su calendario de aplicación antes de usar el cálculo de capital de esta clase. **Fecha de verificación de esta clase: 2026-08-06.**
+- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Marco global aplicable al activo sin obligado. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Recomendaciones de conducta de mercado para estos activos. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Bank for International Settlements (2022). *Annual Economic Report, capítulo III*. BIS. Crítica estructural del activo sin obligado. <https://www.bis.org/publ/arpdf/ar2022e3.htm>
+- Verificación local: comprueba el tratamiento prudencial vigente en tu jurisdicción y su calendario de aplicación antes de usar el cálculo de capital de esta clase. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

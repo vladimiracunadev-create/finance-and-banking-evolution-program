@@ -447,10 +447,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Evans, D. y Schmalensee, R. (2005). *Paying with Plastic* (2.ª ed.). MIT Press. Economía de la emisión y la adquirencia.
-- Rochet, J. y Tirole, J. (2006). "Two-Sided Markets: A Progress Report". *RAND Journal of Economics*.
+- Evans, D. y Schmalensee, R. (2005). *Paying with Plastic: The Digital Revolution in Buying and Borrowing* (2.ª ed.). MIT Press. Economía de la emisión y la adquirencia.
+- Rochet, J. y Tirole, J. (2006). "Two-Sided Markets: A Progress Report". *RAND Journal of Economics*. Economía de los mercados de dos lados aplicada a la tasa de intercambio.
 - PCI Security Standards Council (2022). *PCI DSS v4.0*. Requisitos de seguridad para comercios y adquirentes. <https://www.pcisecuritystandards.org/>
-- Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial.
+- Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial. Papel de las tarjetas en el acceso a medios de pago.
 - European Banking Authority (2019). *Guidelines on Strong Customer Authentication*. Efecto de la autenticación reforzada sobre la responsabilidad.
 - Verificación local: revisa las reglas de las marcas de tarjetas vigentes en tu mercado, los umbrales de tasa de contracargo y la normativa sobre retenciones a comercios.
 

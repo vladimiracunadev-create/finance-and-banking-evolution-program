@@ -413,9 +413,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial. <https://www.bis.org/cpmi/>
-- Evans, D. y Schmalensee, R. (2005). *Paying with Plastic* (2.ª ed.). MIT Press. Economía de las redes de tarjetas.
-- Committee on Payments and Market Infrastructures (2016). *Fast payments*. BIS. Diseño y efectos de los pagos inmediatos.
+- Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial. Marco de los aspectos de pago de la inclusión financiera. <https://www.bis.org/cpmi/>
+- Evans, D. y Schmalensee, R. (2005). *Paying with Plastic: The Digital Revolution in Buying and Borrowing* (2.ª ed.). MIT Press. Economía de las redes de tarjetas.
+- Committee on Payments and Market Infrastructures (2016). *Fast payments — Enhancing the speed and availability of retail payments*. BIS. Diseño y efectos de los pagos inmediatos.
 - Bank for International Settlements (2021). *Annual Economic Report*, capítulo sobre el futuro del sistema de pagos.
 - Rochet, J. y Tirole, J. (2006). "Two-Sided Markets: A Progress Report". *RAND Journal of Economics*. Economía de los mercados de dos lados.
 - Verificación local: revisa las tasas de intercambio reguladas en tu país, si existen, y la infraestructura de pagos inmediatos disponible.

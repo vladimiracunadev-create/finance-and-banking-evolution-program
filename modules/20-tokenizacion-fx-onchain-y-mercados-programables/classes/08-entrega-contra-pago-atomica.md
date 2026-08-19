@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [liquidacion, riesgo-de-principal, infraestructura]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, BIS]
 requires_legal_review: false
@@ -507,11 +507,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (1992). *Delivery versus Payment in Securities Settlement Systems*. BIS. <https://www.bis.org/cpmi/publ/d06.htm>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Verificación local: comprueba qué momento reconoce tu jurisdicción como finalidad de la liquidación en una infraestructura basada en registro distribuido. **Fecha de verificación de esta clase: 2026-08-06.**
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisito de entrega contra pago y de firmeza de la liquidación. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (1992). *Delivery versus Payment in Securities Settlement Systems*. BIS. Modelos clásicos de entrega contra pago que la clase compara. <https://www.bis.org/cpmi/publ/d06.htm>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Condiciones para que la atomicidad sea real y no aparente. <https://www.bis.org/cpmi/publ/d225.htm>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Liquidación atómica como propiedad del libro unificado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Verificación local: comprueba qué momento reconoce tu jurisdicción como finalidad de la liquidación en una infraestructura basada en registro distribuido. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

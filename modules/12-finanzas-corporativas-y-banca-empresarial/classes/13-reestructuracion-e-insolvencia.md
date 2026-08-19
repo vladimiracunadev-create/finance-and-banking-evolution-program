@@ -532,11 +532,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- World Bank (2021). *Principles for Effective Insolvency and Creditor/Debtor Regimes*. World Bank Group. <https://www.worldbank.org/en/topic/financialsector/brief/the-world-bank-principles-for-effective-insolvency-and-creditor-rights>
-- UNCITRAL (2005). *Legislative Guide on Insolvency Law*. Naciones Unidas. <https://uncitral.un.org/>
-- International Monetary Fund (1999). *Orderly and Effective Insolvency Procedures*. IMF.
-- European Banking Authority (2018). *Guidelines on management of non-performing and forborne exposures*. EBA.
-- Altman, E. y Hotchkiss, E. (2006). *Corporate Financial Distress and Bankruptcy* (3.ª ed.). Wiley.
+- World Bank (2021). *Principles for Effective Insolvency and Creditor/Debtor Regimes*. World Bank Group. Principios de un régimen de insolvencia eficaz. <https://www.worldbank.org/en/topic/financialsector/brief/the-world-bank-principles-for-effective-insolvency-and-creditor-rights>
+- UNCITRAL (2005). *Legislative Guide on Insolvency Law*. Naciones Unidas. Guía legislativa que ordena las opciones de reorganización. <https://uncitral.un.org/>
+- International Monetary Fund (1999). *Orderly and Effective Insolvency Procedures*. IMF. Diseño de procedimientos concursales ordenados.
+- European Banking Authority (2018). *Guidelines on management of non-performing and forborne exposures*. EBA. Tratamiento de la exposición reestructurada en la cartera.
+- Altman, E. y Hotchkiss, E. (2006). *Corporate Financial Distress and Bankruptcy* (3.ª ed.). Wiley. Predicción de la insolvencia y recuperación en el concurso.
 - Verificación local: revisa la ley de insolvencia de tu país, su orden de prelación, el tratamiento del dinero nuevo y las mayorías exigidas para imponer un acuerdo.
 
 <!-- gen:footer:start -->

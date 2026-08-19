@@ -621,10 +621,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS.
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB.
-- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Preguntas supervisoras con las que se examina el proyecto.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Expectativas de gobierno que el panel verifica.
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Coherencia entre apetito declarado y decisiones tomadas.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux. Sesgos de juicio que la defensa obliga a explicitar.
 - Minto, B. (2009). *The Pyramid Principle* (3.ª ed.). Pearson. Estructura de argumentación.
 - Verificación local: contrasta las decisiones de tu proyecto con la normativa vigente en tu país antes de defenderlo.
 

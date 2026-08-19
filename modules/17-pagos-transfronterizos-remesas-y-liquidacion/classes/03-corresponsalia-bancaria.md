@@ -510,11 +510,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. <https://www.bis.org/cpmi/publ/d147.htm>
-- Financial Stability Board (2019). *Correspondent Banking Data Report update*. FSB. <https://www.fsb.org/2019/05/fsb-correspondent-banking-data-report-update-2/>
-- Financial Action Task Force (2016). *Guidance on correspondent banking services*. FATF. <https://www.fatf-gafi.org/>
-- Wolfsberg Group. *Correspondent Banking Due Diligence Questionnaire* y *Principles for Correspondent Banking*. <https://www.wolfsberg-group.org/>
-- Basel Committee on Banking Supervision (2017). *Sound management of risks related to money laundering and financing of terrorism: correspondent banking annex*. BIS. <https://www.bis.org/bcbs/publ/d405.htm>
+- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. Estructura y funcionamiento de la relación de corresponsalía. <https://www.bis.org/cpmi/publ/d147.htm>
+- Financial Stability Board (2019). *Correspondent Banking Data Report update*. FSB. Datos de contracción de la red de corresponsales. <https://www.fsb.org/2019/05/fsb-correspondent-banking-data-report-update-2/>
+- Financial Action Task Force (2016). *Guidance on correspondent banking services*. FATF. Debida diligencia exigible sobre el banco corresponsal. <https://www.fatf-gafi.org/>
+- Wolfsberg Group. *Correspondent Banking Due Diligence Questionnaire* y *Principles for Correspondent Banking*. <https://www.wolfsberg-principles.com/>
+- Basel Committee on Banking Supervision (2017). *Sound management of risks related to money laundering and financing of terrorism: correspondent banking annex*. BIS. Expectativa prudencial específica de la relación corresponsal. <https://www.bis.org/bcbs/publ/d405.htm>
 - Verificación local: comprueba qué exige tu supervisor en materia de debida diligencia de corresponsalía y si existe orientación sobre retirada de relaciones. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

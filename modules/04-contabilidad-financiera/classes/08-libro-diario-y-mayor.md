@@ -367,7 +367,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Horngren, C., Sundem, G. y Elliott, J. (2013). *Introduction to Financial Accounting* (11.ª ed.). Pearson. Capítulo 3: el ciclo contable completo.
 - COSO (2013). *Internal Control — Integrated Framework*. Committee of Sponsoring Organizations. Controles de registro y conciliación. <https://www.coso.org/>
 - IAASB (2021). *ISA 330: The Auditor's Responses to Assessed Risks*. Pruebas sobre asientos y pista de auditoría. <https://www.iaasb.org/>
-- Basel Committee on Banking Supervision (2013). *BCBS 239: Principles for effective risk data aggregation and risk reporting*. BIS. Trazabilidad del dato.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Trazabilidad del dato.
 - Verificación local: revisa qué libros contables son obligatorios en tu país, su formato legal y los plazos de conservación exigidos.
 
 <!-- gen:footer:start -->

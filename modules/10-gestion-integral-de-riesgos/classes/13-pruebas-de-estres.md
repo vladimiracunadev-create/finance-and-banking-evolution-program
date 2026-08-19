@@ -489,10 +489,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. <https://www.bis.org/bcbs/publ/d450.htm>
-- European Banking Authority. *EU-wide stress test methodology* (ediciones sucesivas). EBA. <https://www.eba.europa.eu/risk-and-data-analysis/risk-analysis/eu-wide-stress-testing>
+- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. Principios de gobierno, escenarios y uso de las pruebas de estrés. <https://www.bis.org/bcbs/publ/d450.htm>
+- European Banking Authority. *EU-wide stress test methodology* (ediciones sucesivas). EBA. Metodología de un ejercicio supervisor completo. <https://www.eba.europa.eu/risk-and-data-analysis/risk-analysis/eu-wide-stress-testing>
 - Board of Governors of the Federal Reserve System. *Comprehensive Capital Analysis and Review (CCAR)* y *Dodd-Frank Act Stress Tests*. Federal Reserve.
-- International Monetary Fund (2012). *Macrofinancial Stress Testing: Principles and Practices*. IMF.
+- International Monetary Fund (2012). *Macrofinancial Stress Testing: Principles and Practices*. IMF. Construcción de escenarios macrofinancieros coherentes.
 - Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Capítulo sobre pruebas de estrés.
 - Verificación local: revisa el escenario supervisor vigente, su horizonte y las exigencias de autoevaluación de capital de tu jurisdicción.
 

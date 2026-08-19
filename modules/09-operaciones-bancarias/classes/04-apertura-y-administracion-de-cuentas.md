@@ -454,7 +454,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Financial Action Task Force (2023). *FATF Recommendations*, R.10: debida diligencia del cliente. <https://www.fatf-gafi.org/>
-- Basel Committee on Banking Supervision (2016, rev. 2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS.
+- Basel Committee on Banking Supervision (2016, rev. 2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. Controles de identidad y debida diligencia en la apertura de cuentas.
 - World Bank (2017). *Good Practices for Financial Consumer Protection*. Banco Mundial. Apertura, cierre y protección de clientes vulnerables.
 - Financial Conduct Authority (2021). *Guidance for firms on the fair treatment of vulnerable customers*. Estándares de atención a clientes vulnerables.
 - Basel Committee on Banking Supervision (2011). *Principles for the Sound Management of Operational Risk*. BIS. Controles de proceso.

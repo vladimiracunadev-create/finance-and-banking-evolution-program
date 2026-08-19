@@ -465,9 +465,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Capítulos 5 a 11 y 22.
-- Ross, S., Westerfield, R. y Jaffe, J. (2019). *Corporate Finance* (12.ª ed.). McGraw-Hill.
-- Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley.
-- Trigeorgis, L. (1996). *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press.
+- Ross, S., Westerfield, R. y Jaffe, J. (2019). *Corporate Finance* (12.ª ed.). McGraw-Hill. Criterios de decisión y sus conflictos entre proyectos.
+- Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Construcción de los flujos relevantes y de la tasa de descuento.
+- Trigeorgis, L. (1996). *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. Valor de la flexibilidad cuando el proyecto admite decisiones futuras.
 - Blank, L. y Tarquin, A. (2018). *Engineering Economy* (8.ª ed.). McGraw-Hill. Criterios de evaluación y TIR múltiple.
 - Verificación local: revisa las reglas de depreciación fiscal, el tratamiento de la venta de activos y los incentivos tributarios a la inversión de tu país.
 

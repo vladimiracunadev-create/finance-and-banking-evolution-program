@@ -472,10 +472,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Capítulos 17 a 19.
-- Modigliani, F. y Miller, M. (1958, 1963). "The Cost of Capital, Corporation Finance and the Theory of Investment" y su corrección. *American Economic Review*.
-- Myers, S. y Majluf, N. (1984). "Corporate Financing and Investment Decisions When Firms Have Information That Investors Do Not Have". *Journal of Financial Economics*, 13(2).
+- Modigliani, F. y Miller, M. (1958, 1963). "The Cost of Capital, Corporation Finance and the Theory of Investment" y su corrección. *American Economic Review*. Proposiciones de irrelevancia y su lectura con impuestos.
+- Myers, S. y Majluf, N. (1984). "Corporate Financing and Investment Decisions When Firms Have Information That Investors Do Not Have". *Journal of Financial Economics*, 13(2). Jerarquía de preferencias de financiamiento bajo información asimétrica.
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Estimación de costo de capital y betas.
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation* (7.ª ed.). Wiley.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). Wiley. Cálculo del costo promedio ponderado de capital.
 - Verificación local: revisa la tasa de impuesto a la renta corporativa de tu país y las reglas de limitación a la deducibilidad de intereses (subcapitalización).
 
 <!-- gen:footer:start -->

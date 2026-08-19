@@ -526,10 +526,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - IFRS Foundation. *NIIF 9 Instrumentos Financieros*, sección de deterioro. <https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/>
-- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS. <https://www.bis.org/bcbs/publ/d350.htm>
-- IFRS Foundation. *NIC 1* y *NIC 7*: presentación y flujos de efectivo. IFRS.
-- Kieso, D., Weygandt, J. y Warfield, T. (2020). *Intermediate Accounting* (17.ª ed.). Wiley.
-- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets*. BIS.
+- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS. Cálculo de la provisión por pérdida esperada del banco. <https://www.bis.org/bcbs/publ/d350.htm>
+- IFRS Foundation. *NIC 1 Presentación de Estados Financieros* y *NIC 7*: presentación y flujos de efectivo. IFRS.
+- Kieso, D., Weygandt, J. y Warfield, T. (2020). *Intermediate Accounting* (17.ª ed.). Wiley. Criterios contables aplicados a los estados del banco.
+- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets — definitions of non-performing exposures and forbearance*. BIS. Clasificación de la cartera deteriorada en los estados.
 - Verificación local: revisa el plan de cuentas y las normas de provisiones que exige tu supervisor, que pueden ser más estrictas que NIIF 9.
 
 <!-- gen:footer:start -->

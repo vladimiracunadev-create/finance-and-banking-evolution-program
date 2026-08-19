@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [arquitectura, dlt, criterio]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [BIS, CPMI, IOSCO]
 requires_legal_review: false
@@ -376,11 +376,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto antes de aplicar cualquier conclusión de la clase. **Fecha de verificación de esta clase: 2026-08-06.**
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Condiciones en que un libro unificado aporta sobre una base de datos compartida. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Comparación entre registro distribuido y base de datos compartida. <https://www.bis.org/cpmi/publ/d225.htm>
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos que la infraestructura debe cumplir sea cual sea la tecnología. <https://www.bis.org/cpmi/publ/d101.htm>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones que no dependen de la arquitectura elegida. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto antes de aplicar cualquier conclusión de la clase. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

@@ -461,11 +461,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. <https://www.bis.org/bcbs/publ/d328.htm>
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. <https://www.fsb.org/2013/11/r_131118/>
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Composición y responsabilidades del comité de riesgos. <https://www.bis.org/bcbs/publ/d328.htm>
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Declaración de apetito como insumo de la decisión del comité. <https://www.fsb.org/2013/11/r_131118/>
 - Financial Stability Board (2009). *Principles for Sound Compensation Practices* y sus estándares de implementación. FSB.
-- Financial Stability Board (2014). *Guidance on Supervisory Interaction with Financial Institutions on Risk Culture*. FSB.
-- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA.
+- Financial Stability Board (2014). *Guidance on Supervisory Interaction with Financial Institutions on Risk Culture*. FSB. Señales de cultura de riesgo que observa el supervisor.
+- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA. Reparto de responsabilidades entre gestión, control y auditoría.
 - Verificación local: revisa las exigencias de composición del comité de riesgos, independencia del director de riesgos y política de remuneraciones de tu supervisor.
 
 <!-- gen:footer:start -->

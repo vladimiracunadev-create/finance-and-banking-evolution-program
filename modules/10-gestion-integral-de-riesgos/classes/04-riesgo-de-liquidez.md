@@ -430,9 +430,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. <https://www.bis.org/publ/bcbs238.htm>
-- Basel Committee on Banking Supervision (2014). *Basel III: The Net Stable Funding Ratio*. BIS. <https://www.bis.org/bcbs/publ/d295.htm>
-- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS.
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Colchón de activos líquidos y salidas netas a treinta días. <https://www.bis.org/publ/bcbs238.htm>
+- Basel Committee on Banking Supervision (2014). *Basel III: The Net Stable Funding Ratio*. BIS. Exigencia de financiamiento estable a un año. <https://www.bis.org/bcbs/publ/d295.htm>
+- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Principios de gobierno, medición y planes de contingencia de liquidez.
 - Diamond, D. y Dybvig, P. (1983). "Bank Runs, Deposit Insurance, and Liquidity". *Journal of Political Economy*, 91(3). Modelo fundacional de corridas.
 - Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre las turbulencias bancarias de 2023. BIS.
 - Verificación local: revisa los mínimos de liquidez, activos elegibles y facilidades del banco central aplicables en tu país.

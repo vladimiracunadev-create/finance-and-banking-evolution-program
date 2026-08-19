@@ -452,10 +452,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2019). *Minimum capital requirements for market risk*, sección de riesgo de moneda. BIS.
-- International Monetary Fund (2020). *Managing Foreign Exchange Risk in Emerging Markets*. IMF Working Papers.
-- Bank for International Settlements (2020). *US dollar funding: an international perspective*. CGFS Papers 65. <https://www.bis.org/publ/cgfs65.htm>
-- Ranciere, R., Tornell, A. y Vamvakidis, A. (2010). "Currency mismatch, systemic risk and growth in emerging Europe". *Economic Policy*, 25(64).
-- Krugman, P., Obstfeld, M. y Melitz, M. (2018). *International Economics* (11.ª ed.). Pearson. Paridad de tasas de interés.
+- International Monetary Fund (2020). *Managing Foreign Exchange Risk in Emerging Markets*. IMF Working Papers. Prácticas de gestión cambiaria en economías emergentes.
+- Bank for International Settlements (2020). *US dollar funding: an international perspective*. CGFS Papers 65. Dependencia del financiamiento en dólares fuera de Estados Unidos. <https://www.bis.org/publ/cgfs65.htm>
+- Ranciere, R., Tornell, A. y Vamvakidis, A. (2010). "Currency mismatch, systemic risk and growth in emerging Europe". *Economic Policy*, 25(64). Evidencia sobre descalce de monedas y riesgo sistémico.
+- Krugman, P., Obstfeld, M. y Melitz, M. (2018). *International Economics: Theory and Policy* (11.ª ed.). Pearson. Paridad de tasas de interés.
 - Verificación local: revisa los límites de posición en moneda extranjera, los encajes diferenciados y las exigencias sobre crédito en moneda extranjera a no generadores en tu país.
 
 <!-- gen:footer:start -->

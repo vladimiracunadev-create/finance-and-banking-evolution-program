@@ -518,10 +518,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Banco Mundial. *Remittance Prices Worldwide* y *Migration and Development Brief*. <https://remittanceprices.worldbank.org/>
-- Financial Stability Board (2021). *Targets for Addressing the Four Challenges of Cross-border Payments*. FSB. <https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/>
-- Committee on Payments and Market Infrastructures y Banco Mundial (2007). *General principles for international remittance services*. BIS. <https://www.bis.org/cpmi/publ/d76.htm>
-- Naciones Unidas. *Objetivos de Desarrollo Sostenible, meta 10.c sobre costes de remesas*. <https://sdgs.un.org/goals/goal10>
-- Fondo Internacional de Desarrollo Agrícola. *Informes sobre remesas y desarrollo rural*. <https://www.ifad.org/>
+- Financial Stability Board (2021). *Targets for Addressing the Four Challenges of Cross-border Payments*. FSB. Metas de coste de remesas contra las que se mide el corredor. <https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/>
+- Committee on Payments and Market Infrastructures y Banco Mundial (2007). *General principles for international remittance services*. BIS. Principios generales aplicables a los servicios de remesas. <https://www.bis.org/cpmi/publ/d76.htm>
+- Naciones Unidas. *Objetivos de Desarrollo Sostenible, meta 10.c sobre costes de remesas*. Meta internacional de reducción del coste de las remesas. <https://sdgs.un.org/goals/goal10>
+- Fondo Internacional de Desarrollo Agrícola. *Informes sobre remesas y desarrollo rural*. Evidencia sobre el destino y el efecto de las remesas. <https://www.ifad.org/>
 - Verificación local: comprueba los valores y plazos vigentes de los objetivos internacionales, y qué obligaciones de transparencia e inscripción aplican a los operadores de remesas en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

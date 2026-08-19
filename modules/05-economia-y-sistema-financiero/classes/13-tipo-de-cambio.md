@@ -359,7 +359,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Blanchard, O. (2021). *Macroeconomía* (8.ª ed.). Pearson. Capítulos 17 a 20: economía abierta, tipo de cambio y regímenes.
 - Krugman, P., Obstfeld, M. y Melitz, M. (2022). *International Economics: Theory and Policy* (12.ª ed.). Pearson. Capítulos 14 a 19: determinación del tipo de cambio y paridades.
 - International Monetary Fund (2023). *Annual Report on Exchange Arrangements and Exchange Restrictions*. FMI. Clasificación de regímenes cambiarios. <https://www.imf.org/>
-- Bank for International Settlements (2022). *Triennial Central Bank Survey of Foreign Exchange*. BIS. Estructura del mercado cambiario.
+- Bank for International Settlements (2022). *Triennial Central Bank Survey of foreign exchange and OTC derivatives markets*. BIS. Estructura del mercado cambiario.
 - Ranciere, R., Tornell, A. y Vamvakidis, A. (2010). "Currency mismatch, systemic risk and growth in emerging Europe". *Economic Policy*. Riesgo cambiario inducido en el crédito.
 - Verificación local: descarga la serie de tipo de cambio nominal, real y multilateral publicada por el banco central de tu país y su régimen cambiario declarado ante el FMI.
 

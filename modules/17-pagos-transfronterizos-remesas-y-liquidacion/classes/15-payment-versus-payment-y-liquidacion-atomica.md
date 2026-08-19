@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, liquidacion, riesgo-de-liquidacion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, Comité de Basilea]
 requires_legal_review: false
@@ -529,11 +529,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*, principio 12. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Basel Committee on Banking Supervision (2013). *Supervisory guidance for managing risks associated with the settlement of foreign exchange transactions*. BIS. <https://www.bis.org/publ/bcbs241.htm>
-- Committee on Payments and Market Infrastructures (2008). *Progress in reducing foreign exchange settlement risk*. BIS. <https://www.bis.org/cpmi/publ/d83.htm>
-- BIS Innovation Hub. *Proyectos sobre liquidación con pago contra pago y sincronización*. BIS. <https://www.bis.org/about/bisih/topics.htm>
+- Basel Committee on Banking Supervision (2013). *Supervisory guidance for managing risks associated with the settlement of foreign exchange transactions*. BIS. Gestión supervisora del riesgo de liquidación cambiaria. <https://www.bis.org/publ/bcbs241.htm>
+- Committee on Payments and Market Infrastructures (2008). *Progress in reducing foreign exchange settlement risk*. BIS. Medición del avance en la reducción de ese riesgo. <https://www.bis.org/cpmi/publ/d83.htm>
+- BIS Innovation Hub. *Proyectos sobre liquidación con pago contra pago y sincronización*. BIS. Experimentos de liquidación sincronizada que la clase compara. <https://www.bis.org/about/bisih/topics.htm>
 - Global Foreign Exchange Committee. *FX Global Code*, principios sobre gestión del riesgo de liquidación. <https://www.globalfxc.org/fx_global_code.htm>
-- Verificación local: comprueba cómo se trata la exposición de liquidación en el marco prudencial aplicable y si el bloqueo de fondos es oponible en las jurisdicciones donde operes. **Fecha de verificación de esta clase: 2026-08-06.**
+- Verificación local: comprueba cómo se trata la exposición de liquidación en el marco prudencial aplicable y si el bloqueo de fondos es oponible en las jurisdicciones donde operes. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

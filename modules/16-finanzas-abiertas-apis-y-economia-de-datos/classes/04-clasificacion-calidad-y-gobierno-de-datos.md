@@ -457,11 +457,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- ISO/IEC 25012. *Data quality model*. International Organization for Standardization. <https://www.iso.org/standard/35736.html>
-- Basel Committee on Banking Supervision (2013). *BCBS 239 — Principles for effective risk data aggregation and risk reporting*. BIS. <https://www.bis.org/publ/bcbs239.htm>
-- Comisión para el Mercado Financiero. *Anexo técnico del Sistema de Finanzas Abiertas: definiciones y esquemas de datos*. CMF. <https://www.cmfchile.cl/>
-- OECD (2021). *Recommendation of the Council on Enhancing Access to and Sharing of Data*. OECD. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0463>
-- NIST (2020). *NIST Privacy Framework 1.0*. National Institute of Standards and Technology. <https://www.nist.gov/privacy-framework>
+- ISO/IEC 25012. *Data quality model*. International Organization for Standardization. Dimensiones de calidad del dato que la clase mide. <https://www.iso.org/standard/35736.html>
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Principios de agregación y trazabilidad aplicados a la API. <https://www.bis.org/publ/bcbs239.htm>
+- Comisión para el Mercado Financiero. *Anexo técnico del Sistema de Finanzas Abiertas: definiciones y esquemas de datos*. CMF. Esquemas de datos que fijan el contrato de publicación. <https://www.cmfchile.cl/>
+- OECD (2021). *Recommendation of the Council on Enhancing Access to and Sharing of Data*. OECD. Criterios de acceso y compartición de datos entre organizaciones. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0463>
+- NIST (2020). *NIST Privacy Framework 1.0*. National Institute of Standards and Technology. Funciones de gobierno de privacidad aplicadas al dato expuesto. <https://www.nist.gov/privacy-framework>
 - Verificación local: comprueba qué esquema de datos exige el anexo técnico vigente en tu jurisdicción y qué categorías de dato personal recibe tratamiento reforzado. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

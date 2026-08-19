@@ -430,12 +430,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. <https://www.bis.org/publ/bcbs230.htm>
-- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS.
+- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Objetivos que la comunidad supervisora se fija al regular. <https://www.bis.org/publ/bcbs230.htm>
+- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Respuesta regulatoria a la crisis que la clase explica.
 - Financial Stability Board (2023). *Global Monitoring Report on Non-Bank Financial Intermediation*. FSB. Arbitraje y actividad fuera del perímetro bancario.
-- Admati, A. y Hellwig, M. (2013). *The Bankers' New Clothes*. Princeton University Press.
+- Admati, A. y Hellwig, M. (2013). *The Bankers' New Clothes*. Princeton University Press. Argumento crítico sobre el nivel de capital exigido a la banca.
 - Mishkin, F. (2018). *The Economics of Money, Banking and Financial Markets* (12.ª ed.). Pearson. Capítulos sobre regulación bancaria.
-- Dewatripont, M. y Tirole, J. (1994). *The Prudential Regulation of Banks*. MIT Press.
+- Dewatripont, M. y Tirole, J. (1994). *The Prudential Regulation of Banks*. MIT Press. Fundamento económico de la regulación prudencial.
 - Verificación local: identifica al supervisor bancario, al de conducta y a la unidad de inteligencia financiera de tu país, y la ley que fija sus competencias.
 
 <!-- gen:footer:start -->

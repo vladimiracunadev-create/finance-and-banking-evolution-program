@@ -463,9 +463,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - United Nations Security Council. *Consolidated List* y resoluciones de los comités de sanciones. UN. <https://www.un.org/securitycouncil/content/un-sc-consolidated-list>
 - Financial Action Task Force (2012-2025). *Recommendations 6 y 7*: sanciones financieras dirigidas. FATF.
-- Financial Action Task Force (2020). *Guidance on Proliferation Financing Risk Assessment and Mitigation*. FATF.
-- Wolfsberg Group (2019). *Guidance on Sanctions Screening*. <https://www.wolfsberg-principles.com/>
-- Financial Action Task Force (2021). *Trade-Based Money Laundering: Risk Indicators*. FATF.
+- Financial Action Task Force (2020). *Guidance on Proliferation Financing Risk Assessment and Mitigation*. FATF. Evaluación del riesgo de financiamiento de la proliferación.
+- Wolfsberg Group (2019). *Guidance on Sanctions Screening*. Práctica de filtrado de listas y gestión de coincidencias. <https://www.wolfsberg-principles.com/>
+- Financial Action Task Force (2021). *Trade-Based Money Laundering: Risk Indicators*. FATF. Indicadores de lavado basado en comercio que activan alertas.
 - Verificación local: identifica las listas de aplicación obligatoria en tu país, la autoridad competente para autorizar operaciones bloqueadas y los plazos de informe.
 
 <!-- gen:footer:start -->

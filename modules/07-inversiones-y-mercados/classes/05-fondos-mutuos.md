@@ -407,7 +407,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bogle, J. (2017). *The Little Book of Common Sense Investing* (edición actualizada). Wiley. Efecto acumulado de los costos.
 - Carhart, M. (1997). "On Persistence in Mutual Fund Performance". *Journal of Finance*. Baja persistencia del desempeño superior.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulos 4 y 24: fondos y evaluación de desempeño.
-- IOSCO (2016). *Good Practice for Fees and Expenses of Collective Investment Schemes*. <https://www.iosco.org/>
+- IOSCO (2016). *Good Practice for Fees and Expenses of Collective Investment Schemes*. Criterios de revelación y comparación de comisiones entre fondos. <https://www.iosco.org/>
 - Verificación local: descarga los reglamentos internos y las fichas de fondos desde el registro del supervisor de valores de tu país, con su fecha de vigencia.
 
 <!-- gen:footer:start -->

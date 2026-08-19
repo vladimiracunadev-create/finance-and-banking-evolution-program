@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, union-europea, internacional]
 regulatory_topics: [registro-de-valores, conciliacion, infraestructura]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, CMF]
 requires_legal_review: true
@@ -542,11 +542,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/858 sobre un régimen piloto de infraestructuras del mercado basadas en tecnología de registro descentralizado*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858>
-- Comisión para el Mercado Financiero. *Normativa sobre depósito y custodia de valores*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu jurisdicción para que una anotación en un registro distribuido produzca efectos frente a terceros y quién resuelve un conflicto entre registros. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Exigencia de un registro único y firme de titularidad. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Relación entre el registro tokenizado y el registro oficial. <https://www.bis.org/cpmi/publ/d225.htm>
+- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/858 sobre un régimen piloto de infraestructuras del mercado basadas en la tecnología de registro descentralizado*. EUR-Lex. Excepciones que el régimen piloto permite y sus límites. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858>
+- Comisión para el Mercado Financiero. *Normativa sobre custodia y depósito de valores*. CMF. Régimen chileno del depósito y registro de valores. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba qué exige tu jurisdicción para que una anotación en un registro distribuido produzca efectos frente a terceros y quién resuelve un conflicto entre registros. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

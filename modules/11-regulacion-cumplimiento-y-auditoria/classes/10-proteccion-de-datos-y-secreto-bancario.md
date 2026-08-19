@@ -478,9 +478,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - OECD (2013). *OECD Privacy Guidelines* (revisión de las Directrices sobre protección de la privacidad y flujos transfronterizos de datos personales). OECD. <https://www.oecd.org/digital/privacy/>
 - Unión Europea (2016). *Reglamento General de Protección de Datos (UE) 2016/679*. Bases de licitud, derechos y notificación de brechas.
-- Financial Action Task Force (2021). *Stocktake on Data Pooling, Collaborative Analytics and Data Protection*. FATF.
+- Financial Action Task Force (2021). *Stocktake on Data Pooling, Collaborative Analytics and Data Protection*. FATF. Tensión entre compartir datos para prevenir delitos y proteger al titular.
 - Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*, sección sobre intercambio de información. BIS.
-- NIST (2015). *NISTIR 8053: De-Identification of Personal Information*. NIST. <https://csrc.nist.gov/publications/detail/nistir/8053/final>
+- NIST (2015). *NISTIR 8053: De-Identification of Personal Information*. NIST. Técnicas de anonimización y sus límites reales. <https://csrc.nist.gov/publications/detail/nistir/8053/final>
 - Verificación local: revisa la ley de protección de datos de tu país, la norma sobre secreto bancario, sus excepciones, los plazos de conservación y el régimen de notificación de brechas.
 
 <!-- gen:footer:start -->

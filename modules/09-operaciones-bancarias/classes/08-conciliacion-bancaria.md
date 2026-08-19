@@ -407,7 +407,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2011). *Principles for the Sound Management of Operational Risk*. BIS. Controles de proceso y segregación.
 - IAASB (2021). *ISA 330: The Auditor's Responses to Assessed Risks*. Pruebas sobre conciliaciones y asientos manuales.
 - IAASB (2021). *ISA 240: The Auditor's Responsibilities Relating to Fraud*. Asientos manuales como foco de riesgo de fraude.
-- Basel Committee on Banking Supervision (2013). *BCBS 239: Principles for effective risk data aggregation*. BIS. Calidad y trazabilidad del dato.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Calidad y trazabilidad del dato.
 - Verificación local: revisa las exigencias de tu supervisor sobre conciliaciones, plazos de resolución de partidas y control de cuentas de tránsito.
 
 <!-- gen:footer:start -->

@@ -467,11 +467,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley.
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). Wiley.
-- Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill.
-- Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill.
-- IFRS Foundation. *NIIF 13 Medición del Valor Razonable*. <https://www.ifrs.org/>
+- Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Método de flujos descontados y estimación del valor terminal.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). Wiley. Valoración por retorno sobre el capital invertido y crecimiento.
+- Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Fundamento del descuento y del costo de capital aplicado.
+- Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Valoración basada en la contabilidad y el resultado residual.
+- IFRS Foundation. *NIIF 13 Medición del Valor Razonable*. Jerarquía de insumos de la medición a valor razonable. <https://www.ifrs.org/>
 - Verificación local: revisa las normas de valoración aceptadas en tu jurisdicción para efectos tributarios y societarios.
 
 <!-- gen:footer:start -->

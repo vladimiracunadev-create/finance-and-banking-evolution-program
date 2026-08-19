@@ -496,10 +496,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Gestión de capital de trabajo y planificación financiera.
-- Ross, S., Westerfield, R. y Jaffe, J. (2019). *Corporate Finance* (12.ª ed.). McGraw-Hill.
+- Ross, S., Westerfield, R. y Jaffe, J. (2019). *Corporate Finance* (12.ª ed.). McGraw-Hill. Construcción de la proyección de caja y del flujo libre.
 - Higgins, R. (2019). *Analysis for Financial Management* (12.ª ed.). McGraw-Hill. Crecimiento sostenible y necesidades de fondos.
 - Faus, J. (2001). *Finanzas operativas*. IESE. Necesidad operativa de fondos y fondo de maniobra.
-- IFRS Foundation. *NIC 7 Estado de Flujos de Efectivo*. <https://www.ifrs.org/>
+- IFRS Foundation. *NIC 7 Estado de Flujos de Efectivo*. Clasificación de flujos operativos, de inversión y de financiamiento. <https://www.ifrs.org/>
 - Verificación local: revisa las prácticas de plazo de pago habituales de tu mercado y la normativa sobre plazos máximos de pago a proveedores, si existe.
 
 <!-- gen:footer:start -->

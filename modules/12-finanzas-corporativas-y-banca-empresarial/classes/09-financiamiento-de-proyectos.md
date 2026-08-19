@@ -519,11 +519,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Yescombe, E. (2013). *Principles of Project Finance* (2.ª ed.). Academic Press.
-- Gatti, S. (2018). *Project Finance in Theory and Practice* (3.ª ed.). Academic Press.
+- Yescombe, E. (2013). *Principles of Project Finance* (2.ª ed.). Academic Press. Estructura contractual y reparto de riesgos del proyecto.
+- Gatti, S. (2018). *Project Finance in Theory and Practice* (3.ª ed.). Academic Press. Modelo financiero y ratios de cobertura del servicio de deuda.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, tratamiento de financiamiento especializado. BIS.
-- International Finance Corporation. *Performance Standards on Environmental and Social Sustainability*. IFC. <https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards>
-- Equator Principles Association (2020). *The Equator Principles EP4*. <https://equator-principles.com/>
+- International Finance Corporation. *Performance Standards on Environmental and Social Sustainability*. IFC. Estándares ambientales y sociales exigibles al proyecto. <https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards>
+- Equator Principles Association (2020). *The Equator Principles EP4*. Marco voluntario de evaluación ambiental y social del financiamiento. <https://equator-principles.com/>
 - Verificación local: revisa el marco de concesiones y asociaciones público-privadas de tu país y los requisitos ambientales aplicables a proyectos de infraestructura.
 
 <!-- gen:footer:start -->

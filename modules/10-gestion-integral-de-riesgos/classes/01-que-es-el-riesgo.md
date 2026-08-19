@@ -376,11 +376,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. <https://www.bis.org/bcbs/publ/d328.htm>
-- Financial Stability Board (2014). *Guidance on Supervisory Interaction with Financial Institutions on Risk Culture*. FSB. <https://www.fsb.org/2014/04/140407/>
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB.
-- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA.
-- COSO (2017). *Enterprise Risk Management — Integrating with Strategy and Performance*. COSO.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Responsabilidad del directorio sobre el marco de riesgos. <https://www.bis.org/bcbs/publ/d328.htm>
+- Financial Stability Board (2014). *Guidance on Supervisory Interaction with Financial Institutions on Risk Culture*. FSB. Qué mira un supervisor cuando evalúa la cultura de riesgo. <https://www.fsb.org/2014/04/140407/>
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Estructura del apetito de riesgo y sus límites.
+- Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA. Reparto de responsabilidades entre las tres líneas.
+- COSO (2017). *Enterprise Risk Management — Integrating with Strategy and Performance*. COSO. Vocabulario de riesgo integrado con la estrategia.
 - Knight, F. (1921). *Risk, Uncertainty and Profit*. Houghton Mifflin. Distinción entre riesgo e incertidumbre.
 - Verificación local: revisa las exigencias de gobierno corporativo, comité de riesgos y marco de apetito que aplica tu supervisor.
 

@@ -523,11 +523,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- ISO 20022. *Message definitions and catalogue*. <https://www.iso20022.org/iso-20022-message-definitions>
-- SWIFT. *CBPR+ usage guidelines para pagos transfronterizos*. <https://www.swift.com/standards/iso-20022>
-- ISO 20022. *External Code Sets: purpose codes y reason codes*. <https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets>
-- Committee on Payments and Market Infrastructures (2018). *Cross-border retail payments*. BIS. <https://www.bis.org/cpmi/publ/d173.htm>
-- Financial Action Task Force. *Recomendación 16 e información que debe acompañar a las transferencias*. FATF. <https://www.fatf-gafi.org/>
+- ISO 20022. *Message definitions and catalogue*. Definiciones de mensaje que la clase construye y valida. <https://www.iso20022.org/iso-20022-message-definitions>
+- SWIFT. *CBPR+ usage guidelines para pagos transfronterizos*. Reglas de uso del mensaje en pagos transfronterizos. <https://www.swift.com/standards/iso-20022>
+- ISO 20022. *External Code Sets: purpose codes y reason codes*. Códigos de propósito y de rechazo usados en los ejemplos. <https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets>
+- Committee on Payments and Market Infrastructures (2018). *Cross-border retail payments*. BIS. Efecto del formato sobre el procesamiento sin intervención manual. <https://www.bis.org/cpmi/publ/d173.htm>
+- Financial Action Task Force. *Recomendación 16 e información que debe acompañar a las transferencias*. FATF. Datos del ordenante y del beneficiario exigidos en el mensaje. <https://www.fatf-gafi.org/>
 - Verificación local: comprueba qué versión de las guías de uso rige en tu red y qué campos regulatorios exige cada jurisdicción de destino. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

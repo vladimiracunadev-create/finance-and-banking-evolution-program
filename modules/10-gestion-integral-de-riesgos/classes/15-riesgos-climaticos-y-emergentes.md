@@ -482,11 +482,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2022). *Principles for the effective management and supervision of climate-related financial risks*. BIS. <https://www.bis.org/bcbs/publ/d532.htm>
-- Basel Committee on Banking Supervision (2021). *Climate-related risk drivers and their transmission channels*. BIS.
-- Network for Greening the Financial System. *NGFS Climate Scenarios for central banks and supervisors* (ediciones sucesivas). NGFS. <https://www.ngfs.net/ngfs-scenarios-portal/>
-- Financial Stability Board y TCFD (2017). *Recommendations of the Task Force on Climate-related Financial Disclosures*. FSB.
-- Carney, M. (2015). "Breaking the Tragedy of the Horizon". Discurso, Bank of England. <https://www.bankofengland.co.uk/speech/2015/breaking-the-tragedy-of-the-horizon-climate-change-and-financial-stability>
+- Basel Committee on Banking Supervision (2022). *Principles for the effective management and supervision of climate-related financial risks*. BIS. Expectativas supervisoras sobre gestión del riesgo climático. <https://www.bis.org/bcbs/publ/d532.htm>
+- Basel Committee on Banking Supervision (2021). *Climate-related risk drivers and their transmission channels*. BIS. Canales por los que el riesgo climático llega a los riesgos financieros.
+- Network for Greening the Financial System. *NGFS Climate Scenarios for central banks and supervisors* (ediciones sucesivas). NGFS. Escenarios de transición y físicos usados en las proyecciones. <https://www.ngfs.net/ngfs-scenarios-portal/>
+- Financial Stability Board y TCFD (2017). *Recommendations of the Task Force on Climate-related Financial Disclosures*. FSB. Estructura de la revelación de riesgos climáticos.
+- Carney, M. (2015). "Breaking the Tragedy of the Horizon". Discurso, Bank of England. Formulación de la tragedia del horizonte que abre la clase. <https://www.bankofengland.co.uk/speech/2015/breaking-the-tragedy-of-the-horizon-climate-change-and-financial-stability>
 - IFRS Foundation (2023). *NIIF S1 y NIIF S2* — normas de información sobre sostenibilidad y clima. ISSB.
 - Verificación local: revisa las expectativas supervisoras sobre riesgos climáticos, las obligaciones de divulgación y los escenarios de referencia adoptados en tu jurisdicción.
 

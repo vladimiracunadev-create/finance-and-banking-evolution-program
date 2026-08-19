@@ -482,11 +482,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Kaplan, R. y Norton, D. (1996). *The Balanced Scorecard*. Harvard Business School Press.
-- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting*. BIS.
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB.
-- Forsgren, N., Humble, J. y Kim, G. (2018). *Accelerate*. IT Revolution.
+- Kaplan, R. y Norton, D. (1996). *The Balanced Scorecard: Translating Strategy into Action*. Harvard Business School Press. Estructura de las cuatro perspectivas del cuadro de mando.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Calidad y trazabilidad del dato que alimenta cada indicador.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Información que el directorio debe recibir y con qué frecuencia.
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Límites de apetito convertidos en umbrales del cuadro de mando.
+- Forsgren, N., Humble, J. y Kim, G. (2018). *Accelerate: The Science of Lean Software and DevOps*. IT Revolution. Indicadores de entrega y operación tecnológica del banco.
 - Verificación local: revisa qué información exige tu supervisor que llegue al directorio, con qué frecuencia y en qué formato.
 
 <!-- gen:footer:start -->

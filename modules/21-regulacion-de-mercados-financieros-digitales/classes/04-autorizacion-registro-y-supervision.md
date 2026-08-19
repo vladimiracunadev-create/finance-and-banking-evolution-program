@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [autorizacion, supervision, gobierno-corporativo]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CMF, IOSCO, BCBS]
 requires_legal_review: true
@@ -503,12 +503,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
-- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. <https://www.bis.org/publ/bcbs230.htm>
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. <https://www.bis.org/bcbs/publ/d328.htm>
-- Comisión para el Mercado Financiero. *Procedimientos de autorización e inscripción de entidades*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Biblioteca del Congreso Nacional de Chile. *Ley 21.521*. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Verificación local: comprueba qué actividades exigen autorización previa y cuáles solo registro en tu jurisdicción, qué plazos legales aplican y si se suspenden con los requerimientos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. Requisitos de autorización y facultades del supervisor. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
+- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Criterios de concesión y revocación de la licencia. <https://www.bis.org/publ/bcbs230.htm>
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Requisitos de idoneidad de administradores y directores. <https://www.bis.org/bcbs/publ/d328.htm>
+- Comisión para el Mercado Financiero. *Procedimientos de autorización e inscripción de entidades*. CMF. Procedimiento chileno de autorización e inscripción. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Régimen de inscripción de prestadores en Chile. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
+- Verificación local: comprueba qué actividades exigen autorización previa y cuáles solo registro en tu jurisdicción, qué plazos legales aplican y si se suspenden con los requerimientos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

@@ -336,7 +336,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IFRS Foundation. *NIC 1 Presentación de Estados Financieros*: juego completo, información comparativa y revelaciones. <https://www.ifrs.org/>
 - IFRS Foundation. *NIC 7 Estado de Flujos de Efectivo* y *NIC 8 Políticas Contables, Cambios en Estimaciones y Errores*.
 - Kieso, D., Weygandt, J. y Warfield, T. (2022). *Intermediate Accounting* (18.ª ed.). Wiley. Capítulos 3 a 5 y 23: ciclo completo y presentación.
-- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation* (5.ª ed.). Cengage. Capítulos 3 a 5: análisis contable y financiero.
+- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage. Capítulos 3 a 5: análisis contable y financiero.
 - IFRS Foundation (2017). *Práctica: Materialidad (IFRS Practice Statement 2)*. Criterio para decidir qué revelar.
 - Verificación local: revisa qué juego de estados y qué notas exige el supervisor de tu país a las entidades que solicitan crédito o que están obligadas a informar.
 

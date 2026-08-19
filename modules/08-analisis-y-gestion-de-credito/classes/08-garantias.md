@@ -427,7 +427,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Tratamiento de mitigadores de riesgo de crédito y factores de descuento. <https://www.bis.org/bcbs/publ/d424.htm>
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Garantías y su efecto en la severidad.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Garantías y su efecto en la severidad.
 - Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Valoración y ejecución de garantías.
 - European Banking Authority (2020). *Guidelines on loan origination and monitoring*. EBA. Valoración de garantías y monitoreo de su valor.
 - Schuermann, T. (2004). "What Do We Know About Loss Given Default?". Wharton Financial Institutions Center. Evidencia empírica sobre severidad.

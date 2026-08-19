@@ -526,11 +526,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley.
+- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Estructuración del crédito y correspondencia entre plazo y activo.
 - Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulos sobre crédito empresarial.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, mitigación de riesgo de crédito. BIS.
-- Loan Market Association / LSTA. Documentación estándar de créditos sindicados y su estructura.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill.
+- Loan Market Association y LSTA. *Documentación estándar de créditos sindicados*. Estructura del contrato y reparto entre participantes.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Precio del crédito y su relación con el capital consumido.
 - Verificación local: revisa los requisitos de constitución e inscripción de prendas e hipotecas, los plazos y costos de ejecución en tu jurisdicción.
 
 <!-- gen:footer:start -->

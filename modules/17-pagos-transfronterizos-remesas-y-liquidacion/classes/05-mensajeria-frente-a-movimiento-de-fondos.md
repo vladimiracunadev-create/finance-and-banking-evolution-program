@@ -495,11 +495,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2003). *A glossary of terms used in payments and settlement systems*. BIS. <https://www.bis.org/cpmi/glossary_030301.htm>
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2021). *Extending and aligning payment system operating hours for cross-border payments*. BIS. <https://www.bis.org/cpmi/publ/d194.htm>
-- Financial Stability Board (2021). *Targets for Addressing the Four Challenges of Cross-border Payments*. FSB. <https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/>
-- SWIFT. *Documentación de la red y de sus servicios de mensajería*. <https://www.swift.com/>
+- Committee on Payments and Market Infrastructures (2003). *A glossary of terms used in payments and settlement systems*. BIS. Definiciones que separan mensaje, compensación y liquidación. <https://www.bis.org/cpmi/glossary_030301.htm>
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de la infraestructura donde ocurre la liquidación. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (2021). *Extending and aligning payment system operating hours for cross-border payments*. BIS. Efecto de los horarios de operación sobre el tiempo del pago. <https://www.bis.org/cpmi/publ/d194.htm>
+- Financial Stability Board (2021). *Targets for Addressing the Four Challenges of Cross-border Payments*. FSB. Metas cuantitativas contra las que se mide la mejora. <https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/>
+- SWIFT. *Documentación de la red y de sus servicios de mensajería*. Alcance real de la red de mensajería frente al movimiento de fondos. <https://www.swift.com/>
 - Verificación local: comprueba las ventanas operativas y el calendario de días inhábiles de los sistemas de liquidación de las monedas con las que operes. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

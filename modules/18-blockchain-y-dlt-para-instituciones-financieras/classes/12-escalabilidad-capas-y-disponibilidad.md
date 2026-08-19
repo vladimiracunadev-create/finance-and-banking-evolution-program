@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, infraestructura, resiliencia-operacional]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: false
@@ -517,12 +517,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Bank for International Settlements (2018). *Annual Economic Report*, capítulo sobre criptomonedas y escalabilidad. BIS. <https://www.bis.org/publ/arpdf/ar2018e5.htm>
-- IOSCO (2022). *Decentralized Finance Report*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
-- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement*. BIS. <https://www.bis.org/cpmi/publ/d157.htm>
-- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué exige tu supervisor sobre capacidad, resiliencia y retención de una infraestructura de mercado. **Fecha de verificación de esta clase: 2026-08-06.**
+- Bank for International Settlements (2018). *Annual Economic Report, capítulo V*. BIS. Coste de la escalabilidad en un registro sin permiso. <https://www.bis.org/publ/arpdf/ar2018e5.htm>
+- IOSCO (2022). *Decentralized Finance Report*. IOSCO. Supuestos de seguridad que cambian al escalar. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
+- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Límites de rendimiento del registro frente a un sistema centralizado. <https://www.bis.org/cpmi/publ/d157.htm>
+- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. Riesgos de concentración en soluciones de segunda capa. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Compromiso entre rendimiento, descentralización y seguridad. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Verificación local: comprueba qué exige tu supervisor sobre capacidad, resiliencia y retención de una infraestructura de mercado. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

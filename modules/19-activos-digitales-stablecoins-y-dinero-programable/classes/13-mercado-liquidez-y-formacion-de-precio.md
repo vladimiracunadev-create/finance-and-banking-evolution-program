@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [integridad-del-mercado, liquidez, transparencia]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [IOSCO, FSB, BIS]
 requires_legal_review: false
@@ -509,11 +509,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- IOSCO (2013). *Principles for Financial Benchmarks*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD415.pdf>
-- Financial Stability Board (2022). *Assessment of Risks to Financial Stability from Crypto-assets*. FSB. <https://www.fsb.org/2022/02/assessment-of-risks-to-financial-stability-from-crypto-assets/>
-- Bank for International Settlements (2022). *Annual Economic Report*, capítulo III. BIS. <https://www.bis.org/publ/arpdf/ar2022e3.htm>
-- Verificación local: comprueba qué régimen de integridad de mercado y de índices de referencia aplica en tu jurisdicción a estas plataformas y a los precios que publican. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Conflictos de interés y transparencia en plataformas de negociación. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- IOSCO (2013). *Principles for Financial Benchmarks*. IOSCO. Gobierno y calidad del precio de referencia utilizado. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD415.pdf>
+- Financial Stability Board (2022). *Assessment of Risks to Financial Stability from Crypto-assets*. FSB. Evidencia sobre profundidad y concentración del mercado. <https://www.fsb.org/2022/02/assessment-of-risks-to-financial-stability-from-crypto-assets/>
+- Bank for International Settlements (2022). *Annual Economic Report, capítulo III*. BIS. Estructura del mercado de criptoactivos y su liquidez observada. <https://www.bis.org/publ/arpdf/ar2022e3.htm>
+- Verificación local: comprueba qué régimen de integridad de mercado y de índices de referencia aplica en tu jurisdicción a estas plataformas y a los precios que publican. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

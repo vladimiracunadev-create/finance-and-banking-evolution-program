@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [custodia, segregacion, concurso]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI, CMF]
 requires_legal_review: true
@@ -514,11 +514,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- IOSCO (2004). *Recommendations for Securities Settlement Systems*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD176.pdf>
-- Comisión para el Mercado Financiero. *Normativa sobre custodia y depósito de valores*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba si el instrumento está calificado como valor en tu jurisdicción, qué régimen de custodia le aplica, si admite reutilización y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de custodia y segregación del proveedor. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Protección de los activos del participante en la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
+- IOSCO (2004). *Recommendations for Securities Settlement Systems*. IOSCO. Requisitos del sistema de liquidación sobre la titularidad. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD176.pdf>
+- Comisión para el Mercado Financiero. *Normativa sobre custodia y depósito de valores*. CMF. Régimen chileno de custodia y depósito de valores. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba si el instrumento está calificado como valor en tu jurisdicción, qué régimen de custodia le aplica, si admite reutilización y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

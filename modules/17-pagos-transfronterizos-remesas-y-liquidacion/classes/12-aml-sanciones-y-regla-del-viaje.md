@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile]
 regulatory_topics: [cross-border-payments, aml-cft, sanciones]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [GAFI, UAF]
 requires_legal_review: true
@@ -531,11 +531,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Financial Action Task Force. *Las Recomendaciones del GAFI*, en particular la Recomendación 16 y su nota interpretativa. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html>
-- Financial Action Task Force. *Guidance for a risk-based approach*. FATF. <https://www.fatf-gafi.org/>
-- Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. <https://www.bis.org/bcbs/publ/d505.htm>
-- Wolfsberg Group. *Guidance on sanctions screening*. <https://www.wolfsberg-group.org/>
-- Unidad de Análisis Financiero (Chile). *Normativa aplicable y guías de reporte*. UAF. <https://www.uaf.cl/>
-- Verificación local: comprueba qué listas de sanciones te obligan, qué plazos de comunicación aplican y qué información exige tu jurisdicción que acompañe a las transferencias. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Financial Action Task Force. *Guidance for a risk-based approach*. FATF. Enfoque basado en riesgo aplicado al filtrado de pagos. <https://www.fatf-gafi.org/>
+- Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. Expectativa prudencial sobre los controles del pago. <https://www.bis.org/bcbs/publ/d505.htm>
+- Wolfsberg Group. *Guidance on Sanctions Screening*. Práctica de filtrado de listas y gestión de coincidencias. <https://www.wolfsberg-principles.com/>
+- Unidad de Análisis Financiero (Chile). *Normativa aplicable y guías de reporte*. UAF. Obligaciones chilenas de reporte de operaciones sospechosas. <https://www.uaf.cl/>
+- Verificación local: comprueba qué listas de sanciones te obligan, qué plazos de comunicación aplican y qué información exige tu jurisdicción que acompañe a las transferencias. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

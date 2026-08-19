@@ -306,7 +306,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Kapoor, J., Dlabay, L. y Hughes, R. (2022). *Personal Finance* (14.ª ed.). McGraw-Hill. Capítulo 3: elaboración y control de presupuestos personales.
 - Gitman, L., Joehnk, M. y Billingsley, R. (2020). *Personal Financial Planning* (14.ª ed.). Cengage. Capítulo 2: presupuesto de caja personal y análisis de variaciones.
-- Thaler, R. y Benartzi, S. (2004). "Save More Tomorrow". *Journal of Political Economy*. Automatización del ahorro y su efecto medido.
+- Thaler, R. y Benartzi, S. (2004). "Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving". *Journal of Political Economy*. Automatización del ahorro y su efecto medido.
 - Thaler, R. y Sunstein, C. (2021). *Nudge: la versión final*. Taurus. Opciones por defecto y contabilidad mental aplicadas al presupuesto.
 - OECD/INFE (2020). *Recommendation on Financial Literacy*. OCDE. Presupuesto como competencia central.
 - Verificación local: revisa si tu banco permite subcuentas o "bolsillos" con transferencia automática; es el soporte operativo del método de sobres.

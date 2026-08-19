@@ -535,12 +535,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2017). *Artificial intelligence and machine learning in financial services*. FSB. <https://www.fsb.org/2017/11/artificial-intelligence-and-machine-learning-in-financial-service/>
+- Financial Stability Board (2017). *Artificial intelligence and machine learning in financial services*. FSB. Riesgos sistémicos y de concentración del uso de aprendizaje automático. <https://www.fsb.org/2017/11/artificial-intelligence-and-machine-learning-in-financial-service/>
 - Bank for International Settlements (2024). *Annual Economic Report*, capítulo sobre inteligencia artificial y el sistema financiero. BIS.
-- OECD (2019, actualizada). *Recommendation of the Council on Artificial Intelligence*. OECD. <https://oecd.ai/en/ai-principles>
-- NIST (2023). *AI Risk Management Framework (AI RMF 1.0)*. NIST. <https://www.nist.gov/itl/ai-risk-management-framework>
+- OECD (2019, actualizada). *Recommendation of the Council on Artificial Intelligence*. OECD. Principios internacionales que la clase adopta como referencia. <https://oecd.ai/en/ai-principles>
+- NIST (2023). *AI Risk Management Framework (AI RMF 1.0)*. NIST. Funciones de gobierno, mapeo, medición y gestión del riesgo de IA. <https://www.nist.gov/itl/ai-risk-management-framework>
 - Unión Europea (2024). *Reglamento (UE) 2024/1689 de inteligencia artificial*. Clasificación por riesgo.
-- Board of Governors of the Federal Reserve System (2011). *SR 11-7: Guidance on Model Risk Management*.
+- Board of Governors of the Federal Reserve System (2011). *SR 11-7: Guidance on Model Risk Management*. Exigencia de validación independiente aplicada a modelos de IA.
 - Verificación local: revisa si tu país tiene norma sobre decisiones automatizadas, el derecho a intervención humana y las obligaciones de explicación aplicables.
 
 <!-- gen:footer:start -->

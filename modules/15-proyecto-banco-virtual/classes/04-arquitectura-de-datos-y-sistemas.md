@@ -533,11 +533,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS.
-- DAMA International (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2.ª ed.). Technics Publications.
-- Basel Committee on Banking Supervision (2019). *Report on open banking and application programming interfaces*. BIS.
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS.
-- Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Requisitos de agregación de datos que condicionan la arquitectura.
+- DAMA International (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2.ª ed.). Technics Publications. Funciones de gobierno de datos que el banco debe cubrir.
+- Basel Committee on Banking Supervision (2019). *Report on open banking and application programming interfaces*. BIS. Diseño de las interfaces de banca abierta del banco.
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Resiliencia exigible a los sistemas críticos.
+- Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly. Decisiones técnicas de almacenamiento y consistencia.
 - Verificación local: revisa los requisitos de conservación de información, trazabilidad de decisiones y reportes regulatorios de tu supervisor.
 
 <!-- gen:footer:start -->

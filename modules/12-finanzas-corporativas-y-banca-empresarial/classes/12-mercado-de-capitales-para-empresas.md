@@ -503,9 +503,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2003, y revisiones). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/>
-- IOSCO (2015). *Code of Conduct Fundamentals for Credit Rating Agencies*. IOSCO.
-- Fabozzi, F. (2021). *Bond Markets, Analysis, and Strategies* (10.ª ed.). MIT Press.
+- IOSCO (2003, y revisiones). *Objectives and Principles of Securities Regulation*. IOSCO. Obligaciones de emisor y protección del inversionista. <https://www.iosco.org/>
+- IOSCO (2015). *Code of Conduct Fundamentals for Credit Rating Agencies*. IOSCO. Conducta exigible a las agencias de calificación.
+- Fabozzi, F. (2021). *Bond Markets, Analysis, and Strategies* (10.ª ed.). MIT Press. Estructura y precio de una emisión de deuda corporativa.
 - Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Capítulos sobre emisión de valores.
 - Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*, gestión de conflictos. BIS.
 - Verificación local: revisa los requisitos de emisión y registro del regulador de valores de tu país, los umbrales de tamaño y las obligaciones de información permanente.

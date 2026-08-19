@@ -464,11 +464,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS. <https://www.bis.org/bcbs/publ/d465.htm>
-- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS.
-- European Banking Authority (2022). *Guidelines on common procedures and methodologies for the SREP*. EBA. <https://www.eba.europa.eu/>
-- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS.
-- Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS.
+- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS. Prácticas comparadas de revisión supervisora del capital interno. <https://www.bis.org/bcbs/publ/d465.htm>
+- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Facultades del supervisor en el proceso de revisión.
+- European Banking Authority (2022). *Guidelines on common procedures and methodologies for the SREP*. EBA. Metodología europea de puntuación y requerimientos adicionales. <https://www.eba.europa.eu/>
+- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. Papel de las pruebas de estrés en la evaluación de capital.
+- Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS. Riesgo de tasa del libro de banca dentro del Pilar 2.
 - Verificación local: revisa cómo tu supervisor estructura la autoevaluación de capital y de liquidez, su calendario y el formato de presentación exigido.
 
 <!-- gen:footer:start -->

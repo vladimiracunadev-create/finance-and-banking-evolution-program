@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile, union-europea]
 regulatory_topics: [open-finance, pagos, autenticacion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: en-despliegue-por-fases
 primary_authorities: [CMF, Banco Central de Chile]
 requires_legal_review: true
@@ -501,12 +501,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Comisión para el Mercado Financiero. *Normativa del Sistema de Finanzas Abiertas: iniciación de pagos*. CMF. <https://www.cmfchile.cl/>
-- Banco Central de Chile. *Compendio de Normas Financieras: normativa de sistemas de pago*. <https://www.bcentral.cl/>
-- Parlamento Europeo y Consejo. *Directiva (UE) 2015/2366 (PSD2): iniciación de pagos y confirmación de fondos*. <https://eur-lex.europa.eu/eli/dir/2015/2366/oj>
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Internet Engineering Task Force. *RFC 9110 — HTTP Semantics: métodos idempotentes*. IETF. <https://www.rfc-editor.org/rfc/rfc9110>
-- Verificación local: comprueba el régimen de operaciones no autorizadas, los plazos de devolución y las exigencias de autenticación vigentes en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Comisión para el Mercado Financiero. *Normativa del Sistema de Finanzas Abiertas: iniciación de pagos*. CMF. Reglas y responsabilidades del iniciador de pagos. <https://www.cmfchile.cl/>
+- Banco Central de Chile. *Compendio de Normas Financieras*. Normativa de sistemas de pago chilenos sobre la que se liquida. <https://www.bcentral.cl/>
+- Parlamento Europeo y Consejo. *Directiva (UE) 2015/2366 (PSD2): iniciación de pagos y confirmación de fondos*. Régimen europeo de iniciación y confirmación de fondos. <https://eur-lex.europa.eu/eli/dir/2015/2366/oj>
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Firmeza de la liquidación exigible al sistema subyacente. <https://www.bis.org/cpmi/publ/d101.htm>
+- Internet Engineering Task Force. *RFC 9110 — HTTP Semantics*. IETF. Semántica de reintento aplicada a una orden de pago. <https://www.rfc-editor.org/rfc/rfc9110>
+- Verificación local: comprueba el régimen de operaciones no autorizadas, los plazos de devolución y las exigencias de autenticación vigentes en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

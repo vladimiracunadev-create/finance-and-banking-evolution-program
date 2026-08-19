@@ -447,7 +447,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulos 5 a 9: riesgo, retorno y modelos de valoración de activos.
-- Sharpe, W. (1964). "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk". *Journal of Finance*.
+- Sharpe, W. (1964). "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk". *Journal of Finance*. Formulación del modelo de valoración de activos de capital que la clase aplica.
 - Sortino, F. y Van der Meer, R. (1991). "Downside Risk". *Journal of Portfolio Management*. Medición del riesgo de caída.
 - Taleb, N. (2007). *The Black Swan*. Random House. Límites de la desviación estándar ante eventos extremos.
 - Fama, E. y French, K. (2010). "Luck versus Skill in the Cross-Section of Mutual Fund Returns". *Journal of Finance*. Significancia estadística del alfa.

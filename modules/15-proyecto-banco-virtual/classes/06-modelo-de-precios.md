@@ -551,11 +551,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*. BIS.
-- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley.
-- Nagle, T., Hogan, J. y Zale, J. (2016). *The Strategy and Tactics of Pricing* (6.ª ed.). Routledge.
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio*. BIS. Costo del colchón de liquidez.
-- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD.
+- Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*. BIS. Diseño del precio interno de transferencia de liquidez.
+- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley. Costo del capital que entra en la tasa mínima.
+- Nagle, T., Hogan, J. y Zale, J. (2016). *The Strategy and Tactics of Pricing* (6.ª ed.). Routledge. Método de fijación de precios que la clase aplica.
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Costo del colchón de liquidez.
+- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Límites de transparencia y trato justo en las comisiones.
 - Verificación local: revisa si existen tasas máximas convencionales en tu país y las obligaciones de información del costo total del crédito.
 
 <!-- gen:footer:start -->

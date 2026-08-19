@@ -509,11 +509,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage.
-- Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill.
+- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage. Método de análisis de negocio, contabilidad y perspectivas.
+- Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Reformulación de los estados para separar operación de financiamiento.
 - Schilit, H., Perler, J. y Engelhart, Y. (2018). *Financial Shenanigans* (4.ª ed.). McGraw-Hill. Señales de manipulación contable.
 - IFRS Foundation. *NIC 1, NIC 7 y NIIF 15*. Presentación, flujos de efectivo y reconocimiento de ingresos. <https://www.ifrs.org/>
-- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley.
+- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Señales de deterioro que anticipan el incumplimiento.
 - Verificación local: revisa el marco contable aplicable a las empresas de tu país y las obligaciones de auditoría según su tamaño.
 
 <!-- gen:footer:start -->

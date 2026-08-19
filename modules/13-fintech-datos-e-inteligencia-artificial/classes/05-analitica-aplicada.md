@@ -455,11 +455,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Angrist, J. y Pischke, J. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press.
-- Imbens, G. y Rubin, D. (2015). *Causal Inference for Statistics, Social, and Biomedical Sciences*. Cambridge University Press.
-- Kohavi, R., Tang, D. y Xu, Y. (2020). *Trustworthy Online Controlled Experiments*. Cambridge University Press.
-- Provost, F. y Fawcett, T. (2013). *Data Science for Business*. O'Reilly.
-- Radcliffe, N. y Surry, P. (2011). "Real-World Uplift Modelling with Significance-Based Uplift Trees". Stochastic Solutions.
+- Angrist, J. y Pischke, J. (2014). *Mastering 'Metrics: The Path from Cause to Effect*. Princeton University Press. Diseño de identificación causal aplicado a intervenciones comerciales.
+- Imbens, G. y Rubin, D. (2015). *Causal Inference for Statistics, Social, and Biomedical Sciences*. Cambridge University Press. Marco formal de inferencia causal con datos observacionales.
+- Kohavi, R., Tang, D. y Xu, Y. (2020). *Trustworthy Online Controlled Experiments*. Cambridge University Press. Diseño y lectura de experimentos controlados.
+- Provost, F. y Fawcett, T. (2013). *Data Science for Business*. O'Reilly. Encaje del trabajo analítico en la decisión de negocio.
+- Radcliffe, N. y Surry, P. (2011). "Real-World Uplift Modelling with Significance-Based Uplift Trees". Stochastic Solutions. Modelado del efecto incremental de una acción sobre el cliente.
 - Verificación local: revisa las obligaciones sobre comunicaciones comerciales y consentimiento de contacto aplicables en tu país.
 
 <!-- gen:footer:start -->

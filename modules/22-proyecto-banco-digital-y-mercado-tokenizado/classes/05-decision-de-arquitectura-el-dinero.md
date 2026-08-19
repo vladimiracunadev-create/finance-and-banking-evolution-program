@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [liquidacion, dinero-de-banco-central, liquidez]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, BIS, BCCh]
 requires_legal_review: false
@@ -361,11 +361,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Opciones de dinero disponibles para liquidar en el registro. <https://www.bis.org/cpmi/publ/d225.htm>
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Preferencia por el dinero de banco central y su justificación. <https://www.bis.org/cpmi/publ/d101.htm>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Comparación de las formas de dinero para liquidar en el registro. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto antes de aplicar cualquier conclusión de la clase. **Fecha de verificación de esta clase: 2026-08-06.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto antes de aplicar cualquier conclusión de la clase. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

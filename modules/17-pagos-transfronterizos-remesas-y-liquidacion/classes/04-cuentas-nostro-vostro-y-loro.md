@@ -486,11 +486,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2003). *A glossary of terms used in payments and settlement systems*. BIS. <https://www.bis.org/cpmi/glossary_030301.htm>
-- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. <https://www.bis.org/cpmi/publ/d147.htm>
-- ISO 20022. *camt.053 Bank to Customer Statement: guía de uso*. <https://www.iso20022.org/>
-- IFRS Foundation. *NIC 21, Efectos de las variaciones en las tasas de cambio de la moneda extranjera*. <https://www.ifrs.org/>
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio*. BIS. <https://www.bis.org/publ/bcbs238.htm>
+- Committee on Payments and Market Infrastructures (2003). *A glossary of terms used in payments and settlement systems*. BIS. Definiciones normalizadas de las cuentas y de sus saldos. <https://www.bis.org/cpmi/glossary_030301.htm>
+- Committee on Payments and Market Infrastructures (2016). *Correspondent banking*. BIS. Uso de las cuentas en la operativa de corresponsalía. <https://www.bis.org/cpmi/publ/d147.htm>
+- ISO 20022. *camt.053 Bank to Customer Statement: guía de uso*. Formato del extracto con que se concilian los saldos. <https://www.iso20022.org/>
+- IFRS Foundation. *NIC 21, Efectos de las variaciones en las tasas de cambio de la moneda extranjera*. Conversión y diferencias de cambio de los saldos en divisa. <https://www.ifrs.org/>
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Tratamiento de los saldos nostro en el colchón de liquidez. <https://www.bis.org/publ/bcbs238.htm>
 - Verificación local: comprueba el tratamiento contable y prudencial de las posiciones en moneda extranjera y los requisitos de conciliación de tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

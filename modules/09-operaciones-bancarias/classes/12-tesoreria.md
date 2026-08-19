@@ -441,11 +441,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Capítulos 8, 9 y 17: gestión de activos y pasivos y de liquidez.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulos 8, 9 y 17: gestión de activos y pasivos y de liquidez.
 - Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS. Medición de margen y valor económico. <https://www.bis.org/bcbs/publ/d368.htm>
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio*. BIS.
-- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. <https://www.bis.org/publ/bcbs144.htm>
-- Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*.
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Cálculo del colchón de liquidez y de las salidas netas a treinta días.
+- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Principios de gobierno y medición del riesgo de liquidez. <https://www.bis.org/publ/bcbs144.htm>
+- Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*. Práctica de precios de transferencia de liquidez entre unidades.
 - Verificación local: revisa los requerimientos de liquidez y de riesgo de tasa del libro de banca que aplica tu supervisor.
 
 <!-- gen:footer:start -->

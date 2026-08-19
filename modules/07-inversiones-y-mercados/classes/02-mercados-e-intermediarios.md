@@ -345,7 +345,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulos 3 y 4: mercados, intermediarios y mecánica de la negociación.
-- IOSCO (2017). *Objectives and Principles of Securities Regulation*. Organización Internacional de Comisiones de Valores. <https://www.iosco.org/>
+- IOSCO (2017). *Objectives and Principles of Securities Regulation*. Organización Internacional de Comisiones de Valores. Funciones del supervisor de valores y protección del inversionista. <https://www.iosco.org/>
 - CPMI-IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Cámaras de compensación y depósitos centrales. <https://www.bis.org/cpmi/publ/d101.htm>
 - Harris, L. (2003). *Trading and Exchanges: Market Microstructure for Practitioners*. Oxford University Press. Funcionamiento del mercado secundario.
 - IOSCO (2021). *Retail Market Conduct Task Force Report*. Modelos de ingreso de plataformas digitales y conflictos de interés.

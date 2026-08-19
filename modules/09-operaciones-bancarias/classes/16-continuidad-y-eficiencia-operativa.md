@@ -388,10 +388,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. <https://www.bis.org/bcbs/publ/d516.htm>
-- Basel Committee on Banking Supervision (2021). *Revisions to the Principles for the Sound Management of Operational Risk*. BIS.
-- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
-- ISO (2019). *ISO 22301: Security and resilience — Business continuity management systems*. ISO.
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Tolerancia a la interrupción de los servicios críticos. <https://www.bis.org/bcbs/publ/d516.htm>
+- Basel Committee on Banking Supervision (2021). *Revisions to the Principles for the Sound Management of Operational Risk*. BIS. Controles y taxonomía del riesgo operacional.
+- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. Prácticas de respuesta y recuperación ante incidentes cibernéticos. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
+- ISO (2019). *ISO 22301: Security and resilience — Business continuity management systems*. ISO. Requisitos del sistema de gestión de continuidad de negocio.
 - Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 6: análisis de eficiencia y desempeño.
 - Verificación local: revisa los requisitos de continuidad operacional, notificación de incidentes y gestión de proveedores críticos que exige tu supervisor.
 

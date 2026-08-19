@@ -502,11 +502,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. <https://www.bis.org/cpmi/publ/d157.htm>
-- Lamport, L., Shostak, R. y Pease, M. (1982). *The Byzantine Generals Problem*. ACM TOPLAS. <https://dl.acm.org/doi/10.1145/357172.357176>
-- Gilbert, S. y Lynch, N. (2002). *Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services*. ACM SIGACT News.
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. National Institute of Standards and Technology. <https://csrc.nist.gov/pubs/ir/8202/final>
-- ISO/TC 307. *Blockchain and distributed ledger technologies: vocabulario y marcos de referencia*. ISO. <https://www.iso.org/committee/6266604.html>
+- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Marco analítico que separa el registro del caso de uso financiero. <https://www.bis.org/cpmi/publ/d157.htm>
+- Lamport, L., Shostak, R. y Pease, M. (1982). *The Byzantine Generals Problem*. ACM TOPLAS. Formulación del problema de acuerdo con participantes no fiables. <https://dl.acm.org/doi/10.1145/357172.357176>
+- Gilbert, S. y Lynch, N. (2002). *Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services*. ACM SIGACT News. Límite entre consistencia y disponibilidad ante una partición.
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. National Institute of Standards and Technology. Vocabulario técnico de partida que la clase adopta. <https://csrc.nist.gov/pubs/ir/8202/final>
+- ISO/TC 307. *Blockchain and distributed ledger technologies: vocabulario y marcos de referencia*. ISO. Definiciones normalizadas de registro distribuido. <https://www.iso.org/committee/6266604.html>
 - Verificación local: comprueba si tu supervisor ha publicado criterios sobre el uso de tecnología de registro distribuido en infraestructuras financieras. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

@@ -518,11 +518,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - IFRS Foundation (2023). *NIIF S1 y NIIF S2* — normas de información sobre sostenibilidad y clima. ISSB. <https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/>
-- Basel Committee on Banking Supervision (2022). *Principles for the effective management and supervision of climate-related financial risks*. BIS.
-- Partnership for Carbon Accounting Financials (2022). *The Global GHG Accounting and Reporting Standard for the Financial Industry*. PCAF. <https://carbonaccountingfinancials.com/>
-- Network for Greening the Financial System. *NGFS Climate Scenarios*. NGFS.
+- Basel Committee on Banking Supervision (2022). *Principles for the effective management and supervision of climate-related financial risks*. BIS. Expectativas supervisoras sobre el riesgo climático en la estrategia.
+- Partnership for Carbon Accounting Financials (2022). *The Global GHG Accounting and Reporting Standard for the Financial Industry*. PCAF. Método de medición de las emisiones financiadas de la cartera. <https://carbonaccountingfinancials.com/>
+- Network for Greening the Financial System. *NGFS Climate Scenarios for central banks and supervisors*. NGFS. Escenarios climáticos usados en la planificación de largo plazo.
 - International Capital Market Association. *Green Bond Principles* y *Sustainability-Linked Bond Principles*. ICMA. <https://www.icmagroup.org/sustainable-finance/>
-- UNEP Finance Initiative. *Principles for Responsible Banking*. UNEP FI.
+- UNEP Finance Initiative. *Principles for Responsible Banking*. UNEP FI. Compromisos del marco de banca responsable que la clase evalúa.
 - Verificación local: revisa las obligaciones de divulgación de sostenibilidad aplicables en tu país y la taxonomía de actividades, si existe.
 
 <!-- gen:footer:start -->

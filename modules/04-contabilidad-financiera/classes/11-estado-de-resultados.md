@@ -351,7 +351,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IFRS Foundation. *NIC 1 Presentación de Estados Financieros*: presentación por función y por naturaleza, resultado integral. <https://www.ifrs.org/>
 - Kieso, D., Weygandt, J. y Warfield, T. (2022). *Intermediate Accounting* (18.ª ed.). Wiley. Capítulo 4: estado de resultados y partidas no recurrentes.
 - Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Capítulos 9 y 12: reformulación del estado de resultados y análisis de la rentabilidad.
-- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation* (5.ª ed.). Cengage. Capítulo 5: análisis financiero por descomposición.
+- Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage. Capítulo 5: análisis financiero por descomposición.
 - Schilit, H., Perler, J. y Engelhart, Y. (2018). *Financial Shenanigans* (4.ª ed.). McGraw-Hill. Uso de partidas no recurrentes para gestionar el resultado.
 - Verificación local: revisa si el supervisor de tu país exige un formato específico de estado de resultados o la revelación separada de partidas no recurrentes.
 

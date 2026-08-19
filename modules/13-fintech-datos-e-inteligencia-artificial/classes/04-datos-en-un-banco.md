@@ -493,11 +493,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. <https://www.bis.org/publ/bcbs239.htm>
-- Basel Committee on Banking Supervision (2020). *Progress in adopting the Principles for effective risk data aggregation*. BIS.
-- DAMA International (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2.ª ed.). Technics Publications.
-- ISO (2015). *ISO 8000: Data quality*. ISO.
-- Redman, T. (2016). *Getting in Front on Data: Who Does What*. Technics Publications.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Principios de agregación de datos y reporte de riesgos. <https://www.bis.org/publ/bcbs239.htm>
+- Basel Committee on Banking Supervision (2020). *Progress in adopting the Principles for effective risk data aggregation*. BIS. Estado real de adopción de esos principios en la banca.
+- DAMA International (2017). *DAMA-DMBOK: Data Management Body of Knowledge* (2.ª ed.). Technics Publications. Vocabulario y funciones del gobierno de datos.
+- ISO (2015). *ISO 8000: Data quality*. ISO. Dimensiones medibles de calidad del dato.
+- Redman, T. (2016). *Getting in Front on Data: Who Does What*. Technics Publications. Reparto de responsabilidades sobre el dato entre negocio y tecnología.
 - Verificación local: revisa si tu supervisor exige el cumplimiento de los principios de agregación de datos de riesgo y con qué alcance.
 
 <!-- gen:footer:start -->

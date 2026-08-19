@@ -512,10 +512,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - IAASB. *Normas Internacionales de Auditoría (NIA)*: NIA 200, 240, 320, 700 y 701. IFAC. <https://www.iaasb.org/>
-- IAASB. *NIA 701: Comunicación de cuestiones clave de auditoría en el informe del auditor*. IFAC.
-- COSO (2013). *Internal Control — Integrated Framework*. COSO.
-- Basel Committee on Banking Supervision (2014). *External audits of banks*. BIS. <https://www.bis.org/publ/bcbs280.htm>
-- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS.
+- IAASB. *NIA 701: Comunicación de cuestiones clave de auditoría en el informe del auditor*. IFAC. Qué comunica el auditor como cuestión clave y por qué.
+- COSO (2013). *Internal Control — Integrated Framework*. COSO. Componentes del control interno sobre la información financiera.
+- Basel Committee on Banking Supervision (2014). *External audits of banks*. BIS. Expectativa prudencial sobre la auditoría externa de un banco. <https://www.bis.org/publ/bcbs280.htm>
+- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS. Provisiones por pérdida esperada como área crítica de auditoría.
 - Verificación local: revisa las normas de auditoría aplicables en tu país, las reglas de rotación e independencia y las exigencias de tu supervisor sobre el auditor externo de bancos.
 
 <!-- gen:footer:start -->

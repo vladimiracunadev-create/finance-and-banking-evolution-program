@@ -559,10 +559,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS.
-- Committee on Payments and Market Infrastructures (2016). *Fast payments*. BIS.
-- Kaplan, R. y Anderson, S. (2007). *Time-Driven Activity-Based Costing*. Harvard Business School Press.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Diseño de los procesos operativos y de cobranza.
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Tolerancia a la interrupción de los procesos críticos.
+- Committee on Payments and Market Infrastructures (2016). *Fast payments — Enhancing the speed and availability of retail payments*. BIS. Requisitos del esquema de pagos inmediatos al que se conecta.
+- Kaplan, R. y Anderson, S. (2007). *Time-Driven Activity-Based Costing*. Harvard Business School Press. Costeo de los procesos que sostiene el compromiso de eficiencia.
 - European Banking Authority (2018). *Guidelines on management of non-performing and forborne exposures*. EBA. Cobranza y reestructuración.
 - Verificación local: revisa las obligaciones sobre prácticas de cobranza, horarios de contacto y conservación de registros de tu país.
 

@@ -451,10 +451,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Capítulos sobre capital de trabajo.
-- Ross, S., Westerfield, R. y Jaffe, J. (2019). *Corporate Finance* (12.ª ed.). McGraw-Hill.
+- Ross, S., Westerfield, R. y Jaffe, J. (2019). *Corporate Finance* (12.ª ed.). McGraw-Hill. Ciclo financiero de la empresa y sus decisiones típicas.
 - Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulos sobre banca empresarial.
-- Boot, A. (2000). "Relationship Banking: What Do We Know?". *Journal of Financial Intermediation*, 9(1).
-- OECD (2023). *Financing SMEs and Entrepreneurs: An OECD Scoreboard*. OECD. <https://www.oecd.org/industry/smes/>
+- Boot, A. (2000). "Relationship Banking: What Do We Know?". *Journal of Financial Intermediation*, 9(1). Evidencia sobre el valor de la relación bancaria de largo plazo.
+- OECD (2023). *Financing SMEs and Entrepreneurs: An OECD Scoreboard*. OECD. Datos comparados de acceso al crédito de las pymes. <https://www.oecd.org/industry/smes/>
 - Verificación local: revisa los criterios de segmentación de empresas usados por la banca de tu país y los umbrales legales de clasificación por tamaño.
 
 <!-- gen:footer:start -->

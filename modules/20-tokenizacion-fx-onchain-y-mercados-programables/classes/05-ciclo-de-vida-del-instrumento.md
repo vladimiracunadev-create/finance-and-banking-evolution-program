@@ -530,10 +530,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- ISO 20022. *Corporate Actions message definitions*. ISO 20022. <https://www.iso20022.org/iso-20022-message-definitions>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Gestión de eventos corporativos por la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
+- ISO 20022. *Corporate Actions message definitions*. ISO 20022. Mensajería normalizada de los eventos corporativos. <https://www.iso20022.org/iso-20022-message-definitions>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de información durante la vida del instrumento. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Automatización de los eventos y sus límites. <https://www.bis.org/cpmi/publ/d225.htm>
 - Verificación local: comprueba qué plazos de prescripción y qué procedimiento de consignación aplican en tu jurisdicción a los importes no cobrados. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

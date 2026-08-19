@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [depositos, dinero-bancario, liquidacion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [BIS, BCBS, CMF]
 requires_legal_review: true
@@ -486,11 +486,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III: Blueprint for the future monetary system. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Singularidad del dinero y encaje del depósito tokenizado en el libro unificado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Distinción entre depósito tokenizado y stablecoin. <https://www.bis.org/cpmi/publ/d225.htm>
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Comisión para el Mercado Financiero. *Normativa sobre captación de depósitos y sistemas de pago*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba si tu jurisdicción admite anotar depósitos en registros distribuidos, qué autorización exige y cómo trata la garantía de depósitos en ese soporte. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Comisión para el Mercado Financiero. *Normativa sobre captación de depósitos y sistemas de pago*. CMF. Régimen chileno aplicable a la captación y al pago. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba si tu jurisdicción admite anotar depósitos en registros distribuidos, qué autorización exige y cómo trata la garantía de depósitos en ese soporte. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

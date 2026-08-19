@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [perimetro, autorizacion, supervision]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CMF, FSB, IOSCO]
 requires_legal_review: true
@@ -521,12 +521,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
-- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología*. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Comisión para el Mercado Financiero. *Normativa de servicios financieros e inscripción de entidades*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué actividades son reservadas en tu jurisdicción y cuáles exigen autorización previa frente a simple registro. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Criterio de actividad con que se dibuja el perímetro. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
+- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. Principios que definen qué actividad queda bajo supervisión de valores. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Recomendaciones aplicables a los mercados de activos digitales. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Actividades reservadas y sujetas a inscripción en Chile. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
+- Comisión para el Mercado Financiero. *Normativa de servicios financieros e inscripción de entidades*. CMF. Trámite chileno de inscripción de la entidad. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba en la fuente oficial vigente qué actividades son reservadas en tu jurisdicción y cuáles exigen autorización previa frente a simple registro. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

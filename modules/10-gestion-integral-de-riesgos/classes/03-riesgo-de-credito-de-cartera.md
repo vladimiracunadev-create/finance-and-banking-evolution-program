@@ -422,9 +422,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. <https://www.bis.org/bcbs/publ/d424.htm>
-- Basel Committee on Banking Supervision (2005). *An Explanatory Note on the Basel II IRB Risk Weight Functions*. BIS. <https://www.bis.org/bcbs/irbriskweight.htm>
-- Basel Committee on Banking Supervision (2014). *Supervisory framework for measuring and controlling large exposures*. BIS.
+- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Ponderaciones de riesgo y tratamiento de la cartera. <https://www.bis.org/bcbs/publ/d424.htm>
+- Basel Committee on Banking Supervision (2005). *An Explanatory Note on the Basel II IRB Risk Weight Functions*. BIS. Derivación de la función de ponderación IRB y su correlación implícita. <https://www.bis.org/bcbs/irbriskweight.htm>
+- Basel Committee on Banking Supervision (2014). *Supervisory framework for measuring and controlling large exposures*. BIS. Límites a las grandes exposiciones y definición de grupo conectado.
 - Vasicek, O. (2002). "The Distribution of Loan Portfolio Value". *Risk*, 15(12). Modelo de factor único.
 - Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Capítulos sobre riesgo de cartera.
 - Verificación local: revisa los límites de exposición individual y de grupo económico, y los cargos por concentración del Pilar 2 en tu jurisdicción.

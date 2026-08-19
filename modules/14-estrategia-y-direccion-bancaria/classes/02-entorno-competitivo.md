@@ -471,11 +471,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Porter, M. (2008). "The Five Competitive Forces That Shape Strategy". *Harvard Business Review*.
-- OECD (2020). *Digital Disruption in Banking and its Impact on Competition*. OECD. <https://www.oecd.org/competition/digital-disruption-in-banking-and-its-impact-on-competition.htm>
-- Financial Stability Board (2019). *FinTech and market structure in financial services*. FSB.
-- Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60.
-- Vives, X. (2016). *Competition and Stability in Banking*. Princeton University Press.
+- Porter, M. (2008). "The Five Competitive Forces That Shape Strategy". *Harvard Business Review*. Marco de las cinco fuerzas aplicado al sector bancario.
+- OECD (2020). *Digital Disruption in Banking and its Impact on Competition*. OECD. Efectos competitivos de la entrada de actores digitales. <https://www.oecd.org/competition/digital-disruption-in-banking-and-its-impact-on-competition.htm>
+- Financial Stability Board (2019). *FinTech and market structure in financial services*. FSB. Cambios de estructura de mercado por la desagregación de funciones.
+- Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60. Evidencia sobre concentración y rentabilidad bancaria.
+- Vives, X. (2016). *Competition and Stability in Banking*. Princeton University Press. Relación entre competencia y estabilidad del sistema.
 - Verificación local: consulta las estadísticas de tu supervisor sobre cuotas de mercado por producto e incluye a los actores no bancarios que reporten.
 
 <!-- gen:footer:start -->

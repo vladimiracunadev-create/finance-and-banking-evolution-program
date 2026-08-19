@@ -446,8 +446,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Rose, P. y Hudgins, S. (2013). *Bank Management & Financial Services* (9.ª ed.). McGraw-Hill. Capítulos 12 y 13: gestión de pasivos y fijación de precios de depósitos.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Gestión del fondeo y del riesgo de liquidez.
-- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio*. BIS. Factores de salida por tipo de depósito. <https://www.bis.org/publ/bcbs238.htm>
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Gestión del fondeo y del riesgo de liquidez.
+- Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Factores de salida por tipo de depósito. <https://www.bis.org/publ/bcbs238.htm>
 - Basel Committee on Banking Supervision (2014). *Basel III: The Net Stable Funding Ratio*. BIS. Estabilidad del fondeo.
 - Drechsler, I., Savov, A. y Schnabl, P. (2017). "The Deposits Channel of Monetary Policy". *Quarterly Journal of Economics*. Betas de depósitos.
 - Verificación local: revisa los factores de salida por tipo de depósito que aplica tu supervisor y el límite vigente de la garantía de depósitos.

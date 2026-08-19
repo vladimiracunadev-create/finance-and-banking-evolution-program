@@ -475,8 +475,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - European Banking Authority (2022). *Guidelines on common procedures and methodologies for SREP*, sección de análisis del modelo de negocio. EBA.
 - Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 6: análisis de desempeño bancario.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill.
-- Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60. <https://www.bis.org/publ/cgfs60.htm>
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Descomposición del margen y de las fuentes de resultado.
+- Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60. Evidencia comparada sobre modelos de negocio bancarios tras la crisis. <https://www.bis.org/publ/cgfs60.htm>
 - European Central Bank (2016). *Financial Stability Review*, análisis de sostenibilidad de modelos de negocio bancarios.
 - Verificación local: revisa los estados financieros publicados de tres bancos de tu país y descompón su resultado con esta estructura.
 

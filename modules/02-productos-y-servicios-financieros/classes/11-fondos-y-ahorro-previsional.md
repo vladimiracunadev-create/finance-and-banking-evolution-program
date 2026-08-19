@@ -296,7 +296,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulo 4: fondos de inversión, comisiones y su efecto acumulado.
 - Sharpe, W. (2013). "The Arithmetic of Investment Expenses". *Financial Analysts Journal*, 69(2). Demostración del efecto de los costos sobre el resultado final.
 - Carhart, M. (1997). "On Persistence in Mutual Fund Performance". *Journal of Finance*. Baja persistencia de la rentabilidad histórica.
-- IOSCO (2016). *Good Practice for Fees and Expenses of Collective Investment Schemes*. Organización Internacional de Comisiones de Valores. <https://www.iosco.org/>
+- IOSCO (2016). *Good Practice for Fees and Expenses of Collective Investment Schemes*. Organización Internacional de Comisiones de Valores. Buenas prácticas de revelación y comparación de comisiones en fondos. <https://www.iosco.org/>
 - OECD (2022). *OECD Pensions Outlook*. OCDE. Diseño e incentivos tributarios del ahorro previsional voluntario.
 - Verificación local: descarga las fichas y reglamentos internos vigentes desde el registro del supervisor de valores de tu país, y confirma los topes tributarios del año en curso.
 

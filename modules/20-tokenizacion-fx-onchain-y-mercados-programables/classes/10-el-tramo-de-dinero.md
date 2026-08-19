@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [liquidacion, dinero-de-banco-central, riesgo-de-credito]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, BIS, IOSCO]
 requires_legal_review: false
@@ -537,11 +537,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Preferencia por el dinero de banco central en la liquidación. <https://www.bis.org/cpmi/publ/d101.htm>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Comparación de las formas de dinero disponibles en el registro. <https://www.bis.org/cpmi/publ/d225.htm>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Formas de dinero disponibles en la plataforma unificada. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Verificación local: comprueba qué tipos de dinero admite tu jurisdicción para liquidar valores y si existe acceso a dinero de banco central para infraestructuras no bancarias. **Fecha de verificación de esta clase: 2026-08-06.**
+- Verificación local: comprueba qué tipos de dinero admite tu jurisdicción para liquidar valores y si existe acceso a dinero de banco central para infraestructuras no bancarias. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

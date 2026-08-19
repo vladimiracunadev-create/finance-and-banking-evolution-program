@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [activos-digitales, taxonomia, perimetro]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [FSB, BCBS, CMF]
 requires_legal_review: true
@@ -475,12 +475,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
+- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. Criterio de clasificación por quién responde de la promesa. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo III: el sistema monetario del futuro. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
-- Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Verificación local: comprueba en la fuente oficial vigente qué régimen aplica en tu jurisdicción a cada uno de los siete tipos de la tabla, porque la clasificación no es universal. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Clasificación del dinero y de los activos digitales por su emisor. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Definición de activo virtual que delimita el perímetro. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
+- Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Figuras que la ley chilena reconoce y las que deja fuera. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
+- Verificación local: comprueba en la fuente oficial vigente qué régimen aplica en tu jurisdicción a cada uno de los siete tipos de la tabla, porque la clasificación no es universal. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

@@ -526,11 +526,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS.
-- European Banking Authority. *EU-wide stress test methodology*. EBA.
-- International Monetary Fund (2012). *Macrofinancial Stress Testing: Principles and Practices*. IMF.
-- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS.
-- Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley.
+- Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. Gobierno y diseño del ejercicio de estrés del banco.
+- European Banking Authority. *EU-wide stress test methodology*. EBA. Estructura metodológica del escenario adverso aplicado.
+- International Monetary Fund (2012). *Macrofinancial Stress Testing: Principles and Practices*. IMF. Traducción del escenario macro a pérdidas del balance.
+- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS. Efecto del escenario sobre la provisión por pérdida esperada.
+- Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Agregación de los efectos del escenario sobre el capital.
 - Verificación local: revisa el escenario adverso publicado por tu supervisor y sus variables, y aplícalo a tu proyecto.
 
 <!-- gen:footer:start -->

@@ -418,7 +418,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Markowitz, H. (1952). "Portfolio Selection". *Journal of Finance*, 7(1). Formulación original de la diversificación.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulos 6 y 7: diversificación y frontera eficiente.
-- Statman, M. (1987). "How Many Stocks Make a Diversified Portfolio?". *Journal of Financial and Quantitative Analysis*.
+- Statman, M. (1987). "How Many Stocks Make a Diversified Portfolio?". *Journal of Financial and Quantitative Analysis*. Evidencia sobre cuántos instrumentos hacen falta para diversificar de verdad.
 - Ang, A. y Chen, J. (2002). "Asymmetric Correlations of Equity Portfolios". *Journal of Financial Economics*. Aumento de correlaciones en caídas.
 - Ilmanen, A. (2011). *Expected Returns*. Wiley. Diversificación por factores y sus límites.
 - Verificación local: calcula las correlaciones con series de índices y precios publicados por la bolsa de tu país y por proveedores de índices globales.

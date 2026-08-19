@@ -455,7 +455,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Proceso completo de valoración fundamental.
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation* (7.ª ed.). McKinsey/Wiley. Capítulos 2 a 8: ROIC, crecimiento y creación de valor.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). McKinsey/Wiley. Capítulos 2 a 8: ROIC, crecimiento y creación de valor.
 - Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Análisis de calidad del resultado.
 - Greenwald, B. et al. (2001). *Competition Demystified*. Portfolio. Identificación de ventajas competitivas sostenibles.
 - Mauboussin, M. y Callahan, D. (2020). *Expectations Investing* (edición revisada). Columbia Business School. Qué supone el precio de mercado.

@@ -420,7 +420,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - IFRS Foundation. *NIIF 9 Instrumentos Financieros*, capítulo 6: contabilidad de coberturas. <https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/>
 - Hull, J. (2021). *Options, Futures, and Other Derivatives* (11.ª ed.). Pearson. Capítulos 1 a 4 y 7.
-- Basel Committee on Banking Supervision (2019). *Minimum capital requirements for market risk*. BIS.
+- Basel Committee on Banking Supervision (2019). *Minimum capital requirements for market risk*. BIS. Distinción entre libro de negociación y libro de banca a efectos de capital.
 - International Swaps and Derivatives Association. *ISDA Master Agreement* y su documentación de respaldo. ISDA.
 - Ederington, L. (1979). "The Hedging Performance of the New Futures Markets". *Journal of Finance*, 34(1). Origen del ratio de mínima varianza.
 - Verificación local: revisa los requisitos de designación y documentación de coberturas y el tratamiento contable aplicable a tu institución.

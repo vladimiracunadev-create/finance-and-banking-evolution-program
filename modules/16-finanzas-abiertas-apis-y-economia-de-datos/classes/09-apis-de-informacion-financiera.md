@@ -491,11 +491,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Comisión para el Mercado Financiero. *Anexo técnico del Sistema de Finanzas Abiertas: esquemas por tipo de producto y calendario de fases*. CMF. <https://www.cmfchile.cl/>
-- ISO 20022. *Business model and message definitions for account and payment information*. ISO. <https://www.iso20022.org/>
-- European Data Protection Board (2021). *Guidelines 06/2020 on the interplay of PSD2 and the GDPR*. EDPB. <https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-062020-interplay-second-payment-services_en>
-- International Association of Insurance Supervisors (2023). *Issues paper on insurance sector operational resilience*. IAIS. <https://www.iais.org/>
-- IFRS Foundation. *NIIF 9 y NIIF 17: definiciones de instrumento financiero y contrato de seguro*. <https://www.ifrs.org/>
+- Comisión para el Mercado Financiero. *Anexo técnico del Sistema de Finanzas Abiertas: esquemas por tipo de producto y calendario de fases*. CMF. Esquemas por producto y calendario de fases del sistema. <https://www.cmfchile.cl/>
+- ISO 20022. *Business model and message definitions for account and payment information*. ISO. Vocabulario de mensajería financiera reutilizado en el modelo. <https://www.iso20022.org/>
+- European Data Protection Board (2021). *Guidelines 06/2020 on the interplay of PSD2 and the GDPR*. EDPB. Límites al tratamiento de datos accedidos por la API. <https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-062020-interplay-second-payment-services_en>
+- International Association of Insurance Supervisors (2023). *Issues paper on insurance sector operational resilience*. IAIS. Particularidades operativas del producto de seguros. <https://www.iais.org/>
+- IFRS Foundation. *NIIF 9 y NIIF 17: definiciones de instrumento financiero y contrato de seguro*. Definiciones contables de instrumento financiero y contrato de seguro. <https://www.ifrs.org/>
 - Verificación local: comprueba qué familias de producto están en fase obligatoria hoy en tu jurisdicción y qué tratamiento reciben los datos de salud y los de terceros. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

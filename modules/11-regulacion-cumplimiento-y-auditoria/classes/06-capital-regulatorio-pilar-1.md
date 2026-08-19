@@ -453,11 +453,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. <https://www.bis.org/bcbs/publ/d424.htm>
-- Basel Committee on Banking Supervision (2011). *Basel III: A global regulatory framework for more resilient banks and banking systems*. BIS. <https://www.bis.org/publ/bcbs189.htm>
-- Basel Committee on Banking Supervision (2014). *Basel III leverage ratio framework and disclosure requirements*. BIS.
+- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Cálculo de los activos ponderados por riesgo y suelo de resultados. <https://www.bis.org/bcbs/publ/d424.htm>
+- Basel Committee on Banking Supervision (2011). *Basel III: A global regulatory framework for more resilient banks and banking systems*. BIS. Composición del capital regulatorio y colchones. <https://www.bis.org/publ/bcbs189.htm>
+- Basel Committee on Banking Supervision (2014). *Basel III leverage ratio framework and disclosure requirements*. BIS. Razón de apalancamiento y su exposición de referencia.
 - Basel Committee on Banking Supervision. *The Basel Framework* (compilación consolidada vigente). BIS. <https://www.bis.org/basel_framework/>
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Capítulo 20.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulo 20. Lectura contable del capital bancario y su gestión.
 - Verificación local: revisa los porcentajes de colchones activados, el recargo sistémico local y las deducciones específicas que aplica tu supervisor.
 
 <!-- gen:footer:start -->

@@ -526,11 +526,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Parlamento Europeo y Consejo. *Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero (DORA)*. <https://eur-lex.europa.eu/eli/reg/2022/2554/oj>
-- Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. <https://www.bis.org/bcbs/publ/d516.htm>
-- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
-- Comisión para el Mercado Financiero. *Normativa sobre gestión de la continuidad operacional, ciberseguridad y reporte de incidentes*. CMF. <https://www.cmfchile.cl/>
-- Committee on Payments and Market Infrastructures e IOSCO (2016). *Guidance on cyber resilience for financial market infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d146.htm>
+- Parlamento Europeo y Consejo. *Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero*. Obligaciones de resiliencia digital y reporte de incidentes. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
+- Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. Tolerancia a la interrupción de los servicios críticos. <https://www.bis.org/bcbs/publ/d516.htm>
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Dependencia de terceros y planes de salida. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- Comisión para el Mercado Financiero. *Normativa sobre gestión de la continuidad operacional, ciberseguridad y reporte de incidentes*. CMF. Exigencias chilenas de continuidad y reporte de incidentes. <https://www.cmfchile.cl/>
+- Committee on Payments and Market Infrastructures e IOSCO (2016). *Guidance on cyber resilience for financial market infrastructures*. BIS. Expectativas de ciberresiliencia aplicables a la infraestructura. <https://www.bis.org/cpmi/publ/d146.htm>
 - Verificación local: comprueba los umbrales y plazos de notificación de incidentes exigidos en tu jurisdicción y si existe régimen de proveedores tecnológicos críticos. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

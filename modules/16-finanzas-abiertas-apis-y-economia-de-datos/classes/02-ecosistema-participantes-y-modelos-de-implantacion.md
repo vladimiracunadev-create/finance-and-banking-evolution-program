@@ -444,11 +444,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Comisión para el Mercado Financiero (Chile). *Normativa y anexo técnico del Sistema de Finanzas Abiertas*. CMF. <https://www.cmfchile.cl/>
-- Banco Central do Brasil. *Open Finance Brasil — regulação e estatísticas*. <https://www.bcb.gov.br/estabilidadefinanceira/openfinance>
-- Bank for International Settlements (2019). *Report on open banking and application programming interfaces*. BCBS. <https://www.bis.org/bcbs/publ/d486.htm>
-- Financial Stability Board (2023). *Enhancing third-party risk management and oversight*. FSB. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
-- OpenID Foundation. *FAPI conformance testing*. <https://openid.net/certification/>
+- Comisión para el Mercado Financiero (Chile). *Normativa y anexo técnico del Sistema de Finanzas Abiertas*. CMF. Figuras y obligaciones que define la normativa chilena. <https://www.cmfchile.cl/>
+- Banco Central do Brasil. *Open Finance Brasil — regulação e estatísticas*. Datos de adopción del modelo brasileño usados en la comparación. <https://www.bcb.gov.br/estabilidadefinanceira/openfinance>
+- Bank for International Settlements (2019). *Report on open banking and application programming interfaces*. BCBS. Modelos de implantación comparados y sus resultados. <https://www.bis.org/bcbs/publ/d486.htm>
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Gestión del riesgo de terceros en el ecosistema. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- OpenID Foundation. *FAPI conformance testing*. Prueba de conformidad que verifica la implantación técnica. <https://openid.net/certification/>
 - Verificación local: identifica quién gobierna el esquema en tu jurisdicción, qué publica sobre disponibilidad y si existe régimen de proveedores tecnológicos críticos. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

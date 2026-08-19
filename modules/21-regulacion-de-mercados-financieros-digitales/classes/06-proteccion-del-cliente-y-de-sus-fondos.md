@@ -478,10 +478,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
-- OCDE (2011). *G20 High-Level Principles on Financial Consumer Protection*. OECD. <https://www.oecd.org/finance/financial-education/48892010.pdf>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Comisión para el Mercado Financiero. *Normativa de conducta de mercado e información al cliente*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. Protección de los activos del cliente frente a la insolvencia. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
+- OCDE (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Principios de trato justo y reparación al consumidor. <https://www.oecd.org/finance/financial-education/48892010.pdf>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Segregación y salvaguarda exigidas al proveedor. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Comisión para el Mercado Financiero. *Normativa de conducta de mercado e información al cliente*. CMF. Obligaciones chilenas de información y conducta con el cliente. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Verificación local: comprueba qué régimen de salvaguarda exige tu jurisdicción, si requiere renuncia expresa a compensar y qué prelación tienen los fondos de clientes en un concurso. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

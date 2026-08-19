@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, infraestructura]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [NIST, CPMI]
 requires_legal_review: false
@@ -487,12 +487,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement*. BIS. <https://www.bis.org/cpmi/publ/d157.htm>
-- ISO/TC 307. *ISO 22739: Blockchain and distributed ledger technologies — Vocabulary*. ISO. <https://www.iso.org/standard/82208.html>
-- European Union Agency for Cybersecurity (2021). *Distributed Ledger Technology and Cybersecurity*. ENISA. <https://www.enisa.europa.eu/>
-- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Verificación local: comprueba los plazos de retención y los derechos de supresión de datos personales aplicables, y su compatibilidad con un registro inmutable. **Fecha de verificación de esta clase: 2026-08-06.**
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Anatomía de la transacción, el bloque y el estado. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Correspondencia entre esas piezas y un sistema de liquidación. <https://www.bis.org/cpmi/publ/d157.htm>
+- ISO/TC 307. *ISO 22739: Blockchain and distributed ledger technologies — Vocabulary*. ISO. Vocabulario normalizado de nodos y de estado. <https://www.iso.org/standard/82208.html>
+- European Union Agency for Cybersecurity (2021). *Distributed Ledger Technology and Cybersecurity*. ENISA. Superficie de ataque de cada tipo de nodo. <https://www.enisa.europa.eu/>
+- Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de registro y conciliación exigibles a la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
+- Verificación local: comprueba los plazos de retención y los derechos de supresión de datos personales aplicables, y su compatibilidad con un registro inmutable. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

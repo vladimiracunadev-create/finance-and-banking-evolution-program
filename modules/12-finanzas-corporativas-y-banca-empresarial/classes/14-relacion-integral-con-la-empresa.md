@@ -492,11 +492,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
-- Boot, A. (2000). "Relationship Banking: What Do We Know?". *Journal of Financial Intermediation*, 9(1).
-- Petersen, M. y Rajan, R. (1994). "The Benefits of Lending Relationships". *Journal of Finance*, 49(1).
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill.
-- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Gestión de la relación y venta cruzada en banca empresarial.
+- Boot, A. (2000). "Relationship Banking: What Do We Know?". *Journal of Financial Intermediation*, 9(1). Beneficios y costos de la banca de relación.
+- Petersen, M. y Rajan, R. (1994). "The Benefits of Lending Relationships". *Journal of Finance*, 49(1). Evidencia sobre disponibilidad y precio del crédito en relaciones largas.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Medición de la rentabilidad de la relación ajustada por riesgo.
+- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Capital consumido por la exposición corporativa.
 - Verificación local: revisa los límites de exposición por deudor y por sector aplicables en tu jurisdicción y la política de atribuciones de tu institución.
 
 <!-- gen:footer:start -->

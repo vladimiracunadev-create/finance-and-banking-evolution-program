@@ -535,11 +535,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2014). *Key Attributes of Effective Resolution Regimes*. FSB.
-- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS.
+- Financial Stability Board (2014). *Key Attributes of Effective Resolution Regimes for Financial Institutions*. FSB. Instrumentos de resolución que aparecen en el desenlace de la crisis.
+- Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Activación del plan de contingencia de liquidez.
 - Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre las turbulencias bancarias de 2023.
-- European Banking Authority (2014). *Guidelines on the range of scenarios to be used in recovery plans*. EBA.
-- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB.
+- European Banking Authority (2014). *Guidelines on the range of scenarios to be used in recovery plans*. EBA. Disparadores y opciones del plan de recuperación.
+- Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. Secuencia de respuesta y comunicación ante el incidente.
 - Verificación local: revisa las obligaciones de notificación al supervisor en situaciones de tensión y los plazos aplicables.
 
 <!-- gen:footer:start -->

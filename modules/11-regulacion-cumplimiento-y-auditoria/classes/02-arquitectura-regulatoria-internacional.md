@@ -447,11 +447,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision. *Regulatory Consistency Assessment Programme (RCAP)*. BIS. <https://www.bis.org/bcbs/implementation.htm>
+- Basel Committee on Banking Supervision. *Regulatory Consistency Assessment Programme (RCAP)*. BIS. Cómo se evalúa la implantación nacional de un estándar internacional. <https://www.bis.org/bcbs/implementation.htm>
 - Financial Stability Board. *Implementation and Effects of the G20 Financial Regulatory Reforms* (informes anuales). FSB. <https://www.fsb.org/>
 - Financial Action Task Force. *Mutual Evaluations* y listas de jurisdicciones bajo seguimiento. FATF. <https://www.fatf-gafi.org/>
-- International Monetary Fund y World Bank. *Financial Sector Assessment Program (FSAP)*. IMF. <https://www.imf.org/en/Publications/fsap>
-- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS.
+- International Monetary Fund y World Bank. *Financial Sector Assessment Program (FSAP)*. IMF. Evaluación del sistema financiero de un país por organismos internacionales. <https://www.imf.org/en/Publications/fsap>
+- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Referencia con la que se juzga la calidad de un supervisor.
 - Verificación local: identifica la norma nacional que transpone el marco de capital en tu país, su calendario y las discrecionalidades ejercidas por tu supervisor.
 
 <!-- gen:footer:start -->

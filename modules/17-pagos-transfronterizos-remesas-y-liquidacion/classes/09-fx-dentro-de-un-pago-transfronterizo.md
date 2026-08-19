@@ -564,11 +564,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Banco Mundial. *Remittance Prices Worldwide: metodología de cálculo del coste total*. <https://remittanceprices.worldbank.org/>
-- Bank for International Settlements (2022). *Triennial Central Bank Survey of foreign exchange and OTC derivatives markets*. BIS. <https://www.bis.org/statistics/rpfx22.htm>
-- Committee on Payments and Market Infrastructures (2018). *Cross-border retail payments*. BIS. <https://www.bis.org/cpmi/publ/d173.htm>
-- Global Foreign Exchange Committee. *FX Global Code*. <https://www.globalfxc.org/fx_global_code.htm>
-- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales y Mercado Cambiario Formal*. <https://www.bcentral.cl/>
+- Banco Mundial. *Remittance Prices Worldwide*. Descomposición del coste total entre comisión y diferencial. <https://remittanceprices.worldbank.org/>
+- Bank for International Settlements (2022). *Triennial Central Bank Survey of foreign exchange and OTC derivatives markets*. BIS. Estructura y volumen del mercado de divisas de referencia. <https://www.bis.org/statistics/rpfx22.htm>
+- Committee on Payments and Market Infrastructures (2018). *Cross-border retail payments*. BIS. Formación del precio de cambio en el pago minorista. <https://www.bis.org/cpmi/publ/d173.htm>
+- Global Foreign Exchange Committee. *FX Global Code*. Buenas prácticas de conducta en la ejecución cambiaria. <https://www.globalfxc.org/fx_global_code.htm>
+- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. Reglas cambiarias aplicables a la operación en Chile. <https://www.bcentral.cl/>
 - Verificación local: comprueba quién puede realizar operaciones de cambio en tu jurisdicción, qué debe informarse y qué obligaciones de transparencia de precio existen. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal ni recomendación de inversión.
 
 <!-- gen:footer:start -->

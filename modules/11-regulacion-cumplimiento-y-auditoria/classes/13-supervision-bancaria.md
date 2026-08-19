@@ -473,11 +473,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. <https://www.bis.org/publ/bcbs230.htm>
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
-- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS.
-- International Monetary Fund y World Bank. *Financial Sector Assessment Program*, evaluaciones de cumplimiento de los Principios Básicos. IMF.
-- Viñals, J. y Fiechter, J. (2010). *The Making of Good Supervision: Learning to Say No*. IMF Staff Position Note. <https://www.imf.org/external/pubs/ft/spn/2010/spn1008.pdf>
+- Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Facultades, independencia y recursos que necesita un supervisor. <https://www.bis.org/publ/bcbs230.htm>
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Expectativas de gobierno corporativo que el supervisor evalúa.
+- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS. Instrumentos y ciclo de la revisión supervisora.
+- International Monetary Fund y World Bank. *Financial Sector Assessment Program (FSAP)*, evaluaciones de cumplimiento de los Principios Básicos. IMF.
+- Viñals, J. y Fiechter, J. (2010). *The Making of Good Supervision: Learning to Say No*. IMF Staff Position Note. Condiciones prácticas para que la supervisión sea efectiva. <https://www.imf.org/external/pubs/ft/spn/2010/spn1008.pdf>
 - Verificación local: revisa el modelo de supervisión de tu país, la periodicidad de las inspecciones y el procedimiento sancionatorio aplicable.
 
 <!-- gen:footer:start -->

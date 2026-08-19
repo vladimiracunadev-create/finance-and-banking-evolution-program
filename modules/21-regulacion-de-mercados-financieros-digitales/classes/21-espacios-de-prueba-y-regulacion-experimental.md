@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [sandbox, innovacion, supervision]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CMF, IOSCO, BIS]
 requires_legal_review: true
@@ -489,11 +489,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2019). *Global Markets in Transition: Innovation Facilitators*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD622.pdf>
-- Bank for International Settlements (2020). *Inside the regulatory sandbox: effects on fintech funding*. BIS. <https://www.bis.org/publ/work901.htm>
-- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
-- Comisión para el Mercado Financiero. *Iniciativas de innovación financiera y normativa de la Ley 21.521*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba si tu jurisdicción cuenta con un espacio de prueba, qué requisitos admite adaptar y qué obligación de publicación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2019). *Global Markets in Transition: Innovation Facilitators*. IOSCO. Diseño comparado de los facilitadores de innovación. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD622.pdf>
+- Bank for International Settlements (2020). *Inside the regulatory sandbox: effects on fintech funding*. BIS. Evidencia sobre el efecto real del espacio de prueba. <https://www.bis.org/publ/work901.htm>
+- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Encaje del espacio de prueba en el marco global. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
+- Comisión para el Mercado Financiero. *Iniciativas de innovación financiera y normativa de la Ley 21.521*. CMF. Iniciativas chilenas de innovación financiera. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba si tu jurisdicción cuenta con un espacio de prueba, qué requisitos admite adaptar y qué obligación de publicación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

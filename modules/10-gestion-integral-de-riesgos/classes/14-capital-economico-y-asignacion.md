@@ -459,11 +459,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2009). *Range of practices and issues in economic capital frameworks*. BIS. <https://www.bis.org/publ/bcbs152.htm>
-- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS.
-- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Capítulo 20: capital.
-- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation* (7.ª ed.). Wiley. Costo del capital y creación de valor.
+- Basel Committee on Banking Supervision (2009). *Range of practices and issues in economic capital frameworks*. BIS. Prácticas comparadas de medición del capital económico. <https://www.bis.org/publ/bcbs152.htm>
+- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS. Expectativa supervisora sobre la suficiencia de capital interno.
+- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley. Asignación de capital a negocios y medición de rentabilidad ajustada.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulo 20: capital.
+- Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). Wiley. Costo del capital y creación de valor.
 - Verificación local: revisa las exigencias del proceso de autoevaluación de capital y el tratamiento de la diversificación entre riesgos en tu jurisdicción.
 
 <!-- gen:footer:start -->

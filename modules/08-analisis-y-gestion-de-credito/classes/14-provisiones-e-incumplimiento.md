@@ -488,10 +488,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - IFRS Foundation (2014). *NIIF 9 Instrumentos Financieros*, sección 5.5: modelo de pérdida crediticia esperada y las tres etapas. <https://www.ifrs.org/>
-- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS. <https://www.bis.org/bcbs/publ/d350.htm>
-- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets — definitions of non-performing exposures and forbearance*. BIS.
+- Basel Committee on Banking Supervision (2015). *Guidance on credit risk and accounting for expected credit losses*. BIS. Expectativa supervisora sobre la estimación de la pérdida esperada. <https://www.bis.org/bcbs/publ/d350.htm>
+- Basel Committee on Banking Supervision (2017). *Prudential treatment of problem assets — definitions of non-performing exposures and forbearance*. BIS. Definiciones de exposición dudosa y refinanciación que ordenan la clasificación.
 - Schuermann, T. (2004). "What Do We Know About Loss Given Default?". Wharton Financial Institutions Center. Estimación empírica de la severidad.
-- European Banking Authority (2017). *Guidelines on PD estimation, LGD estimation and treatment of defaulted exposures*. EBA. <https://www.eba.europa.eu/>
+- European Banking Authority (2017). *Guidelines on PD estimation, LGD estimation and treatment of defaulted exposures*. EBA. Criterios de estimación de PD y LGD y tratamiento de exposiciones en incumplimiento. <https://www.eba.europa.eu/>
 - Verificación local: revisa la normativa de provisiones de tu supervisor, sus modelos estándar y los requisitos de validación de modelos internos.
 
 <!-- gen:footer:start -->

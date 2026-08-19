@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, riesgo-operacional, custodia]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, FSB]
 requires_legal_review: false
@@ -487,12 +487,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
-- IOSCO (2022). *Decentralized Finance Report*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
-- Committee on Payments and Market Infrastructures (2022). *Interlinking payment systems and the role of application programming interfaces*. BIS. <https://www.bis.org/cpmi/publ/d205.htm>
-- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures*. BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba cómo trata tu marco prudencial la exposición a un activo envuelto frente al subyacente. **Fecha de verificación de esta clase: 2026-08-06.**
+- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. Pérdidas observadas en puentes y su concentración. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
+- IOSCO (2022). *Decentralized Finance Report*. IOSCO. Riesgos de la interoperabilidad entre registros. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
+- Committee on Payments and Market Infrastructures (2022). *Interlinking payment systems and the role of application programming interfaces*. BIS. Comparación con la interconexión de sistemas de pago tradicionales. <https://www.bis.org/cpmi/publ/d205.htm>
+- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures*. BIS. Tratamiento de capital de la exposición transferida entre registros. <https://www.bis.org/bcbs/publ/d545.htm>
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Mecanismos técnicos de transferencia entre registros. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Verificación local: comprueba cómo trata tu marco prudencial la exposición a un activo envuelto frente al subyacente. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

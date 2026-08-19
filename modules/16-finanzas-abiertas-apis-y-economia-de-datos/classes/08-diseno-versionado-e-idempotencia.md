@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [open-finance, contratos-de-api]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: estandar-vigente
 primary_authorities: [OpenID Foundation]
 requires_legal_review: false
@@ -481,12 +481,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- OpenAPI Initiative. *OpenAPI Specification 3.1*. <https://spec.openapis.org/oas/v3.1.0.html>
-- Internet Engineering Task Force. *RFC 9110 — HTTP Semantics*. IETF. <https://www.rfc-editor.org/rfc/rfc9110>
-- Internet Engineering Task Force. *RFC 8594 — The Sunset HTTP Header Field*. IETF. <https://www.rfc-editor.org/rfc/rfc8594>
-- Internet Engineering Task Force. *RFC 9457 — Problem Details for HTTP APIs*. IETF. <https://www.rfc-editor.org/rfc/rfc9457>
-- Comisión para el Mercado Financiero. *Anexo técnico del Sistema de Finanzas Abiertas: versionado y disponibilidad*. CMF. <https://www.cmfchile.cl/>
-- Verificación local: comprueba si el anexo técnico de tu jurisdicción fija plazos mínimos de coexistencia entre versiones y requisitos de aviso previo. **Fecha de verificación de esta clase: 2026-08-06.**
+- OpenAPI Initiative. *OpenAPI Specification 3.1*. Formato del contrato de la API que la clase escribe. <https://spec.openapis.org/oas/v3.1.0.html>
+- Internet Engineering Task Force. *RFC 9110 — HTTP Semantics*. IETF. Definición de método idempotente y semántica de reintento. <https://www.rfc-editor.org/rfc/rfc9110>
+- Internet Engineering Task Force. *RFC 8594 — The Sunset HTTP Header Field*. IETF. Anuncio del retiro de una versión con antelación. <https://www.rfc-editor.org/rfc/rfc8594>
+- Internet Engineering Task Force. *RFC 9457 — Problem Details for HTTP APIs*. IETF. Formato uniforme de los errores devueltos al tercero. <https://www.rfc-editor.org/rfc/rfc9457>
+- Comisión para el Mercado Financiero. *Anexo técnico del Sistema de Finanzas Abiertas: versionado y disponibilidad*. CMF. Exigencias de versionado y disponibilidad de la normativa. <https://www.cmfchile.cl/>
+- Verificación local: comprueba si el anexo técnico de tu jurisdicción fija plazos mínimos de coexistencia entre versiones y requisitos de aviso previo. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

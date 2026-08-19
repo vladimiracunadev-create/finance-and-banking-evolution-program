@@ -423,12 +423,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- International Chamber of Commerce (2007). *UCP 600: Uniform Customs and Practice for Documentary Credits*. ICC Publication 600.
-- International Chamber of Commerce (1995). *URC 522: Uniform Rules for Collections*. ICC.
-- International Chamber of Commerce (2010). *URDG 758: Uniform Rules for Demand Guarantees*. ICC.
-- International Chamber of Commerce (2019). *Incoterms 2020*. ICC. <https://iccwbo.org/business-solutions/incoterms-rules/>
-- Basel Committee on Banking Supervision (2014). *Trade finance: developments and issues*. CGFS Papers 50, BIS. <https://www.bis.org/publ/cgfs50.htm>
-- Grath, A. (2016). *The Handbook of International Trade and Finance* (4.ª ed.). Kogan Page.
+- International Chamber of Commerce (2007). *UCP 600: Uniform Customs and Practice for Documentary Credits*. ICC Publication 600. Reglas del crédito documentario y criterio de examen de documentos.
+- International Chamber of Commerce (1995). *URC 522: Uniform Rules for Collections*. ICC. Reglas de la cobranza documentaria.
+- International Chamber of Commerce (2010). *URDG 758: Uniform Rules for Demand Guarantees*. ICC. Reglas de las garantías a primer requerimiento.
+- International Chamber of Commerce (2019). *Incoterms 2020*. ICC. Reparto de costos y riesgos en la entrega de la mercancía. <https://iccwbo.org/business-solutions/incoterms-rules/>
+- Basel Committee on Banking Supervision (2014). *Trade finance: developments and issues*. CGFS Papers 50, BIS. Tratamiento prudencial y riesgos del financiamiento del comercio. <https://www.bis.org/publ/cgfs50.htm>
+- Grath, A. (2016). *The Handbook of International Trade and Finance* (4.ª ed.). Kogan Page. Panorámica operativa de los instrumentos de comercio exterior.
 - Verificación local: revisa el régimen aduanero, los registros de exportación e importación y los requisitos cambiarios aplicables en tu país.
 
 <!-- gen:footer:start -->

@@ -458,7 +458,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Swan, J. (2015). *Practical Financial Modelling* (3.ª ed.). Elsevier. Convenciones de diseño y controles.
 - Federal Reserve / OCC (2011). *Supervisory Guidance on Model Risk Management* (SR 11-7). Marco de gestión del riesgo de modelo, documentación y validación independiente.
 - European Spreadsheet Risks Interest Group. *Spreadsheet Risk Management*. Evidencia sobre frecuencia y tipo de errores en planillas. <https://eusprig.org/>
-- Basel Committee on Banking Supervision (2013). *BCBS 239: Principles for effective risk data aggregation and risk reporting*. BIS. Trazabilidad y calidad del dato.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Trazabilidad y calidad del dato.
 - Verificación local: revisa qué exige tu supervisor sobre validación y documentación de modelos internos usados en decisiones de crédito o de capital.
 
 <!-- gen:footer:start -->

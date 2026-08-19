@@ -475,11 +475,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
+- Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Requerimientos de capital que el proyecto debe cumplir desde el inicio.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Estructura de un banco completo que el proyecto reproduce a escala.
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Costo del capital y prima por tamaño.
 - Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*, criterios de licenciamiento. BIS.
-- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley.
+- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley. Compromisos de capital y rentabilidad que abren el proyecto.
 - Verificación local: revisa el capital mínimo exigido para constituir un banco en tu país y los requisitos de licenciamiento.
 
 <!-- gen:footer:start -->

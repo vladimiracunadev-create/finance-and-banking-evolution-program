@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [infraestructura, gestion-de-riesgos, gobierno-corporativo]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, CMF]
 requires_legal_review: true
@@ -533,12 +533,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets*. BIS. <https://www.bis.org/cpmi/publ/d225.htm>
-- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/858 sobre el régimen piloto de infraestructuras del mercado basadas en DLT*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858>
-- Comisión para el Mercado Financiero. *Normativa sobre infraestructuras de mercado y oferta pública*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué autorizaciones exige tu jurisdicción para operar una infraestructura de este tipo y si existe un régimen piloto o de exención aplicable. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos que la infraestructura del proyecto debe acreditar. <https://www.bis.org/cpmi/publ/d101.htm>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de conducta y revelación del instrumento emitido. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Diseño del registro y de la liquidación atómica del proyecto. <https://www.bis.org/cpmi/publ/d225.htm>
+- Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/858 sobre el régimen piloto de infraestructuras del mercado basadas en DLT*. EUR-Lex. Régimen bajo el que se acoge la infraestructura propuesta. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R0858>
+- Comisión para el Mercado Financiero. *Normativa sobre infraestructuras de mercado y oferta pública*. CMF. Autorizaciones chilenas exigibles al proyecto. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba qué autorizaciones exige tu jurisdicción para operar una infraestructura de este tipo y si existe un régimen piloto o de exención aplicable. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

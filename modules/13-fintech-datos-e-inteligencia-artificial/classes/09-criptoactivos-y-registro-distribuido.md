@@ -535,11 +535,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures*. BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
-- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF.
+- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures*. BIS. Tratamiento de capital de las exposiciones a criptoactivos. <https://www.bis.org/bcbs/publ/d545.htm>
+- Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Marco regulatorio global de las actividades con criptoactivos. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
+- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Obligaciones de prevención aplicables a proveedores de activos virtuales.
 - Bank for International Settlements (2022). *Annual Economic Report*, capítulo sobre el sistema monetario del futuro. BIS.
-- Committee on Payments and Market Infrastructures e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS.
+- Committee on Payments and Market Infrastructures e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Aplicación de los principios de infraestructuras a las stablecoins.
 - Verificación local: revisa el régimen aplicable a los proveedores de servicios de activos virtuales en tu país y si tu supervisor permite a los bancos operar con criptoactivos.
 
 <!-- gen:footer:start -->

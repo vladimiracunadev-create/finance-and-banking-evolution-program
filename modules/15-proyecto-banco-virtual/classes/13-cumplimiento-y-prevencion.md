@@ -567,11 +567,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Action Task Force (2012-2025). *The FATF Recommendations*. FATF.
-- Financial Action Task Force (2021). *Guidance on Digital Identity*. FATF. <https://www.fatf-gafi.org/en/publications/Financialinclusionandnpoissues/Digital-identity-guidance.html>
-- Financial Action Task Force (2017). *Anti-money laundering and terrorist financing measures and financial inclusion*. FATF.
-- Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS.
-- World Bank (2018). *De-risking in the Financial Sector*. World Bank Group.
+- Financial Action Task Force (2012-2025). *The FATF Recommendations*. FATF. Obligaciones que estructuran el programa de prevención del banco.
+- Financial Action Task Force (2021). *Guidance on Digital Identity*. FATF. Verificación de identidad en un canal íntegramente digital. <https://www.fatf-gafi.org/en/publications/Financialinclusionandnpoissues/Digital-identity-guidance.html>
+- Financial Action Task Force (2017). *Anti-money laundering and terrorist financing measures and financial inclusion*. FATF. Equilibrio entre control y acceso para clientes sin historial.
+- Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. Expectativa prudencial sobre el sistema de prevención.
+- World Bank (2018). *De-risking in the Financial Sector*. World Bank Group. Riesgo de exclusión al cerrar relaciones por precaución.
 - Verificación local: revisa los medios de verificación de identidad aceptados en tu país, el régimen de corresponsales y los umbrales de reporte.
 
 <!-- gen:footer:start -->

@@ -545,10 +545,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Forsgren, N., Humble, J. y Kim, G. (2018). *Accelerate: The Science of Lean Software and DevOps*. IT Revolution. Los cuatro indicadores de entrega.
-- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS.
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS.
+- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Capacidades que el supervisor espera de un banco que se digitaliza.
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Resiliencia exigible al proceso digitalizado.
 - Fowler, M. (2019). *Refactoring* (2.ª ed.). Addison-Wesley. Deuda técnica y su gestión.
-- Bank for International Settlements (2021). *Fintech and the digital transformation of financial services*. FSI Insights.
+- Bank for International Settlements (2021). *Fintech and the digital transformation of financial services*. FSI Insights. Evidencia sobre el alcance real de la transformación digital bancaria.
 - Verificación local: revisa las exigencias de tu supervisor sobre gestión de cambios, continuidad operacional y notificación de incidentes tecnológicos.
 
 <!-- gen:footer:start -->

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [open-finance, seguridad, criptografia]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: estandar-vigente
 primary_authorities: [OpenID Foundation, IETF]
 requires_legal_review: false
@@ -473,12 +473,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- OpenID Foundation. *FAPI 2.0 Security Profile*. <https://openid.net/wg/fapi/>
-- Internet Engineering Task Force. *RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens*. IETF. <https://www.rfc-editor.org/rfc/rfc8705>
-- Internet Engineering Task Force. *RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession (DPoP)*. IETF. <https://www.rfc-editor.org/rfc/rfc9449>
+- OpenID Foundation. *FAPI 2.0 Security Profile*. Requisitos del perfil de grado financiero que la clase implanta. <https://openid.net/wg/fapi/>
+- Internet Engineering Task Force. *RFC 8705 — OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens*. IETF. Autenticación mutua y testigos ligados al certificado. <https://www.rfc-editor.org/rfc/rfc8705>
+- Internet Engineering Task Force. *RFC 9449 — OAuth 2.0 Demonstrating Proof of Possession (DPoP)*. IETF. Prueba de posesión de la clave en cada petición. <https://www.rfc-editor.org/rfc/rfc9449>
 - Internet Engineering Task Force. *RFC 7515 — JSON Web Signature (JWS)* y *RFC 7516 — JSON Web Encryption (JWE)*. IETF. <https://www.rfc-editor.org/rfc/rfc7515>
-- NIST (2020). *SP 800-57 Part 1 Rev. 5 — Recommendation for Key Management*. National Institute of Standards and Technology. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
-- Verificación local: comprueba qué perfil y qué versión exige el anexo técnico vigente en tu jurisdicción, y quién actúa como autoridad certificadora del esquema. **Fecha de verificación de esta clase: 2026-08-06.**
+- NIST (2020). *SP 800-57 Part 1 Rev. 5 — Recommendation for Key Management*. National Institute of Standards and Technology. Ciclo de vida y rotación de las claves criptográficas. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
+- Verificación local: comprueba qué perfil y qué versión exige el anexo técnico vigente en tu jurisdicción, y quién actúa como autoridad certificadora del esquema. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

@@ -473,7 +473,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Rose, P. y Hudgins, S. (2013). *Bank Management & Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 4: organización de la red de distribución.
 - Bank for International Settlements (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Transformación de canales.
 - Basel Committee on Banking Supervision (2011). *Principles for the Sound Management of Operational Risk*. BIS. Controles de seguridad operativa.
-- Deloitte / McKinsey. Informes anuales sobre transformación de redes de sucursales. Datos comparados de costo por canal.
+- Deloitte y McKinsey. *Informes anuales sobre transformación de redes de sucursales*. Datos comparados de costo por canal de atención.
 - Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. Corresponsalías y acceso en zonas de baja densidad.
 - Verificación local: revisa las exigencias de tu supervisor sobre cierre de sucursales, cobertura territorial y corresponsalías no bancarias.
 

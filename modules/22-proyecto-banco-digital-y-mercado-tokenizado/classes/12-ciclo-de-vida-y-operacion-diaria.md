@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [operaciones, eventos, continuidad]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [CPMI, BCBS, CMF]
 requires_legal_review: false
@@ -350,11 +350,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. <https://www.bis.org/cpmi/publ/d101.htm>
-- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. <https://www.bis.org/bcbs/publ/d516.htm>
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. <https://www.bis.org/bcbs/publ/d328.htm>
-- Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. **Fecha de verificación de esta clase: 2026-08-06.**
+- CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de operación, conciliación y cierre diario. <https://www.bis.org/cpmi/publ/d101.htm>
+- Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Tolerancia a la interrupción de la operación diaria. <https://www.bis.org/bcbs/publ/d516.htm>
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Información que la operación debe elevar al órgano de gobierno. <https://www.bis.org/bcbs/publ/d328.htm>
+- Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones chilenas de reporte y control operativo. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

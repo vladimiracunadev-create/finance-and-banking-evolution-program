@@ -446,10 +446,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2019). *Minimum capital requirements for market risk*. BIS. <https://www.bis.org/bcbs/publ/d457.htm>
-- Basel Committee on Banking Supervision (1996). *Supervisory framework for the use of backtesting*. BIS. <https://www.bis.org/publ/bcbs22.htm>
+- Basel Committee on Banking Supervision (2019). *Minimum capital requirements for market risk*. BIS. Paso del valor en riesgo al déficit esperado en el marco de capital. <https://www.bis.org/bcbs/publ/d457.htm>
+- Basel Committee on Banking Supervision (1996). *Supervisory framework for the use of backtesting*. BIS. Procedimiento de contraste retrospectivo del modelo interno. <https://www.bis.org/publ/bcbs22.htm>
 - Artzner, P., Delbaen, F., Eber, J. y Heath, D. (1999). "Coherent Measures of Risk". *Mathematical Finance*, 9(3). Origen de la crítica al VaR.
-- Jorion, P. (2006). *Value at Risk* (3.ª ed.). McGraw-Hill.
+- Jorion, P. (2006). *Value at Risk* (3.ª ed.). McGraw-Hill. Construcción, límites e interpretación errónea del valor en riesgo.
 - Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Capítulos 12 a 14.
 - Verificación local: revisa el enfoque de riesgo de mercado (estandarizado o de modelos internos) y los requisitos de prueba retrospectiva de tu supervisor.
 

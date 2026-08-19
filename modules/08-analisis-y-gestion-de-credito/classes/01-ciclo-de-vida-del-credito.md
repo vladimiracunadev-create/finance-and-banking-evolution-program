@@ -376,7 +376,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Capítulos 10 a 12: gestión del riesgo de crédito.
 - Rose, P. y Hudgins, S. (2013). *Bank Management & Financial Services* (9.ª ed.). McGraw-Hill. Capítulos 16 y 17: política y proceso de crédito.
 - Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Ciclo completo del crédito.
-- Basel Committee on Banking Supervision (2000). *Principles for the Management of Credit Risk*. BIS. <https://www.bis.org/publ/bcbs75.htm>
+- Basel Committee on Banking Supervision (2000). *Principles for the Management of Credit Risk*. BIS. Marco supervisor del ciclo de crédito, del apetito al seguimiento. <https://www.bis.org/publ/bcbs75.htm>
 - Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. Marco de las tres líneas de defensa. <https://www.theiia.org/>
 - Verificación local: revisa la normativa de tu supervisor sobre políticas de crédito, facultades de aprobación y reportes de cartera.
 

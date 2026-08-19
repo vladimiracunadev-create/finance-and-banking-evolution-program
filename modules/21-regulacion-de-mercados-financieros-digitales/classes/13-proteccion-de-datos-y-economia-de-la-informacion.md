@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, union-europea, internacional]
 regulatory_topics: [proteccion-de-datos, privacidad, economia-de-datos]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [OCDE, CMF, EDPB]
 requires_legal_review: true
@@ -493,11 +493,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- OCDE (2013). *Guidelines governing the Protection of Privacy and Transborder Flows of Personal Data*. OECD. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0188>
-- Diario Oficial de la Unión Europea (2016). *Reglamento (UE) 2016/679, general de protección de datos*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32016R0679>
-- Biblioteca del Congreso Nacional de Chile. *Ley 19.628 sobre protección de la vida privada*. <https://www.bcn.cl/leychile/navegar?idNorma=141599>
-- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
-- Verificación local: comprueba qué régimen de datos personales aplica en tu jurisdicción, qué plazos de conservación impone la norma de prevención y cómo se concilian ambos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- OCDE (2013). *Guidelines governing the Protection of Privacy and Transborder Flows of Personal Data*. OECD. Principios de tratamiento y transferencia internacional de datos. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0188>
+- Diario Oficial de la Unión Europea (2016). *Reglamento (UE) 2016/679, general de protección de datos*. EUR-Lex. Derecho de supresión que colisiona con la inmutabilidad del registro. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32016R0679>
+- Biblioteca del Congreso Nacional de Chile. *Ley 19.628 sobre protección de la vida privada*. Régimen chileno aplicable al dato tratado. <https://www.bcn.cl/leychile/navegar?idNorma=141599>
+- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Obligación de conservar información que limita el borrado. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
+- Verificación local: comprueba qué régimen de datos personales aplica en tu jurisdicción, qué plazos de conservación impone la norma de prevención y cómo se concilian ambos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

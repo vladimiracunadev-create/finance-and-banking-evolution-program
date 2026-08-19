@@ -533,11 +533,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Parlamento Europeo y Consejo. *Reglamento (UE) 2016/679 (RGPD)*. <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
-- European Data Protection Board (2021). *Guidelines 06/2020 on the interplay of PSD2 and the GDPR*. EDPB. <https://www.edpb.europa.eu/>
-- Biblioteca del Congreso Nacional de Chile. *Ley N.º 19.628 sobre protección de la vida privada y su normativa sucesora sobre datos personales*. <https://www.bcn.cl/leychile>
-- OECD (2013). *OECD Privacy Framework*. OECD. <https://www.oecd.org/digital/ieconomy/privacy-guidelines.htm>
-- NIST (2020). *NIST Privacy Framework 1.0*. NIST. <https://www.nist.gov/privacy-framework>
+- Parlamento Europeo y Consejo. *Reglamento (UE) 2016/679 (RGPD)*. Bases de licitud, finalidad y derecho de portabilidad. <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
+- European Data Protection Board (2021). *Guidelines 06/2020 on the interplay of PSD2 and the GDPR*. EDPB. Convivencia entre el acceso de terceros y la protección de datos. <https://www.edpb.europa.eu/>
+- Biblioteca del Congreso Nacional de Chile. *Ley N.º 19.628 sobre protección de la vida privada y su normativa sucesora sobre datos personales*. Régimen chileno aplicable al mismo dato compartido. <https://www.bcn.cl/leychile>
+- OECD (2013). *OECD Privacy Framework*. OECD. Principios de privacidad que ordenan la minimización. <https://www.oecd.org/digital/ieconomy/privacy-guidelines.htm>
+- NIST (2020). *NIST Privacy Framework 1.0*. NIST. Funciones de gobierno de privacidad aplicadas al ciclo del dato. <https://www.nist.gov/privacy-framework>
 - Verificación local: comprueba qué norma de protección de datos está vigente en tu jurisdicción, qué autoridad la aplica, en qué fase de implantación se encuentra y qué categorías reciben tratamiento reforzado. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

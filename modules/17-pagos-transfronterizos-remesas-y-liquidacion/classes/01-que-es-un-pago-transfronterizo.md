@@ -475,11 +475,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2020). *Enhancing Cross-border Payments: Stage 3 roadmap*. FSB. <https://www.fsb.org/2020/10/enhancing-cross-border-payments-stage-3-roadmap/>
-- Committee on Payments and Market Infrastructures (2018). *Cross-border retail payments*. BIS. <https://www.bis.org/cpmi/publ/d173.htm>
-- Banco Mundial. *Remittance Prices Worldwide*. <https://remittanceprices.worldbank.org/>
-- Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. <https://www.bis.org/cpmi/publ/d193.htm>
-- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. <https://www.bcentral.cl/>
+- Financial Stability Board (2020). *Enhancing Cross-border Payments: Stage 3 roadmap*. FSB. Metas de coste, velocidad, acceso y transparencia que la clase adopta. <https://www.fsb.org/2020/10/enhancing-cross-border-payments-stage-3-roadmap/>
+- Committee on Payments and Market Infrastructures (2018). *Cross-border retail payments*. BIS. Tipología de los pagos minoristas transfronterizos. <https://www.bis.org/cpmi/publ/d173.htm>
+- Banco Mundial. *Remittance Prices Worldwide*. Datos de coste por corredor usados en la comparación. <https://remittanceprices.worldbank.org/>
+- Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. Bloques constructivos con que se ordena el diagnóstico. <https://www.bis.org/cpmi/publ/d193.htm>
+- Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. Régimen cambiario chileno aplicable a la operación. <https://www.bcentral.cl/>
 - Verificación local: comprueba qué operaciones deben informarse al banco central de tu país, qué obligaciones de transparencia de precio existen y si tu jurisdicción tiene mercado cambiario formal. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

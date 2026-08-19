@@ -473,10 +473,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2019). *FinTech and market structure in financial services*. FSB. <https://www.fsb.org/2019/02/fintech-and-market-structure-in-financial-services/>
-- Bank for International Settlements (2019). *Annual Economic Report*, capítulo sobre grandes tecnológicas en finanzas. BIS. <https://www.bis.org/publ/arpdf/ar2019e3.htm>
-- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS.
-- Philippon, T. (2016). *The FinTech Opportunity*. NBER Working Paper 22476.
+- Financial Stability Board (2019). *FinTech and market structure in financial services*. FSB. Efectos de la entrada de nuevos actores sobre la estructura del mercado. <https://www.fsb.org/2019/02/fintech-and-market-structure-in-financial-services/>
+- Bank for International Settlements (2019). *Annual Economic Report, capítulo III*. BIS. Análisis de la entrada de las grandes tecnológicas en servicios financieros. <https://www.bis.org/publ/arpdf/ar2019e3.htm>
+- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Escenarios de desagregación de las funciones bancarias.
+- Philippon, T. (2016). *The FinTech Opportunity*. NBER Working Paper 22476. Argumento económico sobre el costo de la intermediación financiera.
 - World Bank y CGAP. *Digital Financial Services* (serie de informes). World Bank Group.
 - Verificación local: identifica los actores fintech regulados en tu país, bajo qué licencia operan y qué actividades pueden realizar.
 

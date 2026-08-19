@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, stablecoins, aml-cft]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: en-desarrollo
 primary_authorities: [FSB, CPMI, GAFI]
 requires_legal_review: true
@@ -523,12 +523,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
-- Committee on Payments and Market Infrastructures e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. <https://www.bis.org/cpmi/publ/d206.htm>
-- Financial Action Task Force. *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. <https://www.fatf-gafi.org/>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre el sistema monetario del futuro. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Committee on Payments and Market Infrastructures (2021). *Central bank digital currencies for cross-border payments*. BIS. <https://www.bis.org/publ/othp38.htm>
-- Verificación local: comprueba si tu jurisdicción admite el uso de stablecoins como medio de pago, qué licencia exige al proveedor de entrada y salida y cómo aplica la regla del viaje a las transferencias de activos virtuales. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal ni recomendación de inversión.
+- Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. Recomendaciones aplicables a un acuerdo global de stablecoin. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
+- Committee on Payments and Market Infrastructures e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de infraestructura exigibles a la stablecoin. <https://www.bis.org/cpmi/publ/d206.htm>
+- Financial Action Task Force. *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Obligaciones de prevención sobre proveedores de activos virtuales. <https://www.fatf-gafi.org/>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Diseño del sistema monetario futuro con que se contrasta la ruta con stablecoin. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- Committee on Payments and Market Infrastructures (2021). *Central bank digital currencies for cross-border payments*. BIS. Alternativa de moneda digital para el mismo caso de uso. <https://www.bis.org/publ/othp38.htm>
+- Verificación local: comprueba si tu jurisdicción admite el uso de stablecoins como medio de pago, qué licencia exige al proveedor de entrada y salida y cómo aplica la regla del viaje a las transferencias de activos virtuales. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal ni recomendación de inversión.
 
 <!-- gen:footer:start -->
 ---

@@ -510,11 +510,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Kaplan, R. y Anderson, S. (2007). *Time-Driven Activity-Based Costing*. Harvard Business School Press.
-- Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*. <https://www.bis.org/fsi/fsipapers10.htm>
+- Kaplan, R. y Anderson, S. (2007). *Time-Driven Activity-Based Costing*. Harvard Business School Press. Método de costeo por capacidad usado para asignar gastos.
+- Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*. Precios internos de liquidez que trasladan el costo del fondeo. <https://www.bis.org/fsi/fsipapers10.htm>
 - Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*. BIS. Precio de transferencia y descalce.
-- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill.
-- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley.
+- Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Medición de rentabilidad por producto, cliente y canal.
+- Matten, C. (2000). *Managing Bank Capital* (2.ª ed.). Wiley. Asignación de capital como base de la rentabilidad ajustada.
 - Verificación local: revisa cómo construye tu institución su precio de transferencia interno y si distingue plazo contractual de conductual.
 
 <!-- gen:footer:start -->

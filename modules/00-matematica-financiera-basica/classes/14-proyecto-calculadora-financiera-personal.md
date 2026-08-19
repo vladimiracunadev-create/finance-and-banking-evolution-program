@@ -281,7 +281,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Ross, S., Westerfield, R. y Jordan, B. (2022). *Fundamentos de finanzas corporativas* (12.ª ed.). McGraw-Hill. Capítulos 4 a 6: el conjunto de cálculos que la herramienta debe cubrir.
 - Broverman, S. (2017). *Mathematics of Investment and Credit* (7.ª ed.). ACTEX. Casos de referencia para validar resultados.
 - Federal Reserve / OCC (2011). *Supervisory Guidance on Model Risk Management* (SR 11-7). Estructura de documentación y validación exigida a un modelo.
-- Basel Committee on Banking Supervision (2013). *BCBS 239: Principles for effective risk data aggregation and risk reporting*. BIS. Trazabilidad y reproducibilidad.
+- Basel Committee on Banking Supervision (2013). *Principles for effective risk data aggregation and risk reporting (BCBS 239)*. BIS. Trazabilidad y reproducibilidad.
 - Verificación local: si tu herramienta se usará con datos reales, revisa la normativa de protección de datos personales y de información precontractual de crédito de tu país.
 
 <!-- gen:footer:start -->

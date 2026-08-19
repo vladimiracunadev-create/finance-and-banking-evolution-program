@@ -367,7 +367,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Broverman, S. (2017). *Mathematics of Investment and Credit* (7.ª ed.). ACTEX. Capítulo 1: equivalencia y capitalización.
 - Fabozzi, F. (2021). *Bond Markets, Analysis, and Strategies* (10.ª ed.). MIT Press. Capítulo 5: tasas spot y forward.
 - Hull, J. (2021). *Options, Futures, and Other Derivatives* (11.ª ed.). Pearson. Capítulo 4: tasas cero, forward y acuerdos de tasa futura.
-- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.). McGraw-Hill. Gestión del descalce de plazos.
+- Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Gestión del descalce de plazos.
 - Verificación local: descarga la curva de tasas de captación por plazo publicada por el supervisor o el banco central de tu país.
 
 <!-- gen:footer:start -->

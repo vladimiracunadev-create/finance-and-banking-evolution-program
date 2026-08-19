@@ -497,11 +497,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Parlamento Europeo y Consejo. *Reglamento Delegado (UE) 2018/389 sobre autenticación reforzada de clientes y comunicación segura*. <https://eur-lex.europa.eu/eli/reg_del/2018/389/oj>
-- European Banking Authority. *Opinion and guidelines on strong customer authentication*. EBA. <https://www.eba.europa.eu/>
-- NIST (2017, con revisiones posteriores). *SP 800-63B — Digital Identity Guidelines: Authentication and Lifecycle Management*. NIST. <https://pages.nist.gov/800-63-3/sp800-63b.html>
-- Comisión para el Mercado Financiero. *Normativa sobre gestión de la seguridad de la información y fraude en medios de pago*. CMF. <https://www.cmfchile.cl/>
-- Financial Action Task Force. *Guidance on digital identity*. FATF. <https://www.fatf-gafi.org/>
+- Parlamento Europeo y Consejo. *Reglamento Delegado (UE) 2018/389 sobre autenticación reforzada de clientes y comunicación segura*. Requisitos de autenticación reforzada y sus exenciones. <https://eur-lex.europa.eu/eli/reg_del/2018/389/oj>
+- European Banking Authority. *Opinion and guidelines on strong customer authentication*. EBA. Interpretación supervisora de los factores admisibles. <https://www.eba.europa.eu/>
+- NIST (2017, con revisiones posteriores). *SP 800-63B — Digital Identity Guidelines: Authentication and Lifecycle Management*. NIST. Niveles de garantía de autenticación aplicados al diseño. <https://pages.nist.gov/800-63-3/sp800-63b.html>
+- Comisión para el Mercado Financiero. *Normativa sobre gestión de la seguridad de la información y fraude en medios de pago*. CMF. Obligaciones de seguridad y reporte de fraude en Chile. <https://www.cmfchile.cl/>
+- Financial Action Task Force. *Guidance on digital identity*. FATF. Identidad digital admisible en la verificación remota. <https://www.fatf-gafi.org/>
 - Verificación local: comprueba el régimen de operaciones no autorizadas, el umbral de negligencia grave y las exenciones admitidas en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->

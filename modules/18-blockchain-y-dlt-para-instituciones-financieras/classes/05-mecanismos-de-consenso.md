@@ -526,11 +526,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Castro, M. y Liskov, B. (1999). *Practical Byzantine Fault Tolerance*. OSDI. <https://pmg.csail.mit.edu/papers/osdi99.pdf>
-- Lamport, L., Shostak, R. y Pease, M. (1982). *The Byzantine Generals Problem*. ACM TOPLAS.
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement*. BIS. <https://www.bis.org/cpmi/publ/d157.htm>
-- Bank for International Settlements (2018). *Annual Economic Report*, capítulo sobre criptomonedas y su escalabilidad. BIS. <https://www.bis.org/publ/arpdf/ar2018e5.htm>
+- Castro, M. y Liskov, B. (1999). *Practical Byzantine Fault Tolerance*. OSDI. Algoritmo de consenso tolerante a fallos bizantinos que la clase compara. <https://pmg.csail.mit.edu/papers/osdi99.pdf>
+- Lamport, L., Shostak, R. y Pease, M. (1982). *The Byzantine Generals Problem*. ACM TOPLAS. Cota teórica de participantes deshonestos que el consenso admite.
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Clasificación de las familias de consenso y su coste. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Efecto del consenso elegido sobre la firmeza del pago. <https://www.bis.org/cpmi/publ/d157.htm>
+- Bank for International Settlements (2018). *Annual Economic Report, capítulo V*. BIS. Límites de escalabilidad del consenso por prueba de trabajo. <https://www.bis.org/publ/arpdf/ar2018e5.htm>
 - Verificación local: comprueba si tu supervisor exige criterios sobre la gobernanza y la resiliencia del mecanismo de consenso en una infraestructura financiera. **Fecha de verificación de esta clase: 2026-08-06.**
 
 <!-- gen:footer:start -->

@@ -532,12 +532,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group.
-- Financial Stability Board (2017). *Artificial intelligence and machine learning in financial services*. FSB.
-- Consumer Financial Protection Bureau (2017). *Request for Information Regarding Use of Alternative Data and Modeling Techniques*. CFPB.
-- Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley.
-- Berg, T., Burg, V., Gombović, A. y Puri, M. (2020). "On the Rise of FinTechs: Credit Scoring Using Digital Footprints". *Review of Financial Studies*, 33(7).
-- OECD (2020). *Digital Disruption in Banking and its Impact on Competition*. OECD.
+- World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group. Evidencia sobre datos alternativos en el crédito a pymes.
+- Financial Stability Board (2017). *Artificial intelligence and machine learning in financial services*. FSB. Riesgos supervisores del uso de aprendizaje automático en crédito.
+- Consumer Financial Protection Bureau (2017). *Request for Information Regarding Use of Alternative Data and Modeling Techniques*. CFPB. Preguntas del supervisor sobre datos alternativos y explicabilidad.
+- Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley. Construcción y validación de un modelo de puntuación.
+- Berg, T., Burg, V., Gombović, A. y Puri, M. (2020). "On the Rise of FinTechs: Credit Scoring Using Digital Footprints". *Review of Financial Studies*, 33(7). Evidencia sobre la huella digital como predictor de incumplimiento.
+- OECD (2020). *Digital Disruption in Banking and its Impact on Competition*. OECD. Efectos competitivos de la digitalización del crédito.
 - Verificación local: revisa qué datos pueden usarse legalmente para evaluar crédito en tu país, las obligaciones de consentimiento y los atributos prohibidos por la normativa antidiscriminación.
 
 <!-- gen:footer:start -->

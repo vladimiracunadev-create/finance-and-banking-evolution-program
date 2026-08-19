@@ -533,9 +533,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Bank for International Settlements (2020). *Central bank digital currencies: foundational principles and core features*. BIS y siete bancos centrales. <https://www.bis.org/publ/othp33.htm>
+- Bank for International Settlements (2020). *Central bank digital currencies: foundational principles and core features*. BIS y siete bancos centrales. Principios rectores y características básicas de una moneda digital. <https://www.bis.org/publ/othp33.htm>
 - Bank for International Settlements (2021). *CBDCs: an opportunity for the monetary system*. Annual Economic Report, capítulo III. BIS.
-- Committee on Payments and Market Infrastructures (2018). *Central bank digital currencies*. BIS. <https://www.bis.org/cpmi/publ/d174.htm>
+- Committee on Payments and Market Infrastructures (2018). *Central bank digital currencies*. BIS. Efectos de la moneda digital sobre la intermediación bancaria. <https://www.bis.org/cpmi/publ/d174.htm>
 - Bank of England (2023). *The digital pound: a new form of money for households and businesses?* Documento de consulta.
 - European Central Bank (2023). *Digital euro: progress reports* y estudios de diseño.
 - Verificación local: revisa si tu banco central tiene un proyecto de moneda digital, en qué fase está y qué decisiones de diseño ha anunciado.

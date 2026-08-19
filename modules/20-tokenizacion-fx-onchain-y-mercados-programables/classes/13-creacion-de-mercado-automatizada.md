@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [formacion-de-precio, liquidez, riesgo-de-modelo]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [IOSCO, BIS, FSB]
 requires_legal_review: false
@@ -494,11 +494,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2022). *Decentralized Finance Report*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
-- IOSCO (2023). *Policy Recommendations for Decentralized Finance*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf>
-- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
-- Bank for International Settlements (2021). *DeFi risks and the decentralisation illusion*, Quarterly Review. BIS. <https://www.bis.org/publ/qtrpdf/r_qt2112b.htm>
-- Verificación local: comprueba si tu jurisdicción considera actividad regulada aportar reservas a un mecanismo de este tipo o explotarlo. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2022). *Decentralized Finance Report*. IOSCO. Funcionamiento y riesgos de los protocolos de negociación automatizada. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
+- IOSCO (2023). *Policy Recommendations for Decentralized Finance*. IOSCO. Recomendaciones aplicables a las finanzas descentralizadas. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf>
+- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. Riesgos de estabilidad de la negociación automatizada. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
+- Bank for International Settlements (2021). *DeFi risks and the decentralisation illusion*, Quarterly Review. BIS. Crítica del grado real de descentralización de estos mercados. <https://www.bis.org/publ/qtrpdf/r_qt2112b.htm>
+- Verificación local: comprueba si tu jurisdicción considera actividad regulada aportar reservas a un mecanismo de este tipo o explotarlo. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

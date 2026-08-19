@@ -477,11 +477,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2014). *Key Attributes of Effective Resolution Regimes for Financial Institutions*. FSB. <https://www.fsb.org/2014/10/r_141015/>
-- Financial Stability Board (2015). *Principles on Loss-absorbing and Recapitalisation Capacity of G-SIBs in Resolution (TLAC Term Sheet)*. FSB.
-- International Association of Deposit Insurers (2014). *Core Principles for Effective Deposit Insurance Systems*. IADI. <https://www.iadi.org/>
-- Unión Europea (2014). *Directiva 2014/59/UE de reestructuración y resolución de entidades de crédito (BRRD)*.
-- International Monetary Fund y World Bank (2009). *An Overview of the Legal, Institutional, and Regulatory Framework for Bank Insolvency*. IMF.
+- Financial Stability Board (2014). *Key Attributes of Effective Resolution Regimes for Financial Institutions*. FSB. Instrumentos de resolución y regla de que ningún acreedor quede peor. <https://www.fsb.org/2014/10/r_141015/>
+- Financial Stability Board (2015). *Principles on Loss-absorbing and Recapitalisation Capacity of G-SIBs in Resolution (TLAC Term Sheet)*. FSB. Capacidad de absorción de pérdidas exigida a bancos sistémicos.
+- International Association of Deposit Insurers (2014). *Core Principles for Effective Deposit Insurance Systems*. IADI. Diseño del seguro de depósitos y su cobertura. <https://www.iadi.org/>
+- Unión Europea (2014). *Directiva 2014/59/UE de reestructuración y resolución de entidades de crédito (BRRD)*. Aplicación europea del régimen de resolución.
+- International Monetary Fund y World Bank (2009). *An Overview of the Legal, Institutional, and Regulatory Framework for Bank Insolvency*. IMF. Marco legal e institucional de la insolvencia bancaria.
 - Verificación local: identifica la autoridad de resolución de tu país, el límite de cobertura del seguro de depósitos, qué instrumentos cubre y el plazo de pago.
 
 <!-- gen:footer:start -->

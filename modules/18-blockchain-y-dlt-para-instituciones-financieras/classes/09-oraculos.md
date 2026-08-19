@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, riesgo-de-terceros, integridad]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-19
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI]
 requires_legal_review: false
@@ -506,12 +506,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2022). *Decentralized Finance Report*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
-- IOSCO (2013). *Principles for Financial Benchmarks*. IOSCO. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD415.pdf>
-- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
-- Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre el sistema monetario del futuro. BIS. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba si los principios sobre índices de referencia aplican al oráculo que uses y qué régimen tiene su administrador en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-06.**
+- IOSCO (2022). *Decentralized Finance Report*. IOSCO. Dependencia de las aplicaciones respecto del dato externo. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
+- IOSCO (2013). *Principles for Financial Benchmarks*. IOSCO. Principios de gobierno y calidad aplicables a un índice o precio. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD415.pdf>
+- Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. Riesgos de manipulación del dato que alimenta el contrato. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
+- Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Papel del dato externo en el diseño del sistema monetario tokenizado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
+- NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Papel del oráculo dentro de la arquitectura del registro. <https://csrc.nist.gov/pubs/ir/8202/final>
+- Verificación local: comprueba si los principios sobre índices de referencia aplican al oráculo que uses y qué régimen tiene su administrador en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-19.**
 
 <!-- gen:footer:start -->
 ---

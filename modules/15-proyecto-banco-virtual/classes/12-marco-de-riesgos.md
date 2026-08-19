@@ -533,11 +533,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB.
-- Basel Committee on Banking Supervision (2009). *Range of practices and issues in economic capital frameworks*. BIS.
-- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices*. BIS.
-- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS.
-- Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley.
+- Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Estructura de la declaración de apetito y sus límites.
+- Basel Committee on Banking Supervision (2009). *Range of practices and issues in economic capital frameworks*. BIS. Método de estimación del capital económico del banco.
+- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS. Contenido del proceso interno de evaluación de capital.
+- Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Gobierno del marco de riesgos y papel del comité.
+- Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Agregación de riesgos y cálculo del capital total.
 - Verificación local: revisa las exigencias de marco de riesgos, apetito y autoevaluación de capital de tu supervisor.
 
 <!-- gen:footer:start -->

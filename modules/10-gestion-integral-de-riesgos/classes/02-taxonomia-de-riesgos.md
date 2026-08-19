@@ -392,10 +392,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2021). *Revisions to the Principles for the Sound Management of Operational Risk*. BIS. <https://www.bis.org/bcbs/publ/d515.htm>
-- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices*. BIS.
-- COSO (2017). *Enterprise Risk Management — Integrating with Strategy and Performance*. COSO.
-- ISO (2018). *ISO 31000: Risk management — Guidelines*. ISO.
+- Basel Committee on Banking Supervision (2021). *Revisions to the Principles for the Sound Management of Operational Risk*. BIS. Definición y categorías del riesgo operacional. <https://www.bis.org/bcbs/publ/d515.htm>
+- Basel Committee on Banking Supervision (2019). *Overview of Pillar 2 supervisory review practices and approaches*. BIS. Riesgos que el Pilar 2 exige cubrir más allá del Pilar 1.
+- COSO (2017). *Enterprise Risk Management — Integrating with Strategy and Performance*. COSO. Criterio para ordenar riesgos por objetivo y no por área.
+- ISO (2018). *ISO 31000: Risk management — Guidelines*. ISO. Vocabulario común de identificación y evaluación de riesgos.
 - Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Capítulos 1 y 2: panorama de riesgos.
 - Verificación local: revisa la taxonomía de riesgos exigida por tu supervisor y las categorías de la base de eventos de pérdida operacional.
 

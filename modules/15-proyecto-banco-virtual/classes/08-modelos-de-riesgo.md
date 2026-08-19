@@ -561,11 +561,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley.
-- Basel Committee on Banking Supervision (2005). *Studies on the Validation of Internal Rating Systems*. BIS.
+- Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley. Construcción y calibración de los modelos de incumplimiento.
+- Basel Committee on Banking Supervision (2005). *Studies on the Validation of Internal Rating Systems*. BIS. Criterios de validación de los modelos internos del banco.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, parámetros IRB. BIS.
-- Board of Governors of the Federal Reserve System (2011). *SR 11-7: Guidance on Model Risk Management*.
-- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley.
+- Board of Governors of the Federal Reserve System (2011). *SR 11-7: Guidance on Model Risk Management*. Gobierno del ciclo de vida del modelo y validación independiente.
+- Caouette, J., Altman, E., Narayanan, P. y Nimmo, R. (2008). *Managing Credit Risk* (2.ª ed.). Wiley. Estimación de pérdida dado el incumplimiento y de exposición.
 - Verificación local: revisa las exigencias de tu supervisor sobre estimación de parámetros, validación de modelos y provisiones mínimas.
 
 <!-- gen:footer:start -->

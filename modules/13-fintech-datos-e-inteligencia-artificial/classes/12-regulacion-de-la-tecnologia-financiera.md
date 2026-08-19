@@ -521,11 +521,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. <https://www.bis.org/bcbs/publ/d431.htm>
-- Financial Stability Board (2023). *Enhancing Third-Party Risk Management and Oversight*. FSB.
-- Bank for International Settlements (2020). *Policy responses to fintech: a cross-country overview*. FSI Insights 23. <https://www.bis.org/fsi/publ/insights23.htm>
-- World Bank (2020). *Global Experiences from Regulatory Sandboxes*. World Bank Group.
-- IOSCO (2019). *Regulatory Sandboxes and Innovation Facilitators*. IOSCO.
+- Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Expectativa prudencial ante la entrada de nuevos actores. <https://www.bis.org/bcbs/publ/d431.htm>
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Gestión del riesgo de terceros y de la concentración de proveedores.
+- Bank for International Settlements (2020). *Policy responses to fintech: a cross-country overview*. FSI Insights 23. Respuestas regulatorias comparadas entre jurisdicciones. <https://www.bis.org/fsi/publ/insights23.htm>
+- World Bank (2020). *Global Experiences from Regulatory Sandboxes*. World Bank Group. Resultados observados de los espacios controlados de prueba.
+- IOSCO (2019). *Regulatory Sandboxes and Innovation Facilitators*. IOSCO. Diseño de espacios controlados de prueba en mercados de valores.
 - Verificación local: identifica si tu país tiene ley fintech, espacio controlado de pruebas o licencias escalonadas, y qué actividades exigen autorización.
 
 <!-- gen:footer:start -->
