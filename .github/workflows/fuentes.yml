@@ -1,0 +1,113 @@
+name: Revalidacion de fuentes
+
+# El registro de fuentes se comprueba en DOS capas, y estan separadas a proposito.
+#
+#   1. `scripts/verify_sources.py` corre en ci.yml. Es offline, determinista y
+#      BLOQUEA: comprueba el esquema, los localizadores, que toda obra citada
+#      este registrada, que ninguna entrada quede sin usar y que las cifras del
+#      README salgan del registro y no de la mano de alguien.
+#
+#   2. este workflow corre `scripts/refresh_sources.py`. Toca la red -Open
+#      Library, Crossref y cada sitio oficial citado- y NO BLOQUEA. Si el BIS
+#      reorganiza su sitio un martes, el programa se entera; no se rompe.
+#
+# Mezclarlas seria el error clasico: meter la red en la puerta de calidad hace
+# que falle por causas ajenas al repositorio, y un CI que falla por causas
+# ajenas se acaba ignorando, que es peor que no tenerlo.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  revalidar:
+    name: Resolver localizadores contra su fuente
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      # continue-on-error es la pieza que hace que esta capa no bloquee: el
+      # resultado se publica pase lo que pase.
+      - name: Revalidar el registro contra sus fuentes
+        id: revalidar
+        continue-on-error: true
+        run: python scripts/refresh_sources.py
+
+      - name: Conservar el informe de revalidacion
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: revalidacion-de-fuentes
+          path: |
+            sources/revalidacion.md
+            sources/bibliography.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Preparar el informe de pendientes
+        id: pendientes
+        if: always()
+        run: |
+          python - <<'PY' > pendientes.md
+          import json, pathlib
+          registro = json.loads(pathlib.Path("sources/bibliography.json").read_text(encoding="utf-8"))
+          caidas = [
+              e for e in registro["entries"]
+              if e.get("status") != "verificada" and e.get("http_status") not in (None, 200)
+          ]
+          print("La revalidacion semanal encontro fuentes oficiales que dejaron de responder.")
+          print("Ninguna se ha borrado del registro: quedan como `pendiente` con su motivo.")
+          print()
+          print("| Entrada | Estado | Localizador |")
+          print("|---|---:|---|")
+          for e in sorted(caidas, key=lambda x: x["id"])[:100]:
+              print(f"| {e['id']} | {e.get('http_status', '-')} | {e.get('locator', '-')} |")
+          print()
+          print(f"Total sin resolver por red: **{len(caidas)}**.")
+          PY
+          conteo=$(grep -c '^| [a-z0-9]' pendientes.md || true)
+          echo "rotas=${conteo}" >> "$GITHUB_OUTPUT"
+
+      - name: Abrir issue si hay fuentes oficiales caidas
+        if: steps.pendientes.outputs.rotas != '0'
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
+        with:
+          title: "Fuentes oficiales que dejaron de responder"
+          content-filepath: pendientes.md
+          labels: mantenimiento, documentacion
+
+      - name: Resumen
+        if: always()
+        run: |
+          {
+            echo "### Revalidacion de fuentes"
+            echo ""
+            echo '```json'
+            python scripts/verify_sources.py --stats
+            echo '```'
+            echo ""
+            cat pendientes.md
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -76,6 +76,12 @@ jobs:
       - name: Validar metadatos regulatorios
         run: python tools/validate_metadata.py
 
+      # Una cita sin registro es una afirmacion sin respaldo comprobable. Este
+      # paso es offline a proposito: la resolucion en red vive en fuentes.yml y
+      # no bloquea, para que un servidor externo caido no rompa la CI.
+      - name: Verificar la trazabilidad de fuentes
+        run: python scripts/verify_sources.py
+
       - name: Validar los contratos OpenAPI
         run: python tools/validate_openapi.py
 
