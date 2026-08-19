@@ -58,7 +58,8 @@ sustituye. El número exacto de partes y clases está en
 
 | Documento | Para qué sirve |
 |---|---|
-| 📗 **[Fuentes](fuentes.md)** | Bibliografía consolidada: manuales, marcos institucionales y artículos fundacionales |
+| 📗 **[Fuentes](fuentes.md)** | Vista de lectura del registro: quién responde por cada obra, en qué partes se apoya y qué queda pendiente |
+| 🧾 **[Registro de fuentes](../sources/bibliography.json)** | El archivo: cada obra con su emisor, su localizador —ISBN-13, DOI o URL oficial— y su fecha de comprobación |
 | ⚖️ **[Ética y limitaciones](etica-y-limitaciones.md)** | Qué es y qué no es este material, uso de datos, modelos y contenidos sensibles |
 | 🏛️ **[Verificación regulatoria](metodologia-verificacion-regulatoria.md)** | Cómo se cita una norma, cómo se comprueba su vigencia y qué hacer si no se puede |
 | 🇨🇱 **[Matriz normativa de Chile](mapa-regulatorio-chile.md)** | Qué norma alcanza a qué actividad, quién supervisa y qué hay que verificar |
@@ -114,6 +115,7 @@ python tools/build_syllabus.py && python tools/progress.py && python tools/check
 | Validador | Qué comprueba |
 |---|---|
 | `tools/validate_program.py` | Estructura, secciones obligatorias y mínimo de fuentes |
+| `scripts/verify_sources.py` | Toda obra citada registrada con localizador, y cada cita con su uso declarado |
 | `tools/validate_metadata.py` | Que ninguna norma se cite sin fecha de verificación |
 | `tools/validate_openapi.py` | Contratos de API: alcances, errores, importes y enumerados |
 | `tools/validate_iso20022.py` | Mensajes de pago: campos, formatos y referencia estable |

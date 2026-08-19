@@ -51,6 +51,7 @@ python tools/build_syllabus.py --check
 python tools/progress.py --check
 python tools/build_file_index.py --check
 python tools/validate_metadata.py
+python scripts/verify_sources.py
 python tools/validate_openapi.py
 python tools/validate_datasets.py
 python tools/detect_secrets.py
@@ -60,7 +61,7 @@ pytest -q
 npx markdownlint-cli2
 ```
 
-Los trece deben pasar. Es lo mismo que verifica la integración continua.
+Los catorce deben pasar. Es lo mismo que verifica la integración continua.
 
 Si tocas el portal de estudio, verifica además que se genere:
 
@@ -108,6 +109,8 @@ Además:
 | Nombre de archivo en ASCII, numerado y correlativo | `validate_program.py` |
 | Bloques generados presentes (`gen:header`, `gen:agenda`, `gen:etica`, `gen:footer`) | `validate_program.py` |
 | **Al menos cuatro fuentes** en `📗 Fuentes y verificación` | `validate_program.py` |
+| **Cada fuente declara el uso** que esa clase hace de ella | `verify_sources.py` |
+| Toda obra citada tiene entrada en `sources/bibliography.json` | `verify_sources.py` |
 | Enlaces relativos que resuelvan | `check_links.py` |
 | Línea de verificación si la clase cita un instrumento normativo | `validate_metadata.py` |
 
@@ -171,9 +174,33 @@ Formato de una entrada:
 - Saunders, A. y Cornett, M. (2021). *Financial Institutions Management* (10.ª ed.).
   McGraw-Hill. Capítulos 8, 9 y 17: gestión de activos y pasivos y de liquidez.
 - Basel Committee on Banking Supervision (2016). *Interest rate risk in the banking book*.
-  BIS. <https://www.bis.org/bcbs/publ/d368.htm>
+  BIS. Escenarios de choque de tasas y medidas de valor económico y margen.
+  <https://www.bis.org/bcbs/publ/d368.htm>
 - Verificación local: revisa los requerimientos que aplica tu supervisor.
 ```
+
+La frase que sigue a la editorial **no es opcional**: dice qué toma esa clase de esa obra.
+Sin ella, quien quiera comprobar la afirmación tendría que leerse el documento entero para
+averiguar si dice lo que la clase supone, y `verify_sources.py` rechaza la cita.
+
+### El registro de fuentes
+
+Las citas no viven solo en la clase: alimentan
+**[sources/bibliography.json](sources/bibliography.json)**, donde cada obra tiene emisor,
+localizador y fecha de comprobación. No se edita a mano — se reconstruye desde las clases:
+
+```bash
+python scripts/verify_sources.py --rebuild
+```
+
+Un localizador admite exactamente tres formas: **ISBN-13** para un libro, **DOI** para un
+artículo y **URL https de la fuente primaria** para una norma o documento oficial. Los
+resuelve `scripts/refresh_sources.py` contra Open Library, Crossref y el propio sitio del
+emisor; lo que no resuelve queda como `pendiente` con el motivo escrito.
+
+**Nunca inventes un ISBN, un DOI, una URL o una fecha**, y **nunca borres** una fuente que
+no resuelva: se marca, no se elimina. Un hueco declarado es información; un hueco relleno
+por intuición es una invención con formato de bibliografía.
 
 ---
 

@@ -49,7 +49,8 @@
 | Proyectos integradores | 23 |
 | Aplicaciones funcionales | 11 |
 | Conjuntos de datos sintéticos | 6 |
-| Fichas normativas estructuradas | 8 |
+| Fichas normativas estructuradas | 13 |
+| Obras en el registro de fuentes | `sources/bibliography.json` |
 
 ## 🧱 Estructura de una clase
 
@@ -60,6 +61,8 @@
 | Ejemplo numérico guiado | ✅ | `validate_program.py` |
 | Puente «del cliente al banco» | ✅ | `validate_program.py` |
 | Mínimo 4 fuentes verificables | ✅ | `validate_program.py` |
+| Cada fuente declara el uso que la clase hace de ella | ✅ | `verify_sources.py` |
+| Toda obra citada tiene entrada en el registro | ✅ | `verify_sources.py` |
 | Bloques generados al día | ✅ | `render_program.py --check` |
 | Enlaces relativos que resuelvan | ✅ | `check_links.py` |
 | Línea de verificación si cita una norma | ✅ | `validate_metadata.py` |
@@ -110,6 +113,8 @@ Estos archivos se producen desde el contenido y **no se editan a mano**:
 | `FILE_INDEX.md` | `tools/build_file_index.py` |
 | Bloques `gen:*` de cada clase | `tools/render_program.py` |
 | Portal de estudio (`site/`) | `tools/build_site.py` |
+| `sources/bibliography.json` | `scripts/verify_sources.py --rebuild` |
+| Cifras de fuentes del README y de `docs/fuentes.md` | `scripts/verify_sources.py --rebuild` |
 
 ## 📋 Requisitos técnicos
 
@@ -141,15 +146,19 @@ python tools/check_links.py && python tools/build_site.py --check
 ```
 
 ```bash
-python tools/validate_metadata.py && python tools/validate_openapi.py
+python tools/validate_metadata.py && python scripts/verify_sources.py
 ```
 
 ```bash
-python tools/validate_iso20022.py && python tools/validate_datasets.py
+python tools/validate_openapi.py && python tools/validate_iso20022.py
 ```
 
 ```bash
-python tools/detect_secrets.py && python tools/detect_pii.py
+python tools/validate_datasets.py && python tools/detect_secrets.py
+```
+
+```bash
+python tools/detect_pii.py
 ```
 
 ```bash
