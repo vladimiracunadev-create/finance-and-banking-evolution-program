@@ -44,8 +44,8 @@ promesa en un archivo con verificador.
   conectado a `ci.yml`. Comprueba el esquema, el dígito de control de cada
   ISBN-13, la forma canónica de cada localizador, que toda obra citada esté
   registrada, que ninguna entrada del registro haya dejado de usarse, que ningún
-  bloque de fuentes se repita entre clases y que **las cifras que muestran el
-  README y `docs/fuentes.md` salgan del recuento y no de la mano de alguien**.
+  bloque de fuentes se repita entre clases y que **las pocas cifras que quedan
+  escritas salgan del recuento y no de la mano de alguien**.
 - **`scripts/refresh_sources.py`** — revalidador **en red y no bloqueante**.
   Resuelve el ISBN contra Open Library y el DOI contra Crossref comparando
   título y autores, consulta cada URL oficial y registra su estado. Lo corre
@@ -68,8 +68,14 @@ promesa en un archivo con verificador.
   documentos distintos con enlaces distintos.
 - **`docs/fuentes.md` era una lista escrita a mano** que enumeraba 99 claves
   frente a las que el material usaba de verdad. Ahora se genera desde el
-  registro: agrupa por quién responde por cada obra, muestra las partes donde se
-  apoya y declara qué queda pendiente y por qué.
+  registro y encabeza con lo que un lector busca: **qué documento de qué
+  regulador sostiene qué parte**, con el enlace a la fuente primaria. Después
+  agrupa el resto por quién responde por cada obra y declara qué queda pendiente
+  y por qué.
+- El README **no** gana un tablero de cifras. Un marcador de cobertura no ayuda
+  a estudiar: lo que valida el contenido es la fuente al pie de cada clase, y esa
+  ya está en las 356. Del registro solo toma las dos cifras que antes estaban
+  escritas a mano, y un enlace a la bibliografía.
 
 ### 🔒 Trazabilidad
 

@@ -95,74 +95,7 @@ Cada parte sigue explícitamente la secuencia y los énfasis de la literatura de
 | **Banca, crédito y riesgo** | Saunders & Cornett · Rose & Hudgins — *Bank Management* · Caouette & Altman — *Managing Credit Risk* · Anderson — *The Credit Scoring Toolkit* · Siddiqi · Hull — *Risk Management and Financial Institutions* |
 | **Marcos institucionales** | **BCBS** (BIS) · **FSB** · **IOSCO** · **CPMI** · **GAFI/FATF** · **OCDE** · **FMI** · **Banco Mundial** · **NIST** · **COSO** · **IFRS Foundation** |
 
-> Las referencias apuntan a las obras y a los documentos oficiales; **no se reproduce su contenido**. La redacción del programa es original. Bibliografía consolidada en **[docs/fuentes.md](docs/fuentes.md)**.
-
-<!-- gen:fuentes:start -->
-## 📗 Trazabilidad de fuentes
-
-Toda afirmación del programa se apoya en una obra registrada. El registro es un archivo, no una promesa: **[sources/bibliography.json](sources/bibliography.json)** guarda cada obra con su emisor, su localizador y la fecha en que se comprobó, y **[scripts/verify_sources.py](scripts/verify_sources.py)** falla en CI si una clase cita algo que no está registrado o si una entrada del registro dejó de usarse.
-
-| 📚 Obras registradas | 📎 Citas en clase | ✅ Con localizador comprobado | 🕓 Pendientes | 🏛️ Organismos | 🔁 Normas revalidables |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **699** | **1 729** | **408** | **291** | **174** | **110** |
-
-**Cobertura del registro: 100.0 %.** Es decir: de todas las obras que las 356 clases citan, esa proporción tiene entrada propia en el registro. De ellas, **58.4 %** tiene además el localizador resuelto contra su fuente.
-
-Las cifras de esta tabla las produce el verificador; no se escriben a mano. «Pendiente» no significa dudosa: significa que su localizador todavía no se resolvió contra la fuente y que el hueco está declarado en vez de disimulado. Un hueco declarado es información; un hueco rellenado por intuición sería una invención con formato de bibliografía.
-
-### Documentos rectores por regulador
-
-Estos son los documentos que más veces sostienen una afirmación del programa. El 🔁 marca la norma cuya versión vigente puede cambiar por enmienda, y que por eso se revalida con fecha.
-
-| Regulador | Documento | Partes |
-|---|---|---|
-| Comité de Supervisión Bancaria de Basilea (BCBS) | [Basel III: Finalising post-crisis reforms](https://www.bis.org/bcbs/publ/d424.htm) 🔁 | 3, 6, 9, 10, 11, 12, 13, 15, 16, 22 |
-| Comité de Supervisión Bancaria de Basilea (BCBS) | [Corporate governance principles for banks](https://www.bis.org/bcbs/publ/d328.htm) 🔁 | 11, 12, 13, 15, 16, 20, 22, 23 |
-| Comité de Supervisión Bancaria de Basilea (BCBS) | [Principles for Operational Resilience](https://www.bis.org/bcbs/publ/d516.htm) 🔁 | 4, 10, 11, 14, 16, 17, 19, 22, 23 |
-| Comité de Supervisión Bancaria de Basilea (BCBS) | [Principles for effective risk data aggregation and risk reporting (BCBS 239)](https://www.bis.org/publ/bcbs239.htm) 🔁 | 1, 4, 5, 7, 10, 14, 15, 16, 17 |
-| Banco de Pagos Internacionales (BIS) | [Annual Economic Report, capítulo III](https://www.bis.org/publ/arpdf/ar2023e3.htm) | 18, 19, 20, 21, 22, 23 |
-| Banco de Pagos Internacionales (BIS) | [Annual Economic Report](https://www.bis.org/publ/arpdf/ar2023e.htm) | 6, 11, 15, 16 |
-| Banco de Pagos Internacionales (BIS) | [Sound Practices: Implications of fintech developments for banks and bank supervisors](https://www.bis.org/bcbs/publ/d431.htm) | 10, 14, 16, 22, 23 |
-| Banco de Pagos Internacionales (BIS) | [Core Principles for Effective Deposit Insurance Systems](https://www.iadi.org/) | 3, 12 |
-| Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Principles for Financial Market Infrastructures](https://www.bis.org/cpmi/publ/d101.htm) | 3, 8, 10, 14, 17, 18, 19, 21, 22, 23 |
-| Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Tokenisation in the context of money and other assets: concepts and implications for central banks](https://www.bis.org/cpmi/publ/d225.htm) | 20, 21, 22, 23 |
-| Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Distributed ledger technology in payment, clearing and settlement: an analytical framework](https://www.bis.org/cpmi/publ/d157.htm) | 19 |
-| Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Application of the Principles for Financial Market Infrastructures to stablecoin arrangements](https://www.bis.org/cpmi/publ/d206.htm) | 14, 18, 19, 20, 22 |
-| Organización Internacional de Comisiones de Valores (IOSCO) | [Policy Recommendations for Crypto and Digital Asset Markets](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf) | 20, 21, 22, 23 |
-| Organización Internacional de Comisiones de Valores (IOSCO) | [Decentralized Finance Report](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf) | 19, 20, 21 |
-| Organización Internacional de Comisiones de Valores (IOSCO) | [Objectives and Principles of Securities Regulation](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf) | 21, 22 |
-| Organización Internacional de Comisiones de Valores (IOSCO) | [Policy Recommendations for Decentralized Finance](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf) | 21, 22 |
-| Consejo de Estabilidad Financiera (FSB) | [Global Regulatory Framework for Crypto-asset Activities](https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities) | 14, 20, 22, 23 |
-| Consejo de Estabilidad Financiera (FSB) | [Effective Practices for Cyber Incident Response and Recovery](https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report) | 4, 10, 11, 14, 16, 22, 23 |
-| Consejo de Estabilidad Financiera (FSB) | [Enhancing third-party risk management and oversight: a toolkit](https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities) | 14, 17, 18, 19 |
-| Consejo de Estabilidad Financiera (FSB) | [Principles for an Effective Risk Appetite Framework](https://www.fsb.org/2013/11/r_131118) | 11, 15, 16 |
-| Grupo de Acción Financiera Internacional (GAFI/FATF) | [Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html) | 14, 18, 20, 22, 23 |
-| Grupo de Acción Financiera Internacional (GAFI/FATF) | [FATF Recommendations](https://www.fatf-gafi.org/) 🔁 | 9, 10 |
-| Grupo de Acción Financiera Internacional (GAFI/FATF) | [Guidance on Digital Identity](https://www.fatf-gafi.org/) | 4, 9 |
-| Grupo de Acción Financiera Internacional (GAFI/FATF) | Stocktake on Data Pooling, Collaborative Analytics and Data Protection | 12 |
-| Unión Europea (EUR-Lex) | [Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114) 🔁 | 20, 22 |
-| Unión Europea (EUR-Lex) | [Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554) | 17, 22, 23 |
-| Unión Europea (EUR-Lex) | [Directive 2008/48/EC on credit agreements for consumers](https://eur-lex.europa.eu/) | 3, 4 |
-| Unión Europea (EUR-Lex) | [Reglamento (UE) 2016/679 (RGPD)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) 🔁 | 17, 19 |
-| Comisión para el Mercado Financiero (CMF, Chile) | [Normativa aplicable a entidades financieras](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 23 |
-| Comisión para el Mercado Financiero (CMF, Chile) | [Normativa sobre custodia y depósito de valores](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 21, 22 |
-| Comisión para el Mercado Financiero (CMF, Chile) | [Normativa sobre oferta pública de valores e inscripción en el Registro de Valores](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 21, 22 |
-| Comisión para el Mercado Financiero (CMF, Chile) | [Anexo técnico del Sistema de Finanzas Abiertas: definiciones y esquemas de datos](https://www.cmfchile.cl/) | 17 |
-| IFRS Foundation | [NIC 1 Presentación de Estados Financieros](https://www.ifrs.org/) 🔁 | 5, 16 |
-| IFRS Foundation | [NIIF 9 Instrumentos Financieros](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments) 🔁 | 1, 5, 9, 11, 13, 16 |
-| IFRS Foundation | [Marco Conceptual para la Información Financiera](https://www.ifrs.org/) 🔁 | 2, 5 |
-| IFRS Foundation | [NIC 7 Estado de Flujos de Efectivo](https://www.ifrs.org/) 🔁 | 5, 13 |
-| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | Recommendation on Financial Literacy | 1, 2, 3 |
-| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [G20/OECD High-Level Principles on Financial Consumer Protection](https://www.oecd.org/finance/financial-education) | 12, 15, 16 |
-| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [G20/OECD High-Level Principles on Financial Consumer Protection](https://www.oecd.org/finance/financial-education/48892010.pdf) | 4, 22, 23 |
-| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | Consumer Price Index Manual: Theory and Practice | 1, 6 |
-| Banco Mundial | Good Practices for Financial Consumer Protection | 1, 2, 3, 4, 9, 10 |
-| Banco Mundial | [Remittance Prices Worldwide](https://remittanceprices.worldbank.org/) | 10, 18 |
-| Banco Mundial | Alternative Data Transforming SME Finance | 14, 16 |
-| Banco Mundial | Good Practices for Financial Consumer Protection | 10, 12, 15 |
-
-Y 413 obras más de 174 organismos y editoriales, con el detalle completo en el registro y la vista de lectura en **[docs/fuentes.md](docs/fuentes.md)**. Última revalidación en red: **2026-08-19**.
-<!-- gen:fuentes:end -->
+> Las referencias apuntan a las obras y a los documentos oficiales; **no se reproduce su contenido**. La redacción del programa es original. Cada clase cierra con sus fuentes, el enlace a la fuente primaria cuando existe y la frase que dice qué toma de ella. Bibliografía consolidada en **[docs/fuentes.md](docs/fuentes.md)**, sobre el registro **[sources/bibliography.json](sources/bibliography.json)** que **[scripts/verify_sources.py](scripts/verify_sources.py)** comprueba en cada cambio.
 
 ## 🗺️ Cómo progresa el programa
 

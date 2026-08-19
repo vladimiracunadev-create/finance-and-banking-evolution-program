@@ -1,10 +1,18 @@
 """Documentos que se generan desde el registro de fuentes.
 
-Las cifras de trazabilidad no se escriben a mano en ninguna página. Una cifra
-escrita a mano envejece en silencio: el registro crece, el README sigue diciendo
-lo de antes y nadie se entera hasta que alguien la comprueba. Aquí se producen
-las dos vistas que ve un lector —el bloque del README y la página
-`docs/fuentes.md`— a partir del mismo recuento que usa el verificador.
+La bibliografía que ve un lector se produce aquí, desde el registro. Son dos
+cosas distintas y conviene no confundirlas:
+
+* `docs/fuentes.md` es la **vista de lectura**: qué documento de qué regulador
+  sostiene qué parte del programa, con su enlace. Eso es contenido.
+* el README solo recibe **dos cifras** que antes estaban escritas a mano. No
+  lleva tablero de trazabilidad: quien estudia el programa no necesita un
+  marcador de cobertura, necesita la fuente al pie de la clase que está leyendo,
+  y esa la trae cada clase.
+
+Una cifra escrita a mano envejece en silencio: el material crece, la página
+sigue diciendo lo de antes y nadie se entera hasta que alguien la comprueba. Por
+eso las pocas que quedan salen del mismo recuento que usa el verificador.
 
 Este módulo no decide nada: solo redacta lo que el registro ya dice.
 """
@@ -28,7 +36,9 @@ PAGINA = S.ROOT / "docs" / "fuentes.md"
 USO_MINIMO = 12
 
 # Emisores por los que responde el programa. El orden es el de autoridad: lo que
-# sostiene una afirmación sobre capital bancario es Basilea, no un manual.
+# sostiene una afirmación sobre capital bancario es Basilea, no un manual. Sus
+# documentos encabezan la página de bibliografía porque son los que un lector
+# necesita poder abrir.
 EMISORES_RECTORES = (
     "Comité de Supervisión Bancaria de Basilea (BCBS)",
     "Banco de Pagos Internacionales (BIS)",
@@ -43,7 +53,7 @@ EMISORES_RECTORES = (
     "Banco Mundial",
 )
 
-DOCUMENTOS_POR_EMISOR = 4
+DOCUMENTOS_POR_EMISOR = 8
 
 
 def parte_de(ruta: str) -> int:
@@ -77,78 +87,26 @@ def _por_emisor(registro: dict) -> dict[str, list[dict]]:
 # --------------------------------------------------------------------------- #
 # Bloques generados
 # --------------------------------------------------------------------------- #
-def bloque_readme(numeros: dict, registro: dict) -> str:
+def bloque_pagina(numeros: dict, registro: dict) -> str:
+    """La página de bibliografía: primero las obras, después el estado del registro."""
     agrupado = _por_emisor(registro)
-    filas = []
-    cubiertos = 0
+    entradas = registro.get("entries", [])
+
+    filas_rectoras = []
     for emisor in EMISORES_RECTORES:
-        entradas = agrupado.get(emisor, [])
-        cubiertos += len(entradas)
-        for entrada in entradas[:DOCUMENTOS_POR_EMISOR]:
+        for entrada in agrupado.get(emisor, [])[:DOCUMENTOS_POR_EMISOR]:
             titulo = entrada["title"].replace("|", "\\|")
             locator = entrada.get("locator", "")
             documento = f"[{titulo}]({locator})" if locator.startswith("https://") else titulo
             marca = " 🔁" if entrada.get("amendable") else ""
-            filas.append(f"| {emisor} | {documento}{marca} | {_lista_partes(entrada)} |")
-
-    restantes = numeros["obras"] - cubiertos
-    organismos = len({e.get("authority") for e in registro.get("entries", [])})
-
-    lineas = [
-        "## 📗 Trazabilidad de fuentes",
-        "",
-        "Toda afirmación del programa se apoya en una obra registrada. El registro "
-        "es un archivo, no una promesa: **[sources/bibliography.json](sources/bibliography.json)** "
-        "guarda cada obra con su emisor, su localizador y la fecha en que se comprobó, "
-        "y **[scripts/verify_sources.py](scripts/verify_sources.py)** falla en CI si una clase "
-        "cita algo que no está registrado o si una entrada del registro dejó de usarse.",
-        "",
-        f"| 📚 Obras registradas | 📎 Citas en clase | ✅ Con localizador comprobado | "
-        f"🕓 Pendientes | 🏛️ Organismos | 🔁 Normas revalidables |",
-        "|:---:|:---:|:---:|:---:|:---:|:---:|",
-        f"| **{_miles(numeros['obras'])}** | **{_miles(numeros['citas'])}** | "
-        f"**{_miles(numeros['verificadas'])}** | **{_miles(numeros['pendientes'])}** | "
-        f"**{organismos}** | **{_miles(numeros['enmendables'])}** |",
-        "",
-        f"**Cobertura del registro: {numeros['cobertura_registro']} %.** Es decir: de todas "
-        f"las obras que las {numeros['clases']} clases citan, esa proporción tiene entrada "
-        f"propia en el registro. De ellas, **{numeros['cobertura_verificada']} %** tiene además "
-        "el localizador resuelto contra su fuente.",
-        "",
-        "Las cifras de esta tabla las produce el verificador; no se escriben a mano. "
-        "«Pendiente» no significa dudosa: significa que su localizador todavía no se "
-        "resolvió contra la fuente y que el hueco está declarado en vez de disimulado. "
-        "Un hueco declarado es información; un hueco rellenado por intuición sería una "
-        "invención con formato de bibliografía.",
-        "",
-        "### Documentos rectores por regulador",
-        "",
-        "Estos son los documentos que más veces sostienen una afirmación del programa. "
-        "El 🔁 marca la norma cuya versión vigente puede cambiar por enmienda, y que por "
-        "eso se revalida con fecha.",
-        "",
-        "| Regulador | Documento | Partes |",
-        "|---|---|---|",
-        *filas,
-        "",
-        f"Y {_miles(restantes)} obras más de {organismos} organismos y editoriales, "
-        f"con el detalle completo en el registro y la vista de lectura en "
-        f"**[docs/fuentes.md](docs/fuentes.md)**. Última revalidación en red: "
-        f"**{numeros['verified_on']}**.",
-    ]
-    return "\n".join(lineas)
-
-
-def bloque_pagina(numeros: dict, registro: dict) -> str:
-    agrupado = _por_emisor(registro)
-    entradas = registro.get("entries", [])
+            filas_rectoras.append(f"| {emisor} | {documento}{marca} | {_lista_partes(entrada)} |")
 
     filas_emisor = []
     for emisor, obras in sorted(agrupado.items(), key=lambda kv: (-len(kv[1]), kv[0])):
         partes = sorted({p for o in obras for p in partes_de(o)})
-        verificadas = sum(1 for o in obras if o.get("status") == "verificada")
+        con_enlace = sum(1 for o in obras if o.get("locator", "").startswith("https://"))
         filas_emisor.append(
-            f"| {emisor or '—'} | {len(obras)} | {verificadas} | "
+            f"| {emisor or '—'} | {len(obras)} | {con_enlace} | "
             f"{', '.join(str(p) for p in partes)} |"
         )
 
@@ -162,41 +120,24 @@ def bloque_pagina(numeros: dict, registro: dict) -> str:
     ]
 
     lineas = [
-        "## 🧾 El registro en cifras",
+        "## 🏛️ Los documentos que sostienen cada parte",
         "",
-        f"El programa cita **{_miles(numeros['citas'])} veces** un total de "
-        f"**{_miles(numeros['obras'])} obras** a lo largo de sus "
-        f"**{numeros['clases']} clases**. De esas obras, "
-        f"**{_miles(numeros['verificadas'])}** tienen hoy un localizador comprobado "
-        f"—ISBN-13, DOI o URL oficial con fecha de acceso— y "
-        f"**{_miles(numeros['pendientes'])}** siguen pendientes de resolver.",
+        "Esta es la tabla que importa: qué documento de qué regulador sostiene qué parte "
+        "del programa, con el enlace a la fuente primaria. Se ordena por cuántas clases se "
+        "apoyan en cada documento, y el 🔁 marca la norma cuya versión vigente puede cambiar "
+        "por enmienda —Basilea, MiCA, las NIIF—, que por eso lleva fecha de revalidación.",
         "",
-        "El detalle está en **[sources/bibliography.json](../sources/bibliography.json)**, "
-        "que es la fuente de verdad. Esta página es su vista de lectura: agrupa por quién "
-        "responde por cada obra y en qué partes del programa se apoya.",
+        "| Regulador | Documento | Partes |",
+        "|---|---|---|",
+        *filas_rectoras,
         "",
-        "| Tipo | Obras | Localizador que exige |",
-        "|---|---:|---|",
-        f"| Libro | {numeros['por_tipo'].get('book', 0)} | ISBN-13 con dígito de control válido |",
-        f"| Artículo | {numeros['por_tipo'].get('paper', 0)} | DOI |",
-        f"| Norma o documento oficial | {numeros['por_tipo'].get('standard', 0)} | URL https de la fuente primaria, con fecha de acceso |",
-        f"| Referencia | {numeros['por_tipo'].get('reference', 0)} | URL https de la fuente primaria, con fecha de acceso |",
+        "## 📚 Quién responde por cada obra",
         "",
-        "El ISBN-13 se resuelve contra Open Library comparando título y autores, y se "
-        "prefiere la edición del año que cita la clase. Cuando esa edición concreta no "
-        "declara ISBN, se registra el de otra edición de la misma obra: el localizador "
-        "lleva al libro correcto, y el año que aparece en el registro sigue siendo el "
-        "que cita la clase. Cuando ni título ni autores coinciden con seguridad, la "
-        "entrada se queda pendiente antes que arriesgar un ISBN casi correcto, que es "
-        "peor que ninguno porque aparenta una comprobación que nadie hizo.",
+        "El resto de la bibliografía, agrupada por quién responde por ella. **Con enlace** "
+        "cuenta las obras cuyo localizador —ISBN-13, DOI o URL oficial— está en el registro; "
+        "cuando una fila muestra menos, el hueco es visible a propósito.",
         "",
-        "## 🏛️ Quién responde por cada obra",
-        "",
-        "La columna **Comprobadas** dice cuántas de esas obras tienen hoy el localizador "
-        "resuelto contra su fuente. Cuando una fila muestra menos comprobadas que obras, "
-        "el hueco es visible a propósito.",
-        "",
-        "| Emisor o editorial | Obras | Comprobadas | Partes |",
+        "| Emisor o editorial | Obras | Con enlace | Partes |",
         "|---|---:|---:|---|",
         *filas_emisor,
         "",
@@ -237,8 +178,14 @@ def inyecta(texto: str, nombre: str, contenido: str) -> str:
 
 
 def _readme_actualizado(numeros: dict, registro: dict) -> str:
+    """El README solo toma del registro las dos cifras que ya mostraba.
+
+    No lleva tabla de trazabilidad ni marcador de cobertura. Quien lee el
+    programa no necesita un tablero sobre la bibliografía: necesita la fuente
+    al pie de la clase que está leyendo, y esa ya está. Lo que aquí se sustituye
+    son dos números que antes se escribían a mano y envejecían solos.
+    """
     texto = README.read_text(encoding="utf-8")
-    texto = inyecta(texto, "fuentes", bloque_readme(numeros, registro))
     texto = inyecta(texto, "fuentes-citas", f"**{_miles(numeros['citas'])}**")
     texto = inyecta(texto, "fuentes-obras", f"**{_miles(numeros['obras'])}** obras registradas")
     return texto
