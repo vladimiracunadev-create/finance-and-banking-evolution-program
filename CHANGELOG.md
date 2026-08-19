@@ -5,7 +5,7 @@
 
 **Todo lo que ha cambiado en el programa, versión a versión, con el formato Keep a Changelog.**
 
-[![versión](https://img.shields.io/badge/versi%C3%B3n-2.2.1-e67e22?style=flat-square)](CHANGELOG.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.3.0-e67e22?style=flat-square)](CHANGELOG.md)
 [![formato](https://img.shields.io/badge/formato-Keep%20a%20Changelog%20%C2%B7%20SemVer-1f6feb?style=flat-square)](https://keepachangelog.com/es-ES/1.1.0/)
 
 [🏠 Inicio](README.md) ·
@@ -19,6 +19,80 @@
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el
 versionado sigue [SemVer](https://semver.org/lang/es/).
+
+---
+
+## [2.3.0] — 2026-08-19
+
+Cada cita, con su localizador. El programa citaba bien y no lo podía demostrar:
+las 356 clases traían sus fuentes, pero el registro consolidado cubría una
+fracción de lo que se citaba, y el README prometía «fuentes oficiales
+verificables» sin nada que permitiera comprobarlo. Esta versión convierte esa
+promesa en un archivo con verificador.
+
+### ✨ Añadido
+
+- **`sources/bibliography.json`** — el registro de fuentes del programa:
+  **699 obras** con su emisor, su tipo, el año, las clases que las usan y un
+  localizador resoluble. Se admiten exactamente tres formas de localizador:
+  **ISBN-13** con dígito de control válido para un libro, **DOI** para un
+  artículo y **URL https de la fuente primaria** con fecha de acceso para una
+  norma o un documento oficial. El registro **no se escribe a mano**: se
+  reconstruye desde las citas de las clases, de modo que no puede contener una
+  obra que nadie cite ni omitir una que alguien cite.
+- **`scripts/verify_sources.py`** — verificador **offline y bloqueante**, ya
+  conectado a `ci.yml`. Comprueba el esquema, el dígito de control de cada
+  ISBN-13, la forma canónica de cada localizador, que toda obra citada esté
+  registrada, que ninguna entrada del registro haya dejado de usarse, que ningún
+  bloque de fuentes se repita entre clases y que **las cifras que muestran el
+  README y `docs/fuentes.md` salgan del recuento y no de la mano de alguien**.
+- **`scripts/refresh_sources.py`** — revalidador **en red y no bloqueante**.
+  Resuelve el ISBN contra Open Library y el DOI contra Crossref comparando
+  título y autores, consulta cada URL oficial y registra su estado. Lo corre
+  cada lunes el flujo nuevo **`fuentes.yml`**, que publica el informe y abre un
+  issue cuando una fuente oficial deja de responder.
+- **`sources/revalidacion.md`** — el resultado de la última revalidación, clase
+  normativa por clase normativa, con los enlaces que no resolvieron.
+
+### 🔧 Corregido
+
+- **Las citas decían qué obra, no qué se tomaba de ella.** 860 citas de las
+  1 729 del programa nombraban una obra sin decir qué sostiene en esa clase, lo
+  que obligaba a leerse el documento entero para comprobar una sola afirmación.
+  Todas declaran ahora su uso, y el verificador rechaza las que no lo hagan.
+- **Un mismo documento se citaba con títulos distintos** —«Ley 21.521» y su
+  título oficial completo, «BCBS 239» y «Principles for effective risk data
+  aggregation and risk reporting», el informe anual del BIS y su capítulo III—,
+  lo que partía una obra en varias entradas. Los títulos se unificaron y el
+  capítulo del informe anual se distingue del informe completo, que son
+  documentos distintos con enlaces distintos.
+- **`docs/fuentes.md` era una lista escrita a mano** que enumeraba 99 claves
+  frente a las que el material usaba de verdad. Ahora se genera desde el
+  registro: agrupa por quién responde por cada obra, muestra las partes donde se
+  apoya y declara qué queda pendiente y por qué.
+
+### 🔒 Trazabilidad
+
+- **408 de las 699 obras** tienen hoy el localizador resuelto contra su
+  fuente, con fecha de acceso. Las **291 restantes** quedan como `pendiente`
+  **con el motivo escrito**: la mayoría —134— son normas que el material
+  cita sin enlace a la fuente primaria, y el resto son catálogos que no
+  devuelven coincidencia o servidores que rechazan una consulta automática.
+  Ninguna se ha borrado: un hueco declarado es información, y un hueco relleno
+  por intuición sería una invención con formato de bibliografía.
+- **Las 116 clases con contenido normativo se revalidaron por lote.** La
+  fecha de verificación solo avanza cuando **todos** los enlaces oficiales que
+  esa clase cita respondieron; si uno falló, la clase conserva la fecha
+  anterior.
+
+### 🧭 Notas de migración
+
+- El registro y las dos vistas que lo muestran son documentos **generados**. Al
+  añadir o corregir una cita hay que ejecutar `python scripts/verify_sources.py
+  --rebuild`; la integración continua falla si quedan desfasados.
+- Toda cita nueva debe declarar **qué uso hace la clase de la obra** después de
+  la editorial y antes del enlace. Es un requisito verificado, no una
+  convención de estilo.
 
 ---
 

@@ -9,7 +9,7 @@ El CHANGELOG ya cuenta lo primero, escrito a mano y revisado. Este script lo
 extrae y le anade la lista real de artefactos publicados, con su tamano.
 
 Uso:
-    python tools/release_notes.py v2.2.1 entrega/ > notas.md
+    python tools/release_notes.py v2.3.0 entrega/ > notas.md
 """
 
 from __future__ import annotations
@@ -24,11 +24,13 @@ REPO = "https://github.com/vladimiracunadev-create/finance-and-banking-evolution
 
 # Titular de la publicacion. Es lo unico que se escribe a mano por version: el
 # resto sale del CHANGELOG y de los archivos que se publican.
-TITULAR = """## 📦 El paquete completo, ahora completo de verdad
+TITULAR = """## 📗 Cada cita, con su localizador
 
-La **v2.2.0** trajo la regulación con nombre propio —cuatro clases sobre MiCA, sus normas conexas y el caso de El Salvador— y la biblioteca de 26 casos. Pero su `programa-completo.zip` se armaba con una lista de carpetas escrita a mano, y esa lista nunca incluyó `case-studies/` ni `regulatory/`: el paquete se publicó sin ellas y nada falló.
+El programa citaba bien y no lo podía demostrar. Las 356 clases traían sus fuentes, pero el registro consolidado cubría una fracción de lo citado, y el README prometía «fuentes oficiales verificables» sin una forma de comprobarlo.
 
-**v2.2.1** lo arma desde `git ls-files` y lo verifica abriéndolo. El APK, la aplicación de Windows y el PDF de la 2.2.0 ya estaban completos.
+**v2.3.0** convierte ese registro en `sources/bibliography.json`: cada obra con su emisor, su localizador —ISBN-13, DOI o URL oficial— y la fecha en que se comprobó. Cada cita en clase declara además **qué uso hace de la obra**, no solo que existe.
+
+Dos verificadores lo sostienen: `scripts/verify_sources.py` corre offline en cada cambio y bloquea; `scripts/refresh_sources.py` resuelve los localizadores contra Open Library, Crossref y los sitios oficiales, e informa sin bloquear. Lo que no resuelve queda declarado como pendiente, con el motivo: un hueco declarado es información.
 
 El programa sigue en **356 clases y 534 horas**."""
 

@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-913-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-920-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -26,6 +26,7 @@
 - `.github/workflows/ci.yml`
 - `.github/workflows/codeql.yml`
 - `.github/workflows/enlaces-externos.yml`
+- `.github/workflows/fuentes.yml`
 - `.github/workflows/pages.yml`
 - `.github/workflows/release.yml`
 - `.github/workflows/security.yml`
@@ -903,6 +904,12 @@
 - `regulatory/union-europea/transferencias-fondos-reglamento-2023-1113.yml`
 - `requirements-site.txt`
 - `requirements.txt`
+- `scripts/refresh_sources.py`
+- `scripts/sources_docs.py`
+- `scripts/sources_lib.py`
+- `scripts/verify_sources.py`
+- `sources/bibliography.json`
+- `sources/revalidacion.md`
 - `tests/test_calculators.py`
 - `tests/test_cross_border_payments_lab.py`
 - `tests/test_digital_assets_risk_lab.py`
