@@ -5,7 +5,7 @@
 
 **Todo lo que ha cambiado en el programa, versión a versión, con el formato Keep a Changelog.**
 
-[![versión](https://img.shields.io/badge/versi%C3%B3n-2.3.0-e67e22?style=flat-square)](CHANGELOG.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.3.1-e67e22?style=flat-square)](CHANGELOG.md)
 [![formato](https://img.shields.io/badge/formato-Keep%20a%20Changelog%20%C2%B7%20SemVer-1f6feb?style=flat-square)](https://keepachangelog.com/es-ES/1.1.0/)
 
 [🏠 Inicio](README.md) ·
@@ -19,6 +19,50 @@
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el
 versionado sigue [SemVer](https://semver.org/lang/es/).
+
+---
+
+## [2.3.1] — 2026-08-20
+
+Cierra el hueco que la 2.3.0 dejó declarado: las normas que el material citaba
+sin enlace a su fuente primaria, y los enlaces que habían dejado de responder.
+
+### 🔧 Corregido
+
+- **Trece enlaces oficiales estaban rotos** y nadie lo sabía porque nadie los
+  abría: el boletín estadístico del BIS, dos informes del FSB, la página de
+  criptoactivos de ESMA, las dos de MiCA de la EBA, el informe de moneda digital
+  del Banco Central de Chile, la guía tributaria del SII, la carta SR 11-7 de la
+  Reserva Federal y los principios G20/OCDE de protección al consumidor. Todos
+  apuntan ahora al documento que responde hoy, comprobado abriéndolo.
+- **La revisión de prácticas de margen se atribuía al FSB** y la firman el Comité
+  de Basilea, el CPMI e IOSCO. Corregidos el emisor y el enlace.
+
+### ✨ Añadido
+
+- **Enlace a la fuente primaria en 47 citas** que nombraban la norma sin decir
+  dónde leerla: quince documentos del BIS, el Comité de Basilea, el CPMI e
+  IOSCO; ocho del FSB; doce guías de la EBA. Cada URL se buscó en el sitio del
+  emisor y **se comprobó abriéndola**: responde 200 y el título de la página es
+  el de la obra citada. Lo que no se pudo comprobar así no se añadió.
+
+### 🔒 Trazabilidad
+
+- Obras con localizador comprobado: **408 → 480** de 699. Las 219 restantes
+  siguen declaradas con su motivo, y ya **no queda ningún enlace roto**: lo que
+  falta son 99 normas que el material cita sin enlace —de la CFPB, el Banco
+  Mundial, el FMI, la OCDE, la ICC y la ISO, entre otros—, 84 libros y artículos
+  sin coincidencia fiable en Open Library o Crossref, 25 servidores que rechazan
+  consultas automáticas y 9 enlaces que este equipo no alcanzó por red o TLS.
+- **98 de las 116 clases normativas** llevan fecha de verificación de hoy, frente
+  a 81 en la versión anterior.
+
+### 📚 Documentos rectores, al completo
+
+- El **100 % de los documentos del Comité de Basilea y de la CMF** que el
+  programa usa tiene localizador con fecha. Del BIS, 32 de 33; del CPMI, 23 de
+  23; de IOSCO, 14 de 16. Los tres que faltan son documentos que no se pudieron
+  identificar con seguridad en el sitio del emisor, y se declaran como tales.
 
 ---
 

@@ -102,7 +102,7 @@ Esta es la tabla que importa: qué documento de qué regulador sostiene qué par
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Tokenisation in the context of money and other assets: concepts and implications for central banks](https://www.bis.org/cpmi/publ/d225.htm) | 20, 21, 22, 23 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Distributed ledger technology in payment, clearing and settlement: an analytical framework](https://www.bis.org/cpmi/publ/d157.htm) | 19 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Application of the Principles for Financial Market Infrastructures to stablecoin arrangements](https://www.bis.org/cpmi/publ/d206.htm) | 14, 18, 19, 20, 22 |
-| Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Payment aspects of financial inclusion](https://www.bis.org/cpmi) | 3, 4, 10 |
+| Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Payment aspects of financial inclusion](https://www.bis.org/cpmi/publ/d144.htm) | 3, 4, 10 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Fast payments — Enhancing the speed and availability of retail payments](https://www.bis.org/cpmi/publ/d154.htm) | 10, 14, 16 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Correspondent banking](https://www.bis.org/cpmi/publ/d147.htm) | 10, 18 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | [Enhancing cross-border payments: building blocks of a global roadmap](https://www.bis.org/cpmi/publ/d193.htm) | 18 |
@@ -116,7 +116,7 @@ Esta es la tabla que importa: qué documento de qué regulador sostiene qué par
 | Organización Internacional de Comisiones de Valores (IOSCO) | [Recommendations for Securities Settlement Systems](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD176.pdf) | 21, 22 |
 | Consejo de Estabilidad Financiera (FSB) | [Global Regulatory Framework for Crypto-asset Activities](https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities) | 14, 20, 22, 23 |
 | Consejo de Estabilidad Financiera (FSB) | [Effective Practices for Cyber Incident Response and Recovery](https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report) | 4, 10, 11, 14, 16, 22, 23 |
-| Consejo de Estabilidad Financiera (FSB) | [Enhancing third-party risk management and oversight: a toolkit](https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities) | 14, 17, 18, 19 |
+| Consejo de Estabilidad Financiera (FSB) | [Enhancing third-party risk management and oversight: a toolkit](https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities) | 14, 17, 18, 19 |
 | Consejo de Estabilidad Financiera (FSB) | [Principles for an Effective Risk Appetite Framework](https://www.fsb.org/2013/11/r_131118) | 11, 15, 16 |
 | Consejo de Estabilidad Financiera (FSB) | [High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements](https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report) | 18, 20, 22 |
 | Consejo de Estabilidad Financiera (FSB) | [Assessment of Risks to Financial Stability from Crypto-assets](https://www.fsb.org/2022/02/assessment-of-risks-to-financial-stability-from-crypto-assets) | 20, 22 |
@@ -155,8 +155,8 @@ Esta es la tabla que importa: qué documento de qué regulador sostiene qué par
 | IFRS Foundation | NIC 37 Provisiones, Pasivos Contingentes y Activos Contingentes 🔁 | 5 |
 | IFRS Foundation | [NIIF S1 y NIIF S2](https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator) 🔁 | 11, 15 |
 | Organización para la Cooperación y el Desarrollo Económicos (OCDE) | Recommendation on Financial Literacy | 1, 2, 3 |
-| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [G20/OECD High-Level Principles on Financial Consumer Protection](https://www.oecd.org/finance/financial-education) | 12, 15, 16 |
-| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [G20/OECD High-Level Principles on Financial Consumer Protection](https://www.oecd.org/finance/financial-education/48892010.pdf) | 4, 22, 23 |
+| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [G20/OECD High-Level Principles on Financial Consumer Protection](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394) | 12, 15, 16 |
+| Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [G20/OECD High-Level Principles on Financial Consumer Protection](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394) | 4, 22, 23 |
 | Organización para la Cooperación y el Desarrollo Económicos (OCDE) | Consumer Price Index Manual: Theory and Practice | 1, 6 |
 | Organización para la Cooperación y el Desarrollo Económicos (OCDE) | Debt and Financial Vulnerability of Households | 4, 9 |
 | Organización para la Cooperación y el Desarrollo Económicos (OCDE) | [Digital Disruption in Banking and its Impact on Competition](https://www.oecd.org/competition/digital-disruption-in-banking-and-its-impact-on-competition.htm) | 6, 14, 15 |
@@ -177,21 +177,21 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 
 | Emisor o editorial | Obras | Con enlace | Partes |
 |---|---:|---:|---|
-| Comité de Supervisión Bancaria de Basilea (BCBS) | 51 | 43 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
-| Banco de Pagos Internacionales (BIS) | 33 | 26 | 1, 3, 6, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
+| Comité de Supervisión Bancaria de Basilea (BCBS) | 52 | 52 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
+| Banco de Pagos Internacionales (BIS) | 33 | 32 | 1, 3, 6, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Comisión para el Mercado Financiero (CMF, Chile) | 30 | 30 | 17, 20, 21, 22, 23 |
-| Consejo de Estabilidad Financiera (FSB) | 30 | 22 | 3, 4, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
+| Consejo de Estabilidad Financiera (FSB) | 29 | 29 | 3, 4, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Grupo de Acción Financiera Internacional (GAFI/FATF) | 25 | 16 | 4, 9, 10, 12, 14, 16, 17, 18, 19, 20, 22, 23 |
 | Organización para la Cooperación y el Desarrollo Económicos (OCDE) | 25 | 16 | 1, 2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | 23 | 23 | 3, 4, 8, 10, 11, 14, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Wiley | 22 | 16 | 1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 15, 16 |
-| Autoridad Bancaria Europea (EBA) | 21 | 9 | 4, 9, 10, 11, 12, 13, 14, 15, 16, 17, 22 |
+| Autoridad Bancaria Europea (EBA) | 21 | 21 | 4, 9, 10, 11, 12, 13, 14, 15, 16, 17, 22 |
 | IFRS Foundation | 21 | 16 | 1, 2, 5, 7, 9, 11, 12, 13, 15, 16, 17, 18, 20 |
 | McGraw-Hill | 21 | 15 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 |
 | Unión Europea (EUR-Lex) | 20 | 16 | 3, 4, 9, 12, 14, 17, 19, 20, 21, 22, 23 |
 | Organización Internacional de Normalización (ISO) | 17 | 9 | 4, 10, 11, 12, 14, 17, 18, 19, 21 |
 | Fondo Monetario Internacional (FMI) | 16 | 7 | 1, 6, 9, 11, 12, 13, 16, 22 |
-| Organización Internacional de Comisiones de Valores (IOSCO) | 16 | 13 | 3, 4, 8, 13, 14, 15, 19, 20, 21, 22, 23 |
+| Organización Internacional de Comisiones de Valores (IOSCO) | 16 | 14 | 3, 4, 8, 13, 14, 15, 19, 20, 21, 22, 23 |
 | NIST (Estados Unidos) | 15 | 13 | 4, 11, 12, 14, 17, 19, 20, 23 |
 | Journal of Finance | 13 | 9 | 3, 6, 8, 9, 11, 13 |
 | Pearson | 13 | 9 | 1, 2, 3, 5, 6, 7, 8, 11, 12, 16 |
@@ -358,18 +358,16 @@ Una fuente pendiente no se borra ni se disimula: se declara. Estas son las razon
 
 | Motivo | Entradas |
 |---|---:|
-| la clase cita la norma sin enlace a la fuente primaria | 134 |
-| la fuente respondió 403 a una consulta automática | 33 |
+| la clase cita la norma sin enlace a la fuente primaria | 99 |
 | ningún registro de Crossref coincide en título y autores | 27 |
 | Open Library no devuelve ninguna obra con ese título y autor | 27 |
-| no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 25 |
+| la fuente respondió 403 a una consulta automática | 25 |
 | Open Library no respondió a la consulta | 20 |
-| la fuente respondió 404 | 12 |
 | Open Library no devuelve ediciones de la obra encontrada | 10 |
+| no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 9 |
 | la obra existe en Open Library pero ninguna edición declara ISBN-13 | 2 |
-| la fuente respondió 410 | 1 |
 
-Última revalidación en red: **2026-08-19**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.
+Última revalidación en red: **2026-08-20**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.
 <!-- gen:registro:end -->
 
 ---

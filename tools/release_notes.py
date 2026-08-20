@@ -9,7 +9,7 @@ El CHANGELOG ya cuenta lo primero, escrito a mano y revisado. Este script lo
 extrae y le anade la lista real de artefactos publicados, con su tamano.
 
 Uso:
-    python tools/release_notes.py v2.3.0 entrega/ > notas.md
+    python tools/release_notes.py v2.3.1 entrega/ > notas.md
 """
 
 from __future__ import annotations
@@ -24,13 +24,19 @@ REPO = "https://github.com/vladimiracunadev-create/finance-and-banking-evolution
 
 # Titular de la publicacion. Es lo unico que se escribe a mano por version: el
 # resto sale del CHANGELOG y de los archivos que se publican.
-TITULAR = """## 📗 Cada cita, con su localizador
+TITULAR = """## 📗 Ningún enlace roto, y el que faltaba
 
-El programa citaba bien y no lo podía demostrar. Las 356 clases traían sus fuentes, pero el registro consolidado cubría una fracción de lo citado, y el README prometía «fuentes oficiales verificables» sin una forma de comprobarlo.
+La **v2.3.0** convirtió la bibliografía en un registro con verificador y dejó el
+hueco declarado: normas citadas sin enlace a su fuente primaria, y enlaces que
+habían dejado de responder sin que nadie lo notara.
 
-**v2.3.0** convierte ese registro en `sources/bibliography.json`: cada obra con su emisor, su localizador —ISBN-13, DOI o URL oficial— y la fecha en que se comprobó. Cada cita en clase declara además **qué uso hace de la obra**, no solo que existe.
+**v2.3.1** lo cierra donde se podía cerrar. Trece enlaces rotos apuntan ahora al
+documento que responde hoy, y cuarenta y siete citas del BIS, el Comité de
+Basilea, el CPMI, IOSCO, el FSB y la EBA ganaron el enlace que les faltaba. Cada
+URL se comprobó abriéndola: responde y su título es el de la obra citada.
 
-Dos verificadores lo sostienen: `scripts/verify_sources.py` corre offline en cada cambio y bloquea; `scripts/refresh_sources.py` resuelve los localizadores contra Open Library, Crossref y los sitios oficiales, e informa sin bloquear. Lo que no resuelve queda declarado como pendiente, con el motivo: un hueco declarado es información.
+Obras con localizador comprobado: **480 de 699**. Lo que sigue pendiente sigue
+declarado con su motivo, porque un hueco declarado es información.
 
 El programa sigue en **356 clases y 534 horas**."""
 

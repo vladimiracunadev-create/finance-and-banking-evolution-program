@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-08-19",
+  "verified_on": "2026-08-20",
   "policy": "Toda afirmación del programa se apoya en una entrada de este registro. Ninguna entrada se acepta sin localizador verificable: ISBN-13 para libros, DOI para artículos y URL oficial con fecha de acceso para normas y documentación. Lo que no se pudo resolver queda como pendiente, con el motivo escrito; no se borra. El ISBN-13 identifica la obra tal como la resuelve Open Library: se prefiere la edición del año citado y, cuando esa edición no declara ISBN, se registra el de otra edición de la misma obra, por lo que el campo published sigue siendo el año que cita la clase.",
   "entries": [
     {
@@ -384,11 +384,15 @@
       "published": "2021",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
+      "cited_url": "https://www.bis.org/publ/arpdf/ar2021e.htm",
       "used_in": [
         "modules/09-operaciones-bancarias/classes/09-medios-de-pago.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/arpdf/ar2021e.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "annual-economic-report-2022",
@@ -450,12 +454,16 @@
       "publisher": "BIS",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
+      "cited_url": "https://www.bis.org/publ/arpdf/ar2024e.htm",
       "used_in": [
         "modules/05-economia-y-sistema-financiero/classes/15-proyecto-informe-macrofinanciero.md",
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/06-inteligencia-artificial-en-banca.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/arpdf/ar2024e.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "annual-economic-report-capitulo-iii-2019",
@@ -952,12 +960,16 @@
       "publisher": "BIS",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/publ/bcbs270.htm",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/06-capital-regulatorio-pilar-1.md",
         "modules/14-estrategia-y-direccion-bancaria/classes/06-gestion-del-balance.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/bcbs270.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "basel-iii-the-liquidity-coverage-ratio-and-liquidity-risk-monitoring-tools-2013",
@@ -1092,14 +1104,15 @@
       "title": "BIS Statistical Bulletin",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
-      "cited_url": "https://www.bis.org/statistics",
+      "cited_url": "https://www.bis.org/statistics/bulletin.htm",
       "used_in": [
         "modules/00-matematica-financiera-basica/classes/02-fracciones-decimales-y-razones.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.bis.org/statistics",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/statistics/bulletin.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "blockchain-and-distributed-ledger-technologies-interoperability",
@@ -1440,15 +1453,16 @@
       "publisher": "BIS",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
-      "cited_url": "https://www.bis.org/publ/othp42_fin_stab.htm",
+      "cited_url": "https://www.bis.org/publ/othp42_fin_stab.pdf",
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/10-monedas-digitales-de-banco-central.md",
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.bis.org/publ/othp42_fin_stab.htm",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/othp42_fin_stab.pdf",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "central-bank-digital-currencies-for-cross-border-payments-2021",
@@ -1505,11 +1519,15 @@
       "publisher": "BIS",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d517.htm",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/15-riesgos-climaticos-y-emergentes.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d517.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "code-of-conduct-fundamentals-for-credit-rating-agencies-2015",
@@ -1522,11 +1540,15 @@
       "publisher": "IOSCO",
       "authority": "Organización Internacional de Comisiones de Valores (IOSCO)",
       "amendable": false,
+      "cited_url": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD482.pdf",
       "used_in": [
         "modules/12-finanzas-corporativas-y-banca-empresarial/classes/12-mercado-de-capitales-para-empresas.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD482.pdf",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "coherent-measures-of-risk-1999",
@@ -1739,11 +1761,15 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2011/10/r_111026a",
       "used_in": [
         "modules/03-seguridad-y-consumo-financiero/classes/09-derechos-y-deberes-del-consumidor.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2011/10/r_111026a",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "consumer-price-index-manual-theory-and-practice-2004",
@@ -2056,14 +2082,15 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
-      "cited_url": "https://www.fsb.org/2019/05/fsb-correspondent-banking-data-report-update-2",
+      "cited_url": "https://www.fsb.org/2019/05/fsb-publishes-updates-on-work-to-assess-and-address-correspondent-banking-declines",
       "used_in": [
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/03-corresponsalia-bancaria.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.fsb.org/2019/05/fsb-correspondent-banking-data-report-update-2",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2019/05/fsb-publishes-updates-on-work-to-assess-and-address-correspondent-banking-declines",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "correspondent-banking-due-diligence-questionnaire",
@@ -2181,14 +2208,15 @@
       "publisher": "ESMA",
       "authority": "Autoridad Europea de Valores y Mercados (ESMA)",
       "amendable": false,
-      "cited_url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/crypto-assets-and-their-markets",
+      "cited_url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
       "used_in": [
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/crypto-assets-and-their-markets",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "currency-mismatch-systemic-risk-and-growth-in-emerging-europe-2010",
@@ -3155,15 +3183,16 @@
       "publisher": "BCCh",
       "authority": "Banco Central de Chile",
       "amendable": false,
-      "cited_url": "https://www.bcentral.cl/documents/33528/3060272/Informe_CBDC.pdf",
+      "cited_url": "https://www.bcentral.cl/en/areas/financial-technology-hub/central-bank-digital-currency",
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/10-monedas-digitales-de-banco-central.md",
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.bcentral.cl/documents/33528/3060272/Informe_CBDC.pdf",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bcentral.cl/en/areas/financial-technology-hub/central-bank-digital-currency",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "engineering-economy-2018",
@@ -3241,11 +3270,15 @@
       "published": "2012",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2012/10/r_121029",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/12-comunicacion-y-mercado.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2012/10/r_121029",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "enhancing-third-party-risk-management-and-oversight-a-toolkit-2023",
@@ -3258,7 +3291,7 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
-      "cited_url": "https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities",
+      "cited_url": "https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/12-regulacion-de-la-tecnologia-financiera.md",
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/14-estrategia-tecnologica.md",
@@ -3269,10 +3302,11 @@
         "modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md",
         "modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/14-proyecto-red-financiera-autorizada.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "enterprise-risk-management-integrating-with-strategy-and-performance-2017",
@@ -3632,10 +3666,11 @@
         "modules/09-operaciones-bancarias/classes/04-apertura-y-administracion-de-cuentas.md",
         "modules/09-operaciones-bancarias/classes/06-transferencias.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.fatf-gafi.org/",
-      "http_status": 403
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "financial-economics-2009",
@@ -4002,11 +4037,15 @@
       "publisher": "FSI Insights",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
+      "cited_url": "https://www.bis.org/publ/bppdf/bispap117.htm",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/13-transformacion-digital.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/bppdf/bispap117.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "fips-140-3-security-requirements-for-cryptographic-modules-2019",
@@ -4266,7 +4305,7 @@
       "publisher": "OCDE/G20",
       "authority": "Organización para la Cooperación y el Desarrollo Económicos (OCDE)",
       "amendable": false,
-      "cited_url": "https://www.oecd.org/finance/financial-education/48892010.pdf",
+      "cited_url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394",
       "used_in": [
         "modules/03-seguridad-y-consumo-financiero/classes/08-lectura-de-contratos.md",
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/06-proteccion-del-cliente-y-de-sus-fondos.md",
@@ -4274,10 +4313,11 @@
         "modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/08-interfaces-consentimiento-y-terceros.md",
         "modules/22-proyecto-banco-digital-y-mercado-tokenizado/classes/17-lo-que-el-sistema-no-puede-hacer.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 410",
-      "locator": "https://www.oecd.org/finance/financial-education/48892010.pdf",
-      "http_status": 410
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "g20-oecd-high-level-principles-on-financial-consumer-protection-2022",
@@ -4290,7 +4330,7 @@
       "publisher": "OECD",
       "authority": "Organización para la Cooperación y el Desarrollo Económicos (OCDE)",
       "amendable": false,
-      "cited_url": "https://www.oecd.org/finance/financial-education",
+      "cited_url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/08-conducta-de-mercado-y-proteccion-al-consumidor.md",
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/09-reclamos-y-resolucion-de-conflictos.md",
@@ -4300,10 +4340,11 @@
         "modules/15-proyecto-banco-virtual/classes/06-modelo-de-precios.md",
         "modules/15-proyecto-banco-virtual/classes/07-originacion-y-decision.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
-      "locator": "https://www.oecd.org/finance/financial-education",
-      "http_status": 403
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "g20-oecd-principles-of-corporate-governance-2023",
@@ -4551,12 +4592,16 @@
       "published": "2023",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2023/12/global-monitoring-report-on-non-bank-financial-intermediation-2023",
       "used_in": [
         "modules/05-economia-y-sistema-financiero/classes/15-proyecto-informe-macrofinanciero.md",
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/01-por-que-se-regula-la-banca.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2023/12/global-monitoring-report-on-non-bank-financial-intermediation-2023",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "global-regulatory-framework-for-crypto-asset-activities-2023",
@@ -4824,10 +4869,11 @@
       "used_in": [
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/03-corresponsalia-bancaria.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.fatf-gafi.org/",
-      "http_status": 403
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidance-on-credit-risk-and-accounting-for-expected-credit-losses-2015",
@@ -4912,10 +4958,11 @@
         "modules/03-seguridad-y-consumo-financiero/classes/03-robo-de-identidad.md",
         "modules/08-analisis-y-gestion-de-credito/classes/03-identificacion-y-conocimiento-del-cliente.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.fatf-gafi.org/",
-      "http_status": 403
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidance-on-digital-identity-2021",
@@ -4932,10 +4979,11 @@
       "used_in": [
         "modules/15-proyecto-banco-virtual/classes/13-cumplimiento-y-prevencion.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.fatf-gafi.org/en/publications/Financialinclusionandnpoissues/Digital-identity-guidance.html",
-      "http_status": 403
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidance-on-politically-exposed-persons-recommendations-12-and-22-2013",
@@ -5129,11 +5177,15 @@
       "published": "2022",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/supervisory-review-and-evaluation-process-srep-and-pillar-2/guidelines-common-procedures-and-methodologies-supervisory-review-and-evaluation-process-srep-and",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/01-el-modelo-de-negocio-bancario.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/supervisory-review-and-evaluation-process-srep-and-pillar-2/guidelines-common-procedures-and-methodologies-supervisory-review-and-evaluation-process-srep-and",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-common-procedures-and-methodologies-for-the-srep-2022",
@@ -5167,11 +5219,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/payment-services-and-electronic-money/guidelines-fraud-reporting-under-psd2",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/08-fraude-digital.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/payment-services-and-electronic-money/guidelines-fraud-reporting-under-psd2",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-institutions-stress-testing-2022",
@@ -5184,11 +5240,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/guidelines-stress-testing",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/05-planificacion-estrategica-y-de-capital.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/guidelines-stress-testing",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-internal-governance-2017",
@@ -5200,11 +5260,15 @@
       "published": "2017",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/12-riesgo-de-modelo.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-internal-governance-2021",
@@ -5217,12 +5281,16 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/09-gobierno-corporativo.md",
         "modules/15-proyecto-banco-virtual/classes/03-constitucion-y-gobierno.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-irrbb-and-csrbb-2022",
@@ -5235,11 +5303,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/supervisory-review-and-evaluation-process-srep-0",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/05-riesgo-de-tasa-en-el-libro-de-banca.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/supervisory-review-and-evaluation-process-srep-0",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-loan-origination-and-monitoring-2020",
@@ -5307,11 +5379,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-outsourcing-arrangements",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/14-estrategia-tecnologica.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-outsourcing-arrangements",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-pd-estimation-lgd-estimation-and-treatment-of-defaulted-exposu-2017",
@@ -5345,12 +5421,16 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/consumer-protection/guidelines-product-oversight-and-governance-arrangements-retail-banking-products",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/08-conducta-de-mercado-y-proteccion-al-consumidor.md",
         "modules/15-proyecto-banco-virtual/classes/05-catalogo-de-productos.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/consumer-protection/guidelines-product-oversight-and-governance-arrangements-retail-banking-products",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-sound-remuneration-policies-2021",
@@ -5363,11 +5443,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/remuneration/guidelines-sound-remuneration-policies-under-crd",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/10-personas-cultura-e-incentivos.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/remuneration/guidelines-sound-remuneration-policies-under-crd",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-strong-customer-authentication-2019",
@@ -5379,11 +5463,15 @@
       "published": "2019",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-opinion-elements-strong-customer-authentication",
       "used_in": [
         "modules/09-operaciones-bancarias/classes/10-tarjetas-y-adquirencia.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-opinion-elements-strong-customer-authentication",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-on-the-range-of-scenarios-to-be-used-in-recovery-plans-2014",
@@ -5396,12 +5484,16 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/recovery-resolution-and-dgs/guidelines-range",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/13-gestion-de-crisis.md",
         "modules/15-proyecto-banco-virtual/classes/17-simulacion-de-una-crisis.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/recovery-resolution-and-dgs/guidelines-range",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "guidelines-prudential-treatment-of-problem-assets-2017",
@@ -5435,11 +5527,15 @@
       "publisher": "BIS",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d353.htm",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/04-conozca-a-su-cliente.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d353.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "high-level-principles-on-financial-consumer-protection-2011",
@@ -5504,11 +5600,11 @@
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/content/dam/ifrs/supporting-implementation/agenda-decisions/2019/holdings-of-cryptocurrencies-june-2019.pdf",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "how-big-banks-fail-and-what-to-do-about-it-2011",
@@ -5580,11 +5676,11 @@
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "ias-38-intangible-assets",
@@ -5600,11 +5696,11 @@
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "icma-rule-book",
@@ -5675,11 +5771,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": false,
+      "cited_url": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/transparency-and-pillar-3/implementing-technical-standards-institutions-public-disclosures-information-referred-titles-ii-and",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/11-disciplina-de-mercado-pilar-3.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/transparency-and-pillar-3/implementing-technical-standards-institutions-public-disclosures-information-referred-titles-ii-and",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "incoterms-2020-2019",
@@ -5810,10 +5910,11 @@
       "used_in": [
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/10-remesas-y-corredores-internacionales.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifad.org/",
-      "http_status": 403
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "ingenieria-economica-2018",
@@ -6917,11 +7018,15 @@
       "published": "2022",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2022/10/liquidity-in-core-government-bond-markets",
       "used_in": [
         "modules/07-inversiones-y-mercados/classes/06-etf.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2022/10/liquidity-in-core-government-bond-markets",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "liquidity-transfer-pricing-a-guide-to-better-practice-2011",
@@ -7173,11 +7278,11 @@
         "modules/04-contabilidad-financiera/classes/04-pasivos.md",
         "modules/04-contabilidad-financiera/classes/05-patrimonio.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "margin-requirements-for-non-centrally-cleared-derivatives-2020",
@@ -7230,14 +7335,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": true,
-      "cited_url": "https://www.eba.europa.eu/regulation-and-policy/markets-crypto-assets",
+      "cited_url": "https://www.eba.europa.eu/markets-crypto-assets",
       "used_in": [
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/17-mica-perimetro-activos-y-participantes.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.eba.europa.eu/regulation-and-policy/markets-crypto-assets",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/markets-crypto-assets",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "mastering-metrics-the-path-from-cause-to-effect-2014",
@@ -7607,11 +7713,11 @@
       "used_in": [
         "modules/12-finanzas-corporativas-y-banca-empresarial/classes/02-analisis-de-estados-financieros-de-empresas.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "nic-1-presentacion-de-estados-financieros",
@@ -7633,11 +7739,11 @@
         "modules/04-contabilidad-financiera/classes/15-proyecto-estados-financieros-completos.md",
         "modules/15-proyecto-banco-virtual/classes/10-contabilidad-y-estados-financieros.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "nic-16-propiedades-planta-y-equipo",
@@ -7653,11 +7759,11 @@
         "modules/04-contabilidad-financiera/classes/07-registro-de-transacciones.md",
         "modules/04-contabilidad-financiera/classes/13-depreciaciones-y-provisiones.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "nic-2-inventarios",
@@ -7687,11 +7793,11 @@
       "used_in": [
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/04-cuentas-nostro-vostro-y-loro.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "nic-37-provisiones-pasivos-contingentes-y-activos-contingentes",
@@ -7724,11 +7830,11 @@
         "modules/04-contabilidad-financiera/classes/15-proyecto-estados-financieros-completos.md",
         "modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "nic-8-politicas-contables-cambios-en-estimaciones-contables-y-errores",
@@ -7758,11 +7864,11 @@
       "used_in": [
         "modules/12-finanzas-corporativas-y-banca-empresarial/classes/10-valoracion-de-empresas.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "niif-15-ingresos-de-actividades-ordinarias-procedentes-de-contratos-con-clie",
@@ -7777,11 +7883,11 @@
       "used_in": [
         "modules/04-contabilidad-financiera/classes/06-ingresos-costos-y-gastos.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "niif-16-arrendamientos",
@@ -7798,11 +7904,11 @@
         "modules/06-matematica-financiera-avanzada/classes/03-conversion-de-periodicidades.md",
         "modules/06-matematica-financiera-avanzada/classes/05-anualidades-anticipadas.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "niif-3-combinaciones-de-negocios",
@@ -7817,11 +7923,11 @@
       "used_in": [
         "modules/12-finanzas-corporativas-y-banca-empresarial/classes/11-fusiones-y-adquisiciones.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "niif-7-instrumentos-financieros-informacion-a-revelar",
@@ -7860,11 +7966,11 @@
         "modules/12-finanzas-corporativas-y-banca-empresarial/classes/04-capital-de-trabajo-y-corto-plazo.md",
         "modules/15-proyecto-banco-virtual/classes/10-contabilidad-y-estados-financieros.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "niif-9-y-niif-17-definiciones-de-instrumento-financiero-y-contrato-de-seguro",
@@ -7879,11 +7985,11 @@
       "used_in": [
         "modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/09-apis-de-informacion-financiera.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "niif-s1-y-niif-s2-2023",
@@ -7900,11 +8006,11 @@
         "modules/10-gestion-integral-de-riesgos/classes/15-riesgos-climaticos-y-emergentes.md",
         "modules/14-estrategia-y-direccion-bancaria/classes/11-sostenibilidad-y-banca-responsable.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator",
-      "accessed": "2026-08-19",
-      "http_status": 0
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "nist-privacy-framework-1-0-2020",
@@ -8937,11 +9043,15 @@
       "publisher": "BIS",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/publ/bcbs196.htm",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/10-riesgo-operacional.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/bcbs196.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "opinion-and-guidelines-on-strong-customer-authentication",
@@ -9117,7 +9227,7 @@
       "publisher": "CPMI/Banco Mundial",
       "authority": "Comité de Pagos e Infraestructuras de Mercado (CPMI)",
       "amendable": false,
-      "cited_url": "https://www.bis.org/cpmi",
+      "cited_url": "https://www.bis.org/cpmi/publ/d144.htm",
       "used_in": [
         "modules/02-productos-y-servicios-financieros/classes/04-tarjetas-de-debito.md",
         "modules/03-seguridad-y-consumo-financiero/classes/06-comercio-electronico-seguro.md",
@@ -9126,10 +9236,11 @@
         "modules/09-operaciones-bancarias/classes/10-tarjetas-y-adquirencia.md",
         "modules/09-operaciones-bancarias/classes/11-caja-y-sucursales.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.bis.org/cpmi",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/cpmi/publ/d144.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "payment-aspects-of-financial-inclusion-in-the-fintech-era-2020",
@@ -9142,11 +9253,15 @@
       "publisher": "CPMI y Banco Mundial",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
+      "cited_url": "https://www.bis.org/cpmi/publ/d191.htm",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/02-pagos-digitales.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/cpmi/publ/d191.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "pci-dss-v4-0-2022",
@@ -9344,11 +9459,15 @@
       "published": "2022",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d560.htm",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/11-disciplina-de-mercado-pilar-3.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d560.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "pillar-3-disclosure-requirements-updated-framework-2018",
@@ -10199,11 +10318,15 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2015/11/total-loss-absorbing-capacity-tlac-principles-and-term-sheet",
       "used_in": [
         "modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2015/11/total-loss-absorbing-capacity-tlac-principles-and-term-sheet",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "procedimientos-de-autorizacion-e-inscripcion-de-entidades",
@@ -10236,11 +10359,15 @@
       "publisher": "BIS",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d559.htm",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/04-datos-en-un-banco.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d559.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "progress-in-reducing-foreign-exchange-settlement-risk-2008",
@@ -10602,10 +10729,11 @@
       "used_in": [
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/06-swift-cbpr-e-iso-20022.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.fatf-gafi.org/",
-      "http_status": 403
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "recomendacion-16-y-activos-virtuales",
@@ -10784,14 +10912,15 @@
       "published": "2022",
       "authority": "Organización para la Cooperación y el Desarrollo Económicos (OCDE)",
       "amendable": false,
-      "cited_url": "https://www.oecd.org/finance/financial-education",
+      "cited_url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394",
       "used_in": [
         "modules/09-operaciones-bancarias/classes/15-canales-y-experiencia-del-cliente.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 403 a una consulta automática",
-      "locator": "https://www.oecd.org/finance/financial-education",
-      "http_status": 403
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "recommendations-10-12-22-y-24-2012",
@@ -10859,11 +10988,15 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2017/06/recommendations-of-the-task-force-on-climate-related-financial-disclosures-2",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/15-riesgos-climaticos-y-emergentes.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2017/06/recommendations-of-the-task-force-on-climate-related-financial-disclosures-2",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "refactoring-2019",
@@ -11183,14 +11316,15 @@
       "publisher": "EBA",
       "authority": "Autoridad Bancaria Europea (EBA)",
       "amendable": true,
-      "cited_url": "https://www.eba.europa.eu/regulation-and-policy/markets-crypto-assets",
+      "cited_url": "https://www.eba.europa.eu/markets-crypto-assets",
       "used_in": [
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.eba.europa.eu/regulation-and-policy/markets-crypto-assets",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.eba.europa.eu/markets-crypto-assets",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "relationship-banking-what-do-we-know-2000",
@@ -11388,21 +11522,23 @@
       "id": "review-of-margining-practices-2022",
       "type": "standard",
       "authors": [
-        "Financial Stability Board"
+        "Comité de Supervisión Bancaria de Basilea, CPMI",
+        "IOSCO"
       ],
-      "title": "Review of Margining Practices",
+      "title": "Review of margining practices",
       "published": "2022",
-      "publisher": "FSB",
-      "authority": "Consejo de Estabilidad Financiera (FSB)",
-      "amendable": false,
-      "cited_url": "https://www.fsb.org/2022/09/review-of-margining-practices",
+      "publisher": "BIS",
+      "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
+      "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d537.htm",
       "used_in": [
         "modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/14-colateral-y-garantias-tokenizadas.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.fsb.org/2022/09/review-of-margining-practices",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d537.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "review-of-the-credit-valuation-adjustment-risk-framework-2015",
@@ -11415,11 +11551,15 @@
       "publisher": "BIS",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d325.htm",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/08-riesgo-pais-y-de-contraparte.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d325.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "revisions-to-the-principles-for-the-sound-management-of-operational-risk-2021",
@@ -12091,16 +12231,17 @@
       "published": "2011",
       "authority": "Reserva Federal de los Estados Unidos",
       "amendable": false,
-      "cited_url": "https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm",
+      "cited_url": "https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107.htm",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/12-riesgo-de-modelo.md",
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/06-inteligencia-artificial-en-banca.md",
         "modules/15-proyecto-banco-virtual/classes/08-modelos-de-riesgo.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "stablecoins-fundamentals-emerging-issues-and-open-questions-2023",
@@ -12152,11 +12293,15 @@
       "published": "2024",
       "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
       "amendable": true,
+      "cited_url": "https://www.bis.org/bcbs/publ/d578.htm",
       "used_in": [
         "modules/10-gestion-integral-de-riesgos/classes/05-riesgo-de-tasa-en-el-libro-de-banca.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/bcbs/publ/d578.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "standards-of-practice-handbook-2023",
@@ -12210,11 +12355,15 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2018/03/stocktake-of-remittance-service-providers-access-to-banking-services",
       "used_in": [
         "modules/09-operaciones-bancarias/classes/13-operaciones-internacionales.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2018/03/stocktake-of-remittance-service-providers-access-to-banking-services",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "stocktake-on-data-pooling-collaborative-analytics-and-data-protection-2021",
@@ -12777,11 +12926,15 @@
       "publisher": "BIS Papers 106",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
+      "cited_url": "https://www.bis.org/publ/bppdf/bispap106.htm",
       "used_in": [
         "modules/13-fintech-datos-e-inteligencia-artificial/classes/03-banca-abierta-y-apis.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/bppdf/bispap106.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "the-digital-pound-a-new-form-of-money-for-households-and-businesses-2023",
@@ -13250,11 +13403,15 @@
       "publisher": "BIS Quarterly Review",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
+      "cited_url": "https://www.bis.org/publ/qtrpdf/r_qt1803j.htm",
       "used_in": [
         "modules/07-inversiones-y-mercados/classes/06-etf.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/publ/qtrpdf/r_qt1803j.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "the-interdependencies-of-payment-and-settlement-systems-2008",
@@ -13864,11 +14021,15 @@
       "publisher": "FSB",
       "authority": "Consejo de Estabilidad Financiera (FSB)",
       "amendable": false,
+      "cited_url": "https://www.fsb.org/2018/04/strengthening-governance-frameworks-to-mitigate-misconduct-risk-a-toolkit-for-firms-and-supervisors",
       "used_in": [
         "modules/14-estrategia-y-direccion-bancaria/classes/10-personas-cultura-e-incentivos.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.fsb.org/2018/04/strengthening-governance-frameworks-to-mitigate-misconduct-risk-a-toolkit-for-firms-and-supervisors",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "toolkit-for-measuring-financial-literacy-and-financial-inclusion-2022",
@@ -14047,14 +14208,15 @@
       "publisher": "SII",
       "authority": "Servicio de Impuestos Internos (Chile)",
       "amendable": false,
-      "cited_url": "https://www.sii.cl/preguntas_frecuentes/renta/001_002_6644.htm",
+      "cited_url": "https://www.sii.cl/preguntas_frecuentes/criptomonedas/arbol_faqs_criptomonedas_1653.htm",
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "la fuente respondió 404",
-      "locator": "https://www.sii.cl/preguntas_frecuentes/renta/001_002_6644.htm",
-      "http_status": 404
+      "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.sii.cl/preguntas_frecuentes/criptomonedas/arbol_faqs_criptomonedas_1653.htm",
+      "accessed": "2026-08-20",
+      "http_status": 200
     },
     {
       "id": "treatment-of-trade-finance-under-the-basel-capital-framework-2014",
