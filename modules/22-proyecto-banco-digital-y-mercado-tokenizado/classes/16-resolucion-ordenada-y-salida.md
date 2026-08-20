@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [resolucion, continuidad, proteccion-al-cliente]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, CMF]
 requires_legal_review: true
@@ -351,7 +351,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Plan de recuperación y salida exigido a la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
 - Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Continuidad de los servicios críticos durante la salida. <https://www.bis.org/bcbs/publ/d516.htm>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones chilenas ante el cese de actividades. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

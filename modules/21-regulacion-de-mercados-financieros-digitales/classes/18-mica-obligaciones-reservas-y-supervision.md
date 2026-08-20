@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [union-europea]
 regulatory_topics: [mica, reservas, redencion, supervision, abuso-de-mercado]
-regulation_last_verified: 2026-08-12
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [EBA, ESMA]
 requires_legal_review: true
@@ -606,11 +606,11 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*. EUR-Lex. Obligaciones de reserva, reembolso y gobierno del emisor. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
-- Autoridad Bancaria Europea. *Regulatory technical standards under MiCAR*. EBA. Normas técnicas que concretan esas obligaciones. <https://www.eba.europa.eu/regulation-and-policy/markets-crypto-assets>
+- Autoridad Bancaria Europea. *Regulatory technical standards under MiCAR*. EBA. Normas técnicas que concretan esas obligaciones. <https://www.eba.europa.eu/markets-crypto-assets>
 - Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. Referencia internacional con la que se contrasta el régimen. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
 - Bank for International Settlements — CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de infraestructura aplicables al acuerdo de stablecoin. <https://www.bis.org/cpmi/publ/d206.htm>
 - Ficha normativa del repositorio: `regulatory/union-europea/mica-reglamento-2023-1114.yml`
-- Verificación local: los importes, porcentajes y escenarios de esta clase son **sintéticos** y sirven para enseñar el método, no para describir a ningún emisor real. MiCA no es derecho aplicable en Chile. Las normas técnicas de desarrollo modifican el detalle de la reserva y de los planes: consulta la versión consolidada en EUR-Lex y las directrices de la EBA. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-12.**
+- Verificación local: los importes, porcentajes y escenarios de esta clase son **sintéticos** y sirven para enseñar el método, no para describir a ningún emisor real. MiCA no es derecho aplicable en Chile. Las normas técnicas de desarrollo modifican el detalle de la reserva y de los planes: consulta la versión consolidada en EUR-Lex y las directrices de la EBA. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

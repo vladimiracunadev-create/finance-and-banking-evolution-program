@@ -455,7 +455,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*, sección de riesgo operacional. BIS. <https://www.bis.org/bcbs/publ/d424.htm>
 - Basel Committee on Banking Supervision (2021). *Revisions to the Principles for the Sound Management of Operational Risk*. BIS. Principios de gestión y taxonomía de eventos de pérdida. <https://www.bis.org/bcbs/publ/d515.htm>
-- Basel Committee on Banking Supervision (2011). *Operational Risk — Supervisory Guidelines for the Advanced Measurement Approaches*. BIS. Requisitos de datos internos, externos y análisis de escenarios.
+- Basel Committee on Banking Supervision (2011). *Operational Risk — Supervisory Guidelines for the Advanced Measurement Approaches*. BIS. Requisitos de datos internos, externos y análisis de escenarios. <https://www.bis.org/publ/bcbs196.htm>
 - Chapelle, A. (2019). *Operational Risk Management: Best Practices in the Financial Services Industry*. Wiley. Práctica de indicadores, incidentes y autoevaluaciones.
 - COSO (2013). *Internal Control — Integrated Framework*. COSO. Diseño de controles y responsabilidades sobre ellos.
 - Verificación local: revisa el enfoque de capital operacional aplicable, el umbral de registro exigido y las obligaciones de reporte de eventos de tu supervisor.

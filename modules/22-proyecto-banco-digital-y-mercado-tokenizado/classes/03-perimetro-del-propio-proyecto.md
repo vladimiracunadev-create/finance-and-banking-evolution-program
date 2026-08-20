@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [perimetro, autorizacion, cumplimiento]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CMF, FSB, IOSCO]
 requires_legal_review: true
@@ -382,7 +382,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Servicios sobre activos digitales que activan obligaciones. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Actividades reservadas por la ley chilena que el proyecto toca. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Inscripción y obligaciones que el proyecto debe asumir en Chile. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto antes de aplicar cualquier conclusión de la clase. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto antes de aplicar cualquier conclusión de la clase. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

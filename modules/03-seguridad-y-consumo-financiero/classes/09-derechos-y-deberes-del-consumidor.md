@@ -350,7 +350,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - OECD/G20 (2011, actualizado 2022). *High-Level Principles on Financial Consumer Protection*. OCDE. Marco internacional de derechos del consumidor financiero. <https://www.oecd.org/finance/financial-education/>
 - World Bank (2017). *Good Practices for Financial Consumer Protection*. Banco Mundial. Estándares de reclamo, escalamiento y resolución de disputas.
 - UNCTAD (2017). *United Nations Guidelines for Consumer Protection*. Naciones Unidas. Principios generales aplicables a servicios financieros.
-- Financial Stability Board (2011). *Consumer Finance Protection with particular focus on credit*. FSB. Prácticas de protección en crédito minorista.
+- Financial Stability Board (2011). *Consumer Finance Protection with particular focus on credit*. FSB. Prácticas de protección en crédito minorista. <https://www.fsb.org/2011/10/r_111026a/>
 - European Union (2008). *Directive 2008/48/EC on credit agreements for consumers*. Derecho de retracto y de reembolso anticipado.
 - Verificación local: identifica la ley de protección al consumidor de tu país, el supervisor financiero competente y los plazos legales de respuesta a reclamos.
 

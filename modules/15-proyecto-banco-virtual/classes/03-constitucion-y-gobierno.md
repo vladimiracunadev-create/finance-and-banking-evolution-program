@@ -544,7 +544,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*, principios 4 a 6 sobre licenciamiento. BIS. <https://www.bis.org/publ/bcbs230.htm>
 - Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Composición del directorio y comités exigibles al banco.
 - Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*, licenciamiento de bancos digitales. BIS.
-- European Banking Authority (2021). *Guidelines on internal governance* y guías de idoneidad. EBA.
+- European Banking Authority (2021). *Guidelines on internal governance* y guías de idoneidad. EBA. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd>
 - Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA. Reparto de responsabilidades de control en el diseño del banco.
 - Verificación local: revisa los requisitos de licenciamiento bancario de tu país, el capital mínimo, el umbral de accionista significativo y las políticas obligatorias.
 

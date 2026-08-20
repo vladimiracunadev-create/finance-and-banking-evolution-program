@@ -475,7 +475,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Committee on Payments and Market Infrastructures (2016). *Fast payments — Enhancing the speed and availability of retail payments*. BIS. Diseño de los sistemas de pago inmediato minorista. <https://www.bis.org/cpmi/publ/d154.htm>
 - Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de firmeza y gestión de riesgos de una infraestructura de pagos. <https://www.bis.org/cpmi/publ/d101.htm>
-- Bank for International Settlements (2020). *Payment aspects of financial inclusion in the fintech era*. CPMI y Banco Mundial. Papel de los pagos digitales en la inclusión financiera.
+- Bank for International Settlements (2020). *Payment aspects of financial inclusion in the fintech era*. CPMI y Banco Mundial. Papel de los pagos digitales en la inclusión financiera. <https://www.bis.org/cpmi/publ/d191.htm>
 - Rochet, J. y Tirole, J. (2006). "Two-sided markets: a progress report". *RAND Journal of Economics*, 37(3). Economía de las redes de pago.
 - Financial Stability Board (2020). *Enhancing Cross-border Payments: Stage 3 roadmap*. FSB. Objetivos y palancas del programa de mejora de los pagos transfronterizos.
 - Verificación local: revisa el esquema de pagos inmediatos de tu país, sus reglas de disputa, los límites aplicables y el régimen de emisores de dinero electrónico.

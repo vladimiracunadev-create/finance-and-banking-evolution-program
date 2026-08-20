@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, union-europea, internacional]
 regulatory_topics: [calificacion, valores, perimetro]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF, FSB]
 requires_legal_review: true
@@ -494,7 +494,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*. EUR-Lex. Categorías europeas de criptoactivo y sus consecuencias. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - Comisión para el Mercado Financiero. *Normativa sobre oferta pública de valores e inscripción en el Registro de Valores*. CMF. Cuándo el instrumento debe inscribirse en el Registro de Valores. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Categorías que la ley chilena reconoce. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Verificación local: comprueba qué criterios de calificación aplica tu jurisdicción, si ha emitido pronunciamientos sobre instrumentos digitales y qué exenciones de oferta pública existen. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué criterios de calificación aplica tu jurisdicción, si ha emitido pronunciamientos sobre instrumentos digitales y qué exenciones de oferta pública existen. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

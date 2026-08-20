@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, gobernanza, resiliencia-operacional]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: true
@@ -524,8 +524,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. Tolerancia a la interrupción aplicada a la red autorizada. <https://www.bis.org/bcbs/publ/d516.htm>
 - IOSCO (2022). *Decentralized Finance Report*. IOSCO. Gobernanza observada en redes sin permiso y sus fallos. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
 - Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Mecánica de la bifurcación y sus consecuencias contables. <https://www.bis.org/cpmi/publ/d157.htm>
-- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Responsabilidad sobre operadores y desarrolladores de la red. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
-- Verificación local: comprueba los plazos y umbrales de comunicación de incidentes de tu jurisdicción, y si existe criterio sobre el tratamiento de una bifurcación. **Fecha de verificación de esta clase: 2026-08-06.** Esta clase no constituye asesoría legal.
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Responsabilidad sobre operadores y desarrolladores de la red. <https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- Verificación local: comprueba los plazos y umbrales de comunicación de incidentes de tu jurisdicción, y si existe criterio sobre el tratamiento de una bifurcación. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

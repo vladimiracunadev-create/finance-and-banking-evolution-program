@@ -396,7 +396,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- OECD (2022). *Recommendation on Financial Literacy* y *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. <https://www.oecd.org/finance/financial-education/>
+- OECD (2022). *Recommendation on Financial Literacy* y *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394>
 - World Bank (2021). *Good Practices for Financial Consumer Protection*. World Bank Group. Estándares de atención, reclamo y trato al cliente en todos los canales.
 - Consumer Financial Protection Bureau. *Consumer Complaint Database* y su metodología de análisis. CFPB. <https://www.consumerfinance.gov/data-research/consumer-complaints/>
 - Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulos 4 y 15: red de distribución y servicio.

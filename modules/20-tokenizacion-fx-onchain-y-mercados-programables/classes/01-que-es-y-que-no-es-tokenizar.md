@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [tokenizacion, valores, perimetro]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI, CMF]
 requires_legal_review: true
@@ -538,7 +538,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones que no cambian por representar el derecho en un token. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Definición de tokenización dentro del libro unificado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Comisión para el Mercado Financiero. *Normativa sobre oferta pública de valores e inscripción en el Registro de Valores*. CMF. Cuándo el token queda sujeto al régimen de oferta pública en Chile. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente si tu jurisdicción admite que una anotación en un registro distribuido tenga efectos de registro de valores y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente si tu jurisdicción admite que una anotación en un registro distribuido tenga efectos de registro de valores y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

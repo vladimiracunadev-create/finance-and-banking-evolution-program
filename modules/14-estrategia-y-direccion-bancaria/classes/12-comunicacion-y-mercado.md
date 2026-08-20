@@ -535,7 +535,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2003, y revisiones). *Objectives and Principles of Securities Regulation*. IOSCO. Obligaciones de información al mercado y trato igualitario.
 - European Securities and Markets Authority (2015). *Guidelines on Alternative Performance Measures*. ESMA. Uso admisible de medidas alternativas de rendimiento. <https://www.esma.europa.eu/>
 - Basel Committee on Banking Supervision (2018). *Pillar 3 disclosure requirements — updated framework*. BIS. Contenido y frecuencia de la revelación prudencial.
-- Financial Stability Board (2012). *Enhancing the Risk Disclosures of Banks* (Enhanced Disclosure Task Force). FSB.
+- Financial Stability Board (2012). *Enhancing the Risk Disclosures of Banks* (Enhanced Disclosure Task Force). FSB. <https://www.fsb.org/2012/10/r_121029/>
 - Bank for International Settlements (2023). *Annual Economic Report*, análisis de las turbulencias bancarias de 2023 y el papel de la información.
 - Verificación local: revisa el régimen de hechos relevantes y de información al mercado del regulador de valores de tu país.
 

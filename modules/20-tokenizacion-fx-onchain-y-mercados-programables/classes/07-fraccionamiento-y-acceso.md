@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [proteccion-al-inversionista, idoneidad, inclusion-financiera]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, OCDE, CMF]
 requires_legal_review: true
@@ -541,7 +541,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - OCDE (2020). *Recommendation of the Council on Financial Literacy*. OECD. Evidencia sobre comprensión del producto por el inversionista minorista. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0461>
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Riesgos de conducta del acceso fraccionado. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Comisión para el Mercado Financiero. *Normativa sobre conducta de mercado e información al inversionista*. CMF. Obligaciones chilenas de información al inversionista. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué obligaciones de idoneidad y qué límites de comercialización a minoristas impone tu jurisdicción para este tipo de activo. Esta clase no constituye asesoría legal ni recomendación de inversión. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué obligaciones de idoneidad y qué límites de comercialización a minoristas impone tu jurisdicción para este tipo de activo. Esta clase no constituye asesoría legal ni recomendación de inversión. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

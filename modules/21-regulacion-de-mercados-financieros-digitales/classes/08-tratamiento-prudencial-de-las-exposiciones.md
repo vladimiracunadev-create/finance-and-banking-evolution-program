@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [prudencial, capital, liquidez]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BCBS, BIS, CMF]
 requires_legal_review: true
@@ -514,7 +514,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Tratamiento de liquidez de las posiciones en activos digitales. <https://www.bis.org/publ/bcbs238.htm>
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Marco de capital sobre el que se injerta el tratamiento. <https://www.bis.org/bcbs/publ/d424.htm>
 - Comisión para el Mercado Financiero. *Normativa de adecuación de capital y liquidez*. CMF. Exigencias chilenas de capital y liquidez aplicables. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba el tratamiento prudencial vigente en tu jurisdicción, su calendario de aplicación y si ha recalibrado los factores de salida para este tipo de depósitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba el tratamiento prudencial vigente en tu jurisdicción, su calendario de aplicación y si ha recalibrado los factores de salida para este tipo de depósitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

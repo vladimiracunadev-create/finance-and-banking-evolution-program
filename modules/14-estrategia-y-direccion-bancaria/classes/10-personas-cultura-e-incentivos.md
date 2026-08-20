@@ -522,9 +522,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Financial Stability Board (2009). *Principles for Sound Compensation Practices* y sus estándares de implementación. FSB. <https://www.fsb.org/2009/09/principles-for-sound-compensation-practices-implementation-standards/>
-- Financial Stability Board (2018). *Toolkit for firms and supervisors: Strengthening governance frameworks to mitigate misconduct risk*. FSB. Palancas de gobierno que reducen el riesgo de conducta.
+- Financial Stability Board (2018). *Toolkit for firms and supervisors: Strengthening governance frameworks to mitigate misconduct risk*. FSB. Palancas de gobierno que reducen el riesgo de conducta. <https://www.fsb.org/2018/04/strengthening-governance-frameworks-to-mitigate-misconduct-risk-a-toolkit-for-firms-and-supervisors/>
 - Financial Stability Board (2014). *Guidance on Supervisory Interaction with Financial Institutions on Risk Culture*. FSB. Indicadores de cultura de riesgo que observa el supervisor.
-- European Banking Authority (2021). *Guidelines on sound remuneration policies*. EBA. Diferimiento, ajuste por riesgo y recuperación de la remuneración variable.
+- European Banking Authority (2021). *Guidelines on sound remuneration policies*. EBA. Diferimiento, ajuste por riesgo y recuperación de la remuneración variable. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/remuneration/guidelines-sound-remuneration-policies-under-crd>
 - Schein, E. (2016). *Organizational Culture and Leadership* (5.ª ed.). Wiley. Modelo de los tres niveles de cultura organizacional.
 - Verificación local: revisa los requisitos de política de remuneraciones, personal identificado, diferimiento y ajuste ex post que exige tu supervisor.
 

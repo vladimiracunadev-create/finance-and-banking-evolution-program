@@ -500,7 +500,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2019). *Report on open banking and application programming interfaces*. BIS. Modelos de banca abierta comparados y sus riesgos prudenciales. <https://www.bis.org/bcbs/publ/d486.htm>
-- Bank for International Settlements (2019). *The design of digital financial infrastructure: lessons from India*. BIS Papers 106. Infraestructura pública de identidad y pagos como caso de referencia.
+- Bank for International Settlements (2019). *The design of digital financial infrastructure: lessons from India*. BIS Papers 106. Infraestructura pública de identidad y pagos como caso de referencia. <https://www.bis.org/publ/bppdf/bispap106.htm>
 - Financial Stability Board (2019). *FinTech and market structure in financial services*. FSB. Competencia entre bancos y terceros proveedores de servicios.
 - Unión Europea (2015). *Directiva (UE) 2015/2366 sobre servicios de pago (PSD2)*. Marco de referencia de banca abierta.
 - OECD (2023). *Open Finance Policy Considerations*. OECD. Extensión de la banca abierta al conjunto de datos financieros.

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [fx, liquidez, formacion-de-precio]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BIS, CPMI, FSB]
 requires_legal_review: false
@@ -530,7 +530,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Global Foreign Exchange Committee (2021). *FX Global Code*. GFXC. Conducta exigible en la ejecución y formación del precio. <https://www.globalfxc.org/fx_global_code.htm>
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Cómo se representa el cambio de divisa dentro del registro. <https://www.bis.org/cpmi/publ/d225.htm>
 - Financial Stability Board (2020). *Enhancing Cross-border Payments: Stage 3 roadmap*. FSB. Metas de coste y velocidad aplicables al corredor. <https://www.fsb.org/2020/10/enhancing-cross-border-payments-stage-3-roadmap/>
-- Verificación local: comprueba qué régimen aplica en tu jurisdicción a la intermediación cambiaria y si un cambio entre activos anotados queda dentro de él. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué régimen aplica en tu jurisdicción a la intermediación cambiaria y si un cambio entre activos anotados queda dentro de él. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -447,8 +447,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Board of Governors of the Federal Reserve System y OCC (2011). *SR 11-7: Guidance on Model Risk Management*. Definición de riesgo de modelo y exigencia de validación independiente. <https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm>
-- European Banking Authority (2017). *Guidelines on internal governance* y guías de validación de modelos internos. EBA.
+- Board of Governors of the Federal Reserve System y OCC (2011). *SR 11-7: Guidance on Model Risk Management*. Definición de riesgo de modelo y exigencia de validación independiente. <https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107.htm>
+- European Banking Authority (2017). *Guidelines on internal governance* y guías de validación de modelos internos. EBA. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd>
 - Basel Committee on Banking Supervision (2005). *Studies on the Validation of Internal Rating Systems*. BIS. Criterios de validación de sistemas internos de calificación. <https://www.bis.org/publ/bcbs_wp14.htm>
 - Siddiqi, N. (2017). *Intelligent Credit Scoring* (2.ª ed.). Wiley. Desarrollo, validación y monitoreo.
 - Hastie, T., Tibshirani, R. y Friedman, J. (2009). *The Elements of Statistical Learning* (2.ª ed.). Springer. Sobreajuste y validación.

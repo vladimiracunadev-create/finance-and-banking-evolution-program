@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [contabilidad, tributacion, prudencial]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IASB, SII, BCBS]
 requires_legal_review: true
@@ -514,9 +514,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IFRS Foundation (2019). *Holdings of Cryptocurrencies — IFRS Interpretations Committee Agenda Decision*. IFRS. Decisión de agenda que fija la clasificación contable aplicable. <https://www.ifrs.org/content/dam/ifrs/supporting-implementation/agenda-decisions/2019/holdings-of-cryptocurrencies-june-2019.pdf>
 - IFRS Foundation. *IAS 38 Intangible Assets*. IFRS. Reconocimiento y medición como activo intangible. <https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/>
 - IFRS Foundation. *IAS 2 Inventories*. IFRS. Tratamiento como inventario cuando se mantiene para la venta. <https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/>
-- Servicio de Impuestos Internos de Chile. *Tratamiento tributario de las criptomonedas*. SII. Criterio tributario chileno sobre la renta obtenida. <https://www.sii.cl/preguntas_frecuentes/renta/001_002_6644.htm>
+- Servicio de Impuestos Internos de Chile. *Tratamiento tributario de las criptomonedas*. SII. Criterio tributario chileno sobre la renta obtenida. <https://www.sii.cl/preguntas_frecuentes/criptomonedas/arbol_faqs_criptomonedas_1653.htm>
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Verificación local: comprueba con tu autoridad tributaria y tu regulador contable el tratamiento vigente, porque este ámbito cambia y las decisiones de interpretación se actualizan. Esta clase no constituye asesoría legal ni tributaria. **Fecha de verificación de esta clase: 2026-08-06.**
+- Verificación local: comprueba con tu autoridad tributaria y tu regulador contable el tratamiento vigente, porque este ámbito cambia y las decisiones de interpretación se actualizan. Esta clase no constituye asesoría legal ni tributaria. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

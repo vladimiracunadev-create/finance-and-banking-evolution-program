@@ -432,7 +432,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Basel Committee on Banking Supervision (2012). *Core Principles for Effective Banking Supervision*. BIS. Objetivos que la comunidad supervisora se fija al regular. <https://www.bis.org/publ/bcbs230.htm>
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Respuesta regulatoria a la crisis que la clase explica.
-- Financial Stability Board (2023). *Global Monitoring Report on Non-Bank Financial Intermediation*. FSB. Arbitraje y actividad fuera del perímetro bancario.
+- Financial Stability Board (2023). *Global Monitoring Report on Non-Bank Financial Intermediation*. FSB. Arbitraje y actividad fuera del perímetro bancario. <https://www.fsb.org/2023/12/global-monitoring-report-on-non-bank-financial-intermediation-2023/>
 - Admati, A. y Hellwig, M. (2013). *The Bankers' New Clothes*. Princeton University Press. Argumento crítico sobre el nivel de capital exigido a la banca.
 - Mishkin, F. (2018). *The Economics of Money, Banking and Financial Markets* (12.ª ed.). Pearson. Capítulos sobre regulación bancaria.
 - Dewatripont, M. y Tirole, J. (1994). *The Prudential Regulation of Banks*. MIT Press. Fundamento económico de la regulación prudencial.

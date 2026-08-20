@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, liquidacion, riesgo-de-liquidacion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, Comité de Basilea]
 requires_legal_review: false
@@ -533,7 +533,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2008). *Progress in reducing foreign exchange settlement risk*. BIS. Medición del avance en la reducción de ese riesgo. <https://www.bis.org/cpmi/publ/d83.htm>
 - BIS Innovation Hub. *Proyectos sobre liquidación con pago contra pago y sincronización*. BIS. Experimentos de liquidación sincronizada que la clase compara. <https://www.bis.org/about/bisih/topics.htm>
 - Global Foreign Exchange Committee. *FX Global Code*, principios sobre gestión del riesgo de liquidación. <https://www.globalfxc.org/fx_global_code.htm>
-- Verificación local: comprueba cómo se trata la exposición de liquidación en el marco prudencial aplicable y si el bloqueo de fondos es oponible en las jurisdicciones donde operes. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba cómo se trata la exposición de liquidación en el marco prudencial aplicable y si el bloqueo de fondos es oponible en las jurisdicciones donde operes. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

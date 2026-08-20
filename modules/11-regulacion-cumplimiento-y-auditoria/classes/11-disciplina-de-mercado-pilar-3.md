@@ -445,9 +445,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2018). *Pillar 3 disclosure requirements — updated framework*. BIS. Plantillas y frecuencia de la revelación prudencial. <https://www.bis.org/bcbs/publ/d455.htm>
-- Basel Committee on Banking Supervision (2022). *Pillar 3 disclosure framework for climate-related financial risks* (consulta y estándar posterior). BIS.
+- Basel Committee on Banking Supervision (2022). *Pillar 3 disclosure framework for climate-related financial risks* (consulta y estándar posterior). BIS. <https://www.bis.org/bcbs/publ/d560.htm>
 - Basel Committee on Banking Supervision. *The Basel Framework*, sección DIS. BIS. <https://www.bis.org/basel_framework/>
-- European Banking Authority. *Implementing Technical Standards on Pillar 3 disclosures*. EBA. Formato técnico de los estados de divulgación.
+- European Banking Authority. *Implementing Technical Standards on Pillar 3 disclosures*. EBA. Formato técnico de los estados de divulgación. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/transparency-and-pillar-3/implementing-technical-standards-institutions-public-disclosures-information-referred-titles-ii-and>
 - IFRS Foundation. *NIIF 7 Instrumentos Financieros: Información a Revelar*. IFRS. Revelación contable de riesgos de instrumentos financieros.
 - Verificación local: identifica dónde publica su informe de Pilar 3 un banco de tu país, con qué frecuencia y bajo qué norma.
 

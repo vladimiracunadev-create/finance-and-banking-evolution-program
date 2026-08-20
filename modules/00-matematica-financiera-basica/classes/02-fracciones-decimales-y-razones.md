@@ -261,7 +261,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulo 2: uso del punto base en instrumentos de renta fija.
 - Fabozzi, F. (2021). *Bond Markets, Analysis, and Strategies* (10.ª ed.). MIT Press. Capítulo 2: spreads expresados en puntos base.
 - Blank, L. y Tarquin, A. (2018). *Ingeniería económica* (8.ª ed.). McGraw-Hill. Capítulo 2: manejo de precisión y convenciones de redondeo.
-- Bank for International Settlements. *BIS Statistical Bulletin* — convenciones de publicación de tasas y spreads. <https://www.bis.org/statistics/>
+- Bank for International Settlements. *BIS Statistical Bulletin* — convenciones de publicación de tasas y spreads. <https://www.bis.org/statistics/bulletin.htm>
 - Verificación local: revisa cómo expresa las tasas el regulador bancario de tu país (anual, mensual, base 360 o 365) antes de comparar cifras entre fuentes.
 
 <!-- gen:footer:start -->

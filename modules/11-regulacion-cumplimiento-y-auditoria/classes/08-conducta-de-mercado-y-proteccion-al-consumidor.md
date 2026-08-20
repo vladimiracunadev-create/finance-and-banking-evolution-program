@@ -469,10 +469,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Principios de trato justo y revelación al consumidor financiero. <https://www.oecd.org/finance/financial-education/>
+- OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Principios de trato justo y revelación al consumidor financiero. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394>
 - World Bank (2021). *Good Practices for Financial Consumer Protection*. World Bank Group. Prácticas de supervisión de conducta y transparencia de precios.
 - Financial Conduct Authority (2022). *Consumer Duty* (PS22/9) y guía de clientes vulnerables. FCA. <https://www.fca.org.uk/>
-- European Banking Authority (2015). *Guidelines on product oversight and governance arrangements*. EBA. Gobierno del producto y definición del mercado objetivo.
+- European Banking Authority (2015). *Guidelines on product oversight and governance arrangements*. EBA. Gobierno del producto y definición del mercado objetivo. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/consumer-protection/guidelines-product-oversight-and-governance-arrangements-retail-banking-products>
 - Financial Stability Board (2009). *Principles for Sound Compensation Practices*. FSB. Vínculo entre incentivos de venta y riesgo de conducta.
 - Consumer Financial Protection Bureau. *Consumer Complaint Database*. CFPB. Evidencia de reclamos usada para detectar problemas de conducta.
 - Verificación local: revisa las obligaciones de información precontractual, las reglas sobre venta atada y los derechos de retracto de tu normativa de protección al consumidor financiero.

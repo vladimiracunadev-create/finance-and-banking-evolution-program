@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, union-europea, internacional]
 regulatory_topics: [regulacion-comparada, extraterritorialidad, cooperacion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CMF, FSB, IOSCO]
 requires_legal_review: true
@@ -486,7 +486,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*. EUR-Lex. Régimen europeo usado como término de comparación. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Régimen chileno usado como término de comparación. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Comisión para el Mercado Financiero. *Normativa de desarrollo de la Ley 21.521*. CMF. Normativa que desarrolla la ley y fija el calendario. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: toda comparación entre jurisdicciones caduca; verifica cada celda en la fuente oficial correspondiente antes de usarla para decidir. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: toda comparación entre jurisdicciones caduca; verifica cada celda en la fuente oficial correspondiente antes de usarla para decidir. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

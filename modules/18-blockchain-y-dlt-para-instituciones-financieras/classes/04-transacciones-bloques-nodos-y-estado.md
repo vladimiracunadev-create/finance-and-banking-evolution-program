@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, infraestructura]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [NIST, CPMI]
 requires_legal_review: false
@@ -492,7 +492,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - ISO/TC 307. *ISO 22739: Blockchain and distributed ledger technologies — Vocabulary*. ISO. Vocabulario normalizado de nodos y de estado. <https://www.iso.org/standard/82208.html>
 - European Union Agency for Cybersecurity (2021). *Distributed Ledger Technology and Cybersecurity*. ENISA. Superficie de ataque de cada tipo de nodo. <https://www.enisa.europa.eu/>
 - Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de registro y conciliación exigibles a la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
-- Verificación local: comprueba los plazos de retención y los derechos de supresión de datos personales aplicables, y su compatibilidad con un registro inmutable. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba los plazos de retención y los derechos de supresión de datos personales aplicables, y su compatibilidad con un registro inmutable. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

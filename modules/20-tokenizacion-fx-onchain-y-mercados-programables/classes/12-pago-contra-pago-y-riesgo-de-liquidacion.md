@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [liquidacion, riesgo-de-principal, fx]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, BIS, FSB]
 requires_legal_review: false
@@ -542,7 +542,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Exigencia de pago contra pago en la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
 - Bank for International Settlements (2022). *Triennial Central Bank Survey of foreign exchange and OTC derivatives markets*. BIS. Volumen expuesto al riesgo de liquidación según la encuesta. <https://www.bis.org/statistics/rpfx22.htm>
 - Financial Stability Board (2020). *Enhancing Cross-border Payments: Stage 3 roadmap*. FSB. Prioridad del programa global sobre este riesgo. <https://www.fsb.org/2020/10/enhancing-cross-border-payments-stage-3-roadmap/>
-- Verificación local: comprueba la oponibilidad de los acuerdos de neteo en la jurisdicción de cada contraparte antes de reducir la exposición declarada. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba la oponibilidad de los acuerdos de neteo en la jurisdicción de cada contraparte antes de reducir la exposición declarada. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

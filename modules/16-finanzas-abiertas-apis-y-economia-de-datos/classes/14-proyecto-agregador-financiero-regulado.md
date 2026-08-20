@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile]
 regulatory_topics: [open-finance, licenciamiento, seguridad, proteccion-de-datos]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: en-despliegue-por-fases
 primary_authorities: [CMF]
 requires_legal_review: true
@@ -488,7 +488,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - NIST (2018). *Framework for Improving Critical Infrastructure Cybersecurity*. NIST. Controles de ciberseguridad que sostienen el expediente. <https://www.nist.gov/cyberframework>
 - Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. Tolerancia a la interrupción declarada en el proyecto. <https://www.bis.org/bcbs/publ/d516.htm>
 - OpenID Foundation. *FAPI conformance suite: criterios de certificación*. Evidencia de certificación técnica que cierra el expediente. <https://openid.net/certification/>
-- Verificación local: comprueba qué antecedentes exige el supervisor de tu jurisdicción para la inscripción o autorización, y en qué formato. **Fecha de verificación de esta clase: 2026-08-19.** Este material no constituye asesoría legal.
+- Verificación local: comprueba qué antecedentes exige el supervisor de tu jurisdicción para la inscripción o autorización, y en qué formato. **Fecha de verificación de esta clase: 2026-08-20.** Este material no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

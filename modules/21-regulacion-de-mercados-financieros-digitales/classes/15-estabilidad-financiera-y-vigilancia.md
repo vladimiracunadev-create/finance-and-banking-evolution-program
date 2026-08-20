@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [estabilidad-financiera, macroprudencial, interconexion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, BCCh]
 requires_legal_review: false
@@ -504,7 +504,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Stability Board (2023). *The Financial Stability Implications of Multifunction Crypto-asset Intermediaries*. FSB. Concentración de funciones como fuente de riesgo sistémico. <https://www.fsb.org/2023/11/the-financial-stability-implications-of-multifunction-crypto-asset-intermediaries/>
 - Basel Committee on Banking Supervision (2018). *Framework for dealing with domestic systemically important banks*. BIS. Criterios de importancia sistémica aplicados al análisis. <https://www.bis.org/publ/bcbs233.htm>
 - Banco Central de Chile. *Informe de Estabilidad Financiera*. BCCh. Indicadores chilenos de vigilancia macroprudencial. <https://www.bcentral.cl/areas/estabilidad-financiera>
-- Verificación local: comprueba qué autoridad ejerce la vigilancia macroprudencial en tu jurisdicción, qué indicadores publica y si tiene facultades para designar infraestructuras relevantes. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué autoridad ejerce la vigilancia macroprudencial en tu jurisdicción, qué indicadores publica y si tiene facultades para designar infraestructuras relevantes. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

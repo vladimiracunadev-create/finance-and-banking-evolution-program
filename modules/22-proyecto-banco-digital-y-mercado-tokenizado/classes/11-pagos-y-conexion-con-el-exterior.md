@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [pagos, corresponsalia, sanciones]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, GAFI, FSB]
 requires_legal_review: true
@@ -354,7 +354,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Obligaciones de información en transferencias de activos virtuales. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Marco global aplicable a la conexión con el exterior. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones cambiarias y de pago aplicables en Chile. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

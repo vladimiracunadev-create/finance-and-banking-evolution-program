@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [estabilidad-financiera, contagio, interconexion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, CMF]
 requires_legal_review: false
@@ -536,7 +536,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Stability Board (2023). *The Financial Stability Implications of Multifunction Crypto-asset Intermediaries*. FSB. Riesgos de los intermediarios que concentran varias funciones. <https://www.fsb.org/2023/11/the-financial-stability-implications-of-multifunction-crypto-asset-intermediaries/>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Canales de contagio hacia el sistema financiero tradicional. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Basel Committee on Banking Supervision (2018). *Framework for dealing with domestic systemically important banks*. BIS. Criterios de importancia sistémica aplicados al análisis. <https://www.bis.org/publ/bcbs233.htm>
-- Verificación local: comprueba qué reporte de interconexión y de exposición indirecta exige tu supervisor y con qué periodicidad. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué reporte de interconexión y de exposición indirecta exige tu supervisor y con qué periodicidad. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

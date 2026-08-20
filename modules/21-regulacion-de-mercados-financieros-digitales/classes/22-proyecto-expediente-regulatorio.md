@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [cumplimiento, gobierno-corporativo, supervision]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CMF, FSB, IOSCO]
 requires_legal_review: true
@@ -531,7 +531,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de conducta que el expediente debe acreditar. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Estructura de gobierno exigible a la entidad solicitante. <https://www.bis.org/bcbs/publ/d328.htm>
 - Comisión para el Mercado Financiero. *Normativa sobre gestión de riesgos, cumplimiento y gobierno corporativo*. CMF. Exigencias chilenas de riesgos, cumplimiento y gobierno. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué documentación exige tu supervisor en una revisión, con qué periodicidad y qué plazos de remediación admite. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué documentación exige tu supervisor en una revisión, con qué periodicidad y qué plazos de remediación admite. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, union-europea]
 regulatory_topics: [dlt, proteccion-de-datos, privacidad]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, NIST]
 requires_legal_review: true
@@ -529,7 +529,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Tensión entre transparencia del registro y confidencialidad bancaria. <https://www.bis.org/cpmi/publ/d157.htm>
 - European Union Agency for Cybersecurity (2021). *Data Protection Engineering*. ENISA. Técnicas de ingeniería de privacidad aplicables al diseño. <https://www.enisa.europa.eu/publications/data-protection-engineering>
 - NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Modelos de confidencialidad disponibles en un registro distribuido. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué autoridad de protección de datos es competente, qué criterio ha publicado sobre registros inmutables y si considera dato personal un valor cifrado. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba qué autoridad de protección de datos es competente, qué criterio ha publicado sobre registros inmutables y si considera dato personal un valor cifrado. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

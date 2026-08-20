@@ -307,7 +307,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial. Arquitectura de los sistemas de pago minorista. <https://www.bis.org/cpmi/>
+- Committee on Payments and Market Infrastructures (2020). *Payment aspects of financial inclusion*. CPMI/Banco Mundial. Arquitectura de los sistemas de pago minorista. <https://www.bis.org/cpmi/publ/d144.htm>
 - Evans, D. y Schmalensee, R. (2005). *Paying with Plastic: The Digital Revolution in Buying and Borrowing* (2.ª ed.). MIT Press. Economía de las redes de tarjetas y tasas de intercambio.
 - Casu, B., Girardone, C. y Molyneux, P. (2021). *Introduction to Banking* (3.ª ed.). Pearson. Capítulo 3: medios de pago y adquirencia.
 - PCI Security Standards Council (2022). *PCI DSS v4.0*. Requisitos de seguridad de datos de tarjetas y tokenización. <https://www.pcisecuritystandards.org/>

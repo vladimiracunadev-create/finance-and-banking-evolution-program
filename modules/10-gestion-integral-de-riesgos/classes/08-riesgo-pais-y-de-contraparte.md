@@ -456,7 +456,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2014). *The standardised approach for measuring counterparty credit risk exposures*. BIS. Cálculo de la exposición de contraparte por el método estándar. <https://www.bis.org/publ/bcbs279.htm>
-- Basel Committee on Banking Supervision (2015). *Review of the Credit Valuation Adjustment risk framework*. BIS. Cargo de capital por ajuste de valoración del crédito.
+- Basel Committee on Banking Supervision (2015). *Review of the Credit Valuation Adjustment risk framework*. BIS. Cargo de capital por ajuste de valoración del crédito. <https://www.bis.org/bcbs/publ/d325.htm>
 - Gregory, J. (2020). *The xVA Challenge: Counterparty Risk, Funding, Collateral, Capital and Initial Margin* (4.ª ed.). Wiley. Familia de ajustes de valoración y su efecto en el precio.
 - International Monetary Fund (2013). *Sovereign Debt Restructuring — Recent Developments*. IMF Policy Papers. Mecánica y precedentes de una reestructuración soberana.
 - Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Capítulo sobre riesgo de contraparte.

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [liquidacion, atomicidad, riesgo-operativo]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, BIS]
 requires_legal_review: false
@@ -339,7 +339,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Modos de fallo de la liquidación atómica y sus controles. <https://www.bis.org/cpmi/publ/d225.htm>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Condiciones de la liquidación atómica en el libro unificado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de conducta ante una liquidación fallida. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

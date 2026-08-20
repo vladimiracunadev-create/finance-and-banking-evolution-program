@@ -524,9 +524,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Decisiones de arquitectura que el supervisor observa.
-- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Riesgo de concentración en proveedores tecnológicos. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Riesgo de concentración en proveedores tecnológicos. <https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
 - Basel Committee on Banking Supervision (2021). *Principles for Operational Resilience*. BIS. Continuidad exigible a los servicios contratados fuera.
-- European Banking Authority (2019). *Guidelines on outsourcing arrangements*. EBA. Requisitos contractuales y de salida en la externalización.
+- European Banking Authority (2019). *Guidelines on outsourcing arrangements*. EBA. Requisitos contractuales y de salida en la externalización. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-outsourcing-arrangements>
 - Carr, N. (2003). "IT Doesn't Matter". *Harvard Business Review*. Debate sobre capacidad diferenciadora frente a infraestructura.
 - Verificación local: revisa las exigencias de tu supervisor sobre externalización de funciones materiales, notificación previa y planes de salida.
 

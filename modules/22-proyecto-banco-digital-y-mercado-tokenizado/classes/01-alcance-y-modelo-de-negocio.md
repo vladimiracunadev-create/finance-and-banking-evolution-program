@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [gobierno-corporativo, modelo-de-negocio, viabilidad]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BCBS, CMF, FSB]
 requires_legal_review: true
@@ -517,7 +517,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2018). *Sound Practices: implications of fintech developments for banks and bank supervisors*. BIS. Expectativa prudencial ante un modelo de negocio digital. <https://www.bis.org/bcbs/publ/d431.htm>
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Marco global que acota lo que el proyecto puede prometer. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
 - Comisión para el Mercado Financiero. *Normativa sobre autorización de entidades y planes de negocio*. CMF. Contenido exigible al plan de negocio presentado al supervisor. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu jurisdicción en un plan de negocio para autorización y qué actividades puede ejercer una misma entidad. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué exige tu jurisdicción en un plan de negocio para autorización y qué actividades puede ejercer una misma entidad. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

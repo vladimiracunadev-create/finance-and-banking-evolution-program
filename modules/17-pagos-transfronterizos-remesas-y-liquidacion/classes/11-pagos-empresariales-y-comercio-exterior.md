@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile]
 regulatory_topics: [cross-border-payments, comercio-exterior, cambios-internacionales]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [Banco Central de Chile, CCI]
 requires_legal_review: true
@@ -531,7 +531,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2014). *Treatment of trade finance under the Basel capital framework*. BIS. Tratamiento de capital del financiamiento del comercio. <https://www.bis.org/publ/bcbs205.htm>
 - Organización Mundial del Comercio. *Trade finance and SMEs*. OMC. Evidencia sobre acceso de las pymes al financiamiento comercial. <https://www.wto.org/>
 - Banco Central de Chile. *Compendio de Normas de Cambios Internacionales*. Obligaciones cambiarias de la operación de comercio exterior. <https://www.bcentral.cl/>
-- Verificación local: comprueba qué operaciones de comercio exterior deben informarse al banco central y qué documentación de respaldo se exige. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba qué operaciones de comercio exterior deben informarse al banco central y qué documentación de respaldo se exige. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

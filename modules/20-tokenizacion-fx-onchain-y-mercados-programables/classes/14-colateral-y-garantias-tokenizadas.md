@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [colateral, garantias, riesgo-de-credito]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, BCBS]
 requires_legal_review: true
@@ -561,9 +561,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Requisitos de gestión del colateral en la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
 - Basel Committee on Banking Supervision (2020). *Margin requirements for non-centrally cleared derivatives*. BIS. Cálculo del margen inicial y de variación. <https://www.bis.org/bcbs/publ/d499.htm>
-- Financial Stability Board (2022). *Review of Margining Practices*. FSB. Evidencia sobre llamadas de margen procíclicas. <https://www.fsb.org/2022/09/review-of-margining-practices/>
+- Comité de Supervisión Bancaria de Basilea, CPMI e IOSCO (2022). *Review of margining practices*. BIS. Evidencia sobre llamadas de margen procíclicas. <https://www.bis.org/bcbs/publ/d537.htm>
 - IOSCO (2023). *Policy Recommendations for Decentralized Finance*. IOSCO. Riesgos de la liquidación automática de garantías. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf>
-- Verificación local: comprueba qué exige tu jurisdicción sobre recortes, plazos de llamada de margen y salvaguardas ante liquidaciones automáticas. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Verificación local: comprueba qué exige tu jurisdicción sobre recortes, plazos de llamada de margen y salvaguardas ante liquidaciones automáticas. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

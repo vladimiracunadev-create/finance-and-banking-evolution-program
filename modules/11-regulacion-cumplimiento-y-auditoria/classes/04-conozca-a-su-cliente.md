@@ -476,7 +476,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Financial Action Task Force (2012-2025). *Recommendations 10, 12, 22 y 24* e Interpretive Notes: debida diligencia y beneficiario final. FATF.
 - Financial Action Task Force (2023). *Guidance on Beneficial Ownership of Legal Persons*. FATF. Identificación del beneficiario final en estructuras societarias. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html>
-- Basel Committee on Banking Supervision (2016). *Guidelines: Sound management of risks related to money laundering and financing of terrorism — General Guide to Account Opening*. BIS. Procedimiento de apertura de cuenta con enfoque de riesgo.
+- Basel Committee on Banking Supervision (2016). *Guidelines: Sound management of risks related to money laundering and financing of terrorism — General Guide to Account Opening*. BIS. Procedimiento de apertura de cuenta con enfoque de riesgo. <https://www.bis.org/bcbs/publ/d353.htm>
 - Financial Action Task Force (2013). *Guidance on Politically Exposed Persons (Recommendations 12 and 22)*. FATF. Tratamiento reforzado de personas expuestas políticamente.
 - World Bank (2019). *Digital Identity for Development*. World Bank Group. Identidad digital como insumo de la debida diligencia.
 - Verificación local: revisa el umbral de beneficiario final, los documentos aceptados para verificación y las obligaciones de actualización de expedientes en tu país.

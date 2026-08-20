@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [oferta-publica, mercado-primario, proteccion-al-inversionista]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF]
 requires_legal_review: true
@@ -514,7 +514,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Requisitos aplicables a la emisión de activos digitales. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Mecánica de suscripción y liquidación en el registro. <https://www.bis.org/cpmi/publ/d225.htm>
 - Comisión para el Mercado Financiero. *Normativa sobre oferta pública de valores e inscripción en el Registro de Valores*. CMF. Trámite de inscripción del instrumento en Chile. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué constituye oferta pública en tu jurisdicción, qué exenciones existen y qué información mínima exige el folleto para este tipo de instrumento. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué constituye oferta pública en tu jurisdicción, qué exenciones existen y qué información mínima exige el folleto para este tipo de instrumento. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [dinero-programable, proteccion-al-cliente, disenio-de-producto]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BIS, CPMI, OCDE]
 requires_legal_review: true
@@ -512,7 +512,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Distinción entre pago programable y unidad restringida. <https://www.bis.org/cpmi/publ/d225.htm>
 - OCDE (2021). *Recommendation of the Council on Financial Literacy*. OECD. Efectos de la restricción sobre la comprensión del usuario. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0461>
 - Bank for International Settlements (2021). *CBDCs: an opportunity for the monetary system*, Annual Economic Report. BIS. Argumento sobre programabilidad en el sistema monetario. <https://www.bis.org/publ/arpdf/ar2021e3.htm>
-- Verificación local: comprueba qué límites impone tu jurisdicción a la restricción de uso del dinero, a la caducidad de saldos y al tratamiento automatizado de decisiones que afectan a personas. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué límites impone tu jurisdicción a la restricción de uso del dinero, a la caducidad de saldos y al tratamiento automatizado de decisiones que afectan a personas. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

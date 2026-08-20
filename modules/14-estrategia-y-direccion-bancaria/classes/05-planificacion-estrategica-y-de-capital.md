@@ -555,7 +555,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. Uso de escenarios adversos en la planificación.
 - Financial Stability Board (2013). *Principles for an Effective Risk Appetite Framework*. FSB. Coherencia entre plan y declaración de apetito de riesgo.
 - Higgins, R. (2019). *Analysis for Financial Management* (12.ª ed.). McGraw-Hill. Crecimiento sostenible.
-- European Banking Authority (2022). *Guidelines on institutions' stress testing*. EBA. Requisitos del ejercicio interno de pruebas de estrés.
+- European Banking Authority (2022). *Guidelines on institutions' stress testing*. EBA. Requisitos del ejercicio interno de pruebas de estrés. <https://www.eba.europa.eu/guidelines-stress-testing>
 - Verificación local: revisa el formato y el calendario del proceso de autoevaluación de capital que exige tu supervisor.
 
 <!-- gen:footer:start -->

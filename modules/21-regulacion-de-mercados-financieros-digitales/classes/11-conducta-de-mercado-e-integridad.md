@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [integridad-del-mercado, abuso-de-mercado, transparencia]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, FSB, CMF]
 requires_legal_review: true
@@ -475,7 +475,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2013). *Principles for Financial Benchmarks*. IOSCO. Gobierno del índice o precio de referencia. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD415.pdf>
 - IOSCO (2009). *Objectives and Principles of Securities Regulation*. IOSCO. Definición de manipulación e información privilegiada. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD323.pdf>
 - Financial Stability Board (2023). *The Financial Stability Implications of Multifunction Crypto-asset Intermediaries*. FSB. Conflictos de interés en intermediarios multifunción. <https://www.fsb.org/2023/11/the-financial-stability-implications-of-multifunction-crypto-asset-intermediaries/>
-- Verificación local: comprueba qué régimen de abuso de mercado aplica en tu jurisdicción a estas plataformas y qué obligaciones de vigilancia y reporte impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué régimen de abuso de mercado aplica en tu jurisdicción a estas plataformas y qué obligaciones de vigilancia y reporte impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

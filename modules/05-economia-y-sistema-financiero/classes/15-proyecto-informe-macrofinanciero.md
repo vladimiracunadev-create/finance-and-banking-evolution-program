@@ -317,9 +317,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - International Monetary Fund (2024). *Global Financial Stability Report* y *World Economic Outlook*. FMI. Estructura de referencia de informes macrofinancieros. <https://www.imf.org/>
-- Bank for International Settlements (2024). *Annual Economic Report*. BIS. Integración de análisis macro y financiero.
+- Bank for International Settlements (2024). *Annual Economic Report*. BIS. Integración de análisis macro y financiero. <https://www.bis.org/publ/arpdf/ar2024e.htm>
 - Basel Committee on Banking Supervision (2018). *Stress testing principles*. BIS. Construcción de escenarios coherentes. <https://www.bis.org/bcbs/publ/d450.htm>
-- Financial Stability Board (2023). *Global Monitoring Report on Non-Bank Financial Intermediation*. Metodología de seguimiento de condiciones financieras.
+- Financial Stability Board (2023). *Global Monitoring Report on Non-Bank Financial Intermediation*. Metodología de seguimiento de condiciones financieras. <https://www.fsb.org/2023/12/global-monitoring-report-on-non-bank-financial-intermediation-2023/>
 - Tetlock, P. y Gardner, D. (2015). *Superforecasting: The Art and Science of Prediction*. Crown. Asignación de probabilidades y evaluación de pronósticos.
 - Verificación local: usa el informe de política monetaria y el informe de estabilidad financiera de tu banco central como referencia de estructura y de fuentes oficiales.
 

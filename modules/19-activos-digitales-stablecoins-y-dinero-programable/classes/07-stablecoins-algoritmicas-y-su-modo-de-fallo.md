@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [estabilidad-financiera, disenio-de-producto, riesgo-de-modelo]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, IOSCO]
 requires_legal_review: false
@@ -510,7 +510,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Stability Board (2022). *Assessment of Risks to Financial Stability from Crypto-assets*. FSB. Análisis del episodio de colapso que la clase reconstruye. <https://www.fsb.org/2022/02/assessment-of-risks-to-financial-stability-from-crypto-assets/>
 - IOSCO (2022). *Decentralized Finance Report*. IOSCO. Reaparición del mismo mecanismo en protocolos descentralizados. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD699.pdf>
 - Bank for International Settlements (2022). *Annual Economic Report, capítulo III*. BIS. Análisis del colapso de los diseños algorítmicos. <https://www.bis.org/publ/arpdf/ar2022e3.htm>
-- Verificación local: comprueba si tu jurisdicción prohíbe, restringe o somete a advertencia expresa los instrumentos con estabilización algorítmica. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba si tu jurisdicción prohíbe, restringe o somete a advertencia expresa los instrumentos con estabilización algorítmica. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

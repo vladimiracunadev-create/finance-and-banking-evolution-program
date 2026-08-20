@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [activos-digitales, taxonomia, perimetro]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BCBS, CMF]
 requires_legal_review: true
@@ -480,7 +480,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Clasificación del dinero y de los activos digitales por su emisor. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Definición de activo virtual que delimita el perímetro. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Figuras que la ley chilena reconoce y las que deja fuera. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Verificación local: comprueba en la fuente oficial vigente qué régimen aplica en tu jurisdicción a cada uno de los siete tipos de la tabla, porque la clasificación no es universal. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué régimen aplica en tu jurisdicción a cada uno de los siete tipos de la tabla, porque la clasificación no es universal. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

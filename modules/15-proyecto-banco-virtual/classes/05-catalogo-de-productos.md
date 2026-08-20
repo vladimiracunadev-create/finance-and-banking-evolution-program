@@ -566,7 +566,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- European Banking Authority (2015). *Guidelines on product oversight and governance arrangements*. EBA. Gobierno del producto y definición del mercado objetivo.
+- European Banking Authority (2015). *Guidelines on product oversight and governance arrangements*. EBA. Gobierno del producto y definición del mercado objetivo. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/consumer-protection/guidelines-product-oversight-and-governance-arrangements-retail-banking-products>
 - OECD (2022). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Límites de conducta que acotan el diseño del catálogo.
 - Rejda, G. y McNamara, M. (2016). *Principles of Risk Management and Insurance* (13.ª ed.). Pearson. Cálculo de primas.
 - World Bank y CGAP (2019). *Alternative Data Transforming SME Finance*. World Bank Group. Base empírica del producto de crédito a pymes sin historial.

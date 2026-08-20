@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [externalizacion, arquitectura, terceros]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BCBS, CPMI, CMF]
 requires_legal_review: true
@@ -441,7 +441,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2018). *Sound Practices: Implications of fintech developments for banks and bank supervisors*. BIS. Criterio supervisor sobre dependencias tecnológicas. <https://www.bis.org/bcbs/publ/d431.htm>
 - Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero*. EUR-Lex. Obligaciones sobre proveedores tecnológicos críticos. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
 - Comisión para el Mercado Financiero. *Normativa sobre externalización de servicios*. CMF. Requisitos chilenos de externalización y planes de salida. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu jurisdicción para externalizar funciones relevantes, qué derechos de auditoría impone y qué funciones no admite delegar. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué exige tu jurisdicción para externalizar funciones relevantes, qué derechos de auditoría impone y qué funciones no admite delegar. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

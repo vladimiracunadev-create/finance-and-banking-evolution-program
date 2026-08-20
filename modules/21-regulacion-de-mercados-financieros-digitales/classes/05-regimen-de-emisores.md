@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [union-europea, internacional]
 regulatory_topics: [emisores, reservas, redencion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, IOSCO]
 requires_legal_review: true
@@ -523,7 +523,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de infraestructura aplicables al emisor. <https://www.bis.org/cpmi/publ/d206.htm>
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*, títulos sobre emisores. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de conducta y revelación del emisor. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- Verificación local: comprueba qué obligaciones impone tu jurisdicción a los emisores de instrumentos referenciados, si admite mínimos de reembolso y qué exige del plan de rescate. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué obligaciones impone tu jurisdicción a los emisores de instrumentos referenciados, si admite mínimos de reembolso y qué exige del plan de rescate. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

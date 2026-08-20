@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [producto, idoneidad, calificacion]
-regulation_last_verified: 2026-08-06
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF, OCDE]
 requires_legal_review: true
@@ -362,10 +362,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Calificación de cada instrumento y sus consecuencias. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
-- OCDE (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Idoneidad y revelación exigibles al producto ofrecido. <https://www.oecd.org/finance/financial-education/48892010.pdf>
+- OCDE (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Idoneidad y revelación exigibles al producto ofrecido. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Encaje de los productos en las figuras de la ley chilena. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones chilenas asociadas a cada producto del catálogo. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-06.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

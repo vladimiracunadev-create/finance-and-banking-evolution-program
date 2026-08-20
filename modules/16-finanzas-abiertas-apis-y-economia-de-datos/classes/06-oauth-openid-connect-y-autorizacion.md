@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [open-finance, seguridad, autenticacion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: estandar-vigente
 primary_authorities: [IETF, OpenID Foundation]
 requires_legal_review: false
@@ -506,7 +506,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Internet Engineering Task Force. *RFC 9700 — Best Current Practice for OAuth 2.0 Security*. IETF. Prácticas de seguridad vigentes que corrigen el perfil original. <https://www.rfc-editor.org/rfc/rfc9700>
 - OpenID Foundation. *OpenID Connect Core 1.0*. Capa de autenticación que OAuth por sí solo no provee. <https://openid.net/specs/openid-connect-core-1_0.html>
 - Internet Engineering Task Force. *RFC 7519 — JSON Web Token (JWT)*. IETF. Formato del testigo que transporta las afirmaciones de identidad. <https://www.rfc-editor.org/rfc/rfc7519>
-- Verificación local: comprueba qué versión de cada especificación exige el anexo técnico vigente en tu jurisdicción; los perfiles se actualizan y los identificadores de RFC cambian al obsoletarse. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué versión de cada especificación exige el anexo técnico vigente en tu jurisdicción; los perfiles se actualizan y los identificadores de RFC cambian al obsoletarse. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

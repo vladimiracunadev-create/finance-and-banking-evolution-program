@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, infraestructura, resiliencia-operacional]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: false
@@ -522,7 +522,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Límites de rendimiento del registro frente a un sistema centralizado. <https://www.bis.org/cpmi/publ/d157.htm>
 - Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. Riesgos de concentración en soluciones de segunda capa. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
 - NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Compromiso entre rendimiento, descentralización y seguridad. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué exige tu supervisor sobre capacidad, resiliencia y retención de una infraestructura de mercado. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué exige tu supervisor sobre capacidad, resiliencia y retención de una infraestructura de mercado. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

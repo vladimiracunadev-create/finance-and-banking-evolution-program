@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile, union-europea]
 regulatory_topics: [open-finance, consentimiento, proteccion-de-datos]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CMF]
 requires_legal_review: true
@@ -480,7 +480,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - OpenID Foundation. *FAPI 2.0 — Grant Management for OAuth 2.0*. Mecanismo técnico de gestión y revocación de autorizaciones. <https://openid.net/wg/fapi/>
 - Bank for International Settlements (2021). *Data governance and consent in open finance*. BIS. Gobierno del consentimiento en un ecosistema de finanzas abiertas. <https://www.bis.org/publ/bppdf/bispap117.htm>
 - Biblioteca del Congreso Nacional de Chile. *Ley N.º 19.628 sobre protección de la vida privada y su normativa sucesora en materia de datos personales*. Régimen chileno de datos personales aplicable al consentimiento. <https://www.bcn.cl/leychile>
-- Verificación local: comprueba el plazo máximo de vigencia y los requisitos de revocación exigidos por la norma vigente en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba el plazo máximo de vigencia y los requisitos de revocación exigidos por la norma vigente en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional, union-europea]
 regulatory_topics: [redencion, liquidez, proteccion-al-cliente]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, CMF]
 requires_legal_review: true
@@ -493,7 +493,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Stability Board (2021). *Policy Proposals to Enhance Money Market Fund Resilience*. FSB. Paralelo con la ventaja del primero en salir en fondos monetarios. <https://www.fsb.org/2021/10/policy-proposals-to-enhance-money-market-fund-resilience-final-report/>
 - CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Firmeza y orden de la redención en el acuerdo. <https://www.bis.org/cpmi/publ/d206.htm>
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*, disposiciones sobre derecho de reembolso. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
-- Verificación local: comprueba si tu jurisdicción admite puertas, prorrateo o comisiones antidilución en este tipo de instrumento y qué plazo máximo de reembolso impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba si tu jurisdicción admite puertas, prorrateo o comisiones antidilución en este tipo de instrumento y qué plazo máximo de reembolso impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

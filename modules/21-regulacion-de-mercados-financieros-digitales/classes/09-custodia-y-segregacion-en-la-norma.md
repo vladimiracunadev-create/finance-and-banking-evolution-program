@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [custodia, segregacion, concurso]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI, CMF]
 requires_legal_review: true
@@ -518,7 +518,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - CPMI e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Protección de los activos del participante en la infraestructura. <https://www.bis.org/cpmi/publ/d101.htm>
 - IOSCO (2004). *Recommendations for Securities Settlement Systems*. IOSCO. Requisitos del sistema de liquidación sobre la titularidad. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD176.pdf>
 - Comisión para el Mercado Financiero. *Normativa sobre custodia y depósito de valores*. CMF. Régimen chileno de custodia y depósito de valores. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba si el instrumento está calificado como valor en tu jurisdicción, qué régimen de custodia le aplica, si admite reutilización y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba si el instrumento está calificado como valor en tu jurisdicción, qué régimen de custodia le aplica, si admite reutilización y con qué requisitos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

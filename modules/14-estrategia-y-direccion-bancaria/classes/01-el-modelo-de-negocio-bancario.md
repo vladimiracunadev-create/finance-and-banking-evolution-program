@@ -473,7 +473,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- European Banking Authority (2022). *Guidelines on common procedures and methodologies for SREP*, sección de análisis del modelo de negocio. EBA.
+- European Banking Authority (2022). *Guidelines on common procedures and methodologies for SREP*, sección de análisis del modelo de negocio. EBA. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/supervisory-review-and-evaluation-process-srep-and-pillar-2/guidelines-common-procedures-and-methodologies-supervisory-review-and-evaluation-process-srep-and>
 - Rose, P. y Hudgins, S. (2013). *Bank Management and Financial Services* (9.ª ed.). McGraw-Hill. Capítulo 6: análisis de desempeño bancario.
 - Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Descomposición del margen y de las fuentes de resultado.
 - Bank for International Settlements (2018). *Structural changes in banking after the crisis*. CGFS Papers 60. Evidencia comparada sobre modelos de negocio bancarios tras la crisis. <https://www.bis.org/publ/cgfs60.htm>

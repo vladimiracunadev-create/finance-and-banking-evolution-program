@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile]
 regulatory_topics: [open-finance, licenciamiento, proteccion-de-datos]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: en-despliegue-por-fases
 primary_authorities: [CMF, Banco Central de Chile, UAF]
 requires_legal_review: true
@@ -500,7 +500,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Banco Central de Chile. *Compendio de Normas Financieras* y *Compendio de Normas de Cambios Internacionales*. <https://www.bcentral.cl/>
 - Unidad de Análisis Financiero. *Normativa de prevención del lavado de activos y del financiamiento del terrorismo*. UAF. Obligaciones de prevención aplicables al prestador inscrito. <https://www.uaf.cl/>
 - Biblioteca del Congreso Nacional de Chile. *Ley N.º 19.913, que crea la Unidad de Análisis Financiero*. Creación y facultades de la unidad de inteligencia financiera. <https://www.bcn.cl/leychile>
-- Verificación local obligatoria: comprueba en el sitio de la CMF qué normas de carácter general están vigentes hoy para tu actividad, en qué fase está el despliegue del Sistema de Finanzas Abiertas y qué versión del anexo técnico rige. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
+- Verificación local obligatoria: comprueba en el sitio de la CMF qué normas de carácter general están vigentes hoy para tu actividad, en qué fase está el despliegue del Sistema de Finanzas Abiertas y qué versión del anexo técnico rige. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

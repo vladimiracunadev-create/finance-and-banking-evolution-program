@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, infraestructura, interoperabilidad]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: en-desarrollo
 primary_authorities: [CPMI, BIS Innovation Hub]
 requires_legal_review: true
@@ -522,7 +522,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2022). *Interlinking payment systems and the role of application programming interfaces*. BIS. Papel de las interfaces en la interconexión de sistemas. <https://www.bis.org/cpmi/publ/d205.htm>
 - Committee on Payments and Market Infrastructures (2021). *Developing a technical standard for cross-border payments*. BIS. Estándar técnico común exigido por la interconexión. <https://www.bis.org/cpmi/publ/d199.htm>
 - Financial Stability Board. *Informes de avance de la hoja de ruta del G20*. FSB. Avance medido de la hoja de ruta y sus metas. <https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/cross-border-payments/>
-- Verificación local: comprueba el estado actual de cada proyecto citado y si tu jurisdicción participa en algún enlace, con sus límites y reglas. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba el estado actual de cada proyecto citado y si tu jurisdicción participa en algún enlace, con sus límites y reglas. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

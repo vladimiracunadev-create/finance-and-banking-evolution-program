@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [gobierno-corporativo, gestion-de-riesgos, due-diligence]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BCBS, CMF]
 requires_legal_review: true
@@ -520,7 +520,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Responsabilidades del comité que aprueba o rechaza el expediente. <https://www.bis.org/bcbs/publ/d328.htm>
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Requisitos de conducta y revelación del activo evaluado. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Comisión para el Mercado Financiero. *Normativa sobre gestión de riesgos y gobierno corporativo*. CMF. Exigencias chilenas de gestión de riesgos del emisor. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu supervisor para aprobar una exposición a activos digitales, qué información debe constar en el acta y con qué periodicidad se revisa. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué exige tu supervisor para aprobar una exposición a activos digitales, qué información debe constar en el acta y con qué periodicidad se revisa. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional, union-europea]
 regulatory_topics: [stablecoins, activos-referenciados, paridad]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, CPMI, IOSCO]
 requires_legal_review: true
@@ -477,7 +477,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - CPMI e IOSCO (2022). *Application of the Principles for Financial Market Infrastructures to stablecoin arrangements*. BIS. Requisitos de infraestructura aplicables al acuerdo. <https://www.bis.org/cpmi/publ/d206.htm>
 - Bank for International Settlements (2023). *Stablecoins: fundamentals, emerging issues and open questions*. BIS. Mecánica de arbitraje que sostiene la paridad. <https://www.bis.org/publ/work905.htm>
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*. EUR-Lex. Régimen europeo de fichas referenciadas a activos y de dinero electrónico. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
-- Verificación local: comprueba en la fuente oficial vigente qué obligaciones de redención impone tu jurisdicción y si admite mínimos o participantes autorizados exclusivos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué obligaciones de redención impone tu jurisdicción y si admite mínimos o participantes autorizados exclusivos. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

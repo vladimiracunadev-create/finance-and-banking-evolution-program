@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, stablecoins, aml-cft]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: en-desarrollo
 primary_authorities: [FSB, CPMI, GAFI]
 requires_legal_review: true
@@ -528,7 +528,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Action Task Force. *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Obligaciones de prevención sobre proveedores de activos virtuales. <https://www.fatf-gafi.org/>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Diseño del sistema monetario futuro con que se contrasta la ruta con stablecoin. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - Committee on Payments and Market Infrastructures (2021). *Central bank digital currencies for cross-border payments*. BIS. Alternativa de moneda digital para el mismo caso de uso. <https://www.bis.org/publ/othp38.htm>
-- Verificación local: comprueba si tu jurisdicción admite el uso de stablecoins como medio de pago, qué licencia exige al proveedor de entrada y salida y cómo aplica la regla del viaje a las transferencias de activos virtuales. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal ni recomendación de inversión.
+- Verificación local: comprueba si tu jurisdicción admite el uso de stablecoins como medio de pago, qué licencia exige al proveedor de entrada y salida y cómo aplica la regla del viaje a las transferencias de activos virtuales. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal ni recomendación de inversión.
 
 <!-- gen:footer:start -->
 ---

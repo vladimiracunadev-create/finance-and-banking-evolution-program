@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [perimetro, proporcionalidad, neutralidad-tecnologica]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, IOSCO]
 requires_legal_review: true
@@ -523,7 +523,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Actividades nuevas que el principio de equivalencia no alcanza. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - IOSCO (2023). *Policy Recommendations for Decentralized Finance*. IOSCO. Riesgos de las finanzas descentralizadas que el principio no cubre. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf>
 - Basel Committee on Banking Supervision (2018). *Sound Practices: implications of fintech developments for banks and bank supervisors*. BIS. Límites del principio ante modelos de negocio nuevos. <https://www.bis.org/bcbs/publ/d431.htm>
-- Verificación local: comprueba si tu autoridad ha emitido guías técnicas que desarrollen normas existentes para actividades digitales, y con qué rango. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba si tu autoridad ha emitido guías técnicas que desarrollen normas existentes para actividades digitales, y con qué rango. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [infraestructura, interoperabilidad, riesgo-operacional]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO, ISO]
 requires_legal_review: false
@@ -534,7 +534,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Fragmentación de la liquidez entre registros y sus costes. <https://www.bis.org/cpmi/publ/d225.htm>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. El libro unificado como respuesta a la fragmentación entre registros. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
 - ISO/TC 307. *Blockchain and distributed ledger technologies — interoperability*. ISO. Normalización técnica de la interoperabilidad entre registros. <https://www.iso.org/committee/6266604.html>
-- Verificación local: comprueba qué exige tu jurisdicción para que dos infraestructuras de mercado se enlacen y qué régimen aplica a un puente entre registros. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué exige tu jurisdicción para que dos infraestructuras de mercado se enlacen y qué régimen aplica a un puente entre registros. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [gobierno-corporativo, supervision, comunicacion]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BCBS, CMF, IOSCO]
 requires_legal_review: true
@@ -373,7 +373,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Obligaciones de conducta que la defensa debe sostener. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Encuadre global con que se juzga el sistema completo. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Exigencias chilenas que cierran la defensa del proyecto. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

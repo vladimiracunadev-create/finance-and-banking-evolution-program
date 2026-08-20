@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [mercado-secundario, liquidez, transparencia]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, CPMI]
 requires_legal_review: false
@@ -514,7 +514,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2011). *Principles for Dark Liquidity*. IOSCO. Criterios sobre liquidez no visible y sus efectos en el precio. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD353.pdf>
 - Committee on Payments and Market Infrastructures (2024). *Tokenisation in the context of money and other assets: concepts and implications for central banks*. BIS. Contraste entre liquidez prometida y liquidez observada. <https://www.bis.org/cpmi/publ/d225.htm>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Liquidez que cabe esperar de un mercado tokenizado. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Verificación local: comprueba qué información periódica sobre negociación debe publicar una plataforma en tu jurisdicción y si el régimen exige declarar las operaciones con partes vinculadas. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué información periódica sobre negociación debe publicar una plataforma en tu jurisdicción y si el régimen exige declarar las operaciones con partes vinculadas. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

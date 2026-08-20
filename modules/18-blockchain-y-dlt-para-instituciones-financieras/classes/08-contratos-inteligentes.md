@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, riesgo-operacional, contratos]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, NIST]
 requires_legal_review: true
@@ -515,7 +515,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - OWASP Foundation. *Smart Contract Top 10*. OWASP. Vulnerabilidades más frecuentes y sus controles. <https://owasp.org/www-project-smart-contract-top-10/>
 - European Union Agency for Cybersecurity (2021). *Distributed Ledger Technology and Cybersecurity*. ENISA. Prácticas de auditoría de código antes del despliegue. <https://www.enisa.europa.eu/>
 - Committee on Payments and Market Infrastructures (2017). *Distributed ledger technology in payment, clearing and settlement: an analytical framework*. BIS. Encaje del contrato en un proceso de liquidación. <https://www.bis.org/cpmi/publ/d157.htm>
-- Verificación local: comprueba qué eficacia jurídica reconoce tu ordenamiento a la ejecución automatizada y qué remedios existen ante un comportamiento no querido del código. **Fecha de verificación de esta clase: 2026-08-19.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba qué eficacia jurídica reconoce tu ordenamiento a la ejecución automatizada y qué remedios existen ante un comportamiento no querido del código. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

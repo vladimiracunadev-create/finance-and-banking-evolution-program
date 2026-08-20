@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, union-europea]
 regulatory_topics: [dinero-electronico, salvaguarda-de-fondos, perimetro]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CMF, BCCh, EBA]
 requires_legal_review: true
@@ -507,7 +507,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*, fichas de dinero electrónico. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Figura chilena equivalente y sus obligaciones. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Banco Central de Chile. *Normativa sobre sistemas de pago y emisores de tarjetas de pago con provisión de fondos*. BCCh. Normativa de emisores de tarjetas con provisión de fondos. <https://www.bcentral.cl/areas/sistemas-de-pago>
-- Verificación local: comprueba en la fuente oficial vigente qué autorización exige tu jurisdicción para emitir valor almacenado, si prohíbe remunerarlo y qué método de salvaguarda admite. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba en la fuente oficial vigente qué autorización exige tu jurisdicción para emitir valor almacenado, si prohíbe remunerarlo y qué método de salvaguarda admite. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

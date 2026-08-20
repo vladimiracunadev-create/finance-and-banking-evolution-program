@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, liquidez, tesoreria]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [CPMI, Comité de Basilea]
 requires_legal_review: false
@@ -504,7 +504,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2013). *Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools*. BIS. Tratamiento de la liquidez atrapada en el ratio de cobertura. <https://www.bis.org/publ/bcbs238.htm>
 - Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Gobierno de la liquidez intradía en divisas. <https://www.bis.org/publ/bcbs144.htm>
 - Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. Bloques del plan global que atacan el coste de liquidez. <https://www.bis.org/cpmi/publ/d193.htm>
-- Verificación local: comprueba los requisitos de liquidez en moneda extranjera y las ventanas operativas aplicables en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba los requisitos de liquidez en moneda extranjera y las ventanas operativas aplicables en tu jurisdicción. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [formacion-de-precio, liquidez, riesgo-de-modelo]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [IOSCO, BIS, FSB]
 requires_legal_review: false
@@ -498,7 +498,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2023). *Policy Recommendations for Decentralized Finance*. IOSCO. Recomendaciones aplicables a las finanzas descentralizadas. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD754.pdf>
 - Financial Stability Board (2023). *The Financial Stability Risks of Decentralised Finance*. FSB. Riesgos de estabilidad de la negociación automatizada. <https://www.fsb.org/2023/02/the-financial-stability-risks-of-decentralised-finance/>
 - Bank for International Settlements (2021). *DeFi risks and the decentralisation illusion*, Quarterly Review. BIS. Crítica del grado real de descentralización de estos mercados. <https://www.bis.org/publ/qtrpdf/r_qt2112b.htm>
-- Verificación local: comprueba si tu jurisdicción considera actividad regulada aportar reservas a un mecanismo de este tipo o explotarlo. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba si tu jurisdicción considera actividad regulada aportar reservas a un mecanismo de este tipo o explotarlo. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

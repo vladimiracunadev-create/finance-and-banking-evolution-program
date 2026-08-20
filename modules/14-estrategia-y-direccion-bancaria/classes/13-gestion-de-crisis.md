@@ -556,7 +556,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 ## 📗 Fuentes y verificación
 
 - Financial Stability Board (2014). *Key Attributes of Effective Resolution Regimes for Financial Institutions*, sección de planes de recuperación. FSB.
-- European Banking Authority (2014). *Guidelines on the range of scenarios to be used in recovery plans*. EBA. Escenarios y disparadores exigidos en el plan de recuperación.
+- European Banking Authority (2014). *Guidelines on the range of scenarios to be used in recovery plans*. EBA. Escenarios y disparadores exigidos en el plan de recuperación. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/recovery-resolution-and-dgs/guidelines-range>
 - Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Plan de contingencia de liquidez y sus indicadores de activación.
 - Bank for International Settlements (2023). *Annual Economic Report*, capítulo sobre las turbulencias bancarias de 2023.
 - Soros, G. (1987). *The Alchemy of Finance*. Wiley. Formulación del principio de reflexividad.

@@ -514,7 +514,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Restricciones de capital que condicionan la composición del balance.
 - Basel Committee on Banking Supervision (2014). *Revisions to the securitisation framework*. BIS. Titulización como herramienta de gestión de activos ponderados. <https://www.bis.org/bcbs/publ/d303.htm>
-- Basel Committee on Banking Supervision (2014). *Basel III leverage ratio framework and disclosure requirements*. BIS. Restricción de apalancamiento sobre el crecimiento del balance.
+- Basel Committee on Banking Supervision (2014). *Basel III leverage ratio framework and disclosure requirements*. BIS. Restricción de apalancamiento sobre el crecimiento del balance. <https://www.bis.org/publ/bcbs270.htm>
 - Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Gestión de activos y pasivos.
 - Choudhry, M. (2018). *An Introduction to Banking: Principles, Strategy and Risk Management* (2.ª ed.). Wiley. Gestión conjunta de activos y pasivos bancarios.
 - Verificación local: revisa los requisitos de transferencia significativa de riesgo en titularizaciones y los factores de conversión de partidas fuera de balance en tu jurisdicción.

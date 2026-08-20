@@ -538,7 +538,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*. BIS. Composición, funciones y responsabilidades del directorio. <https://www.bis.org/bcbs/publ/d328.htm>
 - OECD (2023). *G20/OECD Principles of Corporate Governance*. OECD. Principios generales de gobierno corporativo que la clase adapta. <https://www.oecd.org/corporate/principles-corporate-governance/>
 - Financial Stability Board (2014). *Guidance on Supervisory Interaction with Financial Institutions on Risk Culture*. FSB. Cómo evalúa el supervisor la cultura y el tono desde arriba.
-- European Banking Authority (2021). *Guidelines on internal governance*. EBA. Requisitos europeos de gobierno interno y comités.
+- European Banking Authority (2021). *Guidelines on internal governance*. EBA. Requisitos europeos de gobierno interno y comités. <https://www.eba.europa.eu/activities/single-rulebook/regulatory-activities/internal-governance/guidelines-internal-governance-under-crd>
 - Institute of Internal Auditors (2020). *The IIA's Three Lines Model*. IIA. Reparto de responsabilidades de control entre las tres líneas.
 - Verificación local: revisa las exigencias de composición del directorio, independencia y comités obligatorios que aplica tu supervisor.
 

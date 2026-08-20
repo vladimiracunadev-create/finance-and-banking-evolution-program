@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [union-europea, internacional]
 regulatory_topics: [resiliencia, externalizacion, continuidad]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [BCBS, CPMI, ESAs]
 requires_legal_review: true
@@ -508,7 +508,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2021). *Revisions to the Principles for the Sound Management of Operational Risk*. BIS. Controles del riesgo operacional asociados al proveedor. <https://www.bis.org/bcbs/publ/d515.htm>
 - Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/2554 sobre la resiliencia operativa digital del sector financiero*. EUR-Lex. Régimen europeo de resiliencia y vigilancia de terceros críticos. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
 - Financial Stability Board (2020). *Effective Practices for Cyber Incident Response and Recovery*. FSB. Prácticas de respuesta y recuperación ante incidentes. <https://www.fsb.org/2020/10/effective-practices-for-cyber-incident-response-and-recovery-final-report/>
-- Verificación local: comprueba si tu jurisdicción prevé la designación de terceros críticos, qué umbral aplica y qué obligaciones de declaración de subcontratación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba si tu jurisdicción prevé la designación de terceros críticos, qué umbral aplica y qué obligaciones de declaración de subcontratación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---

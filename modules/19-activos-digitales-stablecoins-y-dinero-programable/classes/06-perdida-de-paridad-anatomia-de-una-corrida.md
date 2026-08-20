@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [estabilidad-financiera, liquidez, contagio]
-regulation_last_verified: 2026-08-19
+regulation_last_verified: 2026-08-20
 regulatory_status: vigente
 primary_authorities: [FSB, BIS, IOSCO]
 requires_legal_review: false
@@ -512,7 +512,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bank for International Settlements (2023). *Stablecoins: fundamentals, emerging issues and open questions*. BIS. Mecanismo de la corrida y su medición anticipada. <https://www.bis.org/publ/work905.htm>
 - IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Fallos de mercado observados durante los episodios. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
 - Financial Stability Board (2021). *Policy Proposals to Enhance Money Market Fund Resilience*. FSB. Analogía con la corrida en fondos del mercado monetario. <https://www.fsb.org/2021/10/policy-proposals-to-enhance-money-market-fund-resilience-final-report/>
-- Verificación local: comprueba qué obligaciones de información en tiempo de tensión impone tu jurisdicción al emisor y a las plataformas de negociación. **Fecha de verificación de esta clase: 2026-08-19.**
+- Verificación local: comprueba qué obligaciones de información en tiempo de tensión impone tu jurisdicción al emisor y a las plataformas de negociación. **Fecha de verificación de esta clase: 2026-08-20.**
 
 <!-- gen:footer:start -->
 ---
