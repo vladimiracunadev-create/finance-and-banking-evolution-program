@@ -3,7 +3,7 @@
 
 # 🪙 Mapa de activos digitales y stablecoins
 
-**Dónde está cada concepto de la Parte 20 y las seis afirmaciones que la parte desmonta.**
+**Dónde está cada concepto de la Parte 20 y las siete afirmaciones que la parte desmonta.**
 
 [![parte](https://img.shields.io/badge/parte-20%20%C2%B7%20activos%20digitales-7c5cff?style=flat-square)](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md)
 [![lab](https://img.shields.io/badge/lab-digital__assets__risk__lab-3776AB?style=flat-square)](../apps/digital_assets_risk_lab/)
@@ -116,6 +116,10 @@ INTEGRACIÓN     16 · expediente de decisión
 | Recuperación sin puerta trasera | 12 | 6 | `custody` |
 | Los siete controles de retirada | 12 | 6 | `custody` |
 | Segregación jurídica | 12, 15 | 6 | — |
+| Ledger ↔ banco ↔ exchange ↔ blockchain | 12, 15 | 9 | `reconciliation` |
+| Proof of Assets, Reserves, Liabilities y Ownership | 12 | 9 | `reconciliation` |
+| Maker, Checker, Approver, Executor, Reconciler, Auditor | 12 | 9 | `reconciliation` |
+| Spot, margin, futures y derivatives | 12 | 9 | `reconciliation` |
 | Volumen, amplitud, profundidad, resiliencia | 13 | 7 | `market` |
 | Impacto de mercado | 13 | 7 | `market` |
 | Límite de posición | 13 | 7 | `market` |
@@ -126,7 +130,7 @@ INTEGRACIÓN     16 · expediente de decisión
 | Balance frente a capital regulatorio | 2, 15 | 2 | — |
 | Las doce piezas del expediente | 16 | proyecto | — |
 
-## 🚫 Las seis afirmaciones que la parte desmonta
+## 🚫 Las siete afirmaciones que la parte desmonta
 
 1. **«La cobertura subió, vamos mejor.»** Sube mientras la composición empeora y
    el efectivo llega a cero.
@@ -139,10 +143,12 @@ INTEGRACIÓN     16 · expediente de decisión
 5. **«Mueve 184 millones al día.»** Absorbe 2 con un 1 % de impacto.
 6. **«No tenemos exposición.»** Cero directo y 117 millones de necesidad de
    liquidez.
+7. **«El proof of assets supera 100 %.»** Puede incluir activos pignorados o
+   congelados: el caso muestra 102,14 % bruto y solo 92,14 % disponible.
 
-Las seis tienen una prueba en
+Las siete tienen una prueba en
 [`tests/test_digital_assets_risk_lab.py`](../tests/test_digital_assets_risk_lab.py),
-y las seis **documentan defectos y deben pasar**.
+y las siete **documentan defectos y deben pasar**.
 
 ## 🧪 Qué se puede ejecutar
 
@@ -168,6 +174,10 @@ python apps/digital_assets_risk_lab/cli.py market --position 12000000
 
 ```bash
 python apps/digital_assets_risk_lab/cli.py contagion
+```
+
+```bash
+python apps/digital_assets_risk_lab/cli.py reconcile
 ```
 
 ```bash

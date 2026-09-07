@@ -1,0 +1,5 @@
+trade_id,instrument,book,notional_usd,realized_pl_usd,liability_created_usd,collateral_encumbered_usd,authorized
+trd_001,spot,customer,800000,-50000,0,0,false
+trd_002,margin,customer,1200000,-100000,150000,400000,false
+trd_003,futures,company,900000,-180000,250000,250000,true
+trd_004,derivatives,company,700000,30000,100000,100000,true

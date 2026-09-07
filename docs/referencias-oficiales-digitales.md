@@ -60,6 +60,7 @@ entrada dice qué se verifica ahí, y no solo dónde está.
 | **Banco Mundial** | Precios de remesas, inclusión financiera, estudios de banca abierta | <https://www.worldbank.org/> |
 | **OCDE** | Tokenización de activos, política de datos y privacidad | <https://www.oecd.org/> |
 | **IFRS Foundation** | Tratamiento contable de activos digitales | <https://www.ifrs.org/> |
+| **PCAOB** | Alcance y limitaciones de informes de proof of reserves frente a auditoría | <https://pcaobus.org/> |
 | **UNIDROIT** | Principios sobre activos digitales y derecho privado | <https://www.unidroit.org/> |
 | **CNUDMI** | Comercio electrónico y documentos transmisibles electrónicos | <https://uncitral.un.org/es> |
 
@@ -141,7 +142,11 @@ SÍ SIRVEN
 - El programa cita fuentes de varias jurisdicciones: **la única que obliga es la
   del país donde se aplique la actividad**.
 
-**Fecha de verificación de este documento: 2026-08-12.**
+Para custodia financiera, la ruta vigente está resumida en
+**[Custodia, conciliación y gobernanza](custodia-conciliacion-y-gobernanza.md)**,
+con enlaces directos a IOSCO, PCAOB, IFRS y el capítulo DIS55 de Basilea.
+
+**Fecha de verificación de este documento: 2026-09-07.**
 
 ---
 

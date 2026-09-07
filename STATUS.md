@@ -43,7 +43,7 @@
 | 17 | Parte 17: Finanzas abiertas, APIs y economía de datos | 14 | 14 | `████████████████████` | 21.0 KB |
 | 18 | Parte 18: Pagos transfronterizos, remesas y liquidación internacional | 16 | 16 | `████████████████████` | 21.0 KB |
 | 19 | Parte 19: Blockchain y DLT para instituciones financieras | 14 | 14 | `████████████████████` | 20.0 KB |
-| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 19.0 KB |
+| 20 | Parte 20: Activos digitales, stablecoins y dinero programable | 16 | 16 | `████████████████████` | 19.4 KB |
 | 21 | Parte 21: Tokenización, FX on-chain y mercados programables | 16 | 16 | `████████████████████` | 19.1 KB |
 | 22 | Parte 22: Regulación de mercados financieros digitales | 22 | 22 | `████████████████████` | 19.7 KB |
 | 23 | Parte 23: Proyecto — banco digital y mercado tokenizado | 18 | 18 | `████████████████████` | 14.4 KB |
@@ -68,13 +68,13 @@ escriben a mano.
 | Componente | Cantidad | Estado |
 |---|---:|---|
 | Arquitectura curricular (partes) | 23 | Completa |
-| Laboratorios | 150 | Estructurados |
+| Laboratorios | 151 | Estructurados |
 | Evaluaciones | 46 | Diagnóstico y final por parte |
 | Proyectos integradores | 23 | Especificados |
 | Aplicaciones didácticas | 11 | Ejecutables con pruebas |
-| Estudios de caso | 26 | Con hechos, fuentes y preguntas |
+| Estudios de caso | 27 | Con hechos, fuentes y preguntas |
 | Fichas normativas estructuradas | 13 | Con fecha de verificación |
-| Datasets documentados | 6 | Sintéticos, con diccionario |
+| Datasets documentados | 9 | Sintéticos, con diccionario |
 | Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |
 
 ## 🔍 Cómo verificarlo

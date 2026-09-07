@@ -5,7 +5,7 @@
 
 **Todas las guías de referencia del programa, agrupadas por a quién sirven.**
 
-[![documentos](https://img.shields.io/badge/documentos-27-7c5cff?style=flat-square)](README.md)
+[![documentos](https://img.shields.io/badge/documentos-28-7c5cff?style=flat-square)](README.md)
 [![complementan](https://img.shields.io/badge/complementan-no%20sustituyen%20a%20las%20clases-2e8b57?style=flat-square)](../SYLLABUS.md)
 
 [🏠 Inicio](../README.md) ·
@@ -29,14 +29,15 @@ sustituye. El número exacto de partes y clases está en
 |---|---|
 | 🗺️ **[Ruta de aprendizaje](ruta-aprendizaje.md)** | Por dónde entrar según tu perfil, cadenas de dependencia entre partes y método de estudio |
 | 🎯 **[Mapa de competencias](mapa-competencias.md)** | Qué sabes hacer en cada nivel, con listas de verificación para autoevaluarte |
-| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 198 conceptos de las 356 clases, alfabéticos, con dónde se estudia cada uno |
+| 📖 **[Glosario maestro](glosario-maestro.md)** | Los 2 204 conceptos de las 356 clases, alfabéticos, con dónde se estudia cada uno |
 | 📗 **[Glosario general](glosario.md)** | Definición operativa de los términos base, agrupados por tema |
 | 🧮 **[Formulario](formulas.md)** | Las fórmulas del programa con su trampa habitual |
 | 🌐 **[Etapa 5 — finanzas digitales](etapa-5-finanzas-digitales.md)** | Qué es y qué no es la etapa de infraestructura financiera digital, con sus seis criterios |
 | 🔓 **[Mapa de finanzas abiertas](mapa-finanzas-abiertas.md)** | Dónde está cada concepto de la Parte 17 y qué se puede ejecutar |
 | 🌍 **[Mapa de pagos transfronterizos](mapa-pagos-transfronterizos.md)** | Dónde está cada concepto de la Parte 18 y los siete errores que persigue |
 | ⛓️ **[Mapa de blockchain y DLT](mapa-blockchain-dlt.md)** | Dónde está cada concepto de la Parte 19 y las cinco afirmaciones que desmonta |
-| 🪙 **[Mapa de activos digitales](mapa-activos-digitales.md)** | Dónde está cada concepto de la Parte 20 y las seis afirmaciones que desmonta |
+| 🪙 **[Mapa de activos digitales](mapa-activos-digitales.md)** | Dónde está cada concepto de la Parte 20 y las siete afirmaciones que desmonta |
+| 🧾 **[Custodia, conciliación y gobernanza](custodia-conciliacion-y-gobernanza.md)** | Cómo probar existencia, propiedad y disponibilidad sin mezclar fondos propios |
 | 🏛️ **[Mapa de tokenización](mapa-tokenizacion.md)** | Dónde está cada concepto de la Parte 21 y las seis afirmaciones que desmonta |
 | ⚖️ **[Mapa regulatorio](mapa-regulatorio.md)** | Dónde está cada concepto de la Parte 22 y las seis afirmaciones que desmonta |
 | 🪙 **[Mapa de stablecoins](mapa-stablecoins.md)** | La ruta transversal completa: diseño, reservas, redención, crisis y resolución |
@@ -52,7 +53,7 @@ sustituye. El número exacto de partes y clases está en
 | 👩‍🏫 **[Guía docente](guia-docente.md)** | Sesión de 90 minutos, evaluación, rúbricas, adaptación al contexto y errores docentes |
 | 🧪 **[Guía de laboratorios digitales](guia-laboratorios-digitales.md)** | Cómo son, cómo se ejecutan y cómo se corrigen los laboratorios de la Etapa 5 |
 | 🌐 **[Guía docente de la Etapa 5](guia-docente-etapa-5.md)** | Qué cambia al enseñar las Partes 17 a 23 y los cinco errores docentes propios de la etapa |
-| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Veintiséis casos con hechos, actores, decisiones, regulación, controles y preguntas |
+| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Veintisiete casos con hechos, actores, decisiones, regulación, controles y preguntas |
 
 ## Para todos
 

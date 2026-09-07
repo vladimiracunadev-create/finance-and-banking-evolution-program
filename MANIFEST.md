@@ -22,8 +22,8 @@
 | Campo | Valor |
 |---|---|
 | **Nombre** | `finance-and-banking-evolution-program` |
-| **Versión** | `2.0.0` |
-| **Fecha** | 2026-08-07 |
+| **Versión** | `2.4.0` |
+| **Fecha** | 2026-09-07 |
 | **Estado** | Programa completo · 5 etapas · 23 partes publicadas |
 | **Licencia** | MIT |
 | **Idioma** | Español |
@@ -43,12 +43,12 @@
 | Clases planificadas | 356 |
 | Horas de sesión publicadas | 534 |
 | Duración por clase | 90 min |
-| Laboratorios | 150 |
-| Soluciones de referencia | 54 |
+| Laboratorios | 151 |
+| Soluciones de referencia | 55 |
 | Evaluaciones | 46 |
 | Proyectos integradores | 23 |
 | Aplicaciones funcionales | 11 |
-| Conjuntos de datos sintéticos | 6 |
+| Conjuntos de datos sintéticos | 9 |
 | Fichas normativas estructuradas | 13 |
 | Obras en el registro de fuentes | `sources/bibliography.json` |
 
@@ -97,7 +97,7 @@
 | `open_finance_sandbox` | Consentimiento, autorización con PKCE, API de cuentas, iniciación de pagos y batería de conformidad | ✅ |
 | `cross_border_payments_lab` | Cuatro flujos, motor de rutas, ISO 20022, screening, PvP, enlace de pagos inmediatos y ruta con stablecoin | ✅ |
 | `dlt_financial_lab` | Cadena, firmas, árbol de Merkle con sumas, consenso bizantino, contrato con reentrada y oráculo | ✅ |
-| `digital_assets_risk_lab` | Clasificación por promesa, reservas, cola de redención, espiral algorítmica, custodia, profundidad y contagio | ✅ |
+| `digital_assets_risk_lab` | Clasificación, reservas, custodia, conciliación, trading, liquidez, profundidad y contagio | ✅ |
 | `tokenization_platform` | Registro de referencia, emisión, ciclo de vida, entrega contra pago atómica y cascada de colateral | ✅ |
 | `onchain_fx_lab` | Coste total por ruta, creador de mercado automatizado y riesgo de liquidación en divisas | ✅ |
 | `regulatory_perimeter_engine` | Perímetro por hechos, calificación por criterios, salvaguarda, vigilancia y expediente cruzado | ✅ |

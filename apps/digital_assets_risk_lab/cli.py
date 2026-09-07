@@ -7,6 +7,7 @@ Uso:
     python apps/digital_assets_risk_lab/cli.py custody
     python apps/digital_assets_risk_lab/cli.py market --position 12000000
     python apps/digital_assets_risk_lab/cli.py contagion
+    python apps/digital_assets_risk_lab/cli.py reconcile
 """
 
 from __future__ import annotations
@@ -32,6 +33,10 @@ from apps.digital_assets_risk_lab.market import (  # noqa: E402
     venta_escalonada,
 )
 from apps.digital_assets_risk_lab.redemption import Cola, Regla  # noqa: E402
+from apps.digital_assets_risk_lab.reconciliation import (  # noqa: E402
+    brecha_de_liquidez,
+    caso_custodia_andina,
+)
 from apps.digital_assets_risk_lab.reserves import Cartera, atender  # noqa: E402
 
 
@@ -254,6 +259,33 @@ def cmd_contagion(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_reconcile(args: argparse.Namespace) -> int:
+    ledger, conciliacion, balance, operaciones = caso_custodia_andina()
+    print("CUSTODIA ANDINA DIGITAL · conciliacion en USD equivalentes\n")
+    print("LEDGER")
+    print(f"  cierre esperado:       {ledger.cierre_esperado:>12,}")
+    print(f"  cierre registrado:     {ledger.cierre_registrado:>12,}")
+    print(f"  diferencia:            {ledger.diferencia:>12,}\n")
+    print("RESERVAS POR ACTIVO")
+    for estado in conciliacion.por_activo():
+        print(
+            f"  {estado.activo:<5} pasivo {estado.pasivo_cliente:>10,} · "
+            f"bruto {estado.cobertura_bruta:>7.2%} · "
+            f"disponible {estado.cobertura_disponible:>7.2%} · "
+            f"diferencia {estado.diferencia_disponible:>9,}"
+        )
+    print("\nTOTAL")
+    print(f"  proof of assets bruto: {conciliacion.activos_brutos:>12,}")
+    print(f"  activos disponibles:   {conciliacion.activos_disponibles:>12,}")
+    print(f"  pasivos de clientes:   {conciliacion.pasivos_totales:>12,}")
+    print(f"  DIFERENCIA DISPONIBLE: {conciliacion.diferencia_disponible:>12,}")
+    print(f"\nPATRIMONIO PROPIO:       {balance.patrimonio:>12,}")
+    print(f"PERDIDA DE TRADING:      {sum(o.resultado for o in operaciones):>12,}")
+    print(f"BRECHA 24 H CLIENTES:    {brecha_de_liquidez(conciliacion.activos_disponibles, 6_800_000):>12,}")
+    print("\nUn proof of assets de 102,14 % convive con solo 92,14 % disponible.")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="comando", required=True)
@@ -280,6 +312,9 @@ def main() -> int:
 
     p = sub.add_parser("contagion", help="exposicion directa frente a economica")
     p.set_defaults(func=cmd_contagion)
+
+    p = sub.add_parser("reconcile", help="ledger, banco, exchange y blockchain")
+    p.set_defaults(func=cmd_reconcile)
 
     args = parser.parse_args()
     return args.func(args)

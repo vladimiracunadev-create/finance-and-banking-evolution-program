@@ -1,0 +1,8 @@
+position_id,asset,source,gross_usd,unavailable_usd,availability_reason,ownership
+pos_001,BTC,blockchain-cold,2100000,0,available,customer
+pos_002,BTC,exchange,300000,200000,pledged-margin,customer
+pos_003,ETH,blockchain-cold,1300000,0,available,customer
+pos_004,ETH,exchange,350000,100000,frozen-dispute,customer
+pos_005,USDC,blockchain-hot,1500000,0,available,customer
+pos_006,USDC,bank,700000,0,available,customer
+pos_007,USDC,exchange,900000,400000,pledged-margin,customer

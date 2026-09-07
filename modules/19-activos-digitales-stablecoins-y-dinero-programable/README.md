@@ -63,6 +63,8 @@ a quién reclama el cliente**. Ningún componente técnico la cambia.
   del mecanismo.
 - Evaluar un modelo de custodia por sus modos de fallo y su régimen de
   segregación.
+- Conciliar ledger, banco, exchange y blockchain; distinguir activos brutos de
+  disponibles y separar balance propio de custodia.
 - Decidir si un caso de uso necesita dinero programable y qué **no** debe
   programarse nunca.
 
@@ -74,6 +76,7 @@ a quién reclama el cliente**. Ningún componente técnico la cambia.
 | Análisis de reservas | Calcula cobertura y descalce |
 | Riesgo de liquidez y contagio | Modela una corrida y su propagación |
 | Custodia y segregación | Diseña y audita |
+| Conciliación de custodia | Prueba existencia, propiedad y disponibilidad |
 | Diseño de condiciones programables | Distingue lo automatizable de lo que no debe serlo |
 
 ## Cómo se encadenan las 16 clases
@@ -132,6 +135,7 @@ expediente de doce piezas que un comité puede aprobar o rechazar.
 | 6 | [Custodia y segregación](labs/lab-06.md) | Modos de fallo y controles con prueba |
 | 7 | [Liquidez y profundidad de mercado](labs/lab-07.md) | Impacto de una venta grande |
 | 8 | [Grafo de contagio](labs/lab-08.md) | Exposición indirecta y orden de caída |
+| 9 | [Conciliación de custodia](labs/lab-09.md) | Ledger, balance, reservas, trading y liquidez |
 
 ## Evaluaciones
 
@@ -149,6 +153,7 @@ expediente de doce piezas que un comité puede aprobar o rechazar.
 - Simulación de redención masiva con la cola y el prorrateo resueltos.
 - Reconstrucción de una pérdida de paridad con fuentes citadas.
 - Diseño de custodia con sus modos de fallo y una prueba por control.
+- Conciliación de custodia por activo y fuente, con disponibilidad y diferencia.
 - Grafo de contagio con la exposición indirecta cuantificada.
 
 ## Mapa de dependencias
@@ -164,6 +169,12 @@ Parte 19 — el registro
 ## Aplicación asociada
 
 - [`apps/digital_assets_risk_lab/`](../../apps/digital_assets_risk_lab/README.md)
+
+## Caso integrador
+
+- [Custodia Andina Digital](../../case-studies/custody/custodia-andina-digital.md):
+  balance propio, pasivos de clientes, wallets, banco, exchange, cuatro tipos de
+  trading, liquidez, ocho riesgos y seis roles incompatibles.
 
 ## Fuentes oficiales de referencia
 

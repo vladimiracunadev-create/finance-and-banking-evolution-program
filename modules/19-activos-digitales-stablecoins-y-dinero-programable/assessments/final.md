@@ -6,7 +6,7 @@ Responde sin consultar las soluciones de los laboratorios. Puedes usar las
 clases y las fuentes oficiales. Declara los supuestos que necesites: un supuesto
 explícito suma; uno oculto resta.
 
-**Puntaje total:** 100 puntos. **Aprobación:** 70. **Tiempo sugerido:** 3 horas.
+**Puntaje total:** 120 puntos. **Aprobación:** 84. **Tiempo sugerido:** 4 horas.
 
 ## Sección A — Clasificación y régimen (25 puntos)
 
@@ -100,6 +100,27 @@ de alerta y plan de salida.
 respuesta en un máximo de diez líneas, separando **hecho**, **supuesto** e
 **interpretación**, y sin usar la palabra «seguro» sin cuantificar.
 
+## Sección E — Caso de custodia y conciliación (20 puntos)
+
+**13.** (12 pts) Usa los datos de
+[Custodia Andina Digital](../../../case-studies/custody/custodia-andina-digital.md)
+sin consultar la solución.
+
+- Reconstruye el closing balance y calcula la diferencia del ledger.
+- Calcula proof of assets bruto, reservas disponibles, pasivos de clientes y
+  diferencia por BTC, ETH y USDC.
+- Calcula activos propios, pasivos propios y patrimonio sin incorporar activos
+  segregados.
+- Explica por qué un ratio bruto superior a 100 % no autoriza retiros completos.
+
+**14.** (8 pts) A partir de spot, margin, futures y derivatives:
+
+- calcula P/L, pasivo creado y colateral inmovilizado por libro;
+- determina las brechas de liquidez de clientes y compañía sin netearlas;
+- asigna Maker, Checker, Approver, Executor, Reconciler y Auditor;
+- decide qué operaciones continuar, restringir o suspender y fija dos
+  disparadores cuantitativos.
+
 ## Rúbrica
 
 | Sección | Criterio | Puntos |
@@ -108,6 +129,7 @@ respuesta en un máximo de diez líneas, separando **hecho**, **supuesto** e
 | B | Cálculos correctos con supuestos declarados | 30 |
 | C | Identifica el riesgo que la cifra publicada oculta | 25 |
 | D | Expediente completo y respuesta honesta | 20 |
+| E | Concilia, separa patrimonios y decide bajo presión | 20 |
 
 ### Criterios transversales
 
@@ -135,3 +157,5 @@ respuesta en un máximo de diez líneas, separando **hecho**, **supuesto** e
 | 10 | Dinero programable; mercado gris, exclusión y caducidad; dinero libre con condicionalidad en la elegibilidad |
 | 11 | Las piezas presentes, límites con disparador y plan de salida con canal cerrado |
 | 12 | Sin adjetivos sin cifra; las tres capas separadas |
+| 13 | Ledger 0; bruto 102,14 %; disponible 92,14 %; diferencia −550 000; patrimonio 450 000 |
+| 14 | P/L −300 000; pasivo 500 000; colateral 750 000; brechas 350 000 y 200 000; seis personas distintas |

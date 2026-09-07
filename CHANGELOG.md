@@ -5,7 +5,7 @@
 
 **Todo lo que ha cambiado en el programa, versión a versión, con el formato Keep a Changelog.**
 
-[![versión](https://img.shields.io/badge/versi%C3%B3n-2.3.1-e67e22?style=flat-square)](CHANGELOG.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.4.0-e67e22?style=flat-square)](CHANGELOG.md)
 [![formato](https://img.shields.io/badge/formato-Keep%20a%20Changelog%20%C2%B7%20SemVer-1f6feb?style=flat-square)](https://keepachangelog.com/es-ES/1.1.0/)
 
 [🏠 Inicio](README.md) ·
@@ -19,6 +19,39 @@
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el
 versionado sigue [SemVer](https://semver.org/lang/es/).
+
+---
+
+## [2.4.0] — 2026-09-07
+
+La custodia deja de ser solo un problema de claves: ahora el programa enseña a
+probar existencia, propiedad y disponibilidad desde el mayor hasta la evidencia
+externa, sin confundir saldos de clientes con fondos propios.
+
+### ✨ Añadido
+
+- **Caso integrador Custodia Andina Digital**, con balance propio, pasivos de
+  clientes, wallets, cuentas de exchange y banco, spot, margin, futures y
+  derivatives. El estudiante calcula activos, pasivos, patrimonio, cobertura,
+  diferencia, exposición, pérdidas, liquidez y riesgos.
+- **Laboratorio 9 de la Parte 20** y solución: conciliación `Ledger ↔ Bank ↔
+  Exchange ↔ Blockchain`, dos brechas de liquidez y decisión ejecutiva.
+- **Tres datasets sintéticos documentados** para el mayor, las posiciones y el
+  trading de custodia.
+- **Módulo ejecutable `reconciliation` y siete pruebas**: demuestra que 102,14 %
+  de activos brutos puede coexistir con solo 92,14 % disponible.
+- **Guía de custodia, conciliación y gobernanza**, con Maker, Checker, Approver,
+  Executor, Reconciler y Auditor separados.
+
+### 🔄 Actualizado
+
+- Clases 12 y 15, evaluación final y proyecto de la Parte 20: customer balance,
+  company asset, custodied asset, liability; activos, pasivos, patrimonio,
+  treasury y ocho riesgos.
+- Diferenciación explícita entre Proof of Assets, Proof of Reserves, Proof of
+  Liabilities, Proof of Ownership y Financial Audit.
+- Referencias primarias verificadas al 2026-09-07: IOSCO, PCAOB, IFRS y DIS55 de
+  Basilea, con su alcance y sus límites declarados.
 
 ---
 

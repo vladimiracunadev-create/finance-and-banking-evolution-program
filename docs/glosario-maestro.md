@@ -5,7 +5,7 @@
 
 **Todos los conceptos centrales del programa en un solo documento, con su definicion y la clase donde se estudian.**
 
-[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2198-7c5cff?style=flat-square)](glosario-maestro.md)
+[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2204-7c5cff?style=flat-square)](glosario-maestro.md)
 [![transversales](https://img.shields.io/badge/transversales-74%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_glossary.py)
 
@@ -50,7 +50,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [Z](#z)
 
-**2198 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
+**2204 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
 
 <h2 id="a">A</h2>
 
@@ -147,8 +147,9 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 ### activo custodiado
 
-- **Definición.** Controlado por cuenta de terceros; puede no ser propio
-- **Dónde se estudia.** [20.15](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md)
+- **Definición.** Recurso de un cliente; no es fondo propio del custodio
+- **También.** Controlado por cuenta de terceros; puede no ser propio
+- **Dónde se estudia.** [20.12](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md) · [20.15](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md)
 
 ### activo de uso
 
@@ -184,6 +185,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Genera ingreso o se aprecia por encima de la inflación: inversiones, propiedad arrendada, negocio.
 - **Dónde se estudia.** [2.9](../modules/01-finanzas-personales/classes/09-patrimonio-y-balance-personal.md)
+
+### activo propio
+
+- **Definición.** Recurso controlado para beneficio de la entidad
+- **Dónde se estudia.** [20.15](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md)
 
 ### activo sin flujo
 
@@ -2165,6 +2171,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Comparación presupuesto vs. real, categoría por categoría, al cierre del mes.
 - **También.** Comparación de dos registros independientes del mismo hecho.
 - **También.** Comparación periódica de registros
+- **También.** Explicación trazable de diferencias entre fuentes
 - **También.** Proceso periódico que compara y corrige
 - **También.** Proceso que casa los dos libros y explica las diferencias
 - **También.** Proceso que mantiene alineados dos registros
@@ -2173,7 +2180,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **También.** Verificación de que dos registros independientes coinciden.
 - **Ejemplo.** El saldo del mayor y el de la cartola del corresponsal se enfrentan y cada diferencia se clasifica y se explica.
 - **A considerar.** Hecha por quien registra las operaciones no detecta nada. La independencia de quien concilia es lo que la convierte en un control.
-- **Dónde se estudia.** [2.4](../modules/01-finanzas-personales/classes/04-presupuesto-base-cero.md) · [10.1](../modules/09-operaciones-bancarias/classes/01-modelo-operativo-de-un-banco.md) · [10.8](../modules/09-operaciones-bancarias/classes/08-conciliacion-bancaria.md) · [12.11](../modules/11-regulacion-cumplimiento-y-auditoria/classes/11-disciplina-de-mercado-pilar-3.md) · [16.9](../modules/15-proyecto-banco-virtual/classes/09-operaciones-y-pagos.md) · [18.4](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/04-cuentas-nostro-vostro-y-loro.md) · [21.1](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/01-que-es-y-que-no-es-tokenizar.md) · [21.2](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/02-el-registro-de-referencia.md) · [22.9](../modules/21-regulacion-de-mercados-financieros-digitales/classes/09-custodia-y-segregacion-en-la-norma.md)
+- **Dónde se estudia.** [2.4](../modules/01-finanzas-personales/classes/04-presupuesto-base-cero.md) · [10.1](../modules/09-operaciones-bancarias/classes/01-modelo-operativo-de-un-banco.md) · [10.8](../modules/09-operaciones-bancarias/classes/08-conciliacion-bancaria.md) · [12.11](../modules/11-regulacion-cumplimiento-y-auditoria/classes/11-disciplina-de-mercado-pilar-3.md) · [16.9](../modules/15-proyecto-banco-virtual/classes/09-operaciones-y-pagos.md) · [18.4](../modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/04-cuentas-nostro-vostro-y-loro.md) · [20.12](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md) · [21.1](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/01-que-es-y-que-no-es-tokenizar.md) · [21.2](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/02-el-registro-de-referencia.md) · [22.9](../modules/21-regulacion-de-mercados-financieros-digitales/classes/09-custodia-y-segregacion-en-la-norma.md)
 
 ### conciliación a tres bandas
 
@@ -3132,6 +3139,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Quien guarda el activo original
 - **Dónde se estudia.** [19.11](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/11-interoperabilidad-y-puentes.md)
 
+### custody risk
+
+- **Definición.** Pérdida, indisponibilidad o apropiación de activos custodiados
+- **Dónde se estudia.** [20.12](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md)
+
 <h2 id="d">D</h2>
 
 ### dato alternativo
@@ -3810,6 +3822,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Descuadre entre el efectivo físico y el registro.
 - **Dónde se estudia.** [10.5](../modules/09-operaciones-bancarias/classes/05-depositos-y-giros.md)
+
+### diferencia de custodia
+
+- **Definición.** Disponible por activo menos pasivo correspondiente
+- **Dónde se estudia.** [20.15](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md)
 
 ### diferenciación de precios
 
@@ -7640,6 +7657,12 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Obligación **presente** de transferir un recurso, surgida de hechos pasados.
 - **Dónde se estudia.** [5.4](../modules/04-contabilidad-financiera/classes/04-pasivos.md)
 
+### pasivo con clientes
+
+- **Definición.** Obligación reconstruida desde el submayor completo
+- **También.** Obligación de entregar el saldo reconocido
+- **Dónde se estudia.** [20.12](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md) · [20.15](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md)
+
 ### pasivo contingente
 
 - **Definición.** Obligación posible o no estimable de forma fiable. **No se reconoce**: se revela en notas.
@@ -7659,6 +7682,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Surge de la operación: proveedores, remuneraciones, impuestos por pagar. Habitualmente sin costo explícito.
 - **Dónde se estudia.** [5.4](../modules/04-contabilidad-financiera/classes/04-pasivos.md)
+
+### patrimonio
+
+- **Definición.** Activos propios menos pasivos propios
+- **Dónde se estudia.** [20.15](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md)
 
 ### patrimonio del deudor en el inmueble
 
@@ -10087,6 +10115,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** El contable incluye documentos en canje; el disponible, no.
 - **Dónde se estudia.** [10.5](../modules/09-operaciones-bancarias/classes/05-depositos-y-giros.md)
+
+### saldo disponible
+
+- **Definición.** Activo libre de gravamen, congelamiento o uso en margen
+- **Dónde se estudia.** [20.12](../modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md)
 
 ### saldo insoluto
 

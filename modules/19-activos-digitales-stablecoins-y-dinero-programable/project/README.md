@@ -2,12 +2,12 @@
 
 ## Objetivo
 
-Producir el **expediente de decisión** completo de un activo digital, con doce
+Producir el **expediente de decisión** completo de un activo digital, con dieciséis
 piezas calculadas, y llevarlo a un comité simulado que lo aprobará, lo
 condicionará o lo rechazará.
 
 El proyecto **puede concluir que el instrumento no es apto y obtener la máxima
-calificación**. Lo que se evalúa es si las doce piezas están, si los cálculos son
+calificación**. Lo que se evalúa es si las dieciséis piezas están, si los cálculos son
 correctos y si los supuestos están declarados.
 
 ## Contexto
@@ -26,7 +26,7 @@ garantía estatal**. Tú preparas el expediente.
 | Límites, alertas y plan de salida | Uso de credenciales o fondos reales |
 | Tratamiento contable y prudencial | Asesoría legal o tributaria |
 
-## Las doce piezas
+## Las dieciséis piezas
 
 | # | Pieza | Viene de | Entregable |
 |---:|---|---|---|
@@ -42,6 +42,10 @@ garantía estatal**. Tú preparas el expediente.
 | 10 | Exposición indirecta | Clase 14 | Grafo y dependencias comunes |
 | 11 | Contable y prudencial | Clases 2, 15 | Tratamiento y su diferencia |
 | 12 | Recomendación | Clase 16 | Límites, alertas y salida |
+| 13 | Ledger y pasivo completo | Clases 12, 15 | Roll-forward por activo |
+| 14 | Conciliación externa | Clase 12 | Banco, exchange y blockchain |
+| 15 | Trading y liquidez | Clases 12–15 | Spot, margin, futures y derivatives por libro |
+| 16 | Gobernanza | Clase 12 | Seis roles, excepciones y auditoría |
 
 ## Datos de partida
 
@@ -86,6 +90,8 @@ project/
 ├── 06-contagio.md
 ├── 07-contable-y-prudencial.md
 ├── 08-recomendacion.md
+├── 09-ledger-y-conciliacion.md
+├── 10-trading-liquidez-y-gobernanza.md
 ├── supuestos.md            ← todos, en un solo sitio
 └── calculos/               ← los cuadernos o scripts usados
 ```
@@ -94,7 +100,7 @@ project/
 
 | # | Criterio | Cómo se comprueba |
 |---:|---|---|
-| 1 | Las doce piezas están presentes | Índice del expediente |
+| 1 | Las dieciséis piezas están presentes | Índice del expediente |
 | 2 | La clasificación se justifica por la promesa | Ficha completa |
 | 3 | Las coberturas se calculan con descuentos declarados | Cálculo reproducible |
 | 4 | El punto de no retorno usa escalera creciente | Comparación con el plano |
@@ -106,6 +112,10 @@ project/
 | 10 | Todo supuesto está declarado | `supuestos.md` y en cada cálculo |
 | 11 | Hecho, supuesto e interpretación están separados | Sección de recomendación |
 | 12 | No hay ninguna recomendación de inversión | Revisión del texto |
+| 13 | Activos propios y custodiados no se netean | Dos ecuaciones separadas |
+| 14 | Bruto, disponible y diferencia se calculan por activo | Conciliación a la hora de corte |
+| 15 | Los cuatro tipos de trading se atribuyen a su libro | P/L, pasivos, colateral y mandato |
+| 16 | Ninguna persona concentra funciones incompatibles | Matriz de seis roles |
 
 ## Hitos
 
@@ -136,14 +146,17 @@ respondida.
 
 | Criterio | Puntos |
 |---|---:|
-| Piezas 1 y 2 · clasificación y perímetro | 10 |
-| Piezas 3, 4 y 5 · solidez del instrumento | 20 |
-| Piezas 6 y 7 · mercado y precio | 15 |
-| Piezas 8 y 9 · custodia y controles | 15 |
-| Pieza 10 · exposición indirecta | 15 |
-| Pieza 11 · contable y prudencial | 10 |
-| Pieza 12 · recomendación con límites y salida | 10 |
-| Supuestos declarados y capas separadas | 5 |
+| Piezas 1 y 2 · clasificación y perímetro | 8 |
+| Piezas 3, 4 y 5 · solidez del instrumento | 15 |
+| Piezas 6 y 7 · mercado y precio | 10 |
+| Piezas 8 y 9 · custodia y controles | 12 |
+| Pieza 10 · exposición indirecta | 8 |
+| Pieza 11 · contable y prudencial | 7 |
+| Pieza 12 · recomendación con límites y salida | 7 |
+| Piezas 13 y 14 · ledger y conciliación externa | 15 |
+| Pieza 15 · trading y liquidez | 10 |
+| Pieza 16 · gobernanza y excepciones | 4 |
+| Supuestos declarados y capas separadas | 4 |
 
 ### Penalizaciones
 

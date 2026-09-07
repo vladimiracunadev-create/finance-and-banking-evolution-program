@@ -1,0 +1,4 @@
+entry_id,account_scope,asset,opening_balance_usd,inflows_usd,outflows_usd,trading_pl_usd,fees_usd,closing_balance_usd,valuation_currency
+led_001,customer_liability,BTC,2300000,300000,100000,-50000,50000,2400000,USD
+led_002,customer_liability,ETH,1500000,300000,100000,-100000,0,1600000,USD
+led_003,customer_liability,USDC,3000000,400000,400000,0,0,3000000,USD

@@ -150,7 +150,7 @@ instrumento y no declara su línea de verificación. El método está en
 | [`open_finance_sandbox`](../apps/open_finance_sandbox/README.md) | 17 | Funcional, con pruebas |
 | `cross_border_payments_lab` | 18 | En preparación |
 | `dlt_financial_lab` | 19 | En preparación |
-| `digital_assets_risk_lab` | 20 | En preparación |
+| [`digital_assets_risk_lab`](../apps/digital_assets_risk_lab/README.md) | 20 | Funcional, con conciliación de custodia y pruebas |
 | `tokenization_platform` | 21 | En preparación |
 | `onchain_fx_lab` | 21 | En preparación |
 | `regulatory_perimeter_engine` | 22 | En preparación |

@@ -1,6 +1,6 @@
 # Biblioteca de casos
 
-Veintiséis casos para trabajar en clase, en laboratorio o en evaluación. Todos
+Veintisiete casos para trabajar en clase, en laboratorio o en evaluación. Todos
 comparten la misma estructura de diez bloques y la misma disciplina: **los hechos
 van separados de las decisiones, y las decisiones separadas de las lecciones.**
 
@@ -54,6 +54,7 @@ identificable un fallo, una pérdida o una infracción.
 | [`iso20022/`](iso20022/) | 1 | 18 |
 | [`blockchain/`](blockchain/) | 4 | 19 |
 | [`stablecoins/`](stablecoins/) | 2 | 20 |
+| [`custody/`](custody/) | 1 | 20 |
 | [`tokenization/`](tokenization/) | 2 | 21 |
 | [`fx-onchain/`](fx-onchain/) | 1 | 21 |
 | [`market-regulation/`](market-regulation/) | 5 | 22 |

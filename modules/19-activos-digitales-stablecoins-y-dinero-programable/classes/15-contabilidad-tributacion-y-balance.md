@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [contabilidad, tributacion, prudencial]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-07
 regulatory_status: vigente
 primary_authorities: [IASB, SII, BCBS]
 requires_legal_review: true
@@ -76,6 +76,10 @@ Los cuatro primeros términos son las clasificaciones contables posibles y su me
 | `activo custodiado` | Controlado por cuenta de terceros; puede no ser propio |
 | `hecho imponible` | Evento que genera obligación tributaria |
 | `base de costo` | Valor de referencia para calcular el resultado |
+| `activo propio` | Recurso controlado para beneficio de la entidad |
+| `pasivo con clientes` | Obligación de entregar el saldo reconocido |
+| `patrimonio` | Activos propios menos pasivos propios |
+| `diferencia de custodia` | Disponible por activo menos pasivo correspondiente |
 
 ## 🧠 Modelo mental
 
@@ -219,6 +223,28 @@ Y ESA ES LA DIFERENCIA ENTRE
 LAS TRES CLÁUSULAS DE LA CLASE 12
 Y NO TENERLAS
 ```
+
+### 4.1 Dos ecuaciones que no se netean
+
+El control contable separa el estado financiero de la compañía y el registro de
+custodia. La presentación final depende del marco aplicable y de los hechos, pero
+el análisis nunca puede llamar fondo propio al saldo de un cliente.
+
+```text
+COMPAÑÍA
+  activos propios − pasivos propios = patrimonio
+
+CUSTODIA
+  activos disponibles por activo
+  − pasivos con clientes por el mismo activo
+  = diferencia de custodia
+```
+
+El `customer balance` nace del submayor; el `custodied asset` se confirma en
+banco, exchange o blockchain; el `company asset` requiere control para beneficio
+propio; y una pérdida, financiación o restitución puede crear un `liability`.
+Agregar las cuatro columnas oculta la segregación y puede presentar solvencia
+donde solo hay activos de terceros.
 
 ### 5. Tributación
 
@@ -515,8 +541,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IFRS Foundation. *IAS 38 Intangible Assets*. IFRS. Reconocimiento y medición como activo intangible. <https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/>
 - IFRS Foundation. *IAS 2 Inventories*. IFRS. Tratamiento como inventario cuando se mantiene para la venta. <https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/>
 - Servicio de Impuestos Internos de Chile. *Tratamiento tributario de las criptomonedas*. SII. Criterio tributario chileno sobre la renta obtenida. <https://www.sii.cl/preguntas_frecuentes/criptomonedas/arbol_faqs_criptomonedas_1653.htm>
-- Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
-- Verificación local: comprueba con tu autoridad tributaria y tu regulador contable el tratamiento vigente, porque este ámbito cambia y las decisiones de interpretación se actualizan. Esta clase no constituye asesoría legal ni tributaria. **Fecha de verificación de esta clase: 2026-08-20.**
+- Basel Committee on Banking Supervision. *DIS55 Cryptoasset exposures*. BIS. Divulgación de clasificación contable, exposiciones y liquidez, vigente desde 2026-01-01 para el marco de Basilea. <https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17>
+- Verificación local: comprueba con tu autoridad tributaria y tu regulador contable el tratamiento vigente, porque este ámbito cambia y las decisiones de interpretación se actualizan. Esta clase no constituye asesoría legal ni tributaria. **Fecha de verificación de esta clase: 2026-09-07.**
 
 <!-- gen:footer:start -->
 ---

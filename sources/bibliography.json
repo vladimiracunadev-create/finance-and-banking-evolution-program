@@ -2828,6 +2828,24 @@
       "http_status": 200
     },
     {
+      "id": "dis55-cryptoasset-exposures",
+      "type": "standard",
+      "authors": [
+        "Basel Committee on Banking Supervision"
+      ],
+      "title": "DIS55 Cryptoasset exposures",
+      "publisher": "BIS",
+      "authority": "Comité de Supervisión Bancaria de Basilea (BCBS)",
+      "amendable": true,
+      "cited_url": "https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17",
+      "used_in": [
+        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17"
+    },
+    {
       "id": "discretion-versus-policy-rules-in-practice-1993",
       "type": "paper",
       "authors": [
@@ -3405,6 +3423,25 @@
       "locator": "https://www.justice.gov/criminal-fraud/page/file/937501/download",
       "accessed": "2026-08-19",
       "http_status": 200
+    },
+    {
+      "id": "exercise-caution-with-third-party-verification-proof-of-reserve-reports-2023",
+      "type": "reference",
+      "authors": [
+        "PCAOB Office of the Investor Advocate"
+      ],
+      "title": "Exercise Caution With Third-Party Verification/Proof of Reserve Reports",
+      "published": "2023",
+      "publisher": "PCAOB",
+      "authority": "PCAOB",
+      "amendable": false,
+      "cited_url": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports",
+      "used_in": [
+        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports"
     },
     {
       "id": "expectations-investing-2020",
@@ -10506,7 +10543,6 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/01-taxonomia-de-los-activos-digitales.md",
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/02-criptoactivos-no-respaldados.md",
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/08-depositos-tokenizados-y-dinero-de-banco-comercial.md",
-        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md",
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/16-proyecto-evaluacion-de-un-activo-digital.md",
         "modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/10-el-tramo-de-dinero.md",
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/08-tratamiento-prudencial-de-las-exposiciones.md",

@@ -86,8 +86,8 @@ Esta es la tabla que importa: qué documento de qué regulador sostiene qué par
 | Comité de Supervisión Bancaria de Basilea (BCBS) | [Corporate governance principles for banks](https://www.bis.org/bcbs/publ/d328.htm) 🔁 | 11, 12, 13, 15, 16, 20, 22, 23 |
 | Comité de Supervisión Bancaria de Basilea (BCBS) | [Principles for Operational Resilience](https://www.bis.org/bcbs/publ/d516.htm) 🔁 | 4, 10, 11, 14, 16, 17, 19, 22, 23 |
 | Comité de Supervisión Bancaria de Basilea (BCBS) | [Principles for effective risk data aggregation and risk reporting (BCBS 239)](https://www.bis.org/publ/bcbs239.htm) 🔁 | 1, 4, 5, 7, 10, 14, 15, 16, 17 |
-| Comité de Supervisión Bancaria de Basilea (BCBS) | [Prudential treatment of cryptoasset exposures](https://www.bis.org/bcbs/publ/d545.htm) 🔁 | 14, 19, 20, 21, 22, 23 |
 | Comité de Supervisión Bancaria de Basilea (BCBS) | [Basel III: The Liquidity Coverage Ratio and liquidity risk monitoring tools](https://www.bis.org/publ/bcbs238.htm) 🔁 | 2, 10, 11, 16, 18, 20, 22 |
+| Comité de Supervisión Bancaria de Basilea (BCBS) | [Prudential treatment of cryptoasset exposures](https://www.bis.org/bcbs/publ/d545.htm) 🔁 | 14, 19, 20, 21, 22, 23 |
 | Comité de Supervisión Bancaria de Basilea (BCBS) | [Core Principles for Effective Banking Supervision](https://www.bis.org/publ/bcbs230.htm) 🔁 | 12, 16, 22 |
 | Comité de Supervisión Bancaria de Basilea (BCBS) | [Prudential treatment of problem assets — definitions of non-performing exposures and forbearance](https://www.bis.org/bcbs/publ/d403.htm) 🔁 | 2, 4, 7, 9, 13, 16 |
 | Banco de Pagos Internacionales (BIS) | [Annual Economic Report, capítulo III](https://www.bis.org/publ/arpdf/ar2023e3.htm) | 18, 19, 20, 21, 22, 23 |
@@ -177,7 +177,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 
 | Emisor o editorial | Obras | Con enlace | Partes |
 |---|---:|---:|---|
-| Comité de Supervisión Bancaria de Basilea (BCBS) | 52 | 52 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
+| Comité de Supervisión Bancaria de Basilea (BCBS) | 53 | 53 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Banco de Pagos Internacionales (BIS) | 33 | 32 | 1, 3, 6, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Comisión para el Mercado Financiero (CMF, Chile) | 30 | 30 | 17, 20, 21, 22, 23 |
 | Consejo de Estabilidad Financiera (FSB) | 29 | 29 | 3, 4, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
@@ -329,6 +329,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | OpenAPI Initiative | 1 | 1 | 17 |
 | Organización Mundial del Comercio (OMC) | 1 | 1 | 18 |
 | PCAF | 1 | 1 | 15 |
+| PCAOB | 1 | 1 | 20 |
 | PCI Security Standards Council | 1 | 1 | 3, 4, 10 |
 | Portfolio | 1 | 1 | 8 |
 | RAND Journal of Economics | 1 | 1 | 10, 14 |
@@ -365,6 +366,7 @@ Una fuente pendiente no se borra ni se disimula: se declara. Estas son las razon
 | Open Library no respondió a la consulta | 20 |
 | Open Library no devuelve ediciones de la obra encontrada | 10 |
 | no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 9 |
+| sin resolver todavía; ejecuta scripts/refresh_sources.py | 2 |
 | la obra existe en Open Library pero ninguna edición declara ISBN-13 | 2 |
 
 Última revalidación en red: **2026-08-20**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.

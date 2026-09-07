@@ -1,6 +1,6 @@
 """Laboratorio de riesgo de activos digitales — Parte 20.
 
-Ocho modulos, cada uno asociado a una afirmacion concreta de una clase:
+Nueve modulos, cada uno asociado a una afirmacion concreta de una clase:
 
     classification  la promesa clasifica, no la tecnologia
     reserves        la cobertura publicada se mueve al reves que el riesgo
@@ -10,6 +10,7 @@ Ocho modulos, cada uno asociado a una afirmacion concreta de una clase:
     custody         un 3-de-5 puede tener independencia efectiva 1
     market          el volumen no es liquidez
     contagion       exposicion cero puede significar 117 millones
+    reconciliation  activos visibles pueden no estar disponibles
 
 Todo es didactico y trabaja con datos sinteticos. No se conecta a ninguna red,
 no mueve fondos, no crea ningun activo y no recomienda ninguna inversion.
@@ -23,5 +24,6 @@ __all__ = [
     "depeg",
     "market",
     "redemption",
+    "reconciliation",
     "reserves",
 ]

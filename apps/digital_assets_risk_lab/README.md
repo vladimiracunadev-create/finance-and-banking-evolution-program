@@ -1,9 +1,10 @@
 # Digital Assets Risk Lab
 
-Laboratorio de riesgo de activos digitales de la **Parte 20**. Ocho módulos que
+Laboratorio de riesgo de activos digitales de la **Parte 20**. Nueve módulos que
 implementan la clasificación por promesa, el análisis de reservas, la cola de
 redención, la espiral algorítmica, la custodia por umbral, la profundidad de
-mercado y el grafo de contagio, **con la biblioteca estándar y sin red**.
+mercado, el grafo de contagio y la conciliación financiera de custodia, **con la
+biblioteca estándar y sin red**.
 
 > ## Aviso
 >
@@ -24,6 +25,7 @@ Seis afirmaciones que se repiten mucho y se comprueban poco:
 | «Es un 3 de 5, es robusto» | Puede tener independencia efectiva 1 | 12 |
 | «Mueve 184 millones al día» | Absorbe 2 con un 1 % de impacto | 13 |
 | «No tenemos exposición» | Cero directo, 117 millones de liquidez | 14 |
+| «El proof of assets supera 100 %» | Solo 92,14 % está disponible | 12 y 15 |
 
 ## Estructura
 
@@ -39,6 +41,7 @@ apps/digital_assets_risk_lab/
 ├── custody.py         independencia efectiva, recuperación y retiradas
 ├── market.py          libro, profundidad, impacto y límite de posición
 ├── contagion.py       grafo, segundo grado y dependencias comunes
+├── reconciliation.py ledger, reservas disponibles, balance, trading y roles
 └── cli.py
 ```
 
@@ -80,6 +83,12 @@ Calcular la exposición económica de quien declara cero:
 python apps/digital_assets_risk_lab/cli.py contagion
 ```
 
+Conciliar ledger, banco, exchange y blockchain:
+
+```bash
+python apps/digital_assets_risk_lab/cli.py reconcile
+```
+
 ## Pruebas
 
 ```bash
@@ -94,6 +103,7 @@ Cinco de ellas **documentan defectos y deben pasar**:
 - `test_un_3_de_5_puede_tener_independencia_efectiva_1_documenta_el_problema`
 - `test_los_dos_cocientes_dan_conclusiones_opuestas_documenta_el_problema`
 - `test_exposicion_cero_con_38_millones_en_riesgo_documenta_el_problema`
+- `test_el_ledger_cierra_pero_las_reservas_disponibles_no_documenta_el_problema`
 
 Sin ellas, el material afirmaría cosas que el código no sostiene.
 

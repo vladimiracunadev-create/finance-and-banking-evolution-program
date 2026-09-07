@@ -4,14 +4,14 @@
 
 ## **356 clases · 23 partes · 534 horas · de calcular un porcentaje a defender un banco digital**
 
-**El programa de finanzas y banca más completo en español — desde aritmética financiera, presupuesto personal y contabilidad NIIF hasta crédito, riesgos, Basilea III, cumplimiento, finanzas abiertas, pagos transfronterizos, DLT, stablecoins y mercados tokenizados.**
+**El programa de finanzas y banca más completo en español — desde aritmética financiera, presupuesto personal y contabilidad NIIF hasta crédito, riesgos, Basilea III, custodia digital, conciliación, finanzas abiertas, pagos transfronterizos, DLT y mercados tokenizados.**
 
 [![CI](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/ci.yml)
 [![Seguridad](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/security.yml)
 [![CodeQL](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/codeql.yml)
 [![Portal](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/actions/workflows/pages.yml/badge.svg?branch=main)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)
 
-[![Versión](https://img.shields.io/badge/versión-2.3.1-e67e22?style=for-the-badge)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/versión-2.4.0-e67e22?style=for-the-badge)](CHANGELOG.md)
 [![Clases](https://img.shields.io/badge/clases-356%20·%2023%20partes-7c5cff?style=for-the-badge)](SYLLABUS.md)
 [![Nivel](https://img.shields.io/badge/nivel-cero%20→%20dirección%20bancaria-2e8b57?style=for-the-badge)](STATUS.md)
 [![Manual](https://img.shields.io/badge/manual%20PDF-descargar-007c83?style=for-the-badge)](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/descargas/programa-completo.pdf)
@@ -77,7 +77,7 @@ No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo c
 
 | 📘 Clases | 📗 Fuentes citadas | 🧪 Laboratorios | 📝 Evaluaciones | 🎓 Proyectos | 📖 Términos |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **356** | <!-- gen:fuentes-citas:start -->**1 729**<!-- gen:fuentes-citas:end --> | **150** | **46** | **23** | **2 198** |
+| **356** | <!-- gen:fuentes-citas:start -->**1 730**<!-- gen:fuentes-citas:end --> | **151** | **46** | **23** | **2 204** |
 
 </div>
 
@@ -202,7 +202,7 @@ La infraestructura por debajo. Continúa desde la introducción fintech de la Pa
 | 17 | Finanzas abiertas, APIs y economía de datos | 14 | Consentimiento, OAuth y FAPI, contratos de API, iniciación de pagos, responsabilidad | [📘 leer](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) |
 | 18 | Pagos transfronterizos, remesas y liquidación | 16 | Corresponsalía, ISO 20022, finalidad, liquidez, PvP, interconexión | [📘 leer](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) |
 | 19 | Blockchain y DLT para instituciones financieras | 14 | Consenso, finalidad, redes autorizadas, contratos, oráculos, comparación con base centralizada | [📘 leer](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) |
-| 20 | Activos digitales, stablecoins y dinero programable | 16 | Taxonomía, reservas, redención, corrida, CBDC, custodia, contagio | [📘 leer](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) |
+| 20 | Activos digitales, stablecoins y dinero programable | 16 | Reservas, custodia, conciliación, trading, liquidez y gobernanza | [📘 leer](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) |
 | 21 | Tokenización, FX on-chain y mercados programables | 16 | Registro de referencia, emisión, mercado secundario, DvP, PvP y colateral | [📘 leer](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) |
 | 22 | Regulación de mercados financieros digitales | 22 | Perímetro, calificación, autorización, protección del cliente, resiliencia, regulación comparada, MiCA y el caso de El Salvador | [📘 leer](modules/21-regulacion-de-mercados-financieros-digitales/README.md) |
 | 23 | Proyecto: banco digital y mercado tokenizado | 18 | Alcance, arquitectura, construcción, tensiones, expediente y defensa | [📘 leer](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) |
@@ -238,7 +238,7 @@ Leer el programa seguido no es solo comodidad — es la única forma de comproba
 
 | Documento | Qué contiene |
 |---|---|
-| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 198 conceptos** de las 356 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
+| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 204 conceptos** de las 356 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
 | 📗 **[Glosario general](docs/glosario.md)** | Los términos base del programa, agrupados por tema |
 | 📘 **[Glosario de finanzas digitales](docs/glosario-finanzas-digitales.md)** | Los términos de la Etapa 5, cada uno con su «qué NO significa» |
 | 🧮 **[Formulario](docs/formulas.md)** | Las fórmulas del programa, cada una con su trampa habitual |
@@ -259,7 +259,7 @@ Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/R
 
 ## 🧪 Laboratorios y aplicaciones ejecutables
 
-Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **150 laboratorios** y los **23 proyectos integradores**. Las cubren **298 pruebas** en CI.
+Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **151 laboratorios** y los **23 proyectos integradores**. Las cubren **298 pruebas** en CI.
 
 | Aplicación | Qué hace | Se usa en |
 |---|---|---|
@@ -269,7 +269,7 @@ Además de las clases, el programa incluye **11 aplicaciones en Python** que se 
 | 🔓 **`open_finance_sandbox`** | Entorno de finanzas abiertas: consentimiento, OAuth/FAPI y alcances | Parte 17 |
 | 🌍 **`cross_border_payments_lab`** | Corresponsalía, ISO 20022, liquidez y enrutamiento de pagos | Parte 18 |
 | ⛓️ **`dlt_financial_lab`** | Consenso, bloques, Merkle, direcciones y contratos | Parte 19 |
-| 💵 **`digital_assets_risk_lab`** | Reservas, redención, corrida y contagio de un activo digital | Partes 20 y 21 |
+| 💵 **`digital_assets_risk_lab`** | Reservas, custodia, conciliación, trading, liquidez y contagio | Partes 20 y 21 |
 | 🪙 **`tokenization_platform`** | Emisión, ciclo de vida, mercado secundario y DvP atómico | Parte 21 |
 | 💱 **`onchain_fx_lab`** | Formación de precio, PvP y creación de mercado automatizada | Parte 21 |
 | ⚖️ **`regulatory_perimeter_engine`** | Perímetro, calificación de instrumentos y autorización | Parte 22 |
@@ -429,8 +429,8 @@ pytest -q && npx markdownlint-cli2 "**/*.md"
 ### ✅ Lo que sí es
 
 - 📚 un currículo **secuencial y completo** de 356 clases, de la aritmética a la dirección bancaria;
-- 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 150 laboratorios;
-- 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**699** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
+- 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 151 laboratorios;
+- 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**701** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
 - 🏦 un puente **cliente ↔ banco**: la misma clase sirve a quien lee su estado de cuenta y a quien decide ese cobro;
 - 🌐 material **abierto y offline-friendly** (manual PDF de más de 3 500 páginas + portal en Pages), en español.
 

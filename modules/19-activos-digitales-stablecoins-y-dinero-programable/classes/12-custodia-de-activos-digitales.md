@@ -6,10 +6,10 @@ level: profesional
 duration_minutes: 90
 status: complete
 jurisdictions: [internacional, chile]
-regulatory_topics: [custodia, segregacion, riesgo-operacional]
-regulation_last_verified: 2026-08-20
+regulatory_topics: [custodia, segregacion, conciliacion, riesgo-operacional]
+regulation_last_verified: 2026-09-07
 regulatory_status: vigente
-primary_authorities: [IOSCO, NIST, CMF]
+primary_authorities: [IOSCO, PCAOB, NIST, CMF]
 requires_legal_review: true
 -->
 
@@ -23,10 +23,10 @@ requires_legal_review: true
 
 ## 🎯 Propósito
 
-Diseñar la custodia de un activo cuyo control es una clave. **Quien tiene la
-clave tiene el activo**, y por eso la custodia digital mezcla dos disciplinas que
-en el mundo tradicional estaban separadas: la seguridad de la información y la
-segregación patrimonial.
+Diseñar la custodia y **demostrar financieramente** que el activo existe, es del
+cliente correcto y está disponible. El control de claves importa, pero no basta:
+la seguridad de la información, la segregación patrimonial, el mayor, la
+tesorería y las confirmaciones externas deben contar la misma historia.
 
 Los instrumentos de las once clases anteriores hay que guardarlos en alguna parte. Esta clase trata de dónde, y muestra que la criptografía protege del robo y solo un contrato bien redactado protege de la quiebra del custodio.
 
@@ -39,6 +39,8 @@ Al finalizar podrás:
 3. **Distinguir** segregación operativa de segregación jurídica.
 4. **Construir** un procedimiento de recuperación que no cree una puerta trasera.
 5. **Definir** los controles de una operación de retirada, con sus tiempos.
+6. **Conciliar** ledger, banco, exchange y blockchain sin netear activos propios.
+7. **Distinguir** prueba de activos, reservas, pasivos, propiedad y auditoría.
 
 <!-- gen:agenda:start -->
 ## Agenda de 90 minutos
@@ -64,7 +66,10 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
-Los cuatro primeros términos son los esquemas de custodia; los cuatro siguientes, sus protecciones jurídicas y operativas. La **segregación jurídica** es la que decide en un concurso: sin una cláusula que declare que el activo es del cliente y que el custodio no puede disponer de él, el cliente es un acreedor ordinario.
+Los términos combinan esquema técnico, protección jurídica y evidencia
+financiera. La **conciliación** no consiste en obtener cuatro saldos iguales:
+explica cada diferencia, su dueño, su disponibilidad, su antigüedad y su plazo de
+resolución.
 
 | Concepto | Comprensión verificable |
 |---|---|
@@ -76,10 +81,18 @@ Los cuatro primeros términos son los esquemas de custodia; los cuatro siguiente
 | `segregación jurídica` | El activo no entra en la masa del custodio |
 | `lista blanca de destinos` | Solo se retira a direcciones aprobadas |
 | `ventana de espera` | Retardo obligatorio entre orden y ejecución |
+| `activo custodiado` | Recurso de un cliente; no es fondo propio del custodio |
+| `pasivo con clientes` | Obligación reconstruida desde el submayor completo |
+| `conciliación` | Explicación trazable de diferencias entre fuentes |
+| `saldo disponible` | Activo libre de gravamen, congelamiento o uso en margen |
+| `custody risk` | Pérdida, indisponibilidad o apropiación de activos custodiados |
 
 ## 🧠 Modelo mental
 
-El modelo mental es que la criptografía protege del robo y no de la quiebra. Un esquema técnicamente impecable con un contrato de custodia deficiente deja al cliente sin nada si el custodio entra en concurso.
+El modelo mental tiene tres capas: la criptografía protege el control, el
+contrato protege la propiedad y la conciliación prueba la cobertura. Si falta
+una, un saldo visible puede no pertenecer a la institución, un activo existente
+puede estar pignorado y un mayor perfectamente cuadrado puede no tener respaldo.
 
 ```text
 LA DIFERENCIA CON LA CUSTODIA TRADICIONAL
@@ -234,6 +247,95 @@ EL ATAQUE MÁS COMÚN:
 comprometer una sesión y retirar
 a una dirección nueva en el momento
 ```
+
+### 6. Cuatro fuentes, una sola obligación
+
+La conciliación parte del pasivo, no del saldo más fácil de mostrar. El mayor
+reconstruye cuánto se debe; banco, exchange y blockchain aportan evidencia
+externa distinta, con limitaciones distintas.
+
+```text
+Ledger  ↕  Bank  ↕  Exchange  ↕  Blockchain
+
+opening balance
++ inflows
+− outflows
+± trading P/L
+− fees
+= closing balance
+
+POR CADA DIFERENCIA
+  activo · fuente · dueño · disponible/no disponible
+  causa · antigüedad · responsable · fecha límite
+```
+
+Banco confirma titular, saldo, restricciones y hora. Exchange exige además
+separar spot, margin, retiros pendientes, activos prestados, congelados y
+colateral. Blockchain demuestra un estado del registro, pero la propiedad exige
+probar control autorizado y ausencia de acuerdos o gravámenes fuera de cadena.
+
+### 7. Saldo de cliente no es activo de la compañía
+
+| Concepto | Pregunta | Tratamiento del caso segregado |
+|---|---|---|
+| Customer balance | ¿Cuánto muestra el submayor? | Base del pasivo con clientes |
+| Company asset | ¿Qué recurso controla la compañía para su beneficio? | Activo propio en balance |
+| Custodied asset | ¿Qué recurso mantiene por cuenta del cliente? | Registro de custodia; no fondo propio |
+| Liability | ¿Qué debe entregar o restituir? | Pasivo propio o con clientes, según hechos |
+
+La institución mantiene dos ecuaciones que **no se netean**:
+
+```text
+ACTIVOS PROPIOS = PASIVOS PROPIOS + PATRIMONIO
+ACTIVOS CUSTODIADOS DISPONIBLES − PASIVOS DE CLIENTES = DIFERENCIA DE CUSTODIA
+```
+
+Usar activos custodiados para pagar una deuda propia rompe la segregación. Usar
+patrimonio propio para reponer un faltante protege al cliente, pero no transforma
+el activo del cliente en activo de la compañía.
+
+### 8. Cinco pruebas que no son equivalentes
+
+| Prueba | Evidencia positiva | Limitación decisiva |
+|---|---|---|
+| Proof of Assets | Activos observados a una hora | Puede omitir pasivos, gravámenes y préstamos temporales |
+| Proof of Reserves | Activos designados para cubrir | No prueba por sí sola el universo completo de pasivos |
+| Proof of Liabilities | Obligaciones con clientes | No prueba existencia ni disponibilidad de activos |
+| Proof of Ownership | Control y titularidad | No prueba suficiencia ni liquidez |
+| Financial Audit | Estados y evidencia bajo alcance definido | No garantiza disponibilidad continua después del corte |
+
+El cociente útil para retiros usa activos **disponibles por activo**, no un total
+bruto valorizado. Una atestación puntual o un procedimiento acordado no debe
+presentarse como auditoría de estados financieros.
+
+### 9. Trading con activos bajo custodia
+
+Spot introduce precio y liquidación. Margin, futures y derivatives agregan
+apalancamiento, colateral, llamadas de margen, contraparte y obligaciones que
+pueden crecer antes de realizarse la pérdida. Si el libro es de clientes, se
+requiere mandato específico; sin él aparecen además custody risk y fraud risk.
+
+| Riesgo | Pregunta financiera |
+|---|---|
+| Market | ¿Cuánto pierde la posición con un movimiento y una salida forzada? |
+| Liquidity | ¿Qué se paga en 24 h y qué está libre en ese horizonte? |
+| Counterparty | ¿Qué saldo depende de exchange, cámara o banco? |
+| Operational | ¿Qué corte, archivo o asignación puede fallar? |
+| Technology | ¿Qué API, nodo o fuente impide obtener evidencia? |
+| Fraud | ¿Qué operación carece de mandato o fue alterada? |
+| Concentration | ¿Qué porcentaje depende de una sola entidad, red o activo? |
+| Custody | ¿Qué activo existe pero no puede entregarse al cliente? |
+
+### 10. Separación de funciones
+
+```text
+Maker → Checker → Approver → Executor → Reconciler → Auditor
+```
+
+Maker prepara; Checker verifica mandato y datos; Approver decide dentro de
+límites; Executor opera; Reconciler compara las cuatro fuentes; Auditor prueba
+diseño y funcionamiento. Ninguna persona puede ocupar dos funciones dentro de
+la misma operación, y quien ejecuta nunca cierra su propia excepción.
 
 ## 🧮 Ejemplo guiado
 
@@ -466,6 +568,9 @@ Los riesgos son de concentración de claves y de segregación. La tabla los reco
 | Sin segregación jurídica | El cliente es acreedor ordinario | Cláusula de propiedad y no pignoración |
 | Coacción sobre un guardián | Amenaza directa | Composición reservada y señal de coacción |
 | Saldo no conciliado | Diferencia entre libros y cadena | Conciliación mensual por un tercero |
+| Activo visible pero pignorado | Proof of assets bruto parece suficiente | Cobertura disponible por activo y horizonte |
+| Trading sin mandato | Pérdida de cliente se registra como P/L | Separación de libros, bloqueo y restitución |
+| Una persona controla el ciclo | Puede crear, ejecutar y ocultar | Maker, Checker, Approver, Executor, Reconciler y Auditor distintos |
 
 ## 🧪 Práctica
 
@@ -477,6 +582,11 @@ En [`labs/lab-06.md`](../labs/lab-06.md):
 2. Rediseña la distribución de partes y vuelve a medirla.
 3. Diseña el procedimiento de recuperación con su retardo.
 4. Ejecuta el escenario de sesión comprometida y mide el tiempo ganado.
+
+En [`labs/lab-09.md`](../labs/lab-09.md), resuelve el caso
+[Custodia Andina Digital](../../../case-studies/custody/custodia-andina-digital.md):
+reconcilia las cuatro fuentes, separa balances, cuantifica trading y liquidez, y
+emite una decisión con responsables y disparadores.
 
 ## ⚠️ Errores frecuentes
 
@@ -498,6 +608,8 @@ Los síntomas de la tabla describen pérdidas de activos custodiados. Las causas
 3. ¿Por qué el umbral de recuperación debe ser mayor que el de firma?
 4. ¿Qué control detiene el ataque por sesión comprometida y por qué?
 5. ¿Qué tres cláusulas contractuales protegen ante la quiebra del custodio?
+6. ¿Por qué un proof of assets de más de 100 % puede ocultar un déficit?
+7. ¿Qué funciones deben permanecer separadas en una conciliación?
 
 ## 📥 Entregable
 
@@ -507,6 +619,7 @@ Guarda en `portfolio/parte-20/clase-12/`:
 - el esquema de recuperación con umbral, retardo y cancelación;
 - la cadena de siete controles de retirada con sus tiempos;
 - las tres preguntas al contrato, respondidas con un caso real.
+- la conciliación del caso sintético, con cobertura bruta y disponible por activo.
 
 ## 🔗 Referencias cruzadas
 
@@ -527,11 +640,12 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 
 ## 📗 Fuentes y verificación
 
-- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Exigencias de segregación y control de activos del cliente. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- IOSCO (2023). *Policy Recommendations for Crypto and Digital Asset Markets*. IOSCO. Recomendaciones 12–16 sobre custodia, segregación, conciliación y aseguramiento independiente. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf>
+- PCAOB Office of the Investor Advocate (2023). *Exercise Caution With Third-Party Verification/Proof of Reserve Reports*. PCAOB. Explica por qué un PoR puntual no equivale a auditoría ni prueba pasivos, gravámenes o controles. <https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports>
 - NIST (2016). *SP 800-57 Part 1: Recommendation for Key Management*. NIST. Gestión del ciclo de vida de las claves de custodia. <https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final>
 - NIST (2020). *SP 800-207: Zero Trust Architecture*. NIST. Modelo de acceso sin confianza implícita aplicado a la custodia. <https://csrc.nist.gov/pubs/sp/800/207/final>
 - Comisión para el Mercado Financiero. *Normativa aplicable a la custodia de instrumentos financieros*. CMF. Régimen chileno de custodia de instrumentos financieros. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba qué exige tu jurisdicción para custodiar activos digitales por cuenta de terceros, si requiere autorización previa y qué régimen de segregación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Verificación local: comprueba qué exige tu jurisdicción para custodiar activos digitales por cuenta de terceros, si requiere autorización previa y qué régimen de segregación impone. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-07.**
 
 <!-- gen:footer:start -->
 ---

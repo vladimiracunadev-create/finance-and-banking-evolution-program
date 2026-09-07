@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-920-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-931-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -77,6 +77,7 @@
 - `apps/digital_assets_risk_lab/custody.py`
 - `apps/digital_assets_risk_lab/depeg.py`
 - `apps/digital_assets_risk_lab/market.py`
+- `apps/digital_assets_risk_lab/reconciliation.py`
 - `apps/digital_assets_risk_lab/redemption.py`
 - `apps/digital_assets_risk_lab/reserves.py`
 - `apps/digital_bank_capstone/README.md`
@@ -149,6 +150,7 @@
 - `case-studies/cross-border-payments/falla-pvp.md`
 - `case-studies/cross-border-payments/falta-de-liquidez.md`
 - `case-studies/cross-border-payments/pago-retenido.md`
+- `case-studies/custody/custodia-andina-digital.md`
 - `case-studies/cyber-incidents/proveedor-critico-comun.md`
 - `case-studies/el-salvador/bitcoin-chivo-y-activos-digitales.md`
 - `case-studies/european-union/mica-transicion.md`
@@ -173,6 +175,9 @@
 - `datasets/processed/README.md`
 - `datasets/raw/README.md`
 - `datasets/schemas/README.md`
+- `datasets/schemas/custody_ledger_synthetic.md`
+- `datasets/schemas/custody_positions_synthetic.md`
+- `datasets/schemas/custody_trading_synthetic.md`
 - `datasets/schemas/loan_applications_synthetic.md`
 - `datasets/schemas/open_finance_consents.md`
 - `datasets/schemas/personal_budget_synthetic.md`
@@ -180,6 +185,9 @@
 - `datasets/schemas/sanctions_screening_alerts.md`
 - `datasets/schemas/transactions_synthetic.md`
 - `datasets/synthetic/README.md`
+- `datasets/synthetic/custody_ledger_synthetic.csv`
+- `datasets/synthetic/custody_positions_synthetic.csv`
+- `datasets/synthetic/custody_trading_synthetic.csv`
 - `datasets/synthetic/open_finance_consents.csv`
 - `datasets/synthetic/remittance_corridors.csv`
 - `datasets/synthetic/sanctions_screening_alerts.csv`
@@ -190,6 +198,7 @@
 - `desktop/requirements.txt`
 - `docs/README.md`
 - `docs/arquitectura-mercado-tokenizado.md`
+- `docs/custodia-conciliacion-y-gobernanza.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
 - `docs/formulas.md`
@@ -756,6 +765,7 @@
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-06.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-07.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-08.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-09.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/project/README.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-01.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-02.md`
@@ -765,6 +775,7 @@
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-06.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-07.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-08.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-09.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments/diagnostic.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments/final.md`

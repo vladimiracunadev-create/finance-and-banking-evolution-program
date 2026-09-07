@@ -28,6 +28,9 @@ esa ruta. Sus fichas están en `schemas/`, igual que las de los demás.
 | `loan_applications_synthetic.csv` | 100 | [ficha](schemas/loan_applications_synthetic.md) | Parte 9, `apps/credit_scoring/` |
 | `transactions_synthetic.csv` | 300 | [ficha](schemas/transactions_synthetic.md) | Partes 11 y 14 |
 | `synthetic/open_finance_consents.csv` | 1 200 | [ficha](schemas/open_finance_consents.md) | Parte 17, labs 1 y 5 |
+| `synthetic/custody_ledger_synthetic.csv` | 3 | [ficha](schemas/custody_ledger_synthetic.md) | Parte 20, lab 9 |
+| `synthetic/custody_positions_synthetic.csv` | 7 | [ficha](schemas/custody_positions_synthetic.md) | Parte 20, lab 9 |
+| `synthetic/custody_trading_synthetic.csv` | 4 | [ficha](schemas/custody_trading_synthetic.md) | Parte 20, lab 9 |
 
 ## Reglas
 

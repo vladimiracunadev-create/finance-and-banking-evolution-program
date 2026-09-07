@@ -61,6 +61,12 @@ from apps.digital_assets_risk_lab.reserves import (
     atender,
     punto_de_no_retorno,
 )
+from apps.digital_assets_risk_lab.reconciliation import (
+    BalanceInstitucional,
+    brecha_de_liquidez,
+    caso_custodia_andina,
+    validar_segregacion_de_funciones,
+)
 
 # --------------------------------------------------------------------------
 # Clase 1 — clasificacion por la promesa
@@ -652,3 +658,70 @@ def test_vincular_una_entidad_desconocida_falla():
     grafo = _grafo()
     with pytest.raises(KeyError):
         grafo.vincular("banco", "inexistente", 1_000)
+
+
+# --------------------------------------------------------------------------
+# Clases 12 y 15 — existencia, disponibilidad y conciliacion de custodia
+# --------------------------------------------------------------------------
+
+
+def test_el_ledger_cierra_pero_las_reservas_disponibles_no_documenta_el_problema():
+    ledger, conciliacion, _, _ = caso_custodia_andina()
+    assert ledger.diferencia == 0
+    assert conciliacion.activos_brutos == 7_150_000
+    assert conciliacion.activos_disponibles == 6_450_000
+    assert conciliacion.pasivos_totales == 7_000_000
+    assert conciliacion.diferencia_disponible == -550_000
+
+
+def test_proof_of_assets_bruto_puede_ocultar_un_deficit_disponible():
+    _, conciliacion, _, _ = caso_custodia_andina()
+    assert conciliacion.activos_brutos / conciliacion.pasivos_totales > 1
+    assert conciliacion.activos_disponibles / conciliacion.pasivos_totales < 1
+    assert {e.activo: e.diferencia_disponible for e in conciliacion.por_activo()} == {
+        "BTC": -200_000,
+        "ETH": -50_000,
+        "USDC": -300_000,
+    }
+
+
+def test_activos_custodiados_no_inflan_el_balance_de_la_compania():
+    _, _, balance, _ = caso_custodia_andina()
+    assert balance.activos_publicables_en_balance == 1_800_000
+    assert balance.patrimonio == 450_000
+    assert balance.activos_custodiados == 6_450_000
+
+
+def test_trading_de_clientes_agrega_custodia_y_fraude_al_riesgo():
+    _, _, _, operaciones = caso_custodia_andina()
+    margin_clientes = next(
+        o for o in operaciones if o.instrumento == "margin" and o.libro == "clientes"
+    )
+    assert {"mercado", "liquidez", "contraparte", "custodia", "fraude"}.issubset(
+        margin_clientes.riesgos
+    )
+    assert sum(o.resultado for o in operaciones) == -300_000
+    assert sum(o.pasivo_creado for o in operaciones) == 500_000
+
+
+def test_ninguna_persona_puede_concentrar_dos_funciones():
+    buena = {
+        "maker": "Ana", "checker": "Bruno", "approver": "Carla",
+        "executor": "Diego", "reconciler": "Elena", "auditor": "Fatima",
+    }
+    mala = dict(buena, executor="Ana")
+    assert validar_segregacion_de_funciones(buena) == []
+    assert "Ana concentra" in validar_segregacion_de_funciones(mala)[0]
+
+
+def test_la_liquidez_de_clientes_no_se_netea_con_el_balance_propio():
+    assert brecha_de_liquidez(6_450_000, 6_800_000) == 350_000
+    assert brecha_de_liquidez(1_800_000, 1_000_000) == 0
+    with pytest.raises(ValueError):
+        brecha_de_liquidez(-1, 0)
+
+
+def test_el_balance_propio_exige_reconocer_sus_pasivos():
+    balance = BalanceInstitucional(1_800_000, 1_350_000, 6_450_000, 7_000_000)
+    assert balance.patrimonio == 450_000
+    assert balance.diferencia_de_custodia == -550_000

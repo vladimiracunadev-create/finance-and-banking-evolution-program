@@ -6,7 +6,7 @@
 **Qué está cerrado, qué está en curso y qué líneas quedan abiertas a contribución.**
 
 [![programa](https://img.shields.io/badge/programa-356%20clases%20%C2%B7%20completo-2ea44f?style=flat-square)](STATUS.md)
-[![versión](https://img.shields.io/badge/versi%C3%B3n-2.0.0-e67e22?style=flat-square)](CHANGELOG.md)
+[![versión](https://img.shields.io/badge/versi%C3%B3n-2.4.0-e67e22?style=flat-square)](CHANGELOG.md)
 
 [🏠 Inicio](README.md) ·
 [📊 Estado](STATUS.md) ·
@@ -45,7 +45,8 @@ bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 | Entorno `open_finance_sandbox` con 28 pruebas | 1.2.0 | ✅ Funcional |
 | Entorno `cross_border_payments_lab` con 56 pruebas | 1.3.0 | ✅ Funcional |
 | Entorno `dlt_financial_lab` con 38 pruebas | 1.4.0 | ✅ Funcional |
-| Entorno `digital_assets_risk_lab` con 49 pruebas | 1.5.0 | ✅ Funcional |
+| Entorno `digital_assets_risk_lab` con 56 pruebas | 2.4.0 | ✅ Custodia financiera y conciliación |
+| Caso, datasets y laboratorio de custodia digital | 2.4.0 | ✅ Publicados |
 | Entornos `tokenization_platform` y `onchain_fx_lab` con 62 pruebas | 1.6.0 | ✅ Funcionales |
 | Entorno `regulatory_perimeter_engine` con 29 pruebas | 1.7.0 | ✅ Funcional |
 | Entorno `digital_bank_capstone` con 24 pruebas | 2.0.0 | ✅ Funcional |
@@ -96,7 +97,7 @@ sigue abierto es transversal: no bloquea ninguna parte, pero mejora el conjunto.
 | **Glosario digital** | Ampliado con los términos de las siete partes | ✅ Completo |
 | **Fichas normativas** | Ocho fichas: Chile, Unión Europea e internacional | ✅ Publicadas |
 | **Integración con partes antiguas** | Bloques «para profundizar» en las Partes 8, 10, 11, 12, 13, 14 y 16 | Abierto |
-| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Entregado en 2.2.0 — 26 casos en 13 temas |
+| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Ampliada en 2.4.0 — 27 casos en 14 temas |
 | **Más fichas normativas** | DORA, TFR y ediciones locales adicionales | Abierto |
 
 ---
