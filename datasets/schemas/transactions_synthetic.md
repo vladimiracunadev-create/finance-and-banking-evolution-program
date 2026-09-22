@@ -4,7 +4,7 @@
 - **Ruta:** `datasets/transactions_synthetic.csv`
 - **Filas:** 300
 - **Origen:** generado para el programa; ninguna transacción es real
-- **Licencia:** MIT, como el resto del repositorio
+- **Licencia:** CC BY-NC-SA 4.0; ver `DATA_LICENSES.md`
 - **Fecha de generación:** 2025 (versión 1.0.0 del programa)
 - **Privacidad:** sin datos personales; las cuentas son etiquetas sintéticas
 - **Usado en:** Parte 14 (fraude digital), Parte 11 (riesgo operacional)

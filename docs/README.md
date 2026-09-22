@@ -83,7 +83,13 @@ sustituye. El número exacto de partes y clases está en
 | [CHANGELOG](../CHANGELOG.md) | Historial de versiones |
 | [ROADMAP](../ROADMAP.md) | Qué sigue |
 | [MANIFEST](../MANIFEST.md) | Ficha técnica de la entrega |
-| [LICENSE](../LICENSE) | Licencia MIT |
+| [LICENSE](../LICENSE) | MIT para código y simuladores |
+| [LICENSE-CONTENT.md](../LICENSE-CONTENT.md) | CC BY-NC-SA 4.0 para contenido original |
+| [DATA_LICENSES.md](../DATA_LICENSES.md) | Régimen de datos por fuente |
+| [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md) | Fuentes y material de terceros |
+| [TRADEMARKS.md](../TRADEMARKS.md) | Nombre y marcas |
+| [DISCLAIMER.md](../DISCLAIMER.md) | Aviso educativo |
+| [LICENSING_HISTORY.md](LICENSING_HISTORY.md) | Licencia histórica y transición |
 
 ---
 

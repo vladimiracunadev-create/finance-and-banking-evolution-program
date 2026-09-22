@@ -131,7 +131,7 @@ def documento() -> tuple[str, list[tuple[int, str, str]]]:
         f"# {TITULO}\n\n**{SUBTITULO}**\n\n"
         f"Documento completo del programa: {len(partes())} partes y "
         f"{total_clases} clases.\n\n"
-        f"Version {version} · Licencia MIT · "
+        f"Version {version} · Codigo MIT · Contenido CC BY-NC-SA 4.0 · "
         "<https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program>\n\n"
         "> **Aviso.** Material formativo. No constituye asesoria financiera, "
         "tributaria ni legal. Las tasas, comisiones, limites y normas citados "
@@ -269,7 +269,7 @@ def a_html(md_texto: str, indice: list[tuple[int, str, str]]) -> str:
   <h1>{html.escape(TITULO)}</h1>
   <p class="sub">{html.escape(SUBTITULO)}</p>
   <p class="datos">{len(partes())} partes · {total} clases · {horas} horas<br>
-  Versión {version} · Licencia MIT · {fecha}<br>
+  Versión {version} · Código MIT · Contenido CC BY-NC-SA 4.0 · {fecha}<br>
   <a href="https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program">github.com/vladimiracunadev-create/finance-and-banking-evolution-program</a></p>
   <p class="solo-html">Para guardarlo como PDF: Ctrl+P y «Guardar como PDF».</p>
 </header>

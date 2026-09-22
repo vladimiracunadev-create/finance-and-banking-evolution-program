@@ -4,7 +4,7 @@
 - **Ruta:** `datasets/synthetic/custody_positions_synthetic.csv`
 - **Filas:** 7
 - **Origen:** caso determinístico redactado para la Parte 20
-- **Licencia:** MIT, como el resto del repositorio
+- **Licencia:** CC BY-NC-SA 4.0; ver `DATA_LICENSES.md`
 - **Fecha de generación:** 2026-09-07
 - **Privacidad:** sin cuentas, claves ni direcciones reales
 - **Usado en:** Parte 20, laboratorio 9 y `digital_assets_risk_lab`

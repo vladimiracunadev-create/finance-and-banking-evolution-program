@@ -126,7 +126,7 @@ def _etapa_de(numero: int) -> tuple:
 
 
 PORTADA = """<section class="hero">
-  <p class="hero-cinta">Programa abierto · español · licencia MIT</p>
+  <p class="hero-cinta">Programa abierto · español · código MIT · contenido CC BY-NC-SA 4.0</p>
   <h1>De no saber calcular un porcentaje<br><span>a defender un banco digital</span></h1>
   <p class="hero-bajada">{clases} clases en {partes} partes y cinco etapas, con caso numérico
      resuelto y bibliografía verificable en cada una. Sin registro, sin coste y sin publicidad.</p>

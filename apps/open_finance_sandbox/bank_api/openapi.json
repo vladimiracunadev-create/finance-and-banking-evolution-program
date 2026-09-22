@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "description": "Contrato del entorno simulado de la Parte 17. Se publica en JSON y no en YAML para que el validador del repositorio funcione solo con la biblioteca estandar, sin anadir dependencias.",
     "license": {
-      "name": "MIT"
+      "name": "MIT (código y contrato técnico)",
+      "identifier": "MIT"
     }
   },
   "servers": [

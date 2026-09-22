@@ -238,7 +238,7 @@ PLANTILLA = """<!doctype html>
 {cuerpo}
 </main>
 <footer class="pie">
-  <p><strong>{sitio}</strong> · {clases} clases · {partes} partes · Licencia MIT</p>
+  <p><strong>{sitio}</strong> · {clases} clases · {partes} partes · Código MIT · Contenido CC BY-NC-SA 4.0</p>
   <p>Material formativo. No constituye asesoría financiera, tributaria ni legal.
      Verifica siempre la norma vigente en tu país.</p>
   <p><a href="{repo}" rel="noopener">Ver en GitHub</a></p>

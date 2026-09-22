@@ -22,6 +22,15 @@
 Gracias por el interés. Este programa mejora con correcciones de contenido, fuentes
 adicionales, adaptaciones por país y traducciones.
 
+Al enviar una contribución declaras que es original tuya o que tienes derechos
+suficientes para aportarla, e identificas cualquier material de terceros y su
+licencia. Aceptas que el código y los simuladores se distribuyan bajo MIT, y el
+contenido educativo original bajo CC BY-NC-SA 4.0, según
+[LICENSE](LICENSE) y [LICENSE-CONTENT.md](LICENSE-CONTENT.md). No envíes material
+que no puedas relicenciar en esos términos. Los datos requieren además una
+entrada en [DATA_LICENSES.md](DATA_LICENSES.md) y, si proceden de terceros, en
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 > Antes de contribuir, lee **[docs/etica-y-limitaciones.md](docs/etica-y-limitaciones.md)**.
 > Define qué es este material y qué obligaciones asume quien lo edita.
 

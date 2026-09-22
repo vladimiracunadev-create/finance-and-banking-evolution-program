@@ -4,7 +4,7 @@
 - **Ruta:** `datasets/synthetic/sanctions_screening_alerts.csv`
 - **Filas:** 12 000
 - **Origen:** generado con `random.Random(20260806)`; semilla fija, reproducible
-- **Licencia:** MIT, como el resto del repositorio
+- **Licencia:** CC BY-NC-SA 4.0; ver `DATA_LICENSES.md`
 - **Fecha de generación:** 2026-08-06
 - **Privacidad:** sin datos personales
 - **Usado en:** Parte 18, laboratorio 4; clase 12

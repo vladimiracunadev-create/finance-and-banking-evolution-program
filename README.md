@@ -18,7 +18,7 @@
 [![Android](https://img.shields.io/badge/Android-APK%20sin%20conexión-3ddc84?style=for-the-badge)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-app%20portable-0078d4?style=for-the-badge)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/latest)
 [![Idioma](https://img.shields.io/badge/idioma-español-1f6feb?style=for-the-badge)](SYLLABUS.md)
-[![License](https://img.shields.io/badge/license-MIT-3fb950?style=for-the-badge)](LICENSE)
+[![Licencias](https://img.shields.io/badge/licencias-MIT%20%2B%20CC%20BY--NC--SA%204.0-3fb950?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [![Python](https://img.shields.io/badge/Python-11%20apps%20%26%20labs-3776AB?style=flat-square&logo=python&logoColor=white)](apps/)
 [![NIIF](https://img.shields.io/badge/NIIF%2FIFRS-contabilidad-004b87?style=flat-square)](modules/04-contabilidad-financiera/README.md)
@@ -45,7 +45,7 @@
 
 ---
 
-> ⚖️ **Material formativo.** Este programa **no constituye asesoría financiera, tributaria ni legal**, no reemplaza títulos ni autorizaciones regulatorias, y todos los nombres, cifras y casos son educativos salvo indicación expresa. Los contenidos normativos se presentan de forma general: **cada país y cada fecha exigen su propia verificación**, y cada clase lo señala en su línea de verificación local. Detalle en [docs/etica-y-limitaciones.md](docs/etica-y-limitaciones.md).
+> ⚖️ **Material formativo.** No constituye asesoría financiera, recomendación de inversión, asesoría tributaria ni jurídica. Ejemplos y simulaciones no garantizan rentabilidad; la regulación puede cambiar. Lee el [aviso completo](DISCLAIMER.md) y [ética y limitaciones](docs/etica-y-limitaciones.md).
 
 ---
 
@@ -466,7 +466,20 @@ Este proyecto se rige por su **[Código de Conducta](CODE_OF_CONDUCT.md)**.
 
 ## 📄 Licencia
 
-**[MIT](LICENSE)** — úsalo, modifícalo y compártelo. El código y los materiales originales son de uso libre citando la fuente; las obras y normas citadas pertenecen a sus autores y organismos emisores.
+Desde el **22 de septiembre de 2026**, la distribución se rige por esta tabla.
+Las copias anteriores distribuidas bajo MIT conservan sus permisos: ver
+[historia del licenciamiento](docs/LICENSING_HISTORY.md).
+
+| Material | Régimen |
+|---|---|
+| Código y simuladores técnicos | [MIT](LICENSE) |
+| Contenido educativo original, metodología expresada, rutas, matrices y ejercicios | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) |
+| Datos | [Licencia por fuente](DATA_LICENSES.md) |
+| Normativa y documentos oficiales | [Fuente y régimen original](THIRD_PARTY_NOTICES.md) |
+| Nombre y marcas | [Derechos reservados de sus titulares](TRADEMARKS.md) |
+
+Consulta también [material de terceros](THIRD_PARTY_NOTICES.md), el
+[aviso educativo](DISCLAIMER.md) y la [auditoría](LICENSING_AUDIT.md).
 
 ---
 

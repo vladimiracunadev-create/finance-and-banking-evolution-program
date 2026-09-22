@@ -4,7 +4,7 @@
 - **Ruta:** `datasets/synthetic/custody_ledger_synthetic.csv`
 - **Filas:** 3
 - **Origen:** caso determinístico redactado para la Parte 20; no deriva de datos reales
-- **Licencia:** MIT, como el resto del repositorio
+- **Licencia:** CC BY-NC-SA 4.0; ver `DATA_LICENSES.md`
 - **Fecha de generación:** 2026-09-07
 - **Privacidad:** sin clientes, cuentas ni direcciones reales
 - **Usado en:** Parte 20, laboratorio 9 y caso integrador de custodia

@@ -25,7 +25,7 @@
 | **Versión** | `2.4.0` |
 | **Fecha** | 2026-09-07 |
 | **Estado** | Programa completo · 5 etapas · 23 partes publicadas |
-| **Licencia** | MIT |
+| **Licencia** | MIT para código; CC BY-NC-SA 4.0 para contenido original; [detalle](LICENSE-CONTENT.md) |
 | **Idioma** | Español |
 | **Repositorio** | <https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program> |
 

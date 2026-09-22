@@ -1,6 +1,14 @@
 MIT License
 
-Copyright (c) 2026 Finance & Banking Evolution Program contributors
+Copyright © 2026 Vladimir Acuña
+GitHub: vladimiracunadev-create
+
+This MIT license applies to the original source code, technical simulators,
+scripts, tests, application contracts and technical fixtures in this repository
+from 2026-09-22. It does not relicense educational text, datasets, official
+documents, third-party material or trademarks. See LICENSE-CONTENT.md,
+DATA_LICENSES.md, THIRD_PARTY_NOTICES.md, TRADEMARKS.md and
+docs/LICENSING_HISTORY.md for their respective terms.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

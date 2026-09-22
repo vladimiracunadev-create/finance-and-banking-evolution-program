@@ -4,7 +4,7 @@
 - **Ruta:** `datasets/loan_applications_synthetic.csv`
 - **Filas:** 100
 - **Origen:** generado para el programa; ninguna fila corresponde a una persona
-- **Licencia:** MIT, como el resto del repositorio
+- **Licencia:** CC BY-NC-SA 4.0; ver `DATA_LICENSES.md`
 - **Fecha de generación:** 2025 (versión 1.0.0 del programa)
 - **Privacidad:** sin datos personales; el identificador es secuencial
 - **Usado en:** Parte 9 (análisis y gestión de crédito) y `apps/credit_scoring/`

@@ -4,7 +4,7 @@
 - **Ruta:** `datasets/personal_budget_synthetic.csv`
 - **Filas:** 84 (12 meses × 7 categorías)
 - **Origen:** generado para el programa; no procede de ninguna persona ni entidad
-- **Licencia:** MIT, como el resto del repositorio
+- **Licencia:** CC BY-NC-SA 4.0; ver `DATA_LICENSES.md`
 - **Fecha de generación:** 2025 (versión 1.0.0 del programa)
 - **Privacidad:** sin datos personales; no hay titular, cuenta ni identificador
 - **Usado en:** Parte 1 (finanzas personales) y Parte 2; ejercicios de
