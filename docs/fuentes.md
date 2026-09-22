@@ -141,11 +141,11 @@ Esta es la tabla que importa: qué documento de qué regulador sostiene qué par
 | Comisión para el Mercado Financiero (CMF, Chile) | [Normativa aplicable a entidades financieras](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 23 |
 | Comisión para el Mercado Financiero (CMF, Chile) | [Normativa sobre custodia y depósito de valores](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 21, 22 |
 | Comisión para el Mercado Financiero (CMF, Chile) | [Normativa sobre oferta pública de valores e inscripción en el Registro de Valores](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 21, 22 |
+| Comisión para el Mercado Financiero (CMF, Chile) | [Norma de Carácter General N° 502](https://cmfchile.cl/portal/normativa/624/w4-article-106882.html) | 22 |
 | Comisión para el Mercado Financiero (CMF, Chile) | [Anexo técnico del Sistema de Finanzas Abiertas: definiciones y esquemas de datos](https://www.cmfchile.cl/) | 17 |
 | Comisión para el Mercado Financiero (CMF, Chile) | [Anexo técnico del Sistema de Finanzas Abiertas: esquemas por tipo de producto y calendario de fases](https://www.cmfchile.cl/) | 17 |
 | Comisión para el Mercado Financiero (CMF, Chile) | [Anexo técnico del Sistema de Finanzas Abiertas: versionado y disponibilidad](https://www.cmfchile.cl/) | 17 |
 | Comisión para el Mercado Financiero (CMF, Chile) | [Iniciativas de innovación financiera y normativa de la Ley 21.521](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 22 |
-| Comisión para el Mercado Financiero (CMF, Chile) | [Normativa aplicable a la custodia de instrumentos financieros](https://www.cmfchile.cl/portal/principal/613/w3-channel.html) | 20 |
 | IFRS Foundation | [NIC 1 Presentación de Estados Financieros](https://www.ifrs.org/) 🔁 | 5, 16 |
 | IFRS Foundation | [NIIF 9 Instrumentos Financieros](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments) 🔁 | 1, 5, 9, 11, 13, 16 |
 | IFRS Foundation | [Marco Conceptual para la Información Financiera](https://www.ifrs.org/) 🔁 | 2, 5 |
@@ -179,14 +179,14 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 |---|---:|---:|---|
 | Comité de Supervisión Bancaria de Basilea (BCBS) | 53 | 53 | 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Banco de Pagos Internacionales (BIS) | 33 | 32 | 1, 3, 6, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
-| Comisión para el Mercado Financiero (CMF, Chile) | 30 | 30 | 17, 20, 21, 22, 23 |
+| Comisión para el Mercado Financiero (CMF, Chile) | 31 | 31 | 17, 20, 21, 22, 23 |
 | Consejo de Estabilidad Financiera (FSB) | 29 | 29 | 3, 4, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 |
 | Grupo de Acción Financiera Internacional (GAFI/FATF) | 25 | 16 | 4, 9, 10, 12, 14, 16, 17, 18, 19, 20, 22, 23 |
 | Organización para la Cooperación y el Desarrollo Económicos (OCDE) | 25 | 16 | 1, 2, 3, 4, 6, 9, 10, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23 |
 | Comité de Pagos e Infraestructuras de Mercado (CPMI) | 23 | 23 | 3, 4, 8, 10, 11, 14, 16, 17, 18, 19, 20, 21, 22, 23 |
+| IFRS Foundation | 22 | 17 | 1, 2, 5, 7, 9, 11, 12, 13, 15, 16, 17, 18, 20 |
 | Wiley | 22 | 16 | 1, 2, 3, 4, 5, 7, 8, 9, 11, 13, 14, 15, 16 |
 | Autoridad Bancaria Europea (EBA) | 21 | 21 | 4, 9, 10, 11, 12, 13, 14, 15, 16, 17, 22 |
-| IFRS Foundation | 21 | 16 | 1, 2, 5, 7, 9, 11, 12, 13, 15, 16, 17, 18, 20 |
 | McGraw-Hill | 21 | 15 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16 |
 | Unión Europea (EUR-Lex) | 20 | 16 | 3, 4, 9, 12, 14, 17, 19, 20, 21, 22, 23 |
 | Organización Internacional de Normalización (ISO) | 17 | 9 | 4, 10, 11, 12, 14, 17, 18, 19, 21 |
@@ -198,11 +198,11 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | Banco Mundial | 12 | 3 | 1, 2, 3, 4, 9, 10, 12, 13, 14, 15, 16, 18 |
 | Consumer Financial Protection Bureau (CFPB) | 12 | 1 | 2, 3, 4, 9, 10, 12, 14 |
 | IETF | 9 | 9 | 17 |
+| Banco Central de Chile | 7 | 7 | 17, 18, 20, 22 |
 | Cámara de Comercio Internacional (ICC) | 7 | 3 | 10, 13, 18 |
 | Financial Analysts Journal | 7 | 4 | 3, 8 |
 | MIT Press | 7 | 3 | 1, 3, 6, 7, 8, 10, 12, 13, 14 |
 | Princeton University Press | 7 | 4 | 2, 4, 6, 10, 12, 14, 15 |
-| Banco Central de Chile | 6 | 6 | 17, 18, 20, 22 |
 | Biblioteca del Congreso Nacional de Chile | 6 | 6 | 17, 20, 22, 23 |
 | OpenID Foundation | 6 | 6 | 17 |
 | American Economic Review | 5 | 2 | 3, 5, 6, 13 |
@@ -288,6 +288,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | Farrar, Straus and Giroux | 1 | 1 | 16 |
 | Financial Services Review | 1 | 1 | 8 |
 | Global Foreign Exchange Committee | 1 | 1 | 18, 21 |
+| Google Play | 1 | 1 | 20 |
 | Grupo Egmont | 1 | 0 | 9 |
 | Handbook of Macroeconomics | 1 | 1 | 6 |
 | Harper Business | 1 | 0 | 4 |
@@ -340,6 +341,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | Securities and Exchange Commission (SEC) | 1 | 1 | 4 |
 | Servicio de Impuestos Internos (Chile) | 1 | 1 | 20 |
 | Statistical Science | 1 | 1 | 14 |
+| Steamworks | 1 | 1 | 20 |
 | Stochastic Solutions | 1 | 0 | 14 |
 | Taurus | 1 | 0 | 1, 2 |
 | Taylor Trade | 1 | 1 | 2 |
@@ -360,16 +362,15 @@ Una fuente pendiente no se borra ni se disimula: se declara. Estas son las razon
 | Motivo | Entradas |
 |---|---:|
 | la clase cita la norma sin enlace a la fuente primaria | 99 |
+| la fuente respondió 403 a una consulta automática | 32 |
 | ningún registro de Crossref coincide en título y autores | 27 |
 | Open Library no devuelve ninguna obra con ese título y autor | 27 |
-| la fuente respondió 403 a una consulta automática | 25 |
 | Open Library no respondió a la consulta | 20 |
 | Open Library no devuelve ediciones de la obra encontrada | 10 |
-| no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 9 |
-| sin resolver todavía; ejecuta scripts/refresh_sources.py | 2 |
+| no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 3 |
 | la obra existe en Open Library pero ninguna edición declara ISBN-13 | 2 |
 
-Última revalidación en red: **2026-08-20**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.
+Última revalidación en red: **2026-09-22**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.
 <!-- gen:registro:end -->
 
 ---

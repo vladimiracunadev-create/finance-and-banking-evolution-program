@@ -1,6 +1,6 @@
 # Biblioteca de casos
 
-Veintisiete casos para trabajar en clase, en laboratorio o en evaluación. Todos
+Veintiocho casos para trabajar en clase, en laboratorio o en evaluación. Todos
 comparten la misma estructura de diez bloques y la misma disciplina: **los hechos
 van separados de las decisiones, y las decisiones separadas de las lecciones.**
 
@@ -62,6 +62,7 @@ identificable un fallo, una pérdida o una infracción.
 | [`chile/`](chile/) | 1 | 17 y 22 |
 | [`european-union/`](european-union/) | 1 | 22 |
 | [`el-salvador/`](el-salvador/) | 1 | 22 |
+| [`virtual-economies/`](virtual-economies/) | 1 | 20, 21 y 22 |
 
 ## Cómo usarlos
 

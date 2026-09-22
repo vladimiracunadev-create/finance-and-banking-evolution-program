@@ -5,7 +5,7 @@
 Responde antes de empezar la parte. No se califica para aprobar: sirve para
 saber qué necesitas reforzar. Marca con `NO SÉ` lo que no sepas.
 
-**Puntaje total:** 40 puntos. **Tiempo sugerido:** 45 minutos.
+**Puntaje total:** 50 puntos. **Tiempo sugerido:** 55 minutos.
 
 ## Sección A — Terminología (12 puntos)
 
@@ -48,12 +48,22 @@ oficina, ¿cuántos eventos independientes tolera?
 que promete «1,00 siempre». Escribe las tres preguntas que harías antes de
 aprobarlo, y di qué decide cada una.
 
+## Sección E — Economías virtuales (10 puntos)
+
+**12.** (4 pts) Un usuario paga CLP 5.990 por 1.000 GEM no transferibles y no
+reembolsables. ¿Qué debe GAMECO y por qué no es automáticamente un depósito?
+
+**13.** (3 pts) ¿Qué cambia primero al permitir `Jugador A → item → Jugador B`
+sin cash-out?
+
+**14.** (3 pts) Distingue gross bookings, recepción neta e ingreso reconocido.
+
 ## Escala
 
-- 0–15: la parte te va a exigir apoyo en las clases 1 a 5.
-- 16–25: base suficiente; refuerza la sección donde perdiste más puntos.
-- 26–33: buena base; enfócate en las clases 11 a 15.
-- 34–40: puedes ir al proyecto y usar las clases como referencia.
+- 0–19: la parte te va a exigir apoyo en las clases 1 a 5.
+- 20–31: base suficiente; refuerza la sección donde perdiste más puntos.
+- 32–41: buena base; enfócate en las clases 9 a 15.
+- 42–50: puedes ir al proyecto y usar las clases como referencia.
 
 ## Guía de corrección
 
@@ -70,6 +80,9 @@ aprobarlo, y di qué decide cada una.
 | 9 | Uno: un solo evento los alcanza a todos |
 | 10 | El volumen puede inflarse sin aportar profundidad |
 | 11 | Quién promete, con qué respaldo y quién puede redimir; deciden régimen, solidez y si la paridad es un derecho |
+| 12 | Derecho de uso o prestación futura según contrato; no hay obligación monetaria demostrada |
+| 13 | Transferencia, custodia, precio, fraude y posible mercado secundario; no cash-out todavía |
+| 14 | Venta contratada · caja después de ajustes · ingreso al cumplir la promesa |
 
 ## Qué reforzar según lo que falles
 
@@ -79,3 +92,4 @@ aprobarlo, y di qué decide cada una.
 | Sección B | Clases 3, 4 y 5 |
 | Sección C | Clases 12, 13 y 14 |
 | Sección D | Clases 1 y 16 |
+| Sección E | Clases 1, 9, 13 y 15; laboratorio 10 |

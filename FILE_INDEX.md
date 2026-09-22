@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-938-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-943-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -86,6 +86,7 @@
 - `apps/digital_assets_risk_lab/reconciliation.py`
 - `apps/digital_assets_risk_lab/redemption.py`
 - `apps/digital_assets_risk_lab/reserves.py`
+- `apps/digital_assets_risk_lab/virtual_economy.py`
 - `apps/digital_bank_capstone/README.md`
 - `apps/digital_bank_capstone/__init__.py`
 - `apps/digital_bank_capstone/build.py`
@@ -175,6 +176,7 @@
 - `case-studies/stablecoins/perdida-de-paridad.md`
 - `case-studies/tokenization/bono-tokenizado.md`
 - `case-studies/tokenization/proyecto-inmobiliario-tokenizado.md`
+- `case-studies/virtual-economies/gameco.md`
 - `datasets/README.md`
 - `datasets/loan_applications_synthetic.csv`
 - `datasets/personal_budget_synthetic.csv`
@@ -206,6 +208,7 @@
 - `docs/README.md`
 - `docs/arquitectura-mercado-tokenizado.md`
 - `docs/custodia-conciliacion-y-gobernanza.md`
+- `docs/economias-virtuales-y-bienes-digitales.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
 - `docs/formulas.md`
@@ -773,6 +776,7 @@
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-07.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-08.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-09.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/labs/lab-10.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/project/README.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-01.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-02.md`
@@ -783,6 +787,7 @@
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-07.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-08.md`
 - `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-09.md`
+- `modules/19-activos-digitales-stablecoins-y-dinero-programable/solutions/lab-10.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments/diagnostic.md`
 - `modules/20-tokenizacion-fx-onchain-y-mercados-programables/assessments/final.md`

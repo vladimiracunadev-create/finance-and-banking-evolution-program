@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [integridad-del-mercado, liquidez, transparencia]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [IOSCO, FSB, BIS]
 requires_legal_review: false
@@ -239,6 +239,28 @@ Este curso NO enseña a manipular mercados
 ni proporciona herramientas para ello:
 enseña a detectarlo y a protegerse.
 ```
+
+### 6. El marketplace P2P de bienes digitales
+
+Un item que GAMECO vende por primera vez pertenece al mercado primario. Cuando
+Jugador A lo ofrece a Jugador B aparece un mercado secundario, aunque el pago se
+haga en GEM y no exista cash-out. Ya se pueden medir precio, spread, profundidad,
+concentración y velocidad; también aparecen item theft, wash trading, bot
+farming y manipulación.
+
+```text
+Buyer → Marketplace → Seller
+          ├─ comisión
+          ├─ custodia / escrow
+          └─ settlement / disputa
+```
+
+Si entra dinero real hay que mapear quién recibe primero, quién conserva saldo,
+quién debe pagar, cuándo hay finalidad, quién absorbe refund o chargeback y qué
+ocurre si falla el payout. El take rate es ingreso potencial del marketplace;
+el importe del seller es un payable, no margen propio. Que una store procese el
+pago no permite asumir el mismo merchant of record, impuesto o contrato en toda
+jurisdicción.
 
 ## 🧮 Ejemplo guiado
 
@@ -479,6 +501,7 @@ Los síntomas de la tabla describen ventas ejecutadas muy por debajo del precio.
 3. ¿Qué decisiones esconde un precio de referencia?
 4. En el ejemplo, ¿por qué las dos métricas dan conclusiones opuestas?
 5. ¿Cómo se calibra un límite de posición y con qué frecuencia?
+6. ¿Qué cambia cuando el marketplace habilita payout en dinero al seller?
 
 ## 📥 Entregable
 
@@ -513,7 +536,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IOSCO (2013). *Principles for Financial Benchmarks*. IOSCO. Gobierno y calidad del precio de referencia utilizado. <https://www.iosco.org/library/pubdocs/pdf/IOSCOPD415.pdf>
 - Financial Stability Board (2022). *Assessment of Risks to Financial Stability from Crypto-assets*. FSB. Evidencia sobre profundidad y concentración del mercado. <https://www.fsb.org/2022/02/assessment-of-risks-to-financial-stability-from-crypto-assets/>
 - Bank for International Settlements (2022). *Annual Economic Report, capítulo III*. BIS. Estructura del mercado de criptoactivos y su liquidez observada. <https://www.bis.org/publ/arpdf/ar2022e3.htm>
-- Verificación local: comprueba qué régimen de integridad de mercado y de índices de referencia aplica en tu jurisdicción a estas plataformas y a los precios que publican. **Fecha de verificación de esta clase: 2026-08-20.**
+- Valve. *Steamworks Taxes FAQ*. Steamworks. Separación entre gross revenue, impuestos, returns, chargebacks, net revenue y revenue share. <https://partner.steamgames.com/doc/finance/taxfaq>
+- Google. *Google Play Payments policy*. Google Play. Tratamiento comercial de monedas virtuales y bienes digitales dentro de aplicaciones. <https://support.google.com/googleplay/android-developer/answer/9858738>
+- Verificación local: comprueba qué régimen de integridad de mercado, comercio y precios aplica en tu jurisdicción a estas plataformas. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

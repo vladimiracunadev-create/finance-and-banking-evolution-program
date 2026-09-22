@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [contabilidad, tributacion, prudencial]
-regulation_last_verified: 2026-09-07
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [IASB, SII, BCBS]
 requires_legal_review: true
@@ -277,6 +277,34 @@ ES QUE NADIE GUARDA ESOS DATOS
 DESDE EL PRINCIPIO
 ```
 
+### 6. Moneda virtual: cobro, obligación, ingreso y breakage
+
+Cuando GAMECO cobra CLP 5.990 por 1.000 GEM hay al menos tres mediciones
+distintas: `cash collected`, recepción neta después de fees, impuestos, refunds
+y chargebacks, y revenue reconocido al satisfacer la promesa. NIIF 15 exige
+identificar contrato, obligaciones de desempeño, precio, asignación y
+cumplimiento; no contiene un asiento universal para «moneda de juego».
+
+```text
+Cobro bruto
+− impuestos cuando correspondan
+− platform fee
+− payment processing fee
+− refunds y chargebacks
+= recepción neta
+```
+
+Outstanding virtual currency y unused credits son unidades pendientes, no CLP
+por definición. Si 100 millones GEM se vendieron y 15 millones nunca se usan,
+el `breakage` estimado solo puede reconocerse según el contrato, la evidencia y
+el patrón aplicable. No se reconoce todo al vender ni se presume que toda GEM no
+usada pertenece inmediatamente al resultado.
+
+En un marketplace, la comisión puede ser ingreso de GAMECO mientras el importe
+debido al seller es un pasivo de payout. La evaluación principal/agente decide
+si la presentación es bruta o neta. Payout, FX, impuestos y chargebacks se
+mantienen separados hasta su conciliación.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo clasifica y mide un activo digital en dos supuestos distintos. El resultado del periodo cambia según la clasificación.
@@ -508,6 +536,8 @@ Los síntomas de la tabla describen problemas contables y fiscales. Las causas s
 3. ¿Cuándo un activo custodiado entra en el balance del custodio?
 4. ¿Por qué el balance y el capital regulatorio pueden no coincidir?
 5. ¿Qué ocho datos exige el registro tributario por operación?
+6. ¿Qué diferencia existe entre bookings, recepción neta e ingreso reconocido?
+7. ¿Por qué breakage no equivale a reconocer de inmediato todo saldo no usado?
 
 ## 📥 Entregable
 
@@ -540,9 +570,10 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IFRS Foundation (2019). *Holdings of Cryptocurrencies — IFRS Interpretations Committee Agenda Decision*. IFRS. Decisión de agenda que fija la clasificación contable aplicable. <https://www.ifrs.org/content/dam/ifrs/supporting-implementation/agenda-decisions/2019/holdings-of-cryptocurrencies-june-2019.pdf>
 - IFRS Foundation. *IAS 38 Intangible Assets*. IFRS. Reconocimiento y medición como activo intangible. <https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/>
 - IFRS Foundation. *IAS 2 Inventories*. IFRS. Tratamiento como inventario cuando se mantiene para la venta. <https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/>
+- IFRS Foundation. *IFRS 15 Revenue from Contracts with Customers*. IFRS. Obligaciones de desempeño, principal frente a agente y derechos no ejercidos usados en el caso GAMECO. <https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers/>
 - Servicio de Impuestos Internos de Chile. *Tratamiento tributario de las criptomonedas*. SII. Criterio tributario chileno sobre la renta obtenida. <https://www.sii.cl/preguntas_frecuentes/criptomonedas/arbol_faqs_criptomonedas_1653.htm>
 - Basel Committee on Banking Supervision. *DIS55 Cryptoasset exposures*. BIS. Divulgación de clasificación contable, exposiciones y liquidez, vigente desde 2026-01-01 para el marco de Basilea. <https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17>
-- Verificación local: comprueba con tu autoridad tributaria y tu regulador contable el tratamiento vigente, porque este ámbito cambia y las decisiones de interpretación se actualizan. Esta clase no constituye asesoría legal ni tributaria. **Fecha de verificación de esta clase: 2026-09-07.**
+- Verificación local: comprueba con tu autoridad tributaria y tu regulador contable el tratamiento vigente, porque este ámbito cambia y las decisiones de interpretación se actualizan. Esta clase no constituye asesoría legal ni tributaria. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

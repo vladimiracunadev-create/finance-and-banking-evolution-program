@@ -6,7 +6,7 @@ Responde sin consultar las soluciones de los laboratorios. Puedes usar las
 clases y las fuentes oficiales. Declara los supuestos que necesites: un supuesto
 explícito suma; uno oculto resta.
 
-**Puntaje total:** 120 puntos. **Aprobación:** 84. **Tiempo sugerido:** 4 horas.
+**Puntaje total:** 140 puntos. **Aprobación:** 98. **Tiempo sugerido:** 4 horas 30 minutos.
 
 ## Sección A — Clasificación y régimen (25 puntos)
 
@@ -121,6 +121,24 @@ sin consultar la solución.
 - decide qué operaciones continuar, restringir o suspender y fija dos
   disparadores cuantitativos.
 
+## Sección F — GAMECO y valor virtual (20 puntos)
+
+**15.** (12 pts) GAMECO vende 1.000 GEM por CLP 5.990. En el periodo tiene
+10.000 jugadores, 5 % de pagadores y ARPPU de CLP 12.000. Usa supuestos
+declarados de 19 % de impuesto incluido, 15 % de platform fee sobre la base sin
+impuesto, 2 % de payment fee sobre esa base, 3 % de refunds y 0,5 % de
+chargebacks.
+
+- calcula pagadores, gross bookings y recepción neta aproximada;
+- explica por qué ninguna de esas cifras determina por sí sola revenue;
+- con 600 de 1.000 GEM consumidas y 15 % de breakage estimado, construye el
+  roll-forward pedagógico de obligación sin presentarlo como asiento universal.
+
+**16.** (8 pts) Compara las fases A–E de GAMECO. Para cada salto identifica el
+hecho nuevo, contraparte, riesgo incremental y régimen que debe revisarse. Debes
+explicar por qué transferibilidad, cash-out y tokenización no producen por sí
+solos una calificación jurídica automática.
+
 ## Rúbrica
 
 | Sección | Criterio | Puntos |
@@ -130,6 +148,7 @@ sin consultar la solución.
 | C | Identifica el riesgo que la cifra publicada oculta | 25 |
 | D | Expediente completo y respuesta honesta | 20 |
 | E | Concilia, separa patrimonios y decide bajo presión | 20 |
+| F | Separa unidad, flujo, obligación y perímetro de GAMECO | 20 |
 
 ### Criterios transversales
 
@@ -159,3 +178,5 @@ sin consultar la solución.
 | 12 | Sin adjetivos sin cifra; las tres capas separadas |
 | 13 | Ledger 0; bruto 102,14 %; disponible 92,14 %; diferencia −550 000; patrimonio 450 000 |
 | 14 | P/L −300 000; pasivo 500 000; colateral 750 000; brechas 350 000 y 200 000; seis personas distintas |
+| 15 | 500 pagadores; CLP 6 millones bookings; net receipts ≈ CLP 3,97 millones; ingreso depende de obligaciones y contrato |
+| 16 | A cerrada; B transferible; C marketplace; D payout; E tokenización; cada salto abre preguntas, no etiquetas |

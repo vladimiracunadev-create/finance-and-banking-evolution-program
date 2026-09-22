@@ -67,6 +67,13 @@ from apps.digital_assets_risk_lab.reconciliation import (
     caso_custodia_andina,
     validar_segregacion_de_funciones,
 )
+from apps.digital_assets_risk_lab.virtual_economy import (
+    EconomiaVirtual,
+    EstadoOrden,
+    NivelGameco,
+    ObligacionVirtual,
+    UnitEconomics,
+)
 
 # --------------------------------------------------------------------------
 # Clase 1 — clasificacion por la promesa
@@ -725,3 +732,70 @@ def test_el_balance_propio_exige_reconocer_sus_pasivos():
     balance = BalanceInstitucional(1_800_000, 1_350_000, 6_450_000, 7_000_000)
     assert balance.patrimonio == 450_000
     assert balance.diferencia_de_custodia == -550_000
+
+
+# --------------------------------------------------------------------------
+# Clases 1, 9, 13 y 15 — GAMECO y economía virtual
+# --------------------------------------------------------------------------
+
+
+def test_transferibilidad_y_cash_out_cambian_el_nivel_no_el_nombre():
+    assert NivelGameco().nivel == "A"
+    assert NivelGameco(transferible=True).nivel == "B"
+    nivel_c = NivelGameco(transferible=True, convertible=True, payout=True)
+    assert nivel_c.nivel == "C"
+    assert nivel_c.exige_analisis_especializado
+
+
+def test_sources_menos_sinks_aumentan_el_stock_documenta_el_problema():
+    economia = EconomiaVirtual(960_000, 100_000, 60_000, 240_000)
+    assert economia.emision_neta == 40_000
+    assert economia.stock_final == 1_000_000
+    assert economia.ratio_sinks_sources == pytest.approx(0.60)
+    assert economia.velocidad == pytest.approx(240_000 / 980_000)
+
+
+def test_concentracion_mide_saldos_no_emision():
+    economia = EconomiaVirtual(1_000, 0, 0, saldos=(600, 100, 100, 100, 100))
+    assert economia.concentracion_top_10 == pytest.approx(0.60)
+
+
+def test_unit_economics_separa_bookings_de_recepcion_neta():
+    unit = UnitEconomics(10_000, 0.05, 12_000)
+    assert unit.pagadores == 500
+    assert unit.gross_bookings == 6_000_000
+    assert unit.net_receipts < unit.gross_bookings
+    assert unit.refunds == 180_000
+    assert unit.chargebacks == 30_000
+
+
+def test_cobrar_gem_no_reconoce_todo_el_ingreso_automaticamente():
+    obligacion = ObligacionVirtual(5_990, 1_000, 600, 0.15)
+    assert obligacion.ingreso_por_ejercicio == pytest.approx(3_594)
+    assert obligacion.ingreso_pedagogico == pytest.approx(4_133.1)
+    assert obligacion.pasivo_contractual_pedagogico == pytest.approx(1_856.9)
+
+
+def test_breakage_no_es_ingreso_inmediato_documenta_el_problema():
+    sin_uso = ObligacionVirtual(5_990, 1_000, 0, 0.15)
+    assert sin_uso.ingreso_por_breakage_proporcional == 0
+    assert sin_uso.pasivo_contractual_pedagogico == 5_990
+
+
+def test_pago_pagado_sin_credito_es_excepcion_financiera():
+    estado = EstadoOrden(
+        "CREATED", "PAID", "SETTLED", "NOT_CREDITED", "EMPTY", "NOT_DELIVERED"
+    )
+    assert not estado.conciliada
+    assert estado.excepcion == "cobrado_no_acreditado"
+
+
+def test_estado_pagado_acreditado_y_entregado_concilia():
+    estado = EstadoOrden("CREATED", "PAID", "SETTLED", "CREDITED", "FUNDED", "DELIVERED")
+    assert estado.conciliada
+    assert estado.excepcion == ""
+
+
+def test_no_se_pueden_destruir_gem_inexistentes():
+    with pytest.raises(ValueError):
+        EconomiaVirtual(100, 10, 111)

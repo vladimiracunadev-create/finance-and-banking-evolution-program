@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [finanzas-abiertas, consentimiento, api]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [IOSCO, CMF, OCDE]
 requires_legal_review: true
@@ -344,7 +344,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - OCDE (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Consentimiento informado y revocable como principio de conducta. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Régimen chileno de finanzas abiertas aplicable a las interfaces. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones chilenas de seguridad y registro de accesos. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

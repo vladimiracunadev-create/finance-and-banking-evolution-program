@@ -133,7 +133,7 @@ que conviene anunciar el primer día:
 
 ## Los casos
 
-La [biblioteca de casos](../case-studies/README.md) da veintiséis escenarios con
+La [biblioteca de casos](../case-studies/README.md) da veintiocho escenarios con
 la misma estructura. El uso recomendado en esta etapa:
 
 ```text

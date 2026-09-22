@@ -66,6 +66,17 @@ DE LA FUENTE OFICIAL VIGENTE.
 | Protección de datos personales | Régimen de datos personales | Autoridad competente vigente | Parte 22, clase 13 |
 | Continuidad operacional y tercerización | Normativa CMF | CMF | Parte 22, clase 14 |
 
+### Aplicación: GAMECO
+
+| Cambio observable | Revisión inicial | Por qué no basta la etiqueta «videojuego» |
+|---|---|---|
+| GEM cerrada y no reembolsable | Contrato, consumo, impuestos y datos | Puede ser entitlement, no obligación monetaria |
+| Transferencia P2P | Custodia, fraude y marketplace | Aparecen terceros, precio y mercado secundario |
+| Cash-out y payout | Pagos, Ley 21.521, NCG 502 y UAF según actividad | Hay obligación de pago e intermediación potencial |
+| Tokenización y mercado externo | Activo financiero virtual, custodia y sistemas de transacción | El derecho y la actividad, no el token, califican |
+
+El árbol completo está en [Economías virtuales y bienes digitales](economias-virtuales-y-bienes-digitales.md).
+
 ---
 
 ## Las piezas que hay que verificar siempre
@@ -144,7 +155,7 @@ La comparación con otras jurisdicciones está en
 - La asignación de actividades a normas es orientativa; una misma operación puede
   activar varios regímenes a la vez.
 
-**Fecha de verificación de este documento: 2026-08-12.**
+**Fecha de verificación de este documento: 2026-09-22.**
 
 ---
 

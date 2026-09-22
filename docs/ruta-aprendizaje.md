@@ -161,7 +161,14 @@ Qué necesitas antes de cada parte.
 | 13 | 5 · 7 · 9 | Contabilidad, VPN y crédito |
 | 14 | 9 · 11 · 12 | Modelos, riesgo y regulación |
 | 15 | 11 · 12 · 13 | Riesgos, marco normativo y rentabilidad |
-| 16 | **Todas** | Es el proyecto integrador |
+| 16 | **Todas las anteriores** | Es el primer proyecto integrador |
+| 17 | 14 · 16 | APIs, consentimiento y arquitectura bancaria |
+| 18 | 10 · 17 | Pagos, liquidación y operación |
+| 19 | 14 | Registro distribuido aplicado a finanzas |
+| 20 | 5 · 6 · 11 · 19 | Balance, dinero, riesgo y registro |
+| 21 | 8 · 20 | Mercados e instrumentos digitales |
+| 22 | 12 · 20 · 21 | Perímetro, regulación y supervisión |
+| 23 | **Todas** | Capstone de banco digital y mercado tokenizado |
 
 ---
 
@@ -174,7 +181,7 @@ Qué necesitas antes de cada parte.
 | **Extendida** | 6 h/semana | 60 semanas | ~15 semanas |
 
 Cada clase son **90 minutos de sesión** más el tiempo del laboratorio y del entregable.
-El total del programa es de **528 horas de sesión**.
+El total del programa es de **534 horas de sesión**.
 
 ---
 

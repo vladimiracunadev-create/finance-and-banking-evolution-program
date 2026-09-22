@@ -1,6 +1,6 @@
 """Laboratorio de riesgo de activos digitales — Parte 20.
 
-Nueve modulos, cada uno asociado a una afirmacion concreta de una clase:
+Diez modulos, cada uno asociado a una afirmacion concreta de una clase:
 
     classification  la promesa clasifica, no la tecnologia
     reserves        la cobertura publicada se mueve al reves que el riesgo
@@ -11,6 +11,7 @@ Nueve modulos, cada uno asociado a una afirmacion concreta de una clase:
     market          el volumen no es liquidez
     contagion       exposicion cero puede significar 117 millones
     reconciliation  activos visibles pueden no estar disponibles
+    virtual_economy una unidad interna cambia al transferirse y convertirse
 
 Todo es didactico y trabaja con datos sinteticos. No se conecta a ninguna red,
 no mueve fondos, no crea ningun activo y no recomienda ninguna inversion.
@@ -26,4 +27,5 @@ __all__ = [
     "redemption",
     "reconciliation",
     "reserves",
+    "virtual_economy",
 ]

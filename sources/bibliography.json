@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-08-20",
+  "verified_on": "2026-09-22",
   "policy": "Toda afirmación del programa se apoya en una entrada de este registro. Ninguna entrada se acepta sin localizador verificable: ISBN-13 para libros, DOI para artículos y URL oficial con fecha de acceso para normas y documentación. Lo que no se pudo resolver queda como pendiente, con el motivo escrito; no se borra. El ISBN-13 identifica la obra tal como la resuelve Open Library: se prefiere la edición del año citado y, cuando esa edición no declara ISBN, se registra el de otra edición de la misma obra, por lo que el campo published sigue siendo el año que cita la clase.",
   "entries": [
     {
@@ -1278,9 +1278,9 @@
         "modules/16-finanzas-abiertas-apis-y-economia-de-datos/classes/09-apis-de-informacion-financiera.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.iso20022.org/",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "business-model-generation-2010",
@@ -1317,9 +1317,9 @@
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/04-cuentas-nostro-vostro-y-loro.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.iso20022.org/",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "can-small-victories-help-win-the-war-evidence-from-consumer-debt-management-2012",
@@ -1359,6 +1359,25 @@
       "doi": "10.2307/2977928",
       "locator": "https://doi.org/10.2307/2977928",
       "accessed": "2026-08-19"
+    },
+    {
+      "id": "capitulo-iii-j-1-3-emisores-de-tarjetas-de-pago-con-provision-de-fondos",
+      "type": "standard",
+      "authors": [
+        "Banco Central de Chile"
+      ],
+      "title": "Capítulo III.J.1.3: Emisores de Tarjetas de Pago con Provisión de Fondos",
+      "publisher": "BCCh",
+      "authority": "Banco Central de Chile",
+      "amendable": false,
+      "cited_url": "https://www.bcentral.cl/documents/33528/115568/CapIIIJ13.pdf",
+      "used_in": [
+        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/09-dinero-electronico-el-regimen-que-ya-existia.md"
+      ],
+      "status": "verificada",
+      "locator": "https://www.bcentral.cl/documents/33528/115568/CapIIIJ13.pdf",
+      "http_status": 200,
+      "accessed": "2026-09-22"
     },
     {
       "id": "causal-inference-for-statistics-social-and-biomedical-sciences-2015",
@@ -1417,9 +1436,9 @@
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/06-swift-cbpr-e-iso-20022.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.swift.com/standards/iso-20022",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "central-bank-digital-currencies-2018",
@@ -1912,9 +1931,9 @@
         "modules/20-tokenizacion-fx-onchain-y-mercados-programables/classes/05-ciclo-de-vida-del-instrumento.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.iso20022.org/iso-20022-message-definitions",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "corporate-finance-2019",
@@ -2841,9 +2860,10 @@
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
-      "locator": "https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17"
+      "status": "verificada",
+      "locator": "https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17",
+      "http_status": 200,
+      "accessed": "2026-09-22"
     },
     {
       "id": "discretion-versus-policy-rules-in-practice-1993",
@@ -2966,9 +2986,9 @@
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/05-mensajeria-frente-a-movimiento-de-fondos.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.swift.com/",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "documentacion-estandar-de-creditos-sindicados",
@@ -3439,9 +3459,10 @@
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
-      "locator": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports"
+      "status": "verificada",
+      "locator": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports",
+      "http_status": 200,
+      "accessed": "2026-09-22"
     },
     {
       "id": "expectations-investing-2020",
@@ -3539,9 +3560,9 @@
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/06-swift-cbpr-e-iso-20022.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.iso20022.org/catalogue-messages/additional-content-messages/external-code-sets",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "fairness-and-machine-learning-limitations-and-opportunities-2023",
@@ -4775,6 +4796,25 @@
       "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
     },
     {
+      "id": "google-play-payments-policy",
+      "type": "reference",
+      "authors": [
+        "Google"
+      ],
+      "title": "Google Play Payments policy",
+      "publisher": "Google Play",
+      "authority": "Google Play",
+      "amendable": false,
+      "cited_url": "https://support.google.com/googleplay/android-developer/answer/9858738",
+      "used_in": [
+        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/13-mercado-liquidez-y-formacion-de-precio.md"
+      ],
+      "status": "verificada",
+      "locator": "https://support.google.com/googleplay/android-developer/answer/9858738",
+      "http_status": 200,
+      "accessed": "2026-09-22"
+    },
+    {
       "id": "green-bond-principles",
       "type": "reference",
       "authors": [
@@ -5778,6 +5818,25 @@
       "locator": "https://www.identitytheft.gov/",
       "accessed": "2026-08-19",
       "http_status": 200
+    },
+    {
+      "id": "ifrs-15-revenue-from-contracts-with-customers",
+      "type": "standard",
+      "authors": [
+        "IFRS Foundation"
+      ],
+      "title": "IFRS 15 Revenue from Contracts with Customers",
+      "publisher": "IFRS",
+      "authority": "IFRS Foundation",
+      "amendable": true,
+      "cited_url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers",
+      "used_in": [
+        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
+      ],
+      "status": "verificada",
+      "locator": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers",
+      "http_status": 200,
+      "accessed": "2026-09-22"
     },
     {
       "id": "implementation-and-effects-of-the-g20-financial-regulatory-reforms",
@@ -7464,9 +7523,9 @@
         "modules/17-pagos-transfronterizos-remesas-y-liquidacion/classes/06-swift-cbpr-e-iso-20022.md"
       ],
       "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "pending_reason": "la fuente respondió 403 a una consulta automática",
       "locator": "https://www.iso20022.org/iso-20022-message-definitions",
-      "http_status": 0
+      "http_status": 403
     },
     {
       "id": "minimum-capital-requirements-for-market-risk-2019",
@@ -8144,6 +8203,27 @@
       "pending_reason": "Open Library no devuelve ninguna obra con ese título y autor"
     },
     {
+      "id": "norma-de-caracter-general-n-502-2024",
+      "type": "standard",
+      "authors": [
+        "Comisión para el Mercado Financiero"
+      ],
+      "title": "Norma de Carácter General N° 502",
+      "published": "2024",
+      "publisher": "CMF",
+      "authority": "Comisión para el Mercado Financiero (CMF, Chile)",
+      "amendable": false,
+      "cited_url": "https://cmfchile.cl/portal/normativa/624/w4-article-106882.html",
+      "used_in": [
+        "modules/21-regulacion-de-mercados-financieros-digitales/classes/03-calificacion-de-un-instrumento-digital.md",
+        "modules/21-regulacion-de-mercados-financieros-digitales/classes/16-regulacion-comparada-chile-y-el-mundo.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
+      "locator": "https://cmfchile.cl/portal/normativa/624/w4-article-106882.html",
+      "http_status": 0
+    },
+    {
       "id": "normas-internacionales-de-auditoria-nia",
       "type": "standard",
       "authors": [
@@ -8705,7 +8785,7 @@
       "publisher": "BCCh",
       "authority": "Banco Central de Chile",
       "amendable": false,
-      "cited_url": "https://www.bcentral.cl/areas/sistemas-de-pago",
+      "cited_url": "https://www.bcentral.cl/areas/sistemas-de-pagos",
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/09-dinero-electronico-el-regimen-que-ya-existia.md"
       ],
@@ -12379,6 +12459,25 @@
       "doi": "10.1214/ss/1042727940",
       "locator": "https://doi.org/10.1214/ss/1042727940",
       "accessed": "2026-08-19"
+    },
+    {
+      "id": "steamworks-taxes-faq",
+      "type": "reference",
+      "authors": [
+        "Valve"
+      ],
+      "title": "Steamworks Taxes FAQ",
+      "publisher": "Steamworks",
+      "authority": "Steamworks",
+      "amendable": false,
+      "cited_url": "https://partner.steamgames.com/doc/finance/taxfaq",
+      "used_in": [
+        "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/13-mercado-liquidez-y-formacion-de-precio.md"
+      ],
+      "status": "verificada",
+      "locator": "https://partner.steamgames.com/doc/finance/taxfaq",
+      "http_status": 200,
+      "accessed": "2026-09-22"
     },
     {
       "id": "stocktake-of-remittance-service-providers-access-to-banking-services-2018",

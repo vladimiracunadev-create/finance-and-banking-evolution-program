@@ -89,13 +89,19 @@ Conciliar ledger, banco, exchange y blockchain:
 python apps/digital_assets_risk_lab/cli.py reconcile
 ```
 
+Modelar GAMECO, desde una unidad cerrada hasta cash-out:
+
+```bash
+python apps/digital_assets_risk_lab/cli.py gameco
+```
+
 ## Pruebas
 
 ```bash
 python -m pytest tests/test_digital_assets_risk_lab.py -q
 ```
 
-Cinco de ellas **documentan defectos y deben pasar**:
+Nueve de ellas **documentan defectos y deben pasar**:
 
 - `test_la_cobertura_sube_mientras_la_composicion_empeora_documenta_el_problema`
 - `test_el_orden_de_llegada_premia_al_primero_documenta_el_problema`
@@ -104,6 +110,8 @@ Cinco de ellas **documentan defectos y deben pasar**:
 - `test_los_dos_cocientes_dan_conclusiones_opuestas_documenta_el_problema`
 - `test_exposicion_cero_con_38_millones_en_riesgo_documenta_el_problema`
 - `test_el_ledger_cierra_pero_las_reservas_disponibles_no_documenta_el_problema`
+- `test_sources_menos_sinks_aumentan_el_stock_documenta_el_problema`
+- `test_breakage_no_es_ingreso_inmediato_documenta_el_problema`
 
 Sin ellas, el material afirmaría cosas que el código no sostiene.
 
@@ -130,6 +138,11 @@ cae, junto a `emision_por_unidad`, que es el que funciona.
 convive con `tolera_evento_correlacionado()`, porque la primera solo es
 defendible después de que la segunda sea verdadera.
 
+**GAMECO separa cinco capas que suelen mezclarse.** `virtual_economy.py` modela
+la unidad, el stock, el flujo de caja, la obligación comercial y la conciliación
+como objetos distintos. Ninguna función infiere una clasificación jurídica por
+el nombre de la unidad.
+
 ## Límites declarados
 
 - Los descuentos por tramo son **supuestos declarados**, no observaciones de
@@ -143,8 +156,12 @@ defendible después de que la segunda sea verdadera.
 - El modelo de independencia usa cuatro factores; en la práctica hay más.
 - Todos los instrumentos, carteras, libros y entidades son **sintéticos** y no
   representan a ningún emisor, plataforma ni organización real.
+- El cálculo de ingreso de GAMECO es pedagógico y parametrizado; no reemplaza el
+  análisis del contrato, NIIF 15, impuestos ni principal frente a agente.
 
 ## Referencias
 
 - [Parte 20 — Activos digitales, stablecoins y dinero programable](../../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md)
 - [Etapa 5](../../docs/etapa-5-finanzas-digitales.md)
+- [Economías virtuales y bienes digitales](../../docs/economias-virtuales-y-bienes-digitales.md)
+- [Caso GAMECO](../../case-studies/virtual-economies/gameco.md)

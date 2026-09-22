@@ -43,8 +43,8 @@
 | Clases planificadas | 356 |
 | Horas de sesión publicadas | 534 |
 | Duración por clase | 90 min |
-| Laboratorios | 151 |
-| Soluciones de referencia | 55 |
+| Laboratorios | 152 |
+| Soluciones de referencia | 56 |
 | Evaluaciones | 46 |
 | Proyectos integradores | 23 |
 | Aplicaciones funcionales | 11 |
@@ -97,7 +97,7 @@
 | `open_finance_sandbox` | Consentimiento, autorización con PKCE, API de cuentas, iniciación de pagos y batería de conformidad | ✅ |
 | `cross_border_payments_lab` | Cuatro flujos, motor de rutas, ISO 20022, screening, PvP, enlace de pagos inmediatos y ruta con stablecoin | ✅ |
 | `dlt_financial_lab` | Cadena, firmas, árbol de Merkle con sumas, consenso bizantino, contrato con reentrada y oráculo | ✅ |
-| `digital_assets_risk_lab` | Clasificación, reservas, custodia, conciliación, trading, liquidez, profundidad y contagio | ✅ |
+| `digital_assets_risk_lab` | Clasificación, reservas, GAMECO, custodia, conciliación, trading, liquidez, profundidad y contagio | ✅ |
 | `tokenization_platform` | Registro de referencia, emisión, ciclo de vida, entrega contra pago atómica y cascada de colateral | ✅ |
 | `onchain_fx_lab` | Coste total por ruta, creador de mercado automatizado y riesgo de liquidación en divisas | ✅ |
 | `regulatory_perimeter_engine` | Perímetro por hechos, calificación por criterios, salvaguarda, vigilancia y expediente cruzado | ✅ |

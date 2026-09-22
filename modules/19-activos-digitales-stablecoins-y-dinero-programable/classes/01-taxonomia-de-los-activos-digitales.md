@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [chile, internacional]
 regulatory_topics: [activos-digitales, taxonomia, perimetro]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [FSB, BCBS, CMF]
 requires_legal_review: true
@@ -227,6 +227,34 @@ CADA UNO DE ESTOS NOMBRES HA APARECIDO
 EN INSTRUMENTOS QUE PERDIERON SU VALOR
 ```
 
+### 6. Monedas virtuales y bienes digitales: clasificar el salto
+
+Una moneda de videojuego es una representación digital de valor, pero esa frase
+no determina si es dinero. La secuencia correcta separa cuatro estados:
+
+```text
+cerrada → transferible → convertible → negociable
+```
+
+GAMECO ilustra el cambio sin cambiar el nombre «GEM»: en el nivel A solo compra
+bienes internos; en B permite transferir items entre usuarios; en C permite
+cash-out en CLP o USD. Cada salto añade una función y un riesgo, no una etiqueta
+jurídica automática.
+
+| Pregunta | GEM nivel A | GEM nivel B | GEM nivel C |
+|---|---|---|---|
+| ¿Quién emite y lleva el registro? | GAMECO | GAMECO | GAMECO y proveedores de payout |
+| ¿Qué representa? | Derecho de uso / entitlement | Valor transferible interno | Valor convertible según contrato |
+| ¿Quién debe? | Operador por la prestación | Operador y contraparte usuaria | Operador, marketplace y pagador según el tramo |
+| ¿Se transfiere? | No | Sí, dentro de la plataforma | Sí |
+| ¿Se convierte? | No | No oficialmente | Sí, con límites y settlement |
+| ¿Hay mercado y precio externo? | No | Puede haber mercado gris | Puede haber mercado secundario |
+| Riesgo incremental | Regla y continuidad | Robo, custodia, precio | Liquidez, payout, fraude y regulación |
+
+El mapa completo compara GEM con efectivo, depósitos, e-money, gift cards,
+puntos, saldo de plataforma, NFT, tokens, stablecoins e instrumentos financieros
+en [Economías virtuales y bienes digitales](../../../docs/economias-virtuales-y-bienes-digitales.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo clasifica varios instrumentos por su promesa y su obligado. Conviene resistir la clasificación por nombre comercial: dos instrumentos con el mismo nombre pueden tener obligados distintos.
@@ -445,6 +473,7 @@ La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber c
 4. ¿Qué diferencia práctica hay entre un derecho de redención universal y uno
    con umbral?
 5. ¿Qué significa que un respaldo sea circular y cómo se detecta?
+6. ¿Qué cambia entre una GEM cerrada, transferible y convertible?
 
 ## 📥 Entregable
 
@@ -478,9 +507,9 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Stability Board (2023). *High-level Recommendations for the Regulation, Supervision and Oversight of Global Stablecoin Arrangements*. FSB. Criterio de clasificación por quién responde de la promesa. <https://www.fsb.org/2023/07/high-level-recommendations-for-the-regulation-supervision-and-oversight-of-global-stablecoin-arrangements-final-report/>
 - Basel Committee on Banking Supervision (2022). *Prudential treatment of cryptoasset exposures* (SCO60). BIS. <https://www.bis.org/bcbs/publ/d545.htm>
 - Bank for International Settlements (2023). *Annual Economic Report, capítulo III*. BIS. Clasificación del dinero y de los activos digitales por su emisor. <https://www.bis.org/publ/arpdf/ar2023e3.htm>
-- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Definición de activo virtual que delimita el perímetro. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
+- Financial Action Task Force (2021). *Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs*. FATF. Definición de activo virtual y distinción de representaciones cerradas usada para delimitar el perímetro de GAMECO. <https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Figuras que la ley chilena reconoce y las que deja fuera. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Verificación local: comprueba en la fuente oficial vigente qué régimen aplica en tu jurisdicción a cada uno de los siete tipos de la tabla, porque la clasificación no es universal. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Verificación local: comprueba en la fuente oficial vigente qué régimen aplica en tu jurisdicción a cada tipo de la tabla, porque la clasificación no es universal. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

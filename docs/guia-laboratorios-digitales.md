@@ -134,6 +134,10 @@ python tools/detect_secrets.py && python tools/detect_pii.py
 python tools/validate_datasets.py && python tools/validate_metadata.py
 ```
 
+```bash
+python apps/digital_assets_risk_lab/cli.py gameco
+```
+
 ## ⚠️ Errores frecuentes al hacerlos
 
 | Síntoma | Causa | Corrección |

@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, aml-cft, acceso-financiero]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [CPMI, FSB, GAFI]
 requires_legal_review: true
@@ -515,7 +515,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Action Task Force (2016). *Guidance on correspondent banking services*. FATF. Debida diligencia exigible sobre el banco corresponsal. <https://www.fatf-gafi.org/>
 - Wolfsberg Group. *Correspondent Banking Due Diligence Questionnaire* y *Principles for Correspondent Banking*. <https://www.wolfsberg-principles.com/>
 - Basel Committee on Banking Supervision (2017). *Sound management of risks related to money laundering and financing of terrorism: correspondent banking annex*. BIS. Expectativa prudencial específica de la relación corresponsal. <https://www.bis.org/bcbs/publ/d405.htm>
-- Verificación local: comprueba qué exige tu supervisor en materia de debida diligencia de corresponsalía y si existe orientación sobre retirada de relaciones. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba qué exige tu supervisor en materia de debida diligencia de corresponsalía y si existe orientación sobre retirada de relaciones. **Fecha de verificación de esta clase: 2026-09-22.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

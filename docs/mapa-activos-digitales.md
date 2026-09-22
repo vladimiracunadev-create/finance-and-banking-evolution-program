@@ -50,6 +50,7 @@ billetera no aparecen, y esa ausencia es el contenido de la parte.
 | Dinero electrónico | Un emisor autorizado | Redención a la par | 9 |
 | Depósito tokenizado | Un banco | Un depósito, con su garantía | 8 |
 | CBDC | El banco central | Un pasivo soberano | 10 |
+| Moneda virtual cerrada | Operador de plataforma | Entitlement o derecho de uso según contrato | 1, 9, 15 |
 
 La tabla decide **quién quiebra, qué garantía aplica y a quién reclama el
 cliente**. Ningún componente técnico la cambia.
@@ -128,6 +129,11 @@ INTEGRACIÓN     16 · expediente de decisión
 | Venta correlacionada | 14 | 8 | — |
 | Asimetría del intangible | 15 | 2 | — |
 | Balance frente a capital regulatorio | 2, 15 | 2 | — |
+| GEM cerrada, transferible y convertible | 1, 9 | 10 | `virtual_economy` |
+| Sources, sinks, stock y velocidad | 1 | 10 | `virtual_economy` |
+| Marketplace P2P y cash-out | 13 | 10 | `virtual_economy` |
+| Bookings, net receipts, revenue y breakage | 15 | 10 | `virtual_economy` |
+| Orden ↔ pago ↔ ledger ↔ entitlement | 12, 15 | 10 | `virtual_economy` |
 | Las doce piezas del expediente | 16 | proyecto | — |
 
 ## 🚫 Las siete afirmaciones que la parte desmonta
@@ -181,6 +187,10 @@ python apps/digital_assets_risk_lab/cli.py reconcile
 ```
 
 ```bash
+python apps/digital_assets_risk_lab/cli.py gameco
+```
+
+```bash
 python -m pytest tests/test_digital_assets_risk_lab.py -q
 ```
 
@@ -206,6 +216,7 @@ piezas están, si los cálculos son correctos y si los supuestos están declarad
 **Ver también:** [Parte 20](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) ·
 [Etapa 5](etapa-5-finanzas-digitales.md) ·
 [Digital Assets Risk Lab](../apps/digital_assets_risk_lab/README.md) ·
+[Economías virtuales y bienes digitales](economias-virtuales-y-bienes-digitales.md) ·
 [Glosario de finanzas digitales](glosario-finanzas-digitales.md)
 
 <!-- pie:inicio -->

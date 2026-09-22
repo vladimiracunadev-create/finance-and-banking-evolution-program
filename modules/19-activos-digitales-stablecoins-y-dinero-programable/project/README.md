@@ -181,6 +181,15 @@ respondida.
 - Los emisores reales que se citen se citan por sus documentos públicos, con
   fecha de consulta.
 
+## Aplicación transversal opcional: GAMECO
+
+El mismo expediente puede aplicarse al [caso GAMECO](../../../case-studies/virtual-economies/gameco.md)
+sin alterar las dieciséis piezas: la ficha distingue GEM, item y token; el canal
+de redención se reemplaza por cash-out/payout cuando exista; mercado y custodia
+se aplican al P2P; y el bloque contable separa bookings, net receipts, revenue,
+contract liability y breakage. La conclusión puede ser «unidad interna fuera
+del perímetro financiero en la fase A» y debe reabrirse en cada fase posterior.
+
 ## Referencias
 
 - [Parte 20 — índice](../README.md)

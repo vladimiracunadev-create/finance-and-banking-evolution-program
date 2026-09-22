@@ -22,6 +22,24 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ---
 
+## [Unreleased]
+
+### ✨ Añadido
+
+- **GAMECO**, caso transversal de cinco fases: moneda cerrada, items
+  transferibles, marketplace P2P, payout en CLP y tokenización.
+- Dossier de economías virtuales y bienes digitales, laboratorio 10 de la Parte
+  20, solución, módulo ejecutable `virtual_economy` y pruebas negativas.
+
+### 🔄 Actualizado
+
+- Clases 20.1, 20.9, 20.13, 20.15, 22.3 y 22.16; evaluaciones y proyecto de la
+  Parte 20; mapa de activos, glosarios, ruta y documentación de Etapa 5.
+- Fuentes oficiales verificadas al 2026-09-22: IFRS 15, FATF, Ley 21.521, NCG
+  502, Banco Central de Chile y documentación comercial de plataformas.
+
+---
+
 ## [2.4.0] — 2026-09-07
 
 La custodia deja de ser solo un problema de claves: ahora el programa enseña a

@@ -1479,6 +1479,93 @@ etapa no vienen de desconocer un término, sino de usarlo como sinónimo de otro
 - **Riesgo.** Un punto de fallo invisible en el mapa de riesgo.
 - **Primera clase.** 17.2 · **Otras.** 17.13.
 
+## 🎮 Economías virtuales y bienes digitales
+
+### Moneda virtual cerrada
+
+- **Definición.** Unidad emitida y registrada por un operador para usarse solo
+  dentro de su sistema, sin transferencia ni retiro oficial.
+- **Qué NO significa.** No es automáticamente dinero, depósito ni e-money por
+  haberse comprado con moneda soberana.
+- **Ejemplo.** GEM nivel A que solo compra skins dentro de GAMECO.
+- **Riesgo.** Cambio de reglas, revocación, fraude y obligación no comprendida.
+- **Primera clase.** 20.1 · **Otras.** 20.9, 20.15.
+
+### Entitlement
+
+- **Definición.** Derecho contractual o técnico a usar contenido o recibir una
+  prestación digital.
+- **Qué NO significa.** No demuestra propiedad plena del contenido ni derecho a
+  exigir el precio pagado en efectivo.
+- **Ejemplo.** Derecho a activar un Battle Pass asociado a una cuenta.
+- **Riesgo.** Ledger acreditado e inventario vacío, o derecho revocable no informado.
+- **Primera clase.** 20.1 · **Otras.** 20.15.
+
+### Source y sink virtual
+
+- **Definición.** Mecanismos que crean y destruyen unidades de una economía
+  virtual; su diferencia modifica el stock.
+- **Qué NO significa.** Transferir entre jugadores no crea ni destruye por sí solo.
+- **Ejemplo.** Misión `+100 GOLD`, tienda `−60 GOLD`, emisión neta `+40 GOLD`.
+- **Riesgo.** Sources persistentes sin sinks degradan el poder de compra interno.
+- **Primera clase.** 20.1.
+
+### Cash-out
+
+- **Definición.** Canal por el que un activo o saldo virtual se convierte en
+  dinero y genera una obligación de payout.
+- **Qué NO significa.** No convierte automáticamente al operador en banco ni al
+  activo en instrumento financiero.
+- **Ejemplo.** Seller retira a CLP el saldo obtenido en el marketplace GAMECO.
+- **Riesgo.** Liquidez, contraparte, fraude, AML/KYC potencial y settlement.
+- **Primera clase.** 20.13 · **Otras.** 22.3, 22.16.
+
+### Gross bookings
+
+- **Definición.** Importe bruto contratado o cobrado a usuarios antes de los
+  ajustes definidos por el modelo.
+- **Qué NO significa.** No es recepción neta ni ingreso reconocido.
+- **Ejemplo.** `10.000 × 5 % × CLP 12.000 = CLP 6.000.000`.
+- **Riesgo.** Presentarlo como revenue exagera desempeño y oculta obligaciones.
+- **Primera clase.** 20.15.
+
+### Breakage
+
+- **Definición.** Porción estimada de derechos prepagados que los clientes no
+  ejercerán.
+- **Qué NO significa.** No es todo saldo no usado ni ingreso inmediato universal.
+- **Ejemplo.** 15 millones GEM que se espera no gastar de 100 millones vendidas.
+- **Riesgo.** Modelo optimista que adelanta ingreso o ignora reembolso y ley local.
+- **Primera clase.** 20.15.
+
+### Merchant of record
+
+- **Definición.** Entidad que figura frente al comprador como responsable de la
+  venta y de obligaciones comerciales o tributarias según contrato y país.
+- **Qué NO significa.** No es siempre la app store, el PSP ni el desarrollador.
+- **Ejemplo.** Una plataforma puede procesar el pago sin asumir el mismo rol en
+  todas las jurisdicciones.
+- **Riesgo.** Refund, impuesto y disputa se asignan a la entidad equivocada.
+- **Primera clase.** 20.13.
+
+### Marketplace take rate
+
+- **Definición.** Comisión del marketplace dividida por el volumen bruto
+  intermediado bajo una base declarada.
+- **Qué NO significa.** No es margen bruto: faltan fraude, soporte, pagos e impuestos.
+- **Ejemplo.** CLP 600 de comisión sobre una venta P2P de CLP 6.000: 10 %.
+- **Riesgo.** Base inconsistente entre periodos o neteo de fondos del seller.
+- **Primera clase.** 20.13.
+
+### Conciliación de entitlement
+
+- **Definición.** Comparación de orden, pago, settlement, ledger, wallet e
+  inventario para probar que cobro y prestación coinciden.
+- **Qué NO significa.** Un `PAID` del PSP no prueba que el usuario recibió valor.
+- **Ejemplo.** `PAID / NOT_CREDITED / EMPTY` es una excepción financiera.
+- **Riesgo.** Cobro sin entrega, refund, chargeback y pasivo no detectado.
+- **Primera clase.** 20.15.
+
 ## 🏗️ Diseño de sistemas completos
 
 Los términos de esta sección no describen mecanismos financieros sino decisiones

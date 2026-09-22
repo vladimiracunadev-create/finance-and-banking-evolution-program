@@ -230,6 +230,29 @@ la promoción es el elemento que más
 frecuentemente inclina la calificación.
 ```
 
+### 6. Árbol de decisión para economías virtuales
+
+Antes de calificar GEM, un item o una loot box se documentan doce hechos:
+
+```text
+transferible → vendible → convertible → mercado secundario
+      ↓             ↓            ↓              ↓
+saldo mantenido → custodia → intermediación → payout
+      ↓             ↓            ↓              ↓
+azar → expectativa de rentabilidad → emisión pública → actividad profesional
+```
+
+Las respuestas abren revisiones de pagos, stored value, dinero electrónico,
+servicios financieros, activos virtuales, AML/KYC, valores, gambling, consumo e
+impuestos. No generan una conclusión automática. Una loot box añade `pago +
+resultado aleatorio + premio`; transferibilidad y convertibilidad pueden cambiar
+el riesgo jurídico y financiero, pero la calificación depende de cada ley.
+
+Comprar un item para jugar tampoco equivale a comprarlo esperando rentabilidad.
+La segunda narrativa puede cambiar promoción, disclosure, suitability y
+calificación. El documento de calificación conserva términos, marketing,
+mercado, derechos y cambios de fase de GAMECO.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo califica un token de utilidad aparente con los cuatro criterios. El material de promoción es lo que decide el caso.
@@ -460,6 +483,7 @@ Los síntomas de la tabla describen calificaciones que no resisten una revisión
 3. ¿Qué distingue una utilidad genuina de una aparente?
 4. ¿Qué siete elementos tiene un documento de calificación?
 5. En el ejemplo, ¿qué hecho era el más elocuente y por qué?
+6. ¿Por qué cash-out obliga a revisar el perímetro sin concluir que GAMECO es un banco?
 
 ## 📥 Entregable
 
@@ -494,7 +518,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*. EUR-Lex. Categorías europeas de criptoactivo y sus consecuencias. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - Comisión para el Mercado Financiero. *Normativa sobre oferta pública de valores e inscripción en el Registro de Valores*. CMF. Cuándo el instrumento debe inscribirse en el Registro de Valores. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Categorías que la ley chilena reconoce. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
-- Verificación local: comprueba qué criterios de calificación aplica tu jurisdicción, si ha emitido pronunciamientos sobre instrumentos digitales y qué exenciones de oferta pública existen. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Comisión para el Mercado Financiero (2024). *Norma de Carácter General N° 502*. CMF. Registro, autorización y obligaciones de prestadores profesionales bajo la Ley Fintec. <https://cmfchile.cl/portal/normativa/624/w4-article-106882.html>
+- Verificación local: comprueba qué criterios de calificación aplica tu jurisdicción, si ha emitido pronunciamientos sobre instrumentos digitales y qué exenciones de oferta pública existen. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

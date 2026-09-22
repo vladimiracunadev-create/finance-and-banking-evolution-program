@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [union-europea]
 regulatory_topics: [mica, perimetro, calificacion, criptoactivos]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [EBA, ESMA, Comision Europea]
 requires_legal_review: true
@@ -632,7 +632,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Autoridad Europea de Valores y Mercados. *Crypto-assets and their markets*. ESMA. Criterios de calificación de los activos y de los servicios. <https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica>
 - Comisión Europea. *Digital finance package*. European Commission. Encaje de MiCA en el paquete europeo de finanzas digitales. <https://finance.ec.europa.eu/digital-finance_en>
 - Ficha normativa del repositorio: `regulatory/union-europea/mica-reglamento-2023-1114.yml`
-- Verificación local: MiCA es derecho de la Unión Europea y **no es derecho aplicable en Chile**; se estudia como referencia comparada. Los actos delegados y las normas técnicas posteriores modifican el detalle: consulta siempre la versión consolidada en EUR-Lex. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Verificación local: MiCA es derecho de la Unión Europea y **no es derecho aplicable en Chile**; se estudia como referencia comparada. Los actos delegados y las normas técnicas posteriores modifican el detalle: consulta siempre la versión consolidada en EUR-Lex. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

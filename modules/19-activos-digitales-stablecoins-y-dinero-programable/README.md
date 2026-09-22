@@ -136,6 +136,7 @@ expediente de doce piezas que un comité puede aprobar o rechazar.
 | 7 | [Liquidez y profundidad de mercado](labs/lab-07.md) | Impacto de una venta grande |
 | 8 | [Grafo de contagio](labs/lab-08.md) | Exposición indirecta y orden de caída |
 | 9 | [Conciliación de custodia](labs/lab-09.md) | Ledger, balance, reservas, trading y liquidez |
+| 10 | [GAMECO: unidad cerrada, marketplace y cash-out](labs/lab-10.md) | Stock/flujo, unit economics, obligación y conciliación |
 
 ## Evaluaciones
 
@@ -154,6 +155,7 @@ expediente de doce piezas que un comité puede aprobar o rechazar.
 - Reconstrucción de una pérdida de paridad con fuentes citadas.
 - Diseño de custodia con sus modos de fallo y una prueba por control.
 - Conciliación de custodia por activo y fuente, con disponibilidad y diferencia.
+- Clasificación y conciliación de GAMECO desde moneda cerrada hasta payout.
 - Grafo de contagio con la exposición indirecta cuantificada.
 
 ## Mapa de dependencias
@@ -175,6 +177,8 @@ Parte 19 — el registro
 - [Custodia Andina Digital](../../case-studies/custody/custodia-andina-digital.md):
   balance propio, pasivos de clientes, wallets, banco, exchange, cuatro tipos de
   trading, liquidez, ocho riesgos y seis roles incompatibles.
+- [GAMECO](../../case-studies/virtual-economies/gameco.md): GEM, bienes digitales,
+  marketplace P2P, cash-out, tokenización, contabilidad y perímetro regulatorio.
 
 ## Fuentes oficiales de referencia
 

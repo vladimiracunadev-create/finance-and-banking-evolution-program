@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [cross-border-payments, riesgo-de-terceros]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [CPMI, FSB]
 requires_legal_review: false
@@ -478,7 +478,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Committee on Payments and Market Infrastructures (2020). *Enhancing cross-border payments: building blocks of a global roadmap*. BIS. Reparto de funciones entre los bloques de la arquitectura. <https://www.bis.org/cpmi/publ/d193.htm>
 - Wolfsberg Group. *Correspondent Banking Due Diligence Questionnaire*. Cuestionario estándar de debida diligencia entre bancos. <https://www.wolfsberg-principles.com/>
 - Committee on Payments and Market Infrastructures e IOSCO (2012). *Principles for Financial Market Infrastructures*. BIS. Responsabilidades de la infraestructura que liquida el pago. <https://www.bis.org/cpmi/publ/d101.htm>
-- Verificación local: comprueba qué exige tu supervisor sobre gestión de terceros críticos y sobre trazabilidad de pagos internacionales. **Fecha de verificación de esta clase: 2026-08-20.**
+- Verificación local: comprueba qué exige tu supervisor sobre gestión de terceros críticos y sobre trazabilidad de pagos internacionales. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

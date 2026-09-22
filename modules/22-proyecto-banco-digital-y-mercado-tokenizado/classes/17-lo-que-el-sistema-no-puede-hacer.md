@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [internacional]
 regulatory_topics: [transparencia, limites, proteccion-al-cliente]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [IOSCO, OCDE, CMF]
 requires_legal_review: true
@@ -373,7 +373,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - OCDE (2011). *G20/OECD High-Level Principles on Financial Consumer Protection*. OECD. Advertencias y transparencia debidas al cliente. <https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0394>
 - Financial Stability Board (2023). *Global Regulatory Framework for Crypto-asset Activities*. FSB. Riesgos que el marco global declara no mitigables. <https://www.fsb.org/2023/07/fsb-global-regulatory-framework-for-crypto-asset-activities/>
 - Comisión para el Mercado Financiero. *Normativa aplicable a entidades financieras*. CMF. Obligaciones chilenas de información veraz y no engañosa. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Verificación local: comprueba en la fuente oficial vigente qué exige tu jurisdicción sobre este punto. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

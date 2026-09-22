@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global, chile, union-europea, brasil]
 regulatory_topics: [open-finance]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: en-despliegue
 primary_authorities: [CMF]
 requires_legal_review: true
@@ -449,7 +449,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bank for International Settlements (2019). *Report on open banking and application programming interfaces*. BCBS. Modelos de implantación comparados y sus resultados. <https://www.bis.org/bcbs/publ/d486.htm>
 - Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Gestión del riesgo de terceros en el ecosistema. <https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
 - OpenID Foundation. *FAPI conformance testing*. Prueba de conformidad que verifica la implantación técnica. <https://openid.net/certification/>
-- Verificación local: identifica quién gobierna el esquema en tu jurisdicción, qué publica sobre disponibilidad y si existe régimen de proveedores tecnológicos críticos. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
+- Verificación local: identifica quién gobierna el esquema en tu jurisdicción, qué publica sobre disponibilidad y si existe régimen de proveedores tecnológicos críticos. **Fecha de verificación de esta clase: 2026-09-22.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

@@ -225,6 +225,25 @@ EL ÚLTIMO ES EL MÁS EFICAZ
 Y EL MÁS CARO.
 ```
 
+### 6. GAMECO en Chile: actividad antes que etiqueta
+
+La fase A exige revisar contrato, consumo, datos e impuestos. B añade
+transferencia y custodia. C añade marketplace e intermediación. D incorpora
+payout, liquidez y AML/KYC potencial. E suma tokenización, mercado externo y
+posible activo financiero virtual. Ninguna fila equivale a un veredicto:
+
+| Hecho | Autoridad o marco que se revisa | Pregunta |
+|---|---|---|
+| Provisión de fondos y obligación monetaria | Banco Central / CMF | ¿hay medio de pago y reembolso? |
+| Intermediación o custodia profesional | Ley 21.521 / NCG 502 | ¿el servicio está en el perímetro? |
+| Payout y sujetos obligados | UAF | ¿qué actividad y actor activa AML/KYC? |
+| Venta, comisión y ganancia | SII | ¿qué hecho e impuesto corresponden? |
+| Precio, menores, refund y diseño comercial | SERNAC | ¿la información y práctica protegen al consumidor? |
+
+La fecha de verificación del caso GAMECO es 2026-09-22. Antes de operar se
+requiere revisión especializada del contrato, actividad y jurisdicción; esta
+tabla no es asesoría legal.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo compara el tratamiento de una misma actividad en tres jurisdicciones. Cada tabla lleva su referencia y su fecha, porque estas normas cambian.
@@ -451,6 +470,7 @@ Los síntomas de la tabla describen operaciones transfronterizas con problemas. 
 3. ¿Por qué el arbitraje regulatorio funciona menos de lo que se cree?
 4. ¿Qué diferencia hay entre equivalencia y cooperación supervisora?
 5. ¿Por qué una tabla comparada sin mantenimiento es peor que no tenerla?
+6. ¿Qué cambia en el perímetro chileno al pasar GAMECO de la fase C a la D?
 
 ## 📥 Entregable
 
@@ -486,7 +506,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos*. EUR-Lex. Régimen europeo usado como término de comparación. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
 - Biblioteca del Congreso Nacional de Chile. *Ley 21.521 que promueve la competencia e inclusión financiera a través de la innovación y tecnología en la prestación de servicios financieros*. Régimen chileno usado como término de comparación. <https://www.bcn.cl/leychile/navegar?idNorma=1187323>
 - Comisión para el Mercado Financiero. *Normativa de desarrollo de la Ley 21.521*. CMF. Normativa que desarrolla la ley y fija el calendario. <https://www.cmfchile.cl/portal/principal/613/w3-channel.html>
-- Verificación local: toda comparación entre jurisdicciones caduca; verifica cada celda en la fuente oficial correspondiente antes de usarla para decidir. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-08-20.**
+- Comisión para el Mercado Financiero (2024). *Norma de Carácter General N° 502*. CMF. Norma vigente usada para revisar registro, autorización y obligaciones de servicios Fintec en GAMECO. <https://cmfchile.cl/portal/normativa/624/w4-article-106882.html>
+- Verificación local: toda comparación entre jurisdicciones caduca; verifica cada celda en la fuente oficial correspondiente antes de usarla para decidir. Esta clase no constituye asesoría legal. **Fecha de verificación de esta clase: 2026-09-22.**
 
 <!-- gen:footer:start -->
 ---

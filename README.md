@@ -51,7 +51,7 @@
 
 > 🧭 **Estado del programa.** **Programa completo: las 5 etapas y sus 23 partes (356 clases) están construidas** — de la aritmética elemental al proyecto capstone de un banco digital con mercado tokenizado. Ninguna parte es un esqueleto.
 >
-> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **298 pruebas** sobre las 11 aplicaciones en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
+> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **314 pruebas** sobre las 11 aplicaciones en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
 
 ## 🎯 Qué es esto
 
@@ -77,7 +77,7 @@ No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo c
 
 | 📘 Clases | 📗 Fuentes citadas | 🧪 Laboratorios | 📝 Evaluaciones | 🎓 Proyectos | 📖 Términos |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **356** | <!-- gen:fuentes-citas:start -->**1 730**<!-- gen:fuentes-citas:end --> | **151** | **46** | **23** | **2 204** |
+| **356** | <!-- gen:fuentes-citas:start -->**1 736**<!-- gen:fuentes-citas:end --> | **152** | **46** | **23** | **2 204** |
 
 </div>
 
@@ -202,7 +202,7 @@ La infraestructura por debajo. Continúa desde la introducción fintech de la Pa
 | 17 | Finanzas abiertas, APIs y economía de datos | 14 | Consentimiento, OAuth y FAPI, contratos de API, iniciación de pagos, responsabilidad | [📘 leer](modules/16-finanzas-abiertas-apis-y-economia-de-datos/README.md) |
 | 18 | Pagos transfronterizos, remesas y liquidación | 16 | Corresponsalía, ISO 20022, finalidad, liquidez, PvP, interconexión | [📘 leer](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md) |
 | 19 | Blockchain y DLT para instituciones financieras | 14 | Consenso, finalidad, redes autorizadas, contratos, oráculos, comparación con base centralizada | [📘 leer](modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) |
-| 20 | Activos digitales, stablecoins y dinero programable | 16 | Reservas, custodia, conciliación, trading, liquidez y gobernanza | [📘 leer](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) |
+| 20 | Activos digitales, stablecoins y dinero programable | 16 | Reservas, custodia, economías virtuales, conciliación, trading y liquidez | [📘 leer](modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) |
 | 21 | Tokenización, FX on-chain y mercados programables | 16 | Registro de referencia, emisión, mercado secundario, DvP, PvP y colateral | [📘 leer](modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) |
 | 22 | Regulación de mercados financieros digitales | 22 | Perímetro, calificación, autorización, protección del cliente, resiliencia, regulación comparada, MiCA y el caso de El Salvador | [📘 leer](modules/21-regulacion-de-mercados-financieros-digitales/README.md) |
 | 23 | Proyecto: banco digital y mercado tokenizado | 18 | Alcance, arquitectura, construcción, tensiones, expediente y defensa | [📘 leer](modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) |
@@ -259,7 +259,7 @@ Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/R
 
 ## 🧪 Laboratorios y aplicaciones ejecutables
 
-Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **151 laboratorios** y los **23 proyectos integradores**. Las cubren **298 pruebas** en CI.
+Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las cubren **314 pruebas** en CI.
 
 | Aplicación | Qué hace | Se usa en |
 |---|---|---|
@@ -269,7 +269,7 @@ Además de las clases, el programa incluye **11 aplicaciones en Python** que se 
 | 🔓 **`open_finance_sandbox`** | Entorno de finanzas abiertas: consentimiento, OAuth/FAPI y alcances | Parte 17 |
 | 🌍 **`cross_border_payments_lab`** | Corresponsalía, ISO 20022, liquidez y enrutamiento de pagos | Parte 18 |
 | ⛓️ **`dlt_financial_lab`** | Consenso, bloques, Merkle, direcciones y contratos | Parte 19 |
-| 💵 **`digital_assets_risk_lab`** | Reservas, custodia, conciliación, trading, liquidez y contagio | Partes 20 y 21 |
+| 💵 **`digital_assets_risk_lab`** | Reservas, GAMECO, custodia, conciliación, trading, liquidez y contagio | Partes 20 y 21 |
 | 🪙 **`tokenization_platform`** | Emisión, ciclo de vida, mercado secundario y DvP atómico | Parte 21 |
 | 💱 **`onchain_fx_lab`** | Formación de precio, PvP y creación de mercado automatizada | Parte 21 |
 | ⚖️ **`regulatory_perimeter_engine`** | Perímetro, calificación de instrumentos y autorización | Parte 22 |
@@ -290,6 +290,7 @@ python apps/openbank_simulator/cli.py demo
 - 🌐 **[Portal de estudio](https://vladimiracunadev-create.github.io/finance-and-banking-evolution-program/)** — las 356 clases navegables, con diagramas renderizados y sin instalar nada.
 - 🧭 **[Ruta de aprendizaje](docs/ruta-aprendizaje.md)** y **[mapa de competencias](docs/mapa-competencias.md)** — qué se sabe hacer al terminar cada parte.
 - 🗺️ **Mapas temáticos de la Etapa 5** — [finanzas abiertas](docs/mapa-finanzas-abiertas.md) · [pagos transfronterizos](docs/mapa-pagos-transfronterizos.md) · [blockchain y DLT](docs/mapa-blockchain-dlt.md) · [activos digitales](docs/mapa-activos-digitales.md) · [tokenización](docs/mapa-tokenizacion.md) · [regulatorio](docs/mapa-regulatorio.md) · [capstone](docs/mapa-capstone.md).
+- 🎮 **[Economías virtuales y bienes digitales](docs/economias-virtuales-y-bienes-digitales.md)** — GAMECO como caso financiero de stored value, marketplace, cash-out, contabilidad, riesgo y regulación, no como curso de videojuegos.
 - 📋 **[Fichas normativas](regulatory/README.md)** — normas de Chile, Unión Europea e internacionales, cada una con su fecha de verificación y la **[metodología](docs/metodologia-verificacion-regulatoria.md)** con que se comprueban.
 - 📊 **[Estado del contenido](STATUS.md)** — generado contando archivos: la documentación nunca declara más de lo que existe.
 
@@ -363,7 +364,7 @@ El repositorio no se publica a ciegas: cada `push` y cada PR pasan por integraci
 
 | ⚙️ Flujo | Qué cubre | Cuándo |
 |---|---|---|
-| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 298 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
+| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 314 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
 | 🔒 [security.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/security.yml) | `pip-audit`, `bandit` y escaneo de secretos sobre el historial | Cada cambio y cada lunes |
 | 🔍 [codeql.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/codeql.yml) | Análisis semántico del código Python | Cada cambio y cada jueves |
 | 🌐 [pages.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/pages.yml) | Genera y publica el portal, y verifica que responda | Al cambiar el contenido |
@@ -429,8 +430,8 @@ pytest -q && npx markdownlint-cli2 "**/*.md"
 ### ✅ Lo que sí es
 
 - 📚 un currículo **secuencial y completo** de 356 clases, de la aritmética a la dirección bancaria;
-- 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 151 laboratorios;
-- 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**701** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
+- 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 152 laboratorios;
+- 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**706** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
 - 🏦 un puente **cliente ↔ banco**: la misma clase sirve a quien lee su estado de cuenta y a quien decide ese cobro;
 - 🌐 material **abierto y offline-friendly** (manual PDF de más de 3 500 páginas + portal en Pages), en español.
 

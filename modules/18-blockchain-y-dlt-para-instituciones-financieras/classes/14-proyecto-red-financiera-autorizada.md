@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, gobernanza, riesgo-operacional]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: true
@@ -479,7 +479,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2021). *Principles for operational resilience*. BIS. Tolerancia a la interrupción declarada en el proyecto. <https://www.bis.org/bcbs/publ/d516.htm>
 - Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Gestión del operador de la red como tercero crítico. <https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
 - NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Descripción técnica de la red que se propone. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué antecedentes exige tu supervisor antes de que una entidad adopte una infraestructura compartida basada en registro distribuido. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba qué antecedentes exige tu supervisor antes de que una entidad adopte una infraestructura compartida basada en registro distribuido. **Fecha de verificación de esta clase: 2026-09-22.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

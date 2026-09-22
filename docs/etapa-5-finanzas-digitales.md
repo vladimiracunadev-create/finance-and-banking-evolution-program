@@ -6,7 +6,7 @@
 **Qué es y qué no es la etapa de infraestructura financiera digital, y los seis criterios que la ordenan.**
 
 [![partes](https://img.shields.io/badge/partes-17%20a%2023-8957e5?style=flat-square)](../SYLLABUS.md)
-[![clases](https://img.shields.io/badge/clases-112-7c5cff?style=flat-square)](../STATUS.md)
+[![clases](https://img.shields.io/badge/clases-116-7c5cff?style=flat-square)](../STATUS.md)
 
 [⬅️ Documentación](README.md) ·
 [🏠 Inicio](../README.md) ·
@@ -53,7 +53,7 @@ cómo funciona.
 | 19 | [Blockchain y DLT para instituciones financieras](../modules/18-blockchain-y-dlt-para-instituciones-financieras/README.md) | 14 | Publicada |
 | 20 | [Activos digitales, stablecoins y dinero programable](../modules/19-activos-digitales-stablecoins-y-dinero-programable/README.md) | 16 | Publicada |
 | 21 | [Tokenización, FX on-chain y mercados programables](../modules/20-tokenizacion-fx-onchain-y-mercados-programables/README.md) | 16 | Publicada |
-| 22 | [Regulación de mercados financieros digitales](../modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 18 | Publicada |
+| 22 | [Regulación de mercados financieros digitales](../modules/21-regulacion-de-mercados-financieros-digitales/README.md) | 22 | Publicada |
 | 23 | [Proyecto: banco digital y mercado tokenizado](../modules/22-proyecto-banco-digital-y-mercado-tokenizado/README.md) | 18 | Publicada |
 
 El recuento —no el plan— está en **[STATUS.md](../STATUS.md)**, que se genera
@@ -97,6 +97,8 @@ Estos términos **no son sinónimos** y el material nunca los usa como tales:
 activo digital ≠ criptoactivo ≠ token
 tokenización ≠ DLT ≠ blockchain ≠ contrato inteligente
 stablecoin ≠ dinero electrónico ≠ depósito tokenizado ≠ CBDC
+moneda virtual cerrada ≠ saldo de plataforma ≠ dinero electrónico
+item digital ≠ NFT ≠ instrumento financiero
 pago transfronterizo ≠ remesa ≠ operación FX
 compensación ≠ liquidación
 finanzas abiertas ≠ banca abierta ≠ DeFi
@@ -150,7 +152,7 @@ instrumento y no declara su línea de verificación. El método está en
 | [`open_finance_sandbox`](../apps/open_finance_sandbox/README.md) | 17 | Funcional, con pruebas |
 | `cross_border_payments_lab` | 18 | En preparación |
 | `dlt_financial_lab` | 19 | En preparación |
-| [`digital_assets_risk_lab`](../apps/digital_assets_risk_lab/README.md) | 20 | Funcional, con conciliación de custodia y pruebas |
+| [`digital_assets_risk_lab`](../apps/digital_assets_risk_lab/README.md) | 20 | Funcional, con custodia, GAMECO, conciliación y pruebas |
 | `tokenization_platform` | 21 | En preparación |
 | `onchain_fx_lab` | 21 | En preparación |
 | `regulatory_perimeter_engine` | 22 | En preparación |
@@ -175,6 +177,14 @@ acompañados de su control y de la prueba que lo verifica.
 4. Ejecuta los laboratorios. En esta etapa, **un laboratorio no leído no cuenta
    como estudiado**: la mitad del aprendizaje está en ver fallar el control.
 5. Entrega el proyecto y defiéndelo con las preguntas del panel.
+
+## 🎮 Caso contemporáneo: economías virtuales
+
+El [dossier de economías virtuales y bienes digitales](economias-virtuales-y-bienes-digitales.md)
+conecta las Partes 20 a 22 mediante GAMECO. Una GEM cerrada, un item transferible,
+un marketplace con payout y un NFT se estudian por lo que representan, quién
+debe, cómo se mueven, cómo se concilian y qué perímetro debe revisarse. Es una
+aplicación financiera: quedan fuera motores, gameplay y desarrollo de videojuegos.
 
 ## ✅ Verificación
 

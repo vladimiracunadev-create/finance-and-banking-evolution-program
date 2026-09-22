@@ -8,6 +8,7 @@ Uso:
     python apps/digital_assets_risk_lab/cli.py market --position 12000000
     python apps/digital_assets_risk_lab/cli.py contagion
     python apps/digital_assets_risk_lab/cli.py reconcile
+    python apps/digital_assets_risk_lab/cli.py gameco
 """
 
 from __future__ import annotations
@@ -38,6 +39,7 @@ from apps.digital_assets_risk_lab.reconciliation import (  # noqa: E402
     caso_custodia_andina,
 )
 from apps.digital_assets_risk_lab.reserves import Cartera, atender  # noqa: E402
+from apps.digital_assets_risk_lab.virtual_economy import caso_gameco  # noqa: E402
 
 
 def _cartera() -> Cartera:
@@ -286,6 +288,37 @@ def cmd_reconcile(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_gameco(args: argparse.Namespace) -> int:
+    caso = caso_gameco()
+    economia = caso["economia"]
+    unit = caso["unit_economics"]
+    obligacion = caso["obligacion"]
+    excepcion = caso["excepcion"]
+
+    print("GAMECO · representación y movimiento de valor\n")
+    for clave in ("nivel_a", "nivel_b", "nivel_c"):
+        nivel = caso[clave]
+        print(f"  Nivel {nivel.nivel}: {nivel.naturaleza_economica}")
+    print("\nECONOMÍA VIRTUAL")
+    print(f"  stock inicial:        {economia.stock_inicial:>12,} GEM")
+    print(f"  sources:              {economia.sources:>12,} GEM")
+    print(f"  sinks:                {economia.sinks:>12,} GEM")
+    print(f"  emisión neta:         {economia.emision_neta:>12,} GEM")
+    print(f"  stock final:          {economia.stock_final:>12,} GEM")
+    print(f"  velocidad:            {economia.velocidad:>12.3f}")
+    print(f"  concentración top 10%:{economia.concentracion_top_10:>12.2%}")
+    print("\nUNIT ECONOMICS · supuestos declarados")
+    print(f"  pagadores:            {unit.pagadores:>12,}")
+    print(f"  gross bookings:       {unit.gross_bookings:>12,} CLP")
+    print(f"  recepción neta:       {unit.net_receipts:>12,.0f} CLP")
+    print("\nOBLIGACIÓN COMERCIAL · ejemplo, no asiento universal")
+    print(f"  cobro asignado:       {obligacion.cobro_asignado:>12,.0f} CLP")
+    print(f"  ingreso pedagógico:   {obligacion.ingreso_pedagogico:>12,.0f} CLP")
+    print(f"  saldo pendiente:      {obligacion.pasivo_contractual_pedagogico:>12,.0f} CLP")
+    print(f"\nCONCILIACIÓN: {excepcion.excepcion}")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="comando", required=True)
@@ -315,6 +348,9 @@ def main() -> int:
 
     p = sub.add_parser("reconcile", help="ledger, banco, exchange y blockchain")
     p.set_defaults(func=cmd_reconcile)
+
+    p = sub.add_parser("gameco", help="economia virtual, unit economics y conciliacion")
+    p.set_defaults(func=cmd_gameco)
 
     args = parser.parse_args()
     return args.func(args)

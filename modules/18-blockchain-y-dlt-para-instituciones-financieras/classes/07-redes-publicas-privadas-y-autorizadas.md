@@ -7,7 +7,7 @@ duration_minutes: 90
 status: complete
 jurisdictions: [global]
 regulatory_topics: [dlt, gobernanza, cumplimiento]
-regulation_last_verified: 2026-08-20
+regulation_last_verified: 2026-09-22
 regulatory_status: vigente
 primary_authorities: [CPMI, IOSCO]
 requires_legal_review: true
@@ -491,7 +491,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Financial Stability Board (2023). *Enhancing third-party risk management and oversight: a toolkit*. FSB. Tratamiento del operador de la red como tercero crítico. <https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
 - Financial Action Task Force. *Recomendación 16 y guía sobre activos virtuales*. FATF. Obligaciones de prevención según el tipo de red. <https://www.fatf-gafi.org/>
 - NIST (2018). *NISTIR 8202: Blockchain Technology Overview*. NIST. Taxonomía de redes con y sin permiso. <https://csrc.nist.gov/pubs/ir/8202/final>
-- Verificación local: comprueba qué exige tu supervisor sobre gobierno y salida de infraestructuras compartidas, y si el secreto bancario de tu jurisdicción admite alguna forma de registro con lectura abierta. **Fecha de verificación de esta clase: 2026-08-20.** Esta clase no constituye asesoría legal.
+- Verificación local: comprueba qué exige tu supervisor sobre gobierno y salida de infraestructuras compartidas, y si el secreto bancario de tu jurisdicción admite alguna forma de registro con lectura abierta. **Fecha de verificación de esta clase: 2026-09-22.** Esta clase no constituye asesoría legal.
 
 <!-- gen:footer:start -->
 ---

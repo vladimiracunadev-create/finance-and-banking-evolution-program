@@ -47,6 +47,7 @@ bienvenidas: ver **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 | Entorno `dlt_financial_lab` con 38 pruebas | 1.4.0 | ✅ Funcional |
 | Entorno `digital_assets_risk_lab` con 56 pruebas | 2.4.0 | ✅ Custodia financiera y conciliación |
 | Caso, datasets y laboratorio de custodia digital | 2.4.0 | ✅ Publicados |
+| Economías virtuales, caso GAMECO y laboratorio analítico | Próxima versión | ✅ Integrados en las Partes 20–22 |
 | Entornos `tokenization_platform` y `onchain_fx_lab` con 62 pruebas | 1.6.0 | ✅ Funcionales |
 | Entorno `regulatory_perimeter_engine` con 29 pruebas | 1.7.0 | ✅ Funcional |
 | Entorno `digital_bank_capstone` con 24 pruebas | 2.0.0 | ✅ Funcional |
@@ -97,7 +98,7 @@ sigue abierto es transversal: no bloquea ninguna parte, pero mejora el conjunto.
 | **Glosario digital** | Ampliado con los términos de las siete partes | ✅ Completo |
 | **Fichas normativas** | Ocho fichas: Chile, Unión Europea e internacional | ✅ Publicadas |
 | **Integración con partes antiguas** | Bloques «para profundizar» en las Partes 8, 10, 11, 12, 13, 14 y 16 | Abierto |
-| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Ampliada en 2.4.0 — 27 casos en 14 temas |
+| **Biblioteca de casos** | `case-studies/` por tema, con hechos, fuentes y preguntas | Ampliada — 28 casos en 15 temas |
 | **Más fichas normativas** | DORA, TFR y ediciones locales adicionales | Abierto |
 
 ---
