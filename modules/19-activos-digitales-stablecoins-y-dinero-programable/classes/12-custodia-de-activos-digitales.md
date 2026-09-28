@@ -588,6 +588,13 @@ En [`labs/lab-09.md`](../labs/lab-09.md), resuelve el caso
 reconcilia las cuatro fuentes, separa balances, cuantifica trading y liquidez, y
 emite una decisión con responsables y disparadores.
 
+Contrasta después dos casos reales documentados: en
+[FTX y Alameda](../../../case-studies/custody/ftx-alameda.md), reconstruye la
+obligación completa, separa activos propios y custodiados, y trata Alameda como
+parte relacionada; en [Celsius](../../../case-studies/custody/celsius.md), decide
+si cada saldo era custodia o préstamo, identifica la procedencia del rendimiento y
+estresа la disponibilidad. Usa únicamente las cifras sintéticas de las fichas.
+
 ## ⚠️ Errores frecuentes
 
 Los síntomas de la tabla describen pérdidas de activos custodiados. Las causas son independencia efectiva de uno y segregación no pactada.
@@ -626,6 +633,8 @@ Guarda en `portfolio/parte-20/clase-12/`:
 - **Viene de:** Parte 19, clases 3 y 5.
 - **Continúa en:** clases 14 y 15 de esta parte.
 - **Se aplica en:** Parte 21, clase 9; Parte 22, clase 9; Parte 23, clase 10.
+- **Casos documentados:** [FTX y Alameda](../../../case-studies/custody/ftx-alameda.md)
+  y [Celsius](../../../case-studies/custody/celsius.md).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

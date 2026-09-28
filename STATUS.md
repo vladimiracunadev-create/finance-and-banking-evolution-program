@@ -72,7 +72,7 @@ escriben a mano.
 | Evaluaciones | 46 | Diagnóstico y final por parte |
 | Proyectos integradores | 23 | Especificados |
 | Aplicaciones didácticas | 11 | Ejecutables con pruebas |
-| Estudios de caso | 28 | Con hechos, fuentes y preguntas |
+| Estudios de caso | 34 | Con hechos, fuentes y preguntas |
 | Fichas normativas estructuradas | 13 | Con fecha de verificación |
 | Datasets documentados | 9 | Sintéticos, con diccionario |
 | Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |

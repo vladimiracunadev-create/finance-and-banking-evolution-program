@@ -470,6 +470,11 @@ En [`labs/lab-01.md`](../labs/lab-01.md):
 3. Identifica las actividades ejercidas y no declaradas.
 4. Separa hecho, supuesto e interpretación en tu conclusión.
 
+Usa además [OneCoin](../../../case-studies/market-regulation/onecoin.md) como
+prueba de existencia: verifica producto, red, precio, custodia y flujo antes de
+calificarlo. La condena de Greenwood y la acusación contra Ignatova tienen estados
+procesales distintos y deben permanecer separados.
+
 ## ⚠️ Errores frecuentes
 
 La tabla se usa buscando el síntoma. En esta clase casi todos vienen de haber aceptado la declaración de la entidad en vez de mirar sus hechos.
@@ -507,6 +512,7 @@ Guarda en `portfolio/parte-22/clase-01/`:
 - **Viene de:** Parte 12; Parte 20, clase 1; Parte 21, clase 1.
 - **Continúa en:** clases 2, 3 y 4 de esta parte.
 - **Se aplica en:** clase 22 de esta parte; Parte 23, clase 3.
+- **Caso documentado:** [OneCoin](../../../case-studies/market-regulation/onecoin.md).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

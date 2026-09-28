@@ -1,6 +1,6 @@
 # Biblioteca de casos
 
-Veintiocho casos para trabajar en clase, en laboratorio o en evaluación. Todos
+Treinta y cuatro casos para trabajar en clase, en laboratorio o en evaluación. Todos
 comparten la misma estructura de diez bloques y la misma disciplina: **los hechos
 van separados de las decisiones, y las decisiones separadas de las lecciones.**
 
@@ -34,15 +34,17 @@ sin distinguir esos tres niveles habrá aprendido una anécdota, no un método.
 
 ## Naturaleza de los casos
 
-Los casos son **sintéticos y compuestos**: reproducen mecanismos y secuencias que
-han ocurrido de forma repetida en el sector, sin atribuirlos a ninguna entidad
-concreta. Las cifras son supuestos del ejercicio, escogidos para que la
-aritmética funcione y la discusión tenga materia.
+La biblioteca contiene dos naturalezas declaradas en cada ficha. Los casos
+**sintéticos y compuestos** reproducen mecanismos sin atribuirlos a una entidad;
+los casos **reales documentados** analizan hechos públicos con fuentes primarias y
+distinguen alegación, culpabilidad, veredicto, sentencia, recurso e interpretación
+pedagógica. En ambos, todas las cifras del ejercicio son sintéticas: nunca son
+cuentas, wallets ni registros internos de personas reales.
 
-Cuando un caso se refiere a un hecho público —una norma, un régimen, una
-decisión de política— lo dice de forma expresa, lo cita por su documento oficial
-y separa lo verificado de lo interpretado. Ningún caso atribuye a una entidad
-identificable un fallo, una pérdida o una infracción.
+Un caso real no autoriza generalizaciones: fraude no equivale a insolvencia,
+iliquidez, quiebra, caída de precio o tecnología defectuosa; y Ponzi no equivale a
+cualquier fraude. La ficha atribuye cada afirmación a su fuente y dice también qué
+no permite concluir.
 
 ## Índice por tema
 
@@ -53,13 +55,13 @@ identificable un fallo, una pérdida o una infracción.
 | [`remittances/`](remittances/) | 1 | 18 |
 | [`iso20022/`](iso20022/) | 1 | 18 |
 | [`blockchain/`](blockchain/) | 4 | 19 |
-| [`stablecoins/`](stablecoins/) | 2 | 20 |
-| [`custody/`](custody/) | 1 | 20 |
+| [`stablecoins/`](stablecoins/) | 3 | 20 |
+| [`custody/`](custody/) | 3 | 11, 12, 20 y 22 |
 | [`tokenization/`](tokenization/) | 2 | 21 |
 | [`fx-onchain/`](fx-onchain/) | 1 | 21 |
-| [`market-regulation/`](market-regulation/) | 5 | 22 |
+| [`market-regulation/`](market-regulation/) | 7 | 4, 12, 13, 14 y 22 |
 | [`cyber-incidents/`](cyber-incidents/) | 1 | 22 |
-| [`chile/`](chile/) | 1 | 17 y 22 |
+| [`chile/`](chile/) | 2 | 4, 10, 12, 17 y 22 |
 | [`european-union/`](european-union/) | 1 | 22 |
 | [`el-salvador/`](el-salvador/) | 1 | 22 |
 | [`virtual-economies/`](virtual-economies/) | 1 | 20, 21 y 22 |
@@ -81,7 +83,7 @@ evalúa el razonamiento, no la coincidencia con el resultado real.
 ## Limitaciones
 
 - Ningún caso constituye asesoría legal, financiera ni de inversión.
-- Las cifras son supuestos del ejercicio y no describen a ninguna entidad.
+- Las cifras de ejercicios son supuestos y no describen cuentas de una entidad.
 - Los regímenes citados cambian: cada caso lleva su fecha de verificación y
   ninguna afirmación normativa debe usarse sin comprobarla en la fuente oficial.
 - Un caso enseña un mecanismo, no una probabilidad: que algo haya ocurrido no

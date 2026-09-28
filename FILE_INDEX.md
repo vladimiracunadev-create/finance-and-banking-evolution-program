@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-943-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-949-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -153,11 +153,14 @@
 - `case-studies/blockchain/contrato-defectuoso.md`
 - `case-studies/blockchain/falla-de-oraculo.md`
 - `case-studies/blockchain/perdida-de-claves.md`
+- `case-studies/chile/ac-inversions.md`
 - `case-studies/chile/sistema-de-finanzas-abiertas.md`
 - `case-studies/cross-border-payments/falla-pvp.md`
 - `case-studies/cross-border-payments/falta-de-liquidez.md`
 - `case-studies/cross-border-payments/pago-retenido.md`
+- `case-studies/custody/celsius.md`
 - `case-studies/custody/custodia-andina-digital.md`
+- `case-studies/custody/ftx-alameda.md`
 - `case-studies/cyber-incidents/proveedor-critico-comun.md`
 - `case-studies/el-salvador/bitcoin-chivo-y-activos-digitales.md`
 - `case-studies/european-union/mica-transicion.md`
@@ -165,7 +168,9 @@
 - `case-studies/iso20022/error-de-migracion.md`
 - `case-studies/market-regulation/incumplimiento-regla-del-viaje.md`
 - `case-studies/market-regulation/informacion-privilegiada.md`
+- `case-studies/market-regulation/madoff-blmis.md`
 - `case-studies/market-regulation/manipulacion-de-precio.md`
+- `case-studies/market-regulation/onecoin.md`
 - `case-studies/market-regulation/rechazo-de-autorizacion.md`
 - `case-studies/market-regulation/wash-trading.md`
 - `case-studies/open-finance/agregador-concentrado.md`
@@ -174,6 +179,7 @@
 - `case-studies/remittances/remesa-costosa.md`
 - `case-studies/stablecoins/corrida-de-reembolsos.md`
 - `case-studies/stablecoins/perdida-de-paridad.md`
+- `case-studies/stablecoins/terra-ust-luna.md`
 - `case-studies/tokenization/bono-tokenizado.md`
 - `case-studies/tokenization/proyecto-inmobiliario-tokenizado.md`
 - `case-studies/virtual-economies/gameco.md`

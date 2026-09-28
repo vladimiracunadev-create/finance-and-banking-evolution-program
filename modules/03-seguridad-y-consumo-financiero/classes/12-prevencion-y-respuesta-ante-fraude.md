@@ -297,6 +297,11 @@ En `labs/lab-06.md`, sección de fraude:
 3. Escribe tu protocolo cronometrado con teléfonos y canales reales.
 4. Investiga y documenta los plazos legales de desconocimiento de tu país.
 
+Aplica la capa preventiva al caso chileno documentado
+[AC Inversions](../../../case-studies/chile/ac-inversions.md): verifica autorización,
+cuenta receptora, activo y procedencia de pagos. Trabaja solo con el cuadro
+sintético y distingue formalización, cautelar y condena.
+
 ## ⚠️ Errores frecuentes
 
 Los síntomas de la tabla describen reclamos perdidos con razón de fondo. Las causas son siempre las mismas dos: fuera de plazo o sin evidencia contemporánea.

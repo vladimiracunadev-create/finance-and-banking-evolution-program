@@ -468,6 +468,12 @@ En `labs/lab-06.md`, sección de auditoría externa:
 3. Evalúa un ajuste de gestión contra la evidencia que lo respalda.
 4. Clasifica cinco deficiencias de control por su nivel y destinatario.
 
+En el caso documentado
+[BLMIS y Bernard Madoff](../../../case-studies/market-regulation/madoff-blmis.md),
+diseña confirmaciones independientes de efectivo, valores y operaciones; explica
+por qué el estado emitido por el gestor no prueba el activo y distingue saldo
+ficticio, aporte neto, perjuicio y recuperación.
+
 ## ⚠️ Errores frecuentes
 
 Los síntomas de la tabla describen expectativas mal puestas en un dictamen. Las causas son la brecha de expectativas y la materialidad no entendida.

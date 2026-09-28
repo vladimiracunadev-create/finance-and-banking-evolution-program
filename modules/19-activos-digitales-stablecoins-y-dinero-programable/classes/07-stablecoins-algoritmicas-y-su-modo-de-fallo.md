@@ -457,6 +457,11 @@ En [`labs/lab-05.md`](../labs/lab-05.md):
 3. Demuestra que el primero sube mientras el segundo se dispara.
 4. Calcula la salida máxima que el diseño soporta en un día.
 
+Repite el análisis con el ejercicio sintético del caso documentado
+[Terra, UST y LUNA](../../../case-studies/stablecoins/terra-ust-luna.md). Separa la
+fragilidad reflexiva del mecanismo, la intervención externa documentada y las
+conductas que terminaron en veredicto, culpabilidad y sentencia.
+
 ## ⚠️ Errores frecuentes
 
 Los síntomas de la tabla describen fallos de mecanismos endógenos. La causa es siempre la misma y es estructural.
@@ -492,6 +497,8 @@ Guarda en `portfolio/parte-20/clase-07/`:
 - **Viene de:** clases 3 y 6.
 - **Continúa en:** clases 13 y 14 de esta parte.
 - **Se aplica en:** Parte 22, clase 5; Parte 23, clase 14.
+- **Caso documentado:**
+  [Terra, UST y LUNA](../../../case-studies/stablecoins/terra-ust-luna.md).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

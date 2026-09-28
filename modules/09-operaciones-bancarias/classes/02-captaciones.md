@@ -402,6 +402,11 @@ En `labs/lab-01.md`, sección de captaciones:
 3. Proyecta el costo de fondos ante un alza de 300 pb con betas diferenciadas.
 4. Evalúa la concentración del fondeo con los cuatro indicadores.
 
+Contrasta una captación bancaria autorizada con el caso chileno documentado
+[AC Inversions](../../../case-studies/chile/ac-inversions.md). Reconstruye el origen
+de los pagos del ejercicio sintético y no uses la rentabilidad alta, por sí sola,
+como prueba de fraude o de un esquema Ponzi.
+
 ## ⚠️ Errores frecuentes
 
 Los síntomas de la tabla describen problemas de fondeo. Las causas son la concentración y un saldo núcleo estimado en periodos tranquilos.

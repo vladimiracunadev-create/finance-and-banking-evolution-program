@@ -429,6 +429,12 @@ En [`labs/lab-04.md`](../labs/lab-04.md):
 3. Construye la tabla de recuperación por escenario.
 4. Reescribe la información precontractual para que diga algo.
 
+Aplica luego las cuatro preguntas al caso documentado
+[Celsius](../../../case-studies/custody/celsius.md): compara lo que entendía el
+cliente con el contrato, clasifica custodia frente a préstamo y explica qué activo
+estaba disponible para una retirada. No uses cifras reales ni confundas la acción
+civil, la declaración de culpabilidad y la sentencia.
+
 ## ⚠️ Errores frecuentes
 
 Los síntomas de la tabla describen protecciones que fallan en el concurso. La causa es la renuncia a compensar no pactada.
@@ -464,6 +470,7 @@ Guarda en `portfolio/parte-22/clase-06/`:
 - **Viene de:** clases 4 y 5; Parte 20, clases 9 y 12.
 - **Continúa en:** clases 9 y 11 de esta parte.
 - **Se aplica en:** clase 22 de esta parte; Parte 23, clase 8.
+- **Caso documentado:** [Celsius](../../../case-studies/custody/celsius.md).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
