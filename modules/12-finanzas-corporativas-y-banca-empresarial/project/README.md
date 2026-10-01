@@ -3,8 +3,9 @@
 ## De qué se trata
 
 Este proyecto produce el documento que un comité de crédito aprueba o rechaza:
-una propuesta completa para una empresa concreta, con su diagnóstico, su
-estructura y sus covenants.
+una propuesta completa para una empresa concreta, con el modelo que transforma
+sus supuestos comerciales en caja, su diagnóstico, su estructura y sus
+covenants.
 
 Lo que la distingue de un ejercicio de cálculo es que tiene que sostenerse desde
 los dos lados. Una estructura que el banco aprueba con gusto y la empresa no
@@ -36,25 +37,26 @@ poder analizarse.
 
 | # | Entregable | Qué debe contener |
 |---:|---|---|
-| 1 | Diagnóstico | Ciclo de conversión, necesidad separada y calidad del resultado |
-| 2 | Ajustes a los estados | Con su criterio, y los indicadores antes y después |
-| 3 | Flujo proyectado | Base y adverso, con supuestos verificables |
-| 4 | Dimensionamiento | Monto, plazo y calendario derivados del flujo |
-| 5 | Garantías | Valoradas a criterio de liquidación, con su severidad |
-| 6 | Precio | Costo de fondos, pérdida esperada, costo de capital y margen |
-| 7 | Covenants | Tres, con holgura medida y compatibilidad verificada |
-| 8 | Propuesta de crédito | Dos páginas, con la recomendación y sus condiciones |
+| 1 | Mapa de supuestos | Clientes, precio, volumen, capacidad, costos y responsables |
+| 2 | Estructura de costos | Cuatro ejes; costo hundido excluido de la decisión |
+| 3 | Unit economics | Contribución, equilibrio y aplicabilidad de CAC/LTV/payback |
+| 4 | Estados y caja | Resultado, capital de trabajo, CAPEX y flujo reconciliados |
+| 5 | Escenarios | Sensibilidad univariable; conservador, base y expansivo |
+| 6 | Necesidad de capital | Inversión, déficit máximo, runway y momento de equilibrio |
+| 7 | Dimensionamiento | Monto, plazo y calendario derivados del flujo |
+| 8 | Covenants y garantías | Holgura medida, compatibilidad y valor de liquidación |
+| 9 | Propuesta de crédito | Dos páginas, con la recomendación y sus condiciones |
 
 ## Rúbrica
 
 | Criterio | Puntos | Qué se valora |
 |---|---:|---|
-| Estructura ajustada al flujo | 25 | Calendario que la empresa soporta en los meses bajos |
-| Diagnóstico con ajustes | 20 | Estados ajustados antes de analizar |
-| Garantías a liquidación | 15 | Con severidad, no con tasación |
-| Covenants con holgura medida | 20 | Suenan a tiempo en el adverso |
-| Precio con cuatro componentes | 10 | Cada uno justificado |
-| Las dos miradas | 10 | Defendible por ambas partes |
+| Modelo trazable | 20 | INPUT, SUPUESTO, CÁLCULO y OUTPUT sin números mágicos |
+| Unit economics y equilibrio | 15 | Métricas aplicables y costo semifijo por tramo |
+| Estados, caja y capital | 20 | Resultado, capital de trabajo, CAPEX y déficit reconciliados |
+| Sensibilidad y escenarios | 15 | Una variable primero; tres casos coherentes después |
+| Estructura y covenants | 20 | Calendario soportable y alertas con holgura medida |
+| Las dos miradas | 10 | Defendible por empresa y banco |
 
 **Total:** 100 puntos. **Aprobación:** 70.
 

@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-949-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-951-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -107,6 +107,7 @@
 - `apps/financial_calculators/README.md`
 - `apps/financial_calculators/calculators.py`
 - `apps/financial_calculators/cli.py`
+- `apps/financial_calculators/financial_model.py`
 - `apps/onchain_fx_lab/README.md`
 - `apps/onchain_fx_lab/__init__.py`
 - `apps/onchain_fx_lab/amm.py`
@@ -213,6 +214,7 @@
 - `docs/LICENSING_HISTORY.md`
 - `docs/README.md`
 - `docs/arquitectura-mercado-tokenizado.md`
+- `docs/auditoria-modelo-financiero.md`
 - `docs/custodia-conciliacion-y-gobernanza.md`
 - `docs/economias-virtuales-y-bienes-digitales.md`
 - `docs/etapa-5-finanzas-digitales.md`

@@ -27,11 +27,12 @@ El análisis de la clase anterior mira hacia atrás. Esta mira hacia adelante y 
 
 Al finalizar podrás:
 
-1. **Construir** un flujo de caja proyectado desde los estados financieros.
+1. **Construir** un presupuesto y un flujo de caja desde supuestos empresariales trazables.
 2. **Calcular** la necesidad operativa de fondos y su financiamiento.
 3. **Distinguir** necesidades estructurales de estacionales.
 4. **Dimensionar** el monto y el plazo del crédito adecuado.
-5. **Evaluar** la capacidad de pago con escenarios.
+5. **Evaluar** unit economics, punto de equilibrio y capacidad de pago.
+6. **Separar** sensibilidad de una variable de escenarios coherentes.
 
 <!-- gen:agenda:start -->
 ## Agenda de 90 minutos
@@ -57,10 +58,16 @@ laboratorio de la parte; lo que no se recorta nunca es el ejemplo guiado.
 
 ## 🧩 Conceptos centrales
 
-Los tres primeros términos son la necesidad y su cobertura; los cinco siguientes, el flujo y sus coberturas. La **necesidad operativa de fondos** es el concepto que hay que calcular antes de hablar de importes: es la cifra que dice cuánto necesita la empresa por su forma de operar.
+Los primeros términos describen el motor económico; los siguientes, la necesidad
+y su cobertura. La **necesidad operativa de fondos** se calcula antes de hablar
+de importes: dice cuánto necesita la empresa por su forma de operar.
 
 | Concepto | Comprensión verificable |
 |---|---|
+| `supuesto` | Variable de entrada con fuente, responsable y rango; nunca un número mágico. |
+| `margen de contribución` | Precio unitario menos costo variable unitario. |
+| `punto de equilibrio` | Unidades cuyo margen de contribución cubre costos fijos y semifijos. |
+| `presupuesto` | Caso base aprobado; el forecast es su actualización con evidencia nueva. |
 | `necesidad operativa de fondos` | Inversión neta en el ciclo: existencias + cobros − proveedores. |
 | `fondo de maniobra` | Recursos permanentes que financian el activo corriente. |
 | `necesidad de financiamiento` | Diferencia entre la necesidad operativa y el fondo de maniobra. |
@@ -147,6 +154,140 @@ la empresa menos puede pagarlo.
 ### 3. Flujo de caja proyectado
 
 La proyección se construye desde los supuestos operativos y no desde el crecimiento histórico. El procedimiento la estructura.
+
+Antes de proyectar, cada costo se clasifica en ejes distintos. Mezclarlos lleva a
+decisiones equivocadas: «directo» no significa «variable», y «hundido» no
+significa «CAPEX».
+
+| Eje | Clases | Decisión que informa |
+|---|---|---|
+| Comportamiento | fijo, variable, semifijo | Cuánto cambia el costo al variar volumen o capacidad |
+| Trazabilidad | directo, indirecto | A qué producto, cliente o unidad puede atribuirse |
+| Relevancia | hundido, incremental | Si cambia o no como consecuencia de la decisión futura |
+| Tratamiento | CAPEX, OPEX | Si consume caja como inversión y se deprecia, o como gasto operativo |
+
+Un costo fijo de personal puede ser directo a una línea; un costo variable de
+plataforma puede ser indirecto si se comparte entre productos. El estudio ya
+pagado es hundido: se registra para explicar la historia, pero no decide si se
+invierte mañana. En cambio, la nueva máquina, el nuevo turno y las comisiones de
+venta son incrementales porque solo existen si se ejecuta la decisión.
+
+#### 3.1 De supuestos a unit economics
+
+El puente empieza por una unidad económicamente significativa: producto,
+transacción, cliente o contrato. Elegir una unidad que no coincide con la forma
+de cobrar o incurrir en costos produce métricas bonitas e inútiles.
+
+```text
+precio unitario                                  INPUT / SUPUESTO
+− costo variable unitario                        INPUT / SUPUESTO
+= MARGEN DE CONTRIBUCIÓN UNITARIO                 CÁLCULO
+
+unidades de equilibrio
+  = (costos fijos + costo semifijo del tramo)
+    / margen de contribución unitario             OUTPUT
+```
+
+Los costos semifijos exigen comprobar el tramo resultante. Si llegar a 200
+clientes obliga a contratar otro equipo, el costo de ese equipo entra antes de
+afirmar que la unidad 200 produce utilidad.
+
+CAC, LTV y payback no son universales. **CAC aplica** cuando el gasto de
+adquisición puede atribuirse a clientes nuevos. **LTV aplica** cuando hay una
+relación recurrente, margen por cliente y una retención observable. El payback
+de CAC aplica solo si ambos anteriores existen. Para una venta única sin
+recompra, forzar un LTV perpetuo inventa valor; corresponde informar margen por
+pedido o contrato.
+
+```text
+CAC = gasto atribuible de adquisición / clientes nuevos
+LTV simplificado = contribución mensual por cliente / abandono mensual
+payback de CAC = CAC / contribución mensual por cliente
+```
+
+#### 3.2 De la unidad al presupuesto y los estados
+
+El modelo encadena las filas; no escribe ventas, EBITDA y caja como tres
+pronósticos independientes.
+
+```text
+clientes = clientes retenidos + oportunidades × conversión
+ventas = clientes × frecuencia, limitadas por capacidad
+ingresos = ventas × precio
+− costos variables = ventas × costo variable unitario
+= margen de contribución
+− costos fijos y semifijos (OPEX)
+= EBITDA, cuando corresponde usarlo
+− depreciación del CAPEX
+= resultado operativo
+
+cuentas por cobrar = ingresos × días de cobro / días del período
+inventario = costo variable × días de inventario / días del período
+proveedores = compras × días de pago / días del período
+capital de trabajo = cuentas por cobrar + inventario − proveedores
+
+caja final = caja inicial + EBITDA
+             − variación de capital de trabajo − CAPEX
+             + financiamiento
+```
+
+El EBITDA es útil para observar operación antes de depreciación y estructura
+financiera, pero **no equivale a caja** y no corresponde en todos los negocios.
+Si el activo y su reposición son esenciales, omitir CAPEX puede convertir un
+modelo inviable en uno aparentemente rentable.
+
+El presupuesto fija el caso base aprobado. El forecast conserva la misma
+estructura y actualiza los supuestos con información nueva; no borra la versión
+anterior. Así se puede explicar si la desviación vino de volumen, precio,
+conversión, costo, capacidad o cobranza.
+
+#### 3.3 Sensibilidad antes que escenarios
+
+Primero se mueve **una variable** y se mantienen las demás: por ejemplo, precio
+−10 %, base y +10 %. Eso mide qué variable domina el resultado. Solo después se
+construyen escenarios coherentes:
+
+| Escenario | Demanda y conversión | Precio y costo | Cobranza |
+|---|---|---|---|
+| Conservador | Menores | Menor precio, mayor costo | Más lenta |
+| Base | Presupuesto aprobado | Supuestos centrales | Condición esperada |
+| Expansivo | Mayores, limitadas por capacidad | Precio y eficiencia plausibles | Más rápida |
+
+Cambiar veinte variables sin registrar qué relación las une no es una prueba de
+estrés: impide saber qué causó el resultado. Un stress test puede ser más severo
+que el escenario conservador, pero debe conservar una causalidad explícita.
+
+#### 3.4 De la caja a la necesidad de capital
+
+La proyección debe terminar en una cifra financiable, no en una curva.
+
+```text
+inversión inicial = CAPEX del arranque + desembolsos incrementales previos
+déficit máximo acumulado = valor absoluto del menor saldo si baja de cero
+necesidad de financiamiento
+  = reserva mínima de caja − menor saldo proyectado, si el resultado es positivo
+runway = meses completos antes de perforar la reserva mínima
+momento de equilibrio operativo = primer período con EBITDA ≥ 0
+```
+
+Si el negocio genera caja desde el inicio, el runway no aplica. Si no existe
+adquisición medible o recurrencia, CAC o LTV tampoco aplican. Declarar «no
+aplica» con la razón correcta es más riguroso que rellenar la celda.
+
+#### 3.5 Trazabilidad mínima
+
+Una planilla o aplicación debe separar visual o estructuralmente:
+
+| Etiqueta | Qué admite | Qué no admite |
+|---|---|---|
+| `INPUT` | Dato observado y su fuente | Estimaciones ocultas |
+| `SUPUESTO` | Hipótesis, responsable, fecha y rango | Números sin explicación |
+| `CÁLCULO` | Fórmula reproducible | Valores pegados sobre la fórmula |
+| `OUTPUT` | Resultado y unidad | Una conclusión sin rastro hasta el supuesto |
+
+La prueba de trazabilidad consiste en cambiar un supuesto, recalcular y explicar
+qué outputs se movieron y por qué. Si un resultado no cambia cuando debería, o
+cambia una celda no relacionada, el modelo no está listo para decidir.
 
 ```text
 CONSTRUCCIÓN DESDE EL RESULTADO
@@ -443,14 +584,22 @@ La empresa pide un importe y el banco calcula cuál necesita. La tabla enfrenta 
 
 ## 🧪 Práctica
 
-El laboratorio pide dimensionar un crédito desde la necesidad operativa. El importe solicitado es mayor que el necesario, y justificar la diferencia es el ejercicio.
+Los laboratorios piden dimensionar un crédito desde la necesidad operativa y
+construir antes el modelo empresarial que la produce.
 
-En `labs/lab-02.md`:
+En `labs/lab-06.md`:
 
 1. Calcula la NOF y el fondo de maniobra de tres empresas.
 2. Separa necesidad estructural de estacional a partir de una serie mensual.
 3. Proyecta el flujo de caja y calcula la cobertura del servicio de la deuda.
 4. Estructura una operación con monto, plazo, amortización y covenants.
+
+El caso **Taller Circular** se resuelve primero en papel o planilla y luego se
+contrasta con:
+
+```bash
+python apps/financial_calculators/cli.py business-model --scenario base
+```
 
 ## ⚠️ Errores frecuentes
 
@@ -464,6 +613,10 @@ Los síntomas de la tabla describen créditos mal dimensionados. Las causas son 
 | Cobertura evaluada solo en caso base | Sin escenarios | Prueba caída de ventas y cobro. |
 | Se ignora el aumento de NOF al crecer | El crecimiento consume caja | Proyecta la NOF. |
 | Se presta para resolver un problema de ciclo | Se posterga el problema | Condiciona a corregir el ciclo. |
+| EBITDA tratado como caja | Omite capital de trabajo y CAPEX | Reconcilia resultado con caja. |
+| Veinte variables cambian a la vez | No hay causalidad | Sensibiliza una variable primero. |
+| CAC o LTV forzados | La métrica no aplica al modelo | Declara la condición de aplicabilidad. |
+| Número pegado en una fórmula | Se pierde trazabilidad | Separa input, supuesto, cálculo y output. |
 
 ## ❓ Preguntas de comprobación
 
@@ -472,6 +625,8 @@ Los síntomas de la tabla describen créditos mal dimensionados. Las causas son 
 3. ¿Por qué el calendario de amortización debe seguir al flujo?
 4. ¿Qué significa una cobertura del servicio de la deuda de 1,05?
 5. ¿Por qué prestar menos puede ser la mejor respuesta a una solicitud?
+6. ¿Cuándo CAC, LTV o runway no son aplicables?
+7. ¿Por qué sensibilidad y escenario responden preguntas distintas?
 
 ## 📥 Entregable
 
@@ -480,6 +635,8 @@ Guarda en `portfolio/parte-13/clase-03/`:
 - el cálculo de NOF y fondo de maniobra de las tres empresas;
 - la separación entre necesidad estructural y estacional;
 - el flujo proyectado con la cobertura calculada y sus escenarios;
+- la matriz de trazabilidad `INPUT → SUPUESTO → CÁLCULO → OUTPUT`;
+- la sensibilidad de una variable antes de comparar los tres escenarios;
 - la estructura de la operación propuesta con sus condiciones.
 
 <!-- gen:etica:start -->

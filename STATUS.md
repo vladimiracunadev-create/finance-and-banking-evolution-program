@@ -36,7 +36,7 @@
 | 10 | Parte 10: Operaciones bancarias | 16 | 16 | `████████████████████` | 19.0 KB |
 | 11 | Parte 11: Gestión integral de riesgos | 16 | 16 | `████████████████████` | 19.7 KB |
 | 12 | Parte 12: Regulación, cumplimiento y auditoría | 16 | 16 | `████████████████████` | 20.6 KB |
-| 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 20.5 KB |
+| 13 | Parte 13: Finanzas corporativas y banca empresarial | 14 | 14 | `████████████████████` | 21.0 KB |
 | 14 | Parte 14: Fintech, datos e inteligencia artificial | 14 | 14 | `████████████████████` | 20.9 KB |
 | 15 | Parte 15: Estrategia y dirección bancaria | 14 | 14 | `████████████████████` | 20.9 KB |
 | 16 | Parte 16: Proyecto Banco Virtual | 18 | 18 | `████████████████████` | 20.4 KB |

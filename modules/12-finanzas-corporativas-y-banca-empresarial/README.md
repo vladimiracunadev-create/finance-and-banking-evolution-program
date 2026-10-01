@@ -29,6 +29,7 @@ y decidir solo con él destruye valor.
 3. **Dimensionar** un crédito desde la necesidad operativa de fondos y no desde el importe solicitado.
 4. **Calibrar** covenants con una holgura medida, para que avisen a tiempo sin sonar todo el rato.
 5. **Valorar** una empresa por tres enfoques y presentar el resultado como rango con su sensibilidad.
+6. **Transformar** supuestos de clientes, precio, capacidad y costos en resultados, caja y capital trazables.
 
 ## Cómo se encadenan las 14 clases
 
@@ -80,6 +81,7 @@ Los laboratorios se resuelven con datos propios o sintéticos y nunca con datos 
 - El ciclo de conversión de efectivo de tres empresas con el producto que corresponde.
 - El análisis de calidad de resultado con sus señales contrastadas.
 - Una operación estructurada con su calendario ajustado al flujo y sus covenants calibrados.
+- Un modelo empresarial con unit economics, presupuesto, tres escenarios y necesidad de capital.
 - La valoración de una empresa por tres enfoques, con la dispersión explicada.
 - La autoevaluación final con lo que quedó flojo.
 
@@ -102,3 +104,6 @@ estos proyectos.
 
 **Casos relacionados:** [`tokenization/bono-tokenizado`](../../case-studies/tokenization/bono-tokenizado.md) ·
 [`tokenization/proyecto-inmobiliario-tokenizado`](../../case-studies/tokenization/proyecto-inmobiliario-tokenizado.md)
+
+**Caso integrador de modelamiento:** [`labs/lab-06.md`](labs/lab-06.md) — Taller
+Circular se resuelve manualmente y se verifica con `financial_calculators`.

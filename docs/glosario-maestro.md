@@ -5,8 +5,8 @@
 
 **Todos los conceptos centrales del programa en un solo documento, con su definicion y la clase donde se estudian.**
 
-[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2204-7c5cff?style=flat-square)](glosario-maestro.md)
-[![transversales](https://img.shields.io/badge/transversales-74%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
+[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2208-7c5cff?style=flat-square)](glosario-maestro.md)
+[![transversales](https://img.shields.io/badge/transversales-75%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_glossary.py)
 
 [⬅️ Documentación](README.md) ·
@@ -50,7 +50,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [Z](#z)
 
-**2204 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
+**2208 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
 
 <h2 id="a">A</h2>
 
@@ -6639,6 +6639,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Diferencia entre la tasa cobrada y el precio de transferencia.
 - **Dónde se estudia.** [15.4](../modules/14-estrategia-y-direccion-bancaria/classes/04-rentabilidad-y-asignacion.md)
 
+### margen de contribución
+
+- **Definición.** Precio unitario menos costo variable unitario.
+- **Dónde se estudia.** [13.3](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md)
+
 ### margen de intermediación
 
 - **Definición.** Margen financiero sobre activos productivos medios.
@@ -8049,6 +8054,8 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Documento con las opciones para restaurar la viabilidad.
 - **También.** Cómo se restablece el cumplimiento sin cerrar
 - **También.** Procedimiento previsto ante un fallo grave
+- **Ejemplo.** Un banco activa ventas de activos y restricciones de dividendos al cruzar un disparador; una red autorizada detiene cambios y restaura su registro tras un fallo grave.
+- **A considerar.** El nombre se usa en contextos prudenciales, tecnológicos y regulatorios distintos. Siempre hay que declarar qué se recupera, quién activa el plan y qué autoridad o gobernanza decide.
 - **Dónde se estudia.** [15.13](../modules/14-estrategia-y-direccion-bancaria/classes/13-gestion-de-crisis.md) · [19.13](../modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/13-gobernanza-bifurcaciones-y-recuperacion.md) · [22.18](../modules/21-regulacion-de-mercados-financieros-digitales/classes/18-mica-obligaciones-reservas-y-supervision.md)
 
 ### plan de reembolso
@@ -8404,6 +8411,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Crédito cuyo precio depende de indicadores acordados.
 - **Dónde se estudia.** [15.11](../modules/14-estrategia-y-direccion-bancaria/classes/11-sostenibilidad-y-banca-responsable.md)
+
+### presupuesto
+
+- **Definición.** Caso base aprobado; el forecast es su actualización con evidencia nueva.
+- **Dónde se estudia.** [13.3](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md)
 
 ### presupuesto base cero
 
@@ -8861,6 +8873,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Puntaje bajo el cual se rechaza. Es una decisión de negocio, no del modelo.
 - **Dónde se estudia.** [9.10](../modules/08-analisis-y-gestion-de-credito/classes/10-scoring.md)
+
+### punto de equilibrio
+
+- **Definición.** Unidades cuyo margen de contribución cubre costos fijos y semifijos.
+- **Dónde se estudia.** [13.3](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md)
 
 ### punto de inviabilidad
 
@@ -10718,6 +10735,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Intensidad proporcional al riesgo y a la importancia sistémica.
 - **Dónde se estudia.** [12.13](../modules/11-regulacion-cumplimiento-y-auditoria/classes/13-supervision-bancaria.md)
+
+### supuesto
+
+- **Definición.** Variable de entrada con fuente, responsable y rango; nunca un número mágico.
+- **Dónde se estudia.** [13.3](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md)
 
 ### supuesto conductual
 

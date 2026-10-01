@@ -51,7 +51,7 @@
 
 > 🧭 **Estado del programa.** **Programa completo: las 5 etapas y sus 23 partes (356 clases) están construidas** — de la aritmética elemental al proyecto capstone de un banco digital con mercado tokenizado. Ninguna parte es un esqueleto.
 >
-> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **314 pruebas** sobre las 11 aplicaciones en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
+> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **323 pruebas** sobre las 11 aplicaciones en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
 
 ## 🎯 Qué es esto
 
@@ -77,7 +77,7 @@ No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo c
 
 | 📘 Clases | 📗 Fuentes citadas | 🧪 Laboratorios | 📝 Evaluaciones | 🎓 Proyectos | 📖 Términos |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **356** | <!-- gen:fuentes-citas:start -->**1 736**<!-- gen:fuentes-citas:end --> | **152** | **46** | **23** | **2 204** |
+| **356** | <!-- gen:fuentes-citas:start -->**1 736**<!-- gen:fuentes-citas:end --> | **152** | **46** | **23** | **2 208** |
 
 </div>
 
@@ -238,7 +238,7 @@ Leer el programa seguido no es solo comodidad — es la única forma de comproba
 
 | Documento | Qué contiene |
 |---|---|
-| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 204 conceptos** de las 356 clases, alfabéticos, con definición, dónde se estudian y —los 74 transversales— ejemplo y advertencia de uso |
+| 📖 **[Glosario maestro](docs/glosario-maestro.md)** | Los **2 208 conceptos** de las 356 clases, alfabéticos, con definición, dónde se estudian y —los 75 transversales— ejemplo y advertencia de uso |
 | 📗 **[Glosario general](docs/glosario.md)** | Los términos base del programa, agrupados por tema |
 | 📘 **[Glosario de finanzas digitales](docs/glosario-finanzas-digitales.md)** | Los términos de la Etapa 5, cada uno con su «qué NO significa» |
 | 🧮 **[Formulario](docs/formulas.md)** | Las fórmulas del programa, cada una con su trampa habitual |
@@ -259,11 +259,11 @@ Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/R
 
 ## 🧪 Laboratorios y aplicaciones ejecutables
 
-Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las cubren **314 pruebas** en CI.
+Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las cubren **323 pruebas** en CI.
 
 | Aplicación | Qué hace | Se usa en |
 |---|---|---|
-| 🧮 **`financial_calculators`** | Interés compuesto, anualidades, amortización, VPN, TIR | Partes 1, 7 y 13 |
+| 🧮 **`financial_calculators`** | Interés, amortización y modelo empresarial trazable: unit economics, caja, escenarios y capital | Partes 1, 7 y 13 |
 | 📊 **`credit_scoring`** | Modelo de scoring con métricas de discriminación | Partes 9 y 14 |
 | 🏦 **`openbank_simulator`** | Banco con cuentas y movimientos sobre SQLite | Partes 10 y 16 |
 | 🔓 **`open_finance_sandbox`** | Entorno de finanzas abiertas: consentimiento, OAuth/FAPI y alcances | Parte 17 |
@@ -277,6 +277,7 @@ Además de las clases, el programa incluye **11 aplicaciones en Python** que se 
 
 ```bash
 python apps/financial_calculators/cli.py compound --principal 100000 --rate 0.08 --years 5
+python apps/financial_calculators/cli.py business-model --scenario base
 ```
 
 ```bash
@@ -364,7 +365,7 @@ El repositorio no se publica a ciegas: cada `push` y cada PR pasan por integraci
 
 | ⚙️ Flujo | Qué cubre | Cuándo |
 |---|---|---|
-| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 314 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
+| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 323 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
 | 🔒 [security.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/security.yml) | `pip-audit`, `bandit` y escaneo de secretos sobre el historial | Cada cambio y cada lunes |
 | 🔍 [codeql.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/codeql.yml) | Análisis semántico del código Python | Cada cambio y cada jueves |
 | 🌐 [pages.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/pages.yml) | Genera y publica el portal, y verifica que responda | Al cambiar el contenido |

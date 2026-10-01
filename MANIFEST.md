@@ -91,7 +91,7 @@
 
 | Aplicación | Descripción | Pruebas |
 |---|---|:---:|
-| `financial_calculators` | Interés compuesto, anualidades, amortización, VPN, TIR | ✅ |
+| `financial_calculators` | Interés, amortización y modelo empresarial trazable con escenarios y capital | ✅ |
 | `credit_scoring` | Modelo de scoring con métricas de discriminación | ✅ |
 | `openbank_simulator` | Banco con cuentas y movimientos sobre SQLite | ✅ |
 | `open_finance_sandbox` | Consentimiento, autorización con PKCE, API de cuentas, iniciación de pagos y batería de conformidad | ✅ |

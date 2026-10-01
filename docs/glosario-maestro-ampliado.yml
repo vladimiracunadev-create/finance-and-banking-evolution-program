@@ -212,6 +212,10 @@ plan de salida:
   ejemplo: "El procedimiento, el plazo y el costo de dejar a un proveedor, escritos antes de contratarlo."
   considerar: "Sin el, la relacion con el proveedor deja de ser una decision. Es el requisito que menos se exige al contratar y el que mas cuesta despues."
 
+plan de recuperacion:
+  ejemplo: "Un banco activa ventas de activos y restricciones de dividendos al cruzar un disparador; una red autorizada detiene cambios y restaura su registro tras un fallo grave."
+  considerar: "El nombre se usa en contextos prudenciales, tecnológicos y regulatorios distintos. Siempre hay que declarar qué se recupera, quién activa el plan y qué autoridad o gobernanza decide."
+
 prelacion:
   ejemplo: "El orden en que cobran los acreedores: primero los garantizados, despues los ordinarios, al final los subordinados."
   considerar: "Determina el poder de negociacion de cada acreedor en una reestructuracion. Se conoce antes de sentarse a negociar o no se negocia."
