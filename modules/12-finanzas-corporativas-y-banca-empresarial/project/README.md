@@ -1,5 +1,9 @@
 # Proyecto integrador: Propuesta de financiamiento empresarial
 
+> [← Parte 13](../README.md) ·
+> [Clase 3: flujo de caja y necesidades de fondos](../classes/03-flujo-de-caja-y-necesidades-de-fondos.md) ·
+> [Laboratorio 6: modelo y financiamiento](../labs/lab-06.md)
+
 ## De qué se trata
 
 Este proyecto produce el documento que un comité de crédito aprueba o rechaza:

@@ -587,7 +587,7 @@ La empresa pide un importe y el banco calcula cuál necesita. La tabla enfrenta 
 Los laboratorios piden dimensionar un crédito desde la necesidad operativa y
 construir antes el modelo empresarial que la produce.
 
-En `labs/lab-06.md`:
+En el [laboratorio 6: proyecto de modelo y financiamiento](../labs/lab-06.md):
 
 1. Calcula la NOF y el fondo de maniobra de tres empresas.
 2. Separa necesidad estructural de estacional a partir de una serie mensual.

@@ -1,5 +1,9 @@
 # Calculadoras financieras
 
+**Ruta curricular:** [Parte 13](../../modules/12-finanzas-corporativas-y-banca-empresarial/README.md)
+→ [clase 3](../../modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md)
+→ [laboratorio 6](../../modules/12-finanzas-corporativas-y-banca-empresarial/labs/lab-06.md).
+
 La aplicación reúne dos niveles: cálculos financieros puntuales y un modelo
 empresarial mensual que convierte supuestos comerciales en resultados, caja y
 necesidad de capital. No sustituye una planilla: el caso está diseñado para

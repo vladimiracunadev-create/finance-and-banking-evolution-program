@@ -1,5 +1,9 @@
 # Laboratorio 6: Proyecto de modelo y financiamiento
 
+> [← Parte 13](../README.md) ·
+> [Clase 3: flujo de caja y necesidades de fondos](../classes/03-flujo-de-caja-y-necesidades-de-fondos.md) ·
+> [Proyecto integrador](../project/README.md)
+
 ## Propósito
 
 Transformar supuestos de un negocio en unit economics, presupuesto, proyección

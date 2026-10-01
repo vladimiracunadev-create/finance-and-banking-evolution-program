@@ -1,10 +1,34 @@
 # Auditoría de modelamiento financiero empresarial
 
+[Inicio](../README.md) · [Documentación](README.md) ·
+[Programa completo](../SYLLABUS.md) ·
+[Parte 13](../modules/12-finanzas-corporativas-y-banca-empresarial/README.md)
+
 **Fecha de corte:** 2026-10-01
 
 **Alcance:** `README.md`, `SYLLABUS.md`, `STATUS.md`, `ROADMAP.md`, `modules/`,
 laboratorios dentro de cada módulo, `apps/`, `sources/`, `scripts/`, `tests/` y
 `.github/workflows/`.
+
+## Cómo llegar y cómo usar esta auditoría
+
+La ruta documental es **Inicio → Documentación → Auditoría de modelamiento
+financiero**. La ruta pedagógica que materializa sus conclusiones es **Programa
+completo → Parte 13 → clase 3 → laboratorio 6 → proyecto integrador**:
+
+1. [Clase 3: flujo de caja y necesidades de fondos](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md)
+   explica el método y conserva las fuentes académicas y contables.
+2. [Laboratorio 6: modelo y financiamiento](../modules/12-finanzas-corporativas-y-banca-empresarial/labs/lab-06.md)
+   aplica el método primero de forma manual y luego con la herramienta.
+3. [Proyecto integrador](../modules/12-finanzas-corporativas-y-banca-empresarial/project/README.md)
+   exige defender supuestos, cálculos, escenarios y capital ante un comité.
+4. [`financial_calculators`](../apps/financial_calculators/README.md) reproduce
+   el caso como segunda implementación verificable, no como sustituto del
+   razonamiento.
+
+La matriz siguiente sirve para localizar cobertura y brechas. Las secciones de
+cambios, cálculos y evidencia permiten revisar después si la intervención cerró
+la brecha sin alterar la arquitectura del programa.
 
 ## Objetivo y criterio
 
@@ -99,6 +123,27 @@ necesidad de financiamiento = reserva mínima − peor saldo, si es positiva
 El punto de equilibrio no divide una sola vez cuando hay costos semifijos: busca
 el primer volumen cuyo margen cubre el costo fijo y el tramo de capacidad que
 ese mismo volumen activa.
+
+## Fuentes de evidencia y criterio pedagógico
+
+La auditoría no se apoya en afirmaciones aisladas: contrasta los índices y
+generadores con el contenido ejecutable.
+
+| Fuente | Uso en la auditoría |
+|---|---|
+| [`README.md`](../README.md), [`SYLLABUS.md`](../SYLLABUS.md), [`STATUS.md`](../STATUS.md) y [`ROADMAP.md`](../ROADMAP.md) | Estructura declarada, cobertura y estado actual |
+| [`modules/`](../modules/) y clase 3 de la Parte 13 | Cobertura pedagógica real y mejora de la clase existente |
+| [`apps/financial_calculators/`](../apps/financial_calculators/) | Implementación verificable del modelo |
+| [`tests/test_calculators.py`](../tests/test_calculators.py) | Evidencia de fórmulas, aplicabilidad y escenarios |
+| [`.github/workflows/`](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/tree/main/.github/workflows) | Procedimientos reales de aceptación |
+| [`sources/bibliography.json`](../sources/bibliography.json) | Registro bibliográfico canónico del programa |
+
+La ampliación conserva y utiliza las fuentes de la clase: Brealey, Myers y
+Allen para planificación financiera y capital de trabajo; Ross, Westerfield y
+Jaffe para proyección y flujo libre; Higgins para crecimiento y necesidades de
+fondos; Faus para necesidades operativas; y NIC 7 de IFRS Foundation para la
+clasificación de flujos. No se añadió teoría empresarial genérica ni una
+bibliografía paralela sin uso pedagógico.
 
 ## Compatibilidad y regeneración
 
