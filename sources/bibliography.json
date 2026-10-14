@@ -1085,14 +1085,14 @@
       "title": "BIS Quarterly Review",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
-      "cited_url": "https://www.bis.org/publ/quarterly.htm",
+      "cited_url": "https://www.bis.org/publications/qr",
       "used_in": [
         "modules/07-inversiones-y-mercados/classes/04-bonos.md"
       ],
       "status": "verificada",
       "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
-      "locator": "https://www.bis.org/publ/quarterly.htm",
-      "accessed": "2026-08-19",
+      "locator": "https://www.bis.org/publications/qr",
+      "accessed": "2026-10-14",
       "http_status": 200
     },
     {
@@ -1104,14 +1104,14 @@
       "title": "BIS Statistical Bulletin",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
-      "cited_url": "https://www.bis.org/statistics/bulletin.htm",
+      "cited_url": "https://www.bis.org/publications?series%5B%5D=Statistical+bulletin",
       "used_in": [
         "modules/00-matematica-financiera-basica/classes/02-fracciones-decimales-y-razones.md"
       ],
       "status": "verificada",
       "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
-      "locator": "https://www.bis.org/statistics/bulletin.htm",
-      "accessed": "2026-08-20",
+      "locator": "https://www.bis.org/publications?series%5B%5D=Statistical+bulletin",
+      "accessed": "2026-10-14",
       "http_status": 200
     },
     {
@@ -1472,15 +1472,15 @@
       "publisher": "BIS",
       "authority": "Banco de Pagos Internacionales (BIS)",
       "amendable": false,
-      "cited_url": "https://www.bis.org/publ/othp42_fin_stab.pdf",
+      "cited_url": "https://www.bis.org/publications/central-bank-digital-currencies-executive-summary",
       "used_in": [
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/10-monedas-digitales-de-banco-central.md",
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/07-moneda-digital-de-banco-central-marco.md"
       ],
       "status": "verificada",
       "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
-      "locator": "https://www.bis.org/publ/othp42_fin_stab.pdf",
-      "accessed": "2026-08-20",
+      "locator": "https://www.bis.org/publications/central-bank-digital-currencies-executive-summary",
+      "accessed": "2026-10-14",
       "http_status": 200
     },
     {
@@ -5947,14 +5947,14 @@
       "publisher": "BCCh",
       "authority": "Banco Central de Chile",
       "amendable": false,
-      "cited_url": "https://www.bcentral.cl/areas/estabilidad-financiera",
+      "cited_url": "https://www.bcentral.cl/es/areas/politica-financiera/informe-de-estabilidad-financiera",
       "used_in": [
         "modules/21-regulacion-de-mercados-financieros-digitales/classes/15-estabilidad-financiera-y-vigilancia.md"
       ],
       "status": "verificada",
       "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
-      "locator": "https://www.bcentral.cl/areas/estabilidad-financiera",
-      "accessed": "2026-08-19",
+      "locator": "https://www.bcentral.cl/es/areas/politica-financiera/informe-de-estabilidad-financiera",
+      "accessed": "2026-10-14",
       "http_status": 200
     },
     {

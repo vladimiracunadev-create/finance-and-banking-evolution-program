@@ -405,7 +405,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Bodie, Z., Kane, A. y Marcus, A. (2023). *Investments* (13.ª ed.). McGraw-Hill. Capítulos 14 a 16: precios de bonos y estructura temporal.
 - Hull, J. (2021). *Options, Futures, and Other Derivatives* (11.ª ed.). Pearson. Capítulo 4: tasas cero, forward y valoración de bonos.
 - Moody's / S&P. *Annual Default Study* (informes anuales). Probabilidades de incumplimiento históricas por clasificación.
-- Bank for International Settlements. *BIS Quarterly Review*. Evolución de spreads de crédito por segmento. <https://www.bis.org/publ/quarterly.htm>
+- Bank for International Settlements. *BIS Quarterly Review*. Evolución de spreads de crédito por segmento. <https://www.bis.org/publications/qr>
 - Verificación local: usa las emisiones inscritas en el registro del supervisor de valores de tu país y la curva soberana publicada por el banco central.
 
 <!-- gen:footer:start -->

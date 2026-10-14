@@ -94,13 +94,18 @@ jobs:
           conteo=$(grep -c '^| [a-z0-9]' pendientes.md || true)
           echo "rotas=${conteo}" >> "$GITHUB_OUTPUT"
 
-      - name: Abrir issue si hay fuentes oficiales caidas
-        if: steps.pendientes.outputs.rotas != '0'
-        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
-        with:
-          title: "Fuentes oficiales que dejaron de responder"
-          content-filepath: pendientes.md
-          labels: mantenimiento, documentacion
+      - name: Mantener un unico issue de fuentes caidas
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ROTAS: ${{ steps.pendientes.outputs.rotas }}
+        run: >-
+          python tools/sync_maintenance_issue.py
+          --title "Fuentes oficiales que dejaron de responder"
+          --body-file pendientes.md
+          --active-count "${ROTAS:-0}"
+          --label mantenimiento
+          --label documentacion
 
       - name: Resumen
         if: always()

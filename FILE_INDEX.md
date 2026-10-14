@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-951-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-953-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -951,6 +951,7 @@
 - `tests/test_openbank.py`
 - `tests/test_regulatory_perimeter_engine.py`
 - `tests/test_scoring.py`
+- `tests/test_sync_maintenance_issue.py`
 - `tests/test_tokenization_platform.py`
 - `tools/build_book.py`
 - `tools/build_file_index.py`
@@ -965,6 +966,7 @@
 - `tools/progress.py`
 - `tools/release_notes.py`
 - `tools/render_program.py`
+- `tools/sync_maintenance_issue.py`
 - `tools/validate_datasets.py`
 - `tools/validate_iso20022.py`
 - `tools/validate_metadata.py`

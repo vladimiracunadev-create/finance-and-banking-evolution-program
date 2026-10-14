@@ -57,18 +57,22 @@ jobs:
             --accept 200,206,403,429
             --exclude-path node_modules
             --exclude-path site
-            --exclude-mail
             "**/*.md"
           output: informe-enlaces.md
           fail: false
 
-      - name: Abrir issue si hay enlaces rotos
-        if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
-        with:
-          title: "Enlaces externos rotos en el material"
-          content-filepath: informe-enlaces.md
-          labels: mantenimiento, documentacion
+      - name: Mantener un unico issue de enlaces rotos
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          FALLOS: ${{ steps.lychee.outputs.exit_code }}
+        run: >-
+          python tools/sync_maintenance_issue.py
+          --title "Enlaces externos rotos en el material"
+          --body-file informe-enlaces.md
+          --active-count "${FALLOS:-1}"
+          --label mantenimiento
+          --label documentacion
 
       # El codigo de salida llega por entorno, no interpolado en el script:
       # una expresion ${{ }} dentro de un `run` se expande como texto y abre

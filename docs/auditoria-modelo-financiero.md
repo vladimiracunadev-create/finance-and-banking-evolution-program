@@ -161,7 +161,7 @@ contratos, datos, manual, glosario, enlaces, compilación y `pytest`.
 | Verificación | Resultado |
 |---|---|
 | Estructura del programa | 23 partes, 356 clases, 152 laboratorios, 46 evaluaciones y 23 proyectos |
-| Suite de aplicaciones | 323 pruebas superadas |
+| Suite de aplicaciones y mantenimiento | 327 pruebas superadas |
 | Render y documentos derivados | Render sin pendientes; syllabus, estado, índice y glosario al día |
 | Fuentes | 706 obras, 1 736 citas; registro válido |
 | Enlaces internos | 773 archivos y 7 120 enlaces revisados, sin roturas |
