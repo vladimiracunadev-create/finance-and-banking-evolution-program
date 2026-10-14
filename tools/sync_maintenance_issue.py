@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 from typing import Any, Callable
 from urllib.error import HTTPError
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -26,6 +26,9 @@ def github_request(method: str, url: str, payload: dict[str, Any] | None = None)
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         raise RuntimeError("Falta GITHUB_TOKEN")
+    parsed_url = urlparse(url)
+    if parsed_url.scheme != "https" or parsed_url.hostname != "api.github.com":
+        raise RuntimeError("La API de issues solo admite https://api.github.com")
     data = None if payload is None else json.dumps(payload).encode("utf-8")
     request = Request(
         url,
@@ -39,7 +42,8 @@ def github_request(method: str, url: str, payload: dict[str, Any] | None = None)
         },
     )
     try:
-        with urlopen(request, timeout=30) as response:  # noqa: S310 - URL fija de GitHub
+        # El esquema y el host se validan antes de construir la solicitud.
+        with urlopen(request, timeout=30) as response:  # nosec B310
             content = response.read()
     except HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")

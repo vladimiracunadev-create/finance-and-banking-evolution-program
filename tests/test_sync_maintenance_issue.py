@@ -1,9 +1,11 @@
 from pathlib import Path
 import sys
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).parents[1] / "tools"))
 
-from sync_maintenance_issue import matching_issues, sync_issue
+from sync_maintenance_issue import github_request, matching_issues, sync_issue
 
 
 def test_matching_issues_excludes_pull_requests_and_sorts_by_number():
@@ -15,6 +17,13 @@ def test_matching_issues_excludes_pull_requests_and_sorts_by_number():
     ]
 
     assert [issue["number"] for issue in matching_issues(issues, "Monitor")] == [3, 9]
+
+
+def test_github_request_rejects_untrusted_hosts(monkeypatch):
+    monkeypatch.setenv("GITHUB_TOKEN", "token-de-prueba")
+
+    with pytest.raises(RuntimeError, match="api.github.com"):
+        github_request("GET", "https://example.com/issues")
 
 
 def test_active_monitor_updates_oldest_issue_and_closes_duplicates():

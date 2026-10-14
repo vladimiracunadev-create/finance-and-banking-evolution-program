@@ -51,7 +51,7 @@
 
 > 🧭 **Estado del programa.** **Programa completo: las 5 etapas y sus 23 partes (356 clases) están construidas** — de la aritmética elemental al proyecto capstone de un banco digital con mercado tokenizado. Ninguna parte es un esqueleto.
 >
-> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **327 pruebas** sobre las 11 aplicaciones y las herramientas de mantenimiento en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
+> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **328 pruebas** sobre las 11 aplicaciones y las herramientas de mantenimiento en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
 
 ## 🎯 Qué es esto
 
@@ -259,7 +259,7 @@ Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/R
 
 ## 🧪 Laboratorios y aplicaciones ejecutables
 
-Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las aplicaciones y las herramientas de mantenimiento están cubiertas por **327 pruebas** en CI.
+Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las aplicaciones y las herramientas de mantenimiento están cubiertas por **328 pruebas** en CI.
 
 | Aplicación | Qué hace | Se usa en |
 |---|---|---|
@@ -365,7 +365,7 @@ El repositorio no se publica a ciegas: cada `push` y cada PR pasan por integraci
 
 | ⚙️ Flujo | Qué cubre | Cuándo |
 |---|---|---|
-| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 327 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
+| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 328 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
 | 🔒 [security.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/security.yml) | `pip-audit`, `bandit` y escaneo de secretos sobre el historial | Cada cambio y cada lunes |
 | 🔍 [codeql.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/codeql.yml) | Análisis semántico del código Python | Cada cambio y cada jueves |
 | 🌐 [pages.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/pages.yml) | Genera y publica el portal, y verifica que responda | Al cambiar el contenido |
