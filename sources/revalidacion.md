@@ -168,7 +168,7 @@ motivo, que es la única forma honesta de declarar un hueco.
 | oecd-privacy-framework-2013 | 403 | `https://www.oecd.org/digital/ieconomy/privacy-guidelines.htm` |
 | oecd-privacy-guidelines-2013 | 403 | `https://www.oecd.org/digital/privacy` |
 | pensions-at-a-glance-2023 | 403 | `https://www.oecd.org/pensions` |
-| practical-byzantine-fault-tolerance-1999 | 0 | `https://pmg.csail.mit.edu/papers/osdi99.pdf` |
+| practical-byzantine-fault-tolerance-1999 | 200 | `https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html` |
 | recomendacion-16-y-activos-virtuales | 403 | `https://www.fatf-gafi.org/en/topics/virtual-assets.html` |
 | remittance-prices-worldwide | 403 | `https://remittanceprices.worldbank.org/` |
 | resolution-concerning-statistics-of-work-employment-and-labour-underutilizat-2013 | 403 | `https://ilostat.ilo.org/` |

@@ -9791,14 +9791,14 @@
       "publisher": "OSDI",
       "authority": "OSDI",
       "amendable": false,
-      "cited_url": "https://pmg.csail.mit.edu/papers/osdi99.pdf",
+      "cited_url": "https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html",
       "used_in": [
         "modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/05-mecanismos-de-consenso.md"
       ],
-      "status": "pendiente",
-      "pending_reason": "no se pudo abrir el enlace desde el equipo que revalidó (red o TLS)",
-      "locator": "https://pmg.csail.mit.edu/papers/osdi99.pdf",
-      "http_status": 0
+      "status": "verificada",
+      "locator": "https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html",
+      "accessed": "2026-10-14",
+      "http_status": 200
     },
     {
       "id": "practical-financial-modelling-2015",

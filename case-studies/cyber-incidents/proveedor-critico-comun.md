@@ -176,7 +176,7 @@ EL 3 % DEL COSTE.
 
 ## Fuentes
 
-- Financial Stability Board (2023). *Enhancing Third-Party Risk Management and Oversight*. <https://www.fsb.org/2023/12/enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities/>
+- Financial Stability Board (2023). *Enhancing Third-Party Risk Management and Oversight*. <https://www.fsb.org/2023/12/final-report-on-enhancing-third-party-risk-management-and-oversight-a-toolkit-for-financial-institutions-and-financial-authorities-2/>
 - Diario Oficial de la Unión Europea (2022). *Reglamento (UE) 2022/2554, resiliencia operativa digital*. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32022R2554>
 - Comité de Supervisión Bancaria de Basilea (2021). *Principles for Operational Resilience*. <https://www.bis.org/bcbs/publ/d516.htm>
 - CMF. *Normativa sobre gestión de riesgo operacional y externalización*. <https://www.cmfchile.cl/>

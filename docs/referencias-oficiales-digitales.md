@@ -50,9 +50,9 @@ entrada dice qué se verifica ahí, y no solo dónde está.
 
 | Organismo | Qué publica que este programa usa | Sitio |
 |---|---|---|
-| **BIS — CPMI** | Hoja de ruta de pagos transfronterizos, principios de infraestructuras, trabajos sobre pago contra pago | <https://www.bis.org/cpmi/> |
+| **BIS — CPMI** | Hoja de ruta de pagos transfronterizos, principios de infraestructuras, trabajos sobre pago contra pago | <https://www.bis.org/committees/cpmi/overview> |
 | **BIS — Comité de Basilea** | Tratamiento prudencial de exposiciones a criptoactivos, resiliencia operativa | <https://www.bis.org/bcbs/> |
-| **BIS — Innovation Hub** | Proyectos institucionales de infraestructura financiera | <https://www.bis.org/about/bisih/> |
+| **BIS — Innovation Hub** | Proyectos institucionales de infraestructura financiera | <https://www.bis.org/about/innovation-hub/overview> |
 | **FSB** | Marco global de criptoactivos, stablecoins globales, riesgo de terceros | <https://www.fsb.org/> |
 | **IOSCO** | Recomendaciones sobre mercados de activos digitales y finanzas descentralizadas, principios de índices | <https://www.iosco.org/> |
 | **GAFI** | Recomendación 16, activos virtuales y sus proveedores | <https://www.fatf-gafi.org/> |

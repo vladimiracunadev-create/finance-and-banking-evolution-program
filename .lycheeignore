@@ -17,3 +17,9 @@
 ^https://www\.federalreserve\.gov/
 ^https://www\.consumerfinance\.gov/
 ^https://www\.fca\.org\.uk/
+^https://www\.asamblea\.gob\.sv/
+^https://www\.wolfsberg-principles\.com/
+
+# Documento vigente de la CMF que responde en navegador y buscadores, pero
+# cuyo CDN devuelve 404 a los agentes automaticos.
+^https://www\.cmfchile\.cl/portal/principal/613/articles-52559_recurso_1\.pdf$

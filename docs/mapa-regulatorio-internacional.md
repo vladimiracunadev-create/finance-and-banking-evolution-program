@@ -63,7 +63,7 @@ concretas, y estas son las que más separan a unas jurisdicciones de otras.
 | Organismo | Qué produce | Naturaleza | Sitio |
 |---|---|---|---|
 | **FSB** | Recomendaciones sobre criptoactivos y stablecoins globales | Estándar, no obliga | <https://www.fsb.org/> |
-| **BIS — CPMI** | Principios y trabajos sobre pagos e infraestructuras | Estándar | <https://www.bis.org/cpmi/> |
+| **BIS — CPMI** | Principios y trabajos sobre pagos e infraestructuras | Estándar | <https://www.bis.org/committees/cpmi/overview> |
 | **IOSCO** | Recomendaciones sobre mercados de activos digitales y finanzas descentralizadas | Estándar | <https://www.iosco.org/> |
 | **Comité de Basilea** | Tratamiento prudencial de exposiciones a criptoactivos | Estándar | <https://www.bis.org/bcbs/> |
 | **GAFI** | Recomendaciones sobre activos virtuales y regla del viaje | Estándar con evaluación mutua | <https://www.fatf-gafi.org/> |

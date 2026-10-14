@@ -991,17 +991,6 @@ Versión inicial: estructura del programa y herramientas base.
 
 ---
 
-[2.0.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v2.0.0
-[1.7.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.7.0
-[1.6.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.6.0
-[1.5.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.5.0
-[1.4.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.4.0
-[1.3.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.3.0
-[1.2.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.2.0
-[1.1.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.1.0
-[1.0.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v1.0.0
-[0.1.0]: https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/releases/tag/v0.1.0
-
 <!-- pie:inicio -->
 ---
 

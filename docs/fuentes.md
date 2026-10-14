@@ -367,8 +367,8 @@ Una fuente pendiente no se borra ni se disimula: se declara. Estas son las razon
 | Open Library no devuelve ninguna obra con ese título y autor | 27 |
 | Open Library no respondió a la consulta | 20 |
 | Open Library no devuelve ediciones de la obra encontrada | 10 |
-| no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 3 |
 | la obra existe en Open Library pero ninguna edición declara ISBN-13 | 2 |
+| no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 2 |
 
 Última revalidación en red: **2026-09-22**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.
 <!-- gen:registro:end -->

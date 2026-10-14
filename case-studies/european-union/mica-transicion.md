@@ -180,8 +180,8 @@ datos.
 ## Fuentes
 
 - Diario Oficial de la Unión Europea (2023). *Reglamento (UE) 2023/1114*. EUR-Lex. <https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R1114>
-- Autoridad Bancaria Europea. *MiCAR: normas técnicas y directrices*. <https://www.eba.europa.eu/regulation-and-policy/markets-crypto-assets>
-- Autoridad Europea de Valores y Mercados. *Crypto-assets and their markets*. <https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/crypto-assets-and-their-markets>
+- Autoridad Bancaria Europea. *MiCAR: normas técnicas y directrices*. <https://www.eba.europa.eu/regulation-and-policy/asset-referenced-and-e-money-tokens-mica>
+- Autoridad Europea de Valores y Mercados. *Crypto-assets and their markets*. <https://www.esma.europa.eu/pl/node/201529>
 - Comisión Europea. *Digital finance package*. <https://finance.ec.europa.eu/digital-finance_en>
 - Ficha normativa del repositorio: [`mica`](../../regulatory/union-europea/mica-reglamento-2023-1114.yml)
 - Verificación local: MiCA no es derecho aplicable en Chile; se estudia como referencia comparada. Las fechas de aplicación, los transitorios nacionales y las normas técnicas **cambian**: consulta la versión consolidada en EUR-Lex y a la autoridad nacional correspondiente. **Fecha de verificación: 2026-08-12.** No constituye asesoría legal.
