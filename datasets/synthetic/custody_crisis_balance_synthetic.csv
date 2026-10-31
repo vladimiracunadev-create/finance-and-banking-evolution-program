@@ -1,0 +1,9 @@
+line_id,side,item,liquidity,amount_musd
+bal_001,asset,Stablecoins en billetera caliente,liquid,35000
+bal_002,asset,BTC y ETH en almacenamiento frio,liquid,25000
+bal_003,asset,Efectivo y equivalentes en bancos,liquid,20000
+bal_004,asset,Activos en staking con bloqueo,non_liquid,12000
+bal_005,asset,Colateral en contrapartes,non_liquid,8000
+bal_006,liability,Saldos spot de clientes,not_applicable,85000
+bal_007,liability,Saldos de productos de rendimiento,not_applicable,15000
+bal_008,protection,Fondo de proteccion de la entidad,not_applicable,800

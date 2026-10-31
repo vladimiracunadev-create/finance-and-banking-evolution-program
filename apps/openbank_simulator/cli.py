@@ -2,6 +2,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 from bank import Bank
+from crisis_digital import ejecutar_escenario
 
 DB = Path(__file__).with_name("openbank.db")
 
@@ -21,7 +22,7 @@ def demo(bank: Bank) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=["demo", "reset", "summary"])
+    parser.add_argument("command", choices=["demo", "reset", "summary", "crisis"])
     args = parser.parse_args()
     bank = Bank(DB)
     if args.command == "reset":
@@ -30,6 +31,10 @@ def main() -> None:
     elif args.command == "demo":
         if DB.exists(): DB.unlink()
         demo(bank)
+    elif args.command == "crisis":
+        if DB.exists(): DB.unlink()
+        for etapa, valor in ejecutar_escenario(bank).items():
+            print(f"{etapa}: {valor}")
     else:
         bank.initialize(); print(bank.summary())
 

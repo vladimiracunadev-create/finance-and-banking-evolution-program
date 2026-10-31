@@ -71,10 +71,10 @@ escriben a mano.
 | Laboratorios | 152 | Estructurados |
 | Evaluaciones | 46 | Diagnóstico y final por parte |
 | Proyectos integradores | 23 | Especificados |
-| Aplicaciones didácticas | 11 | Ejecutables con pruebas |
-| Estudios de caso | 34 | Con hechos, fuentes y preguntas |
+| Aplicaciones didácticas | 12 | Ejecutables con pruebas |
+| Estudios de caso | 35 | Con hechos, fuentes y preguntas |
 | Fichas normativas estructuradas | 13 | Con fecha de verificación |
-| Datasets documentados | 9 | Sintéticos, con diccionario |
+| Datasets documentados | 11 | Sintéticos, con diccionario |
 | Adaptación normativa por país | — | Plantilla; cada clase indica qué verificar |
 
 ## 🔍 Cómo verificarlo

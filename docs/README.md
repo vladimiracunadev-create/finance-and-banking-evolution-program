@@ -55,7 +55,9 @@ sustituye. El número exacto de partes y clases está en
 | 🧪 **[Guía de laboratorios digitales](guia-laboratorios-digitales.md)** | Cómo son, cómo se ejecutan y cómo se corrigen los laboratorios de la Etapa 5 |
 | 📊 **[Auditoría de modelamiento financiero](auditoria-modelo-financiero.md)** | Cobertura, brechas y cambios desde supuestos empresariales hasta caja y capital |
 | 🌐 **[Guía docente de la Etapa 5](guia-docente-etapa-5.md)** | Qué cambia al enseñar las Partes 17 a 23 y los cinco errores docentes propios de la etapa |
-| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Treinta y cuatro casos con hechos, actores, decisiones, regulación, controles y preguntas |
+| 🚨 **[Crisis financiera digital](crisis-financiera-digital.md)** | Especialización transversal: custodia, respaldo, retiros masivos, reposición y recuperación, con la matemática explicada primero |
+| 📝 **[Ejercicios y evaluación de crisis digital](ejercicios-crisis-financiera-digital.md)** | Cinco ejercicios resueltos, ocho propuestas de cálculo y una evaluación con rúbrica y pauta |
+| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Treinta y cinco casos con hechos, actores, decisiones, regulación, controles y preguntas |
 
 ## Para todos
 

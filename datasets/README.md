@@ -31,6 +31,8 @@ esa ruta. Sus fichas están en `schemas/`, igual que las de los demás.
 | `synthetic/custody_ledger_synthetic.csv` | 3 | [ficha](schemas/custody_ledger_synthetic.md) | Parte 20, lab 9 |
 | `synthetic/custody_positions_synthetic.csv` | 7 | [ficha](schemas/custody_positions_synthetic.md) | Parte 20, lab 9 |
 | `synthetic/custody_trading_synthetic.csv` | 4 | [ficha](schemas/custody_trading_synthetic.md) | Parte 20, lab 9 |
+| `synthetic/custody_crisis_balance_synthetic.csv` | 8 | [ficha](schemas/custody_crisis_balance_synthetic.md) | `custody_crisis_lab`, [crisis digital](../docs/crisis-financiera-digital.md) |
+| `synthetic/custody_crisis_scenarios_synthetic.csv` | 3 | [ficha](schemas/custody_crisis_scenarios_synthetic.md) | `custody_crisis_lab`, [crisis digital](../docs/crisis-financiera-digital.md) |
 
 ## Reglas
 

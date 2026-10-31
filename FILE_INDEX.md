@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-953-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-975-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -74,6 +74,18 @@
 - `apps/cross_border_payments_lab/screening/__init__.py`
 - `apps/cross_border_payments_lab/settlement/__init__.py`
 - `apps/cross_border_payments_lab/stablecoin_route/__init__.py`
+- `apps/custody_crisis_lab/README.md`
+- `apps/custody_crisis_lab/__init__.py`
+- `apps/custody_crisis_lab/cases.py`
+- `apps/custody_crisis_lab/cli.py`
+- `apps/custody_crisis_lab/costs.py`
+- `apps/custody_crisis_lab/datos.py`
+- `apps/custody_crisis_lab/entity.py`
+- `apps/custody_crisis_lab/incident.py`
+- `apps/custody_crisis_lab/recovery.py`
+- `apps/custody_crisis_lab/replenish.py`
+- `apps/custody_crisis_lab/runs.py`
+- `apps/custody_crisis_lab/scenario.py`
 - `apps/digital_assets_risk_lab/README.md`
 - `apps/digital_assets_risk_lab/__init__.py`
 - `apps/digital_assets_risk_lab/algorithmic.py`
@@ -132,6 +144,7 @@
 - `apps/openbank_simulator/README.md`
 - `apps/openbank_simulator/bank.py`
 - `apps/openbank_simulator/cli.py`
+- `apps/openbank_simulator/crisis_digital.py`
 - `apps/regulatory_perimeter_engine/README.md`
 - `apps/regulatory_perimeter_engine/__init__.py`
 - `apps/regulatory_perimeter_engine/cli.py`
@@ -159,6 +172,7 @@
 - `case-studies/cross-border-payments/falla-pvp.md`
 - `case-studies/cross-border-payments/falta-de-liquidez.md`
 - `case-studies/cross-border-payments/pago-retenido.md`
+- `case-studies/custody/binance-2026.md`
 - `case-studies/custody/celsius.md`
 - `case-studies/custody/custodia-andina-digital.md`
 - `case-studies/custody/ftx-alameda.md`
@@ -190,6 +204,8 @@
 - `datasets/processed/README.md`
 - `datasets/raw/README.md`
 - `datasets/schemas/README.md`
+- `datasets/schemas/custody_crisis_balance_synthetic.md`
+- `datasets/schemas/custody_crisis_scenarios_synthetic.md`
 - `datasets/schemas/custody_ledger_synthetic.md`
 - `datasets/schemas/custody_positions_synthetic.md`
 - `datasets/schemas/custody_trading_synthetic.md`
@@ -200,6 +216,8 @@
 - `datasets/schemas/sanctions_screening_alerts.md`
 - `datasets/schemas/transactions_synthetic.md`
 - `datasets/synthetic/README.md`
+- `datasets/synthetic/custody_crisis_balance_synthetic.csv`
+- `datasets/synthetic/custody_crisis_scenarios_synthetic.csv`
 - `datasets/synthetic/custody_ledger_synthetic.csv`
 - `datasets/synthetic/custody_positions_synthetic.csv`
 - `datasets/synthetic/custody_trading_synthetic.csv`
@@ -215,8 +233,10 @@
 - `docs/README.md`
 - `docs/arquitectura-mercado-tokenizado.md`
 - `docs/auditoria-modelo-financiero.md`
+- `docs/crisis-financiera-digital.md`
 - `docs/custodia-conciliacion-y-gobernanza.md`
 - `docs/economias-virtuales-y-bienes-digitales.md`
+- `docs/ejercicios-crisis-financiera-digital.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
 - `docs/formulas.md`
@@ -943,12 +963,14 @@
 - `sources/revalidacion.md`
 - `tests/test_calculators.py`
 - `tests/test_cross_border_payments_lab.py`
+- `tests/test_custody_crisis_lab.py`
 - `tests/test_digital_assets_risk_lab.py`
 - `tests/test_digital_bank_capstone.py`
 - `tests/test_dlt_financial_lab.py`
 - `tests/test_onchain_fx_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`
+- `tests/test_openbank_crisis.py`
 - `tests/test_regulatory_perimeter_engine.py`
 - `tests/test_scoring.py`
 - `tests/test_sync_maintenance_issue.py`

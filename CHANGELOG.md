@@ -26,6 +26,17 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ### ✨ Añadido
 
+- **Especialización en crisis financiera digital** (sin añadir ni renumerar
+  clases): [guía](docs/crisis-financiera-digital.md) con la matemática explicada
+  primero, [ejercicios y evaluación](docs/ejercicios-crisis-financiera-digital.md),
+  [caso Binance 2026](case-studies/custody/binance-2026.md) con cifras públicas
+  preliminares y sus discrepancias.
+- Aplicación `custody_crisis_lab` (respaldo antes y después, fondos congelados,
+  retiros masivos, reposición, costos y plan de recuperación), dos datasets
+  sintéticos con ficha y 48 pruebas nuevas (328 → 376).
+- Escenario `crisis` del simulador `openbank_simulator` (`crisis_digital.py`),
+  aditivo: `bank.py` y su esquema no cambian.
+
 - **GAMECO**, caso transversal de cinco fases: moneda cerrada, items
   transferibles, marketplace P2P, payout en CLP y tokenización.
 - Dossier de economías virtuales y bienes digitales, laboratorio 10 de la Parte

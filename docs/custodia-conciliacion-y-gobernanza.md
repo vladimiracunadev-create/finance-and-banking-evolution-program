@@ -5,6 +5,10 @@ No repite gestión de claves ni ciberseguridad: esas materias están en las Part
 19 y 20. Aquí la pregunta es **cómo demuestra una institución que los activos
 que afirma custodiar existen, pertenecen al cliente y están disponibles**.
 
+> **Ver también.** Qué ocurre cuando falta parte de esos activos: [crisis
+> financiera digital](crisis-financiera-digital.md) y el
+> [caso Binance 2026](../case-studies/custody/binance-2026.md).
+
 ## El sistema mínimo de evidencia
 
 ```text

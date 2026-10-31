@@ -1,0 +1,4 @@
+scenario_id,name,stolen_musd,frozen_musd,restitution_prob,liquid_share_of_loss,run_base_rate,run_sensitivity,pause_days,sale_haircut
+crd_001,Perdida menor,1000,300,0.80,1.00,0.02,0.5,0,0.05
+crd_002,Perdida extraordinaria,6300,3000,0.80,1.00,0.03,1.0,2,0.05
+crd_003,Perdida severa,20000,4000,0.50,0.90,0.05,1.5,5,0.08

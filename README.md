@@ -20,7 +20,7 @@
 [![Idioma](https://img.shields.io/badge/idioma-español-1f6feb?style=for-the-badge)](SYLLABUS.md)
 [![Licencias](https://img.shields.io/badge/licencias-MIT%20%2B%20CC%20BY--NC--SA%204.0-3fb950?style=for-the-badge)](LICENSE-CONTENT.md)
 
-[![Python](https://img.shields.io/badge/Python-11%20apps%20%26%20labs-3776AB?style=flat-square&logo=python&logoColor=white)](apps/)
+[![Python](https://img.shields.io/badge/Python-12%20apps%20%26%20labs-3776AB?style=flat-square&logo=python&logoColor=white)](apps/)
 [![NIIF](https://img.shields.io/badge/NIIF%2FIFRS-contabilidad-004b87?style=flat-square)](modules/04-contabilidad-financiera/README.md)
 [![Basilea III](https://img.shields.io/badge/Basilea%20III-capital%20y%20liquidez-8b0000?style=flat-square)](modules/11-regulacion-cumplimiento-y-auditoria/README.md)
 [![ISO 20022](https://img.shields.io/badge/ISO%2020022-mensajería%20de%20pagos-005f9e?style=flat-square)](modules/17-pagos-transfronterizos-remesas-y-liquidacion/README.md)
@@ -51,7 +51,7 @@
 
 > 🧭 **Estado del programa.** **Programa completo: las 5 etapas y sus 23 partes (356 clases) están construidas** — de la aritmética elemental al proyecto capstone de un banco digital con mercado tokenizado. Ninguna parte es un esqueleto.
 >
-> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **328 pruebas** sobre las 11 aplicaciones y las herramientas de mantenimiento en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
+> **Qué verifica una máquina y qué no**, para que sepas de qué te fías: la CI comprueba en cada `push` que las **356 clases** traigan sus 11 secciones obligatorias y ≥ 4 fuentes, que **todos los enlaces relativos** resuelvan, que ningún documento generado (`STATUS.md`, `SYLLABUS.md`, glosario, portal, manual) esté desfasado, y ejecuta **378 pruebas** sobre las 12 aplicaciones y las herramientas de mantenimiento en 3 sistemas × 3 versiones de Python. Lo que **no** verifica una máquina es la corrección conceptual del texto ni la vigencia de una norma citada: eso se apoya en la bibliografía y en la fecha de verificación que cada ficha normativa declara.
 
 ## 🎯 Qué es esto
 
@@ -259,17 +259,18 @@ Cada release publica su `SHA256SUMS.txt`. Detalle técnico en [mobile/](mobile/R
 
 ## 🧪 Laboratorios y aplicaciones ejecutables
 
-Además de las clases, el programa incluye **11 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las aplicaciones y las herramientas de mantenimiento están cubiertas por **328 pruebas** en CI.
+Además de las clases, el programa incluye **12 aplicaciones en Python** que se ejecutan con un comando y sostienen los **152 laboratorios** y los **23 proyectos integradores**. Las aplicaciones y las herramientas de mantenimiento están cubiertas por **378 pruebas** en CI.
 
 | Aplicación | Qué hace | Se usa en |
 |---|---|---|
 | 🧮 **`financial_calculators`** | Interés, amortización y modelo empresarial trazable: unit economics, caja, escenarios y capital | Partes 1, 7 y 13 |
 | 📊 **`credit_scoring`** | Modelo de scoring con métricas de discriminación | Partes 9 y 14 |
-| 🏦 **`openbank_simulator`** | Banco con cuentas y movimientos sobre SQLite | Partes 10 y 16 |
+| 🏦 **`openbank_simulator`** | Banco con cuentas y movimientos sobre SQLite, más un escenario de crisis digital (`crisis`) | Partes 10, 16 y 23 |
 | 🔓 **`open_finance_sandbox`** | Entorno de finanzas abiertas: consentimiento, OAuth/FAPI y alcances | Parte 17 |
 | 🌍 **`cross_border_payments_lab`** | Corresponsalía, ISO 20022, liquidez y enrutamiento de pagos | Parte 18 |
 | ⛓️ **`dlt_financial_lab`** | Consenso, bloques, Merkle, direcciones y contratos | Parte 19 |
 | 💵 **`digital_assets_risk_lab`** | Reservas, GAMECO, custodia, conciliación, trading, liquidez y contagio | Partes 20 y 21 |
+| 🚨 **`custody_crisis_lab`** | Crisis de custodia: respaldo antes y después, fondos congelados, retiros masivos, reposición, costos y plan de recuperación | Partes 11, 12, 20 y 23 · [guía](docs/crisis-financiera-digital.md) |
 | 🪙 **`tokenization_platform`** | Emisión, ciclo de vida, mercado secundario y DvP atómico | Parte 21 |
 | 💱 **`onchain_fx_lab`** | Formación de precio, PvP y creación de mercado automatizada | Parte 21 |
 | ⚖️ **`regulatory_perimeter_engine`** | Perímetro, calificación de instrumentos y autorización | Parte 22 |
@@ -365,7 +366,7 @@ El repositorio no se publica a ciegas: cada `push` y cada PR pasan por integraci
 
 | ⚙️ Flujo | Qué cubre | Cuándo |
 |---|---|---|
-| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 328 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
+| 🧪 [ci.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/ci.yml) | Estructura, documentos generados, enlaces internos, `markdownlint` y 378 pruebas en 3 sistemas × 3 versiones de Python, más auditoría de los propios workflows | Cada cambio |
 | 🔒 [security.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/security.yml) | `pip-audit`, `bandit` y escaneo de secretos sobre el historial | Cada cambio y cada lunes |
 | 🔍 [codeql.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/codeql.yml) | Análisis semántico del código Python | Cada cambio y cada jueves |
 | 🌐 [pages.yml](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/.github/workflows/pages.yml) | Genera y publica el portal, y verifica que responda | Al cambiar el contenido |
@@ -431,7 +432,7 @@ pytest -q && npx markdownlint-cli2 "**/*.md"
 ### ✅ Lo que sí es
 
 - 📚 un currículo **secuencial y completo** de 356 clases, de la aritmética a la dirección bancaria;
-- 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 11 aplicaciones ejecutables sostienen 152 laboratorios;
+- 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 12 aplicaciones ejecutables sostienen 152 laboratorios;
 - 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**706** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
 - 🏦 un puente **cliente ↔ banco**: la misma clase sirve a quien lee su estado de cuenta y a quien decide ese cobro;
 - 🌐 material **abierto y offline-friendly** (manual PDF de más de 3 500 páginas + portal en Pages), en español.

@@ -1,6 +1,6 @@
 # Biblioteca de casos
 
-Treinta y cuatro casos para trabajar en clase, en laboratorio o en evaluación. Todos
+Treinta y cinco casos para trabajar en clase, en laboratorio o en evaluación. Todos
 comparten la misma estructura de diez bloques y la misma disciplina: **los hechos
 van separados de las decisiones, y las decisiones separadas de las lecciones.**
 
@@ -56,7 +56,7 @@ no permite concluir.
 | [`iso20022/`](iso20022/) | 1 | 18 |
 | [`blockchain/`](blockchain/) | 4 | 19 |
 | [`stablecoins/`](stablecoins/) | 3 | 20 |
-| [`custody/`](custody/) | 3 | 11, 12, 20 y 22 |
+| [`custody/`](custody/) | 4 | 11, 12, 15, 20, 22 y 23 |
 | [`tokenization/`](tokenization/) | 2 | 21 |
 | [`fx-onchain/`](fx-onchain/) | 1 | 21 |
 | [`market-regulation/`](market-regulation/) | 7 | 4, 12, 13, 14 y 22 |
