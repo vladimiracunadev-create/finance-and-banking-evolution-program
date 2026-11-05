@@ -69,6 +69,10 @@ Los cuatro primeros términos son el momento y el mecanismo; los cuatro siguient
 | `funciones críticas` | Actividades cuya interrupción dañaría la economía real. |
 | `plan de resolución` | Documento que describe cómo se resolvería la entidad. |
 | `principio de no perjuicio` | Ningún acreedor puede quedar peor que en una liquidación ordinaria. |
+| `interventor` | Agente que la autoridad designa para verificar la situación patrimonial y preservar los activos durante la resolución. |
+| `balance de exclusión` | Corte que separa los activos y pasivos que se transfieren de los que quedan en la entidad resuelta. |
+| `anticipo de garantía` | Primer desembolso de la garantía, que es una fracción del total cubierto y no el total. |
+| `subrogación` | Derecho del fondo a ocupar el lugar del depositante frente al banco por lo que ya pagó. |
 
 ## 🧠 Modelo mental
 
@@ -232,6 +236,65 @@ LO QUE EL SEGURO NO CUBRE
 la confusión entre depósito e inversión
 es una fuente recurrente de daño al cliente
 ```
+
+### Caso en desarrollo · Ueno Bank Paraguay: resolución, garantía y consecuencias para depositantes
+
+Hasta aquí la clase ha descrito los instrumentos de resolución y el seguro de depósitos en
+abstracto. El caso de ueno bank permite verlos operar en una jurisdicción concreta mientras el
+desenlace sigue abierto (**fecha de corte 4 de noviembre de 2026**). Recuérdese del tramo anterior
+de la Parte 12 el índice de solvencia (clase 6) y la supervisión (clase 13); sin ellos el comunicado
+no se entiende.
+
+**Lo documentado.** El Directorio del BCP resolvió el 2 de noviembre iniciar el procedimiento de
+resolución, al amparo de la Ley N.º 2.334/03; el índice de solvencia quedó por debajo del 50 % del
+mínimo tras ajustes a los estados financieros; la Superintendencia designa interventores; la
+garantía cubre **hasta 75 salarios mínimos por depositante y por entidad** (Gs 228.300.000 «a la
+fecha»); el 4 de noviembre se anunció un **anticipo** de hasta 40 salarios mínimos, descontando
+deudas vencidas **[comunicados del BCP, vía prensa]**. Los instrumentos precisos de la ley no
+se detallan en esos comunicados, y este expediente no afirma el contenido de ningún artículo.
+
+Cuatro distinciones separan una lectura correcta de una errónea. Una **resolución** no es una
+liquidación: busca que las funciones críticas continúen mientras la entidad termina. La
+**garantía** es por depositante y por entidad, no por cuenta: tres cuentas en el mismo banco
+suman antes del tope. El **anticipo** (primer desembolso) no equivale al total cubierto: 40 de
+75 salarios es el 53,3 %. Y el **saldo cubierto** no es el **saldo depositado**: un depositante
+con Gs 400 millones tiene cubierto el 57,1 % y no cubierto el 42,9 %.
+
+```mermaid
+flowchart TD
+    A["Depositante con saldo S<br/>en una entidad"] --> B{"S ≤ tope de garantía?"}
+    B -- Sí --> C["Cubierto = S<br/>(menos deudas vencidas)"]
+    B -- No --> D["Cubierto = tope<br/>No cubierto = S − tope"]
+    C --> E["Anticipo: hasta 40 salarios mínimos"]
+    D --> E
+    E --> F["Remanente cubierto: calendario por anunciar"]
+    D --> G["No cubierto: compensación 'en la mayor medida posible'<br/>(sin cifra definida)"]
+```
+
+El diagrama recorre la decisión que toma el fondo con cada depositante. Lo que hay que mirar
+es que **hay tres cantidades** en el camino (anticipo, remanente cubierto, no cubierto), y que
+la última no tiene regla numérica en las fuentes leídas. La **jerarquía de absorción** de esta
+clase gobernaría quién pierde primero; en Paraguay, la prelación aplicable se verifica en la
+ley, y **los instrumentos y límites de resolución dependen de la jurisdicción**.
+
+**Ejemplo guiado profesional.** El ejercicio A1 de la guía compara cuatro alternativas con el
+banco sintético (liquidación y pago directo; venta total; transferencia de cubiertos con los
+mejores activos; transferencia con activos proporcionales) y aplica el principio de no perjuicio
+y una regla de menor costo: solo la cuarta cumple ambas y mantiene el servicio. El ejercicio I4
+calcula anticipo, remanente y no cubierto para tres depositantes.
+
+**Consecuencias.** Para el depositante pequeño, la garantía protege su depósito; la incertidumbre
+es de *tiempo*. Para el depositante grande y las empresas, la incertidumbre es de *monto* y de
+tiempo. Los servicios de pago se acotan con medidas concretas (alias liberados en el SIP el 4
+de noviembre). Los **fondos mutuos** vinculados no están garantizados: son patrimonios separados
+y la Superintendencia de Valores suspendió temporalmente los rescates **[hechos comunicados]**.
+**Pendiente:** balance de exclusión, déficit, entidades receptoras y calendario de pagos.
+
+**Práctica con el caso.** Resuelve B3, I4 y A1 de la guía y escribe, en cinco líneas, qué diría
+un comunicado claro a un depositante con Gs 400 millones.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la resolución, la garantía y sus consecuencias.
 
 ## 🧮 Ejemplo guiado
 
@@ -454,6 +517,7 @@ Los síntomas de la tabla describen resoluciones impugnadas. Las causas son jera
 3. ¿Por qué importa quién es el tenedor de los instrumentos de absorción?
 4. ¿Qué garantiza el principio de no perjuicio y por qué genera litigios?
 5. ¿Por qué el seguro de depósitos reduce la probabilidad de una corrida?
+6. Un depositante tiene dos cuentas de Gs 150 millones en la misma entidad: ¿cuánto está cubierto, qué parte se anticipa y qué parte queda sin cubrir? ¿Cambia algo si una cuenta está en otro banco?
 
 ## 📥 Entregable
 
@@ -463,6 +527,7 @@ Guarda en `portfolio/parte-12/clase-12/`:
 - la verificación del principio de no perjuicio;
 - la elección del instrumento con su justificación;
 - los cinco impedimentos identificados y su preparación.
+- el cálculo de garantía, anticipo y no cubierto para tres depositantes sintéticos y la comparación de las cuatro alternativas de resolución (caso Ueno, I4 y A1).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -482,6 +547,8 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - International Association of Deposit Insurers (2014). *Core Principles for Effective Deposit Insurance Systems*. IADI. Diseño del seguro de depósitos y su cobertura. <https://www.iadi.org/>
 - Unión Europea (2014). *Directiva 2014/59/UE de reestructuración y resolución de entidades de crédito (BRRD)*. Aplicación europea del régimen de resolución.
 - International Monetary Fund y World Bank (2009). *An Overview of the Legal, Institutional, and Regulatory Framework for Bank Insolvency*. IMF. Marco legal e institucional de la insolvencia bancaria.
+- Banco Central del Paraguay (2026). *Banco Central inicia el procedimiento de resolución de ueno bank*. BCP. Comunicado que inicia la resolución y declara la garantía de depósitos en el caso de la entidad. <https://www.bcp.gov.py/web/institucional/w/banco-central-inicia-el-procedimiento-de-resolucion-de-ueno-bank>
+- Paraguay (2003). *Ley N.º 2.334/03 de garantía de depósitos y resolución de entidades de intermediación financiera*. Marco legal que invoca el BCP para la resolución y la garantía.
 - Verificación local: identifica la autoridad de resolución de tu país, el límite de cobertura del seguro de depósitos, qué instrumentos cubre y el plazo de pago.
 
 <!-- gen:footer:start -->

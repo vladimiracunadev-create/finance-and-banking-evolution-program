@@ -208,6 +208,40 @@ FÓRMULA DE BASILEA (enfoque IRB, cartera granular)
 **Esta fórmula supone granularidad perfecta.** Cuando la cartera está concentrada, subestima el capital,
 y por eso el Pilar 2 exige un cargo adicional por concentración.
 
+### Caso en desarrollo · Ueno Bank Paraguay: cartera, partes relacionadas y concentración por grupo
+
+La clase mide la concentración de una cartera. El caso de ueno bank añade una pregunta que
+los índices no contestan solos: **¿quién es el deudor?** El BCP afirma que en junio de 2026
+la Superintendencia detectó créditos a empresas **vinculadas al grupo controlador**, y que
+después observó carpetas de crédito con debilidades que obligaron a previsiones adicionales
+**[declaraciones atribuidas]**. Que esas operaciones existieran no demuestra que fueran
+irregulares: eso es materia de las investigaciones **[pendiente]**.
+
+Una **parte relacionada** es una persona o empresa con vínculo de propiedad, control o
+gestión con el banco; prestarle es un riesgo especial porque las condiciones pueden no ser
+las de mercado. Una **exposición por grupo** suma los créditos a todas las empresas que
+dependen del mismo controlador, porque si el grupo cae, caen juntas. La tabla compara lo que
+ve cada forma de medir en una cartera sintética de 1 000 con cuatro empresas del mismo
+grupo (60, 40, 30 y 20) y diez deudores independientes de 20.
+
+| Medida | Por nombre | Por grupo |
+|---|---:|---:|
+| Mayor exposición | 60 | 150 |
+| Cinco mayores / cartera | 17,0 % | 23,0 % |
+| Índice de Herfindahl (pp²) | 105 | 265 |
+| Mayor exposición / capital (100) | 60 % | 150 % |
+
+La lectura es que mirar prestatario por prestatario **subestima la concentración 2,5 veces**
+y que, medida contra el capital —que es lo que absorbe la pérdida—, la exposición al grupo
+supera el capital completo. Si el grupo perdiera el 40 %, la pérdida (60) equivale a la
+provisión que en la Parte 12 se traducirá en una caída del índice de solvencia.
+
+**Práctica con el caso.** Resuelve B4 y A3 de la guía. Declara qué criterio de vinculación
+usas (control, dependencia económica) y por qué.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la cartera, la vinculación y la concentración.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula la pérdida esperada e inesperada de una cartera con y sin correlación. La diferencia entre ambos casos es lo que justifica todo el aparato de esta clase.
@@ -399,6 +433,7 @@ Los síntomas de la tabla describen carteras que perdieron mucho más de lo mode
 3. ¿Por qué el riesgo sistémico no se diversifica?
 4. ¿Por qué la fórmula IRB subestima el capital de una cartera concentrada?
 5. ¿Qué es la concentración por fuente de repago y por qué es difícil de detectar?
+6. ¿Por qué cuatro empresas del mismo controlador son, a efectos de riesgo, un solo deudor, y qué no permite concluir el caso Ueno sobre la calidad de esos créditos?
 
 ## 📥 Entregable
 
@@ -408,6 +443,7 @@ Guarda en `portfolio/parte-11/clase-03/`:
 - el índice de Herfindahl y el número efectivo de exposiciones calculados;
 - el capital del segmento con y sin ajuste por correlación;
 - los límites de concentración diseñados con su fundamento.
+- las dos columnas (por nombre y por grupo) de la cartera sintética, con el HHI de cada una y una frase sobre qué decisión cambia la lectura por grupo (caso Ueno, A3).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

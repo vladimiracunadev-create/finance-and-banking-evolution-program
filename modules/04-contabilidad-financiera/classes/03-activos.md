@@ -186,6 +186,14 @@ La primera fila es el indicador temprano más útil: si las ventas crecen 10 % y
 crecen 45 %, o se está vendiendo a clientes que no pagan, o se están reconociendo ingresos
 anticipadamente. Ambas hipótesis importan.
 
+### Conexión con un caso · Ueno Bank Paraguay: activar un gasto exige respaldo
+
+Un activo intangible, como un software, se registra cuando se espera un beneficio futuro y el
+costo es medible. En el caso de ueno bank, el BCP mencionó servicios informáticos activados «sin
+una justificación plenamente respaldada» **[declaración atribuida]**: el problema documentado es de
+**respaldo contable**, no de funcionamiento del software. En la clase 15 de la Parte 12 se estudia
+qué hace un auditor ante una activación así.
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** Un analista compara dos años del activo de una empresa comercial.
@@ -312,6 +320,7 @@ Los síntomas de la tabla describen activos que valen menos de lo que dicen. Las
 3. ¿Cómo se calcula el importe recuperable y qué ocurre si es menor al valor en libros?
 4. Las cuentas por cobrar crecen 80 % con ventas creciendo 8 %. ¿Qué dos hipótesis investigas?
 5. ¿Por qué una marca desarrollada internamente no aparece en el balance y qué implica eso?
+6. ¿Qué condiciones debe cumplir un gasto para activarse y por qué su falta no prueba que el activo no funcione?
 
 ## 📥 Entregable
 
@@ -321,6 +330,7 @@ Guarda en `portfolio/parte-05/clase-03/`:
 - la clasificación corriente/no corriente de un caso con justificación del ciclo;
 - el cálculo de días de cobro y de existencias de dos periodos con su interpretación;
 - las partidas identificadas para verificación adicional en un estado financiero real.
+- una frase que explique cuándo un gasto puede registrarse como activo y qué respaldo exige (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

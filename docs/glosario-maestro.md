@@ -5,7 +5,7 @@
 
 **Todos los conceptos centrales del programa en un solo documento, con su definicion y la clase donde se estudian.**
 
-[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2208-7c5cff?style=flat-square)](glosario-maestro.md)
+[![terminos](https://img.shields.io/badge/t%C3%A9rminos-2215-7c5cff?style=flat-square)](glosario-maestro.md)
 [![transversales](https://img.shields.io/badge/transversales-75%20con%20ejemplo-2e8b57?style=flat-square)](glosario-maestro.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__glossary.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_glossary.py)
 
@@ -50,7 +50,7 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [Z](#z)
 
-**2208 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
+**2215 términos** de las 356 clases del programa. **75** son transversales y llevan entrada ampliada.
 
 <h2 id="a">A</h2>
 
@@ -512,6 +512,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** Operar conociendo una orden ajena pendiente
 - **Dónde se estudia.** [22.11](../modules/21-regulacion-de-mercados-financieros-digitales/classes/11-conducta-de-mercado-e-integridad.md)
 
+### anticipo de garantía
+
+- **Definición.** Primer desembolso de la garantía, que es una fracción del total cubierto y no el total.
+- **Dónde se estudia.** [12.12](../modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md)
+
 ### antigüedad
 
 - **Definición.** Días desde que la partida apareció. Es el indicador de calidad del proceso.
@@ -856,6 +861,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Listado de todas las cuentas con sus sumas y saldos, verificando la igualdad de cargos y abonos.
 - **Dónde se estudia.** [5.9](../modules/04-contabilidad-financiera/classes/09-balance-de-comprobacion.md)
+
+### balance de exclusión
+
+- **Definición.** Corte que separa los activos y pasivos que se transfieren de los que quedan en la entidad resuelta.
+- **Dónde se estudia.** [12.12](../modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md)
 
 ### balance estático
 
@@ -1492,6 +1502,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Registrar como activo lo que es gasto del período.
 - **Dónde se estudia.** [13.2](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/02-analisis-de-estados-financieros-de-empresas.md)
+
+### capitalización integrada
+
+- **Definición.** Aporte efectivamente pagado y registrado como capital; el anuncio no lo es.
+- **Dónde se estudia.** [12.6](../modules/11-regulacion-cumplimiento-y-auditoria/classes/06-capital-regulatorio-pilar-1.md)
 
 ### capitalizar
 
@@ -5913,6 +5928,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 - **Definición.** `VP de los flujos / inversión inicial`. Valor creado por unidad invertida.
 - **Dónde se estudia.** [7.10](../modules/06-matematica-financiera-avanzada/classes/10-payback-y-rentabilidad.md)
 
+### índice de solvencia
+
+- **Definición.** Capital regulatorio sobre activos ponderados por riesgo, comparado con un mínimo.
+- **Dónde se estudia.** [12.6](../modules/11-regulacion-cumplimiento-y-auditoria/classes/06-capital-regulatorio-pilar-1.md)
+
 ### índice Herfindahl-Hirschman
 
 - **Definición.** Suma de los cuadrados de las participaciones. Más sensible a la asimetría.
@@ -6189,6 +6209,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Actuación antes de la inviabilidad.
 - **Dónde se estudia.** [12.13](../modules/11-regulacion-cumplimiento-y-auditoria/classes/13-supervision-bancaria.md)
+
+### interventor
+
+- **Definición.** Agente que la autoridad designa para verificar la situación patrimonial y preservar los activos durante la resolución.
+- **Dónde se estudia.** [12.12](../modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md)
 
 ### introspección
 
@@ -8202,6 +8227,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** El decimal por 100: `75 %`. Es la forma en la que se comunica.
 - **Dónde se estudia.** [1.2](../modules/00-matematica-financiera-basica/classes/02-fracciones-decimales-y-razones.md)
+
+### porcentaje del mínimo
+
+- **Definición.** Fracción del propio mínimo exigido (46 % del 12 % es 5,6 %), distinta de los puntos porcentuales de distancia.
+- **Dónde se estudia.** [12.6](../modules/11-regulacion-cumplimiento-y-auditoria/classes/06-capital-regulatorio-pilar-1.md)
 
 ### porcentaje inverso
 
@@ -10685,6 +10715,11 @@ precisamente porque significan algo ligeramente distinto en cada parte.
 
 - **Definición.** Acuerdo por el que un acreedor cobra después de otro.
 - **Dónde se estudia.** [13.7](../modules/12-finanzas-corporativas-y-banca-empresarial/classes/07-credito-corporativo-y-estructuracion.md)
+
+### subrogación
+
+- **Definición.** Derecho del fondo a ocupar el lugar del depositante frente al banco por lo que ya pagó.
+- **Dónde se estudia.** [12.12](../modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md)
 
 ### sucursal de asesoría
 

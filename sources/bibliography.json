@@ -777,6 +777,25 @@
       "pending_reason": "la clase cita la norma sin enlace a la fuente primaria"
     },
     {
+      "id": "banco-central-inicia-el-procedimiento-de-resolucion-de-ueno-bank-2026",
+      "type": "reference",
+      "authors": [
+        "Banco Central del Paraguay"
+      ],
+      "title": "Banco Central inicia el procedimiento de resolución de ueno bank",
+      "published": "2026",
+      "publisher": "BCP",
+      "authority": "BCP",
+      "amendable": false,
+      "cited_url": "https://www.bcp.gov.py/web/institucional/w/banco-central-inicia-el-procedimiento-de-resolucion-de-ueno-bank",
+      "used_in": [
+        "modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "el sitio del BCP respondió HTTP 403 a la lectura automática; contenido contrastado vía prensa (2026-11-05)",
+      "locator": "https://www.bcp.gov.py/web/institucional/w/banco-central-inicia-el-procedimiento-de-resolucion-de-ueno-bank"
+    },
+    {
       "id": "bank-management-and-financial-services-2013",
       "type": "book",
       "authors": [
@@ -7084,6 +7103,22 @@
       "locator": "https://www.bcn.cl/leychile",
       "accessed": "2026-08-19",
       "http_status": 200
+    },
+    {
+      "id": "ley-n-o-2-334-03-de-garantia-de-depositos-y-resolucion-de-entidades-de-inter-2003",
+      "type": "reference",
+      "authors": [
+        "Paraguay"
+      ],
+      "title": "Ley N.º 2.334/03 de garantía de depósitos y resolución de entidades de intermediación financiera",
+      "published": "2003",
+      "authority": "Paraguay",
+      "amendable": false,
+      "used_in": [
+        "modules/11-regulacion-cumplimiento-y-auditoria/classes/12-resolucion-bancaria-y-seguro-de-depositos.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "la clase cita la norma sin enlace a la fuente primaria; texto de la ley no consultado (2026-11-05)"
     },
     {
       "id": "ley-n-o-21-521-que-promueve-la-competencia-e-inclusion-financiera-a-traves-d",

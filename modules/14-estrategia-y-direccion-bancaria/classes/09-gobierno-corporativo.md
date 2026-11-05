@@ -253,6 +253,37 @@ LO QUE SÍ MIDE
 directorio que recibe 400 páginas 24 horas antes de la sesión no puede desafiar nada, con independencia
 de su composición.
 
+### Caso en desarrollo · Ueno Bank Paraguay: directorio, comités y partes relacionadas
+
+El gobierno corporativo es el conjunto de reglas con que un directorio dirige y controla el
+banco. El caso permite estudiar su punto más delicado: **qué ocurre cuando quien controla el
+banco también es cliente del banco**. Las fuentes atribuyen al BCP la detección de créditos a
+empresas vinculadas al grupo controlador y el anuncio de investigaciones administrativas sobre
+los administradores; la prensa añade detenciones y embargos preventivos que no tienen fuente
+oficial localizada **[todo atribuido; investigación no es condena]**.
+
+Lo que el gobierno corporativo ofrece para esa situación son mecanismos que se pueden preguntar,
+sin presumir que no existieran: ¿quién aprueba un crédito a una parte relacionada y con qué
+condiciones?, ¿hay directores independientes en el comité de riesgos y auditoría?, ¿qué límite
+rige y quién vigila su cumplimiento?, ¿cómo se gestiona el conflicto de intereses del director
+que es también accionista?
+
+| Mecanismo | Pregunta de control | Evidencia que la responde |
+|---|---|---|
+| Aprobación por no interesados | ¿Votó quien se beneficia? | Actas del comité |
+| Límite a partes relacionadas | ¿Se cumplió y se informó? | Reporte al supervisor |
+| Independencia de comités | ¿Quiénes los integran? | Composición publicada |
+| Información al directorio | ¿Recibió exposición por grupo? | Informes de riesgo |
+
+La tabla convierte la sospecha en pregunta verificable. Se lee de izquierda a derecha, y su
+valor es que ninguna celda afirma que el mecanismo faltara en el caso real.
+
+**Práctica con el caso.** Completa la tabla para el banco sintético con la evidencia que
+pedirías, y distingue en tu texto una pregunta de una acusación.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja el control de las partes relacionadas por el directorio.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo evalúa la composición y el funcionamiento de un directorio. Conviene mirar la independencia efectiva y no la declarada.
@@ -512,6 +543,7 @@ Los síntomas de la tabla describen fallos de gobierno. Las causas son independe
 3. ¿Por qué la antelación de la información es un indicador tan revelador?
 4. ¿Qué distingue un directorio que gobierna de uno que acompaña?
 5. ¿Qué competencia falta con más frecuencia en los directorios bancarios?
+6. ¿Qué cuatro preguntas de gobierno corporativo harías sobre créditos a partes relacionadas sin afirmar que los controles faltaran?
 
 ## 📥 Entregable
 
@@ -521,6 +553,7 @@ Guarda en `portfolio/parte-15/clase-09/`:
 - la estructura de comités diseñada con atribuciones y composición;
 - los cinco conflictos identificados con su nivel de gestión;
 - la medición con los ocho indicadores y el plan de corrección con su verificación.
+- la tabla de mecanismos de control sobre partes relacionadas completada para el banco sintético (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

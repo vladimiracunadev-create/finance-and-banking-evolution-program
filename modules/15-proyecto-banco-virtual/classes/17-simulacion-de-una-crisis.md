@@ -209,6 +209,26 @@ Y UN PRINCIPIO ESPECÍFICO DE UN BANCO NUEVO
   contrastarse con información pública
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: simulación educativa de resolución
+
+La simulación de una crisis se hace más rica si el equipo ensaya el proceso completo de una
+resolución con datos sintéticos. El caso de ueno bank aporta la estructura de los comunicados
+—decisión del directorio de la autoridad, interventores, garantía, anticipo, fondos mutuos,
+alias— y el paquete de datos de la guía (banco *Yvyra*).
+
+El ensayo tiene tres turnos: (1) **el comité del banco** presenta su informe (Parte D de la guía);
+(2) **la autoridad** decide si inicia la resolución y qué alternativa de A1 elige; (3) **el
+fondo** calcula el pago para tres depositantes sintéticos (I4) y redacta el comunicado. Cada
+equipo documenta sus supuestos y qué dato le habría hecho cambiar de decisión. No se usan
+nombres, cuentas ni datos de personas reales, y el ejercicio no pretende reproducir la entidad
+que inspira el caso.
+
+**Práctica con el caso.** Ejecuta los tres turnos y entrega las decisiones con un párrafo de
+incertidumbres.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la simulación educativa del proceso de resolución.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo recorre los primeros días de una crisis de liquidez en el Banco Austral. Conviene evaluar cada decisión por su señal: dos de ellas empeoran la situación pese a ser correctas en lo directo.
@@ -512,6 +532,7 @@ Los síntomas de la tabla describen crisis agravadas por su gestión. Las causas
 3. ¿Cómo construye credibilidad un banco sin historia?
 4. ¿Cuál es la función que más se olvida durante una crisis?
 5. ¿Qué debe existir para cada vulnerabilidad conocida?
+6. En la simulación de resolución, ¿qué dato habría cambiado tu decisión como autoridad y por qué?
 
 ## 📥 Entregable
 
@@ -521,6 +542,7 @@ Guarda en `portfolio/parte-16/clase-17/`:
 - el tablero de crisis con fuentes y frecuencias;
 - las acciones ordenadas por efecto directo y de señal;
 - el mensaje público redactado y la revisión posterior con sus compromisos.
+- las decisiones de los tres turnos de la simulación de resolución, con supuestos e incertidumbres (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

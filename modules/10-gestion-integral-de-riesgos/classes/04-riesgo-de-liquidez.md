@@ -235,6 +235,38 @@ implicancias operativas son concretas:
 · la comunicación pública es parte del plan de liquidez
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: liquidez y solvencia no son lo mismo
+
+Hasta aquí esta clase ha medido si un banco puede pagar lo que se le pide. Un caso real
+de noviembre de 2026 —la resolución de ueno bank en Paraguay, aún sin desenlace— sirve para
+comprobar que **pagar hoy** y **valer más de lo que se debe** son preguntas distintas. El
+estudiante la necesita antes de entrar, en la Parte 12, en el capital y en la resolución.
+
+Empieza por una persona que quiere retirar sus ahorros. *Liquidez*: el banco tiene efectivo
+o activos convertibles para pagar hoy. *Solvencia*: sus activos valen más que sus pasivos,
+es decir, el patrimonio es positivo. *Rentabilidad*: cuánto gana; no protege de las otras dos.
+Un **retiro** reduce a la vez efectivo y depósitos y **no cambia el patrimonio**; una
+**pérdida de cartera** reduce el patrimonio y puede dejar intacto el efectivo.
+
+| Evento (banco sintético) | Efectivo | Depósitos | Patrimonio | Qué se afecta |
+|---|---:|---:|---:|---|
+| Inicial | 120 | 1 200 | 140 | — |
+| Clientes retiran 100 | 20 | 1 100 | 140 | Liquidez |
+| Se reconoce una pérdida de 60 | 120 | 1 200 | 80 | Solvencia |
+
+La tabla muestra los dos eventos por separado. Lo que hay que mirar es que la fila central
+mueve las dos primeras columnas y la última mueve solo la tercera: son problemas con remedios
+distintos, y confundirlos es el error clásico (véase el ejemplo guiado 1 de la guía).
+En el caso real, las fuentes hablan de **ambas cosas** —deterioro de la liquidez e
+insuficiencia de solvencia—, y de que la difusión de información sensible aceleró el primero
+**[declaración atribuida al BCP]**. Que el rumor acelere no demuestra que fuera la causa.
+
+**Práctica con el caso.** Resuelve B1 e I3 de la guía: calcula la cobertura del banco sintético
+frente a retiros de 5 %, 10 %, 20 % y 25 % y halla el retiro máximo soportable (23,5 %).
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la diferencia entre liquidez y solvencia.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula la cobertura de liquidez de un banco y la recalcula con supuestos de retiro más severos. La diferencia entre las dos cifras es la medida real de la fragilidad.
@@ -407,6 +439,7 @@ Los síntomas de la tabla describen crisis de liquidez en bancos solventes. Las 
 3. ¿Qué mide el financiamiento estable neto que la cobertura de liquidez no mide?
 4. ¿Por qué un supuesto conductual puede fallar justo cuando más importa?
 5. ¿Qué cambia en la gestión de liquidez con la banca digital?
+6. En el caso Ueno, ¿qué parte del relato es un problema de liquidez, cuál de solvencia, y por qué un retiro no reduce el patrimonio?
 
 ## 📥 Entregable
 
@@ -416,6 +449,7 @@ Guarda en `portfolio/parte-11/clase-04/`:
 - el cálculo del financiamiento estable neto con su interpretación;
 - la escalera de vencimientos con los supuestos conductuales documentados;
 - el plan de contingencia con sus indicadores de activación.
+- la tabla de eventos del banco sintético con liquidez y solvencia antes y después, y una frase que explique por qué el retiro no cambia el patrimonio (caso Ueno, ejercicio B1).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

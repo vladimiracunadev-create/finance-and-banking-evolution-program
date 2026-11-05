@@ -253,6 +253,37 @@ Hay prácticas de presentación que cruzan la línea. La tabla las recoge.
 · responder a una pregunta distinta de la formulada
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: comunicar sin precipitar y sin confundir
+
+Comunicar en una crisis exige decir lo verdadero sin acelerar el daño. El caso muestra la
+dificultad con precisión: el comunicado menciona **tres cantidades** que un lector tiende a
+fundir en una —el tope de garantía (Gs 228,3 millones), el anticipo (hasta 40 salarios mínimos) y
+el saldo depositado— y la prensa da cifras que no son comparables para «lo que gestiona el
+banco» (850 y 2 836 MUSD).
+
+Una buena comunicación aplica cuatro reglas que se pueden verificar sobre el texto: usa cada
+término con un solo significado; separa lo decidido de lo anunciado; no adelanta causas que no
+están comprobadas («ajuste contable», no «fraude»); y dice qué se sabrá y cuándo. El texto
+siguiente es un borrador sintético que cumple las cuatro.
+
+```text
+BORRADOR (sintético) para un depositante con 400 en una entidad en resolución
+  · Su depósito está garantizado hasta 228,3, por depositante y por entidad.
+  · Recibirá un primer pago de hasta 121,76, descontando deudas vencidas.
+  · El resto cubierto (106,54) se pagará según un calendario que se publicará.
+  · La parte no cubierta (171,7) será tratada en el procedimiento; aún no
+    sabemos en qué proporción.
+```
+
+El borrador ordena cuatro cantidades distintas y dice explícitamente lo que no se sabe. Se lee
+frase por frase: cada una responde a «¿cuánto?» y a «¿cuándo?».
+
+**Práctica con el caso.** Redacta en 120 palabras un comunicado para depositantes del banco
+sintético y marca cuál de las cuatro reglas aplicó cada frase.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la claridad y la prudencia de la comunicación.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo revisa una presentación de resultados y detecta una práctica que induce a error. Conviene comparar las métricas del trimestre con las del anterior: el cambio de métrica es la señal.
@@ -509,6 +540,7 @@ Los síntomas de la tabla describen problemas de comunicación al mercado. Las c
 3. ¿Cuál es el punto que distingue una presentación honesta de una de venta?
 4. ¿Sobre qué variables conviene dar guía y sobre cuáles no?
 5. ¿Por qué la comunicación es parte del plan de liquidez?
+6. ¿Qué tres cantidades distintas puede confundir un depositante en un comunicado de garantía y cómo las separarías?
 
 ## 📥 Entregable
 
@@ -518,6 +550,7 @@ Guarda en `portfolio/parte-15/clase-12/`:
 - la evaluación de tres medidas alternativas;
 - la presentación de resultados redactada con sus seis puntos;
 - el mensaje de comunicación en tensión con su protocolo.
+- el comunicado de 120 palabras para depositantes del banco sintético, con la regla de comunicación que aplica cada frase (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

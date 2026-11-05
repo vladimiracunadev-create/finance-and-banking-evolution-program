@@ -242,6 +242,37 @@ MITIGANTES
   evaluaciones externas (programa de evaluación del sector financiero)
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: el calendario del supervisor
+
+Esta clase estudia cómo supervisa la autoridad. En el caso, la cronología es el material:
+según el presidente del BCP, el 5 de junio de 2026 la Superintendencia detectó créditos a
+empresas vinculadas al grupo controlador; el 2 de noviembre el Directorio resolvió iniciar la
+resolución **[declaración atribuida y hecho comunicado, respectivamente]**. Entre ambas fechas
+hay casi cinco meses de análisis, inspección y ajustes a los estados financieros.
+
+El diagrama ordena los pasos que las fuentes mencionan, sin añadir los que no constan.
+
+```mermaid
+flowchart LR
+    A["Hallazgo<br/>5 jun"] --> B["Análisis e inspección<br/>jun-oct"]
+    B --> C["Ajustes a los estados<br/>y plan de regularización"]
+    C --> D["Índice < 50 % del mínimo"]
+    D --> E["Resolución<br/>2 nov"]
+```
+
+La lectura correcta del diagrama es que **cada flecha oculta una decisión de tiempo**: cuánto
+se concede para regularizar y cuándo se concluye que regularizar ya no basta. Tardar tiene un
+costo (el problema crece) y actuar rápido también (puede precipitar una resolución evitable).
+No hay datos para decir si cinco meses fueron lentos, prudentes o inevitables; con lo que se
+sabe, **ese juicio queda abierto** y es una pregunta de la discusión, no una conclusión.
+
+**Práctica con el caso.** Escribe qué tres informaciones necesitarías para evaluar la
+oportunidad del supervisor (plazos concedidos, alternativas privadas, evolución del índice) y
+cuál de ellas es más difícil de obtener.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja el calendario y la oportunidad de la supervisión.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo recorre una inspección desde su planificación hasta el plan de acción. Conviene fijarse en la formulación del hallazgo: de su precisión depende que el plan corrija algo.
@@ -450,6 +481,7 @@ Los síntomas de la tabla describen supervisión que llega tarde. Las causas son
 3. ¿Por qué una discrepancia de fiabilidad es peor que una deficiencia grave?
 4. ¿Qué elimina el análisis por cosechas que el costo de riesgo total oculta?
 5. ¿Qué mecanismos reducen el riesgo de captura del supervisor?
+6. ¿Qué información faltaría para decidir si cinco meses entre el hallazgo y la resolución fueron un plazo adecuado, y por qué el caso no lo permite todavía?
 
 ## 📥 Entregable
 
@@ -459,6 +491,7 @@ Guarda en `portfolio/parte-12/clase-13/`:
 - el análisis por cosechas con su interpretación;
 - la preparación de la inspección con las deficiencias autoidentificadas y su plan;
 - la clasificación de diez situaciones por instrumento supervisor.
+- la línea de tiempo del caso con las tres informaciones que faltan para juzgar la oportunidad del supervisor (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

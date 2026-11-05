@@ -69,6 +69,9 @@ Los cuatro primeros términos son la composición del numerador; los cuatro sigu
 | `colchón de conservación` | Capital adicional cuyo consumo restringe distribuciones. |
 | `colchón contracíclico` | Capital adicional activado por el supervisor en expansiones. |
 | `ratio de apalancamiento` | Capital sobre exposición total, sin ponderar por riesgo. |
+| `índice de solvencia` | Capital regulatorio sobre activos ponderados por riesgo, comparado con un mínimo. |
+| `porcentaje del mínimo` | Fracción del propio mínimo exigido (46 % del 12 % es 5,6 %), distinta de los puntos porcentuales de distancia. |
+| `capitalización integrada` | Aporte efectivamente pagado y registrado como capital; el anuncio no lo es. |
 
 ## 🧠 Modelo mental
 
@@ -239,6 +242,40 @@ CUÁL RESTRINGE
 
 saber cuál restringe determina qué crecimiento es posible
 ```
+
+### Caso en desarrollo · Ueno Bank Paraguay: patrimonio, capital regulatorio y «porcentaje del mínimo»
+
+La clase ha definido el capital regulatorio como el patrimonio ajustado por **deducciones**.
+Dos errores de lectura del caso real nacen de olvidarlo. El primero: tomar el **patrimonio
+contable** por capital regulatorio. El segundo: leer «por debajo del 50 % del mínimo»
+**[comunicado del BCP]** como «el 50 %» de algo.
+
+El *índice de solvencia* es `r = capital regulatorio / activos ponderados por riesgo`. Si el
+mínimo es 12 % y la prensa atribuye al índice un valor de 5,56 % (cifra de La Nación de Argentina,
+sin respaldo oficial localizado), entonces:
+
+```text
+5,56 / 12 = 46,3 % del mínimo          (porcentaje relativo)
+12 − 5,56 = 6,44 puntos porcentuales    (distancia absoluta)
+0,5 × 12  = 6,00 %                      (umbral del 50 % del mínimo)
+```
+
+Son tres números distintos para tres lecturas distintas. «Puntos porcentuales» miden la
+diferencia entre dos porcentajes; «por ciento del mínimo» mide una fracción del propio mínimo; y
+ninguno es un porcentaje de depósitos.
+
+También el ajuste contable puede pesar distinto. Si el supervisor concluye que un intangible
+(un software activado sin respaldo) debe reconocerse como gasto, el patrimonio contable baja,
+pero el capital regulatorio **solo baja si ese intangible contaba como capital**; en un régimen
+que lo deduce, queda igual. El caso documenta un problema de **respaldo contable**, no un fallo
+informático. Por último, una **capitalización anunciada** no es una **integrada**: solo el
+aporte pagado y registrado entra en el capital.
+
+**Práctica con el caso.** Resuelve el ejemplo guiado 2 y los ejercicios B2, I1 e I2 de la guía,
+con las tres lecturas del 5,56 % y los tres estados del capital (anunciado, primer tramo, ambos).
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la diferencia entre patrimonio contable y capital regulatorio.
 
 ## 🧮 Ejemplo guiado
 
@@ -430,6 +467,7 @@ Los síntomas de la tabla describen bancos que descubren tarde una restricción 
 3. ¿Qué ocurre exactamente cuando un banco consume su colchón de conservación?
 4. ¿Por qué el enfoque IRB tiene un piso respecto del estandarizado?
 5. ¿Cómo determina un banco cuál de las dos restricciones es la activa?
+6. Si un comunicado dice «por debajo del 50 % del mínimo» y el mínimo es 12 %, ¿qué valor del índice marca el umbral y por qué no es «50 %» de los depósitos?
 
 ## 📥 Entregable
 
@@ -439,6 +477,7 @@ Guarda en `portfolio/parte-12/clase-06/`:
 - el cálculo de activos ponderados por los tres riesgos;
 - los ratios con su holgura frente al requerimiento completo;
 - el análisis de restricción activa y crecimiento posible por segmento.
+- la cadena provisión → patrimonio → capital → índice del banco sintético, con las tres lecturas del «porcentaje del mínimo» (caso Ueno, ejemplo guiado 2 y B2).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

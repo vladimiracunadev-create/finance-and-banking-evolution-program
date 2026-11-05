@@ -170,6 +170,15 @@ verificar: topes anuales, permanencia mínima, tributación del retiro y penaliz
 anticipado. Cuando la tasa marginal es baja (por ejemplo, exenta), el beneficio del régimen B
 desaparece y el régimen A suele ser superior.
 
+### Conexión con un caso · Ueno Bank Paraguay: un fondo mutuo no es un depósito
+
+Un fondo mutuo es un patrimonio separado del de su administradora y del banco que lo vende. En
+noviembre de 2026, ante la resolución de ueno bank, la Superintendencia de Valores de Paraguay
+suspendió temporalmente rescates en fondos vinculados y aclaró que el impacto se limita a la
+porción colocada en el banco **[comunicado, vía prensa]**. Para el cliente, la lección es que un
+fondo ofrecido en una ventanilla bancaria **no está garantizado como un depósito**. La clase 12 de
+la Parte 12 y el [expediente](../../../case-studies/bank-resolution/ueno-bank-paraguay.md) desarrollan el caso.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo compara dos fondos con la misma rentabilidad bruta y distinta comisión, a lo largo de veinte años. Conviene mirar la diferencia final: es la cifra que justifica leer la ficha antes de contratar.
@@ -270,6 +279,7 @@ Los síntomas de la tabla describen inversiones que rindieron menos de lo espera
 3. ¿Qué son las series de un fondo y por qué importan?
 4. ¿Qué pregunta debes hacerte antes de contratar un fondo accionario?
 5. ¿Cuándo el régimen con beneficio tributario inmediato deja de convenir?
+6. ¿Por qué un fondo mutuo ofrecido por un banco no tiene la garantía de un depósito?
 
 ## 📥 Entregable
 
@@ -279,6 +289,7 @@ Guarda en `portfolio/parte-03/clase-11/`:
 - la verificación de series disponibles y el ahorro potencial;
 - la tabla de capital final con tres niveles de comisión;
 - la evaluación del beneficio tributario del APV con tus condiciones reales.
+- una frase que distinga un depósito garantizado de un fondo mutuo vendido en el banco (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

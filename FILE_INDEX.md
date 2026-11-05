@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-975-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-979-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -163,6 +163,7 @@
 - `audit.json`
 - `bloques.json`
 - `case-studies/README.md`
+- `case-studies/bank-resolution/ueno-bank-paraguay.md`
 - `case-studies/blockchain/ataque-a-un-puente.md`
 - `case-studies/blockchain/contrato-defectuoso.md`
 - `case-studies/blockchain/falla-de-oraculo.md`
@@ -237,6 +238,7 @@
 - `docs/custodia-conciliacion-y-gobernanza.md`
 - `docs/economias-virtuales-y-bienes-digitales.md`
 - `docs/ejercicios-crisis-financiera-digital.md`
+- `docs/ejercicios-ueno-bank.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
 - `docs/formulas.md`
@@ -263,6 +265,7 @@
 - `docs/metodologia-verificacion-regulatoria.md`
 - `docs/referencias-oficiales-digitales.md`
 - `docs/ruta-aprendizaje.md`
+- `docs/ueno-bank-matriz-e-itinerario.md`
 - `localizations/TEMPLATE.md`
 - `localizations/chile/README.md`
 - `mobile/.gitignore`
@@ -975,6 +978,7 @@
 - `tests/test_scoring.py`
 - `tests/test_sync_maintenance_issue.py`
 - `tests/test_tokenization_platform.py`
+- `tests/test_ueno_bank_ejercicios.py`
 - `tools/build_book.py`
 - `tools/build_file_index.py`
 - `tools/build_glossary.py`

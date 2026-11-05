@@ -57,7 +57,9 @@ sustituye. El número exacto de partes y clases está en
 | 🌐 **[Guía docente de la Etapa 5](guia-docente-etapa-5.md)** | Qué cambia al enseñar las Partes 17 a 23 y los cinco errores docentes propios de la etapa |
 | 🚨 **[Crisis financiera digital](crisis-financiera-digital.md)** | Especialización transversal: custodia, respaldo, retiros masivos, reposición y recuperación, con la matemática explicada primero |
 | 📝 **[Ejercicios y evaluación de crisis digital](ejercicios-crisis-financiera-digital.md)** | Cinco ejercicios resueltos, ocho propuestas de cálculo y una evaluación con rúbrica y pauta |
-| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Treinta y cinco casos con hechos, actores, decisiones, regulación, controles y preguntas |
+| 🏛️ **[Ueno Bank Paraguay: matriz e itinerario](ueno-bank-matriz-e-itinerario.md)** | Cómo el caso de solvencia y resolución se reparte en 18 clases, con evidencia y recorrido de estudiante y docente |
+| 🧮 **[Ejercicios y evaluación: Ueno Bank](ejercicios-ueno-bank.md)** | Dos ejemplos guiados, doce ejercicios resueltos, cinco preguntas abiertas, actividad de comité y rúbrica |
+| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Treinta y seis casos con hechos, actores, decisiones, regulación, controles y preguntas |
 
 ## Para todos
 

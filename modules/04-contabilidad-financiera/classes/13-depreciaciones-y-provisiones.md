@@ -242,6 +242,14 @@ resultado ajustado B = resultado reportado + 1 000 000
 
 Sin este ajuste, A parece más rentable que B por una decisión contable, no por desempeño.
 
+### Conexión con un caso · Ueno Bank Paraguay: la provisión que reduce el patrimonio
+
+Una provisión es un gasto que reconoce por anticipado una pérdida probable. En un banco sintético
+con cartera de 1 000 y patrimonio de 140, una provisión adicional de 60 baja el patrimonio a 80:
+ejemplo guiado 2 del [caso Ueno](../../../case-studies/bank-resolution/ueno-bank-paraguay.md). El BCP habló de previsiones adicionales por carpetas de
+crédito débiles; la clase 3 de la Parte 11 y la clase 6 de la Parte 12 siguen la cadena hasta el
+capital.
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** Un analista revisa dos años de una empresa y detecta cambios en las estimaciones.
@@ -363,6 +371,7 @@ Los síntomas de la tabla describen resultados que mejoran sin que la operación
 3. ¿Cómo se detecta que una provisión de incobrables está subestimada?
 4. ¿Cómo se aplica un cambio de estimación y por qué no se reexpresa el pasado?
 5. ¿Cómo ajustarías dos empresas con vidas útiles distintas para compararlas?
+6. ¿Cómo afecta una provisión adicional de 60 al activo, al patrimonio y al resultado de un banco?
 
 ## 📥 Entregable
 
@@ -372,6 +381,7 @@ Guarda en `portfolio/parte-05/clase-13/`:
 - la provisión por antigüedad y por pérdida esperada, con la explicación de la diferencia;
 - la simulación de un cambio de vida útil y su efecto cuantificado;
 - el ajuste de dos empresas a un supuesto común con la conclusión comparativa.
+- el asiento de una provisión de 60 y su efecto sobre el patrimonio del banco sintético (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

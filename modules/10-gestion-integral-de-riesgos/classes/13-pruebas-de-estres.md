@@ -227,6 +227,34 @@ VALOR: no requiere estimar probabilidades
        y encuentra vulnerabilidades que los escenarios estándar no tocan
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: estrés inverso y sensibilidad a un supuesto
+
+Una prueba de estrés directa pregunta «¿qué pasa si ocurre X?». El **estrés inverso** invierte
+la pregunta: «¿cuánto tendría que ocurrir para que el banco incumpla?». Es el método más útil
+cuando se estudia un caso donde el resultado ya se conoce, como la resolución de ueno bank, cuyo
+comunicado dice que el índice de solvencia quedó **por debajo del 50 % del mínimo**
+**[hecho comunicado por el BCP]**.
+
+Con el banco sintético del ejemplo guiado 2 de la guía (capital regulatorio 100, activos
+ponderados por riesgo `APR` = 700, mínimo 12 %), se busca la provisión adicional `h` que cruza
+dos umbrales: el mínimo (12 %) y la mitad del mínimo (6 %).
+
+| Umbral | `APR` constante | `APR = 700 − h` |
+|---|---:|---:|
+| 12 % (el mínimo) | h = 16 | h = 18,18 |
+| 6 % (50 % del mínimo) | h = 58 | h = 61,70 |
+
+La tabla se lee por columnas: cada una es una hipótesis sobre cómo reacciona el denominador.
+Con h = 60 la primera hipótesis da 5,71 % (bajo el umbral) y la segunda 6,25 % (sobre el
+umbral): **el mismo shock produce conclusiones opuestas según un supuesto que parecía menor**.
+Un informe de estrés no se cierra sin declarar el supuesto y mostrar el resultado bajo ambos.
+
+**Práctica con el caso.** Resuelve A2 y A4 de la guía: halla los umbrales y la línea de tiempo
+de liquidez con y sin capitalización integrada.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja el estrés inverso y la sensibilidad a un supuesto.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo proyecta el capital de un banco bajo un escenario adverso. Conviene mirar las acciones de gestión supuestas: son las que más suelen inflar el resultado.
@@ -466,6 +494,7 @@ Los síntomas de la tabla describen pruebas de estrés que no informan. Las caus
 3. ¿Por qué extrapolar elasticidades linealmente subestima la pérdida?
 4. ¿Qué hace que una acción de gestión sea creíble en un escenario adverso?
 5. ¿Qué aporta la prueba inversa que no aporta el escenario estándar?
+6. ¿Qué es un estrés inverso y por qué, con una provisión de 60, el banco sintético cruza o no el 50 % del mínimo según el supuesto sobre los activos ponderados?
 
 ## 📥 Entregable
 
@@ -475,6 +504,7 @@ Guarda en `portfolio/parte-11/clase-13/`:
 - la traducción a parámetros de riesgo por cartera;
 - la proyección de resultado, activos ponderados y capital;
 - la prueba inversa con la distancia al punto de quiebre.
+- el cálculo de los umbrales de provisión bajo las dos hipótesis de `APR`, con una frase sobre cuál usarías y por qué (caso Ueno, A2).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

@@ -254,6 +254,27 @@ LA PRUEBA DE COHERENCIA
 | El plan de capital supone dividendos menores | Se distribuye lo que el capital necesitaba |
 | Los incentivos premian volumen y el plan pide margen | La organización hace lo que se le paga |
 
+### Caso en desarrollo · Ueno Bank Paraguay: planificar el capital y su calendario
+
+La planificación de capital responde a una pregunta: ¿habrá capital suficiente **cuando haga
+falta**? El caso aporta un contraste. Según la prensa, la entidad anunció días antes de la
+resolución una capitalización de 100 MUSD, con 50 MUSD de desembolso inmediato **[declaración
+atribuida; no consta cuánto se integró]**, y no evitó la medida.
+
+La lección no es sobre una entidad concreta sino sobre el diseño de un plan: un plan de capital
+vale por su **calendario, su condicionalidad y su verificabilidad**, no por su monto. Con el
+banco sintético del ejemplo guiado 2, una capitalización de 100 en dos tramos de 50 produce tres
+estados distintos del índice: 5,71 % si solo está anunciada, 12,86 % con el primer tramo
+integrado y 20,00 % con los dos. La tabla de la guía lo recoge. La dirección debe además fijar
+un **colchón de gestión** por encima del mínimo (en el banco sintético, un banco justo en el 12 %
+queda en incumplimiento con la primera provisión de 20: ejercicio I1).
+
+**Práctica con el caso.** Escribe un plan de capital de tres líneas para el banco sintético con
+tres columnas: monto, fecha de integración y condición para contarlo como capital.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja el calendario y la integración del capital.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo proyecta el capital de un banco bajo su plan de crecimiento. Conviene comparar el crecimiento planificado con el sostenible: la diferencia es lo que hay que financiar o recortar.
@@ -528,6 +549,7 @@ Los síntomas de la tabla describen planes que chocaron con el capital. Las caus
 3. ¿Por qué todas las fuentes de capital se cierran en estrés y qué se deduce de ello?
 4. ¿Qué cinco cifras deben coincidir en los documentos de planificación?
 5. ¿Por qué un exceso de capital en el caso base puede no ser un exceso?
+6. ¿Por qué el valor de un plan de capitalización depende de su calendario y de que esté integrado, y qué colchón por encima del mínimo propondrías?
 
 ## 📥 Entregable
 
@@ -537,6 +559,7 @@ Guarda en `portfolio/parte-15/clase-05/`:
 - la verificación de coherencia entre los cuatro documentos;
 - la proyección de capital en ambos escenarios;
 - el plan de contingencia con niveles, acciones y disparadores.
+- un plan de capital del banco sintético con monto, fecha y condición de integración, y el índice en sus tres estados (caso Ueno, I1).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

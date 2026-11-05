@@ -258,6 +258,30 @@ PREGUNTAS
   5. ¿qué habría pasado si el escenario hubiera sido peor?
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: secuencia de las primeras 72 horas
+
+Gestionar una crisis es decidir con información incompleta y en orden. La secuencia de los
+comunicados del 3 y 4 de noviembre de 2026 permite estudiar ese orden como **hechos
+documentados** (no como valoración de si fue el mejor posible).
+
+| Momento | Medida comunicada | Problema que atiende |
+|---|---|---|
+| 3 nov | Interventores y congelamiento de activos y pasivos | Preservar el patrimonio |
+| 3 nov | Anuncio de la garantía y su tope | Evitar la incertidumbre de monto |
+| 3 nov | Suspensión de rescates en fondos mutuos vinculados | Evitar ventas forzadas |
+| 4 nov | Liberación de alias de pago | Mantener la circulación del dinero |
+| 4 nov | Anticipo de la garantía en días hábiles | Liquidez de los hogares |
+
+La tabla enlaza cada medida con el problema que ataca: protección del patrimonio, certeza,
+orden de mercado, pagos y liquidez de las personas. Se lee de arriba abajo como el orden en
+que se abordaron; lo que **no** consta son las alternativas descartadas y el costo de cada una.
+
+**Práctica con el caso.** Para el banco sintético, ordena las cinco medidas que tomarías en las
+primeras 72 horas y explica qué cambia si una de ellas se retrasa un día.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la secuencia de decisiones de crisis.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo recorre las decisiones de los primeros días de una crisis de liquidez. Conviene evaluar cada decisión por su efecto directo y por su señal: en dos casos la señal domina.
@@ -532,6 +556,7 @@ Los síntomas de la tabla describen crisis agravadas por su gestión. La causa e
 3. ¿Cuál es la columna decisiva al evaluar las opciones de un plan de recuperación?
 4. ¿Cuál es la función más olvidada durante una crisis?
 5. ¿Por qué la revisión posterior no debe buscar culpables?
+6. ¿Qué problema atiende cada una de las cinco medidas comunicadas en las primeras 72 horas y qué alternativas descartadas no conocemos?
 
 ## 📥 Entregable
 
@@ -541,6 +566,7 @@ Guarda en `portfolio/parte-15/clase-13/`:
 - la proyección de liquidez en tres escenarios;
 - las acciones ordenadas por efecto directo y de señal;
 - la revisión posterior con las cinco preguntas y los cambios comprometidos.
+- el orden de las cinco medidas de las primeras 72 horas, con el problema que atiende cada una (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

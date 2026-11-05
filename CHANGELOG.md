@@ -26,6 +26,16 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ### ✨ Añadido
 
+- **Caso Ueno Bank Paraguay integrado en 18 clases existentes** (sin añadir ni
+  renumerar clases): [expediente](case-studies/bank-resolution/ueno-bank-paraguay.md)
+  con los diez bloques y cada dato etiquetado (hecho, declaración, pendiente,
+  interpretación, supuesto), fecha de corte 2026-11-04;
+  [matriz e itinerario](docs/ueno-bank-matriz-e-itinerario.md); y
+  [ejercicios y evaluación](docs/ejercicios-ueno-bank.md) con dos ejemplos guiados,
+  doce ejercicios resueltos, cinco preguntas abiertas, actividad de comité y rúbrica
+  20-30-30-20. Una prueba recalcula las cifras. Las fuentes del BCP y la Ley
+  2.334/03 quedan registradas como pendientes (el sitio del BCP no respondió a la
+  lectura automática).
 - **Especialización en crisis financiera digital** (sin añadir ni renumerar
   clases): [guía](docs/crisis-financiera-digital.md) con la matemática explicada
   primero, [ejercicios y evaluación](docs/ejercicios-crisis-financiera-digital.md),

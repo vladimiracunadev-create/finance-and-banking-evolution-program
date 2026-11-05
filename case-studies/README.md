@@ -1,6 +1,6 @@
 # Biblioteca de casos
 
-Treinta y cinco casos para trabajar en clase, en laboratorio o en evaluación. Todos
+Treinta y seis casos para trabajar en clase, en laboratorio o en evaluación. Todos
 comparten la misma estructura de diez bloques y la misma disciplina: **los hechos
 van separados de las decisiones, y las decisiones separadas de las lecciones.**
 
@@ -60,6 +60,7 @@ no permite concluir.
 | [`tokenization/`](tokenization/) | 2 | 21 |
 | [`fx-onchain/`](fx-onchain/) | 1 | 21 |
 | [`market-regulation/`](market-regulation/) | 7 | 4, 12, 13, 14 y 22 |
+| [`bank-resolution/`](bank-resolution/) | 1 | 3, 5, 11, 12, 15 y 16 |
 | [`cyber-incidents/`](cyber-incidents/) | 1 | 22 |
 | [`chile/`](chile/) | 2 | 4, 10, 12, 17 y 22 |
 | [`european-union/`](european-union/) | 1 | 22 |

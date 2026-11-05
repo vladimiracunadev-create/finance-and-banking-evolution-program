@@ -253,6 +253,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | American Psychologist | 1 | 1 | 2 |
 | Asamblea Legislativa de El Salvador | 1 | 1 | 22 |
 | Ashgate | 1 | 0 | 4 |
+| BCP | 1 | 1 | 12 |
 | BIS Occasional Paper 10 | 1 | 1 | 10, 15, 16 |
 | BIS Working Papers | 1 | 1 | 6 |
 | Bagehot, W. | 1 | 0 | 6 |
@@ -332,6 +333,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | PCAF | 1 | 1 | 15 |
 | PCAOB | 1 | 1 | 20 |
 | PCI Security Standards Council | 1 | 1 | 3, 4, 10 |
+| Paraguay | 1 | 0 | 12 |
 | Portfolio | 1 | 1 | 8 |
 | RAND Journal of Economics | 1 | 1 | 10, 14 |
 | Random House | 1 | 1 | 8 |
@@ -369,6 +371,8 @@ Una fuente pendiente no se borra ni se disimula: se declara. Estas son las razon
 | Open Library no devuelve ediciones de la obra encontrada | 10 |
 | la obra existe en Open Library pero ninguna edición declara ISBN-13 | 2 |
 | no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 2 |
+| el sitio del BCP respondió HTTP 403 a la lectura automática; contenido contrastado vía prensa (2026-11-05) | 1 |
+| la clase cita la norma sin enlace a la fuente primaria; texto de la ley no consultado (2026-11-05) | 1 |
 
 Última revalidación en red: **2026-09-22**. La ejecuta `scripts/refresh_sources.py`, que resuelve ISBN contra Open Library, DOI contra Crossref y consulta cada URL oficial. Esa capa **no bloquea el CI**: si un organismo reorganiza su sitio, el programa no se rompe, se entera.
 <!-- gen:registro:end -->

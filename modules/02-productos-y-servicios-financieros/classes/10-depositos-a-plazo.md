@@ -182,6 +182,14 @@ El instrumento se elige por el propósito del dinero y por su horizonte, y no po
 | Protección ante inflación alta | Depósito reajustable | Traslada el riesgo inflacionario |
 | Horizonte superior a 3 años | Otras alternativas (Parte 8) | El depósito rara vez gana a la inflación en el largo plazo |
 
+### Conexión con un caso · Ueno Bank Paraguay: la garantía de depósitos es por depositante
+
+Un depósito a plazo es dinero que tú prestas al banco. En un caso real de noviembre de 2026,
+Paraguay anunció una garantía de **hasta 75 salarios mínimos por depositante y por entidad**
+(Gs 228.300.000 «a la fecha»). La lección para el cliente: la garantía se aplica al *total* que
+tienes en esa entidad, no a cada cuenta; con Gs 400 millones tendrías cubierto el 57,1 %. Más
+adelante, en la clase 12 de la Parte 12, se estudia el caso completo.
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** Elena recibe una indemnización de 18 000 000. Necesitará 6 000 000 en 8 meses para una
@@ -289,6 +297,7 @@ Los síntomas de la tabla describen depósitos que rindieron menos de lo esperad
 3. ¿Qué problema resuelve una escalera de vencimientos y cuánto tarda en entrar en régimen?
 4. ¿Por qué la penalización por rescate anticipado no es arbitraria?
 5. ¿Cuál es la función propia de un depósito a plazo y cuál no lo es?
+6. Si tienes dos depósitos en la misma entidad, ¿se suman para aplicar el tope de garantía? ¿Y si están en entidades distintas?
 
 ## 📥 Entregable
 
@@ -298,6 +307,7 @@ Guarda en `portfolio/parte-03/clase-10/`:
 - el punto de indiferencia nominal vs. reajustable y tu decisión;
 - la escalera diseñada con su calendario y tasa en régimen;
 - el costo documentado de un rescate anticipado según contrato.
+- una frase que explique cuánto cubre la garantía a una persona con dos cuentas en la misma entidad (caso Ueno).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

@@ -250,6 +250,30 @@ RAZÓN
   ni depender económicamente de quien audita
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: provisiones, activación contable y el papel del auditor
+
+Dos temas de esta clase aparecen en el caso. El primero: **provisiones**, que son el gasto con
+que el banco reconoce por anticipado la pérdida esperada de sus créditos. El BCP habló de
+carpetas de crédito con debilidades y de previsiones adicionales **[declaración atribuida]**. Una
+carpeta de crédito es el expediente que debería sostener la capacidad de pago y las garantías; si
+está débil, la provisión del banco puede estar subestimada. El segundo: **activación de gastos**,
+es decir, registrar como activo (intangible) un gasto que se beneficiará en el futuro; el BCP
+mencionó servicios informáticos activados «sin una justificación plenamente respaldada».
+
+Aquí el aprendizaje es de método. Una activación necesita evidencia de que existe un beneficio
+futuro y de que el costo es medible; sin ella, el auditor y el supervisor pueden exigir
+reconocerlo como gasto. Eso **no implica** que el software no funcione: el problema es contable
+y el caso no autoriza a deducir causas técnicas. Tampoco prueba intención: los hechos de un
+ajuste y las responsabilidades de quien lo registró son cosas distintas, y las segundas siguen
+bajo investigación **[pendiente]**. En el caso no consta qué reportó el auditor externo ni el
+control interno de la entidad; la clase enseña qué preguntar, no qué ocurrió.
+
+**Práctica con el caso.** Resuelve I2 de la guía y redacta tres preguntas que un auditor haría
+sobre una activación de software, sin suponer la respuesta.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la evidencia contable de provisiones y activaciones.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula la materialidad de una auditoría y determina su alcance. Conviene ver qué queda por debajo del umbral: es lo que el dictamen no cubre.
@@ -494,6 +518,7 @@ Los síntomas de la tabla describen expectativas mal puestas en un dictamen. Las
 3. ¿Para qué se introdujeron las cuestiones clave de auditoría?
 4. ¿Por qué los ajustes de gestión son el punto de mayor juicio en un banco?
 5. ¿Qué distingue una deficiencia significativa de una debilidad material?
+6. ¿Por qué el ajuste de una activación de software es un problema de respaldo contable y no una prueba de que el software falló?
 
 ## 📥 Entregable
 
@@ -503,6 +528,7 @@ Guarda en `portfolio/parte-12/clase-15/`:
 - las cuestiones clave identificadas con su justificación;
 - la evaluación del ajuste de gestión con su verificación empírica;
 - la clasificación de cinco deficiencias con su destinatario.
+- las tres preguntas de auditoría sobre la activación del software y el efecto sobre patrimonio y capital (caso Ueno, I2).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

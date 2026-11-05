@@ -239,6 +239,24 @@ ES LA ACCIÓN DECISIVA
   → por eso el supervisor verifica su solvencia
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: estrés inverso aplicado a tu banco
+
+El Banco Virtual que construyes ya tiene balance, cartera y capital. El caso de ueno bank
+propone una prueba concreta: **¿cuánta pérdida adicional de cartera hace que mi banco cruce el
+mínimo y la mitad del mínimo?** Se resuelve con el método de la clase 13 de la Parte 11 y el
+ejercicio A2 de la guía.
+
+Pasos: (1) escribe tu capital regulatorio `K` y tus `APR`; (2) calcula `h` que lleva `r` a
+12 % y a 6 % con `APR` constante; (3) repite con `APR` que baja `h`; (4) compara el resultado
+con el 6,25 % frente al 5,71 % del banco sintético: si tu conclusión cambia con el supuesto,
+indícalo; (5) añade la línea de liquidez de A4 con tus propios depósitos.
+
+**Práctica con el caso.** Entrega una tabla de dos columnas (hipótesis de `APR`) y dos filas
+(umbral 12 % y 6 %) para tu Banco Virtual.
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la prueba de estrés inversa del proyecto.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo somete al Banco Austral a un escenario diseñado contra su vulnerabilidad. Conviene identificar qué métrica rompe primero: es la que hay que reforzar.
@@ -503,6 +521,7 @@ Los síntomas de la tabla describen pruebas de estrés que no informan. Las caus
 3. ¿Qué significa que el escalonamiento sea procíclico?
 4. ¿Qué distancia hay entre el escenario adverso y el punto de quiebre?
 5. ¿Por qué el hallazgo sobre el escalonamiento vale más que el ratio?
+6. ¿Cuánta pérdida adicional de cartera lleva a tu Banco Virtual por debajo del mínimo y por debajo de su mitad, y cambia el resultado con la hipótesis sobre los activos ponderados?
 
 ## 📥 Entregable
 
@@ -512,6 +531,7 @@ Guarda en `portfolio/parte-16/clase-15/`:
 - la traducción a parámetros con sus elasticidades;
 - la proyección completa con y sin acciones de gestión;
 - la prueba inversa y las seis decisiones derivadas.
+- la tabla de estrés inverso de tu Banco Virtual con las dos hipótesis de `APR` y la línea de liquidez (caso Ueno, A2 y A4).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites

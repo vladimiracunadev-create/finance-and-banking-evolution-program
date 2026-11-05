@@ -227,6 +227,28 @@ LA PRUEBA DE LA CULTURA
   si nunca ocurrió, el ajuste por riesgo es nominal
 ```
 
+### Caso en desarrollo · Ueno Bank Paraguay: actividad integradora de comité de riesgos
+
+Esta clase reúne liquidez, crédito, capital y estrés en una sola mesa. El caso de ueno bank
+ofrece el escenario para ensayarlo: no se imita a una entidad real, se usa un banco sintético
+(*Yvyra*) con un paquete de datos que obliga a combinar lo aprendido —provisión de 60, cartera a
+vinculadas de 150, liquidez de 282, salidas esperadas de 3 %, 5 % y 8 % diarias y una
+capitalización anunciada de 100 en dos tramos de 50—.
+
+El comité debe entregar, en dos páginas, seis secciones: lo que ocurrió según las fuentes
+(con etiqueta de nivel), los conceptos que lo explican, los cálculos con su interpretación,
+tres alternativas con decisión justificada, las consecuencias para los clientes y las
+incertidumbres. La actividad completa, con su rúbrica de cuatro dimensiones (20-30-30-20 %) y
+su solución orientativa, está en la guía de ejercicios. Un comité que decide «esperar al
+primer tramo» sin notar que la liquidez se agota el cuarto día (A4) ha leído mal el calendario;
+uno que cuenta los 100 anunciados como capital ha confundido anuncio con integración.
+
+**Práctica con el caso.** Prepara la sección 4 del informe (alternativas y decisión) y compárala
+con la de otro grupo: ¿qué criterio explícito separa las dos decisiones?
+Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye a uno de los ejercicios del laboratorio, que queda como práctica adicional.
+
+**Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja la decisión conjunta del comité.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo somete todos los riesgos de un banco a un escenario único. Conviene mirar qué métricas se activan a la vez: eso es lo que ninguna medición individual mostraba.
@@ -438,6 +460,7 @@ Los síntomas de la tabla describen crisis en bancos que cumplían sus límites.
 3. ¿Por qué una métrica dentro de límite puede ser más grave que una en alerta?
 4. ¿Qué se pierde al estresar cada riesgo por separado?
 5. ¿Cómo se comprueba que el ajuste por riesgo de la remuneración es real?
+6. En el comité de riesgos sintético, ¿qué dato obliga a no esperar al primer tramo de capitalización, y qué criterio explícito justifica tu decisión?
 
 ## 📥 Entregable
 
@@ -447,6 +470,7 @@ Guarda en `portfolio/parte-11/clase-16/`:
 - la matriz de escalamiento con destinatarios y plazos;
 - la evaluación de una propuesta contra todo el tablero, con la decisión y su fundamento;
 - el escenario integrado con las interacciones entre riesgos trazadas.
+- el informe de comité de dos páginas del caso Ueno (versión para principiantes: secciones 1, 3 y 4).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
