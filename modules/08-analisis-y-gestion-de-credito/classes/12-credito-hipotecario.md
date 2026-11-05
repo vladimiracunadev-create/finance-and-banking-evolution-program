@@ -239,6 +239,22 @@ El producto hipotecario tiene mitigantes propios que reducen la severidad. La ta
 | Cuenta de reserva de dividendos | Colchón ante interrupciones de ingreso |
 | Tasa fija en lugar de variable | Elimina el riesgo de tasa del deudor |
 
+### Conexión con un caso · Ley 21.850: vivienda, arriendo e impuestos que rodean al crédito hipotecario
+
+Un crédito hipotecario se evalúa con el ingreso del deudor y con el valor y la liquidez de la vivienda. Tres reglas de la
+Ley 21.850 tocan ese cálculo desde distintos lados. **(1) IVA.** Durante un año desde el primer día hábil del mes subsiguiente a la publicación, la
+primera venta de una vivienda nueva con recepción definitiva anterior a la publicación puede optar a una exención de IVA **[H]** (cuarto transitorio); el
+precio que el comprador financia puede ser menor. **(2) Arriendo.** Desde el 1 de enero de 2027, una persona natural que arrienda desde su tercera «vivienda
+económica» de hasta 90 m² a no relacionados puede pagar un impuesto único de 5 % sobre el ingreso bruto **[H]** (artículo 3; ejercicio B7), lo que mejora el flujo
+de un inversionista que usa un crédito para comprar y arrendar. **(3) Impuesto territorial.** Desde 2027, la vivienda principal de una persona de 65 años o más puede
+quedar exenta si lo solicita **[H]** (artículo 10), lo que reduce un gasto fijo del hogar.
+
+**Método.** Para el banco, cada regla se traduce en una variable del análisis: precio financiado, ingreso por arriendo después de impuestos y gasto fijo del hogar. Se
+recalcula la relación cuota-ingreso con y sin la regla, sin sustituir el ingreso verificado por el beneficio esperado.
+
+**Cliente y banco.** El cliente puede pagar menos impuesto o comprar más barato; el banco no debe financiar sobre un beneficio que depende de una opción que el cliente aún no ejerció
+o de una instrucción del SII que falta **[P]**. **Riesgo de interpretación:** confundir una exención opcional con una rebaja automática. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo evalúa una operación hipotecaria completa con estrés de tasa y de reajuste. Conviene mirar la cuota en el peor escenario: es la que decide si la operación es prudente.
@@ -433,6 +449,7 @@ Los síntomas de la tabla describen carteras hipotecarias que se deterioran con 
 3. ¿Qué ocurre con la carga financiera si el reajuste salarial es menor que la inflación?
 4. ¿Por qué exigir una reserva al desembolso reduce la probabilidad de incumplimiento?
 5. ¿Qué riesgo introduce una construcción sin recepción municipal?
+6. ¿Por qué un banco no debe financiar un crédito hipotecario sobre un ahorro tributario que el cliente aún no ha solicitado?
 
 ## 📥 Entregable
 
@@ -442,6 +459,7 @@ Guarda en `portfolio/parte-09/clase-12/`:
 - la proyección de carga financiera a 25 años con dos escenarios de reajuste;
 - la lista de verificación de garantía aplicada a un caso;
 - la estructura diseñada que cumple el LTV y el objetivo de reserva, con su fundamento.
+- la relación cuota-ingreso con y sin la exención de IVA y el impuesto único de 5 % al arriendo (Ley 21.850, ejercicio B7).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -462,6 +480,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - International Monetary Fund (2011). *Macroprudential Policy: An Organizing Framework*. Límites de LTV como instrumento macroprudencial.
 - European Banking Authority (2020). *Guidelines on loan origination and monitoring*. EBA. Evaluación y monitoreo de garantías inmobiliarias.
 - Verificación local: revisa los límites de LTV vigentes en tu país, los requisitos de tasación y los seguros exigidos por la normativa.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

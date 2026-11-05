@@ -225,7 +225,7 @@ posteriores **[H]**. Rige desde el 1 de noviembre de 2026 **[H]**.
 
 **Cliente y banco.** El cliente puede mejorar el costo de contratar; el banco debe verificar que el servicio califique como exportación
 (Aduanas), que esté en el catálogo que fije un decreto de Hacienda **[P]** y que el registro de trabajadores exista **[P]**. Una empresa
-con pérdidas no puede devolver el crédito, solo arrastrarlo. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio B4 de la [guía](../../../docs/ejercicios-ley-21850.md).
+con pérdidas no puede devolver el crédito, solo arrastrarlo. Un segundo crédito, el del artículo 33 quáter (desde el 1 de enero de 2027), financia tratamientos de enfermedades catastróficas del trabajador y su familia directa hasta 150 UTM por trabajador durante la relación laboral, también contra el impuesto de primera categoría y sin devolución **[H]**. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio B4 de la [guía](../../../docs/ejercicios-ley-21850.md).
 
 ## 🧮 Ejemplo guiado
 

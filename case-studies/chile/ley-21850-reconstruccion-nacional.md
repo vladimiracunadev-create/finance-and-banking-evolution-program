@@ -2,7 +2,7 @@
 
 **Tema:** rebaja gradual del impuesto de primera categoría, integración tributaria,
 incentivos a la inversión y regularización de deudas ·
-**Partes relacionadas:** 5, 6, 8, 9, 10, 11, 12, 13, 15 y 16 ·
+**Partes relacionadas:** 2, 5, 7, 8, 9, 10, 11, 12, 13 y 15 ·
 **Naturaleza:** ley publicada, de **vigencia escalonada** (2026-2029) ·
 **Fecha de publicación:** 2026-10-17 · **Fecha de corte:** 2026-11-05 ·
 **Fecha de consulta:** 2026-11-05
@@ -85,9 +85,23 @@ El sexto transitorio fija la tasa aplicable a las rentas de los años comerciale
 | 2028 | 24 % |
 | 2029 en adelante | 23 % |
 
-El régimen Pro Pyme (letra D del artículo 14) y la letra G se regulan aparte: el
-sexto transitorio aclara que las tasas de 2026 y 2027 no se aplican a la letra G
-**[H]**. En este programa se estudia el caso del régimen general.
+La letra G se regula aparte: el sexto transitorio aclara que las tasas de 2026 y 2027 no
+se aplican a ella **[H]**. El régimen Pro Pyme (letra D del artículo 14) tiene su propia
+trayectoria, y conviene mirarla porque **termina en un escalón**.
+
+| Año comercial | Pro Pyme (letra D, n.º 3) | Régimen general | Fuente de la tasa Pro Pyme |
+|---:|---:|---:|---|
+| 2026 | 12,5 % | 27 % | Ley 21.755, art. 25 (Circular SII 53/2025) **[H]** |
+| 2027 | 12,5 % | 25,5 % | ídem **[H]** |
+| 2028 | 15 % | 24 % | ídem **[H]** |
+| 2029 | 23 % | 23 % | art. 20 modificado por la Ley 21.850 **[I]** |
+
+Las tasas rebajadas de 2026 a 2028 exigen que, al cierre de cada ejercicio, la cotización
+del empleador (Ley 21.735) sea de 3,5 %, 4,25 % y 5 % respectivamente **[H]**
+(Circular SII 53/2025). La cifra de 2029 es una **lectura**: el artículo 8 elimina del
+artículo 20 la oración que fijaba 25 % para la Pro Pyme, de modo que desde 2029 rige la tasa
+general; ninguna fuente oficial consultada la enuncia expresamente. El salto de 15 % a 23 %
+es el dato que más importa a un banco con cartera pyme (véase el ejercicio B9).
 
 ### Integración y restitución del crédito
 
@@ -95,8 +109,36 @@ El artículo 9 suprime la obligación de restitución del crédito por impuesto 
 categoría desde el 1 de enero de 2027 **[H]**. Entre el 1 de enero de 2027 y el 31 de
 diciembre de 2028, el quinto transitorio mantiene un control en el registro SAC con una
 restitución decreciente: 30 % del crédito del año tributario 2028 y 20 % del del año
-tributario 2029 **[H]**. **[I]** El resultado es un tránsito, no un salto: la carga
-total sobre una utilidad distribuida baja en cuatro pasos (véase la guía de ejercicios).
+tributario 2029 **[H]**. La nota del SII del 19 de octubre de 2026 confirma el calendario
+completo: 30 % en el año tributario 2028, 20 % en el 2029 y 0 % en el 2030, junto con las
+tasas de 25,5 %, 24 % y 23 % para esos mismos años tributarios **[H]**. **[I]** El resultado es
+un tránsito, no un salto: la carga total sobre una utilidad distribuida baja en cuatro pasos
+(véase la guía de ejercicios).
+
+### Medidas con vigencia entre 2027 y 2030
+
+Además del núcleo ya descrito, la ley contiene medidas que entran en vigencia en 2027 o
+después, o cuyo efecto llega hasta 2030. Se listan aquí para que el calendario sea
+completo; cada una se trabaja en la clase que se indica.
+
+| Medida | Dónde | Vigencia y contenido | Nivel | Clase |
+|---|---|---|---|---|
+| Impuesto único de 5 % al arriendo de «pequeñas viviendas económicas» (DFL 2) | Art. 3 (art. 24 bis y ter) | Desde 2027-01-01; personas naturales desde la tercera vivienda de hasta 90 m² arrendada a no relacionados, sobre el bruto sin deducciones; opción para viviendas de hasta 140 m² compradas en 12 meses | **[H]** | P9 · 12 |
+| Exención de impuesto territorial de la vivienda principal para mayores de 65 años | Art. 10 | Desde 2027-01-01 (octavo transitorio); debe solicitarse | **[H]** (texto y nota del SII) | P9 · 12 |
+| Exención transitoria de IVA en la primera venta de vivienda nueva | Cuarto transitorio | Un año desde el primer día hábil del mes subsiguiente a la publicación; la vivienda debe tener recepción definitiva anterior a la publicación | **[H]** | P9 · 12 |
+| Rebaja de 50 % del impuesto a las donaciones | Primer transitorio | Una sola vez por donante; escritura dentro de un año desde el primer día del mes subsiguiente; donado máximo 50 % del patrimonio | **[H]** | P2 · 9 |
+| Crédito por tratamiento de enfermedades catastróficas | Art. 7 (art. 33 quáter) | Desde 2027-01-01; hasta 150 UTM por trabajador durante la relación laboral, contra el impuesto de primera categoría, sin devolución | **[H]** | P13 · 14 |
+| Franquicia SENCE de 1 % a 0,7 % y tramos de imputación de 80 %, 50 % y 15 % | Art. 29 (arts. 36 y 37 Ley 19.518) | La nota del SII la ubica en 2027-01-01; el texto consultado no fija fecha especial | **[H]** con **discrepancia de fecha** | P13 · 6 |
+| Pagos provisionales: reducción de la tasa de enero a marzo | Séptimo transitorio | 5,56 % en 2027, 5,88 % en 2028 y 4,17 % en 2029 respecto de la tasa de diciembre anterior | **[H]** | P13 · 3 |
+| Pagos provisionales de la Pro Pyme: 0,25 % a 0,23 % | Art. 8 n.º 1 | Desde 2029-01-01 | **[H]** | P9 · 13 |
+| Declaración voluntaria de bienes en el extranjero | Tercer transitorio | Doce meses desde 2027-01-01; 10 % o 7 % si los fondos se ingresan y mantienen invertidos en Chile | **[H]** (SII) | P12 · 3 |
+| Opción del impuesto único de 10 % sobre FUR, STUT y retiros en exceso | 11.º y 12.º transitorios | Ocho meses desde la publicación, es decir, hasta 2027-06-17 | **[I]** (cálculo del plazo) | P13 · 12 |
+| Informes periódicos al Congreso | Arts. 7 y 34 | Semestrales (invariabilidad) y cada cinco años (crédito del art. 33 ter) | **[H]** | P15 · 5 |
+
+Una limitación que conviene declarar: la Ley 21.713 (cumplimiento tributario) se modifica en
+el artículo 32 y su calendario propio puede traer fechas posteriores a 2027 (por ejemplo, una
+regla del IVA que rige tres meses después de un decreto que debe dictarse en 24 meses). Este
+programa **no verificó** ese calendario y no lo da por conocido **[P]**.
 
 ### Otras medidas con efecto financiero
 
@@ -168,6 +210,12 @@ La ley modifica la Ley sobre Impuesto a la Renta (DL 824), el Código Tributario
 | Normas de información de empresas receptoras de inversión (art. 26) | CMF | **[P]** resolución dentro de seis meses desde la publicación |
 | Reglamentos del contrato de inversión y de reorganizaciones (art. 26) | Hacienda | **[P]** no confirmados |
 
+El SII informó el 19 de octubre de 2026 que emitirá **13 circulares y 17 resoluciones** para
+implementar las medidas, y publicó un portal con el calendario **[H]**; ninguna de esas
+circulares o resoluciones se confirmó como dictada a la fecha de corte **[P]**. El primer
+transitorio fija además un plazo de 30 días corridos desde la publicación (hasta 2026-11-16)
+para las instrucciones sobre la rebaja del impuesto a las donaciones **[P]**.
+
 La ficha estructurada está en [`regulatory/chile/ley-21850.yml`](../../regulatory/chile/ley-21850.yml).
 
 ## Controles
@@ -215,6 +263,8 @@ ejercicios. Este expediente aporta los hechos comunes una sola vez.
 ## Fuentes
 
 - Biblioteca del Congreso Nacional (2026). *Ley N.º 21.850, para la reconstrucción nacional y el desarrollo económico y social*. Publicada el 17 de octubre de 2026. Texto consultado el 5 de noviembre de 2026 en el formato de intercambio de Ley Chile (norma 1229250, versión 2026-10-17). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>
+- Servicio de Impuestos Internos (2026). *Ya se publicó en el Diario Oficial la Ley para la Reconstrucción Nacional y Desarrollo Económico y Social*. Nota del 19 de octubre de 2026, consultada el 5 de noviembre de 2026. <https://www.sii.cl/noticias/2026/191026noti01pcr.htm>
+- Servicio de Impuestos Internos (2025). *Circular N.º 53*, sobre la tasa transitoria de la Pro Pyme (Ley 21.755, art. 25). <https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf>
 - Deloitte Chile (2026). *Ley N.º 21.850: para la reconstrucción nacional y el desarrollo económico y social*. Fuente secundaria: solo para las afirmaciones marcadas **[D]**. <https://www.deloitte.com/cl/es/services/tax/perspectives/ley-de-reconstruccion-nacional.html>
 - Ficha estructurada del repositorio: [`ley-21850`](../../regulatory/chile/ley-21850.yml).
-- **Pendiente:** instrucciones, circulares y resoluciones del SII sobre esta ley; el sitio del SII no pudo leerse de forma automática desde este equipo. Se registrarán cuando puedan consultarse.
+- **Pendiente:** las 13 circulares y 17 resoluciones que el SII anunció; solo se pudieron leer sus noticias estáticas, no su sección de normativa. Se registrarán cuando puedan consultarse.

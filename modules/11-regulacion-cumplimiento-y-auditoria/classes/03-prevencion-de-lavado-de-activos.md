@@ -253,7 +253,7 @@ EL CONFLICTO REAL
 ### Conexión con un caso · Ley 21.850: declaración voluntaria de bienes y cruces de información
 
 La ley contiene dos medidas que tocan el cumplimiento. El tercer transitorio crea un sistema voluntario y extraordinario de declaración de bienes y rentas
-en el extranjero, por doce meses, y la presentación **autoriza** al SII, a la UAF y a otros órganos del Estado a requerir información a los bancos e intercambiarla **[H]**. Además, el
+en el extranjero, por doce meses desde el primer día del tercer mes siguiente a la publicación (1 de enero de 2027 a 31 de diciembre de 2027 **[I]**), con un impuesto único de 10 % o de 7 % si los fondos se ingresan e invierten en Chile (nota del SII) **[H]**, y la presentación **autoriza** al SII, a la UAF y a otros órganos del Estado a requerir información a los bancos e intercambiarla **[H]**. Además, el
 artículo 18 autoriza al SII a cruzar datos nominados con todos los órganos de la Administración **[H]**.
 
 **Para la entidad financiera.** Más declaraciones significan más solicitudes de información sobre clientes; la entidad debe conservar y entregar la información

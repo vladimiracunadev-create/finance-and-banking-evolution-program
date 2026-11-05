@@ -377,6 +377,8 @@ y 23 % desde 2029 **[H]** (sexto transitorio). Para el flujo, lo que importa es 
 cobertura del servicio de deuda (600 MM$ anuales) sube de 1,217 a 1,283 **[S]**. Un convenio que exige 1,25 se
 cumple recién en 2028: el covenant cambió por una ley, no por desempeño.
 
+**Caja del año.** Los pagos provisionales mensuales se calculan con la tasa de diciembre anterior, de modo que la rebaja llega a la caja con rezago. El séptimo transitorio lo corrige: de enero a marzo de 2027, 2028 y 2029 esa tasa se reduce en 5,56 %, 5,88 % y 4,17 % **[H]**, es decir, el cambio relativo de la tasa legal (1 − 25,5/27, y así). Una empresa que vende 200 MM$ al mes con un pago de 1,5 % ahorra 0,5 MM$ en el primer trimestre de 2027 **[S]** (ejercicio B8).
+
 **Cliente y banco.** El cliente ve más caja; el banco debe decidir si recalibra el covenant o deja que la mejora
 actúe como colchón. **Riesgo de interpretación:** el `NOPAT` no es caja libre; faltan depreciación, inversión y
 capital de trabajo. Ficha y calendario: [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md). Ejercicio B1 de la [guía](../../../docs/ejercicios-ley-21850.md).

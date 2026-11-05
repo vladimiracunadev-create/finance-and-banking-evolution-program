@@ -86,9 +86,10 @@ y toda la utilidad si no reparte) y la capacidad de los dueños de apoyarla con 
 
 **Riesgo de interpretación.** El quinto transitorio habla de créditos «generados durante
 el año tributario 2028» y «2029», y el año tributario sigue al comercial. Este ejemplo
-asume que el crédito del año comercial 2027 tiene `ρ` de 30 % y el de 2028 de 20 %. Es
-una **lectura del texto** que debe contrastarse con las instrucciones del SII, que aún no
-se confirmaron.
+asume que el crédito del año comercial 2027 tiene `ρ` de 30 % y el de 2028 de 20 %. La
+nota del SII del 19 de octubre de 2026 confirma esa correspondencia (30 % en el año
+tributario 2028, 20 % en el 2029 y 0 % en el 2030), pero las **circulares con las
+instrucciones de detalle** aún no se confirmaron como dictadas.
 
 ### Ejemplo guiado 2 (profesional): rebaja de tasa, escudo fiscal y valor de la empresa
 
@@ -131,7 +132,7 @@ fórmula.
 
 ---
 
-## Parte B · Once ejercicios
+## Parte B · Quince ejercicios
 
 ### Ejercicios básicos
 
@@ -191,6 +192,52 @@ paga el deudor?
 nominales. **Riesgo:** suponer que las cuotas se reajustan; el ejercicio las trata sin
 reajuste **[S]**. El banco que refinancie esa deuda debería considerar este valor, no el
 nominal.
+
+**B7 · Arriendo de viviendas económicas (tema 9; persona natural).** Una persona natural
+arrienda su tercera vivienda económica, de 80 m², a una persona no relacionada por
+600.000 pesos mensuales (7.200.000 al año) **[S]**. Desde el 1 de enero de 2027 puede
+optar por un impuesto único de 5 % sobre el ingreso bruto, sin deducciones (artículo 24 bis).
+La alternativa es tributar con el régimen general: tasa marginal de 35 % sobre el ingreso
+después de deducir 30 % de gastos **[S]**. Calcula ambos impuestos y la tasa marginal de equilibrio.
+
+*Respuesta orientadora.* Opción: 7.200.000 × 5 % = **360.000**. General: 7.200.000 × 70 % × 35 % =
+**1.764.000**. Equilibrio: 5 % / 70 % = **7,14 %**: con una tasa marginal menor la opción
+no conviene. **Riesgo:** la opción exige condiciones (desde la tercera vivienda, arrendatario
+no relacionado, vivienda no asignada a una empresa individual); verifica el texto y las
+instrucciones del SII.
+
+**B8 · Pagos provisionales de enero a marzo (tema 1; empresa y tesorería).** El séptimo
+transitorio reduce, para los pagos de enero a marzo de 2027, 2028 y 2029, la tasa que se
+aplicó en diciembre anterior, en 5,56 %, 5,88 % y 4,17 %. Comprueba que esos porcentajes
+salen de la sucesión de tasas y calcula el ahorro de caja de una empresa que vendía 200 MM$ al
+mes con un pago provisional de 1,5 % en diciembre de 2026 **[S]**.
+
+*Respuesta orientadora.* 1 − 25,5/27 = 5,56 %; 1 − 24/25,5 = 5,88 %; 1 − 23/24 = 4,17 %: es
+el cambio relativo de la tasa. Pago de diciembre: 200 × 1,5 % = 3,000; en enero de 2027:
+3,000 × (1 − 5,56 %) = **2,833**; ahorro mensual 0,167 y **0,500** MM$ entre enero y marzo.
+**Riesgo:** es un adelanto, no un ahorro definitivo: el impuesto anual se determina después y
+la diferencia se regulariza en la declaración de abril.
+
+**B9 · El escalón de la Pro Pyme en 2029 (tema 10; banco).** Una pyme del régimen Pro Pyme
+tiene una renta líquida imponible de 1.000 MM$ cada año **[S]**. Calcula su impuesto de
+primera categoría entre 2026 y 2029 (12,5 %; 12,5 %; 15 %; 23 %) y compáralo con el régimen general.
+
+*Respuesta orientadora.* Pro Pyme: 125; 125; 150; **230**. General: 270; 255; 240; 230. Ventaja
+de la Pro Pyme: 145; 130; 90; 0. El salto de 2028 a 2029 es de **+80 MM$ (+53,3 %)**: el
+flujo de una pyme cae en 2029 aunque la ley «baje los impuestos». **Riesgo:** la tasa de
+2029 es una **lectura** (el artículo 8 elimina la oración que fijaba 25 %); la tasa rebajada
+de 2026 a 2028 depende además de la cotización del empleador. Un covenant de 2028 que
+funcione con 150 puede fallar en 2029 con 230.
+
+**B10 · Franquicia SENCE (tema 4; empresa).** Una empresa con 2.000 MM$ de remuneraciones
+imponibles anuales **[S]** tiene una franquicia de hasta 1 % de esa planilla. Con el
+artículo 29 pasa a 0,7 %. Calcula el tope antes y después. Luego, si gasta 10 MM$ en capacitar
+a un trabajador de hasta 25 UTM y 10 MM$ en uno de más de 50 UTM, ¿cuánto puede imputar a la franquicia?
+
+*Respuesta orientadora.* Tope: 20 MM$ → **14 MM$** (−6, −30 %). Imputable: 80 % × 10 = **8** y 15 % × 10 =
+**1,5**; la empresa financia 2 y 8,5. **Riesgo:** la fecha de vigencia es dudosa (la nota del
+SII indica el 1 de enero de 2027; el texto consultado no fija fecha especial) y los
+porcentajes se aplican al valor hora por participante, no a cualquier gasto.
 
 ### Ejercicios intermedios y avanzados
 

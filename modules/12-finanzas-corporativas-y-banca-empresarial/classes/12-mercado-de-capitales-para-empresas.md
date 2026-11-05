@@ -247,7 +247,7 @@ el beneficiario de sus fondos.
 Dos reglas de la ley cambian cómo una empresa se presenta ante sus accionistas. La primera: el artículo 9 elimina la
 restitución del crédito por impuesto de primera categoría desde el 1 de enero de 2027, con un tránsito (30 % del
 crédito del año tributario 2028 y 20 % del 2029) **[H]**. La segunda: la ganancia por la venta de acciones de sociedades abiertas
-y cuotas de ciertos fondos pasa, en los casos del artículo 107, a «no constituir renta» desde el 1 de enero de 2027 **[H]**.
+y cuotas de ciertos fondos pasa, en los casos del artículo 107, a «no constituir renta» desde el 1 de enero de 2027 **[H]**. Una tercera regla tiene fecha límite: la opción de pagar un impuesto único de 10 % sobre saldos FUR, STUT y retiros en exceso vence ocho meses después de la publicación (hasta el 17 de junio de 2027 **[I]**, ejercicio A5).
 
 **Fórmula.** Para un accionista con `t_f` ≥ `t_c`, la carga sobre una utilidad distribuida es
 `t_f × RLI + ρ × IDPC`: a medida que `ρ` baja a cero, la carga converge a `t_f × RLI` y deja de importar la tasa de la empresa.

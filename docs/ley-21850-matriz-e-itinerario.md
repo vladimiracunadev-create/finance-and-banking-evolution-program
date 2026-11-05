@@ -3,7 +3,7 @@
 Mapa de cómo el caso
 [«Ley 21.850: qué cambia en el costo de capital, los dividendos y la liquidez»](../case-studies/chile/ley-21850-reconstruccion-nacional.md)
 se reparte en el programa. Igual que el caso de Ueno Bank, **no es una unidad aparte**: vive
-dentro de 16 clases que ya existían, cada una con un aspecto distinto, y los hechos comunes están
+dentro de 18 clases que ya existían, cada una con un aspecto distinto, y los hechos comunes están
 una sola vez en el expediente. Las soluciones están en la
 [guía de ejercicios](ejercicios-ley-21850.md); la ficha normativa, en
 [`regulatory/chile/ley-21850.yml`](../regulatory/chile/ley-21850.yml).
@@ -53,11 +53,13 @@ Los once temas del encargo se reparten así. Cada fila indica a quién afecta y 
 
 | Clase existente | Objetivo del aspecto | Contenido añadido | Actividad | Prerrequisito | Evidencia |
 |---|---|---|---|---|---|
+| [P2 · 9 Patrimonio y balance personal](../modules/01-finanzas-personales/classes/09-patrimonio-y-balance-personal.md) | Donar en vida sin confundirlo con un gasto | Rebaja de 50 % del impuesto a las donaciones | Balance antes y después | Patrimonio personal | Balance con límite de 50 % |
 | [P5 · 11 Estado de resultados](../modules/04-contabilidad-financiera/classes/11-estado-de-resultados.md) | Separar efecto fiscal y operativo | Tasa efectiva frente a tasa legal | Conciliación de tasas | Estado de resultados | Una conciliación |
 | [P7 · 8 Valor actual neto](../modules/06-matematica-financiera-avanzada/classes/08-valor-actual-neto.md) | Usar la tasa de cada año | `VAN` con tasa de impuesto variable | Comparar tasa por año y tasa única | VAN | Dos cálculos |
 | [P8 · 13 Costos, impuestos y sesgos](../modules/07-inversiones-y-mercados/classes/13-costos-impuestos-y-sesgos.md) | Rendimiento neto de impuestos | Ganancias de capital del art. 107 | B3 | Rentabilidad | Antes y después |
 | [P9 · 13 Crédito comercial y pyme](../modules/08-analisis-y-gestion-de-credito/classes/13-credito-comercial-y-pyme.md) | Segmentar la cartera por régimen | Régimen general, Pro Pyme, exportadoras | Segmentación | Crédito comercial | Tabla de segmentos |
 | [P9 · 15 Cobranza y reestructuración](../modules/08-analisis-y-gestion-de-credito/classes/15-cobranza-y-reestructuracion.md) | Coordinar deuda con el Estado y con el banco | Condonación condicional | Plan de coordinación | Reestructuración | Plan |
+| [P9 · 12 Crédito hipotecario](../modules/08-analisis-y-gestion-de-credito/classes/12-credito-hipotecario.md) | Financiar sobre beneficios no ejercidos | IVA de vivienda nueva, 5 % al arriendo, territorial 65+ | B7 | Crédito hipotecario | Cuota-ingreso con y sin regla |
 | [P10 · 12 Tesorería](../modules/09-operaciones-bancarias/classes/12-tesoreria.md) | Liquidez de los clientes | Facilidades de pago | B5, B6 | Liquidez | Comparación contado/convenio |
 | [P11 · 13 Pruebas de estrés](../modules/10-gestion-integral-de-riesgos/classes/13-pruebas-de-estres.md) | Escenarios fiscales | Tres escenarios y estrés inverso | A4 | Estrés | Tabla de escenarios |
 | [P12 · 3 Prevención de lavado](../modules/11-regulacion-cumplimiento-y-auditoria/classes/03-prevencion-de-lavado-de-activos.md) | Declaración voluntaria y cruces | Información al SII y la UAF | Protocolo | Debida diligencia | Protocolo |
@@ -73,6 +75,25 @@ Los once temas del encargo se reparten así. Cada fila indica a quién afecta y 
 La progresión sigue la del programa: primero se mide el efecto en cifras elementales (P5, P7, P8),
 después en el crédito y la tesorería (P9, P10), luego en el riesgo y la norma (P11, P12), en las
 finanzas de la empresa (P13) y, al final, en la dirección del banco (P15).
+
+### Medidas con vigencia 2027-2030 y dónde se trabajan
+
+Una segunda lectura de la ley, centrada en el calendario, encontró medidas que el primer recorrido no había
+llevado a las clases. Se incorporaron **dentro de las mismas clases**, no en unidades nuevas.
+
+| Medida | Clase |
+|---|---|
+| Pagos provisionales: rebaja de enero a marzo de 2027, 2028 y 2029 | P13 · 3 (B8) |
+| Pro Pyme: 12,5 % → 15 % → 23 % y el escalón de 2029 | P9 · 13 (B9) |
+| Franquicia SENCE de 0,7 % | P13 · 6 (B10) |
+| Crédito por enfermedades catastróficas (art. 33 quáter) | P13 · 14 |
+| Impuesto único de 5 % al arriendo, IVA de vivienda nueva, territorial 65+ | P9 · 12 (B7) |
+| Rebaja del impuesto a las donaciones | P2 · 9 |
+| Declaración voluntaria de capitales en el extranjero (2027) | P12 · 3 |
+| Plazo del impuesto único sobre FUR y STUT (hasta 2027-06-17) | P13 · 12 (A5) |
+| Calendario por año tributario y informes al Congreso | P15 · 5 |
+
+El calendario propio de la Ley 21.713, que la ley modifica, **no se verificó** y queda como pendiente.
 
 ## Perspectivas por actor
 
@@ -131,7 +152,7 @@ programa los registra como pendientes, a la espera de poder consultarlos en la f
 
 | Instrumento | Autoridad | Estado |
 |---|---|---|
-| Instrucciones sobre el registro SAC y la restitución decreciente | SII | Pendiente: el sitio del SII no pudo leerse de forma automática |
+| Instrucciones sobre el registro SAC y la restitución decreciente | SII | Pendiente: el SII anunció (2026-10-19) 13 circulares y 17 resoluciones; ninguna se pudo confirmar como dictada |
 | Formulario de opción del impuesto único sobre FUR, STUT y retiros en exceso | SII | Pendiente |
 | Registro de trabajadores del art. 33 ter | SII | Pendiente |
 | Catálogo de servicios del conocimiento | Hacienda y Economía | Pendiente |

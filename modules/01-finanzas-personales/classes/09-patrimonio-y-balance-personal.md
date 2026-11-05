@@ -172,6 +172,18 @@ Tres lecturas simultáneas: el patrimonio crece, la deuda baja de forma sostenid
 productivos mejora 16 puntos en 18 meses. La desaceleración del último semestre (+9,7 %) es la señal
 que merece investigación: ¿bajó el ahorro, subió el gasto, cayó el valor de un activo?
 
+### Conexión con un caso · Ley 21.850: donar en vida y su efecto en el balance personal
+
+Una donación mueve un activo del balance de una persona al de otra, y el impuesto a las donaciones es un costo de ese traspaso. El primer transitorio de la
+Ley 21.850 ofrece **por una sola vez**, a cada donante, una rebaja de 50 % del impuesto, si la donación se hace por escritura pública dentro de un año desde el primer día del
+mes subsiguiente a la publicación (hasta el 30 de noviembre de 2027 **[I]**) a legitimarios o asignatarios de cuarta de mejoras, y si lo donado no supera 50 % del patrimonio del donante **[H]**.
+
+**Ejemplo.** Un patrimonio neto de 1.000 (millones, sintético **[S]**) permite donar como máximo 500; si el impuesto sin rebaja fuera de 100, con ella sería de 50. El ahorro de 50 se compara con lo
+que se pierde: el patrimonio del donante baja en lo donado, y el balance personal debe mostrarlo, porque una donación **no es un gasto**, es un cambio de titular.
+
+**Riesgo de interpretación.** La rebaja es única por donante: usarla pronto puede impedir usarla más adelante; y el costo tributario del bien donado para quien lo recibe puede limitarse si lo vende dentro de tres años.
+Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** Fernando, 42 años, ingreso 2 400 000 mensuales. Cree tener un patrimonio de
@@ -278,6 +290,7 @@ Los síntomas de la tabla describen balances que suben sin que la situación hay
 3. ¿Qué son los pasivos contingentes y por qué su omisión distorsiona el balance?
 4. ¿Qué mide el ratio de activos productivos y por qué importa más con la edad?
 5. Un patrimonio crece 20 % semestral y luego 9 %. ¿Qué investigas?
+6. ¿Por qué una donación reduce el patrimonio neto del donante aunque tenga una rebaja de impuesto?
 
 ## 📥 Entregable
 
@@ -287,6 +300,7 @@ Guarda en `portfolio/parte-02/clase-09/`:
 - la clasificación por tipo de activo con el ratio de productivos;
 - los cuatro ratios comparados con las referencias por edad;
 - un plan de composición patrimonial a 5 años con hitos semestrales.
+- el balance personal antes y después de una donación acogida a la rebaja, con el límite de 50 % del patrimonio (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -307,6 +321,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - IFRS Foundation. *Marco Conceptual para la Información Financiera*, capítulo 4: definiciones de activo, pasivo y patrimonio aplicables por analogía.
 - Bodie, Z., Merton, R. y Cleeton, D. (2009). *Financial Economics* (2.ª ed.). Pearson. Balance del hogar y composición de activos en el ciclo de vida.
 - Verificación local: usa tasaciones o referencias de mercado publicadas en tu país para vivienda y vehículos, y registra la fuente y fecha de cada valor.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

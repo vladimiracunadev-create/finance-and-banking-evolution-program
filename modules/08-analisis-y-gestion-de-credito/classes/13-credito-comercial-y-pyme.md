@@ -256,8 +256,7 @@ estructural.
 
 ### Conexión con un caso · Ley 21.850: efectos sobre la cartera comercial y de pymes
 
-La ley no afecta igual a todas las empresas. Las tasas de 27 % y 25,5 % de 2026 y 2027 **no se aplican al régimen de la letra G** **[H]**, y el régimen Pro Pyme se regula por su propio artículo
-(sexto transitorio). Para una cartera, esto significa **segmentar** por régimen tributario antes de concluir.
+La ley no afecta igual a todas las empresas. Las tasas de 27 % y 25,5 % de 2026 y 2027 **no se aplican al régimen de la letra G** **[H]**, y el régimen Pro Pyme sigue su propia trayectoria: 12,5 % en 2026 y 2027, 15 % en 2028 (Ley 21.755, art. 25; condicionada a la cotización del empleador) y, por lectura del artículo 8, 23 % desde 2029 **[I]**. Ese salto de 15 % a 23 % (+53 % de impuesto sobre la misma renta, ejercicio B9) es un riesgo de flujo para una cartera pyme. Los pagos provisionales mensuales de la Pro Pyme bajan de 0,25 % a 0,23 % desde 2029 **[H]**. Para una cartera, esto significa **segmentar** por régimen tributario antes de concluir.
 
 **Método.** Clasifica la cartera en: (a) régimen general, que recibe la rebaja gradual; (b) Pro Pyme, con reglas propias; (c) exportadoras de servicios, que pueden usar el crédito del
 artículo 33 ter; (d) empresas con deudas tributarias, que pueden regularizar. Estima por segmento el cambio de flujo y de cobertura; solo después ajusta la clasificación de riesgo.
@@ -535,6 +534,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - European Banking Authority (2020). *Guidelines on loan origination and monitoring*. EBA. Evaluación de pymes y ajustes a la información financiera.
 - OECD (2023). *Financing SMEs and Entrepreneurs Scoreboard*. OCDE. Características del financiamiento de pymes.
 - Verificación local: revisa qué información financiera exige tu supervisor para empresas de distinto tamaño y qué modelos de alerta usa tu institución.
+- Servicio de Impuestos Internos (2025). *Circular N.º 53*, instrucciones sobre la disminución transitoria de la tasa del impuesto de primera categoría de la Pro Pyme (Ley 21.755, art. 25). <https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf>. Fecha de verificación: 2026-11-05.
 - Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->

@@ -227,7 +227,7 @@ Una decisión de inversión compara un flujo con su costo de capital. Los incent
 flujo. La Ley 21.850 contiene tres que importan aquí: la menor tasa de primera categoría **[H]**, el estatuto de
 invariabilidad del artículo 26 para inversiones de al menos USD 50 millones **[H]**, y una definición más estricta de
 capacitación en el estatuto del SENCE, que excluye actividades recreativas y la auto instrucción pura **[H]**
-(artículo 29). **No** se afirma aquí que la ley introduzca una depreciación acelerada: no se localizó en el texto
+(artículo 29), con una franquicia que baja de 1 % a 0,7 % de la planilla imponible y se imputa en 80 %, 50 % o 15 % del gasto según el sueldo del trabajador **[H]** (ejercicio B10; la nota del SII la ubica en el 1 de enero de 2027, y el texto consultado no fija fecha especial: **verifica la vigencia**). **No** se afirma aquí que la ley introduzca una depreciación acelerada: no se localizó en el texto
 consultado.
 
 **Método.** Para cada incentivo, pregunta: ¿sobre qué flujo actúa?, ¿desde qué fecha?, ¿quién debe instruirlo? La rebaja

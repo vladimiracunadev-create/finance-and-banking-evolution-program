@@ -26,13 +26,13 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
 
 ### ✨ Añadido
 
-- **Ley 21.850 integrada en 16 clases existentes** (sin añadir ni renumerar
+- **Ley 21.850 integrada en 18 clases existentes** (sin añadir ni renumerar
   clases): [expediente](case-studies/chile/ley-21850-reconstruccion-nacional.md)
   con cada dato etiquetado (hecho, declaración de terceros, pendiente,
   interpretación, supuesto) y fecha de corte 2026-11-05;
   [auditoría, mapa curricular e itinerario](docs/ley-21850-matriz-e-itinerario.md);
   [ejercicios y evaluación](docs/ejercicios-ley-21850.md) con dos ejemplos
-  guiados, once ejercicios resueltos, laboratorio sintético y rúbrica
+  guiados, quince ejercicios resueltos, laboratorio sintético y rúbrica
   20-30-30-20; y la ficha
   [`regulatory/chile/ley-21850.yml`](regulatory/chile/ley-21850.yml). Una prueba
   recalcula las cifras. Los instrumentos que la ley ordena al SII, a Hacienda y
@@ -40,7 +40,10 @@ versionado sigue [SemVer](https://semver.org/lang/es/).
   leerse de forma automática y no se dio por dictado ninguno. El recargo de
   invariabilidad y el límite de deuda relacionada, citados por una firma de
   auditoría, no se localizaron en el texto consultado y se marcan como
-  declaración de terceros.
+  declaración de terceros. Una segunda pasada por el calendario 2027-2030 sumó
+  la trayectoria de la Pro Pyme (con su escalón de 2029), los pagos provisionales,
+  el arriendo de viviendas económicas, la franquicia SENCE, las donaciones y la
+  declaración de capitales, todos dentro de las clases existentes.
 - **Caso Ueno Bank Paraguay integrado en 18 clases existentes** (sin añadir ni
   renumerar clases): [expediente](case-studies/bank-resolution/ueno-bank-paraguay.md)
   con los diez bloques y cada dato etiquetado (hecho, declaración, pendiente,

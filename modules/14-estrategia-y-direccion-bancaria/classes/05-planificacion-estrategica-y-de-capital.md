@@ -283,7 +283,7 @@ después de impuestos. En el **balance**, los activos por impuesto diferido se m
 **Ejemplo (A3).** Un activo por impuesto diferido de 200 MM$ calculado a 27 % vale 170,4 a 23 %: un ajuste de −29,6 que reduce el índice patrimonio / activos ponderados de 14,00 % a 13,70 % **[S]**. **[I]** El tratamiento
 contable de un cambio de tasa es un principio general de la NIC 12, no una regla de la ley; confírmalo con la normativa de la CMF y con los auditores.
 
-**Planificación.** El plan de capital debe incluir el calendario de tasas (27 %, 25,5 %, 24 %, 23 % **[H]**) y el efecto transitorio. **Riesgo de interpretación:** suponer que la rebaja es solo una buena noticia para el capital del banco.
+**Planificación.** El plan de capital debe incluir el calendario de tasas (27 %, 25,5 %, 24 %, 23 % **[H]**, por año comercial; 2027, 2028 y 2029 corresponden a los años tributarios 2028, 2029 y 2030) y el efecto transitorio. La ley también obliga a informes periódicos al Congreso (semestrales sobre invariabilidad y cada cinco años sobre el crédito del artículo 33 ter): son una fuente de datos para recalibrar escenarios **[H]**. **Riesgo de interpretación:** suponer que la rebaja es solo una buena noticia para el capital del banco.
 Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio A3 de la [guía](../../../docs/ejercicios-ley-21850.md).
 
 ## 🧮 Ejemplo guiado

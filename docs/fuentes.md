@@ -199,7 +199,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | Consumer Financial Protection Bureau (CFPB) | 12 | 1 | 2, 3, 4, 9, 10, 12, 14 |
 | IETF | 9 | 9 | 17 |
 | Banco Central de Chile | 7 | 7 | 17, 18, 20, 22 |
-| Biblioteca del Congreso Nacional de Chile | 7 | 7 | 5, 7, 8, 9, 10, 11, 12, 13, 15, 17, 20, 22, 23 |
+| Biblioteca del Congreso Nacional de Chile | 7 | 7 | 2, 5, 7, 8, 9, 10, 11, 12, 13, 15, 17, 20, 22, 23 |
 | Cámara de Comercio Internacional (ICC) | 7 | 3 | 10, 13, 18 |
 | Financial Analysts Journal | 7 | 4 | 3, 8 |
 | MIT Press | 7 | 3 | 1, 3, 6, 7, 8, 10, 12, 13, 14 |
@@ -242,6 +242,7 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | Review of Economics and Statistics | 2 | 1 | 6, 7 |
 | Routledge | 2 | 0 | 6, 15, 16 |
 | SWIFT | 2 | 2 | 18 |
+| Servicio de Impuestos Internos (Chile) | 2 | 2 | 9, 20 |
 | Springer | 2 | 0 | 7, 11 |
 | UNCITRAL (Naciones Unidas) | 2 | 1 | 3, 13 |
 | 19.ª CIET | 1 | 1 | 6 |
@@ -341,7 +342,6 @@ El resto de la bibliografía, agrupada por quién responde por ella. **Con enlac
 | Risk | 1 | 0 | 11 |
 | SIAM | 1 | 1 | 9 |
 | Securities and Exchange Commission (SEC) | 1 | 1 | 4 |
-| Servicio de Impuestos Internos (Chile) | 1 | 1 | 20 |
 | Statistical Science | 1 | 1 | 14 |
 | Steamworks | 1 | 1 | 20 |
 | Stochastic Solutions | 1 | 0 | 14 |
@@ -372,6 +372,7 @@ Una fuente pendiente no se borra ni se disimula: se declara. Estas son las razon
 | la obra existe en Open Library pero ninguna edición declara ISBN-13 | 2 |
 | no se pudo abrir el enlace desde el equipo que revalidó (red o TLS) | 2 |
 | el sitio del BCP respondió HTTP 403 a la lectura automática; contenido contrastado vía prensa (2026-11-05) | 1 |
+| sin resolver todavía; ejecuta scripts/refresh_sources.py | 1 |
 | bcn.cl respondió HTTP 401 a la lectura automática; texto contrastado en el formato de intercambio de leychile.cl (2026-11-05) | 1 |
 | la clase cita la norma sin enlace a la fuente primaria; texto de la ley no consultado (2026-11-05) | 1 |
 

@@ -157,3 +157,57 @@ def test_el_script_del_laboratorio_corre():
 def test_el_documento_declara_la_naturaleza_de_las_cifras():
     assert "sintéticas" in TEXTO
     assert "no es asesoría" in TEXTO.lower() or "Nada de esto es asesoría" in TEXTO
+
+
+def test_b7_arriendo_de_viviendas_economicas():
+    bruto = 600_000 * 12
+    assert bruto == 7_200_000
+    assert bruto * 0.05 == pytest.approx(360_000)
+    assert bruto * 0.70 * 0.35 == pytest.approx(1_764_000)
+    assert round(100 * 0.05 / 0.70, 2) == 7.14
+
+
+def test_b8_pagos_provisionales_de_enero_a_marzo():
+    tasas = [0.27, 0.255, 0.24, 0.23]
+    reducciones = [1 - b / a for a, b in zip(tasas, tasas[1:])]
+    assert [round(100 * r, 2) for r in reducciones] == [5.56, 5.88, 4.17]
+    dic = 200 * 0.015
+    ene = dic * (1 - 0.0556)
+    assert round(ene, 3) == 2.833
+    assert round(dic - ene, 3) == 0.167
+    assert round(3 * (dic - ene), 3) == 0.5
+
+
+def test_b9_escalon_de_la_pro_pyme():
+    pyme = [1000 * t for t in (0.125, 0.125, 0.15, 0.23)]
+    general = [1000 * TASAS[a] for a in (2026, 2027, 2028, 2029)]
+    assert pyme == pytest.approx([125, 125, 150, 230])
+    assert [round(g - p, 1) for g, p in zip(general, pyme)] == [145, 130, 90, 0]
+    assert 230 - 150 == 80
+    assert round(100 * (230 / 150 - 1), 1) == 53.3
+
+
+def test_b10_franquicia_sence():
+    assert 2000 * 0.01 == pytest.approx(20)
+    assert 2000 * 0.007 == pytest.approx(14)
+    assert round(100 * (14 / 20 - 1)) == -30
+    assert 0.80 * 10 == pytest.approx(8)
+    assert 0.15 * 10 == pytest.approx(1.5)
+    assert (10 - 8, 10 - 1.5) == (2, 8.5)
+
+
+def test_donaciones_rebaja_y_limite():
+    assert 0.5 * 1000 == 500
+    assert 100 * (1 - 0.5) == 50
+
+
+def test_plazo_de_ocho_meses_para_fur_y_stut():
+    # publicacion 2026-10-17 + 8 meses calendario
+    assert (date(2026, 10, 17).year * 12 + 10 - 1 + 8) == (2027 * 12 + 6 - 1)
+
+
+def test_las_tasas_por_ano_tributario_coinciden_con_la_nota_del_sii():
+    por_at = {2028: 0.255, 2029: 0.24, 2030: 0.23}
+    por_ano_comercial = {a + 1: TASAS[a] for a in (2027, 2028, 2029)}
+    assert por_at == por_ano_comercial
+    assert {a + 1: RESTITUCION[a] for a in (2027, 2028, 2029)} == {2028: 0.30, 2029: 0.20, 2030: 0.0}

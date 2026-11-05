@@ -1548,6 +1548,24 @@
       "http_status": 200
     },
     {
+      "id": "circular-n-o-53-2025",
+      "type": "standard",
+      "authors": [
+        "Servicio de Impuestos Internos"
+      ],
+      "title": "Circular N.º 53",
+      "published": "2025",
+      "authority": "Servicio de Impuestos Internos (Chile)",
+      "amendable": false,
+      "cited_url": "https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf",
+      "used_in": [
+        "modules/08-analisis-y-gestion-de-credito/classes/13-credito-comercial-y-pyme.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
+      "locator": "https://www.sii.cl/normativa_legislacion/circulares/2025/circu53.pdf"
+    },
+    {
       "id": "climate-related-risk-drivers-and-their-transmission-channels-2021",
       "type": "standard",
       "authors": [
@@ -7026,9 +7044,11 @@
       "amendable": false,
       "cited_url": "https://www.bcn.cl/leychile/navegar?idNorma=1229250",
       "used_in": [
+        "modules/01-finanzas-personales/classes/09-patrimonio-y-balance-personal.md",
         "modules/04-contabilidad-financiera/classes/11-estado-de-resultados.md",
         "modules/06-matematica-financiera-avanzada/classes/08-valor-actual-neto.md",
         "modules/07-inversiones-y-mercados/classes/13-costos-impuestos-y-sesgos.md",
+        "modules/08-analisis-y-gestion-de-credito/classes/12-credito-hipotecario.md",
         "modules/08-analisis-y-gestion-de-credito/classes/13-credito-comercial-y-pyme.md",
         "modules/08-analisis-y-gestion-de-credito/classes/15-cobranza-y-reestructuracion.md",
         "modules/09-operaciones-bancarias/classes/12-tesoreria.md",
