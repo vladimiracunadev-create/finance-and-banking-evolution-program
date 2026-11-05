@@ -197,6 +197,14 @@ PN final − PN inicial = resultado + ORI + aportes − dividendos
 
 Si no cuadra, hay un movimiento patrimonial no explicado, y es lo primero que un auditor pregunta.
 
+### Conexión con un caso · Ley 21.850: la tasa efectiva de impuesto en el estado de resultados
+
+En el estado de resultados el impuesto es una línea, y la **tasa efectiva** es `gasto por impuesto / utilidad antes de impuestos`. Cuando la ley cambia la tasa legal por etapas
+(27 %, 25,5 %, 24 %, 23 % **[H]**), la tasa efectiva se mueve con ella, aunque las ventas no cambien.
+
+**Ejemplo.** Utilidad antes de impuestos de 1.000: con 27 % el gasto es 270 y la utilidad neta 730; con 23 %, 230 y 770. La utilidad neta sube 5,5 % sin cambio operativo, por lo que el análisis horizontal (clase 14)
+debe separar **el efecto fiscal** del efecto operativo. **Riesgo de interpretación:** atribuir al desempeño una mejora que es de la ley. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** Tres años de una empresa manufacturera.
@@ -325,6 +333,7 @@ Los síntomas de la tabla describen resultados que no se sostienen al año sigui
 3. ¿Qué tres condiciones definen una partida como no recurrente?
 4. ¿Por qué el EBITDA no es flujo de caja?
 5. ¿Cómo se concilia el resultado del ejercicio con el patrimonio?
+6. ¿Por qué un aumento de la utilidad neta puede no reflejar una mejora operativa?
 
 ## 📥 Entregable
 
@@ -334,6 +343,7 @@ Guarda en `portfolio/parte-05/clase-11/`:
 - los cinco márgenes de tres periodos con el diagnóstico por nivel;
 - el resultado normalizado con las partidas eliminadas justificadas;
 - la proyección del periodo siguiente y la evaluación de sostenibilidad.
+- una conciliación entre tasa legal y tasa efectiva con el efecto de la ley separado del operativo (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -354,6 +364,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Palepu, K., Healy, P. y Peek, E. (2019). *Business Analysis and Valuation: IFRS Edition* (5.ª ed.). Cengage. Capítulo 5: análisis financiero por descomposición.
 - Schilit, H., Perler, J. y Engelhart, Y. (2018). *Financial Shenanigans* (4.ª ed.). McGraw-Hill. Uso de partidas no recurrentes para gestionar el resultado.
 - Verificación local: revisa si el supervisor de tu país exige un formato específico de estado de resultados o la revelación separada de partidas no recurrentes.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

@@ -275,6 +275,17 @@ Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye
 
 **Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja el calendario y la integración del capital.
 
+### Conexión con un caso · Ley 21.850: efecto de la tasa sobre el capital y los resultados del propio banco
+
+Un banco también paga impuesto de primera categoría, de modo que la rebaja lo afecta de dos maneras. En el **resultado** de cada año, un impuesto menor eleva la utilidad
+después de impuestos. En el **balance**, los activos por impuesto diferido se miden con la tasa con que se espera revertirán: con una tasa menor, valen menos.
+
+**Ejemplo (A3).** Un activo por impuesto diferido de 200 MM$ calculado a 27 % vale 170,4 a 23 %: un ajuste de −29,6 que reduce el índice patrimonio / activos ponderados de 14,00 % a 13,70 % **[S]**. **[I]** El tratamiento
+contable de un cambio de tasa es un principio general de la NIC 12, no una regla de la ley; confírmalo con la normativa de la CMF y con los auditores.
+
+**Planificación.** El plan de capital debe incluir el calendario de tasas (27 %, 25,5 %, 24 %, 23 % **[H]**) y el efecto transitorio. **Riesgo de interpretación:** suponer que la rebaja es solo una buena noticia para el capital del banco.
+Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio A3 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo proyecta el capital de un banco bajo su plan de crecimiento. Conviene comparar el crecimiento planificado con el sostenible: la diferencia es lo que hay que financiar o recortar.
@@ -550,6 +561,7 @@ Los síntomas de la tabla describen planes que chocaron con el capital. Las caus
 4. ¿Qué cinco cifras deben coincidir en los documentos de planificación?
 5. ¿Por qué un exceso de capital en el caso base puede no ser un exceso?
 6. ¿Por qué el valor de un plan de capitalización depende de su calendario y de que esté integrado, y qué colchón por encima del mínimo propondrías?
+7. ¿Qué dos efectos opuestos puede tener la rebaja de la tasa sobre el patrimonio de un banco?
 
 ## 📥 Entregable
 
@@ -560,6 +572,7 @@ Guarda en `portfolio/parte-15/clase-05/`:
 - la proyección de capital en ambos escenarios;
 - el plan de contingencia con niveles, acciones y disparadores.
 - un plan de capital del banco sintético con monto, fecha y condición de integración, y el índice en sus tres estados (caso Ueno, I1).
+- el efecto de la rebaja sobre el resultado y el activo por impuesto diferido de un banco sintético (Ley 21.850, ejercicio A3).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -580,6 +593,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Higgins, R. (2019). *Analysis for Financial Management* (12.ª ed.). McGraw-Hill. Crecimiento sostenible.
 - European Banking Authority (2022). *Guidelines on institutions' stress testing*. EBA. Requisitos del ejercicio interno de pruebas de estrés. <https://www.eba.europa.eu/guidelines-stress-testing>
 - Verificación local: revisa el formato y el calendario del proceso de autoevaluación de capital que exige tu supervisor.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

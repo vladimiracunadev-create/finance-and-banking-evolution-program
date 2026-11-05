@@ -250,6 +250,16 @@ EL CONFLICTO REAL
 | Cerrar cuentas ante la primera alerta | Analizar antes de decidir |
 | Tratar toda organización sin fines de lucro como alto riesgo | Segmentar por actividad real |
 
+### Conexión con un caso · Ley 21.850: declaración voluntaria de bienes y cruces de información
+
+La ley contiene dos medidas que tocan el cumplimiento. El tercer transitorio crea un sistema voluntario y extraordinario de declaración de bienes y rentas
+en el extranjero, por doce meses, y la presentación **autoriza** al SII, a la UAF y a otros órganos del Estado a requerir información a los bancos e intercambiarla **[H]**. Además, el
+artículo 18 autoriza al SII a cruzar datos nominados con todos los órganos de la Administración **[H]**.
+
+**Para la entidad financiera.** Más declaraciones significan más solicitudes de información sobre clientes; la entidad debe conservar y entregar la información
+que se le pida «sin más trámite», manteniendo el secreto bancario que corresponda. **Riesgo de interpretación:** una regularización tributaria no borra por sí sola las obligaciones de
+debida diligencia sobre el origen de los fondos. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo sigue una alerta desde su generación hasta la decisión de reportar. Conviene fijarse en el análisis: la mayoría de las alertas se cierran, y documentar por qué es tan importante como reportar.
@@ -440,6 +450,7 @@ Los síntomas de la tabla describen programas que fallan por exceso o por defect
 3. ¿Por qué reportar y terminar la relación son decisiones independientes?
 4. ¿Por qué la exclusión masiva es una respuesta incorrecta al enfoque basado en riesgo?
 5. ¿Qué debe documentarse al recalibrar una regla de monitoreo y por qué?
+6. ¿Por qué una declaración voluntaria de bienes en el extranjero no reemplaza la debida diligencia de un banco sobre el origen de los fondos?
 
 ## 📥 Entregable
 
@@ -449,6 +460,7 @@ Guarda en `portfolio/parte-12/clase-03/`:
 - la matriz de riesgo de clientes con sus cuatro factores;
 - el análisis de conversión por regla con la recalibración propuesta y sus controles compensatorios;
 - el expediente completo de un caso desde la alerta hasta la decisión.
+- un protocolo de respuesta a solicitudes de información del SII y la UAF para una entidad sintética (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -469,6 +481,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2020). *Sound management of risks related to money laundering and financing of terrorism*. BIS. Expectativa prudencial sobre la gestión del riesgo de lavado. <https://www.bis.org/bcbs/publ/d505.htm>
 - World Bank (2018). *De-risking in the Financial Sector*. World Bank Group. Efecto excluyente de cerrar relaciones por precaución.
 - Verificación local: revisa la ley de prevención de lavado de tu país, los umbrales de reporte, los plazos, la autoridad receptora y las obligaciones de conservación.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

@@ -241,6 +241,21 @@ ORDEN OBSERVADO EN LAS EMPRESAS
 está diciendo algo. Puede ser que sus accionistas quieran reducir riesgo, o que sepan algo sobre su
 flujo futuro que aún no está en los estados.
 
+### Conexión con un caso · Ley 21.850: menor escudo fiscal, mayor WACC y, aun así, mayor valor
+
+El escudo fiscal es el ahorro de impuesto que produce pagar intereses: `k_d × (1 − t_c)`. Si la tasa
+corporativa baja (27 % → 23 % **[H]**), el escudo se achica y, con las demás variables constantes, el
+`WACC` sube. Con `E/V` = 60 %, `k_e` = 12 % y `k_d` = 7 % **[S]**, el costo de la deuda después de impuestos pasa de
+5,110 % a 5,390 % y el `WACC` de 9,244 % a 9,356 %.
+
+Lo que no debe concluirse es que la empresa vale menos: el `NOPAT` sube 5,5 % y, en el ejemplo de la guía, el valor
+sube 4,2 %. La conclusión depende de dos supuestos que hay que declarar: que `k_e` no cambia y que la estructura de
+capital tampoco. El ejercicio A1 mide cuánto puede subir `k_e` (hasta 12,66 %) antes de que se pierda la ganancia.
+
+**Cliente y banco.** La empresa recalcula su tasa mínima de proyectos; el banco, el costo relativo de la deuda frente al
+patrimonio. **Riesgo de interpretación:** atribuir a la ley un cambio de `k_e` que en realidad es del mercado.
+Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md), ejemplo guiado 2.
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula el costo promedio ponderado de una empresa. Conviene usar valores de mercado y no contables: la diferencia cambia el resultado de forma apreciable.
@@ -448,6 +463,7 @@ Los síntomas de la tabla describen costos de capital mal calculados. Las causas
 3. ¿Por qué la curva del WACC es plana cerca del óptimo?
 4. ¿Qué señal envía al mercado el anuncio de una emisión de capital?
 5. ¿Por qué los costos de dificultades financieras empiezan antes de la insolvencia?
+6. Con la rebaja de tasa de la Ley 21.850, ¿por qué el WACC sube pero el valor de la empresa puede subir también?
 
 ## 📥 Entregable
 
@@ -457,6 +473,7 @@ Guarda en `portfolio/parte-13/clase-05/`:
 - el proceso de desapalancar y apalancar betas de comparables;
 - la simulación del WACC en seis niveles con el rango óptimo identificado;
 - la evaluación de la recapitalización desde la perspectiva del banco.
+- el cálculo del WACC con tasa de 27 % y de 23 %, y la sensibilidad de `k_e` (Ley 21.850, ejercicio A1).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -477,6 +494,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Damodaran, A. (2012). *Investment Valuation* (3.ª ed.). Wiley. Estimación de costo de capital y betas.
 - Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). Wiley. Cálculo del costo promedio ponderado de capital.
 - Verificación local: revisa la tasa de impuesto a la renta corporativa de tu país y las reglas de limitación a la deducibilidad de intereses (subcapitalización).
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

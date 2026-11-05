@@ -298,6 +298,16 @@ carteras castigadas siguen recuperando:
 Esa recuperación se reconoce como ingreso cuando ocurre, y **justifica mantener la gestión de la
 cartera castigada** en lugar de descartarla.
 
+### Conexión con un caso · Ley 21.850: regularizar deudas con el Estado y reestructurar con el banco
+
+Un cliente con deuda tributaria vencida y deuda bancaria vigente tiene dos acreedores que compiten por su caja. La ley abre una ventana
+para el primero (facilidades en Tesorería, regularización de deudas municipales con pago en doce meses **[H]**) y el banco debe decidir cómo coordinar su propia reestructuración.
+
+**Método.** (1) Suma las obligaciones con el Estado y con el banco; (2) calcula la caja que libera la condonación frente al pago; (3) comprueba si la caja resultante cubre el
+servicio de la deuda; (4) reestructura solo lo que el flujo sostiene. **Riesgo de interpretación:** una condonación condicional (el
+incumplimiento la revoca) puede empeorar la situación: el cliente que no cumple vuelve a deber la deuda original con sus intereses.
+Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** Diseña la estrategia de recuperación de una cartera de consumo en mora.
@@ -508,6 +518,7 @@ Los síntomas de la tabla describen carteras en mora que se gestionan mal. Las c
 3. ¿Cuándo una reestructuración es legítima y cuándo es un aplazamiento?
 4. ¿Cómo se decide entre gestión propia, externalización, judicial, venta o castigo?
 5. ¿Por qué la externalización no traslada la responsabilidad de conducta?
+6. ¿Qué riesgo corre un cliente que acepta un convenio con condonación condicional y luego no puede pagar una cuota?
 
 ## 📥 Entregable
 
@@ -517,6 +528,7 @@ Guarda en `portfolio/parte-09/clase-15/`:
 - la estrategia de cada segmento con costo y recuperación esperada;
 - la evaluación de valor presente de cinco alternativas para el tramo avanzado;
 - la lista de controles de conducta con su método de verificación.
+- un plan de coordinación entre una deuda con Tesorería y una deuda bancaria de un cliente sintético (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -537,6 +549,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Consumer Financial Protection Bureau. *Debt Collection Rule (Regulation F)*. Prácticas prohibidas y obligatorias en la cobranza.
 - International Monetary Fund (2015). *A Strategy for Resolving Europe's Problem Loans*. FMI. Alternativas de resolución de cartera deteriorada.
 - Verificación local: revisa la normativa de tu país sobre gastos de cobranza, horarios de contacto, prácticas prohibidas y plazos de permanencia en registros de deuda.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

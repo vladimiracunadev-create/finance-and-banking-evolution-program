@@ -221,6 +221,22 @@ POR QUÉ IMPORTAN
 **Para el banco, la opción más relevante es la de abandono**, porque define el valor de recuperación si
 el proyecto falla, y ese valor es exactamente la LGD de su crédito.
 
+### Conexión con un caso · Ley 21.850: incentivos a la inversión y la productividad, qué dispone y qué no
+
+Una decisión de inversión compara un flujo con su costo de capital. Los incentivos tributarios actúan sobre ese
+flujo. La Ley 21.850 contiene tres que importan aquí: la menor tasa de primera categoría **[H]**, el estatuto de
+invariabilidad del artículo 26 para inversiones de al menos USD 50 millones **[H]**, y una definición más estricta de
+capacitación en el estatuto del SENCE, que excluye actividades recreativas y la auto instrucción pura **[H]**
+(artículo 29). **No** se afirma aquí que la ley introduzca una depreciación acelerada: no se localizó en el texto
+consultado.
+
+**Método.** Para cada incentivo, pregunta: ¿sobre qué flujo actúa?, ¿desde qué fecha?, ¿quién debe instruirlo? La rebaja
+de tasa aumenta el flujo del proyecto; la invariabilidad reduce la incertidumbre del flujo, no su nivel; la regla de
+capacitación cambia qué gasto califica. Cada uno se incorpora al `VAN` de forma distinta (véase la clase 8 de la Parte 7).
+
+**Cliente y banco.** La empresa prioriza proyectos; el banco valida que el flujo no dependa de un beneficio que
+requiere una instrucción pendiente. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo evalúa un proyecto con canibalización y con opción de posponer. Las dos correcciones van en direcciones opuestas, y su efecto neto decide.
@@ -441,6 +457,7 @@ Los síntomas de la tabla describen proyectos aprobados que no rindieron. Las ca
 3. ¿Cuándo se contradicen VPN y TIR, y cuál tiene razón?
 4. ¿Qué información aporta un valor crítico que no aporta el VPN?
 5. ¿Por qué la opción de abandono importa especialmente al banco?
+6. ¿Sobre qué parte del flujo de un proyecto actúa cada uno de los tres incentivos de la Ley 21.850 y cuál no cambia el nivel del flujo?
 
 ## 📥 Entregable
 
@@ -450,6 +467,7 @@ Guarda en `portfolio/parte-13/clase-06/`:
 - VPN, TIR y período descontado calculados con su interpretación;
 - los valores críticos de las tres variables más sensibles;
 - la valoración de la opción de abandono y su efecto sobre la LGD.
+- una tabla con cada incentivo, el flujo sobre el que actúa, su fecha de vigencia y la instrucción pendiente (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -470,6 +488,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Trigeorgis, L. (1996). *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. Valor de la flexibilidad cuando el proyecto admite decisiones futuras.
 - Blank, L. y Tarquin, A. (2018). *Engineering Economy* (8.ª ed.). McGraw-Hill. Criterios de evaluación y TIR múltiple.
 - Verificación local: revisa las reglas de depreciación fiscal, el tratamiento de la venta de activos y los incentivos tributarios a la inversión de tu país.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

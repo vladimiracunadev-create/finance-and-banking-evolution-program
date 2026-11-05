@@ -77,7 +77,7 @@ No es una colección de apuntes ni de tablas sueltas. Cada clase es un archivo c
 
 | 📘 Clases | 📗 Fuentes citadas | 🧪 Laboratorios | 📝 Evaluaciones | 🎓 Proyectos | 📖 Términos |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **356** | <!-- gen:fuentes-citas:start -->**1 738**<!-- gen:fuentes-citas:end --> | **152** | **46** | **23** | **2 208** |
+| **356** | <!-- gen:fuentes-citas:start -->**1 754**<!-- gen:fuentes-citas:end --> | **152** | **46** | **23** | **2 208** |
 
 </div>
 
@@ -433,7 +433,7 @@ pytest -q && npx markdownlint-cli2 "**/*.md"
 
 - 📚 un currículo **secuencial y completo** de 356 clases, de la aritmética a la dirección bancaria;
 - 🧮 un curso con **cálculo real**: cada clase resuelve un caso numérico paso a paso y 12 aplicaciones ejecutables sostienen 152 laboratorios;
-- 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**708** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
+- 📗 material con **bibliografía verificable**: <!-- gen:fuentes-obras:start -->**709** obras registradas<!-- gen:fuentes-obras:end -->, cada una con su localizador, y cada norma con su fecha de verificación;
 - 🏦 un puente **cliente ↔ banco**: la misma clase sirve a quien lee su estado de cuenta y a quien decide ese cobro;
 - 🌐 material **abierto y offline-friendly** (manual PDF de más de 3 500 páginas + portal en Pages), en español.
 

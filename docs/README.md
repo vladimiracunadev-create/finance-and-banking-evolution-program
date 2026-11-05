@@ -59,7 +59,9 @@ sustituye. El número exacto de partes y clases está en
 | 📝 **[Ejercicios y evaluación de crisis digital](ejercicios-crisis-financiera-digital.md)** | Cinco ejercicios resueltos, ocho propuestas de cálculo y una evaluación con rúbrica y pauta |
 | 🏛️ **[Ueno Bank Paraguay: matriz e itinerario](ueno-bank-matriz-e-itinerario.md)** | Cómo el caso de solvencia y resolución se reparte en 18 clases, con evidencia y recorrido de estudiante y docente |
 | 🧮 **[Ejercicios y evaluación: Ueno Bank](ejercicios-ueno-bank.md)** | Dos ejemplos guiados, doce ejercicios resueltos, cinco preguntas abiertas, actividad de comité y rúbrica |
-| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Treinta y seis casos con hechos, actores, decisiones, regulación, controles y preguntas |
+| 🧾 **[Ley 21.850: auditoría, mapa curricular e itinerario](ley-21850-matriz-e-itinerario.md)** | Cómo la reforma tributaria se reparte en 16 clases, con perspectivas por actor, evidencia y los instrumentos pendientes |
+| 📐 **[Ejercicios y evaluación: Ley 21.850](ejercicios-ley-21850.md)** | Dos ejemplos guiados, once ejercicios resueltos, cinco preguntas abiertas, laboratorio con datos sintéticos y rúbrica |
+| 🗃️ **[Biblioteca de casos](../case-studies/README.md)** | Treinta y siete casos con hechos, actores, decisiones, regulación, controles y preguntas |
 
 ## Para todos
 

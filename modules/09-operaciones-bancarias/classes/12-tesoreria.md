@@ -222,6 +222,17 @@ CONTROLES DE PROCESO
 grandes en mesas de operaciones tienen un elemento común: **el operador podía influir en la valoración
 de sus propias posiciones**.
 
+### Conexión con un caso · Ley 21.850: facilidades de pago y liquidez de los clientes
+
+El segundo transitorio faculta a la Tesorería General de la República, por 180 días desde la publicación, para dar facilidades de pago sobre obligaciones tributarias
+vencidas hasta el 31 de diciembre de 2025: al contado puede condonar hasta 100 % de los intereses y 80 % de las multas; en convenio, hasta 95 % y 75 %, con pie de al menos 10 % del capital
+y un máximo de 48 cuotas, y la condonación queda sujeta a condición resolutoria **[H]**.
+
+**Ejemplo.** Capital de 100, intereses de 30 y multas de 10 (MM$ sintéticos): 102 al contado, 104 en convenio; el valor presente del convenio, con 12 % anual y cuotas sin reajuste **[S]**, es 85,2.
+
+**Cliente y banco.** La liquidez de un cliente mejora si regulariza; el tesorero del banco debe anticipar que parte de los clientes usará caja para pagar al contado, lo que puede
+reducir depósitos y líneas. **Riesgo de interpretación:** la condonación es una facultad y su alcance depende de las instrucciones de la Tesorería. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicios B5 y B6 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 **Situación.** El comité de activos y pasivos revisa la posición de la tesorería.
@@ -418,6 +429,7 @@ Los síntomas de la tabla describen resultados mal atribuidos entre áreas. La c
 3. ¿Por qué un balance puede estar calzado en plazo y descalzado en tasa?
 4. ¿Por qué el efecto de un alza de tasas sobre el valor económico puede superar al del margen?
 5. ¿Cuál es el control más importante de una mesa de operaciones?
+6. ¿Cómo puede el pago de deudas tributarias de los clientes afectar la liquidez que ve el tesorero de un banco?
 
 ## 📥 Entregable
 
@@ -427,6 +439,7 @@ Guarda en `portfolio/parte-10/clase-12/`:
 - el precio de transferencia aplicado a tres productos con el margen por área;
 - el efecto de un alza de tasas sobre margen y valor económico;
 - el conjunto de límites diseñado para una mesa, con su fundamento.
+- la comparación contado frente a convenio con su valor presente (Ley 21.850, ejercicios B5 y B6).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -447,6 +460,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Basel Committee on Banking Supervision (2008). *Principles for Sound Liquidity Risk Management and Supervision*. BIS. Principios de gobierno y medición del riesgo de liquidez. <https://www.bis.org/publ/bcbs144.htm>
 - Grant, J. (2011). "Liquidity transfer pricing: a guide to better practice". *BIS Occasional Paper 10*. Práctica de precios de transferencia de liquidez entre unidades.
 - Verificación local: revisa los requerimientos de liquidez y de riesgo de tasa del libro de banca que aplica tu supervisor.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

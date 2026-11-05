@@ -1394,9 +1394,10 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/09-dinero-electronico-el-regimen-que-ya-existia.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.bcentral.cl/documents/33528/115568/CapIIIJ13.pdf",
-      "http_status": 200,
-      "accessed": "2026-09-22"
+      "accessed": "2026-09-22",
+      "http_status": 200
     },
     {
       "id": "causal-inference-for-statistics-social-and-biomedical-sciences-2015",
@@ -2880,9 +2881,10 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.bis.org/committees/bcbs/basel-framework/standard/dis/55/inforce/2026-01-01/published/2024-07-17",
-      "http_status": 200,
-      "accessed": "2026-09-22"
+      "accessed": "2026-09-22",
+      "http_status": 200
     },
     {
       "id": "discretion-versus-policy-rules-in-practice-1993",
@@ -3479,9 +3481,10 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/12-custodia-de-activos-digitales.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://pcaobus.org/resources/information-for-investors/investor-advisories/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports",
-      "http_status": 200,
-      "accessed": "2026-09-22"
+      "accessed": "2026-09-22",
+      "http_status": 200
     },
     {
       "id": "expectations-investing-2020",
@@ -4829,9 +4832,10 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/13-mercado-liquidez-y-formacion-de-precio.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://support.google.com/googleplay/android-developer/answer/9858738",
-      "http_status": 200,
-      "accessed": "2026-09-22"
+      "accessed": "2026-09-22",
+      "http_status": 200
     },
     {
       "id": "green-bond-principles",
@@ -5853,9 +5857,10 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/15-contabilidad-tributacion-y-balance.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-15-revenue-from-contracts-with-customers",
-      "http_status": 200,
-      "accessed": "2026-09-22"
+      "accessed": "2026-09-22",
+      "http_status": 200
     },
     {
       "id": "implementation-and-effects-of-the-g20-financial-regulatory-reforms",
@@ -7008,6 +7013,39 @@
       "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1187323",
       "accessed": "2026-08-19",
       "http_status": 200
+    },
+    {
+      "id": "ley-21-850-para-la-reconstruccion-nacional-y-el-desarrollo-economico-y-socia-2026",
+      "type": "standard",
+      "authors": [
+        "Biblioteca del Congreso Nacional"
+      ],
+      "title": "Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social",
+      "published": "2026",
+      "authority": "Biblioteca del Congreso Nacional de Chile",
+      "amendable": false,
+      "cited_url": "https://www.bcn.cl/leychile/navegar?idNorma=1229250",
+      "used_in": [
+        "modules/04-contabilidad-financiera/classes/11-estado-de-resultados.md",
+        "modules/06-matematica-financiera-avanzada/classes/08-valor-actual-neto.md",
+        "modules/07-inversiones-y-mercados/classes/13-costos-impuestos-y-sesgos.md",
+        "modules/08-analisis-y-gestion-de-credito/classes/13-credito-comercial-y-pyme.md",
+        "modules/08-analisis-y-gestion-de-credito/classes/15-cobranza-y-reestructuracion.md",
+        "modules/09-operaciones-bancarias/classes/12-tesoreria.md",
+        "modules/10-gestion-integral-de-riesgos/classes/13-pruebas-de-estres.md",
+        "modules/11-regulacion-cumplimiento-y-auditoria/classes/03-prevencion-de-lavado-de-activos.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/03-flujo-de-caja-y-necesidades-de-fondos.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/05-estructura-y-costo-de-capital.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/06-decisiones-de-inversion.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/09-financiamiento-de-proyectos.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/10-valoracion-de-empresas.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/12-mercado-de-capitales-para-empresas.md",
+        "modules/12-finanzas-corporativas-y-banca-empresarial/classes/14-relacion-integral-con-la-empresa.md",
+        "modules/14-estrategia-y-direccion-bancaria/classes/05-planificacion-estrategica-y-de-capital.md"
+      ],
+      "status": "pendiente",
+      "pending_reason": "bcn.cl respondió HTTP 401 a la lectura automática; texto contrastado en el formato de intercambio de leychile.cl (2026-11-05)",
+      "locator": "https://www.bcn.cl/leychile/navegar?idNorma=1229250"
     },
     {
       "id": "ley-bitcoin-y-sus-reformas",
@@ -9831,6 +9869,7 @@
         "modules/18-blockchain-y-dlt-para-instituciones-financieras/classes/05-mecanismos-de-consenso.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html",
       "accessed": "2026-10-14",
       "http_status": 200
@@ -12510,9 +12549,10 @@
         "modules/19-activos-digitales-stablecoins-y-dinero-programable/classes/13-mercado-liquidez-y-formacion-de-precio.md"
       ],
       "status": "verificada",
+      "pending_reason": "sin resolver todavía; ejecuta scripts/refresh_sources.py",
       "locator": "https://partner.steamgames.com/doc/finance/taxfaq",
-      "http_status": 200,
-      "accessed": "2026-09-22"
+      "accessed": "2026-09-22",
+      "http_status": 200
     },
     {
       "id": "stocktake-of-remittance-service-providers-access-to-banking-services-2018",

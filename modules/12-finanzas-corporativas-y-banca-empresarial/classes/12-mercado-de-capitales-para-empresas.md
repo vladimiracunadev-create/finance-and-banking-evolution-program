@@ -242,6 +242,21 @@ CONFLICTOS CONCRETOS
 ocultarlo no lo es: el inversionista tiene derecho a saber que el banco que le recomienda la emisión es
 el beneficiario de sus fondos.
 
+### Conexión con un caso · Ley 21.850: dividendos, integración y ganancias de capital en el mercado de valores
+
+Dos reglas de la ley cambian cómo una empresa se presenta ante sus accionistas. La primera: el artículo 9 elimina la
+restitución del crédito por impuesto de primera categoría desde el 1 de enero de 2027, con un tránsito (30 % del
+crédito del año tributario 2028 y 20 % del 2029) **[H]**. La segunda: la ganancia por la venta de acciones de sociedades abiertas
+y cuotas de ciertos fondos pasa, en los casos del artículo 107, a «no constituir renta» desde el 1 de enero de 2027 **[H]**.
+
+**Fórmula.** Para un accionista con `t_f` ≥ `t_c`, la carga sobre una utilidad distribuida es
+`t_f × RLI + ρ × IDPC`: a medida que `ρ` baja a cero, la carga converge a `t_f × RLI` y deja de importar la tasa de la empresa.
+Con `t_f` = 40 % **[S]**, la carga pasa de 49,45 % de la renta en 2026 a 40,00 % en 2029.
+
+**Cliente y banco.** La empresa que emite acciones ve un mercado más atractivo; el banco, que asesora u opera como corredor, debe explicar
+que la exención de ganancias de capital depende de las condiciones del artículo 107. **Riesgo de interpretación:** aplicarla a
+cualquier venta. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejemplo guiado 1 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo compara el costo total de un crédito y de una emisión para la misma necesidad. Conviene sumar todos los costos de la emisión: el punto de cruce se mueve bastante.
@@ -480,6 +495,7 @@ Los síntomas de la tabla describen emisiones mal aconsejadas. Las causas son co
 3. ¿Qué valor puede tener una emisión aunque el ahorro de tasa no pague sus costos?
 4. ¿Qué conflictos enfrenta un banco que es a la vez prestamista y colocador?
 5. ¿Por qué conviene no sustituir toda la deuda bancaria?
+6. ¿Por qué, para quien reparte utilidades, importa más el fin de la restitución que la rebaja de la tasa corporativa?
 
 ## 📥 Entregable
 
@@ -489,6 +505,7 @@ Guarda en `portfolio/parte-13/clase-12/`:
 - el análisis del perfil de vencimientos antes y después, con su valoración;
 - el efecto de un cambio de calificación sobre el costo total;
 - los conflictos identificados con sus mitigantes.
+- la tabla de carga total por año con restitución decreciente y su lectura (Ley 21.850, ejemplo guiado 1).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -509,6 +526,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Brealey, R., Myers, S. y Allen, F. (2020). *Principles of Corporate Finance* (13.ª ed.). McGraw-Hill. Capítulos sobre emisión de valores.
 - Basel Committee on Banking Supervision (2015). *Corporate governance principles for banks*, gestión de conflictos. BIS.
 - Verificación local: revisa los requisitos de emisión y registro del regulador de valores de tu país, los umbrales de tamaño y las obligaciones de información permanente.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

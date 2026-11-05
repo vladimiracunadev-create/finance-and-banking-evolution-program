@@ -212,6 +212,21 @@ PREGUNTAS DE UNA REVISIÓN DE CARTERA
   · ¿qué proporción de la cartera está en seguimiento reforzado?
 ```
 
+### Conexión con un caso · Ley 21.850: exportación de servicios y decisiones de contratación en la relación con el cliente
+
+El artículo 33 ter da un crédito contra el impuesto de primera categoría a quien paga remuneraciones a trabajadores
+vinculados a la exportación de servicios basados en el conocimiento: 15 % de la parte de remuneraciones asociada a la exportación
+(proporción de ingresos de exportación sobre ingresos totales), 5 puntos más si la matriz o sucursales están fuera de la Región
+Metropolitana o en comuna rural de ella, con tope de 75 UTM por trabajador, sin devolución y con remanente imputable a años
+posteriores **[H]**. Rige desde el 1 de noviembre de 2026 **[H]**.
+
+**Ejemplo.** Remuneración de 36.000.000 de pesos al año, exportación de 60 % de los ingresos **[S]**: crédito de
+3.240.000 en la Región Metropolitana y 4.320.000 fuera de ella.
+
+**Cliente y banco.** El cliente puede mejorar el costo de contratar; el banco debe verificar que el servicio califique como exportación
+(Aduanas), que esté en el catálogo que fije un decreto de Hacienda **[P]** y que el registro de trabajadores exista **[P]**. Una empresa
+con pérdidas no puede devolver el crédito, solo arrastrarlo. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio B4 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula la rentabilidad ajustada de una relación completa. Conviene comparar con la del crédito aislado: el orden de las relaciones cambia.
@@ -469,6 +484,7 @@ Los síntomas de la tabla describen relaciones mal gestionadas. Las causas son e
 3. ¿Por qué la anticipación es la única ventaja competitiva sostenible?
 4. ¿Cómo corrige la rotación de ejecutivos el incentivo de originación?
 5. ¿Por qué mejorar la rentabilidad y reducir la concentración pueden ser el mismo movimiento?
+6. ¿Por qué un crédito sin devolución vale menos para una empresa con pérdidas y qué requisitos debe verificar el banco?
 
 ## 📥 Entregable
 
@@ -478,6 +494,7 @@ Guarda en `portfolio/parte-13/clase-14/`:
 - las tres relaciones evaluadas y ubicadas en cuadrantes;
 - la segmentación por potencial con la estrategia de cada segmento;
 - el plan de cartera con su efecto proyectado sobre resultado, exposición y capital.
+- el cálculo del crédito del artículo 33 ter con y sin recargo regional y su verificación de requisitos (Ley 21.850, ejercicio B4).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -498,6 +515,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Saunders, A. y Cornett, M. (2021). *Financial Institutions Management: A Risk Management Approach* (10.ª ed.). McGraw-Hill. Medición de la rentabilidad de la relación ajustada por riesgo.
 - Basel Committee on Banking Supervision (2017). *Basel III: Finalising post-crisis reforms*. BIS. Capital consumido por la exposición corporativa.
 - Verificación local: revisa los límites de exposición por deudor y por sector aplicables en tu jurisdicción y la política de atribuciones de tu institución.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

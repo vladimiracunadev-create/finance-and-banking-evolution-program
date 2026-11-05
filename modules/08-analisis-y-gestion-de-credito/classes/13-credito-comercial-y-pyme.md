@@ -254,6 +254,16 @@ la necesidad determina el producto, no al revés
 permanente, y financiarlo con una línea rotativa de corto plazo crea un riesgo de refinanciamiento
 estructural.
 
+### Conexión con un caso · Ley 21.850: efectos sobre la cartera comercial y de pymes
+
+La ley no afecta igual a todas las empresas. Las tasas de 27 % y 25,5 % de 2026 y 2027 **no se aplican al régimen de la letra G** **[H]**, y el régimen Pro Pyme se regula por su propio artículo
+(sexto transitorio). Para una cartera, esto significa **segmentar** por régimen tributario antes de concluir.
+
+**Método.** Clasifica la cartera en: (a) régimen general, que recibe la rebaja gradual; (b) Pro Pyme, con reglas propias; (c) exportadoras de servicios, que pueden usar el crédito del
+artículo 33 ter; (d) empresas con deudas tributarias, que pueden regularizar. Estima por segmento el cambio de flujo y de cobertura; solo después ajusta la clasificación de riesgo.
+
+**Riesgo de interpretación:** extrapolar el efecto de un segmento a toda la cartera. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y la actividad de cartera de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo ajusta los estados de una pyme y evalúa la operación. Conviene comparar los indicadores antes y después del ajuste: la diferencia suele cambiar la decisión.
@@ -494,6 +504,7 @@ Los síntomas de la tabla describen evaluaciones de pyme que fallaron. Las causa
 3. ¿Cómo se evalúa el riesgo de concentración de clientes?
 4. ¿Qué límites tiene el modelo Z' y cómo se usa correctamente?
 5. ¿Por qué financiar capital de trabajo permanente con línea rotativa es un error?
+6. ¿Por qué conviene segmentar por régimen tributario antes de evaluar el efecto de la ley sobre una cartera?
 
 ## 📥 Entregable
 
@@ -503,6 +514,7 @@ Guarda en `portfolio/parte-09/clase-13/`:
 - los indicadores antes y después del ajuste con su comparación;
 - el modelo Z' calculado y contrastado con el DSCR;
 - la estructura de operación diseñada con sus condiciones y su fundamento.
+- la segmentación de una cartera sintética por régimen tributario con el efecto esperado en cada segmento (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -523,6 +535,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - European Banking Authority (2020). *Guidelines on loan origination and monitoring*. EBA. Evaluación de pymes y ajustes a la información financiera.
 - OECD (2023). *Financing SMEs and Entrepreneurs Scoreboard*. OCDE. Características del financiamiento de pymes.
 - Verificación local: revisa qué información financiera exige tu supervisor para empresas de distinto tamaño y qué modelos de alerta usa tu institución.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

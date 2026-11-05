@@ -200,6 +200,16 @@ Toda presentación de VAN incluye:
 · umbral de las variables operativas que anula el VAN
 ```
 
+### Conexión con un caso · Ley 21.850: el VAN cuando la tasa de impuesto cambia año a año
+
+El `VAN` suma flujos descontados. Si el flujo es después de impuestos y la tasa de impuesto cambia, **cada año lleva su
+tasa**: `FCL_t = EBIT_t × (1 − t_c,t) + depreciación_t − inversión_t`. Con las tasas de la Ley 21.850 (27 %, 25,5 %, 24 %, 23 %) **[H]**,
+un proyecto de cuatro años con `EBIT` constante de 1.000 MM$ **[S]** tiene un `NOPAT` creciente de 730 a 770.
+
+**Qué enseña.** Que el factor de descuento y la tasa de impuesto son piezas distintas: el primero mide el valor del tiempo y el riesgo; el segundo, qué parte
+del flujo es del inversionista. Cambiar uno no corrige el otro. **Riesgo de interpretación:** descontar con un `WACC`
+calculado con la tasa antigua flujos que ya usan la nueva. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo construye el flujo incremental de un proyecto desde cero y calcula el VAN. Conviene detenerse en las partidas excluidas: son las que producen la mayoría de las diferencias entre analistas.
@@ -358,6 +368,7 @@ Los síntomas de la tabla describen proyectos aprobados que no rindieron. Las ca
 3. Un terreno propio se usará en el proyecto. ¿Se incluye y por qué?
 4. ¿Cómo comparas dos proyectos de 4 y 9 años?
 5. ¿Qué debe acompañar siempre a un VAN en una presentación?
+6. ¿Por qué el VAN debe usar la tasa de impuesto de cada año y no una sola tasa para todo el horizonte?
 
 ## 📥 Entregable
 
@@ -367,6 +378,7 @@ Guarda en `portfolio/parte-07/clase-08/`:
 - el flujo de caja libre completo de un proyecto con todos sus componentes;
 - el VAN con la tabla de sensibilidad a cinco variables y sus umbrales;
 - la comparación de proyectos de distinta escala y duración con el método justificado.
+- el `VAN` de un proyecto con la tasa de cada año y su comparación con una tasa única (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -387,6 +399,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Blank, L. y Tarquin, A. (2018). *Ingeniería económica* (8.ª ed.). McGraw-Hill. Capítulos 5 y 6: VAN y comparación de alternativas.
 - Koller, T., Goedhart, M. y Wessels, D. (2020). *Valuation: Measuring and Managing the Value of Companies* (7.ª ed.). McKinsey/Wiley. Definición del flujo de caja libre.
 - Verificación local: usa la tasa de impuesto a la renta vigente en tu país y las reglas de depreciación tributaria aplicables al calcular el escudo fiscal.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

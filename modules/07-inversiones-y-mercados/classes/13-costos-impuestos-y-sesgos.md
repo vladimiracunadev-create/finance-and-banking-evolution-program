@@ -231,6 +231,18 @@ la contramedida más potente y más simple:
   no requiere ninguna voluntad en el momento
 ```
 
+### Conexión con un caso · Ley 21.850: ganancias de capital y el rendimiento neto del inversionista
+
+El impuesto es un costo de inversión como cualquier otro. Hasta el 31 de diciembre de 2026, la ganancia por vender ciertas
+acciones y cuotas de fondos pagaba un impuesto único de 10 %; desde el 1 de enero de 2027, en los casos del artículo 107, la ley
+dispone que **no constituye renta** (artículo 8, número 4) **[H]**.
+
+**Ejemplo.** Compra a 100 y venta a 160 (MM$ sintéticos): ganancia de 60; neta de impuesto 54 antes y 60 después, un 11,1 % más.
+
+**Persona natural e inversionista.** Para quien invierte, la exención sube el rendimiento neto; para quien arbitraba fiscalmente, quita un incentivo a
+decidir por impuestos. **Riesgo de interpretación:** la exención se refiere al artículo 107 y a sus condiciones; no cubre cualquier instrumento, y el
+tratamiento de las pérdidas también cambió. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio B3 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula el costo total de una cartera y estima la brecha del inversionista. Conviene sumar las tres fuentes: por separado ninguna parece grande.
@@ -380,6 +392,7 @@ Los síntomas de la tabla describen carteras que rinden menos que sus instrument
 3. ¿Qué es la brecha del inversionista y por qué existe?
 4. ¿Por qué el comportamiento tributariamente óptimo es contrario a la aversión a la pérdida?
 5. ¿Qué distingue una contramedida mecánica de una intención?
+6. ¿Qué rendimiento neto obtiene un inversionista antes y después de la exención y qué condiciones debe verificar?
 
 ## 📥 Entregable
 
@@ -389,6 +402,7 @@ Guarda en `portfolio/parte-08/clase-13/`:
 - el cálculo del efecto del diferimiento tributario en dos estrategias;
 - tu rendimiento efectivo calculado y tu brecha contra el índice;
 - las contramedidas mecánicas diseñadas para tus tres sesgos principales.
+- el cálculo del rendimiento neto con y sin exención para una operación de tu cartera simulada (Ley 21.850, ejercicio B3).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -409,6 +423,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Dalbar. *Quantitative Analysis of Investor Behavior* (informe anual). Medición de la brecha del inversionista.
 - Bogle, J. (2017). *The Little Book of Common Sense Investing*. Wiley. Efecto acumulado de costos e impuestos.
 - Verificación local: revisa el régimen tributario aplicable a ganancias de capital, dividendos e intereses en tu país, y sus obligaciones de declaración.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

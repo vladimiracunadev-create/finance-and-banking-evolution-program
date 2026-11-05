@@ -1,0 +1,55 @@
+# Ficha normativa. Subconjunto plano de YAML, por decision de diseno: el
+# repositorio se valida con la biblioteca estandar y no anade una dependencia
+# solo para leer doce campos. Ver tools/validate_metadata.py.
+#
+# ESTA FICHA NO ES ASESORIA LEGAL. Verifica siempre en la fuente oficial.
+country: Chile
+authority: Ministerio de Hacienda (aplicacion tributaria: SII)
+instrument_type: ley
+instrument_number: "21.850"
+title: >-
+  Ley para la reconstruccion nacional y el desarrollo economico y social
+publication_date: "2026-10-17"
+effective_date: "2026-11-01"
+implementation_stage: vigencia escalonada entre 2026 y 2029; reglamentos, decretos e instrucciones administrativas pendientes de verificacion
+status: vigente
+scope: >-
+  Ley miscelanea con un nucleo tributario: rebaja gradual de la tasa del
+  impuesto de primera categoria (27 % en 2026 a 23 % desde 2029), fin de la
+  restitucion del credito en el sistema integrado, credito por remuneraciones
+  de servicios del conocimiento exportados, ganancias de capital de ciertas
+  acciones y cuotas de fondos como no renta, estatuto de invariabilidad
+  tributaria para inversiones de al menos 50 millones de dolares, impuestos
+  unicos transitorios sobre saldos FUR, STUT y retiros en exceso, regimen
+  voluntario de declaracion de bienes en el extranjero y facilidades de pago
+  y condonacion en la Tesoreria. Tambien modifica normas ambientales,
+  pesqueras, municipales y de capacitacion. No crea normas bancarias
+  prudenciales ni modifica la Ley General de Bancos.
+activities_covered:
+  - impuesto de primera categoria y sistema integrado
+  - credito por exportacion de servicios del conocimiento
+  - ganancias de capital de acciones y cuotas de fondos
+  - invariabilidad tributaria para grandes inversiones
+  - impuestos unicos transitorios sobre saldos de utilidades
+  - declaracion voluntaria de bienes en el extranjero
+  - facilidades de pago y condonacion en la Tesoreria
+  - capacitacion y franquicia SENCE
+official_source: https://www.bcn.cl/leychile/navegar?idNorma=1229250
+last_verified: "2026-11-05"
+supersedes: ninguno
+superseded_by: ninguno
+notes: >-
+  Texto consultado en el formato de intercambio de la BCN (norma 1229250,
+  version 2026-10-17, promulgacion 2026-10-09). Las vigencias provienen de las
+  disposiciones transitorias: sin fecha especial rige el primer dia del mes
+  siguiente a la publicacion (2026-11-01); entran el 2027-01-01 los articulos 3
+  y 33 quater y los numeros 2 y 4 del articulo 8 (ganancias de capital), el
+  articulo 9 (restitucion) y el estatuto del articulo 26. Pendiente de
+  verificar contra instrumentos administrativos que la propia ley ordena y que
+  no se confirmaron como dictados al 2026-11-05: instrucciones y formularios
+  del SII (control del registro SAC, opcion de los articulos undecimo y
+  duodecimo transitorios, registro de trabajadores del articulo 33 ter),
+  decreto de Hacienda con el catalogo de servicios del conocimiento,
+  resolucion de la CMF y reglamentos del contrato de inversion. El sitio del
+  SII no pudo leerse de forma automatica desde este equipo. Ver
+  docs/ley-21850-matriz-e-itinerario.md.

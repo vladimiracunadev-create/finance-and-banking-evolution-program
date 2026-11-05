@@ -116,6 +116,7 @@ AUTORIDAD, NO EN ESTE DOCUMENTO.
 |---|---|
 | [`ley-21521.yml`](../regulatory/chile/ley-21521.yml) | Ley que promueve la competencia e inclusión financiera |
 | [`ncg-502-prestadores-fintec.yml`](../regulatory/chile/ncg-502-prestadores-fintec.yml) | Registro y autorización de prestadores |
+| [`ley-21850.yml`](../regulatory/chile/ley-21850.yml) | Ley para la reconstrucción nacional: rebaja gradual del impuesto de primera categoría, integración, crédito por exportación de servicios, ganancias de capital e invariabilidad (vigencia escalonada 2026-2029) |
 
 Cada ficha lleva su campo `last_verified`. Una ficha sin verificar en los últimos
 meses **es una afirmación caducada**, y el validador

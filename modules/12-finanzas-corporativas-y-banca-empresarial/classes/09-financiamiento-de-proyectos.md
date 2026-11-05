@@ -245,6 +245,22 @@ ACUERDO DIRECTO — el instrumento menos conocido y más útil
   y con él desaparece todo el valor del activo
 ```
 
+### Conexión con un caso · Ley 21.850: invariabilidad tributaria y riesgo regulatorio en un proyecto
+
+En un financiamiento de proyectos, el banco presta contra el flujo futuro, de modo que un cambio de reglas
+tributarias es un riesgo de primer orden. El artículo 26 de la Ley 21.850 crea, desde el 1 de enero de 2027, un estatuto
+de invariabilidad para inversionistas extranjeros en proyectos de al menos USD 50 millones, con plazos de 10 años
+(USD 50 a menos de 100 millones), 15 años (100 a menos de 350) y 20 años (desde 350 millones), contados desde la puesta en
+marcha **[H]**. El monto de inversión incluye capital y deuda materializada.
+
+**Método.** La invariabilidad es un seguro: se compara su costo con la pérdida esperada por un alza de tasa. En el
+ejercicio A2, con un alza supuesta a 30 % desde el año 6 y un recargo de 1,5 puntos (**[D]**, no verificado en el
+texto oficial), conviene contratarla solo si la probabilidad del alza supera 55,9 %.
+
+**Cliente y banco.** El inversionista decide si paga por estabilidad; el banco valora que el flujo base quede protegido
+por contrato. **Riesgo de interpretación:** la invariabilidad no cubre todo (solo los conceptos que el contrato fije) ni
+sustituye el análisis del proyecto. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y ejercicio A2 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo construye la matriz de riesgos y la cascada de un proyecto. Conviene buscar los riesgos sin asignar: son los que se quedan con el banco.
@@ -496,6 +512,7 @@ Los síntomas de la tabla describen proyectos que fallaron pese a buenos ratios.
 3. ¿Qué mide la cola y por qué importa?
 4. ¿Por qué el covenant de distribución es la palanca real del prestamista?
 5. ¿Por qué un acuerdo directo puede valer más que una garantía real?
+6. ¿Por qué la invariabilidad tributaria es un seguro y cómo se decide si conviene contratarlo?
 
 ## 📥 Entregable
 
@@ -505,6 +522,7 @@ Guarda en `portfolio/parte-13/clase-09/`:
 - las tres coberturas calculadas y la cola del proyecto;
 - el dimensionamiento de la deuda soportable con la cobertura objetivo;
 - los cinco escenarios con la identificación de lo que rompe la estructura.
+- el punto de equilibrio de la probabilidad de alza de tasa para un proyecto de tu elección (Ley 21.850, ejercicio A2).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -525,6 +543,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - International Finance Corporation. *Performance Standards on Environmental and Social Sustainability*. IFC. Estándares ambientales y sociales exigibles al proyecto. <https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards>
 - Equator Principles Association (2020). *The Equator Principles EP4*. Marco voluntario de evaluación ambiental y social del financiamiento. <https://equator-principles.com/>
 - Verificación local: revisa el marco de concesiones y asociaciones público-privadas de tu país y los requisitos ambientales aplicables a proyectos de infraestructura.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

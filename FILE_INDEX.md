@@ -5,7 +5,7 @@
 
 **Todo el texto versionado del repositorio, en un listado plano y ordenado.**
 
-[![archivos](https://img.shields.io/badge/archivos-979-7c5cff?style=flat-square)](FILE_INDEX.md)
+[![archivos](https://img.shields.io/badge/archivos-984-7c5cff?style=flat-square)](FILE_INDEX.md)
 [![generado por](https://img.shields.io/badge/generado%20por-build__file__index.py-007c83?style=flat-square)](https://github.com/vladimiracunadev-create/finance-and-banking-evolution-program/blob/main/tools/build_file_index.py)
 [![se edita](https://img.shields.io/badge/se%20edita-nunca%20a%20mano-8b0000?style=flat-square)](MANIFEST.md)
 
@@ -169,6 +169,7 @@
 - `case-studies/blockchain/falla-de-oraculo.md`
 - `case-studies/blockchain/perdida-de-claves.md`
 - `case-studies/chile/ac-inversions.md`
+- `case-studies/chile/ley-21850-reconstruccion-nacional.md`
 - `case-studies/chile/sistema-de-finanzas-abiertas.md`
 - `case-studies/cross-border-payments/falla-pvp.md`
 - `case-studies/cross-border-payments/falta-de-liquidez.md`
@@ -238,6 +239,7 @@
 - `docs/custodia-conciliacion-y-gobernanza.md`
 - `docs/economias-virtuales-y-bienes-digitales.md`
 - `docs/ejercicios-crisis-financiera-digital.md`
+- `docs/ejercicios-ley-21850.md`
 - `docs/ejercicios-ueno-bank.md`
 - `docs/etapa-5-finanzas-digitales.md`
 - `docs/etica-y-limitaciones.md`
@@ -250,6 +252,7 @@
 - `docs/guia-docente-etapa-5.md`
 - `docs/guia-docente.md`
 - `docs/guia-laboratorios-digitales.md`
+- `docs/ley-21850-matriz-e-itinerario.md`
 - `docs/mapa-activos-digitales.md`
 - `docs/mapa-blockchain-dlt.md`
 - `docs/mapa-capstone.md`
@@ -944,6 +947,7 @@
 - `pyproject.toml`
 - `regulatory/README.md`
 - `regulatory/chile/ley-21521.yml`
+- `regulatory/chile/ley-21850.yml`
 - `regulatory/chile/ncg-502-prestadores-fintec.yml`
 - `regulatory/el-salvador/ley-bitcoin-decreto-57-2021.yml`
 - `regulatory/el-salvador/ley-emision-activos-digitales-2023.yml`
@@ -970,6 +974,7 @@
 - `tests/test_digital_assets_risk_lab.py`
 - `tests/test_digital_bank_capstone.py`
 - `tests/test_dlt_financial_lab.py`
+- `tests/test_ley_21850_ejercicios.py`
 - `tests/test_onchain_fx_lab.py`
 - `tests/test_open_finance_sandbox.py`
 - `tests/test_openbank.py`

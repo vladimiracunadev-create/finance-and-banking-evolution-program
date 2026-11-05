@@ -366,6 +366,21 @@ LA COBERTURA SE EVALÚA EN ESCENARIOS, NO EN EL CASO BASE
 y se pregunta: ¿en cuál de estos la cobertura baja de 1,0?
 ```
 
+### Conexión con un caso · Ley 21.850: el flujo de caja cambia sin que cambie la empresa
+
+Una empresa puede ver mejorar su flujo sin vender más ni gastar menos: basta que baje el impuesto. La
+Ley 21.850 fija la tasa del impuesto de primera categoría en 27 % para 2026, 25,5 % para 2027, 24 % para 2028
+y 23 % desde 2029 **[H]** (sexto transitorio). Para el flujo, lo que importa es el `NOPAT = EBIT × (1 − t_c)`
+(MM$), porque es la parte de la utilidad operacional que queda después del impuesto.
+
+**Ejemplo.** Una empresa sintética con `EBIT` de 1.000 MM$ pasa de un `NOPAT` de 730 en 2026 a 770 en 2029, y su
+cobertura del servicio de deuda (600 MM$ anuales) sube de 1,217 a 1,283 **[S]**. Un convenio que exige 1,25 se
+cumple recién en 2028: el covenant cambió por una ley, no por desempeño.
+
+**Cliente y banco.** El cliente ve más caja; el banco debe decidir si recalibra el covenant o deja que la mejora
+actúe como colchón. **Riesgo de interpretación:** el `NOPAT` no es caja libre; faltan depreciación, inversión y
+capital de trabajo. Ficha y calendario: [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md). Ejercicio B1 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo calcula la necesidad operativa de fondos de una empresa y dimensiona el crédito. Conviene comparar el importe solicitado con el calculado: casi nunca coinciden.
@@ -627,6 +642,7 @@ Los síntomas de la tabla describen créditos mal dimensionados. Las causas son 
 5. ¿Por qué prestar menos puede ser la mejor respuesta a una solicitud?
 6. ¿Cuándo CAC, LTV o runway no son aplicables?
 7. ¿Por qué sensibilidad y escenario responden preguntas distintas?
+8. ¿Por qué una rebaja de impuestos puede cambiar el cumplimiento de un covenant sin que cambie el desempeño de la empresa?
 
 ## 📥 Entregable
 
@@ -638,6 +654,7 @@ Guarda en `portfolio/parte-13/clase-03/`:
 - la matriz de trazabilidad `INPUT → SUPUESTO → CÁLCULO → OUTPUT`;
 - la sensibilidad de una variable antes de comparar los tres escenarios;
 - la estructura de la operación propuesta con sus condiciones.
+- el cálculo de la cobertura del servicio de la deuda 2026-2029 con la tasa de cada año (Ley 21.850, ejercicio B1).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -658,6 +675,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Faus, J. (2001). *Finanzas operativas*. IESE. Necesidad operativa de fondos y fondo de maniobra.
 - IFRS Foundation. *NIC 7 Estado de Flujos de Efectivo*. Clasificación de flujos operativos, de inversión y de financiamiento. <https://www.ifrs.org/>
 - Verificación local: revisa las prácticas de plazo de pago habituales de tu mercado y la normativa sobre plazos máximos de pago a proveedores, si existe.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

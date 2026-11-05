@@ -255,6 +255,17 @@ Este bloque ocupa unos diez minutos del tramo de práctica (55–80) y sustituye
 
 **Para seguir.** El expediente del caso está en [Ueno Bank Paraguay](../../../case-studies/bank-resolution/ueno-bank-paraguay.md), con cada dato etiquetado como hecho, declaración, pendiente, interpretación o supuesto; las soluciones, en [la guía de ejercicios](../../../docs/ejercicios-ueno-bank.md); y el lugar de esta clase en el recorrido, en la [matriz](../../../docs/ueno-bank-matriz-e-itinerario.md). Aquí solo se trabaja el estrés inverso y la sensibilidad a un supuesto.
 
+### Conexión con un caso · Ley 21.850: escenarios fiscales alternativos
+
+Una prueba de estrés puede incluir un escenario fiscal: la ley se cumple tal como está escrita, se pausa la rebaja en 24 % o se revierte. Cada escenario
+cambia el `NOPAT` y, con él, la cobertura de la cartera.
+
+**Método.** Define tres escenarios con su tasa por año; calcula la cobertura por empresa y el número de empresas bajo el umbral. Un **estrés inverso** pregunta cuánto
+debería subir la tasa para que la cartera cruce el umbral. Del lado del fisco, la recaudación `t_c × B` es neutra si la base crece 27/23 − 1 = 17,4 % **[S]** (ejercicio A4): una medida
+del costo máximo que un escenario optimista debe compensar.
+
+**Riesgo de interpretación:** presentar un escenario como pronóstico. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo proyecta el capital de un banco bajo un escenario adverso. Conviene mirar las acciones de gestión supuestas: son las que más suelen inflar el resultado.
@@ -495,6 +506,7 @@ Los síntomas de la tabla describen pruebas de estrés que no informan. Las caus
 4. ¿Qué hace que una acción de gestión sea creíble en un escenario adverso?
 5. ¿Qué aporta la prueba inversa que no aporta el escenario estándar?
 6. ¿Qué es un estrés inverso y por qué, con una provisión de 60, el banco sintético cruza o no el 50 % del mínimo según el supuesto sobre los activos ponderados?
+7. ¿Qué diferencia hay entre un escenario fiscal y un pronóstico y cómo se formula un estrés inverso sobre la tasa?
 
 ## 📥 Entregable
 
@@ -505,6 +517,7 @@ Guarda en `portfolio/parte-11/clase-13/`:
 - la proyección de resultado, activos ponderados y capital;
 - la prueba inversa con la distancia al punto de quiebre.
 - el cálculo de los umbrales de provisión bajo las dos hipótesis de `APR`, con una frase sobre cuál usarías y por qué (caso Ueno, A2).
+- una tabla de tres escenarios fiscales con cobertura por empresa y umbral de estrés inverso (Ley 21.850, ejercicio A4).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -525,6 +538,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - International Monetary Fund (2012). *Macrofinancial Stress Testing: Principles and Practices*. IMF. Construcción de escenarios macrofinancieros coherentes.
 - Hull, J. (2018). *Risk Management and Financial Institutions* (5.ª ed.). Wiley. Capítulo sobre pruebas de estrés.
 - Verificación local: revisa el escenario supervisor vigente, su horizonte y las exigencias de autoevaluación de capital de tu jurisdicción.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---

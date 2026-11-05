@@ -222,6 +222,20 @@ CONSTRUYE SIEMPRE UNA MATRIZ DE SENSIBILIDAD
 y presenta el RANGO, no el punto
 ```
 
+### Conexión con un caso · Ley 21.850: revaluar una empresa cuando cambia la tasa por etapas
+
+Una valoración por flujos descontados supone una tasa de impuesto. Cuando la ley la cambia en el tiempo, el
+modelo debe usar una tasa **distinta cada año**: 27 %, 25,5 %, 24 % y 23 % desde 2029 **[H]**. Usar la tasa final
+desde el primer año sobrestima el valor; usar la actual para siempre lo subestima.
+
+**Método.** (1) Proyecta el `EBIT` de cada año. (2) Aplica la tasa del año a cada flujo: `NOPAT_t = EBIT_t × (1 − t_c,t)`.
+(3) Descuenta con una tasa que refleje el escudo fiscal del año, o con una tasa constante explícita. (4) Compara con la
+valoración previa a la ley y separa el efecto del impuesto del efecto de otras variables.
+
+**Cliente y banco.** Una garantía de acciones o prenda sobre la empresa se revalúa con este método. **Riesgo de
+interpretación:** mezclar el efecto de la ley con un cambio de expectativas de crecimiento. Ver [expediente](../../../case-studies/chile/ley-21850-reconstruccion-nacional.md) y
+ejemplo guiado 2 de la [guía](../../../docs/ejercicios-ley-21850.md).
+
 ## 🧮 Ejemplo guiado
 
 El ejemplo valora una empresa por los tres enfoques y explica la dispersión. Conviene mirar el peso del valor terminal: suele superar la mitad del total.
@@ -444,6 +458,7 @@ Los síntomas de la tabla describen valoraciones que no se sostuvieron. Las caus
 3. ¿Qué debe cumplir la consistencia entre numerador y denominador de un múltiplo?
 4. ¿Qué ajustes exige usar comparables cotizados para valorar una empresa no cotizada?
 5. ¿Qué separa el valor de empresa del valor del patrimonio?
+6. ¿Qué error comete quien valora una empresa aplicando desde el primer año la tasa que regirá en 2029?
 
 ## 📥 Entregable
 
@@ -453,6 +468,7 @@ Guarda en `portfolio/parte-13/clase-10/`:
 - la matriz de sensibilidad con el rango resultante;
 - la valoración por múltiplos con todos sus ajustes;
 - la conversión a valor del patrimonio y las tres palancas de valor identificadas.
+- una valoración con tasa por año y su comparación con la valoración a tasa constante (Ley 21.850).
 
 <!-- gen:etica:start -->
 ## 🔐 Seguridad, ética y límites
@@ -473,6 +489,7 @@ afecte a otra persona, registra los supuestos y quién los aprobó.
 - Penman, S. (2013). *Financial Statement Analysis and Security Valuation* (5.ª ed.). McGraw-Hill. Valoración basada en la contabilidad y el resultado residual.
 - IFRS Foundation. *NIIF 13 Medición del Valor Razonable*. Jerarquía de insumos de la medición a valor razonable. <https://www.ifrs.org/>
 - Verificación local: revisa las normas de valoración aceptadas en tu jurisdicción para efectos tributarios y societarios.
+- Biblioteca del Congreso Nacional (2026). *Ley 21.850, para la reconstrucción nacional y el desarrollo económico y social* (publicada el 17 de octubre de 2026; vigencia escalonada hasta 2029). <https://www.bcn.cl/leychile/navegar?idNorma=1229250>. Fecha de verificación: 2026-11-05. Las instrucciones del SII que la ley ordena no se confirmaron como dictadas a esa fecha.
 
 <!-- gen:footer:start -->
 ---
